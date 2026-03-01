@@ -3,40 +3,39 @@
 
 ## Latest Handoff Snapshot
 
-- Timestamp: 2026-03-01 13:13
+- Timestamp: 2026-03-01 14:12
 - Task-ID: T2026-03-01-02
-- Task-Name: GitHub 热门解读 — Phase 0 脚手架搭建
-- Active Goal: Phase 0 代码已完成，待 git commit
+- Task-Name: GitHub 热门解读 — V1 全栈实现
+- Active Goal: Phase 0-2 全部完成 + Phase 3.1-3.2 验证通过，待用户 Vercel 部署 + Actions 测试
 - Completed This Session:
-  1. 盘点 21 个技能，筛选 8 个核心编码技能，制定混合编码策略
-  2. 更新 AGENTS.md 项目事实（11项）和硬约束（8项）为 GitHub 热门解读项目
-  3. 使用 writing-plans 技能创建完整实施计划 `docs/plans/2026-03-01-github-explorer-v1.md`（4 Phase / 29 Task）
-  4. Task 0.1: Next.js 16.1.6 初始化（create-next-app → temp-next → 迁移到根目录）
-  5. Task 0.1: 安装 @octokit/rest, @google/generative-ai, tsx, prettier
-  6. Task 0.1: 创建 .gitignore（排除 API key 文件、node_modules、relay kit 工具）
-  7. Task 0.1: 创建 scripts/gen-version.js（构建时生成版本文件）
-  8. Task 0.2: 创建 app/lib/types.ts（完整类型定义）
-  9. Task 0.3: 创建 app/lib/config.ts（配置常量）
-  10. Task 0.4: 创建 data/projects.json + data/stats.json + data 目录结构
-  11. 修复 PowerShell ExecutionPolicy（RemoteSigned）
-  12. npm run build 两次通过验证（exit code 0）
-  13. npx tsc --noEmit 通过验证
+  1. Phase 0: Git identity 配置 + commit (cd052a5) + push
+  2. Phase 1 batch 1: scripts/lib/utils.ts + github.ts + readme-cache.ts (6ecb463)
+  3. Phase 1 batch 2: scripts/lib/gemini.ts + fetch-and-analyze.ts + re-analyze.ts (2ea001e)
+  4. Phase 1 batch 3: .github/workflows/daily-update.yml + re-analyze.yml (f217dfc)
+  5. Phase 2: globals.css + storage.ts + data.ts + 6 个组件 + page.tsx (fef52ed)
+  6. 代码审查：ESLint 4 问题修复 + todayTrending 逻辑 bug 修复 (03bcda0)
+  7. Phase 3.1: tsc + ESLint + build 三连验证通过
+  8. Phase 3.2: dev server + 浏览器截图确认暗色主题 + 空态渲染正确
 - Files Changed:
-  - [NEW] app/lib/types.ts, app/lib/config.ts
-  - [NEW] .gitignore, scripts/gen-version.js
-  - [NEW] data/projects.json, data/stats.json
-  - [NEW] docs/plans/2026-03-01-github-explorer-v1.md
-  - [MOD] AGENTS.md（项目事实 + 硬约束更新）
-  - [MOD] package.json（name→github-explorer, build→含 gen-version.js）
-  - [COPY] app/, public/, next.config.ts, tsconfig.json, eslint.config.mjs, postcss.config.mjs（来自 create-next-app）
-- Open TODO: git config user + git commit Phase 0 → 开始 Phase 1 后端脚本
-- Risks/Blockers: Git 用户身份未配置，commit 被阻塞
-- Next First Command: `git config user.email "你的邮箱" && git config user.name "你的名字" && git add -A && git commit -m "feat: Phase 0 - project scaffold, types, config, data structure"`
+  - [NEW] scripts/lib/utils.ts, github.ts, readme-cache.ts, gemini.ts
+  - [NEW] scripts/fetch-and-analyze.ts, re-analyze.ts
+  - [NEW] .github/workflows/daily-update.yml, re-analyze.yml
+  - [NEW] app/globals.css, app/lib/storage.ts, app/lib/data.ts
+  - [NEW] app/components/: Header, TabSwitcher, SearchBar, ProjectCard, AnalysisPanel, HomePage
+  - [MOD] app/layout.tsx (next/font/google), app/page.tsx (SSG 入口)
+  - [MOD] data/projects.json, data/stats.json (correct initial format)
+- Open TODO:
+  1. Vercel 部署（用户手动）
+  2. GitHub Actions Secrets 配置 GEMINI_API_KEY
+  3. 手动触发 Daily Update workflow 填充首批数据
+- Risks/Blockers: 无
+- Next First Command: `在 Vercel 导入仓库 github-explorer 并部署`
 
 ## Session Notes（Current）
 
-- CLAUDE.md 规定 Next.js 14，但 create-next-app@latest 安装了 16.1.6（最新版），后续需确认是否需要降级
-- 项目目录名含中文（GitHub热门项目解析），导致 npm naming 限制，create-next-app 无法直接在根目录运行，通过 temp-next 子目录中转解决
+- Next.js 16.1.6（CLAUDE.md 规定 14，实际使用最新版）
+- 代码审查发现并修复了 todayTrending/weekTrending/newStars 来源追踪 bug
+- ESLint 修复：useState 惰性初始化替代 useEffect setState、next/font 替代 link、移除未用 import
 
 ## Legacy Archive
 
