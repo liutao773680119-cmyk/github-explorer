@@ -1,0 +1,16 @@
+<!-- RELAY:START -->
+# Legacy Cursor Rules（兼容入口）
+
+本文件仅用于兼容旧版 Cursor 规则机制。
+
+## 规则加载顺序
+1. `AGENTS.md`（主规则源）
+2. `.cursor/rules/*.mdc`（Cursor 正式规则）
+3. 本文件（仅补充兼容说明）
+
+## 最小兼容约束
+1. 使用 `中文` 输出。
+2. 股票代码统一 6 位展示。
+3. 数据目录使用 `涨停数据/`。
+4. 交接前更新 `progress.md` 的 `Latest Handoff Snapshot`。
+<!-- RELAY:END -->

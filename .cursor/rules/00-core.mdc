@@ -1,0 +1,18 @@
+<!-- RELAY:START -->
+---
+description: Core project operating rules
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Core Rules
+
+1. 单一规则源：优先遵循 `AGENTS.md`，与其他规则冲突时以 `AGENTS.md` 为准。
+2. 会话启动时必须读取：`AGENTS.md -> task_registry.md -> progress.md -> task_plan.md -> findings.md -> 修改记录_会话备忘.md`。
+3. 会话结束前必须更新 `progress.md` 顶部 `Latest Handoff Snapshot`。
+4. 输出语言必须为 `中文`。
+5. 股票代码对外展示必须为 6 位字符串，不足前补 0。
+6. 路径基线：数据目录 `涨停数据/`，不得回写旧路径 `1月涨停数据/`。
+7. 未执行验证命令前，不得声称“已完成”。
+8. 复杂任务必须维护 `task_plan.md / findings.md / progress.md`。
+<!-- RELAY:END -->

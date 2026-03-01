@@ -1,0 +1,21 @@
+<!-- RELAY:START -->
+---
+description: Handoff and context recovery protocol
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Handoff Protocol
+
+每次接手先完成：
+1. 明确当前目标（来自 `progress.md` 的 Latest Handoff Snapshot）。
+2. 明确当前阶段（来自 `task_plan.md`）。
+3. 明确已确认事实与待验证项（来自 `findings.md`）。
+
+每次交接前必须写明：
+1. 本轮改动文件
+2. 已完成事项
+3. 未完成事项
+4. 风险/阻塞
+5. 下一步第一条命令
+<!-- RELAY:END -->

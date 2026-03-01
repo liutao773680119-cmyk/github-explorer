@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+.next/
+out/
+
+# env
+.env*.local
+Github Token.txt
+Googole Ai Studo Api.txt
+
+# debug
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# build
+dist/
+
+# backup files
+*.bak.json
+
+# relay kit (开发工具，不需要推送)
+starter/
+.relay/
+_relay_init_report.json
+relay.config.json
+relay.map.json
+relay_prompts.txt
+copy_skills.py
+files/
+files.zip
+session_record.md
+模型接力开发_固定提示词与命令.txt
