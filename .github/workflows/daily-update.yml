@@ -39,7 +39,10 @@ jobs:
 
       # Keep-alive: 每月30号空 commit 防止 Actions 60天不活跃被暂停
       - name: Keep-alive ping
-        if: ${{ github.event.schedule && (new Date()).getDate() == 30 }}
+        if: github.event_name == 'schedule'
         run: |
-          git commit --allow-empty -m "chore: keep-alive ping"
-          git push
+          DAY=$(date +%d)
+          if [ "$DAY" = "30" ]; then
+            git commit --allow-empty -m "chore: keep-alive ping"
+            git push
+          fi
