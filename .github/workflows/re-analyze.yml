@@ -1,0 +1,41 @@
+name: Re-analyze Project
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: '项目全名 (owner/repo)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  re-analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Re-analyze project
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npx tsx scripts/re-analyze.ts "${{ github.event.inputs.project }}"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "data: re-analyze ${{ github.event.inputs.project }}"
+          git push
