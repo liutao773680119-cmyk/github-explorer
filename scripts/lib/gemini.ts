@@ -1,18 +1,18 @@
-// scripts/lib/gemini.ts — Gemini AI 解读调用 + 校验
+// scripts/lib/gemini.ts — AI 解读调用 + 校验（DeepSeek via OpenAI SDK）
 
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import OpenAI from 'openai';
 import { getApiKey, sleep } from './utils';
-import { GEMINI_MODEL, GEMINI_SLEEP_MS } from '../../app/lib/config';
+import { AI_MODEL, AI_BASE_URL, AI_SLEEP_MS } from '../../app/lib/config';
 import type { ProjectAnalysis, ProjectCategory } from '../../app/lib/types';
 
-let _genAI: GoogleGenerativeAI | null = null;
+let _client: OpenAI | null = null;
 
-function getGenAI(): GoogleGenerativeAI {
-    if (!_genAI) {
+function getClient(): OpenAI {
+    if (!_client) {
         const key = getApiKey('GEMINI_API_KEY', 'Googole Ai Studo Api.txt');
-        _genAI = new GoogleGenerativeAI(key);
+        _client = new OpenAI({ apiKey: key, baseURL: AI_BASE_URL });
     }
-    return _genAI;
+    return _client;
 }
 
 // ── Prompt 模板（来自 CLAUDE.md，不可修改） ────────
@@ -69,7 +69,7 @@ README（节选）：${params.readme}
 // ── 核心调用 ─────────────────────────────────────
 
 /**
- * 调用 Gemini 生成项目解读
+ * 调用 DeepSeek 生成项目解读
  */
 export async function analyzeProject(params: {
     fullName: string;
@@ -82,31 +82,33 @@ export async function analyzeProject(params: {
     closedIssues: number;
     readme: string;
 }): Promise<ProjectAnalysis | null> {
-    const genAI = getGenAI();
-    const model = genAI.getGenerativeModel({ model: GEMINI_MODEL });
+    const client = getClient();
     const prompt = buildAnalyzePrompt(params);
 
     const MAX_RETRIES = 2;
     for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
         try {
-            const result = await model.generateContent(prompt);
-            const response = result.response;
-            const text = response.text();
+            const completion = await client.chat.completions.create({
+                model: AI_MODEL,
+                messages: [{ role: 'user', content: prompt }],
+                temperature: 0.3,
+            });
 
-            console.log(`[Gemini] ${params.fullName}: 返回 ${text.length} 字符`);
-            console.log(`[Gemini] ${params.fullName}: 前200字: ${text.slice(0, 200)}`);
+            const text = completion.choices[0]?.message?.content ?? '';
 
-            // 提取 JSON（Gemini 可能会包裹在 ```json ... ``` 中）
+            console.log(`[AI] ${params.fullName}: 返回 ${text.length} 字符`);
+
+            // 提取 JSON
             const jsonMatch = text.match(/\{[\s\S]*\}/);
             if (!jsonMatch) {
-                console.warn(`[Gemini] ${params.fullName}: 返回内容无 JSON, 全文: ${text.slice(0, 500)}`);
+                console.warn(`[AI] ${params.fullName}: 返回内容无 JSON, 全文: ${text.slice(0, 500)}`);
                 return null;
             }
 
             // 第一层校验：格式
             const analysis = validateFormat(jsonMatch[0], params.fullName);
             if (!analysis) {
-                console.warn(`[Gemini] ${params.fullName}: 格式校验失败, JSON片段: ${jsonMatch[0].slice(0, 300)}`);
+                console.warn(`[AI] ${params.fullName}: 格式校验失败, JSON片段: ${jsonMatch[0].slice(0, 300)}`);
                 return null;
             }
 
@@ -118,11 +120,11 @@ export async function analyzeProject(params: {
             // 429 限流：等待后重试
             if (errMsg.includes('429') && attempt < MAX_RETRIES) {
                 const waitSec = 10 * (attempt + 1);
-                console.warn(`[Gemini] ${params.fullName}: 429 限流，等待 ${waitSec}s 后重试 (${attempt + 1}/${MAX_RETRIES})...`);
+                console.warn(`[AI] ${params.fullName}: 429 限流，等待 ${waitSec}s 后重试 (${attempt + 1}/${MAX_RETRIES})...`);
                 await sleep(waitSec * 1000);
                 continue;
             }
-            console.error(`[Gemini] ${params.fullName}: API 调用失败 (attempt ${attempt})`, err);
+            console.error(`[AI] ${params.fullName}: API 调用失败 (attempt ${attempt})`, err);
             return null;
         }
     }
@@ -130,13 +132,12 @@ export async function analyzeProject(params: {
 }
 
 /**
- * 调用 Gemini 生成今日亮点
+ * 调用 DeepSeek 生成今日亮点
  */
 export async function selectHighlights(
     projectsSummary: Array<{ fullName: string; positioning: string; stars: number; todayDelta: number }>
 ): Promise<Array<{ fullName: string; reason: string }>> {
-    const genAI = getGenAI();
-    const model = genAI.getGenerativeModel({ model: GEMINI_MODEL });
+    const client = getClient();
 
     const list = projectsSummary
         .map((p) => `- ${p.fullName}：${p.positioning}（⭐${p.stars}，今日+${p.todayDelta}）`)
@@ -152,24 +153,29 @@ ${list}
 ]`;
 
     try {
-        const result = await model.generateContent(prompt);
-        const text = result.response.text();
+        const completion = await client.chat.completions.create({
+            model: AI_MODEL,
+            messages: [{ role: 'user', content: prompt }],
+            temperature: 0.3,
+        });
+
+        const text = completion.choices[0]?.message?.content ?? '';
         const jsonMatch = text.match(/\[[\s\S]*\]/);
         if (!jsonMatch) return [];
 
         const parsed = JSON.parse(jsonMatch[0]) as Array<{ fullName: string; reason: string }>;
         return parsed.slice(0, 3);
     } catch {
-        console.warn('[Gemini] 今日亮点生成失败');
+        console.warn('[AI] 今日亮点生成失败');
         return [];
     }
 }
 
 /**
- * Gemini 调用间隔
+ * AI 调用间隔
  */
 export async function geminiSleep(): Promise<void> {
-    await sleep(GEMINI_SLEEP_MS);
+    await sleep(AI_SLEEP_MS);
 }
 
 // ── 校验函数（照搬 CLAUDE.md） ──────────────────
