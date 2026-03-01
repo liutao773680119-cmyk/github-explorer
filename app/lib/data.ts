@@ -1,7 +1,7 @@
 // app/lib/data.ts — 数据合并 + 前端筛选/排序工具
 
 import type {
-    ProjectsJson, StatsJson, ProjectWithStats, Project, ProjectStats,
+    ProjectsJson, StatsJson, ProjectWithStats, ProjectStats,
     TabId, SortKey, DailySnapshot,
 } from './types';
 

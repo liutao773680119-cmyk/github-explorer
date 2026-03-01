@@ -74,6 +74,9 @@ async function main(): Promise<void> {
     // ── Step 1: 抓取项目列表 ────────────────────────
 
     let allResults: SearchResult[] = [];
+    const todayTrending: string[] = [];
+    const weekTrending: string[] = [];
+    const newStars: string[] = [];
 
     try {
         if (isFirstRun) {
@@ -81,15 +84,19 @@ async function main(): Promise<void> {
             allResults = await searchClassicProjects();
         } else {
             console.log('[Step 1] 增量运行：抓取 4 个榜单');
-            const [today, week, newS, classic] = await Promise.all([
+            const [today, week, newS, classicList] = await Promise.all([
                 searchTodayTrending(),
                 searchWeekTrending(),
                 searchNewStars(),
                 searchClassicProjects(),
             ]);
+            // 记录每个来源的 fullName
+            const todaySet = new Set(today.map((r) => r.fullName));
+            const weekSet = new Set(week.map((r) => r.fullName));
+            const newStarsSet = new Set(newS.map((r) => r.fullName));
             // 去重合并
             const seen = new Set<string>();
-            for (const list of [today, week, newS, classic]) {
+            for (const list of [today, week, newS, classicList]) {
                 for (const r of list) {
                     if (!seen.has(r.fullName)) {
                         seen.add(r.fullName);
@@ -97,6 +104,10 @@ async function main(): Promise<void> {
                     }
                 }
             }
+            // 预填充榜单列表（来源追踪）
+            for (const fn of todaySet) todayTrending.push(fn);
+            for (const fn of weekSet) weekTrending.push(fn);
+            for (const fn of newStarsSet) newStars.push(fn);
         }
         log.stats!.fetched = allResults.length;
         console.log(`[Step 1] 共抓取 ${allResults.length} 个项目`);
@@ -110,9 +121,6 @@ async function main(): Promise<void> {
 
     // ── Step 2: 逐个处理 ───────────────────────────
 
-    const todayTrending: string[] = [];
-    const weekTrending: string[] = [];
-    const newStars: string[] = [];
     const vibeCoding: string[] = [];
     const classic: string[] = [];
     const newProjectsForHighlights: Array<{
@@ -123,7 +131,7 @@ async function main(): Promise<void> {
         const { fullName } = result;
         const isNew = !existingSet.has(fullName);
 
-        // 分类到各榜单
+        // 分类到经典榜单
         if (result.stars > 10000) classic.push(fullName);
 
         try {
