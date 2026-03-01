@@ -1,9 +1,9 @@
 {
   "version": "1",
   "date": "2026-03-01",
-  "startedAt": "2026-03-01T06:53:03.491Z",
-  "finishedAt": "2026-03-01T06:55:40.389Z",
-  "durationSeconds": 157,
+  "startedAt": "2026-03-01T07:15:58.213Z",
+  "finishedAt": "2026-03-01T07:18:28.586Z",
+  "durationSeconds": 150,
   "success": true,
   "stats": {
     "fetched": 50,
@@ -14,7 +14,7 @@
   },
   "errors": [
     {
-      "time": "2026-03-01T06:53:06.062Z",
+      "time": "2026-03-01T07:16:00.336Z",
       "level": "warn",
       "project": "codecrafters-io/build-your-own-x",
       "stage": "gemini_call",
@@ -23,7 +23,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:09.227Z",
+      "time": "2026-03-01T07:16:03.328Z",
       "level": "warn",
       "project": "sindresorhus/awesome",
       "stage": "gemini_call",
@@ -32,7 +32,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:12.387Z",
+      "time": "2026-03-01T07:16:06.346Z",
       "level": "warn",
       "project": "freeCodeCamp/freeCodeCamp",
       "stage": "gemini_call",
@@ -41,7 +41,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:15.551Z",
+      "time": "2026-03-01T07:16:09.335Z",
       "level": "warn",
       "project": "public-apis/public-apis",
       "stage": "gemini_call",
@@ -50,7 +50,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:18.750Z",
+      "time": "2026-03-01T07:16:12.332Z",
       "level": "warn",
       "project": "EbookFoundation/free-programming-books",
       "stage": "gemini_call",
@@ -59,7 +59,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:21.839Z",
+      "time": "2026-03-01T07:16:15.303Z",
       "level": "warn",
       "project": "kamranahmedse/developer-roadmap",
       "stage": "gemini_call",
@@ -68,7 +68,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:24.952Z",
+      "time": "2026-03-01T07:16:18.265Z",
       "level": "warn",
       "project": "jwasham/coding-interview-university",
       "stage": "gemini_call",
@@ -77,7 +77,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:28.049Z",
+      "time": "2026-03-01T07:16:21.239Z",
       "level": "warn",
       "project": "donnemartin/system-design-primer",
       "stage": "gemini_call",
@@ -86,7 +86,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:31.124Z",
+      "time": "2026-03-01T07:16:24.131Z",
       "level": "warn",
       "project": "vinta/awesome-python",
       "stage": "gemini_call",
@@ -95,7 +95,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:34.251Z",
+      "time": "2026-03-01T07:16:27.143Z",
       "level": "warn",
       "project": "awesome-selfhosted/awesome-selfhosted",
       "stage": "gemini_call",
@@ -104,7 +104,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:37.294Z",
+      "time": "2026-03-01T07:16:30.082Z",
       "level": "warn",
       "project": "996icu/996.ICU",
       "stage": "gemini_call",
@@ -113,7 +113,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:40.422Z",
+      "time": "2026-03-01T07:16:33.040Z",
       "level": "warn",
       "project": "practical-tutorials/project-based-learning",
       "stage": "gemini_call",
@@ -122,7 +122,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:43.561Z",
+      "time": "2026-03-01T07:16:36.038Z",
       "level": "warn",
       "project": "facebook/react",
       "stage": "gemini_call",
@@ -131,7 +131,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:46.620Z",
+      "time": "2026-03-01T07:16:38.984Z",
       "level": "warn",
       "project": "openclaw/openclaw",
       "stage": "gemini_call",
@@ -140,7 +140,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:49.651Z",
+      "time": "2026-03-01T07:16:41.884Z",
       "level": "warn",
       "project": "torvalds/linux",
       "stage": "gemini_call",
@@ -149,7 +149,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:52.761Z",
+      "time": "2026-03-01T07:16:44.873Z",
       "level": "warn",
       "project": "TheAlgorithms/Python",
       "stage": "gemini_call",
@@ -158,7 +158,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:56.008Z",
+      "time": "2026-03-01T07:16:48.018Z",
       "level": "warn",
       "project": "vuejs/vue",
       "stage": "gemini_call",
@@ -167,7 +167,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:53:59.017Z",
+      "time": "2026-03-01T07:16:50.890Z",
       "level": "warn",
       "project": "trimstray/the-book-of-secret-knowledge",
       "stage": "gemini_call",
@@ -176,7 +176,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:02.175Z",
+      "time": "2026-03-01T07:16:53.870Z",
       "level": "warn",
       "project": "ossu/computer-science",
       "stage": "gemini_call",
@@ -185,7 +185,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:05.242Z",
+      "time": "2026-03-01T07:16:56.792Z",
       "level": "warn",
       "project": "trekhleb/javascript-algorithms",
       "stage": "gemini_call",
@@ -194,7 +194,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:08.392Z",
+      "time": "2026-03-01T07:16:59.792Z",
       "level": "warn",
       "project": "tensorflow/tensorflow",
       "stage": "gemini_call",
@@ -203,7 +203,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:11.505Z",
+      "time": "2026-03-01T07:17:02.800Z",
       "level": "warn",
       "project": "ohmyzsh/ohmyzsh",
       "stage": "gemini_call",
@@ -212,7 +212,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:14.647Z",
+      "time": "2026-03-01T07:17:05.868Z",
       "level": "warn",
       "project": "getify/You-Dont-Know-JS",
       "stage": "gemini_call",
@@ -221,7 +221,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:17.742Z",
+      "time": "2026-03-01T07:17:08.794Z",
       "level": "warn",
       "project": "CyC2018/CS-Notes",
       "stage": "gemini_call",
@@ -230,7 +230,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:21.046Z",
+      "time": "2026-03-01T07:17:11.916Z",
       "level": "warn",
       "project": "microsoft/vscode",
       "stage": "gemini_call",
@@ -239,7 +239,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:24.129Z",
+      "time": "2026-03-01T07:17:14.920Z",
       "level": "warn",
       "project": "Significant-Gravitas/AutoGPT",
       "stage": "gemini_call",
@@ -248,7 +248,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:27.255Z",
+      "time": "2026-03-01T07:17:18.078Z",
       "level": "warn",
       "project": "jackfrued/Python-100-Days",
       "stage": "gemini_call",
@@ -257,7 +257,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:30.371Z",
+      "time": "2026-03-01T07:17:21.028Z",
       "level": "warn",
       "project": "n8n-io/n8n",
       "stage": "gemini_call",
@@ -266,7 +266,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:33.477Z",
+      "time": "2026-03-01T07:17:24.018Z",
       "level": "warn",
       "project": "flutter/flutter",
       "stage": "gemini_call",
@@ -275,7 +275,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:36.609Z",
+      "time": "2026-03-01T07:17:27.035Z",
       "level": "warn",
       "project": "twbs/bootstrap",
       "stage": "gemini_call",
@@ -284,7 +284,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:39.590Z",
+      "time": "2026-03-01T07:17:29.988Z",
       "level": "warn",
       "project": "github/gitignore",
       "stage": "gemini_call",
@@ -293,7 +293,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:42.643Z",
+      "time": "2026-03-01T07:17:32.925Z",
       "level": "warn",
       "project": "massgravel/Microsoft-Activation-Scripts",
       "stage": "gemini_call",
@@ -302,7 +302,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:45.726Z",
+      "time": "2026-03-01T07:17:35.853Z",
       "level": "warn",
       "project": "avelino/awesome-go",
       "stage": "gemini_call",
@@ -311,7 +311,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:48.846Z",
+      "time": "2026-03-01T07:17:38.811Z",
       "level": "warn",
       "project": "ollama/ollama",
       "stage": "gemini_call",
@@ -320,7 +320,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:51.883Z",
+      "time": "2026-03-01T07:17:41.728Z",
       "level": "warn",
       "project": "AUTOMATIC1111/stable-diffusion-webui",
       "stage": "gemini_call",
@@ -329,7 +329,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:54.943Z",
+      "time": "2026-03-01T07:17:44.779Z",
       "level": "warn",
       "project": "jlevy/the-art-of-command-line",
       "stage": "gemini_call",
@@ -338,7 +338,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:54:58.053Z",
+      "time": "2026-03-01T07:17:47.728Z",
       "level": "warn",
       "project": "huggingface/transformers",
       "stage": "gemini_call",
@@ -347,7 +347,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:01.170Z",
+      "time": "2026-03-01T07:17:50.673Z",
       "level": "warn",
       "project": "Snailclimb/JavaGuide",
       "stage": "gemini_call",
@@ -356,7 +356,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:04.189Z",
+      "time": "2026-03-01T07:17:53.589Z",
       "level": "warn",
       "project": "DigitalPlatDev/FreeDomain",
       "stage": "gemini_call",
@@ -365,7 +365,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:07.238Z",
+      "time": "2026-03-01T07:17:56.498Z",
       "level": "warn",
       "project": "f/prompts.chat",
       "stage": "gemini_call",
@@ -374,7 +374,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:10.336Z",
+      "time": "2026-03-01T07:17:59.453Z",
       "level": "warn",
       "project": "yt-dlp/yt-dlp",
       "stage": "gemini_call",
@@ -383,7 +383,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:13.502Z",
+      "time": "2026-03-01T07:18:02.467Z",
       "level": "warn",
       "project": "airbnb/javascript",
       "stage": "gemini_call",
@@ -392,7 +392,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:16.723Z",
+      "time": "2026-03-01T07:18:05.597Z",
       "level": "warn",
       "project": "langflow-ai/langflow",
       "stage": "gemini_call",
@@ -401,7 +401,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:19.776Z",
+      "time": "2026-03-01T07:18:08.568Z",
       "level": "warn",
       "project": "521xueweihan/HelloGitHub",
       "stage": "gemini_call",
@@ -410,7 +410,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:22.916Z",
+      "time": "2026-03-01T07:18:11.637Z",
       "level": "warn",
       "project": "ytdl-org/youtube-dl",
       "stage": "gemini_call",
@@ -419,7 +419,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:26.069Z",
+      "time": "2026-03-01T07:18:14.675Z",
       "level": "warn",
       "project": "vercel/next.js",
       "stage": "gemini_call",
@@ -428,7 +428,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:29.118Z",
+      "time": "2026-03-01T07:18:17.636Z",
       "level": "warn",
       "project": "yangshun/tech-interview-handbook",
       "stage": "gemini_call",
@@ -437,7 +437,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:32.170Z",
+      "time": "2026-03-01T07:18:20.582Z",
       "level": "warn",
       "project": "Genymobile/scrcpy",
       "stage": "gemini_call",
@@ -446,7 +446,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:35.242Z",
+      "time": "2026-03-01T07:18:23.562Z",
       "level": "warn",
       "project": "labuladong/fucking-algorithm",
       "stage": "gemini_call",
@@ -455,7 +455,7 @@
       "skipped": true
     },
     {
-      "time": "2026-03-01T06:55:38.386Z",
+      "time": "2026-03-01T07:18:26.583Z",
       "level": "warn",
       "project": "golang/go",
       "stage": "gemini_call",
