@@ -3,7 +3,20 @@
   "todayTrending": [],
   "weekTrending": [],
   "newStars": [],
-  "vibeCoding": [],
+  "vibeCoding": [
+    "sindresorhus/awesome",
+    "public-apis/public-apis",
+    "EbookFoundation/free-programming-books",
+    "donnemartin/system-design-primer",
+    "vinta/awesome-python",
+    "awesome-selfhosted/awesome-selfhosted",
+    "996icu/996.ICU",
+    "practical-tutorials/project-based-learning",
+    "facebook/react",
+    "openclaw/openclaw",
+    "TheAlgorithms/Python",
+    "vuejs/vue"
+  ],
   "classic": [
     "codecrafters-io/build-your-own-x",
     "sindresorhus/awesome",

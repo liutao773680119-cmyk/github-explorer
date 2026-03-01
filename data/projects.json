@@ -1,5 +1,952 @@
 {
-    "version": "1",
-    "updatedAt": "",
-    "projects": []
+  "version": "1",
+  "updatedAt": "2026-03-01T14:49:07.114Z",
+  "projects": [
+    {
+      "owner": "codecrafters-io",
+      "repo": "build-your-own-x",
+      "fullName": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "license": "Unknown",
+      "createdAt": "2018-05-09T12:03:18Z",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "analysis": {
+        "positioning": "通过实战复刻经典技术，深入理解编程原理的指南合集。",
+        "useCases": [
+          "你追求深度技术理解，想掌握系统底层运作 → 它提供从零开始构建操作系统、数据库等核心组件的详细教程。",
+          "你厌倦了理论学习，想通过动手实践快速提升编程技能 → 它为你提供海量项目选择，让你亲手实现流行技术。",
+          "你准备技术面试，需要展示扎实的底层知识和项目经验 → 它提供高质量的复刻指南，助你打造令人印象深刻的个人项目。"
+        ],
+        "audience": "寻求深度学习、想通过动手实践掌握底层原理的程序员和学生。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库，浏览页面或克隆项目到本地。",
+            "选择你感兴趣的技术类别（如“构建自己的Git”），点击链接进入具体教程。",
+            "根据教程中的分步指南和代码示例，开始你的复刻之旅。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "CodeCrafters.io",
+            "method": "互动式编程挑战平台，提供结构化引导。",
+            "models": "Git, Docker, Redis, Kafka等核心技术。",
+            "pricing": "付费（部分免费试用）"
+          },
+          {
+            "name": "各类技术书籍/在线课程",
+            "method": "系统性理论讲解结合实践项目。",
+            "models": "覆盖广泛的编程语言和技术领域。",
+            "pricing": "免费/付费（视具体资源）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在深度学习和原理掌握，通过复刻复杂系统提升编程技能，偏向结构化和硬核实践，而非轻松愉快的“氛围编程”。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃，Issue处理及时，关闭数远超开启数，显示项目维护良好。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:45:27.683Z"
+    },
+    {
+      "owner": "sindresorhus",
+      "repo": "awesome",
+      "fullName": "sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "language": "Unknown",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "lists",
+        "resources",
+        "unicorns"
+      ],
+      "license": "CC0-1.0",
+      "createdAt": "2014-07-11T13:42:37Z",
+      "url": "https://github.com/sindresorhus/awesome",
+      "analysis": {
+        "positioning": "各类精选资源列表的聚合平台",
+        "useCases": [
+          "你初学一门新技术 → 它帮你找到该技术领域内最棒的教程、工具和库",
+          "你寻找特定领域的最佳实践或工具 → 它提供由社区维护的高质量资源集合",
+          "你探索新的编程语言或框架 → 它为你提供分类清晰的入门和进阶资源"
+        ],
+        "audience": "需要快速发现、学习和组织各类技术与非技术资源的开发者、学习者和研究者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目主页或 awesome.re",
+            "在目录中浏览感兴趣的分类或直接搜索"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README 精心排版，包含详细的贡献指南、作者其他商业项目及赞助商信息，整体维护良好，提供清晰的社区参与路径和极高的社区认可度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极高，已关闭 Issue 远超开启数量，表明维护者响应迅速且社区参与度强。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:45:39.991Z"
+    },
+    {
+      "owner": "freeCodeCamp",
+      "repo": "freeCodeCamp",
+      "fullName": "freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "topics": [
+        "careers",
+        "certification",
+        "community",
+        "curriculum",
+        "d3",
+        "education",
+        "freecodecamp",
+        "javascript",
+        "learn-to-code",
+        "math",
+        "nodejs",
+        "nonprofits",
+        "programming",
+        "react",
+        "teachers"
+      ],
+      "license": "BSD-3-Clause",
+      "createdAt": "2014-12-24T17:49:19Z",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "analysis": {
+        "positioning": "免费编程学习与认证平台，助力职业转型。",
+        "useCases": [
+          "你想免费学习编程并获得证书 → 它提供系统的全栈开发、机器学习课程和官方认证，助你进入技术行业。",
+          "你想通过实践提升编程技能 → 它提供数千个互动编程挑战，让你边学边练。",
+          "你想从其他行业转型技术领域 → 它作为一个由慈善机构支持的社区，提供免费资源和支持，帮助你成功转岗。"
+        ],
+        "audience": "适合想免费学习编程、获得开发认证并成功转行进入技术领域的在职人士或初学者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 freecodecamp.org 官网。",
+            "选择你感兴趣的课程或认证开始学习。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Codecademy",
+            "method": "在线互动课程",
+            "models": "编程语言、Web开发、数据科学等",
+            "pricing": "部分免费，大部分内容付费订阅"
+          },
+          {
+            "name": "Coursera",
+            "method": "在线视频课程、专项课程、学位",
+            "models": "计算机科学、商业、艺术等（大学及机构合作）",
+            "pricing": "部分免费（旁听），大部分内容付费"
+          }
+        ],
+        "pricing": "完全免费。由捐赠者支持的501(c)(3)慈善机构运营。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "它是一个提供系统化、认证驱动的免费编程教育平台，旨在帮助用户长期学习并转型，而非用于快速实验或娱乐性编程。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极高，Issue关闭率显著，响应速度快，有活跃的贡献者生态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:45:51.532Z"
+    },
+    {
+      "owner": "public-apis",
+      "repo": "public-apis",
+      "fullName": "public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "topics": [
+        "api",
+        "apis",
+        "dataset",
+        "development",
+        "free",
+        "list",
+        "lists",
+        "open-source",
+        "public",
+        "public-api",
+        "public-apis",
+        "resources",
+        "software"
+      ],
+      "license": "MIT",
+      "createdAt": "2016-03-20T23:49:42Z",
+      "url": "https://github.com/public-apis/public-apis",
+      "analysis": {
+        "positioning": "精选免费API资源库，助你快速开发。",
+        "useCases": [
+          "你开发新产品 → 它帮你发现所需的免费API，加速功能实现。",
+          "你学习API集成 → 它提供丰富的免费API供你实践，快速上手。",
+          "你寻找特定领域数据 → 它帮你快速定位相关免费API，获取所需信息。"
+        ],
+        "audience": "开发者、学生及任何需要集成第三方API但预算有限或希望快速验证想法的人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库浏览其精心策划的API列表。",
+            "根据你的项目需求选择合适的免费API。",
+            "查阅所选API的文档，并将其集成到你的应用程序中。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "RapidAPI",
+            "method": "API市场，提供API发现、测试、订阅及管理。",
+            "models": "涵盖各类API，包括免费、免费增值及付费API。",
+            "pricing": "免费（有限额度）/部分免费/付费"
+          },
+          {
+            "name": "ProgrammableWeb",
+            "method": "API目录，收集并分类大量API信息。",
+            "models": "各类API的详细目录信息。",
+            "pricing": "免费（作为信息平台）"
+          }
+        ],
+        "pricing": "该项目本身是免费的API列表；列表中收录的API大部分是免费的，部分可能提供免费额度或免费增值服务。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "拥有超40万星标，是GitHub上最受欢迎的API资源项目之一。Issue开闭比健康，社区活跃，有APILayer赞助并有专门的Discord社群。内容由社区成员手动维护，质量高，更新及时，是开发者寻找免费API的“藏宝库”。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，Issue开闭比健康（约1:1），表明维护者响应迅速，社区贡献者众多。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:46:04.261Z"
+    },
+    {
+      "owner": "EbookFoundation",
+      "repo": "free-programming-books",
+      "fullName": "EbookFoundation/free-programming-books",
+      "description": ":books: Freely available programming books",
+      "language": "Python",
+      "topics": [
+        "books",
+        "education",
+        "hacktoberfest",
+        "list",
+        "resource"
+      ],
+      "license": "CC-BY-4.0",
+      "createdAt": "2013-10-11T06:50:37Z",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "analysis": {
+        "positioning": "免费编程学习资源库，海量书籍一网打尽。",
+        "useCases": [
+          "你学习新语言或新技术 → 它提供免费高质量书籍资源。",
+          "你需要查找特定主题的编程资料 → 它提供可搜索的编程书籍列表。",
+          "你想分享或贡献免费学习资源 → 它可以让你协作更新和维护资源列表。"
+        ],
+        "audience": "寻求免费编程学习资源、希望提升技能的开发者、学生和自学者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问动态搜索网站：https://ebookfoundation.github.io/free-programming-books-search/",
+            "在搜索框中输入书名或作者，即可查找所需书籍。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "FreeTechBooks.com",
+            "method": "网站目录，书籍直接下载或链接",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Awesome系列（其他编程资源列表）",
+            "method": "GitHub仓库，社区策展",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为汇集免费编程书籍的资源库，它直接支持开发者学习和提升技能，与编程活动高度相关。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，Issue解决率高（开闭比约1:17），拥有海量贡献者和高星级认可。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:46:20.562Z"
+    },
+    {
+      "owner": "kamranahmedse",
+      "repo": "developer-roadmap",
+      "fullName": "kamranahmedse/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "language": "TypeScript",
+      "topics": [
+        "angular-roadmap",
+        "backend-roadmap",
+        "blockchain-roadmap",
+        "computer-science",
+        "dba-roadmap",
+        "developer-roadmap",
+        "devops-roadmap",
+        "frontend-roadmap",
+        "go-roadmap",
+        "java-roadmap",
+        "javascript-roadmap",
+        "nodejs-roadmap",
+        "python-roadmap",
+        "qa-roadmap",
+        "react-roadmap",
+        "roadmap",
+        "software-architect-roadmap",
+        "vue-roadmap"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2017-03-15T13:45:52Z",
+      "url": "https://github.com/kamranahmedse/developer-roadmap",
+      "analysis": {
+        "positioning": "开发者职业成长导航，提供交互式技术学习路线图。",
+        "useCases": [
+          "你迷茫于技术学习路径 → 它帮你提供前端/后端/DevOps等清晰路线。",
+          "你想系统学习新技能 → 它帮你梳理从初级到高级的知识点与资源。",
+          "你想了解行业最佳实践 → 它帮你整合社区经验，点击节点深入学习。"
+        ],
+        "audience": "各阶段开发者，尤其适合初学者、转岗者或想系统提升技能的工程师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 roadmap.sh 网站",
+            "选择你感兴趣的技术方向或角色路线图"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "FreeCodeCamp",
+            "method": "互动编程课程/项目",
+            "models": "网页、Python、JS、数据科学等",
+            "pricing": "免费"
+          },
+          {
+            "name": "Educative",
+            "method": "文本式互动学习路径",
+            "models": "软件开发、AI、DevOps等",
+            "pricing": "部分免费/订阅制"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "并非实验性或风格化项目，而是成熟、实用、社区驱动的开发者学习路径集合。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极高，Issue 关闭率高（超过70倍），维护积极。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:46:34.035Z"
+    },
+    {
+      "owner": "jwasham",
+      "repo": "coding-interview-university",
+      "fullName": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "Unknown",
+      "topics": [
+        "algorithm",
+        "algorithms",
+        "coding-interview",
+        "coding-interviews",
+        "computer-science",
+        "data-structures",
+        "interview",
+        "interview-prep",
+        "interview-preparation",
+        "programming-interviews",
+        "software-engineering",
+        "study-plan"
+      ],
+      "license": "CC-BY-SA-4.0",
+      "createdAt": "2016-06-06T02:34:12Z",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "analysis": {
+        "positioning": "助你备战软件工程师面试，直通科技巨头。",
+        "useCases": [
+          "你想要冲击FAANG等顶级科技公司 → 它提供系统化的计算机科学学习路径，提高入职成功率。",
+          "你对算法和数据结构感到迷茫，不知从何学起 → 它为你划重点，提供详细的学习资源和顺序，指明学习方向。",
+          "你缺乏面试准备经验，想少走弯路 → 它分享作者亲身成功经验（入职Amazon），助你高效备考。"
+        ],
+        "audience": "目标是成为软件工程师或进入顶级科技公司，寻求系统性面试准备的学习者。",
+        "quickStart": {
+          "prerequisites": "具备基本的编程概念和自学能力。",
+          "steps": [
+            "阅读 README，了解学习计划总览和作者的备考经验与建议。",
+            "按计划从头开始，深入学习计算机科学各主题（如数据结构、算法）。",
+            "结合 LeetCode 等平台进行大量刷题和实践练习。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LeetCode",
+            "method": "在线刷题，模拟面试，社区讨论",
+            "models": "海量算法题，分难度和类型",
+            "pricing": "部分免费/订阅"
+          },
+          {
+            "name": "AlgoExpert",
+            "method": "结构化视频课程，精选面试题，代码编辑器",
+            "models": "160+精选算法题，详细视频讲解",
+            "pricing": "付费"
+          },
+          {
+            "name": "Educative.io (e.g., Grokking the Coding Interview)",
+            "method": "互动式文本课程，系统性面试准备",
+            "models": "系统讲解数据结构、算法和设计模式",
+            "pricing": "付费/部分免费"
+          }
+        ],
+        "pricing": "完全免费（GitHub 开源项目，基于 CC-BY-SA-4.0 许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它是一个为编程面试提供全面学习路线的资源库，间接提升用户的编程和解决问题能力，但它本身并非直接的编程工具或开发环境。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度高，Issue 关闭数量远超开启数量（96/454），表明维护者响应及时且积极解决问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:46:46.171Z"
+    },
+    {
+      "owner": "donnemartin",
+      "repo": "system-design-primer",
+      "fullName": "donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "language": "Python",
+      "topics": [
+        "design",
+        "design-patterns",
+        "design-system",
+        "development",
+        "interview",
+        "interview-practice",
+        "interview-questions",
+        "programming",
+        "python",
+        "system",
+        "web",
+        "web-application",
+        "webapp"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2017-02-26T16:15:28Z",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "analysis": {
+        "positioning": "系统设计学习与面试准备一站式指南。",
+        "useCases": [
+          "你正在学习大规模系统设计 → 它提供结构化的学习路径和资源合集。",
+          "你准备系统设计面试 → 它提供常见面试题、解题思路与示例方案。",
+          "你想高效巩固知识点 → 它提供Anki抽认卡，助你记忆核心概念。"
+        ],
+        "audience": "想提升系统设计能力、准备大厂技术面试的软件工程师和开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub仓库，阅读学习指南和面试题解。",
+            "根据需要下载并导入Anki抽认卡，辅助记忆。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "内容权威实用，社区活跃且提供多语言支持，是系统设计学习和面试准备的标杆资源。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，拥有大量贡献者和多语言翻译，Issue 多数用于内容贡献、建议和迭代。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:46:56.344Z"
+    },
+    {
+      "owner": "vinta",
+      "repo": "awesome-python",
+      "fullName": "vinta/awesome-python",
+      "description": "An opinionated list of awesome Python frameworks, libraries, software and resources.",
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "collections",
+        "python",
+        "python-framework",
+        "python-library",
+        "python-resources"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2014-06-27T21:00:06Z",
+      "url": "https://github.com/vinta/awesome-python",
+      "analysis": {
+        "positioning": "Python生态资源精选指南，汇聚海量工具库",
+        "useCases": [
+          "你开发Python项目 → 它帮你快速定位所需框架与库",
+          "你探索Python技术栈 → 它为你提供分类清晰的优质资源合集",
+          "你寻求Python最佳实践 → 它帮你发现各类特定领域的优选工具"
+        ],
+        "audience": "所有Python开发者，无论新手还是专家，在需要查找特定功能库或探索新领域时都可参考。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 GitHub 仓库主页 `https://github.com/vinta/awesome-python`",
+            "浏览 README 文件，通过目录或关键词搜索查找所需资源"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Python Awesome系列列表（其他）",
+            "method": "浏览GitHub或技术社区",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Stack Overflow / 官方文档",
+            "method": "搜索，阅读讨论与文档",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为Python生态的权威资源索引，分类清晰，内容全面，极大地提升了开发者查找优质工具的效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue处理不活跃，21个开启但0个已关闭，表明项目维护者对Issue的响应和管理不积极。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:47:13.785Z"
+    },
+    {
+      "owner": "awesome-selfhosted",
+      "repo": "awesome-selfhosted",
+      "fullName": "awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "language": "Unknown",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "cloud",
+        "free-software",
+        "hosting",
+        "privacy",
+        "self-hosted",
+        "selfhosted"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2015-06-01T02:33:17Z",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "analysis": {
+        "positioning": "一份庞大的免费自托管软件清单，满足你的个性化部署需求。",
+        "useCases": [
+          "你想要搭建私人云存储服务 → 它为你推荐Nextcloud等开源自托管方案。",
+          "你需要部署安全的团队协作工具 → 它提供如Mattermost、Jitsi Meet等自托管选项。",
+          "你寻求替代商业SaaS服务的开源应用 → 它为你分类整理了各种可自托管的免费软件。"
+        ],
+        "audience": "适合注重数据隐私、追求服务掌控权的开发者、系统管理员或技术爱好者，寻找开源替代方案并在自有服务器上部署。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "访问推荐的HTML版本网站 (awesome-selfhosted.net)。",
+            "根据目录或分类查找感兴趣的自托管软件。",
+            "点击链接查看项目详情，根据指引进行部署。"
+          ],
+          "note": "推荐优先使用HTML版本获得最佳浏览体验，Markdown版本为传统格式。"
+        },
+        "competitors": [
+          {
+            "name": "AlternativeTo",
+            "method": "在线网站检索、用户推荐",
+            "models": "商业软件、开源软件、SaaS",
+            "pricing": "免费"
+          },
+          {
+            "name": "GitHub Awesome Lists (其他)",
+            "method": "列表浏览",
+            "models": "特定主题软件或资源",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "极高星标数表明社区认可度极高。活跃的自动化检查机制确保链接和项目状态实时更新，内容维护质量上乘，是自托管领域的权威指南。",
+        "isVibeCoding": true,
+        "communityActivity": "问题关闭率高 (0开/807关)，自动化工作流（死链、未维护项目检查）保障内容新鲜度，社区维护积极高效。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:47:28.360Z"
+    },
+    {
+      "owner": "996icu",
+      "repo": "996.ICU",
+      "fullName": "996icu/996.ICU",
+      "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2019-03-26T07:31:14Z",
+      "url": "https://github.com/996icu/996.ICU",
+      "analysis": {
+        "positioning": "996工作制抗议平台，汇聚开发者呼声，抵制不健康加班文化。",
+        "useCases": [
+          "你遭受996困扰 → 它让你找到共鸣，参与抵制不健康加班。",
+          "你想了解哪些公司有996文化 → 它帮你查询并提交相关证据。",
+          "你认同反996理念 → 它让你为自己的项目添加反996许可或徽章以示支持。"
+        ],
+        "audience": "关注或深受中国科技公司996工作制影响的开发者和劳动者。",
+        "quickStart": {
+          "prerequisites": "GitHub账号",
+          "steps": [
+            "查看并更新黑名单/白名单，提供996企业证据。",
+            "为个人项目添加Anti 996 License或徽章以示支持。",
+            "提交建议，参与社区讨论。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "凭借其深刻的社会意义和对开发者权益的关注，引发了全球范围内的广泛讨论和共鸣，成为程序员文化中的标志性事件。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度极高，Issue 主要用作讨论、信息汇总及行动提议，而非传统意义上的Bug/Feature追踪，互动频繁但解决（关闭）率为0。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:47:39.765Z"
+    },
+    {
+      "owner": "practical-tutorials",
+      "repo": "project-based-learning",
+      "fullName": "practical-tutorials/project-based-learning",
+      "description": "Curated list of project-based tutorials",
+      "language": "Unknown",
+      "topics": [
+        "beginner-project",
+        "cpp",
+        "golang",
+        "javascript",
+        "project",
+        "python",
+        "tutorial",
+        "webdevelopment"
+      ],
+      "license": "MIT",
+      "createdAt": "2017-04-12T05:07:46Z",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "analysis": {
+        "positioning": "精选编程实战项目列表，助你从零构建应用，提升编程技能。",
+        "useCases": [
+          "你缺乏项目实践经验或不知如何开始 → 它提供按语言分类的实战教程，助你从零构建应用。",
+          "你希望通过动手实践学习新语言/技术 → 它提供多样化项目（如构建解释器、OS、游戏），让你边学边做。",
+          "你寻找高质量、经过整理的项目灵感 → 它提供一个可供探索的精选列表，帮你快速找到感兴趣的实战机会。"
+        ],
+        "audience": "适合渴望通过实际项目提升编程技能的初学者和有经验的开发者，尤其是希望从零构建完整应用的学员。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "打开 GitHub 仓库页面。",
+            "浏览 README 中的语言分类，选择感兴趣的项目教程链接开始学习。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "FreeCodeCamp",
+            "method": "在线交互式课程与项目",
+            "models": "Web开发、数据科学等",
+            "pricing": "免费"
+          },
+          {
+            "name": "The Odin Project",
+            "method": "结构化Web开发学习路径与项目",
+            "models": "Web开发 (Ruby on Rails, JavaScript)",
+            "pricing": "免费"
+          },
+          {
+            "name": "Codecademy",
+            "method": "交互式在线编程课程与项目",
+            "models": "多语言、多技术栈",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费（项目列表本身免费开放，所链接的外部教程可能涉及免费或付费资源）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为一个高质量的实战项目教程合集，它直接提供了丰富的项目思路和实践路径，有效解决了学习者“不知道做什么”的痛点，帮助开发者快速投入到具体的编程实现中，极大促进了编程的乐趣和效率。",
+        "isVibeCoding": true,
+        "communityActivity": "社区非常活跃，Stars 数近26万。Issue 开启数远大于关闭数（273/82），表明社区提议和讨论活跃，但项目更新或Issue处理速度可能跟不上新增量。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:47:58.841Z"
+    },
+    {
+      "owner": "facebook",
+      "repo": "react",
+      "fullName": "facebook/react",
+      "description": "The library for web and native user interfaces.",
+      "language": "JavaScript",
+      "topics": [
+        "declarative",
+        "frontend",
+        "javascript",
+        "library",
+        "react",
+        "ui"
+      ],
+      "license": "MIT",
+      "createdAt": "2013-05-24T16:15:54Z",
+      "url": "https://github.com/facebook/react",
+      "analysis": {
+        "positioning": "高效构建Web和原生应用的声明式UI JavaScript库。",
+        "useCases": [
+          "你开发复杂的Web应用 → 它帮你通过声明式组件高效构建并管理UI状态。",
+          "你需要同时支持Web和移动端界面 → 它帮你用一套核心逻辑同时开发Web和React Native应用。",
+          "你追求可预测、易调试的UI代码 → 它帮你以组件化、数据驱动的方式构建UI，减少错误。"
+        ],
+        "audience": "适合JavaScript开发者，用于快速构建声明式、组件化的Web和移动端用户界面。",
+        "quickStart": {
+          "prerequisites": "JavaScript基础",
+          "steps": [
+            "访问官方文档 react.dev/learn 了解快速入门。",
+            "根据项目需求选择添加到现有项目或创建新React应用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Vue.js",
+            "method": "渐进式JavaScript框架，用于构建用户界面，以其易学性著称。",
+            "models": "Web，移动端 (Weex/NativeScript-Vue)，SSR (Nuxt.js)",
+            "pricing": "免费"
+          },
+          {
+            "name": "Angular",
+            "method": "基于TypeScript的MVVM前端框架，提供完整解决方案和强类型支持。",
+            "models": "Web，移动端 (Ionic/NativeScript)，SSR (Angular Universal)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，MIT开源许可。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "24万星，JavaScript前端生态基石，文档完备，社区极其活跃，Issue解决效率高，持续演进。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，Issue关闭数量远超开启数量（13:1），解决效率极高。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-03-01T14:48:09.992Z"
+    },
+    {
+      "owner": "openclaw",
+      "repo": "openclaw",
+      "fullName": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ],
+      "license": "MIT",
+      "createdAt": "2025-11-24T10:16:47Z",
+      "url": "https://github.com/openclaw/openclaw",
+      "analysis": {
+        "positioning": "运行在你的设备上，跨平台、私有化的AI助手。",
+        "useCases": [
+          "你希望在WhatsApp、Telegram等多平台无缝使用AI助手 → OpenClaw提供统一的AI对话入口，无论你身处哪个聊天平台。",
+          "你担心个人数据隐私，不想将对话记录上传至云端 → OpenClaw支持在你的本地设备运行，确保数据自主可控。",
+          "你需要在macOS/iOS/Android设备上通过语音与AI交互或控制实时画布 → OpenClaw支持多模态输入输出，提供丰富的交互体验。"
+        ],
+        "audience": "追求数据隐私、希望在多平台无缝使用AI助手的个人用户。",
+        "quickStart": {
+          "prerequisites": "Node.js (npm/pnpm/bun) 环境",
+          "steps": [
+            "安装OpenClaw",
+            "运行 `openclaw onboard` 启动CLI向导"
+          ],
+          "note": "Windows用户建议使用WSL2。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目名称、描述、吉祥物、口号（EXFOLIATE! EXFOLIATE!）及社区名称都围绕独特的“龙虾”主题，充满趣味和个性，贯彻始终。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数达24万，Issue解决率高达94%，社区活跃且维护良好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-01T14:48:22.940Z"
+    },
+    {
+      "owner": "torvalds",
+      "repo": "linux",
+      "fullName": "torvalds/linux",
+      "description": "Linux kernel source tree",
+      "language": "C",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2011-09-04T22:48:12Z",
+      "url": "https://github.com/torvalds/linux",
+      "analysis": {
+        "positioning": "Linux操作系统核心，管理硬件与系统资源。",
+        "useCases": [
+          "你开发新内核功能/驱动 → 它帮你理解内核架构，开发并提交代码。",
+          "你维护Linux发行版 → 它帮你集成、定制内核，确保系统兼容与稳定。",
+          "你诊断系统性能/安全问题 → 它帮你深入内核机制，进行配置、排障与漏洞分析。"
+        ],
+        "audience": "面向内核开发者、系统管理员、硬件厂商、研究人员和安全专家，提供构建、研究与维护Linux系统核心的基石。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 kernel.org 获取最新内核源码",
+            "参照官方文档构建定制化内核"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "作为操作系统核心，关注严谨性与稳定性，非提供开发者体验或编程效率的工具。虽然提到AI编码助手为潜在受众，但项目本身不提供此类功能。",
+        "isVibeCoding": false,
+        "communityActivity": "GitHub Issues活跃度极低（3开0闭），核心社区通过邮件列表（lore.kernel.org）进行深度协作与维护，活跃度极高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:48:35.759Z"
+    },
+    {
+      "owner": "TheAlgorithms",
+      "repo": "Python",
+      "fullName": "TheAlgorithms/Python",
+      "description": "All Algorithms implemented in Python",
+      "language": "Python",
+      "topics": [
+        "algorithm",
+        "algorithm-competitions",
+        "algorithms-implemented",
+        "algos",
+        "community-driven",
+        "education",
+        "hacktoberfest",
+        "interview",
+        "learn",
+        "practice",
+        "python",
+        "searches",
+        "sorting-algorithms",
+        "sorts"
+      ],
+      "license": "MIT",
+      "createdAt": "2016-07-16T09:44:01Z",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "analysis": {
+        "positioning": "Python算法学习与实践的代码库。",
+        "useCases": [
+          "你希望系统学习理解各种算法 → 它提供Python实现的范例代码助你掌握原理。",
+          "你正在准备编程面试 → 它帮你复习和练习常见的算法题与解法。",
+          "你想参与开源贡献、提升编程能力 → 它欢迎你提交Python算法实现并参与社区协作。"
+        ],
+        "audience": "Python初学者、算法学习者、编程面试准备者，以及希望通过开源贡献提升技能的开发者。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "克隆项目: `git clone https://github.com/TheAlgorithms/Python.git`",
+            "进入目录并查阅算法实现: `cd Python`，然后浏览 `DIRECTORY.md` 或相关算法文件夹。"
+          ],
+          "note": "支持Gitpod一键部署，可直接在云端环境开始学习和贡献。"
+        },
+        "competitors": [
+          {
+            "name": "LeetCode/HackerRank",
+            "method": "在线编程挑战平台，提供问题、测试和社区解决方案",
+            "models": "N/A",
+            "pricing": "部分免费，高级功能付费"
+          },
+          {
+            "name": "其他GitHub算法实现库",
+            "method": "克隆代码到本地学习运行",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "海量Star，活跃的社区驱动项目，文档清晰，欢迎贡献，提供Gitpod一键部署，是Python算法学习和实践的优秀资源。Issue关闭率远高于开启率，表明维护积极，社区参与度高。",
+        "isVibeCoding": true,
+        "communityActivity": "非常活跃，拥有庞大的开发者社区，通过Discord、Gitter等渠道支持用户。Issue关闭率远超开启率，表明项目维护积极，响应迅速。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:48:53.811Z"
+    },
+    {
+      "owner": "vuejs",
+      "repo": "vue",
+      "fullName": "vuejs/vue",
+      "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+      "language": "TypeScript",
+      "topics": [
+        "framework",
+        "frontend",
+        "javascript",
+        "vue"
+      ],
+      "license": "MIT",
+      "createdAt": "2013-07-29T03:24:51Z",
+      "url": "https://github.com/vuejs/vue",
+      "analysis": {
+        "positioning": "已停止维护的Vue 2前端框架，用于构建用户界面。",
+        "useCases": [
+          "你正在维护旧Vue 2项目 → 它帮你理解并延续现有系统。",
+          "你正在评估旧Vue 2项目安全性 → 它指引你升级到Vue 3或寻求NES支持。",
+          "你想了解Vue的历史版本和源码 → 它作为历史参考资料和学习资源。"
+        ],
+        "audience": "维护现有Vue 2项目的开发者，或对Vue历史版本感兴趣的学习者和研究者。",
+        "quickStart": {
+          "prerequisites": "不建议新项目使用；若为现有Vue 2项目，无特定前置条件但建议考虑升级。",
+          "steps": [
+            "新项目请访问vuejs/core了解Vue 3最新版本。",
+            "现有Vue 2项目可继续使用，但无官方更新支持；考虑查看官方迁移指南升级Vue 3。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Vue 3 (vuejs/core)",
+            "method": "渐进式组件化开发",
+            "models": "JavaScript/TypeScript",
+            "pricing": "免费"
+          },
+          {
+            "name": "React",
+            "method": "声明式组件化开发",
+            "models": "JavaScript/TypeScript",
+            "pricing": "免费"
+          },
+          {
+            "name": "Angular",
+            "method": "MVVM框架",
+            "models": "TypeScript",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目已停止维护，不建议用于新开发。主要价值在于维护遗留系统或历史研究。",
+        "isVibeCoding": true,
+        "communityActivity": "项目已停止维护，Issue和贡献已不再活跃，官方明确不再提供新特性、更新或修复。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-03-01T14:49:07.113Z"
+    }
+  ]
 }
