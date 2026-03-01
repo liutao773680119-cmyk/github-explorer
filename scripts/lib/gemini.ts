@@ -86,35 +86,47 @@ export async function analyzeProject(params: {
     const model = genAI.getGenerativeModel({ model: GEMINI_MODEL });
     const prompt = buildAnalyzePrompt(params);
 
-    try {
-        const result = await model.generateContent(prompt);
-        const response = result.response;
-        const text = response.text();
+    const MAX_RETRIES = 2;
+    for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+        try {
+            const result = await model.generateContent(prompt);
+            const response = result.response;
+            const text = response.text();
 
-        console.log(`[Gemini] ${params.fullName}: 返回 ${text.length} 字符`);
-        console.log(`[Gemini] ${params.fullName}: 前200字: ${text.slice(0, 200)}`);
+            console.log(`[Gemini] ${params.fullName}: 返回 ${text.length} 字符`);
+            console.log(`[Gemini] ${params.fullName}: 前200字: ${text.slice(0, 200)}`);
 
-        // 提取 JSON（Gemini 可能会包裹在 ```json ... ``` 中）
-        const jsonMatch = text.match(/\{[\s\S]*\}/);
-        if (!jsonMatch) {
-            console.warn(`[Gemini] ${params.fullName}: 返回内容无 JSON, 全文: ${text.slice(0, 500)}`);
+            // 提取 JSON（Gemini 可能会包裹在 ```json ... ``` 中）
+            const jsonMatch = text.match(/\{[\s\S]*\}/);
+            if (!jsonMatch) {
+                console.warn(`[Gemini] ${params.fullName}: 返回内容无 JSON, 全文: ${text.slice(0, 500)}`);
+                return null;
+            }
+
+            // 第一层校验：格式
+            const analysis = validateFormat(jsonMatch[0], params.fullName);
+            if (!analysis) {
+                console.warn(`[Gemini] ${params.fullName}: 格式校验失败, JSON片段: ${jsonMatch[0].slice(0, 300)}`);
+                return null;
+            }
+
+            // 第二层校验：内容修正
+            const sanitized = sanitizeAndMark(analysis);
+            return sanitized;
+        } catch (err) {
+            const errMsg = String(err);
+            // 429 限流：等待后重试
+            if (errMsg.includes('429') && attempt < MAX_RETRIES) {
+                const waitSec = 10 * (attempt + 1);
+                console.warn(`[Gemini] ${params.fullName}: 429 限流，等待 ${waitSec}s 后重试 (${attempt + 1}/${MAX_RETRIES})...`);
+                await sleep(waitSec * 1000);
+                continue;
+            }
+            console.error(`[Gemini] ${params.fullName}: API 调用失败 (attempt ${attempt})`, err);
             return null;
         }
-
-        // 第一层校验：格式
-        const analysis = validateFormat(jsonMatch[0], params.fullName);
-        if (!analysis) {
-            console.warn(`[Gemini] ${params.fullName}: 格式校验失败, JSON片段: ${jsonMatch[0].slice(0, 300)}`);
-            return null;
-        }
-
-        // 第二层校验：内容修正
-        const sanitized = sanitizeAndMark(analysis);
-        return sanitized;
-    } catch (err) {
-        console.error(`[Gemini] ${params.fullName}: API 调用失败`, err);
-        return null;
     }
+    return null;
 }
 
 /**

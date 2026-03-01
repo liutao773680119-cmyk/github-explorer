@@ -11,7 +11,7 @@ export const RE_ANALYZE_WORKFLOW_URL =
 // 模型废弃时只需修改此处，无需全局搜索替换
 // 当前模型：gemini-2.5-flash（免费，Google AI Studio）
 // 升级参考：https://ai.google.dev/gemini-api/docs/models
-export const GEMINI_MODEL = 'gemini-2.5-flash';
+export const GEMINI_MODEL = 'gemini-2.0-flash';
 
 // ── 数据版本 ─────────────────────────────────────
 // 与 projects.json 的 version 字段保持一致
@@ -26,7 +26,7 @@ export const LS_VERSION = '1';
 export const FAVORITES_LIMIT = 200;    // 收藏上限
 export const HISTORY_LIMIT = 500;      // 历史记录上限
 export const README_MAX_CHARS = 3000;  // README 截取长度
-export const GEMINI_SLEEP_MS = 2000;   // Gemini 调用间隔
+export const GEMINI_SLEEP_MS = 4000;   // Gemini 调用间隔（避免 429）
 export const HEALTH_CHECK_DAYS = 30;   // 健康度检查的项目最小入库天数
 export const DEAD_COMMIT_DAYS = 365;   // 判定已死：无 commit 天数
 export const DEAD_ISSUE_RATIO = 5;     // 判定已死：issue 开闭比阈值
