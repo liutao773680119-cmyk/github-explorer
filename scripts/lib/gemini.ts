@@ -91,17 +91,20 @@ export async function analyzeProject(params: {
         const response = result.response;
         const text = response.text();
 
+        console.log(`[Gemini] ${params.fullName}: 返回 ${text.length} 字符`);
+        console.log(`[Gemini] ${params.fullName}: 前200字: ${text.slice(0, 200)}`);
+
         // 提取 JSON（Gemini 可能会包裹在 ```json ... ``` 中）
         const jsonMatch = text.match(/\{[\s\S]*\}/);
         if (!jsonMatch) {
-            console.warn(`[Gemini] ${params.fullName}: 返回内容无 JSON`);
+            console.warn(`[Gemini] ${params.fullName}: 返回内容无 JSON, 全文: ${text.slice(0, 500)}`);
             return null;
         }
 
         // 第一层校验：格式
-        const analysis = validateFormat(jsonMatch[0]);
+        const analysis = validateFormat(jsonMatch[0], params.fullName);
         if (!analysis) {
-            console.warn(`[Gemini] ${params.fullName}: 格式校验失败`);
+            console.warn(`[Gemini] ${params.fullName}: 格式校验失败, JSON片段: ${jsonMatch[0].slice(0, 300)}`);
             return null;
         }
 
@@ -162,11 +165,13 @@ export async function geminiSleep(): Promise<void> {
 /**
  * 第一层：格式校验
  */
-export function validateFormat(raw: string): ProjectAnalysis | null {
+export function validateFormat(raw: string, projectName?: string): ProjectAnalysis | null {
+    const tag = projectName ? `[Validate ${projectName}]` : '[Validate]';
     let parsed: unknown;
     try {
         parsed = JSON.parse(raw);
-    } catch {
+    } catch (err) {
+        console.warn(`${tag} JSON 解析失败: ${err}`);
         return null;
     }
 
@@ -176,14 +181,30 @@ export function validateFormat(raw: string): ProjectAnalysis | null {
         'isVibeCoding', 'communityActivity', 'category',
     ];
     for (const key of required) {
-        if (!(key in (parsed as object))) return null;
+        if (!(key in (parsed as object))) {
+            console.warn(`${tag} 缺少必填字段: ${key}`);
+            return null;
+        }
     }
 
     const p = parsed as Record<string, unknown>;
-    if (typeof p.vibeCodingScore !== 'number') return null;
-    if (typeof p.isVibeCoding !== 'boolean') return null;
-    if (!Array.isArray(p.useCases)) return null;
-    if (!Array.isArray(p.competitors)) return null;
+    if (typeof p.vibeCodingScore !== 'number') {
+        console.warn(`${tag} vibeCodingScore 不是 number: ${typeof p.vibeCodingScore} = ${p.vibeCodingScore}`);
+        return null;
+    }
+    if (typeof p.isVibeCoding !== 'boolean') {
+        console.warn(`${tag} isVibeCoding 不是 boolean: ${typeof p.isVibeCoding} = ${p.isVibeCoding}`);
+        return null;
+    }
+    if (!Array.isArray(p.useCases)) {
+        console.warn(`${tag} useCases 不是数组`);
+        return null;
+    }
+    if (!Array.isArray(p.competitors)) {
+        console.warn(`${tag} competitors 不是数组: ${typeof p.competitors}`);
+        // 容错：如果缺少 competitors，补空数组
+        (parsed as Record<string, unknown>).competitors = [];
+    }
 
     return parsed as ProjectAnalysis;
 }
