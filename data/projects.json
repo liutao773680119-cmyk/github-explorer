@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-01T14:49:07.114Z",
+  "updatedAt": "2026-03-01T14:59:15.214Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -947,6 +947,100 @@
         "category": "前端框架"
       },
       "analyzedAt": "2026-03-01T14:49:07.113Z"
+    },
+    {
+      "owner": "timo3a-comon",
+      "repo": "market-url-torzon",
+      "fullName": "timo3a-comon/market-url-torzon",
+      "description": "Market URL TorZon",
+      "language": "Unknown",
+      "topics": [
+        "market-url-torzon",
+        "nodejs",
+        "sysops"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-01T07:29:52Z",
+      "url": "https://github.com/timo3a-comon/market-url-torzon",
+      "analysis": {
+        "positioning": "黑暗网络市场TorZon的匿名访问指南。",
+        "useCases": [
+          "你想访问暗网市场 → 它提供TorZon市场的匿名入口。",
+          "你寻找暗网商品和服务 → 它引导你到TorZon市场进行探索。",
+          "你需确保暗网浏览匿名性 → 它强调使用Tor浏览器访问TorZon并提供链接。"
+        ],
+        "audience": "寻求匿名访问黑暗网络市场（如TorZon）以浏览非法商品和服务的用户。",
+        "quickStart": {
+          "prerequisites": "Tor浏览器。",
+          "steps": [
+            "安装并启动Tor浏览器。",
+            "复制项目提供的TorZon市场洋葱链接。",
+            "在Tor浏览器中打开该链接以访问市场。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他暗网市场导航/聚合器",
+            "method": "提供多个暗网市场及其镜像链接",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "暗网社区/论坛",
+            "method": "用户分享和更新市场链接及信息",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目直接提供并引导用户访问黑暗网络市场（TorZon），该市场主要用于非法商品和服务交易（如毒品、伪造品、黑客工具），存在严重的法律和道德风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0/0，社区不活跃或不通过Issue进行互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-01T14:58:58.478Z"
+    },
+    {
+      "owner": "ullyheglas",
+      "repo": "onion-torzon-link-market",
+      "fullName": "ullyheglas/onion-torzon-link-market",
+      "description": "Onion TorZon Link Market",
+      "language": "Unknown",
+      "topics": [
+        "directory",
+        "onion-torzon-link-market",
+        "plugin"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-01T07:31:12Z",
+      "url": "https://github.com/ullyheglas/onion-torzon-link-market",
+      "analysis": {
+        "positioning": "提供暗网TorZon市场安全入口及使用指南。",
+        "useCases": [
+          "你想要访问暗网TorZon市场 → 它帮你找到最新、安全的TorZon市场洋葱链接。",
+          "你担心暗网链接的安全性 → 它提供Tor浏览器使用、VPN和验证链接等安全访问建议。",
+          "你需要了解暗网市场的功能 → 它简要介绍TorZon市场提供的各类产品和服务。"
+        ],
+        "audience": "希望匿名、安全地访问暗网TorZon市场，并寻求访问指引和安全建议的用户。",
+        "quickStart": {
+          "prerequisites": "Tor浏览器",
+          "steps": [
+            "下载并安装Tor浏览器。",
+            "通过此项目提供的洋葱链接，在Tor浏览器中访问TorZon市场。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目虽然声明仅用于教育目的且不鼓励非法行为，但其核心功能是为暗网市场提供入口和安全访问指南，该市场明确提及提供非法物品。这种服务内容与声明存在矛盾，且客观上为访问非法内容提供了便利，因此评分较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 统计显示无任何开启或关闭记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-03-01T14:59:15.213Z"
     }
   ]
 }
