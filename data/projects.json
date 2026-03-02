@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-01T14:59:15.214Z",
+  "updatedAt": "2026-03-02T04:00:47.925Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -1041,6 +1041,132 @@
         "category": "安全"
       },
       "analyzedAt": "2026-03-01T14:59:15.213Z"
+    },
+    {
+      "owner": "TriangleMagistrate",
+      "repo": "DeepSeek-Claw",
+      "fullName": "TriangleMagistrate/DeepSeek-Claw",
+      "description": "",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "deepseek",
+        "deepseek-api",
+        "openclaw",
+        "openclaw-skill",
+        "openclaw-skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-03-02T00:19:33Z",
+      "url": "https://github.com/TriangleMagistrate/DeepSeek-Claw",
+      "analysis": {
+        "positioning": "高性能DeepSeek AI模型CLI工具和多语言SDK。",
+        "useCases": [
+          "你在终端想快速与DeepSeek AI交互 → 它帮你提供命令行工具，立即进行问答、聊天。",
+          "你的应用（Node.js/浏览器/Rust）需要集成DeepSeek AI能力 → 它帮你提供TypeScript/Rust SDK，轻松调用DeepSeek API。",
+          "你希望构建基于DeepSeek AI的Agent或工具 → 它提供底层API访问，加速开发。"
+        ],
+        "audience": "需要高效、便捷地在终端或通过编程方式集成DeepSeek AI的开发者和AI应用构建者。",
+        "quickStart": {
+          "prerequisites": "DeepSeek API Key",
+          "steps": [
+            "macOS用户执行一行`curl`命令安装CLI工具`dsclaw`。",
+            "设置环境变量`export DEEPSEEK_API_KEY=sk-...`或使用`dsclaw config set api_key sk-...`配置API Key，即可开始使用`dsclaw chat`或`dsclaw ask`。"
+          ],
+          "note": "macOS提供一键安装通用二进制包；其他系统可选择使用TypeScript SDK或Rust Crates进行集成。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI官方SDK/CLI",
+            "method": "Python/Node.js/Go等语言SDK，或社区CLI工具",
+            "models": "GPT系列、DALL-E等",
+            "pricing": "付费（基于OpenAI API）"
+          },
+          {
+            "name": "Anthropic官方SDK/CLI",
+            "method": "Python/TypeScript等语言SDK",
+            "models": "Claude系列",
+            "pricing": "付费（基于Anthropic API）"
+          }
+        ],
+        "pricing": "免费（项目本身开源免费，但使用DeepSeek AI模型需根据DeepSeek官方API定价付费）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档清晰，提供CLI工具、TypeScript SDK及Rust Crates多语言支持，方便开发者快速集成和使用DeepSeek AI，强调高性能。结构良好，入门简单。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，当前Issue统计显示无开启或关闭的Issue，Star数较少（14），项目处于早期阶段。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-03-02T03:57:17.646Z"
+    },
+    {
+      "owner": "trimstray",
+      "repo": "the-book-of-secret-knowledge",
+      "fullName": "trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "Unknown",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "bsd",
+        "cheatsheets",
+        "devops",
+        "guidelines",
+        "hacking",
+        "hacks",
+        "howtos",
+        "linux",
+        "lists",
+        "manuals",
+        "one-liners",
+        "pentesters",
+        "resources",
+        "search-engines",
+        "security",
+        "security-researchers",
+        "sysops"
+      ],
+      "license": "MIT",
+      "createdAt": "2018-06-23T10:43:14Z",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "analysis": {
+        "positioning": "开发者、运维、安全专家必备的知识宝库。",
+        "useCases": [
+          "你做技术攻防 → 它帮你快速查找渗透测试、安全研究技巧和工具。",
+          "你做日常运维 → 它帮你找到Linux命令、DevOps实践的速查表和手册。",
+          "你寻求效率工具 → 它帮你发现实用的CLI/Web工具和一行代码技巧。"
+        ],
+        "audience": "系统网络管理员、DevOps工程师、渗透测试员和安全研究员，寻找实用秘籍和工具集。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库主页",
+            "浏览目录或使用搜索功能查找所需知识"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Awesome Lists (特定主题)",
+            "method": "浏览GitHub仓库",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "技术博客/论坛/Wiki",
+            "method": "搜索引擎检索，阅读文章",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "完全免费，开源项目。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目收集了大量CLI工具、一行代码、Hacks和Cheatsheets，旨在提升开发者、运维、安全专家的实战效率，直接服务于解决实际技术问题，符合高效、实用的极客编程理念。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数高（110）但无关闭记录，反映大量建议输入；PRs活跃且贡献者众多，项目内容持续丰富。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-03-02T04:00:47.924Z"
     }
   ]
 }
