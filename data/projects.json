@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-02T04:00:47.925Z",
+  "updatedAt": "2026-03-03T03:58:45.507Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -1167,6 +1167,46 @@
         "category": "文档工具"
       },
       "analyzedAt": "2026-03-02T04:00:47.924Z"
+    },
+    {
+      "owner": "Lakr233",
+      "repo": "vphone-cli",
+      "fullName": "Lakr233/vphone-cli",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "WTFPL",
+      "createdAt": "2026-02-26T11:29:08Z",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "analysis": {
+        "positioning": "在Mac上通过Apple框架虚拟化运行定制iOS。",
+        "useCases": [
+          "你想在Mac上研究iOS系统 → 它帮你轻松启动一个虚拟iPhone（iOS 26）。",
+          "你想定制iOS启动链或固件 → 它帮你打补丁、刷入自定义固件（CFW）。",
+          "你需要深度调试虚拟iPhone → 它帮你获取直接的shell控制台访问。",
+          "你想安全研究iOS平台 → 它提供了一个可控的虚拟化环境。"
+        ],
+        "audience": "适合iOS安全研究员、越狱开发者或系统工程师，用于iOS系统虚拟化、固件逆向工程和定制。",
+        "quickStart": {
+          "prerequisites": "禁用macOS的SIP和AMFI（需进入恢复模式操作），安装libimobiledevice工具链和Python虚拟环境。",
+          "steps": [
+            "构建并签名vphone-cli：`make build`",
+            "创建虚拟机目录：`make vm_new`",
+            "准备并提取固件：`make fw_prepare`",
+            "修补iOS启动链：`make fw_patch`",
+            "（进阶）双终端操作：DFU启动，获取SHSH，刷写固件，构建并发送SSH Ramdisk，安装CFW。"
+          ],
+          "note": "运行前必须禁用macOS的系统完整性保护（SIP）和AMFI，以获取Virtualization.framework的私有权限。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档详细，使用Make命令封装了复杂的流程。但由于其核心功能是虚拟化、定制和刷写iOS固件，涉及禁用macOS安全特性，本质上操作复杂且有一定风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数量（38）远超开启数量（10），表明项目维护者积极响应并解决了大部分问题，社区活跃度良好。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-03-03T03:58:45.506Z"
     }
   ]
 }
