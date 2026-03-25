@@ -1,7 +1,6 @@
 // scripts/fetch-and-analyze.ts — 每日抓取 + 解读主脚本
 // 由 GitHub Actions 每日执行：npx tsx scripts/fetch-and-analyze.ts
 
-import * as fs from 'fs';
 import {
     readJsonSafe, writeJsonSafe, dataPath, todayString, nowISO, daysBetween,
 } from './lib/utils';
