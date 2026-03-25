@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 // 构建时生成版本标识文件，用于前端检测新版本
 const versionData = { buildTime: Date.now().toString() };
