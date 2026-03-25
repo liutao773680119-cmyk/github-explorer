@@ -17,7 +17,6 @@ Read in this order before making changes:
 ## Required Behavior
 1. All responses and task lists must be in `中文`.
 2. Display stock codes as 6-digit strings.
-3. Use data folder `涨停数据/` (do not switch back to `1月涨停数据/`).
 4. Do not claim completion before running verification commands.
 5. For complex tasks, keep `task_plan.md`, `findings.md`, `progress.md` updated.
 
