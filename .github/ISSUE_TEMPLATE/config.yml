@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security issue
+    url: https://github.com/liutao773680119-cmyk/github-explorer/security
+    about: Please do not disclose vulnerabilities publicly. Follow SECURITY.md for private reporting.
