@@ -7,6 +7,18 @@ export interface Competitor {
     pricing: string;
 }
 
+export type AIProviderId = 'gemini' | 'deepseek' | 'openai' | 'openrouter';
+
+export interface AIProviderDefinition {
+    id: AIProviderId;
+    label: string;
+    baseURL: string;
+    defaultModel: string;
+    apiKeyEnv: string;
+    apiKeyFile: string;
+    sleepMs: number;
+}
+
 export interface QuickStart {
     prerequisites: string | null;
     steps: string[];

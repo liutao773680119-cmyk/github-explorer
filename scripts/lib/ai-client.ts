@@ -1,16 +1,27 @@
-// scripts/lib/gemini.ts — AI 解读调用 + 校验（DeepSeek via OpenAI SDK）
+// scripts/lib/ai-client.ts — AI 解读调用 + 校验（OpenAI-compatible providers）
 
 import OpenAI from 'openai';
-import { getApiKey, sleep } from './utils';
-import { AI_MODEL, AI_BASE_URL, AI_SLEEP_MS } from '../../app/lib/config';
+import { sleep } from './utils';
+import { loadAiRuntimeConfig } from './ai';
 import type { ProjectAnalysis, ProjectCategory } from '../../app/lib/types';
 
 let _client: OpenAI | null = null;
+let _runtimeConfig: ReturnType<typeof loadAiRuntimeConfig> | null = null;
+
+function getRuntimeConfig(): ReturnType<typeof loadAiRuntimeConfig> {
+    if (!_runtimeConfig) {
+        _runtimeConfig = loadAiRuntimeConfig();
+    }
+    return _runtimeConfig;
+}
 
 function getClient(): OpenAI {
     if (!_client) {
-        const key = getApiKey('GEMINI_API_KEY', 'Googole Ai Studo Api.txt');
-        _client = new OpenAI({ apiKey: key, baseURL: AI_BASE_URL });
+        const runtimeConfig = getRuntimeConfig();
+        _client = new OpenAI({
+            apiKey: runtimeConfig.apiKey,
+            baseURL: runtimeConfig.provider.baseURL,
+        });
     }
     return _client;
 }
@@ -83,13 +94,14 @@ export async function analyzeProject(params: {
     readme: string;
 }): Promise<ProjectAnalysis | null> {
     const client = getClient();
+    const runtimeConfig = getRuntimeConfig();
     const prompt = buildAnalyzePrompt(params);
 
     const MAX_RETRIES = 2;
     for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
         try {
             const completion = await client.chat.completions.create({
-                model: AI_MODEL,
+                model: runtimeConfig.model,
                 messages: [{ role: 'user', content: prompt }],
                 temperature: 0.3,
             });
@@ -138,6 +150,7 @@ export async function selectHighlights(
     projectsSummary: Array<{ fullName: string; positioning: string; stars: number; todayDelta: number }>
 ): Promise<Array<{ fullName: string; reason: string }>> {
     const client = getClient();
+    const runtimeConfig = getRuntimeConfig();
 
     const list = projectsSummary
         .map((p) => `- ${p.fullName}：${p.positioning}（⭐${p.stars}，今日+${p.todayDelta}）`)
@@ -154,7 +167,7 @@ ${list}
 
     try {
         const completion = await client.chat.completions.create({
-            model: AI_MODEL,
+            model: runtimeConfig.model,
             messages: [{ role: 'user', content: prompt }],
             temperature: 0.3,
         });
@@ -175,7 +188,7 @@ ${list}
  * AI 调用间隔
  */
 export async function geminiSleep(): Promise<void> {
-    await sleep(AI_SLEEP_MS);
+    await sleep(getRuntimeConfig().provider.sleepMs);
 }
 
 // ── 校验函数（照搬 CLAUDE.md） ──────────────────

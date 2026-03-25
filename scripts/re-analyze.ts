@@ -4,7 +4,7 @@
 import { readJsonSafe, writeJsonSafe, dataPath, nowISO } from './lib/utils';
 import { fetchRepoStats } from './lib/github';
 import { fetchReadmeWithCache } from './lib/readme-cache';
-import { analyzeProject, geminiSleep } from './lib/gemini';
+import { analyzeProject, geminiSleep } from './lib/ai-client';
 import type { ProjectsJson, StatsJson } from '../app/lib/types';
 
 async function main(): Promise<void> {
