@@ -1,7 +1,6 @@
 // scripts/fetch-and-analyze.ts — 每日抓取 + 解读主脚本
 // 由 GitHub Actions 每日执行：npx tsx scripts/fetch-and-analyze.ts
 
-import * as fs from 'fs';
 import {
     readJsonSafe, writeJsonSafe, dataPath, todayString, nowISO, daysBetween,
 } from './lib/utils';
@@ -10,7 +9,7 @@ import {
     searchClassicProjects, fetchRepoStats, type SearchResult,
 } from './lib/github';
 import { fetchReadmeWithCache } from './lib/readme-cache';
-import { analyzeProject, selectHighlights, geminiSleep } from './lib/gemini';
+import { analyzeProject, selectHighlights, geminiSleep } from './lib/ai-client';
 import { HEALTH_CHECK_DAYS, DEAD_COMMIT_DAYS, DEAD_ISSUE_RATIO } from '../app/lib/config';
 import type {
     Project, ProjectStats, ProjectsJson, StatsJson,

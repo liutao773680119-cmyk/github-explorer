@@ -12,6 +12,13 @@ jobs:
   fetch-and-analyze:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      AI_PROVIDER: gemini
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
     steps:
       - uses: actions/checkout@v4
@@ -24,9 +31,6 @@ jobs:
       - run: npm ci
 
       - name: Run fetch-and-analyze
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: npx tsx scripts/fetch-and-analyze.ts
 
       - name: Commit and push data
