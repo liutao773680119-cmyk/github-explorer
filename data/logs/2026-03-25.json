@@ -1,0 +1,98 @@
+{
+  "version": "1",
+  "date": "2026-03-25",
+  "startedAt": "2026-03-25T12:53:11.828Z",
+  "finishedAt": "2026-03-25T13:35:05.679Z",
+  "durationSeconds": 2514,
+  "success": true,
+  "stats": {
+    "fetched": 119,
+    "newProjects": 95,
+    "skipped": 16,
+    "aiCalls": 96,
+    "statsUpdated": 111
+  },
+  "errors": [
+    {
+      "time": "2026-03-25T13:03:19.222Z",
+      "level": "error",
+      "project": "GAIR-NLP/daVinci-MagiHuman",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:20:11.706Z",
+      "level": "error",
+      "project": "coreyhaines31/marketingskills",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:20:22.385Z",
+      "level": "error",
+      "project": "xai-org/x-algorithm",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:20:33.041Z",
+      "level": "error",
+      "project": "RightNow-AI/openfang",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:22:25.647Z",
+      "level": "error",
+      "project": "EbookFoundation/free-programming-books",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:23:39.156Z",
+      "level": "warn",
+      "project": "vinta/awesome-python",
+      "stage": "ai_call",
+      "message": "AI 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:23:52.376Z",
+      "level": "error",
+      "project": "awesome-selfhosted/awesome-selfhosted",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:28:54.074Z",
+      "level": "error",
+      "project": "AUTOMATIC1111/stable-diffusion-webui",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-25T13:34:58.776Z",
+      "level": "error",
+      "project": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stage": "github_fetch",
+      "message": "HttpError: Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms)",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
