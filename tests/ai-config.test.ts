@@ -3,14 +3,14 @@ import assert from 'node:assert/strict';
 
 import { resolveAiRuntimeConfig } from '../scripts/lib/ai';
 
-test('未设置 AI_PROVIDER 时默认使用 gemini', () => {
+test('未设置 AI_PROVIDER 时默认使用 deepseek', () => {
     const config = resolveAiRuntimeConfig({
-        GEMINI_API_KEY: 'gemini-test-key',
+        DEEPSEEK_API_KEY: 'deepseek-test-key',
     });
 
-    assert.equal(config.provider.id, 'gemini');
-    assert.equal(config.model, 'gemini-2.5-flash-lite');
-    assert.equal(config.apiKey, 'gemini-test-key');
+    assert.equal(config.provider.id, 'deepseek');
+    assert.equal(config.model, 'deepseek-chat');
+    assert.equal(config.apiKey, 'deepseek-test-key');
 });
 
 test('设置 AI_PROVIDER=deepseek 时切换到 deepseek 默认配置', () => {

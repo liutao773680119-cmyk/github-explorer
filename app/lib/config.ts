@@ -10,8 +10,8 @@ export const RE_ANALYZE_WORKFLOW_URL =
 import type { AIProviderDefinition, AIProviderId } from './types';
 
 // ── AI 模型配置 ──────────────────────────────────
-// 默认 provider 保持 Gemini，兼容现有脚本行为
-export const DEFAULT_AI_PROVIDER: AIProviderId = 'gemini';
+// 默认 provider 切到 DeepSeek，和当前运营使用的 API 保持一致
+export const DEFAULT_AI_PROVIDER: AIProviderId = 'deepseek';
 
 export const AI_PROVIDERS: Record<AIProviderId, AIProviderDefinition> = {
     gemini: {
