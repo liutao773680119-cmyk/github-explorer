@@ -9,7 +9,7 @@ import {
     searchClassicProjects, fetchRepoStats, type SearchResult,
 } from './lib/github';
 import { fetchReadmeWithCache } from './lib/readme-cache';
-import { analyzeProject, selectHighlights, geminiSleep } from './lib/ai-client';
+import { analyzeProject, selectHighlights, aiSleep } from './lib/ai-client';
 import { HEALTH_CHECK_DAYS, DEAD_COMMIT_DAYS, DEAD_ISSUE_RATIO } from '../app/lib/config';
 import type {
     Project, ProjectStats, ProjectsJson, StatsJson,
@@ -60,7 +60,7 @@ async function main(): Promise<void> {
         version: '1',
         date: todayString(),
         startedAt: nowISO(),
-        stats: { fetched: 0, newProjects: 0, skipped: 0, geminiCalls: 0, statsUpdated: 0 },
+        stats: { fetched: 0, newProjects: 0, skipped: 0, aiCalls: 0, statsUpdated: 0 },
     };
 
     console.log(`[${todayString()}] 开始每日抓取与解读...`);
@@ -161,8 +161,8 @@ async function main(): Promise<void> {
             log.stats!.statsUpdated++;
 
             if (isNew) {
-                // 新项目：抓 README → 调 Gemini → 写入
-                console.log(`[New] ${fullName} — 调用 Gemini 解读...`);
+                // 新项目：抓 README → 调 AI provider → 写入
+                console.log(`[New] ${fullName} — 调用 ${process.env.AI_PROVIDER?.trim() || 'default AI provider'} 解读...`);
 
                 let readme = '';
                 try {
@@ -186,7 +186,7 @@ async function main(): Promise<void> {
                     readme,
                 });
 
-                log.stats!.geminiCalls++;
+                log.stats!.aiCalls++;
 
                 if (analysis) {
                     const project: Project = {
@@ -216,13 +216,13 @@ async function main(): Promise<void> {
                     });
                 } else {
                     errors.push({
-                        time: nowISO(), level: 'warn', project: fullName, stage: 'gemini_call',
-                        message: 'Gemini 解读失败或校验不通过', retries: 0, skipped: true,
+                        time: nowISO(), level: 'warn', project: fullName, stage: 'ai_call',
+                        message: 'AI 解读失败或校验不通过', retries: 0, skipped: true,
                     });
                     log.stats!.skipped++;
                 }
 
-                await geminiSleep();
+                await aiSleep();
             } else {
                 // 已有项目：只更新 stats
                 log.stats!.skipped++;

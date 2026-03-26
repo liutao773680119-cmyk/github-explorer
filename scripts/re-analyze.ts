@@ -4,7 +4,7 @@
 import { readJsonSafe, writeJsonSafe, dataPath, nowISO } from './lib/utils';
 import { fetchRepoStats } from './lib/github';
 import { fetchReadmeWithCache } from './lib/readme-cache';
-import { analyzeProject, geminiSleep } from './lib/ai-client';
+import { analyzeProject, aiSleep } from './lib/ai-client';
 import type { ProjectsJson, StatsJson } from '../app/lib/types';
 
 async function main(): Promise<void> {
@@ -39,8 +39,8 @@ async function main(): Promise<void> {
     console.log('[Step 2] 抓取 README...');
     const readme = await fetchReadmeWithCache(fullName);
 
-    // 3. 重新调用 Gemini
-    console.log('[Step 3] 调用 Gemini 重新解读...');
+    // 3. 重新调用当前 AI provider
+    console.log(`[Step 3] 调用 ${process.env.AI_PROVIDER?.trim() || 'default AI provider'} 重新解读...`);
     const analysis = await analyzeProject({
         fullName,
         description: project.description,
@@ -54,7 +54,7 @@ async function main(): Promise<void> {
     });
 
     if (!analysis) {
-        console.error('[FATAL] Gemini 重新解读失败');
+        console.error('[FATAL] AI 重新解读失败');
         process.exit(1);
     }
 
@@ -91,7 +91,7 @@ async function main(): Promise<void> {
     statsData.updatedAt = nowISO();
     writeJsonSafe(dataPath('stats.json'), statsData);
 
-    await geminiSleep(); // 确保不超 rate limit
+    await aiSleep(); // 确保不超 rate limit
 
     console.log(`[完成] ${fullName} 已重新解读并写入`);
 }

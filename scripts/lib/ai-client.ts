@@ -187,7 +187,7 @@ ${list}
 /**
  * AI 调用间隔
  */
-export async function geminiSleep(): Promise<void> {
+export async function aiSleep(): Promise<void> {
     await sleep(getRuntimeConfig().provider.sleepMs);
 }
 
