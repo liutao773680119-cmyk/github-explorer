@@ -122,7 +122,7 @@ export type TabId = 'today' | 'week' | 'newStars' | 'vibeCoding' | 'classic' | '
 
 export type SortKey = 'stars' | 'todayStarsDelta' | 'createdAt' | 'pushedAt' | 'vibeCodingScore';
 
-export type RunErrorStage = 'github_fetch' | 'readme_fetch' | 'gemini_call' | 'json_parse' | 'file_write' | 'git_push';
+export type RunErrorStage = 'github_fetch' | 'readme_fetch' | 'ai_call' | 'json_parse' | 'file_write' | 'git_push';
 
 export interface RunError {
     time: string;
@@ -145,7 +145,7 @@ export interface RunLog {
         fetched: number;
         newProjects: number;
         skipped: number;
-        geminiCalls: number;
+        aiCalls: number;
         statsUpdated: number;
     };
     errors: RunError[];
