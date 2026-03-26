@@ -7,9 +7,12 @@ out/
 .env*.local
 Github Token.txt
 Googole Ai Studo Api.txt
+deepseek token.txt
 
 # debug
 npm-debug.log*
+.codex-dev.log
+.codex-dev.err.log
 
 # IDE
 .vscode/
@@ -21,6 +24,7 @@ Thumbs.db
 
 # build
 dist/
+.tools/
 
 # backup files
 *.bak.json
