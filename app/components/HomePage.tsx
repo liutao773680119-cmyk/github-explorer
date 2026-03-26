@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Header from './Header';
 import TabSwitcher from './TabSwitcher';
 import SearchBar from './SearchBar';
@@ -23,15 +23,14 @@ export default function HomePage({ projectsJson, statsJson, snapshot }: HomePage
     const [searchQuery, setSearchQuery] = useState('');
     const [readFilter, setReadFilter] = useState<'all' | 'unread' | 'read'>('all');
     const [selectedProject, setSelectedProject] = useState<string | null>(null);
-    const [favorites, setFavorites] = useState<string[]>(() => {
-        if (typeof window === 'undefined') return [];
+    const [favorites, setFavorites] = useState<string[]>([]);
+    const [readList, setReadList] = useState<string[]>([]);
+
+    useEffect(() => {
         initStorage();
-        return getFavorites();
-    });
-    const [readList, setReadList] = useState<string[]>(() => {
-        if (typeof window === 'undefined') return [];
-        return getReadList();
-    });
+        setFavorites(getFavorites());
+        setReadList(getReadList());
+    }, []);
 
     // 合并数据
     const allProjects = useMemo(
