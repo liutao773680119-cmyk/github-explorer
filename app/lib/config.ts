@@ -29,7 +29,7 @@ export const AI_PROVIDERS: Record<AIProviderId, AIProviderDefinition> = {
         baseURL: 'https://api.deepseek.com/v1',
         defaultModel: 'deepseek-chat',
         apiKeyEnv: 'DEEPSEEK_API_KEY',
-        apiKeyFile: 'DeepSeek Api.txt',
+        apiKeyFile: 'deepseek token.txt',
         sleepMs: 2500,
     },
     openai: {
