@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-26T04:22:48.043Z",
+  "updatedAt": "2026-03-27T04:23:35.147Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -3330,6 +3330,1079 @@
         "category": "CLI工具"
       },
       "analyzedAt": "2026-03-26T04:22:48.042Z"
+    },
+    {
+      "owner": "alvinunreal",
+      "repo": "awesome-opensource-ai",
+      "fullName": "alvinunreal/awesome-opensource-ai",
+      "description": "Curated list of the best truly open-source AI projects, models, tools, and infrastructure.",
+      "language": "Unknown",
+      "topics": [
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "awesome",
+        "awesome-list",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mlops",
+        "open-source",
+        "open-source-ai",
+        "rag"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-03-24T15:58:22Z",
+      "url": "https://github.com/alvinunreal/awesome-opensource-ai",
+      "analysis": {
+        "positioning": "精选开源AI项目、模型、工具及基础设施列表",
+        "useCases": [
+          "你寻找合适的开源AI模型 → 它帮你快速找到分类清晰、经过筛选的优质模型。",
+          "你搭建AI应用 → 它帮你发现所需的AI Agent、RAG或MLOps工具。",
+          "你学习AI最新技术 → 它帮你浏览AI核心框架、生成媒体工具和安全对齐资源。"
+        ],
+        "audience": "AI开发者、研究人员、技术选型者，用于快速了解并选择最新的开源AI技术栈。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开GitHub项目页面。",
+            "按内容分类（如核心框架、基础模型、Agentic AI等）浏览或搜索感兴趣的项目。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "dair-ai/Awesome-LLM",
+            "method": "浏览GitHub列表",
+            "models": "专注于LLM模型、工具及资源",
+            "pricing": "免费"
+          },
+          {
+            "name": "humanloop/awesome-llm-apps",
+            "method": "浏览GitHub列表",
+            "models": "专注于LLM应用、框架及Demo",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个精选资源列表，它本身不涉及编程，但为AI开发者提供了高效发现和选择开源项目、模型和工具的途径，间接提升开发效率。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue 开启数量不多但目前无关闭记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-27T04:17:42.105Z"
+    },
+    {
+      "owner": "magnum6actual",
+      "repo": "flipoff",
+      "fullName": "magnum6actual/flipoff",
+      "description": "Free split-flap display emulator for any TV. The classic flip-board look, without the $3,500 hardware.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-26T12:46:35Z",
+      "url": "https://github.com/magnum6actual/flipoff",
+      "analysis": {
+        "positioning": "免费复古翻牌显示器模拟器，任何电视都能用。",
+        "useCases": [
+          "你想拥有复古翻牌显示屏，但不想花大价钱 → 它让你免费在电视上模拟，省去3500美元硬件费。",
+          "你需要在门店、办公室展示动态信息，追求怀旧风格 → 它提供离线、可定制的翻牌信息板，视觉和听觉俱佳。",
+          "你寻求一个零依赖、易部署的数字标牌方案 → 它只需浏览器打开`index.html`即可运行，纯原生前端实现。"
+        ],
+        "audience": "想在电视或显示器上免费拥有复古翻牌显示效果的人，无论是个人装饰、店铺显示还是怀旧项目。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目到本地",
+            "在浏览器中打开`index.html`（或使用任意静态文件服务器运行）",
+            "点击页面任意位置启用音频",
+            "按`F`键切换全屏电视模式"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "实体翻牌显示器",
+            "method": "购买并安装昂贵的物理硬件",
+            "models": "各种商用或定制型号",
+            "pricing": "约3500美元起"
+          },
+          {
+            "name": "通用数字标牌软件",
+            "method": "安装软件，通过内容管理系统分发内容到显示器",
+            "models": "支持各种显示设备和内容管理方案",
+            "pricing": "免费到付费订阅不等"
+          }
+        ],
+        "pricing": "完全免费且开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "纯原生HTML/CSS/JS实现，无框架无依赖，代码结构清晰易懂，复古风格独特，动画和音效逼真，非常适合前端初学者学习或快速部署特定场景。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，有少量开放问题但暂无关闭记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-27T04:18:07.655Z"
+    },
+    {
+      "owner": "elder-plinius",
+      "repo": "G0DM0D3",
+      "fullName": "elder-plinius/G0DM0D3",
+      "description": "LIBERATED AI CHAT",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-03-25T17:43:02Z",
+      "url": "https://github.com/elder-plinius/G0DM0D3",
+      "analysis": {
+        "positioning": "解放AI模型限制，多模型红队与认知研究界面。",
+        "useCases": [
+          "你想测试AI模型边界 → 它提供如Parseltongue的输入扰动引擎助你红队测试。",
+          "你想深入探索AI模型认知能力 → 它通过GODMODE CLASSIC并行测试和ULTRAPLINIAN多模型评估提供研究工具。",
+          "你追求无审查的自由AI互动 → 它提供“解放AI”模式，突破模型后训练层限制。"
+        ],
+        "audience": "适合寻求AI模型极限、进行红队测试或深度认知研究的黑客、哲学家和系统玩家。",
+        "quickStart": {
+          "prerequisites": "OpenRouter API key",
+          "steps": [
+            "访问 godmod3.ai",
+            "在设置中输入 OpenRouter API key"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LobeChat",
+            "method": "自部署/桌面应用",
+            "models": "众多API/本地模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "ChatGPT (OpenAI)",
+            "method": "官方网页/App",
+            "models": "GPT系列",
+            "pricing": "部分免费"
+          }
+        ],
+        "pricing": "免费（软件开源，但模型API调用需自费OpenRouter）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目名、Slogan、ASCII艺术、特色功能命名（GODMODE CLASSIC, Parseltongue, ULTRAPLINIAN）、目标用户（黑客、哲学家、系统玩家）、单文件部署的极客风格，以及Konami代码彩蛋，无一不彰显独特的极客和自由文化，与Vibe Coding高度契合。",
+        "isVibeCoding": true,
+        "communityActivity": "存在少量待处理问题（4个开启），但目前无已关闭问题，社区活跃度有待观察，响应速度未知。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-03-27T04:18:23.354Z"
+    },
+    {
+      "owner": "joewongjc",
+      "repo": "type4me",
+      "fullName": "joewongjc/type4me",
+      "description": "MacOS语音输入工具，实时识别、大模型文本优化、全本地存储",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-22T15:51:37Z",
+      "url": "https://github.com/joewongjc/type4me",
+      "analysis": {
+        "positioning": "MacOS高级语音输入，智能优化，私密高效。",
+        "useCases": [
+          "你厌倦了昂贵、封闭、响应慢的传统语音输入法 → Type4Me提供免费、全本地、极速的离线识别，数据完全私有。",
+          "你想让语音不只是听写，还能直接执行复杂操作（如翻译、优化文本、发送命令） → Type4Me通过自定义Prompt和上下文变量，将语音升级为智能命令，结合选中文字和剪切板高效工作。",
+          "你需要在嘈杂环境或离线状态下进行高准确度的语音输入，并希望定制专属词汇 → Type4Me支持本地双语模型识别、ASR热词与片段替换，保证输入效率与准确率。"
+        ],
+        "audience": "MacOS用户，尤其是在Apple Silicon设备上追求高效、私密、可定制语音输入，并希望结合AI进行文本处理的开发者或专业人士。",
+        "quickStart": {
+          "prerequisites": "macOS 14.0+, Xcode Command Line Tools, CMake",
+          "steps": [
+            "直接下载 DMG 包并拖入应用文件夹，体验云端识别。",
+            "如需本地离线识别，需从源码构建，运行 `scripts/build-sherpa.sh` 编译引擎，并手动下载模型解压到指定目录。"
+          ],
+          "note": "首次打开非App Store应用需在系统设置中授权。本地识别需额外手动下载模型并放置。"
+        },
+        "competitors": [
+          {
+            "name": "商业语音输入法",
+            "method": "云端服务，需订阅",
+            "models": "专有模型",
+            "pricing": "付费（月费）"
+          },
+          {
+            "name": "MacOS内置听写",
+            "method": "系统自带",
+            "models": "Apple模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "云端语音识别API（如Deepgram, 火山引擎）",
+            "method": "API接入",
+            "models": "专有模型",
+            "pricing": "按用量计费（部分厂商提供免费额度）"
+          }
+        ],
+        "pricing": "免费。本地识别完全免费离线，云端识别依赖第三方API按用量计费（部分厂商提供免费额度）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目解决了用户痛点，功能强大且高度可定制，特别是在本地识别和LLM集成方面有创新。README清晰，提供下载和源码构建两种方式，并详细说明了首次使用可能遇到的问题及解决方案，对开发者友好。唯一扣分点是本地模型安装过程对新手稍复杂。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数远高于开启数（13:4），且有详细的文档和更新，表明项目维护者积极响应并持续更新。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:18:43.636Z"
+    },
+    {
+      "owner": "ryanstephen",
+      "repo": "lil-agents",
+      "fullName": "ryanstephen/lil-agents",
+      "description": "tiny AI companions that live on your macOS dock",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-23T04:28:40Z",
+      "url": "https://github.com/ryanstephen/lil-agents",
+      "analysis": {
+        "positioning": "macOS桌面AI伴侣，提供CLI交互界面。",
+        "useCases": [
+          "你想快速与AI助手对话 → 它在macOS Dock栏上随时待命，点击即可开启AI终端。",
+          "你想在不同AI模型间切换使用 → 它在菜单栏提供快捷切换Claude/Codex/Copilot CLI。",
+          "你想让AI助手更生动有趣 → 它以动画角色形式在Dock上走动，有思考气泡和音效。"
+        ],
+        "audience": "macOS用户，尤其是开发者和需要频繁调用AI CLI进行编码或咨询的用户。",
+        "quickStart": {
+          "prerequisites": "macOS Sonoma (14.0+) 系统；已安装至少一个支持的CLI（Claude Code/OpenAI Codex/GitHub Copilot）。",
+          "steps": [
+            "从官网下载并安装lil-agents。",
+            "在菜单栏配置并选择你已安装的AI CLI即可使用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT Desktop App (非官方)",
+            "method": "桌面应用UI",
+            "models": "GPT-x",
+            "pricing": "免费（需API Key或订阅）"
+          },
+          {
+            "name": "Raycast AI",
+            "method": "命令搜索栏",
+            "models": "GPT-x, Claude等（可配置）",
+            "pricing": "部分免费/付费Pro"
+          }
+        ],
+        "pricing": "免费（软件本体），但所集成的AI服务可能需要额外订阅或付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "独特的动画角色、思考气泡、音效及多主题，将AI交互融入生动有趣的桌面体验，极具“vibe”。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度中等，存在较多开放Issue，但考虑到项目规模尚可。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-03-27T04:19:01.540Z"
+    },
+    {
+      "owner": "jxnxts",
+      "repo": "mcp-brasil",
+      "fullName": "jxnxts/mcp-brasil",
+      "description": "MCP Server para 27 APIs públicas brasileiras",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-26T00:38:54Z",
+      "url": "https://github.com/jxnxts/mcp-brasil",
+      "analysis": {
+        "positioning": "连接AI Agent到巴西公共数据的MCP服务器。",
+        "useCases": [
+          "你做巴西政策研究 → 它帮你查询2024年AI相关立法项目及作者",
+          "你做巴西经济分析 → 它帮你比较过去12个月Selic利率与通胀趋势",
+          "你做政府透明度审查 → 它帮你列出2024年巴西联邦政府十大合同及供应商",
+          "你做复杂数据关联 → 它帮你交叉查询议员开销、投票和提案信息"
+        ],
+        "audience": "AI开发者、数据分析师和研究人员，用于构建基于巴西公共数据的AI应用或进行政策、市场分析。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "安装项目：`pip install mcp-brasil`",
+            "启动HTTP服务：`fastmcp run mcp_brasil.server:mcp --transport http --port 8000`"
+          ],
+          "note": "多数API无需API Key，少数关键API（如Transparência和DataJud）需免费注册获取Key。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身开源，提供26个免费API，2个API需免费注册获取Key）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，提供了多种AI客户端（Claude Desktop/Code, VS Code）的快速启动指南和通用HTTP接口，模块化设计和异步处理增强了实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，Issue统计显示0开启/1关闭，社区互动较少。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:19:16.811Z"
+    },
+    {
+      "owner": "AAAAAAAJ",
+      "repo": "slides",
+      "fullName": "AAAAAAAJ/slides",
+      "description": "slides generates prompts for various expression styles",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-24T03:33:22Z",
+      "url": "https://github.com/AAAAAAAJ/slides",
+      "analysis": {
+        "positioning": "AI生成风格化PPT幻灯片的Prompt集合，专为nanobanana2优化。",
+        "useCases": [
+          "你急需高质量、视觉吸睛的PPT → 它帮你用AI一键生成复古波普、赛博朋克等多样风格幻灯片。",
+          "你不擅长PPT设计或AI Prompt编写 → 它提供现成多风格Prompt模板，直接复制粘贴即可出图。",
+          "你希望快速将专业知识转化为视觉化干货 → 它提供总结、比喻、数据化等核心能力Prompt，提升表达效率。"
+        ],
+        "audience": "适合需要快速生成专业、有设计感PPT的职场人士、内容创作者和AI工具使用者，尤其偏爱nanobanana2平台的用户。",
+        "quickStart": {
+          "prerequisites": "确保已安装或可访问nanobanana2平台。",
+          "steps": [
+            "从PROMPTS.md选择并复制所需风格的Prompt",
+            "根据内容需要修改Prompt",
+            "将Prompt粘贴至nanobanana2平台生成幻灯片"
+          ],
+          "note": "当前主要针对nanobanana2平台及其指定模型和分辨率进行优化。"
+        },
+        "competitors": [],
+        "pricing": "免费 (项目本身提供Prompt免费，nanobanana2平台可能有付费模式)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目核心在于通过提供不同风格（如复古波普、赛博朋克、极简主义）的Prompt，直接控制AI生成幻灯片的视觉与情感调性，旨在打造具有特定“氛围”的演示文稿。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue区无开启或关闭记录，可能项目较新或维护良好无需Issue。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-03-27T04:19:28.886Z"
+    },
+    {
+      "owner": "HKUDS",
+      "repo": "nanobot",
+      "fullName": "HKUDS/nanobot",
+      "description": "\"🐈 nanobot: The Ultra-Lightweight OpenClaw\"",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-02-01T07:16:15Z",
+      "url": "https://github.com/HKUDS/nanobot",
+      "analysis": {
+        "positioning": "超轻量级个人AI助手，OpenClaw的精神继承者。",
+        "useCases": [
+          "你需要在飞书、微信、Telegram等平台统一管理AI交互 → 它帮你打通多渠道，实现智能回复与媒体发送。",
+          "你追求极简高效，想用代码量极少的AI Agent处理日常任务 → 它提供核心AI助手功能，部署维护更轻松。",
+          "你想集成不同AI模型（如OpenAI、Anthropic、Ollama）进行智能搜索或问答 → 它支持多提供商模型和网络搜索。"
+        ],
+        "audience": "追求极致轻量、自定义多平台AI助手的开发者或技术爱好者。",
+        "quickStart": {
+          "prerequisites": "Python ≥3.11",
+          "steps": [
+            "pip install nanobot-ai",
+            "运行交互式设置向导配置服务商和模型"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OpenClaw",
+            "method": "类似nanobot的AI Agent框架，但代码量更庞大",
+            "models": "基于AI模型API，具体支持模型需查阅其项目",
+            "pricing": "免费（开源项目），使用第三方API可能付费"
+          },
+          {
+            "name": "LangChain",
+            "method": "LLM框架，需自行构建和部署Agent",
+            "models": "广泛支持各类LLM（OpenAI, HuggingFace, Anthropic等）",
+            "pricing": "免费（开源框架），使用第三方API可能付费"
+          }
+        ],
+        "pricing": "免费（开源项目），但使用第三方AI模型API可能需支付服务费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目定位清晰，强调“超轻量”和“极简主义”，命名和描述富有现代感，并持续活跃更新，具备优秀的开发者体验。",
+        "isVibeCoding": true,
+        "communityActivity": "维护团队开发和响应速度极快（Readme显示每日更新），但待处理Issue数量较多，社区仍需更多参与。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:19:53.519Z"
+    },
+    {
+      "owner": "hesamsheikh",
+      "repo": "awesome-openclaw-usecases",
+      "fullName": "hesamsheikh/awesome-openclaw-usecases",
+      "description": "A community collection of OpenClaw use cases for making life easier.",
+      "language": "Unknown",
+      "topics": [
+        "awesome-list",
+        "clawdbot",
+        "moltbot",
+        "openclaw",
+        "openclaw-plugin",
+        "openclaw-setup",
+        "openclaw-skills",
+        "usecase"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-02-08T22:08:17Z",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
+      "analysis": {
+        "positioning": "OpenClaw社区用法集，帮你发现AI Agent的实用场景。",
+        "useCases": [
+          "你关注Reddit和YouTube → 它帮你汇总每日内容摘要，不漏过精彩。",
+          "你想管理X（Twitter）账号 → 它帮你自动化发推、回复、点赞、分析等操作。",
+          "你有任务或目标 → 它帮你自主规划、执行任务，甚至自动化构建迷你应用。"
+        ],
+        "audience": "OpenClaw用户、开发者或对AI Agent实际应用感兴趣的人，提供场景灵感。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面",
+            "浏览不同类别的OpenClaw使用案例"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain Examples",
+            "method": "查看官方文档和社区项目",
+            "models": "各种LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "AutoGPT Community Projects",
+            "method": "浏览GitHub仓库和论坛",
+            "models": "各种LLM",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "社区星标超高，表明关注度极高；提供了丰富多样的AI Agent实际应用案例，但Issue关闭率为0，可能存在贡献处理积压。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启量较大（43个）但关闭量为0，表明社区有贡献意愿，但维护者处理进度可能滞后。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:20:13.107Z"
+    },
+    {
+      "owner": "sipeed",
+      "repo": "picoclaw",
+      "fullName": "sipeed/picoclaw",
+      "description": "Tiny, Fast, and Deployable anywhere — automate the mundane, unleash your creativity",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-02-04T12:32:35Z",
+      "url": "https://github.com/sipeed/picoclaw",
+      "analysis": {
+        "positioning": "Go语言开发，可在$10硬件运行的超高效个人AI助手。",
+        "useCases": [
+          "你资源有限，想部署个人AI助手 → 它帮你用$10硬件、10MB内存跑起AI助理。",
+          "你追求极致效率和低延迟 → 它帮你实现毫秒级启动的AI Agent，快速响应。",
+          "你希望自动化日常琐事 → 它帮你通过AI能力，在本地设备上高效完成任务。"
+        ],
+        "audience": "预算有限、追求极致轻量化部署的开发者，或希望在边缘设备上运行私有AI助手的个人用户。",
+        "quickStart": {
+          "prerequisites": "Go 1.25+ 环境，基础Linux/ARM设备（可选）",
+          "steps": [
+            "访问官方文档 (docs.picoclaw.io) 获取安装部署指南。",
+            "根据文档配置AI模型和参数，启动PicoClaw服务。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "NanoBot",
+            "method": "Python实现，启发PicoClaw的AI助手",
+            "models": "未知",
+            "pricing": "免费"
+          },
+          {
+            "name": "OpenClaw",
+            "method": "未知，PicoClaw声称其内存消耗比OpenClaw少99%",
+            "models": "未知",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。MIT开源许可，项目不发行任何代币或加密货币。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和营销语强调低成本、高效率、AI自动化、释放创造力等前沿理念，技术栈（Go）也符合现代趋势。同时，有明确的社区支持和多语言文档，整体营造出技术前卫且易于参与的氛围。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 关闭数量远超开启数量，表明社区活跃且项目维护者响应及时，解决问题效率高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:20:29.786Z"
+    },
+    {
+      "owner": "ZhuLinsen",
+      "repo": "daily_stock_analysis",
+      "fullName": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai",
+        "aigc",
+        "gemini",
+        "llm",
+        "quant",
+        "quantitative-trading",
+        "rag",
+        "stock"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-10T06:43:20Z",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "analysis": {
+        "positioning": "LLM驱动的A/H/美股智能分析与决策系统，免费推送。",
+        "useCases": [
+          "你手动分析股票行情 → 它帮你自动抓取多源数据，提供实时行情与多维分析。",
+          "你苦于投资决策 → 它帮你生成AI决策仪表盘，给出核心结论、买卖点位及操作清单。",
+          "你想验证投资策略 → 它支持AI多轮问股，内置策略对话，并自动回测历史分析准确率。"
+        ],
+        "audience": "寻求免费、自动化、基于AI大模型的A/H/美股智能分析和投资决策辅助的个人投资者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+环境",
+          "steps": [
+            "克隆项目代码",
+            "配置LLM API密钥和数据源（如Tushare/AkShare）",
+            "启动定时任务或Web服务"
+          ],
+          "note": "支持Docker部署，方便跨平台运行。"
+        },
+        "competitors": [],
+        "pricing": "免费。利用免费LLM额度与自建服务，实现零成本。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目融合AI大模型、量化分析与多渠道推送，技术前沿且实用。高星标和“纯白嫖”定位吸引力强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率高 (350/68)，社区活跃且维护者响应及时。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:20:43.128Z"
+    },
+    {
+      "owner": "qwibitai",
+      "repo": "nanoclaw",
+      "fullName": "qwibitai/nanoclaw",
+      "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "claude-code",
+        "claude-skills",
+        "openclaw"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-31T15:47:22Z",
+      "url": "https://github.com/qwibitai/nanoclaw",
+      "analysis": {
+        "positioning": "安全轻量的个人AI代理平台，整合多平台消息。",
+        "useCases": [
+          "你想让AI助手能跨多种聊天平台统一沟通 → 它帮你连接WhatsApp、Telegram、Slack、Discord、Gmail等，实现消息处理与自动化。",
+          "你担心AI代理的安全性和代码透明度 → 它提供容器级隔离、轻量且代码易懂的AI代理方案。",
+          "你渴望高度定制自己的专属AI助手，并能记忆和定时执行任务 → 它基于Anthropic Agents SDK，让你快速定制、部署和修改。"
+        ],
+        "audience": "关注AI代理安全性、追求高度定制化、希望个人掌控AI助手的开发者和高级用户。",
+        "quickStart": {
+          "prerequisites": "已安装 Claude Code CLI",
+          "steps": [
+            "克隆或Fork项目到本地：gh repo fork qwibitai/nanoclaw --clone",
+            "进入项目目录：cd nanoclaw",
+            "启动Claude Code CLI：claude",
+            "在Claude CLI中运行设置命令：/setup"
+          ],
+          "note": "macOS上使用Apple Container，其他系统使用Docker；命令以'/'开头需在Claude CLI内执行。"
+        },
+        "competitors": [
+          {
+            "name": "OpenClaw",
+            "method": "复杂且代码量庞大的Node.js应用，应用层级安全，共享内存。",
+            "models": "（未明确，可能支持多种LLM）",
+            "pricing": "免费（推测）"
+          }
+        ],
+        "pricing": "免费（MIT License）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目哲学强调“小到足以理解”、“为个人用户构建”、“定制即代码更改”，并通过Claude Code让用户直接修改自己的Fork，是典型的Vibe Coding实践，鼓励用户深入代码并根据需求修改。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，开启Issue数量是关闭Issue的两倍多，表明项目正处于快速迭代或有大量用户反馈。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:20:57.981Z"
+    },
+    {
+      "owner": "vercel-labs",
+      "repo": "agent-browser",
+      "fullName": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-01-11T05:38:15Z",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "analysis": {
+        "positioning": "AI智能体驱动的无头浏览器自动化CLI工具。",
+        "useCases": [
+          "AI智能体需要访问特定网页 → 它能通过CLI快速打开指定URL。",
+          "AI智能体需要理解网页结构并与元素交互（如点击、填写表单） → 它能生成无障碍树快照，并根据引用或CSS选择器执行操作。",
+          "AI智能体需要记录网页状态或进行可视化验证 → 它能截取当前网页的屏幕截图。",
+          "AI智能体需要在网页上执行复杂的键盘输入 → 它能模拟真实的键盘按键或文本输入操作。"
+        ],
+        "audience": "构建AI智能体、需要通过CLI进行网页自动化交互的开发者。",
+        "quickStart": {
+          "prerequisites": "Chrome浏览器（通过agent-browser install自动下载）",
+          "steps": [
+            "npm install -g agent-browser",
+            "agent-browser install",
+            "agent-browser open example.com",
+            "agent-browser snapshot",
+            "agent-browser click @e2"
+          ],
+          "note": "Linux系统可能需要安装额外的系统依赖，可通过 `agent-browser install --with-deps` 安装。"
+        },
+        "competitors": [
+          {
+            "name": "Playwright",
+            "method": "Node.js API，需要编写代码",
+            "models": "无（不涉及LLM模型）",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "Puppeteer",
+            "method": "Node.js API，需要编写代码",
+            "models": "无（不涉及LLM模型）",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位明确，专门为AI智能体提供浏览器自动化，且采用Rust原生CLI，性能优秀。安装方式多样，文档清晰，Quick Start示例直观易懂。更新机制智能，且不强制依赖Node.js或Playwright，降低了使用门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数高达25k+，表明社区关注度高。Issue开启320/关闭174，活跃度不错但存在一定待处理的Issue，社区参与度较好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:21:07.755Z"
+    },
+    {
+      "owner": "HKUDS",
+      "repo": "CLI-Anything",
+      "fullName": "HKUDS/CLI-Anything",
+      "description": "CLI-Anything: Making ALL Software Agent-Native",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-08T13:52:57Z",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "analysis": {
+        "positioning": "让所有软件AI Agent原生化，连接AI Agent与世界软件。",
+        "useCases": [
+          "你有一个命令行工具 → 它帮你将现有CLI工具快速转换为AI Agent可直接调用的能力。",
+          "你开发AI Agent → 它帮你扩展Agent的能力边界，使其能无缝操作任何CLI驱动的软件。",
+          "你想构建AI Agent生态 → 它提供CLI-Hub，让你发现、安装并贡献Agent就绪的CLI工具。"
+        ],
+        "audience": "CLI工具开发者、AI Agent开发者、研究者，以及希望让AI Agent与现有软件无缝交互的团队。",
+        "quickStart": {
+          "prerequisites": "Python ≥3.10",
+          "steps": [
+            "安装CLI-Anything (例如 `pip install cli-anything`，具体命令可能需查阅完整文档)。",
+            "使用CLI-Anything的'一键命令'将任意现有命令行工具转换为AI Agent可调用模式。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "OpenClaw (AI Agent平台)",
+            "method": "通过平台原生SDK或API进行工具集成",
+            "models": "N/A",
+            "pricing": "N/A"
+          },
+          {
+            "name": "Claude Code / Cursor (AI编程助手)",
+            "method": "通过IDE集成或代码生成实现与外部工具交互",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费（Apache-2.0 License）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目愿景宏大，解决了AI Agent与传统软件交互的重大痛点。2万+ Star、活跃的CLI-Hub生态以及清晰的文档和持续更新，显示了其潜力和执行力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度中等偏上，持续有新闻和更新发布，但Issue关闭率（约25%）有提升空间。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:21:28.816Z"
+    },
+    {
+      "owner": "googleworkspace",
+      "repo": "cli",
+      "fullName": "googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "cli",
+        "discovery-api",
+        "gemini-cli-extension",
+        "google-admin",
+        "google-api",
+        "google-calendar",
+        "google-chat",
+        "google-docs",
+        "google-drive",
+        "google-sheets",
+        "google-workspace",
+        "oauth2",
+        "rust"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-02T19:46:06Z",
+      "url": "https://github.com/googleworkspace/cli",
+      "analysis": {
+        "positioning": "统一命令行工具，动态管理Google Workspace，支持人机协同。",
+        "useCases": [
+          "你做Google Workspace自动化 → 它帮你通过命令行调用所有服务，告别重复工作。",
+          "你是AI Agent开发者 → 它提供40+封装好的Google Workspace技能，快速集成。",
+          "你关心Google Workspace API更新 → 它动态适配最新Discovery Service，无需手动更新客户端。"
+        ],
+        "audience": "开发者、系统管理员和AI Agent构建者，用于命令行管理Google Workspace服务及自动化。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+、Google Cloud项目（用于OAuth凭据）、Google Workspace账号。",
+          "steps": [
+            "npm install -g @googleworkspace/cli",
+            "gws auth setup"
+          ],
+          "note": "npm包已包含预编译二进制文件，无需Rust工具链。此为非Google官方产品，且仍在积极开发中，v1.0前可能存在破坏性变更。"
+        },
+        "competitors": [],
+        "pricing": "免费（工具本身）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高星Rust项目，动态集成Google Discovery Service，自带AI Agent技能，社区活跃。非官方且v1前有破坏性变更可能，但前景看好。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度高，Issue解决及时。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-27T04:21:42.137Z"
+    },
+    {
+      "owner": "volcengine",
+      "repo": "OpenViking",
+      "fullName": "volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agentic-rag",
+        "ai-agents",
+        "clawbot",
+        "context-database",
+        "context-engineering",
+        "filesystem",
+        "llm",
+        "memory",
+        "openclaw",
+        "opencode",
+        "rag",
+        "skill"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-01-05T07:11:17Z",
+      "url": "https://github.com/volcengine/OpenViking",
+      "analysis": {
+        "positioning": "专为AI Agent设计的开源上下文数据库，以文件系统范式统一管理Agent记忆、资源和技能。",
+        "useCases": [
+          "你构建AI Agent时，上下文（记忆、资源、技能）管理混乱且碎片化 → 它帮你通过文件系统范式统一组织和管理Agent所需的一切上下文。",
+          "你构建AI Agent时，需要处理大量运行中生成的上下文并避免信息丢失 → 它帮你高效管理暴增的上下文，实现分层交付和自我演进，避免简单截断或压缩导致的信息损失。",
+          "你构建AI Agent时，传统RAG检索效果不佳，调试困难，难以洞察Agent内部状态 → 它帮你提供全局视图和可观察的上下文管理，提升检索效果并简化调试。"
+        ],
+        "audience": "AI Agent开发者、研究者，尤其适合在构建复杂、长生命周期AI Agent时面临上下文管理挑战的用户。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "安装OpenViking库",
+            "在Agent应用中集成并配置上下文路径"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统RAG（基于向量数据库）",
+            "method": "通过嵌入向量将数据存储于向量数据库，依赖向量相似度检索。",
+            "models": "通用（与LLM模型无关，或与Embedding模型相关）",
+            "pricing": "取决于具体实现，通常免费开源组件或云服务收费"
+          }
+        ],
+        "pricing": "免费，基于Apache-2.0开源许可证",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目星标数近2万，由volcengine出品，针对AI Agent核心痛点（上下文管理）提出“文件系统范式”的创新解决方案，概念独特且实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数是开启数的两倍，且有多种社区交流渠道，表明社区活跃且项目维护响应迅速。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:21:53.278Z"
+    },
+    {
+      "owner": "OthmanAdi",
+      "repo": "planning-with-files",
+      "fullName": "OthmanAdi/planning-with-files",
+      "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
+      "language": "Python",
+      "topics": [
+        "adal",
+        "agent",
+        "agent-skills",
+        "agents",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "clawd",
+        "clawdbot",
+        "clawdbot-skill",
+        "clawdhub",
+        "codebuddy",
+        "cursor",
+        "factory-ai",
+        "kilocode",
+        "manus",
+        "manus-ai",
+        "moltbot",
+        "moltbot-skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-03T07:37:28Z",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "analysis": {
+        "positioning": "复刻Meta收购的Manus AI规划工作流，用Claude实现。",
+        "useCases": [
+          "你做AI代理的项目规划 → 它提供Manus风格的持久化Markdown规划模板。",
+          "你用AI代理执行复杂或多阶段任务 → 它提供结构化工作流，如GitHub仓库审计。",
+          "你管理多AI代理协作或多项目 → 它的社区扩展支持多层任务编排和多项目同步。"
+        ],
+        "audience": "寻求高效AI代理工作流的开发者、AI工程师、项目经理。",
+        "quickStart": {
+          "prerequisites": "Claude API访问权限，Python环境",
+          "steps": [
+            "安装项目依赖（通常为pip install）",
+            "根据文档配置Claude Code Skill并使用提供的规划模板"
+          ],
+          "note": "具体安装和使用指令需参考项目完整README"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目社区活跃度极高，短时间获得大量star，Issue关闭数量远超开启，维护积极。有基准测试和安全审计报告，且拥有大量社区贡献的实用扩展。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极度活跃，短时间内吸引大量关注和贡献，Issue关闭数量远超开启数量，响应迅速且有丰富扩展。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:22:05.791Z"
+    },
+    {
+      "owner": "kepano",
+      "repo": "obsidian-skills",
+      "fullName": "kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "language": "Unknown",
+      "topics": [
+        "claude",
+        "clawdbot",
+        "cli",
+        "codex",
+        "defuddle",
+        "obsidian",
+        "openclaw",
+        "opencode",
+        "skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-02T21:45:11Z",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "analysis": {
+        "positioning": "为AI Agent提供Obsidian操作技能，掌握其核心文件格式与CLI。",
+        "useCases": [
+          "你想让AI自动创建/编辑Obsidian笔记 → 它帮你生成/修改Obsidian Flavored Markdown。",
+          "你想让AI管理Obsidian数据库 → 它帮你创建/编辑Obsidian Bases文件（视图、过滤器、公式等）。",
+          "你想让AI构建/编辑Obsidian画布 → 它帮你创建/编辑JSON Canvas文件（节点、连线、分组）。",
+          "你想通过AI控制Obsidian应用 → 它帮你通过CLI执行插件/主题开发等操作。",
+          "你处理网页内容希望保存到Obsidian → 它帮你提取干净的Markdown，去除网页噪音。"
+        ],
+        "audience": "希望通过AI Agent深度自动化操作Obsidian笔记、数据库和画布的高级用户与开发者。",
+        "quickStart": {
+          "prerequisites": "已安装Obsidian及兼容的AI Agent环境（如Claude Code, Codex CLI）。",
+          "steps": [
+            "/plugin marketplace add kepano/obsidian-skills",
+            "/plugin install obsidian@obsidian-skills"
+          ],
+          "note": "支持多种AI Agent平台，包括Claude Code、Codex CLI和OpenCode，安装方式略有不同，详情请查阅文档。"
+        },
+        "competitors": [
+          {
+            "name": "Obsidian CLI/API + 自定义脚本",
+            "method": "编程调用CLI命令或API",
+            "models": "任意Agent，需自行集成",
+            "pricing": "免费"
+          },
+          {
+            "name": "LangChain/LlamaIndex自定义工具",
+            "method": "使用Agent框架构建工具",
+            "models": "兼容对应Agent框架的模型",
+            "pricing": "框架免费，工具需自行开发"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Obsidian Agent技能的强大补充，由知名开发者kepano出品，Stars数高，功能清晰且支持多Agent平台，社区活跃度良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃，开闭比合理（19开/15关），显示项目有持续维护和社区互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:22:26.021Z"
+    },
+    {
+      "owner": "NVIDIA",
+      "repo": "NemoClaw",
+      "fullName": "NVIDIA/NemoClaw",
+      "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-15T17:04:09Z",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "analysis": {
+        "positioning": "NVIDIA出品，安全运行AI Agent的开源参考栈。",
+        "useCases": [
+          "你运行OpenClaw AI助手 → 它帮你将其部署在OpenShell沙箱中，提升安全性。",
+          "你开发基于OpenClaw的AI应用 → 它提供管理式推理环境和NVIDIA开源模型（如Nemotron）。",
+          "你关注AI Agent部署安全 → 它为你提供了NVIDIA Agent Toolkit的运行时，强化隔离。",
+          "你需要在NVIDIA生态中部署Agent → 它作为参考栈，简化了OpenShell集成和模型加载。"
+        ],
+        "audience": "关注AI Agent安全部署、寻求NVIDIA生态支持的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "最低配置：4核CPU，8GB RAM，20GB磁盘。软件：Ubuntu 22.04+，Node.js 20+，npm 10+，容器运行时及已安装的OpenShell。",
+          "steps": [
+            "检查并满足所有硬件和软件前置条件。",
+            "根据文档指引启动沙箱化OpenClaw代理。"
+          ],
+          "note": "项目为Alpha版本，非生产就绪，接口可能随时变更。NemoClaw会在沙箱中创建新的OpenClaw实例。容器运行时在Linux上主要支持Docker，macOS上推荐Colima或Docker Desktop。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "NVIDIA官方出品的AI Agent安全运行时参考栈，仍处于Alpha预览阶段（2026年3月发布），接口可能变动，适合早期尝鲜者和技术探索者。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃，但开放问题（450）远多于已关闭问题（136），项目处于快速迭代和早期反馈收集阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-27T04:22:38.719Z"
+    },
+    {
+      "owner": "ossu",
+      "repo": "computer-science",
+      "fullName": "ossu/computer-science",
+      "description": "🎓 Path to a free self-taught education in Computer Science!",
+      "language": "HTML",
+      "topics": [
+        "awesome-list",
+        "computer-science",
+        "courses",
+        "curriculum"
+      ],
+      "license": "MIT",
+      "createdAt": "2014-05-04T00:18:39Z",
+      "url": "https://github.com/ossu/computer-science",
+      "analysis": {
+        "positioning": "一个免费、自学的计算机科学完整教育路线图。",
+        "useCases": [
+          "你渴望系统学习计算机科学但预算有限 → 它提供全球顶尖大学的免费课程资源和学习路径。",
+          "你希望补全计算机科学基础，但缺乏方向 → 它提供完整的大学级CS课程体系和推荐。",
+          "你需要学习动力和社区支持 → 它连接全球学习者社区，助你共同进步。"
+        ],
+        "audience": "适合自律、渴望免费且系统化获取大学级计算机科学教育的个人，并可获得全球学习社区支持。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub项目页面，阅读README中的Summary和Curriculum部分。",
+            "根据自身水平，从Intro CS或Core CS章节开始，点击推荐课程链接进行学习。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Coursera/edX等MOOC平台",
+            "method": "在线课程平台，提供专题课程或专业证书",
+            "models": "N/A",
+            "pricing": "部分免费/课程付费"
+          },
+          {
+            "name": "传统大学计算机科学专业",
+            "method": "全日制学院教育，提供学位",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费 (课程内容来自免费开放资源)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "星标数超20万，提供全球顶尖大学的免费计算机科学课程路线图，策展严谨，社区活跃且支持度高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数远超开启数，社区活跃度极高，问题响应和维护效率高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-27T04:23:20.004Z"
+    },
+    {
+      "owner": "trekhleb",
+      "repo": "javascript-algorithms",
+      "fullName": "trekhleb/javascript-algorithms",
+      "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "language": "JavaScript",
+      "topics": [
+        "algorithm",
+        "algorithms",
+        "computer-science",
+        "data-structures",
+        "interview",
+        "interview-preparation",
+        "javascript",
+        "javascript-algorithms"
+      ],
+      "license": "MIT",
+      "createdAt": "2018-03-24T07:47:04Z",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "analysis": {
+        "positioning": "JavaScript版算法与数据结构学习/面试宝典",
+        "useCases": [
+          "你想复习或学习JavaScript算法与数据结构 → 它帮你提供可运行的代码示例与详细解释。",
+          "你在准备技术面试 → 它帮你快速巩固核心算法知识，提升实战能力。",
+          "你在寻找特定算法或数据结构的JS实现 → 它帮你找到高质量、易懂的实现及相关学习资源。"
+        ],
+        "audience": "适合JavaScript开发者、学生及面试者，用于学习、复习算法和数据结构知识。",
+        "quickStart": {
+          "prerequisites": "git",
+          "steps": [
+            "git clone https://github.com/trekhleb/javascript-algorithms.git",
+            "cd javascript-algorithms"
+          ],
+          "note": "直接查阅代码与README文件，了解具体算法和数据结构的实现及原理。"
+        },
+        "competitors": [
+          {
+            "name": "LeetCode",
+            "method": "在线刷题，提供多种语言实现与解法",
+            "models": null,
+            "pricing": "部分免费，部分付费订阅"
+          },
+          {
+            "name": "GeeksforGeeks",
+            "method": "提供算法、数据结构理论讲解及多语言代码示例",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "高度成熟、星标近20万、代码质量高、文档清晰且多语言支持，是学习JS算法的权威资源。",
+        "isVibeCoding": true,
+        "communityActivity": "高度活跃。Issue 数量大，表明社区参与度高，虽关闭比例不高但持续有讨论和贡献。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-27T04:23:35.145Z"
     }
   ]
 }
