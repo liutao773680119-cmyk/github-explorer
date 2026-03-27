@@ -25,6 +25,7 @@ Thumbs.db
 # build
 dist/
 .tools/
+.worktrees/
 
 # backup files
 *.bak.json
