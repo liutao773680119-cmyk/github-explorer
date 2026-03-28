@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-27T04:23:35.147Z",
+  "updatedAt": "2026-03-28T04:08:14.317Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -4403,6 +4403,950 @@
         "category": "其他"
       },
       "analyzedAt": "2026-03-27T04:23:35.145Z"
+    },
+    {
+      "owner": "NomaDamas",
+      "repo": "k-skill",
+      "fullName": "NomaDamas/k-skill",
+      "description": "한국인을 위한 스킬 모음집 - SRT, KTX, KBO, 카카오톡, 쿠팡, 다나와, 네이버 스토어, 당근, 한글과 컴퓨터 등등...",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-24T16:39:30Z",
+      "url": "https://github.com/NomaDamas/k-skill",
+      "analysis": {
+        "positioning": "韩国人专属AI代理技能集，一键搞定繁琐日常。",
+        "useCases": [
+          "你想预订SRT高铁票 → 它帮你查询、预订、取消，无需手动操作。",
+          "你想用Mac命令行管理KakaoTalk → 它帮你查询对话、发送消息，提高效率。",
+          "你想处理HWP格式文档 → 它帮你转换成JSON/Markdown/HTML，并提取图片。"
+        ],
+        "audience": "韩国用户，特别是希望通过AI代理（如Claude, Codex等）自动化处理日常韩语相关事务的开发者或个人。",
+        "quickStart": {
+          "prerequisites": "Node.js 和 Python 环境",
+          "steps": [
+            "安装k-skill所有技能包。",
+            "运行k-skill-setup配置sops+age，设置共享secrets文件。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "SRT/Korail 官方应用/网站",
+            "method": "手动操作，非自动化",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "用户自定义脚本",
+            "method": "自行编程实现特定任务",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，解决韩国用户特定痛点。文档详尽，注重安全性（sops+age），社区互动活跃（鼓励Star，有Issue处理），Star数和Issue统计显示出不错的受欢迎度和维护情况。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比约为2:1，有用户反馈并得到处理，项目维护者积极响应，社区有一定活跃度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-28T04:03:00.007Z"
+    },
+    {
+      "owner": "oaker-io",
+      "repo": "wewrite",
+      "fullName": "oaker-io/wewrite",
+      "description": "公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-26T14:18:54Z",
+      "url": "https://github.com/oaker-io/wewrite",
+      "analysis": {
+        "positioning": "基于Claude Code的全流程AI技能，自动生成并发布公众号文章。",
+        "useCases": [
+          "你苦于公众号选题 → 它帮你抓取全网热点、评估SEO，生成多套选题。",
+          "你希望高效撰写高质量文章 → 它帮你从框架到内容一键生成，并去除AI痕迹、适配客户风格。",
+          "你正在发布公众号文章 → 它帮你完成视觉AI配图、SEO优化、排版并推送至微信草稿箱。"
+        ],
+        "audience": "需要利用Claude Code自动化完成微信公众号从选题、写作到发布全流程的内容创作者、营销团队。",
+        "quickStart": {
+          "prerequisites": "Python环境, Claude Code环境, 微信公众号API Key, 图片生成API Key (火山引擎Ark或OpenAI)",
+          "steps": [
+            "将项目作为Claude Code Skill安装（复制或引用目录）",
+            "安装Python依赖 `pip install -r requirements.txt`",
+            "配置 `config.yaml`，填入微信公众号和图片生成API Key",
+            "在Claude Code中对Claude说「用 demo 的配置写一篇公众号文章」以启动"
+          ],
+          "note": "此为Claude Code Skill，需在Claude Code环境中运行"
+        },
+        "competitors": [
+          {
+            "name": "手动使用通用LLM工具（如Claude / GPT）",
+            "method": "用户需自行设计并执行各环节Prompt，手动整合排版发布。",
+            "models": "支持用户选用的LLM，如Claude系列、GPT系列。",
+            "pricing": "仅需LLM API费用，其余免费（人力成本高）。"
+          },
+          {
+            "name": "商业化内容生成平台（如Jasper/Copy.ai等）",
+            "method": "SaaS平台，提供Web界面操作，集成写作、SEO等功能。",
+            "models": "通常为闭源模型或定制LLM。",
+            "pricing": "大多为付费订阅制。"
+          }
+        ],
+        "pricing": "项目本身开源免费（MIT），但运行依赖Claude Code服务费用、微信公众号API以及图片生成API（如火山引擎Ark或OpenAI）的费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "巧妙地将Claude Code能力与微信公众号全流程运营深度结合，通过模块化脚本、客户配置及AI学习机制，实现高度自动化与个性化内容生成，具有极客精神与实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "当前GitHub Issue活跃度较低（1开0关），尽管Star数量可观，但Issue讨论和解决互动尚未显现。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-28T04:03:22.457Z"
+    },
+    {
+      "owner": "Michaelliv",
+      "repo": "markit",
+      "fullName": "Michaelliv/markit",
+      "description": "🖍️ Convert anything to markdown. Mark it.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-25T13:03:51Z",
+      "url": "https://github.com/Michaelliv/markit",
+      "analysis": {
+        "positioning": "全能文件、媒体、URL转Markdown工具，内置AI增强。",
+        "useCases": [
+          "你有多格式文档（PDF, DOCX, XLSX, HTML等） → 它帮你统一转换为Markdown，便于归档、编辑和知识库管理。",
+          "你需处理网页内容（URL, RSS, Wikipedia） → 它帮你提取核心内容并转换为Markdown，便于离线阅读或结构化存储。",
+          "你手头有图片或音频文件 → 它利用LLM为你生成Markdown格式的图片描述或音频转录，提升信息提取效率。"
+        ],
+        "audience": "需要将各种来源（文件、网页、多媒体）内容标准化为Markdown格式，并希望利用AI辅助信息提取的开发者、技术文档作者和知识管理人员。",
+        "quickStart": {
+          "prerequisites": "Node.js/npm已安装；LLM功能需配置OpenAI或Anthropic API Key。",
+          "steps": [
+            "npm install -g markit-ai",
+            "markit report.pdf",
+            "markit https://example.com/article",
+            "export OPENAI_API_KEY=sk-...",
+            "markit photo.jpg"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "核心工具免费开源，LLM功能依赖第三方付费API服务。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能覆盖广，支持多种文件类型、URL和媒体，内置LLM智能处理，CLI和库模式灵活，文档清晰，上手简单。",
+        "isVibeCoding": true,
+        "communityActivity": "中等活跃，Issue 开闭比为 3:1，响应速度适中。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-28T04:03:37.908Z"
+    },
+    {
+      "owner": "tonbistudio",
+      "repo": "turboquant-pytorch",
+      "fullName": "tonbistudio/turboquant-pytorch",
+      "description": "From-scratch PyTorch implementation of Google's TurboQuant (ICLR 2026) for LLM KV cache compression. 5x compression at 3-bit with 99.5% attention fidelity.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-25T08:03:23Z",
+      "url": "https://github.com/tonbistudio/turboquant-pytorch",
+      "analysis": {
+        "positioning": "LLM KV缓存高效压缩方案的PyTorch实现",
+        "useCases": [
+          "你做LLM长上下文推理 → 它帮你显著降低KV缓存内存占用，支持更长序列。",
+          "你受限于GPU显存 → 它帮你以极小精度损失，在有限硬件上跑更大规模或更长上下文的LLM。",
+          "你追求LLM推理成本优化 → 它帮你通过内存压缩降低资源开销。"
+        ],
+        "audience": "关注LLM推理效率和成本的开发者、研究者，尤其是在资源受限环境中运行长上下文LLM的用户。",
+        "quickStart": {
+          "prerequisites": "Python, PyTorch环境",
+          "steps": [
+            "克隆项目仓库",
+            "安装PyTorch及其他依赖",
+            "运行提供的示例脚本验证压缩效果"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (开源项目)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目深度实现Google前沿研究(TurboQuant)，有效解决LLM长上下文KV缓存内存瓶颈，提供5倍压缩与高精度，技术细节丰富且验证充分，对LLM推理优化有重要价值。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，关注度较高（454星），但目前8个开启Issue未有解决，社区活跃度尚待观察。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-03-28T04:03:50.482Z"
+    },
+    {
+      "owner": "walter-grace",
+      "repo": "mac-code",
+      "fullName": "walter-grace/mac-code",
+      "description": "mac code — Claude Code, but it runs on your Mac for free.   35B AI agent at 30 tok/s via Apple Silicon flash-paging. $0/month. ",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-23T22:08:54Z",
+      "url": "https://github.com/walter-grace/mac-code",
+      "analysis": {
+        "positioning": "Mac上免费运行大型AI模型，突破内存限制。",
+        "useCases": [
+          "你内存不足的Mac想跑35B大模型 → 它帮你免费在16GB M4 Mac上以30 tok/s速度运行35B AI Agent，突破内存限制。",
+          "你追求Mac本地大模型体验且不愿付费 → 它帮你免费在Mac上跑Qwen系列大模型，性能不俗。",
+          "你希望Mac上的模型拥有超长上下文 → 它帮你以64K上下文运行9B模型，应对复杂任务。"
+        ],
+        "audience": "拥有Apple Silicon Mac但内存有限的用户，想免费本地运行大型AI模型或Agent，追求高性能和成本效益的开发者或个人用户。",
+        "quickStart": {
+          "prerequisites": "Homebrew，Python3",
+          "steps": [
+            "安装llama.cpp和Python依赖（brew install llama.cpp, pip3 install rich ddgs）",
+            "下载指定Qwen模型（如35B或9B）至本地",
+            "启动llama.cpp服务器，并运行配套的agent.py脚本"
+          ],
+          "note": "专为Apple Silicon Mac优化，利用其硬件特性实现高性能与内存突破。"
+        },
+        "competitors": [
+          {
+            "name": "Claude Code",
+            "method": "订阅制云服务（推测）",
+            "models": "Claude 系列",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费。利用现有开源工具（llama.cpp）和Apple Silicon特性实现本地运行，无需订阅费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决Mac用户运行大型AI模型（特别是Agent）的内存瓶颈痛点。通过闪存流式技术创新性地实现了超内存模型运行，性能表现有详细数据支撑，快速启动指南清晰易懂。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，目前Issue数量较少且未关闭，表明项目仍在早期活跃开发阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-28T04:04:04.041Z"
+    },
+    {
+      "owner": "facebookresearch",
+      "repo": "tribev2",
+      "fullName": "facebookresearch/tribev2",
+      "description": "This repository contains the code to train and evaluate TRIBE v2, a multimodal model for brain response prediction",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-03-24T10:28:01Z",
+      "url": "https://github.com/facebookresearch/tribev2",
+      "analysis": {
+        "positioning": "多模态脑响应预测基础模型，连接AI与神经科学。",
+        "useCases": [
+          "你想预测大脑对自然视频、音频、文本刺激的fMRI响应 → 它提供统一的多模态模型进行高精度预测。",
+          "你在进行计算神经科学或跨模态AI融合研究 → 它为你提供集成了SOTA视觉、听觉、语言编码器的基础模型。"
+        ],
+        "audience": "计算神经科学家、AI研究员，或任何对大脑如何处理多模态信息感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+ 环境，pip；如需训练，需HuggingFace账户并访问Llama 3.2。",
+          "steps": [
+            "通过 `pip install -e .` 安装 `tribev2` 库。",
+            "从 HuggingFace 加载预训练模型：`model = TribeModel.from_pretrained('facebook/tribev2')`。",
+            "传入视频/音频/文本路径，调用 `model.predict()` 获取大脑响应预测。"
+          ],
+          "note": "预测结果针对“平均”大脑，建议查看Colab演示获取完整可视化流程。"
+        },
+        "competitors": [],
+        "pricing": "免费（主要面向研究用途，遵循CC BY-NC 4.0许可）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "由Meta AI（Facebook Research）出品，Stars数430，提供清晰的Colab演示和HuggingFace预训练模型，文档完整，但Issue活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示社区活跃度较低（3个开启，0个关闭），可能项目较新或用户反馈有限。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-28T04:04:18.601Z"
+    },
+    {
+      "owner": "TheTom",
+      "repo": "turboquant_plus",
+      "fullName": "TheTom/turboquant_plus",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-25T01:35:36Z",
+      "url": "https://github.com/TheTom/turboquant_plus",
+      "analysis": {
+        "positioning": "为本地LLM提速增效的KV缓存极限压缩方案",
+        "useCases": [
+          "你希望在M系列Mac或本地设备上跑更大的LLM模型 → 它帮你以极低内存消耗运行Qwen 3.5 35B等大型模型。",
+          "你在Apple Silicon上处理LLM长上下文推理（如阅读70页PDF）→ 它提供4.6倍KV缓存压缩，且几乎无速度损失，长上下文表现更优。",
+          "你追求极致的LLM推理效率，不牺牲太多模型质量 → 它在M5 Max上实现4.6倍压缩后预填充速度超越q8_0，PPL仅损失1%，甚至在CUDA上PPL优于q8_0。"
+        ],
+        "audience": "在本地设备（尤其是Apple Silicon）上运行大型LLM、追求内存与速度平衡的开发者和研究员。",
+        "quickStart": {
+          "prerequisites": "已安装支持Metal GPU内核并集成了TurboQuant+ C端口的llama.cpp。",
+          "steps": [
+            "运行llama.cpp时，添加 `--cache-type-k turbo3 --cache-type-v turbo3` 参数。"
+          ],
+          "note": "项目专门针对Apple Silicon进行优化，在M系列Mac上效果最佳，但社区测试也覆盖NVIDIA/AMD GPU。"
+        },
+        "competitors": [
+          {
+            "name": "q8_0 KV缓存",
+            "method": "llama.cpp内置8比特KV缓存",
+            "models": "llama.cpp支持的所有模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "q4_0 KV缓存",
+            "method": "llama.cpp内置4比特KV缓存",
+            "models": "llama.cpp支持的所有模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于Apache-2.0开源协议。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "这是一个深度优化项目，需集成到llama.cpp底层，涉及GPU内核、KV缓存压缩算法等技术细节，对用户技术背景要求较高，并非面向高层级抽象或快速原型开发，与“vibe coding”理念相悖。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue关闭数远多于开启数 (28/15)，且有10+跨平台测试者积极参与，社区活跃且反馈及时。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-28T04:04:35.478Z"
+    },
+    {
+      "owner": "happyboy4ty25",
+      "repo": "pump-analyzer",
+      "fullName": "happyboy4ty25/pump-analyzer",
+      "description": "Real-time monitoring & analytics platform for Pump.fun tokens. Track launches, analyze trends, and get instant alerts — powered by WebSockets. Built with HTML, CSS & JavaScript.",
+      "language": "Unknown",
+      "topics": [
+        "analytics",
+        "crypto",
+        "dashboard",
+        "defi",
+        "javascript",
+        "landing-page",
+        "memecoin",
+        "pump-fun",
+        "real-time",
+        "solana",
+        "solana-wallet",
+        "token-tracker",
+        "web3",
+        "websocket"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-27T12:15:42Z",
+      "url": "https://github.com/happyboy4ty25/pump-analyzer",
+      "analysis": {
+        "positioning": "Pump.fun代币实时监控与分析平台",
+        "useCases": [
+          "你想快速发现Pump.fun上的新代币 → 它帮你实时追踪所有新上线项目。",
+          "你想了解代币价格走势和交易量 → 它帮你提供深度分析图表和数据。",
+          "你想在特定条件下收到通知 → 它帮你根据自定义标准即时发出提醒。"
+        ],
+        "audience": "Pump.fun代币交易者，用于实时监控、分析和把握Meme币投资机会。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "git clone https://github.com/keron-2000fz47/special-octo-parakeet.git",
+            "cd special-octo-parakeet",
+            "open index.html"
+          ],
+          "note": "该仓库为营销落地页项目，纯HTML/CSS/JS，无需构建工具或依赖。"
+        },
+        "competitors": [],
+        "pricing": "部分免费，提供免费基础版，专业版和高级版需按月付费（美元或SOL）。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "该仓库是Pump.fun代币分析平台的营销落地页，代码主要为HTML/CSS/JS，实现交互和UI展示，技术实现相对简单。实际平台功能复杂性（如WebSockets连接、AI分析）未体现在此代码仓库中，可能由后端或外部服务提供。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前未有Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-28T04:05:08.940Z"
+    },
+    {
+      "owner": "coreyhaines31",
+      "repo": "marketingskills",
+      "fullName": "coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "topics": [
+        "claude",
+        "codex",
+        "marketing"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-15T19:45:23Z",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "analysis": {
+        "positioning": "为AI代理提供营销技能扩展，赋能营销任务自动化。",
+        "useCases": [
+          "你做市场营销 → 它帮你让AI代理执行转化优化、文案撰写等任务。",
+          "你做SEO → 它帮你让AI代理进行SEO审计、内容策略规划。",
+          "你做增长策略 → 它帮你让AI代理分析数据、制定增长与留存方案。"
+        ],
+        "audience": "技术型营销人员或创始人，希望通过AI代理提升营销效率，实现任务自动化。",
+        "quickStart": {
+          "prerequisites": "需具备AI Agent运行环境（如Claude Code, OpenAI Codex等），并支持Agent Skills规范。",
+          "steps": [
+            "将项目中的营销技能Markdown文件导入你的AI Agent。",
+            "确保`product-marketing-context`技能作为核心基础被代理识别和调用。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供AI代理可复用的营销技能集，降低了AI代理在营销任务上的开发门槛，但项目本身是技能集合，并非独立应用，上手需结合Agent平台。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，问题解决及时（19开/95关），欢迎贡献。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-28T04:05:40.833Z"
+    },
+    {
+      "owner": "xai-org",
+      "repo": "x-algorithm",
+      "fullName": "xai-org/x-algorithm",
+      "description": "Algorithm powering the For You feed on X",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-01-19T23:12:35Z",
+      "url": "https://github.com/xai-org/x-algorithm",
+      "analysis": {
+        "positioning": "X平台“为你”推荐算法核心，基于Grok大模型",
+        "useCases": [
+          "你想为社交媒体构建“为你推荐”功能 → 它提供了一套成熟的、基于大模型的推荐系统架构和实现。",
+          "你想了解大型社交平台如何实现个性化推荐 → 它直接展示了X平台的推荐算法细节，包括内容检索和排序逻辑。",
+          "你想探索Grok大模型在推荐系统中的应用 → 它提供了Grok模型（改编自Grok-1）作为核心排序器的实践案例。"
+        ],
+        "audience": "推荐系统工程师、ML研究员、社交产品架构师，用于学习、借鉴和构建高性能个性化推荐系统。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "目前项目主要作为技术参考和学习资料，无直接运行部署步骤或API文档。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "TensorFlow Recommenders",
+            "method": "Python API, Keras风格构建",
+            "models": "多种深度学习推荐模型（如双塔模型、DLRM等）",
+            "pricing": "免费"
+          },
+          {
+            "name": "LightFM",
+            "method": "Python API, 混合矩阵分解",
+            "models": "混合矩阵分解",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "X平台核心推荐算法的开源实现，技术栈前沿（Rust, Grok-based Transformer），提供了大型社交媒体个性化推荐系统的宝贵参考和学习价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度：目前Issue区为空（开启0/关闭0），可能项目刚开源或主要作为参考资料。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-28T04:06:01.627Z"
+    },
+    {
+      "owner": "RightNow-AI",
+      "repo": "openfang",
+      "fullName": "RightNow-AI/openfang",
+      "description": "Open-source Agent Operating System",
+      "language": "Rust",
+      "topics": [
+        "agent-framework",
+        "ai-agents",
+        "llm",
+        "mcp",
+        "open-source",
+        "openclaw",
+        "operating-system",
+        "rust"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-02-24T23:12:38Z",
+      "url": "https://github.com/RightNow-AI/openfang",
+      "analysis": {
+        "positioning": "开源Agent操作系统，让AI为你自主工作。",
+        "useCases": [
+          "你手动监控市场或生成销售线索 → 它帮你24/7自主监控、生成线索并报告。",
+          "你手动构建知识图谱 → 它帮你持续构建和更新知识图谱。",
+          "你手动管理社交媒体内容 → 它帮你自动化管理社交媒体，无需手动输入。"
+        ],
+        "audience": "寻求AI高层次自动化、希望Agent全天候自主工作的开发者和企业用户。",
+        "quickStart": {
+          "prerequisites": "类Unix系统需curl，Windows需Powershell。",
+          "steps": [
+            "执行安装脚本（如：curl -fsSL https://openfang.sh/install | sh）",
+            "初始化OpenFang（openfang init）",
+            "启动Agent操作系统（openfang start）"
+          ],
+          "note": "Windows用户请使用专属安装脚本（irm https://openfang.sh/install.ps1 | iex）。"
+        },
+        "competitors": [
+          {
+            "name": "传统LLM框架/聊天机器人（如LangChain）",
+            "method": "Python库调用，需用户主动输入或触发",
+            "models": "支持多种LLM",
+            "pricing": "通常开源免费"
+          },
+          {
+            "name": "多Agent编排器（如AutoGen）",
+            "method": "Python库调用，需用户主动输入或触发",
+            "models": "支持多种LLM",
+            "pricing": "通常开源免费"
+          }
+        ],
+        "pricing": "完全开源免费，通过Buy Me A Coffee接受捐赠支持项目发展。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目基于Rust，代码量大（137K LOC），测试覆盖广（1767+），无clippy警告，架构清晰（14 crates，单二进制），表明代码质量极高且经过严格验证。更新频繁，快速修复，有明确1.0版本目标，社区活跃度高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，issue关闭数量远超开启数量（507 closed / 76 open），项目维护者响应及时。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-28T04:06:17.688Z"
+    },
+    {
+      "owner": "rtk-ai",
+      "repo": "rtk",
+      "fullName": "rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "topics": [
+        "agentic-coding",
+        "ai-coding",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "command-line-tool",
+        "cost-reduction",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "productivity",
+        "rust",
+        "token-optimization"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-01-22T16:54:16Z",
+      "url": "https://github.com/rtk-ai/rtk",
+      "analysis": {
+        "positioning": "CLI代理，大幅降低LLM编程Token消耗。",
+        "useCases": [
+          "你在使用LLM编写代码时，频繁查看文件（如`ls`, `cat`）或版本状态（`git status`）→ 它能精简这些命令的输出，为你节省70-80%的Token。",
+          "你在让LLM分析大型项目代码或调试测试结果时（如`cargo test`, `pytest`, `grep`）→ 它能将复杂输出压缩90%，显著降低LLM处理成本。",
+          "你在让LLM执行Git操作（如`git add/commit/push`）时 → 它能优化Git命令的输出，让你在交互式AI编程中更经济高效地完成版本控制。"
+        ],
+        "audience": "依赖LLM进行日常开发、关注Token成本并希望提高AI编程效率的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "Mac/Linux用户建议通过Homebrew安装: `brew install rtk`",
+            "或通过脚本快速安装: `curl -fsSL https://raw.githubusercontent.com/rtk-ai/rtk/refs/heads/master/install.sh | sh`"
+          ],
+          "note": "通过`curl`安装后，程序默认位于`~/.local/bin`，可能需要手动将其路径添加到系统环境变量PATH中。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目（Apache-2.0许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为CLI代理，它通过智能压缩和过滤开发者命令输出，直接解决了LLM编程中高Token消耗的核心痛点，极大提升了AI Agent和AI编程助手的实用性和成本效益，是实现高效AI编程的关键基础设施。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，Issue开启量较大（340），但已关闭Issue（157）占比较低，表明新功能和问题反馈积极，但解决效率有提升空间。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-03-28T04:06:30.828Z"
+    },
+    {
+      "owner": "tensorflow",
+      "repo": "tensorflow",
+      "fullName": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "language": "C++",
+      "topics": [
+        "deep-learning",
+        "deep-neural-networks",
+        "distributed",
+        "machine-learning",
+        "ml",
+        "neural-network",
+        "python",
+        "tensorflow"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2015-11-07T01:19:20Z",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "analysis": {
+        "positioning": "端到端开源机器学习平台，人人可用",
+        "useCases": [
+          "你做AI研究 → 它助你开发前沿机器学习模型",
+          "你做应用开发 → 它助你构建并部署智能应用",
+          "你学习ML → 它提供工具和生态，快速入门实践"
+        ],
+        "audience": "机器学习研究员、开发者、AI爱好者，用于模型开发、部署和学习",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "访问官网安装指南",
+            "选择适合你的安装方式（pip, Docker, GPU等）"
+          ],
+          "note": "支持GPU加速，提供C++ API及Docker镜像"
+        },
+        "competitors": [
+          {
+            "name": "PyTorch",
+            "method": "Python API, 动态图",
+            "models": "深度学习、神经网络",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "Scikit-learn",
+            "method": "Python API, 静态库",
+            "models": "传统机器学习算法（分类、回归、聚类等）",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费开源",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "行业领导者，Google支持，代码库成熟稳定，社区极其活跃，文档完善，生态庞大，是机器学习领域基石。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，问题解决效率高，关闭Issue数量远超开启，生态繁荣。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-03-28T04:06:59.612Z"
+    },
+    {
+      "owner": "ohmyzsh",
+      "repo": "ohmyzsh",
+      "fullName": "ohmyzsh/ohmyzsh",
+      "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "language": "Shell",
+      "topics": [
+        "cli",
+        "cli-app",
+        "oh-my-zsh",
+        "oh-my-zsh-plugin",
+        "oh-my-zsh-theme",
+        "ohmyzsh",
+        "plugin-framework",
+        "plugins",
+        "productivity",
+        "shell",
+        "terminal",
+        "theme",
+        "themes",
+        "zsh",
+        "zsh-configuration"
+      ],
+      "license": "MIT",
+      "createdAt": "2009-08-28T18:15:37Z",
+      "url": "https://github.com/ohmyzsh/ohmyzsh",
+      "analysis": {
+        "positioning": "Zsh配置管理框架，增强终端体验与效率。",
+        "useCases": [
+          "你用Git时想更高效 → 它提供Git插件，简化Git命令和信息显示。",
+          "你厌倦了单调的终端界面 → 它提供140+主题，美化你的终端界面。",
+          "你常用多种开发工具（如Docker, Node）→ 它提供特定工具插件，集成常用命令，提高操作便捷性。"
+        ],
+        "audience": "所有Zsh用户、开发者、运维人员，希望提升终端美观度、操作效率和便捷性的群体。",
+        "quickStart": {
+          "prerequisites": "zsh (5.0.8+), git, curl 或 wget",
+          "steps": [
+            "打开终端，运行安装命令：sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"",
+            "根据提示完成安装，重启终端即可生效。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Prezto",
+            "method": "Zsh配置管理框架，提供插件和主题。",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Zplug",
+            "method": "Zsh插件管理器，专注于插件加载和管理。",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README文案幽默夸张，充满自我调侃和趣味性，如“不会让你成为10倍开发者，但你会感觉自己是”，旨在吸引用户并传达轻松愉悦的品牌形象。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，拥有2400+贡献者，Star数超18万，Issue关闭率极高（约90%），响应速度快。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-28T04:07:12.612Z"
+    },
+    {
+      "owner": "getify",
+      "repo": "You-Dont-Know-JS",
+      "fullName": "getify/You-Dont-Know-JS",
+      "description": "A book series (2 published editions) on the JS language.",
+      "language": "Unknown",
+      "topics": [
+        "async",
+        "book",
+        "book-series",
+        "closures",
+        "education",
+        "es2015",
+        "es6",
+        "javascript",
+        "learn-to-code",
+        "programming",
+        "prototypes",
+        "training-materials",
+        "training-providers"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2013-11-16T02:37:24Z",
+      "url": "https://github.com/getify/You-Dont-Know-JS",
+      "analysis": {
+        "positioning": "深入剖析JavaScript核心机制的系列教材。",
+        "useCases": [
+          "你想精通JavaScript语言底层原理 → 它帮你系统学习JS核心机制。",
+          "你困惑于JS闭包、原型、异步等复杂概念 → 它提供深度解释和实例分析。",
+          "你准备高级JavaScript开发或面试 → 它提供权威且全面的知识储备。"
+        ],
+        "audience": "渴望从原理层面透彻理解JavaScript的开发者和学习者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面。",
+            "点击README中提供的链接，在线免费阅读第二版书籍内容。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（在线阅读）/ 付费（购买出版书籍）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "经典的JavaScript深度学习教材，内容权威、免费在线阅读，影响力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "项目已完结，不接受贡献。历史Issue关闭率极高（949/2），当前已停止维护更新。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-28T04:07:24.062Z"
+    },
+    {
+      "owner": "CyC2018",
+      "repo": "CS-Notes",
+      "fullName": "CyC2018/CS-Notes",
+      "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
+      "language": "Unknown",
+      "topics": [
+        "algorithm",
+        "computer-science",
+        "cpp",
+        "interview",
+        "java",
+        "leetcode",
+        "python",
+        "system-design"
+      ],
+      "license": "Unknown",
+      "createdAt": "2018-02-13T14:56:24Z",
+      "url": "https://github.com/CyC2018/CS-Notes",
+      "analysis": {
+        "positioning": "软件工程师面试求职必备基础知识与题解。",
+        "useCases": [
+          "你准备技术面试 → 它帮你系统复习计算机基础和算法。",
+          "你刷Leetcode或剑指Offer → 它帮你提供高质量题解和思路。",
+          "你想提升系统设计能力 → 它帮你掌握核心理论和实践方法。"
+        ],
+        "audience": "求职软件工程师、计算机专业学生，以及希望巩固计算机基础知识的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub主页或在线阅读网站。",
+            "通过README目录选择相应专题进行学习。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "JavaGuide (Snailclimb)",
+            "method": "阅读GitHub仓库或在线网站",
+            "models": "Java核心、计算机基础、面试知识体系",
+            "pricing": "免费"
+          },
+          {
+            "name": "LeetCode (Doocs)",
+            "method": "阅读GitHub仓库",
+            "models": "LeetCode算法题解（Python, Java, C++等）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "内容权威系统，覆盖计算机基础知识和面试常考点，排版清晰易读，是面试准备的经典参考资源，质量极高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数远超开启数，表明项目维护积极，问题响应及时。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-28T04:07:37.598Z"
+    },
+    {
+      "owner": "microsoft",
+      "repo": "vscode",
+      "fullName": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "language": "TypeScript",
+      "topics": [
+        "editor",
+        "electron",
+        "microsoft",
+        "typescript",
+        "visual-studio-code"
+      ],
+      "license": "MIT",
+      "createdAt": "2015-09-03T20:23:38Z",
+      "url": "https://github.com/microsoft/vscode",
+      "analysis": {
+        "positioning": "微软开源的高性能跨平台代码编辑器，集成开发调试工具。",
+        "useCases": [
+          "你编写代码 → 它提供智能补全、语法高亮和代码导航，提升编写效率。",
+          "你调试程序 → 它提供轻量级断点调试功能，助你快速定位问题。",
+          "你扩展开发环境 → 它提供丰富的插件生态和灵活的集成能力，满足个性化需求。"
+        ],
+        "audience": "所有寻求高效、跨平台且高度可定制开发环境的软件开发者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "访问 `code.visualstudio.com/Download`。",
+            "下载并安装对应操作系统的Visual Studio Code版本。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Sublime Text",
+            "method": "下载安装",
+            "models": "纯文本/代码编辑器",
+            "pricing": "付费（免费试用）"
+          },
+          {
+            "name": "JetBrains 系列IDE",
+            "method": "下载安装",
+            "models": "针对特定语言/框架的集成开发环境",
+            "pricing": "付费（部分免费/教育版）"
+          }
+        ],
+        "pricing": "免费（核心项目Code - OSS 开源，Visual Studio Code 产品免费提供）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "业界标准级的现代代码编辑器，功能强大，生态完善，更新频繁，几乎是每个开发者的必备工具。",
+        "isVibeCoding": true,
+        "communityActivity": "极其活跃，Star数和Issue关闭数量巨大，表明社区参与度高且维护团队响应及时。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-28T04:07:50.787Z"
+    },
+    {
+      "owner": "Significant-Gravitas",
+      "repo": "AutoGPT",
+      "fullName": "Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2023-03-16T09:21:07Z",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "analysis": {
+        "positioning": "构建、部署、运行AI代理，让AI自主完成复杂任务。",
+        "useCases": [
+          "你有一个复杂研究课题 → 它帮你自主收集资料、分析数据、撰写报告。",
+          "你有一个产品开发需求 → 它帮你规划、编写代码、测试并迭代。",
+          "你需要持续的市场监控 → 它帮你自动跟踪趋势、分析竞品、生成洞察。"
+        ],
+        "audience": "寻求AI自动化复杂流程的技术开发者、研究人员及AI应用构建者。",
+        "quickStart": {
+          "prerequisites": "Docker Engine, Docker Compose, Git, Node.js, npm, VSCode。硬件：4+ CPU核心，8GB+ RAM，10GB+ 存储。",
+          "steps": [
+            "确保满足所有软硬件系统要求。",
+            "macOS/Linux用户运行：`curl -fsSL https://setup.agpt.co/install.sh -o install.sh && bash install.sh`"
+          ],
+          "note": "自托管（免费）需技术经验；云服务（内测中）更便捷，公测即将推出。"
+        },
+        "competitors": [],
+        "pricing": "部分免费。自托管免费，云服务公测即将推出。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "开创了AI自主代理的先河，激发了agentic AI浪潮，是该领域最具影响力的项目之一，愿景宏大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数远超开启数（3529 vs 379），社区活跃度高，问题解决迅速。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-28T04:08:00.773Z"
+    },
+    {
+      "owner": "n8n-io",
+      "repo": "n8n",
+      "fullName": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2019-06-22T09:24:21Z",
+      "url": "https://github.com/n8n-io/n8n",
+      "analysis": {
+        "positioning": "融合代码的AI原生低代码工作流自动化平台。",
+        "useCases": [
+          "你构建AI应用 → 它帮你编排基于LangChain的AI Agent工作流。",
+          "你有多个系统和数据源需要连接 → 它帮你可视化或编码自动化数据集成与流程。",
+          "你需要灵活的自动化方案（如自托管） → 它帮你实现数据完全可控的低代码/代码混合自动化。"
+        ],
+        "audience": "寻求强大、可控且支持代码能力的自动化工具的技术团队及企业。",
+        "quickStart": {
+          "prerequisites": "Node.js 或 Docker",
+          "steps": [
+            "运行 npx n8n 或 docker run ...n8n",
+            "浏览器访问 http://localhost:5678"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "核心功能开源（fair-code）免费可自托管；提供云服务及企业版付费功能。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "核心是流程自动化，但高度支持JS/Python编写自定义逻辑及集成npm包，实现低代码与专业开发的融合。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数超18万，Issue关闭数远超开启数（8119/1420），社区活跃度极高且支持响应迅速。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-03-28T04:08:14.315Z"
     }
   ]
 }
