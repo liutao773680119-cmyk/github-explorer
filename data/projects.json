@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-28T04:08:14.317Z",
+  "updatedAt": "2026-03-29T04:26:38.822Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -5347,6 +5347,956 @@
         "category": "DevOps"
       },
       "analyzedAt": "2026-03-28T04:08:14.315Z"
+    },
+    {
+      "owner": "uppark",
+      "repo": "accio",
+      "fullName": "uppark/accio",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-29T02:17:18Z",
+      "url": "https://github.com/uppark/accio",
+      "analysis": {
+        "positioning": "Accio账号批量注册、客户端切换与会话迁移的自动化工具",
+        "useCases": [
+          "你需批量创建Accio账号 → 它帮你自动化注册，支持邮箱和Magic Link",
+          "你常用多个Accio账号，切换麻烦 → 它帮你一键切换客户端账号并自动迁移旧会话",
+          "你希望保留旧会话，或避免每次切换登录 → 它帮你备份、恢复和重写会话数据"
+        ],
+        "audience": "适合需要管理或自动化大量Accio账号，并希望无缝切换会话的开发者或高级用户",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Windows 10/11, Accio桌面客户端，并自行部署Freemail临时邮箱服务",
+          "steps": [
+            "克隆项目并安装依赖：`git clone ... && cd ... && pip install -r requirements.txt && python -m camoufox fetch`",
+            "配置 `config.json`，填入Freemail服务地址和令牌",
+            "运行 `python accio_register.py` 进行注册，或 `python accio_switch.py` 进行切换"
+          ],
+          "note": "仅支持Windows操作系统，且需要用户自行部署临时邮箱服务"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，但部分功能依赖用户自建服务）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目直接针对特定桌面客户端进行深度自动化，包括浏览器模拟、临时邮箱集成、会话文件读写与重写等，技术栈复杂且高度定制化，解决特定痛点，符合高Vibe Coding特征。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数28，Issue均为0，表明社区活跃度较低，可能主要由作者维护",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-29T04:21:53.474Z"
+    },
+    {
+      "owner": "larksuite",
+      "repo": "cli",
+      "fullName": "larksuite/cli",
+      "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-25T07:13:30Z",
+      "url": "https://github.com/larksuite/cli",
+      "analysis": {
+        "positioning": "飞书/Lark开放平台的命令行工具，人与AI Agent协同助手。",
+        "useCases": [
+          "你需通过命令行批量管理飞书表格数据 → 它提供简洁的CLI接口，让你快速实现自动化操作。",
+          "你希望构建一个AI Agent，使其能操作飞书日历、文档或发送消息 → 它提供即插即用的Agent Skills，让AI直接调用飞书各项功能。",
+          "你厌倦了频繁切换飞书客户端进行日常操作（如创建会议、发送消息） → 它让你通过命令行一键完成，提高效率。"
+        ],
+        "audience": "飞书/Lark开发者、AI Agent构建者，以及需要通过命令行高效管理飞书各项功能的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "`npm install -g @larksuite/cli`",
+            "运行 `lark login` 并根据提示配置应用权限及登录。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Lark/Feishu官方SDK",
+            "method": "Python/Java/Go等编程语言API调用",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Lark/Feishu Web/客户端",
+            "method": "图形用户界面（GUI）手动操作",
+            "models": "N/A",
+            "pricing": "免费（基础功能）"
+          }
+        ],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专为“人与AI Agent”设计，安装快速，命令简洁，输出结构化，Agent-Native设计降低了AI集成难度，提升了开发体验。支持Go版本Go1.23，但用npm安装对JS开发者更友好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度尚可，但问题解决率偏低（31开 / 2关），响应速度可能较慢。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-29T04:22:10.707Z"
+    },
+    {
+      "owner": "glommer",
+      "repo": "pgmicro",
+      "fullName": "glommer/pgmicro",
+      "description": "An in-process reimplementation of PostgreSQL, backed by a SQLite-compatible storage engine",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-26T13:30:40Z",
+      "url": "https://github.com/glommer/pgmicro",
+      "analysis": {
+        "positioning": "嵌入式PostgreSQL，文件级SQLite存储。",
+        "useCases": [
+          "你想用PostgreSQL做AI Agent的临时数据库 → 它提供轻量级、嵌入式的PostgreSQL能力。",
+          "你需要一个快速、单文件、支持PostgreSQL语法的数据存储 → 它将PostgreSQL查询直接编译为SQLite字节码执行。",
+          "你熟悉PostgreSQL高级特性但想避免其服务器开销 → 它提供PostgreSQL功能，同时保持SQLite的便捷性。"
+        ],
+        "audience": "偏爱PostgreSQL语法和高级特性，又需要SQLite般轻量、嵌入式、无服务器数据库的开发者，尤其适合AI Agent和临时数据场景。",
+        "quickStart": {
+          "prerequisites": "Rust toolchain",
+          "steps": [
+            "README未提供详细的快速开始步骤"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统PostgreSQL (编译至WASM)",
+            "method": "将PostgreSQL数据库编译到WebAssembly运行",
+            "models": "PostgreSQL全特性",
+            "pricing": "免费"
+          },
+          {
+            "name": "SQLite",
+            "method": "直接使用SQLite文件数据库",
+            "models": "SQLite方言",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目解决了PostgreSQL特性与SQLite轻量级嵌入式部署之间的核心矛盾，采用创新的“PG SQL -> SQLite字节码”编译路径。基于现代Rust和Turso构建，切合AI Agent等新兴场景需求，技术思路独特且有前瞻性，虽然仍处于实验阶段，但潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭0，表明项目处于极早期或社区互动暂未活跃。",
+        "category": "数据库"
+      },
+      "analyzedAt": "2026-03-29T04:22:35.825Z"
+    },
+    {
+      "owner": "realkimbarrett",
+      "repo": "advertising-skills",
+      "fullName": "realkimbarrett/advertising-skills",
+      "description": "Advertising Skills for Open Claw, Claude Code & AI agents. Direct response, paid ads, funnels, and copy systems.",
+      "language": "Unknown",
+      "topics": [
+        "advertising",
+        "claude-code",
+        "codex",
+        "openclaw",
+        "openclawskill"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-26T07:58:48Z",
+      "url": "https://github.com/realkimbarrett/advertising-skills",
+      "analysis": {
+        "positioning": "AI代理的专业级广告营销技能库，实现高转化。",
+        "useCases": [
+          "你苦于AI生成千篇一律的营销文案 → 它帮你输出专业级、高转化、直指人心的广告文案和营销策略。",
+          "你需要为Meta/TikTok/YouTube设计高效付费广告活动 → 它指导AI设计广告创意、优化投放漏斗、提升整体广告表现。",
+          "你希望AI代理具备顶尖营销专家的“思考”能力 → 它提供一套系统化的广告营销“技能”，让AI从战略层面规划广告活动。"
+        ],
+        "audience": "适合希望通过AI提升广告投放效果、生成高转化营销内容的专业营销人员、增长专家和AI代理开发者。",
+        "quickStart": {
+          "prerequisites": "需具备AI代理开发或调用能力，熟悉Open Claw、Claude Code等平台或兼容接口。",
+          "steps": [
+            "明确营销目标，根据需求选择并组合项目提供的营销“技能”（如`avatar-extraction` → `offer-extraction`）。",
+            "将营销数据作为输入，通过AI代理调用这些技能链，生成策略、文案和漏斗设计。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费使用（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，强调为AI代理提供营销“思考”而非简单“输出”，有效解决了AI内容同质化问题。README详尽，技能结构化设计独特且实用。虽然issue统计为0，但核心价值在于其理念和结构化知识，潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，社区活跃度较低，可能因为项目主要提供知识结构而非持续代码迭代。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-29T04:22:52.159Z"
+    },
+    {
+      "owner": "legalize-dev",
+      "repo": "legalize-es",
+      "fullName": "legalize-dev/legalize-es",
+      "description": "Spanish legislation as a Git repo — every law is a Markdown file, every reform a commit. 8,600+ laws.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-27T18:20:01Z",
+      "url": "https://github.com/legalize-dev/legalize-es",
+      "analysis": {
+        "positioning": "西班牙法律 Git 仓库，每条法律一个 Markdown，每次修订一个 commit。",
+        "useCases": [
+          "你需要查阅最新法律条文 → 它帮你快速定位和查看。",
+          "你需要追踪法律修订历史 → 它提供 Git Commit 记录和精确 Diff。",
+          "你需要开发法律相关应用 → 它提供结构化数据和即将推出的 API 接口。"
+        ],
+        "audience": "法律研究人员、开发者、数据分析师，用于法律检索、历史追溯和应用开发。",
+        "quickStart": {
+          "prerequisites": "已安装 Git 命令行工具",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/legalize-dev/legalize-es.git`",
+            "进入目录并探索：`cd legalize-es`，使用 `grep`、`git log`、`git diff` 等命令查询法律内容及历史变更。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，法律数据为公共领域，项目代码基于 MIT 许可。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "将复杂、庞大的西班牙法律数据结构化并纳入 Git 版本控制，思路创新且对开发者友好。项目组织清晰，使用示例直观，解决特定领域痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为0，社区活跃度目前较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-29T04:23:05.281Z"
+    },
+    {
+      "owner": "adamlyttleapps",
+      "repo": "notchy",
+      "fullName": "adamlyttleapps/notchy",
+      "description": "",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-28T02:04:16Z",
+      "url": "https://github.com/adamlyttleapps/notchy",
+      "analysis": {
+        "positioning": "刘海屏AI编程助手，Xcode项目伴侣。",
+        "useCases": [
+          "你需快速调用Claude Code → 它悬停刘海屏或点击菜单栏唤出AI终端。",
+          "你在Xcode中写代码 → 它自动检测项目并cd进入，Claude Code直达工作区。",
+          "你担心AI改坏代码 → Cmd+S即可在Claude修改前为项目创建Git快照。"
+        ],
+        "audience": "macOS开发者，尤其使用Xcode和Claude Code，追求高效和刘海屏交互的用户。",
+        "quickStart": {
+          "prerequisites": "macOS 26.0+, Xcode, 有刘海屏的MacBook (推荐)",
+          "steps": [
+            "在Xcode中打开`Notchy.xcodeproj`并构建 (Cmd+B)",
+            "或通过命令行 `xcodebuild -project Notchy.xcodeproj -scheme Notchy -configuration Debug build`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "巧妙利用macOS刘海屏空间集成Claude Code，提供Xcode项目自动检测、多会话终端、实时状态反馈和Git快照等创新且实用的开发者功能。",
+        "isVibeCoding": true,
+        "communityActivity": "有4个开启Issue，0个已关闭，社区活跃度较低，可能处于早期阶段或维护者响应不及时。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-03-29T04:23:15.505Z"
+    },
+    {
+      "owner": "ryfineZ",
+      "repo": "codex-session-patcher",
+      "fullName": "ryfineZ/codex-session-patcher",
+      "description": "A lightweight Python tool to clean AI refusal responses from Codex CLI session files",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-25T14:22:53Z",
+      "url": "https://github.com/ryfineZ/codex-session-patcher",
+      "analysis": {
+        "positioning": "AI编码工具的智能会话清理与CTF/渗透测试提示词注入利器。",
+        "useCases": [
+          "你进行安全测试或CTF，AI编码工具拒绝敏感操作时 → 它智能清理会话，使对话恢复并继续。",
+          "你开始AI编码会话进行渗透测试 → 它预先注入安全上下文，从源头降低AI拒绝请求的概率。",
+          "你管理多个AI编码平台会话 → 它提供统一Web UI，可视化管理、清理与备份所有会话。"
+        ],
+        "audience": "面向使用AI编码工具（如Codex、Claude Code、OpenCode）进行安全测试、CTF竞赛和渗透测试的开发者与安全研究人员。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+ (Web UI版本需Node.js/npm)",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/ryfineZ/codex-session-patcher.git && cd codex-session-patcher`",
+            "安装CLI版本依赖：`pip install -e .` 或安装Web UI版本依赖：`pip install -e \".[web]\" && cd web/frontend && npm install && npm run build && cd ../..`",
+            "启动Web UI (`./scripts/start-web.sh`) 或运行CLI命令 (`codex-patcher --install-ctf`)。"
+          ],
+          "note": "Web UI版本安装流程略复杂，需额外编译前端。"
+        },
+        "competitors": [
+          {
+            "name": "无明确直接竞品",
+            "method": "本项目专注于解决AI编码工具在安全场景下的独特拒绝问题。",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费。作为开源工具可免费使用，但其依赖的LLM服务（如OpenAI API）可能产生费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "在安全测试和CTF等关键场景下，AI拒绝响应极大地影响效率和心情。本项目通过智能清理和预注入提示词，有效化解AI拒绝痛点，显著提升了与AI编码工具交互的流畅度和开发体验，减少了挫败感。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Stars数（338）表明项目受关注，但Issue数量（开启1/关闭0）尚处于早期探索阶段，贡献和互动有待进一步发展。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-03-29T04:23:31.952Z"
+    },
+    {
+      "owner": "ShandaAI",
+      "repo": "WildWorld",
+      "fullName": "ShandaAI/WildWorld",
+      "description": "WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-03-24T09:13:18Z",
+      "url": "https://github.com/ShandaAI/WildWorld",
+      "analysis": {
+        "positioning": "面向生成式ARPG的带动作与状态标注的大规模动态世界建模数据集。",
+        "useCases": [
+          "你想训练能自主行动的ARPG游戏AI → 它提供长时序、带详细状态与动作标注的游戏数据，帮助AI学习与环境互动。",
+          "你想研究生成式ARPG世界建模 → 它提供1亿+帧的真实游戏画面、角色骨骼、动作、状态及语言描述，用于构建动态世界模型。",
+          "你想评估游戏AI模型的性能 → 它计划提供WildBench基准测试工具，统一评估AI模型在动态游戏世界中的表现。"
+        ],
+        "audience": "面向AI研究者、游戏AI开发者，用于训练和评估生成式ARPG中的智能体行为及世界模型。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": "数据集和基准测试代码仍在发布中，请关注项目更新。目前仅发布了论文。"
+        },
+        "competitors": [],
+        "pricing": "免费（研究用途）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个AI训练数据集和基准，而非直接的开发或编码工具。项目核心是数据和研究论文，尚未完全发布数据和工具，因此不适合立即进行编码实践。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度较低，Issue刚开启（2个），未有解决记录，项目仍在初期发布阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-29T04:23:41.946Z"
+    },
+    {
+      "owner": "zanwei",
+      "repo": "design-dna",
+      "fullName": "zanwei/design-dna",
+      "description": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
+      "language": "Unknown",
+      "topics": [
+        "agent-skills",
+        "claude-skills",
+        "codex-skills",
+        "cursor-skills",
+        "design-dna",
+        "design-system",
+        "design-tokens",
+        "skills-cli",
+        "ui-design",
+        "visual-design"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-03-23T10:10:39Z",
+      "url": "https://github.com/zanwei/design-dna",
+      "analysis": {
+        "positioning": "从参考UI提取设计基因，快速生成风格一致的UI代码。",
+        "useCases": [
+          "你有一个现有产品的UI截图或URL → 它帮你分析并提取颜色、字体、布局等设计规范，形成可复用的“设计DNA”。",
+          "你想在新项目或跨平台保持品牌视觉一致性 → 它帮你用已有的设计DNA快速生成符合规范的UI界面。",
+          "你厌倦手动从UI稿转换为代码 → 它帮你将视觉设计元素结构化，并自动生成对应的HTML/CSS/JS UI。"
+        ],
+        "audience": "适合需要从现有UI中提取、规范、复用设计系统的设计师和前端开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境及npx命令",
+          "steps": [
+            "运行 `npx skills add zanwei/design-dna` 安装Agent技能",
+            "提供参考UI（图片/URL）让它分析提取“设计DNA”",
+            "结合设计DNA和你的内容，生成目标UI代码"
+          ],
+          "note": "支持Cursor、Claude等特定Agent集成，也可本地安装使用。"
+        },
+        "competitors": [],
+        "pricing": "MIT开源许可，免费使用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "通过AI Agent将UI截图或URL等视觉参考转化为结构化的设计DNA，并直接生成匹配的UI代码，高度自动化设计到开发流程。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常初期，暂无Issue和PR数据，社区活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-29T04:23:53.925Z"
+    },
+    {
+      "owner": "verialabs",
+      "repo": "ctf-agent",
+      "fullName": "verialabs/ctf-agent",
+      "description": "Autonomous CTF solver that races multiple AI models in parallel. 1st place BSidesSF 2026.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-23T19:03:10Z",
+      "url": "https://github.com/verialabs/ctf-agent",
+      "analysis": {
+        "positioning": "并行竞速多AI模型的自动化CTF解题平台，BSidesSF 2026冠军。",
+        "useCases": [
+          "你参加CTF比赛 → 它自动解题，助你赢取高分。",
+          "你研究安全漏洞 → 它作为AI Agent探索并利用漏洞。",
+          "你需要测试CTF挑战 → 它提供多模型并行攻击及隔离沙箱，提高效率。"
+        ],
+        "audience": "适合CTF玩家、安全研究员及红队成员，用于自动化解题、漏洞发现和攻击验证。",
+        "quickStart": {
+          "prerequisites": "uv (Python包管理器), Docker, OpenAI/Anthropic等LLM API Key, CTFd平台Token。",
+          "steps": [
+            "安装Python依赖：`uv sync`",
+            "构建沙箱镜像：`docker build -f sandbox/Dockerfile.sandbox -t ctf-sandbox .`",
+            "配置API凭证：`cp .env.example .env` 并编辑 `.env` 文件填入API Key和CTFd Token。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目），但运行依赖商业LLM API，需支付相关服务费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "团队周末速成却拿下国际CTF冠军，采用“LLM协调器+多模型并行竞速”的激进策略，高度场景化且效果显著，是典型的效率驱动型项目。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1个，关闭3个，表明项目方会积极处理问题，社区有一定活跃度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-29T04:24:06.060Z"
+    },
+    {
+      "owner": "Yeachan-Heo",
+      "repo": "oh-my-claudecode",
+      "fullName": "Yeachan-Heo/oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-coding",
+        "ai-agents",
+        "automation",
+        "claude",
+        "claude-code",
+        "multi-agent-systems",
+        "oh-my-opencode",
+        "opencode",
+        "parallel-execution",
+        "vibe-coding"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-09T03:36:29Z",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "analysis": {
+        "positioning": "Claude Code多Agent编排助手，主打团队协作和自动化。",
+        "useCases": [
+          "你快速构建应用（如REST API）→ 它帮你通过指令自动生成代码。",
+          "你想法模糊或想精细设计应用 → 它通过苏格拉底式提问帮你明确需求。",
+          "你让AI团队协作解决复杂问题（如修复TS错误）→ 它调度多Agent并行处理，分阶段执行。"
+        ],
+        "audience": "寻求高效、团队化AI编程体验的Claude Code开发者。",
+        "quickStart": {
+          "prerequisites": "需安装Claude Code（其插件体系）。",
+          "steps": [
+            "/plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode",
+            "/plugin install oh-my-claudecode"
+          ],
+          "note": "也可选择npm CLI方式安装：`npm i -g oh-my-claude-sisyphus@latest`。"
+        },
+        "competitors": [
+          {
+            "name": "oh-my-codex",
+            "method": "为OpenAI Codex CLI提供类似的Agent编排体验。",
+            "models": "OpenAI Codex",
+            "pricing": "免费（工具本体，模型API需付费）"
+          }
+        ],
+        "pricing": "免费（工具本体，MIT许可证；但依赖Claude Code API需付费）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "强调“零学习曲线”，通过简单的命令即可调用多Agent完成复杂任务，极大地降低了AI编程的门槛和心智负担，提升了开发体验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区非常活跃，Issue解决率高（738已关闭/12开启），维护积极。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-03-29T04:24:39.103Z"
+    },
+    {
+      "owner": "jackfrued",
+      "repo": "Python-100-Days",
+      "fullName": "jackfrued/Python-100-Days",
+      "description": "Python - 100天从新手到大师",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2018-03-01T16:05:52Z",
+      "url": "https://github.com/jackfrued/Python-100-Days",
+      "analysis": {
+        "positioning": "Python编程实战教程，助你100天从新手到大师。",
+        "useCases": [
+          "想系统学习Python编程 → 提供从基础到进阶的结构化教程，每日都有学习内容。",
+          "寻求Python职业发展方向 → 深入分析后端、数据科学等领域，并提供相应学习路径。",
+          "学习过程中遇到障碍或需要指导 → 可通过付费社群、作者知乎/B站或私人微信获取支持。"
+        ],
+        "audience": "Python编程初学者、进阶学习者，以及对数据科学、后端开发等Python应用领域感兴趣的技术人员。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "克隆jackfrued/Python-100-Days项目到本地。",
+            "从Day01开始，按照Jupyter Notebook章节顺序学习并实践代码。"
+          ],
+          "note": "GitHub访问慢可关注作者知乎专栏或B站视频；项目提供付费社群和咨询服务。"
+        },
+        "competitors": [],
+        "pricing": "部分免费。核心教程内容免费，但提供付费交流群和咨询服务。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目提供清晰的100天学习路径，内容体系化且与实际应用和职业发展紧密结合。作者多渠道互动支持，有助于新手持续学习和实践，提升编程信心。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue管理不活跃（693开/0关），无Issue关闭记录，响应速度差。但作者通过知乎、B站、微信/QQ群等渠道积极互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-29T04:25:03.382Z"
+    },
+    {
+      "owner": "flutter",
+      "repo": "flutter",
+      "fullName": "flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "language": "Dart",
+      "topics": [
+        "android",
+        "app-framework",
+        "cross-platform",
+        "dart",
+        "dart-platform",
+        "desktop",
+        "flutter",
+        "flutter-package",
+        "fuchsia",
+        "ios",
+        "linux-desktop",
+        "macos",
+        "material-design",
+        "mobile",
+        "mobile-development",
+        "skia",
+        "web",
+        "web-framework",
+        "windows"
+      ],
+      "license": "BSD-3-Clause",
+      "createdAt": "2015-03-06T22:54:58Z",
+      "url": "https://github.com/flutter/flutter",
+      "analysis": {
+        "positioning": "Google出品，一套代码搞定移动、Web、桌面多端美观应用。",
+        "useCases": [
+          "你想为iOS和Android各开发一套App → 用Flutter一套代码同时搞定。",
+          "你追求App、Web和桌面端界面统一 → Flutter让你从单一代码库构建美观体验。",
+          "你希望快速迭代和预览App → Flutter提供热重载能力高效开发。"
+        ],
+        "audience": "适用于希望通过一套代码构建移动、Web和桌面端美观、高性能应用的团队和开发者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "访问官方文档（flutter.dev）安装Flutter SDK。",
+            "根据平台配置开发环境并运行第一个Flutter应用。"
+          ],
+          "note": "Flutter工具首次运行或升级时会自动下载Dart SDK及相关资源。"
+        },
+        "competitors": [
+          {
+            "name": "React Native",
+            "method": "JavaScript/TypeScript，基于Web技术",
+            "models": "移动（iOS, Android）, Web, 桌面（社区）",
+            "pricing": "免费"
+          },
+          {
+            "name": ".NET MAUI (原 Xamarin)",
+            "method": "C#，基于.NET",
+            "models": "移动 (iOS, Android), 桌面 (Windows, macOS)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，完全开源。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Google支持，Dart语言性能优秀，提供统一UI和热重载等高效开发体验，生态成熟且活跃。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数量远超开启数量，表明社区活跃度极高且问题响应及时。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-03-29T04:25:17.865Z"
+    },
+    {
+      "owner": "twbs",
+      "repo": "bootstrap",
+      "fullName": "twbs/bootstrap",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "language": "MDX",
+      "topics": [
+        "bootstrap",
+        "css",
+        "css-framework",
+        "html",
+        "javascript",
+        "sass",
+        "scss"
+      ],
+      "license": "MIT",
+      "createdAt": "2011-07-29T21:19:00Z",
+      "url": "https://github.com/twbs/bootstrap",
+      "analysis": {
+        "positioning": "最流行的响应式、移动优先前端开发框架",
+        "useCases": [
+          "你做网站或Web应用 → 它帮你快速构建响应式、移动优先的界面",
+          "你需快速原型开发 → 它提供预置UI组件和样式，加速界面构建",
+          "你关注用户体验和美观 → 它提供专业设计感组件，提升产品颜值和开发效率"
+        ],
+        "audience": "Web开发者，需要快速、高效、美观地构建跨设备兼容的前端界面。",
+        "quickStart": {
+          "prerequisites": "已安装任意包管理器 (如 npm)",
+          "steps": [
+            "通过npm安装: `npm install bootstrap@v5.3.8`",
+            "克隆仓库: `git clone https://github.com/twbs/bootstrap.git`"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极高的Star数（17万+），Issue关闭量远超开启量，表明项目维护活跃且响应迅速。广泛的包管理器支持和清晰的文档，是前端框架的标杆项目。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭量远超开启量（475:22548），表明项目维护极度活跃，社区响应迅速。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-03-29T04:25:28.531Z"
+    },
+    {
+      "owner": "github",
+      "repo": "gitignore",
+      "fullName": "github/gitignore",
+      "description": "A collection of useful .gitignore templates",
+      "language": "Unknown",
+      "topics": [
+        "git",
+        "gitignore"
+      ],
+      "license": "CC0-1.0",
+      "createdAt": "2010-11-08T20:17:14Z",
+      "url": "https://github.com/github/gitignore",
+      "analysis": {
+        "positioning": "GitHub官方维护的`.gitignore`模板集合。",
+        "useCases": [
+          "你新建Git仓库 → 它帮你快速选择并生成常用`.gitignore`模板，避免提交无关文件。",
+          "你需配置全局Git忽略规则 → 它提供各类编辑器、工具及操作系统专用的全局忽略模板供你配置。",
+          "你项目使用特定框架/工具 → 它提供社区贡献的专业模板，确保特定文件不被误提交。"
+        ],
+        "audience": "任何使用Git进行版本控制的开发者，尤其是在GitHub上创建或管理项目时，需要高效管理文件忽略规则的场景。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在GitHub.com创建新仓库时，直接在`.gitignore`选项中选择所需模板。",
+            "访问项目仓库（github/gitignore），浏览并复制特定模板内容到你的项目`.gitignore`文件。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "gitignore.io",
+            "method": "在线交互式选择并生成`.gitignore`文件。",
+            "models": "支持几乎所有主流编程语言、框架、IDE和操作系统。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目有113个Issue开启但0个关闭，显示维护者响应和处理社区贡献的积极性极低，社区参与者反馈可能石沉大海。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，大量Issue未被处理，缺乏维护者响应。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-29T04:25:41.429Z"
+    },
+    {
+      "owner": "massgravel",
+      "repo": "Microsoft-Activation-Scripts",
+      "fullName": "massgravel/Microsoft-Activation-Scripts",
+      "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+      "language": "Batchfile",
+      "topics": [
+        "activator",
+        "hwid",
+        "kms",
+        "kms38",
+        "massgrave",
+        "massgravel",
+        "microsoft",
+        "microsoft365",
+        "office",
+        "office365",
+        "ohook",
+        "powershell",
+        "tsforge",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "license": "GPL-3.0",
+      "createdAt": "2020-01-12T23:03:34Z",
+      "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+      "analysis": {
+        "positioning": "Windows和Office开源激活工具，支持多种激活方式。",
+        "useCases": [
+          "你需要激活Windows操作系统 → 它帮你通过HWID、KMS等方式永久激活系统。",
+          "你需要激活Microsoft Office办公套件 → 它帮你激活Office 2016/2019/2021/365等版本。",
+          "你的系统遇到激活问题或ESU过期 → 它提供高级故障排除和延期安全更新激活。"
+        ],
+        "audience": "需要免费激活Windows和Office的用户，以及寻求激活问题解决方案的普通用户或技术爱好者。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统及网络连接，部分方法需要较新版Windows。",
+          "steps": [
+            "打开PowerShell或下载并运行`MAS_AIO.cmd`。",
+            "根据提示，复制并执行PowerShell代码或直接运行下载的脚本。",
+            "在弹出的菜单中选择相应的激活选项。"
+          ],
+          "note": "若PowerShell命令被ISP/DNS屏蔽，可尝试备用命令或直接下载脚本运行；执行命令前务必核对来源。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该工具虽为开源且维护良好，但其主要功能是免费激活商业软件，处于法律和道德的灰色地带，因此评为中性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区非常活跃，Issue解决率极高（923已关闭/3开启），项目维护及时有效。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-29T04:25:52.442Z"
+    },
+    {
+      "owner": "avelino",
+      "repo": "awesome-go",
+      "fullName": "avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "language": "Go",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "go",
+        "golang",
+        "golang-library",
+        "hacktoberfest"
+      ],
+      "license": "MIT",
+      "createdAt": "2014-07-06T13:42:15Z",
+      "url": "https://github.com/avelino/awesome-go",
+      "analysis": {
+        "positioning": "权威的Go语言生态资源精选指南。",
+        "useCases": [
+          "你做Go项目选型 → 它帮你快速定位最佳框架/库。",
+          "你做Go学习探索 → 它帮你发现优质开源项目和实践。",
+          "你做Go开发提效 → 它帮你找到特定功能的轮子，避免重复造轮子。"
+        ],
+        "audience": "适合所有Go语言开发者，无论初学者还是资深专家，用于快速查找、学习和评估Go生态内的各类资源。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 awesome-go.com 或 GitHub 仓库",
+            "按分类浏览或搜索所需Go框架、库和工具"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub搜索",
+            "method": "直接搜索关键词或标签",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Go语言官方文档/推荐",
+            "method": "查阅官方推荐或标准库",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他Go技术博客/论坛",
+            "method": "阅读文章或社区讨论",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。项目通过赞助支持维护，无月费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它并非直接生成代码或提供编程辅助，但作为一个权威的Go生态资源索引，它能极大提高开发者寻找、评估和选择合适工具的效率，间接赋能编码过程。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，Issue关闭率良好（关闭数远超开启数），维护团队积极，有Slack社群和持续集成，更新频繁。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-29T04:26:02.738Z"
+    },
+    {
+      "owner": "ollama",
+      "repo": "ollama",
+      "fullName": "ollama/ollama",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "language": "Go",
+      "topics": [
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama",
+        "llama3",
+        "llm",
+        "llms",
+        "minimax",
+        "mistral",
+        "ollama",
+        "qwen"
+      ],
+      "license": "MIT",
+      "createdAt": "2023-06-26T19:39:32Z",
+      "url": "https://github.com/ollama/ollama",
+      "analysis": {
+        "positioning": "简化本地LLM部署与运行，提供统一API。",
+        "useCases": [
+          "你想本地跑开源大模型（如Gemma、Mistral） → 它帮你一键下载、部署、运行并提供API。",
+          "你想开发基于LLM的应用（如AI助手、编程工具） → 它提供Python/JS库和RESTful API，轻松集成各类模型。",
+          "你想快速测试不同LLM（如Kimi、GLM、DeepSeek） → 它让你通过简单命令切换和调用模型进行交互。"
+        ],
+        "audience": "开发者、研究人员及AI爱好者，旨在本地运行、测试和集成开源大语言模型。",
+        "quickStart": {
+          "prerequisites": "网络连接",
+          "steps": [
+            "根据操作系统执行安装命令：curl -fsSL https://ollama.com/install.sh | sh (macOS/Linux) 或 irm https://ollama.com/install.ps1 | iex (Windows)。",
+            "运行 `ollama run gemma3`，即可开始与模型对话。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "llama.cpp (手动)",
+            "method": "编译源码，下载GGUF模型文件，手动运行命令行工具。",
+            "models": "支持所有GGUF格式模型。",
+            "pricing": "免费"
+          },
+          {
+            "name": "Hugging Face Transformers",
+            "method": "使用Python编写代码，加载模型到GPU/CPU，手动进行推理。",
+            "models": "支持Hugging Face生态中的各类模型。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "大幅降低了在本地运行和集成大型语言模型的门槛，支持多平台和丰富的模型，通过统一API和SDK极大地提升了开发效率和可玩性，是本地LLM生态的关键工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，已关闭Issue数远超开启，响应速度快，且Star数庞大。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-03-29T04:26:13.643Z"
+    },
+    {
+      "owner": "AUTOMATIC1111",
+      "repo": "stable-diffusion-webui",
+      "fullName": "AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-art",
+        "deep-learning",
+        "diffusion",
+        "gradio",
+        "image-generation",
+        "image2image",
+        "img2img",
+        "pytorch",
+        "stable-diffusion",
+        "text2image",
+        "torch",
+        "txt2img",
+        "unstable",
+        "upscaling",
+        "web"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2022-08-22T14:05:26Z",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "analysis": {
+        "positioning": "Stable Diffusion图像生成的一站式Web界面",
+        "useCases": [
+          "你想要通过文字描述生成AI图像 → 它帮你提供直观界面进行高质量AI绘画",
+          "你想要精细修改、修复或放大AI/现有图片 → 它帮你实现局部重绘、人脸修复、智能超分辨率",
+          "你想要深度探索AI图像生成参数或训练模型 → 它帮你提供高级控制、参数绘图、模型微调功能",
+          "你想要低成本本地运行AI生成工具 → 它帮你利用本地计算资源，无需付费订阅云服务"
+        ],
+        "audience": "适合希望本地部署、高度自定义AI图像生成工作流的艺术家、设计师及技术爱好者",
+        "quickStart": {
+          "prerequisites": "Python和Git",
+          "steps": [
+            "克隆项目仓库",
+            "运行一键安装脚本"
+          ],
+          "note": "支持最低2GB显存显卡运行，MacOS用户有专属快捷键"
+        },
+        "competitors": [
+          {
+            "name": "Midjourney",
+            "method": "Discord机器人/云服务",
+            "models": "私有模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "ComfyUI",
+            "method": "本地Web UI",
+            "models": "Stable Diffusion",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (AGPL-3.0开源许可，本地部署)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "事实上的Stable Diffusion Web UI标准，功能全面且强大，社区极其活跃，持续迭代，极大地降低了AI艺术创作门槛，功能涵盖从基础生成到高级模型训练。",
+        "isVibeCoding": true,
+        "communityActivity": "极其活跃，已关闭Issue远超开启（>2:1），响应和解决问题效率高",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-03-29T04:26:27.743Z"
+    },
+    {
+      "owner": "jlevy",
+      "repo": "the-art-of-command-line",
+      "fullName": "jlevy/the-art-of-command-line",
+      "description": "Master the command line, in one page",
+      "language": "Unknown",
+      "topics": [
+        "bash",
+        "documentation",
+        "linux",
+        "macos",
+        "unix",
+        "windows"
+      ],
+      "license": "Unknown",
+      "createdAt": "2015-05-20T15:11:03Z",
+      "url": "https://github.com/jlevy/the-art-of-command-line",
+      "analysis": {
+        "positioning": "一页精通命令行，极速提升开发者生产力。",
+        "useCases": [
+          "你刚接触Linux/macOS → 它帮你快速掌握命令行基础和日常操作。",
+          "你需要高效处理文件和数据 → 它帮你学会常用命令、管道和单行脚本技巧。",
+          "你遇到系统问题 → 它帮你通过命令行进行系统调试和问题定位。"
+        ],
+        "audience": "适合所有级别的开发者和系统管理员，旨在快速提升命令行操作效率和技巧熟练度。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub项目页面。",
+            "阅读主页README.md，或选择你偏好的语言版本。"
+          ],
+          "note": "内容涵盖Linux、macOS及Windows (WSL) 平台下的命令行实用技巧。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目内容精炼实用，覆盖面广，是提升命令行效率的经典资源。超高的星标数证明了其在开发者社区的广泛价值和影响力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，拥有众多多语言贡献者参与翻译与内容优化，Issue 开启与关闭比显示有持续的讨论和维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-29T04:26:38.820Z"
     }
   ]
 }
