@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "date": "2026-03-30",
+  "startedAt": "2026-03-30T04:28:47.652Z",
+  "finishedAt": "2026-03-30T04:35:33.444Z",
+  "durationSeconds": 406,
+  "success": true,
+  "stats": {
+    "fetched": 108,
+    "newProjects": 22,
+    "skipped": 86,
+    "geminiCalls": 26,
+    "statsUpdated": 108
+  },
+  "errors": [
+    {
+      "time": "2026-03-30T04:34:49.342Z",
+      "level": "warn",
+      "project": "ytdl-org/youtube-dl",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-30T04:34:52.499Z",
+      "level": "warn",
+      "project": "vercel/next.js",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-30T04:35:11.843Z",
+      "level": "warn",
+      "project": "Genymobile/scrcpy",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-03-30T04:35:31.308Z",
+      "level": "warn",
+      "project": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-29T04:26:38.822Z",
+  "updatedAt": "2026-03-30T04:35:28.123Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -6297,6 +6297,1144 @@
         "category": "其他"
       },
       "analyzedAt": "2026-03-29T04:26:38.820Z"
+    },
+    {
+      "owner": "apextechnicalc",
+      "repo": "AI-free-talking",
+      "fullName": "apextechnicalc/AI-free-talking",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-30T02:22:54Z",
+      "url": "https://github.com/apextechnicalc/AI-free-talking",
+      "analysis": {
+        "positioning": "日语销售AI对话机器人，智能模拟/执行销售对话。",
+        "useCases": [
+          "你需提升日语音频销售技巧 → 它提供智能AI陪练，实时语音交互。",
+          "你需自动化日语电话营销初筛 → 它可作为智能外呼，执行初步销售对话。",
+          "你需快速部署定制化日语智能客服 → 它提供核心语音交互能力，便于集成。"
+        ],
+        "audience": "面向日本市场的销售团队、日语商务对话学习者、寻求自动化日语客户沟通的企业。",
+        "quickStart": {
+          "prerequisites": "Python 3.7+，麦克风、扬声器，互联网连接。",
+          "steps": [
+            "（Windows）双击 `start_ai_agent.bat` 运行。",
+            "（Linux/macOS）运行 `chmod +x start_ai_agent.sh` 后，执行 `./start_ai_agent.sh`。"
+          ],
+          "note": "提供了Windows/Linux/macOS多种快速启动脚本及手动安装指南，对PyAudio常见问题有详细解决方案。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，README详尽且提供多平台安装指南和常见问题解决方案，实用性强。但Star数较低，社区活跃度待观察，属于小众但功能清晰的AI Agent应用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 均为0，可能项目处于早期阶段或用户群体小。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-30T04:28:57.771Z"
+    },
+    {
+      "owner": "apextechnicalc",
+      "repo": "AI-Web-search",
+      "fullName": "apextechnicalc/AI-Web-search",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "CC0-1.0",
+      "createdAt": "2026-03-30T02:19:01Z",
+      "url": "https://github.com/apextechnicalc/AI-Web-search",
+      "analysis": {
+        "positioning": "AI驱动Web搜索工具精选列表，聚合LLM与Web搜索能力",
+        "useCases": [
+          "你想快速了解搜索结果 → 它帮你用LLM总结并提供追问",
+          "你想与LLM对话获取信息 → 它让LLM能联网搜索回答",
+          "你想让LLM自动做研究 → 它驱动LLM搜索网络并生成报告"
+        ],
+        "audience": "寻找AI增强型Web搜索或LLM集成搜索方案的开发者、研究者和产品经理。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "直接浏览GitHub页面",
+            "点击链接查看感兴趣的AI搜索工具详情"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Khoj",
+            "method": "AI辅助个人知识库和Web搜索",
+            "models": "通用LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "Researcher",
+            "method": "自动化研究Agent，生成报告",
+            "models": "通用LLM",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为AI Web搜索工具的精选列表，定位清晰，内容结构化良好。项目本身是信息聚合，而非工具，社区活跃度较低（星数和Issue）。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计为0/0，项目星数不多。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-30T04:29:15.624Z"
+    },
+    {
+      "owner": "better-bytes-academy",
+      "repo": "awesome-testing",
+      "fullName": "better-bytes-academy/awesome-testing",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-30T00:51:38Z",
+      "url": "https://github.com/better-bytes-academy/awesome-testing",
+      "analysis": {
+        "positioning": "专为越南语测试工程师打造的知识与资源精选集。",
+        "useCases": [
+          "想学习测试基础知识 → 获取结构化的入门指引和概念。",
+          "寻找特定测试工具（自动化、API等）→ 快速定位适合的工具列表。",
+          "准备测试岗位面试 → 查阅常见面试问题与答案。",
+          "规划QA职业发展路径 → 参考学习路线图和职业指南。",
+          "需要测试文档模板 → 下载测试计划/用例/缺陷报告模板。"
+        ],
+        "audience": "面向越南语环境下的各级别测试工程师，提供从基础知识到职业发展的一站式学习与参考资源。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库",
+            "浏览或下载所需内容"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他Awesome Testing列表",
+            "method": "浏览仓库",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "独立测试博客/论坛/课程平台",
+            "method": "搜索/注册学习",
+            "models": null,
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目内容组织清晰，涵盖知识、工具、面试、职业发展等多个方面，对QA工程师有很高参考价值；但目前社区活跃度较低，Star数不多。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue和Pull Request均为0，Star数仅15。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-03-30T04:29:30.441Z"
+    },
+    {
+      "owner": "qiuzhi2046",
+      "repo": "Qclaw",
+      "fullName": "qiuzhi2046/Qclaw",
+      "description": "不用命令行，小白也能轻松玩转 OpenClaw",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-28T16:17:01Z",
+      "url": "https://github.com/qiuzhi2046/Qclaw",
+      "analysis": {
+        "positioning": "OpenClaw桌面管家，让小白告别命令行，轻松玩转AI。",
+        "useCases": [
+          "想用OpenClaw但畏惧命令行 → 提供可视化操作界面，无需敲命令即可使用OpenClaw。",
+          "OpenClaw环境配置复杂 → 自动检测并安装Node.js、OpenClaw CLI，一键搞定环境。",
+          "希望将OpenClaw接入多种IM → 支持扫码一键接入飞书、微信、钉钉等IM平台，自动配置插件。",
+          "OpenClaw模型管理、技能扩展不便 → 可视化管理OpenClaw全量模型、自定义模型及各类技能。"
+        ],
+        "audience": "对OpenClaw感兴趣但缺乏技术背景，希望通过图形界面便捷管理AI工具的个人用户和开发者。",
+        "quickStart": {
+          "prerequisites": "无特殊前置，客户端自动检测并安装所需环境。",
+          "steps": [
+            "下载并安装Qclaw客户端。",
+            "依据客户端引导，完成环境准备、AI模型配置及（可选）IM平台接入。"
+          ],
+          "note": "目前主要支持macOS，Windows版本仍在开发中。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "解决了OpenClaw CLI工具的学习和使用门槛，通过桌面应用提供可视化、一站式的AI管理体验。技术栈主流，用户体验友好，项目活跃。",
+        "isVibeCoding": true,
+        "communityActivity": "社区积极开放，鼓励用户报告问题和提出建议。当前有较多开启中的问题和功能请求，响应速度待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-30T04:29:57.137Z"
+    },
+    {
+      "owner": "yetone",
+      "repo": "voice-input-src",
+      "fullName": "yetone/voice-input-src",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-29T09:13:27Z",
+      "url": "https://github.com/yetone/voice-input-src",
+      "analysis": {
+        "positioning": "macOS 菜单栏语音输入应用，融合 AI 精准转录与优雅体验。",
+        "useCases": [
+          "你习惯语音输入但对系统自带识别率不满意 → 它通过 AI 修正转录，尤其擅长中英文混输。",
+          "你需要在 macOS 上快速切换多语言输入 → 它智能判断并自动切换输入法，粘贴无障碍。",
+          "你追求极简高效且有格调的输入体验 → 它提供优雅浮窗和实时波形反馈，提升输入舒适度。"
+        ],
+        "audience": "追求高效、优雅语音输入体验的 macOS 用户，尤其适合需要处理中英文混杂文本或对识别准确率有高要求的用户。",
+        "quickStart": {
+          "prerequisites": "macOS 14+",
+          "steps": [
+            "从 `yetone/voice-input-dist` 下载并安装应用。",
+            "按住 Fn 键开始录音，松开后转录文本自动注入。",
+            "（可选）在菜单栏设置中配置 LLM API 提升识别准确率。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "macOS 系统听写",
+            "method": "系统内置，通过快捷键或 Siri 激活。",
+            "models": "Apple Speech Recognition",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他第三方语音输入工具",
+            "method": "通常通过系统扩展或后台应用提供。",
+            "models": "多样化，可能集成云端服务或本地模型。",
+            "pricing": "免费或付费订阅"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目需求极度细致，从 Fn 键监听、实时音频波形动画、优雅的 UI 设计、复杂的输入法切换逻辑到 LLM 精准纠错，每项都深入解决用户痛点，追求极致的用户体验与技术实现细节，体现了高度的“为爱发电”精神。",
+        "isVibeCoding": true,
+        "communityActivity": "项目很新或维护良好，目前 Issue 数量极少，活跃度有待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-30T04:30:19.889Z"
+    },
+    {
+      "owner": "revfactory",
+      "repo": "harness",
+      "fullName": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-26T21:22:07Z",
+      "url": "https://github.com/revfactory/harness",
+      "analysis": {
+        "positioning": "Claude Agent团队及技能自动化生成与编排工具",
+        "useCases": [
+          "你做复杂AI任务的Agent团队设计 → 它帮你自动生成领域专属的Agent定义和技能",
+          "你做AI Agent工作流编排 → 它提供6种架构模式并自动化生成团队协作代码",
+          "你做AI Agent团队功能验证 → 它提供触发验证、空跑测试和对比测试"
+        ],
+        "audience": "Claude Code开发者或AI Agent架构师，用于高效构建、部署和验证复杂的AI Agent团队。",
+        "quickStart": {
+          "prerequisites": "Claude Code环境",
+          "steps": [
+            "安装插件：`/plugin marketplace add revfactory/harness` 然后 `/plugin install harness@harness`",
+            "或手动安装：`cp -r skills/harness ~/.claude/skills/harness`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "项目开源免费（Apache-2.0），但使用时可能涉及Claude API调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目理念新颖且功能强大，文档清晰，但GitHub上的Issue活跃度为零，主要语言标记为HTML可能造成理解偏差。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启和关闭均为0，社区互动度较低，或Issue管理方式不在GitHub公开。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-30T04:30:36.484Z"
+    },
+    {
+      "owner": "Timeverse",
+      "repo": "My-TW-Coverage",
+      "fullName": "Timeverse/My-TW-Coverage",
+      "description": "Equity research coverage of 1,735 Taiwan-listed companies (TWSE + OTC). Business overviews, supply chain mapping, and financial data with wikilink cross-referencing.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-24T12:08:06Z",
+      "url": "https://github.com/Timeverse/My-TW-Coverage",
+      "analysis": {
+        "positioning": "台湾上市柜公司股权研究数据库，核心是知识图谱式供应链分析。",
+        "useCases": [
+          "你想研究苹果供应链 → 它帮你快速找到207家台湾供应商。",
+          "你想追踪台积电CoWoS先进封装相关公司 → 它帮你揭示所有参与者。",
+          "你想分析特定材料（如光阻液）的上下游 → 它帮你绘制完整的供需图谱。"
+        ],
+        "audience": "适合需要深入研究台湾上市公司供应链、财务数据及行业关系的股票分析师、投资者和行业研究员。",
+        "quickStart": {
+          "prerequisites": "pip install yfinance pandas tabulate",
+          "steps": [
+            "安装必要依赖",
+            "浏览 `Pilot_Reports/` 目录下的Markdown报告以了解公司详情",
+            "运行 `python scripts/add_ticker.py <股票代码> <公司名称>` 或 `python scripts/update_financials.py <股票代码>` 来管理或更新数据。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决台湾股市信息碎片化痛点，提供结构化、知识图谱式的供应链和财务数据分析，实用性强，文档清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，issues 很少。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-30T04:30:56.712Z"
+    },
+    {
+      "owner": "Nahuel990",
+      "repo": "ministack",
+      "fullName": "Nahuel990/ministack",
+      "description": "Ministack: the free LocalStack replacement",
+      "language": "Python",
+      "topics": [
+        "aws",
+        "aws-emulation",
+        "aws-local",
+        "boto",
+        "docker",
+        "dynamodb",
+        "emulator",
+        "lambda",
+        "localstack",
+        "ministack",
+        "moto",
+        "pip",
+        "python",
+        "s3",
+        "testing"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-03-24T22:27:58Z",
+      "url": "https://github.com/Nahuel990/ministack",
+      "analysis": {
+        "positioning": "免费、轻量、开源的LocalStack替代品，本地模拟AWS服务。",
+        "useCases": [
+          "你本地开发AWS应用 → 它帮你免费模拟S3、Lambda、DynamoDB等，无需真实AWS环境。",
+          "你运行CI/CD测试 → 它帮你搭建轻量级本地AWS环境，加速测试，降低云成本。",
+          "你希望快速原型验证 → 它帮你即时启动真实的RDS、Redis等服务容器进行测试。"
+        ],
+        "audience": "依赖AWS服务的开发者、测试工程师及DevOps团队，尤其重视成本和本地开发效率的用户。",
+        "quickStart": {
+          "prerequisites": "Python (pip) 或 Docker",
+          "steps": [
+            "`pip install ministack` 或 `docker run -p 4566:4566 nahuelnucera/ministack`",
+            "运行 `ministack` 或上述 Docker 命令",
+            "验证：`curl http://localhost:4566/_localstack/health`"
+          ],
+          "note": "默认监听4566端口，可通过GATEWAY_PORT环境变量修改。"
+        },
+        "competitors": [
+          {
+            "name": "LocalStack",
+            "method": "Docker容器或本地运行",
+            "models": "支持更多AWS服务（部分高级服务需付费）",
+            "pricing": "核心服务已转为付费，社区版功能受限"
+          }
+        ],
+        "pricing": "免费。MIT开源许可。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "直接解决了LocalStack免费版受限的痛点，提供免费、轻量、高性能的替代方案，且即插即用，完全符合开发者对工具的期望。",
+        "isVibeCoding": true,
+        "communityActivity": "开启Issue数量少，关闭Issue数量多，项目积极维护且问题解决效率较高。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-03-30T04:31:09.093Z"
+    },
+    {
+      "owner": "krzyzanowskim",
+      "repo": "claude-better",
+      "fullName": "krzyzanowskim/claude-better",
+      "description": "better claude harness",
+      "language": "Unknown",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-03-27T12:27:41Z",
+      "url": "https://github.com/krzyzanowskim/claude-better",
+      "analysis": {
+        "positioning": "一个更快速、更轻量的Claude CLI兼容替代品。",
+        "useCases": [
+          "你启动Claude CLI → 它帮你更快启动、减少等待73%。",
+          "你长时间交互使用Claude CLI → 它帮你显著降低内存占用80%。",
+          "你已有的Claude CLI脚本和工作流 → 它帮你无缝替换，无需修改，100%兼容。"
+        ],
+        "audience": "Claude CLI的现有用户，尤其是对性能、内存占用敏感，或追求极致流畅体验的开发者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "请查阅官方仓库获取详细安装和配置步骤。（项目README未提供）",
+            "安装后，可像使用原版Claude CLI一样运行命令。"
+          ],
+          "note": "支持macOS、Linux及容器化CI环境。"
+        },
+        "competitors": [
+          {
+            "name": "Anthropic Claude CLI (原版)",
+            "method": "命令行交互",
+            "models": "Claude系列模型",
+            "pricing": "CLI工具免费，底层API调用按量付费"
+          }
+        ],
+        "pricing": "免费（CLI工具开源，底层API调用需付费）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "目标明确，性能提升显著，兼容性高。有详细的基准测试和严谨的评估方法，工程质量和专业度很高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue统计。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-30T04:31:22.269Z"
+    },
+    {
+      "owner": "polymarket-dev",
+      "repo": "Polymarket-Arbitrage-Bot",
+      "fullName": "polymarket-dev/Polymarket-Arbitrage-Bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket arbitrage bot",
+      "language": "TypeScript",
+      "topics": [
+        "algorithmic-trading",
+        "arbitrage",
+        "automation",
+        "crypto-arbitrage",
+        "crypto-trading",
+        "defi",
+        "finance",
+        "hft",
+        "market-making",
+        "polymarket",
+        "prediction-markets",
+        "quant-trading",
+        "trading-bot",
+        "trading-strategy",
+        "web3"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-25T19:14:42Z",
+      "url": "https://github.com/polymarket-dev/Polymarket-Arbitrage-Bot",
+      "analysis": {
+        "positioning": "Polymarket预测市场套利机器人，自动执行“暴跌对冲”策略。",
+        "useCases": [
+          "你手动寻找Polymarket 15分钟涨跌市场套利机会 → 它自动发现市场、监控价格、执行“暴跌对冲”策略，锁住利润。",
+          "你担心在Polymarket手动交易风险失控 → 它提供可配置止损对冲、风险参数和模拟模式，帮你安全地验证策略并控制风险。",
+          "你希望全天候自动化Polymarket交易 → 它支持多资产、自动周期切换，实现无人值守的持续交易和盈亏跟踪。"
+        ],
+        "audience": "Polymarket预测市场套利者、量化交易员，寻求自动化高频交易策略以获取稳定收益。",
+        "quickStart": {
+          "prerequisites": "Node.js 16+ 和 TypeScript 5+",
+          "steps": [
+            "克隆仓库并安装依赖。",
+            "配置`.env`文件，填入API凭证和策略参数。",
+            "运行`npm run dev`进行模拟测试，或`npm run prod`启动生产模式。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，使用TypeScript和`.env`配置，提供模拟模式和风险控制，注重生产环境部署，适合快速上手和定制。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无社区活动（Issue 0/0），可能项目较新。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-30T04:31:34.341Z"
+    },
+    {
+      "owner": "0xSero",
+      "repo": "turboquant",
+      "fullName": "0xSero/turboquant",
+      "description": "TurboQuant: Near-optimal KV cache quantization for LLM inference (3-bit keys, 2-bit values) with Triton kernels + vLLM integration",
+      "language": "Python",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-03-25T20:32:26Z",
+      "url": "https://github.com/0xSero/turboquant",
+      "analysis": {
+        "positioning": "大模型推理KV缓存量化，极致节省显存、提升吞吐。",
+        "useCases": [
+          "你做大模型推理，显存不够跑长文本 → 它帮你将KV Cache减半，显存利用率翻倍。",
+          "你部署LLM服务，希望提高吞吐量 → 它通过高效KV Cache压缩，加速预填充和解码。",
+          "你使用vLLM部署大模型 → 它无缝集成，直接提升你的推理服务性能和最大上下文容量。"
+        ],
+        "audience": "追求极致显存效率和推理吞吐的LLM部署工程师和研究者，尤其是vLLM用户。",
+        "quickStart": {
+          "prerequisites": "Python环境，NVIDIA GPU（RTX 3090/5090级别），已安装vLLM 0.18.0或更高版本。",
+          "steps": [
+            "克隆项目仓库并安装依赖。",
+            "参考项目文档，将TurboQuant集成到你的vLLM推理配置中。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费（GPL-3.0开源许可）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目技术实力强劲，有ICLR论文背书，并提供了详尽的性能基准测试，显示出显著的显存节省和吞吐提升。Triton内核与vLLM集成也体现了对性能的追求。但目前issue全开无关闭，社区互动和问题响应有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "issue有开启但无关闭记录，活跃度存疑。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-03-30T04:31:45.707Z"
+    },
+    {
+      "owner": "mvanhorn",
+      "repo": "last30days-skill",
+      "fullName": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-23T20:37:37Z",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "analysis": {
+        "positioning": "AI agent技能，研究并总结30天内全网热点",
+        "useCases": [
+          "你关注AI前沿 → 它帮你快速掌握最新趋势和社区热点",
+          "你需要深入了解某个话题 → 它为你提供多源（社媒、论坛、预测市场）数据驱动的综述报告",
+          "你需要对比两个概念 → 它为你生成并排比较分析，包括优缺点和数据支持的结论",
+          "你想建立个人研究库 → 它自动保存每次研究结果为Markdown文件"
+        ],
+        "audience": "关注前沿趋势、需要快速、深入、数据化了解特定主题的AI开发者、研究员、分析师和内容创作者。",
+        "quickStart": {
+          "prerequisites": "Claude Code 或 ClawHub 环境，部分数据源可能需要付费API Key（如ScrapeCreators、Bluesky）。",
+          "steps": [
+            "Claude Code 环境：运行 `/plugin marketplace add mvanhorn/last30days-skill` 后，运行 `/plugin install last30days@last30days-skill`",
+            "ClawHub 环境：运行 `clawhub install last30days-official`"
+          ],
+          "note": "需要根据所用AI Agent平台选择安装方式。部分高级功能可能需要配置API Key。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)，但部分数据源（如ScrapeCreators）可能需要付费API Key。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度实用，解决AI领域信息过载痛点。集成多源数据（包括预测市场），持续迭代，且提供结构化、有引用的总结，符合当前开发者对信息效率的需求。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，Issue 持续提出并得到处理，维护者积极响应，项目处于活跃迭代中。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-30T04:32:25.342Z"
+    },
+    {
+      "owner": "huggingface",
+      "repo": "transformers",
+      "fullName": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "language": "Python",
+      "topics": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning",
+        "model-hub",
+        "natural-language-processing",
+        "nlp",
+        "pretrained-models",
+        "python",
+        "pytorch",
+        "pytorch-transformers",
+        "qwen",
+        "speech-recognition",
+        "transformer",
+        "vlm"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2018-10-29T13:56:00Z",
+      "url": "https://github.com/huggingface/transformers",
+      "analysis": {
+        "positioning": "SOTA机器学习模型的统一框架，覆盖文本、视觉、音频。",
+        "useCases": [
+          "你做LLM应用 → 它帮你快速集成、微调并部署顶尖语言模型。",
+          "你做计算机视觉 → 它帮你轻松实现图像分类、目标检测等多模态任务。",
+          "你做语音识别 → 它帮你便捷调用SOTA音频模型进行识别或处理。"
+        ],
+        "audience": "机器学习工程师、研究员，希望快速使用或定制AI领域最前沿文本、视觉、音频模型的专业人士。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "pip install transformers",
+            "from transformers import pipeline; classifier = pipeline('sentiment-analysis'); classifier('I love Hugging Face!')"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "PyTorch",
+            "method": "深度学习核心库API编程，需自行构建或加载模型",
+            "models": "PyTorch生态内模型众多，需自行查找和整合",
+            "pricing": "免费"
+          },
+          {
+            "name": "TensorFlow/Keras",
+            "method": "深度学习核心库API编程，需自行构建或加载模型",
+            "models": "TensorFlow Hub/Keras Applications提供部分模型，需自行查找和整合",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（Apache-2.0开源协议）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "AI/ML领域的事实标准，集成了海量SOTA模型（含LLM、多模态），代码质量高，社区活跃度极高，是研究员和开发者首选工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启数多（2328），但已关闭数为0，表明Issue处理流程或数据统计口径需关注。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-03-30T04:33:11.768Z"
+    },
+    {
+      "owner": "DigitalPlatDev",
+      "repo": "FreeDomain",
+      "fullName": "DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "language": "HTML",
+      "topics": [
+        "digitalplat",
+        "domain",
+        "domain-platform",
+        "domainname",
+        "domains",
+        "free",
+        "freedomain"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2024-05-30T13:23:00Z",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "analysis": {
+        "positioning": "提供免费域名服务，助你轻松拥有数字身份",
+        "useCases": [
+          "你想免费建立个人网站或博客 → 它帮你获得免费域名并绑定DNS。",
+          "你想快速测试新项目或创意 → 它帮你节省域名成本，即刻上线。",
+          "你想为你的社群或组织建立在线入口 → 它帮你以免费域名提升可访问性。"
+        ],
+        "audience": "需要免费域名来建立个人网站、测试项目或创建在线身份的个人、学生、开源贡献者和小型组织。",
+        "quickStart": {
+          "prerequisites": "有DNS提供商账户（如Cloudflare）",
+          "steps": [
+            "访问DigitalPlat FreeDomain Dashboard",
+            "注册你想要的免费域名"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GoDaddy/Namecheap",
+            "method": "在线购买",
+            "models": "各种通用TLD",
+            "pricing": "付费"
+          },
+          {
+            "name": "Freenom (曾提供免费TLD)",
+            "method": "网站注册",
+            "models": "部分特定TLD (.tk, .ml等)",
+            "pricing": "免费/部分免费（服务不稳定）"
+          }
+        ],
+        "pricing": "完全免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目概念独特且拥有庞大用户基数（15万+ Star，40万+注册域名），但在GitHub上Issue长期未处理（32开/0关），表明其在GitHub上的社区维护和响应存在问题。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue长期未处理（32开/0关），表明在GitHub上的问题解决机制不活跃，社区响应可能不足，但提供了Telegram/Discord群组作为补充交流渠道。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-30T04:33:25.912Z"
+    },
+    {
+      "owner": "f",
+      "repo": "prompts.chat",
+      "fullName": "f/prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "language": "HTML",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ],
+      "license": "CC0-1.0",
+      "createdAt": "2022-12-05T13:54:13Z",
+      "url": "https://github.com/f/prompts.chat",
+      "analysis": {
+        "positioning": "全球最大的AI Prompt开源库，提升AI应用效率。",
+        "useCases": [
+          "你希望高效使用AI生成内容 → 它帮你快速发现和应用高质量Prompt，提升产出效果。",
+          "你的团队需要统一管理AI Prompt → 它帮你自建Prompt库，确保隐私和一致性。",
+          "你正探索AI新应用或优化现有流程 → 它帮你浏览社区分享的Prompt，激发新思路。"
+        ],
+        "audience": "AI用户、开发者及企业，用于优化AI交互、统一Prompt管理及探索创新应用。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 prompts.chat 网站，直接浏览和搜索所需Prompt。",
+            "克隆项目代码，部署到私有环境，搭建专属企业Prompt库。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费且开源，支持自部署。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "业界顶级开源项目，GitHub星标数超15万，被哈佛、哥伦比亚大学引用，OpenAI联合创始人推荐，社区活跃度高，持续更新。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极高，Issue 解决及时，维护者响应迅速，持续迭代更新。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-03-30T04:33:39.592Z"
+    },
+    {
+      "owner": "Snailclimb",
+      "repo": "JavaGuide",
+      "fullName": "Snailclimb/JavaGuide",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "language": "Java",
+      "topics": [
+        "agent",
+        "context-engineering",
+        "interview",
+        "java",
+        "jvm",
+        "mcp",
+        "mysql",
+        "redis",
+        "redisson",
+        "skills",
+        "spring",
+        "system",
+        "system-design"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2018-05-07T13:27:00Z",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "analysis": {
+        "positioning": "Java后端面试与通用技术通关指南。",
+        "useCases": [
+          "你准备Java后端面试 → 它帮你系统构建知识体系、掌握高频考点。",
+          "你想深入学习后端通用技术 → 它帮你理解计算机基础、数据库、分布式、高并发、系统设计。",
+          "你对AI应用开发感兴趣 → 它帮你基于Spring AI实践大模型项目、掌握AI开发技能。"
+        ],
+        "audience": "Java后端开发者、在校学生、求职者，用于系统化准备面试、提升技术栈或学习AI应用开发。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 javaguide.cn 在线阅读，或 interview.javaguide.cn 获取面试突击版本。",
+            "通过 `git clone https://github.com/Snailclimb/JavaGuide` 克隆项目到本地阅读。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "CyC2018/CS-Notes",
+            "method": "GitHub在线阅读/clone",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "doocs/advanced-java",
+            "method": "GitHub在线阅读/clone",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（核心内容开放，部分深度专栏/PDF可能付费增值）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目核心为提供Java后端面试及技术学习的知识内容和学习路径，不直接涉及代码生成或辅助编程。",
+        "isVibeCoding": false,
+        "communityActivity": "活跃度极高，Issue关闭率（1068/1137）表明项目维护积极，响应迅速。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-03-30T04:33:51.602Z"
+    },
+    {
+      "owner": "yt-dlp",
+      "repo": "yt-dlp",
+      "fullName": "yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "downloader",
+        "python",
+        "sponsorblock",
+        "youtube-dl",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "license": "Unlicense",
+      "createdAt": "2020-10-26T04:22:55Z",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "analysis": {
+        "positioning": "多功能命令行音视频下载工具，youtube-dl增强版",
+        "useCases": [
+          "想从YouTube、B站等千余网站下载音视频 → 它帮你一键搞定，支持多种格式和质量。",
+          "想跳过视频内的赞助商、片头片尾等无用部分 → 它帮你智能识别并自动跳过或剪切。",
+          "想将下载的音视频进行后处理，如转码、提取音频、嵌入字幕 → 它提供丰富的后处理选项。",
+          "想批量下载播放列表或频道内容 → 它支持多种选择和筛选条件高效完成。"
+        ],
+        "audience": "需要从各种在线视频平台批量或定制化下载音视频内容的开发者、内容消费者及创作者。",
+        "quickStart": {
+          "prerequisites": "Python环境 (推荐3.8+)",
+          "steps": [
+            "pip install yt-dlp",
+            "yt-dlp <视频URL>"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "youtube-dl",
+            "method": "命令行",
+            "models": "多站点音视频下载，yt-dlp 的前身，更新维护不如yt-dlp活跃",
+            "pricing": "免费"
+          },
+          {
+            "name": "在线视频下载网站/浏览器插件",
+            "method": "网页/浏览器插件",
+            "models": "操作简单，通常支持热门站点有限，功能较单一，可能包含广告",
+            "pricing": "免费（常含广告或功能受限）"
+          }
+        ],
+        "pricing": "完全免费（Unlicense开源协议）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能强大、维护活跃的经典CLI工具，社区支持良好，解决用户痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常活跃，Issue解决及时（关闭数远超开启数），代码更新频繁，拥有庞大用户群体。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-03-30T04:34:04.318Z"
+    },
+    {
+      "owner": "airbnb",
+      "repo": "javascript",
+      "fullName": "airbnb/javascript",
+      "description": "JavaScript Style Guide",
+      "language": "JavaScript",
+      "topics": [
+        "arrow-functions",
+        "es2015",
+        "es2016",
+        "es2017",
+        "es2018",
+        "es6",
+        "eslint",
+        "javascript",
+        "linting",
+        "naming-conventions",
+        "style-guide",
+        "style-linter",
+        "styleguide",
+        "tc39"
+      ],
+      "license": "MIT",
+      "createdAt": "2012-11-01T23:13:50Z",
+      "url": "https://github.com/airbnb/javascript",
+      "analysis": {
+        "positioning": "Airbnb的JavaScript代码风格指南，确保团队代码一致性。",
+        "useCases": [
+          "新建前端/Node.js项目 → 快速引入业界公认的最佳实践，避免重复造轮子。",
+          "多人协作开发 → 统一代码风格，减少代码审查争议，提升协作效率。",
+          "代码质量规范化 → 自动化检查代码，确保项目可读性、可维护性及未来扩展性。"
+        ],
+        "audience": "寻求JavaScript项目代码规范的开发者和团队，尤其是有高标准代码质量要求的场景。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js，项目已使用Babel（建议配合`babel-preset-airbnb`）。",
+          "steps": [
+            "安装ESLint及Airbnb基础配置：`npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import`",
+            "在项目根目录创建`.eslintrc.js`文件，内容如下：\n```javascript\nmodule.exports = {\n  extends: 'airbnb-base',\n  // 可在此处覆盖或添加自定义规则\n  // rules: {\n  //   'indent': ['error', 2],\n  // }\n};\n```"
+          ],
+          "note": "该指南假设您项目中已安装`airbnb-browser-shims`或等效的polyfill。"
+        },
+        "competitors": [
+          {
+            "name": "Google JavaScript Style Guide",
+            "method": "ESLint配置",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "StandardJS",
+            "method": "CLI工具/ESLint配置",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供了严格且全面的代码风格规则，有助于团队协作和代码质量，但也可能对个人编码习惯有一定约束，需要适应成本。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数14万+，Issue关闭率高，活跃度极高，社区响应及时，项目维护良好。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-03-30T04:34:18.273Z"
+    },
+    {
+      "owner": "521xueweihan",
+      "repo": "HelloGitHub",
+      "fullName": "521xueweihan/HelloGitHub",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "github",
+        "hellogithub",
+        "python"
+      ],
+      "license": "Unknown",
+      "createdAt": "2016-05-04T06:24:11Z",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "analysis": {
+        "positioning": "GitHub有趣入门级开源项目精选月刊，助你发现开源乐趣。",
+        "useCases": [
+          "你寻找高质量的开源项目入门学习 → 它帮你每月精选，提供有趣且适合初学者的项目。",
+          "你想快速了解开源世界有哪些热门和实用工具 → 它帮你汇总近期各类优质开源项目，节省筛选时间。",
+          "你希望持续获取新的开源灵感和资源 → 它帮你定期更新开源书籍、实战和企业级项目，拓宽视野。"
+        ],
+        "audience": "对开源项目感兴趣、希望快速入门或持续探索开源世界的开发者、学生及技术爱好者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "访问项目官网 hellogithub.com 或 GitHub 仓库。",
+            "浏览每月 28 号发布的月刊内容，发现感兴趣的开源项目。"
+          ],
+          "note": "主要通过官网、GitHub 仓库或微信公众号浏览内容，无需本地部署或特定环境。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Trending",
+            "method": "访问 GitHub 趋势页面",
+            "models": "N/A (基于仓库活跃度自动推荐)",
+            "pricing": "免费"
+          },
+          {
+            "name": "Awesome Lists (泛指)",
+            "method": "搜索特定领域的 Awesome 仓库",
+            "models": "N/A (人工收集和分类)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目描述强调“有趣、入门级”和“爱上开源”，配以生动的 GIF 和多语言支持，极力营造积极友好的氛围。超高的 Star 数和每月定期更新，体现了其在社区的巨大影响力与受欢迎程度，是新用户探索开源的绝佳起点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 关闭数远超开启数（2680 vs 313），显示积极的问题解决和维护。每月 28 号定期更新，且在微信、微博等多平台设有社区入口，社区极其活跃且维护良好。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-30T04:34:30.158Z"
+    },
+    {
+      "owner": "langflow-ai",
+      "repo": "langflow",
+      "fullName": "langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent",
+        "react-flow"
+      ],
+      "license": "MIT",
+      "createdAt": "2023-02-08T22:28:03Z",
+      "url": "https://github.com/langflow-ai/langflow",
+      "analysis": {
+        "positioning": "AI Agent和工作流的可视化构建与部署平台。",
+        "useCases": [
+          "你快速构建AI Agent原型 → 它帮你通过可视化界面拖拽构建并实时测试",
+          "你想将复杂AI逻辑集成到应用 → 它帮你将工作流一键部署为API或MCP服务",
+          "你需要编排多Agent协同工作 → 它帮你管理对话并协调多个AI Agent"
+        ],
+        "audience": "开发者，特别是需要高效构建、测试、部署AI Agent及复杂AI工作流的工程师。",
+        "quickStart": {
+          "prerequisites": "Python 3.10–3.13, uv 包管理器",
+          "steps": [
+            "uv pip install langflow -U",
+            "langflow run"
+          ],
+          "note": "提供桌面版（Windows/macOS），无需手动管理依赖和环境"
+        },
+        "competitors": [],
+        "pricing": "核心开源免费，提供企业级安全与扩展支持。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数近15万，社区极其活跃，Issue解决效率高。提供可视化构建、多Agent编排、多种部署方式（API/MCP）等强大功能，且支持主流LLM和向量数据库，生态完善。桌面版简化了入门体验，整体开发门槛低，是构建和部署AI Agent及工作流的利器。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，Issue开闭比（939/2878）良好，解决效率高，多平台（Twitter/YouTube/Discord）互动频繁，生态建设完善。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-30T04:34:46.107Z"
+    },
+    {
+      "owner": "yangshun",
+      "repo": "tech-interview-handbook",
+      "fullName": "yangshun/tech-interview-handbook",
+      "description": "Curated coding interview preparation materials for busy software engineers",
+      "language": "TypeScript",
+      "topics": [
+        "algorithm",
+        "algorithm-interview",
+        "algorithm-interview-questions",
+        "algorithms",
+        "behavioral-interviews",
+        "coding-interviews",
+        "interview-practice",
+        "interview-preparation",
+        "interview-questions",
+        "system-design"
+      ],
+      "license": "MIT",
+      "createdAt": "2016-07-05T05:00:48Z",
+      "url": "https://github.com/yangshun/tech-interview-handbook",
+      "analysis": {
+        "positioning": "专为忙碌工程师打造的精选技术面试备考指南。",
+        "useCases": [
+          "你准备编程面试 → 它提供精选算法题、解题策略与学习计划，助你高效备考。",
+          "你追求面试全面性 → 它覆盖算法、系统设计、行为面试，甚至简历制作与薪资谈判。",
+          "你目标顶尖科技公司 → 它提供FAANG级别面试策略和资源，帮你实现职业飞跃。"
+        ],
+        "audience": "任何想高效备考、冲击顶尖科技公司职位的忙碌软件工程师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问官方网站 techinterviewhandbook.org",
+            "根据需求选择阅读编程面试、系统设计或行为面试等章节。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LeetCode",
+            "method": "大型编程题库平台，需耗时大量刷题",
+            "models": "各类算法和数据结构题目",
+            "pricing": "部分免费"
+          }
+        ],
+        "pricing": "免费。所有精选面试准备材料均可免费获取。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心是提供编程面试内容指南，虽非直接编程工具，但紧密关联编程实践与技能提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区极其活跃，拥有超高星标数，Issue 处理及时，关闭数远超开启数。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-03-30T04:35:08.602Z"
+    },
+    {
+      "owner": "langgenius",
+      "repo": "dify",
+      "fullName": "langgenius/dify",
+      "description": "Production-ready platform for agentic workflow development.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "gemini",
+        "genai",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "orchestration",
+        "python",
+        "rag",
+        "workflow"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2023-04-12T07:40:24Z",
+      "url": "https://github.com/langgenius/dify",
+      "analysis": {
+        "positioning": "生产级的AI Agent工作流低代码/无代码开发平台",
+        "useCases": [
+          "你做AI应用原型 → 它帮你拖拽式构建和测试LLM Agent应用。",
+          "你做智能客服/内容生成 → 它帮你整合知识库（RAG），编排复杂Agent工作流。",
+          "你做AI产品商业化 → 它帮你提供云服务与自托管，快速部署生产级Agent。"
+        ],
+        "audience": "希望通过低代码/无代码方式，快速构建、测试和部署生产级AI Agent工作流的开发者、产品经理及企业用户。",
+        "quickStart": {
+          "prerequisites": "Docker 和 Docker Compose",
+          "steps": [
+            "安装 Docker 和 Docker Compose。",
+            "参照官方文档，使用 Docker Compose 运行部署命令。"
+          ],
+          "note": "同时提供 Dify 云服务，可直接在线使用。"
+        },
+        "competitors": [
+          {
+            "name": "Flowise",
+            "method": "可视化拖拽界面",
+            "models": "主流LLM",
+            "pricing": "免费（开源自托管）"
+          },
+          {
+            "name": "LangChain",
+            "method": "编程库/框架",
+            "models": "全模型支持",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "部分免费/免费增值，提供云服务免费额度，付费企业版；开源版可自托管免费使用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极高的社区活跃度（13万+ Star），Issue处理效率极高，有成熟的商业化支持（云服务、企业版），项目维护专业，技术栈前沿，是AI Agent工作流领域的明星项目。",
+        "isVibeCoding": true,
+        "communityActivity": "非常活跃，Issue 关闭数量远超开启数量，表明项目响应迅速且维护及时。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-03-30T04:35:28.120Z"
     }
   ]
 }
