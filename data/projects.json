@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-31T04:24:44.547Z",
+  "updatedAt": "2026-04-01T04:39:12.947Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -8290,6 +8290,904 @@
         "category": "Prompt工程"
       },
       "analyzedAt": "2026-03-31T04:24:44.544Z"
+    },
+    {
+      "owner": "code-yeongyu",
+      "repo": "not-claude-code-emulator",
+      "fullName": "code-yeongyu/not-claude-code-emulator",
+      "description": "ULTRA DANGEROUS CLAUDE CODE EMULATOR; MAKING THE API REQUEST IDENTICAL TO CLAUDE CODE",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-01T00:48:47Z",
+      "url": "https://github.com/code-yeongyu/not-claude-code-emulator",
+      "analysis": {
+        "positioning": "Claude API 兼容代理，提供消息接口和认证管理。",
+        "useCases": [
+          "你想开发与 Claude API 交互的应用 → 它帮你本地模拟 Claude API 请求，方便开发测试。",
+          "你想简化 Claude API 认证流程 → 它提供 OAuth 代理和内置令牌管理。",
+          "你需要处理 Claude API 的流式响应 → 它支持流式传输，简化实现。"
+        ],
+        "audience": "使用或集成 Claude API 的开发者，用于简化开发、测试和认证管理。",
+        "quickStart": {
+          "prerequisites": "Bun 和 GitHub CLI",
+          "steps": [
+            "npm install -g not-claude-code-emulator",
+            "not-claude-code-emulator install",
+            "not-claude-code-emulator start"
+          ],
+          "note": "请使用发布的 npm 包进行安装，不要直接使用源代码进行设置。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目名和描述充满个性与幽默感，如“ULTRA DANGEROUS”，暗示着独特而大胆的开发风格。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无 Issue 开启或关闭记录。",
+        "category": "后端框架"
+      },
+      "analyzedAt": "2026-04-01T04:34:08.067Z"
+    },
+    {
+      "owner": "Gitlawb",
+      "repo": "openclaude",
+      "fullName": "Gitlawb/openclaude",
+      "description": "Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via OpenAI-compatible API shim",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-01T03:15:49Z",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "analysis": {
+        "positioning": "将Claude Code能力嫁接任意LLM，通过OpenAI兼容API。",
+        "useCases": [
+          "你想用Claude Code的工具链（如文件读写、bash命令） → 它帮你用GPT-4o、Llama等模型驱动这些工具。",
+          "你想构建基于Claude Code多步推理的Agent → 它让你选择任何OpenAI兼容模型作为大脑。",
+          "你想用本地模型（如Ollama上的Llama3）享受Claude Code的代码生成和编辑能力 → 它帮你通过OpenAI兼容API对接本地模型。"
+        ],
+        "audience": "希望利用Claude Code强大Agent工具链，但想自由选择OpenAI兼容LLM的开发者或研究者。",
+        "quickStart": {
+          "prerequisites": "已安装npm或Bun",
+          "steps": [
+            "全局安装（推荐）：`npm install -g @gitlawb/openclaude`",
+            "设置环境变量：`export CLAUDE_CODE_USE_OPENAI=1`、`export OPENAI_API_KEY=sk-...`、`export OPENAI_MODEL=gpt-4o` (按需替换为其他LLM配置)",
+            "运行：`openclaude`"
+          ],
+          "note": "npm包名为`@gitlawb/openclaude`，但CLI命令是`openclaude`。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "编程框架（Python/JS）",
+            "models": "广泛支持各类LLM",
+            "pricing": "框架免费，模型API收费"
+          },
+          {
+            "name": "GPT-Engineer",
+            "method": "CLI工具，驱动AI生成代码",
+            "models": "主要OpenAI",
+            "pricing": "项目免费，模型API收费"
+          }
+        ],
+        "pricing": "项目本身免费，但使用主流商业LLM需支付API费用；可免费使用本地部署模型。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "Star数极少，Issue统计为0，社区活跃度低。项目基于“泄露”代码，且License未知，未来支持和稳定性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，目前社区活跃度极低或不公开。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:34:28.225Z"
+    },
+    {
+      "owner": "TaGoat",
+      "repo": "claude_code_cli",
+      "fullName": "TaGoat/claude_code_cli",
+      "description": "Claude code source code",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-01T01:27:11Z",
+      "url": "https://github.com/TaGoat/claude_code_cli",
+      "analysis": {
+        "positioning": "终端上的Claude AI编程助手，一键代码交互平台",
+        "useCases": [
+          "你想在终端直接让Claude帮你写代码或修改文件 → 它帮你通过CLI与Claude交互，直接编辑文件。",
+          "你想让Claude帮你执行复杂的代码操作或调试 → 它帮你运行命令，并处理Git工作流。",
+          "你想快速理解或查找代码库中的特定内容 → 它帮你搜索代码库，提升开发效率和质量。"
+        ],
+        "audience": "偏爱命令行操作，希望将Claude AI能力无缝融入日常开发流程的专业开发者。",
+        "quickStart": {
+          "prerequisites": "Bun运行时环境，Git",
+          "steps": [
+            "git clone https://github.com/TaGoat/claude_code_cli.git",
+            "cd claude_code_cli && bun install",
+            "根据项目文档运行或构建CLI工具（例如：bun run dev 或通过./bin/cli执行）"
+          ],
+          "note": "该项目目前为早期探索阶段，具体CLI运行命令需查阅项目README或内部文档。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot CLI",
+            "method": "命令行交互，代码生成/修改/问答",
+            "models": "GitHub Copilot (基于OpenAI模型)",
+            "pricing": "付费"
+          },
+          {
+            "name": "llm (CLI)",
+            "method": "命令行与多种LLM交互",
+            "models": "可配置OpenAI, Claude, Llama等",
+            "pricing": "免费（模型API调用付费）"
+          }
+        ],
+        "pricing": "免费（项目本身开源），但使用时需支付Claude AI服务费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数极少且Issue活跃度为零，表明尚处于早期探索阶段。但其基于Bun和Ink技术栈，专注于终端AI编程，概念前沿，潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前几乎无社区参与和讨论。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:34:50.390Z"
+    },
+    {
+      "owner": "94xy",
+      "repo": "xykt",
+      "fullName": "94xy/xykt",
+      "description": "基于Apple VisionKit 的 macOS 抠图",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-01T00:07:56Z",
+      "url": "https://github.com/94xy/xykt",
+      "analysis": {
+        "positioning": "macOS命令行抠图工具，利用Apple Vision框架智能主体提取。",
+        "useCases": [
+          "你希望快速抠掉一张图片背景 → 它帮你轻松去除背景并保存为新文件。",
+          "你有大量图片需批量抠图 → 它帮你自动批量处理一个文件夹中的所有图片。",
+          "你需要特定背景颜色的抠图结果 → 它帮你自定义输出图片的背景色（如白色）。"
+        ],
+        "audience": "macOS用户、设计师、内容创作者或开发者，需要高效、自动化地处理图片背景提取。",
+        "quickStart": {
+          "prerequisites": "macOS 14.0+",
+          "steps": [
+            "访问GitHub Release页面，下载适合您系统架构的zip包。",
+            "解压后运行 `install.sh` 脚本进行安装。",
+            "使用 `xykt -e input.jpg output.png` 命令快速抠图。"
+          ],
+          "note": "macOS专属，命令行操作。"
+        },
+        "competitors": [
+          {
+            "name": "remove.bg",
+            "method": "在线网页上传，API",
+            "models": "自研AI模型",
+            "pricing": "免费额度，超出付费"
+          },
+          {
+            "name": "Adobe Photoshop",
+            "method": "桌面UI操作，智能选择工具",
+            "models": "Adobe Sensei AI/手动工具",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费（MIT License开源）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，安装、使用、卸载流程完整，提供详细功能说明、示例和效果对比。技术实现方案明确，错误处理到位，是针对特定场景（macOS抠图）的简洁高效解决方案。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示开启和关闭均为0，可能因项目较新或功能稳定。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-01T04:35:00.312Z"
+    },
+    {
+      "owner": "nathanyjleeprojects",
+      "repo": "learn-from-claudecode",
+      "fullName": "nathanyjleeprojects/learn-from-claudecode",
+      "description": "Claude Code 소스코드 심층 분석 — 더 나은 LLM 엔지니어가 되기 위한 커리큘럼",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-01T01:22:51Z",
+      "url": "https://github.com/nathanyjleeprojects/learn-from-claudecode",
+      "analysis": {
+        "positioning": "深度解析Claude Code，助你掌握生产级LLM应用工程模式。",
+        "useCases": [
+          "你想成为更优秀的LLM/AI工程师 → 它帮你系统学习生产级LLM应用的核心工程模式。",
+          "你想亲手构建Agentic系统 → 它帮你理解真实Agent的架构设计与实现。",
+          "你好奇生产级AI应用的内部结构 → 它帮你洞察Anthropic官方CLI工具Claude Code的设计决策。"
+        ],
+        "audience": "想深入学习LLM工程实践、构建Agentic系统或洞察生产级AI应用内部结构的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从Phase 1: 核心架构开始，按顺序阅读各章节。",
+            "逐步学习生产级基础设施和高级模式。",
+            "完成Phase 4: 系统完成，全面掌握Claude Code的实现细节。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain/LlamaIndex官方文档",
+            "method": "阅读官方文档、教程及示例代码",
+            "models": "支持各类主流LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "在线LLM工程课程 (如DeepLearning.AI)",
+            "method": "观看视频课程、完成编程练习",
+            "models": "通常基于OpenAI或其他主流LLM API",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "对生产级LLM应用源码（Claude Code）进行深度剖析，系统化为26篇课程，覆盖架构、Agent、Prompt、基础设施等核心工程实践，结构清晰，目标明确，极具学习价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区不活跃，项目更侧重于一份已完成的工程实践分析和学习课程。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:35:18.540Z"
+    },
+    {
+      "owner": "phodal",
+      "repo": "claude-code-codex-slide",
+      "fullName": "phodal/claude-code-codex-slide",
+      "description": "a analysis source code from claude code by codex with GPT Slide SKILL",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-01T00:17:24Z",
+      "url": "https://github.com/phodal/claude-code-codex-slide",
+      "analysis": {
+        "positioning": "逆向还原Anthropic Claude Code源码，提供分析演示文稿。",
+        "useCases": [
+          "你想深入研究Anthropic Claude Code的内部实现 → 它帮你还原TypeScript源码并提供结构概览。",
+          "你想分析大型AI代码库的架构和模块设计 → 它帮你提供Claude Code还原源码，辅助技术解析。",
+          "你想了解AI Agent、技能系统、多Agent协调等技术在商业产品中的具体实现 → 它帮你展示Claude Code中这些关键模块的实际代码细节。"
+        ],
+        "audience": "技术研究者、开发者、AI爱好者，用于学习和分析Anthropic Claude Code的内部机制。",
+        "quickStart": {
+          "prerequisites": "无特殊前置条件，需自行查阅还原源码或演示文稿。",
+          "steps": [
+            "克隆仓库：`git clone https://github.com/phodal/claude-code-codex-slide.git`",
+            "查阅 `restored-src/src/` 目录下的还原源码，或打开 `artifacts/claude-code-sourcemap-deck.pptx` 查看分析演示文稿。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "无直接竞品",
+            "method": "该项目为特定产品源码还原，非通用工具",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "通过逆向分析大型商业AI产品的源码结构，提供独特的学习和研究价值，具有较高的技术探索性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，Issue统计为0，可能因为其研究性质，主要供个人学习或查阅。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:35:31.869Z"
+    },
+    {
+      "owner": "linghucong-yue1",
+      "repo": "IntelliScraper",
+      "fullName": "linghucong-yue1/IntelliScraper",
+      "description": "About IntelliScraper: An advanced, intelligent web scraping tool leveraging BeautifulSoup and machine learning for efficient data extraction and analysis.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-01T01:34:41Z",
+      "url": "https://github.com/linghucong-yue1/IntelliScraper",
+      "analysis": {
+        "positioning": "基于机器学习的智能网页抓取工具，高效精准提炼数据。",
+        "useCases": [
+          "你做数据分析或市场研究 → 它帮你从复杂网页精准提取所需数据。",
+          "你做网站内容监控 → 它帮你自动化监测新闻、价格等网站内容更新。",
+          "你做Web开发 → 它帮你自动化测试网页内容和布局变更。"
+        ],
+        "audience": "数据分析师、市场研究员及Web开发者，需要智能、高效地从各种网页中提取和处理数据的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.7+，BeautifulSoup，scikit-learn",
+          "steps": [
+            "安装项目依赖：`pip install beautifulsoup4 scikit-learn`。",
+            "提供目标URL、所需数据列表（`wanted_list`）和匹配规则路径即可开始抓取。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念新颖，结合机器学习提升抓取精度，但目前Star数和社区活跃度极低（无Issue），尚处于早期个人项目阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区无任何开启或关闭记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-01T04:35:43.648Z"
+    },
+    {
+      "owner": "instructkr",
+      "repo": "claw-code",
+      "fullName": "instructkr/claw-code",
+      "description": "The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools, not merely storing the archive of leaked Claude Code but make real things done. Now rewriting in Rust using oh-my-codex.",
+      "language": "Rust",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T08:58:08Z",
+      "url": "https://github.com/instructkr/claw-code",
+      "analysis": {
+        "positioning": "基于Claude架构，用Rust重写的高性能AI Agent工具链。",
+        "useCases": [
+          "你渴望构建高性能AI Agent → 它提供一个基于Claude架构、快速且内存安全的Rust工具链，加速你的Agent开发。",
+          "你希望借鉴Claude代码架构精髓 → 它通过Clean-room重写，助你合法复现其核心设计理念，规避版权风险。",
+          "你追求开发效率与代码质量 → 它整合Oh-My-Codex，利用AI驱动代码生成与架构验证，提升开发速度和可靠性。"
+        ],
+        "audience": "AI Agent开发者、追求高性能和内存安全性的工程师、以及对AI Agent架构和AI辅助开发感兴趣的技术人员。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "克隆项目仓库",
+            "关注 `dev/rust` 分支以获取Rust重写版，或使用主分支的Python版本"
+          ],
+          "note": "核心功能正在从Python向Rust重写，旨在提供更快、内存安全的运行环境。建议关注 `dev/rust` 分支的最新进展。"
+        },
+        "competitors": [],
+        "pricing": "开源免费，项目通过GitHub Sponsors接受社区赞助。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目在短短2小时内获得超过5万星标，创造历史最快纪录，社区关注度爆炸；采用前沿的Rust语言进行高性能重写，并结合AI驱动的开发工具Oh-My-Codex，技术栈新潮且高效；项目背景故事富有传奇色彩，充满极客精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极高，问题提交数量庞大（1640个），但目前0个已关闭问题，表明问题处理可能尚未开始或项目正处于快速重构阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:35:59.283Z"
+    },
+    {
+      "owner": "sanbuphy",
+      "repo": "claude-code-source-code",
+      "fullName": "sanbuphy/claude-code-source-code",
+      "description": "It will be revised soon.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T09:07:08Z",
+      "url": "https://github.com/sanbuphy/claude-code-source-code",
+      "analysis": {
+        "positioning": "Claude Code v2.1.88 源代码深度分析工具与报告。",
+        "useCases": [
+          "你做AI模型逆向研究 → 它提供Claude Code v2.1.88的非捆绑TypeScript源码及深度分析报告。",
+          "你关注AI隐私与数据治理 → 它揭示Claude的遥测、隐私策略和用户无法退出的原因。",
+          "你想了解AI模型内部机制与未来方向 → 它披露Claude的内部代号、隐藏功能和未发布工具与路线图。"
+        ],
+        "audience": "对Anthropic Claude AI内部运作、安全隐私、架构设计及未来发展感兴趣的技术研究员、开发者与AI爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆GitHub仓库",
+            "查阅`docs/`目录下的多语言分析报告"
+          ],
+          "note": "此项目源码提取自NPM包，不可直接编译运行；主要用于技术研究与学习，严禁商业用途。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目旨在深入技术研究与教育交流，提供了严谨详细的分析报告与源码提取，而非轻松随性的代码实践。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue开启数远多于关闭数（47:1），表明项目主要作为研究资料发布，社区互动及代码贡献活跃度较低。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-04-01T04:36:15.058Z"
+    },
+    {
+      "owner": "ChinaSiro",
+      "repo": "claude-code-sourcemap",
+      "fullName": "ChinaSiro/claude-code-sourcemap",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T08:15:54Z",
+      "url": "https://github.com/ChinaSiro/claude-code-sourcemap",
+      "analysis": {
+        "positioning": "非官方还原Anthropic Claude编程助手源码，仅供研究",
+        "useCases": [
+          "你做AI Agent或CLI工具开发 → 它帮你深入学习Anthropic Claude的代码实现、Agent协调与工具调用模式。",
+          "你想理解大型语言模型如何落地成编程助手产品 → 它帮你分析其服务架构、插件/技能系统和交互设计（如Vim/语音模式）。",
+          "你对Source Map还原技术感兴趣 → 它可以作为学习和实践的案例。"
+        ],
+        "audience": "AI研究者、LLM应用开发者，或任何想深入了解顶级AI编程助手内部实现的人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆仓库：`git clone https://github.com/ChinaSiro/claude-code-sourcemap.git`",
+            "探索 `restored-src/src` 目录下的TypeScript源码，分析其结构和实现。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE集成/插件",
+            "models": "OpenAI系列",
+            "pricing": "付费"
+          },
+          {
+            "name": "Cursor IDE",
+            "method": "独立IDE",
+            "models": "GPT-4, Claude等",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费 (仅限研究，源码不可用于商业用途)",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个复杂且还原的源码项目，主要用于技术研究和分析，而非提供直接的开发体验或优化编码流程，上手和理解成本较高。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue数量不多，但关闭率较高 (60%)，说明项目维护者对反馈有响应。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:36:31.691Z"
+    },
+    {
+      "owner": "Kuberwastaken",
+      "repo": "claude-code",
+      "fullName": "Kuberwastaken/claude-code",
+      "description": "Claude Code in Rust & a Breakdown of How it Works",
+      "language": "Rust",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T09:23:58Z",
+      "url": "https://github.com/Kuberwastaken/claude-code",
+      "analysis": {
+        "positioning": "洁净室复刻Anthropic AI代码工具行为，并详细分析其源代码泄露事件。",
+        "useCases": [
+          "你想了解Claude Code的内部工作原理 → 它提供行为规范和Rust复刻代码供你研究。",
+          "你想学习如何在法律框架下复刻软件功能 → 它展示“洁净室”工程的实践方法和法律依据。",
+          "你对npm Sourcemap泄露事件感兴趣 → 它提供泄露原因、技术细节和影响的深入解析。"
+        ],
+        "audience": "关注AI产品实现、软件逆向工程、安全漏洞分析及版权法律边界的技术人员和研究者。",
+        "quickStart": {
+          "prerequisites": "Rust开发环境 (rustc, cargo)",
+          "steps": [
+            "克隆仓库：`git clone https://github.com/kuberwastaken/claude-code.git`",
+            "进入src-rust目录并构建：`cd claude-code/src-rust && cargo build`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目详尽揭露AI产品源代码泄露事件，以“洁净室”方式复刻行为，兼顾法律与技术深度，极具讨论价值和学习意义。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数较多（10个），关闭数较少（2个），活跃度尚可，主要体现在讨论和报告问题。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:36:47.468Z"
+    },
+    {
+      "owner": "claude-code-best",
+      "repo": "claude-code",
+      "fullName": "claude-code-best/claude-code",
+      "description": "原汁原昧 Claude Code 可运行版; Bun 可编译执行版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T13:33:21Z",
+      "url": "https://github.com/claude-code-best/claude-code",
+      "analysis": {
+        "positioning": "Claude Code CLI 的企业级复刻，Bun/Node 通用。",
+        "useCases": [
+          "想在本地运行 Anthropic Claude Code 官方功能？→ 它提供了一个高度还原、可编译执行、类型安全的版本。",
+          "寻求可靠、功能全面的 Claude AI 编程助手？→ 它基于 TypeScript 全修复类型，提供企业级稳定性与多供应商 API 支持。",
+          "需要一个支持沙箱、文件操作、权限控制的 Claude Agent CLI？→ 它集成了强大的工具系统和会话管理能力。"
+        ],
+        "audience": "追求稳定、高效、可控的 AI 编程环境的开发者和团队，尤其青睐 Claude Agent 能力的用户。",
+        "quickStart": {
+          "prerequisites": "Bun >= 1.3.11 及配置好的 Claude API (Anthropic、AWS、Google、Azure 均可)",
+          "steps": [
+            "bun install",
+            "bun run dev"
+          ],
+          "note": "强烈建议使用最新版本 Bun，构建产物同时支持 Bun 和 Node 启动。"
+        },
+        "competitors": [
+          {
+            "name": "Anthropic 官方 Claude Code CLI",
+            "method": "官方发行/服务",
+            "models": "Claude 系列",
+            "pricing": "API 调用付费"
+          }
+        ],
+        "pricing": "项目代码免费，但需支付 Claude API 调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述和 README 充满个性化表达（如“很难绷，但是它叫做 CCB(踩踩背)...”、“牢 A”、“烧了 300$”），同时又展现出极高的工程实现标准，是典型的 Vibe Coding。",
+        "isVibeCoding": true,
+        "communityActivity": "更新活跃，作者鼓励提 Issue 且关闭率高（8/11），但暂不接受 PR，表明内部团队在快速迭代。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:37:01.366Z"
+    },
+    {
+      "owner": "tvytlx",
+      "repo": "claude-code-deep-dive",
+      "fullName": "tvytlx/claude-code-deep-dive",
+      "description": "Claude Code 源码深度研究报告",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T11:27:01Z",
+      "url": "https://github.com/tvytlx/claude-code-deep-dive",
+      "analysis": {
+        "positioning": "Claude Agent操作系统级源码深度剖析报告",
+        "useCases": [
+          "你对Claude Code内部原理充满好奇 → 它提供基于源码还原的系统级深度分析报告。",
+          "你想构建自己的AI Agent操作系统 → 它揭示Claude Code如何设计Prompt、Agent、Tool、Plugin等核心模块。",
+          "你在研究AI Agent架构和Prompt工程 → 它详细拆解Agent调度链、系统提示词构建与扩展机制。"
+        ],
+        "audience": "AI Agent开发者、LLM系统架构师与研究者，寻求深入理解Claude Code内部机制和Agent OS设计。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面。",
+            "下载PDF报告或在线浏览源码目录。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Anthropic官方技术资料",
+            "method": "官方发布",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他社区AI Agent分析",
+            "method": "非官方解读",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目对Claude Code的Agent操作系统进行了极其深入、系统、源码级别的逆向工程与分析，内容严谨详尽，架构清晰，极具参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "星标数高（1600+），显示社区关注度强；作为研究报告，Issue互动较少，但内容价值已获广泛认可。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:37:18.380Z"
+    },
+    {
+      "owner": "chatgptprojects",
+      "repo": "clear-code",
+      "fullName": "chatgptprojects/clear-code",
+      "description": "https://x.com/paidev",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T09:17:51Z",
+      "url": "https://github.com/chatgptprojects/clear-code",
+      "analysis": {
+        "positioning": "开源AI编程助手综合指南，助你选型避坑。",
+        "useCases": [
+          "你想找开源AI编程助手 → 它帮你梳理对比，快速找到最合适的。",
+          "你厌倦了闭源AI工具的限制和高价 → 它帮你发现免费、无锁定的替代方案。",
+          "你想了解AI编程助手最新动态 → 它提供社区驱动的资源，助你跟上潮流。"
+        ],
+        "audience": "寻求高效、透明、成本可控的开源AI编程解决方案的开发者、初创公司或大型团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "直接浏览GitHub仓库，查阅内容"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Aider",
+            "method": "命令行/IDE集成",
+            "models": "支持GPT-3.5/4等主流LLM",
+            "pricing": "免费（开源项目本体免费，API费用自理）"
+          },
+          {
+            "name": "Continue",
+            "method": "IDE插件",
+            "models": "支持多种开源及闭源LLM",
+            "pricing": "免费（开源项目本体免费，API费用自理）"
+          }
+        ],
+        "pricing": "免费（一个开源的资源库和指南）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是开源指南，旨在帮助开发者选择透明、无锁定、低成本的AI编程助手，这与Vibe Coding的理念高度契合。它通过对比和推荐，让开发者能够更专注于代码而非工具限制。",
+        "isVibeCoding": true,
+        "communityActivity": "相对活跃，开启3个issue，解决1个，作为指南类项目足够。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:37:34.401Z"
+    },
+    {
+      "owner": "oboard",
+      "repo": "claude-code-rev",
+      "fullName": "oboard/claude-code-rev",
+      "description": "Runnable ClaudeCode source code",
+      "language": "TypeScript",
+      "topics": [
+        "claude-code"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T11:37:19Z",
+      "url": "https://github.com/oboard/claude-code-rev",
+      "analysis": {
+        "positioning": "复刻Claude Code源码，供本地开发运行",
+        "useCases": [
+          "你做：想深入理解Claude Code内部工作原理 → 它帮你做：提供可本地运行的源码，方便调试和研究",
+          "你做：需要在本地环境部署Claude Code进行开发或实验 → 它帮你做：提供还原后的源码树，支持`bun install`和`bun run dev`",
+          "你做：对逆向工程、source map还原技术感兴趣 → 它帮你做：提供一个实际案例，展示如何从source map重建复杂项目"
+        ],
+        "audience": "对Claude Code内部机制、本地部署或逆向工程感兴趣的开发者、研究人员及技术爱好者。",
+        "quickStart": {
+          "prerequisites": "Bun 1.3.5+，Node.js 24+",
+          "steps": [
+            "bun install",
+            "bun run dev"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心价值在于技术复原与功能实现，目标是提供一个可用的Claude Code本地版本，而非追求新颖的用户体验或独特的项目氛围。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度较低，Issue 关闭比例不高（1/5）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:37:48.686Z"
+    },
+    {
+      "owner": "Leonxlnx",
+      "repo": "claude-code-system-prompts",
+      "fullName": "Leonxlnx/claude-code-system-prompts",
+      "description": "Research into how agentic AI coding assistants work — reconstructed prompt patterns, agent coordination, and security classification",
+      "language": "Unknown",
+      "topics": [
+        "agentic-ai",
+        "ai-research",
+        "claude",
+        "prompt-engineering",
+        "system-prompts"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T11:47:04Z",
+      "url": "https://github.com/Leonxlnx/claude-code-system-prompts",
+      "analysis": {
+        "positioning": "深入剖析AI编程助手底层提示与协作机制。",
+        "useCases": [
+          "你构建Agentic AI编程助手 → 它帮你理解并应用Claude Code的提示工程模式。",
+          "你研究AI Agent协调 → 它帮你分析多代理协作与工作流编排策略。",
+          "你设计AI系统安全 → 它帮你学习AI工具调用安全分类与权限控制方法。"
+        ],
+        "audience": "AI工程师、研究员、开发者，旨在学习和复现高级AI编程助手的底层设计模式。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆仓库：`git clone https://github.com/Leonxlnx/claude-code-system-prompts.git`",
+            "阅读`prompts/`目录下的设计模式文档，按需学习。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "AutoGen",
+            "method": "Python框架，用于构建多Agent对话式工作流，提供了构建Agent的思路。",
+            "models": "OpenAI, LLama等",
+            "pricing": "免费（框架）"
+          },
+          {
+            "name": "CrewAI",
+            "method": "专为Agent协作设计的Python框架，强调角色、任务和工具，提供了Agent协作的模式。",
+            "models": "OpenAI等",
+            "pricing": "免费（框架）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "深度研究项目，侧重于系统性拆解和模式学习，旨在提供教育价值而非即时乐趣或酷炫功能。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue活跃度极低，社区互动主要可能通过其他渠道（如讨论、PR）进行，而非Issue追踪。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:38:04.520Z"
+    },
+    {
+      "owner": "shipany-ai",
+      "repo": "open-agent-sdk",
+      "fullName": "shipany-ai/open-agent-sdk",
+      "description": "Agent-SDK without CLI dependencies, as an alternative to claude-agent-sdk, completely open source",
+      "language": "TypeScript",
+      "topics": [
+        "agent-sdk",
+        "claude-agent-sdk",
+        "claude-code",
+        "open-agent-sdk"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T14:16:24Z",
+      "url": "https://github.com/shipany-ai/open-agent-sdk",
+      "analysis": {
+        "positioning": "替代Claude官方SDK，无CLI依赖，更易部署的AI Agent开发包。",
+        "useCases": [
+          "你想开发一个能理解代码、修改文件的AI Agent → 它提供SDK让你轻松构建和部署。",
+          "你需要在CI/CD或无服务器环境中运行AI Agent → 它无需CLI依赖，可直接in-process部署。",
+          "你希望构建能进行多轮对话、调用工具完成复杂任务的AI Agent → 它支持会话管理和自定义工具集成。"
+        ],
+        "audience": "希望构建或部署无需CLI依赖、可在任意环境运行的AI Agent的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+，Anthropic API Key或OpenRouter Key。",
+          "steps": [
+            "npm install @shipany/open-agent-sdk",
+            "配置ANTHROPIC_API_KEY环境变量"
+          ],
+          "note": "可通过配置ANTHROPIC_BASE_URL和ANTHROPIC_MODEL环境变量使用OpenRouter等第三方模型提供商。"
+        },
+        "competitors": [
+          {
+            "name": "@anthropic-ai/claude-agent-sdk (官方SDK)",
+            "method": "需要本地Claude Code CLI进程",
+            "models": "Claude系列",
+            "pricing": "SDK免费，模型按量付费"
+          }
+        ],
+        "pricing": "SDK免费开源，但使用时需支付底层AI模型（如Claude）的API调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "安装简单，提供多种场景的清晰代码示例（单次查询、会话、自定义工具），API设计直观，快速上手构建Agent。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，目前有5个开启Issue但无已关闭Issue，可能项目较新或维护响应待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-01T04:38:19.038Z"
+    },
+    {
+      "owner": "NanmiCoder",
+      "repo": "claude-code-haha",
+      "fullName": "NanmiCoder/claude-code-haha",
+      "description": "Claude Code leaked source - locally runnable version",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T17:30:14Z",
+      "url": "https://github.com/NanmiCoder/claude-code-haha",
+      "analysis": {
+        "positioning": "修复Claude Code泄露源码，实现本地运行及多API兼容。",
+        "useCases": [
+          "你想要本地体验官方级Claude Code TUI → 它提供修复后的源码，让你在本地运行，获得完整交互界面。",
+          "你希望用Claude Code的功能但接入其他AI服务商 → 它支持自定义API端点和模型，可对接MiniMax、OpenRouter等兼容API。",
+          "你需要将Claude Code功能集成到自动化脚本或CI/CD流程 → 它提供无头模式（--print），便于脚本化调用，无需界面交互。"
+        ],
+        "audience": "希望本地运行Claude Code功能、灵活接入第三方AI API的开发者、AI Agent研究者及高级LLM用户。",
+        "quickStart": {
+          "prerequisites": "Bun运行时",
+          "steps": [
+            "安装Bun运行时环境。",
+            "通过bun install安装项目依赖。",
+            "复制.env.example到.env，配置Anthropic兼容API Key和自定义API端点（如需）。",
+            "执行./bin/claude-haha启动交互TUI模式，或使用-p参数启动无头模式。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI CLI",
+            "method": "命令行",
+            "models": "GPT-3.5, GPT-4等",
+            "pricing": "API付费"
+          },
+          {
+            "name": "aider",
+            "method": "命令行/Agent",
+            "models": "多种LLM",
+            "pricing": "API付费"
+          }
+        ],
+        "pricing": "免费项目，但使用时需支付接入的Anthropic兼容API费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "巧妙修复Claude Code泄露源码使其本地可用，提供官方级TUI体验。支持多Agent架构、高度可配置的API和模型，甚至支持CI/CD场景的无头模式，技术实现专业，文档详尽，非常Geek且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭2，可能说明项目稳定或问题解决迅速，社区活跃度有待观察。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:38:40.136Z"
+    },
+    {
+      "owner": "ponponon",
+      "repo": "claude_code_src",
+      "fullName": "ponponon/claude_code_src",
+      "description": "2026.3.31 claude code 意外把包含源码的文件上传到 npm 仓库，版本号是 2.1.88，其中 cli.js.map 文件有 57MB 的体积，claude code 的源码在该文件的 sourcesContent 字段里面，解压还原后有 70w 行代码",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T13:14:34Z",
+      "url": "https://github.com/ponponon/claude_code_src",
+      "analysis": {
+        "positioning": "意外泄露的Claude Code源码恢复项目，用于研究其CLI架构和MCP实现。",
+        "useCases": [
+          "你想了解大型AI CLI工具的内部运作 → 它帮你分析Claude Code的架构设计和核心逻辑。",
+          "你想学习React/Ink在终端UI中的应用 → 它帮你探索Claude Code如何构建复杂的终端交互界面。",
+          "你想研究Model Context Protocol (MCP)的具体实现 → 它帮你深入理解MCP在CLI中的应用细节。"
+        ],
+        "audience": "对AI CLI工具、大型TypeScript项目结构或MCP实现感兴趣的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "通过腾讯缓存镜像安装：`npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz`",
+            "解压并分析源码，探索其内部结构和逻辑。"
+          ],
+          "note": "原始npm包已下架，需使用镜像源。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙利用`source map`恢复泄露源码，揭示大型AI CLI工具内部实现，对学习和研究有较高价值，但功能单一。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，主要作为归档和研究用途，不侧重互动。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:38:52.679Z"
+    },
+    {
+      "owner": "jarmuine",
+      "repo": "claude-code",
+      "fullName": "jarmuine/claude-code",
+      "description": "Fork of instructkr/claude-code",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T10:45:22Z",
+      "url": "https://github.com/jarmuine/claude-code",
+      "analysis": {
+        "positioning": "Claude Code源码快照，用于安全研究、供应链分析与教育。",
+        "useCases": [
+          "你研究软件供应链漏洞 → 它提供Claude Code真实源码供分析。",
+          "你进行防御性安全研究 → 它提供真实世界的CLI系统源码作为研究对象。",
+          "你评估Agentic开发者工具架构 → 它揭示Claude CLI的内部实现细节。",
+          "你分析打包和发布流程缺陷 → 它展示因Source Map暴露导致的代码泄露案例。"
+        ],
+        "audience": "大学生、安全研究员、软件工程师，用于学习供应链安全、分析Agent工具架构、研究代码泄露事件。",
+        "quickStart": {
+          "prerequisites": "Git",
+          "steps": [
+            "克隆仓库到本地：`git clone https://github.com/jarmuine/claude-code.git`",
+            "浏览 `src/` 目录，深入分析代码和架构"
+          ],
+          "note": "该仓库是Anthropic Claude Code的源码快照，主要用于安全研究、教育和架构分析，并非官方产品或可直接运行的消费者工具。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot CLI",
+            "method": "命令行交互，IDE集成",
+            "models": "OpenAI (GPT系列)",
+            "pricing": "付费"
+          },
+          {
+            "name": "Cursor (AI IDE)",
+            "method": "专用IDE，集成AI编程功能",
+            "models": "GPT系列、Claude等",
+            "pricing": "部分免费/订阅付费"
+          },
+          {
+            "name": "Warp AI (Terminal)",
+            "method": "现代终端内置AI助手",
+            "models": "非公开，通常为大型LLM",
+            "pricing": "Warp终端免费，AI功能部分免费/订阅"
+          }
+        ],
+        "pricing": "免费。该项目为代码快照仓库，获取代码本身无需付费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "揭示了Anthropic Claude Code CLI的内部实现，技术栈现代（TypeScript, Bun, React+Ink），对AI Agent架构、供应链安全和实际代码泄露案例研究极具价值和吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比为 2/0，社区活跃度目前较低，可能受项目研究性质影响。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-01T04:39:12.944Z"
     }
   ]
 }

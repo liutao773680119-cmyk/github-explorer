@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "date": "2026-04-01",
+  "startedAt": "2026-04-01T04:33:54.405Z",
+  "finishedAt": "2026-04-01T04:40:01.209Z",
+  "durationSeconds": 367,
+  "success": true,
+  "stats": {
+    "fetched": 111,
+    "newProjects": 20,
+    "skipped": 91,
+    "geminiCalls": 24,
+    "statsUpdated": 111
+  },
+  "errors": [
+    {
+      "time": "2026-04-01T04:39:15.936Z",
+      "level": "warn",
+      "project": "openedclaude/claude-reviews-claude",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-01T04:39:18.995Z",
+      "level": "warn",
+      "project": "ghostwright/phantom",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-01T04:39:22.810Z",
+      "level": "warn",
+      "project": "shitagaki-lab/see-through",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-01T04:39:59.095Z",
+      "level": "warn",
+      "project": "anomalyco/opencode",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
