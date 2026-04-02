@@ -10,6 +10,7 @@
     "test": "tsx --test tests/**/*.test.ts"
   },
   "dependencies": {
+    "@google/genai": "^1.48.0",
     "@octokit/rest": "^22.0.1",
     "next": "16.1.6",
     "openai": "^6.25.0",

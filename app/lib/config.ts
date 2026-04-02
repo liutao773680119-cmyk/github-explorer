@@ -17,15 +17,30 @@ export const AI_PROVIDERS: Record<AIProviderId, AIProviderDefinition> = {
     gemini: {
         id: 'gemini',
         label: 'Gemini',
+        transport: 'openai',
         baseURL: 'https://generativelanguage.googleapis.com/v1beta/openai/',
         defaultModel: 'gemini-2.5-flash-lite',
         apiKeyEnv: 'GEMINI_API_KEY',
         apiKeyFile: 'Googole Ai Studo Api.txt',
         sleepMs: 4000,
     },
+    'vertex-gemini': {
+        id: 'vertex-gemini',
+        label: 'Vertex Gemini',
+        transport: 'vertex',
+        defaultModel: 'gemini-2.5-flash',
+        projectEnv: 'VERTEX_GEMINI_PROJECT',
+        projectFallbackEnv: 'GOOGLE_CLOUD_PROJECT',
+        locationEnv: 'VERTEX_GEMINI_LOCATION',
+        locationFallbackEnv: 'GOOGLE_CLOUD_LOCATION',
+        locationDefault: 'us-central1',
+        apiVersion: 'v1',
+        sleepMs: 2500,
+    },
     deepseek: {
         id: 'deepseek',
         label: 'DeepSeek',
+        transport: 'openai',
         baseURL: 'https://api.deepseek.com/v1',
         defaultModel: 'deepseek-chat',
         apiKeyEnv: 'DEEPSEEK_API_KEY',
@@ -35,6 +50,7 @@ export const AI_PROVIDERS: Record<AIProviderId, AIProviderDefinition> = {
     openai: {
         id: 'openai',
         label: 'OpenAI',
+        transport: 'openai',
         baseURL: 'https://api.openai.com/v1',
         defaultModel: 'gpt-4.1-mini',
         apiKeyEnv: 'OPENAI_API_KEY',
@@ -44,6 +60,7 @@ export const AI_PROVIDERS: Record<AIProviderId, AIProviderDefinition> = {
     openrouter: {
         id: 'openrouter',
         label: 'OpenRouter',
+        transport: 'openai',
         baseURL: 'https://openrouter.ai/api/v1',
         defaultModel: 'openai/gpt-4.1-mini',
         apiKeyEnv: 'OPENROUTER_API_KEY',
@@ -54,7 +71,8 @@ export const AI_PROVIDERS: Record<AIProviderId, AIProviderDefinition> = {
 
 // 兼容当前旧代码路径，后续接入统一运行时配置后可删除
 export const AI_MODEL = AI_PROVIDERS[DEFAULT_AI_PROVIDER].defaultModel;
-export const AI_BASE_URL = AI_PROVIDERS[DEFAULT_AI_PROVIDER].baseURL;
+const defaultProvider = AI_PROVIDERS[DEFAULT_AI_PROVIDER];
+export const AI_BASE_URL = defaultProvider.transport === 'openai' ? defaultProvider.baseURL : '';
 
 // ── 数据版本 ─────────────────────────────────────
 // 与 projects.json 的 version 字段保持一致

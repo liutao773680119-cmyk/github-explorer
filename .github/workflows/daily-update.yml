@@ -16,6 +16,8 @@ jobs:
       AI_PROVIDER: deepseek
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      VERTEX_GEMINI_PROJECT: ${{ secrets.VERTEX_GEMINI_PROJECT }}
+      VERTEX_GEMINI_LOCATION: ${{ vars.VERTEX_GEMINI_LOCATION || 'us-central1' }}
       DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
@@ -27,6 +29,12 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+
+      - name: Authenticate to Google Cloud
+        if: env.AI_PROVIDER == 'vertex-gemini'
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_VERTEX_SERVICE_ACCOUNT_JSON }}
 
       - run: npm ci
 
