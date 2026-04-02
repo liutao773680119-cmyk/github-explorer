@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-03-25T13:35:05.676Z",
+  "updatedAt": "2026-04-02T04:34:10.738Z",
   "stats": {
     "codecrafters-io/build-your-own-x": {
       "fullName": "codecrafters-io/build-your-own-x",
@@ -679,16 +679,16 @@
     },
     "vercel/next.js": {
       "fullName": "vercel/next.js",
-      "stars": 138473,
-      "forks": 30704,
-      "openIssues": 3575,
-      "closedIssues": 22322,
-      "watchers": 1504,
+      "stars": 138568,
+      "forks": 30748,
+      "openIssues": 3643,
+      "closedIssues": 22357,
+      "watchers": 1505,
       "sponsors": 0,
-      "pushedAt": "2026-03-25T07:40:04Z",
-      "updatedAt": "2026-03-25T12:53:32Z",
-      "todayStarsDelta": 422,
-      "fetchedAt": "2026-03-25T13:33:15.416Z",
+      "pushedAt": "2026-04-02T03:28:14Z",
+      "updatedAt": "2026-04-02T02:36:08Z",
+      "todayStarsDelta": 95,
+      "fetchedAt": "2026-04-02T04:34:10.738Z",
       "isArchived": false,
       "isDead": false
     },
