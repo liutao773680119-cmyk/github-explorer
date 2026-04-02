@@ -7,17 +7,35 @@ export interface Competitor {
     pricing: string;
 }
 
-export type AIProviderId = 'gemini' | 'deepseek' | 'openai' | 'openrouter';
+export type AIProviderId = 'gemini' | 'vertex-gemini' | 'deepseek' | 'openai' | 'openrouter';
 
-export interface AIProviderDefinition {
+export type AITransport = 'openai' | 'vertex';
+
+interface AIProviderBaseDefinition {
     id: AIProviderId;
     label: string;
-    baseURL: string;
     defaultModel: string;
-    apiKeyEnv: string;
-    apiKeyFile: string;
     sleepMs: number;
 }
+
+export interface OpenAICompatibleProviderDefinition extends AIProviderBaseDefinition {
+    transport: 'openai';
+    baseURL: string;
+    apiKeyEnv: string;
+    apiKeyFile: string;
+}
+
+export interface VertexAIProviderDefinition extends AIProviderBaseDefinition {
+    transport: 'vertex';
+    projectEnv: string;
+    projectFallbackEnv: string;
+    locationEnv: string;
+    locationFallbackEnv: string;
+    locationDefault: string;
+    apiVersion: 'v1';
+}
+
+export type AIProviderDefinition = OpenAICompatibleProviderDefinition | VertexAIProviderDefinition;
 
 export interface QuickStart {
     prerequisites: string | null;
