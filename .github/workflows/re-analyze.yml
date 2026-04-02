@@ -10,7 +10,7 @@ on:
       provider:
         description: 'AI provider（deepseek / gemini / vertex-gemini / openai / openrouter）'
         required: false
-        default: 'deepseek'
+        default: 'vertex-gemini'
         type: string
       model:
         description: '可选：覆盖默认模型名'
@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      AI_PROVIDER: ${{ github.event.inputs.provider || 'deepseek' }}
+      AI_PROVIDER: ${{ github.event.inputs.provider || 'vertex-gemini' }}
       AI_MODEL: ${{ github.event.inputs.model }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
