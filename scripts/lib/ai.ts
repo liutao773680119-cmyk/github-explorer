@@ -1,6 +1,5 @@
 import { AI_PROVIDERS, DEFAULT_AI_PROVIDER } from '../../app/lib/config';
 import type {
-    AIProviderDefinition,
     AIProviderId,
     OpenAICompatibleProviderDefinition,
     VertexAIProviderDefinition,

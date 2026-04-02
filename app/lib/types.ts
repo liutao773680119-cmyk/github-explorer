@@ -140,7 +140,15 @@ export type TabId = 'today' | 'week' | 'newStars' | 'vibeCoding' | 'classic' | '
 
 export type SortKey = 'stars' | 'todayStarsDelta' | 'createdAt' | 'pushedAt' | 'vibeCodingScore';
 
-export type RunErrorStage = 'github_fetch' | 'readme_fetch' | 'ai_call' | 'json_parse' | 'file_write' | 'git_push';
+// 兼容历史 data/logs/*.json 中的旧错误阶段命名。
+export type RunErrorStage =
+    | 'github_fetch'
+    | 'readme_fetch'
+    | 'ai_call'
+    | 'gemini_call'
+    | 'json_parse'
+    | 'file_write'
+    | 'git_push';
 
 export interface RunError {
     time: string;
@@ -152,6 +160,15 @@ export interface RunError {
     skipped: boolean;
 }
 
+export interface RunLogStats {
+    fetched: number;
+    newProjects: number;
+    skipped: number;
+    aiCalls?: number;
+    geminiCalls?: number;
+    statsUpdated: number;
+}
+
 export interface RunLog {
     version: string;
     date: string;
@@ -159,13 +176,7 @@ export interface RunLog {
     finishedAt: string;
     durationSeconds: number;
     success: boolean;
-    stats: {
-        fetched: number;
-        newProjects: number;
-        skipped: number;
-        aiCalls: number;
-        statsUpdated: number;
-    };
+    stats: RunLogStats;
     errors: RunError[];
 }
 

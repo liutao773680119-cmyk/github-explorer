@@ -186,7 +186,7 @@ async function main(): Promise<void> {
                     readme,
                 });
 
-                log.stats!.aiCalls++;
+                log.stats!.aiCalls = (log.stats!.aiCalls ?? 0) + 1;
 
                 if (analysis) {
                     const project: Project = {

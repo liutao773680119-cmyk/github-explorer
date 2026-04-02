@@ -83,9 +83,8 @@ Create a local `.env.local` file if you want to run analysis locally:
 
 ```bash
 GITHUB_TOKEN=your_github_token
-AI_PROVIDER=vertex-gemini
-VERTEX_GEMINI_PROJECT=your_google_cloud_project_id
-VERTEX_GEMINI_LOCATION=us-central1
+AI_PROVIDER=deepseek
+DEEPSEEK_API_KEY=your_deepseek_api_key
 ```
 
 `GITHUB_TOKEN` is used for repository search and metadata.
@@ -98,6 +97,11 @@ VERTEX_GEMINI_LOCATION=us-central1
 - `openai`
 - `openrouter`
 
+Repository defaults:
+
+- daily update workflow defaults to `deepseek`
+- manual `re-analyze` workflow defaults to `vertex-gemini`
+
 `GEMINI_API_KEY` is used when `AI_PROVIDER=gemini`.
 
 `vertex-gemini` uses Vertex AI with Application Default Credentials instead of an API key. Authenticate locally with `gcloud auth application-default login`, or set `GOOGLE_APPLICATION_CREDENTIALS` to a service account JSON file. The project/location can be provided via `VERTEX_GEMINI_PROJECT` / `VERTEX_GEMINI_LOCATION` or the standard `GOOGLE_CLOUD_PROJECT` / `GOOGLE_CLOUD_LOCATION` environment variables.
@@ -106,6 +110,8 @@ Optional provider-specific keys:
 
 ```bash
 GEMINI_API_KEY=your_gemini_api_key
+VERTEX_GEMINI_PROJECT=your_google_cloud_project_id
+VERTEX_GEMINI_LOCATION=us-central1
 DEEPSEEK_API_KEY=your_deepseek_api_key
 OPENAI_API_KEY=your_openai_api_key
 OPENROUTER_API_KEY=your_openrouter_api_key
