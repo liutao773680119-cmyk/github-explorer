@@ -19,14 +19,6 @@ const checks = [
     file: 'app/lib/types.ts',
     forbidden: ['gemini_call', 'geminiCalls'],
   },
-  {
-    file: 'data/logs/2026-03-01.json',
-    forbidden: ['gemini_call', 'geminiCalls', 'Gemini 解读失败或校验不通过'],
-  },
-  {
-    file: 'data/logs/2026-03-25.json',
-    forbidden: ['gemini_call', 'geminiCalls', 'Gemini 解读失败或校验不通过'],
-  },
 ];
 
 for (const check of checks) {

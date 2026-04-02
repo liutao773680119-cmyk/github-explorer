@@ -19,15 +19,15 @@ assert.equal(
 );
 
 assert.equal(
-  reanalyzeWorkflow.includes("default: 'deepseek'"),
+  reanalyzeWorkflow.includes("default: 'vertex-gemini'"),
   true,
-  're-analyze.yml 的默认 provider 输入应为 deepseek',
+  're-analyze.yml 的默认 provider 输入应为 vertex-gemini',
 );
 
 assert.equal(
-  reanalyzeWorkflow.includes("${{ github.event.inputs.provider || 'deepseek' }}"),
+  reanalyzeWorkflow.includes("${{ github.event.inputs.provider || 'vertex-gemini' }}"),
   true,
-  're-analyze.yml 的运行时默认 provider 应为 deepseek',
+  're-analyze.yml 的运行时默认 provider 应为 vertex-gemini',
 );
 
 console.log('default provider contract passed');
