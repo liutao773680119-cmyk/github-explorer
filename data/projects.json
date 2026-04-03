@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-02T04:16:27.876Z",
+  "updatedAt": "2026-04-03T04:13:40.300Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -9986,6 +9986,85 @@
         "category": "AI编程助手"
       },
       "analyzedAt": "2026-04-02T04:16:27.872Z"
+    },
+    {
+      "owner": "ultraworkers",
+      "repo": "claw-code-parity",
+      "fullName": "ultraworkers/claw-code-parity",
+      "description": "claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration",
+      "language": "Rust",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-02T05:39:02Z",
+      "url": "https://github.com/ultraworkers/claw-code-parity",
+      "analysis": {
+        "positioning": "用于AI Agent核心架构的Rust高性能重写与迁移。",
+        "useCases": [
+          "你想构建高性能、内存安全的AI Agent → 它提供基于Claude架构的Rust核心运行时。",
+          "你需要理解或复现主流AI Agent工作机制 → 它提供一个遵循Claude设计模式的开源实现。",
+          "你正在从Python迁移AI Agent项目到Rust → 它作为 `claw-code` 的Rust端口提供兼容性参考。"
+        ],
+        "audience": "寻求高性能、内存安全AI Agent运行时，或研究主流AI Agent（如Claude）架构的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Rust开发环境（Cargo, Rustc）",
+          "steps": [
+            "克隆此仓库",
+            "使用 `cargo run` 或 `cargo build` 编译运行"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "instructkr/claw-code (Python版)",
+            "method": "Python实现Claude Agent核心架构",
+            "models": "架构相关，非直接模型支持",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是知名`claw-code`的Rust高性能移植版，背景故事引人入胜（Claude源码泄露、AI辅助重写），但当前仓库定位为临时性迁移工作，且Issue活跃度尚不明确。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，活跃度暂时无法评估，可能处于快速开发或内部测试阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-03T04:13:19.497Z"
+    },
+    {
+      "owner": "therealXiaomanChu",
+      "repo": "ex-skill",
+      "fullName": "therealXiaomanChu/ex-skill",
+      "description": "把前任蒸馏成 AI Skill，用ta的方式跟你说话。Inspired by colleague-skill（同事skill）. ",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-03-31T09:36:56Z",
+      "url": "https://github.com/therealXiaomanChu/ex-skill",
+      "analysis": {
+        "positioning": "前任AI Skill，重现逝去情缘。",
+        "useCases": [
+          "你提供前任聊天记录、照片等数据 → 它帮你生成一个AI Skill，用前任的口吻、习惯和记忆点跟你对话。",
+          "你希望重温旧梦或情感疗愈 → 它作为你的专属“前任”，模拟日常聊天、回忆往事，甚至重现争吵模式。",
+          "你想要定制或优化AI前任 → 它支持追加记忆、对话纠正和版本回滚，让AI前任更接近真实。"
+        ],
+        "audience": "怀念旧爱、希望通过AI进行情感回忆或疗愈的个人用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+ 环境，Claude Code 平台。",
+          "steps": [
+            "克隆项目到Claude Code的Skill目录：`git clone https://github.com/therealXiaomanChu/ex-partner-skill .claude/skills/create-ex`",
+            "在Claude Code中输入`/create-ex`，按提示输入信息，生成专属前任Skill。"
+          ],
+          "note": "确保在Claude Code可识别的目录下安装Skill。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License，GitHub开源）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念独特，将大模型技术用于个人情感疗愈，文案充满诗意与共鸣（如“我会为了你一万次回到那个夏天”），并提供“放下”作为“delete”的温柔别名，体现了强烈的情感投入和人文关怀，是典型的Vibe Coding。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，有较多开启的Issue（28个）但尚未解决（0个关闭）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-03T04:13:40.297Z"
     }
   ]
 }
