@@ -90,7 +90,8 @@ function daysAgo(n: number): string {
 }
 
 /**
- * 今日热门：昨天之后创建，按 stars 排序，30 条
+ * 今日候选：昨天之后创建，按 stars 排序，30 条
+ * 用于补充新项目发现，不直接决定前端“今日热门”榜单。
  */
 export async function searchTodayTrending(): Promise<SearchResult[]> {
     return searchRepos(`created:>${daysAgo(1)} stars:>10`, 30);
@@ -104,10 +105,10 @@ export async function searchWeekTrending(): Promise<SearchResult[]> {
 }
 
 /**
- * 本周新星：3 个月内创建，stars > 100，25 条
+ * 本周新星候选：3 个月内创建，stars > 100，50 条
  */
 export async function searchNewStars(): Promise<SearchResult[]> {
-    return searchRepos(`created:>${daysAgo(90)} stars:>100`, 25);
+    return searchRepos(`created:>${daysAgo(90)} stars:>100`, 50);
 }
 
 /**

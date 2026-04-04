@@ -9,6 +9,7 @@ import {
     searchClassicProjects, fetchRepoStats, type SearchResult,
 } from './lib/github';
 import { fetchReadmeWithCache } from './lib/readme-cache';
+import { resolveTodayTrending } from './lib/rankings';
 import { analyzeProject, selectHighlights, aiSleep } from './lib/ai-client';
 import { HEALTH_CHECK_DAYS, DEAD_COMMIT_DAYS, DEAD_ISSUE_RATIO } from '../app/lib/config';
 import type {
@@ -283,7 +284,10 @@ async function main(): Promise<void> {
     // 生成 daily 快照
     const snapshot: DailySnapshot = {
         date: todayString(),
-        todayTrending: [...new Set(todayTrending)],
+        todayTrending: resolveTodayTrending(
+            statsData.stats,
+            allResults.map((result) => result.fullName),
+        ),
         weekTrending: [...new Set(weekTrending)],
         newStars: [...new Set(newStars)],
         vibeCoding: [...new Set(vibeCoding)],
