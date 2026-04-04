@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-03T04:13:40.300Z",
+  "updatedAt": "2026-04-04T04:01:46.105Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -10065,6 +10065,215 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-03T04:13:40.297Z"
+    },
+    {
+      "owner": "badlogic",
+      "repo": "pi-telegram",
+      "fullName": "badlogic/pi-telegram",
+      "description": "Telegram DM bridge extension for pi",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-04T01:35:53Z",
+      "url": "https://github.com/badlogic/pi-telegram",
+      "analysis": {
+        "positioning": "将pi交互式AI助手集成到Telegram，实现DM对话和文件交互。",
+        "useCases": [
+          "你通过Telegram给pi助手发消息、图片或文件 → 它能接收并将其作为输入进行处理。",
+          "你让pi助手生成文件或代码 → 它会通过Telegram将生成结果直接发送给你。",
+          "你在等待pi助手的回复 → 它会实时流式传输回复预览到Telegram，并支持发送“stop”打断任务。"
+        ],
+        "audience": "pi交互式AI助手的用户，希望通过Telegram便捷地与其AI助手交互、发送文件和接收结果。",
+        "quickStart": {
+          "prerequisites": "一个运行中的pi环境，以及Telegram Bot Token。",
+          "steps": [
+            "在pi环境中安装此扩展：`pi install git:github.com/badlogic/pi-telegram`",
+            "创建Telegram机器人并获取Token后，在pi中运行`/telegram-setup`配置，并运行`/telegram-connect`连接。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README文档详尽，功能描述清晰，涵盖了流式传输、文件处理、消息队列等实用特性，表明项目设计考虑周全。但Star数和Issue活动较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue活动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-04T04:00:31.126Z"
+    },
+    {
+      "owner": "NanmiCoder",
+      "repo": "cc-haha",
+      "fullName": "NanmiCoder/cc-haha",
+      "description": "Claude Code 泄露源码 - 本地可运行版本",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T17:30:14Z",
+      "url": "https://github.com/NanmiCoder/cc-haha",
+      "analysis": {
+        "positioning": "修复泄露源码，本地化运行AI编码助手",
+        "useCases": [
+          "想体验Claude Code官方TUI界面但无权限 → 它帮你本地运行，获得完整交互体验。",
+          "有自己的Anthropic兼容API或模型 → 它帮你无缝接入，替换官方服务。",
+          "需要AI自动控制桌面进行编程或自动化 → 它帮你实现macOS上的AI桌面控制，完成复杂任务。"
+        ],
+        "audience": "追求极致本地化AI编程体验的开发者、研究者，及希望深入探索Claude Code能力和AI桌面自动化的用户。",
+        "quickStart": {
+          "prerequisites": "Bun",
+          "steps": [
+            "安装Bun (macOS/Linux/Windows)",
+            "执行 `bun install` 安装项目依赖",
+            "复制`.env.example`为`.env`，并配置你的API Key和端点"
+          ],
+          "note": "Computer Use桌面控制功能目前主要支持macOS。"
+        },
+        "competitors": [],
+        "pricing": "免费使用项目本身，但需自行为接入的第三方API支付费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "基于泄露源码进行高难度修复，成功实现官方Ink TUI本地运行。尤其亮点是魔改并开源了macOS上的AI桌面控制功能 (Computer Use)，技术难度高，创新性强，极具黑客精神。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比健康 (18/12)，表明社区活跃且项目维护者积极响应问题。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-04T04:00:52.698Z"
+    },
+    {
+      "owner": "HKUDS",
+      "repo": "OpenHarness",
+      "fullName": "HKUDS/OpenHarness",
+      "description": "\"OpenHarness: Open Agent Harness\"",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-01T15:37:13Z",
+      "url": "https://github.com/HKUDS/OpenHarness",
+      "analysis": {
+        "positioning": "轻量级AI智能体基础设施，提供工具、技能、记忆及协作能力。",
+        "useCases": [
+          "你想快速搭建AI Agent → 它提供模块化的工具、记忆和多智能体协作框架。",
+          "你希望统一管理或集成多种Agent（如Cursor等）→ 它提供命令行`oh`，一键启动并管理这些Agent。",
+          "你需要评估和测试AI Agent的性能 → 它内置测试工具、评估指标及E2E测试支持。"
+        ],
+        "audience": "AI Agent开发者、研究人员及希望构建、集成、或评估智能体应用的团队。",
+        "quickStart": {
+          "prerequisites": "Python ≥3.10",
+          "steps": [
+            "安装OpenHarness：`pip install openharness` (推断)",
+            "一键启动并解锁Agent能力：`oh`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README清晰专业，提供快速开始、架构及详细功能，测试覆盖率高，一键式启动体验良好。虽然Issue数量不多，但有明确的社区渠道（飞书/微信群）。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量不多，但有积极的社区群组建设（飞书/微信），活跃度潜力较大。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-04T04:01:06.616Z"
+    },
+    {
+      "owner": "0xGF",
+      "repo": "boneyard",
+      "fullName": "0xGF/boneyard",
+      "description": "Auto generated skeleton loading framework",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-01T15:25:45Z",
+      "url": "https://github.com/0xGF/boneyard",
+      "analysis": {
+        "positioning": "自动生成像素级骨架屏，告别手动绘制。",
+        "useCases": [
+          "你想为组件添加骨架屏 → 它帮你根据真实DOM自动生成精确布局的骨架屏，无需手动测量。",
+          "你厌倦了手动维护骨架屏的尺寸和位置 → 它帮你自动捕获DOM结构并生成响应式骨架，适应不同屏幕。",
+          "你需要不同设备上的骨架屏样式 → 它帮你自动在多个预设断点生成骨架快照，确保多端一致性。"
+        ],
+        "audience": "前端开发者，尤其使用React的，需要快速、精确且自动化地为应用生成和维护骨架屏。",
+        "quickStart": {
+          "prerequisites": "React项目环境 (需运行在浏览器环境，以便DOM快照生成)",
+          "steps": [
+            "`npm install boneyard-js`",
+            "在组件外包裹 `<Skeleton name=\"...\" loading={isLoading}>`，并指定唯一名称。",
+            "运行 `npx boneyard-js build` 生成骨架文件，通常会自动检测开发服务器。",
+            "在应用入口文件（如 `app/layout.tsx`）引入生成的 `./bones/registry`。"
+          ],
+          "note": "主要为React应用提供组件集成，通过CLI生成骨架，然后由React组件加载显示。"
+        },
+        "competitors": [
+          {
+            "name": "手动编写CSS/HTML",
+            "method": "开发者手动测量元素尺寸和位置，编写CSS/HTML代码实现骨架屏布局。",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "UI库骨架组件",
+            "method": "调用Ant Design、Chakra UI等UI库提供的 `<Skeleton>` 组件，通过配置属性调整样式和动画。",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极大简化骨架屏生成和维护的繁琐工作，告别手动测量和调整，实现“写一遍，到处用”的自动化体验，显著提升开发效率和乐趣。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues 开启 2 / 已关闭 0。社区活跃度一般，可能项目较新或处于稳定维护期，但反馈和迭代速度待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-04T04:01:27.488Z"
+    },
+    {
+      "owner": "chauncygu",
+      "repo": "collection-claude-code-source-code",
+      "fullName": "chauncygu/collection-claude-code-source-code",
+      "description": "🔥 A collection of the newest Claude Code open source",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T16:20:48Z",
+      "url": "https://github.com/chauncygu/collection-claude-code-source-code",
+      "analysis": {
+        "positioning": "Claude Code开源实现与深度解析资料集。",
+        "useCases": [
+          "你想复现或研究Claude Code架构 → 它提供多种Python实现版本和技术解析。",
+          "你想深入理解AI代理、记忆、技能系统 → 它提供详细的架构分析、研究报告和内存分析。",
+          "你想了解Claude Code最新进展和社区讨论 → 它汇总了最新动态、Hacker News讨论和相关文章。"
+        ],
+        "audience": "适合AI开发者、研究员及爱好者，用于深入理解、复现或学习Claude Code的技术细节与Agent构建。",
+        "quickStart": {
+          "prerequisites": "熟悉Python基础",
+          "steps": [
+            "访问项目GitHub页面。",
+            "根据需求选择查看Claude Code不同Python实现或阅读分析报告。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python/JS库，提供模块化组件构建LLM应用",
+            "models": "支持开源/闭源模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "Python库，专注于LLM数据集成和RAG",
+            "models": "支持开源/闭源模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "社区驱动，快速迭代Claude Code的Python复现版本（Nano Claude Code），并提供大量深度解析资料，旨在解构和理解前沿AI系统。",
+        "isVibeCoding": true,
+        "communityActivity": "项目Issue数量较少，但内容更新迅速，并积极整合外部讨论与分析，整体社区关注度高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-04T04:01:46.101Z"
     }
   ]
 }
