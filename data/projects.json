@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-04T04:01:46.105Z",
+  "updatedAt": "2026-04-05T04:24:51.698Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -10274,6 +10274,685 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-04T04:01:46.101Z"
+    },
+    {
+      "owner": "joshua-heygen",
+      "repo": "viz-pack",
+      "fullName": "joshua-heygen/viz-pack",
+      "description": "Four Claude skills that turn any content into visuals — diagrams, infographics, interactive explainers, and shareable dashboards. Just type the command.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:26:20Z",
+      "url": "https://github.com/joshua-heygen/viz-pack",
+      "analysis": {
+        "positioning": "Claude AI视觉助手，一键将内容转为图表、信息图和交互式视觉。",
+        "useCases": [
+          "你阅读一篇技术文章 → 它帮你绘制流程图、时间轴或概念图。",
+          "你有一份报告或文档 → 它帮你生成专业美观的信息图PNG。",
+          "你在讨论一个复杂概念 → 它帮你实时生成交互式图表或解释器。",
+          "你希望分享数据洞察 → 它帮你构建可分享的交互式仪表板。"
+        ],
+        "audience": "适合需要快速将文本、链接或文档内容转化为各类视觉表达（图表、信息图、交互式解释器）的Claude AI用户。",
+        "quickStart": {
+          "prerequisites": "Claude.ai账号，`nano this`需Gemini API Key，`ver it`需HeyGenverse访问权限。",
+          "steps": [
+            "打开Claude.ai → 设置 → Claude's Memory → Skills",
+            "为每个`.md`文件创建一个新技能",
+            "复制文件内容到对应技能中并保存"
+          ],
+          "note": "`nano this`和`ver it`需额外配置或平台访问，`vis it`和`diagram it`开箱即用。"
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT Plus",
+            "method": "通过Prompt描述生成图表、图像，或分析数据后可视化",
+            "models": "GPT-4, DALL-E",
+            "pricing": "付费"
+          },
+          {
+            "name": "Gemini Advanced",
+            "method": "通过Prompt描述生成图像，或整合数据分析与可视化",
+            "models": "Gemini系列",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "部分免费。核心功能（`vis it`, `diagram it`）免费使用，但部分高级功能（`nano this`, `ver it`）需要自备API Key或特定平台访问权限，可能涉及额外费用。",
+        "vibeCodingScore": 4.5,
+        "vibeCodingReason": "通过清晰的命令将内容快速转化为多种专业视觉形式，极大地提升了Claude AI的生产力，界面和设计理念也很统一。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚处于早期，Issue 统计为0，社区活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:21:11.435Z"
+    },
+    {
+      "owner": "YRaseUp",
+      "repo": "Polymarket-Copytrading-Bot",
+      "fullName": "YRaseUp/Polymarket-Copytrading-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:42:49Z",
+      "url": "https://github.com/YRaseUp/Polymarket-Copytrading-Bot",
+      "analysis": {
+        "positioning": "Polymarket自动化跟单交易机器人。",
+        "useCases": [
+          "你想追踪Polymarket高手 → 它帮你自动复制其交易。",
+          "你没时间盯盘Polymarket → 它帮你实现24/7自动化跟单。",
+          "你希望利用专业交易员策略 → 它帮你利用他人经验进行投资。"
+        ],
+        "audience": "适合希望在Polymarket平台实现自动化跟单交易，或跟随专业玩家投资策略的用户。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户，API密钥/私钥（若需），本地编程环境（如Python，推测）",
+          "steps": [
+            "克隆代码库，安装所需依赖。",
+            "配置Polymarket账户凭证及跟单策略，运行机器人。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "人工跟单",
+            "method": "实时监控Polymarket，手动下单",
+            "models": "个人判断或关注的交易员",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他通用交易机器人/平台",
+            "method": "配置API接口，集成现有机器人（若Polymarket支持）",
+            "models": "内置策略或社区策略",
+            "pricing": "通常为订阅制或交易佣金"
+          }
+        ],
+        "pricing": "免费，需自行部署和维护。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目星数极低 (19)，Issue 为空，缺乏文档，语言、License 等关键信息缺失，社区活跃度低，可能处于非常早期或已停止维护。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 为空，无任何交互或维护迹象。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-05T04:21:29.245Z"
+    },
+    {
+      "owner": "TradeOp",
+      "repo": "Polymarket-Market-Maker-Bot",
+      "fullName": "TradeOp/Polymarket-Market-Maker-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:56:01Z",
+      "url": "https://github.com/TradeOp/Polymarket-Market-Maker-Bot",
+      "analysis": {
+        "positioning": "自动化Polymarket预测市场做市，赚取交易差价。",
+        "useCases": [
+          "你希望在Polymarket上做市获利 → 它帮你自动化做市策略，赚取交易差价。",
+          "你苦于手动管理Polymarket订单耗时费力 → 它帮你24/7自动挂单、调整仓位。",
+          "你想更有效地为Polymarket提供流动性 → 它帮你智能管理流动性，优化收益。"
+        ],
+        "audience": "关注Polymarket预测市场的投资者，希望通过自动化策略赚取利润。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户和资金，Python运行环境，API密钥。",
+          "steps": [
+            "克隆项目代码，配置Polymarket API密钥和策略参数。",
+            "运行机器人程序，监控市场并自动执行做市操作。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "自研Python脚本",
+            "method": "编写定制化脚本对接Polymarket API",
+            "models": "不适用",
+            "pricing": "免费（仅开发成本）"
+          },
+          {
+            "name": "其他交易机器人框架",
+            "method": "修改现有开源框架集成Polymarket API",
+            "models": "不适用",
+            "pricing": "免费（框架本身）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Star数低（18），无Issue和语言信息，README极简，项目活跃度及维护情况存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启/关闭均为0，基本无互动或维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:21:41.610Z"
+    },
+    {
+      "owner": "PolyTopTrend",
+      "repo": "Polymarket-Copytrading-Bot",
+      "fullName": "PolyTopTrend/Polymarket-Copytrading-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:52:08Z",
+      "url": "https://github.com/PolyTopTrend/Polymarket-Copytrading-Bot",
+      "analysis": {
+        "positioning": "Polymarket预测市场自动化跟单机器人。",
+        "useCases": [
+          "你关注Polymarket顶尖玩家交易 → 它帮你自动同步并执行其预测策略。",
+          "你没有时间手动盯盘和下单 → 它帮你自动执行Polymarket上的跟单交易，不错过机会。",
+          "你希望自动化管理Polymarket投资 → 它帮你实现无缝的策略复制和交易执行，提升效率。"
+        ],
+        "audience": "适合Polymarket用户，希望通过自动化跟单，轻松复制顶尖预测者策略，提升交易效率与收益。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户；Python环境；API密钥。",
+          "steps": [
+            "克隆项目代码。",
+            "安装依赖并配置Polymarket API密钥及跟单目标。",
+            "运行机器人。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "General Crypto Copy Trading Platforms (e.g., 3Commas)",
+            "method": "Web界面",
+            "models": "多主流加密货币交易所",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Polymarket Automation Scripts (Hypothetical)",
+            "method": "命令行",
+            "models": "Polymarket",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数低，且无任何Issue活动，README仅有标题，信息严重不足，代码语言未知，无法评估项目质量、稳定性及活跃度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，未见用户参与或反馈，项目处于早期或无人维护状态。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:21:56.858Z"
+    },
+    {
+      "owner": "PolyTrend",
+      "repo": "Polymarket-Copytrading-Bot",
+      "fullName": "PolyTrend/Polymarket-Copytrading-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:47:28Z",
+      "url": "https://github.com/PolyTrend/Polymarket-Copytrading-Bot",
+      "analysis": {
+        "positioning": "Polymarket跟单交易机器人，自动复制高绩效账户的预测策略。",
+        "useCases": [
+          "你是Polymarket新手或没时间研究 → 它帮你自动跟随高胜率交易员策略。",
+          "你希望实现自动化交易并解放时间 → 它帮你全天候监控市场并执行预测交易。",
+          "你想分散风险或验证策略 → 它帮你同时复制多个账户或测试不同跟单逻辑。"
+        ],
+        "audience": "适合希望在Polymarket预测市场上通过自动化或跟单策略进行交易的用户。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户，API访问权限，以及运行代码所需的环境（如Python）。",
+          "steps": [
+            "克隆项目并安装依赖",
+            "配置Polymarket API密钥和跟单策略参数",
+            "运行机器人启动自动跟单"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动跟单",
+            "method": "人工观察并执行交易",
+            "models": "N/A",
+            "pricing": "免费（时间成本）"
+          },
+          {
+            "name": "自研Polymarket交易脚本",
+            "method": "编程开发自定义策略",
+            "models": "N/A",
+            "pricing": "时间/开发成本"
+          }
+        ],
+        "pricing": "免费（开源项目，自行部署使用）",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目星标数少，无Issue互动，语言和Topics信息缺失，项目处于非常早期或缺乏活跃维护。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前无任何Issue或Pull Request互动记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:22:14.959Z"
+    },
+    {
+      "owner": "PolyTrend",
+      "repo": "Polymarket-Market-Maker-Bot",
+      "fullName": "PolyTrend/Polymarket-Market-Maker-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T01:15:00Z",
+      "url": "https://github.com/PolyTrend/Polymarket-Market-Maker-Bot",
+      "analysis": {
+        "positioning": "为Polymarket预测市场提供自动化做市服务。",
+        "useCases": [
+          "你想在Polymarket上提供流动性 → 它帮你自动化管理订单，赚取交易费和价差。",
+          "你有自己的市场策略 → 它帮你高效执行，避免手动操作的延迟和错误。",
+          "你希望减少盯盘时间 → 它帮你24/7监控市场，自动调整报价。"
+        ],
+        "audience": "Polymarket平台上的专业做市商、量化交易员，或希望自动化赚取市场差价的用户。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户、API密钥、交易资金",
+          "steps": [
+            "下载并配置机器人参数（如API密钥、交易策略等）",
+            "启动机器人，连接Polymarket平台进行自动化做市"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他Polymarket做市机器人 (开源或私有)",
+            "method": "脚本运行或API",
+            "models": "N/A",
+            "pricing": "免费/付费定制"
+          },
+          {
+            "name": "手动做市/自定义脚本",
+            "method": "人工操作或自行编程",
+            "models": "N/A",
+            "pricing": "时间成本"
+          }
+        ],
+        "pricing": "免费 (开源项目，需自行部署)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数少，功能描述极简，缺少详细文档、语言和许可证信息，社区活跃度低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，无 Issue 记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:22:31.923Z"
+    },
+    {
+      "owner": "YRaseUp",
+      "repo": "Polymarket-Market-Maker-Bot",
+      "fullName": "YRaseUp/Polymarket-Market-Maker-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:43:16Z",
+      "url": "https://github.com/YRaseUp/Polymarket-Market-Maker-Bot",
+      "analysis": {
+        "positioning": "Polymarket自动化做市机器人",
+        "useCases": [
+          "你想在Polymarket上提供流动性 → 它帮你自动执行买卖订单，赚取差价。",
+          "你希望利用预测市场波动获利 → 它帮你根据市场变化智能调整做市策略。",
+          "你是DeFi交易者 → 它帮你程序化管理Polymarket仓位，无需手动操作。"
+        ],
+        "audience": "希望在Polymarket上通过自动化做市获取收益的交易者和开发者。",
+        "quickStart": {
+          "prerequisites": "Python环境，Polymarket API Key，以及Polymarket账户资金。",
+          "steps": [
+            "获取项目代码",
+            "配置API密钥和做市策略参数",
+            "运行机器人开始自动化做市"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手工做市",
+            "method": "人工操作",
+            "models": "个人经验/直觉",
+            "pricing": "免费（时间成本）"
+          },
+          {
+            "name": "自定义脚本",
+            "method": "自行开发/部署",
+            "models": "自定义策略",
+            "pricing": "免费（开发成本）"
+          }
+        ],
+        "pricing": "免费 (代码开源)，但可能产生Polymarket平台交易费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数少，无活跃Issues，README信息极简，表明项目尚处于早期阶段，社区参与度低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭0，几乎无社区活跃度。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-05T04:22:49.669Z"
+    },
+    {
+      "owner": "PolyTopTrend",
+      "repo": "Polymarket-Market-Maker-Bot",
+      "fullName": "PolyTopTrend/Polymarket-Market-Maker-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:53:23Z",
+      "url": "https://github.com/PolyTopTrend/Polymarket-Market-Maker-Bot",
+      "analysis": {
+        "positioning": "Polymarket 预测市场自动做市机器人。",
+        "useCases": [
+          "你希望在 Polymarket 自动化交易 → 它帮你实现策略执行和订单管理。",
+          "你没有时间手动做市 → 它帮你 24/7 自动运行，不错过交易机会。",
+          "你追求稳定收益 → 它帮你通过做市赚取买卖差价。"
+        ],
+        "audience": "适合希望在 Polymarket 自动化交易并获取稳定收益的预测市场参与者。",
+        "quickStart": {
+          "prerequisites": "Polymarket 账户及 API 访问权限",
+          "steps": [
+            "下载代码并配置交易策略参数。",
+            "连接 Polymarket 账户并启动做市机器人。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Hummingbot",
+            "method": "开源框架，通过命令行或配置界面搭建策略",
+            "models": "支持多种中心化/去中心化交易所和DeFi协议",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "自定义脚本",
+            "method": "自行开发或修改开源代码，适配Polymarket",
+            "models": "依赖开发者选择的平台和实现",
+            "pricing": "免费（开发成本自负）"
+          }
+        ],
+        "pricing": "免费 (开源项目，代码可自由获取)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数少 (14)，无 Issue 记录，README 信息极简，活跃度与成熟度存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "无 Issue 记录，社区活跃度极低或不存在。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:23:05.779Z"
+    },
+    {
+      "owner": "PolyTopTrend",
+      "repo": "Polymarket-Trading-Bot",
+      "fullName": "PolyTopTrend/Polymarket-Trading-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:53:57Z",
+      "url": "https://github.com/PolyTopTrend/Polymarket-Trading-Bot",
+      "analysis": {
+        "positioning": "Polymarket自动化交易机器人，帮助用户捕捉趋势并执行交易。",
+        "useCases": [
+          "你希望在Polymarket上实现自动化交易，避免手动盯盘和操作失误 → 它帮你根据预设策略自动监控市场、下单和平仓。",
+          "你想基于数据分析或量化策略在Polymarket上获利，但缺乏编程实现能力 → 它提供一个框架，让你能配置或实现交易策略并自动化执行。",
+          "你关注Polymarket上的高波动市场，希望第一时间响应价格变化 → 它帮你实时跟踪市场数据，并根据规则快速反应，抓住交易机会。"
+        ],
+        "audience": "Polymarket交易者、量化策略开发者，以及任何希望通过自动化提升预测市场交易效率的用户。",
+        "quickStart": {
+          "prerequisites": "Polymarket API密钥，Python环境 (推测)",
+          "steps": [
+            "克隆项目仓库",
+            "配置Polymarket API密钥和交易策略参数",
+            "运行机器人"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "人工交易",
+            "method": "人工分析市场，手动下单",
+            "models": "个人判断和经验",
+            "pricing": "免费 (时间成本高)"
+          },
+          {
+            "name": "自定义脚本 (私有)",
+            "method": "自行开发专用交易脚本",
+            "models": "自定义策略",
+            "pricing": "开发成本"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目星标数低（13），语言和许可证未知，Issue活动为零，表明项目处于非常早期阶段或社区活跃度较低，有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭0，表明社区活跃度极低或尚未形成。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:23:22.092Z"
+    },
+    {
+      "owner": "sadhgurutech",
+      "repo": "mailtrim",
+      "fullName": "sadhgurutech/mailtrim",
+      "description": "Find and clean hidden Gmail clutter in seconds. Runs locally. Free forever.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-05T02:46:34Z",
+      "url": "https://github.com/sadhgurutech/mailtrim",
+      "analysis": {
+        "positioning": "本地运行、免费且AI驱动的Gmail垃圾邮件智能清理工具。",
+        "useCases": [
+          "你邮箱里堆积如山，不知道从何清理 → 它帮你智能识别并批量删除垃圾邮件，快速释放空间。",
+          "你厌倦了手动退订各种邮件和订阅 → 它提供近100%的订阅退订成功率，并能批量操作。",
+          "你关心邮件隐私，不希望数据上传到云端 → 它完全在本地运行，你的邮件内容绝不离开本机。"
+        ],
+        "audience": "关注隐私、不愿付费，且受困于Gmail垃圾邮件和复杂清理的个人用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+",
+          "steps": [
+            "克隆项目并安装依赖（如 `pip install -e .`）",
+            "运行 `mailtrim sync` 进行Gmail授权和首次同步，然后使用 `mailtrim stats` 查看清理建议"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "SaneBox / Superhuman",
+            "method": "云端处理邮件",
+            "models": "未明确，但涉及AI功能",
+            "pricing": "$7–$40/月"
+          }
+        ],
+        "pricing": "核心清理功能免费，高级AI功能按Anthropic API用量付费（约 $0.01–$0.05 每运行一次）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "CLI工具，需要用户有基本的命令行操作和Python环境配置能力，但项目文档清晰，上手流程有指导。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活动刚刚起步，Issue 尚未有记录，期待后续发展。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-05T04:23:34.807Z"
+    },
+    {
+      "owner": "PolyTrend",
+      "repo": "Polymarket-Trading-Bot",
+      "fullName": "PolyTrend/Polymarket-Trading-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T01:15:20Z",
+      "url": "https://github.com/PolyTrend/Polymarket-Trading-Bot",
+      "analysis": {
+        "positioning": "Polymarket预测市场自动化交易机器人。",
+        "useCases": [
+          "你想在Polymarket上自动执行交易策略 → 它帮你24/7监控市场并自动下单。",
+          "你想捕捉Polymarket上的短暂套利机会 → 它帮你快速识别并执行潜在的套利交易。",
+          "你希望通过代码部署和管理Polymarket上的投资 → 它提供一个框架让你实现自动化投资逻辑。"
+        ],
+        "audience": "适合希望在Polymarket预测市场进行自动化交易的开发者和量化爱好者。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户和API访问权限，熟悉Python编程环境。",
+          "steps": [
+            "克隆项目仓库，配置Polymarket API密钥和交易策略参数。",
+            "运行机器人，开始自动化监控和执行交易。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "自研交易脚本",
+            "method": "用户自行编写Python/JS等代码",
+            "models": "完全自定义，根据需求适配Polymarket API",
+            "pricing": "免费（仅限开发成本）"
+          },
+          {
+            "name": "Hummingbot (通用交易框架)",
+            "method": "本地部署，连接交易所API",
+            "models": "需定制适配Polymarket协议",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（开源项目，无额外费用）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数极少，Issue 统计为空，README 信息简陋。表明项目处于早期阶段或缺乏持续维护，功能和稳定性有待更多信息验证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无Issue互动和维护迹象。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:23:48.209Z"
+    },
+    {
+      "owner": "TradeOp",
+      "repo": "Polymarket-Trading-Bot",
+      "fullName": "TradeOp/Polymarket-Trading-Bot",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T00:56:23Z",
+      "url": "https://github.com/TradeOp/Polymarket-Trading-Bot",
+      "analysis": {
+        "positioning": "Polymarket自动化交易机器人，帮你高效参与预测市场。",
+        "useCases": [
+          "你手动盯盘Polymarket想抓住机会 → 它帮你7x24小时自动监测市场，不错过交易良机。",
+          "你想验证自己的预测市场策略 → 它帮你自动化执行策略，收集数据，无需手动操作。",
+          "你厌倦了Polymarket上的重复性下单操作 → 它帮你根据预设规则，自动完成买卖决策和执行。"
+        ],
+        "audience": "希望在Polymarket预测市场中进行自动化交易或策略测试的开发者和高级用户。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户和API凭证，以及Python环境（若为Python实现）",
+          "steps": [
+            "克隆项目仓库。",
+            "配置Polymarket API凭证及交易策略。",
+            "运行脚本开始自动化交易。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Freqtrade",
+            "method": "配置策略文件并运行，需自行适配Polymarket API",
+            "models": "社区策略/自定义",
+            "pricing": "免费"
+          },
+          {
+            "name": "自定义脚本",
+            "method": "自行开发并集成Polymarket API",
+            "models": "自定义",
+            "pricing": "免费（开发时间成本）"
+          }
+        ],
+        "pricing": "免费（开源项目，使用Polymarket服务可能产生交易费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数低（13），无任何Issue活动，语言和许可证未知，README内容极简，表明项目活跃度低，可能处于早期阶段或个人兴趣项目，社区支持和稳定性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何Issue活动，社区活跃度极低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:24:03.638Z"
+    },
+    {
+      "owner": "kevinrgu",
+      "repo": "autoagent",
+      "fullName": "kevinrgu/autoagent",
+      "description": "autonomous harness engineering",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-02T20:44:58Z",
+      "url": "https://github.com/kevinrgu/autoagent",
+      "analysis": {
+        "positioning": "AI Agent自动化工程，自主构建与优化Agent配置。",
+        "useCases": [
+          "你希望AI Agent表现更好 → 它帮你自动调整Agent的系统提示词、工具和配置。",
+          "你想快速迭代优化Agent → 它帮你自动运行基准测试，根据得分反复优化。",
+          "你不想手动修改Agent代码 → 它帮你通过Markdown文件定义工程循环，实现无代码Agent优化。"
+        ],
+        "audience": "AI Agent开发者和研究者，希望自动化Agent构建、优化和测试流程。",
+        "quickStart": {
+          "prerequisites": "Docker, Python 3.10+, uv包管理器，模型提供商API凭证（如OPENAI_API_KEY）",
+          "steps": [
+            "安装uv包管理器",
+            "安装项目依赖并配置API凭证"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "核心项目开源免费，但作者团队将推出相关商业产品。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "旨在通过声明式Markdown文件驱动Agent自优化，显著减少手动编码和迭代工作，提高开发效率，对Agent工程化有积极助益。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前所有Issue均未关闭，项目仍处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:24:31.320Z"
+    },
+    {
+      "owner": "yasasbanukaofficial",
+      "repo": "claude-code",
+      "fullName": "yasasbanukaofficial/claude-code",
+      "description": "🚀 Open source Claude Code CLI source code. Advanced AI Agent for developers. Includes TypeScript codebase for LLM tool-calling, agentic workflows, and terminal UI. Remember this is just the skeleton not the brain itself. Found by Chaofan Shou. ",
+      "language": "TypeScript",
+      "topics": [
+        "claude-ai",
+        "claude-code",
+        "leaked-claude-code",
+        "leaked-code"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-31T19:07:10Z",
+      "url": "https://github.com/yasasbanukaofficial/claude-code",
+      "analysis": {
+        "positioning": "Claude Code CLI泄露源码，揭秘Anthropic AI Agent内部实现。",
+        "useCases": [
+          "想深入了解Anthropic AI Agent架构和工具调用机制的开发者 → 可研究其LLM工具调用、Agent工作流及终端UI实现。",
+          "希望分析商业级AI编程助手内部细节的研究者 → 可剖析其多Agent编排、自定义React终端渲染器（Ink）及意外的“Tamagotchi”系统。",
+          "对构建复杂TypeScript应用及终端交互式UI有兴趣的工程师 → 可学习其785KB的`main.tsx`入口、大量工具和Ink渲染实践。"
+        ],
+        "audience": "适合希望深入理解Anthropic AI Agent技术栈、LLM工具调用、Agentic工作流及高级TypeScript终端应用开发的工程师和研究人员。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆或Fork本项目到本地",
+            "浏览`src/`目录下的源码文件"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE插件，自动补全、代码生成",
+            "models": "OpenAI Codex / GPT系列",
+            "pricing": "付费（个人$10/月，团队$19/月）"
+          },
+          {
+            "name": "Cursor",
+            "method": "AI原生IDE，内置聊天、代码编辑、重构等",
+            "models": "GPT-4, Claude 3, Llama 3等",
+            "pricing": "免费（基础功能），付费（高级功能）"
+          }
+        ],
+        "pricing": "免费（本项目仅为泄露源码备份，供学习研究）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供了Anthropic商业级AI编程助手Claude Code的完整内部代码，包括AI Agent架构、工具调用、Ink终端UI和独特的“Tamagotchi”系统，是研究前沿AI应用设计的绝佳材料。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，但对已开启的少量Issue（4个）均已及时关闭，显示出维护者的积极响应。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-05T04:24:51.694Z"
     }
   ]
 }
