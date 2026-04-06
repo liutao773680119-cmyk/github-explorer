@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-05T04:24:51.698Z",
+  "updatedAt": "2026-04-06T04:29:19.205Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -10953,6 +10953,258 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-05T04:24:51.694Z"
+    },
+    {
+      "owner": "santifer",
+      "repo": "career-ops",
+      "fullName": "santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "language": "Go",
+      "topics": [
+        "ai-agent",
+        "anthropic",
+        "automation",
+        "career",
+        "claude",
+        "claude-code",
+        "cli",
+        "golang",
+        "interview-prep",
+        "job-search",
+        "open-source",
+        "resume"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-04T18:21:18Z",
+      "url": "https://github.com/santifer/career-ops",
+      "analysis": {
+        "positioning": "AI驱动的求职中枢，智能评估、简历定制、追踪管理。",
+        "useCases": [
+          "你手动追踪求职进度 → 它帮你用AI自动扫描、评估并统一追踪所有申请。",
+          "你为每个职位手动修改简历 → 它帮你AI定制ATS优化简历，匹配职位描述。",
+          "你面对大量职位难以筛选 → 它帮你AI批量处理，提供结构化评分助你聚焦高匹配度机会。"
+        ],
+        "audience": "寻求高效、精准求职的专业人士，尤其是需要精细化管理大量申请的技术求职者。",
+        "quickStart": {
+          "prerequisites": "Claude API Key, Go运行时环境",
+          "steps": [
+            "克隆项目到本地",
+            "进入项目目录"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动表格/CRM",
+            "method": "人工记录与管理",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "在线简历生成器",
+            "method": "模板化填写，手动优化",
+            "models": "N/A",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "其他AI求职助手",
+            "method": "AI辅助简历、文书生成",
+            "models": "GPT系列/其他",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费开源，但需支付Claude API调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能强大且实用，针对求职痛点提供了一站式AI解决方案。但其CLI操作和对Claude Code的依赖，可能对非技术背景或不熟悉命令行工具的用户存在一定上手门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，Issue开启较多但暂无关闭，社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-06T04:28:00.413Z"
+    },
+    {
+      "owner": "k2-fsa",
+      "repo": "OmniVoice",
+      "fullName": "k2-fsa/OmniVoice",
+      "description": "High-Quality Voice Cloning TTS for 600+ Languages",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-31T12:00:45Z",
+      "url": "https://github.com/k2-fsa/OmniVoice",
+      "analysis": {
+        "positioning": "600+语言高质量零样本语音克隆与设计TTS模型",
+        "useCases": [
+          "你想让AI用特定人声说话 → 它帮你快速生成高质量的克隆语音",
+          "你想自定义AI声音的性别、年龄、语调 → 它帮你通过属性控制生成个性化语音",
+          "你需要为多语言内容高效生成语音 → 它帮你支持600+语言并以超快速度生成"
+        ],
+        "audience": "开发者、研究员、内容创作者，需要多语言、高质量、可定制的文本转语音和语音克隆功能。",
+        "quickStart": {
+          "prerequisites": "Python环境，根据硬件（NVIDIA GPU或Apple Silicon）安装对应PyTorch版本。",
+          "steps": [
+            "根据硬件（NVIDIA GPU或Apple Silicon）安装PyTorch和torchaudio",
+            "通过pip安装OmniVoice：`pip install omnivoice`"
+          ],
+          "note": "NVIDIA GPU和Apple Silicon安装PyTorch的命令不同，请注意选择。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "文档完善，提供一键部署（Hugging Face Space），安装简单，功能强大且前沿（600+语言、超快推理、语音克隆与设计），社区活跃度高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，Issue开闭比合理（27/23），表明维护者响应及时。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-06T04:28:20.582Z"
+    },
+    {
+      "owner": "JuliusBrussee",
+      "repo": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 75% of tokens by talking like caveman",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-04T10:03:00Z",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "analysis": {
+        "positioning": "LLM提示词精简工具，用“穴居人”模式高效压缩Token。",
+        "useCases": [
+          "你编写Claude Prompt，想降低Token成本 → 它帮你用极简语法表达，大幅削减费用。",
+          "你希望LLM回复更精炼、直击核心 → 它帮你将复杂表述转化为高效短语。",
+          "你开发AI Agent，需优化Token效率 → 它作为Claude Code技能，自动压缩Agent输出。"
+        ],
+        "audience": "Claude开发者、AI Agent构建者及所有关注LLM交互效率和成本的Prompt工程师。",
+        "quickStart": {
+          "prerequisites": "Python环境，使用Claude模型。",
+          "steps": [
+            "安装：`pip install caveman`",
+            "将其作为Claude Code技能或插件集成到你的应用中。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（工具本身），但调用Claude API需按用量付费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "将网络流行语“穴居人说话风格”与LLM提示词优化结合，以独特幽默的方式大幅削减Token，解决了实际问题，趣味性十足。",
+        "isVibeCoding": true,
+        "communityActivity": "有少量活跃Issue（6个开启，0个关闭），社区参与度有待提升。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-06T04:28:31.594Z"
+    },
+    {
+      "owner": "codeaashu",
+      "repo": "claude-code",
+      "fullName": "codeaashu/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "topics": [
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-code-leaked",
+        "claude-code-skill",
+        "claude-desktop",
+        "claude-leak",
+        "claude-skills"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-03-31T12:56:05Z",
+      "url": "https://github.com/codeaashu/claude-code",
+      "analysis": {
+        "positioning": "终端AI编程助手，用自然语言驱动编码与Git工作流。",
+        "useCases": [
+          "你有重复任务 → 它帮你自动执行日常开发任务。",
+          "你遇到复杂代码 → 它帮你解释代码逻辑。",
+          "你要处理Git流程 → 它帮你用自然语言管理Git操作。"
+        ],
+        "audience": "适合希望通过自然语言提升编码效率和自动化开发流程的开发者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "git clone https://github.com/codeaashu/claude-code.git",
+            "cd claude-code"
+          ],
+          "note": "本项目为泄露源代码，安装和运行需自行研究其依赖和构建流程。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE插件",
+            "models": "OpenAI Codex/GPT-4",
+            "pricing": "付费"
+          },
+          {
+            "name": "Cursor",
+            "method": "自有IDE/编辑器",
+            "models": "GPT-4, Claude, Llama 2等",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Codeium",
+            "method": "IDE插件",
+            "models": "自有LLM",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费获取源代码，原版工具由Anthropic开发并可能收费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是Anthropic Claude Code CLI的泄露源代码，原生支持通过自然语言进行代码解释、任务自动化和Git工作流管理，是典型的AI驱动开发工具。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，Issue活跃度较低（8开0关），可能主要用于源代码参考而非社区共建。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-06T04:28:48.406Z"
+    },
+    {
+      "owner": "Yeachan-Heo",
+      "repo": "oh-my-codex",
+      "fullName": "Yeachan-Heo/oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-02-02T14:21:18Z",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "analysis": {
+        "positioning": "OpenAI Codex CLI 的增强工作流层，提供代理团队和更强提示。",
+        "useCases": [
+          "你用Codex写代码 → 它帮你启动更强的编码会话，优化默认提示和流程。",
+          "你用Codex处理复杂任务 → 它提供从需求澄清到任务完成的统一工作流，结构化管理项目。",
+          "你需要协作编码或任务规划 → 它提供专家角色（如$deep-interview、$ralplan、$team），支持多Agent协作完成任务。"
+        ],
+        "audience": "依赖OpenAI Codex CLI进行编码和任务管理的开发者，旨在提升效率和协作能力。",
+        "quickStart": {
+          "prerequisites": "Node.js (>=20) 和 @openai/codex CLI",
+          "steps": [
+            "npm install -g @openai/codex oh-my-codex",
+            "omx setup",
+            "omx --madmax --high"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "1.6万星，MIT开源，提供清晰的工作流增强，针对Codex CLI用户，有详细文档和社区支持，活跃度高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数远超开启数（483:5），社区活跃度高，维护积极。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-06T04:29:19.201Z"
     }
   ]
 }
