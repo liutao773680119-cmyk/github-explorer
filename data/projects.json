@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-06T04:29:19.205Z",
+  "updatedAt": "2026-04-07T04:22:10.895Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -11205,6 +11205,959 @@
         "category": "AI编程助手"
       },
       "analyzedAt": "2026-04-06T04:29:19.201Z"
+    },
+    {
+      "owner": "CivilDukeHunt",
+      "repo": "starred-077842e",
+      "fullName": "CivilDukeHunt/starred-077842e",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:03Z",
+      "url": "https://github.com/CivilDukeHunt/starred-077842e",
+      "analysis": {
+        "positioning": "精选GitHub项目收藏集，助你快速发现好项目。",
+        "useCases": [
+          "你寻找新项目 → 它提供一份作者精选的GitHub星标清单。",
+          "你不知学什么 → 它帮你快速发现值得学习的高价值开源库。",
+          "你想了解某领域 → 它作为由经验者筛选过的项目参考。"
+        ],
+        "audience": "想快速发现和学习精选开源项目的开发者，作为一份高质量的参考清单。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆仓库",
+            "浏览项目列表"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Trending/Explore",
+            "method": "浏览官方推荐",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Awesome Lists",
+            "method": "查阅领域精选",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目信息极少，无语言、无License、无Issues，仅有一个自命名标题的README，表明这可能是一个个人星标收藏列表而非一个代码项目。209星标数说明其内容或方向获得一定关注。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，无任何Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:17:20.047Z"
+    },
+    {
+      "owner": "Toneuaboost71",
+      "repo": "starred-0562a51",
+      "fullName": "Toneuaboost71/starred-0562a51",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:01Z",
+      "url": "https://github.com/Toneuaboost71/starred-0562a51",
+      "analysis": {
+        "positioning": "一个收录各类实用工具与学习资源的GitHub星标收藏列表。",
+        "useCases": [
+          "你缺乏特定场景的工具和资源 → 它帮你快速发现和收藏实用项目",
+          "你希望探索新的技术栈或生产力工具 → 它提供精选列表供你参考和学习",
+          "你想为自己的知识库添砖加瓦 → 它是一个值得收藏的工具与资源宝库"
+        ],
+        "audience": "适合所有寻求各类实用工具、学习资源和效率提升方法的开发者或普通用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库：Toneuaboost71/starred-0562a51",
+            "浏览README和列表内容"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Awesome Lists (GitHub)",
+            "method": "浏览GitHub仓库列表",
+            "models": "各类技术主题和工具",
+            "pricing": "免费"
+          },
+          {
+            "name": "Product Hunt",
+            "method": "访问网站筛选产品",
+            "models": "新奇产品、工具和资源",
+            "pricing": "免费（部分产品付费）"
+          }
+        ],
+        "pricing": "免费，一个开源的资源列表项目。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目本质是一个个人收藏或精选资源列表，没有代码实现或复杂功能，主要价值在于资源的聚合与分享，编程氛围较弱。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 0/0，活跃度较低，主要以静态资源分享为主，不涉及社区讨论和协作。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:17:35.085Z"
+    },
+    {
+      "owner": "WarlordProvide",
+      "repo": "starred-be27b8c",
+      "fullName": "WarlordProvide/starred-be27b8c",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:01Z",
+      "url": "https://github.com/WarlordProvide/starred-be27b8c",
+      "analysis": {
+        "positioning": "一个缺乏核心描述信息的GitHub代码仓库",
+        "useCases": [
+          "你希望了解项目功能 → 它当前信息无法说明具体用途",
+          "你希望快速上手使用 → 它未提供任何指引和代码示例",
+          "你希望评估其价值 → 它当前信息不足以支持任何评估"
+        ],
+        "audience": "对未明用途代码库好奇或需要深入研究源码的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "未知",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目描述、语言、许可证、Topics等核心信息全部缺失，README仅为项目名，无法判断其功能、价值和使用方式，社区活跃度为零，极其难以理解和上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0开0关，无任何社区互动迹象，活跃度极低或尚未启动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:17:50.412Z"
+    },
+    {
+      "owner": "SmokeLightRoute94",
+      "repo": "starred-eeae8f6",
+      "fullName": "SmokeLightRoute94/starred-eeae8f6",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:09Z",
+      "url": "https://github.com/SmokeLightRoute94/starred-eeae8f6",
+      "analysis": {
+        "positioning": "开发者常用资源与工具的精选合集。",
+        "useCases": [
+          "你寻找常用开发工具或资源 → 它帮你快速找到分类链接。",
+          "你想收藏好用工具方便查阅 → 它提供一个集中的资源清单供你参考。",
+          "你不确定某个领域有哪些受欢迎的工具 → 它提供一个初步的工具列表供你探索。"
+        ],
+        "audience": "寻找开发工具、资源或学习资料的开发者、学生及技术爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目页面。",
+            "浏览或搜索感兴趣的资源和工具。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Awesome Lists (如 Awesome Python)",
+            "method": "浏览Markdown文件",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "个人技术博客/知识库",
+            "method": "阅读文章/页面",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，作为公开的GitHub资源库。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述为资源合集，非活跃开发项目，功能性强于创新性。缺乏社区互动和技术深度。",
+        "isVibeCoding": true,
+        "communityActivity": "无社区活跃度，Issue 全部关闭，缺乏用户参与或维护迹象。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:18:03.424Z"
+    },
+    {
+      "owner": "ExitTailorWrench",
+      "repo": "starred-52eef7a",
+      "fullName": "ExitTailorWrench/starred-52eef7a",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:14:58Z",
+      "url": "https://github.com/ExitTailorWrench/starred-52eef7a",
+      "analysis": {
+        "positioning": "精选资源与工具集，助你高效工作。",
+        "useCases": [
+          "你查找特定开发工具 → 它提供精选列表。",
+          "你学习新技能 → 它提供相关学习资源。",
+          "你提升工作效率 → 它汇总实用工具。"
+        ],
+        "audience": "适合所有寻找精选开发工具、学习资源或提升效率的个人和团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库主页",
+            "浏览或搜索所需分类下的资源链接"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Awesome Lists (GitHub)",
+            "method": "浏览GitHub仓库",
+            "models": "各类技术领域资源/工具",
+            "pricing": "免费"
+          },
+          {
+            "name": "独立技术博客/资源站",
+            "method": "网站导航/站内搜索",
+            "models": "特定技术领域知识/工具",
+            "pricing": "免费/部分免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目本身是资源和工具的集合，缺乏代码实现，主要价值在于内容的组织和链接。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极低，无任何Issue活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:18:16.748Z"
+    },
+    {
+      "owner": "Enamelvuenchant",
+      "repo": "starred-0dc6f85",
+      "fullName": "Enamelvuenchant/starred-0dc6f85",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:00Z",
+      "url": "https://github.com/Enamelvuenchant/starred-0dc6f85",
+      "analysis": {
+        "positioning": "一个聚合各类开发资源与工具的精选列表。",
+        "useCases": [
+          "你寻找开发新工具 → 它帮你发现实用的开发工具。",
+          "你学习新技能 → 它汇集相关教程和学习资源。",
+          "你希望提高效率 → 它分享精选工具和方法来优化工作流。"
+        ],
+        "audience": "适合寻求开发工具、学习资源或希望提高效率的开发者和技术爱好者。",
+        "quickStart": {
+          "prerequisites": "GitHub账号（可选，用于Star项目）",
+          "steps": [
+            "访问项目主页：`https://github.com/Enamelvuenchant/starred-0dc6f85`",
+            "浏览README文件及项目目录，获取所需资源和工具信息。"
+          ],
+          "note": "此项目是一个资源合集，无需安装或运行，直接浏览即可。"
+        },
+        "competitors": [
+          {
+            "name": "Awesome Lists (GitHub)",
+            "method": "浏览GitHub仓库",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Dev.to Collections",
+            "method": "在线浏览",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，作为GitHub上的开源资源集合。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和README过于通用，缺乏具体的技术栈、语言或工具类型信息，导致价值判断困难。虽然声称是'有用资源集合'，但无社区互动和详细指引，难以评估其实用深度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 为空，无社区互动迹象，活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:18:27.088Z"
+    },
+    {
+      "owner": "portallaborervision",
+      "repo": "starred-f437e86",
+      "fullName": "portallaborervision/starred-f437e86",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:04Z",
+      "url": "https://github.com/portallaborervision/starred-f437e86",
+      "analysis": {
+        "positioning": "精选实用资源与工具集，助你高效发现。",
+        "useCases": [
+          "你寻找各类实用工具或学习资料 → 它帮你快速导航，节省搜索时间。",
+          "你希望获取行业精选资源 → 它帮你集中式浏览，提高效率。",
+          "你是一名技术探索者 → 它帮你发现潜在有用资源，拓展视野。"
+        ],
+        "audience": "适合：寻找开发工具、学习资料或行业资源的开发者、研究人员及技术爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面。",
+            "浏览README及相关链接内容。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Awesome Lists",
+            "method": "浏览GitHub页面",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Product Hunt Collections",
+            "method": "浏览网站专题页",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (项目本身是GitHub上的资源集合，访问和浏览免费)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述过于泛泛，虽有一定星数，但缺乏具体信息和活跃度数据（0 Issues），难以判断其特色和价值深度，仅初步判断为通用资源集合。",
+        "isVibeCoding": true,
+        "communityActivity": "无Issue记录，社区互动度较低，可能是一个维护者自行更新的资源列表。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:18:40.936Z"
+    },
+    {
+      "owner": "Moonyogirder",
+      "repo": "starred-108409d",
+      "fullName": "Moonyogirder/starred-108409d",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:04Z",
+      "url": "https://github.com/Moonyogirder/starred-108409d",
+      "analysis": {
+        "positioning": "精选实用资源工具集，帮你快速发现和利用好东西。",
+        "useCases": [
+          "你做项目前期调研 → 它帮你快速找到相关工具和资料。",
+          "你寻找特定技术解决方案 → 它提供多样化资源供你筛选。",
+          "你希望了解行业流行趋势 → 它展示精选内容帮你拓宽视野。"
+        ],
+        "audience": "面向开发者、设计师、学习者，用于探索、收集和分享各类实用工具与资源。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 GitHub 仓库。",
+            "浏览 README 或目录结构。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Awesome 项目",
+            "method": "浏览仓库",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "个人收藏夹/书签管理工具",
+            "method": "网站/应用浏览",
+            "models": "N/A",
+            "pricing": "免费/部分免费"
+          }
+        ],
+        "pricing": "完全免费，GitHub 开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个资源合集，提供实用性但缺乏独特技术创新。价值取决于内容的深度和持续更新。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 全为 0，社区互动和反馈极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:18:52.718Z"
+    },
+    {
+      "owner": "Powerzursubway",
+      "repo": "starred-bd8c910",
+      "fullName": "Powerzursubway/starred-bd8c910",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:02Z",
+      "url": "https://github.com/Powerzursubway/starred-bd8c910",
+      "analysis": {
+        "positioning": "功能不明，项目信息极度匮乏，用途无法推断。",
+        "useCases": [
+          "你尝试理解项目 → 它无法提供具体用途信息。",
+          "你寻找解决方案 → 它缺乏明确的功能描述，无法帮助你。",
+          "你期望快速上手 → 它没有README和说明，无法引导你。"
+        ],
+        "audience": "任何对该项目感兴趣的用户，但因信息不足而无法评估其价值。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "无法从现有信息中提取启动步骤。",
+            "建议查阅项目仓库获取更新信息。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "信息缺失，无法判断。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述、README、语言和Topics均为空，无法评估功能、质量及开发维护情况。209星但信息空白，存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数为0，表明社区讨论和问题解决活动极低或不存在。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:19:05.942Z"
+    },
+    {
+      "owner": "WoodMockingbird",
+      "repo": "starred-99545dd",
+      "fullName": "WoodMockingbird/starred-99545dd",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T02:15:02Z",
+      "url": "https://github.com/WoodMockingbird/starred-99545dd",
+      "analysis": {
+        "positioning": "一个GitHub星标项目列表。",
+        "useCases": [
+          "你寻找新项目灵感 → 浏览作者的星标收藏",
+          "你关注特定技术方向 → 查看星标列表中的相关项目",
+          "你想了解某人技术偏好 → 观察其星标项目类型"
+        ],
+        "audience": "对项目发现、作者技术偏好感兴趣的开发者或技术爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库页面"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目信息极度缺乏，无描述、语言、主题，无Issue活动，README仅为标题。更像个人星标收藏或自动生成列表，而非功能性项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue活动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-07T04:19:19.127Z"
+    },
+    {
+      "owner": "safishamsi",
+      "repo": "graphify",
+      "fullName": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "language": "Python",
+      "topics": [
+        "claude-code",
+        "codex",
+        "graphrag",
+        "knowledge-graph",
+        "openclaw",
+        "skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-03T15:49:07Z",
+      "url": "https://github.com/safishamsi/graphify",
+      "analysis": {
+        "positioning": "AI编码助手技能，将任意文件转换为可查询知识图谱。",
+        "useCases": [
+          "你面对陌生或复杂的代码库 → 它帮你快速理解其结构、功能和内部关系。",
+          "你希望探究系统架构的设计理念或决策原因 → 它帮你从文档和代码中提炼出设计背后的“为什么”。",
+          "你管理分散的笔记、文档和图像资料（如学习资料、项目资料） → 它帮你将它们整合为有结构、可查询的知识图谱，高效查找和关联信息。"
+        ],
+        "audience": "开发者、架构师、研究人员，以及任何需要快速理解代码库、文档或多模态信息并构建知识图谱的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+ 及任一AI编码助手：Claude Code, Codex, OpenCode, OpenClaw。",
+          "steps": [
+            "pip install graphifyy",
+            "graphify install"
+          ],
+          "note": "PyPI包名为`graphifyy`，但CLI命令仍为`graphify`。"
+        },
+        "competitors": [
+          {
+            "name": "人工代码阅读与分析",
+            "method": "人工阅读代码、文档，进行大脑分析。",
+            "models": "N/A",
+            "pricing": "高昂的时间成本"
+          },
+          {
+            "name": "通用AI编程助手（无知识图谱能力）",
+            "method": "基于大模型上下文或简单RAG进行代码问答。",
+            "models": "Claude, GPT系列等",
+            "pricing": "依赖LLM服务费用"
+          }
+        ],
+        "pricing": "核心工具免费（MIT许可），但需配合付费LLM服务（如Claude Code, Codex）使用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目设计理念独特，结合AST解析和多模态LLM的优势，能够从异构数据中构建知识图谱。输出结果结构化且具有可解释性（区分提取与推断），解决了传统RAG的痛点，创新性强。但PyPI包名问题和相对较少的Issue互动略微扣分。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量适中，开放Issue略多于关闭Issue（9/6），社区活跃度一般。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-07T04:19:41.282Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "nuwa-skill",
+      "fullName": "alchaincyf/nuwa-skill",
+      "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-05T04:33:04Z",
+      "url": "https://github.com/alchaincyf/nuwa-skill",
+      "analysis": {
+        "positioning": "蒸馏名人思维模式，将其认知框架化作你的专属AI助理。",
+        "useCases": [
+          "你做复杂决策 → 它帮你用乔布斯、芒格等名人的心智模型分析并给出建议",
+          "你陷入精力不足、方向不明的困境 → 它帮你用Naval、马斯克等人的视角识别核心问题和解决方案",
+          "你需要特定领域的专业洞察 → 它帮你以专家视角（如张雪峰）评估风险和机会"
+        ],
+        "audience": "希望借助顶尖人物的思维模式来辅助决策、解决问题、学习新知的产品经理、创业者和思考者。",
+        "quickStart": {
+          "prerequisites": "需要在 Claude Code 环境中运行",
+          "steps": [
+            "运行 `npx skills add alchaincyf/nuwa-skill` 安装女娲Skill",
+            "在Claude Code中输入 `蒸馏一个保罗·格雷厄姆` 创建名人Skill",
+            "直接调用，如 `用芒格的视角帮我分析这个投资决策`"
+          ],
+          "note": "目前依赖于Claude Code平台及其生态"
+        },
+        "competitors": [
+          {
+            "name": "通用大语言模型（如ChatGPT, Claude, Perplexity）",
+            "method": "通过Prompt指令扮演角色或进行分析",
+            "models": "各自支持的模型",
+            "pricing": "部分免费/订阅制"
+          }
+        ],
+        "pricing": "免费。项目本身开源并基于MIT许可，运行环境可能产生费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目描述和README的文案极具吸引力，采用场景化、结果导向的表达，如“你想蒸馏的下一个员工，何必是同事”，直击用户痛点。效果示例生动展示了名人心智模型如何解决实际问题，增强了说服力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动度较低（0开/1关），可能表明项目稳定或社区互动主要体现在使用而非问题反馈。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-07T04:19:57.216Z"
+    },
+    {
+      "owner": "maaslalani",
+      "repo": "sheets",
+      "fullName": "maaslalani/sheets",
+      "description": "Terminal based spreadsheet tool",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-01T08:20:07Z",
+      "url": "https://github.com/maaslalani/sheets",
+      "analysis": {
+        "positioning": "终端里的电子表格工具，极速处理CSV数据。",
+        "useCases": [
+          "你需要在终端快速查看和分析CSV数据 → 它帮你直接在命令行以表格形式展示、搜索、过滤。",
+          "你想要在不离开终端的情况下修改电子表格内容 → 它帮你用Vim式按键便捷编辑单元格、行、列。",
+          "你希望通过脚本自动化处理CSV文件中的特定数据 → 它帮你通过命令行参数直接读取或修改指定单元格/区域。"
+        ],
+        "audience": "习惯命令行操作、需要高效处理CSV或类似表格数据的开发者、运维人员和数据分析师。",
+        "quickStart": {
+          "prerequisites": "Go 语言环境",
+          "steps": [
+            "安装 `sheets`: `go install github.com/maaslalani/sheets@main`",
+            "启动：`sheets your_file.csv`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "sc-im (Spreadsheet Calculator Improvised)",
+            "method": "终端TUI",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "visidata",
+            "method": "终端TUI",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Microsoft Excel / Google Sheets",
+            "method": "GUI",
+            "models": null,
+            "pricing": "付费/部分免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "深度整合Vim操作逻辑，提供完整的键盘导航、编辑、选择、搜索、公式和命令模式，让终端重度用户沉浸式高效处理表格数据，极大提升“代码手感”。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启数 (17) 略多于关闭数 (7)，表明社区活跃但仍有待解决的问题，项目仍在发展中。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-07T04:20:08.372Z"
+    },
+    {
+      "owner": "dominikmartn",
+      "repo": "nothing-design-skill",
+      "fullName": "dominikmartn/nothing-design-skill",
+      "description": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-01T05:18:24Z",
+      "url": "https://github.com/dominikmartn/nothing-design-skill",
+      "analysis": {
+        "positioning": "Claude Code技能，用于生成Nothing风格的极简工业风UI。",
+        "useCases": [
+          "你反复向Claude描述Nothing设计规则 → 它将这些规则打包成可复用的技能，一键调用。",
+          "你想要快速生成HTML/CSS、SwiftUI或React/Tailwind的Nothing风格UI → 它帮你按特定设计原则（三层层次、指定字体、暗黑模式等）自动生成。",
+          "你追求一致的Nothing品牌视觉 → 它提供一套结构化的设计系统（代币、组件、平台映射）确保生成UI的风格统一。"
+        ],
+        "audience": "使用Claude Code的开发者/设计师，追求Nothing品牌极简、工业风UI，希望快速生成符合该风格的代码。",
+        "quickStart": {
+          "prerequisites": "确保已安装Claude Code。",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/dominikmartn/nothing-design-skill.git`",
+            "将`nothing-design`文件夹复制到Claude Code的技能目录：`cp -r nothing-design-skill/nothing-design ~/.claude/skills/`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度聚焦于Nothing品牌的独特视觉语言，强调单色、排版、工业风、OLED黑、点阵等具体美学特征，具有强烈的设计风格偏好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，有2个未解决的Issue，暂无关闭记录，响应速度未知。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-07T04:20:19.356Z"
+    },
+    {
+      "owner": "sooryathejas",
+      "repo": "METATRON",
+      "fullName": "sooryathejas/METATRON",
+      "description": "AI-powered penetration testing assistant using local LLM on linux (Parrot OS)",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-02T06:06:43Z",
+      "url": "https://github.com/sooryathejas/METATRON",
+      "analysis": {
+        "positioning": "基于本地LLM的渗透测试助手，支持离线分析、漏洞识别与报告。",
+        "useCases": [
+          "你需要进行网络侦察和漏洞分析 → 它帮你自动执行多工具侦察并用本地AI智能分析结果。",
+          "你希望离线进行安全评估，避免数据上云 → 它帮你实现完全本地化的AI驱动渗透测试，无API密钥依赖。",
+          "你想要整理渗透测试结果并生成专业报告 → 它帮你将扫描发现导出为可分享的PDF或HTML报告。"
+        ],
+        "audience": "渗透测试工程师、安全研究员及对红队操作感兴趣的技术人员，在Parrot OS上进行离线安全评估。",
+        "quickStart": {
+          "prerequisites": "Python 3.x, Ollama运行环境, MariaDB数据库",
+          "steps": [
+            "克隆项目仓库并安装Python依赖：`pip install -r requirements.txt`。",
+            "通过Ollama下载并运行`metatron-qwen`模型，并配置MariaDB数据库。"
+          ],
+          "note": "项目明确设计用于Parrot OS，确保Ollama和MariaDB服务已正确启动。"
+        },
+        "competitors": [],
+        "pricing": "免费，项目完全开源且本地运行，无任何API Key或订阅费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档清晰，功能实用且完整（集成多种侦察工具、本地AI分析、数据库存储、报告导出），核心技术栈明确，专注于离线使用场景，维护状况良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比1:1，活跃度适中，说明项目正在被关注并得到维护。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-07T04:20:35.753Z"
+    },
+    {
+      "owner": "wquguru",
+      "repo": "harness-books",
+      "fullName": "wquguru/harness-books",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-01T04:30:32Z",
+      "url": "https://github.com/wquguru/harness-books",
+      "analysis": {
+        "positioning": "AI代码生成模型“驾驭”指南，确保其可控负责。",
+        "useCases": [
+          "你将AI代码模型融入开发 → 它帮你设计系统，让模型行为可控、持续、负责。",
+          "你困惑如何管理AI Agent的工程后果 → 它提供约束结构、执行组织、后果处理的设计哲学。",
+          "你评估不同的AI Agent系统 → 它引导你关注系统“秩序”而非功能清单。"
+        ],
+        "audience": "希望在工程实践中有效管理和整合AI代码生成模型的开发者、架构师和工程领导者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "在线阅读《Harness Books》",
+            "下载PDF版本阅读"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "通过模块化框架构建和管理AI Agent及应用",
+            "models": "支持主流LLM（如OpenAI, Claude等）",
+            "pricing": "免费（开源框架，模型调用需付费）"
+          },
+          {
+            "name": "AutoGen",
+            "method": "通过多Agent对话系统协作完成复杂AI任务",
+            "models": "支持主流LLM（如OpenAI, Claude等）",
+            "pricing": "免费（开源框架，模型调用需付费）"
+          }
+        ],
+        "pricing": "免费（书籍内容）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "本项目提供的是关于AI Agent工程设计的理论书籍和指导原则，而非直接用于编写代码的工具或框架。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区无任何开启或关闭的记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-07T04:20:53.343Z"
+    },
+    {
+      "owner": "leilei926524-tech",
+      "repo": "anti-distill",
+      "fullName": "leilei926524-tech/anti-distill",
+      "description": "反蒸馏 Skill：清洗你被迫写的 Skill 文件，看起来完整，核心知识留给自己。Anti-distillation for employee Skills.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-02T10:51:10Z",
+      "url": "https://github.com/leilei926524-tech/anti-distill",
+      "analysis": {
+        "positioning": "助你提交“虚假繁荣”的AI Skill，核心经验私藏。",
+        "useCases": [
+          "公司要求你编写AI Skill文件 → 它帮你生成一份看似专业完整，实则核心知识被“蒸馏”掉的提交版本。",
+          "需要提交工作经验文档但不想完全暴露核心竞争力 → 它帮你自动识别并替换敏感信息，同时为你保留一份真实备份。",
+          "希望在职场“反内卷”和保护个人职业资产 → 它确保你的核心经验不被公司无偿“数字化”和“可替代化”。"
+        ],
+        "audience": "厌倦被公司“蒸馏”核心经验，但又需提交符合要求的专业文档的职场打工人。",
+        "quickStart": {
+          "prerequisites": "`git`和支持`claude-skill`或`openclaw`的AI助手环境。",
+          "steps": [
+            "`git clone <repo-url> .claude/skills/anti-distill` (或指定其他安装路径)",
+            "`/anti-distill` 并按提示操作"
+          ],
+          "note": "安装方式因AI助手平台而异（Claude Code或OpenClaw）。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "精准捕捉打工人“被迫营业”的痛点，以幽默又实用的方式反击职场“蒸馏”，内容和示例极具共鸣感，是“反内卷”的绝佳工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，有新问题反馈但暂未解决（开启4/关闭0）。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-04-07T04:21:06.998Z"
+    },
+    {
+      "owner": "afar1",
+      "repo": "fieldtheory-cli",
+      "fullName": "afar1/fieldtheory-cli",
+      "description": "Sync and locally store all of your X/Twitter bookmarks. Free and open source CLI for Mac.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-03T16:36:36Z",
+      "url": "https://github.com/afar1/fieldtheory-cli",
+      "analysis": {
+        "positioning": "本地化管理X/Twitter书签，支持智能搜索与AI Agent分析。",
+        "useCases": [
+          "你收藏了大量X/Twitter推文 → 它帮你本地化存储、搜索、分类和管理这些书签。",
+          "你想深入分析X/Twitter书签中的内容 → 它让你能用关键词搜索，并能让AI Agent进行高级分析。",
+          "你希望定期备份和整理X/Twitter书签 → 它能定时自动同步、分类，甚至下载媒体内容。"
+        ],
+        "audience": "Mac用户，尤其是希望本地化管理X/Twitter书签，并利用AI Agent进行内容分析和自动化的开发者或研究者。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+，Google Chrome (需登录X/Twitter)",
+          "steps": [
+            "安装：`npm install -g fieldtheory`",
+            "首次同步：`ft sync`"
+          ],
+          "note": "专为Mac设计，首次同步需Chrome登录X/Twitter以提取会话信息。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "精准解决X/Twitter书签的管理和检索痛点，通过结合AI Agent实现智能化内容分析，对特定用户群价值高。文档清晰，功能丰富，但目前限定Mac平台和Node.js环境。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开启数远多于关闭数（25/2），项目活跃度较高，但问题解决速度可能偏慢。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-07T04:21:19.035Z"
+    },
+    {
+      "owner": "luyao618",
+      "repo": "Claude-Code-Source-Study",
+      "fullName": "luyao618/Claude-Code-Source-Study",
+      "description": "深入Claude Code源码，学习目前最好的agent实现",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-02T07:12:06Z",
+      "url": "https://github.com/luyao618/Claude-Code-Source-Study",
+      "analysis": {
+        "positioning": "深入剖析Claude Code源码，学习构建AI Agent全栈技术。",
+        "useCases": [
+          "你想构建生产级AI Agent应用 → 学习Anthropic Claude Code源码中的全栈技术和最佳实践。",
+          "你对AI Agent的System Prompt、多Agent编排、工具系统等实现细节感到困惑 → 通过逐文件、逐函数的深度分析，掌握核心设计模式。",
+          "你希望从真实产品而非Demo中学习AI工程化 → 本项目提供25篇覆盖完整核心模块的源码解读。"
+        ],
+        "audience": "希望系统学习并深入理解AI Agent产品级实现细节，尤其关注前端CLI、AI核心与工程化实践的开发者。",
+        "quickStart": {
+          "prerequisites": "对TypeScript和AI Agent概念有基本了解",
+          "steps": [
+            "阅读GitHub README中的[00-目录与阅读指引](./docs/00-目录与阅读指引.md)以了解项目结构。",
+            "根据自身需求，选择入门、AI工程或完整阅读路线，开始逐篇研读源码分析文章。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain/LlamaIndex等AI Agent框架",
+            "method": "提供高层抽象接口和工具集，用于快速开发AI应用。",
+            "models": "通常独立于特定LLM模型",
+            "pricing": "免费（开源框架）"
+          }
+        ],
+        "pricing": "免费，作为开源学习资源提供。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个深度源码分析项目，专注于系统性学习生产级AI Agent的底层实现细节，而非提供快速实现Vibe效果的工具或框架。它需要投入大量时间和精力逐篇研读，不属于Vibe Coding范畴。",
+        "isVibeCoding": false,
+        "communityActivity": "目前Issue区无活动（0开/0关），无法评估响应速度，可能因项目性质（源码解读）导致交流主要通过Star和内容本身。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-07T04:21:34.459Z"
+    },
+    {
+      "owner": "soongenwong",
+      "repo": "claudecode",
+      "fullName": "soongenwong/claudecode",
+      "description": "Open Source ClaudeCode Leaked. Same functionalities as Claude Code by Anthropic. Written in Rust, Ready to use immediately for free. ",
+      "language": "Rust",
+      "topics": [
+        "agentic-ai",
+        "anthropic",
+        "claude-code",
+        "coding",
+        "free",
+        "functionality",
+        "max-subscription",
+        "open-source"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-01T21:13:39Z",
+      "url": "https://github.com/soongenwong/claudecode",
+      "analysis": {
+        "positioning": "Rust开源AI编码助手，对标Anthropic Claude Code",
+        "useCases": [
+          "你想让AI在终端帮你写代码 → 它提供交互式shell和上下文感知工具，辅助编程",
+          "你需要快速理解或总结代码库 → 它能感知工作区，通过prompt帮你分析代码",
+          "你希望AI协作中断后能恢复 → 它支持会话持久化，随时恢复上次对话状态"
+        ],
+        "audience": "追求效率、习惯命令行、注重代码安全性的开发者，以及想免费体验类似Claude Code功能的。",
+        "quickStart": {
+          "prerequisites": "已安装Rust stable和Cargo，并配置Anthropic/OpenAI/Grok任一API Key",
+          "steps": [
+            "克隆仓库后进入`rust`目录：`cd rust`",
+            "安装到本地PATH：`cargo install --path crates/claw-cli --locked`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Anthropic Claude (Code功能)",
+            "method": "API接入 / Web UI",
+            "models": "Claude系列模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "GitHub Copilot",
+            "method": "编辑器插件",
+            "models": "OpenAI Codex / GPT系列",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（项目本身免费，但需自备第三方LLM的API Key）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Rust高性能CLI、开源免费、支持多种LLM（Anthropic/OpenAI/Grok）、工作区感知、会话持久化，直接在终端赋能开发者，上手门槛略高但潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "社区有一定活跃度，目前新开Issue数量多于已关闭的，可能处于早期开发阶段，亟待更多贡献者加入。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-07T04:21:58.651Z"
+    },
+    {
+      "owner": "fikrikarim",
+      "repo": "parlor",
+      "fullName": "fikrikarim/parlor",
+      "description": "On-device, real-time multimodal AI. Have natural voice and vision conversations with an AI that runs entirely on your machine. Powered by Gemma 4 E2B and Kokoro.",
+      "language": "HTML",
+      "topics": [
+        "apple-silicon",
+        "gemma",
+        "kokoro",
+        "litert-lm",
+        "local-llm",
+        "mlx",
+        "multimodal",
+        "on-device-ai",
+        "python",
+        "real-time",
+        "speech-recognition",
+        "text-to-speech",
+        "voice-assistant"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-05T17:33:55Z",
+      "url": "https://github.com/fikrikarim/parlor",
+      "analysis": {
+        "positioning": "在设备上运行的实时多模态AI对话助手",
+        "useCases": [
+          "你想进行口语练习 → 它提供本地化、多模态的AI对话伙伴",
+          "你想了解身边事物 → 它通过视觉识别并用AI语音与你讨论",
+          "你想随时随地与AI交流 → 它在本地设备上提供免费、实时的语音视觉交互"
+        ],
+        "audience": "对隐私、免费、本地化AI交互有需求，尤其是语言学习者和开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+, macOS (Apple Silicon) 或 Linux (支持GPU), 约3GB空闲RAM",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/fikrikarim/parlor.git && cd parlor`",
+            "安装依赖并运行：`cd src && uv sync && uv run server.py` (uv需提前安装)"
+          ],
+          "note": "初次运行会自动下载模型 (~2.6GB)。"
+        },
+        "competitors": [
+          {
+            "name": "云端多模态AI服务（如OpenAI ChatGPT）",
+            "method": "订阅或API调用",
+            "models": "专有模型",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费。所有AI模型均在本地运行，无服务器成本。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "清晰的README、详细的原理说明和简明的快速启动指南。代码结构和文档完善度较高，但项目仍处于“研究预览”阶段，存在潜在的不稳定性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度适中，Issue解决效率较高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-07T04:22:10.890Z"
     }
   ]
 }

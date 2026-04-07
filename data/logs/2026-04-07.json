@@ -1,0 +1,116 @@
+{
+  "version": "1",
+  "date": "2026-04-07",
+  "startedAt": "2026-04-07T04:17:08.557Z",
+  "finishedAt": "2026-04-07T04:23:23.039Z",
+  "durationSeconds": 374,
+  "success": true,
+  "stats": {
+    "fetched": 113,
+    "newProjects": 21,
+    "skipped": 92,
+    "geminiCalls": 32,
+    "statsUpdated": 113
+  },
+  "errors": [
+    {
+      "time": "2026-04-07T04:21:37.607Z",
+      "level": "warn",
+      "project": "notdog1998/yourself-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:21:40.582Z",
+      "level": "warn",
+      "project": "ZhangHanDong/harness-engineering-from-cc-to-ai-coding",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:21:43.738Z",
+      "level": "warn",
+      "project": "Pika-Labs/Pika-Skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:21:46.829Z",
+      "level": "warn",
+      "project": "repowise-dev/claude-code-prompts",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:22:13.891Z",
+      "level": "warn",
+      "project": "milla-jovovich/mempalace",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:22:16.991Z",
+      "level": "warn",
+      "project": "0Chencc/clawgod",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:22:20.026Z",
+      "level": "warn",
+      "project": "PrathamLearnsToCode/paper2code",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:22:23.072Z",
+      "level": "warn",
+      "project": "LarsenCundric/port-whisperer",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:22:26.122Z",
+      "level": "warn",
+      "project": "hilash/cabinet",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:22:29.078Z",
+      "level": "warn",
+      "project": "snarktank/clawchief",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-07T04:22:32.171Z",
+      "level": "warn",
+      "project": "wesbos/JSON-Alexander",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
