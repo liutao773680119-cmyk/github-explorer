@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-04-08",
+  "startedAt": "2026-04-08T04:19:58.377Z",
+  "finishedAt": "2026-04-08T04:25:57.079Z",
+  "durationSeconds": 359,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 21,
+    "skipped": 84,
+    "geminiCalls": 23,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-04-08T04:25:13.497Z",
+      "level": "warn",
+      "project": "rasbt/mini-coding-agent",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-08T04:25:54.458Z",
+      "level": "warn",
+      "project": "obra/superpowers",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
