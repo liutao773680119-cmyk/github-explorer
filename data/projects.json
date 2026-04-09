@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-08T04:25:10.225Z",
+  "updatedAt": "2026-04-09T04:19:48.768Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -13064,6 +13064,460 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-08T04:25:10.221Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "zhangxuefeng-skill",
+      "fullName": "alchaincyf/zhangxuefeng-skill",
+      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-05T11:37:18Z",
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "analysis": {
+        "positioning": "AI Agent，模拟张雪峰思维，提供高考、考研、职业规划的实战决策指导。",
+        "useCases": [
+          "你家有高考生 → 它帮你分析高考志愿填报风险，给出专业选择建议。",
+          "你纠结考研还是工作 → 它帮你评估个人情况，权衡考研投入与回报。",
+          "你想了解AI时代职业方向 → 它帮你辨识不可替代性，更新职业规划视角。"
+        ],
+        "audience": "面临高考、考研、职业转型等重大决策的学生、家长及职场人士。",
+        "quickStart": {
+          "prerequisites": "需要AI Agent平台（如Claude或女娲.skill）的运行环境。",
+          "steps": [
+            "将'张雪峰.skill'导入到你选择的AI Agent平台。",
+            "通过对话方式，向AI提问高考、考研或职业规划相关问题。"
+          ],
+          "note": "具体安装步骤请参考项目README中对应平台指引。"
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT（通用版）",
+            "method": "聊天对话",
+            "models": "GPT系列",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "Claude（通用版）",
+            "method": "聊天对话",
+            "models": "Claude系列",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "项目开源免费（MIT许可证），但运行可能依赖付费AI服务（如Claude API）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，内容深度调研且案例真实、犀利。语言风格高度还原，能够提供直接且有洞察的决策建议，非常实用。",
+        "isVibeCoding": true,
+        "communityActivity": "当前Issue 开启8 / 已关闭0，说明项目有初步关注度，但问题解决或响应尚待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-09T04:16:36.701Z"
+    },
+    {
+      "owner": "mattmireles",
+      "repo": "gemma-tuner-multimodal",
+      "fullName": "mattmireles/gemma-tuner-multimodal",
+      "description": "Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon, using PyTorch and Metal Performance Shaders.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-07T05:14:58Z",
+      "url": "https://github.com/mattmireles/gemma-tuner-multimodal",
+      "analysis": {
+        "positioning": "Apple Silicon上多模态Gemma模型高效微调利器。",
+        "useCases": [
+          "你需要在Mac上微调Gemma模型 → 它让你无需昂贵GPU，直接在Apple Silicon上完成多模态（图文音）微调。",
+          "你的训练数据过大无法本地存储 → 它让你能从GCS/BigQuery流式加载数据，无惧本地存储限制。",
+          "你想实时了解模型训练进度 → 它提供浏览器内实时损失曲线、注意力图等可视化，无需额外工具。"
+        ],
+        "audience": "拥有Apple Silicon芯片Mac的开发者和AI研究者，希望以低成本、本地化方式微调Gemma多模态模型。",
+        "quickStart": {
+          "prerequisites": "拥有Apple Silicon芯片的Mac电脑，已安装Python环境。",
+          "steps": [
+            "安装项目依赖（如pip install -r requirements.txt）。",
+            "运行内置命令行向导或脚本，按指引配置模型、数据集和训练参数。"
+          ],
+          "note": "专为Apple Silicon平台优化，利用Metal Performance Shaders (MPS) 加速。"
+        },
+        "competitors": [
+          {
+            "name": "MLX-LM",
+            "method": "Python微调框架",
+            "models": "支持Gemma（主要文本），图文模态支持有限",
+            "pricing": "免费"
+          },
+          {
+            "name": "Unsloth",
+            "method": "Python微调库",
+            "models": "支持Gemma（主要文本），图文模态支持有限",
+            "pricing": "免费"
+          },
+          {
+            "name": "axolotl",
+            "method": "Python微调框架",
+            "models": "支持Gemma（主要文本），音频模态需CUDA",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "精准解决了Mac用户在Apple Silicon上微调Gemma多模态模型的核心痛点，无需独立GPU，支持云端数据流式训练和实时可视化，功能强大且易用性高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启13个，关闭0个，社区活跃度刚起步，问题解决速度有待观察。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-09T04:16:53.562Z"
+    },
+    {
+      "owner": "Houseofmvps",
+      "repo": "codesight",
+      "fullName": "Houseofmvps/codesight",
+      "description": "Universal AI context generator. Saves thousands of tokens per conversation in Claude Code, Cursor, Copilot, Codex, and more.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "claude",
+        "cli",
+        "code-analysis",
+        "codebase",
+        "codex",
+        "context-engineering",
+        "copilot",
+        "cursor",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "repo-map",
+        "token-savings"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-04T18:10:16Z",
+      "url": "https://github.com/Houseofmvps/codesight",
+      "analysis": {
+        "positioning": "AI编程助手项目上下文生成器，巨省Token。",
+        "useCases": [
+          "你和AI助手聊天，AI总要理解项目结构 → 它帮你一键生成项目上下文，AI直达核心，巨省Token。",
+          "你想为AI助手生成专业项目知识库或优化配置 → 它帮你生成详细的wiki、.cursorrules、CLAUDE.md等，让AI更懂你的代码。",
+          "你想快速分析代码文件修改的影响范围 → 它帮你精准识别文件“blast radius”。"
+        ],
+        "audience": "使用Claude Code、Cursor、Copilot等AI编程助手的开发者，希望节省Token、提升AI理解项目效率。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 18",
+          "steps": [
+            "确保Node.js版本在18及以上。",
+            "在项目根目录运行 `npx codesight`。"
+          ],
+          "note": "无需配置、安装、API Key，本地一键运行。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "精准解决AI编程助手理解项目上下文的痛点，显著节省Token。技术实现强大（零依赖、AST精度、多语言支持），安装使用极其简便，是AI时代开发者必备利器。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决效率高，维护者积极响应，社区活跃度良好。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-09T04:17:19.500Z"
+    },
+    {
+      "owner": "phuryn",
+      "repo": "claude-usage",
+      "fullName": "phuryn/claude-usage",
+      "description": "A local dashboard for tracking your Claude Code token usage, costs, and session history. Pro and Max subscribers get a progress bar. This gives you the full picture.",
+      "language": "Python",
+      "topics": [
+        "claude-code"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-07T18:49:32Z",
+      "url": "https://github.com/phuryn/claude-usage",
+      "analysis": {
+        "positioning": "本地Claude Code使用情况仪表盘，提供代币、成本与会话历史可视化。",
+        "useCases": [
+          "你是Claude Code用户，想知道自己用了多少token → 它帮你可视化Claude Code CLI、VS Code扩展及分派会话的token消耗和预估成本。",
+          "你订阅了Claude Pro/Max，想看更精细的进度条 → 它基于本地日志为你提供官方UI不具备的详细使用视图和进度条。",
+          "你想追踪历史会话和项目的使用情况 → 它帮你扫描本地日志文件，生成图表和统计数据，提供全面洞察。"
+        ],
+        "audience": "任何使用Claude Code CLI、VS Code扩展或API，并希望透明化追踪其AI代币使用情况和成本的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+",
+          "steps": [
+            "克隆仓库：`git clone https://github.com/phuryn/claude-usage`",
+            "进入目录：`cd claude-usage`",
+            "运行仪表盘：`python cli.py dashboard`"
+          ],
+          "note": "macOS/Linux系统请使用 `python3` 替代 `python`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个实用性极强的工具，解决了Claude Code用户无法直观追踪代币使用和成本的痛点，提供了官方UI缺失的透明度。它功能专一且实现简洁，对目标用户价值显著。",
+        "isVibeCoding": false,
+        "communityActivity": "活跃度较高（624 Star），有部分Issues待处理（10开/3关），表明项目受关注且持续维护中。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-09T04:17:33.079Z"
+    },
+    {
+      "owner": "xixu-me",
+      "repo": "awesome-persona-distill-skills",
+      "fullName": "xixu-me/awesome-persona-distill-skills",
+      "description": "同事.skill、前任.skill、女娲.skill、自己.skill、乔布斯.skill……",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "awesome",
+        "awesome-list",
+        "persona-distill"
+      ],
+      "license": "CC0-1.0",
+      "createdAt": "2026-04-06T20:02:21Z",
+      "url": "https://github.com/xixu-me/awesome-persona-distill-skills",
+      "analysis": {
+        "positioning": "精选各类AI人格代理（Agent Persona）提炼与构建技能列表。",
+        "useCases": [
+          "你希望整理个人对话，构建数字自我 → 它帮你找到“自我蒸馏”工具来创建数字分身。",
+          "你需要在团队协作中理解同事 → 它帮你发现“职场关系”技能，提炼同事的工作习惯与沟通风格。",
+          "你想要回顾并梳理一段关系 → 它帮你找到“亲密关系”技能，从聊天记录中整理前任或暗恋对象的对话模式与记忆。"
+        ],
+        "audience": "适用于对AI Agent、数字人格构建、记忆整理或特定人物风格提取感兴趣的开发者、研究者及好奇心旺盛的个人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub项目页面",
+            "浏览不同分类下的Agent Skill项目链接"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名称和收录的Skill名称（如“同事.skill”、“前任.skill”、“女娲.skill”、“骂人求职.skill”）极具创意和人格化，直击生活场景和情感痛点，充满了探索AI与人类关系的玩味精神。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比尚可（2已关1开启），但项目整体活跃度一般，社区互动不多。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-09T04:17:46.042Z"
+    },
+    {
+      "owner": "adamlyttleapps",
+      "repo": "claude-skill-app-onboarding-questionnaire",
+      "fullName": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "description": " A Claude Code skill that designs and builds high-converting questionnaire-style app onboarding flows — modelled    on proven conversion patterns from top subscription apps like Mob, Headspace and Noom",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-06T11:00:14Z",
+      "url": "https://github.com/adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "analysis": {
+        "positioning": "基于Claude Code的智能应用引导流构建器，帮你提升用户转化。",
+        "useCases": [
+          "你没有市场经验 → 它帮你利用心理学原理设计和搭建高转化率的App引导流程",
+          "你想让用户在引导时就体验核心功能 → 它帮你构建应用内功能演示和可分享的互动环节",
+          "你手动编写App引导代码效率低 → 它直接为你生成原生框架（如SwiftUI, React Native）的代码"
+        ],
+        "audience": "适合App开发者、产品经理，尤其缺乏营销经验，想快速构建高转化率用户引导流程的人。",
+        "quickStart": {
+          "prerequisites": "需访问Claude Code平台并拥有一个App项目",
+          "steps": [
+            "在你的App项目中运行 `/app-onboarding-questionnaire` 命令",
+            "回答关于你App的问题，由AI自动完成分析、设计、文案撰写和代码构建"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统App引导问卷生成器",
+            "method": "仅限于生成问卷/表单，不涉及代码构建和功能演示",
+            "models": "N/A",
+            "pricing": "大多免费或基础功能免费"
+          }
+        ],
+        "pricing": "免费 (项目本身开源免费，但作为Claude Code技能运行可能涉及Claude平台费用)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目思路创新，功能独特（如应用内演示和病毒式分享），README详细且明星数高。依赖特定AI平台且社区活跃度尚待观察，但潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启2个，关闭0个，社区互动刚起步，响应速度有待观察。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-09T04:18:02.028Z"
+    },
+    {
+      "owner": "Whit1985",
+      "repo": "Binance-Futures-Signal-Bot",
+      "fullName": "Whit1985/Binance-Futures-Signal-Bot",
+      "description": "Professional automated trading bot for Binance and Bybit Futures markets with multi-strategy engine and real-time P&L dashboard.",
+      "language": "Python",
+      "topics": [
+        "binance-api",
+        "binance-signal-bot",
+        "bot-trading",
+        "botbinance",
+        "bybit-trading",
+        "crypto-signal-bot",
+        "futures-bot",
+        "futures-crypto",
+        "futures-trading",
+        "leverage-bot",
+        "okx-trading",
+        "signal-provider",
+        "trading-automated",
+        "trading-cryptobot",
+        "webhook-tradingview"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-05T21:56:52Z",
+      "url": "https://github.com/Whit1985/Binance-Futures-Signal-Bot",
+      "analysis": {
+        "positioning": "针对Binance、Bybit等永续合约的多策略自动化交易机器人。",
+        "useCases": [
+          "你希望自动化执行交易信号 → 它能整合Telegram/TradingView等信号源，自动在交易所执行永续合约交易。",
+          "你拥有多种交易策略并需精细管理 → 它提供多策略引擎（如EMA/RSI/布林带/MACD），支持动态仓位、杠杆和追踪止损。",
+          "你需要实时掌握自动化交易表现 → 它提供实时盈亏仪表盘和仓位管理功能，助你随时监控和调整。"
+        ],
+        "audience": "寻求在Binance、Bybit、OKX等平台进行加密货币永续合约自动化交易的专业交易员或量化爱好者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+、pip、交易所API密钥（具备合约交易权限）、信号源（Telegram Bot Token、TradingView Webhook URL或自定义API）。",
+          "steps": [
+            "安装Python 3.10+及最新版pip。",
+            "获取项目代码并安装必要的依赖。",
+            "配置交易所API密钥和信号源信息。"
+          ],
+          "note": "支持Windows、Linux和macOS多平台。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和README详尽，功能丰富，支持多交易所及主流策略。但Issue活跃度为零（开启0/关闭0），社区互动及长期维护情况待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示开启和关闭均为0，表明GitHub上的社区互动和支持活跃度不高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-09T04:18:19.247Z"
+    },
+    {
+      "owner": "kellyvv",
+      "repo": "PhoneClaw",
+      "fullName": "kellyvv/PhoneClaw",
+      "description": "PhoneClaw: On-device AI Agent for Phone powered by Gemma 4",
+      "language": "Swift",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-04T18:53:07Z",
+      "url": "https://github.com/kellyvv/PhoneClaw",
+      "analysis": {
+        "positioning": "你的iPhone本地AI助手，隐私无忧，离线执行任务。",
+        "useCases": [
+          "你拍了张照片 → 它帮你离线解读内容，不上传隐私。",
+          "你想管理日程 → 它帮你用自然语言创建日历事件或提醒。",
+          "你需要手机操作 → 它帮你读写剪贴板、通讯录或查询设备信息。"
+        ],
+        "audience": "关注隐私、希望在iPhone上离线运行AI助手，并通过自然语言操控手机功能的普通用户和开发者。",
+        "quickStart": {
+          "prerequisites": "iOS 17+ 设备，以及 IPA 自签名工具。",
+          "steps": [
+            "从 GitHub Releases 下载最新 IPA 文件。",
+            "使用自签名工具将其安装到 iPhone。",
+            "启动 App，进入模型设置下载Gemma模型。"
+          ],
+          "note": "高级模型（E4B）建议 iPhone 15 Pro 及以上设备。"
+        },
+        "competitors": [
+          {
+            "name": "Siri",
+            "method": "语音交互，系统集成。",
+            "models": "Apple 私有（云端）。",
+            "pricing": "免费（设备自带）。"
+          },
+          {
+            "name": "ChatGPT App",
+            "method": "聊天界面。",
+            "models": "GPT 系列（云端）。",
+            "pricing": "免费（基础版），付费（Plus）。"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目更新极度活跃，精准抓住本地AI Agent和隐私保护痛点，技术实现复杂且演示效果好，文档清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "开发者活跃度极高，近期更新频繁，Issue 互动正在进行中。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-09T04:18:39.995Z"
+    },
+    {
+      "owner": "tmstack",
+      "repo": "awesome-persona-skills",
+      "fullName": "tmstack/awesome-persona-skills",
+      "description": "同事.skill、老板.skill、前任.skill、自己.skill、永生.skill、女娲.skill……  ",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-06T01:49:23Z",
+      "url": "https://github.com/tmstack/awesome-persona-skills",
+      "analysis": {
+        "positioning": "用AI“蒸馏”万物，创建专属你的角色技能集合。",
+        "useCases": [
+          "你希望保留亲友、导师的智慧和经验 → 它帮你将他们的知识和对话模式“蒸馏”成随时可交互的AI Skill。",
+          "你追忆逝去的感情或关系，或希望模拟特定角色 → 它帮你通过数据重现“前任”、“初恋”等角色，重温记忆瞬间。",
+          "你渴望学习顶尖人物的思维模式 → 它帮你构建巴菲特、乔布斯等名人的AI Skill，随时进行模拟请教和学习。",
+          "你公司要求开发AI Skill但不想泄露核心知识 → 它帮你生成一个“反蒸馏”Skill，用于交差同时保留核心竞争力。"
+        ],
+        "audience": "适合对AI角色扮演、个人知识管理、情感寄托或网络热点创新感兴趣的开发者和普通用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "浏览GitHub仓库的README，根据感兴趣的角色和场景，点击对应的子项目链接。",
+            "进入子项目仓库，参考其Readme文件，了解具体实现方式和部署教程。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。具体子项目的实现可能需要调用第三方AI模型API（如OpenAI），会产生相关费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述将AI“蒸馏”概念与生活中各种角色（同事、老板、前任、自己）结合，语言幽默、富有情感且贴近网络文化，如“不蒸馒头争口气”、“万物皆可 skill”等，极具个性和传播力。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数454，但Issue活跃度较低，开启3个但无关闭，表明项目概念关注度高但贡献和讨论互动有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-09T04:18:56.995Z"
+    },
+    {
+      "owner": "obra",
+      "repo": "superpowers",
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2025-10-09T19:45:18Z",
+      "url": "https://github.com/obra/superpowers",
+      "analysis": {
+        "positioning": "为AI编程代理提供可组合的技能框架与开发方法论。",
+        "useCases": [
+          "你启动AI代理 → 它不再盲目编码，而是先厘清你的真实意图，帮你明确需求。",
+          "你确认设计规范 → 它自动生成清晰的实施计划，强调TDD、YAGNI和DRY。",
+          "你下达“开始”指令 → 它启动子代理驱动开发，自动分解任务、执行并自我审查。"
+        ],
+        "audience": "适合希望利用AI编程代理，通过结构化方法和自动化流程提升软件开发效率的开发者和团队。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code、Cursor、Codex、OpenCode或GitHub Copilot CLI等任一AI编程代理。",
+          "steps": [
+            "（以Claude Code官方市场为例）在Claude插件市场安装Superpowers插件。",
+            "执行命令 `/plugin install superpowers@claude-plugins-official`。"
+          ],
+          "note": "不同AI编程代理平台安装方式不同，请参考对应平台的安装文档。"
+        },
+        "competitors": [],
+        "pricing": "免费开源，鼓励用户通过GitHub Sponsors赞助项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心在于通过预设技能和“子代理驱动开发”让AI编程代理能够自主理解需求、规划实现、执行任务并自我审查，大幅减少人工干预，实现高度自动化编程。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数多（246），但无关闭记录，表明项目维护者对社区反馈响应不及时，或Issue作为非正式讨论区。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-09T04:19:48.763Z"
     }
   ]
 }
