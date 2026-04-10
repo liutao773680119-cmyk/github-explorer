@@ -1,0 +1,71 @@
+{
+  "version": "1",
+  "date": "2026-04-10",
+  "startedAt": "2026-04-10T04:29:58.913Z",
+  "finishedAt": "2026-04-10T04:31:45.851Z",
+  "durationSeconds": 107,
+  "success": true,
+  "stats": {
+    "fetched": 102,
+    "newProjects": 1,
+    "skipped": 101,
+    "geminiCalls": 7,
+    "statsUpdated": 102
+  },
+  "errors": [
+    {
+      "time": "2026-04-10T04:30:10.872Z",
+      "level": "warn",
+      "project": "AMAP-ML/SkillClaw",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-10T04:30:46.684Z",
+      "level": "warn",
+      "project": "xtclovver/RKNHardering",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-10T04:30:49.684Z",
+      "level": "warn",
+      "project": "brooks376/Happy-Horse-1.0",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-10T04:30:53.121Z",
+      "level": "warn",
+      "project": "R6410418/Jackrong-llm-finetuning-guide",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-10T04:30:59.234Z",
+      "level": "warn",
+      "project": "sdyckjq-lab/llm-wiki-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-10T04:31:09.933Z",
+      "level": "warn",
+      "project": "coleam00/claude-memory-compiler",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

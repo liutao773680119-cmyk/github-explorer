@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-09T04:19:48.768Z",
+  "updatedAt": "2026-04-10T04:30:33.756Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -13518,6 +13518,59 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-09T04:19:48.763Z"
+    },
+    {
+      "owner": "Keychron",
+      "repo": "Keychron-Keyboards-Hardware-Design",
+      "fullName": "Keychron/Keychron-Keyboards-Hardware-Design",
+      "description": "All the industrial design files for Keychron keyboards and mice. Includes CAD models (case, plate, stabilizer, encoder, keycap) for Q, Q Pro, Q HE, K Pro, K Max, K HE, V Max, P HE series and M1–M7 mice. 100+ models. STEP/DXF/PDF formats. This project is source-available. Commercial use is strictly prohibited.",
+      "language": "Python",
+      "topics": [
+        "3d-printing",
+        "cad",
+        "gaming",
+        "gaming-keyboard",
+        "gaming-mouse",
+        "hardware-designs",
+        "keyboard",
+        "keyboard-firmware",
+        "keychron",
+        "mechanical-keyboard",
+        "mouse",
+        "qmk",
+        "qmk-firmware",
+        "zephyr",
+        "zmk",
+        "zmk-firmware"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-04T04:28:32Z",
+      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "analysis": {
+        "positioning": "Keychron键盘鼠标硬件设计文件库，支持个人学习与定制配件。",
+        "useCases": [
+          "你想了解键盘鼠标的工业设计 → 它帮你提供生产级的CAD模型，让你深入学习真实产品结构。",
+          "你想定制或修改Keychron键盘外壳/定位板 → 它帮你提供原始设计文件，让你轻松制作兼容配件。",
+          "你想3D打印个性化键盘或鼠标配件 → 它帮你提供STEP/DXF等格式文件，直接用于3D打印或CNC。"
+        ],
+        "audience": "键盘DIY爱好者、硬件设计师、创客和学生，用于学习、定制和制作Keychron兼容配件。",
+        "quickStart": {
+          "prerequisites": "CAD软件（如SolidWorks, Fusion 360等），基本的CAD操作知识。",
+          "steps": [
+            "克隆或下载仓库，选择你感兴趣的Keychron键盘或鼠标型号。",
+            "使用CAD软件打开STEP/DXF等文件，开始浏览、测量或修改。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，个人学习、教育及兼容配件的商业使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，提供了生产级硬件设计文件，场景明确，方便用户学习、定制和3D打印Keychron兼容配件。更新频繁，社区支持良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭及时，Keychron Discord社区活跃，支持度良好。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-10T04:30:33.752Z"
     }
   ]
 }
