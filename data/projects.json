@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-10T04:30:33.756Z",
+  "updatedAt": "2026-04-11T04:07:38.458Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -13571,6 +13571,607 @@
         "category": "其他"
       },
       "analyzedAt": "2026-04-10T04:30:33.752Z"
+    },
+    {
+      "owner": "Hona",
+      "repo": "temple-oc",
+      "fullName": "Hona/temple-oc",
+      "description": "Public domain coding station for OpenCode. HolyC first. White field. Red frame. Oracle ready.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unlicense",
+      "createdAt": "2026-04-11T00:57:28Z",
+      "url": "https://github.com/Hona/temple-oc",
+      "analysis": {
+        "positioning": "OpenCode的TempleOS风格插件：HolyC驱动AI编程，复古TUI界面。",
+        "useCases": [
+          "你想要一个HolyC风格的AI编程助手 → 它帮你像“TempleOS内核神谕”一样思考和回应。",
+          "你希望OpenCode界面充满TempleOS复古风 → 它帮你重绘OpenCode，拥有TempleOS经典界面元素。",
+          "你追求独特、有态度的编程体验 → 它帮你将OpenCode打造成个性化的“公共领域编码站”。"
+        ],
+        "audience": "OpenCode用户，特别是那些渴望体验TempleOS独特哲学、复古美学或HolyC思维模式的开发者。",
+        "quickStart": {
+          "prerequisites": "已安装OpenCode CLI工具",
+          "steps": [
+            "局部安装: opencode plugin temple-oc",
+            "全局安装: opencode plugin temple-oc --global"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE集成，提供代码补全、建议",
+            "models": "不公开",
+            "pricing": "付费"
+          },
+          {
+            "name": "Codeium",
+            "method": "IDE集成，提供代码补全、建议",
+            "models": "不公开",
+            "pricing": "免费（有付费专业版）"
+          }
+        ],
+        "pricing": "免费，采用Unlicense公有领域许可。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确以TempleOS风格为核心，从UI到AI思维模式都旨在复刻其独特体验，强调“impact”而非“subtlety”，是纯粹的Vibe Coding。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启数为0，但有已关闭的Issue，表明项目有人维护但互动不多。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-11T04:04:36.132Z"
+    },
+    {
+      "owner": "garrytan",
+      "repo": "gbrain",
+      "fullName": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-05T14:40:56Z",
+      "url": "https://github.com/garrytan/gbrain",
+      "analysis": {
+        "positioning": "AI Agent的个人知识库搜索引擎与大脑",
+        "useCases": [
+          "你积累了大量个人笔记、会议记录和日程数据 → 它帮你快速检索跨平台、跨时序的个人信息和思考",
+          "你需要了解某人或某公司的背景、与你过去互动的细节 → 它帮你交叉引用社交图谱，提供定制化的人物画像和关系历史",
+          "你希望AI Agent能处理海量个人数据并智能响应 → 它为你的AI Agent提供一个可搜索、可更新的个人知识库后端"
+        ],
+        "audience": "面向AI Agent，为知识工作者和开发者打造的海量个人知识库智能检索与记忆系统。",
+        "quickStart": {
+          "prerequisites": "Markdown文件仓库，兼容文件读写的AI Agent（如OpenClaw/Hermes）",
+          "steps": [
+            "组织Markdown文件到Git仓库中",
+            "参考SKILLPACK配置AI Agent读写文件，启用记忆和检索能力",
+            "(可选) 部署Postgres+pgvector，安装GBrain CLI实现大规模数据的高级检索"
+          ],
+          "note": "OpenClaw已内置DREAMS.md，Hermes Agent可通过定时任务实现。"
+        },
+        "competitors": [
+          {
+            "name": "Obsidian",
+            "method": "本地Markdown文件管理，知识图谱",
+            "models": "无（需插件集成）",
+            "pricing": "免费"
+          },
+          {
+            "name": "Logseq",
+            "method": "本地Markdown文件管理，大纲式笔记，知识图谱",
+            "models": "无（需插件集成）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目背景强大（知名开发者Garry Tan），解决AI Agent处理个人海量知识库的痛点，设计理念清晰，且有实际日用案例支撑，实用价值高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚可，但Issue关闭率偏低（2/17），可能维护资源有限或项目处于快速迭代阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-11T04:05:00.485Z"
+    },
+    {
+      "owner": "xtclovver",
+      "repo": "RKNHardering",
+      "fullName": "xtclovver/RKNHardering",
+      "description": "",
+      "language": "Kotlin",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-06T21:46:23Z",
+      "url": "https://github.com/xtclovver/RKNHardering",
+      "analysis": {
+        "positioning": "Android应用，用RKN方法论检测VPN和代理。",
+        "useCases": [
+          "你想要在Android设备上检测VPN或代理 → 它帮你实现RKN方法的识别逻辑并给出判断。",
+          "你需要分析网络行为以发现绕过限制的工具 → 它提供GeoIP、IP比对、系统/网络信号等多维度检测模块。",
+          "你正在研究Android平台VPN/代理检测技术 → 它提供详细的架构和模块设计作为参考实现。"
+        ],
+        "audience": "网络管理员、安全研究员或需要深入了解并实现Android平台VPN/代理检测（特别是RKN方法论）的开发者。",
+        "quickStart": {
+          "prerequisites": "Android 8.0 (API 26) 或更高版本的开发环境。",
+          "steps": [
+            "克隆GitHub仓库。",
+            "使用Android Studio导入项目。",
+            "编译并运行应用。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，模块职责明确，有详细的检测机制说明，支持多语言README，代码活跃度处于中等水平。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度适中，Issue关闭数量（8）多于开启数量（6），表明维护者有在积极解决问题。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-11T04:05:21.767Z"
+    },
+    {
+      "owner": "nashsu",
+      "repo": "llm_wiki",
+      "fullName": "nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-08T11:24:01Z",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "analysis": {
+        "positioning": "自动构建、维护的个人知识库桌面应用。",
+        "useCases": [
+          "你有多份文档和笔记 → 它帮你自动整理成互联的知识库，无需手动链接。",
+          "你需要从大量资料中快速查找信息 → 它帮你通过多阶段查询检索，并提供引用上下文。",
+          "你想持续学习并整合新知识 → 它帮你增量式更新知识库，并将新信息自动整合。"
+        ],
+        "audience": "适合需要高效管理、检索和学习个人或团队文档资料，并希望通过AI自动化构建知识库的个人用户或研究者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载并安装跨平台桌面应用",
+            "导入你的文档资料",
+            "开始查询或让LLM自动构建和更新知识图谱"
+          ],
+          "note": "跨平台桌面应用"
+        },
+        "competitors": [
+          {
+            "name": "传统RAG系统",
+            "method": "每次查询时从头检索、抽取并生成答案",
+            "models": "各种LLM",
+            "pricing": "免费/付费均有"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "集成了复杂的链式思考、4信号知识图谱、Louvain社区检测、4阶段查询检索等前沿LLM技术和图算法，实现知识库的自动化构建和深度洞察，技术深度和创新性极高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比尚可（开启3/关闭2），但整体活跃度一般。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-11T04:05:34.307Z"
+    },
+    {
+      "owner": "brooks376",
+      "repo": "Happy-Horse-1.0",
+      "fullName": "brooks376/Happy-Horse-1.0",
+      "description": "Information collection for the Happy Horse AI video generator model. Official demo and updates at happyhorses.io.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-08T03:15:48Z",
+      "url": "https://github.com/brooks376/Happy-Horse-1.0",
+      "analysis": {
+        "positioning": "前沿AI视频生成模型Happy Horse 1.0的信息收集与技术解析库。",
+        "useCases": [
+          "你希望了解最新的AI视频生成技术 → 它帮你跟踪Happy Horse 1.0的架构和进展。",
+          "你需要评估未来可能集成的音视频一体化生成能力 → 它可以让你预知模型潜在功能。",
+          "你关注AI视频领域的模型竞赛和突破 → 它可以提供社区对\"神秘模型\"的分析和信息。"
+        ],
+        "audience": "AI研究员、AI开发者，以及关注前沿AI视频生成技术和潜在应用的内容创作者。",
+        "quickStart": {
+          "prerequisites": "无",
+          "steps": [
+            "访问 happyhorses.io 关注官方模型发布动态",
+            "阅读此GitHub仓库README，获取社区整理的Happy Horse 1.0技术信息"
+          ],
+          "note": "此仓库仅为信息收集，Happy Horse 1.0核心模型、代码和API尚未公开，无法直接运行或使用。"
+        },
+        "competitors": [
+          {
+            "name": "字节跳动（ByteDance）",
+            "method": "商业服务/API",
+            "models": "具体模型未公开",
+            "pricing": "付费"
+          },
+          {
+            "name": "快手（Kling）",
+            "method": "商业服务/API",
+            "models": "具体模型未公开",
+            "pricing": "付费"
+          },
+          {
+            "name": "谷歌（Google）",
+            "method": "商业服务/API",
+            "models": "具体模型未公开",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "模型尚未发布，定价未知；此信息收集仓库免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "此仓库并非代码项目，而是关于一个尚未发布的AI视频生成模型的信息收集和技术解读。无实际可运行代码，因此编码氛围得分较低。",
+        "isVibeCoding": true,
+        "communityActivity": "关注度高（500+ Star），但社区互动和问题解决不活跃，Issues 开启多（8个）而关闭少（1个）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-11T04:05:53.641Z"
+    },
+    {
+      "owner": "R6410418",
+      "repo": "Jackrong-llm-finetuning-guide",
+      "fullName": "R6410418/Jackrong-llm-finetuning-guide",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "topics": [
+        "dataset",
+        "deepseek",
+        "fine-tuning",
+        "guide",
+        "llama3",
+        "llm",
+        "machine-learning",
+        "nlp",
+        "openai",
+        "pytorch",
+        "qwen",
+        "unsloth"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-05T08:04:43Z",
+      "url": "https://github.com/R6410418/Jackrong-llm-finetuning-guide",
+      "analysis": {
+        "positioning": "LLM微调从0到1的端到端教学指南。",
+        "useCases": [
+          "你想学习LLM微调 → 它提供理论、数据处理到部署的全流程教学。",
+          "你想在低资源下微调大模型 → 它教你用Unsloth、4-bit量化在免费Colab环境高效训练。",
+          "你想为特定领域定制LLM → 它提供可复用的微调代码和流程，帮助你快速适配模型。"
+        ],
+        "audience": "LLM初学者或开发者，想从零开始学习并实践大模型微调。",
+        "quickStart": {
+          "prerequisites": "Google账号",
+          "steps": [
+            "克隆项目到本地或通过HuggingFace Spaces/Google Colab打开。",
+            "按照Jupyter Notebook中的步骤，一步步运行代码进行模型微调。"
+          ],
+          "note": "主要针对Google Colab环境优化，利用免费GPU资源进行训练。"
+        },
+        "competitors": [],
+        "pricing": "免费（基于开源代码和免费Google Colab环境）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目为LLM微调新手提供了完整的“0到1”学习路径，结合Unsloth等高效工具，在免费Colab环境即可实践Llama3、Deepseek等主流模型的微调，门槛极低，实用性强，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前有3个开放Issue，但暂无关闭记录，可能项目相对较新或问题较少。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-11T04:06:05.695Z"
+    },
+    {
+      "owner": "coleam00",
+      "repo": "claude-memory-compiler",
+      "fullName": "coleam00/claude-memory-compiler",
+      "description": "Give Claude Code a memory that evolves with your codebase. Hooks automatically capture sessions, the Claude Agent SDK extracts key decisions and lessons, and an LLM compiler organizes everything into structured, cross-referenced knowledge articles - inspired by Karpathy's LLM Knowledge Base architecture.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-06T14:28:45Z",
+      "url": "https://github.com/coleam00/claude-memory-compiler",
+      "analysis": {
+        "positioning": "为Claude Code提供可演进的记忆，自动构建会话知识库。",
+        "useCases": [
+          "你与Claude Code对话 → 它自动记录、提炼关键决策和经验，存入知识库。",
+          "你开始新的Claude Code会话 → 它将相关知识注入，避免重复劳动或遗忘。",
+          "你想重温旧的编程决策或解决方案 → 它帮你通过检索快速找到相关的知识文章。"
+        ],
+        "audience": "经常使用Claude Code进行编程的用户，希望自动沉淀、管理和复用AI对话中的知识和经验。",
+        "quickStart": {
+          "prerequisites": "Claude Max/Team/Enterprise 订阅",
+          "steps": [
+            "用户对Claude Code说出特定指令，让其克隆项目并配置钩子（详见项目README）。",
+            "Claude Code自动安装依赖，并合并配置。",
+            "下次打开Claude Code时，知识捕获功能自动激活。"
+          ],
+          "note": "每日日志编译会在下午6点后自动触发，也可手动运行 `uv run python scripts/compile.py`。"
+        },
+        "competitors": [
+          {
+            "name": "OpenClaw",
+            "method": "内存刷新功能",
+            "models": "未明确说明",
+            "pricing": "需额外API计费"
+          }
+        ],
+        "pricing": "免费（需现有Claude Max/Team/Enterprise订阅，无额外API计费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "自动捕捉、提炼和组织AI对话知识，无需手动干预，简化了知识管理流程，且集成度高。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步，社区活跃度较低，待观察（4个Issue开启，0关闭）。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-11T04:06:19.078Z"
+    },
+    {
+      "owner": "obdev",
+      "repo": "littlesnitch-linux",
+      "fullName": "obdev/littlesnitch-linux",
+      "description": "Open Source components of Little Snitch for Linux",
+      "language": "Rust",
+      "topics": [],
+      "license": "GPL-2.0",
+      "createdAt": "2026-04-08T13:07:47Z",
+      "url": "https://github.com/obdev/littlesnitch-linux",
+      "analysis": {
+        "positioning": "Linux开源防火墙/网络监控核心组件",
+        "useCases": [
+          "你做Linux网络流量控制 → 它提供eBPF程序，实现内核级别的网络流量监控与阻断。",
+          "你开发Linux网络安全工具 → 它提供共享库，方便内核eBPF与用户空间程序通信。",
+          "你想快速测试网络黑名单功能 → 它提供演示程序，加载黑名单测试主机和域名阻断。"
+        ],
+        "audience": "需要开发Linux网络监控、安全防护工具或进行eBPF系统编程的工程师和开发者。",
+        "quickStart": {
+          "prerequisites": [
+            "stable rust toolchains: `rustup toolchain install stable`",
+            "nightly rust toolchains: `rustup toolchain install nightly --component rust-src`",
+            "bpf-linker: `cargo install bpf-linker`",
+            "`clang` C/C++ compiler"
+          ],
+          "steps": [
+            "`cargo build`",
+            "`cargo run --release`"
+          ],
+          "note": "eBPF部分仅限Linux环境运行。"
+        },
+        "competitors": [
+          {
+            "name": "UFW (Uncomplicated Firewall)",
+            "method": "命令行工具",
+            "models": "基于规则的端口/IP/协议过滤",
+            "pricing": "免费"
+          },
+          {
+            "name": "Firewalld",
+            "method": "命令行/图形界面",
+            "models": "基于区域/服务/端口/IP过滤",
+            "pricing": "免费"
+          },
+          {
+            "name": "nftables",
+            "method": "命令行工具",
+            "models": "灵活的包过滤和网络地址转换规则",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (本仓库开源组件免费，完整产品含部分非开源代码，免费使用)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目采用Rust和eBPF等前沿系统级技术，代码作为商业产品的开源核心，设计严谨，质量较高。核心功能涉及底层网络控制，技术挑战性高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比尚可（9开/5关），社区活跃度中等。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-11T04:06:35.400Z"
+    },
+    {
+      "owner": "sdyckjq-lab",
+      "repo": "llm-wiki-skill",
+      "fullName": "sdyckjq-lab/llm-wiki-skill",
+      "description": "基于 Karpathy llm-wiki 方法论的个人知识库构建 Skill，支持多平台！",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T05:27:07Z",
+      "url": "https://github.com/sdyckjq-lab/llm-wiki-skill",
+      "analysis": {
+        "positioning": "基于Karpathy方法，为LLM Agent构建多平台个人知识库Skill。",
+        "useCases": [
+          "你碎片信息多 → 它帮你将信息整理为持续积累、互相链接的知识库",
+          "你使用多Agent → 它为Claude Code、Codex、OpenClaw等Agent提供统一知识库系统",
+          "你希望知识复用 → 知识被编译一次，持续维护，而非每次查询重新推导",
+          "你文章很多 → 它帮你将网页文章、公众号、YouTube等自动提取并整理",
+          "你用Obsidian → 它生成Obsidian兼容的本地Markdown知识库"
+        ],
+        "audience": "适合LLM Agent开发者和个人用户，希望将碎片化信息系统地构建为Agent可用的、持续维护的多平台知识库。",
+        "quickStart": {
+          "prerequisites": "Agent能执行shell命令；自动提取网页需Chrome调试模式；自动提取微信/YouTube需`uv`；需`bun`或`npm`。",
+          "steps": [
+            "将仓库链接直接提供给正在使用的Agent，让其自动安装。",
+            "或者让Agent进入仓库根目录后执行对应平台的安装命令，例如`bash install.sh --platform claude`。"
+          ],
+          "note": "安装命令需指定对应Agent平台（Claude Code, Codex, OpenClaw），不建议使用`--platform auto`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目目标明确，基于知名方法论，提供具体的多平台解决方案。README结构清晰，安装和使用说明详尽，直接解决Agent用户构建知识库的痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "用户关注度高（近500星），但Issue开启但无关闭记录，响应速度未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-11T04:06:47.030Z"
+    },
+    {
+      "owner": "whwangovo",
+      "repo": "pyre-code",
+      "fullName": "whwangovo/pyre-code",
+      "description": "A self-hosted ML coding practice platform. 68 problems from ReLU to flow matching — attention, training, RLHF, diffusion, and more. Instant feedback in the browser.",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-09T06:02:53Z",
+      "url": "https://github.com/whwangovo/pyre-code",
+      "analysis": {
+        "positioning": "自托管AI系统核心算法练习平台，即时反馈，无需GPU。",
+        "useCases": [
+          "你想准备ML面试 → 它提供Transformer等AI核心组件手写练习，助你高效备战。",
+          "你习惯动手学习AI原理 → 它提供68个实践题，让你通过代码加深理解，而非死记硬背。",
+          "你希望深入了解AI系统内部机制 → 它提供从ReLU到Diffusion的算法实现挑战，揭示底层逻辑。"
+        ],
+        "audience": "适合希望通过代码深入理解Transformer等AI系统核心算法，或备战ML面试的开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+, Node.js 18+",
+          "steps": [
+            "`git clone https://github.com/whwangovo/pyre-code.git && cd pyre-code`",
+            "`./setup.sh && npm run dev` (推荐一键安装并启动)"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，自托管运行，AI辅助功能可能产生第三方API费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目提供机器学习算法编码练习平台，核心是引导用户手写代码并提供即时反馈，AI辅助功能仅为可选的提示，非代码生成或自动完成。",
+        "isVibeCoding": false,
+        "communityActivity": "早期项目，Issue数量较少但有响应和关闭记录，处于活跃发展中。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-11T04:07:03.054Z"
+    },
+    {
+      "owner": "agents-io",
+      "repo": "PokeClaw",
+      "fullName": "agents-io/PokeClaw",
+      "description": "PokeClaw (PocketClaw) — first on-device AI that controls your Android phone. Gemma 4, no cloud, no API key. Poke is short for Pocket.",
+      "language": "Kotlin",
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android-automation",
+        "gemma4",
+        "litert",
+        "local-llm",
+        "on-device-ai",
+        "open-source",
+        "phone-agent",
+        "pocketclaw",
+        "pokeclaw",
+        "tool-calling"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-06T08:31:02Z",
+      "url": "https://github.com/agents-io/PokeClaw",
+      "analysis": {
+        "positioning": "首个安卓端侧AI代理，Gemma 4驱动，无需云服务或API key。",
+        "useCases": [
+          "你手动监控WhatsApp消息并回复 → 它自动监控并基于上下文智能回复。",
+          "你手动操作手机应用完成任务 → 它利用AI代理自动执行复杂手机任务。",
+          "你担心隐私泄露、数据上传云端 → 它在设备本地运行AI，保护隐私。"
+        ],
+        "audience": "寻求安卓手机自动化、重视数据隐私、希望摆脱云服务依赖的技术爱好者和高级用户。",
+        "quickStart": {
+          "prerequisites": "Android 9+ 手机",
+          "steps": [
+            "下载并安装PokeClaw应用（可从GitHub Release获取）。",
+            "在手机设置中授予PokeClaw必要的无障碍服务权限。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统云端AI自动化服务",
+            "method": "通过互联网调用云端API",
+            "models": "支持各种云端大型模型",
+            "pricing": "通常需要API Key并按量付费"
+          }
+        ],
+        "pricing": "本地模式完全免费且无需API Key；可选的云端模型服务可能需要付费或自备API Key。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目概念独特，实现了在安卓设备上本地运行AI模型控制手机，提供了强大的隐私保护和离线能力。演示视频展示了实用的自动化场景，但在非NPU设备上的性能有待提高。作为原型项目，其潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "开启Issue 16个，已关闭4个，社区活跃度适中，有用户反馈但解决进度一般。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-11T04:07:14.758Z"
+    },
+    {
+      "owner": "joeynyc",
+      "repo": "hermes-hudui",
+      "fullName": "joeynyc/hermes-hudui",
+      "description": "Web UI consciousness monitor for Hermes — the AI agent with persistent memory",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-09T00:22:33Z",
+      "url": "https://github.com/joeynyc/hermes-hudui",
+      "analysis": {
+        "positioning": "Hermes AI Agent的Web版“意识”监控器。",
+        "useCases": [
+          "你想实时了解AI Agent的运行状态和思考过程 → 它帮你清晰展示Agent的身份、知识、记忆和行为。",
+          "你想追踪AI Agent的API token成本和学习进度 → 它帮你提供模型费用估算、每日活动和技能更新。",
+          "你希望可视化Agent内部数据变化并支持多种主题 → 它帮你通过WebSocket实时更新，并提供四种美观主题切换。"
+        ],
+        "audience": "适用于Hermes AI Agent的开发者、研究人员，需要直观监控Agent内部状态及行为的场景。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+, Node.js 18+, 已运行的Hermes Agent (数据在`~/.hermes/`下)",
+          "steps": [
+            "git clone https://github.com/joeynyc/hermes-hudui.git && cd hermes-hudui",
+            "python3.11 -m venv venv && source venv/bin/activate",
+            "./install.sh",
+            "hermes-hudui"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "hermes-hud (TUI version)",
+            "method": "CLI/终端UI",
+            "models": "N/A (监控Hermes Agent)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目功能明确，UI设计出色，提供实时更新和多种主题，提升了开发者使用体验。对于监控AI Agent来说，这种可视化和细节展示非常有价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 3 / 已关闭 0，目前活跃度一般，需要观察后续 Issue 处理速度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-11T04:07:23.968Z"
+    },
+    {
+      "owner": "SAGAR-TAMANG",
+      "repo": "friday-tony-stark-demo",
+      "fullName": "SAGAR-TAMANG/friday-tony-stark-demo",
+      "description": "Demo of tools of capabilities of Tony Stark.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-05T17:05:13Z",
+      "url": "https://github.com/SAGAR-TAMANG/friday-tony-stark-demo",
+      "analysis": {
+        "positioning": "钢铁侠FRIDAY式AI助手，语音交互调用工具",
+        "useCases": [
+          "你渴望一个私人AI助手 → 它帮你通过实时语音命令获取新闻、搜索网页、查询系统信息。",
+          "你希望构建多模态AI应用 → 它为你提供LLM、实时语音与外部工具集成的实现范例。",
+          "你对LiveKit Agents或FastMCP感兴趣 → 它展示了如何结合这些技术来创建实时交互系统。"
+        ],
+        "audience": "对实时语音AI助手感兴趣的开发者、AI爱好者，希望学习或复现类FRIDAY功能。",
+        "quickStart": {
+          "prerequisites": "Python ≥ 3.11, `uv`工具, LiveKit Cloud项目（免费版即可）。",
+          "steps": [
+            "克隆项目，进入目录。",
+            "`uv sync`安装所有依赖。",
+            "复制`.env.example`为`.env`，并填写所需API Key。",
+            "分别在两个终端运行：`uv run friday` (启动MCP Server) 和 `uv run friday_voice` (启动语音Agent)。"
+          ],
+          "note": "在WSL环境下，MCP Server的地址会自动解析到Windows宿主机的IP。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目代码），但使用时需自行配置并支付LiveKit、Gemini、OpenAI等API服务费用（部分有免费额度）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "完全是钢铁侠FRIDAY的粉丝向实现，集成了流行AI与实时通信技术，提供了一个酷炫的实时语音AI助手体验。项目结构清晰，可玩性高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无公开Issue记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-11T04:07:38.452Z"
     }
   ]
 }
