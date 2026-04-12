@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-11T04:07:38.458Z",
+  "updatedAt": "2026-04-12T04:35:32.488Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -14172,6 +14172,587 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-11T04:07:38.452Z"
+    },
+    {
+      "owner": "yizhiyanhua-ai",
+      "repo": "fireworks-tech-graph",
+      "fullName": "yizhiyanhua-ai/fireworks-tech-graph",
+      "description": "Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-10T15:07:10Z",
+      "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+      "analysis": {
+        "positioning": "AI驱动，自然语言描述秒生成专业技术图表。",
+        "useCases": [
+          "你着急出系统架构图，厌倦手绘 → 它帮你通过自然语言描述，快速生成专业SVG/PNG图表。",
+          "你希望图表有特定风格，符合品牌或文档调性 → 它帮你提供7种预设视觉风格，包括Notion、Claude、OpenAI官方风格。",
+          "你需要绘制复杂的AI/Agent领域图表（如RAG、Mem0）或UML图 → 它帮你内置深度AI/Agent领域知识和14种UML图类型支持。"
+        ],
+        "audience": "需要高效、高质量生成技术图表的开发者、系统架构师、技术作者和AI研究人员。",
+        "quickStart": {
+          "prerequisites": "需安装rsvg-convert（用于PNG导出），可能需配置Claude API访问凭证。",
+          "steps": [
+            "安装项目依赖（如rsvg-convert）",
+            "通过自然语言描述（中英文皆可）你的系统，或调用其API/Skill接口。",
+            "获得出版级SVG文件，并自动导出高分辨率PNG图表。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Mermaid/PlantUML",
+            "method": "需要学习特定语法编写代码",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "传统绘图工具（如Draw.io、Lucidchart）",
+            "method": "手动拖拽元素、连接，耗时费力",
+            "models": "N/A",
+            "pricing": "部分免费/订阅"
+          },
+          {
+            "name": "通用大模型（如ChatGPT）",
+            "method": "通过Prompt生成Mermaid/PlantUML代码，再渲染",
+            "models": "GPT-3.5/4，Claude等",
+            "pricing": "API调用费用"
+          }
+        ],
+        "pricing": "免费 (工具代码开源，若调用大模型API可能产生相关费用)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "大幅简化技术图表绘制的繁琐工作，通过自然语言智能生成高质量图表，提供多种专业风格和AI领域支持，显著提升开发效率与文档质量。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue活动较少（0开启/1关闭），可能表明项目稳定或社区互动主要通过其他渠道。项目星标数较高（1090）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-12T04:32:24.710Z"
+    },
+    {
+      "owner": "QLHazyCoder",
+      "repo": "codex-oauth-automation-extension",
+      "fullName": "QLHazyCoder/codex-oauth-automation-extension",
+      "description": "Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-09T03:23:02Z",
+      "url": "https://github.com/QLHazyCoder/codex-oauth-automation-extension",
+      "analysis": {
+        "positioning": "批量自动化OpenAI OAuth注册/登录流程的Chrome扩展。",
+        "useCases": [
+          "你需要批量注册或登录OpenAI账号 → 它帮你全自动跑通OAuth流程，省去手动操作。",
+          "你疲于手动填写邮箱和获取验证码 → 它自动填写信息，并支持多渠道邮箱获取验证码。",
+          "你经常需要重复执行注册登录操作 → 它支持多轮自动运行，并能从上次中断处恢复。"
+        ],
+        "audience": "需要高效率、批量管理OpenAI（或其他类似OAuth）账号的运营、开发者或CPA从业者。",
+        "quickStart": {
+          "prerequisites": "Chrome浏览器、开启开发者模式、你的CPA管理面板、至少一种验证码接收方式（DuckDuckGo/@duck.com、QQ/163邮箱、Inbucket）",
+          "steps": [
+            "打开`chrome://extensions/`，开启“开发者模式”，加载已解压的扩展程序。",
+            "打开扩展侧边栏，配置CPA面板地址、邮件接收方式（例如QQ/163/Inbucket）、注册邮箱或选择自动生成DuckDuckGo邮箱、设置密码。",
+            "点击“Auto”按钮，让扩展自动执行多轮注册/登录流程。"
+          ],
+          "note": "若使用Inbucket，需配置Inbucket Host和Mailbox名称。DuckDuckGo地址获取是自动的，Inbucket地址需手动管理。"
+        },
+        "competitors": [],
+        "pricing": "免费，接受打赏。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个高度实用的工具，精准解决了一个小众但重复性高的痛点（批量自动化OAuth注册），带有鲜明的黑客精神和“自己动手，丰衣足食”的色彩。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃，但关闭率较低（14开/1关），社区互动响应可能不快。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-04-12T04:32:40.329Z"
+    },
+    {
+      "owner": "AgriciDaniel",
+      "repo": "claude-obsidian",
+      "fullName": "AgriciDaniel/claude-obsidian",
+      "description": "Claude + Obsidian knowledge companion. Persistent, compounding wiki vault based on Karpathy's LLM Wiki pattern. /wiki /save /autoresearch",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "claude-code",
+        "claude-code-skill",
+        "knowledge-management",
+        "obsidian",
+        "open-source",
+        "second-brain"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-07T08:59:37Z",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "analysis": {
+        "positioning": "Claude+Obsidian智能知识伴侣，自动构建、维护和进化你的个人知识库。",
+        "useCases": [
+          "你手动整理笔记和资料 → 它帮你自动阅读、提取、归档并建立关联。",
+          "你反复提问需要背景回顾 → 它帮你维持会话记忆，无需重复上下文。",
+          "你担心知识库杂乱无章 → 它帮你自动检查死链、孤立页、矛盾，保持知识库健康。",
+          "你需要深入某个主题但没时间系统研究 → 它帮你进行多轮自主网络调研并填补知识空白。"
+        ],
+        "audience": "需要构建智能、自进化的个人知识库，尤其Obsidian用户和研究人员。",
+        "quickStart": {
+          "prerequisites": "Obsidian安装，Claude API访问权限。",
+          "steps": [
+            "配置Claude API密钥。",
+            "运行脚本并导入源文件或提问。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Smart Connections",
+            "method": "基于现有笔记的聊天问答",
+            "models": "不支持多模型",
+            "pricing": "未知"
+          },
+          {
+            "name": "Copilot",
+            "method": "基于现有笔记的聊天问答",
+            "models": "多种",
+            "pricing": "未知"
+          }
+        ],
+        "pricing": "项目本身免费开源，但依赖Claude等API服务可能产生费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "详细的功能描述、清晰的对比和演示，但作为Shell脚本，部署和维护可能对非技术用户有一定门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开启2个，关闭0个，社区活跃度尚处于早期。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-12T04:33:03.701Z"
+    },
+    {
+      "owner": "idawnlight",
+      "repo": "ShichiZip",
+      "fullName": "idawnlight/ShichiZip",
+      "description": "The 7-Zip derivative intended for macOS",
+      "language": "Swift",
+      "topics": [],
+      "license": "LGPL-2.1",
+      "createdAt": "2026-04-06T16:05:19Z",
+      "url": "https://github.com/idawnlight/ShichiZip",
+      "analysis": {
+        "positioning": "macOS 平台缺失的 7-Zip 压缩解压工具。",
+        "useCases": [
+          "你需要用 7-Zip 格式压缩文件 → 它帮你高效创建 7z 压缩包，实现高压缩比。",
+          "你从其他系统收到 7z 格式压缩包 → 它帮你无缝解压 7z 文件，确保内容完整。",
+          "你追求在 macOS 上获得原汁原味的 7-Zip 功能体验 → 它提供基于 7-Zip 的 macOS 图形界面工具。"
+        ],
+        "audience": "macOS 用户，尤其需要处理 7z 格式文件、追求极致压缩效率的普通用户及开发者。",
+        "quickStart": {
+          "prerequisites": "Xcode 开发环境",
+          "steps": [
+            "克隆项目仓库。",
+            "使用 `make lib-mainline` 或 `make lib-zs` 命令构建相应的库。",
+            "运行 `xcodebuild -project ShichiZip.xcodeproj -scheme ShichiZip -arch arm64 build` (或 `ShichiZipZS` 方案) 来构建应用程序。"
+          ],
+          "note": "目前构建指令明确指定 arm64 架构，主要针对 Apple Silicon 设备。"
+        },
+        "competitors": [
+          {
+            "name": "Keka",
+            "method": "macOS 应用商店或官网下载，图形界面操作",
+            "models": "支持多种压缩格式，包括 7z",
+            "pricing": "免费（捐赠可选）"
+          },
+          {
+            "name": "The Unarchiver",
+            "method": "macOS 应用商店下载，图形界面操作",
+            "models": "支持多种解压格式，包括 7z",
+            "pricing": "免费"
+          },
+          {
+            "name": "p7zip (via Homebrew)",
+            "method": "命令行安装和操作",
+            "models": "提供原版 7-Zip 的命令行功能",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于 LGPL-2.1 开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在填补 macOS 缺乏原生 7-Zip 工具的空白，技术栈现代（Swift），提供了图形界面截图。但构建流程对开发者更友好，且社区活跃度较低，可能处于早期或维护阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前只有 2 个已关闭 Issue，没有未解决的问题，更新频率待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-12T04:33:19.558Z"
+    },
+    {
+      "owner": "kzhrknt",
+      "repo": "awesome-design-md-jp",
+      "fullName": "kzhrknt/awesome-design-md-jp",
+      "description": "日本語UIをAIエージェントに正しくつくらせるためのDESIGN.md集。Japanese DESIGN.md collection for AI agents — extending Google Stitch format with CJK typography.",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-06T13:05:05Z",
+      "url": "https://github.com/kzhrknt/awesome-design-md-jp",
+      "analysis": {
+        "positioning": "专为AI生成日文UI设计，确保排版和风格正确一致的DESIGN.md合集。",
+        "useCases": [
+          "你训练AI生成日文界面 → 它帮你提供标准DESIGN.md，确保AI生成符合日文排版规范的UI。",
+          "你设计日文产品UI → 它提供知名日文网站的DESIGN.md范例，助你快速参考和标准化。",
+          "你希望AI本地化日文产品 → 它帮助AI理解日文排版特有规则，避免界面视觉缺陷。"
+        ],
+        "audience": "AI Agent开发者、UI/UX设计师及日文产品本地化团队，当需要AI准确生成日文界面时。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "浏览项目中的DESIGN.md文件",
+            "选择并参考或适配到你的AI Agent中"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "VoltAgent/awesome-design-md",
+            "method": "通用Web服务的DESIGN.md集合",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心是提供标准化的设计输入（DESIGN.md），以指导AI Agent生成准确、规范的日文UI代码，属于间接的Vibe Coding。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动为零，社区互动不活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-12T04:33:32.717Z"
+    },
+    {
+      "owner": "AMAP-ML",
+      "repo": "SkillClaw",
+      "fullName": "AMAP-ML/SkillClaw",
+      "description": "Let Skills Evolve Collectively with Agentic Evolver ",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-10T03:25:47Z",
+      "url": "https://github.com/AMAP-ML/SkillClaw",
+      "analysis": {
+        "positioning": "AI Agent技能协同进化框架，提升LLM Agent能力。",
+        "useCases": [
+          "你想让AI Agent持续学习用户经验 → 它帮你自动提取并共享技能，无需额外操作。",
+          "你希望提升LLM Agent在复杂场景下的表现 → 它通过协同进化，让Agent变“聪明”，而非依赖更大模型。",
+          "你在管理OpenClaw生态中的多个Agent → 它帮你无缝集成技能进化能力，实现Agent集群优化。"
+        ],
+        "audience": "希望提升基于OpenClaw生态的LLM Agent性能、并实现技能复用与共享的开发者或团队。",
+        "quickStart": {
+          "prerequisites": "Python >= 3.10, 兼容OpenAI API的LLM",
+          "steps": [
+            "安装与设置仅需两行命令（具体命令未在节选中提供）",
+            "用户正常与OpenClaw交互，技能进化将在后台无缝进行"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，架构模块化且有实际效果验证。强调易用性（两行命令设置，零额外操作）和对现有Claw框架的广泛支持，显示出良好的工程实现和应用潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活动度较低，目前有一个待解决的Issue，尚未关闭任何Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-12T04:33:44.787Z"
+    },
+    {
+      "owner": "cherepavel",
+      "repo": "VPN-Detector",
+      "fullName": "cherepavel/VPN-Detector",
+      "description": "Android app for detecting VPN usage and network tunneling signals.",
+      "language": "Kotlin",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-06T21:35:34Z",
+      "url": "https://github.com/cherepavel/VPN-Detector",
+      "analysis": {
+        "positioning": "一款Android VPN检测研究工具，揭示应用如何发现VPN使用。",
+        "useCases": [
+          "你开发应用需要检测用户是否使用VPN → 它帮你理解并实现应用内VPN检测逻辑，甚至应对分流场景。",
+          "你进行Android安全研究，分析VPN绕过或检测机制 → 它帮你深入理解Android系统级VPN检测原理和方法。",
+          "你需要验证你的VPN分流配置是否真正不可检测 → 它帮你测试你的VPN或分流配置是否仍可被普通应用识别。"
+        ],
+        "audience": "Android应用开发者、安全研究员及需要验证VPN检测能力的用户。",
+        "quickStart": {
+          "prerequisites": "Android设备或模拟器，Android Studio",
+          "steps": [
+            "克隆 cherepavel/VPN-Detector 仓库到本地。",
+            "在Android Studio中打开项目。",
+            "构建并运行应用到Android设备或模拟器。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "aegis-security/VPN-Checker",
+            "method": "Android应用，检查VPN状态",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Mr-Sagar-Prajapati/VPN_Detection",
+            "method": "Android应用，基础VPN检测",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，MIT开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目专注于Android VPN检测机制的研究与演示，功能清晰，文档简明。作为研究工具，Star数适中，Issue解决效率尚可，对特定领域有较高参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 1 / 关闭 6，问题响应和解决效率尚可，社区活跃度一般。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-12T04:34:02.155Z"
+    },
+    {
+      "owner": "NyxTides",
+      "repo": "SimpleAuthFlow",
+      "fullName": "NyxTides/SimpleAuthFlow",
+      "description": "A streamlined Chrome extension for the ChatGPT OAuth flow",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-07T06:15:18Z",
+      "url": "https://github.com/NyxTides/SimpleAuthFlow",
+      "analysis": {
+        "positioning": "简化ChatGPT OAuth注册授权，主打个人开箱即用的Chrome扩展。",
+        "useCases": [
+          "你手动注册ChatGPT OAuth并频繁中断 → 它帮你全自动注册和授权，增强容错。",
+          "你不想额外配置邮箱或手机号 → 它帮你开箱即用，无需任何额外配置。",
+          "你遇到ChatGPT协议弹窗或人机验证卡顿 → 它帮你自动化处理，支持半自动接管。",
+          "你希望快速完成单个注册流程（约1分钟/次） → 它能满足个人每天约5次的稳定使用需求。"
+        ],
+        "audience": "适合需要个人快速、省心地完成ChatGPT OAuth注册和授权的用户，尤其厌烦复杂配置和流程中断。",
+        "quickStart": {
+          "prerequisites": "装好 CPA",
+          "steps": [
+            "打开 `chrome://extensions/`",
+            "开启“开发者模式”",
+            "点击“加载已解压的扩展程序”",
+            "选择本项目文件夹",
+            "点击浏览器工具栏中的扩展图标，打开侧边面板",
+            "打开扩展侧边面板，确认 CPA 鉴权地址已预填（默认 `http://127.0.0.1:5173/#/oauth`）",
+            "点击 auto 开始运行"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目README详细，功能点明确，专注于提升个人用户体验和流程稳定性。Issue开闭比健康，显示项目维护良好。基于前人项目持续优化，注重开箱即用和减少配置，容错处理和半自动接管机制完善。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启5/关闭4，社区活跃度良好，问题得到及时响应和处理。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-12T04:34:16.549Z"
+    },
+    {
+      "owner": "leezythu",
+      "repo": "maoxuan-skill",
+      "fullName": "leezythu/maoxuan-skill",
+      "description": "毛选.skill — 让毛泽东的思维框架帮你分析问题、制定策略、看透本质。7个核心心智模型 · 10条决策启发式 · 完整表达DNA。不是复读语录，是用他的认知框架帮你看问题。",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-06T12:36:04Z",
+      "url": "https://github.com/leezythu/maoxuan-skill",
+      "analysis": {
+        "positioning": "AI驱动，用毛选思维框架助你分析决策、看透本质。",
+        "useCases": [
+          "你面对创业瓶颈、大厂竞争 → 它帮你用“农村包围城市”制定突围策略。",
+          "你处理团队冲突、内部不和 → 它帮你用“统一战线”化解矛盾、凝聚力量。",
+          "你遭遇职业转型焦虑、方向迷茫 → 它帮你用“纸老虎论”发现机会、确立根据地。"
+        ],
+        "audience": "需要深度战略思考、复杂问题分析和决策制定的创业者、管理者、职场人士。",
+        "quickStart": {
+          "prerequisites": "需Claude Code或skills.sh运行环境",
+          "steps": [
+            "执行 `npx skills add leezythu/maoxuan-skill` 安装。",
+            "在Claude Code中用“毛选”、“教员”等词激活，然后提问。"
+          ],
+          "note": "该Skill在Claude Code或skills.sh平台运行。"
+        },
+        "competitors": [],
+        "pricing": "免费 (作为Claude Code/Skills.sh的第三方Skill，Skill本身开源免费)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "非复读语录，而是将毛选方法论蒸馏为认知框架，提供独特、深刻的问题分析和战略决策视角。对复杂现实问题有极高实用价值，启发性强。",
+        "isVibeCoding": true,
+        "communityActivity": "较低 (Issues 开启3 / 关闭0，项目尚处于早期或维护中)",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-12T04:34:26.842Z"
+    },
+    {
+      "owner": "UnluckyNinja",
+      "repo": "SBTI-test",
+      "fullName": "UnluckyNinja/SBTI-test",
+      "description": "注意建立这个repo只是因为网页自身就是全部源码，原作者并未声明license所以本repo也不包含license，一切行为请自行斟酌，不要给原作者添麻烦。 原作者：B站@蛆肉儿串儿",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-09T11:14:13Z",
+      "url": "https://github.com/UnluckyNinja/SBTI-test",
+      "analysis": {
+        "positioning": "一个SBTI测试网页的镜像，供本地查阅或二次开发。",
+        "useCases": [
+          "你想离线查看SBTI测试网页 → 它提供本地可运行的HTML文件。",
+          "你想了解SBTI测试网页的实现细节 → 它提供了已拆分的HTML和图片源码。",
+          "你想基于SBTI测试网页进行功能扩展或魔改 → 它提供了可直接获取和修改的全部前端代码。"
+        ],
+        "audience": "适合需要本地运行、研究或二次开发SBTI测试页面功能的前端开发者或学习者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆或下载本仓库。",
+            "使用浏览器打开`index.html`文件。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是原网页的镜像，明确提示原作者未声明License，使用需自行斟酌，略显灰色地带。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-12T04:34:37.798Z"
+    },
+    {
+      "owner": "DLYuanGod",
+      "repo": "MegaTrain",
+      "fullName": "DLYuanGod/MegaTrain",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-06T17:59:54Z",
+      "url": "https://github.com/DLYuanGod/MegaTrain",
+      "analysis": {
+        "positioning": "单GPU训练千亿级LLM，RAM优化提速，全精度。",
+        "useCases": [
+          "你想在单卡上训练千亿级大模型 → 它通过CPU内存扩展，让你在单GPU上全精度训练100B+模型。",
+          "你正在使用HuggingFace解码器模型 → 它直接支持HuggingFace模型，开箱即用，无需修改。",
+          "你需要比现有方案（如DeepSpeed ZeRO-3）更快地训练大模型 → 它通过流水线双缓冲执行，比DeepSpeed ZeRO-3快1.84倍。"
+        ],
+        "audience": "适合需要高效利用单GPU资源，训练或微调千亿级大模型的AI研究员和工程师。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+, PyTorch 2.0+, Git",
+          "steps": [
+            "git clone https://github.com/DLYuanGod/MegaTrain.git",
+            "cd MegaTrain",
+            "pip install -e .",
+            "python examples/train.py --config examples/configs/llama3_8b.yaml"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "DeepSpeed ZeRO-3",
+            "method": "分布式内存优化/显存卸载",
+            "models": "支持各类LLM",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了单GPU训练千亿级大模型的痛点，提供实用的RAM优化方案和显著的性能提升，且支持主流HuggingFace模型，配置简单。",
+        "isVibeCoding": true,
+        "communityActivity": "开启2个Issue，关闭1个，说明项目初期有反馈且有维护响应，但整体活跃度一般。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-12T04:34:50.778Z"
+    },
+    {
+      "owner": "loop-uh",
+      "repo": "yourvpndead",
+      "fullName": "loop-uh/yourvpndead",
+      "description": "Детекция и обнаружение айпи у ВПН серверов VLESS/xray/sing-box через локальный SOCKS5 уязвимость",
+      "language": "Kotlin",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-07T15:25:28Z",
+      "url": "https://github.com/loop-uh/yourvpndead",
+      "analysis": {
+        "positioning": "Android VPN/代理自检工具，揭示IP泄露风险。",
+        "useCases": [
+          "你使用VPN/代理 → 它帮你检测你的Android设备是否会泄露VPN服务器IP。",
+          "你担心隐私安全 → 它帮你了解普通应用在Android上能获取到哪些VPN信息。",
+          "你是应用开发者/安全研究员 → 它提供案例，展示无需Root/特殊权限即可检测VPN的方法。"
+        ],
+        "audience": "关注网络隐私和VPN匿名性的Android用户，以及安全研究员和开发者。",
+        "quickStart": {
+          "prerequisites": "Android手机一部",
+          "steps": [
+            "下载并安装项目的APK文件",
+            "打开应用，一键检测VPN/代理泄露风险"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目名称直接且具有冲击力，README开宗明义，通过场景驱动（罗скомнадзор、Мета Pixel）解释了痛点和必要性，并清晰列举了检测方法和原理，用户能快速理解。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数314，Issue开启1/关闭0，表明项目可能较新或处于早期阶段，社区活跃度尚待发展。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-12T04:35:01.003Z"
+    },
+    {
+      "owner": "MemPalace",
+      "repo": "mempalace",
+      "fullName": "MemPalace/mempalace",
+      "description": "The highest-scoring AI memory system ever benchmarked. And it's free.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "chromadb",
+        "llm",
+        "mcp",
+        "memory",
+        "python"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-05T01:12:07Z",
+      "url": "https://github.com/MemPalace/mempalace",
+      "analysis": {
+        "positioning": "最高分AI记忆系统，免费本地存储AI对话全貌。",
+        "useCases": [
+          "你与AI对话时总重复教它相同内容 → 它帮你记住所有历史对话细节，无需重复劳动。",
+          "你担心AI记忆系统丢失关键上下文 → 它帮你完整存储对话原文，确保信息不被摘要简化。",
+          "你关注数据隐私和使用成本 → 它帮你本地运行，数据自主掌控，零API费用。"
+        ],
+        "audience": "希望构建更智能、记忆力更强的AI应用，并注重数据隐私与成本的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "安装Python依赖",
+            "运行MemPalace服务"
+          ],
+          "note": "详细的快速启动指南请查阅官方README"
+        },
+        "competitors": [
+          {
+            "name": "其他AI记忆系统",
+            "method": "AI摘要/提取重点存储",
+            "models": "不限（通常依赖外部LLM）",
+            "pricing": "通常基于API调用，可能收费"
+          }
+        ],
+        "pricing": "完全免费，本地运行，无订阅，无云服务费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "在AI记忆系统领域性能卓越（基准测试最高分），同时免费且支持本地部署，解决了用户AI对话记忆丢失和隐私痛点，具有很强的实用价值和吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数远高于关闭数（389/97），表明社区活跃但未解决问题较多，响应速度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-12T04:35:32.483Z"
     }
   ]
 }
