@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-12T04:35:32.488Z",
+  "updatedAt": "2026-04-13T04:47:24.738Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -14753,6 +14753,738 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-12T04:35:32.483Z"
+    },
+    {
+      "owner": "0xAstroAlpha",
+      "repo": "Vidtory-Seedance-2.0-Drama-Studio",
+      "fullName": "0xAstroAlpha/Vidtory-Seedance-2.0-Drama-Studio",
+      "description": "AI-powered storyboard and short film creation tool — Vidtory Drama Studio",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-04-13T00:55:34Z",
+      "url": "https://github.com/0xAstroAlpha/Vidtory-Seedance-2.0-Drama-Studio",
+      "analysis": {
+        "positioning": "AI驱动，剧本到短片全自动创作工具。",
+        "useCases": [
+          "你制作短剧、动漫、预告片 → 它帮你实现从剧本到成片的全自动化生成。",
+          "你担心角色、场景在不同镜头间不一致 → 它帮你通过AI确保视觉统一性。",
+          "你寻求高效的影视内容批量生产 → 它提供一键式全流程工作流，支持多任务并行。"
+        ],
+        "audience": "适合内容创作者、自媒体、营销团队，以及需要批量、快速生产短视频内容的专业人士。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，基于AGPL-3.0开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标宏大，旨在实现剧本到短片全自动AI创作，功能覆盖全面且具备批量生产潜力，但目前Star数和社区活跃度较低，尚处早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度非常低，Issue 开启与关闭数均为0，表明项目仍处于初期或缺乏外部贡献与交流。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-13T04:43:30.364Z"
+    },
+    {
+      "owner": "vyfor",
+      "repo": "rattles",
+      "fullName": "vyfor/rattles",
+      "description": "🪇 Minimal terminal spinners for Rust",
+      "language": "Rust",
+      "topics": [
+        "animation",
+        "cli",
+        "no-std",
+        "ratatui",
+        "rattles",
+        "rust",
+        "spinner",
+        "spinners",
+        "terminal",
+        "tui"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-10T23:31:10Z",
+      "url": "https://github.com/vyfor/rattles",
+      "analysis": {
+        "positioning": "Rust极简终端加载动画库，零依赖，无运行时，即插即用。",
+        "useCases": [
+          "你构建Rust CLI应用 → 它帮你优雅展示长时间操作的进度。",
+          "你需要在资源受限或`no_std`环境中显示动态提示 → 它帮你轻松实现编译时自定义加载动画。",
+          "你追求终端动画库的极致轻量与集成便捷 → 它帮你避免额外运行时和生命周期管理。"
+        ],
+        "audience": "寻求极简、零依赖、高性能终端加载动画方案的Rust开发者，尤其适合CLI工具开发和嵌入式/`no_std`环境。",
+        "quickStart": {
+          "prerequisites": "已安装Rust和Cargo。",
+          "steps": [
+            "`cargo add rattles`",
+            "在Rust代码中使用预设或自定义加载动画，并在渲染循环中调用`current_frame()`更新打印。"
+          ],
+          "note": "对于`no_std`环境，需移除默认`std`特性，并采用外部时钟、索引或`tick`驱动动画。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极致轻量，零依赖，无运行时负担，不假设输出方式，让开发者直接在渲染循环中控制动画，完美体现了“不挡路”的哲学。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低（1个开启，0个关闭），可能说明项目非常稳定或社区参与度较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-13T04:43:53.187Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "obsidian-ai-orange-book",
+      "fullName": "alchaincyf/obsidian-ai-orange-book",
+      "description": "Obsidian + Claude Code: Rebuild Your Second Brain with AI · 橙皮书系列 · 用AI重建你的第二大脑",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-11T13:50:24Z",
+      "url": "https://github.com/alchaincyf/obsidian-ai-orange-book",
+      "analysis": {
+        "positioning": "用AI重塑Obsidian个人知识管理，告别信息坟场。",
+        "useCases": [
+          "你笔记杂乱，信息难找 → 它教你用AI系统性整理和检索知识。",
+          "你想高效利用LLM处理个人知识库 → 它提供基于Claude Code的实战工作流和Prompt。",
+          "你想搭建免费开源的AI驱动知识管理系统 → 它提供从安装到进阶的完整方法论与实践指南。"
+        ],
+        "audience": "适合希望借助AI提升个人知识管理效率的Obsidian用户、AI爱好者和开发者。",
+        "quickStart": {
+          "prerequisites": "Obsidian、Claude Code账号",
+          "steps": [
+            "下载PDF指南（中文或英文版）",
+            "按指南完成Obsidian安装及Claude Code接入"
+          ],
+          "note": "GitHub在线预览可能无法完整渲染，建议下载PDF文件阅读。"
+        },
+        "competitors": [
+          {
+            "name": "传统RAG知识库",
+            "method": "基于向量数据库的检索增强生成",
+            "models": "各类LLM",
+            "pricing": "免费或按API调用付费"
+          },
+          {
+            "name": "纯人工知识整理",
+            "method": "手动笔记整理、分类和维护",
+            "models": "null",
+            "pricing": "免费（时间成本高昂）"
+          }
+        ],
+        "pricing": "免费、开源，提供PDF下载。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "作者在AI领域经验丰富，内容深度结合方法论和实战，核心洞察新颖且有说服力，结构清晰，是高质量的AI时代知识管理指南。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues未启用，无法评估社区活跃度；作者在B站、公众号、X等平台有大量粉丝，社区活跃度应体现在这些渠道。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-13T04:44:10.030Z"
+    },
+    {
+      "owner": "momenbasel",
+      "repo": "PureMac",
+      "fullName": "momenbasel/PureMac",
+      "description": "Free, open-source macOS cleaner. CleanMyMac alternative with zero telemetry. Native SwiftUI, scheduled auto-cleaning, Xcode/Homebrew/system cache cleanup. MIT licensed.",
+      "language": "Swift",
+      "topics": [
+        "cache-cleaner",
+        "cleanmymac",
+        "cleanup",
+        "disk-cleaner",
+        "disk-space",
+        "homebrew",
+        "mac-utility",
+        "macos",
+        "macos-app",
+        "macos-cleaner",
+        "macosx",
+        "native",
+        "oss",
+        "osx",
+        "privacy",
+        "swift",
+        "swiftui",
+        "system-cleaner",
+        "xcode-cleaner"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-08T12:59:29Z",
+      "url": "https://github.com/momenbasel/PureMac",
+      "analysis": {
+        "positioning": "免费、开源的macOS清理工具，主打隐私无痕，CleanMyMac免费替代品。",
+        "useCases": [
+          "你经常需要清理macOS系统缓存、日志和临时文件 → 它能一键智能扫描并清理系统垃圾，释放硬盘空间。",
+          "你是开发者，Xcode和Homebrew缓存占用大量空间 → 它能帮你清理Xcode和Homebrew相关缓存，告别手动查找。",
+          "你担忧现有清理工具收集个人数据或强制订阅 → 它提供100%隐私、无遥测的免费清理方案，让你安心使用。"
+        ],
+        "audience": "追求隐私、不愿付费的macOS用户及开发者，尤其是经常清理Xcode/Homebrew缓存的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开终端，输入 `brew tap momenbasel/tap`",
+            "输入 `brew install --cask puremac` 完成安装"
+          ],
+          "note": "支持直接下载App或从源码构建。"
+        },
+        "competitors": [
+          {
+            "name": "CleanMyMac",
+            "method": "商业软件，功能全面，年订阅制或买断制",
+            "models": "macOS系统清理、优化、维护",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "完全免费，无订阅、无内购、无试用期。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为CleanMyMac的免费、开源、隐私替代品，尤其适合开发者清理Xcode/Homebrew缓存。基于SwiftUI原生开发，无遥测，无订阅，非常符合开发者社区的偏好和价值观。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数略高于关闭数，说明项目仍有待解决的问题，但有持续关注。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-13T04:44:23.018Z"
+    },
+    {
+      "owner": "hexiecs",
+      "repo": "talk-normal",
+      "fullName": "hexiecs/talk-normal",
+      "description": "Make any LLM talk like a normal person. A system prompt that removes AI slop.",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-08T23:58:35Z",
+      "url": "https://github.com/hexiecs/talk-normal",
+      "analysis": {
+        "positioning": "用系统Prompt，让LLM输出更简洁、更像人话。",
+        "useCases": [
+          "你觉得LLM回答太啰嗦 → 它帮你精简输出，去除AI腔调。",
+          "你希望LLM直接给答案 → 它帮你消除废话，直达信息核心。"
+        ],
+        "audience": "所有希望LLM回复更简洁、更高效的用户和开发者。",
+        "quickStart": {
+          "prerequisites": "能访问并使用支持系统Prompt的LLM服务或本地模型。",
+          "steps": [
+            "复制talk-normal项目提供的系统Prompt文本。",
+            "将该Prompt配置为你所用LLM的系统指令。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心是一个系统Prompt，旨在优化LLM输出，不涉及明显的艺术性或个人风格代码。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 开启0/关闭0，社区活跃度较低。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-13T04:44:38.716Z"
+    },
+    {
+      "owner": "retlehs",
+      "repo": "quien",
+      "fullName": "retlehs/quien",
+      "description": "A better WHOIS lookup tool",
+      "language": "Go",
+      "topics": [
+        "asn",
+        "bgp",
+        "bimi",
+        "cli",
+        "core-web-vitals",
+        "cwv",
+        "dkim",
+        "dmarc",
+        "dns",
+        "domain",
+        "golang",
+        "ip-lookup",
+        "nameservers",
+        "peeringdb",
+        "quien",
+        "rdap",
+        "seo",
+        "spf",
+        "tls",
+        "whois"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-10T02:53:42Z",
+      "url": "https://github.com/retlehs/quien",
+      "analysis": {
+        "positioning": "全能WHOIS查询与网站深度分析命令行工具。",
+        "useCases": [
+          "你查询域名或IP → 它给你一个交互式界面，聚合展示WHOIS、DNS、邮件配置、SSL/TLS、HTTP头、技术栈和SEO分析。",
+          "你优化网站SEO和性能 → 它帮你检查页面元素、结构化数据、机器人协议，并提供Core Web Vitals字段数据和历史趋势。",
+          "你进行自动化脚本开发 → 它提供JSON输出模式，方便你集成WHOIS、DNS、邮件等查询结果。"
+        ],
+        "audience": "适合需要快速获取域名/IP详细信息、分析网站技术栈、进行SEO诊断及性能优化的开发者、系统管理员、安全研究员和SEO专家。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "ssh quien.sh"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "whois (CLI工具)",
+            "method": "`whois example.com`",
+            "models": "N/A (仅提供原始WHOIS数据)",
+            "pricing": "免费"
+          },
+          {
+            "name": "各种在线WHOIS查询服务 (如 DomainTools, GoDaddy WHOIS)",
+            "method": "网页端输入域名查询",
+            "models": "N/A (聚合WHOIS数据，部分提供简单DNS/IP信息)",
+            "pricing": "免费（基础功能），高级分析可能收费"
+          }
+        ],
+        "pricing": "免费 (工具开源免费，依赖的CrUX API亦免费)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "交互式TUI设计精美，功能远超传统WHOIS，集成了DNS、邮件、SSL/TLS、HTTP、技术栈、SEO及Core Web Vitals等深度分析，且提供了便捷的安装和试用方式（`ssh quien.sh`）。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量不多（3开/4关），但响应和处理速度看起来不错。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-13T04:44:53.180Z"
+    },
+    {
+      "owner": "dominikmartn",
+      "repo": "ProgressiveBlurHeader",
+      "fullName": "dominikmartn/ProgressiveBlurHeader",
+      "description": "Drop-in SwiftUI component for sticky headers with progressive blur — like Apple Music, Photos, and App Store. Content scrolls underneath with increasing blur, never clipped.",
+      "language": "Swift",
+      "topics": [
+        "blur",
+        "ios",
+        "progressive-blur",
+        "sticky-header",
+        "swift",
+        "swift-package",
+        "swiftui",
+        "uikit"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-09T04:50:25Z",
+      "url": "https://github.com/dominikmartn/ProgressiveBlurHeader",
+      "analysis": {
+        "positioning": "SwiftUI渐变模糊粘性头部组件，仿Apple系App效果。",
+        "useCases": [
+          "你做SwiftUI界面 → 它帮你轻松实现Apple Music/Photos风格的渐变模糊粘性头部，避免内容剪裁。",
+          "你尝试原生API或AI助手实现渐变模糊 → 它提供一行代码的解决方案，规避硬边、模糊不均等常见问题。",
+          "你想在SwiftUI中复刻iOS系统级UI动效 → 它利用与Apple内部相似的私有API，实现平滑自然的模糊效果。"
+        ],
+        "audience": "寻求在SwiftUI中实现高质量、系统级渐变模糊粘性头部的iOS/macOS开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在Xcode中，通过“File → Add Package Dependencies”添加包URL: `https://github.com/dominikmartn/ProgressiveBlurHeader`。",
+            "在你的SwiftUI `View` 中，用 `StickyBlurHeader` 包裹头部和滚动内容。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "SwiftUI原生API/手动实现",
+            "method": "组合`blur()`修饰符、背景等进行尝试",
+            "models": "N/A",
+            "pricing": "免费 (但开发成本高，效果不佳)"
+          },
+          {
+            "name": "AI编程助手",
+            "method": "提示生成代码",
+            "models": "N/A",
+            "pricing": "通常免费部分或订阅 (项目明确指出AI助手难以搞定此模式)"
+          }
+        ],
+        "pricing": "MIT License，完全免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了SwiftUI中一个“出乎意料地难”的问题（渐变模糊粘性头部），用一行代码提供苹果级UI效果，AI助手都难以搞定，极大提升开发效率和体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0开/0关，社区活跃度待观察，或项目十分稳定无需Issue。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-04-13T04:45:07.871Z"
+    },
+    {
+      "owner": "Xiangyue-Zhang",
+      "repo": "auto-deep-researcher-24x7",
+      "fullName": "Xiangyue-Zhang/auto-deep-researcher-24x7",
+      "description": "🔥 An autonomous AI agent that runs your deep learning experiments 24/7 while you sleep. Zero-cost monitoring, Leader-Worker architecture, constant-size memory.",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "autonomous-agent",
+        "claude-code",
+        "deep-learning",
+        "experiment-automation",
+        "gpu",
+        "hyperparameter-tuning",
+        "llm-agent",
+        "machine-learning",
+        "mlops",
+        "pytorch",
+        "research-automation"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-08T04:48:26Z",
+      "url": "https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7",
+      "analysis": {
+        "positioning": "7x24小时自主AI智能体，自动化深度学习实验。",
+        "useCases": [
+          "你深夜想跑新模型实验 → 它帮你7x24小时自动运行并监控。",
+          "你需要调优模型超参数 → 它帮你实现自动化超参数调整。",
+          "你想实时追踪实验进度 → 它提供零成本监控，支持Obsidian实时看板。"
+        ],
+        "audience": "深度学习研究员、ML工程师，希望自动化实验、调参和监控，提升科研效率。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+，1个或更多NVIDIA GPU，Anthropic或OpenAI API key，`PROJECT_BRIEF.md`",
+          "steps": [
+            "创建项目文件夹，内含`PROJECT_BRIEF.md`文件",
+            "运行`/auto-experiment --project /path/to/project --gpu 0`",
+            "通过`/experiment-status`或Obsidian/本地文件查看进度"
+          ],
+          "note": "支持AI引导式设置；Obsidian为可选，无配置时进度记录至本地文本文件。"
+        },
+        "competitors": [],
+        "pricing": "核心Agent免费，但需自备Anthropic或OpenAI的LLM API密钥并支付其调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "目标明确，核心痛点解决（7x24小时实验自动化），架构清晰，支持多LLM，且持续活跃更新，项目潜力大。",
+        "isVibeCoding": true,
+        "communityActivity": "项目活跃度良好，有持续的功能更新和用户issue的反馈解决。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-13T04:45:22.115Z"
+    },
+    {
+      "owner": "millionco",
+      "repo": "isolet",
+      "fullName": "millionco/isolet",
+      "description": "Package any component into a self-contained, isolated widget",
+      "language": "TypeScript",
+      "topics": [
+        "iife",
+        "isolet",
+        "widget"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-09T06:34:39Z",
+      "url": "https://github.com/millionco/isolet",
+      "analysis": {
+        "positioning": "将任何UI组件打包成自包含、隔离的微件。",
+        "useCases": [
+          "你有一个现成的UI组件（React/Vue/Svelte）→ 它帮你无缝嵌入任意网页，免除样式和逻辑冲突。",
+          "你需要分发可独立运行的UI功能（如客服聊天窗、广告位）→ 它帮你构建可直接部署的JS微件，支持多种加载方式（script tag/ESM）。",
+          "你开发跨框架UI组件库，需确保各组件隔离渲染 → 它帮你统一打包，提供Shadow DOM隔离环境，样式不泄露不污染。"
+        ],
+        "audience": "前端开发者，尤其是需要将UI组件分发、嵌入到异构环境，或构建无框架依赖微件的。",
+        "quickStart": {
+          "prerequisites": "Node.js (npm/yarn)",
+          "steps": [
+            "安装依赖：`npm install isolet-js`",
+            "创建微件：使用`createIsolet`包装你的组件，并定义名称、挂载逻辑和CSS。",
+            "构建发布：配置`isolet.config.ts`并运行`npx isolet-js build`生成自包含微件包。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "原生Web Components",
+            "method": "浏览器原生API，如Custom Elements、Shadow DOM",
+            "models": "HTML、JS、CSS",
+            "pricing": "免费"
+          },
+          {
+            "name": "iframe",
+            "method": "HTML `<iframe>` 标签嵌入",
+            "models": "任何网页内容",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确标注“非常实验性”，API可能随时变化，Star数偏低（296），且Issue统计为0/0，表明项目处于非常早期或用户参与度极低，生产使用风险较高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区空空如也，表明项目仍在早期阶段或用户参与度不高。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-13T04:45:38.470Z"
+    },
+    {
+      "owner": "renatoworks",
+      "repo": "3dsvg",
+      "fullName": "renatoworks/3dsvg",
+      "description": "The easiest way to turn SVGs into interactive React 3D components",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-09T07:33:41Z",
+      "url": "https://github.com/renatoworks/3dsvg",
+      "analysis": {
+        "positioning": "将SVG轻松转化为可交互的React 3D组件。",
+        "useCases": [
+          "你有一个SVG图标或文字 → 它帮你将其轻松变成可旋转、带材质的3D组件嵌入React应用。",
+          "你想快速设计并导出3D图形 → 它提供在线编辑器，可选择材质、动画，并导出图片、视频或3D模型。",
+          "你需要为网站添加引人注目的3D元素 → 它生成即用的JSX代码，直接集成到你的前端项目。"
+        ],
+        "audience": "前端开发者、UI/UX设计师和内容创作者，希望快速为网站或应用添加交互式3D SVG元素。",
+        "quickStart": {
+          "prerequisites": "Node.js 和 npm/yarn",
+          "steps": [
+            "嵌入组件：`npm install 3dsvg`，然后在React组件中引入`<SVG3D />`。",
+            "本地运行在线编辑器：克隆项目，`npm install`，`npm run build:engine`，`npm run dev:web` 后访问 `http://localhost:3000`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，MIT开源许可证。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "将平面SVG一键转为可交互3D，自带强大在线编辑器，支持多种导出格式，极大提升前端视觉表现力和开发效率，极具未来感。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数291，Issue开启2/关闭0。活跃度一般，Issue响应速度有待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-13T04:45:51.684Z"
+    },
+    {
+      "owner": "JinGuYuan",
+      "repo": "jinguyuan-dumpling-skill",
+      "fullName": "JinGuYuan/jinguyuan-dumpling-skill",
+      "description": "金谷园饺子馆 AI Skill - 北邮边上的饺子馆",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-07T11:43:27Z",
+      "url": "https://github.com/JinGuYuan/jinguyuan-dumpling-skill",
+      "analysis": {
+        "positioning": "金谷园饺子馆AI技能，为AI助手提供餐厅信息查询与美团排队服务。",
+        "useCases": [
+          "你想知道金谷园饺子馆在哪、几点开门 → AI帮你快速查询餐厅信息。",
+          "你不想排队干等 → AI帮你通过美团在线取号、查询进度、甚至取消排队，无需打开App。",
+          "你想了解外卖、生饺子打包、Wi-Fi密码或最新活动 → AI帮你一站式获取餐厅官方信息。"
+        ],
+        "audience": "AI助手用户，尤其是金谷园饺子馆的常客或潜在顾客，希望通过AI助手便捷获取餐厅服务与信息。",
+        "quickStart": {
+          "prerequisites": "已部署并配置好AI助手环境（支持MCP协议）。",
+          "steps": [
+            "直接向AI助手发送安装指令：`帮我安装金谷园饺子馆 Skill，仓库地址：https://gitee.com/JinGuYuan/jinguyuan-dumpling-skill`",
+            "或手动将仓库克隆到AI助手的Skill目录（如`.qoder/skills/jinguyuan-dumpling-skill/`）"
+          ],
+          "note": "支持Qoder, Cursor, Trae, Windsurf, Claude Code等主流AI开发环境，只要Skill目录下有`SKILL.md`即可加载。"
+        },
+        "competitors": [
+          {
+            "name": "美团App",
+            "method": "手动打开美团App，搜索金谷园进行排队、点外卖等操作。",
+            "models": "N/A",
+            "pricing": "免费App，部分服务可能产生费用"
+          },
+          {
+            "name": "电话咨询/到店询问",
+            "method": "直接拨打餐厅电话或到店咨询服务人员，获取信息或排队。",
+            "models": "N/A",
+            "pricing": "通讯费或免费"
+          }
+        ],
+        "pricing": "免费，项目本身开源（MIT License）且无额外收费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，功能实用且解决具体痛点。README文档详细，包含了核心功能、安装方式和技术栈。作为AI助手的一个特定领域技能，其设计和文档质量都较好。Issues统计显示有反馈但解决进度需关注。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃但解决进度较慢（15开/0关），社区贡献和维护积极性有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-13T04:46:10.057Z"
+    },
+    {
+      "owner": "imbue-ai",
+      "repo": "bouncer",
+      "fullName": "imbue-ai/bouncer",
+      "description": "Heal your social media feeds",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-04-10T18:10:44Z",
+      "url": "https://github.com/imbue-ai/bouncer",
+      "analysis": {
+        "positioning": "AI驱动的浏览器扩展，实时净化你的Twitter/X时间线。",
+        "useCases": [
+          "你厌倦Twitter/X上的“加密货币”讨论 → 它帮你过滤所有相关推文。",
+          "你想避开煽动性“政治话题”→ 它帮你识别并隐藏此类帖子。",
+          "你关注内容隐私 → 它支持本地AI推理，不发送数据。"
+        ],
+        "audience": "Twitter/X用户，希望通过AI过滤个性化内容，改善社交媒体体验。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问Chrome Web Store。",
+            "点击“安装Bouncer”按钮。"
+          ],
+          "note": "iOS用户可从App Store直接安装。"
+        },
+        "competitors": [],
+        "pricing": "部分免费。核心功能与内置模型免费，使用高级云端AI模型需自备API Key。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "直击社交媒体信息过载痛点，提供灵活的AI过滤方案（本地/云端、多模态），且关注用户隐私和透明度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比健康 (16/7)，显示项目有活跃维护和用户参与。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-13T04:46:21.773Z"
+    },
+    {
+      "owner": "dodo-reach",
+      "repo": "hermes-desktop",
+      "fullName": "dodo-reach/hermes-desktop",
+      "description": "A native Mac workspace for Hermes: real SSH, real terminal, real session data.",
+      "language": "Swift",
+      "topics": [
+        "agent-tools",
+        "apple-silicon",
+        "developer-tools",
+        "hermes",
+        "hermes-agent",
+        "macos",
+        "remote-development",
+        "ssh",
+        "swift",
+        "swiftui",
+        "terminal"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-08T22:56:34Z",
+      "url": "https://github.com/dodo-reach/hermes-desktop",
+      "analysis": {
+        "positioning": "Hermes Agent 的原生 macOS 工作区，提供SSH终端与数据管理。",
+        "useCases": [
+          "你已使用 Hermes Agent → 它在 Mac 上提供原生、集成的 Hermes 工作流，无浏览器封装。",
+          "你想编辑 Hermes Agent 配置 → 它提供冲突感知的文件编辑体验，如记忆、灵魂文件。",
+          "你想管理 Hermes Agent 数据 → 它展示会话、技能、使用统计等数据，并支持会话浏览和删除。"
+        ],
+        "audience": "现有 Hermes Agent 用户，想在 macOS 上获得更流畅、原生的 SSH 远程开发和数据管理体验。",
+        "quickStart": {
+          "prerequisites": "macOS 14+；已配置无密码登录且接受主机密钥的SSH访问；Hermes主机已安装Python3且数据在~/.hermes下。",
+          "steps": [
+            "下载并安装 Hermes Desktop。",
+            "在应用内连接满足前置条件的 Hermes 主机。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "VS Code Remote Development",
+            "method": "本地VS Code客户端通过SSH连接远程，本地镜像文件。",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "JetBrains Gateway",
+            "method": "本地JetBrains客户端通过SSH连接远程，远程处理代码，本地镜像部分文件。",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "基于 SwiftUI 的原生 Mac 应用，强调“真实”SSH体验与对 Hermes Agent 数据的深度集成，无浏览器封装，不依赖网关，不本地镜像文件，专注于为 Hermes 用户提供高效、原生的远程工作流。MIT 许可证，支持 Apple Silicon。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 数量少且暂无关闭记录。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-04-13T04:46:52.336Z"
+    },
+    {
+      "owner": "CodMughees",
+      "repo": "envradar",
+      "fullName": "CodMughees/envradar",
+      "description": "Catch undocumented, unused, and drifting environment variables in your repo",
+      "language": "Python",
+      "topics": [
+        "cli",
+        "developer-tools",
+        "devops",
+        "productivity",
+        "python"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-07T21:27:39Z",
+      "url": "https://github.com/CodMughees/envradar",
+      "analysis": {
+        "positioning": "发现并管理代码仓库中未文档化、未使用或漂移的环境变量。",
+        "useCases": [
+          "你维护项目 → 它帮你消除因环境变量不一致导致的新手入坑、部署失败和“在我机器上能跑”的问题。",
+          "你准备发布或合并代码 → 它帮你发现代码中使用了但未在`.env.example`中声明的环境变量。",
+          "你检查CI/CD安全 → 它帮你识别仅在CI中出现且可能需要额外关注的秘密变量。"
+        ],
+        "audience": "项目维护者、DevOps工程师和开发者，用于确保团队内环境配置的一致性和透明性。",
+        "quickStart": {
+          "prerequisites": "GitHub仓库，已启用GitHub Actions",
+          "steps": [
+            "在你的GitHub仓库中，创建一个或编辑一个workflow文件（例如`.github/workflows/envradar.yml`）。",
+            "添加以下配置，使其在push或pull_request事件时运行，并可配置为在发现问题时阻止合并：\n```yaml\nname: envradar\non:\n  pull_request:\n  push:\n    branches: [main]\n\njobs:\n  scan:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: read\n    steps:\n      - uses: actions/checkout@v5\n      - id: envradar\n        uses: CodMughees/envradar@v1\n        with:\n          fail-on-findings: \"true\"\n          report-format: markdown\n          report-file: docs/envradar-report.md\n      - name: Print summary counts\n        run: |\n          echo \"strict findings: ${{ steps.envradar.outputs.strict-findings }}\"\n          echo \"missing vars:    ${{ steps.envradar.outputs.missing-count }}\"\n```"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，解决了开发者和团队在环境变量管理中常见的痛点，提供了CLI和GitHub Action两种实用集成方式，支持多语言和多种文件类型扫描，且有严格模式可用于CI/CD，非常实用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示活跃度一般（0/0），但项目具备实用性和潜力。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-04-13T04:47:09.560Z"
+    },
+    {
+      "owner": "jure",
+      "repo": "webphysics",
+      "fullName": "jure/webphysics",
+      "description": "WebGPU physics engine based on the AVBD solver",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-08T18:38:13Z",
+      "url": "https://github.com/jure/webphysics",
+      "analysis": {
+        "positioning": "基于WebGPU和AVBD求解器的实验性高性能物理引擎原型",
+        "useCases": [
+          "你研究前沿物理求解器 → 它提供WebGPU上AVBD算法的实现细节和验证平台",
+          "你探索WebGPU的计算极限 → 它展示WebGPU在复杂刚体/软体物理模拟中的高性能应用",
+          "你开发未来Web图形应用 → 它可以作为你构建自定义高性能物理引擎的参考和实验基础"
+        ],
+        "audience": "WebGPU开发者、物理引擎研究人员，或寻求高性能Web图形物理效果的实验性项目贡献者",
+        "quickStart": {
+          "prerequisites": "Node.js, 支持WebGPU的Chrome浏览器",
+          "steps": [
+            "`npm install`",
+            "`npm run dev`"
+          ],
+          "note": "非即插即用模块，仅为概念验证，目前仅支持Chrome"
+        },
+        "competitors": [
+          {
+            "name": "cannon-es",
+            "method": "JavaScript库",
+            "models": "刚体物理",
+            "pricing": "免费"
+          },
+          {
+            "name": "Rapier.js",
+            "method": "WebAssembly/Rust库",
+            "models": "刚体、软体物理",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "高度实验性的WebGPU物理引擎原型，专注于AVBD等前沿求解器技术，代码质量高，但目前仅限概念验证，非生产可用，且浏览器支持有限。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue数量极少。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-13T04:47:24.732Z"
     }
   ]
 }
