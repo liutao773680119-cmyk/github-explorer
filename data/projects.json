@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-13T04:47:24.738Z",
+  "updatedAt": "2026-04-14T04:32:54.442Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -15485,6 +15485,406 @@
         "category": "其他"
       },
       "analyzedAt": "2026-04-13T04:47:24.732Z"
+    },
+    {
+      "owner": "ChatPRD",
+      "repo": "tradclaw",
+      "fullName": "ChatPRD/tradclaw",
+      "description": "AI openclaw mom and household manager for agentic parenting",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-14T00:37:56Z",
+      "url": "https://github.com/ChatPRD/tradclaw",
+      "analysis": {
+        "positioning": "基于OpenClaw的家庭AI助手，实现自动化家庭管理。",
+        "useCases": [
+          "你管理家庭日程 → 它帮你汇总日历、安排接送与活动。",
+          "你处理学校信息 → 它帮你智能筛选、归类邮件与通知。",
+          "你规划三餐购物 → 它帮你制定膳食计划、生成购物清单。",
+          "你记录孩子学习 → 它帮你通过照片记录作业、管理家庭藏书。"
+        ],
+        "audience": "适合希望通过AI自动化管理家庭事务的父母或家庭管理者，解决日常家庭事务繁琐、需要高效协同的场景。",
+        "quickStart": {
+          "prerequisites": "你需要一个运行中的OpenClaw助手实例。",
+          "steps": [
+            "将指定的指令发送给你的OpenClaw助手，让其读取Tradclaw仓库。",
+            "根据助手引导完成初始化访谈，定制`workspace/`文件。",
+            "将定制后的`workspace/`内容复制到你的OpenClaw根目录。"
+          ],
+          "note": "如果自托管或需要本地文件访问，请替换URL或克隆仓库。"
+        },
+        "competitors": [],
+        "pricing": "免费，这是一个开源的启动模板，主要成本在于运行OpenClaw实例。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是OpenClaw的AI代理模板，需要一定的技术知识来部署和定制。但其核心功能是面向家庭日常管理的非编程任务，如日程、购物、作业记录等，最终服务于普通家庭用户。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前只有一个Issue待处理，响应速度未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-14T04:29:43.043Z"
+    },
+    {
+      "owner": "quinngarcia41",
+      "repo": "Identity-Lab-Spoofer",
+      "fullName": "quinngarcia41/Identity-Lab-Spoofer",
+      "description": "HWID Spoofer, hwidspoofer, hwidspoof, spoof machine, machine spoofing, machine spoofer, ban bypass, bypass ban, hwid bypass, bypass hwid",
+      "language": "C#",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-14T00:22:07Z",
+      "url": "https://github.com/quinngarcia41/Identity-Lab-Spoofer",
+      "analysis": {
+        "positioning": "一个用于伪装硬件ID，绕过游戏或系统封禁的工具。",
+        "useCases": [
+          "你因游戏作弊被HWID封禁 → 它帮你伪装新硬件身份，继续玩游戏。",
+          "你希望在安全或逆向工程领域进行研究 → 它提供Windows内核驱动代码，用于低级存储/设备路径研究。",
+          "你在虚拟机中学习或测试内核驱动 → 它提供测试签名的驱动项目，可用于实验与调试。"
+        ],
+        "audience": "寻求绕过游戏HWID封禁的玩家，以及进行硬件身份伪装、或内核驱动研究的安全人员和开发者。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统，已安装.NET 8运行时，并可能需要在测试环境下启用驱动测试签名。",
+          "steps": [
+            "下载并编译C# UI项目，生成主应用程序。",
+            "编译内核驱动(.sys)项目，并在测试环境中加载驱动。",
+            "运行编译后的C#应用程序，通过直观UI界面进行硬件ID伪装操作。"
+          ],
+          "note": "强烈建议在自己拥有的机器、隔离测试环境和符合当地法律及软件服务条款的条件下使用。内核驱动可能导致系统不稳定。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目界面设计精良，技术栈（C# UI + 内核驱动）现代化且复杂，文档详细。但项目相对较新，社区活跃度（Stars和Issue）不高，仍需时间验证其稳定性和成熟度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue提交或解决，Star数不高。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-14T04:29:58.588Z"
+    },
+    {
+      "owner": "Mouseww",
+      "repo": "anything-analyzer",
+      "fullName": "Mouseww/anything-analyzer",
+      "description": "利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器行为 的协议分析文档",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-12T09:12:57Z",
+      "url": "https://github.com/Mouseww/anything-analyzer",
+      "analysis": {
+        "positioning": "AI驱动的Web协议分析器，操作即生成逆向文档与代码。",
+        "useCases": [
+          "逆向API协议 → 自动生成API文档与Python代码",
+          "分析JS加密 → 自动还原加密算法并提供Python实现",
+          "审计网站安全 → 获取潜在漏洞、数据泄露风险报告"
+        ],
+        "audience": "适合需快速逆向Web协议、分析加密、安全审计并获取复现代码的开发者、研究员。",
+        "quickStart": {
+          "prerequisites": "Node.js环境",
+          "steps": [
+            "安装并运行Anything Analyzer",
+            "在内置浏览器中完成目标网站操作"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Chrome DevTools",
+            "method": "手动抓包、逐条分析",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Fiddler/Charles",
+            "method": "通过代理抓包、手动分析",
+            "models": "N/A",
+            "pricing": "免费试用/付费"
+          }
+        ],
+        "pricing": "工具本身开源免费。AI分析功能需自备OpenAI/Anthropic等LLM服务API Key，费用自理。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心价值在于利用AI自动化了Web协议逆向、加密还原、安全审计及生成复现代码等高度依赖编码和分析技能的工作，显著提升开发者效率，且能直接产出Python代码，属于典型的Vibe Coding工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数430，Issues开启2/关闭1，项目有一定关注度但社区活跃度较低，可能处于早期或个人维护阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-14T04:30:39.604Z"
+    },
+    {
+      "owner": "cnitlrt",
+      "repo": "AutoTeam",
+      "fullName": "cnitlrt/AutoTeam",
+      "description": "ChatGPT Team 账号自动轮转管理 - Codex 额度监控、自动换号、CPA 认证同步",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-10T20:14:56Z",
+      "url": "https://github.com/cnitlrt/AutoTeam",
+      "analysis": {
+        "positioning": "自动管理ChatGPT Team账号，确保Codex额度持续可用。",
+        "useCases": [
+          "你需要批量获取Codex API额度 → 它自动创建、注册ChatGPT Team账号并获取认证。",
+          "你的Codex额度即将耗尽 → 它智能轮换账号，确保API调用不中断。",
+          "你希望集中管理多个ChatGPT Team账号 → 它提供Web面板，统一监控、操作、同步认证文件。"
+        ],
+        "audience": "面向需要大规模、自动化使用ChatGPT Team/Codex API的开发者、AI应用构建者或研究者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+ 环境，Docker (可选)。",
+          "steps": [
+            "安装依赖：`bash setup.sh` 或 `uv sync && uv run playwright install chromium`。",
+            "启动服务：`uv run autoteam api` 访问Web面板，或 `uv run autoteam rotate` 直接轮转。"
+          ],
+          "note": "首次启动会自动引导配置并验证连接。"
+        },
+        "competitors": [
+          {
+            "name": "手动管理/自定义脚本",
+            "method": "人工注册、手动切换账号，或自行编写浏览器自动化脚本",
+            "models": "ChatGPT Team/Codex",
+            "pricing": "免费（时间成本高）"
+          },
+          {
+            "name": "商业多账号管理服务",
+            "method": "通用型多账号管理平台，需定制集成以支持ChatGPT Team特定流程",
+            "models": "N/A (通用)",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（项目本身），但依赖付费的ChatGPT Team服务。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目功能全面，涵盖账号注册、额度监控、智能轮转和CPA同步，并提供Web面板和Docker一键部署。文档清晰，技术栈现代。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有1个开启Issue且无关闭记录，响应速度未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-14T04:31:09.811Z"
+    },
+    {
+      "owner": "patterniha",
+      "repo": "SNI-Spoofing",
+      "fullName": "patterniha/SNI-Spoofing",
+      "description": "Bypass DPI with IP/TCP-Header manipulation",
+      "language": "Python",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-04-12T10:47:30Z",
+      "url": "https://github.com/patterniha/SNI-Spoofing",
+      "analysis": {
+        "positioning": "基于Python，通过操纵IP/TCP头绕过DPI检测的网络穿透工具。",
+        "useCases": [
+          "你遇到网络审查或限制 → 它帮你绕过DPI，访问受限内容。",
+          "你想隐藏网络流量特征 → 它帮你伪装SNI，降低被检测风险。",
+          "你进行网络安全测试 → 它为你提供DPI绕过技术以测试网络防御。"
+        ],
+        "audience": "适合需要突破网络审查和限制的开发者、网络安全研究人员及技术用户。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "克隆项目仓库",
+            "运行Python脚本实现DPI绕过"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费使用，接受加密货币捐赠。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数中等（350），核心功能（绕过DPI）具有较高实用性。Python语言和GPLv3开源。但Issue全部开启且未有关闭记录（4/0），表明社区活跃度或维护响应能力存疑，README内容较少，未提供详细使用文档。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue全部开启，未有关闭记录，社区活跃度或维护响应能力存疑。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-14T04:31:36.869Z"
+    },
+    {
+      "owner": "lzhgus",
+      "repo": "Capso",
+      "fullName": "lzhgus/Capso",
+      "description": "Open-source screenshot and screen recording for macOS. The free, native alternative to CleanShot X. Built with Swift 6.0 and SwiftUI.",
+      "language": "Swift",
+      "topics": [
+        "annotation",
+        "cleanshot-alternative",
+        "macos",
+        "ocr",
+        "open-source",
+        "screen-recording",
+        "screenshot",
+        "swift",
+        "swiftui"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-10T03:45:37Z",
+      "url": "https://github.com/lzhgus/Capso",
+      "analysis": {
+        "positioning": "macOS免费开源截图录屏工具，CleanShot X最佳替代。",
+        "useCases": [
+          "你需要精确截图、全屏截图或窗口截图 → 它帮你快速捕捉屏幕画面。",
+          "你需要录制屏幕操作教程或演示 → 它帮你制作带画中画、音频的视频/GIF。",
+          "你需要对截图或录屏进行标注、OCR识别或编辑 → 它提供多种工具方便你说明和处理。"
+        ],
+        "audience": "macOS用户，尤其是那些寻求免费、功能强大且原生体验的CleanShot X替代品的开发者、内容创作者和日常用户。",
+        "quickStart": {
+          "prerequisites": "macOS 15.0+，首次使用需授予屏幕录制、相机、麦克风权限。",
+          "steps": [
+            "从GitHub Releases下载最新DMG文件并安装。",
+            "或使用Homebrew：`brew tap lzhgus/tap` 然后 `brew install --cask capso`。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "CleanShot X",
+            "method": "macOS应用",
+            "models": "截图、录屏、标注等",
+            "pricing": "付费($29)"
+          },
+          {
+            "name": "Cap",
+            "method": "macOS应用",
+            "models": "截图、录屏等",
+            "pricing": "付费($58)"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目技术栈新（Swift 6.0, SwiftUI），架构模块化，功能对标商业软件且免费开源，有明确的社区回馈理念，是一个高质量的开源项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，但开启和关闭的Issue比例健康（5/7），表明维护者有在积极解决问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-14T04:31:48.660Z"
+    },
+    {
+      "owner": "tianxingleo",
+      "repo": "ACGTI",
+      "fullName": "tianxingleo/ACGTI",
+      "description": "ACG Type Indicator - MBTI inspired anime persona quiz",
+      "language": "TypeScript",
+      "topics": [
+        "acg",
+        "acgti",
+        "mbti",
+        "sbti"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-10T09:49:33Z",
+      "url": "https://github.com/tianxingleo/ACGTI",
+      "analysis": {
+        "positioning": "基于MBTI的二次元人格原型测试站点。",
+        "useCases": [
+          "你对二次元角色感兴趣 → 它帮你通过情境问答找到匹配的二次元人格原型。",
+          "你发现自己的二次元人格 → 它帮你生成精美结果图一键分享给同好。",
+          "你想了解MBTI在二次元语境下的表达 → 它帮你直观展现你的思维倾向。"
+        ],
+        "audience": "二次元爱好者、MBTI玩家，寻求娱乐性人格探索的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目官网（acgti.tianxingleo.top）",
+            "开始答题，获取你的二次元人格报告"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "16Personalities",
+            "method": "在线问卷测试",
+            "models": "MBTI 16型人格",
+            "pricing": "免费（基础报告）"
+          },
+          {
+            "name": "各种在线二次元角色测试",
+            "method": "在线问卷或选择",
+            "models": "基于特定动漫角色属性",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "二次元主题与MBTI结合，界面精美，交互流畅。纯前端架构保障用户隐私和体验，独特且符合潮流，能很好抓住目标用户。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率高，社区活跃度良好。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-14T04:32:08.018Z"
+    },
+    {
+      "owner": "millionco",
+      "repo": "cli-to-js",
+      "fullName": "millionco/cli-to-js",
+      "description": "Turn any CLI into a JavaScript API",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "api",
+        "cli",
+        "node"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-11T03:01:45Z",
+      "url": "https://github.com/millionco/cli-to-js",
+      "analysis": {
+        "positioning": "将任意CLI命令行工具自动化转为类型安全的JavaScript API。",
+        "useCases": [
+          "你手动运行`git`命令行查看最近变更文件 → 它帮你通过JS代码`git.diff()`获取，并返回结构化结果。",
+          "你手动运行`claude`命令行进行文件审查 → 它帮你通过JS代码`claude()`调用AI，获取审查结果。",
+          "你的AI Agent需要与CLI工具交互，但偏好结构化API → 它让Agent直接调用生成类型安全的API，避免编写复杂的shell命令。"
+        ],
+        "audience": "适合希望将现有CLI工具自动化、尤其需要为AI Agent提供结构化CLI接口的开发者。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js和npm/yarn，并有需要包装的CLI工具。",
+          "steps": [
+            "安装：`npm install cli-to-js`",
+            "导入并转换：`import { convertCliToJs } from \"cli-to-js\"; const api = await convertCliToJs(\"my-tool\");`",
+            "调用：`const result = await api.build({ output: \"dist\", minify: true });`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目非常实验性，API可能变动，但其理念、自动类型生成和Agent集成能力非常吸引人。代码示例干净，TypeScript支持出色，提供了高级的开发体验。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常早期，Issue 统计为开启 1 / 已关闭 0，活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-14T04:32:23.101Z"
+    },
+    {
+      "owner": "forrestchang",
+      "repo": "andrej-karpathy-skills",
+      "fullName": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-01-27T03:53:13Z",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "analysis": {
+        "positioning": "优化Claude代码生成质量的Prompt指南。",
+        "useCases": [
+          "你使用Claude生成代码 → 它帮你减少不必要的假设和困惑。",
+          "你希望Claude生成简洁高效代码 → 它帮你避免代码过度复杂和抽象。",
+          "你让Claude修改现有代码 → 它帮你确保只做外科手术式精准修改。"
+        ],
+        "audience": "Claude开发者，希望提升AI生成代码的质量、准确性和简洁性。",
+        "quickStart": {
+          "prerequisites": "需要使用Claude模型或兼容的Agent平台。",
+          "steps": [
+            "复制`CLAUDE.md`文件中的原则和指令。",
+            "将这些内容作为系统Prompt或前置指令输入Claude。"
+          ],
+          "note": "在Multica等Agent平台中可作为可复用技能集成。"
+        },
+        "competitors": [],
+        "pricing": "免费。一个Markdown文件，可直接复制使用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "旨在通过规范Prompt直接提升Claude的编程行为和代码质量，与编码实践高度相关。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，Issue开启数较多但关闭数很少，社区响应可能不快。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-14T04:32:54.437Z"
     }
   ]
 }

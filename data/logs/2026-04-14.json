@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "date": "2026-04-14",
+  "startedAt": "2026-04-14T04:29:30.187Z",
+  "finishedAt": "2026-04-14T04:33:45.643Z",
+  "durationSeconds": 255,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 9,
+    "skipped": 96,
+    "geminiCalls": 12,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-04-14T04:30:13.827Z",
+      "level": "warn",
+      "project": "sterlingcrispin/nothing-ever-happens",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-14T04:30:17.539Z",
+      "level": "warn",
+      "project": "hamen/material-3-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-14T04:30:23.063Z",
+      "level": "warn",
+      "project": "OpenMOSS/MOSS-TTS-Nano",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
