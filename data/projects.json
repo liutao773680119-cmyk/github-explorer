@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-14T04:32:54.442Z",
+  "updatedAt": "2026-04-15T04:32:45.323Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -15885,6 +15885,369 @@
         "category": "AI编程助手"
       },
       "analyzedAt": "2026-04-14T04:32:54.437Z"
+    },
+    {
+      "owner": "AgentSeal",
+      "repo": "codeburn",
+      "fullName": "AgentSeal/codeburn",
+      "description": "See where your AI coding tokens go. Interactive TUI dashboard for Claude Code and Codex cost observability.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex",
+        "cost-tracking",
+        "developer-tools",
+        "observability",
+        "terminal-ui",
+        "token-usage"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-13T22:11:53Z",
+      "url": "https://github.com/AgentSeal/codeburn",
+      "analysis": {
+        "positioning": "AI编程助手Token消耗可视化仪表盘。",
+        "useCases": [
+          "你使用Claude Code或Codex写代码 → 它帮你实时追踪Token消耗和费用。",
+          "你想优化AI代码生成效率 → 它帮你分析AI任务成功率，找出哪些场景最烧钱。",
+          "你需要了解AI工具使用情况并汇报 → 它帮你生成多维度数据报告，支持CSV/JSON导出。"
+        ],
+        "audience": "使用Claude Code或Codex的开发者，需要精确了解和管理AI编码成本及效率。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+，并已使用Claude Code或Codex生成会话数据。",
+          "steps": [
+            "npm install -g codeburn",
+            "codeburn"
+          ],
+          "note": "macOS用户可通过SwiftBar集成菜单栏小部件。"
+        },
+        "competitors": [
+          {
+            "name": "（无直接竞品）",
+            "method": "大多数Token追踪工具依赖API代理或Key，CodeBurn独特之处在于直接读取本地会话文件。",
+            "models": "普遍支持更广范围的LLM",
+            "pricing": "各异"
+          }
+        ],
+        "pricing": "免费，项目本身开源（MIT License）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于AI编程助手Token消耗追踪，提供交互式TUI，无需API集成，直接从本地文件读取，解决开发者痛点，开发体验良好。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃，用户关注度高（1k+ Star），Issues解决率良好。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-15T04:29:39.356Z"
+    },
+    {
+      "owner": "OpenMOSS",
+      "repo": "MOSS-TTS-Nano",
+      "fullName": "OpenMOSS/MOSS-TTS-Nano",
+      "description": "MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration.",
+      "language": "Python",
+      "topics": [
+        "audio-tokenizer",
+        "chinese",
+        "english",
+        "multi-modality",
+        "multilingual",
+        "realtime",
+        "streaming-audio",
+        "tts",
+        "voice-clone"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-10T16:25:07Z",
+      "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+      "analysis": {
+        "positioning": "轻量、多语言、CPU实时运行的语音合成模型",
+        "useCases": [
+          "你想在本地快速测试或演示语音合成 → 它帮你无需GPU即可运行，部署极其简单。",
+          "你需要在Web服务中提供实时语音功能 → 它帮你以极简的技术栈实现轻量级集成。",
+          "你希望将语音能力嵌入低算力产品 → 它帮你用0.1B参数量模型实现多语言、低资源消耗的语音生成。"
+        ],
+        "audience": "需要低成本、低资源消耗、支持多语言实时语音合成的开发者或产品经理，尤其适合边缘设备和资源受限场景。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "根据项目文档进行环境设置（例如安装依赖）。",
+            "运行`infer.py`脚本进行语音生成或克隆。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0 许可证）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "0.1B参数量能在CPU上实时运行并支持多语言，极大降低了语音合成的门槛和部署成本，具有很高的实用价值和工程创新性。",
+        "isVibeCoding": true,
+        "communityActivity": "有12个Issue开启，但目前尚未有已关闭问题，项目可能较新或维护响应速度有待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-15T04:30:11.084Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "darwin-skill",
+      "fullName": "alchaincyf/darwin-skill",
+      "description": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-13T08:57:49Z",
+      "url": "https://github.com/alchaincyf/darwin-skill",
+      "analysis": {
+        "positioning": "AI Agent Skill 的自动化优化与迭代系统",
+        "useCases": [
+          "你管理大量Agent Skills → 它帮你自动评估和迭代Skills，确保效果最优。",
+          "你想提升Agent Skill的运行效果 → 它帮你识别薄弱点并自动生成改进方案，持续提升性能。",
+          "你手动维护Agent Skills效率低下且难以保证质量 → 它提供结构和效果双重评估，只保留有价值的改进，减轻维护负担。"
+        ],
+        "audience": "AI Agent开发者或Skill库维护者，希望自动化管理和提升Agent Skill质量及性能。",
+        "quickStart": {
+          "prerequisites": "任何支持Skill.md格式的Agent工具（如Claude Code）",
+          "steps": [
+            "运行 `npx skills add alchaincyf/darwin-skill` 安装",
+            "在Agent工具中说「优化所有skills」或「优化某个skill」"
+          ],
+          "note": "无法访问GitHub可直接下载zip包，解压到Agent Skills目录。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "理念新颖，将Andrej Karpathy的autoresearch思想巧妙应用于Agent Skill优化，解决了Agent生态扩张后的实际痛点。设计严谨，评估体系和优化循环清晰，人在回路机制合理，具备很强的落地价值。",
+        "isVibeCoding": true,
+        "communityActivity": "关注度高（600+ Stars），但Issue区讨论活跃度尚待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-15T04:30:35.345Z"
+    },
+    {
+      "owner": "andrewjiang",
+      "repo": "palantir-for-family-trips",
+      "fullName": "andrewjiang/palantir-for-family-trips",
+      "description": "A Palantir-ish dashboard for family trip planning.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-13T07:45:24Z",
+      "url": "https://github.com/andrewjiang/palantir-for-family-trips",
+      "analysis": {
+        "positioning": "Palantir风家庭出游指挥中心，化繁琐为沉浸式作战体验。",
+        "useCases": [
+          "你组织多家庭出游 → 它帮你统一规划路线、时间线、食宿和活动。",
+          "你厌倦了传统行程表 → 它为你提供沉浸式“作战指挥”体验，增加乐趣。",
+          "你担心复杂的集体出行细节 → 它帮你可视化追踪各家庭动态、行程。"
+        ],
+        "audience": "适合喜欢用酷炫、游戏化方式规划多家庭集体旅行的组织者，尤其是技术爱好者和UI实验者。",
+        "quickStart": {
+          "prerequisites": "Node.js/npm",
+          "steps": [
+            "npm install",
+            "cp .env.example .env",
+            "npm run dev"
+          ],
+          "note": "需配置Google Maps API Key以启用完整地图功能，否则仅渲染UI。"
+        },
+        "competitors": [
+          {
+            "name": "传统旅行规划APP (如携程/飞猪)",
+            "method": "移动端/网页端，预订集成，基础行程管理。",
+            "models": null,
+            "pricing": "免费 (服务预订收费)"
+          },
+          {
+            "name": "协同文档 (如Google Docs/Sheets)",
+            "method": "自定义表格/文档，手动输入和管理。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "专业旅行规划工具 (如TripIt)",
+            "method": "导入预订信息，自动生成行程，协同编辑。",
+            "models": null,
+            "pricing": "免费/部分付费"
+          }
+        ],
+        "pricing": "免费开源，但需自备Google Maps API Key，其使用可能产生费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确声明“为乐趣而生”，将简单的家庭出行打造成“战役指挥中心”，UI和功能都刻意追求沉浸式和戏剧化，过度工程化只为好玩，是典型的Vibe Coding实践。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无任何开启或关闭的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-15T04:31:41.101Z"
+    },
+    {
+      "owner": "bstnxbt",
+      "repo": "dflash-mlx",
+      "fullName": "bstnxbt/dflash-mlx",
+      "description": "Lossless DFlash speculative decoding for MLX on Apple Silicon",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-11T17:25:41Z",
+      "url": "https://github.com/bstnxbt/dflash-mlx",
+      "analysis": {
+        "positioning": "无损加速Apple Silicon上MLX模型的LLM推理。",
+        "useCases": [
+          "你做在Apple Silicon上运行LLM → 它帮你大幅提升生成速度，最高可达4倍。",
+          "你做MLX模型推理 → 它帮你实现无损加速，同时保持输出质量与原模型一致。",
+          "你做长文本LLM推理 → 它帮你优化长上下文的验证效率，降低回滚成本。"
+        ],
+        "audience": "适合在Apple Silicon平台使用MLX框架进行大型语言模型开发与部署的工程师和研究人员。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Apple Silicon设备",
+          "steps": [
+            "安装 dflash-mlx 库。",
+            "将 dflash-mlx 集成至现有的MLX模型推理流程中。"
+          ],
+          "note": "专为Apple Silicon平台优化，需MLX环境。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名和描述直截了当，专注于技术性能提升，无明显的“vibe coding”风格。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue活动量较低，但有开启和关闭的issue，显示项目正在被维护和响应。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-15T04:31:53.468Z"
+    },
+    {
+      "owner": "amitshekhariitbhu",
+      "repo": "llm-internals",
+      "fullName": "amitshekhariitbhu/llm-internals",
+      "description": "Learn LLM internals step by step - from tokenization to attention to inference optimization.",
+      "language": "Unknown",
+      "topics": [
+        "attention-is-all-you-need",
+        "attention-mechanism",
+        "large-language-models",
+        "learn-llm",
+        "llm",
+        "llm-internals"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-12T06:17:33Z",
+      "url": "https://github.com/amitshekhariitbhu/llm-internals",
+      "analysis": {
+        "positioning": "系统学习LLM内部原理，从分词到注意力机制与推理优化。",
+        "useCases": [
+          "你对LLM基础知识一头雾水 → 它帮你从零理解LLM、RAG、Agent等核心概念。",
+          "你想深入理解LLM如何处理文本 → 它详细讲解分词（Tokenization）和BPE算法的工作原理。",
+          "你困惑于Attention机制的数学细节 → 它通过示例剖析QKV和缩放因子的数学逻辑。"
+        ],
+        "audience": "LLM初学者、AI工程师、研究者，希望系统掌握大模型核心技术栈和底层原理。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目README，点击YouTube视频或博客链接，按章节顺序学习。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（内容通过YouTube视频和博客提供）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "内容结构化，学习路径清晰，通过视频和博客深入剖析LLM核心原理，适合系统学习。",
+        "isVibeCoding": true,
+        "communityActivity": "目前无Issue记录，社区互动度待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-15T04:32:18.019Z"
+    },
+    {
+      "owner": "mrT4ntr4",
+      "repo": "NtWarden",
+      "fullName": "mrT4ntr4/NtWarden",
+      "description": "Windows Analysis and Research Toolkit",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-10T20:37:08Z",
+      "url": "https://github.com/mrT4ntr4/NtWarden",
+      "analysis": {
+        "positioning": "Windows系统分析与研究工具包，深度洞察系统内外。",
+        "useCases": [
+          "你分析Windows进程、服务、网络 → 它帮你实时查看、管理系统资源，包括用户态和内核态信息。",
+          "你进行系统安全研究或逆向工程 → 它帮你探查内核对象、回调、ETW事件，揭示系统深层运行机制。",
+          "你需要远程监控Windows系统 → 它帮你通过TCP服务器实现非交互式系统检查，提供详细数据。"
+        ],
+        "audience": "适合系统管理员、安全研究员、恶意软件分析师、逆向工程师，用于深入理解和调试Windows系统。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统，建议使用虚拟机进行内核驱动测试。",
+          "steps": [
+            "克隆仓库并编译C++项目。",
+            "运行NtWarden GUI应用程序。",
+            "（可选）在测试虚拟机中安装KWinSys内核驱动，以启用内核级功能。"
+          ],
+          "note": "内核驱动（KWinSys）由AI辅助编写，可能存在bug，建议仅限在测试虚拟机中用于研究目的。"
+        },
+        "competitors": [
+          {
+            "name": "Process Explorer / Process Monitor",
+            "method": "GUI应用程序",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "WinDbg",
+            "method": "命令行/GUI调试器",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确提及“部分代码由AI辅助‘随性编写’（vibe coded）”，并警告可能存在bug，内核驱动建议仅在测试虚拟机中使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示为0/0，表明社区活跃度极低或项目极新，尚未有用户提交或响应Issue。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-15T04:32:30.267Z"
+    },
+    {
+      "owner": "CITGuru",
+      "repo": "openduck",
+      "fullName": "CITGuru/openduck",
+      "description": "Distributed DuckDB - dual execution and differential storage",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-14T03:08:05Z",
+      "url": "https://github.com/CITGuru/openduck",
+      "analysis": {
+        "positioning": "开源MotherDuck理念，赋能DuckDB分布式云端能力。",
+        "useCases": [
+          "你希望用DuckDB查询PB级云端数据 → 它帮你把远程数据当本地表查，无需预先迁移。",
+          "你需要在本地数据和远程云端数据间进行高效联结查询 → 它帮你自动拆分查询，本地与云端协同执行，只传输必要中间结果。",
+          "你寻求开放、可扩展的DuckDB云服务后端，避免厂商锁定 → 它帮你通过开放协议和后端搭建自己的DuckDB云基础设施。"
+        ],
+        "audience": "DuckDB用户、数据工程师，追求云端扩展能力、混合执行、开放协议及可扩展后端。",
+        "quickStart": {
+          "prerequisites": "DuckDB已安装，OpenDuck扩展已编译。",
+          "steps": [
+            "加载OpenDuck DuckDB扩展。",
+            "使用`ATTACH`命令连接到远程OpenDuck服务。",
+            "像操作本地表一样查询远程数据。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "MotherDuck",
+            "method": "专有云服务，DuckDB原生集成（`md:mydb`）。",
+            "models": "私有后端架构。",
+            "pricing": "免费层/付费订阅。"
+          }
+        ],
+        "pricing": "免费（开源项目，运行服务需自行承担云资源费用）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目清晰阐述了复杂的分布式数据处理概念（差分存储、双重执行），架构设计严谨，提供了DuckDB原生集成能力和开放协议，解决实际痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，Issue开启少且无关闭记录，可能项目尚新或维护者直接解决。",
+        "category": "数据库"
+      },
+      "analyzedAt": "2026-04-15T04:32:45.317Z"
     }
   ]
 }

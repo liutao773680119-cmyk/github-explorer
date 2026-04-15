@@ -1,0 +1,62 @@
+{
+  "version": "1",
+  "date": "2026-04-15",
+  "startedAt": "2026-04-15T04:29:23.717Z",
+  "finishedAt": "2026-04-15T04:33:30.892Z",
+  "durationSeconds": 247,
+  "success": true,
+  "stats": {
+    "fetched": 104,
+    "newProjects": 8,
+    "skipped": 96,
+    "geminiCalls": 13,
+    "statsUpdated": 104
+  },
+  "errors": [
+    {
+      "time": "2026-04-15T04:29:27.421Z",
+      "level": "warn",
+      "project": "zhengnaichuan2022/PAS-Net",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-15T04:30:16.489Z",
+      "level": "warn",
+      "project": "sterlingcrispin/nothing-ever-happens",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-15T04:31:05.885Z",
+      "level": "warn",
+      "project": "hamen/material-3-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-15T04:31:22.172Z",
+      "level": "warn",
+      "project": "yaojingang/GEOFlow",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-15T04:32:02.321Z",
+      "level": "warn",
+      "project": "761696148/Game-Map-Tracker",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
