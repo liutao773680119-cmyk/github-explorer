@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-04-16",
+  "startedAt": "2026-04-16T04:37:00.875Z",
+  "finishedAt": "2026-04-16T04:42:19.340Z",
+  "durationSeconds": 318,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 12,
+    "skipped": 93,
+    "geminiCalls": 13,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-04-16T04:39:13.866Z",
+      "level": "warn",
+      "project": "761696148/Game-Map-Tracker",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

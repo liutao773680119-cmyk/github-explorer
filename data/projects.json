@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-15T04:32:45.323Z",
+  "updatedAt": "2026-04-16T04:41:09.498Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -16248,6 +16248,545 @@
         "category": "数据库"
       },
       "analyzedAt": "2026-04-15T04:32:45.317Z"
+    },
+    {
+      "owner": "hypertp",
+      "repo": "Portfolio-Website",
+      "fullName": "hypertp/Portfolio-Website",
+      "description": "Profesional frontend portfolio",
+      "language": "JavaScript",
+      "topics": [
+        "frontend-portfolio",
+        "portfolio",
+        "react"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-16T02:44:20Z",
+      "url": "https://github.com/hypertp/Portfolio-Website",
+      "analysis": {
+        "positioning": "Polymarket 自动化交易机器人，提供做市、流动性与策略执行。",
+        "useCases": [
+          "你希望在 Polymarket 上进行自动化做市和点差套利 → 它帮你实时报价、平衡库存，实现被动收益。",
+          "你需要部署复杂的量化交易策略，并严格管理交易风险 → 它帮你智能报价、控制敞口与头寸，并自动赎回收益。",
+          "你追求高效的订单管理和市场数据响应速度 → 它帮你优化取消/替换订单流程，批量操作，并通过 WebSocket 实时更新市场数据。"
+        ],
+        "audience": "寻求在 Polymarket 预测市场上部署专业量化交易策略的交易员和开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+ 环境，TypeScript 基础，Polymarket 账户及 API 凭证。",
+          "steps": [
+            "克隆项目代码：`git clone hypertp/Portfolio-Website.git`",
+            "安装依赖：`npm install` 或 `yarn`",
+            "根据 README 配置环境变量（如 API 密钥、市场 ID、交易策略参数）",
+            "运行机器人：`npm start` 或 `yarn start`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个专注于 Polymarket 量化交易的专业级工具，它在特定技术领域展现了强大的功能和严谨的工程实践。虽然不属于通用型酷炫工具，但其技术深度和实现复杂度对目标用户而言，也带来了一种“代码即艺术”的工程师 Vibe。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为零，表明社区公开活跃度较低，可能项目较新或用户多为私下使用。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-16T04:37:23.017Z"
+    },
+    {
+      "owner": "vfs1234",
+      "repo": "just-do-it",
+      "fullName": "vfs1234/just-do-it",
+      "description": "A Claude Code skill that makes AI proactive — no corporate jargon, just better habits",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-16T03:15:26Z",
+      "url": "https://github.com/vfs1234/just-do-it",
+      "analysis": {
+        "positioning": "赋能Claude AI，使其主动验证、独立思考、持续改进，远离企业套话。",
+        "useCases": [
+          "你要求AI修改代码 → 它会自动运行测试、贴出结果，不再只说“已修改”。",
+          "你给AI布置任务 → 它会主动查阅文档、配置，不再问低级问题。",
+          "你让AI修复Bug → 它会穷尽方法、尝试多种思路，不再轻易放弃。",
+          "AI在改A功能时发现B的Bug → 它会顺手修复，不再视而不见。"
+        ],
+        "audience": "希望Claude AI能像资深开发者一样，主动思考、解决问题，而非被动执行的用户。",
+        "quickStart": {
+          "prerequisites": "已安装 Claude Code 环境",
+          "steps": [
+            "运行 `claude install gh:YOUR_USERNAME/just-do-it` 安装。",
+            "在 Claude Code 会话里输入 `/just-do-it` 激活。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "明确拒绝所有企业话术、绩效压力和各种“味道”系统，直接强调“好习惯”和实际行动，Vibe Coding 风格强烈。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，项目较新，尚无Issue互动。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-16T04:37:37.367Z"
+    },
+    {
+      "owner": "sterlingcrispin",
+      "repo": "nothing-ever-happens",
+      "fullName": "sterlingcrispin/nothing-ever-happens",
+      "description": "Polymarket bot that buys \"No\" on all non-sports markets",
+      "language": "Python",
+      "topics": [
+        "meme",
+        "not-financial-advice",
+        "nothing-ever-happens",
+        "polymarket"
+      ],
+      "license": "CC0-1.0",
+      "createdAt": "2026-04-12T18:26:00Z",
+      "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+      "analysis": {
+        "positioning": "Polymarket非体育市场自动化“否”投票机器人。",
+        "useCases": [
+          "你希望在Polymarket非体育事件中自动下注“否” → 它帮你全自动扫描市场并执行交易。",
+          "你想安全测试Polymarket自动交易策略，不想动用真钱 → 它提供模拟交易模式，供你安全验证策略。",
+          "你寻求部署可靠且可恢复的Polymarket交易机器人 → 它提供Heroku部署指南、安全模型和恢复状态持久化。"
+        ],
+        "audience": "寻求在Polymarket非体育事件中进行自动化“否”投注的风险爱好者、开发者和策略测试者。",
+        "quickStart": {
+          "prerequisites": "Python环境，配置`.env`和`config.json`。",
+          "steps": [
+            "pip install -r requirements.txt",
+            "cp config.example.json config.json && cp .env.example .env",
+            "编辑`config.json`和`.env`配置交易参数及敏感信息（如私钥，**注意安全**）",
+            "python -m bot.main"
+          ],
+          "note": "`config.json`本地化不被Git追踪，确保生产环境设置`BOT_MODE=live`等安全变量。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，自行部署）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，文档详尽且包含详细的部署（Heroku）和安全模型说明。提供了测试和实用脚本，可配置性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低（Issue 0开0关），可能主要由作者自用或项目已相当稳定。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-16T04:37:55.798Z"
+    },
+    {
+      "owner": "yaojingang",
+      "repo": "GEOFlow",
+      "fullName": "yaojingang/GEOFlow",
+      "description": "Open-source GEO content production system with AI tasks, review workflow, and publishing.",
+      "language": "PHP",
+      "topics": [
+        "ai",
+        "cms",
+        "content-automation",
+        "geo",
+        "openai-compatible",
+        "php",
+        "postgresql",
+        "seo"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-13T11:42:03Z",
+      "url": "https://github.com/yaojingang/GEOFlow",
+      "analysis": {
+        "positioning": "AI驱动的GEO/SEO内容自动化生产与发布平台",
+        "useCases": [
+          "你批量生成 GEO/SEO 文章 → 它帮你通过AI生成、审核并自动发布到内容站点。",
+          "你管理多模型内容生成和审核 → 它帮你集成AI、素材、工作流，高效运营内容后台。",
+          "你希望快速搭建行业内容站 → 它帮你提供完整的内容生产、发布和SEO优化方案。"
+        ],
+        "audience": "GEO/SEO内容运营者、需要搭建自动化内容站点的团队或个人。",
+        "quickStart": {
+          "prerequisites": "已安装Docker环境",
+          "steps": [
+            "克隆仓库：`git clone https://github.com/yaojingang/GEOFlow.git`",
+            "进入目录并复制环境变量文件：`cd GEOFlow && cp .env.example .env`",
+            "编辑`.env`文件，设置必要的AI模型接口等参数",
+            "使用Docker Compose启动：`docker compose --profile scheduler up -d --build`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目（Apache-2.0 License），可自行部署。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "文档详细，提供多语言README，Docker一键部署流程清晰，架构图和界面预览直观，降低上手难度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启3个，无关闭，目前社区活跃度较低，可能处于早期阶段或维护者响应较慢。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-16T04:38:21.618Z"
+    },
+    {
+      "owner": "sogonov",
+      "repo": "anubis",
+      "fullName": "sogonov/anubis",
+      "description": "Android app manager with VPN integration. Manages groups of apps by freezing/unfreezing them based on VPN connection state.",
+      "language": "Kotlin",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-13T03:41:38Z",
+      "url": "https://github.com/sogonov/anubis",
+      "analysis": {
+        "positioning": "Android应用智能管家，基于VPN状态冻结/解冻应用，确保隐私。",
+        "useCases": [
+          "担心应用在VPN下泄露真实IP → 它彻底禁用应用，从系统层面杜绝网络访问和检测。",
+          "想让特定应用只走VPN或不走VPN → 它帮你分组管理，按需自动切换网络策略。",
+          "希望便捷启动应用并确保VPN状态正确 → 它提供桌面启动器和快捷方式，一键编排VPN和应用。"
+        ],
+        "audience": "关注Android应用隐私、频繁使用VPN，追求系统级精细化管理的高级用户。",
+        "quickStart": {
+          "prerequisites": "Shizuku（需ADB或Root权限）",
+          "steps": [
+            "安装Anubis并按指示配置Shizuku。",
+            "创建应用分组，为应用设定“本地”、“仅VPN”等网络策略。",
+            "通过Anubis启动器或创建快捷方式，按需启动应用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Island, Insular, Shelter",
+            "method": "基于Android工作分区进行沙盒隔离",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "巧妙利用系统级`pm disable-user`指令解决Android隐私痛点，技术方案独特、实现优雅，对关注隐私和VPN用户价值巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数远高于关闭数（32/4），项目活跃度高但问题解决速度可能偏慢。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-04-16T04:38:38.028Z"
+    },
+    {
+      "owner": "vercel-labs",
+      "repo": "wterm",
+      "fullName": "vercel-labs/wterm",
+      "description": "A terminal emulator for the web",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-14T14:52:44Z",
+      "url": "https://github.com/vercel-labs/wterm",
+      "analysis": {
+        "positioning": "高性能Web终端模拟器，支持原生文本交互。",
+        "useCases": [
+          "你想在网页中嵌入一个命令行界面 → 它提供高性能、高兼容性的Web终端组件。",
+          "你需要用户在浏览器中运行Bash脚本或Vim编辑器 → 它通过WASM核心支持复杂终端应用且交互流畅。",
+          "你希望Web终端具备原生应用体验，如文本选择、复制粘贴 → 它利用DOM渲染实现这些浏览器原生特性。"
+        ],
+        "audience": "Web开发者和前端工程师，用于在浏览器中构建高性能、高用户体验的终端交互界面。",
+        "quickStart": {
+          "prerequisites": "Zig 0.16.0+, Node.js 20+, pnpm 10+",
+          "steps": [
+            "pnpm install",
+            "zig build -Doptimize=ReleaseSmall",
+            "pnpm build"
+          ],
+          "note": "需确保Zig编译环境就绪，并注意构建不同demo的特定步骤。"
+        },
+        "competitors": [
+          {
+            "name": "xterm.js",
+            "method": "JavaScript库，通常基于Canvas渲染",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，Apache-2.0 开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Vercel Labs出品，采用Zig+WASM核心和DOM渲染，技术栈前沿且独具匠心。但依赖小众语言（Zig），且社区活跃度尚处于早期，适合技术尝鲜者。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 统计显示项目尚处于早期或开发初期。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-04-16T04:39:04.843Z"
+    },
+    {
+      "owner": "WeaveMindAI",
+      "repo": "weft",
+      "fullName": "WeaveMindAI/weft",
+      "description": "A programming language for AI systems",
+      "language": "Rust",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-15T04:09:40Z",
+      "url": "https://github.com/WeaveMindAI/weft",
+      "analysis": {
+        "positioning": "AI系统专属编程语言，将LLM、人、API和基础设施作为基础构建块。",
+        "useCases": [
+          "你做：构建需要人工审批或介入的AI流程，但要处理复杂的状态和异步等待。 → 它帮你做：直接用一个节点集成人工交互，无需额外处理状态管理、回调或轮询。",
+          "你做：开发包含大量LLM调用、API集成、数据操作的复杂AI应用。 → 它帮你做：将复杂流程抽象成可折叠的节点，保持高层视图清晰，易于理解和管理。",
+          "你做：构建长时间运行或需要高可靠性的AI系统，担心程序崩溃导致状态丢失。 → 它帮你做：利用持久化执行确保程序在崩溃后能从中断处恢复，无需额外实现容错逻辑。",
+          "你做：希望在代码和可视化视图之间切换，以便于开发、调试和向非技术人员解释AI流程。 → 它帮你做：提供代码和图形两种原生视图，实时同步，方便不同角色理解和编辑。"
+        ],
+        "audience": "适合构建复杂、多模态AI系统的开发者，尤其看重流程编排、可靠性和可视化能力的团队。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "访问官方文档（weavemind.ai/docs）获取安装和环境配置指南。",
+            "依据文档指引，编写你的第一个Weft程序，尝试集成LLM和人工节点。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python/JS库，通过链、代理等抽象构建AI应用。",
+            "models": "支持广泛的LLM模型。",
+            "pricing": "免费（开源库）"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "Python库，专注于LLM数据摄取、索引和检索增强生成（RAG）。",
+            "models": "支持广泛的LLM模型。",
+            "pricing": "免费（开源库）"
+          }
+        ],
+        "pricing": "免费（开源）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目处于早期阶段（仅两个月），语言、类型系统、执行器虽稳定但节点目录小，预期有重大变更。文档仓促且可能AI生成，社区贡献者甚至可以重写文档。这是探索性语言开发，风险与机遇并存。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示无活动，尚无法评估社区活跃度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-16T04:39:44.477Z"
+    },
+    {
+      "owner": "mohi-devhub",
+      "repo": "antivibe",
+      "fullName": "mohi-devhub/antivibe",
+      "description": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "claude-code",
+        "claude-code-skill",
+        "code-explanation",
+        "education",
+        "learning",
+        "vibecoding"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-10T18:07:20Z",
+      "url": "https://github.com/mohi-devhub/antivibe",
+      "analysis": {
+        "positioning": "AI代码深度学习解释器，让你真正理解AI代码。",
+        "useCases": [
+          "你复制AI代码 → 它帮你解读代码功能、设计决策及应用场景。",
+          "你想了解AI代码原理 → 它帮你关联代码与计算机科学原理，提供精选学习资源。",
+          "你追求深度理解 → 它帮你分析替代方案，拓展知识边界。"
+        ],
+        "audience": "追求代码理解而非盲目复制的AI开发者，以及希望深入学习AI生成代码背后原理的学习者。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code环境",
+          "steps": [
+            "克隆项目仓库",
+            "将antivibe安装为Claude Code全局技能"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确反对盲目复制代码（vibecoding），旨在通过深度解释帮助开发者真正理解AI生成代码。",
+        "isVibeCoding": false,
+        "communityActivity": "项目Issue开启3个，尚未关闭，活跃度较低或处于早期阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-16T04:39:59.156Z"
+    },
+    {
+      "owner": "Manavarya09",
+      "repo": "design-extract",
+      "fullName": "Manavarya09/design-extract",
+      "description": "Extract the complete design language from any website — colors, typography, spacing, shadows, and more. npx CLI + Claude Code plugin.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skill",
+        "agent-skills",
+        "ai",
+        "claude-code-plugin",
+        "cli",
+        "colors",
+        "css",
+        "design-system",
+        "design-tokens",
+        "npx",
+        "playwright",
+        "skills-sh",
+        "tailwind",
+        "typography",
+        "web-scraping"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-15T10:11:22Z",
+      "url": "https://github.com/Manavarya09/design-extract",
+      "analysis": {
+        "positioning": "一键逆向工程任何网站，提取完整设计系统和设计语言。",
+        "useCases": [
+          "设计师想学习竞品设计或获取灵感 → 它帮你快速分析并提取竞品网站的完整设计语言、布局模式和响应行为。",
+          "前端开发者需要构建设计系统或主题 → 它帮你从现有网站提取设计Token、Tailwind配置、React主题、Figma变量等，快速启动项目。",
+          "AI Agent开发者需要理解网页设计 → 它生成AI优化过的Markdown文件，方便LLM重建设计。",
+          "你希望比较多个品牌设计或同步线上站点设计 → 它帮你对比分析并生成本地设计Token，实现设计语言的同步。"
+        ],
+        "audience": "网页设计师、前端开发者、产品经理以及AI Agent开发者，用于快速分析、学习、复用或自动化网站设计系统。",
+        "quickStart": {
+          "prerequisites": "Node.js (含npx)",
+          "steps": [
+            "打开终端，运行命令：npx designlang https://stripe.com",
+            "（可选）如需获取所有输出文件，运行：npx designlang https://stripe.com --full"
+          ],
+          "note": "无需安装即可直接使用，也可全局安装或作为Agent Skill（如Claude Code插件）。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "核心功能创新且强大，一键提取网站完整设计系统并输出多种实用格式（如AI优化Markdown、Tailwind、Figma变量），并集成AI Agent。但项目目前有较多开放Issue且无已关闭Issue，社区活跃度及维护响应仍有提升空间。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，目前有11个开放Issue但暂无已关闭Issue，可能项目较新或维护响应待提升。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-16T04:40:17.426Z"
+    },
+    {
+      "owner": "xataio",
+      "repo": "xata",
+      "fullName": "xataio/xata",
+      "description": "Open source, cloud native, Postgres platform with copy-on-write branching and scale-to-zero",
+      "language": "Go",
+      "topics": [
+        "branching",
+        "kubernetes",
+        "postgresql",
+        "scale-to-zero"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-15T08:49:42Z",
+      "url": "https://github.com/xataio/xata",
+      "analysis": {
+        "positioning": "基于Kubernetes的云原生开源Postgres平台，支持CoW分支与弹性伸缩。",
+        "useCases": [
+          "公司内部想建Postgres-as-a-Service → 它提供比K8s operator更丰富、更优化的PaaS方案",
+          "你需要快速创建开发/测试/预览环境 → 它利用CoW和弹性伸缩秒级复制TB级数据，显著降本增效"
+        ],
+        "audience": "需要为公司内部提供大规模Postgres-as-a-Service或频繁创建开发/测试环境的平台工程师和开发团队。",
+        "quickStart": {
+          "prerequisites": "需要 Kubernetes 集群",
+          "steps": [],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目技术栈先进，功能强大且在生产环境大规模使用。但GitHub Issue统计显示0开0关，对于一个声称活跃开发的开源项目，社区交互和问题追踪的透明度存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "基于提供信息，GitHub Issue统计显示0开0关，社区活跃度无从判断，或其主要社区交互不在公开GitHub Issue。",
+        "category": "数据库"
+      },
+      "analyzedAt": "2026-04-16T04:40:33.918Z"
+    },
+    {
+      "owner": "maeil-mail",
+      "repo": "maeil-mail-contents",
+      "fullName": "maeil-mail/maeil-mail-contents",
+      "description": "📮 매일메일 기술 면접 컨텐츠 아카이브 (FE, BE)",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-12T04:05:26Z",
+      "url": "https://github.com/maeil-mail/maeil-mail-contents",
+      "analysis": {
+        "positioning": "前端/后端技术面试内容归档库，服务停止后知识沉淀。",
+        "useCases": [
+          "你准备技术面试 → 它提供前端/后端面试问题及分类参考。",
+          "你希望系统学习面试知识 → 它提供按问题ID或类别组织的面试内容索引。",
+          "你遇到特定技术点需要回顾 → 它提供相关面试内容进行快速查阅。"
+        ],
+        "audience": "求职前端或后端岗位的开发者、技术面试官、或希望系统性学习面试知识的技术爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库页面，浏览Frontend/Backend目录下`toc.md`或`toc-category.md`文件。",
+            "根据问题ID或细分类别索引，查找所需面试资料。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LeetCode (力扣)",
+            "method": "在线刷题、题解、社区讨论",
+            "models": "数据结构、算法、系统设计、数据库等面试题",
+            "pricing": "部分免费，部分功能订阅付费"
+          },
+          {
+            "name": "GitHub上其他技术面试仓库",
+            "method": "克隆/浏览Markdown文档",
+            "models": "前端/后端开发、算法、系统设计等面试知识",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "完全免费，内容以Markdown文档形式提供。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为技术面试知识归档，对开发者求职有帮助，但并非直接用于编码或提升编码体验的工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示为0，表明项目主要作为静态内容库供消费，社区互动性较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-16T04:40:52.595Z"
+    },
+    {
+      "owner": "poteto",
+      "repo": "how",
+      "fullName": "poteto/how",
+      "description": "skill for explaining architecture",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-14T19:37:58Z",
+      "url": "https://github.com/poteto/how",
+      "analysis": {
+        "positioning": "Cursor插件，深度代码架构解析与批判AI助手",
+        "useCases": [
+          "你面对陌生代码库，想快速理解其核心模块或功能 → 它帮你生成结构化的架构解释，如同资深工程师带你入门",
+          "你希望评估现有代码设计，发现潜在架构问题 → 它不仅解释代码，还能从多维度提供架构批判和改进建议",
+          "你处理复杂跨文件或跨服务的逻辑流程 → 它帮你分解问题，并行探索并综合成一份全面、连贯的解答"
+        ],
+        "audience": "软件工程师，尤其适用于快速理解新项目、深入分析复杂系统或寻求架构改进建议的开发者",
+        "quickStart": {
+          "prerequisites": "已安装Cursor IDE",
+          "steps": [
+            "在Cursor IDE中安装poteto/how插件",
+            "在Cursor中通过`/how`命令输入你的问题（如：`/how does message virtualization work?`）"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot Chat",
+            "method": "IDE内置聊天，提供代码解释和辅助",
+            "models": "主要基于OpenAI模型",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Cursor IDE (内置AI功能)",
+            "method": "IDE内置`/chat`等命令，可针对代码提问",
+            "models": "自有或集成多种模型",
+            "pricing": "基础功能免费，高级功能付费"
+          }
+        ],
+        "pricing": "免费（项目本身开源，但依赖的Cursor IDE或底层LLM可能产生费用）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，通过多Agent机制提供深度代码架构解释和批判能力，有效解决了开发者理解复杂系统和评估设计的痛点。README结构清晰，示例明确。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示当前无活动，可能是项目发布时间较短。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-16T04:41:09.493Z"
     }
   ]
 }
