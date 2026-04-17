@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "date": "2026-04-17",
+  "startedAt": "2026-04-17T04:34:22.425Z",
+  "finishedAt": "2026-04-17T04:38:52.774Z",
+  "durationSeconds": 270,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 11,
+    "skipped": 95,
+    "geminiCalls": 14,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-04-17T04:34:26.614Z",
+      "level": "warn",
+      "project": "zats/permiso",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-17T04:35:13.578Z",
+      "level": "warn",
+      "project": "Nightmare-Eclipse/RedSun",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-17T04:35:58.679Z",
+      "level": "warn",
+      "project": "EKKOLearnAI/hermes-web-ui",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

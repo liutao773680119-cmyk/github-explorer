@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-16T04:41:09.498Z",
+  "updatedAt": "2026-04-17T04:37:50.068Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -16787,6 +16787,501 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-16T04:41:09.493Z"
+    },
+    {
+      "owner": "Ballan1701",
+      "repo": "SKILL-LINK-AI",
+      "fullName": "Ballan1701/SKILL-LINK-AI",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-17T02:44:13Z",
+      "url": "https://github.com/Ballan1701/SKILL-LINK-AI",
+      "analysis": {
+        "positioning": "用于构建和集成AI“技能”的TypeScript开发工具。",
+        "useCases": [
+          "你构建复杂AI工作流 → 它帮你协调不同AI模型和工具完成任务。",
+          "你想让AI应用调用外部API或执行特定操作 → 它提供框架让AI获得“技能”去与外部世界互动。",
+          "你需要让AI具备多步骤推理能力 → 它让你能设计和编排AI的思考与执行逻辑。"
+        ],
+        "audience": "专注于AI应用开发的工程师，寻求模块化、可组合的AI能力集成方案。",
+        "quickStart": {
+          "prerequisites": "Node.js, npm/yarn",
+          "steps": [
+            "`npm install skill-link-ai`",
+            "通过TypeScript代码导入并配置AI技能，开始构建Agent"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python/JS库，提供模块化组件和链式调用，编排LLM应用。",
+            "models": "支持广泛LLM和工具。",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "Python/TS库，专注于数据摄取、索引和检索，增强LLM问答能力。",
+            "models": "支持多种LLM。",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目非常早期（16 Star，0 Issue），缺乏用户反馈和社区互动，功能成熟度和维护情况待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，尚无用户贡献或问题反馈。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-17T04:34:41.566Z"
+    },
+    {
+      "owner": "op01z",
+      "repo": "Multi-Coin-Flasher-Tool",
+      "fullName": "op01z/Multi-Coin-Flasher-Tool",
+      "description": "🔗 https://cryptoflasher.net",
+      "language": "Unknown",
+      "topics": [
+        "btc-flash-payments",
+        "exodus-flash",
+        "fake-balance",
+        "flash-btc-transfer",
+        "flash-usdt-online-sender",
+        "flashcrypto"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-17T00:01:20Z",
+      "url": "https://github.com/op01z/Multi-Coin-Flasher-Tool",
+      "analysis": {
+        "positioning": "制造虚假加密货币余额和交易记录的“闪付”工具。",
+        "useCases": [
+          "你想诈骗 → 它帮你制造虚假的BTC“闪付”交易记录。",
+          "你需伪造交易截图 → 它帮你模拟USDT转账成功的假象。",
+          "你欲制造虚假资产证明 → 它帮你显示Exodus等钱包的虚高余额。"
+        ],
+        "audience": "诈骗者、欺诈者或寻求制造虚假加密资产交易记录以欺骗他人的人。",
+        "quickStart": {
+          "prerequisites": "访问官方网站 (cryptoflasher.net)",
+          "steps": [
+            "访问 cryptoflasher.net。",
+            "根据网站指引下载或使用工具，输入虚假交易信息并生成记录。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他加密欺诈服务网站",
+            "method": "网页操作/下载软件",
+            "models": "各种主流加密货币",
+            "pricing": "付费"
+          },
+          {
+            "name": "手动P图/截图工具",
+            "method": "图形编辑软件",
+            "models": "所有币种（需手动操作）",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "付费，通常以加密货币形式支付。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名和描述暗示欺诈用途（制造虚假加密货币余额）。GitHub仓库内容极少，仅链接到外部网站，且无代码、无Issues、无License，不像是正常的开源项目。",
+        "isVibeCoding": true,
+        "communityActivity": "完全不活跃，无任何Issue或贡献记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-17T04:34:59.699Z"
+    },
+    {
+      "owner": "BuilderPulse",
+      "repo": "BuilderPulse",
+      "fullName": "BuilderPulse/BuilderPulse",
+      "description": "AI-powered daily intelligence for indie hackers and builders. 20 questions, 10+ sources, every morning.",
+      "language": "Unknown",
+      "topics": [
+        "ai",
+        "builders",
+        "indiehackers"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-14T11:48:05Z",
+      "url": "https://github.com/BuilderPulse/BuilderPulse",
+      "analysis": {
+        "positioning": "为独立开发者提供每日AI市场洞察和项目灵感。",
+        "useCases": [
+          "你寻找下一个Side Project → 它每天为你提炼可快速实现的商业点子和技术趋势。",
+          "你想紧跟AI和开发者社区热点 → 它帮你整合多源信息，快速掌握核心动态。",
+          "你希望将洞察转化为产品并变现 → 它直接给出“2小时能做什么”的实操建议。"
+        ],
+        "audience": "独立开发者、创业者、产品经理及所有渴望快速捕捉市场机遇和技术趋势，并付诸实践的创造者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面或RSS订阅",
+            "阅读每日AI生成的市场分析报告和项目建议"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目核心价值在于提供具体、可操作的编程项目灵感和商业化建议，旨在鼓励开发者将洞察迅速转化为代码和产品，直接驱动编程实践。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少（2个开启，0关闭），表明用户互动主要以阅读和采纳内容为主，非代码贡献或问题解决。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-17T04:35:31.287Z"
+    },
+    {
+      "owner": "lewislulu",
+      "repo": "html-ppt-skill",
+      "fullName": "lewislulu/html-ppt-skill",
+      "description": "HTML PPT Studio — AgentSkill with 24 themes, 31 layouts, 20+ animations for building professional HTML presentations",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-15T07:36:22Z",
+      "url": "https://github.com/lewislulu/html-ppt-skill",
+      "analysis": {
+        "positioning": "基于HTML的AI驱动专业幻灯片生成器。",
+        "useCases": [
+          "你做一份8页的技术分享slides，想用cyberpunk主题 → 它帮你用AI指令一键生成符合主题和页数的HTML PPT。",
+          "你有一个演示文稿大纲，想快速转换成专业的商业演示文稿 → 它帮你将大纲智能转换为完整的HTML Pitch Deck。",
+          "你想制作小红书风格的9张图文内容 → 它帮你用AI指令快速生成白底柔和风的小红书图文HTML页面。"
+        ],
+        "audience": "适合需要通过AI代理快速生成高质量、多风格HTML演示文稿、技术分享或社交媒体图文的开发者和内容创作者。",
+        "quickStart": {
+          "prerequisites": "Node.js/npm",
+          "steps": [
+            "npx skills add https://github.com/lewislulu/html-ppt-skill"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Gamma.app",
+            "method": "提示词生成，AI驱动，在线编辑",
+            "models": "内部AI模型",
+            "pricing": "免费增值"
+          },
+          {
+            "name": "Tome",
+            "method": "提示词生成，AI驱动，在线编辑",
+            "models": "内部AI模型",
+            "pricing": "免费增值"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供海量主题、布局和动画，纯静态HTML/CSS/JS，无需构建步骤，尤其适合集成到AI Agent工作流中，通过自然语言指令快速生成高质量演示文稿。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue 数量较少，有新 Issue 开启但解决速度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-17T04:35:51.893Z"
+    },
+    {
+      "owner": "browser-use",
+      "repo": "video-use",
+      "fullName": "browser-use/video-use",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-12T01:34:42Z",
+      "url": "https://github.com/browser-use/video-use",
+      "analysis": {
+        "positioning": "基于Claude Code，通过聊天指令智能剪辑视频。",
+        "useCases": [
+          "你想高效剪掉视频中的“嗯、啊”和停顿 → 它帮你自动去除冗余词和静默，确保流畅。",
+          "你需要视频片段统一风格并带字幕 → 它帮你自动调色、添加30ms音频渐变，并按风格烧录字幕。",
+          "你希望视频有动态图形或解释性动画 → 它帮你通过Manim/Remotion/PIL并行生成并整合动画。"
+        ],
+        "audience": "视频创作者、教育者和营销人员，希望通过自然语言快速、智能地制作高质量视频。",
+        "quickStart": {
+          "prerequisites": "git, pip, brew, Claude Code (已安装并配置), ElevenLabs API Key",
+          "steps": [
+            "克隆项目并将其软链接到Claude Code的技能目录。",
+            "安装Python依赖（pip install -e .）及FFmpeg、yt-dlp（brew install）。",
+            "配置ElevenLabs API Key。",
+            "进入视频素材目录，运行`claude`，然后通过聊天指令编辑视频。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费开源工具，但依赖Claude Code和ElevenLabs API，可能产生外部调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "创新性地结合LLM和视频编辑，通过自然语言对话驱动，提供从剪辑、调色、字幕到动画的端到端自动化。描述清晰，功能强大且解决实际痛点，但高度依赖特定的Claude Code环境和API Key。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步或社区互动较少，目前没有Issues。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-17T04:36:12.903Z"
+    },
+    {
+      "owner": "Robbyant",
+      "repo": "lingbot-map",
+      "fullName": "Robbyant/lingbot-map",
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-15T17:59:48Z",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "analysis": {
+        "positioning": "前馈3D基础模型，从流数据实时重建三维场景。",
+        "useCases": [
+          "你需要在机器人、AR/VR应用中进行环境感知 → 它帮你高效、精确地实时构建三维环境地图。",
+          "你寻求突破传统3D重建算法的性能瓶颈 → 它提供基于Transformer的SOTA前馈架构，实现高效率推理。",
+          "你处理长序列传感器或视频流数据 → 它通过paged KV cache实现万帧级别稳定推理，解决漂移问题。"
+        ],
+        "audience": "适合从事机器人、AR/VR、智能驾驶或3D视觉研究的工程师和研究员，用于实时场景重建和感知。",
+        "quickStart": {
+          "prerequisites": "Python 3.10, Conda, PyTorch (CUDA 12.8或兼容版本)",
+          "steps": [
+            "创建并激活 Conda 环境 `lingbot-map`。",
+            "安装 PyTorch 和 torchvision (推荐CUDA 12.8版本)。",
+            "安装 `lingbot-map` 项目。",
+            "（推荐）安装 FlashInfer 以启用高效的paged KV cache注意力机制。"
+          ],
+          "note": "FlashInfer 安装需匹配CUDA和PyTorch版本，否则模型将回退使用PyTorch原生的SDPA注意力。"
+        },
+        "competitors": [],
+        "pricing": "免费 (基于Apache-2.0开源许可)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目技术含量高，解决了3D重建中的实时性、长序列漂移和效率问题。提供了清晰的安装指南、性能亮点（20 FPS，万帧序列）、以及到论文、项目官网、HuggingFace等多个平台的链接，展示了良好的工程实践和研究深度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，当前8个开放Issue，仅关闭1个，需观察后续维护响应速度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-17T04:36:29.464Z"
+    },
+    {
+      "owner": "wbh604",
+      "repo": "UZI-Skill",
+      "fullName": "wbh604/UZI-Skill",
+      "description": "冰冷的钱就这样流进我温暖的口袋-游资（UZI）Skills — 51位投资大佬帮你看盘 · 22维数据 × 180条量化规则 × 17种机构分析方法 · A股/港股/美股 ",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-16T07:36:06Z",
+      "url": "https://github.com/wbh604/UZI-Skill",
+      "analysis": {
+        "positioning": "AI驱动的股市深度分析引擎，整合多维数据、机构模型与专家视角，生成彭博风格报告。",
+        "useCases": [
+          "你手工分析股票基本面、技术面和市场观点 → 它自动聚合信息、多维度分析并输出报告。",
+          "你手工进行DCF估值和同行对标 → 它自动运行DCF、Comps、LBO等机构级模型。",
+          "你想快速了解一只股票的投资价值 → 它生成Bloomberg风格的深度分析报告、朋友圈竖图和群战报。"
+        ],
+        "audience": "适合希望通过AI提升股票分析效率，获取专业级深度报告的A/H/美股个人投资者。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+，支持AI Agent（如Claude Code, Gemini CLI等）",
+          "steps": [
+            "在支持的Agent中添加/安装 `wbh604/UZI-Skill` 插件/技能。",
+            "输入命令 `/analyze-stock 股票代码` (例如 `/analyze-stock 贵州茅台`)。"
+          ],
+          "note": "支持多种AI Agent平台，安装方式略有不同，但核心命令一致。"
+        },
+        "competitors": [
+          {
+            "name": "传统GPT分析工具（如简单GPT Wrapper）",
+            "method": "提问生成文本",
+            "models": "GPT系列",
+            "pricing": "通常免费/付费API"
+          },
+          {
+            "name": "机构级金融终端（如Bloomberg）",
+            "method": "专用软件/平台查询",
+            "models": "内部专业模型",
+            "pricing": "高额付费"
+          },
+          {
+            "name": "Anthropic金融服务插件",
+            "method": "插件调用",
+            "models": "Claude",
+            "pricing": "需付费数据源"
+          }
+        ],
+        "pricing": "完全免费，使用全免费数据源，无需API Key。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，解决用户痛点。整合多维数据、机构分析方法和专家视角，输出专业报告格式，功能全面且实用。支持多种AI Agent，安装和使用简单，且完全免费。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，通过微信群鼓励用户进行测试与反馈，GitHub Issues 暂时未作为主要反馈渠道。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-17T04:36:44.240Z"
+    },
+    {
+      "owner": "op7418",
+      "repo": "logo-generator-skill",
+      "fullName": "op7418/logo-generator-skill",
+      "description": "logo-generator-skill",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-15T14:05:35Z",
+      "url": "https://github.com/op7418/logo-generator-skill",
+      "analysis": {
+        "positioning": "快速生成专业SVG标志，并自动制作高端展示图的AI技能。",
+        "useCases": [
+          "你缺少设计感或时间 → 它帮你快速生成多种专业级SVG Logo方案。",
+          "你做完Logo想展示 → 它帮你自动搭配12种专业背景生成高端展示图。",
+          "你想要可编辑的Logo → 它帮你提供SVG源文件，方便后续修改或使用。"
+        ],
+        "audience": "适合需要快速获得专业级Logo设计方案（含展示图）的初创公司、开发者、设计师和产品团队。",
+        "quickStart": {
+          "prerequisites": "Gemini API Key，Python环境 (pip)。",
+          "steps": [
+            "运行 `npx skills add https://github.com/op7418/logo-generator-skill.git` 安装技能。",
+            "进入技能目录 `~/.claude/skills/logo-generator`，安装依赖 `pip install -r requirements.txt`，并配置 `GEMINI_API_KEY`。"
+          ],
+          "note": "重启Claude Code后，输入 `/logo-generator` 即可使用。"
+        },
+        "competitors": [
+          {
+            "name": "通用AI Logo生成器",
+            "method": "文本描述生成，质量参差不齐，展示效果普通。",
+            "models": "多种AI模型",
+            "pricing": "免费/订阅"
+          },
+          {
+            "name": "专业设计服务",
+            "method": "人工沟通，定制化设计，周期长成本高。",
+            "models": "N/A (人类设计师)",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费。但需自备Gemini API Key，并承担其调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "该项目旨在解决AI Logo生成质量和传统设计效率之间的痛点，提供专业级SVG Logo及高端展示图。整合Gemini 3.1 Flash Image Preview（Nano Banana）生成展示图，安装简便，直接解决问题，价值清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为0，社区活跃度目前较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-17T04:37:00.048Z"
+    },
+    {
+      "owner": "Jakubantalik",
+      "repo": "border-beam",
+      "fullName": "Jakubantalik/border-beam",
+      "description": "Animated border beam effect for React",
+      "language": "TypeScript",
+      "topics": [
+        "beam",
+        "design",
+        "effect",
+        "glow",
+        "motion",
+        "product"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-12T17:27:34Z",
+      "url": "https://github.com/Jakubantalik/border-beam",
+      "analysis": {
+        "positioning": "为React组件添加动感边框光束效果。",
+        "useCases": [
+          "你想让界面元素更吸睛 → 它为卡片、按钮、输入框等添加环绕光束动画。",
+          "你想快速为UI增添现代感 → 它提供React组件，直接包裹内容即可实现流动发光效果。",
+          "你想定制动画视觉风格 → 它支持调整光束尺寸、颜色、强度、主题和播放状态。"
+        ],
+        "audience": "React开发者，快速为UI元素（如卡片、按钮、输入框、搜索栏）增添视觉吸引力及现代感。",
+        "quickStart": {
+          "prerequisites": "React项目环境",
+          "steps": [
+            "运行 `npm install border-beam` 安装。",
+            "在组件中引入 `BorderBeam` 并将其作为父组件包裹目标内容，例如 `<BorderBeam><div />...</BorderBeam>`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "集成简单，一行代码即可为任意React元素添加炫酷的动感光束边框，即时提升UI视觉效果和交互体验，完美符合快速美化界面的需求。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前只有一个开启的Issue，无已关闭Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-17T04:37:15.795Z"
+    },
+    {
+      "owner": "stanford-iris-lab",
+      "repo": "meta-harness",
+      "fullName": "stanford-iris-lab/meta-harness",
+      "description": "Reference code for the Meta-Harness paper.",
+      "language": "Python",
+      "topics": [
+        "harness-engineering",
+        "llm-agents"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-15T05:31:36Z",
+      "url": "https://github.com/stanford-iris-lab/meta-harness",
+      "analysis": {
+        "positioning": "自动化优化LLM Agent外围代码（Harness），提升Agent性能。",
+        "useCases": [
+          "你想为LLM Agent设计高效的记忆或检索机制 → 它帮你自动化搜索并优化最佳策略。",
+          "你想提升LLM Agent在特定任务（如终端操作）上的表现 → 它帮你自动化进化Agent执行流程（scaffold）。",
+          "你想为新领域定制LLM Agent的辅助代码 → 它帮你通过对话式助手生成定制化的实现方案。"
+        ],
+        "audience": "LLM研究员、AI Agent开发者、希望自动化优化Agent辅助机制（如记忆、工具使用）的工程师。",
+        "quickStart": {
+          "prerequisites": "Python环境，并安装uv包管理器。",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/stanford-iris-lab/meta-harness.git && cd meta-harness`",
+            "运行文本分类示例：`cd reference_examples/text_classification && uv sync && uv run python meta_harness.py --iterations 1`"
+          ],
+          "note": "参考子目录的README获取更多设置和命令细节。默认使用Claude Code作为提议代理，可自行适配。"
+        },
+        "competitors": [],
+        "pricing": "免费，遵循MIT开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "快速启动清晰，有定制指南；但项目自述“未经过运行验证之外的测试”，稳定性需自行验证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示项目关注度仍以学术研究为主。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-17T04:37:32.173Z"
+    },
+    {
+      "owner": "millionco",
+      "repo": "claude-doctor",
+      "fullName": "millionco/claude-doctor",
+      "description": "Diagnose your Claude Code sessions",
+      "language": "TypeScript",
+      "topics": [
+        "claude",
+        "code",
+        "doctor"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-15T00:13:49Z",
+      "url": "https://github.com/millionco/claude-doctor",
+      "analysis": {
+        "positioning": "Claude编程助手诊断器，优化AI协作效率。",
+        "useCases": [
+          "你觉得和Claude Code协作效率不高 → 它帮你分析交互痛点，定位低效行为模式。",
+          "你想让Claude Code表现更智能、犯错更少 → 它根据你的历史会话，自动生成定制化Agent行为准则。",
+          "你想快速评估特定AI编程会话质量 → 它帮你快速扫描会话，提供结构化诊断报告和改进建议。"
+        ],
+        "audience": "频繁使用Claude Code的开发者，希望系统性地分析、改进与AI编程助手的互动方式和Agent性能。",
+        "quickStart": {
+          "prerequisites": "Node.js环境",
+          "steps": [
+            "`npm i -g claude-doctor`",
+            "`claude-doctor`运行诊断"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对Claude Code等AI编程助手的实际痛点，提供了独到的诊断和优化方案。项目功能清晰、文档详尽，有助于用户提升AI协作效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比为1/0，社区活跃度尚处于早期阶段或用户反馈较少。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-17T04:37:50.063Z"
     }
   ]
 }
