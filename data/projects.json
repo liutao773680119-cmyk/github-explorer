@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-17T04:37:50.068Z",
+  "updatedAt": "2026-04-18T04:17:43.485Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -17282,6 +17282,289 @@
         "category": "Prompt工程"
       },
       "analyzedAt": "2026-04-17T04:37:50.063Z"
+    },
+    {
+      "owner": "Nightmare-Eclipse",
+      "repo": "RedSun",
+      "fullName": "Nightmare-Eclipse/RedSun",
+      "description": "The Red Sun vulnerability repository",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-15T21:37:07Z",
+      "url": "https://github.com/Nightmare-Eclipse/RedSun",
+      "analysis": {
+        "positioning": "揭示Windows Defender云标签漏洞，提供系统文件覆盖和提权PoC。",
+        "useCases": [
+          "你做渗透测试或红队演练 → 它帮你利用Windows Defender漏洞实现提权。",
+          "你想理解Windows Defender特定安全缺陷 → 它提供PoC代码深入剖析漏洞原理。",
+          "你做安全审计或研究 → 它提供一个实际案例来验证系统对新型攻击的防御能力。"
+        ],
+        "audience": "适合安全研究员、渗透测试工程师和红队成员，用于漏洞研究、攻防演练及安全审计。",
+        "quickStart": {
+          "prerequisites": "C++编译器 (如MSVC) 和 Windows Defender 运行环境。",
+          "steps": [
+            "git clone https://github.com/Nightmare-Eclipse/RedSun.git",
+            "编译C++ PoC代码",
+            "在目标Windows系统上运行PoC以触发漏洞"
+          ],
+          "note": "漏洞利用特定于Windows系统及其Defender版本。"
+        },
+        "competitors": [
+          {
+            "name": "Exploit-DB",
+            "method": "在线搜索、下载各种漏洞PoC和利用代码。",
+            "models": "广泛的系统、应用、网络设备漏洞。",
+            "pricing": "免费"
+          },
+          {
+            "name": "Metasploit Framework",
+            "method": "模块化渗透测试框架，包含大量漏洞模块。",
+            "models": "各种操作系统、应用程序漏洞，集成攻击载荷。",
+            "pricing": "免费 (社区版)"
+          }
+        ],
+        "pricing": "免费，基于MIT许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README语言幽默风趣，充满个人色彩和吐槽，直接指出安全软件逻辑错误，使用'BottomText'图片，风格非常不羁。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量不多，但开闭比接近，表明项目方会关注并处理反馈，活跃度中等。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-18T04:15:46.319Z"
+    },
+    {
+      "owner": "Lazarus-AI",
+      "repo": "clearwing",
+      "fullName": "Lazarus-AI/clearwing",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-14T20:00:22Z",
+      "url": "https://github.com/Lazarus-AI/clearwing",
+      "analysis": {
+        "positioning": "LLM驱动的自动化渗透测试与代码漏洞猎手",
+        "useCases": [
+          "你想评估网络安全 → 它帮你像Agent一样自动扫描、探测漏洞、运行Kali工具并生成报告",
+          "你想审计代码漏洞 → 它帮你并行分析、验证、生成补丁并输出详细证据报告",
+          "你想用AI加速安全工作 → 它利用LangGraph构建Agent，提供双模安全审计能力"
+        ],
+        "audience": "渗透测试工程师、安全研究员、DevSecOps团队，用AI自动化安全评估，**限授权场景**。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Rust工具链, Docker (用于Kali容器和沙箱), uv包管理器",
+          "steps": [
+            "git clone https://github.com/Lazarus-AI/clearwing.git && cd clearwing",
+            "uv sync --all-extras && source .venv/bin/activate",
+            "clearwing setup 或配置API环境变量"
+          ],
+          "note": "推荐使用uv安装以处理genai-pyo3依赖；需配置LLM服务（如Anthropic或OpenAI兼容端点）API密钥。"
+        },
+        "competitors": [
+          {
+            "name": "Anthropic Glasswing",
+            "method": "自动化漏洞扫描与源代码分析",
+            "models": "Anthropic自研模型",
+            "pricing": "未知"
+          }
+        ],
+        "pricing": "工具开源免费，但使用时需自行提供LLM服务API密钥（通常按用量付费），属于部分免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "深度结合AI Agent和LangGraph，提供了高级别的自动化渗透测试和代码审计能力。功能设计复杂且全面，解决了专业安全领域的痛点。明确的“双模”设计和验证流程是亮点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比低 (2/1)，项目可能相对较新或由核心团队维护，社区活跃度有待观察。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-18T04:16:22.435Z"
+    },
+    {
+      "owner": "bergside",
+      "repo": "design-md-chrome",
+      "fullName": "bergside/design-md-chrome",
+      "description": "Chrome extension to extract styles from any website and generate DESIGN.md files and design skills for AI based on TypeUI",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "chrome",
+        "chrome-extension",
+        "design-md",
+        "design-skills",
+        "extension",
+        "open-source",
+        "skills",
+        "skills-ai",
+        "typeui"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-14T14:10:22Z",
+      "url": "https://github.com/bergside/design-md-chrome",
+      "analysis": {
+        "positioning": "提取网页样式，生成AI友好的设计系统文件DESIGN.md/SKILL.md。",
+        "useCases": [
+          "你想用AI工具（如Google Stitch）从零构建网站 → 它帮你自动生成AI所需的设计蓝图DESIGN.md或SKILL.md。",
+          "你需要快速理解并文档化一个现有网站的设计系统 → 它帮你一键提取网站样式（字体、颜色等），并生成结构化的DESIGN.md。",
+          "你在为AI Agent准备设计规范或“技能” → 它帮你生成符合TypeUI规范的SKILL.md，指导AI生成代码。"
+        ],
+        "audience": "前端开发者、设计师或AI工程师，用于快速提取网页样式、生成设计系统文档或为AI Agent提供设计蓝图。",
+        "quickStart": {
+          "prerequisites": "Chrome浏览器",
+          "steps": [
+            "打开 Chrome 浏览器，访问 chrome://extensions。",
+            "开启“开发者模式”。",
+            "点击“加载已解压的扩展程序”，选择项目文件夹。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "人工编写设计系统文档",
+            "method": "手动编写 Markdown/其他文档",
+            "models": "N/A",
+            "pricing": "N/A (人工成本)"
+          },
+          {
+            "name": "其他网页样式提取插件/工具",
+            "method": "各类浏览器插件或设计工具的样式提取功能（非AI专用）",
+            "models": "N/A",
+            "pricing": "多数免费/部分付费"
+          }
+        ],
+        "pricing": "免费，MIT开源许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目致力于将实时网站样式转化为结构化的、AI可理解的设计系统蓝图（DESIGN.md/SKILL.md）。这为AI辅助前端开发提供了关键的输入，具有前瞻性，但其生态依赖TypeUI和AI模型的支持。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量为零，社区活跃度较低或项目非常早期/稳定，暂无用户反馈。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-18T04:16:41.429Z"
+    },
+    {
+      "owner": "codejunkie99",
+      "repo": "agentic-stack",
+      "fullName": "codejunkie99/agentic-stack",
+      "description": "One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python — and keeps its knowledge when you switch.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-15T13:45:41Z",
+      "url": "https://github.com/codejunkie99/agentic-stack",
+      "analysis": {
+        "positioning": "可在多平台迁移的AI编程助手“大脑”。",
+        "useCases": [
+          "你频繁切换AI编程环境 → 它帮你保持AI助手的记忆和技能一致。",
+          "你想定制AI编程助手行为 → 它提供向导配置AI助手的个性化偏好。",
+          "你希望在不同AI IDE中使用同一AI助手 → 它帮你实现AI助手核心能力在不同平台即插即用。"
+        ],
+        "audience": "频繁切换AI编程环境，或希望统一AI助手配置和知识的开发者。",
+        "quickStart": {
+          "prerequisites": "macOS/Linux: Homebrew; Windows: Git",
+          "steps": [
+            "macOS/Linux用户：执行 `brew tap codejunkie99/agentic-stack` 和 `brew install agentic-stack`。",
+            "Windows用户：克隆项目后，在项目目录下运行 `./install.ps1 claude-code C:\\path\\to\\your-project`。"
+          ],
+          "note": "首次使用会自动运行配置向导，支持的适配器包括 claude-code, cursor, windsurf 等。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档清晰，提供动图和架构图，Quickstart详细，场景驱动，对开发者友好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启数和关闭数均极低，社区活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-18T04:16:54.446Z"
+    },
+    {
+      "owner": "Fenng",
+      "repo": "Tech-Doc-Style-Chinese",
+      "fullName": "Fenng/Tech-Doc-Style-Chinese",
+      "description": "Yet another reusable writing skill for Chinese technical documentation and product copy.",
+      "language": "Python",
+      "topics": [
+        "skill",
+        "typography"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-12T13:14:56Z",
+      "url": "https://github.com/Fenng/Tech-Doc-Style-Chinese",
+      "analysis": {
+        "positioning": "一套面向中文技术文档和产品文案的写作规范。",
+        "useCases": [
+          "你撰写中文技术文档 → 它帮你确保文案克制、准确、易读，避免空泛宣传。",
+          "你处理中英文混合排版 → 它帮你处理留白和引号，提升可读性。",
+          "你编写API说明或界面文案 → 它帮你避免机械直译和高频黑话，优化信息密度和结构。"
+        ],
+        "audience": "技术作者、产品经理、文档工程师、内容运营，需要一套高质量中文技术写作规范的团队。",
+        "quickStart": {
+          "prerequisites": "Node.js环境（推荐）或Git",
+          "steps": [
+            "npx skills add https://github.com/Fenng/tech-doc-style-chinese",
+            "重启Codex以加载新技能"
+          ],
+          "note": "安装时可使用 `-a codex -g` 参数进行全局Codex安装并跳过交互确认。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标清晰，聚焦中文技术写作常见痛点，提供明确规范和自动化校验脚本，实用性强，可直接落地。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示 0 开启 / 0 关闭，可能项目成熟稳定，或用户互动主要通过其他渠道。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-04-18T04:17:06.031Z"
+    },
+    {
+      "owner": "jamiepine",
+      "repo": "voicebox",
+      "fullName": "jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "cuda",
+        "mlx",
+        "qwen3-tts",
+        "qwen3-tts-ui",
+        "voice-ai",
+        "voice-clone",
+        "whisper"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-25T12:27:03Z",
+      "url": "https://github.com/jamiepine/voicebox",
+      "analysis": {
+        "positioning": "开源、本地优先的语音合成工作室，实现人声克隆、生成和编辑。",
+        "useCases": [
+          "你担心语音数据隐私 → 它帮你实现本地运行语音克隆和合成，数据不上传。",
+          "你想快速生成多语言、有情绪的语音内容 → 它提供5种TTS引擎，支持23种语言及情感标签。",
+          "你需要制作复杂的语音播客或叙事 → 它提供多轨时间线编辑器，轻松合成多角色对话。",
+          "你希望在应用中集成语音能力 → 它提供REST API接口，方便二次开发集成语音合成功能。"
+        ],
+        "audience": "关注数据隐私的开发者、内容创作者、播客主，寻求ElevenLabs免费替代方案的用户。",
+        "quickStart": {
+          "prerequisites": "macOS / Windows / Linux 操作系统（建议具备GPU以获得最佳性能）。",
+          "steps": [
+            "访问 voicebox.sh 下载适用于你操作系统的安装包。",
+            "安装并启动应用程序即可使用。"
+          ],
+          "note": "macOS版本利用MLX/Metal实现原生性能。"
+        },
+        "competitors": [
+          {
+            "name": "ElevenLabs",
+            "method": "云端服务，API或Web UI。",
+            "models": "专有模型。",
+            "pricing": "部分免费，主要付费。"
+          }
+        ],
+        "pricing": "免费，开源（MIT License）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能强大，本地优先保障隐私，支持多语言和丰富效果，且通过Tauri实现原生性能和跨平台支持，开发体验和用户价值都很高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，有大量开放问题（244），但已关闭问题数（120）显示项目维护者有持续跟进和解决。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-18T04:17:43.479Z"
     }
   ]
 }
