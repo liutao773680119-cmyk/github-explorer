@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-18T04:17:43.485Z",
+  "updatedAt": "2026-04-19T04:39:30.903Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -17565,6 +17565,482 @@
         "category": "其他"
       },
       "analyzedAt": "2026-04-18T04:17:43.479Z"
+    },
+    {
+      "owner": "chrisnch",
+      "repo": "reADHD",
+      "fullName": "chrisnch/reADHD",
+      "description": "为 ADHD 人群设计的 Obsidian 仿生阅读插件，支持中文智能分词（jieba-wasm）。基于 Boninall 的 Obsidian-Better-Reading-Mode 改进。",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-19T00:32:47Z",
+      "url": "https://github.com/chrisnch/reADHD",
+      "analysis": {
+        "positioning": "Obsidian插件，为ADHD用户优化阅读专注力，尤其擅长中文智能分词。",
+        "useCases": [
+          "你阅读长文本时易分心、跳行 → 它通过加粗词首引导视线，提升专注力。",
+          "你需要中文阅读辅助但传统工具无效 → 它采用jieba-wasm智能分词，精准优化中文阅读。",
+          "你担心阅读插件干扰写作体验 → 它默认只在Obsidian阅读模式生效，编辑时零干扰。"
+        ],
+        "audience": "Obsidian用户，特别是ADHD人群或希望提升中文阅读专注度和效率的用户。",
+        "quickStart": {
+          "prerequisites": "Obsidian，推荐安装BRAT插件",
+          "steps": [
+            "安装 BRAT 插件后，在 BRAT 设置中添加仓库地址：`chrisnch/reADHD`。",
+            "安装完毕后，在 Obsidian 设置的社区插件中启用 reADHD。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Obsidian-Better-Reading-Mode (Boninall)",
+            "method": "Obsidian插件，提供仿生阅读模式",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对ADHD和中文阅读障碍的痛点，提供了精准且用户友好的解决方案，技术实现（jieba-wasm）和UX细节（阅读模式独占、深浅模式自适应）考虑周到。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，目前无公开Issue，社区活跃度有待观察。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-04-19T04:36:49.721Z"
+    },
+    {
+      "owner": "getagentseal",
+      "repo": "codeburn",
+      "fullName": "getagentseal/codeburn",
+      "description": "See where your AI coding tokens go. Interactive TUI dashboard for Claude Code, Codex, and Cursor cost observability.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex",
+        "cost-tracking",
+        "cursor-ide",
+        "developer-tools",
+        "observability",
+        "terminal-ui",
+        "token-usage"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-13T22:11:53Z",
+      "url": "https://github.com/getagentseal/codeburn",
+      "analysis": {
+        "positioning": "追踪AI编程助手Token消耗，交互式TUI仪表盘。",
+        "useCases": [
+          "你想知道AI编程助手每天消耗了多少Token → 它帮你展示详细消耗，按工具、模型、项目分类。",
+          "你想优化AI编程效率 → 它帮你分析不同任务类型的一次成功率，找出Token浪费点。",
+          "你需要导出AI编程助手使用数据 → 它帮你以CSV/JSON格式导出，方便分析或汇报。"
+        ],
+        "audience": "使用Claude Code、Codex、Cursor、Copilot等AI编程助手的开发者，需要监控成本和优化效率的个人或团队。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+，并已安装至少一款AI编程助手（如Claude Code、Codex、Cursor或GitHub Copilot）。",
+          "steps": [
+            "执行 `npm install -g codeburn` 全局安装",
+            "运行 `codeburn` 启动交互式仪表盘"
+          ],
+          "note": "支持macOS菜单栏应用；Cursor/OpenCode支持可能依赖`better-sqlite3`（通常自动安装）。"
+        },
+        "competitors": [
+          {
+            "name": "LLM提供商官方用量统计",
+            "method": "官方控制台/API",
+            "models": "仅支持自有模型",
+            "pricing": "平台自身免费，模型调用付费"
+          },
+          {
+            "name": "通用LLM API管理/成本优化平台",
+            "method": "API代理或统一SDK",
+            "models": "支持多种LLM模型",
+            "pricing": "可能免费或按用量收费"
+          }
+        ],
+        "pricing": "免费（MIT开源）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "高度场景化（AI编程助手Token消耗），通过直观的TUI仪表盘和详细的成功率分析，精准满足开发者对效率和成本监控的深度需求，且支持多种主流AI编程助手的数据源。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，Issue关闭数量多于开启，Star数近3k，显示项目维护良好且受开发者关注。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-19T04:37:09.856Z"
+    },
+    {
+      "owner": "browser-use",
+      "repo": "browser-harness",
+      "fullName": "browser-use/browser-harness",
+      "description": "Self-healing browser harness that enables LLMs to complete any task.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-17T01:56:15Z",
+      "url": "https://github.com/browser-use/browser-harness",
+      "analysis": {
+        "positioning": "让LLM能自由完成任何浏览器任务的自愈型工具。",
+        "useCases": [
+          "你手动操作浏览器 → 它让LLM自动化完成网页任务",
+          "你想让LLM学会复杂网站操作 → 它通过自愈机制让LLM自主生成代码并执行",
+          "你需要自动化日常重复的浏览器任务（如LinkedIn外联、Amazon下单） → 它让LLM帮你处理"
+        ],
+        "audience": "寻求LLM驱动的浏览器自动化方案的开发者、AI Agent研究者和需要高效处理重复网页任务的用户。",
+        "quickStart": {
+          "prerequisites": "Python环境，最新版Chrome浏览器。",
+          "steps": [
+            "根据`install.md`安装依赖并设置浏览器远程调试。",
+            "将项目提供的Setup Prompt粘贴到Claude Code或Codex等LLM中，让LLM完成后续设置和验证任务。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "部分免费。提供免费层级（3个并发浏览器，无需信用卡）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码量极少(~592行)，主打“最简单、最精炼、自愈”的概念，强调无框架、无限制，让LLM直接生成缺失代码，并提出“你将永远不再使用浏览器”的宣言，极具未来感和技术愿景。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数可观（618），但Issue解决率目前为0 (开启18/关闭0)，表明项目仍处于早期或维护响应有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-19T04:37:34.668Z"
+    },
+    {
+      "owner": "bwjoke",
+      "repo": "BTC-Trading-Since-2020",
+      "fullName": "bwjoke/BTC-Trading-Since-2020",
+      "description": "Public BTC trading context since 2020.",
+      "language": "Unknown",
+      "topics": [
+        "bitcoin",
+        "bitmex",
+        "crypto",
+        "dataset",
+        "open-intelligence",
+        "trading"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-17T19:18:03Z",
+      "url": "https://github.com/bwjoke/BTC-Trading-Since-2020",
+      "analysis": {
+        "positioning": "公开、可验证的BTC交易实盘数据，用于分析决策。",
+        "useCases": [
+          "你希望分析真实市场行为 → 它帮你提供长达6年的高细节BTC实盘交易记录。",
+          "你想学习顶尖交易员的决策逻辑 → 它帮你复盘Paul Wei在不确定性下的长期交易策略。",
+          "你是AI研究者/数据分析师 → 它帮你提供高质量、公开的BTC交易数据集，用于模型训练或市场分析。"
+        ],
+        "audience": "希望研究真实交易行为、策略或进行市场分析的AI研究者、量化交易员及个人投资者。",
+        "quickStart": {
+          "prerequisites": "Git",
+          "steps": [
+            "克隆Git仓库获取完整历史数据",
+            "从GitHub Releases下载最新打包文件"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目结构清晰，README详细说明项目价值、数据用途及获取方式。数据质量高，对研究和分析人员价值巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue完全未启用，社区互动度低。主要为单向数据发布。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-19T04:37:47.166Z"
+    },
+    {
+      "owner": "zhuyansen",
+      "repo": "wx-favorites-report",
+      "fullName": "zhuyansen/wx-favorites-report",
+      "description": "微信收藏可视化 Claude Code Skill — 从加密 DB 到交互式 HTML 报告的端到端管线",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-16T02:58:42Z",
+      "url": "https://github.com/zhuyansen/wx-favorites-report",
+      "analysis": {
+        "positioning": "微信收藏数据解密与可视化利器",
+        "useCases": [
+          "想了解你的微信收藏习惯？ → 它帮你生成月度趋势、类型分布、活跃热力图等统计报告。",
+          "想回顾或筛选你的微信收藏内容？ → 它提供可按类型/标签过滤的收藏浏览区。",
+          "担心云端收藏隐私问题？ → 它完全在本地解密并生成报告，数据不外泄。"
+        ],
+        "audience": "macOS 微信用户，希望深度分析、回顾或本地管理个人微信收藏数据，尤其是关注数据隐私的用户。",
+        "quickStart": {
+          "prerequisites": "macOS (Apple Silicon 或 Intel), 微信 Mac 4.x 已登录, Python 3.9+, Claude Code (推荐)",
+          "steps": [
+            "在 Claude Code 中说：微信收藏可视化"
+          ],
+          "note": "仅限 macOS 平台。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "该项目解决了微信收藏数据加密存储的难题，通过 Frida Hook 系统函数，结合 macOS 环境特性（签名绕过），实现了从底层数据解密到高层交互式报告生成的复杂端到端流程。技术深度和实用价值兼具。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无社区活跃度记录（Issue 开启/关闭均为 0）。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-19T04:38:02.106Z"
+    },
+    {
+      "owner": "cathrynlavery",
+      "repo": "diagram-design",
+      "fullName": "cathrynlavery/diagram-design",
+      "description": "Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-16T18:01:16Z",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "analysis": {
+        "positioning": "为Claude Code提供13种高质量、可定制的编辑级图表。",
+        "useCases": [
+          "你希望AI生成高质量、符合品牌风格的博客/技术文档配图 → 它帮你生成13种编辑级图表，告别通用样式。",
+          "你厌倦了手动用Figma制作图表或忍受Mermaid的“敷衍”风格 → 它通过Claude Code快速生成自包含HTML+SVG图表。",
+          "你需要架构图、流程图、时序图等特定技术图表，并要求设计简洁、重点突出 → 它提供多种图表类型，强调“最高质量的删除”原则。"
+        ],
+        "audience": "适用于博客作者、技术文档撰写者、开发者等，他们在使用Claude Code时，需要快速获取兼具美观与实用性的定制化图表，并注重品牌一致性。",
+        "quickStart": {
+          "prerequisites": "需使用Claude Code（AI助手）。",
+          "steps": [
+            "通过Claude Code调用此技能生成所需图表。",
+            "直接在浏览器中打开生成的HTML或SVG文件。"
+          ],
+          "note": "生成的图表是自包含的HTML+SVG文件，无需构建步骤、JS或外部资源。"
+        },
+        "competitors": [
+          {
+            "name": "Claude (通用AI生成)",
+            "method": "AI文本生成",
+            "models": "Claude",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "Mermaid",
+            "method": "代码描述生成图表",
+            "models": "null",
+            "pricing": "免费"
+          },
+          {
+            "name": "Figma",
+            "method": "手动设计工具",
+            "models": "null",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费（项目文件开源，通过Claude Code使用可能产生AI费用）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作者因不满通用AI图表和手动设计效率低下而开发，明确提出“No shadows, no Mermaid-slop”的设计哲学，强调“最高质量的删除”，追求极致的美学和效率，是典型的个人痛点驱动和高品味项目。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步或作者独立维护，Issue数量极少，社区互动不活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-19T04:38:18.608Z"
+    },
+    {
+      "owner": "jackwener",
+      "repo": "wx-cli",
+      "fullName": "jackwener/wx-cli",
+      "description": "WeChat local data CLI with daemon architecture",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-16T01:08:18Z",
+      "url": "https://github.com/jackwener/wx-cli",
+      "analysis": {
+        "positioning": "命令行实时查询本地微信数据的CLI工具",
+        "useCases": [
+          "你想要快速查看微信聊天记录或联系人信息 → 它帮你通过命令行查询、过滤和导出本地微信数据，无需打开微信界面。",
+          "你希望AI Agent能处理微信数据（例如总结聊天内容） → 它提供AI友好的YAML/JSON输出，方便Agent直接集成和解析。",
+          "你关心数据隐私和本地化处理 → 它确保所有操作完全在本地进行，实时解密，数据不离开你的电脑。"
+        ],
+        "audience": "开发者、数据分析师或任何希望命令行管理、分析本地微信数据的用户，尤其适合AI Agent集成者。",
+        "quickStart": {
+          "prerequisites": "确保微信已运行且登录；macOS用户首次使用或微信更新后需对WeChat.app进行签名。",
+          "steps": [
+            "npm install -g @jackwener/wx-cli",
+            "(macOS用户：`codesign --force --deep --sign - /Applications/WeChat.app` 并重启微信)",
+            "sudo wx init",
+            "wx sessions"
+          ],
+          "note": "macOS首次需对微信签名，且微信更新后需重做。Windows/Linux初始化命令无此步骤。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "独一无二的本地微信数据命令行查询能力，高性能、AI友好、零依赖，解决了数据隐私和自动化处理微信数据的痛点。安装部署便捷。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比良好 (3:7)，说明项目维护者积极响应并解决问题。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-19T04:38:29.158Z"
+    },
+    {
+      "owner": "assai-id",
+      "repo": "nemesis",
+      "fullName": "assai-id/nemesis",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-16T07:00:13Z",
+      "url": "https://github.com/assai-id/nemesis",
+      "analysis": {
+        "positioning": "揭示公共采购数据异常，助力公民、记者、政策制定者反腐调查。",
+        "useCases": [
+          "你关注公共采购腐败 → 它帮你分析海量采购数据，揪出异常交易。",
+          "你是独立记者/公民组织 → 它提供可视化调查界面和数据，支持深度报道与监督。",
+          "你是政府决策者 → 它提供数据洞察，辅助制定更透明的采购政策。"
+        ],
+        "audience": "关注公共采购透明度、致力于反腐的公民、记者、非政府组织及政府决策者。",
+        "quickStart": {
+          "prerequisites": "Node.js, Python 3",
+          "steps": [
+            "下载原始数据集，转换为SQLite并置于`backend/data/dashboard.sqlite`。",
+            "在`backend`目录运行`npm start`启动后端服务。",
+            "在`frontend`目录运行`python3 -m http.server 8080`启动前端服务。",
+            "浏览器访问`http://127.0.0.1:8080`。"
+          ],
+          "note": "前端无需构建步骤，直接运行HTML/CSS/JS即可。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于公共采购反腐，提供实时仪表板。但许可证未知，社区活跃度低（无已关闭Issue），核心AI模型和数据抓取仍在开发中。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启后无人处理（2开/0关）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-19T04:38:42.871Z"
+    },
+    {
+      "owner": "NikolayS",
+      "repo": "pgque",
+      "fullName": "NikolayS/pgque",
+      "description": "PgQue – Zero-bloat Postgres queue. One SQL file to install, pg_cron to tick.",
+      "language": "PLpgSQL",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-13T00:06:44Z",
+      "url": "https://github.com/NikolayS/pgque",
+      "analysis": {
+        "positioning": "通用型PostgreSQL零膨胀消息队列，纯SQL实现，兼容云厂商。",
+        "useCases": [
+          "你使用PostgreSQL作为消息队列遇到性能瓶颈和数据膨胀 → 它提供零膨胀的队列机制，避免传统 `SKIP LOCKED` 模式的问题。",
+          "你需要在云厂商托管的PostgreSQL上运行消息队列但受限于扩展限制 → 它通过纯SQL实现，无需C扩展，兼容各类云平台。",
+          "你需要一个简单、高可靠、不引入额外服务依赖的PostgreSQL队列 → 它仅需一个SQL文件安装，依托 `pg_cron` 驱动，无需额外分布式系统。"
+        ],
+        "audience": "使用PostgreSQL作为消息队列，尤其是在云厂商托管环境中，并希望避免传统队列的性能问题和扩展限制的开发者和DBA。",
+        "quickStart": {
+          "prerequisites": "PostgreSQL 14+，可选安装 `pg_cron`。",
+          "steps": [
+            "下载并运行其提供的SQL安装脚本。",
+            "配置 `pg_cron` 定时执行队列清理/处理任务（可选）。"
+          ],
+          "note": "兼容RDS, Aurora, Cloud SQL等各类托管PostgreSQL平台，无需特殊配置。"
+        },
+        "competitors": [
+          {
+            "name": "基于 `SKIP LOCKED` 的PostgreSQL队列",
+            "method": "直接使用 `SELECT ... FOR UPDATE SKIP LOCKED` 和 `DELETE`/`UPDATE` 操作",
+            "models": "不适用",
+            "pricing": "免费"
+          },
+          {
+            "name": "PgQ (原始版本)",
+            "method": "依赖C扩展 `pgq` 和外部守护进程 `pgqd`",
+            "models": "不适用",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "纯SQL实现，安装配置极其简单，且解决了PostgreSQL作为队列常见的数据膨胀和云环境兼容性问题，设计理念成熟，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度适中，有持续的问题响应和解决（关闭数是开启数的近两倍）。",
+        "category": "数据库"
+      },
+      "analyzedAt": "2026-04-19T04:38:58.089Z"
+    },
+    {
+      "owner": "h4ckf0r0day",
+      "repo": "obscura",
+      "fullName": "h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-13T10:31:41Z",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "analysis": {
+        "positioning": "轻量、隐匿的Rust无头浏览器，专为AI Agent和大规模爬虫优化。",
+        "useCases": [
+          "你构建AI Agent → 它帮你高效模拟用户行为，与网站交互。",
+          "你进行大规模网页数据抓取 → 它提供低资源、反检测的渲染能力，提升效率。",
+          "你使用Puppeteer/Playwright → 它作为无头Chrome的更优替代，显著降低内存和启动开销。"
+        ],
+        "audience": "需要高性能、低资源消耗、具备反检测能力的AI Agent开发者和大规模爬虫工程师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "根据操作系统下载并解压最新版二进制包。",
+            "执行 `obscura fetch https://example.com --eval \"document.title\"` 获取页面标题。"
+          ],
+          "note": "支持Linux、macOS (Intel/Apple Silicon)、Windows；无需额外安装Chrome或Node.js。"
+        },
+        "competitors": [
+          {
+            "name": "Headless Chrome",
+            "method": "作为Chrome浏览器的一部分，通过CDP协议与Puppeteer/Playwright等框架配合使用。",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源项目，Apache-2.0许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Rust实现，性能卓越（内存、启动、加载速度碾压Chrome），内置反检测，直接替代现有方案，解决痛点明确，工程质量高。",
+        "isVibeCoding": true,
+        "communityActivity": "目前有10个开启Issue，但尚无已关闭Issue，社区互动和问题解决情况待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-19T04:39:11.962Z"
+    },
+    {
+      "owner": "multica-ai",
+      "repo": "andrej-karpathy-skills",
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-01-27T03:53:13Z",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "analysis": {
+        "positioning": "改善Claude代码质量的指南文件",
+        "useCases": [
+          "你让Claude写代码 → 它能先思考、明确假设，避免盲目执行",
+          "你让Claude写代码 → 它能写出更简洁、不过度设计的代码",
+          "你让Claude修改代码 → 它能精准改动，不触碰不相关的代码"
+        ],
+        "audience": "依赖Claude（或类似LLM）进行代码生成和修改的开发者，寻求提升AI代码质量和可靠性",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "阅读并理解`CLAUDE.md`文件中的四项核心原则",
+            "在与Claude（或类似大型语言模型）交互时，主动引导其遵循这些原则"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它本身是一个纯文本的原则文件，旨在指导LLM生成高质量代码，而非直接提供酷炫的编码工具或框架。",
+        "isVibeCoding": false,
+        "communityActivity": "开启62个Issue，关闭0个，社区活跃度较低，问题响应和解决进度不足。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-19T04:39:30.896Z"
     }
   ]
 }
