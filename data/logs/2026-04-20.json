@@ -1,0 +1,16 @@
+{
+  "version": "1",
+  "date": "2026-04-20",
+  "startedAt": "2026-04-20T04:43:12.194Z",
+  "finishedAt": "2026-04-20T04:46:24.792Z",
+  "durationSeconds": 193,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 8,
+    "skipped": 97,
+    "geminiCalls": 8,
+    "statsUpdated": 105
+  },
+  "errors": []
+}

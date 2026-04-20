@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-19T04:39:30.903Z",
+  "updatedAt": "2026-04-20T04:45:38.697Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -18041,6 +18041,400 @@
         "category": "Prompt工程"
       },
       "analyzedAt": "2026-04-19T04:39:30.896Z"
+    },
+    {
+      "owner": "suinkimme",
+      "repo": "boj-archive",
+      "fullName": "suinkimme/boj-archive",
+      "description": "백준 온라인 저지(acmicpc.net) 서비스 종료에 따른 공익 목적 아카이브",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-20T02:47:01Z",
+      "url": "https://github.com/suinkimme/boj-archive",
+      "analysis": {
+        "positioning": "백준在线评测平台离线问题数据包，服务终止后仍可获取。",
+        "useCases": [
+          "你曾是백준用户，想回顾或练习旧题目 → 它提供完整的历史问题存档，让你离线刷题。",
+          "你是编程教育者，想为学生提供案例或测试题 → 它提供结构化JSON数据，方便你整合进教学资料。",
+          "你是算法研究者，想分析竞赛题目趋势或难度分布 → 它提供全面的题目元数据和内容，助力你的数据分析。"
+        ],
+        "audience": "백준在线评测用户、编程学习者、教育机构、数据研究员，希望在原平台停服后继续使用其竞赛题目数据。",
+        "quickStart": {
+          "prerequisites": "文件解压工具（如 `tar`）",
+          "steps": [
+            "下载 `problems.tar.gz` (完整题目) 或 `index.json` (元数据)。",
+            "解压 `problems.tar.gz`：`tar -xzf problems.tar.gz`。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "无直接竞品",
+            "method": "它是一个针对特定已停运服务的公益存档项目",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个数据存档项目，其核心价值在于数据完整性与公益性，而非代码活跃度或社区互动。星标和Issue数量均较低。",
+        "isVibeCoding": false,
+        "communityActivity": "无活跃社区互动，Issue均为零，项目本质上是静态数据仓库。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-20T04:43:26.416Z"
+    },
+    {
+      "owner": "kyegomez",
+      "repo": "OpenMythos",
+      "fullName": "kyegomez/OpenMythos",
+      "description": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "anthropic",
+        "attention",
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-mythos",
+        "claude-sonnet",
+        "deepmind",
+        "gpt-5",
+        "gpt-7",
+        "jax",
+        "looped-transformers",
+        "ml",
+        "pytorch",
+        "sonnet",
+        "torch"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-18T12:57:52Z",
+      "url": "https://github.com/kyegomez/OpenMythos",
+      "analysis": {
+        "positioning": "复现Claude Mythos架构，探索深度可变推理。",
+        "useCases": [
+          "你想研究Anthropic Claude模型（尤其是Mythos）的内部机制 → 它提供一个理论实现，供你分析与实验。",
+          "你想构建或实验新型Transformer架构（如循环深度、稀疏MoE） → 它提供模块化组件，供你快速集成与测试。",
+          "你关注计算自适应、深度可变推理等前沿大模型设计 → 它提供了一个探索此类新范式的开源框架。"
+        ],
+        "audience": "AI研究者、大模型架构师和对Claude Mythos理论实现及前沿Transformer结构（如循环深度、稀疏MoE）感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": "Python, pip",
+          "steps": [
+            "pip install open-mythos",
+            "通过Python脚本导入OpenMythos和MythosConfig，定义模型参数并实例化模型进行推理。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Hugging Face Transformers",
+            "method": "提供丰富的预训练模型和模块，快速构建/实验LLM架构",
+            "models": "广泛支持GPT、Llama等主流模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "PyTorch / JAX",
+            "method": "提供底层深度学习框架和工具，从头开始构建复杂模型",
+            "models": "无特定模型，提供构建神经网络的基础能力",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "深度探索Claude Mythos的理论架构，包含前沿的循环深度Transformer和MoE设计，旨在推动大模型架构创新，且拥有不错的社区关注度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数略多于关闭数（6:2），社区处于活跃探索与讨论阶段。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-20T04:43:49.244Z"
+    },
+    {
+      "owner": "EvoLinkAI",
+      "repo": "awesome-gpt-image-2-prompts",
+      "fullName": "EvoLinkAI/awesome-gpt-image-2-prompts",
+      "description": "Curated GPT-Image-2 prompts and image examples across portraits, posters, UI mockups, character sheets, and community experiments.",
+      "language": "Unknown",
+      "topics": [
+        "ai-art",
+        "awesome-list",
+        "evolink",
+        "gpt-image-2",
+        "image-generation",
+        "prompts"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-18T11:22:14Z",
+      "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+      "analysis": {
+        "positioning": "GPT-Image-2高质量提示词库，提升图像生成效率。",
+        "useCases": [
+          "你用GPT-Image-2生成人像 → 它提供精选提示词和案例，助你产出逼真人像。",
+          "你设计海报或UI界面 → 它提供结构化提示词，帮你快速生成设计稿。",
+          "你为游戏或动画构建角色 → 它提供详细的角色设定提示，确保形象准确统一。"
+        ],
+        "audience": "专注于使用GPT-Image-2生成图像的AI艺术家、设计师、内容创作者和开发者。",
+        "quickStart": {
+          "prerequisites": "访问Evolink平台（推荐）",
+          "steps": [
+            "浏览GitHub仓库中的各类提示词及对应图像示例。",
+            "复制你需要的提示词或参考其模式。",
+            "前往Evolink平台，将提示词输入GPT-Image-2模型进行图像生成。"
+          ],
+          "note": "该项目提示词专为Evolink上的GPT-Image-2模型优化，可能在其他平台效果有差异。"
+        },
+        "competitors": [
+          {
+            "name": "PromptBase",
+            "method": "提示词市场，用户可购买或出售高质量提示词",
+            "models": "支持DALL-E, Midjourney, Stable Diffusion等",
+            "pricing": "部分免费，主要为付费提示词"
+          },
+          {
+            "name": "Lexica Art",
+            "method": "Stable Diffusion图片和提示词搜索引擎，包含大量社区生成内容",
+            "models": "主要为Stable Diffusion",
+            "pricing": "免费"
+          },
+          {
+            "name": "Civitai",
+            "method": "AI艺术模型和提示词社区，提供模型下载和图片分享",
+            "models": "主要为Stable Diffusion相关模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（项目本身是开放的提示词库，但其引导使用的Evolink平台可能涉及收费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个高质量的Prompt精选库，针对GPT-Image-2模型和Evolink平台，分类清晰，提供多语言支持，且有实际图像示例。600+ Star说明其在特定用户群体中有一定价值。虽然是资源型项目，但维护者投入了组织和推广的精力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区互动较少（2开1关），但对于一个主要提供静态提示词资源的仓库而言，这是正常水平，并不代表项目不活跃。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-20T04:44:14.066Z"
+    },
+    {
+      "owner": "VoltAgent",
+      "repo": "awesome-claude-design",
+      "fullName": "VoltAgent/awesome-claude-design",
+      "description": "Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one in, scaffold a full UI in one shot.",
+      "language": "Unknown",
+      "topics": [
+        "claude-code",
+        "claude-design",
+        "design-md",
+        "design-system",
+        "figma"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-18T06:40:04Z",
+      "url": "https://github.com/VoltAgent/awesome-claude-design",
+      "analysis": {
+        "positioning": "Claude Design的设计系统灵感集，一键生成UI。",
+        "useCases": [
+          "你从零开始设计UI → 它提供68个风格各异的DESIGN.md，直接用AI生成基础UI。",
+          "你使用Claude Design → 它提供规范化的DESIGN.md文件，帮助AI快速理解并构建设计系统。",
+          "你需要一套符合特定“感觉”的设计系统 → 它让你选择一个DESIGN.md，由AI完成风格匹配和UI搭建。"
+        ],
+        "audience": "UI/UX设计师、前端开发者、产品经理，或任何使用Claude Design快速构建UI设计系统的团队或个人。",
+        "quickStart": {
+          "prerequisites": "需访问Anthropic Claude Design平台",
+          "steps": [
+            "浏览并选择一个符合你风格的DESIGN.md文件。",
+            "将选定的DESIGN.md文件上传至Claude Design。",
+            "Claude Design将自动生成一套完整的UI设计系统（包括颜色、字体、组件等）。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "getdesign.md",
+            "method": "提供DESIGN.md文件集合",
+            "models": "不适用",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心在于提供多种设计风格的`DESIGN.md`文件，让用户根据“感觉”、“氛围”、“美学”或“你想要的感受”来选择，并通过AI工具（Claude Design）快速生成符合其“意境”的UI，强调从抽象“feel”到具体UI的转化。",
+        "isVibeCoding": true,
+        "communityActivity": "目前无公开Issue交互记录，但项目内容更新活跃，说明有持续维护。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-20T04:44:32.679Z"
+    },
+    {
+      "owner": "Quorinex",
+      "repo": "Freebuff2API",
+      "fullName": "Quorinex/Freebuff2API",
+      "description": "🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment.",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-18T01:08:34Z",
+      "url": "https://github.com/Quorinex/Freebuff2API",
+      "analysis": {
+        "positioning": "将Freebuff免费模型包装成OpenAI API，支持多令牌轮换。",
+        "useCases": [
+          "你有一个OpenAI兼容的客户端/SDK → 它帮你用Freebuff的免费模型，无需修改代码，降低开发成本。",
+          "你想免费稳定地使用高质量大模型 → 它帮你动态轮换Freebuff免费账户，实现隐匿请求与高吞吐量。",
+          "你希望快速部署Freebuff代理服务 → 它提供开箱即用的Docker部署方案，简化配置和上线流程。"
+        ],
+        "audience": "希望通过标准OpenAI API免费、稳定、高效地利用Freebuff平台AI模型的开发者或个人用户。",
+        "quickStart": {
+          "prerequisites": "Docker (推荐)，Freebuff账号 (获取auth token)。",
+          "steps": [
+            "通过 `https://freebuff.llm.pm` 或Freebuff CLI获取一个或多个Freebuff Auth Token。",
+            "将Auth Token配置到 `config.json` 文件或环境变量 `AUTH_TOKENS` 中。",
+            "使用Docker部署（如 `docker run ...`），或直接运行Go程序，通过 `LISTEN_ADDR` (默认:8080) 访问代理服务。"
+          ],
+          "note": "支持配置多个Auth Token进行自动轮换，以提高请求吞吐量和稳定性。"
+        },
+        "competitors": [
+          {
+            "name": "Freebuff官方CLI",
+            "method": "命令行交互/脚本调用",
+            "models": "Freebuff模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "Freebuff官方Web",
+            "method": "网页界面",
+            "models": "Freebuff模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。它利用的是Freebuff提供的免费模型，并无额外收费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，解决了Freebuff免费模型OpenAI兼容性及使用稳定性问题。Go语言实现，具备多令牌轮换、隐匿请求、Docker部署等实用功能，且文档清晰，是一个高质量、有工程实用价值的工具型项目。",
+        "isVibeCoding": true,
+        "communityActivity": "中等活跃度，Issue数量不多，但有开启和关闭记录 (3开/2关)，显示维护者在响应和处理问题。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-20T04:44:56.746Z"
+    },
+    {
+      "owner": "Creators-of-Aeronautics",
+      "repo": "Simulated-Project",
+      "fullName": "Creators-of-Aeronautics/Simulated-Project",
+      "description": "Build anything from airships to planes and cars!",
+      "language": "Java",
+      "topics": [
+        "minecraft",
+        "minecraft-mod",
+        "neoforge"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-15T08:01:45Z",
+      "url": "https://github.com/Creators-of-Aeronautics/Simulated-Project",
+      "analysis": {
+        "positioning": "《我的世界》物理引擎增强，打造会动的飞机汽车及复杂机械。",
+        "useCases": [
+          "你希望在Minecraft里造出能飞行的热气球、飞机或魔法浮石 → 它提供航空模块和物理机制让你实现。",
+          "你想要在Minecraft里创建能驾驶的汽车、越野车或独特陆地载具 → 它提供越野模块和车轮机制助你达成。",
+          "你已使用Create模组，想进一步扩展其物理互动和机械组装能力 → 它作为核心组件，提供更高级的组装、红石和物理交互工具。"
+        ],
+        "audience": "《我的世界》玩家，尤其是喜欢工程、物理模拟，并对“Create”模组及其扩展感兴趣的进阶创作者。",
+        "quickStart": {
+          "prerequisites": "《我的世界》游戏本体，已安装NeoForge启动器，并安装“Create”模组。",
+          "steps": [
+            "前往Modrinth下载“Simulated Project”系列模组文件（如Simulated, Aeronautics, Offroad）。",
+            "将下载的.jar文件放入《我的世界》游戏目录下的“mods”文件夹。",
+            "启动游戏，即可在“Create”模组基础上体验物理驱动的机械。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。作为《我的世界》社区模组，可通过Modrinth免费下载使用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述强调“建造任何东西”，从飞艇到汽车，甚至“奇怪的昆虫机器”，极大地扩展了游戏的创造力和乐趣。与“Create”模组结合，激发了玩家无限的工程想象力，玩乐属性极高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，Discord和Crowdin提供互动和翻译平台；GitHub上有活跃的用户反馈（230个开放问题，130个已关闭问题），表明项目持续开发和维护，但也有不少待解决事项。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-20T04:45:12.647Z"
+    },
+    {
+      "owner": "zats",
+      "repo": "permiso",
+      "fullName": "zats/permiso",
+      "description": "Permission dialog for accessibility settings as seen in Codex Computer Use https://x.com/lexrus/status/2044929029334245819",
+      "language": "Swift",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-17T02:46:48Z",
+      "url": "https://github.com/zats/permiso",
+      "analysis": {
+        "positioning": "iOS辅助功能权限引导组件，提升用户体验。",
+        "useCases": [
+          "你的App需要辅助功能权限（如屏幕阅读器）→ 它提供标准引导界面，直观教用户开启。",
+          "用户找不到iOS辅助功能设置入口 → 它直接弹出系统级设置面板，省去用户查找麻烦。",
+          "你在开发辅助技术App，需确保用户顺利配置权限 → 它简化权限引导逻辑，提高用户成功率。"
+        ],
+        "audience": "iOS/macOS开发者，需为应用集成辅助功能权限引导，以优化用户初次体验。",
+        "quickStart": {
+          "prerequisites": "Swift iOS/macOS项目开发环境",
+          "steps": [
+            "import Permiso",
+            "PermisoAssistant.shared.present(panel: .accessibility)"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "自建方案",
+            "method": "开发者自行编写UI和系统API调用，引导用户跳转设置",
+            "models": null,
+            "pricing": "免费（但需投入开发和维护成本）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "针对特定痛点提供简洁高效的解决方案，API清晰，演示直观，能显著提升用户体验和开发效率。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue，可能项目处于稳定或维护状态。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-04-20T04:45:25.768Z"
+    },
+    {
+      "owner": "ZeroZ-lab",
+      "repo": "cc-design",
+      "fullName": "ZeroZ-lab/cc-design",
+      "description": "High-fidelity HTML design and prototype guidance skill for AI agents",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-19T01:35:57Z",
+      "url": "https://github.com/ZeroZ-lab/cc-design",
+      "analysis": {
+        "positioning": "AI智能体高保真HTML设计与原型创建技能。",
+        "useCases": [
+          "你用AI生成UI设计稿 → 它帮你生成高保真、可交互的HTML原型、演示文稿或着陆页。",
+          "你需要AI设计遵循特定品牌风格 → 它帮你克隆并应用68+主流品牌设计系统（如Stripe, Vercel）。",
+          "你希望AI代码可验证 → 它帮你用Playwright验证AI生成的HTML输出。"
+        ],
+        "audience": "希望利用Claude Code等AI代理，高效、高质量地进行UI/UX设计与原型开发的开发者或产品设计师。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js/npm，且拥有Claude Code环境。",
+          "steps": [
+            "将项目克隆到Claude Code技能目录：`git clone https://github.com/ZeroZ-lab/cc-design.git ~/.claude/skills/cc-design`",
+            "安装导出脚本依赖：`cd ~/.claude/skills/cc-design/scripts && npm install && cd -`"
+          ],
+          "note": "Playwright导出功能可能需要额外安装Chromium：`npx playwright install chromium`"
+        },
+        "competitors": [],
+        "pricing": "免费 (项目本身开源免费，但使用AI代理服务可能需要付费)",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "它提供结构化、上下文优先的设计流程，强调交付高质量、可验证的HTML产物，而非快速试错或“凭感觉”编程。",
+        "isVibeCoding": false,
+        "communityActivity": "目前 Issue 统计为零，社区活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-20T04:45:38.691Z"
     }
   ]
 }
