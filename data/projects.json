@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-20T04:45:38.697Z",
+  "updatedAt": "2026-04-21T04:34:48.430Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -18435,6 +18435,99 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-20T04:45:38.691Z"
+    },
+    {
+      "owner": "Pedrozz13755",
+      "repo": "Lottie-Whatsapp",
+      "fullName": "Pedrozz13755/Lottie-Whatsapp",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-21T01:02:40Z",
+      "url": "https://github.com/Pedrozz13755/Lottie-Whatsapp",
+      "analysis": {
+        "positioning": "图片转WhatsApp Lottie动态贴纸工具",
+        "useCases": [
+          "你有图片Buffer/文件 → 它帮你生成WhatsApp动态贴纸（.was）",
+          "你开发Node.js机器人 → 它提供API集成动态贴纸生成功能",
+          "你使用Baileys库 → 它助你直接发送生成的Lottie贴纸"
+        ],
+        "audience": "WhatsApp机器人或自动化开发者，需将图片转换成WhatsApp Lottie贴纸的用户。",
+        "quickStart": {
+          "prerequisites": "系统安装`zip`命令",
+          "steps": [
+            "克隆项目并进入目录",
+            "安装系统依赖：`pkg install zip` 或 `apt install zip`",
+            "准备一个预置Base64图片的Lottie JSON文件作为模板",
+            "调用`buildLottieSticker`函数，传入Lottie模板路径和图片数据"
+          ],
+          "note": "Linux/Termux/Ubuntu用户需手动安装`zip`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能专注且实用，但Issue未关闭且星数较低，社区活跃度有待提高，适合特定场景使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 3开0关，社区活跃度低，维护者响应速度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-21T04:33:58.377Z"
+    },
+    {
+      "owner": "kangarooking",
+      "repo": "cangjie-skill",
+      "fullName": "kangarooking/cangjie-skill",
+      "description": "把一本书蒸馏成一组可执行的 Agent Skills",
+      "language": "Unknown",
+      "topics": [
+        "agent-workflows",
+        "ai-skills",
+        "automation",
+        "book-to-skill",
+        "knowledge-distillation",
+        "prompt-engineering",
+        "skill-generator",
+        "templates"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-16T05:54:32Z",
+      "url": "https://github.com/kangarooking/cangjie-skill",
+      "analysis": {
+        "positioning": "蒸馏书籍智慧，生成AI Agent可用的结构化技能。",
+        "useCases": [
+          "你读了书但无法有效应用 → 它帮你把书本知识蒸馏成可执行的AI Agent技能",
+          "你做的读书笔记只停留在总结 → 它帮你将书籍内容结构化为Agent可复用的工具包",
+          "你面对大量书籍不知如何提取精髓 → 它帮你筛选、构造并测试书中的高价值方法论"
+        ],
+        "audience": "适合希望将书籍中的知识转化为AI Agent可执行工具的学习者、开发者和知识工作者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "nuwa-skill",
+            "method": "蒸馏“人”的经验、语气、工作方式（如马斯克skill），侧重模仿个人特质。",
+            "models": null,
+            "pricing": null
+          },
+          {
+            "name": "darwin-skill",
+            "method": "让已生成的AI skills自动进化，侧重技能的迭代与优化。",
+            "models": null,
+            "pricing": null
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目概念新颖且有清晰痛点，提出的RIA-TV++方法论详细且有创新性。文档质量高，已有多个成功案例，具备解决实际问题的巨大潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue活跃度较低（1开/0关），但项目关注度较高（411 Star），文档清晰，潜力巨大。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-21T04:34:48.423Z"
     }
   ]
 }

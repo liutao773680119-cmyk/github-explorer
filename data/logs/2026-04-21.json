@@ -1,0 +1,62 @@
+{
+  "version": "1",
+  "date": "2026-04-21",
+  "startedAt": "2026-04-21T04:33:46.784Z",
+  "finishedAt": "2026-04-21T04:35:51.065Z",
+  "durationSeconds": 124,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 2,
+    "skipped": 103,
+    "geminiCalls": 7,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-04-21T04:34:26.350Z",
+      "level": "warn",
+      "project": "SteveTheKiller/KillerPDF",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-21T04:34:59.364Z",
+      "level": "warn",
+      "project": "golbin/hop",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-21T04:35:04.933Z",
+      "level": "warn",
+      "project": "Ademking/MD-This-Page",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-21T04:35:08.803Z",
+      "level": "warn",
+      "project": "drasimwagan/mdv",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-21T04:35:13.298Z",
+      "level": "warn",
+      "project": "endevco/aube",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
