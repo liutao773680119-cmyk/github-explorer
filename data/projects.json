@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-21T04:34:48.430Z",
+  "updatedAt": "2026-04-22T04:35:21.506Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -18528,6 +18528,880 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-21T04:34:48.423Z"
+    },
+    {
+      "owner": "madrobotnet",
+      "repo": "hermes-codex-imagegen-skill",
+      "fullName": "madrobotnet/hermes-codex-imagegen-skill",
+      "description": "This skill allows you to generate images directly within Hermes Agent using the Codex CLI. If you have a paid subscription to ChatGPT, you can generate images via the Codex CLI without needing a separate API.",
+      "language": "Unknown",
+      "topics": [
+        "chatgpt",
+        "codex-cli",
+        "hermes-agent"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-22T01:12:01Z",
+      "url": "https://github.com/madrobotnet/hermes-codex-imagegen-skill",
+      "analysis": {
+        "positioning": "Hermes Agent的Codex CLI图片生成技能，原生后端不可用时的备选。",
+        "useCases": [
+          "你希望在Hermes Agent中生成图片，但其原生后端不工作 → 它让你通过已登录的Codex CLI快速生成图片。",
+          "你已经有Codex CLI并登录ChatGPT付费账户，想在Hermes Agent中复用 → 它让你无需额外API配置，利用现有Codex CLI能力。",
+          "你需要在Linux/macOS命令行环境中，在Hermes Agent中便捷地进行基于Codex的图片生成 → 它提供一个即插即用的CLI驱动解决方案。"
+        ],
+        "audience": "Hermes Agent用户，当原生图片生成后端不可用时，希望通过已登录的Codex CLI进行图片生成的场景。",
+        "quickStart": {
+          "prerequisites": "需要Hermes Agent、Codex CLI安装并配置到PATH、有效的ChatGPT/OpenAI Codex OAuth登录，且在Linux或macOS shell环境运行。",
+          "steps": [
+            "确保Codex CLI已安装，并已登录ChatGPT/OpenAI账户。",
+            "将此技能文件部署到Hermes Agent的技能目录。",
+            "在Hermes Agent中，通过`codex-imagegen-via-chatgpt-oauth`技能命令生成图片。"
+          ],
+          "note": "目前仅支持Linux或macOS shell环境。"
+        },
+        "competitors": [],
+        "pricing": "项目免费，但图片生成依赖ChatGPT付费订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，解决了Hermes Agent在特定场景下的图片生成需求，文档详尽。但作为Hermes Agent的“备用”技能，通用性有限，且社区活跃度极低（0 issues），功能未来发展存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue和PR均为0，可能缺乏持续维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:30:14.329Z"
+    },
+    {
+      "owner": "hail2victors",
+      "repo": "n8n-Actual-Automation",
+      "fullName": "hail2victors/n8n-Actual-Automation",
+      "description": "6 n8n workflows for Actual Budget — AI transaction categorization, envelope auto-funding, and weekly budget briefing via Telegram",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-22T00:33:33Z",
+      "url": "https://github.com/hail2victors/n8n-Actual-Automation",
+      "analysis": {
+        "positioning": "为Actual Budget打造，结合AI实现个人财务自动化。",
+        "useCases": [
+          "你需要处理银行流水 → 它能AI智能分类交易，学习你的消费习惯。",
+          "你想省心管理预算信封 → 它能每月1号自动填充预算信封。",
+          "你想快速了解财务状况 → 它能每周生成AI预算摘要并发送到Telegram。",
+          "你需要定期掌握薪资和预算进展 → 它能每周汇总薪资入账和月度预算快照。"
+        ],
+        "audience": "使用Actual Budget并希望通过AI和自动化提升财务管理效率的个人用户。",
+        "quickStart": {
+          "prerequisites": "n8n (自托管/云), Actual Budget (自托管/云), SimpleFIN Bridge, Anthropic API (AI工作流), Telegram Bot (通知), Notion (可选，日志)。",
+          "steps": [
+            "配置n8n凭证",
+            "设置SimpleFIN桥接",
+            "导入工作流",
+            "运行“发现”工作流 (00)",
+            "配置各工作流",
+            "测试并激活"
+          ],
+          "note": "n8n和Actual Budget均支持自托管或云版本，但Actual Budget需启用HTTP API。"
+        },
+        "competitors": [],
+        "pricing": "部分免费/付费。n8n和Actual Budget可自托管，SimpleFIN服务费约$15/年，Anthropic API按量付费。",
+        "vibeCodingScore": 4.5,
+        "vibeCodingReason": "项目文档清晰、详细，提供了完整的安装和配置指南。功能模块化，且有作者日常维护和响应承诺，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "当前无Issue，但作者承诺48小时内响应，社区活跃度有待观察但支持态度积极。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:30:27.301Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "huashu-design",
+      "fullName": "alchaincyf/huashu-design",
+      "description": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
+      "language": "HTML",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-19T14:42:06Z",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "analysis": {
+        "positioning": "AI Agent原生设计技能，一句话生成高保真HTML设计与动画。",
+        "useCases": [
+          "你需要产品发布动画 → 它帮你用一句话生成专业级宣传片，含MP4导出。",
+          "你需要交互原型 → 它帮你快速生成可点击的App/Web HTML原型。",
+          "你需要演讲PPT → 它帮你从prompt生成HTML幻灯片和可编辑PPTX。"
+        ],
+        "audience": "设计师、产品经理、营销人员及开发者，希望通过AI Agent高效产出高质量视觉内容，摆脱传统设计工具的繁琐操作。",
+        "quickStart": {
+          "prerequisites": "已安装支持Skills.sh的AI Agent，如Claude Code。",
+          "steps": [
+            "在终端执行 `npx skills add alchaincyf/huashu-design` 安装技能。",
+            "在你的AI Agent中直接输入设计需求，如「做一份 AI 心理学的演讲 PPT」。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Figma",
+            "method": "图形界面设计工具，拖拽、手动编辑。",
+            "models": "null",
+            "pricing": "免费/付费订阅"
+          },
+          {
+            "name": "Adobe After Effects (AE)",
+            "method": "专业视频后期和动画软件，时间轴编辑。",
+            "models": "null",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费（个人使用）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目强调「打字。回车。一份能交付的设计。」，通过自然语言prompt直接生成高保真设计，完全脱离传统图形界面，是典型的极简、高效、以代码（这里是prompt）为中心的「Vibe Coding」实践。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示 5 开/0 闭，目前社区问题响应和解决速度尚未体现，可能处于早期阶段或非常稳定。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:30:43.573Z"
+    },
+    {
+      "owner": "tw93",
+      "repo": "Kami",
+      "fullName": "tw93/Kami",
+      "description": "👩‍🚒 Good content deserves good paper.",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-20T16:35:19Z",
+      "url": "https://github.com/tw93/Kami",
+      "analysis": {
+        "positioning": "为AI Agent生成美学风格文档的技能套件。",
+        "useCases": [
+          "你需要为初创公司制作单页介绍 → Kami帮你生成排版精美的公司单页。",
+          "你想快速生成专业简历 → Kami帮你制作符合审美的多页简历。",
+          "你需要设计演示文稿或作品集 → Kami帮你创建风格统一的幻灯片或多页作品集。"
+        ],
+        "audience": "追求文档美学、需通过AI Agent快速生成专业报告、简历或演示文稿的用户。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js和支持Agent Skills的AI平台（如Claude Code, Codex）",
+          "steps": [
+            "在终端运行 `npx skills add tw93/kami -a [agent_name] -g -y` (替换 `[agent_name]` 为你的Agent，例如 `claude-code`)",
+            "在AI Agent中用自然语言描述你所需的文档，如“make a one-pager for my startup”"
+          ],
+          "note": "Claude Desktop 用户可直接下载发布包ZIP文件导入。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和理念高度强调设计美学、人文关怀及独特风格，如“暖色羊皮纸画布，单一墨蓝色调”，并以“家庭”故事构建系列产品。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无未解决的Issue，历史3个Issue已关闭。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:30:57.803Z"
+    },
+    {
+      "owner": "SteveTheKiller",
+      "repo": "KillerPDF",
+      "fullName": "SteveTheKiller/KillerPDF",
+      "description": "Portable PDF editor for Windows. GPLv3. No installer, no account, no subscription, no telemetry.",
+      "language": "C#",
+      "topics": [
+        "dotnet",
+        "gplv3",
+        "opensource",
+        "pdf",
+        "pdf-editor",
+        "portable",
+        "windows",
+        "wpf"
+      ],
+      "license": "GPL-3.0",
+      "createdAt": "2026-04-16T01:44:04Z",
+      "url": "https://github.com/SteveTheKiller/KillerPDF",
+      "analysis": {
+        "positioning": "纯本地、免安装的 Windows 便携式 PDF 编辑器。",
+        "useCases": [
+          "你是一名外勤技术人员，急需在现场处理PDF文档 → 它让你无需安装、无需网络即可随时查看、批注、合并或拆分PDF。",
+          "你厌倦了Adobe Acrobat的臃肿、订阅和隐私侵扰 → 它提供轻量、离线、无账户、无遥测的PDF编辑方案。",
+          "你想在PDF中直接修改文本、签名、画图或高亮重要内容 → 它提供强大的本地编辑能力，打印时批注可一并输出。"
+        ],
+        "audience": "厌倦Adobe Acrobat臃肿、订阅模式的普通用户；对隐私有较高要求、追求轻量便携的PDF工具使用者；以及经常需要在无网络、无安装权限环境下处理PDF的专业人士。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (x64)",
+          "steps": [
+            "从GitHub Releases下载`KillerPDF.zip`",
+            "解压文件到任意目录",
+            "运行`KillerPDF.exe`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Adobe Acrobat",
+            "method": "安装软件，需要账户和订阅",
+            "models": "全功能PDF编辑",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费（GPLv3开源），无订阅、无账户、无遥测。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，直击用户痛点（反Adobe臃肿），提供简洁、便携的解决方案。文档清晰，功能实用。但GitHub Issue统计显示有8个未关闭Issue，且没有已关闭Issue，社区互动和维护活跃度可能需要进一步观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启8个，已关闭0个，显示核心维护者响应和社区互动相对较少。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-04-22T04:31:18.723Z"
+    },
+    {
+      "owner": "golbin",
+      "repo": "hop",
+      "fullName": "golbin/hop",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-19T10:49:46Z",
+      "url": "https://github.com/golbin/hop",
+      "analysis": {
+        "positioning": "macOS/Windows/Linux平台的开源HWP/HWPX文档查看与编辑工具。",
+        "useCases": [
+          "你处理HWP/HWPX文件 → 它帮你打开、查看文档并进行基础编辑",
+          "你需要保存或导出HWP文件 → 它帮你将HWP保存为新文件或导出为PDF",
+          "你经常使用HWP/HWPX文件 → 它帮你实现文件关联、拖拽打开和多窗口编辑"
+        ],
+        "audience": "需要在macOS、Windows或Linux平台处理韩国HWP/HWPX格式文档的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "根据操作系统（macOS/Windows/Linux）下载对应的安装包",
+            "运行安装包进行安装，即可使用"
+          ],
+          "note": "Windows版安装包未签名，可能触发SmartScreen警告；macOS版已签名。"
+        },
+        "competitors": [
+          {
+            "name": "韩软Office (Hancom Office)",
+            "method": "官方商业软件安装",
+            "models": "支持所有HWP/HWPX版本",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他HWP在线或轻量级查看器",
+            "method": "在线上传/安装独立查看工具",
+            "models": "部分HWP/HWPX版本",
+            "pricing": "免费/部分免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，基于成熟的rhwp解析库构建，提供跨平台的HWP/HWPX文档查看、编辑及导出功能。核心功能实用，提供便捷的安装包下载，但社区活跃度一般。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，但有基础维护（Issue开/关比2:1）",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-04-22T04:31:32.396Z"
+    },
+    {
+      "owner": "432539",
+      "repo": "gpt2api",
+      "fullName": "432539/gpt2api",
+      "description": "基于 chatgpt.com 逆向的 OpenAI 兼容 SaaS 网关 · GPT-IMAGE-2 稳定 · 批量出图 · 多账号池 · 高并发调度 · 积分计费 · 技术交流QQ 群 382446",
+      "language": "Go",
+      "topics": [
+        "chatgpt",
+        "gpt-image-2",
+        "openai"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-18T06:02:44Z",
+      "url": "https://github.com/432539/gpt2api",
+      "analysis": {
+        "positioning": "将ChatGPT账号能力转为OpenAI API，带SaaS运营后台。",
+        "useCases": [
+          "你有ChatGPT账号想提供图文服务 → 它帮你稳定输出GPT Image/DALL·E 3/IMG2高清大图。",
+          "你想团队内部统一管理AI调用 → 它帮你搭建OpenAI兼容网关，集中统计、计费、审计。",
+          "你想低成本搭建AI API中台售卖 → 它帮你实现积分/套餐/支付功能，面向C/B端开发者。"
+        ],
+        "audience": "拥有ChatGPT账号，希望搭建AI服务或API中台，进行商业运营或内部管理的用户。",
+        "quickStart": {
+          "prerequisites": "Docker",
+          "steps": [
+            "准备好Docker环境",
+            "参照文档执行Docker一键部署命令"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源工具），但支持搭建付费计费的AI API服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档结构清晰，特性描述详尽，有Docker一键部署和管理后台，降低了使用门槛；社区Issue活跃度有待提高，代码风格与长期维护性需进一步考察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低 (1开/0关)，主要交流可能集中在QQ群。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-22T04:31:50.942Z"
+    },
+    {
+      "owner": "the-hidden-fish",
+      "repo": "advisor-ledger",
+      "fullName": "the-hidden-fish/advisor-ledger",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-19T21:58:46Z",
+      "url": "https://github.com/the-hidden-fish/advisor-ledger",
+      "analysis": {
+        "positioning": "学术黑榜镜像，记录编辑，保留删除，防信息篡改。",
+        "useCases": [
+          "你需要一个公开透明、不可篡改的“学术黑榜”记录 → 它帮你自动镜像并永久保留每一次修订，包括被删除的内容。",
+          "你担心匿名编辑文档中的恶意删除或信息压制 → 它通过自动化抓取、对比和LLM审查，标记可疑变更。",
+          "你想追踪Google Docs文档的所有历史变更细节 → 它提供按段落哈希的结构化差异记录和带删除线还原的渲染视图。"
+        ],
+        "audience": "关注公共文档透明度、希望防止信息篡改和追踪匿名协作文档历史的个人或组织。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问实时视图链接：https://the-hidden-fish.github.io/advisor-ledger/",
+            "浏览文档当前内容及历史变更记录。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目技术实现巧妙，通过自动化抓取、Git版本控制和LLM审查，有效解决了匿名文档内容篡改的核心痛点，具有高度的社会价值和技术实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度适中，Star数较高显示社区关注度，Issue处理速度有待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-22T04:32:10.239Z"
+    },
+    {
+      "owner": "OpenCoworkAI",
+      "repo": "open-codesign",
+      "fullName": "OpenCoworkAI/open-codesign",
+      "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-design",
+        "anthropic",
+        "byok",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "claude-design-alternative",
+        "deepseek",
+        "design-to-code",
+        "desktop-app",
+        "electron",
+        "figma-alternative",
+        "gemini",
+        "local-first",
+        "multi-model",
+        "ollama",
+        "openai",
+        "openrouter",
+        "typescript",
+        "ui-generator"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-18T03:14:33Z",
+      "url": "https://github.com/OpenCoworkAI/open-codesign",
+      "analysis": {
+        "positioning": "本地运行、多模型、开源的AI设计生成助手",
+        "useCases": [
+          "你想生成UI原型 → 它帮你把提示词转化为可交互的UI原型",
+          "你想快速制作幻灯片 → 它帮你将提示词转化为精美幻灯片",
+          "你想创建营销素材 → 它帮你把提示词转化为营销图文等资产"
+        ],
+        "audience": "追求AI设计效率、看重数据隐私与模型选择自由的开发者和设计师。",
+        "quickStart": {
+          "prerequisites": "需有Claude Code/Codex或其他支持AI模型的API Key。",
+          "steps": [
+            "下载并安装Open CoDesign桌面应用",
+            "一键导入你的API Key即可开始使用"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Claude Design",
+            "method": "云端服务，需订阅",
+            "models": "Claude模型",
+            "pricing": "订阅付费"
+          },
+          {
+            "name": "v0 by Vercel",
+            "method": "云端服务，Vercel生态",
+            "models": "GPT等（可能受限）",
+            "pricing": "部分免费/订阅付费"
+          },
+          {
+            "name": "Figma AI",
+            "method": "Figma平台集成，云端",
+            "models": "Figma自研/合作模型",
+            "pricing": "Figma订阅付费"
+          }
+        ],
+        "pricing": "工具本身免费（MIT开源），仅需支付你所选AI模型的API调用费用（BYOK）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位精准，直击AI设计工具云服务痛点（隐私、厂商锁定、成本）。本地运行、多模型、BYOK、MIT开源，提供了极佳的自由度和控制权。桌面应用形式易用，社区活跃度良好，潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "561 Star数，9开/2关 Issue，活跃度良好，问题有响应，有微信社区。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:32:27.774Z"
+    },
+    {
+      "owner": "Ademking",
+      "repo": "MD-This-Page",
+      "fullName": "Ademking/MD-This-Page",
+      "description": "Convert any web page to clean, readable Markdown with just one click.",
+      "language": "TypeScript",
+      "topics": [
+        "chrome-extension",
+        "firefox-extension",
+        "markdown"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-17T06:42:43Z",
+      "url": "https://github.com/Ademking/MD-This-Page",
+      "analysis": {
+        "positioning": "网页一键转Markdown，专为LLM优化内容输入。",
+        "useCases": [
+          "你向LLM喂入网页内容 → 它帮你去除噪音，提高LLM理解准确性。",
+          "你收集网页资料训练LLM → 它帮你快速生成结构化Markdown，节省预处理时间。",
+          "你阅读网页文章想做简洁笔记 → 它帮你提取核心内容，去除广告和无关元素。"
+        ],
+        "audience": "AI开发者、研究员及任何需从网页高效提取并优化LLM输入的用户。",
+        "quickStart": {
+          "prerequisites": "Chrome或Firefox浏览器",
+          "steps": [
+            "安装浏览器扩展（Chrome或Firefox应用商店）",
+            "打开任意网页，右键点击 '.MD this page' 或按 Alt+M"
+          ],
+          "note": "支持Chrome和Firefox。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "精准解决了LLM输入优化的痛点，文档清晰，功能实用，支持主流浏览器，用户体验优秀。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，有少量Issue开启和关闭，但响应速度未知。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-22T04:32:42.483Z"
+    },
+    {
+      "owner": "masterking32",
+      "repo": "MasterHttpRelayVPN",
+      "fullName": "masterking32/MasterHttpRelayVPN",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-20T10:32:26Z",
+      "url": "https://github.com/masterking32/MasterHttpRelayVPN",
+      "analysis": {
+        "positioning": "利用免费谷歌账号，将流量伪装成谷歌，实现无VPS自由上网。",
+        "useCases": [
+          "你在网络受限地区无法访问特定网站 → 它帮你将流量伪装成谷歌流量，绕过防火墙自由访问。",
+          "你没有预算购买VPS但需要代理服务 → 它帮你利用免费谷歌Apps Script搭建个人中继，零成本上网。",
+          "你希望隐藏真实访问目标，提高上网匿名性 → 它帮你通过谷歌前置，隐藏你的真实目的地。"
+        ],
+        "audience": "需要免费、便捷地绕过网络审查，且不愿或无法使用传统VPN/VPS的用户。",
+        "quickStart": {
+          "prerequisites": "一个免费的Google账号",
+          "steps": [
+            "克隆项目到本地",
+            "部署Google Apps Script中继，并配置本地代理"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统VPN服务",
+            "method": "安装客户端并连接",
+            "models": "不适用",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Shadowsocks/V2Ray",
+            "method": "自建或购买服务器，配置客户端",
+            "models": "不适用",
+            "pricing": "自建需服务器成本，购买服务付费"
+          }
+        ],
+        "pricing": "免费，利用现有免费Google账号",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙利用免费谷歌Apps Script实现网络代理，无需VPS，大幅降低使用门槛，方案新颖且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues有开启但无关闭，项目维护者响应速度待观察。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-22T04:32:57.505Z"
+    },
+    {
+      "owner": "AERT-7Y",
+      "repo": "kiro-auto",
+      "fullName": "AERT-7Y/kiro-auto",
+      "description": "kiro自动注册机",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-18T06:27:50Z",
+      "url": "https://github.com/AERT-7Y/kiro-auto",
+      "analysis": {
+        "positioning": "Kiro IDE AWS Builder ID 账号自动化注册与切换工具。",
+        "useCases": [
+          "你做账号批量注册 → 它帮你防检测自动化注册 Kiro IDE AWS Builder ID 账号。",
+          "你经常切换 Kiro IDE 账号 → 它帮你通过交互式菜单快速切换并管理 Kiro 进程。",
+          "你遇到 Kiro IDE 机器码限制 → 它帮你一键重置机器码，解除登录障碍。"
+        ],
+        "audience": "需要管理和使用多个 Kiro IDE 账号，或进行自动化测试、研究的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 18.0.0, npm >= 9.x",
+          "steps": [
+            "git clone https://github.com/AERT-7Y/kiro-auto.git && cd kiro-auto",
+            "npm install && npm run install-browser",
+            "npm run register -- --count 1"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该工具提供批量自动化注册、反检测机制及机器码重置功能，虽然声明用于学习研究，但其特性使其极易被用于绕过服务商限制或不正当获取资源。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 5 / 已关闭 0，表明项目维护响应速度有待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-22T04:33:11.502Z"
+    },
+    {
+      "owner": "OranAi-Ltd",
+      "repo": "oransim",
+      "fullName": "OranAi-Ltd/oransim",
+      "description": "Causal Digital Twin for Marketing at Scale · Predict any marketing decision before you spend a dollar.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-18T16:40:44Z",
+      "url": "https://github.com/OranAi-Ltd/oransim",
+      "analysis": {
+        "positioning": "营销ROI预测因果数字孪生，花钱前预知效果。",
+        "useCases": [
+          "你想启动小红书营销 → 它帮你预测ROI，评估活动效果。",
+          "你想验证营销模型逻辑 → 它提供开源因果引擎，供你审计机制和透明度。",
+          "你想获取实时市场洞察 → 它提供企业级数据面板，追踪达人与笔记数据。"
+        ],
+        "audience": "适合企业CMO、市场营销团队及策略分析师，在营销投入前精准预估效果。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/OranAi-Ltd/oransim.git`",
+            "参考项目文档，运行示例代码以审计其因果推理机制。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "核心引擎开源免费，但企业级数据面板及完整数据访问需付费授权。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，核心因果引擎开源可审计，技术栈主流（Python）。虽Issue活跃度较低，但作为商业产品的技术内核，透明度是其亮点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度极低（开启1/关闭1），社区互动有限。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:33:24.800Z"
+    },
+    {
+      "owner": "TheRealSeanDonahoe",
+      "repo": "agents-md",
+      "fullName": "TheRealSeanDonahoe/agents-md",
+      "description": "Drop-in AGENTS.md that makes every coding agent behave like a senior engineer instead of an eager intern. Kills sycophancy, stops drive-by refactors, forces verification loops. Synthesizes Karpathy's four principles and Boris Cherny's Claude Code workflow. Works with Claude Code, Codex, Gemini CLI, Cursor, and the open standard.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-19T03:40:28Z",
+      "url": "https://github.com/TheRealSeanDonahoe/agents-md",
+      "analysis": {
+        "positioning": "一份文件，让AI编码助手瞬间变资深工程师。",
+        "useCases": [
+          "你让AI改错，但指示有误，它却盲目听从 → 它会质疑并提出正确方案。",
+          "你让AI解决问题，它却写出臃肿代码 → 它会提供最精简高效的解决方案。",
+          "你让AI改个小地方，它却格式化全文件 → 它只会精准修改，确保代码影响最小化。",
+          "你让AI写代码，它声称完成却不能运行 → 它会强制验证，确保代码可靠可用。"
+        ],
+        "audience": "希望AI编码助手表现更专业、减少返工和低级错误的开发者。",
+        "quickStart": {
+          "prerequisites": "一个AI编码助手（如Claude Code, Cursor等）",
+          "steps": [
+            "下载AGENTS.md文件到项目根目录。",
+            "为你的AI助手创建对应的符号链接（如：`ln -s AGENTS.md CLAUDE.md`）"
+          ],
+          "note": "Windows用户创建符号链接需管理员权限或开启开发者模式。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在通过规范化Prompt提升AI助手的实用性和可靠性，使其产出更符合工程规范，减少低级错误和冗余，而非探索性或趣味性代码创作。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度低，Issue几乎没有讨论。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-22T04:33:42.129Z"
+    },
+    {
+      "owner": "drasimwagan",
+      "repo": "mdv",
+      "fullName": "drasimwagan/mdv",
+      "description": "MDV — a Markdown superset for documents, dashboards, and slides with embedded data and visualizations. HTML + PDF export, live preview, VS Code extension.",
+      "language": "TypeScript",
+      "topics": [
+        "charts",
+        "cli",
+        "commonmark",
+        "dashboards",
+        "data-visualization",
+        "markdown",
+        "typescript",
+        "vscode-extension"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-18T14:42:02Z",
+      "url": "https://github.com/drasimwagan/mdv",
+      "analysis": {
+        "positioning": "用Markdown搞定数据报告、仪表盘和演示文稿，含嵌入式可视化。",
+        "useCases": [
+          "你做数据分析报告 → 它帮你用Markdown直接生成带图表的HTML/PDF报告。",
+          "你想快速搭建数据仪表盘 → 它帮你用Markdown定义数据和图表，生成可交互仪表盘。",
+          "你制作演示文稿 → 它帮你用Markdown统一撰写，告别多工具切换。"
+        ],
+        "audience": "希望通过Markdown统一创建和管理数据报告、仪表盘及演示文稿的技术人员或数据分析师。",
+        "quickStart": {
+          "prerequisites": "Node.js",
+          "steps": [
+            "git clone https://github.com/drasimwagan/mdv.git && cd mdv",
+            "npm install && npm run build",
+            "node packages/mdv-cli/dist/index.js preview examples/09-full-report.mdv"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "通过Markdown简化数据报告、仪表盘和演示文稿的创建流程，减少工具切换和复杂代码，提高数据可视化产出效率。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue活跃度较低，开启数为0，已关闭2，表明社区互动尚不活跃或项目处于早期阶段。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-04-22T04:33:56.045Z"
+    },
+    {
+      "owner": "endevco",
+      "repo": "aube",
+      "fullName": "endevco/aube",
+      "description": "A fast Node.js package manager",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-18T18:06:49Z",
+      "url": "https://github.com/endevco/aube",
+      "analysis": {
+        "positioning": "基于Rust的超快Node.js包管理器。",
+        "useCases": [
+          "你需要快速安装Node.js依赖 → 它提供比pnpm和Bun更快的安装速度。",
+          "你希望无缝切换包管理器 → 它能读写现有项目中的多种lockfile（如pnpm-lock.yaml、package-lock.json）。",
+          "你频繁运行脚本或测试 → 它智能缓存依赖，只在变更时重新安装，大幅节省重复命令时间。",
+          "你关注磁盘空间占用 → 它通过全局内容寻址存储减少项目间重复依赖的磁盘消耗。",
+          "你重视包安装安全性 → 它提供更安全的默认配置，如等待最小年龄、阻止奇异依赖、审批生命周期脚本。"
+        ],
+        "audience": "追求极致性能、高兼容性和高安全性的Node.js开发者和团队。",
+        "quickStart": {
+          "prerequisites": "已安装mise或npm或Homebrew",
+          "steps": [
+            "安装 aube：`mise use -g aube` (推荐) 或 `npm install -g @endevco/aube` 或 `brew install endevco/tap/aube`",
+            "在现有Node.js项目根目录运行：`aube install`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "pnpm",
+            "method": "pnpm install",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Bun",
+            "method": "bun install",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "npm",
+            "method": "npm install",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Yarn",
+            "method": "yarn install",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Rust实现，性能优势显著，兼容性强，安全性高，文档清晰，但仍处于Beta阶段，有待大规模项目验证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue数量极少（开启1/关闭0），尚处于早期发展阶段。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-22T04:34:10.063Z"
+    },
+    {
+      "owner": "cosmicstack-labs",
+      "repo": "mercury-agent",
+      "fullName": "cosmicstack-labs/mercury-agent",
+      "description": "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "llm"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-20T12:46:31Z",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent",
+      "analysis": {
+        "positioning": "可控、安全、24/7在线的个性化AI智能体。",
+        "useCases": [
+          "你担心AI助手执行高风险操作 → 它会每次行动前询问你，并提供严格的权限控制。",
+          "你想让AI助手拥有独特且稳定的“个性” → 它能基于你定义的Markdown文件，展现专属的思考和行为模式。",
+          "你需要一个长期运行的自动化AI助手 → 它可以作为系统服务持续在线，通过CLI或Telegram为你提供不间断的服务。"
+        ],
+        "audience": "开发者、高级用户，需要一个高度可控、可定制且持续运行的个人AI助手的场景。",
+        "quickStart": {
+          "prerequisites": "Node.js",
+          "steps": [
+            "运行 `npx @cosmicstack/mercury-agent` 或全局安装后运行 `mercury`",
+            "根据设置向导输入API Key和（可选）Telegram Bot Token"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "AutoGPT",
+            "method": "Python CLI工具，高度自主执行任务。",
+            "models": "GPT-x及其他兼容模型",
+            "pricing": "免费（开源），需支付API费用"
+          },
+          {
+            "name": "BabyAGI",
+            "method": "Python CLI工具，基于任务队列实现目标达成。",
+            "models": "GPT-x及其他兼容模型",
+            "pricing": "免费（开源），需支付API费用"
+          }
+        ],
+        "pricing": "免费（MIT License），需支付LLM API费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目强调“每次行动前询问”、“权限强化”、“灵魂驱动（可自定义个性）”，以及“代币预算管理”，这些都体现了对用户控制、隐私、安全及透明度的重视，符合负责任AI开发原则。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为开启 1 / 已关闭 0，表明社区活跃度较低或问题处理机制不透明。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:34:25.058Z"
+    },
+    {
+      "owner": "fancyai-official",
+      "repo": "skills",
+      "fullName": "fancyai-official/skills",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-16T12:22:58Z",
+      "url": "https://github.com/fancyai-official/skills",
+      "analysis": {
+        "positioning": "FancyAI出品，专注电商产品视觉内容生产的AI技能集。",
+        "useCases": [
+          "你想为饮品拍出专业大片 → 它帮你生成高质量饮品摄影图",
+          "你需要小家电宣传图 → 它帮你生成吸睛小家电主视觉图",
+          "你不想手动做产品动画 → 它帮你快速生成产品介绍动画视频"
+        ],
+        "audience": "电商运营、产品营销人员、品牌设计师，快速制作高质量产品视觉内容。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "克隆项目仓库",
+            "安装依赖，并根据技能文档运行"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Stability AI (Stable Diffusion)",
+            "method": "API调用/开源模型部署",
+            "models": "Stable Diffusion系列",
+            "pricing": "部分免费/付费API"
+          },
+          {
+            "name": "Midjourney",
+            "method": "Discord命令",
+            "models": "自研模型",
+            "pricing": "订阅付费"
+          }
+        ],
+        "pricing": "免费（开源代码），但底层AI模型或API可能涉及费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供特定业务场景的AI技能，直接解决电商和营销领域的产品视觉内容生成痛点，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "目前无Issue活动，社区活跃度未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:34:38.378Z"
+    },
+    {
+      "owner": "addyosmani",
+      "repo": "agent-skills",
+      "fullName": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "antigravity-ide",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-02-15T20:20:26Z",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "analysis": {
+        "positioning": "为AI编程助手提供生产级工程技能和最佳实践。",
+        "useCases": [
+          "你需要AI Agent遵循严谨的开发流程 → 它通过预设技能让Agent在“定义-计划-构建-测试-评审-交付”各阶段表现专业。",
+          "你希望AI Agent能写出高质量代码并遵循最佳实践 → 它通过`/spec`（先规范）、`/test`（测试先行）、`/code-simplify`（简化代码）等指令，强制Agent执行高质量工作流。",
+          "你希望AI Agent能根据开发任务类型自动切换工作模式 → 它能根据如API设计、前端UI开发等任务自动激活相应的工程技能。"
+        ],
+        "audience": "期望提升AI编程助手（如Claude Code, Cursor, Gemini CLI）代码质量、遵循工程规范、标准化开发流程的开发者和团队。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code或其他兼容的AI编程助手",
+          "steps": [
+            "在Claude Code中执行 `/plugin marketplace add addyosmani/agent-skills`",
+            "接着执行 `/plugin install agent-skills@addy-agent-skills`"
+          ],
+          "note": "若遇到GitHub SSH错误，请检查SSH密钥配置或切换Git全局配置为HTTPS。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "README结构清晰，开发流程图直观，命令与开发阶段映射明确。快速上手指导详细且支持多平台，将资深工程师的最佳实践封装为AI Agent可用的技能，实用性极强，直接提升AI编码质量和效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数高（20k+）表明项目关注度高，但Issue关闭率较低（10/40），社区活跃度较高但问题解决速度有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-22T04:35:21.499Z"
     }
   ]
 }
