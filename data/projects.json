@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-22T04:35:21.506Z",
+  "updatedAt": "2026-04-23T04:38:43.542Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -19402,6 +19402,406 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-22T04:35:21.499Z"
+    },
+    {
+      "owner": "Shuqian-Tech",
+      "repo": "SQMesh-Public",
+      "fullName": "Shuqian-Tech/SQMesh-Public",
+      "description": "Opensource version of SQMesh",
+      "language": "C++",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-04-23T02:49:34Z",
+      "url": "https://github.com/Shuqian-Tech/SQMesh-Public",
+      "analysis": {
+        "positioning": "CFD/FEA工作流的开源网格生成工具包。",
+        "useCases": [
+          "你处理CAD模型 → 它帮你导入STEP/IGES/STL文件并进行高级几何查询。",
+          "你进行CFD/FEA仿真 → 它帮你生成高质量的表面、体网格及边界层网格。",
+          "你开发网格应用 → 它提供C++17 SDK与Python绑定，实现网格功能集成。"
+        ],
+        "audience": "面向CFD/FEA领域工程师及开发者，需要高性能、可定制的网格生成解决方案。",
+        "quickStart": {
+          "prerequisites": "CMake ≥ 3.20, C++17编译器, Python ≥ 3.9 (可选), OpenCASCADE (推荐), spdlog (可选), CGNS (可选)",
+          "steps": [
+            "克隆项目代码。",
+            "安装依赖：Windows使用vcpkg，Linux/macOS使用系统包管理器或vcpkg安装OpenCASCADE等。",
+            "使用CMake配置并编译：`cmake -S . -B build_occ ...`。",
+            "构建项目：`cmake --build build_occ -j`。"
+          ],
+          "note": "Windows依赖管理推荐vcpkg，Linux/macOS可选择系统包管理器。"
+        },
+        "competitors": [],
+        "pricing": "免费 (AGPL-3.0)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于CFD/FEA领域，提供全面的网格功能和多语言绑定，但项目星标和社区活跃度较低，可能处于早期或非常垂直的阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常早期，Issue 数量为零，尚无社区互动数据。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-23T04:36:07.359Z"
+    },
+    {
+      "owner": "Uday-B10",
+      "repo": "star",
+      "fullName": "Uday-B10/star",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-23T04:18:55Z",
+      "url": "https://github.com/Uday-B10/star",
+      "analysis": {
+        "positioning": "一个以“Star”为名，内容极简的GitHub仓库示例。",
+        "useCases": [
+          "你测试GitHub Star功能 → 它帮你提供一个无需维护的测试目标。",
+          "你寻找GitHub上最简单的仓库结构 → 它帮你展示一个仅含README的极简案例。",
+          "你想要一个纯粹的GitHub仓库占位 → 它帮你提供一个名称有趣的空项目。"
+        ],
+        "audience": "GitHub平台机制的初学者、测试人员，或追求极简主义的GitHub用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目页面：Uday-B10/star",
+            "点击页面右上角的“Star”按钮"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目内容极简，除README外无任何代码或功能，更多是一个概念性的占位符而非实用工具。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何社区活跃度，Issue 为零，处于非活跃状态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-23T04:36:25.441Z"
+    },
+    {
+      "owner": "basketikun",
+      "repo": "chatgpt2api",
+      "fullName": "basketikun/chatgpt2api",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-19T14:53:01Z",
+      "url": "https://github.com/basketikun/chatgpt2api",
+      "analysis": {
+        "positioning": "封装ChatGPT官网图片能力，提供OpenAI兼容API及自托管画图服务。",
+        "useCases": [
+          "你集成AI画图功能 → 它提供兼容OpenAI的API接口，轻松接入。",
+          "你管理多个ChatGPT账号做图 → 它提供号池管理、自动轮询及在线画图工作台。",
+          "你寻求私有化部署AI作图平台 → 它支持Docker自托管，完全掌控数据和使用。"
+        ],
+        "audience": "开发者、研究者和需要自托管ChatGPT图片API及画图服务的个人用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目仓库：`git clone git@github.com:basketikun/chatgpt2api.git`",
+            "编辑 `config.json` 或设置环境变量 `CHATGPT2API_AUTH_KEY`",
+            "启动服务：`docker compose up -d`"
+          ],
+          "note": "支持 `linux/amd64` 与 `linux/arm64` 架构，自动拉取匹配版本。"
+        },
+        "competitors": [],
+        "pricing": "免费（基于自有的ChatGPT账号额度）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目功能全面，逆向研究深入，提供了完善的API兼容性和自托管管理界面，文档清晰，社区活跃度良好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度良好，Issue 关闭率较高，维护者响应及时。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-23T04:36:51.914Z"
+    },
+    {
+      "owner": "openai",
+      "repo": "privacy-filter",
+      "fullName": "openai/privacy-filter",
+      "description": "OpenAI Privacy Filter",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-17T22:49:09Z",
+      "url": "https://github.com/openai/privacy-filter",
+      "analysis": {
+        "positioning": "文本 PII 检测脱敏，私有化高吞吐引擎。",
+        "useCases": [
+          "你处理大量用户敏感数据 → 它帮你快速识别并脱敏 PII，满足合规要求。",
+          "你需要高性能的本地隐私过滤服务 → 它提供轻量级模型，可在本地快速运行。",
+          "你希望自定义隐私识别规则 → 它支持微调和运行时控制，适应特定数据分布。"
+        ],
+        "audience": "面向需要在本地、高吞吐场景下进行文本 PII 检测与脱敏，并要求模型可调优的企业或开发者。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "pip install -e .",
+            "opf \"你的文本内容。\""
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (Apache 2.0 许可证，可用于商业用途)。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "开源协议友好，模型轻量（可本地部署、浏览器运行），集成简便（提供 CLI），支持长文本处理和精细微调，功能强大。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，Issue 开启但未关闭，项目处于早期阶段。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-23T04:37:06.804Z"
+    },
+    {
+      "owner": "leigest519",
+      "repo": "OpenGame",
+      "fullName": "leigest519/OpenGame",
+      "description": "OpenGame: Open Agentic Coding for Games",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-20T15:28:16Z",
+      "url": "https://github.com/leigest519/OpenGame",
+      "analysis": {
+        "positioning": "通过AI智能体和专门模型，从提示词端到端生成Web游戏。",
+        "useCases": [
+          "你有一个游戏创意 → 它帮你从高层设计生成可玩Web游戏。",
+          "你面对复杂游戏项目集成与调试难题 → 它通过智能体框架系统性修复跨文件错误。",
+          "你需要评估AI生成游戏的质量 → 它提供构建健康度、视觉可用性、意图对齐度的评估流程。"
+        ],
+        "audience": "希望利用AI高效创作Web游戏的游戏开发者、AI代码生成研究者及LLM应用探索者。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 20.0.0",
+          "steps": [
+            "访问项目主页获取详细安装和运行指南。",
+            "根据指引配置环境，并通过提示词开始生成Web游戏。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用LLM代码生成助手 (如GitHub Copilot, ChatGPT)",
+            "method": "接受自然语言提示，生成代码片段或解决孤立编程任务。",
+            "models": "各种大型语言模型",
+            "pricing": "部分免费，部分订阅制"
+          }
+        ],
+        "pricing": "免费，开源（Apache-2.0许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "旨在解决AI生成复杂互动应用（特别是游戏）的业界难题，通过创新的Agentic框架和专用LLM突破当前局限，开源且具前瞻性。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常新，有7个开启的Issue但没有关闭记录，社区活跃度尚处于早期阶段，有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-23T04:37:21.598Z"
+    },
+    {
+      "owner": "ConardLi",
+      "repo": "web-design-skill",
+      "fullName": "ConardLi/web-design-skill",
+      "description": "An AI agent skill that transforms AI-generated web pages from \"functional\" to \"stunning.\"(Inspired by Claude Design)",
+      "language": "CSS",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-21T11:56:17Z",
+      "url": "https://github.com/ConardLi/web-design-skill",
+      "analysis": {
+        "positioning": "提升AI生成网页设计美感，从‘能用’到‘惊艳’。",
+        "useCases": [
+          "你使用AI生成网页 → 它帮你避免千篇一律的AI审美，打造独特设计。",
+          "你用AI生成交互原型或演示文稿 → 它帮你提升视觉吸引力，使其更专业。",
+          "你开发前端设计系统或动效 → 它帮你注入专业设计理念，而非随机组合。"
+        ],
+        "audience": "任何希望通过AI agent快速生成高质量、有设计感的网页及前端代码的开发者。",
+        "quickStart": {
+          "prerequisites": "具备AI Agent开发环境，如Claude Code或Cursor。",
+          "steps": [
+            "将`web-design-engineer`技能目录复制到你的AI项目中的`.agents/skills/`（或`.claude/skills/`）路径下。",
+            "当AI代理涉及前端视觉或交互任务时，它会自动应用此技能。"
+          ],
+          "note": "不同工具的技能目录可能为`.agents/skills/`或`.claude/skills/`，请根据所用工具调整。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "直接针对AI生成代码的‘平庸’审美痛点，通过明确的设计哲学和规则（如反套路、设计系统声明、oklch色彩理论），提升视觉和交互质量，注入‘设计品味’。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区活跃度低（0/0），但项目Star数（395）表明受到一定关注。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-23T04:37:38.625Z"
+    },
+    {
+      "owner": "oritera",
+      "repo": "Cairn",
+      "fullName": "oritera/Cairn",
+      "description": "AI 自动化通用问题解决 / AI 自动化渗透测试系统",
+      "language": "Unknown",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-04-19T03:28:41Z",
+      "url": "https://github.com/oritera/Cairn",
+      "analysis": {
+        "positioning": "AI驱动的自动化渗透测试与通用问题解决平台",
+        "useCases": [
+          "你手动进行渗透测试 → 它帮你AI自动化执行，高效发现潜在漏洞",
+          "你面对复杂技术问题 → 它帮你AI自动化分析并提供智能解决方案",
+          "你希望提升安全评估效率 → 它帮你智能完成繁琐的测试流程，节省人力"
+        ],
+        "audience": "安全工程师、渗透测试员及技术研究者，寻求AI驱动的自动化安全评估与问题解决方案。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "部分免费。个人/教育用途遵循AGPL-3.0许可，商用需联系作者获取商业许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "腾讯云黑客松冠军项目，AI自动化渗透测试潜力巨大，但代码尚未开源，待观察其落地性及社区反馈。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue为0，项目尚未完全开源，社区活跃度暂无法评估。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-23T04:37:56.641Z"
+    },
+    {
+      "owner": "MrsEWE44",
+      "repo": "musicDownload",
+      "fullName": "MrsEWE44/musicDownload",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-19T07:04:43Z",
+      "url": "https://github.com/MrsEWE44/musicDownload",
+      "analysis": {
+        "positioning": "多平台无损音乐下载器，支持搜索、批量下载、歌单下载。",
+        "useCases": [
+          "你希望下载网易云的无损歌曲 → 它帮你一键下载高品质音乐文件。",
+          "你想把酷狗音乐的整个歌单保存到本地 → 它帮你批量下载歌单内所有歌曲。",
+          "你需要在酷狗、QQ音乐等多个平台搜索歌曲 → 它帮你整合搜索结果，方便下载。"
+        ],
+        "audience": "对无损音乐有需求，或需要跨平台整合下载本地音乐文件的音乐爱好者及内容创作者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10.11版本",
+          "steps": [
+            "git clone https://github.com/MrsEWE44/musicDownload.git",
+            "cd musicDownload",
+            "pip install -r requirements.txt",
+            "python musicdownload.py"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "musicdl (CharlesPikachu/musicdl)",
+            "method": "命令行工具 (CLI)",
+            "models": "支持酷狗、酷我、QQ音乐、网易云、咪咕等（为本项目核心功能来源）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README热情洋溢，宣传语引人注目，提到AI优化界面和功能，截图清晰，使用说明详尽，整体呈现出积极的开发和推广氛围。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，但已关闭的Issue说明开发者有响应和维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-23T04:38:10.992Z"
+    },
+    {
+      "owner": "patterniha",
+      "repo": "MITM-DomainFronting",
+      "fullName": "patterniha/MITM-DomainFronting",
+      "description": "Receiving unencrypted data with MITM, Then send it with DomainFronting",
+      "language": "Batchfile",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-04-19T13:46:03Z",
+      "url": "https://github.com/patterniha/MITM-DomainFronting",
+      "analysis": {
+        "positioning": "通过MITM+域前置，直连特定服务无需代理。",
+        "useCases": [
+          "你访问不了Google Meet → 它帮你绕过限制，直接访问Google Meet。",
+          "你访问不了Google Drive → 它帮你绕过限制，直接访问Google Drive。",
+          "你无法直连某些受限的Google服务 → 它帮你通过MITM+域前置技术直连这些服务。"
+        ],
+        "audience": "受网络限制，希望直接访问特定谷歌服务（如Meet、Drive）的用户，无需配置传统代理服务器。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统，已安装v2rayN软件。",
+          "steps": [
+            "下载并解压 v2rayN。",
+            "运行 `certificate-generator.bat` 生成个人证书，并将其导入为系统或浏览器信任的根证书。",
+            "在 v2rayN 中添加自定义配置，导入 `MITM-DomainFronting.json` 文件，并设置 core type 为 xray。",
+            "选择配置并启用系统代理。"
+          ],
+          "note": "项目支持Windows、Linux、macOS和Android（免Root），安装指南以Windows为例。目前主要支持谷歌服务，如Meet、Drive，但YouTube视频和Gemini等部分服务不受支持。"
+        },
+        "competitors": [
+          {
+            "name": "Xray/V2Ray (传统代理模式)",
+            "method": "需要配置远程服务器和客户端，通过代理服务器转发所有流量。",
+            "models": "VMess, VLESS, Trojan等多种协议",
+            "pricing": "自建免费，服务商提供付费"
+          },
+          {
+            "name": "传统VPN服务",
+            "method": "客户端连接VPN服务器，所有网络流量通过VPN隧道。",
+            "models": "OpenVPN, WireGuard, IPsec等",
+            "pricing": "大多付费"
+          }
+        ],
+        "pricing": "免费，开源工具，自行部署。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目通过巧妙的MITM和域前置技术，在特定场景下实现了无需代理服务器直连受限服务，解决了特定痛点。但安装过程涉及证书生成与系统信任配置，对新手有一定门槛。且主要语言是Batchfile，可能在维护性和扩展性上略显不足。功能高度专业化，但用户体验有提升空间。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量少，关闭率高，社区活跃度一般但维护者响应及时。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-23T04:38:27.231Z"
+    },
+    {
+      "owner": "MoonshotAI",
+      "repo": "FlashKDA",
+      "fullName": "MoonshotAI/FlashKDA",
+      "description": "FlashKDA: high-performance Kimi Delta Attention kernels",
+      "language": "Cuda",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-20T12:59:46Z",
+      "url": "https://github.com/MoonshotAI/FlashKDA",
+      "analysis": {
+        "positioning": "高性能Kimi Delta Attention CUDA核函数库，为AI模型提供极致加速。",
+        "useCases": [
+          "你希望Kimi Delta Attention模型在PyTorch中运行更快 → 它通过CUDA核函数优化，显著提升KDA的计算性能。",
+          "你在使用`flash-linear-attention`构建AI模型 → 它作为高性能后端，自动加速`chunk_kda`操作。",
+          "你在研究或部署基于KDA的深度学习模型 → 它提供底层优化，帮助模型在SM90+GPU上高效推理和训练。"
+        ],
+        "audience": "追求Kimi Delta Attention模型极致性能的深度学习工程师、研究员和AI应用开发者，特别是使用PyTorch和NVIDIA SM90+ GPU的用户。",
+        "quickStart": {
+          "prerequisites": "NVIDIA SM90+ GPU, CUDA 12.9+, PyTorch 2.4+, flash-linear-attention >= 0.5.0 (集成用)",
+          "steps": [
+            "git clone https://github.com/MoonshotAI/FlashKDA.git flash-kda && cd flash-kda",
+            "git submodule update --init --recursive && pip install -v .",
+            "pip install -U flash-linear-attention (如果未安装或版本过低)",
+            "在`torch.inference_mode()`上下文中使用`fla.ops.kda.chunk_kda`。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Flash-Linear-Attention内置Triton路径",
+            "method": "设置环境变量`FLA_FLASH_KDA=0`，回退到Triton实现",
+            "models": "支持Flash-Linear-Attention中所有基于KDA的模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于特定注意力机制的CUDA性能优化，属于AI基础设施层，对提升AI模型性能至关重要，但并非直接用于AI应用开发或低代码/无代码构建AI的工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有1个开启Issue且无关闭，项目可能较新或非常稳定。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-23T04:38:43.536Z"
     }
   ]
 }
