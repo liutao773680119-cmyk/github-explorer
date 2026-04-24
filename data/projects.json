@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-23T04:38:43.542Z",
+  "updatedAt": "2026-04-24T04:41:33.010Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -19802,6 +19802,270 @@
         "category": "LLM框架"
       },
       "analyzedAt": "2026-04-23T04:38:43.536Z"
+    },
+    {
+      "owner": "connectfarm1",
+      "repo": "accumulation-radar",
+      "fullName": "connectfarm1/accumulation-radar",
+      "description": "🏦 Accumulation Radar — Auto-detect market maker accumulation + OI anomaly + 3-strategy scoring for crypto futures. Pure Python, zero AI cost.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-24T02:31:44Z",
+      "url": "https://github.com/connectfarm1/accumulation-radar",
+      "analysis": {
+        "positioning": "加密货币合约市场庄家收筹与交易信号自动侦测器",
+        "useCases": [
+          "你想捕捉加密货币的十倍以上涨幅 → 它帮你自动检测庄家收筹信号，识别潜在暴涨币种",
+          "你需要量化交易策略辅助决策 → 它提供追多、综合、埋伏三套独立评分策略，并监控OI异动",
+          "你希望实时获取关键交易提醒 → 它通过Telegram推送值得关注的信号，如费率加速恶化、低市值OI异动"
+        ],
+        "audience": "加密货币合约交易者和投资者，特别是追求高爆发性机会、需要自动化市场分析和信号提醒的。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+，requests库",
+          "steps": [
+            "git clone https://github.com/connectfarm1/accumulation-radar.git && cd accumulation-radar",
+            "pip install requests",
+            "cp .env.example .env.oi 并编辑填入TG_BOT_TOKEN和TG_CHAT_ID（可选，用于Telegram推送）",
+            "运行 `python3 accumulation_radar.py pool` (每天更新标的池) 或 `python3 accumulation_radar.py oi` (每小时策略评分+OI监控) 或 `python3 accumulation_radar.py full` (全部运行)"
+          ],
+          "note": "Telegram Bot创建需通过@BotFather获取Token和Chat ID"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述清晰、目标明确，核心理念和三策略逻辑阐述详尽，数据源和安装使用流程（含crontab）都提供了非常实用的指导，甚至有详细的推送示例和OI信号解读，对用户极其友好。纯Python，零AI成本，简单直接。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示目前没有开放或关闭的Issue，社区活跃度较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-24T04:39:56.509Z"
+    },
+    {
+      "owner": "deepseek-ai",
+      "repo": "TileKernels",
+      "fullName": "deepseek-ai/TileKernels",
+      "description": "A kernel library written in tilelang",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-22T05:38:31Z",
+      "url": "https://github.com/deepseek-ai/TileKernels",
+      "analysis": {
+        "positioning": "为LLM提供TileLang构建的超高性能GPU算子库",
+        "useCases": [
+          "你训练或推理大模型（LLM） → 它提供TileLang优化的GPU算子，加速核心计算",
+          "你开发MoE（混合专家）模型 → 它提供Gating和MoE Routing算子，高效选择与路由专家",
+          "你追求LLM量化性能（如FP8/FP4） → 它提供融合量化算子，提升性能并减少显存",
+          "你构建自定义高性能LLM层 → 它提供PyTorch封装，组合底层优化算子"
+        ],
+        "audience": "追求LLM训练和推理极致性能，熟悉GPU编程和TileLang的大模型开发者",
+        "quickStart": {
+          "prerequisites": "NVIDIA SM90/SM100 GPU, CUDA Toolkit 13.1+, Python 3.10+, PyTorch 2.10+, TileLang 0.1.9+",
+          "steps": [
+            "pip install tile-kernels"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Triton",
+            "method": "用户通过Python DSL手动编写GPU算子",
+            "models": "广泛用于各类大模型算子开发",
+            "pricing": "免费"
+          },
+          {
+            "name": "xFormers",
+            "method": "提供预编译的Transformer优化算子，如FlashAttention",
+            "models": "主要面向Transformer架构模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "8个开启Issue，0个已关闭Issue。项目处于早期阶段，外部维护响应待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue解决率为0，表明项目刚起步或主要供内部使用。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-24T04:40:20.555Z"
+    },
+    {
+      "owner": "Einsia",
+      "repo": "OpenChronicle",
+      "fullName": "Einsia/OpenChronicle",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-21T14:50:33Z",
+      "url": "https://github.com/Einsia/OpenChronicle",
+      "analysis": {
+        "positioning": "开源、本地优先的LLM Agent记忆层。",
+        "useCases": [
+          "你希望AI Agent能记住你的工作流程和决策 → 它帮你将屏幕和应用操作转化为Agent可用的持久记忆。",
+          "你开发多模态Agent并希望它有强大的上下文感知能力 → 它提供AX Tree优先、截图辅助的低成本、高效率记忆机制。",
+          "你需要一个开放、可检查、可扩展的Agent记忆库 → 它提供MIT许可、Markdown/SQLite存储的本地化记忆方案。"
+        ],
+        "audience": "希望为AI Agent赋予长期记忆和真实世界上下文理解能力的开发者和研究者，尤其是Mac用户。",
+        "quickStart": {
+          "prerequisites": "macOS操作系统，Python环境",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/Einsia/OpenChronicle.git`",
+            "安装依赖并启动：`cd OpenChronicle && pip install -e . && python -m openchronicle`"
+          ],
+          "note": "目前仅支持macOS，且项目处于早期Alpha阶段（v0.1.0）。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Chronicle",
+            "method": "闭源、云端服务，由OpenAI提供，记忆数据在云端。",
+            "models": "仅限OpenAI模型。",
+            "pricing": "随OpenAI服务收费。"
+          }
+        ],
+        "pricing": "免费 (MIT许可证)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念创新且具未来潜力（为Agent提供本地记忆），README清晰，但目前处于早期Alpha阶段，仅支持macOS，且社区活跃度尚待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动几乎为零（0/0），表明项目非常早期或主要在内部开发，社区互动待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-24T04:40:34.506Z"
+    },
+    {
+      "owner": "op7418",
+      "repo": "guizang-ppt-skill",
+      "fullName": "op7418/guizang-ppt-skill",
+      "description": "A Claude Code Skill that turns prompts into horizontal-swipe magazine-style HTML decks — 10 layouts, 5 curated themes, WebGL hero backgrounds, single-file output.",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-23T13:23:07Z",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "analysis": {
+        "positioning": "AI驱动，生成电子杂志风格的单文件HTML演示文稿",
+        "useCases": [
+          "你准备线下分享或行业讲话 → 它帮你快速生成风格独特的电子杂志风PPT",
+          "你发布AI产品或进行demo day → 它帮你用极简风格呈现产品亮点和数据",
+          "你希望输出具有强烈个人风格的演讲稿 → 它帮你通过结构化设计展现专业美学"
+        ],
+        "audience": "适合需要快速生成具有高级感、个人风格强烈、电子杂志风演示文稿的创业者、开发者和演讲者。",
+        "quickStart": {
+          "prerequisites": "需具备Claude Code / AI Agent的shell权限 或 本地Git环境",
+          "steps": [
+            "将安装指令 `git clone https://github.com/op7418/guizang-ppt-skill.git ~/.claude/skills/magazine-web-ppt` 发送给AI Agent",
+            "对AI说 \"帮我做一份杂志风 PPT\" 或 \"生成一个 horizontal swipe deck\" 触发技能"
+          ],
+          "note": "推荐通过AI Agent安装，它会自动处理步骤并引导使用。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身开源，但使用Claude Code等AI服务可能产生API费用）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心理念就是“电子杂志 × 电子墨水”的视觉基调，强调设计美学（如衬线大标题、WebGL背景、主题色预设、10种布局）。甚至强制限定用户选择主题色以“保护美学”，而非提供自定义自由，完全符合Vibe Coding的特征，即风格、氛围和美学优先级极高。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，Issue开启1个/关闭0个，社区活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-24T04:40:49.523Z"
+    },
+    {
+      "owner": "Russell-cell",
+      "repo": "PPT-Design-Prompt",
+      "fullName": "Russell-cell/PPT-Design-Prompt",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-22T04:15:58Z",
+      "url": "https://github.com/Russell-cell/PPT-Design-Prompt",
+      "analysis": {
+        "positioning": "将网页品牌指南转化为AI可用的幻灯片图片设计提示工具。",
+        "useCases": [
+          "你拥有品牌网页指南，需AI为PPT生成品牌图片 → 它帮你将指南转化为AI可理解的幻灯片图片设计提示。",
+          "你是AI设计代理或AI模型开发者，需按品牌规范生成PPT图片 → 它提供AI模型可直接使用的幻灯片图片品牌提示。",
+          "你需要统一团队幻灯片视觉风格，缺乏AI可用的品牌资产 → 它将现有品牌规范转化为可用于AI工具的幻灯片图片设计指导。"
+        ],
+        "audience": "设计师、市场营销人员及AI开发者，需利用AI为幻灯片生成符合品牌规范的图片。",
+        "quickStart": {
+          "prerequisites": "已安装Python，并拥有 `VoltAgent/awesome-design-md` 项目中的本地 `source/<brand>/DESIGN.md` 文件。",
+          "steps": [
+            "运行 `python -m pip install -e .` 安装工具。",
+            "运行 `design-md-ppt convert` 转换本地源文件。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。开源Python CLI工具。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用型项目，将品牌规范转化为AI模型可用的幻灯片图片设计提示，有效赋能AI应用，但本身非生成式AI模型。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为零，社区活跃度较低。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-24T04:41:17.824Z"
+    },
+    {
+      "owner": "therealaleph",
+      "repo": "MasterHttpRelayVPN-RUST",
+      "fullName": "therealaleph/MasterHttpRelayVPN-RUST",
+      "description": "Rust port of @masterking32's MasterHttpRelayVPN — all credit to @masterking32 for the original idea and Python implementation. Free DPI bypass via a Google Apps Script relay with TLS SNI concealment. CLI + cross-platform desktop UI, HTTP + SOCKS5 proxy, no runtime deps.",
+      "language": "Rust",
+      "topics": [
+        "anti-censorship",
+        "censorship-circumvention",
+        "cross-platform",
+        "desktop-app",
+        "domain-fronting",
+        "dpi-bypass",
+        "egui",
+        "google-apps-script",
+        "gui",
+        "http-proxy",
+        "iran",
+        "mitm",
+        "proxy",
+        "rust",
+        "sni",
+        "socks5",
+        "tls"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-21T14:46:31Z",
+      "url": "https://github.com/therealaleph/MasterHttpRelayVPN-RUST",
+      "analysis": {
+        "positioning": "免费DPI抗审查代理，利用Google Apps Script隐藏流量。",
+        "useCases": [
+          "你身处网络审查严格地区，难以访问境外网站 → 它帮你通过伪装成Google流量，安全稳定地绕过审查。",
+          "你寻求轻量、无额外依赖的代理工具 → 它提供单个Rust编译的二进制文件，下载即用。",
+          "你想利用免费资源部署个人代理 → 它帮你利用自己的Google Apps Script免费构建专属中继服务器。"
+        ],
+        "audience": "需要在严格网络审查环境下安全、免费访问互联网的用户，以及寻求轻量级代理解决方案的开发者。",
+        "quickStart": {
+          "prerequisites": "一个Google账户",
+          "steps": [
+            "下载适合你操作系统的预编译CLI或GUI版本。",
+            "在你的Google账户中部署Google Apps Script作为中继服务。",
+            "运行本地客户端，配置浏览器或应用使用其HTTP/SOCKS5代理端口。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "masterking32/MasterHttpRelayVPN (Python版)",
+            "method": "需要Python环境及相关依赖，命令行运行。",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（依赖用户自己的免费Google Apps Script配额）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Rust语言实现，打包为无运行时依赖的单一可执行文件，提供CLI和跨平台GUI。其核心功能（DPI绕过）针对关键痛点，且设计巧妙利用Google Apps Script。文档详尽，社区维护积极，透明的AI辅助开发流程也值得肯定。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃。关闭Issue数量远多于开放Issue，显示项目积极维护和问题解决效率高。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-24T04:41:33.002Z"
     }
   ]
 }
