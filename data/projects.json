@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-24T04:41:33.010Z",
+  "updatedAt": "2026-04-25T04:24:06.801Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -20066,6 +20066,635 @@
         "category": "安全"
       },
       "analyzedAt": "2026-04-24T04:41:33.002Z"
+    },
+    {
+      "owner": "Zyx0rx",
+      "repo": "port-forward",
+      "fullName": "Zyx0rx/port-forward",
+      "description": "A multi-backend Linux port forwarding management script with interactive and CLI modes.",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-25T00:32:39Z",
+      "url": "https://github.com/Zyx0rx/port-forward",
+      "analysis": {
+        "positioning": "一个Linux多后端端口转发管理器，支持CLI和交互模式。",
+        "useCases": [
+          "你在云服务器间做端口中转 → 它帮你稳定管理并持久化转发规则。",
+          "你的服务需要IPv4/IPv6互通 → 它帮你轻松实现跨协议转发。",
+          "你需要高可用或复杂转发（如多目标故障转移） → 它提供多种后端方案（HAProxy/Gost/Realm/Nginx）供你选择。"
+        ],
+        "audience": "经常需要高效管理Linux服务器端口转发的运维工程师、开发者或个人用户。",
+        "quickStart": {
+          "prerequisites": "Linux服务器环境，root权限。部分后端方案可能需要对应软件支持，脚本会尝试自动安装。",
+          "steps": [
+            "下载脚本文件`port_forward.sh`到Linux服务器并赋予执行权限。",
+            "运行脚本，通过交互式菜单或CLI命令创建/管理端口转发规则。"
+          ],
+          "note": "脚本建议放置于`/root/port_forward_files/`路径，会自动处理部分后端依赖的安装。"
+        },
+        "competitors": [
+          {
+            "name": "手动配置(iptables/nftables/HAProxy等)",
+            "method": "命令行逐条配置，无统一管理界面",
+            "models": "取决于具体工具（如Linux内核的NAT功能，或独立代理软件）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个功能全面、考虑周到的Linux端口转发管理脚本，支持多种后端和操作模式，实用性强。虽然Star和Issue数量较低，但项目文档清晰，功能覆盖广，可见作者用心。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无公开Issue，可能用户基数小或项目非常稳定。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-25T04:20:26.887Z"
+    },
+    {
+      "owner": "victorchen96",
+      "repo": "deepseek_v4_rolepaly_instruct",
+      "fullName": "victorchen96/deepseek_v4_rolepaly_instruct",
+      "description": "对于DeepSeek-V4角色扮演的特殊控制指令的说明",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-24T06:34:54Z",
+      "url": "https://github.com/victorchen96/deepseek_v4_rolepaly_instruct",
+      "analysis": {
+        "positioning": "DeepSeek-V4角色扮演专属指令集，精准控制大模型思考模式。",
+        "useCases": [
+          "你想让DeepSeek-V4在角色扮演时更入戏 → 它帮你生成带内心独白的沉浸式思考。",
+          "你想让DeepSeek-V4只进行纯逻辑分析 → 它帮你生成无内心戏的冷静思考。",
+          "你是DeepSeek-V4 API开发者想动态控制模型思考风格 → 它提供指令集成示例助你实现。"
+        ],
+        "audience": "DeepSeek-V4网页端专家模式用户及API开发者，用于精细控制AI思考风格。",
+        "quickStart": {
+          "prerequisites": "DeepSeek-V4网页端专家模式或API权限（deepseek-v4-flash/pro）。",
+          "steps": [
+            "选择「角色沉浸」或「纯分析」模式的指令文本。",
+            "在首轮用户消息末尾（空一行后）粘贴所选指令，之后正常对话。"
+          ],
+          "note": "API开发者需在代码中将指令拼接到第一轮用户消息；指令无法100%触发，可多次尝试。"
+        },
+        "competitors": [],
+        "pricing": "免费（指令本身），DeepSeek-V4服务按其官方定价。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专为DeepSeek-V4角色扮演定制，通过特殊指令深入控制模型内部思考模式，实现“入戏”与“出戏”的精细切换，充满实验性与社区贡献的极客风采。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度中等，有用户在积极提出问题，部分问题得到解决，说明社区有参与和维护。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-25T04:20:49.483Z"
+    },
+    {
+      "owner": "levelsio",
+      "repo": "superlevels",
+      "fullName": "levelsio/superlevels",
+      "description": "A super Chrome extension I made that's safer than installing external malware/spyware-filled extensions that form a massive security risk, this one is open source and you can read and check the source code (with AI) before you install it, and customize it to your liking!",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-23T12:06:46Z",
+      "url": "https://github.com/levelsio/superlevels",
+      "analysis": {
+        "positioning": "开源、安全、多功能一体的Chrome扩展，替代高风险传统扩展。",
+        "useCases": [
+          "你追求极致的浏览器性能和简洁 → 它帮你自动关闭闲置标签，保持浏览器轻快。",
+          "你担心浏览器扩展的安全和隐私风险 → 它提供一个开源、可AI审计的多功能安全替代方案。",
+          "你想自定义网页浏览体验，免受干扰 → 它提供免打扰的YouTube、暗黑模式、JS开关和实时CSS编辑等工具。"
+        ],
+        "audience": "注重隐私安全、追求高效和个性化浏览体验的Chrome用户和开发者。",
+        "quickStart": {
+          "prerequisites": "Chrome浏览器",
+          "steps": [
+            "克隆或下载项目代码到本地。",
+            "在Chrome浏览器中访问 `chrome://extensions`，打开“开发者模式”。",
+            "点击“加载已解压的扩展程序”，选择项目文件夹。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Dark Reader (暗黑模式扩展)",
+            "method": "Chrome网上应用店安装",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "EditThisCookie (Cookie管理扩展)",
+            "method": "Chrome网上应用店安装",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能强大且高度整合，尤其强调开源、安全审计和AI辅助代码检查，有效解决了用户对扩展安全性的核心痛点，实用性极强。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue数为零，社区互动待观察，但已获得375个Star。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-25T04:21:14.153Z"
+    },
+    {
+      "owner": "GammaLabTechnologies",
+      "repo": "harmonist",
+      "fullName": "GammaLabTechnologies/harmonist",
+      "description": "Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.",
+      "language": "Python",
+      "topics": [
+        "agent-framework",
+        "agent-system",
+        "ai-agents",
+        "claude-code",
+        "cursor-ide",
+        "llm",
+        "multi-agent-framework",
+        "orchestration",
+        "prompt-engineering",
+        "python"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-23T05:42:29Z",
+      "url": "https://github.com/GammaLabTechnologies/harmonist",
+      "analysis": {
+        "positioning": "机械强制协议的可移植AI Agent编排框架。",
+        "useCases": [
+          "你用AI编程助手写代码 → 它帮你强制AI遵守预设工程规范和审查流程，不跳过关键步骤。",
+          "你希望AI代码保持高质量和安全性 → 它帮你通过内置机制而非提示词，约束AI执行记忆更新、供应链完整性等检查。",
+          "你管理多AI Agent协作开发项目 → 它帮你为Agent提供严格可插拔的协议执行层，确保行为一致性。"
+        ],
+        "audience": "寻求在AI编程及多Agent系统开发中，严格执行工程规范、防止AI“自行其是”的开发者和团队。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+",
+          "steps": [
+            "git clone https://github.com/GammaLabTechnologies/harmonist.git",
+            "cd harmonist && 运行内置脚本或集成到AI编程助手（如Cursor、Claude Code等）"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "提供模块化组件和链式调用编排AI Agent。",
+            "models": "支持主流LLM。",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "CrewAI",
+            "method": "强调角色定义、协作和任务导向的多Agent系统。",
+            "models": "支持主流LLM。",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目明确强调“机械强制协议”，通过审查钩子严格把控AI行为，确保不跳过任何工程规范，与随性、自由的Vibe Coding理念完全相反。",
+        "isVibeCoding": false,
+        "communityActivity": "Star数371，但Issue开闭均为0，社区活跃度尚处于早期或内部开发为主。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-25T04:21:33.296Z"
+    },
+    {
+      "owner": "earthtojake",
+      "repo": "text-to-cad",
+      "fullName": "earthtojake/text-to-cad",
+      "description": "An open source harness for generating CAD models",
+      "language": "JavaScript",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "cad",
+        "text-to-cad",
+        "wasm"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-22T01:09:45Z",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "analysis": {
+        "positioning": "开源工具，让AI编程助手通过文本生成CAD模型。",
+        "useCases": [
+          "你用AI编程助手（如Codex/Claude Code）→ 它帮你用代码生成、版本控制CAD模型。",
+          "你生成CAD模型或机器人描述→ 它帮你导出多种常用格式（STEP/STL/URDF等）。",
+          "你生成模型后想看效果→ 它提供本地查看器快速预览，并支持快速截图审查。"
+        ],
+        "audience": "希望通过AI编程助手自动化CAD模型设计、导出和预览的工程师、设计师和开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+, Node.js (用于本地查看器)",
+          "steps": [
+            "克隆项目并安装依赖 (npm/pip)",
+            "运行本地CAD模型生成工具和查看器",
+            "通过你偏好的AI编程助手，发送文本指令生成CAD模型"
+          ],
+          "note": "完全本地运行，无需后端服务。"
+        },
+        "competitors": [
+          {
+            "name": "CADGPT/Meshy AI等在线工具",
+            "method": "直接在网页端输入文本描述",
+            "models": "通常使用专有模型",
+            "pricing": "免费增值/订阅"
+          },
+          {
+            "name": "Fusion 360 AI/Shapr3D AI等集成功能",
+            "method": "CAD软件内部的AI辅助设计",
+            "models": "软件内置AI模型",
+            "pricing": "CAD软件订阅"
+          }
+        ],
+        "pricing": "免费，MIT开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是一个集成AI编程助手的“线束”，要求用户具备编程基础来配置和使用AI代理，并理解CAD模型生成流程及版本控制。虽然简化了CAD创建，但核心仍是代码驱动。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚处于早期阶段或作者在其他渠道维护，GitHub Issue活跃度低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-25T04:21:51.012Z"
+    },
+    {
+      "owner": "injaneity",
+      "repo": "pi-computer-use",
+      "fullName": "injaneity/pi-computer-use",
+      "description": "control your applications using pi-coding-agent. fully invisible.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-20T10:18:18Z",
+      "url": "https://github.com/injaneity/pi-computer-use",
+      "analysis": {
+        "positioning": "用Pi Agent隐形控制macOS应用。",
+        "useCases": [
+          "你希望AI Agent能操作macOS应用 → 它提供一套接口让Pi Agent通过语义化方式隐形控制macOS应用。",
+          "你想让AI Agent点击或输入 → 它允许Pi Agent利用macOS无感知的辅助功能（Accessibility）引用（如@e1）执行交互。",
+          "你需要对AI Agent的UI操作进行调试 → 它返回每次操作后的语义化状态，并提供执行元数据，方便定位问题。"
+        ],
+        "audience": "专为Pi Agent开发者设计，用于为macOS平台上的AI Agent赋予隐形、语义化的应用控制能力。",
+        "quickStart": {
+          "prerequisites": "macOS系统，并授权辅助功能和屏幕录制权限。",
+          "steps": [
+            "执行 `pi install git:github.com/injaneity/pi-computer-use#v0.2.0` 安装包。",
+            "启动Pi交互模式，并根据提示授权辅助功能和屏幕录制权限。",
+            "在Pi会话中首次调用 `screenshot({ app: \"Safari\" })` 来选择目标窗口并获取其语义状态。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "该项目为AI Agent提供高度编程化的接口，通过代码调用实现对macOS应用的隐形、语义化控制。需要开发者具备编程知识来集成Pi Agent，并理解辅助功能（Accessibility）的运作方式。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，当前无待处理的Issue，但过去有3个Issue被关闭，说明有限的问题得到了处理。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-25T04:22:02.751Z"
+    },
+    {
+      "owner": "rohitg00",
+      "repo": "awesome-claude-design",
+      "fullName": "rohitg00/awesome-claude-design",
+      "description": "Claude Design DESIGN.md prompts by aesthetic family, remix recipes, skills, video teardowns, X signal, honest community takes.",
+      "language": "Unknown",
+      "topics": [
+        "ai-design",
+        "anthropic",
+        "awesome",
+        "awesome-list",
+        "claude-code",
+        "claude-design",
+        "claude-skills",
+        "design-md",
+        "design-system"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-19T09:20:44Z",
+      "url": "https://github.com/rohitg00/awesome-claude-design",
+      "analysis": {
+        "positioning": "Anthropic Claude Design AI工作台的精选资源指南。",
+        "useCases": [
+          "你想用Claude Design快速生成符合特定风格的设计 → 它提供按美学风格分类的DESIGN.md提示、重混配方。",
+          "你想提升Claude Design使用技巧，理解最佳实践 → 它收集了技能点、视频拆解和社区经验。",
+          "你想了解Claude Design生态的最新动态和社区反馈 → 它汇集了发布周的社区信号和诚实评价。"
+        ],
+        "audience": "专注于Anthropic Claude Design的AI设计师、产品经理和Prompt工程师。",
+        "quickStart": {
+          "prerequisites": "对Anthropic Claude Design及其应用场景有兴趣。",
+          "steps": [
+            "访问GitHub仓库 `rohitg00/awesome-claude-design`。",
+            "浏览不同美学风格（如Editorial Minimalism, Terminal Core）下的DESIGN.md提示和相关资源。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Anthropic官方文档/示例",
+            "method": "查阅官方教程与案例",
+            "models": "Claude Design",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他AI设计工具的Prompt集合",
+            "method": "浏览相关GitHub仓库或社区平台",
+            "models": "Midjourney, DALL-E, Stable Diffusion等",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目页面设计精美，内容分类清晰且高度聚焦，提供了Claude Design的实用提示和社区洞察。但Issue区零活跃度，且“发布日期”为未来，略显神秘。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区零活跃，无可见社区讨论和贡献。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-25T04:22:20.658Z"
+    },
+    {
+      "owner": "shivampkumar",
+      "repo": "trellis-mac",
+      "fullName": "shivampkumar/trellis-mac",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-19T20:57:30Z",
+      "url": "https://github.com/shivampkumar/trellis-mac",
+      "analysis": {
+        "positioning": "微软SOTA图像转3D模型，原生运行在Apple Silicon Mac上。",
+        "useCases": [
+          "你是AI艺术家/3D设计师，急需在Mac上本地跑SOTA图像转3D模型 → 它让你M系列Mac无需NVIDIA GPU，本地快速生成带PBR纹理的高质量3D模型（GLB）。",
+          "你是Mac开发者/研究员，想在Mac上探索图像转3D应用但受限于CUDA → 它提供Apple Silicon原生支持的TRELLIS.2，方便你本地研究与定制。",
+          "你是游戏/AR/VR开发者，需要从2D概念图快速生成PBR纹理3D资产 → 它帮你从单张图片生成即用型GLB模型，显著加速资产创建。"
+        ],
+        "audience": "拥有Apple Silicon Mac并对图像转3D感兴趣的用户、3D内容创作者、以及AI开发者，尤其是不想依赖NVIDIA GPU的群体。",
+        "quickStart": {
+          "prerequisites": "Apple Silicon Mac (M1+), Python 3.11+, 24GB+统一内存, 15GB+磁盘空间。推荐安装Xcode Metal Toolchain。需HuggingFace登录并请求模型访问权限。",
+          "steps": [
+            "克隆仓库，进入目录。",
+            "安装Metal Toolchain (推荐), 登录HuggingFace并请求模型访问。",
+            "运行setup.sh安装环境并打补丁。",
+            "激活环境，运行 `python generate.py path/to/image.png` 生成3D模型。"
+          ],
+          "note": "不安装Metal Toolchain会使用纯Python渲染器，性能和质量稍逊。"
+        },
+        "competitors": [
+          {
+            "name": "Luma AI",
+            "method": "Web/App在线处理",
+            "models": "私有模型",
+            "pricing": "部分免费"
+          },
+          {
+            "name": "Kiri Engine",
+            "method": "移动App在线处理",
+            "models": "私有模型",
+            "pricing": "部分免费"
+          }
+        ],
+        "pricing": "免费（MIT许可证，开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是微软TRELLIS.2的Apple Silicon移植版，解决了特定Mac用户群体的痛点。Star数适中，文档清晰，安装和使用流程详细，性能指标明确，Issue数量少，表明项目相对成熟稳定。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比尚可（4/1），但整体Issue数量偏低，社区活跃度一般，主要是一个工具的移植和维护。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-25T04:22:36.338Z"
+    },
+    {
+      "owner": "xiaochong",
+      "repo": "hi-kid",
+      "fullName": "xiaochong/hi-kid",
+      "description": "HiKid - Your AI English Pal. A desktop app built with React and TypeScript, targeting children in non-English-speaking countries who want to practice English speaking and listening.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "english-learning",
+        "kids-education",
+        "local-ai",
+        "offline-ai",
+        "speaking-practice",
+        "voice-chat"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-19T14:37:15Z",
+      "url": "https://github.com/xiaochong/hi-kid",
+      "analysis": {
+        "positioning": "专为非英语国家儿童设计的离线AI英语口语/听力练习桌面应用",
+        "useCases": [
+          "你孩子想练习英语口语，但没有外教或英语环境 → 它提供一个随时在线、耐心陪伴的AI英语伙伴，纯语音互动。",
+          "你担心孩子使用在线学习应用隐私泄露或网络依赖 → 它完全离线运行，所有数据本地处理，保证隐私安全。",
+          "你想让孩子轻松愉快地学英语，不拘束于固定课程 → 它通过自由对话、讲故事、玩游戏的方式激发孩子兴趣，界面卡通友好。"
+        ],
+        "audience": "目标用户是非英语国家儿童及其家长，希望孩子能在安全、无网络压力的环境中练习英语口语和听力。",
+        "quickStart": {
+          "prerequisites": "macOS 12.0+ (Apple Silicon / Intel)、Node.js >= 20、npm",
+          "steps": [
+            "克隆仓库：git clone https://github.com/xiaochong/hi-kid.git && cd hi-kid",
+            "安装依赖：npm install"
+          ],
+          "note": "目前仅支持macOS，Windows和Linux版本正在计划中。"
+        },
+        "competitors": [
+          {
+            "name": "在线AI英语私教/聊天机器人",
+            "method": "联网使用，云端服务",
+            "models": "通用/专用云端LLM、ASR/TTS",
+            "pricing": "多数订阅制"
+          },
+          {
+            "name": "传统儿童英语学习APP",
+            "method": "联网使用，课程驱动",
+            "models": "封闭式，特定场景",
+            "pricing": "多数订阅制"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，解决了非英语国家儿童英语口语练习的痛点。强调离线、隐私安全和免费，技术栈现代且实现方式独特（本地AI管道），对特定用户群有很强吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启4/关闭2，显示有积极的社区互动和问题解决。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-25T04:22:51.235Z"
+    },
+    {
+      "owner": "yzhao062",
+      "repo": "agent-style",
+      "fullName": "yzhao062/agent-style",
+      "description": "21 writing rules for AI coding and writing agents. Drop-in for Claude Code, Codex, Copilot, Cursor, and Aider, so their output reads like a tech pro.",
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "llm",
+        "prompt-engineering",
+        "style-guide",
+        "technical-writing",
+        "writing-style"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-19T08:12:16Z",
+      "url": "https://github.com/yzhao062/agent-style",
+      "analysis": {
+        "positioning": "让AI Agents写出专业技术文的风格指南。",
+        "useCases": [
+          "你用AI写API文档、设计文档、README → 它帮你输出符合行业规范、表达清晰且专业的文档。",
+          "你让AI生成代码注释、Commit信息、错误报告 → 它帮你确保文本简洁、准确，像资深工程师所写。",
+          "你让AI撰写技术博客或研究论文 → 它帮你避免常见LLM写作弊病，提升文本专业度和可信度。"
+        ],
+        "audience": "专注于AI Agent输出质量的技术开发者、技术写作者及Prompt工程师。",
+        "quickStart": {
+          "prerequisites": "Python或Node.js环境",
+          "steps": [
+            "`pip install agent-style`",
+            "`npm install agent-style`"
+          ],
+          "note": "即插即用，兼容Claude Code、Codex、Copilot、Cursor和Aider等主流AI编程和写作助手。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它通过提供21条AI写作规则，直接提升AI生成的技术文档和代码相关文本的专业度与可读性，虽非直接编写代码，但极大优化了AI编程助手的输出质量。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启2个但无关闭，项目可能较新或处于稳定状态。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-25T04:23:02.979Z"
+    },
+    {
+      "owner": "0x0funky",
+      "repo": "agent-sprite-forge",
+      "fullName": "0x0funky/agent-sprite-forge",
+      "description": "Agent Skill for generating 2D sprite sheets, transparent PNG frames, and animated GIFs from prompts.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "codex",
+        "pixel-art",
+        "sprite-generator"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-23T20:52:52Z",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "analysis": {
+        "positioning": "用自然语言提示生成游戏级2D精灵图、透明帧和动画GIF。",
+        "useCases": [
+          "你想要一个悟空龟派气功动画 → 它帮你生成游戏就绪的2D精灵动画。",
+          "你想要一套完整的法术效果（施法、弹道、命中）→ 它帮你自动生成多帧动画效果。",
+          "你想要一个角色四方向行走动画 → 它帮你生成带走动循环的2D精灵表。"
+        ],
+        "audience": "独立游戏开发者、像素艺术家或任何需要快速生成2D游戏素材的创作者。",
+        "quickStart": {
+          "prerequisites": "Python环境，Git，OpenAI API密钥（用于Codex等模型）。",
+          "steps": [
+            "克隆项目仓库。",
+            "根据项目文档安装依赖并配置API密钥。",
+            "使用自然语言描述你想要的2D精灵或动画，通过其代理技能（如`$generate2dsprite`）触发生成。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Midjourney / DALL-E / Stable Diffusion",
+            "method": "通用文本到图像生成，需要更多提示词工程或后续处理来生成精灵表。",
+            "models": "各自私有模型或开源模型。",
+            "pricing": "付费订阅或免费（开源版）。"
+          }
+        ],
+        "pricing": "免费（工具本身开源），但底层AI模型（如OpenAI Codex）可能需要付费API调用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "直接解决游戏开发中2D素材制作的痛点，结合AI Agent和图像生成，效果展示惊艳，极大提升效率。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎没有社区活动（0 Issue），项目可能较新或尚未获得广泛关注。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-25T04:23:15.081Z"
+    },
+    {
+      "owner": "Leey21",
+      "repo": "awesome-ai-research-writing",
+      "fullName": "Leey21/awesome-ai-research-writing",
+      "description": "Elevate your AI research writing, no more tedious polishing ✨ ",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-01-30T07:59:30Z",
+      "url": "https://github.com/Leey21/awesome-ai-research-writing",
+      "analysis": {
+        "positioning": "科研写作AI提效神器，摆脱Prompt内卷",
+        "useCases": [
+          "你写论文时反复调试Prompt → 它提供海量高质模板，直接套用。",
+          "你想用AI Agent提升写作效率 → 它提供Agent技能教程与核心工具，快速上手。",
+          "你读ArXiv英文论文 → 它帮你从LaTeX源码翻译并编译，秒懂核心。"
+        ],
+        "audience": "顶尖研究机构与高校的科研人员、硕博士，寻求AI辅助论文写作的效率与质量提升。",
+        "quickStart": {
+          "prerequisites": "需有大语言模型（如ChatGPT/Claude）使用权限",
+          "steps": [
+            "浏览项目中的Prompt模板，选择对应写作场景（如中转英、表达润色）。",
+            "复制完整Prompt模板并粘贴到大模型对话框。",
+            "按模板指引填入你的论文草稿或待处理文本。"
+          ],
+          "note": "Agent Skills部分需额外配置，项目内含详细教程。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "精准洞察科研痛点，直接解决“Prompt工程内卷”问题。提供一线研究人员实战打磨的模板与Agent技能，强调实用性和开箱即用，代码化思维浓厚。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，Star数近2万，Issues开闭比健康（18开/13关），且有持续更新计划和新增功能（如arxiv-translator-skill）。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-25T04:23:50.753Z"
+    },
+    {
+      "owner": "mattpocock",
+      "repo": "skills",
+      "fullName": "mattpocock/skills",
+      "description": "My personal directory of skills, straight from my .claude directory.",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-02-03T11:15:53Z",
+      "url": "https://github.com/mattpocock/skills",
+      "analysis": {
+        "positioning": "AI Agent技能集，提升开发全流程效率",
+        "useCases": [
+          "你有想法 → 它帮你自动生成PRD并提交GitHub issue",
+          "你要开发功能或修复bug → 它帮你进行TDD循环开发，逐步完成",
+          "你要配置项目工具 → 它帮你快速设置Husky pre-commit钩子"
+        ],
+        "audience": "追求效率、利用AI辅助开发（特别是Agent）的开发者和团队",
+        "quickStart": {
+          "prerequisites": "Node.js (用于npx)",
+          "steps": [
+            "安装Node.js环境。",
+            "通过 `npx skills@latest add [技能路径]` 命令添加所需的技能，例如 `npx skills@latest add mattpocock/skills/to-prd`。",
+            "根据具体技能的使用说明在Agent环境中使用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE集成，实时代码补全、生成",
+            "models": "OpenAI Codex等",
+            "pricing": "付费"
+          },
+          {
+            "name": "Cursor IDE",
+            "method": "专用IDE，内置AI Chat、代码修改",
+            "models": "GPT-3.5/4, Claude等",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费 (项目开源，技能免费使用，但可能需要支付底层AI模型API费用)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述直言是作者的“个人技能目录”，且技能列表包含“grill-me”等独特、偏工具链优化的功能，带有浓厚的个人实用主义和工作流定制色彩。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，star数庞大，issue开闭比健康，维护者响应及时。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-25T04:24:06.793Z"
     }
   ]
 }
