@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-25T04:24:06.801Z",
+  "updatedAt": "2026-04-26T04:49:11.839Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -20695,6 +20695,718 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-25T04:24:06.793Z"
+    },
+    {
+      "owner": "ConardLi",
+      "repo": "garden-skills",
+      "fullName": "ConardLi/garden-skills",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "language": "JavaScript",
+      "topics": [
+        "agent",
+        "claude",
+        "gpt-image-2",
+        "rag",
+        "skills",
+        "web-design"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-21T11:56:17Z",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "analysis": {
+        "positioning": "为AI编码助手提供高质量、生产级的Agent Skills集合。",
+        "useCases": [
+          "你用AI生成网页 → 它帮你优化到“惊艳”水平，避免套路设计。",
+          "你用AI处理本地文档/知识库 → 它帮你高效检索关键信息，避免上下文超载。",
+          "你用AI生成图像（如GPT Image 2）→ 它帮你精准控制图像生成效果和模式。"
+        ],
+        "audience": "寻求提升Claude Code、Cursor等AI编码助手能力的开发者和AI工程师，尤其注重设计和效率。",
+        "quickStart": {
+          "prerequisites": "AI编码助手，如Claude Code、Cursor、Codex等。",
+          "steps": [
+            "通过Claude Code插件市场安装。",
+            "手动复制相关Skill文件到你的项目。",
+            "使用Git Submodule方式集成。"
+          ],
+          "note": "支持多种集成方式，适应不同项目需求和AI代理平台。"
+        },
+        "competitors": [],
+        "pricing": "免费，MIT许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "特别是其网页设计Skill，强调避免俗套设计，运用先进色彩理论和字体搭配，提供高质量模式库，旨在将AI生成的“功能性”页面提升到“惊艳”水平，高度契合注重品味和美学的Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区零开启零关闭，社区活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-26T04:45:05.574Z"
+    },
+    {
+      "owner": "openclaw",
+      "repo": "clawsweeper",
+      "fullName": "openclaw/clawsweeper",
+      "description": "ClawSweeper scans all issues and PRs and suggest what we can close, and why. It runs every PR / Issue once a week.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-23T22:14:49Z",
+      "url": "https://github.com/openclaw/clawsweeper",
+      "analysis": {
+        "positioning": "自动化扫描GitHub待办，智能建议关闭理由。",
+        "useCases": [
+          "你遇到大量堆积的旧Issue/PR → 它帮你扫描并智能识别可关闭的项。",
+          "你担心误关重要事项 → 它基于明确的7项规则，仅在证据充分时才提出关闭建议。",
+          "你项目维护效率低下，人工审查耗时 → 它提供自动化报告和Codex评论，大幅提升维护效率。"
+        ],
+        "audience": "适用于拥有大量GitHub Issue/PR、需要自动化、保守地清理和维护代码仓库的开源项目或团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "本项目作为openclaw/openclaw的维护机器人运行。",
+            "如需在其他项目中使用，请查阅其更详细的集成指南。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档清晰详尽，提供实时运行仪表盘展示其强大的自动化和维护能力，表明项目高度活跃、设计精良且维护严谨。Readme中的未来日期更新表明是持续活跃项目。",
+        "isVibeCoding": true,
+        "communityActivity": "项目自身Issue极少（1开/0关），可能表明高度稳定或内部处理迅速，但缺乏直接的社区互动数据来评估活跃度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-26T04:45:34.735Z"
+    },
+    {
+      "owner": "wuyoscar",
+      "repo": "gpt_image_2_skill",
+      "fullName": "wuyoscar/gpt_image_2_skill",
+      "description": "GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-image-prompts",
+        "claude-code-skill",
+        "cli",
+        "codex-skill",
+        "gpt-image",
+        "gpt-image-2",
+        "gpt-image-2-prompts",
+        "image-editing",
+        "image-generation",
+        "image-prompt",
+        "openai",
+        "prompt-engineering",
+        "prompt-gallery",
+        "prompt-library",
+        "prompt-templates",
+        "research-figures",
+        "text-to-image",
+        "typography",
+        "ui-mockups"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-22T11:27:21Z",
+      "url": "https://github.com/wuyoscar/gpt_image_2_skill",
+      "analysis": {
+        "positioning": "GPT Image 2提示词库、Agent技能及CLI，助你高效生成AI图片。",
+        "useCases": [
+          "你难以写出高质量AI图像提示词 → 它提供160+精选GPT Image 2提示词，直接复制粘贴。",
+          "你是AI Agent开发者 → 它提供可插拔的Agent技能，扩展你的Agent图像生成和编辑能力。",
+          "你需要通过命令行快速生成或编辑图片 → 它提供一个CLI工具，直接调用OpenAI GPT Image 2服务。",
+          "你需要科研图、UI界面等特定场景图片 → 它提供多种细分场景的图像提示词模板。"
+        ],
+        "audience": "AI图像生成者、Agent开发者、Prompt工程师，以及需要高效利用GPT Image 2生成或编辑图片的专业用户。",
+        "quickStart": {
+          "prerequisites": "Python ≥ 3.11，OpenAI API Key（使用OpenAI服务时必需）。",
+          "steps": [
+            "若使用Codex Agent：打开Codex，运行`$skill-installer install https://github.com/wuyoscar/gpt_image_2_skill/tree/main/skills/gpt-image`",
+            "若使用Claude Code Agent：运行`/plugin marketplace add wuyoscar/gpt_image_2_skill` 后 `/plugin install gpt-image@wuyoscar-skills`"
+          ],
+          "note": "支持Claude Code、Codex、OpenClaw、Hermes Agent等多种Agent运行时。也可作为独立的CLI工具使用。"
+        },
+        "competitors": [],
+        "pricing": "项目开源免费，但使用OpenAI GPT Image 2服务需支付API费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能清晰，提供丰富的GPT Image 2提示词库、实用的Agent技能和CLI，且有详细场景分类。但项目社区活跃度较低，且Readme中的“Last update”日期（2026年）存在疑问，可能为占位或笔误。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度不高，目前仅有1个Issue已关闭，无开启Issue，PRs Welcome。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-26T04:45:51.928Z"
+    },
+    {
+      "owner": "tashfeenahmed",
+      "repo": "freellmapi",
+      "fullName": "tashfeenahmed/freellmapi",
+      "description": "OpenAI-compatible proxy that aggregates free-tier keys from ~14 AI providers with automatic failover. For personal experimentation only.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-21T13:38:59Z",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "analysis": {
+        "positioning": "聚合多平台免费LLM接口，提供统一的OpenAI兼容API。",
+        "useCases": [
+          "你手动管理多个LLM免费API Key → 它帮你统一接口，自动容错与管理额度。",
+          "你的个人项目需要稳定可靠的LLM调用 → 它帮你自动切换提供商，确保请求成功。",
+          "你想高效利用多家AI提供商的免费资源 → 它帮你整合14家免费额度，每月超13亿tokens。"
+        ],
+        "audience": "个人开发者或研究者，希望利用多个AI提供商的免费额度进行LLM实验、原型开发或学习。",
+        "quickStart": {
+          "prerequisites": "Node.js, npm/yarn",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/tashfeenahmed/freellmapi.git && cd freellmapi`",
+            "安装依赖：`npm install` 或 `yarn install`",
+            "配置API Key并启动服务：`npm run dev`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动集成各提供商API",
+            "method": "各自SDK/API Key",
+            "models": "各自提供商模型",
+            "pricing": "免费（各自免费额度）"
+          },
+          {
+            "name": "OpenRouter (通用API聚合平台)",
+            "method": "统一API Key",
+            "models": "大量模型（包括免费/付费）",
+            "pricing": "部分免费，大部分按量付费"
+          }
+        ],
+        "pricing": "免费，通过聚合14家AI提供商的免费额度使用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "解决了免费使用多LLM服务的核心痛点，提供统一接口、自动容错和额度管理，对于个人实验和原型开发具有极高实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue 数量很少 (2个开启，0个关闭)，可能项目较新或维护者响应速度快。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-26T04:46:10.630Z"
+    },
+    {
+      "owner": "future-agi",
+      "repo": "future-agi",
+      "fullName": "future-agi/future-agi",
+      "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-gateway",
+        "evals",
+        "llm",
+        "observability",
+        "simulation"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-23T14:11:31Z",
+      "url": "https://github.com/future-agi/future-agi",
+      "analysis": {
+        "positioning": "解决AI Agent幻觉的端到端评估、观测与改进平台。",
+        "useCases": [
+          "你开发AI Agent但效果不稳 → 它提供评估、追踪、模拟，快速定位和修复问题。",
+          "你担心AI Agent行为失控或幻觉 → 它提供网关和安全护栏，确保Agent的可靠性。",
+          "你部署AI Agent后想优化性能 → 它提供端到端平台，通过反馈循环持续提升Agent表现。"
+        ],
+        "audience": "致力于构建和部署可靠、高性能LLM/AI Agent应用的开发者和团队。",
+        "quickStart": {
+          "prerequisites": "Python/Node.js环境（自托管）或直接使用其云服务",
+          "steps": [
+            "选择注册并使用免费云版本，或",
+            "参照文档进行项目自托管部署"
+          ],
+          "note": "目前处于早期测试阶段（Nightly Release），可能存在不稳定性，鼓励通过Issue反馈问题。"
+        },
+        "competitors": [],
+        "pricing": "提供免费云版本，也可完全自托管免费使用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位和目标用户清晰，README结构专业，功能模块丰富且直接指向痛点（AI Agent幻觉），提供云服务和自托管选项，但目前是“夜间发布”阶段，存在不稳定性提醒。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度中等偏上，Stars数增长较快，Issues数量虽多但关闭率较低（符合早期测试阶段鼓励反馈的策略）。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-26T04:46:23.096Z"
+    },
+    {
+      "owner": "NullLatency",
+      "repo": "FlowDriver",
+      "fullName": "NullLatency/FlowDriver",
+      "description": "Bypass restrictive networks by tunneling SOCKS5 traffic through legitimate Google Drive API requests.",
+      "language": "Go",
+      "topics": [
+        "covert-transport",
+        "dpi",
+        "google-drive",
+        "google-drive-api",
+        "sni",
+        "tunneling",
+        "vpn"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-23T21:44:12Z",
+      "url": "https://github.com/NullLatency/FlowDriver",
+      "analysis": {
+        "positioning": "利用Google Drive伪装SOCKS5流量，突破网络限制的隐蔽传输工具。",
+        "useCases": [
+          "你在受限网络下无法访问外部服务 → 它帮你通过Google Drive API伪装流量，实现SOCKS5代理上网。",
+          "你需要隐蔽传输数据，避免被深度包检测（DPI）发现 → 它利用合法Google Drive API请求，让你的流量难以被识别。",
+          "你研究网络隐蔽传输或DPI绕过 → 它提供Go语言实现，让你学习通过云存储隧道的技术细节。"
+        ],
+        "audience": "面向需要在严格审查网络环境中突破限制的个人用户，以及研究隐蔽传输技术的开发者和安全专家。",
+        "quickStart": {
+          "prerequisites": "Go (1.25+), Google Drive API 凭证 (credentials.json)",
+          "steps": [
+            "1. 在Google Cloud Console启用Google Drive API并获取`credentials.json`。",
+            "2. 运行工具，它会自动创建或使用指定的Google Drive文件夹进行数据传输。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。开源项目，但需自备Google Drive账户和API配额。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "利用Google Drive作为隐蔽数据通道，思路巧妙且对抗DPI能力强。但其用途特定，主要面向研究和个人使用，不适合通用生产环境。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数远多于关闭数（19/1），社区活跃度较低，响应可能不及时。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-26T04:46:39.982Z"
+    },
+    {
+      "owner": "chekusu",
+      "repo": "wanman",
+      "fullName": "chekusu/wanman",
+      "description": "wanman is an open-source agent matrix runtime inspired by Japanese one-man trains. It lets human users step back into an observer role while local agent runtimes coordinate autonomous multi-agent workflows, task execution, and artifacts.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "claude-code",
+        "codex",
+        "llm"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-22T14:17:57Z",
+      "url": "https://github.com/chekusu/wanman",
+      "analysis": {
+        "positioning": "本地多智能体编排运行时，让人类作为观察者，看AI代理自主协作。",
+        "useCases": [
+          "你手动协调多个AI代理工作 → 它帮你自动化协调多个（如CEO、开发、运维）AI代理，处理异步消息和优先级。",
+          "你担心AI代理污染开发环境 → 它帮你隔离每个AI代理的工作区和主目录，确保环境干净。",
+          "你想监控和调试AI代理任务 → 它提供CLI命令和JSON-RPC接口，让你全面观察和控制代理行为。"
+        ],
+        "audience": "希望在本地运行、深度定制和监控多LLM代理协作流程的技术开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Node 20+, pnpm 9+, git, 已登录的Claude Code或Codex CLI",
+          "steps": [
+            "`git clone git@github.com:chekusu/wanman.git wanman.dev && cd wanman.dev`",
+            "`pnpm install && pnpm build`",
+            "`pnpm --filter @wanman/cli exec wanman takeover /path/to/any/git/repo`"
+          ],
+          "note": "`wanman.ai` 提供免费的24/7托管沙箱版，支持云端大规模并发。"
+        },
+        "competitors": [
+          {
+            "name": "CrewAI",
+            "method": "Python框架，通过API调用LLM，本地运行。",
+            "models": "支持多种LLM（OpenAI, Anthropic, Hugging Face等）。",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "AutoGPT",
+            "method": "Python CLI工具，本地运行。",
+            "models": "主要支持OpenAI模型。",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费。本地开源免费，`wanman.ai`提供免费沙箱版。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "CLI优先、本地运行、代理环境隔离、JSON-RPC监督，提供了高度的灵活性和控制力，适合希望深度定制、安全运行和掌控AI工作流的技术开发者。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数304，Issue开闭比为2/2，说明项目获得一定关注，但社区参与度（如issue报告和PR贡献）尚待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-26T04:46:53.530Z"
+    },
+    {
+      "owner": "chiefautism",
+      "repo": "privacy-parser",
+      "fullName": "chiefautism/privacy-parser",
+      "description": "Reverse of OpenAI Privacy Filter: same 1.5B model, returns PII as structured spans instead of masking.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-23T16:48:34Z",
+      "url": "https://github.com/chiefautism/privacy-parser",
+      "analysis": {
+        "positioning": "OpenAI Privacy Filter 的反向版，从文本中提取而非隐藏PII。",
+        "useCases": [
+          "你进行数据审计 → 它帮你自动发现并结构化提取数据中的个人身份信息（PII）。",
+          "你处理日志或被泄露数据 → 它帮你高效解析出敏感信息。",
+          "你做红队演练 → 它帮你从海量文本中快速定位和提取目标PII。"
+        ],
+        "audience": "面向安全攻防人员、数据分析师和需要处理敏感数据的开发者。",
+        "quickStart": {
+          "prerequisites": "uv 包管理器 (用于创建虚拟环境和安装依赖)",
+          "steps": [
+            "uv venv && uv pip install -e ./privacy-filter && uv pip install -e ./pii_parser",
+            "通过Python API（如HybridPIIParser）或CLI调用进行文本解析"
+          ],
+          "note": "首次运行将自动下载约3GB的1.5B模型检查点。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Privacy Filter",
+            "method": "掩盖（masking）PII",
+            "models": "相同的1.5B模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将用于防御的工具反向用于进攻或审计，攻防视角独特，技术上复用原模型实现高效提取，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 区暂无活动（0/0）。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-26T04:47:05.293Z"
+    },
+    {
+      "owner": "ArcaneNibble",
+      "repo": "awawausb",
+      "fullName": "ArcaneNibble/awawausb",
+      "description": "WebUSB for fopses",
+      "language": "Rust",
+      "topics": [],
+      "license": "0BSD",
+      "createdAt": "2026-04-20T00:16:32Z",
+      "url": "https://github.com/ArcaneNibble/awawausb",
+      "analysis": {
+        "positioning": "为Firefox浏览器提供WebUSB功能，实现网页与USB设备交互。",
+        "useCases": [
+          "你是在Firefox中需要WebUSB功能的Web应用开发者 → 它帮你让你的Web应用能直接与用户的USB设备通讯。",
+          "你希望在Firefox上运行基于WebUSB的工具或应用 → 它帮你填补Firefox的WebUSB功能空白，使其兼容。",
+          "你需要通过网页界面控制连接到电脑的USB硬件设备 → 它帮你为Firefox浏览器提供驱动，实现Web端对USB设备的控制。"
+        ],
+        "audience": "需要让Firefox浏览器中的网页直接与物理USB设备交互的Web开发者和终端用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从GitHub Releases下载`.xpi`文件并在Firefox中安装扩展。",
+            "下载匹配你操作系统的native stub二进制包，解压后运行`install.sh`或`install.bat`安装原生程序。"
+          ],
+          "note": "Android不支持；在特殊系统配置下（如跨架构共享Home目录），可能需要手动配置。"
+        },
+        "competitors": [
+          {
+            "name": "Google Chrome (及 Chromium-based 浏览器)",
+            "method": "内置原生支持WebUSB",
+            "models": "支持所有标准WebUSB设备",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。开源项目，通过GitHub Releases提供二进制文件。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "采用Rust语言实现，项目目标明确，文档详细，有效填补Firefox WebUSB功能的空白。安装需要同时安装浏览器扩展和原生程序，且在非通用配置下可能需要手动处理，上手门槛略高。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度适中，5个开启Issue对应4个关闭Issue，维护者积极响应问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-26T04:47:19.575Z"
+    },
+    {
+      "owner": "Parallax-Trading",
+      "repo": "polymarket-copy-trading-bot",
+      "fullName": "Parallax-Trading/polymarket-copy-trading-bot",
+      "description": "polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,",
+      "language": "JavaScript",
+      "topics": [
+        "bitcoin-market",
+        "copy-trading-bot",
+        "politics-market",
+        "polymarket",
+        "polymarket-copy-trading-bot",
+        "sports-market",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-23T16:48:42Z",
+      "url": "https://github.com/Parallax-Trading/polymarket-copy-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket套利与跟单交易机器人，自动捕捉短线机会。",
+        "useCases": [
+          "你手动在Polymarket做BTC短线套利 → 它帮你自动发现并执行BTC 5分钟期权市场的套利交易。",
+          "你发现高手在Polymarket盈利多想模仿 → 它帮你自动追踪指定Polymarket钱包的买入操作并同步跟单。",
+          "你希望在Polymarket自动化交易中控制风险 → 它帮你通过内置的风险限额和熔断机制，安全地管理交易。"
+        ],
+        "audience": "熟悉Polymarket机制和市场风险的专业或高阶交易者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境，Polymarket账户及Polygon钱包配置",
+          "steps": [
+            "配置交易机器人参数（钱包、代理、风险限额等）。",
+            "运行主套利引擎或跟单模块，自动执行交易策略。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码结构专业，包含完整交易体系所需功能，如风险控制、认证、日志和优雅关机，适用于真实交易场景。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启和关闭均为0，社区互动不活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-26T04:47:33.000Z"
+    },
+    {
+      "owner": "SmartOrder-Systems",
+      "repo": "polymarket-copy-trading-bot",
+      "fullName": "SmartOrder-Systems/polymarket-copy-trading-bot",
+      "description": "polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,",
+      "language": "JavaScript",
+      "topics": [
+        "bitcoin-market",
+        "copy-trading-bot",
+        "politics-market",
+        "polymarket",
+        "polymarket-copy-trading-bot",
+        "sports-market",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-23T16:55:38Z",
+      "url": "https://github.com/SmartOrder-Systems/polymarket-copy-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket自动化交易与跟单机器人，专业级实现。",
+        "useCases": [
+          "你希望在Polymarket BTC Up/Down市场套利 → 它帮你自动发现并执行5分钟短线套利。",
+          "你想跟随某个Polymarket高手交易 → 它帮你实时监控目标钱包买入并自动跟单。",
+          "你需要自动化交易并控制风险 → 它帮你通过内置风控、限额和熔断机制管理风险。"
+        ],
+        "audience": "寻求Polymarket自动化交易、套利或跟单的开发者、量化交易者和投资者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境，Polymarket签名器和代理钱包配置，Polygon链上授权。",
+          "steps": [
+            "配置你的Polymarket钱包和Polygon链上授权。",
+            "运行主套利引擎或专属跟单模块，自动执行交易策略。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码结构清晰，实现了专业交易系统所需的认证、订单簿跟踪、风控、熔断和优雅关闭等关键功能，并明确提示了市场风险，体现了严谨性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前Issue开启和关闭均为0。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-26T04:47:43.606Z"
+    },
+    {
+      "owner": "thClaws",
+      "repo": "thClaws",
+      "fullName": "thClaws/thClaws",
+      "description": "Open-source agent harness platform. Native Rust, multi-provider, runs on your own machine. Sovereign by design.",
+      "language": "Rust",
+      "topics": [
+        "agent-harness",
+        "ai-agent",
+        "desktop-app",
+        "local-first",
+        "multi-provider",
+        "rust",
+        "tauri"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-20T01:27:39Z",
+      "url": "https://github.com/thClaws/thClaws",
+      "analysis": {
+        "positioning": "本地运行、主权可控的Rust AI Agent工作平台。",
+        "useCases": [
+          "你想让AI帮你写/改代码或自动化任务 → 它作为一个本地Agent工作区帮你读文件、执行命令、协同操作。",
+          "你想查找资料或进行团队协作 → 它提供Chat界面和知识库查找，并协调Agent团队完成任务。",
+          "你需要预设的专家工作流或集成第三方工具 → 它能自动识别Skills并调用，或通过MCP服务器接入外部工具。"
+        ],
+        "audience": "对数据主权和本地运行有高要求的开发者、研究员、PM及其他知识工作者，用于AI辅助编程、自动化和团队协作。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载适用于您的操作系统（macOS/Windows/Linux）的发行版。",
+            "运行 `thclaws` 启动桌面GUI，或 `thclaws --cli` 启动CLI模式。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Assistants API",
+            "method": "云端API服务，提供Agent构建和执行环境",
+            "models": "仅限OpenAI模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "LangChain / LlamaIndex",
+            "method": "开源框架/库，需自行开发Agent",
+            "models": "支持多模型",
+            "pricing": "免费（框架本身）"
+          }
+        ],
+        "pricing": "免费，开源（Apache-2.0许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "原生Rust开发，强调本地主权、多模型多接口支持、开放标准和AI Agent热点，但Star数仍在初期。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期阶段，GitHub Issue互动较少（开1/关1）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-26T04:48:02.132Z"
+    },
+    {
+      "owner": "nateherkai",
+      "repo": "token-dashboard",
+      "fullName": "nateherkai/token-dashboard",
+      "description": "See where Claude Code is burning tokens - turn raw JSONL transcripts into local cost analytics, hotspot views, and session-level usage insight.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-20T01:10:22Z",
+      "url": "https://github.com/nateherkai/token-dashboard",
+      "analysis": {
+        "positioning": "Claude Code本地代币消耗分析工具，提供成本洞察和优化建议。",
+        "useCases": [
+          "你不清楚哪个Prompt最烧钱 → 它帮你找出并分析高成本Prompt。",
+          "你想比较不同项目的代币开销 → 它帮你可视化对比项目间的代币使用情况。",
+          "你想优化代币浪费 → 它帮你识别重复文件读取、冗余工具调用等低效模式。"
+        ],
+        "audience": "面向使用Claude Code的开发者及高级用户，用于精细化管理和优化AI助手的使用成本。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+、已安装并运行过一次的Claude Code、任意现代浏览器。",
+          "steps": [
+            "git clone https://github.com/nateherkai/token-dashboard.git",
+            "cd token-dashboard && python3 cli.py dashboard"
+          ],
+          "note": "Windows用户请将`python3`替换为`py -3`。"
+        },
+        "competitors": [],
+        "pricing": "免费，一个完全本地运行的开源工具，不收集任何数据。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "本地运行，无需安装额外依赖（pip、Node.js），只需Git克隆和运行Python脚本，对开发者友好，部署和使用门槛极低，且高度注重用户隐私。",
+        "isVibeCoding": true,
+        "communityActivity": "开启Issue多于关闭，表明有用户在使用并反馈问题，但项目的响应和解决速度有待提升。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-26T04:48:15.843Z"
+    },
+    {
+      "owner": "seulee26",
+      "repo": "mckinsey-pptx",
+      "fullName": "seulee26/mckinsey-pptx",
+      "description": "McKinsey-style PPTX generator — Claude Code plugin with 40 slide templates + subagent that picks the right template and defends its choice. Built by AX Labs (이승필).",
+      "language": "Python",
+      "topics": [
+        "ai-presentation",
+        "ax-labs",
+        "claude-code",
+        "claude-code-plugin",
+        "consulting",
+        "mckinsey",
+        "powerpoint",
+        "pptx",
+        "python-pptx",
+        "slides"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-23T23:52:41Z",
+      "url": "https://github.com/seulee26/mckinsey-pptx",
+      "analysis": {
+        "positioning": "基于Claude Code，聊天式生成麦肯锡风格PPT的智能工具。",
+        "useCases": [
+          "你想快速做一份季度业务复盘报告 → 它帮你根据文字指令和数据自动生成麦肯锡风格PPT。",
+          "你有Excel数据需要转化成可视化图表 → 它能读取Excel，自动选择模板生成带有图表和分析的PPT。",
+          "你需要频繁制作专业级咨询演示文稿 → 它让你用自然语言描述需求，摆脱手动拖拽和设计烦恼。"
+        ],
+        "audience": "任何厌倦手动制作PPT、追求效率和专业咨询风格演示文稿的职场人士、学生和咨询顾问。",
+        "quickStart": {
+          "prerequisites": "Claude Code已安装",
+          "steps": [
+            "在Claude Code中运行`/plugin marketplace add seulee26/mckinsey-pptx`和`/plugin install axlabs-mckinsey-pptx@axlabs`安装插件。",
+            "重启Claude Code，然后输入指令安装Python依赖库（如：`这个插件需要用到的Python库都给我安装一下。`）。"
+          ],
+          "note": "安装插件后，必须重启Claude Code才能加载Agent。运行生成PPT指令时，需确保Claude Code当前工作目录包含所需数据文件（如Excel）。"
+        },
+        "competitors": [],
+        "pricing": "免费（基于Claude Code平台，Claude Code本身可能有订阅或使用费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该工具作为一个Claude Code插件，通过命令行交互实现PPT自动化生成。它利用Python-pptx等库在后台工作，虽然主要面向非开发者用户，但其部署和使用方式（命令行、插件管理）与开发流程有交集，且代码本身是Python项目，具有一定的编码亲和力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue均为0（开启0/关闭0），无法评估社区活跃度，可能项目尚新或用户习惯直接交流。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-26T04:48:29.146Z"
+    },
+    {
+      "owner": "nilbuild",
+      "repo": "developer-roadmap",
+      "fullName": "nilbuild/developer-roadmap",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "language": "TypeScript",
+      "topics": [
+        "angular-roadmap",
+        "backend-roadmap",
+        "blockchain-roadmap",
+        "computer-science",
+        "dba-roadmap",
+        "developer-roadmap",
+        "devops-roadmap",
+        "frontend-roadmap",
+        "go-roadmap",
+        "java-roadmap",
+        "javascript-roadmap",
+        "nodejs-roadmap",
+        "python-roadmap",
+        "qa-roadmap",
+        "react-roadmap",
+        "roadmap",
+        "software-architect-roadmap",
+        "vue-roadmap"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2017-03-15T13:45:52Z",
+      "url": "https://github.com/nilbuild/developer-roadmap",
+      "analysis": {
+        "positioning": "开发者职业成长互动路线图与学习指南。",
+        "useCases": [
+          "你是一位想学习前端的新手，不知从何开始 → 它为你提供详细的、可点击互动的前端学习路线图。",
+          "你是一位资深开发者，想提升DevOps技能并了解最佳实践 → 它为你展示DevOps路线图及相关最佳实践文章。",
+          "你对AI工程师的职业路径感兴趣，想知道需要学习哪些技术栈 → 它为你提供清晰的AI工程师成长路径指引。"
+        ],
+        "audience": "所有寻求职业成长、规划学习路径、系统提升技能的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 roadmap.sh 网站。",
+            "选择你感兴趣的技术方向路线图，点击节点查看详情。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "freeCodeCamp",
+            "method": "在线互动课程、项目挑战",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Educative",
+            "method": "互动式文本课程、实战项目",
+            "models": "N/A",
+            "pricing": "部分免费/付费订阅"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "提供涵盖主流技术栈的详尽互动式学习路线图，内容高质量且社区驱动，是开发者规划职业发展和学习新技术的宝贵资源。Star数极高，证明其在开发者社区的广泛认可度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区内容贡献极其活跃，但GitHub Issue解决活动偏低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-26T04:49:11.832Z"
     }
   ]
 }
