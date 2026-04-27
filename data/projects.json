@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-26T04:49:11.839Z",
+  "updatedAt": "2026-04-27T04:56:00.106Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -21407,6 +21407,464 @@
         "category": "其他"
       },
       "analyzedAt": "2026-04-26T04:49:11.832Z"
+    },
+    {
+      "owner": "evanklem",
+      "repo": "evanflow",
+      "fullName": "evanklem/evanflow",
+      "description": "A TDD-driven iterative feedback loop for software development. 16 cohesive Claude Code skills walk an idea from brainstorm → plan → execute → tdd → iterate, with checkpoints throughout.",
+      "language": "Shell",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-27T00:48:07Z",
+      "url": "https://github.com/evanklem/evanflow",
+      "analysis": {
+        "positioning": "基于TDD的AI软件开发迭代反馈循环。",
+        "useCases": [
+          "你有一个开发想法 → 它通过AI自动化走完从构思到实现的循环。",
+          "你有一个不清晰的需求 → 它帮你深入分析，提供多套设计方案并进行压力测试。",
+          "你担心AI开发失控 → 它在关键节点（如设计、计划、迭代）停下，让你掌控决策和代码提交。"
+        ],
+        "audience": "追求高效且注重代码质量的开发者，特别是使用Claude Code进行AI辅助开发时。",
+        "quickStart": {
+          "prerequisites": "需在Claude Code环境中使用。",
+          "steps": [
+            "在Claude Code中执行 `/plugin marketplace add evanklem/evanflow`",
+            "执行 `/plugin install evanflow@evanflow`",
+            "重启Claude Code",
+            "输入如 `\"Let's evanflow this — I want to add a small feature that does X.\"` 启动流程"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (GitHub项目，无收费信息)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目设计非常严谨，强调TDD、迭代反馈、人工控制与AI协作。融入了对AI编码失败模式的深入研究，提供了明确的步骤和质量保障机制，显示出高度的专业性和解决实际问题的决心。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前Issue（3开0关）尚无法体现用户参与度。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-27T04:53:03.522Z"
+    },
+    {
+      "owner": "freestylefly",
+      "repo": "awesome-gpt-image-2",
+      "fullName": "freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库 - 329个案例逆向工程，13套工业级模板",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-25T09:19:13Z",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "analysis": {
+        "positioning": "将AI画图提示词结构化，赋能工业级自动化生成。",
+        "useCases": [
+          "你需批量生成风格统一的AI图片 → 它帮你通过结构化提示词实现高效、可控的批量出图。",
+          "你想将AI画图能力整合到生产流程或Agent → 它帮你将零散提示词转化为工作流友好的Prompt-as-Code资产。",
+          "你希望精确控制AI生成图片的排版、信息层级和视觉要素 → 它帮你通过原子化Schema实现精细化视觉要素控制。"
+        ],
+        "audience": "适合需要将AI画图能力集成到自动化工作流、Agent系统，或追求批量、稳定、可控出图的开发者和产品经理。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "浏览[完整案例总览](docs/gallery.md)获取灵感和结构化范例。",
+            "查阅[工业级提示词模板与防坑指南](docs/templates.md)学习如何应用模板。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，MIT许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目强调'Prompt as Code'、'工业级'、'结构化协议'、'原子化 Schema'，并面向'Agent和自动化工作流'，明显是为工程化和程序化控制AI生成内容而设计，代码属性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚可，项目仍在持续更新，但Issue交互较少，目前1开0关。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-27T04:53:22.429Z"
+    },
+    {
+      "owner": "epoko77-ai",
+      "repo": "im-not-ai",
+      "fullName": "epoko77-ai/im-not-ai",
+      "description": "AI가 쓴 글이 아닌 것처럼 윤문해주는 스킬",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-24T12:48:40Z",
+      "url": "https://github.com/epoko77-ai/im-not-ai",
+      "analysis": {
+        "positioning": "专为韩语优化的AI文本“去机器味”润色工具。",
+        "useCases": [
+          "你用AI写韩语文章 → 它帮你去除翻译腔、生硬表达，让文章更自然流畅。",
+          "你用AI生成营销文案 → 它帮你规避AI特有句式和冗余词汇，提升说服力。",
+          "你担心AI内容被识别 → 它帮你精细调整文风和节奏，大幅提高人工度。"
+        ],
+        "audience": "使用AI生成韩语文本，希望内容保持原意但听起来更像人工撰写，追求自然流畅表达的用户。",
+        "quickStart": {
+          "prerequisites": "具备Claude API访问权限",
+          "steps": [
+            "准备AI生成的韩语原文。",
+            "调用该工具（如作为Claude Skill），选择Fast或Strict模式进行文本润色。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "QuillBot",
+            "method": "在线编辑器",
+            "models": "通用LLM",
+            "pricing": "部分免费"
+          },
+          {
+            "name": "Hix",
+            "method": "在线编辑器",
+            "models": "通用LLM",
+            "pricing": "部分免费"
+          },
+          {
+            "name": "Undetectable AI",
+            "method": "在线编辑器",
+            "models": "通用LLM",
+            "pricing": "部分免费"
+          }
+        ],
+        "pricing": "免费（基于开源代码，但实际运行依赖Claude API，可能产生API费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构分层清晰，代理协作精巧，AI痕迹分类体系极其细致且专注于韩语特性，严格遵循不改原意等核心原则，工程化严谨。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启远多于关闭，说明有用户反馈和需求，但问题解决速度和社区响应活跃度一般。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-27T04:53:46.218Z"
+    },
+    {
+      "owner": "worldwonderer",
+      "repo": "oh-story-claudecode",
+      "fullName": "worldwonderer/oh-story-claudecode",
+      "description": "网文写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味全流程",
+      "language": "Shell",
+      "topics": [
+        "ai-writing",
+        "claude-code",
+        "claude-skills",
+        "creative-writing",
+        "novel-writing",
+        "openclaw",
+        "writing-assistant"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-22T16:35:39Z",
+      "url": "https://github.com/worldwonderer/oh-story-claudecode",
+      "analysis": {
+        "positioning": "网文创作全流程AI助手，涵盖扫榜、拆文、写作、去AI味。",
+        "useCases": [
+          "你想知道网文市场热点 → 它帮你扫榜，分析起点/番茄/晋江等平台趋势。",
+          "你想学习爆款小说套路 → 它帮你拆解黄金三章、爽点设计、情绪曲线。",
+          "你写作时担心有AI味 → 它帮你检测并清除AI写作痕迹。"
+        ],
+        "audience": "希望借力AI提升创作效率与质量的网文作者，无论长篇短篇。",
+        "quickStart": {
+          "prerequisites": "Claude Code 或 OpenClaw",
+          "steps": [
+            "确保已安装 Claude Code 或 OpenClaw。",
+            "将仓库地址 `https://github.com/worldwonderer/oh-story-claudecode` 喂给 Claude Code/OpenClaw，或运行 `npx skills add worldwonderer/oh-story-claudecode -y` 安装。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费 (项目代码开源免费，但使用时可能涉及 Claude API 费用)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README 信息密度高，图文结合，流程清晰，直接给出安装和使用方法，无多余寒暄。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue统计显示社区活跃度较低，尚无开启或关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-27T04:54:02.180Z"
+    },
+    {
+      "owner": "alash3al",
+      "repo": "stash",
+      "fullName": "alash3al/stash",
+      "description": "Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required.",
+      "language": "Go",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "memory"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-24T22:05:12Z",
+      "url": "https://github.com/alash3al/stash",
+      "analysis": {
+        "positioning": "为AI智能体提供持久化记忆层，告别大模型“健忘症”。",
+        "useCases": [
+          "你希望AI智能体能记住上下文，避免每次对话都从零开始 → Stash让AI智能体拥有长期记忆，跨会话学习和回忆。",
+          "你希望AI智能体将零散信息整理成结构化知识和智慧 → Stash通过8阶段认知管道，将观察转化为事实、关系和模式。",
+          "你希望AI智能体能追踪目标、识别失败模式、验证假设 → Stash能自动进行高级记忆整合，帮助AI智能体实现这些功能。"
+        ],
+        "audience": "构建或使用MCP兼容AI智能体的开发者及团队，需要为AI智能体提供可自托管的持久记忆和知识整合能力。",
+        "quickStart": {
+          "prerequisites": "Git, Docker Compose",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/alash3al/stash.git`",
+            "进入项目目录：`cd stash`",
+            "复制并编辑环境变量文件，填入你的API Key和模型：`cp .env.example .env`",
+            "一键启动：`docker compose up`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。开源项目，支持自托管，无云服务依赖。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位解决AI智能体核心的“记忆”痛点，采用Go语言实现，支持自托管，部署简便。功能设计清晰，通过认知管道将原始数据转化为结构化知识，具有较高的实用价值和成长潜力。社区活跃度一般但有响应。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少，有新开启和已关闭，社区活跃度处于起步阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-27T04:54:14.946Z"
+    },
+    {
+      "owner": "PrimeOrder-Labs",
+      "repo": "polymarket-copy-trading-bot",
+      "fullName": "PrimeOrder-Labs/polymarket-copy-trading-bot",
+      "description": "polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,",
+      "language": "JavaScript",
+      "topics": [
+        "bitcoin-market",
+        "copy-trading-bot",
+        "politics-market",
+        "polymarket",
+        "polymarket-copy-trading-bot",
+        "sports-market",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-25T15:51:16Z",
+      "url": "https://github.com/PrimeOrder-Labs/polymarket-copy-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket 自动化套利与跟单交易机器人",
+        "useCases": [
+          "你想在 Polymarket 发现并套利价差 → 它帮你自动在 BTC Up/Down 市场进行套利交易",
+          "你想跟踪 Polymarket 上的高收益者 → 它帮你自动跟单指定钱包的买入操作",
+          "你需要一个可靠的 Polymarket 自动化交易系统 → 它提供生产级交易运行时，处理链上交互、订单执行和风险控制"
+        ],
+        "audience": "Polymarket 交易者，尤其是寻求自动化套利或跟单策略，且具备一定技术能力的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 和 npm",
+          "steps": [
+            "安装依赖：`npm install`",
+            "创建本地环境变量文件：`Copy-Item .env.example .env`"
+          ],
+          "note": "`Copy-Item` 为 PowerShell 命令，Linux/macOS 用户请替换为 `cp .env.example .env`"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述详细，强调生产级设计（风险控制、WebSocket监控、优雅关机），提供清晰的架构和性能截图，是Polymarket自动交易的强力工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭均为 0，社区活跃度暂不明确。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-27T04:54:28.650Z"
+    },
+    {
+      "owner": "Orbital-Alpha",
+      "repo": "polymarket-copy-trading-bot",
+      "fullName": "Orbital-Alpha/polymarket-copy-trading-bot",
+      "description": "polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,",
+      "language": "JavaScript",
+      "topics": [
+        "bitcoin-market",
+        "copy-trading-bot",
+        "politics-market",
+        "polymarket",
+        "polymarket-copy-trading-bot",
+        "sports-market",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-25T15:46:31Z",
+      "url": "https://github.com/Orbital-Alpha/polymarket-copy-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket自动交易与跟单机器人，覆盖套利策略。",
+        "useCases": [
+          "你希望在Polymarket BTC Up/Down市场套利 → 它帮你自动发现并执行买卖，合并头寸，获取收益。",
+          "你希望跟随Polymarket高手交易 → 它帮你监控目标钱包，并自动复制买入操作。",
+          "你需要一个可靠的Polymarket生产级交易运行时 → 它提供CLOB认证、WebSocket实时数据、风险管理和优雅停机。"
+        ],
+        "audience": "Polymarket交易员、加密货币量化爱好者、希望自动化Polymarket短期市场套利或跟单的投资者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境，Polymarket账户及Polygon链钱包。",
+          "steps": [
+            "npm install",
+            "cp .env.example .env (配置环境变量)"
+          ],
+          "note": "`Copy-Item`是PowerShell命令，类Unix系统需使用`cp .env.example .env`。"
+        },
+        "competitors": [],
+        "pricing": "免费（软件本身开源，交易需承担Polymarket平台费用及Gas费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于生产环境，提供真实的CLOB认证、WebSocket实时数据、完整的链上交易流程、风险限制和优雅停机等高级功能，非玩具脚本，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，社区活跃度暂时无法评估，需进一步观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-27T04:54:40.290Z"
+    },
+    {
+      "owner": "NV404",
+      "repo": "gova",
+      "fullName": "NV404/gova",
+      "description": "declarative GUI framework for Go",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-22T19:17:02Z",
+      "url": "https://github.com/NV404/gova",
+      "analysis": {
+        "positioning": "Go 声明式 GUI 框架，构建跨平台原生桌面应用。",
+        "useCases": [
+          "你想用Go写跨平台桌面应用 → 它帮你通过单一Go代码库实现macOS/Windows/Linux原生应用。",
+          "你厌倦了Electron或混合式桌面应用的臃肿 → 它帮你用Go构建轻量、单文件、无JS运行时和浏览器依赖的原生桌面应用。",
+          "你开发桌面应用时想提高效率 → 它提供热重载功能，代码改动后自动重建并保持UI状态。"
+        ],
+        "audience": "Go 开发者，希望用Go语言高效构建跨平台、轻量级的原生桌面应用。",
+        "quickStart": {
+          "prerequisites": "Go 1.26+，以及支持cgo的C编译工具链。",
+          "steps": [
+            "创建`main.go`文件，将示例代码复制进去。",
+            "运行`go run main.go`即可启动应用（或使用`gova dev`开启热重载模式）。"
+          ],
+          "note": "macOS平台通过cgo提供部分原生功能集成，Windows和Linux基于Fyne实现；开发时需确保C编译工具链可用。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证），无运行时费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，采用Go原生struct定义组件，通过`g.State`管理响应式状态，布局和组件API直观，遵循声明式范式，符合Go语言习惯。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue均为0，项目处于早期开发阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-27T04:54:52.629Z"
+    },
+    {
+      "owner": "CookSleep",
+      "repo": "gpt_image_playground",
+      "fullName": "CookSleep/gpt_image_playground",
+      "description": "基于 OpenAI gpt-image-2 接口的图片生成与编辑工具",
+      "language": "TypeScript",
+      "topics": [
+        "gpt-image",
+        "image-editing",
+        "image-generation",
+        "openai",
+        "react",
+        "tailwindcss",
+        "typescript",
+        "vite"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-23T20:18:57Z",
+      "url": "https://github.com/CookSleep/gpt_image_playground",
+      "analysis": {
+        "positioning": "OpenAI图像生成编辑神器，本地数据优先，精细化控制。",
+        "useCases": [
+          "你需要快速生成AI图片 → 它提供简洁Web UI，文本生图、批量操作一键搞定",
+          "你想要精细化调整AI生成图片 → 它支持参考图编辑、可视化参数调节，助你迭代优化",
+          "你关注AI生成数据隐私与安全 → 它将所有任务记录与图片数据本地存储，并支持数据导入导出"
+        ],
+        "audience": "面向需要基于OpenAI图像接口进行图片生成与编辑的开发者和设计师，尤其注重本地数据安全和精细化控制的用户。",
+        "quickStart": {
+          "prerequisites": "OpenAI API Key (用于调用图像生成接口)",
+          "steps": [
+            "点击Vercel一键部署按钮 (推荐方式)",
+            "按照Vercel页面提示导入仓库并完成部署"
+          ],
+          "note": "如需调用非本地HTTP API，请使用GitHub Pages版本或自行部署，因为.dev域名要求HTTPS。"
+        },
+        "competitors": [],
+        "pricing": "免费 (项目本身免费，但需要支付OpenAI API调用费用)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "功能全面、设计精良、用户体验出色。精细化参数控制、本地数据存储与PWA支持等亮点，体现了项目对开发者和用户需求的深刻理解及高质量实现。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启/关闭数量均为2，表明社区活动适中且问题得到及时处理。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-04-27T04:55:08.219Z"
+    },
+    {
+      "owner": "Tencent-Hunyuan",
+      "repo": "Hy3-preview",
+      "fullName": "Tencent-Hunyuan/Hy3-preview",
+      "description": "Hy3 preview (295B A21B), a leading reasoning and agent model in its size, with great cost efficiency",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-21T14:22:21Z",
+      "url": "https://github.com/Tencent-Hunyuan/Hy3-preview",
+      "analysis": {
+        "positioning": "腾讯混元大模型Hy3预览版，295B高效推理与智能体核心模型。",
+        "useCases": [
+          "你做复杂问题分析 → 它帮你提供高精度推理和问题解决。",
+          "你做AI Agent开发 → 它帮你构建具备复杂规划和执行能力的智能体。",
+          "你做代码生成与理解 → 它帮你实现高效的代码辅助和编程自动化。"
+        ],
+        "audience": "寻求高性能、高成本效益的大模型开发者、研究员及企业用户，尤其关注AI推理、智能体构建和代码能力的场景。",
+        "quickStart": {
+          "prerequisites": "Python环境，建议配备GPU以实现模型部署和推理。",
+          "steps": [
+            "克隆项目仓库并安装依赖（如vLLM或SGLang）。",
+            "根据Quickstart和Deployment章节示例，加载模型并进行推理。"
+          ],
+          "note": "支持通过vLLM和SGLang进行高性能部署。"
+        },
+        "competitors": [],
+        "pricing": "免费（基于Tencent Hy Community License，用于社区和非商业用途）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "大规模MoE模型（295B），面向高级AI推理和智能体开发，对硬件资源、深度学习部署（vLLM/SGLang）和模型微调有较高要求，适合资深AI开发者。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度初期，Issue数量极少且未关闭，表明尚处于早期阶段或主要通过其他渠道沟通。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-27T04:55:20.390Z"
+    },
+    {
+      "owner": "NawfalMotii79",
+      "repo": "PLFM_RADAR",
+      "fullName": "NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "language": "PLSQL",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-03-08T23:20:58Z",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "analysis": {
+        "positioning": "开源低成本10.5 GHz相控阵雷达系统",
+        "useCases": [
+          "你是雷达技术研究员 → 它提供可编程的软硬件平台进行波束成形、信号处理实验",
+          "你是无人机开发者 → 它提供低成本、开放的雷达方案，用于目标探测和避障",
+          "你是SDR或高级创客 → 它提供完整设计资料，助你深入探索并定制雷达系统"
+        ],
+        "audience": "大学研究人员、无人机初创公司、高级创客及SDR爱好者，用于雷达技术研究与实验。",
+        "quickStart": {
+          "prerequisites": "Python环境，具备电子硬件和FPGA基础知识",
+          "steps": [
+            "克隆项目仓库",
+            "安装Python依赖（若有requirements.txt）",
+            "运行Python GUI（如`python main.py`或类似入口）"
+          ],
+          "note": "完整雷达功能需搭配自行搭建的硬件系统；纯软件启动主要用于接口模拟和数据分析。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源软硬件）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述清晰，软硬件全开源，文档专业，且Issue处理及时，显示出较高的活跃度和开发潜力。但GitHub标记的主要语言为PLSQL，与项目描述的FPGA、Python等核心技术栈存在显著矛盾，可能引起误解。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数量远超开启数量（42 vs 9），表明项目维护者积极响应并解决问题，社区活跃度较高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-27T04:56:00.096Z"
     }
   ]
 }
