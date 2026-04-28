@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-04-28",
+  "startedAt": "2026-04-28T04:59:20.528Z",
+  "finishedAt": "2026-04-28T05:03:37.711Z",
+  "durationSeconds": 257,
+  "success": true,
+  "stats": {
+    "fetched": 110,
+    "newProjects": 10,
+    "skipped": 100,
+    "geminiCalls": 12,
+    "statsUpdated": 110
+  },
+  "errors": [
+    {
+      "time": "2026-04-28T04:59:39.454Z",
+      "level": "warn",
+      "project": "Dhravya/webpull",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-04-28T05:01:18.071Z",
+      "level": "warn",
+      "project": "avaco-cloud/Vercel-XHTTP",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

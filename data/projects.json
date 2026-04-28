@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-27T04:56:00.106Z",
+  "updatedAt": "2026-04-28T05:02:41.810Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -21865,6 +21865,480 @@
         "category": "其他"
       },
       "analyzedAt": "2026-04-27T04:56:00.096Z"
+    },
+    {
+      "owner": "shiyi-zh0408",
+      "repo": "Meta-CoT",
+      "fullName": "shiyi-zh0408/Meta-CoT",
+      "description": "[CVPR 2026] Official code of the paper \"Meta-CoT: Enhancing Granularity and Generalization in Image Editing\"",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-28T01:56:58Z",
+      "url": "https://github.com/shiyi-zh0408/Meta-CoT",
+      "analysis": {
+        "positioning": "提升图像编辑粒度与泛化能力的AI方法。",
+        "useCases": [
+          "你希望AI图像编辑模型能处理更多样、更复杂的编辑任务 → 它通过两级CoT分解范式，让模型能应对21+种编辑操作，并实现更强的泛化能力。",
+          "你在开发新的图像编辑算法或应用 → 它提供了Meta-CoT方法及其官方代码，可作为基础或参考，提升编辑的精细控制。",
+          "你从事计算机视觉和图像生成领域的研究 → 它提供了CVPR 2026的最新研究成果和21任务基准，用于探索图像编辑新范式。"
+        ],
+        "audience": "图像编辑领域的研究人员、AI开发者和算法工程师。",
+        "quickStart": {
+          "prerequisites": "Python环境、PyTorch等深度学习框架。",
+          "steps": [
+            "克隆GitHub代码库：git clone https://github.com/shiyi-zh0408/Meta-CoT",
+            "安装Python依赖：根据项目requirements.txt文件安装所需库",
+            "运行提供的训练或推理脚本"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "官方代码，论文已接收CVPR 2026，提供了完整的项目页、论文、代码、预训练模型和21任务基准，结构清晰。Star数较低可能因发布较新。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-28T04:59:56.338Z"
+    },
+    {
+      "owner": "i2cjak",
+      "repo": "Framework_Expansion_Cards",
+      "fullName": "i2cjak/Framework_Expansion_Cards",
+      "description": "In which i2cjak creates a new expansion card design every day until he is given a NICE Framework laptop",
+      "language": "Python",
+      "topics": [],
+      "license": "CERN-OHL-P-2.0",
+      "createdAt": "2026-04-28T01:15:48Z",
+      "url": "https://github.com/i2cjak/Framework_Expansion_Cards",
+      "analysis": {
+        "positioning": "每日设计Framework扩展卡，挑战品牌方赠予高配笔记本。",
+        "useCases": [
+          "你想了解Framework笔记本的扩展潜力 → 它提供各种创意扩展卡设计。",
+          "你是硬件爱好者或原型设计师 → 它提供现成的开源扩展卡设计灵感或方案。",
+          "你想学习硬件设计思路 → 它展示了具体的每日设计实践和思路。"
+        ],
+        "audience": "硬件工程师和爱好者，寻求Framework扩展卡设计灵感或学习项目。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "浏览每日更新的扩展卡设计",
+            "查看具体设计文档和图片"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Framework官方扩展模块",
+            "method": "购买官方产品",
+            "models": "Framework兼容笔记本",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他社区/个人DIY扩展卡项目",
+            "method": "查找开源设计/自行开发",
+            "models": "Framework兼容笔记本",
+            "pricing": "免费/成本自付"
+          }
+        ],
+        "pricing": "免费，开源硬件设计，遵循CERN-OHL-P-2.0许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目发起人以略带挑衅的姿态挑战Framework品牌方，通过每日设计扩展卡来争取高配笔记本。表达直接，个性鲜明，带有强烈的个人色彩和话题性。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区活动度较低，无Issue开启或关闭。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-28T05:00:08.848Z"
+    },
+    {
+      "owner": "bombom0704",
+      "repo": "test.txt",
+      "fullName": "bombom0704/test.txt",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-28T01:20:59Z",
+      "url": "https://github.com/bombom0704/test.txt",
+      "analysis": {
+        "positioning": "一个GitHub上的简单文本文件，用于学习、测试或临时存储。",
+        "useCases": [
+          "你学习GitHub基本操作 → 它提供一个示例文件进行克隆、修改、提交。",
+          "你需要在GitHub上快速分享一段文本 → 它可以作为简单文本内容的载体。",
+          "你想要一个空白画布进行临时文字输入 → 它提供一个可编辑的文本空间。"
+        ],
+        "audience": "GitHub新手、需要快速记录或分享简单文本内容的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆仓库或直接查看文件内容",
+            "使用任意文本编辑器打开并编辑"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Gist",
+            "method": "浏览器编辑/上传，共享链接",
+            "models": "任何文本/代码片段",
+            "pricing": "免费"
+          },
+          {
+            "name": "本地文本文件",
+            "method": "任意文本编辑器创建/保存",
+            "models": "任何文本",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "此项目仅为文本文件，不涉及代码，无编码风格可供评价，故评分取最低值。",
+        "isVibeCoding": false,
+        "communityActivity": "社区不活跃，无互动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-28T05:00:28.703Z"
+    },
+    {
+      "owner": "3335023198wxj-prog",
+      "repo": "supreme-adventure",
+      "fullName": "3335023198wxj-prog/supreme-adventure",
+      "description": "一个冒险",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-28T01:34:15Z",
+      "url": "https://github.com/3335023198wxj-prog/supreme-adventure",
+      "analysis": {
+        "positioning": "一个名为‘至高冒险’，尚待探索和定义的极简项目。",
+        "useCases": [
+          "你寻求未知 → 它为你提供一个命名为'至高冒险'的空壳，等待你注入内容。",
+          "你有一个关于冒险的初步想法 → 它作为你启动冒险类项目或叙事的空白画布。",
+          "你仅想克隆一个仓库作为编程练习 → 它提供了一个极其简单、无依赖的起点。"
+        ],
+        "audience": "对未知项目充满好奇，或寻求项目占位符的开发者/学习者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/3335023198wxj-prog/supreme-adventure`",
+            "查看项目根目录下的README文件。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目描述极其模糊，无具体功能、语言、话题或代码，星星数极低，难以评估其实际价值和潜力，高度依赖想象力。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何 Issue 记录，社区活跃度极低或尚未开始。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-28T05:00:45.638Z"
+    },
+    {
+      "owner": "slywia",
+      "repo": "tea-tea-script",
+      "fullName": "slywia/tea-tea-script",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-28T01:14:35Z",
+      "url": "https://github.com/slywia/tea-tea-script",
+      "analysis": {
+        "positioning": "通用脚本项目，用途待明确。",
+        "useCases": [
+          "你有一个小型自动化任务 → 它可能提供一个简单的脚本框架来快速实现",
+          "你想学习脚本编程 → 它可以作为一个小型代码示例进行参考",
+          "你需要在特定环境下执行重复操作 → 它可能提供一个自定义脚本来简化流程"
+        ],
+        "audience": "适合想了解基础脚本结构或寻找简单自动化方案的开发者。",
+        "quickStart": {
+          "prerequisites": "取决于脚本使用的语言和环境",
+          "steps": [
+            "克隆仓库：`git clone https://github.com/slywia/tea-tea-script`",
+            "进入目录：`cd tea-tea-script`",
+            "查看README或脚本文件，根据指引运行"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Python脚本",
+            "method": "编写Python代码并执行",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Shell脚本",
+            "method": "编写Shell命令并执行",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "星标数极少，无项目描述、语言、主题等关键信息，README过于简短，社区活跃度为零，项目状态不明。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0开0关，无任何社区互动迹象，活跃度极低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-28T05:01:04.085Z"
+    },
+    {
+      "owner": "charlie947",
+      "repo": "social-media-skills",
+      "fullName": "charlie947/social-media-skills",
+      "description": "",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-22T12:56:33Z",
+      "url": "https://github.com/charlie947/social-media-skills",
+      "analysis": {
+        "positioning": "AI Agent社媒内容自动化生产技能集",
+        "useCases": [
+          "你运营多平台社媒 → 它帮你用AI代理统一内容风格与发布策略",
+          "你想用AI生成特定类型社媒内容 → 它提供AI代理技能包，覆盖文案、视频脚本、图片描述等",
+          "你需要优化AI代理的社媒输出 → 它通过分层技能（如voice-builder）确保内容质量与一致性"
+        ],
+        "audience": "希望通过AI代理提升内容生产效率和多平台影响力的个人创作者、内容团队及营销人员。",
+        "quickStart": {
+          "prerequisites": "需要一个可集成外部技能的AI Agent环境（如Claude，或其他支持Markdown技能的平台）。",
+          "steps": [
+            "克隆或下载项目中的Markdown技能文件。",
+            "将这些技能文件安装或集成到你的AI Agent项目中。",
+            "通过调用特定技能（如post-writer）指示AI Agent执行社媒内容创作任务。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动Prompt工程",
+            "method": "用户直接为AI模型编写详细指令和上下文，模拟特定角色和任务。",
+            "models": "各种LLM（如Claude, GPT系列）",
+            "pricing": "免费（使用模型需付费）"
+          },
+          {
+            "name": "ChatGPT 自定义指令/GPTs",
+            "method": "在ChatGPT界面设置通用指令，或创建特定知识、行为的GPTs。",
+            "models": "GPT-3.5, GPT-4",
+            "pricing": "部分免费（自定义指令），订阅（GPTs）"
+          }
+        ],
+        "pricing": "免费。项目本身是开源技能文件集，但需结合Claude等AI服务使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，旨在通过结构化的AI Agent技能提升社媒内容生产效率和影响力，实用性强，但缺乏趣味性或探索性元素。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活动度较低，目前无Issue反馈或讨论。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-28T05:01:37.597Z"
+    },
+    {
+      "owner": "NyxTides",
+      "repo": "ppt-image-first",
+      "fullName": "NyxTides/ppt-image-first",
+      "description": "PPT image-first skill for Codex/Claude Code/Opencode CLI",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-26T04:04:15Z",
+      "url": "https://github.com/NyxTides/ppt-image-first",
+      "analysis": {
+        "positioning": "对话驱动、图像优先的PPT生成Agent，将模糊需求渐进式转化为高视觉质量演示稿。",
+        "useCases": [
+          "你急需制作PPT → 它帮你从需求理解、内容补全到风格定稿，生成高完成度视觉稿PPT。",
+          "你手头只有散材料或模糊主题 → 它帮你整理内容基底、提案风格，并产出演示稿。",
+          "你想看多种视觉方向再做决定 → 它帮你生成真实预览图，支持多轮风格调整。"
+        ],
+        "audience": "面临汇报、答辩、产品介绍等PPT制作需求，尤其适合材料不完整、对视觉质量有要求但不想深究设计细节的用户。",
+        "quickStart": {
+          "prerequisites": "需具备支持Code/Opencode CLI的LLM环境，如接入GPT Image 2服务。",
+          "steps": [
+            "在支持的CLI环境下，向Agent提出PPT制作需求。",
+            "按照Agent的引导，逐步确认内容基底、风格方向和生成规划。",
+            "获取最终生成的高完成度PPT视觉稿。"
+          ],
+          "note": "最终交付的是图像型PPT，页面内元素不可像原生PPT对象逐项编辑。"
+        },
+        "competitors": [
+          {
+            "name": "传统PPT模板/手动设计",
+            "method": "用户手动选择模板、填充内容，或从零开始设计与排版",
+            "models": "用户设计技能，模板库",
+            "pricing": "免费/购买模板/人工设计费用"
+          },
+          {
+            "name": "直接生成可编辑PPT的AI工具（若存在）",
+            "method": "通过表单或文本输入，直接输出可编辑的PPT文件",
+            "models": "AI模型",
+            "pricing": "未知"
+          }
+        ],
+        "pricing": "项目开源免费，但核心功能依赖的GPT Image 2等AI服务可能收费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Python开源项目，代码可见。但作为AI Agent Skill，其核心价值在于流程和输出，而非代码贡献。Issue活跃度低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启与关闭数量极少，可能用户以直接使用其能力为主，或在其他渠道反馈。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-28T05:02:00.718Z"
+    },
+    {
+      "owner": "PolyPulse-Analytics",
+      "repo": "hyperliquid-trading-bot",
+      "fullName": "PolyPulse-Analytics/hyperliquid-trading-bot",
+      "description": "hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, ",
+      "language": "Python",
+      "topics": [
+        "algorithmic-trading",
+        "automated-trading",
+        "blockchain",
+        "crypto-trading",
+        "cryptocurrency",
+        "decentralized-exchange",
+        "defi",
+        "derivatives",
+        "dex",
+        "ethereum",
+        "grid-trading",
+        "hyperliquid",
+        "nodejs",
+        "perpetuals",
+        "python",
+        "quantitative-trading",
+        "spot-trading",
+        "trading-bot",
+        "typescript",
+        "web3"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-26T16:20:04Z",
+      "url": "https://github.com/PolyPulse-Analytics/hyperliquid-trading-bot",
+      "analysis": {
+        "positioning": "Hyperliquid网格交易机器人，自动化加密货币衍生品交易。",
+        "useCases": [
+          "你手动盯盘交易 → 它帮你自动在Hyperliquid执行网格策略，管理买卖订单。",
+          "你担心错过行情或频繁操作 → 它帮你设置止损止盈和再平衡规则，降低盯盘压力。",
+          "你测试不同交易策略 → 它提供可配置的测试网环境，验证策略效果并控制风险。"
+        ],
+        "audience": "量化交易者、加密货币衍生品投资者，希望在Hyperliquid平台自动化执行网格交易策略、管理风险。",
+        "quickStart": {
+          "prerequisites": "Node.js (20.19+), Hyperliquid钱包私钥, Git。",
+          "steps": [
+            "克隆项目并安装依赖：`git clone ... && cd ... && npm install`",
+            "配置环境变量：复制`.env.example`为`.env`，填入私钥和网络设置（主网/测试网）。",
+            "配置交易策略：编辑`bots/*.yaml`文件，激活所需策略（如`btc_conservative.yaml`）。",
+            "验证并启动：运行`npm run validate`检查配置，然后`npm start`启动机器人。"
+          ],
+          "note": "主要实现为TypeScript (Node.js)，Python为参考和脚本用途。强烈建议先在测试网小额使用，充分理解行为和风险。主网操作涉及真实资金亏损风险。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目，但涉及真实的加密货币交易，需承担平台交易费用和资金风险。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "文档清晰，安装和运行步骤详细，对风险有明确提示，且提供了测试和验证命令，方便用户快速上手。项目语言虽标记为Python，但主实现为TypeScript，README有明确说明。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue区无活动（开启0/关闭0）。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-04-28T05:02:18.031Z"
+    },
+    {
+      "owner": "SignalBot-Labs",
+      "repo": "aster-bot",
+      "fullName": "SignalBot-Labs/aster-bot",
+      "description": "asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp tra",
+      "language": "TypeScript",
+      "topics": [
+        "algorithmic-trading",
+        "algotrading",
+        "aster",
+        "asterdex",
+        "asterusdt",
+        "automated-trading",
+        "crypto",
+        "crypto-trading",
+        "cryptocurrency",
+        "defi",
+        "dex",
+        "futures",
+        "nextjs",
+        "nodejs",
+        "perp",
+        "perpetual",
+        "perpetual-futures",
+        "risk-management",
+        "trading-bot",
+        "typescript"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-26T16:32:56Z",
+      "url": "https://github.com/SignalBot-Labs/aster-bot",
+      "analysis": {
+        "positioning": "在Aster DEX上自动化永续合约交易的量化机器人。",
+        "useCases": [
+          "你想测试交易策略 → 它帮你进行参数回测和模拟交易。",
+          "你需要在Aster DEX自动交易 → 它帮你执行复杂策略、管理风险并自动记录。",
+          "你追求可重复、可配置的交易流程 → 它帮你实现生产级日志和完整交易审计。"
+        ],
+        "audience": "量化交易员或加密投资者，寻求在Aster DEX上实现自动化永续合约交易与策略回测。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "克隆项目并安装Node.js依赖。",
+            "配置Aster DEX API密钥及交易策略参数。",
+            "选择干跑或实盘模式运行交易机器人。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费（代码开源）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "使用TypeScript和Node.js，技术栈现代。项目结构清晰，提供风险管理、双引擎策略和生产级日志，适合专业交易需求。但专注于特定DEX，通用性有限。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues 活跃度低（0开启/0关闭），但项目有一定星标，可能通过其他渠道交流。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-28T05:02:30.036Z"
+    },
+    {
+      "owner": "samyns",
+      "repo": "Unit-3",
+      "fullName": "samyns/Unit-3",
+      "description": "Hyprland + Quickshell + Waybar rice for Arch Linux, NieR:Automata themed",
+      "language": "QML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-25T17:25:54Z",
+      "url": "https://github.com/samyns/Unit-3",
+      "analysis": {
+        "positioning": "为Arch Linux用户提供尼尔主题的Hyprland美化配置。",
+        "useCases": [
+          "你想打造一个尼尔机械纪元风格的Arch Linux桌面 → 它提供一整套Hyprland美化配置和主题。",
+          "你想快速体验Hyprland+Quickshell+Waybar的整合 → 它提供一键安装脚本和预配置。",
+          "你希望自定义桌面但不想被更新覆盖 → 它提供用户自定义配置区域，确保更新不覆盖你的个性化设置。"
+        ],
+        "audience": "追求个性化、尼尔机械纪元主题桌面的Arch Linux用户和Hyprland尝鲜者。",
+        "quickStart": {
+          "prerequisites": "Arch Linux系统",
+          "steps": [
+            "打开终端，运行一键安装命令：",
+            "`bash <(curl -fsSL https://raw.githubusercontent.com/samyns/Unit-3/main/install.sh)`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（支持通过Ko-fi等平台捐赠）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "深度定制的尼尔机械纪元主题桌面环境，Hyprland+Quickshell+Waybar整合，包含视频过渡和QML小部件，视觉效果独特且精致。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue数量不多但有处理，表明维护者关注度尚可。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-28T05:02:41.801Z"
     }
   ]
 }
