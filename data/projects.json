@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-28T05:02:41.810Z",
+  "updatedAt": "2026-04-29T05:00:26.959Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -22339,6 +22339,656 @@
         "category": "其他"
       },
       "analyzedAt": "2026-04-28T05:02:41.801Z"
+    },
+    {
+      "owner": "AugustineFulgur",
+      "repo": "GhostBitsGenerator",
+      "fullName": "AugustineFulgur/GhostBitsGenerator",
+      "description": "",
+      "language": "Java",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T01:47:39Z",
+      "url": "https://github.com/AugustineFulgur/GhostBitsGenerator",
+      "analysis": {
+        "positioning": "揭示Java遗留API字符编码陷阱的精巧演示",
+        "useCases": [
+          "你调试Java字符编码问题 → 它帮你理解`DataOutputStream.writeBytes`如何截断高位。",
+          "你审查Java代码的安全漏洞 → 它演示“幽灵位”如何绕过字符串过滤。",
+          "你学习或教授Java语言特性 → 它提供一个直观案例，揭示特定API的潜在风险。"
+        ],
+        "audience": "关注Java遗留API字符编码和潜在安全风险的Java开发者、安全研究员及技术讲师。",
+        "quickStart": {
+          "prerequisites": "Java Development Kit (JDK)",
+          "steps": [
+            "克隆项目：`git clone https://github.com/AugustineFulgur/GhostBitsGenerator.git`",
+            "编译并运行 `GhostBitsDemo.java`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "精妙地展示了Java遗留API的特定行为，代码简洁、目的明确，具有很强的教学和警示意义。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-29T04:56:49.833Z"
+    },
+    {
+      "owner": "nexu-io",
+      "repo": "open-design",
+      "fullName": "nexu-io/open-design",
+      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "ai-design",
+        "anthropic",
+        "byok",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "codex",
+        "coding-agents",
+        "cursor",
+        "design",
+        "design-systems",
+        "design-tools",
+        "gemini-cli",
+        "generative-ai",
+        "llm",
+        "local-first",
+        "react",
+        "skills",
+        "typescript"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-28T04:25:20Z",
+      "url": "https://github.com/nexu-io/open-design",
+      "analysis": {
+        "positioning": "Claude Design的本地化开源替代品，将编码Agent转化为设计引擎。",
+        "useCases": [
+          "你希望用AI生成专业设计稿 → 它帮你将现有编码Agent转化为设计引擎，输出品牌级设计系统。",
+          "你厌倦了云端工具的锁定和付费模式 → 它提供本地优先、开源、BYOK的部署方案，完全自主可控。",
+          "你希望AI生成的设计能像高级设计师一样专业 → 它提供19种可组合技能和71个品牌级设计系统，并进行5维自评，确保设计质量。"
+        ],
+        "audience": "适合希望利用AI Agent进行设计、追求本地化、开源和自主控制的开发者及设计师。",
+        "quickStart": {
+          "prerequisites": "需准备好一个支持的编码Agent (如Claude Code, Codex, Gemini CLI等)。",
+          "steps": [
+            "1. 克隆项目并安装依赖 (`pnpm install`)",
+            "2. 配置Agent密钥及模型",
+            "3. 运行本地开发服务器 (`pnpm dev`)"
+          ],
+          "note": "支持Vercel部署，实现Web-deployable。"
+        },
+        "competitors": [
+          {
+            "name": "Anthropic Claude Design",
+            "method": "云端服务，LLM生成设计",
+            "models": "Anthropic Claude Opus 4.7",
+            "pricing": "付费，闭源，云端锁定"
+          }
+        ],
+        "pricing": "免费，开源项目，但Agent模型调用可能产生费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目强调“AI像高级设计师一样工作”，关注用户体验、设计工作流、沙盒预览及多格式导出，旨在提供顺畅且专业的AI设计体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数量远多于关闭数量 (20/2)，社区活跃度较高但问题解决效率有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-29T04:57:05.888Z"
+    },
+    {
+      "owner": "Kianmhz",
+      "repo": "GooseRelayVPN",
+      "fullName": "Kianmhz/GooseRelayVPN",
+      "description": "Socks5 VPN that tunnels raw TCP through Google Apps Script to your VPS exit server (AES‑256‑GCM, domain‑fronted).",
+      "language": "Go",
+      "topics": [
+        "aes-gcm",
+        "mitm",
+        "proxy",
+        "sni",
+        "socks5",
+        "tunneling",
+        "vpn"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-26T05:17:43Z",
+      "url": "https://github.com/Kianmhz/GooseRelayVPN",
+      "analysis": {
+        "positioning": "利用Google生态隐匿流量，穿透审查的SOCKS5 VPN方案。",
+        "useCases": [
+          "你在网络审查严格地区 → 它帮你伪装成访问Google，安全访问任意外部服务。",
+          "你需要绕过防火墙访问SSH、IMAP等非HTTP服务 → 它提供裸TCP隧道，实现全端口通信。",
+          "你关注网络流量隐私和安全 → 它提供端到端AES-256-GCM加密，确保通信内容不被中间方窥探。"
+        ],
+        "audience": "寻求隐蔽、安全绕过网络审查，并具备一定VPS配置能力的个人用户或技术爱好者。",
+        "quickStart": {
+          "prerequisites": "需要一个小型VPS（约$4/月），Google Apps Script账号。",
+          "steps": [
+            "设置并部署Google Apps Script作为中继Web应用。",
+            "在你的VPS上部署GooseRelayVPN服务端。",
+            "配置本地GooseRelayVPN客户端，通过SOCKS5代理连接。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "MasterHttpRelayVPN",
+            "method": "HTTP协议中继，通过Google Apps Script伪装HTTP流量。",
+            "models": "可能需要VPS，具体不详。",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "项目本身免费开源（MIT License），但运行需自购VPS（约$4/月）和使用免费Google Apps Script服务（有配额）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "利用Google生态隐匿流量，巧妙规避审查，同时提供端到端加密和裸TCP隧道，技术思路独特且有实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "关闭Issue数远超开启数，表明项目维护活跃，问题解决及时。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-29T04:57:38.723Z"
+    },
+    {
+      "owner": "ksimback",
+      "repo": "tech-debt-skill",
+      "fullName": "ksimback/tech-debt-skill",
+      "description": "Claude Code skill that produces a thorough, file-cited tech debt audit of an entire codebase",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-25T22:17:11Z",
+      "url": "https://github.com/ksimback/tech-debt-skill",
+      "analysis": {
+        "positioning": "Claude技能，生成详细、文件引用的技术债审计报告。",
+        "useCases": [
+          "你继承了大量旧代码，想快速摸清技术债全貌 → 它帮你生成整个代码库的技术债审计报告，精确到文件行号。",
+          "你需要对现有技术债进行优先级排序和估算工作量 → 它帮你提供带有严重性、工作量估算和修复优先级的报告。",
+          "你希望获得深度、有依据，而非泛泛的LLM代码审查 → 它帮你通过强制上下文理解、文件引用和“看起来差但实际没问题”的辨析，避免通用清单式审查。"
+        ],
+        "audience": "负责维护、重构大型代码库的开发者、技术负责人，寻求深度、可操作技术债洞察的人，尤其是Claude Code用户。",
+        "quickStart": {
+          "prerequisites": "Claude Code平台访问权限",
+          "steps": [
+            "在任何代码仓库中运行命令：/tech-debt-audit",
+            "获取生成的TECH_DEBT_AUDIT.md文件，包含详细审计结果。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Claude Code内置 /review",
+            "method": "PR式代码审查，聚焦代码改动",
+            "models": "Claude",
+            "pricing": "免费（需Claude平台访问）"
+          },
+          {
+            "name": "Claude Code内置 /simplify",
+            "method": "战术性简化特定区域代码",
+            "models": "Claude",
+            "pricing": "免费（需Claude平台访问）"
+          }
+        ],
+        "pricing": "免费（需Claude Code平台访问权限）",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "虽是基于LLM，但项目明确反对LLM泛泛的代码审查，通过强制上下文理解、精确文件引用、要求识别“看起来差但实际没问题”的代码等设计，旨在提供深度、有依据的审计，而非表面分析。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue互动记录。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-29T04:57:51.959Z"
+    },
+    {
+      "owner": "hiteshchoudhary",
+      "repo": "gitbackup",
+      "fullName": "hiteshchoudhary/gitbackup",
+      "description": "It was personal script but now it is a complete desktop application to take backup of your github account",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-23T17:10:19Z",
+      "url": "https://github.com/hiteshchoudhary/gitbackup",
+      "analysis": {
+        "positioning": "桌面应用，高效备份GitHub仓库至本地与云端，支持自动化增量更新。",
+        "useCases": [
+          "你担心GitHub数据丢失或帐号被限 → 它帮你将所有代码安全备份到本地和云端。",
+          "你管理大量GitHub仓库，想自动化备份 → 它提供定时备份、增量更新和并发处理，省时省力。",
+          "你需要备份特定类型的GitHub仓库（如组织、星标）→ 它支持灵活筛选，一键备份各类仓库。"
+        ],
+        "audience": "需要定期、自动化备份GitHub个人及组织仓库（含星标、forked）的开发者和团队。",
+        "quickStart": {
+          "prerequisites": "系统需安装Git",
+          "steps": [
+            "从Release页面下载对应平台的安装包并安装",
+            "在GitHub生成Personal Access Token (classic)，授予`repo`和`read:org`权限",
+            "在应用中配置GitHub Token、备份路径，可选择配置AWS S3或Cloudflare R2云存储"
+          ],
+          "note": "macOS需右键Open绕过Gatekeeper；Windows Defender可能提示，需点击'More info'→'Run anyway'；Linux AppImage需`chmod +x`后运行。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用的桌面备份工具，功能全面，支持多种云存储和自动化，技术栈主流，降低数据丢失风险，文档清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭2，项目维护可能处于稳定期或活跃度不高。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-04-29T04:58:14.400Z"
+    },
+    {
+      "owner": "machinepulse-ai",
+      "repo": "world2agent",
+      "fullName": "machinepulse-ai/world2agent",
+      "description": "World2Agent(W2A) is an open protocol that standardizes how Al agents perceive the real world.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "proactive-agent",
+        "protocol"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-23T08:49:29Z",
+      "url": "https://github.com/machinepulse-ai/world2agent",
+      "analysis": {
+        "positioning": "AI Agent感知世界的标准化开放协议",
+        "useCases": [
+          "你希望AI Agent能实时获取外部信息 → 它提供标准化传感器协议，让Agent能感知并分析Hacker News等结构化数据。",
+          "你在构建自己的AI Agent系统 → 它提供SDK和协议标准，让你的Agent易于集成各种传感器，获取多源实时数据。",
+          "你关注Agent对世界的主动感知与决策 → 它通过统一的数据输入，赋能Agent更准确地理解环境并采取行动。"
+        ],
+        "audience": "AI Agent开发者、研究者，需要为Agent提供统一、标准化的外部世界感知能力。",
+        "quickStart": {
+          "prerequisites": "Claude Code环境",
+          "steps": [
+            "在Claude Code中安装World2Agent插件。",
+            "添加需要的传感器（如Hacker News）。",
+            "加载插件通道并重启Claude Code，使传感器信号流入会话。"
+          ],
+          "note": "集成到其他Agent系统需使用SDK；仅安装信任的传感器以保障安全。"
+        },
+        "competitors": [
+          {
+            "name": "现有Agent框架（如LangChain/LlamaIndex）",
+            "method": "通过自定义工具或API集成数据源",
+            "models": "广泛",
+            "pricing": "免费（框架本身）"
+          }
+        ],
+        "pricing": "免费（基于Apache-2.0开源协议）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "定位明确，愿景宏大，文档详细且技术栈主流。但作为开放协议，社区参与度（如Issue活跃度）尚需成长。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，Issue数量少，处于项目早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-29T04:58:30.438Z"
+    },
+    {
+      "owner": "browser-use",
+      "repo": "bux",
+      "fullName": "browser-use/bux",
+      "description": "A 24/7 Claude Code agent with Browser Harness, on any box you own.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-26T20:53:37Z",
+      "url": "https://github.com/browser-use/bux",
+      "analysis": {
+        "positioning": "在私有服务器运行，24/7 待命的带浏览器能力的Claude AI代理。",
+        "useCases": [
+          "你想让AI处理日常邮箱 → 它能帮你24/7监控邮箱、总结未读邮件。",
+          "你想让AI执行复杂Web任务 → 它能通过真实浏览器访问网页、处理登录/2FA/验证码。",
+          "你想拥有一个私有、持久化的AI工作台 → 它在你的VPS上运行，保持状态（cookie、登录等）。"
+        ],
+        "audience": "希望拥有一个私有、持久化且具备真实浏览器交互能力的Claude AI代理，并愿意自行部署到VPS的用户。",
+        "quickStart": {
+          "prerequisites": "Ubuntu 22.04+ (≥2GB RAM) VPS；Browser Use Cloud API Key (免费额度)；Anthropic API Key 或 Claude Max 订阅。",
+          "steps": [
+            "准备一台Ubuntu 22.04+的VPS，获取Browser Use Cloud API Key。",
+            "通过SSH连接VPS，执行 `install.sh` 安装脚本，并传入API Key（可选Telegram Bot Token）。",
+            "登录 `bux` 用户，运行 `claude /login` 完成Claude OAuth认证。",
+            "通过Telegram或web terminal测试代理（例如：`hey claude, visit browser-use.com`）。"
+          ],
+          "note": "也可将项目README中的Setup prompt粘贴给Claude Code，让其帮你自动化完成VPS安装和配置。"
+        },
+        "competitors": [
+          {
+            "name": "Browser Use Cloud Managed Offering",
+            "method": "SaaS (云端托管)",
+            "models": "Claude (通过Browser Use Cloud)",
+            "pricing": "付费"
+          },
+          {
+            "name": "传统AI Agent框架 (如AutoGPT插件)",
+            "method": "自部署 (需额外配置浏览器插件)",
+            "models": "多种LLM (需集成)",
+            "pricing": "免费 (依赖开源LLM及插件)"
+          }
+        ],
+        "pricing": "核心软件免费，但依赖外部服务。Browser Use Cloud API Key 有免费额度，Anthropic API Key/Claude Max 订阅需付费，VPS 主机需付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决痛点清晰：在私人环境中提供一个持久化的、带真实浏览器能力的AI代理。安装部署流程简洁，通过 `install.sh` 和 Claude 辅助设置的方案很有创意。架构设计合理，易于理解。唯一不足是目前社区活跃度尚未体现。",
+        "isVibeCoding": true,
+        "communityActivity": "当前 Issue 开闭比为 0/0，表明项目可能较新或社区互动尚未形成。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-29T04:58:49.393Z"
+    },
+    {
+      "owner": "AKCodez",
+      "repo": "hackingtool-plugin",
+      "fullName": "AKCodez/hackingtool-plugin",
+      "description": "Claude Code plugin: 183+ pentesting & OSINT tools from Z4nzu/hackingtool. Auto-runs what it can, hands off the rest.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-23T17:01:04Z",
+      "url": "https://github.com/AKCodez/hackingtool-plugin",
+      "analysis": {
+        "positioning": "Claude集成，一键调用183+渗透与OSINT工具。",
+        "useCases": [
+          "你需要进行网站侦察 → 它帮你通过Claude自动执行各种侦察工具。",
+          "你需要查找特定用户公开信息 → 它帮你用OSINT工具自动化搜集。",
+          "你需要快速扫描代码仓库漏洞 → 它帮你集成到Claude指令中扫描。",
+          "你需要测试网络安全 → 它帮你调用相应工具进行渗透测试。"
+        ],
+        "audience": "渗透测试人员、安全研究员及需要通过AI提升安全作业效率的用户。",
+        "quickStart": {
+          "prerequisites": "Claude Code环境，Docker（推荐，自动处理工具依赖）。",
+          "steps": [
+            "/plugin marketplace add AKCODEZ/hackingtool-plugin",
+            "/plugin install hackingtool@hackingtool-marketplace",
+            "直接向Claude提问，例如 'recon example.com'"
+          ],
+          "note": "支持Linux/macOS原生Bash，Windows WSL，或Docker跨平台运行，自动选择最佳后端。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "将Z4nzu/hackingtool的183+安全工具无缝集成到Claude，自动选择执行环境（本地/WSL/Docker），简化了大量安全操作，大大提升AI辅助渗透效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度暂时无法评估。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-29T04:59:00.277Z"
+    },
+    {
+      "owner": "vthinkxie",
+      "repo": "illustrated-explainer-spec",
+      "fullName": "vthinkxie/illustrated-explainer-spec",
+      "description": "Spec for an infinite drill-down illustrated explainer — type a topic, click anywhere on the image to generate the next page.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-26T12:09:21Z",
+      "url": "https://github.com/vthinkxie/illustrated-explainer-spec",
+      "analysis": {
+        "positioning": "无限下钻AI插画解释器设计规范",
+        "useCases": [
+          "你想构建一个能无限下钻探索细节的交互式AI解释器 → 它提供了一个完整的实现蓝图。",
+          "你希望AI生成的图画风格在多页之间保持统一 → 它明确规定并设计了这一核心特性。",
+          "你需要一个清晰、可执行的产品规格来指导AI或人类开发者实现创新AI应用 → 它提供了详细的端点、状态模型和客户端责任定义。"
+        ],
+        "audience": "适合希望开发下一代交互式AI产品、尤其关注视觉一致性和无限探索体验的开发者和产品经理。",
+        "quickStart": {
+          "prerequisites": "具备AI开发能力的LLM或人类开发者",
+          "steps": [
+            "阅读并理解该产品规范的各项要求",
+            "将规范交予AI或人类开发者，根据其内容进行具体实现"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目为构建创新型无限下钻AI插画解释器提供了清晰、详细且富有前瞻性的产品和技术规范，对LLM应用设计有很高的参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue记录",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-29T04:59:14.648Z"
+    },
+    {
+      "owner": "nakagami",
+      "repo": "grdpwasm",
+      "fullName": "nakagami/grdpwasm",
+      "description": "",
+      "language": "Go",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-04-25T03:26:45Z",
+      "url": "https://github.com/nakagami/grdpwasm",
+      "analysis": {
+        "positioning": "直接在浏览器RDP远程桌面，无需插件。",
+        "useCases": [
+          "你需要快速远程访问Windows服务器或RDP兼容主机 → 它让你通过浏览器即时连接，免客户端。",
+          "你在不支持安装传统RDP客户端的设备上 → 它提供网页版解决方案，有浏览器就能用。",
+          "你希望方便地分享RDP访问而无需安装任何软件 → 它提供一个可部署的Web服务，通过URL即可访问。"
+        ],
+        "audience": "需要从浏览器快速、免安装访问RDP服务器的IT管理员、开发者或任何用户。",
+        "quickStart": {
+          "prerequisites": "Go 1.24+，一个可达的RDP服务器。",
+          "steps": [
+            "克隆项目 `git clone https://github.com/nakagami/grdpwasm.git`",
+            "进入目录并构建 `cd grdpwasm && make all`",
+            "运行代理服务器 `make serve` (或 `./proxy/proxy -listen :8080 -static static`)",
+            "在浏览器打开 `http://localhost:8080` 并填写连接信息"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Microsoft Remote Desktop App",
+            "method": "原生客户端软件安装",
+            "models": "RDP协议",
+            "pricing": "免费"
+          },
+          {
+            "name": "Apache Guacamole",
+            "method": "部署Web服务器及相关组件",
+            "models": "RDP/VNC/SSH等",
+            "pricing": "免费(开源)"
+          }
+        ],
+        "pricing": "免费，GPLv3开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，技术栈Go WebAssembly有亮点，提供完整构建与运行指引，使用场景明确，README详尽，是一个实用且优雅的解决方案。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启2，关闭0，社区活跃度较低，可能处于早期阶段或维护频率不高。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-04-29T04:59:28.559Z"
+    },
+    {
+      "owner": "DanOps-1",
+      "repo": "gpt-pp-team",
+      "fullName": "DanOps-1/gpt-pp-team",
+      "description": "ChatGPT Team 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit for ChatGPT Team subscription with from-scratch hCaptcha solver and empirical anti-fraud research",
+      "language": "Python",
+      "topics": [
+        "adversarial-ml",
+        "anti-fraud",
+        "bug-bounty",
+        "captcha-solver",
+        "chatgpt",
+        "ctf-tools",
+        "hcaptcha-solver",
+        "mitmproxy",
+        "playwright",
+        "protocol-replay",
+        "stripe",
+        "vlm"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-27T03:48:28Z",
+      "url": "https://github.com/DanOps-1/gpt-pp-team",
+      "analysis": {
+        "positioning": "ChatGPT Team订阅协议逆向重放与反欺诈安全研究工具集。",
+        "useCases": [
+          "你想自动化或研究ChatGPT Team订阅流程 → 它帮你端到端重放整个支付和认证协议链，最终获取OAuth refresh_token。",
+          "你需要解决复杂的hCaptcha验证码 → 它提供一个从零实现且独立可用的视觉求解器，覆盖多种题型。",
+          "你进行反欺诈机制的安全研究 → 它提供ChatGPT Team订阅场景下的反欺诈实证数据和分析。"
+        ],
+        "audience": "安全研究员、CTF玩家、漏洞赏金猎人，以及对协议逆向和自动化有深度需求的开发者。",
+        "quickStart": {
+          "prerequisites": "真实可登录的PayPal账号（需首次人肉过2FA）、EU/US出口代理、Cloudflare Zone、一台运行Linux（约5GB磁盘+2GB内存）的机器。",
+          "steps": [
+            "安装webui后端依赖：`pip install -r webui/requirements.txt`",
+            "构建webui前端：`cd webui/frontend && pnpm i && pnpm build && cd ../..`",
+            "启动webui服务器：`python -m webui.server`"
+          ],
+          "note": "浏览器打开`http://127.0.0.1:8765`，通过配置向导完成设置。需自行准备代理、PayPal账号、Cloudflare域名等。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码偏研究性质，上手门槛较高，核心代码单文件可达8000行，不追求可读性最大化；技术深度和专业性极高，但对普通开发者不友好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前 Issue 开启0个，已关闭1个。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-29T04:59:40.480Z"
+    },
+    {
+      "owner": "ZRainbow1275",
+      "repo": "AutoTeam-F",
+      "fullName": "ZRainbow1275/AutoTeam-F",
+      "description": "参照上游 cnitlrt/AutoTeam 的改善版,重点在于实现免费号批量获得以及改善操作体验 (Fix + Free)",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-24T15:28:23Z",
+      "url": "https://github.com/ZRainbow1275/AutoTeam-F",
+      "analysis": {
+        "positioning": "ChatGPT账号批量获取与智能轮转管理工具，专注于修复与免费。",
+        "useCases": [
+          "你需要大量免费ChatGPT账号 → 它帮你自动化批量注册Personal账号并维护。",
+          "你需要高效管理多个ChatGPT Team/Personal账号 → 它帮你智能轮转、认证同步，并优化使用体验。",
+          "你现有的账号管理工具常出错或难用 → 它修复原版bug，提供Web面板和诊断功能，改善操作。"
+        ],
+        "audience": "适合需要批量获取、管理和轮转ChatGPT Team/Personal账号，追求免费高效使用的个人或团队用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Playwright (Chromium)。",
+          "steps": [
+            "安装依赖：`bash setup.sh` (Linux) 或 `uv sync && uv run playwright install chromium` (Windows/macOS)。",
+            "启动服务：`uv run autoteam api`。"
+          ],
+          "note": "首次启动需配置临时邮箱后端和CPA，并支持Docker部署。"
+        },
+        "competitors": [
+          {
+            "name": "cnitlrt/AutoTeam",
+            "method": "上游原始版，提供账号轮转与认证同步，但存在已知bug且不支持批量生产免费号。",
+            "models": "ChatGPT Team/Personal（推断）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（MIT开源许可），且核心功能为批量获取免费ChatGPT Personal账号。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对用户痛点（免费号获取、账号管理复杂性、原版bug）提供了高度自动化且功能丰富的解决方案，包括Web面板、Docker支持等，技术实现全面。",
+        "isVibeCoding": true,
+        "communityActivity": "241星，开启3个Issue，已关闭1个Issue，表明项目有一定关注度并正在积极维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-29T04:59:54.261Z"
+    },
+    {
+      "owner": "maanimis",
+      "repo": "github-sandbox",
+      "fullName": "maanimis/github-sandbox",
+      "description": "download files into your repository just by writing a special commit message",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-23T09:37:22Z",
+      "url": "https://github.com/maanimis/github-sandbox",
+      "analysis": {
+        "positioning": "通过Commit消息直接下载文件到GitHub仓库。",
+        "useCases": [
+          "你做GitHub仓库内容管理 → 它帮你无需本地下载上传，直接用Commit消息触发下载。",
+          "你团队协作需要快速引入外部文件 → 它帮你无需命令行，直接在GitHub界面操作，快速拉取资源。",
+          "你想批量下载多个文件并打包成ZIP → 它帮你一行Commit命令搞定，文件自动归档到downloads/。"
+        ],
+        "audience": "适合不熟悉或不便使用命令行，想直接在GitHub界面管理、引入外部文件的用户和团队。",
+        "quickStart": {
+          "prerequisites": "Fork本仓库，并在GitHub仓库设置中开启Actions的'Read and write permissions'。",
+          "steps": [
+            "打开仓库任意文件并点击编辑。",
+            "在提交消息框中输入 'download: [URL1] [URL2]' 或 'download-zip: [URL1] [URL2]'。",
+            "提交更改，文件将自动下载到 `downloads/` 文件夹。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动上传（GitHub UI）",
+            "method": "浏览器界面逐个文件上传",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Git命令行上传",
+            "method": "本地下载后使用Git命令提交",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙利用GitHub Actions和Commit消息，实现了无需命令行即可下载文件的功能，极大地简化了特定场景下的文件管理流程，对纯UI用户友好。是一个实用且有创意的工具。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，Issue解决及时，已关闭Issue数远超开启数。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-04-29T05:00:08.011Z"
+    },
+    {
+      "owner": "TheTom",
+      "repo": "vllm-swift",
+      "fullName": "TheTom/vllm-swift",
+      "description": "vLLM Metal plugin powered by mlx-swift — high-performance LLM inference on Apple Silicon",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-23T01:17:07Z",
+      "url": "https://github.com/TheTom/vllm-swift",
+      "analysis": {
+        "positioning": "Apple Silicon上的vLLM加速引擎，通过Swift/Metal实现LLM高性能推理。",
+        "useCases": [
+          "你希望在Apple Silicon上运行vLLM → 它帮你用原生Swift/Metal后端加速LLM推理。",
+          "你需要LLM在Apple Silicon上更快解码（尤其短上下文）→ 它提供高达2.6倍的短上下文解码速度提升。",
+          "你想要在Apple Silicon上部署兼容OpenAI API的LLM服务 → 它提供兼容OpenAI API的服务接口。",
+          "你在Apple Silicon上处理长上下文LLM任务 → 它通过KV Cache压缩技术（TurboQuant+）支持更长上下文。"
+        ],
+        "audience": "在Apple Silicon设备（如Mac）上运行和部署大型语言模型（LLM）的开发者、研究人员或企业。",
+        "quickStart": {
+          "prerequisites": "Homebrew (推荐) 或 Git",
+          "steps": [
+            "通过 `brew tap TheTom/tap && brew install vllm-swift` (或从源码) 安装。",
+            "下载模型并运行服务: `vllm-swift download mlx-community/Qwen3-4B-4bit` 然后 `vllm-swift serve ~/models/Qwen3-4B-4bit`。"
+          ],
+          "note": "Homebrew用户无需手动激活 `activate.sh`，`vllm-swift serve` 会自动处理。"
+        },
+        "competitors": [
+          {
+            "name": "vllm-metal (Python/MLX)",
+            "method": "使用vLLM内置的Python/MLX引擎进行LLM推理。",
+            "models": "支持vLLM兼容的模型，如Qwen3系列。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对Apple Silicon平台提供vLLM的显著性能提升，安装简便（Homebrew），API兼容性好，有明确的性能数据支撑，解决了核心痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，已关闭 Issue 数量略多于开放 Issue，表明项目维护者积极响应并解决问题。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-29T05:00:26.950Z"
     }
   ]
 }
