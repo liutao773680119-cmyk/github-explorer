@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-29T05:00:26.959Z",
+  "updatedAt": "2026-04-30T05:04:12.589Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -22989,6 +22989,792 @@
         "category": "LLM框架"
       },
       "analyzedAt": "2026-04-29T05:00:26.950Z"
+    },
+    {
+      "owner": "cursor",
+      "repo": "cookbook",
+      "fullName": "cursor/cookbook",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-27T08:27:12Z",
+      "url": "https://github.com/cursor/cookbook",
+      "analysis": {
+        "positioning": "Cursor SDK示例集，助你用代码驾驭AI编程Agent。",
+        "useCases": [
+          "你初次接触Cursor AI Agent → 它提供Quickstart示例，教你如何用Node.js发送Prompt、获取响应。",
+          "你想快速原型验证 → 它提供Web应用沙盒，助你搭项目脚手架、快速迭代新想法。",
+          "你管理着多个AI Agent → 它提供看板工具，帮你可视化管理、创建云端Agent。",
+          "你偏爱命令行操作 → 它提供CLI工具，让你在终端直接启动AI编程Agent。"
+        ],
+        "audience": "希望将Cursor AI编程Agent集成到自己的应用、脚本或工作流的开发者。",
+        "quickStart": {
+          "prerequisites": "Cursor API Key",
+          "steps": [
+            "在Cursor集成仪表盘创建API Key，并将其设置为环境变量 `CURSOR_API_KEY`。",
+            "选择并运行SDK示例（如 `sdk/quickstart`），体验AI Agent交互。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（项目代码开源；使用其Agent服务需Cursor API Key，其服务定价请参考Cursor官网）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "直接提供Cursor AI编程Agent的SDK示例，核心功能围绕AI代码生成、项目原型构建和自动化编程操作。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，Issue开启数量（10）远超关闭数量（1），社区响应速度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-30T04:59:45.392Z"
+    },
+    {
+      "owner": "theori-io",
+      "repo": "copy-fail-CVE-2026-31431",
+      "fullName": "theori-io/copy-fail-CVE-2026-31431",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T12:15:28Z",
+      "url": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
+      "analysis": {
+        "positioning": "Linux内核CVE-2026-31431复制漏洞的概念验证和技术分析项目。",
+        "useCases": [
+          "你是安全研究员，想深入理解CVE-2026-31431漏洞细节 → 它提供技术分析和在主流Linux发行版上的验证结果。",
+          "你是系统管理员，想确认你的Linux系统是否受CVE-2026-31431影响 → 它列出了受影响的发行版及内核版本，作为参考依据。",
+          "你是内核开发者，想学习安全漏洞的复现和分析方法 → 它提供一个具体的漏洞案例和验证环境。",
+          "你正在进行安全审计，需要了解已披露的Linux内核漏洞影响 → 它详细介绍了Copy Fail漏洞及其影响范围。"
+        ],
+        "audience": "适用于安全研究员、Linux系统管理员和内核开发者，用于理解、验证和评估CVE-2026-31431内核复制漏洞。",
+        "quickStart": {
+          "prerequisites": "Linux环境",
+          "steps": [
+            "git clone https://github.com/theori-io/copy-fail-CVE-2026-31431.git",
+            "查阅项目中的'Technical Writeup'链接，获取详细的漏洞分析和复现步骤。"
+          ],
+          "note": "漏洞复现和验证步骤可能因Linux发行版和内核版本而异，请参考项目列出的测试环境。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是针对特定内核漏洞的技术分析和概念验证，其价值在于技术深度和安全贡献，而非通用开发工具。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue开启数（38）远多于关闭数（3），表明社区活跃度一般，问题解决或响应速度可能较慢。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-30T04:59:59.950Z"
+    },
+    {
+      "owner": "ps5-linux",
+      "repo": "ps5-linux-loader",
+      "fullName": "ps5-linux/ps5-linux-loader",
+      "description": "Linux payload implementing the HV exploit and a custom bootloader",
+      "language": "C",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-04-24T13:19:30Z",
+      "url": "https://github.com/ps5-linux/ps5-linux-loader",
+      "analysis": {
+        "positioning": "解锁PS5潜力，将其变为高性能Linux桌面电脑。",
+        "useCases": [
+          "想在PS5上玩Steam游戏或模拟器 → 它帮你把PS5变身Linux PC，直接运行高性能游戏。",
+          "想充分利用PS5的强大硬件性能 → 它帮你解锁PS5的8核CPU和GPU，作为桌面电脑高效使用。",
+          "想扩展PS5存储并连接外设 → 它帮你支持M.2 SSD作为Linux分区，并使用所有USB端口及蓝牙设备。"
+        ],
+        "audience": "PS5 Phat版3.xx或4.xx固件用户，希望将游戏机改造为多功能高性能Linux桌面电脑的极客玩家。",
+        "quickStart": {
+          "prerequisites": "PS5 Phat版（固件3.xx/4.xx），64GB+ USB驱动器，USB以太网/WLAN适配器，USB键盘/鼠标。PS5需设置USB端口常供电，禁用HDMI设备链接，推荐禁用自动更新及错误报告。",
+          "steps": [
+            "克隆`ps5-linux-image`仓库，在Linux/macOS或WSL2环境（Windows）中构建Linux镜像。",
+            "将生成的Linux镜像写入USB驱动器。",
+            "按照项目指南将准备好的USB驱动器连接至PS5并引导启动Linux。"
+          ],
+          "note": "Windows用户需安装WSL2和Docker以构建Linux镜像。"
+        },
+        "competitors": [],
+        "pricing": "免费 (GPL-3.0 许可)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标非常清晰，详细提供了将PS5转换为Linux PC所需的固件版本、硬件要求、前置设置及详细的安装步骤，文档质量高，对用户友好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少 (3个开启，0个关闭)，目前尚无法判断社区活跃度和响应速度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-30T05:00:15.646Z"
+    },
+    {
+      "owner": "GENEXIS-AI",
+      "repo": "chromex",
+      "fullName": "GENEXIS-AI/chromex",
+      "description": "A Codex-powered Chrome side-panel assistant for page context, tabs, voice, and image workflows.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-28T11:08:06Z",
+      "url": "https://github.com/GENEXIS-AI/chromex",
+      "analysis": {
+        "positioning": "基于AI的Chrome侧边栏助理，连接Codex",
+        "useCases": [
+          "你想理解网页内容/文档 → 它帮你与当前页面、选定标签页、PDF、Office文件等聊天。",
+          "你需要快速获取信息摘要 → 它帮你总结、比较网页、视频、新闻、论文等内容。",
+          "你想通过AI处理图片 → 它帮你通过Codex编辑或生成图片。",
+          "你想用语音与浏览器互动或自动化任务 → 它提供语音转写、实时语音和浏览器工作流。"
+        ],
+        "audience": "需要AI辅助提升浏览器内容处理、信息总结、图片生成及自动化操作效率的Chrome用户。",
+        "quickStart": {
+          "prerequisites": "Chrome浏览器、本地Node.js（开发者安装需）",
+          "steps": [
+            "从GitHub Release下载并解压`chromex-unpacked-extension.zip`。",
+            "在Chrome扩展程序页面（`chrome://extensions`）开启开发者模式，加载已解压的扩展。"
+          ],
+          "note": "需要额外安装本地桥接服务，扩展ZIP仅提供UI。"
+        },
+        "competitors": [
+          {
+            "name": "Perplexity AI Extension",
+            "method": "侧边栏/对话框",
+            "models": "自研模型",
+            "pricing": "免费增值"
+          },
+          {
+            "name": "Monica/Sider AI Assistant",
+            "method": "侧边栏/快捷键",
+            "models": "OpenAI, Claude等",
+            "pricing": "免费增值"
+          }
+        ],
+        "pricing": "免费（开源），但底层AI服务（Codex）可能产生费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目使用TypeScript，文档详细，支持多语言。功能强大且具备本地桥接能力，确保凭证安全。安装过程对非开发者略复杂，需手动加载扩展和安装本地桥接服务。对特定AI模型（Codex）有依赖，可能需要用户自行配置API。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少（3开/1关），社区活跃度有提升空间，但项目仍在维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-30T05:00:33.254Z"
+    },
+    {
+      "owner": "DanOps-1",
+      "repo": "Gpt-Agreement-Payment",
+      "fullName": "DanOps-1/Gpt-Agreement-Payment",
+      "description": "ChatGPT Team 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit for ChatGPT Team subscription with from-scratch hCaptcha solver and empirical anti-fraud research",
+      "language": "Python",
+      "topics": [
+        "adversarial-ml",
+        "anti-fraud",
+        "bug-bounty",
+        "captcha-solver",
+        "chatgpt",
+        "ctf-tools",
+        "hcaptcha-solver",
+        "mitmproxy",
+        "playwright",
+        "protocol-replay",
+        "stripe",
+        "vlm"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-27T03:48:28Z",
+      "url": "https://github.com/DanOps-1/Gpt-Agreement-Payment",
+      "analysis": {
+        "positioning": "ChatGPT Team订阅协议自动化、hCaptcha破解与反欺诈研究工具集",
+        "useCases": [
+          "你做CTF挑战 → 它帮你自动化重放ChatGPT Team订阅完整协议，获取OAuth refresh_token。",
+          "你做Bug Bounty → 它提供强大的hCaptcha视觉求解器和协议重放能力，助你测试相关系统的漏洞。",
+          "你做反欺诈研究 → 它提供IP指纹、批次关联封禁等反欺诈机制的实证数据和分析。"
+        ],
+        "audience": "安全研究员、CTF玩家、Bug Bounty猎人及协议逆向工程师，关注自动化、反欺诈和Captcha破解的专业人士。",
+        "quickStart": {
+          "prerequisites": "真实PayPal账号、EU/US出口代理、Cloudflare Zone、Linux环境（5GB磁盘+2GB内存），可选VLM API Key、打码平台API Key。",
+          "steps": [
+            "pip install -r webui/requirements.txt",
+            "cd webui/frontend && pnpm i && pnpm build && cd ../..",
+            "python -m webui.server"
+          ],
+          "note": "通过浏览器访问http://127.0.0.1:8765进行配置向导，首次配置需1-3小时，WebUI可缩短至15分钟。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目高度技术化，涉及复杂协议逆向、AI驱动的Captcha破解与反欺诈机制对抗。明确警告法律风险，需要专业技能和特定环境，不适合非技术或普通用户。",
+        "isVibeCoding": true,
+        "communityActivity": "Stars 422，Issue 0开1关，项目维护者响应个别Issue，社区讨论可能更聚焦于代码本身而非广泛互动。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-30T05:00:46.269Z"
+    },
+    {
+      "owner": "bonused",
+      "repo": "monthly-bonus-stake",
+      "fullName": "bonused/monthly-bonus-stake",
+      "description": "Stake Monthly Bonus is one of the most anticipated and valuable rewards available to loyal players on Stake casino. Designed to reward consistent activity, long-term loyalty, and VIP progression, the monthly bonus acts as a powerful cashback-style reward that can significantly increase your overall returns from gameplay.",
+      "language": "Unknown",
+      "topics": [
+        "stake",
+        "stake-monthly-bonus"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-28T23:31:20Z",
+      "url": "https://github.com/bonused/monthly-bonus-stake",
+      "analysis": {
+        "positioning": "Stake赌场月度奖励的深度指南，助你最大化收益。",
+        "useCases": [
+          "你对Stake赌场月度奖励机制不清楚 → 它帮你详细解读奖励计算、VIP影响等。",
+          "你想提升在Stake赌场的月度收益 → 它帮你提供策略和优化技巧。",
+          "你希望了解月度奖励与周奖励区别 → 它帮你对比分析，指导长期投入。"
+        ],
+        "audience": "Stake赌场忠实玩家，希望通过理解并优化月度奖励来最大化游戏回报。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库阅读指南。",
+            "根据指南内容了解Stake月度奖励机制。",
+            "依据指南中的策略优化你的游戏行为。"
+          ],
+          "note": "指南内容同时适用于Stake.com和Stake.us平台。"
+        },
+        "competitors": [],
+        "pricing": "免费，指南本身免费阅读，所介绍的月度奖励基于玩家活动免费获取。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目本质上是关于Stake赌场月度奖励的详细指南和推广内容，而非可运行的代码库或技术工具，因此技术实现和创新价值较低。",
+        "isVibeCoding": true,
+        "communityActivity": "无社区活跃度，Issue均为0，表明其可能是一个静态内容仓库，无需或较少维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-30T05:00:57.182Z"
+    },
+    {
+      "owner": "QwenLM",
+      "repo": "FlashQLA",
+      "fullName": "QwenLM/FlashQLA",
+      "description": "high-performance linear attention kernel library built on TileLang",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-24T09:18:05Z",
+      "url": "https://github.com/QwenLM/FlashQLA",
+      "analysis": {
+        "positioning": "基于TileLang的线性注意力高性能计算库，专为LLM训练与推理提速。",
+        "useCases": [
+          "你正在训练大型语言模型，尤其关注长序列和预训练效率 → 它通过优化线性注意力机制，显著加速你的模型训练。",
+          "你在边缘设备上部署AI Agent进行推理 → 它提供高效的线性注意力计算，提升边缘推理性能。",
+          "你使用GDN Chunked Prefill等模型架构 → 它提供2-3倍的前向和2倍的反向加速，提升模型性能。"
+        ],
+        "audience": "大型语言模型研究者、训练工程师、以及需要在边缘设备上部署高性能AI Agent的开发者。",
+        "quickStart": {
+          "prerequisites": "需要NVIDIA SM90+ GPU、CUDA 12.8+和PyTorch 2.8+。",
+          "steps": [
+            "git clone https://github.com/QwenLM/FlashQLA.git",
+            "cd FlashQLA && pip install -v ."
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Flash Linear Attention (FLA Triton kernel)",
+            "method": "pip install flash_linear_attention",
+            "models": "普遍适用于使用线性注意力机制的模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰，重点突出性能提升（2-3倍前向，2倍反向），安装与使用示例详尽，并提供了高/低级API，易于上手和集成。技术特点阐述专业且具体，体现了扎实的技术功底。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，社区活跃度有待观察，目前问题数较少（3开0闭）。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-04-30T05:01:12.813Z"
+    },
+    {
+      "owner": "denuitt1",
+      "repo": "mhr-cfw",
+      "fullName": "denuitt1/mhr-cfw",
+      "description": "A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-27T22:26:16Z",
+      "url": "https://github.com/denuitt1/mhr-cfw",
+      "analysis": {
+        "positioning": "伪装Google流量突破DPI限制的代理中继。",
+        "useCases": [
+          "你希望突破网络深度包检测（DPI） → 它通过域前置技术隐藏真实目的地，伪装成Google流量。",
+          "你想访问被限制的网站或服务 → 它通过Google Apps Script和Cloudflare Workers中继，绕过封锁。",
+          "你的流量容易被识别和阻断 → 它将你的流量伪装成访问`www.google.com`，增加隐蔽性。"
+        ],
+        "audience": "需要突破网络深度包检测（DPI）限制，访问受限网站或隐藏真实流量的用户。",
+        "quickStart": {
+          "prerequisites": "Python环境，pip，Cloudflare账号。",
+          "steps": [
+            "克隆项目，安装Python依赖。",
+            "配置Cloudflare Worker并部署到Cloudflare。",
+            "设置Google Apps Script作为中继。"
+          ],
+          "note": "如果PyPI不可达，可使用镜像安装依赖。"
+        },
+        "competitors": [],
+        "pricing": "免费（依赖Google Apps Script和Cloudflare Worker的免费额度，超出可能收费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "需配置本地代理、Google Apps Script和Cloudflare Worker，涉及多个服务部署，有一定上手门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决速度一般，待解决问题数量相对较多。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-04-30T05:01:25.771Z"
+    },
+    {
+      "owner": "t8y2",
+      "repo": "dbx",
+      "fullName": "t8y2/dbx",
+      "description": "Open-source, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server.",
+      "language": "Vue",
+      "topics": [
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "duckdb",
+        "gui",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "redis",
+        "rust",
+        "sql-server",
+        "sqlite",
+        "tauri",
+        "vue"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T03:00:36Z",
+      "url": "https://github.com/t8y2/dbx",
+      "analysis": {
+        "positioning": "轻量、跨平台、多数据库桌面管理客户端。",
+        "useCases": [
+          "你管理多种数据库（SQL/NoSQL/分析型）→ 它提供统一界面和SSH隧道，高效连接和查询。",
+          "你需要编写、优化或解释SQL → 它内置AI助手，帮你自然语言转SQL，优化和排错。",
+          "你频繁查看、编辑或导出数据 → 它提供虚拟滚动表格、行内编辑和多格式导出。",
+          "你处理Redis/MongoDB数据 → 它提供专用浏览器，方便查看和CRUD操作。"
+        ],
+        "audience": "开发者、DBA和数据分析师，寻求轻量、高效、跨平台的数据库管理工具，特别是需要AI辅助和多数据库支持的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从GitHub Releases页面下载最新版本。",
+            "（macOS用户）首次启动若受阻，运行`xattr -cr /Applications/dbx.app`或通过系统设置放行。"
+          ],
+          "note": "macOS用户需注意启动权限设置。"
+        },
+        "competitors": [
+          {
+            "name": "DBeaver",
+            "method": "桌面GUI",
+            "models": "MySQL, PgSQL, SQLite, Redis, Mongo等广泛支持",
+            "pricing": "免费（社区版）"
+          },
+          {
+            "name": "TablePlus",
+            "method": "桌面GUI",
+            "models": "MySQL, PgSQL, SQLite, Redis, Mongo等多种",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "采用Vue/Tauri现代技术栈，原生应用体积小巧（~15MB），AI SQL助手是亮点，多数据库支持广泛且细致（含NoSQL/分析型），功能全面。星数虽不高但潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚待提升，Issue数量较少，但已关闭Issue数多于开启数。",
+        "category": "数据库"
+      },
+      "analyzedAt": "2026-04-30T05:01:43.973Z"
+    },
+    {
+      "owner": "Fokkyp",
+      "repo": "SoftwareCopyright-Skill",
+      "fullName": "Fokkyp/SoftwareCopyright-Skill",
+      "description": "中国软件著作权申请材料 生成器 Skills，本 Skills 通过阅读本地项目，自动生成全套 .docx 软著申请材料，全开源，无须再付费购买任何软著申请服务",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-29T10:07:08Z",
+      "url": "https://github.com/Fokkyp/SoftwareCopyright-Skill",
+      "analysis": {
+        "positioning": "软著申请材料自动生成，免费开源。",
+        "useCases": [
+          "你手动整理软著材料，担心格式不对、信息遗漏 → 它自动分析项目，生成全套合规软著申请资料。",
+          "你担心将项目代码给第三方代办，存在信息泄露风险 → 它本地读取项目源码，精准抽取代码，确保隐私和真实性。",
+          "你为编写操作手册、整理申请表字段费时费力 → 它引导式确认关键信息，生成规范操作手册和申请表辅助文件。"
+        ],
+        "audience": "需要免费、高效、自主完成软件著作权申请的开发者和企业。",
+        "quickStart": {
+          "prerequisites": "Codex, Python 3（推荐安装.NET SDK）",
+          "steps": [
+            "下载本项目代码。",
+            "将 `software-copyright-materials/` 目录复制到 `~/.codex/skills/`。",
+            "重启 Codex，在项目中发出“生成软著申请资料”请求。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "软著代办机构/服务",
+            "method": "委托第三方人工整理、提交材料。",
+            "models": "N/A",
+            "pricing": "付费"
+          },
+          {
+            "name": "软著材料模板/在线工具",
+            "method": "用户手动填写信息、套用模板、自行修改。",
+            "models": "N/A",
+            "pricing": "通常部分免费、部分付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目痛点清晰，功能设计直击要害，实现了一站式、自动化、本地化的软著材料生成，且完全免费开源，对开发者极具实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue均为0，社区活跃度暂未显现。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-30T05:01:57.963Z"
+    },
+    {
+      "owner": "ka-pi-ba-la",
+      "repo": "AIbijia",
+      "fullName": "ka-pi-ba-la/AIbijia",
+      "description": "分享便宜靠谱Token，抹平信息差",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-27T12:55:00Z",
+      "url": "https://github.com/ka-pi-ba-la/AIbijia",
+      "analysis": {
+        "positioning": "AI账号比价神器，抹平信息差，帮你找最便宜靠谱的Token。",
+        "useCases": [
+          "你买AI账号 → 它帮你全网比价，找到性价比最高选择",
+          "你担忧被坑 → 它提供避雷经验，帮你甄别靠谱信源",
+          "你找便宜渠道 → 它聚合可靠信息，节省你反复查找时间"
+        ],
+        "audience": "寻找便宜、靠谱AI账号（如ChatGPT Plus CDK）的用户，避免信息不对称和高价坑。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问网站：aibijia.org",
+            "浏览或搜索所需AI账号类型",
+            "查看不同平台和代理商的价格对比"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "各种卡网/代理商",
+            "method": "直接购买CDK或账号",
+            "models": "ChatGPT Plus CDK、其他AI账号",
+            "pricing": "价格混乱，有高有低，质量不一"
+          },
+          {
+            "name": "AI官方订阅",
+            "method": "通过官方渠道（如OpenAI）订阅",
+            "models": "ChatGPT Plus",
+            "pricing": "价格较高但稳定可靠"
+          }
+        ],
+        "pricing": "免费使用比价服务，所列商品为付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个非常实用的工具，精准解决用户在AI账号购买上的痛点，抹平信息差。README风趣幽默，社区活跃度主要体现在Telegram群，而非GitHub Issue。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue活跃度低（2开0关），但Telegram频道是主要活跃社区，用于分享和交流。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-30T05:02:10.112Z"
+    },
+    {
+      "owner": "dnshe",
+      "repo": "DNSHE-FreeDomains",
+      "fullName": "dnshe/DNSHE-FreeDomains",
+      "description": "🌐 DNSHE Official - Stable & Free Subdomains for Developers. Support 180-day renewal window, Anycast DNS, and REST API. (us.ci, cc.cd, de5.net, ccwu.cc)",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-26T10:27:09Z",
+      "url": "https://github.com/dnshe/DNSHE-FreeDomains",
+      "analysis": {
+        "positioning": "为开发者提供免费、稳定、可自动化的全球Anycast子域名服务。",
+        "useCases": [
+          "你部署自动化测试或SaaS后端 → 它提供稳定子域名，方便API调用和环境隔离。",
+          "你搭建个人博客/项目演示/技术文档 → 它提供专属子域名，让你的项目快速上线并全球访问。",
+          "你需要批量管理或自动化域名配置 → 它通过API实现子域名与SSL证书的自动化续期。",
+          "你担心域名过期影响服务运行 → 它提供超长180天续期窗口，降低服务中断风险。"
+        ],
+        "audience": "开发者、学生及开源爱好者，尤其适合需要免费子域名、自动化管理和高可用DNS解析的项目。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "注册账号",
+            "选择并认领子域名",
+            "配置DNS解析记录"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "No-IP",
+            "method": "注册后通过客户端或网站手动管理",
+            "models": "免费提供二级动态域名",
+            "pricing": "免费（有付费高级版）"
+          },
+          {
+            "name": "DuckDNS",
+            "method": "注册后通过API或客户端管理",
+            "models": "免费提供二级动态域名",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "完全免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目以API优先设计，提供自动化管理能力，非常适合开发者将其集成到CI/CD流程或脚本中，提升开发效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无活动（开启0/关闭0），尚无法评估社区活跃度及响应速度。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-04-30T05:02:31.420Z"
+    },
+    {
+      "owner": "val1813",
+      "repo": "kwcode",
+      "fullName": "val1813/kwcode",
+      "description": "一个能持续增强本地开源模型的cli，专门为本地部署模型优化的coding窗口。目前仍然处于mvp未能大规模测试和端到端跑通，欢迎指正🙏🏻🙏🏻🙏🏻",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-27T06:56:36Z",
+      "url": "https://github.com/val1813/kwcode",
+      "analysis": {
+        "positioning": "专为中国开发者打造的本地代码生成与修复CLI，优化小模型痛点。",
+        "useCases": [
+          "你用本地小模型写代码，上下文很快就满 → 它自动高效压缩历史对话，让小模型持续工作。",
+          "你遇到小模型修bug总是犯同样的错 → 它通过Reflection和Debug Subagent智能分析，捕获运行时变量，绝不重复犯错。",
+          "你希望生成的代码能自动运行和测试 → 它内置工具，自动执行命令、读写文件、运行测试并验证修复效果。",
+          "你担心公司代码数据上传到云端不安全 → 它所有操作都在本地完成，代码和数据不出你的电脑。",
+          "你让小模型猜哪个文件相关总是猜错 → 它通过BM25和AST调用图算法精准定位代码，无需LLM猜测。"
+        ],
+        "audience": "适合注重代码安全、偏好本地部署开源小模型、希望提升开发效率的中国开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+，并需准备本地部署的开源大模型环境。",
+          "steps": [
+            "pip install kwcode",
+            "或 pip install kwcode -i https://pypi.tuna.tsinghua.edu.cn/simple (国内加速)"
+          ],
+          "note": "支持Windows、Mac、Linux多平台。"
+        },
+        "competitors": [
+          {
+            "name": "Claude Code",
+            "method": "依赖云端强LLM（如Claude）的推理能力，调用工具自主决策。",
+            "models": "Claude等闭源强LLM",
+            "pricing": "通常为付费服务"
+          },
+          {
+            "name": "Cursor",
+            "method": "依赖云端强LLM（如GPT-4）的推理能力，与IDE深度集成。",
+            "models": "GPT-4, Claude等闭源强LLM",
+            "pricing": "免费版功能受限，高级功能付费"
+          },
+          {
+            "name": "OpenCode",
+            "method": "依赖云端强LLM的推理能力，工具调用。",
+            "models": "强LLM",
+            "pricing": "多为付费或有免费额度"
+          }
+        ],
+        "pricing": "免费且开源 (MIT License)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，针对本地开源模型痛点提出独到解决方案。技术原理详细且创新（如确定性专家流水线、BM25+AST定位），但仍处于MVP阶段，社区反馈和稳定性尚待验证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度处于早期阶段，已有少量Issues开启，但目前尚无已关闭的Issues，有待观察响应速度。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-04-30T05:02:51.339Z"
+    },
+    {
+      "owner": "CatsJuice",
+      "repo": "medal-forge",
+      "fullName": "CatsJuice/medal-forge",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-27T14:37:02Z",
+      "url": "https://github.com/CatsJuice/medal-forge",
+      "analysis": {
+        "positioning": "将SVG设计快速转化为可定制的3D勋章、徽章及金属牌模型。",
+        "useCases": [
+          "你有一个SVG平面设计 → 它帮你快速生成3D勋章/徽章/金属牌模型",
+          "你想精细调整3D模型细节 → 它帮你调整厚度、斜角、材质、颜色、可见性等",
+          "你需要导出3D模型或集成到代码 → 它帮你导出GLB文件并提供React/Three代码片段"
+        ],
+        "audience": "适合设计师、独立开发者及创客，快速将2D SVG设计可视化为3D模型并导出使用。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js和npm",
+          "steps": [
+            "`npm install`",
+            "`npm run dev`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Tinkercad",
+            "method": "浏览器在线操作，导入SVG后挤压",
+            "models": "简单几何体，STL/OBJ等",
+            "pricing": "免费"
+          },
+          {
+            "name": "Vectary",
+            "method": "浏览器在线3D设计，支持SVG导入并高级编辑",
+            "models": "更多样化的3D模型，GLB/OBJ等",
+            "pricing": "免费增值"
+          }
+        ],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个聚焦于将SVG快速转化为简单3D模型的工具，解决特定痛点，具有原型性质和即用性，代码开放且易于部署，体现了开发者对特定需求的快速实现。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期阶段，社区活跃度较低（1个issue开启，0个关闭）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-04-30T05:03:04.131Z"
+    },
+    {
+      "owner": "stainlu",
+      "repo": "hermes-labyrinth",
+      "fullName": "stainlu/hermes-labyrinth",
+      "description": "Read-only observability plugin for Hermes Agent: journeys, crossings, guideposts, and reports.",
+      "language": "HTML",
+      "topics": [
+        "agent-observability",
+        "autonomous-agents",
+        "dashboard-plugin",
+        "hackathon",
+        "hermes-agent",
+        "nous-research",
+        "observability"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-25T15:12:11Z",
+      "url": "https://github.com/stainlu/hermes-labyrinth",
+      "analysis": {
+        "positioning": "Hermes Agent黑盒观测插件，可视化自治工作轨迹。",
+        "useCases": [
+          "你想了解Agent执行细节 → 它帮你记录并可视化Agent所有行动（提示、工具调用、失败等）。",
+          "你想调试Agent任务流程 → 它提供任务轨迹地图和检查器，快速定位问题。",
+          "你需要审计或导出Agent工作报告 → 它帮你生成可脱敏的Markdown和JSON报告。"
+        ],
+        "audience": "Hermes Agent开发者、运维及管理者，用于监控、调试和审计AI代理任务。",
+        "quickStart": {
+          "prerequisites": "Hermes Agent及Dashboard已安装。",
+          "steps": [
+            "mkdir -p ~/.hermes/plugins",
+            "git clone https://github.com/stainlu/hermes-labyrinth.git ~/.hermes/plugins/hermes-labyrinth",
+            "启动或重启`hermes dashboard`。",
+            "打开dashboard，选择`Labyrinth`标签。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专注解决Hermes Agent黑盒观测痛点，功能实用且设计巧妙。文档清晰，Demo可用，提供关键洞察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭均衡 (2/2)，维护活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-30T05:03:16.265Z"
+    },
+    {
+      "owner": "deepseek-ai",
+      "repo": "awesome-deepseek-agent",
+      "fullName": "deepseek-ai/awesome-deepseek-agent",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-27T06:37:38Z",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+      "analysis": {
+        "positioning": "DeepSeek模型集成宝典，助力AI Agent与编程助手。",
+        "useCases": [
+          "你用GitHub Copilot等AI编程助手 → 它教你集成DeepSeek模型，提升智能编码体验。",
+          "你开发或使用AI Agent工具 → 它提供DeepSeek模型配置方案，拓展Agent能力边界。",
+          "你想快速上手DeepSeek-V4-Pro/Flash → 它指引你在常用AI工具中几分钟内完成部署。",
+          "你希望自定义AI助手所用的底层大模型 → 它为你提供详细教程将DeepSeek模型引入多种工具。"
+        ],
+        "audience": "希望在各种AI Agent和编程助手中使用DeepSeek模型的开发者、工程师和AI爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "浏览并选择你希望集成DeepSeek模型的AI Agent或编程助手指南。",
+            "按照选定指南的步骤，完成DeepSeek模型的安装、配置和首次运行。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OpenAI",
+            "method": "API集成/默认模型",
+            "models": "GPT系列",
+            "pricing": "付费"
+          },
+          {
+            "name": "Anthropic",
+            "method": "API集成/默认模型",
+            "models": "Claude系列",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费 (指南本身免费，使用DeepSeek模型和集成工具可能需付费)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目实用性强，提供清晰的集成指南，帮助用户快速将DeepSeek模型引入现有工具，但并非颠覆性技术或创意性工具本身。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 开启多于关闭（10:1），活跃度一般，响应速度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-30T05:03:35.944Z"
+    },
+    {
+      "owner": "openai",
+      "repo": "symphony",
+      "fullName": "openai/symphony",
+      "description": "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+      "language": "Elixir",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-02-26T21:54:00Z",
+      "url": "https://github.com/openai/symphony",
+      "analysis": {
+        "positioning": "将项目工作转化为自主任务流，管理AI而非监督AI编码。",
+        "useCases": [
+          "你管理任务板 → 它自动派发并完成开发任务",
+          "你分配开发工作 → 它产出代码、测试、PR反馈等完整成果",
+          "你监督AI编程 → 它提升你到更高层级，管理工作流而非代码细节"
+        ],
+        "audience": "采用 Harness Engineering 方法的开发团队，希望将AI编码能力升级为全自动化项目管理。",
+        "quickStart": {
+          "prerequisites": "团队已采用 Harness Engineering 方法",
+          "steps": [
+            "根据项目 SPEC 文件，让你的AI代理自行实现 Symphony",
+            "或使用官方提供的 Elixir 实验性参考实现，参照其 README 进行环境配置和运行"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源 (Apache-2.0 许可证)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "官方明确标注为“低调工程预览版”，仅限受信任环境测试，并提供“自行构建”或使用“实验性参考实现”选项，表明其高度实验性和探索性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 开启2个，尚无关闭，处于非常早期内部测试或预览阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-04-30T05:04:12.578Z"
     }
   ]
 }
