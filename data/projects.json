@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-04-30T05:04:12.589Z",
+  "updatedAt": "2026-05-01T05:14:10.240Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -23775,6 +23775,470 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-04-30T05:04:12.578Z"
+    },
+    {
+      "owner": "andrebaltieri",
+      "repo": "live-maf-2026-04-30",
+      "fullName": "andrebaltieri/live-maf-2026-04-30",
+      "description": "",
+      "language": "C#",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-01T01:29:34Z",
+      "url": "https://github.com/andrebaltieri/live-maf-2026-04-30",
+      "analysis": {
+        "positioning": "C#实时监测汽车MAF传感器数据工具或库。",
+        "useCases": [
+          "你想实时查看车辆MAF传感器数据 → 它帮你连接OBD设备并显示实时MAF数值。",
+          "你需要分析MAF数据变化规律 → 它可能提供接口供你记录和处理MAF数据。",
+          "你正在开发汽车诊断软件 → 它可能提供C#接口集成实时MAF数据功能。"
+        ],
+        "audience": "C#开发者、汽车诊断工具爱好者或需要实时监测车辆MAF数据的工程师。",
+        "quickStart": {
+          "prerequisites": "C#/.NET开发环境，可能需要OBD-II接口设备（如ELM327）",
+          "steps": [
+            "克隆仓库到本地：`git clone https://github.com/andrebaltieri/live-maf-2026-04-30.git`",
+            "在Visual Studio中打开项目，并尝试运行或编译。",
+            "参考项目代码，配置连接参数（如COM端口或蓝牙OBD设备）。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Torque Lite/Pro (Android)",
+            "method": "手机App + 蓝牙OBD-II适配器",
+            "models": "大部分OBD-II兼容车辆",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "OBD Auto Doctor",
+            "method": "桌面软件 + USB/蓝牙OBD-II适配器",
+            "models": "大部分OBD-II兼容车辆",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费（开源项目，但许可证未知）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目信息极少（无描述、无README、未知许可证），且社区活跃度极低（无Issue），不确定其具体用途和稳定性。可能是个人实验性项目或原型。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue，可能是个人项目或已停滞。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-01T05:11:15.359Z"
+    },
+    {
+      "owner": "willchen96",
+      "repo": "mike",
+      "fullName": "willchen96/mike",
+      "description": "OSS AI Legal Platform",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-04-29T17:41:12Z",
+      "url": "https://github.com/willchen96/mike",
+      "analysis": {
+        "positioning": "开源AI法律平台，智能处理法律文档并提供AI辅助。",
+        "useCases": [
+          "你作为律师/法务，需要高效处理大量法律文件 → 它帮你智能识别、分析文档内容，提供AI辅助决策。",
+          "你作为法律研究员，需要快速检索和摘要法律条款 → 它帮你上传文档，利用AI快速提取关键信息。",
+          "你作为法律科技开发者，想构建自己的AI法律应用 → 它提供前后端框架及AI文档处理能力作为基础。",
+          "你作为法律团队管理者，希望提高团队的文档处理效率和合规性 → 它提供统一的AI驱动平台管理和分析法律文档。"
+        ],
+        "audience": "法律从业者（律师、法务、研究员）进行法律文档处理和AI辅助分析，或法律科技开发者构建相关AI应用。",
+        "quickStart": {
+          "prerequisites": "Supabase Auth与Postgres数据库、S3兼容对象存储服务（如Cloudflare R2）、至少一个支持的AI模型提供商密钥、LibreOffice（用于DOC/DOCX转PDF）。",
+          "steps": [
+            "安装前后端依赖：`npm install --prefix backend` 和 `npm install --prefix frontend`。",
+            "创建环境变量文件：`cp backend/.env.example backend/.env` 和 `cp frontend/.env.local.example frontend/.env.local`。",
+            "在Supabase SQL编辑器中运行 `backend/migrations/000_one_shot_schema.sql`。",
+            "启动后端服务：`npm run dev --prefix backend`。",
+            "启动前端服务：`npm run dev --prefix frontend`。",
+            "在浏览器中打开 `http://localhost:3000`。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "西法网 (Westlaw Edge) / 律商联讯 (LexisNexis)",
+            "method": "付费SaaS平台，法律数据库与AI结合",
+            "models": "专有法律知识图谱与AI模型",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Casetext CoCounsel (或其他AI法律助手SaaS)",
+            "method": "付费SaaS平台",
+            "models": "各种LLM或定制模型",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "核心代码免费开源，但运行需支付Supabase、S3存储及AI模型API服务费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，前后端分离，文档详尽，易于部署和理解。对AI法律领域的应用具有较高价值。但Issue活跃度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启但无关闭，社区活跃度较低，响应速度有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-01T05:11:37.410Z"
+    },
+    {
+      "owner": "b-nnett",
+      "repo": "codex-plusplus",
+      "fullName": "b-nnett/codex-plusplus",
+      "description": "Codex++ tweak system for the Codex desktop app",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-28T10:35:16Z",
+      "url": "https://github.com/b-nnett/codex-plusplus",
+      "analysis": {
+        "positioning": "Codex桌面应用的增强系统，无需重构即可自定义。",
+        "useCases": [
+          "你想给Codex添加个性化功能 → 它让你轻松注入自定义特性。",
+          "你发现Codex界面有Bug → 它帮你修复恼人的UI问题。",
+          "你希望方便地管理Codex的增强功能 → 它提供应用内Tweak管理器，启用禁用随心所欲。"
+        ],
+        "audience": "适合Codex桌面应用用户，希望能自定义功能、修复Bug或管理扩展的开发者和高级用户。",
+        "quickStart": {
+          "prerequisites": "已安装Codex桌面应用",
+          "steps": [
+            "根据操作系统选择安装命令：",
+            "macOS/Linux: `curl -fsSL https://raw.githubusercontent.com/b-nnett/codex-plusplus/main/install.sh | bash`",
+            "Windows: `irm https://raw.githubusercontent.com/b-nnett/codex-plusplus/main/install.ps1 | iex`"
+          ],
+          "note": "安装会自动定位Codex应用、备份并打补丁。目前处于alpha阶段，建议关注Discord获取最新进展。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供了清晰的安装和工作原理说明，支持多平台，但项目处于alpha阶段，涉及Electron应用深度修改，可能需要一定技术理解。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue数量不多（3开2关），但有开放的Discord社群可供交流。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-01T05:11:53.940Z"
+    },
+    {
+      "owner": "sandeco",
+      "repo": "reversa",
+      "fullName": "sandeco/reversa",
+      "description": "Transform legacy systems into executable specifications for AI coding agents",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-26T13:47:10Z",
+      "url": "https://github.com/sandeco/reversa",
+      "analysis": {
+        "positioning": "AI Agent赋能，自动为老旧系统生成可执行规范。",
+        "useCases": [
+          "你想用AI Agent改造老旧系统 → 它帮你从代码中提取隐式业务规则、架构决策，生成AI可理解的“操作契约”。",
+          "你的遗留项目缺乏文档，无人敢轻易改动 → 它帮你自动分析代码，生成AI Agent能安全迭代的系统规范。",
+          "你希望AI Agent能安全地维护和演进现有系统 → 它提供可追溯、可执行的规范，指导AI工作。"
+        ],
+        "audience": "适用于希望利用AI Agent对老旧系统进行现代化改造或迭代的开发者、架构师及团队。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+",
+          "steps": [
+            "在遗留项目根目录运行 `npx reversa install`"
+          ],
+          "note": "Reversa只会将生成的文件写入 `.reversa/` 及指定的输出文件夹，不会修改项目原有文件。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目明确旨在解决“纯凭感觉编程”（vibe coding）导致的遗留系统缺乏规范问题，通过自动化生成清晰、可执行的规范来规避这种风险，其自身提供结构化解决方案。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue开启2个，关闭0个，社区活跃度较低，项目可能处于早期阶段或参与度不高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-01T05:12:15.787Z"
+    },
+    {
+      "owner": "rootsecdev",
+      "repo": "cve_2026_31431",
+      "fullName": "rootsecdev/cve_2026_31431",
+      "description": "Exploit POC for CVE_2026_31431",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T17:46:43Z",
+      "url": "https://github.com/rootsecdev/cve_2026_31431",
+      "analysis": {
+        "positioning": "Linux内核本地提权漏洞CVE-2026-31431的检测与利用工具。",
+        "useCases": [
+          "你想知道Linux系统是否存在CVE-2026-31431漏洞 → 它帮你快速检测当前系统是否易受攻击。",
+          "你需要验证CVE-2026-31431漏洞的本地提权能力 → 它帮你利用漏洞获取root权限。",
+          "你想了解algif_aead页缓存写入漏洞的技术细节 → 它的代码和文档提供了深入分析的POC。"
+        ],
+        "audience": "安全研究员、渗透测试工程师或系统管理员，用于合法地检测、验证和复现Linux内核本地提权漏洞。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "python3 test_cve_2026_31431.py",
+            "python3 exploit_cve_2026_31431.py --shell"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供了清晰的 README、漏洞原理、使用指南和安全提醒。代码是纯 Python 3.10+ 标准库，但作为安全漏洞利用工具，其设计更侧重于有效性和准确性，而非代码的通用性或“美感”。实用性强，但非通用开发工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，但可能是由于项目专一性或较新。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-01T05:12:29.192Z"
+    },
+    {
+      "owner": "1bananachicken",
+      "repo": "MaaNTE",
+      "fullName": "1bananachicken/MaaNTE",
+      "description": "MAA异环小助手，由MAAFramework强力驱动！QQ交流群：1103323319",
+      "language": "Python",
+      "topics": [
+        "maaframework",
+        "neverness-to-everness",
+        "neverness-to-everness-software",
+        "nte"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-26T12:42:30Z",
+      "url": "https://github.com/1bananachicken/MaaNTE",
+      "analysis": {
+        "positioning": "MAA异环小助手，一个基于MaaFramework的游戏自动化工具。",
+        "useCases": [
+          "你玩明日方舟钓鱼小游戏 → 它帮你自动钓鱼、卖鱼、买鱼饵，解放双手。",
+          "你玩明日方舟咖啡厅活动 → 它帮你自动制作咖啡、驱赶顾客，轻松赚取收益。",
+          "你想收取明日方舟一咖舍收益 → 它帮你自动提取收益并补货，简化日常管理。"
+        ],
+        "audience": "追求游戏效率、希望自动化重复操作的明日方舟玩家。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载最新Release版本。",
+            "以管理员身份运行。",
+            "将游戏（明日方舟）分辨率调整为1280x720窗口模式。"
+          ],
+          "note": "适用于Windows平台，钓鱼新算法支持120帧运行，自动做咖啡可能抢占鼠标。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源（MIT协议）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目处于早期开发阶段，但核心功能明确，README详细。社区渠道（QQ群、B站）活跃，但Issue开闭比（14开/6关）表明解决效率有提升空间。",
+        "isVibeCoding": true,
+        "communityActivity": "设有QQ交流群和B站官方账号，社区互动渠道丰富；Issue数量活跃，但解决效率仍有提升空间。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-01T05:12:42.904Z"
+    },
+    {
+      "owner": "amirshaker000",
+      "repo": "netlify-relay",
+      "fullName": "amirshaker000/netlify-relay",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T03:30:34Z",
+      "url": "https://github.com/amirshaker000/netlify-relay",
+      "analysis": {
+        "positioning": "基于Netlify边缘函数的HTTP请求中继代理，解决跨域或隐藏后端。",
+        "useCases": [
+          "你的Netlify前端需要调用后端API，但遇到跨域问题 → 它帮你通过边缘函数中继请求，绕过CORS限制。",
+          "你想隐藏真实后端服务的地址，不直接暴露给前端 → 它帮你作为API代理，对外只显示Netlify域名。",
+          "你需要在Netlify上快速部署一个简单的HTTP转发服务 → 它提供开箱即用的Netlify Edge Function配置。"
+        ],
+        "audience": "适合Netlify开发者和需要轻量级、快速部署的HTTP请求代理服务的用户。",
+        "quickStart": {
+          "prerequisites": "Netlify账号，需中继的目标域名（带端口的HTTPS地址）",
+          "steps": [
+            "将项目导入Netlify，配置Build command为`npm run build`，Publish directory为`public`。",
+            "在Netlify配置`TARGET_DOMAIN`环境变量，例如`https://your-domain.com:443`。",
+            "触发Netlify部署即可使用。"
+          ],
+          "note": "目标域名必须包含端口，即使是默认HTTPS端口443；官方不推荐Fork仓库部署。"
+        },
+        "competitors": [
+          {
+            "name": "Cloudflare Workers",
+            "method": "编写JavaScript/TypeScript代码并部署到Cloudflare边缘网络",
+            "models": "N/A (代理服务)",
+            "pricing": "免费额度/按量付费"
+          },
+          {
+            "name": "Vercel Edge Functions",
+            "method": "编写JavaScript/TypeScript代码并部署到Vercel边缘网络",
+            "models": "N/A (代理服务)",
+            "pricing": "免费额度/按量付费"
+          }
+        ],
+        "pricing": "免费（基于Netlify免费额度，超出部分按Netlify标准收费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，功能单一但实现精简高效，文档详细易懂，解决了特定场景下的痛点。但其作为工具类项目，功能扩展性有限，社区活跃度一般。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue数量少且未解决，可能因项目功能简单且稳定。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-01T05:12:59.337Z"
+    },
+    {
+      "owner": "FrankBarretta",
+      "repo": "LSFG-Android",
+      "fullName": "FrankBarretta/LSFG-Android",
+      "description": "Lossless Scaling Frames Generator (LSFG) Application for Android",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-27T15:01:51Z",
+      "url": "https://github.com/FrankBarretta/LSFG-Android",
+      "analysis": {
+        "positioning": "安卓Vulkan游戏画质帧率增强，通过AI插帧提升流畅度。",
+        "useCases": [
+          "你想在安卓手机上玩高画质游戏 → 它帮你实时插帧，大幅提升游戏帧率和流畅度。",
+          "你想调整游戏帧生成效果 → 它提供实时游戏内设置面板，细致控制插帧倍数、画质模式等。",
+          "你想在特定应用中自动启用帧生成 → 它支持自动识别并为选定游戏或应用开启浮窗。"
+        ],
+        "audience": "追求安卓游戏极致帧率体验的玩家，尤其是拥有Adreno 7系及以上GPU设备的用户。",
+        "quickStart": {
+          "prerequisites": "安卓12+系统，Adreno 7xx系列或更新GPU，可能需要手动解锁“受限设置”并启用无障碍服务。",
+          "steps": [
+            "下载并安装应用，根据首次启动教程完成无障碍服务等权限设置。",
+            "在应用内选择需要帧生成的游戏，启动游戏即可自动启用浮窗进行插帧。"
+          ],
+          "note": "安卓版通过屏幕录制（MediaProjection）和系统浮窗实现，而非直接注入游戏进程。"
+        },
+        "competitors": [
+          {
+            "name": "手机厂商内置游戏模式/画质增强",
+            "method": "系统底层优化，例如MEMC、游戏插帧功能",
+            "models": "各厂商私有算法",
+            "pricing": "免费"
+          },
+          {
+            "name": "特定游戏内置高帧率选项",
+            "method": "游戏引擎原生支持",
+            "models": "游戏开发者集成",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能强大且实现了复杂技术，README清晰详尽。但Issue关闭率极低 (1/31)，表明维护者响应与解决问题不积极，存在潜在维护风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue关闭率极低，新问题响应和解决不及时。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-05-01T05:13:22.646Z"
+    },
+    {
+      "owner": "wrongly-cuddly-obsession",
+      "repo": "NTSB_FOIA_MU5735",
+      "fullName": "wrongly-cuddly-obsession/NTSB_FOIA_MU5735",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-30T10:12:33Z",
+      "url": "https://github.com/wrongly-cuddly-obsession/NTSB_FOIA_MU5735",
+      "analysis": {
+        "positioning": "MU5735空难NTSB调查FOIA文件归档与中文译本。",
+        "useCases": [
+          "你寻找MU5735空难NTSB调查FOIA文件 → 它提供原始文件归档。",
+          "你希望了解NTSB记录器报告中文译本 → 它提供非官方中文译文链接。",
+          "你研究MU5735空难事件 → 它帮你获取关键调查资料。"
+        ],
+        "audience": "关心MU5735空难调查进展、航空事故研究人员和媒体。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面。",
+            "浏览或下载相关FOIA文件及中文译本。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个文件归档库，核心价值在于内容而非代码，不涉及代码开发或复杂功能实现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，有2个开启Issue但无关闭记录，响应速度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-01T05:13:33.048Z"
+    },
+    {
+      "owner": "Panniantong",
+      "repo": "Agent-Reach",
+      "fullName": "Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "topics": [
+        "agent-infrastructure",
+        "ai-agent",
+        "ai-search",
+        "automation",
+        "bilibili",
+        "claude-code",
+        "cli",
+        "cursor",
+        "free-api",
+        "llm-tools",
+        "mcp",
+        "python",
+        "reddit-scraper",
+        "twitter-scraper",
+        "web-scraper",
+        "xiaohongshu",
+        "youtube-transcript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-02-24T02:10:24Z",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "analysis": {
+        "positioning": "给AI Agent装上互联网眼睛，免费全网搜读写。",
+        "useCases": [
+          "AI Agent想看YouTube视频内容 → 它帮你提取字幕并总结。",
+          "AI Agent想查Twitter/小红书产品口碑 → 它帮你免费搜索和浏览，无需付费API或登录。",
+          "AI Agent想在Reddit/B站找技术解决方案 → 它帮你绕过封锁、提取信息。",
+          "AI Agent需要最新全网信息对比 → 它帮你进行免费高质量语义搜索。",
+          "AI Agent需要阅读复杂网页或GitHub仓库内容 → 它帮你抓取可读内容，简化认证配置。"
+        ],
+        "audience": "AI Agent开发者、研究者，希望AI Agent具备免费、稳定、全方位的互联网信息获取和互动能力。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "复制安装命令 `帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md` 给你的Agent。",
+            "Agent会自动安装并获得全网信息搜读写能力。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Twitter API / Reddit API 等平台官方API",
+            "method": "直接调用官方接口",
+            "models": null,
+            "pricing": "付费"
+          },
+          {
+            "name": "各类付费的全网搜索服务",
+            "method": "调用其付费API",
+            "models": "取决于服务提供商",
+            "pricing": "付费"
+          },
+          {
+            "name": "自行开发维护的Web爬虫",
+            "method": "编写定制化爬虫代码",
+            "models": null,
+            "pricing": "免费（但开发和长期维护成本高昂）"
+          }
+        ],
+        "pricing": "完全免费。可能需支付少量服务器代理费用（非必需，本地使用免费）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "该项目一键解决了AI Agent获取互联网信息的核心痛点，提供免费、稳定、兼容性强的解决方案，大幅降低了Agent开发和使用门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数近1.9万，关闭Issue数远超开启（76/29），表明社区活跃且项目维护及时、问题解决效率高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-01T05:14:10.229Z"
     }
   ]
 }
