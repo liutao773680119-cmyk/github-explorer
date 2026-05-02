@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-01T05:14:10.240Z",
+  "updatedAt": "2026-05-02T04:46:18.784Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -24239,6 +24239,295 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-01T05:14:10.229Z"
+    },
+    {
+      "owner": "darrylmorley",
+      "repo": "whatcable",
+      "fullName": "darrylmorley/whatcable",
+      "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "language": "Swift",
+      "topics": [
+        "apple-silicon",
+        "hardware-info",
+        "iokit",
+        "mac-app",
+        "macos",
+        "menubar",
+        "menubar-app",
+        "swift",
+        "swiftui",
+        "thunderbolt",
+        "usb-c",
+        "usb-power-delivery",
+        "utility"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-01T07:45:10Z",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "analysis": {
+        "positioning": "macOS菜单栏应用，洞察USB-C线缆真实能力，诊断充电慢问题。",
+        "useCases": [
+          "你做：面对一堆USB-C线缆，不确定哪根是高速线或快充线。→ 它帮你：清晰识别每根USB-C线的实际速度、充电功率及芯片信息。",
+          "你做：发现Mac充电缓慢，怀疑是线缆或充电器出了问题。→ 它帮你：诊断充电瓶颈，告诉你慢充原因（线缆、Mac需求或充电器限制）。",
+          "你做：想了解Mac上USB-C端口、充电器和所连设备的详细技术参数。→ 它帮你：显示端口传输模式、充电器支持的电压电流配置、连接设备的详细信息。"
+        ],
+        "audience": "频繁使用USB-C接口的Mac用户，尤其是对线缆性能、充电效率有高要求或有排查需求的。技术人员也能查看底层IOKit信息。",
+        "quickStart": {
+          "prerequisites": "macOS 14+ 及 Apple Silicon 芯片。",
+          "steps": [
+            "下载最新版 `WhatCable.zip`",
+            "解压并将 `WhatCable.app` 拖到 `/Applications` 文件夹"
+          ],
+          "note": "应用已签名并公证，无Gatekeeper警告。"
+        },
+        "competitors": [],
+        "pricing": "免费。MIT开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了Mac用户普遍的USB-C线缆识别和充电诊断痛点，界面简洁，功能强大且专业，免费开源，维护活跃。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃，已关闭Issue数多于开启数，表明项目维护者响应及时，解决问题效率高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-02T04:44:25.292Z"
+    },
+    {
+      "owner": "mattpocock",
+      "repo": "dictionary-of-ai-coding",
+      "fullName": "mattpocock/dictionary-of-ai-coding",
+      "description": "AI coding jargon, explained in plain English.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-01T10:17:05Z",
+      "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+      "analysis": {
+        "positioning": "AI编码术语词典，助你快速理解复杂概念。",
+        "useCases": [
+          "你对AI编码术语感到困惑 → 它帮你快速理解AI编码的基础概念。",
+          "你遇到AI项目中的神秘故障或异常行为 → 它通过解释底层词汇提供清晰答案。",
+          "你想快速掌握AI编码的基础知识 → 它提供结构化词典助你高效学习。"
+        ],
+        "audience": "适合对AI编码感兴趣，希望快速入门并理解核心概念的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面",
+            "浏览README中的词条释义或点击目录查看详情"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Glossary",
+            "method": "网页浏览",
+            "models": "N/A (概念解释)",
+            "pricing": "免费"
+          },
+          {
+            "name": "Hugging Face Glossary",
+            "method": "网页浏览",
+            "models": "N/A (概念解释)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README开篇直指AI行业过度复杂化的痛点，致力于用“大白话”解构AI编码术语，旨在赋能开发者，帮助他们快速掌握核心概念，打破信息壁垒。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低（0开/3关），可能因其内容（词典）性质较为稳定，或主要由作者通过内部工具维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-02T04:44:47.347Z"
+    },
+    {
+      "owner": "EvanBacon",
+      "repo": "serve-sim",
+      "fullName": "EvanBacon/serve-sim",
+      "description": "The `npx serve` of Apple Simulators.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T20:23:12Z",
+      "url": "https://github.com/EvanBacon/serve-sim",
+      "analysis": {
+        "positioning": "将Apple模拟器Web化，提供高效远程操控及AI Agent集成。",
+        "useCases": [
+          "你想让AI Agent自动测试iOS应用 → 它帮你把模拟器变成可控的Web接口，让AI直接交互。",
+          "你想远程共享或测试iOS模拟器 → 它让你通过Web浏览器远程控制模拟器，如同本地操作。",
+          "你想高效调试iOS应用在模拟器上的行为 → 它提供60FPS视频流和浏览器控制，加速本地测试迭代。"
+        ],
+        "audience": "iOS开发者、QA或AI Agent集成者，需要远程控制、共享或自动化测试iOS模拟器。",
+        "quickStart": {
+          "prerequisites": "macOS with Xcode command line tools and Node.js 18+",
+          "steps": [
+            "运行 `npx serve-sim`",
+            "访问 `http://localhost:3200` 即可通过浏览器预览和控制模拟器"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "云测试平台 (如 BrowserStack, Sauce Labs)",
+            "method": "通过Web界面或自动化脚本远程操作云端模拟器/真实设备",
+            "models": "支持多种iOS模拟器及真实设备",
+            "pricing": "通常是付费订阅"
+          },
+          {
+            "name": "传统远程桌面/VNC",
+            "method": "通过VNC或其他远程桌面软件连接到运行Xcode的Mac，手动操作模拟器",
+            "models": "取决于宿主Mac上的Xcode模拟器",
+            "pricing": "免费（如果自有Mac）或付费（租用云Mac）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "提供了高效、灵活的iOS模拟器远程控制和Web化方案。尤其出色的是与AI Agent的无缝集成能力，以及无需插件的60FPS高性能流媒体体验，极大提升了开发和测试效率，直击Hosted Simulators的痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 数量较少，开启与关闭比例显示项目活跃度一般，但可能处于早期阶段。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-05-02T04:45:13.688Z"
+    },
+    {
+      "owner": "noonghunna",
+      "repo": "club-3090",
+      "fullName": "noonghunna/club-3090",
+      "description": "Community recipes for serving LLMs on RTX 3090. Multi-engine (vLLM, llama.cpp, SGLang) and model-agnostic. Currently shipping Qwen3.6-27B configs for 1× and 2× cards.",
+      "language": "Shell",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-28T10:08:59Z",
+      "url": "https://github.com/noonghunna/club-3090",
+      "analysis": {
+        "positioning": "为RTX 3090本地部署大模型提供社区优化方案。",
+        "useCases": [
+          "你希望在家、实验室或作为开发后端，用RTX 3090运行现代大模型 → 它提供即插即用的Docker Compose配置。",
+          "你追求大模型推理的极限吞吐量，例如代码生成或高并发流式请求 → 它提供基于vLLM的双卡优化方案。",
+          "你侧重于大模型的稳定性和长上下文处理，尤其是在复杂工具调用场景 → 它提供基于llama.cpp的单卡鲁棒方案，支持超长上下文。"
+        ],
+        "audience": "拥有1到2张RTX 3090显卡，希望在本地高效部署和运行主流大模型的开发者和个人用户。",
+        "quickStart": {
+          "prerequisites": "1-2块RTX 3090显卡，熟悉Docker Compose，系统已安装Docker。",
+          "steps": [
+            "根据显卡数量（1x或2x 3090）访问对应的`docs`页面选择配置。",
+            "选择合适的工作负载（如吞吐量优先或鲁棒性优先）和模型配置，使用提供的Docker Compose命令部署。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OpenAI API / Claude API",
+            "method": "通过云端API调用",
+            "models": "各自平台支持的专有模型",
+            "pricing": "按量付费"
+          },
+          {
+            "name": "Oobabooga's text-generation-webui",
+            "method": "本地Web UI / API部署",
+            "models": "广泛支持多种格式模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，仅需自备硬件。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "README结构清晰，目标用户明确，提供详细的硬件配置、性能数据和场景化方案对比，即用即走，极具实践价值，文档组织优秀。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，Issues 处理及时（关闭数多于开启数），社区关注度较高。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-02T04:45:34.214Z"
+    },
+    {
+      "owner": "badsectorlabs",
+      "repo": "copyfail-go",
+      "fullName": "badsectorlabs/copyfail-go",
+      "description": "A Go implementation of copyfail (CVE-2026-31431)",
+      "language": "Assembly",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-29T22:51:24Z",
+      "url": "https://github.com/badsectorlabs/copyfail-go",
+      "analysis": {
+        "positioning": "基于Go实现的Linux本地提权（LPE）漏洞利用工具",
+        "useCases": [
+          "你有一个受限的Linux shell → 它帮你获取一个root权限的交互式shell。",
+          "你有一个普通用户权限的程序 → 它帮你以root权限运行该程序。",
+          "你需要一个无需Python依赖的静态Linux提权二进制文件 → 它帮你提供一个开箱即用的Go版本利用程序。"
+        ],
+        "audience": "红队成员、渗透测试人员、安全研究员，用于评估Linux系统的本地提权漏洞。",
+        "quickStart": {
+          "prerequisites": "已编译的`copyfail-go`二进制文件，并上传到目标Linux主机（该主机内核需在CVE-2026-31431漏洞影响范围内）。",
+          "steps": [
+            "chmod +x copyfail-go",
+            "./copyfail-go --backup /tmp/su",
+            "root@host# cat /tmp/su > /usr/bin/su && touch -r /tmp/su /usr/bin/su && rm /tmp/su"
+          ],
+          "note": "该漏洞影响2017年8月至2026年4月间的多数Linux发行版内核，需确保目标系统在漏洞影响范围内。"
+        },
+        "competitors": [
+          {
+            "name": "copyfail (Python script)",
+            "method": "运行Python脚本进行漏洞利用",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "copy-fail-c",
+            "method": "编译并运行C语言程序进行漏洞利用",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目以一种直接、高效且无需外部依赖的方式，利用一个影响广泛的Linux内核漏洞，实现静态二进制提权。这种'一针见血'的工具属性对安全领域的技术人员来说，本身就具有很强的吸引力与实用主义的魅力。",
+        "isVibeCoding": true,
+        "communityActivity": "基于1个开启和2个关闭的Issue，社区互动有限，但有初步的反馈和解决。",
+        "category": "安全",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-05-02T04:45:47.897Z"
+    },
+    {
+      "owner": "jackwener",
+      "repo": "OpenCLI",
+      "fullName": "jackwener/OpenCLI",
+      "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "ai-agents",
+        "ai-tools",
+        "cli"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-14T22:10:23Z",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "analysis": {
+        "positioning": "将任意网站/工具转为标准化CLI，赋能AI Agent。",
+        "useCases": [
+          "你做AI Agent工具集成 → 它帮你将无API网站/应用封装成Agent可用的CLI工具。",
+          "你做重复性浏览器操作/本地工具链自动化 → 它帮你将这些操作固化为确定性CLI命令。",
+          "你做AI Agent新技能开发 → 它提供AI辅助的适配器编写和验证流程。"
+        ],
+        "audience": "AI Agent开发者、自动化工程师，以及需要将复杂系统CLI化的技术人员。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 21",
+          "steps": [
+            "node --version",
+            "npm install -g @jackwener/opencli"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "Apache-2.0 License，运行时零LLM成本。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心在于将外部工具标准化为AI Agent可用的CLI接口，并通过AI辅助适配器开发，极大地提升了AI Agent与世界的交互能力。并非直接代码生成，而是赋能AI Agent使用工具和辅助工具开发。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开启89 / 已关闭0，说明项目活跃但问题解决效率可能较低，或仍在早期集中解决问题阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-02T04:46:18.774Z"
     }
   ]
 }
