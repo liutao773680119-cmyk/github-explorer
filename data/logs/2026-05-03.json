@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-05-03",
+  "startedAt": "2026-05-03T05:01:24.834Z",
+  "finishedAt": "2026-05-03T05:04:23.240Z",
+  "durationSeconds": 178,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 7,
+    "skipped": 97,
+    "geminiCalls": 7,
+    "statsUpdated": 104
+  },
+  "errors": [
+    {
+      "time": "2026-05-03T05:04:10.800Z",
+      "level": "error",
+      "project": "obra/superpowers",
+      "stage": "github_fetch",
+      "message": "HttpError: We couldn't respond to your request in time. Sorry about that. Please try resubmitting your request and contact us if the problem persists.",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

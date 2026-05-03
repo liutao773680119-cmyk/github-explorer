@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-02T04:46:18.784Z",
+  "updatedAt": "2026-05-03T05:03:26.006Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -24528,6 +24528,344 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-02T04:46:18.774Z"
+    },
+    {
+      "owner": "Meow-Calculations",
+      "repo": "DeepSeek_Web_To_API",
+      "fullName": "Meow-Calculations/DeepSeek_Web_To_API",
+      "description": "",
+      "language": "Go",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-03T03:21:01Z",
+      "url": "https://github.com/Meow-Calculations/DeepSeek_Web_To_API",
+      "analysis": {
+        "positioning": "自托管Go网关，将DeepSeek Web能力封装为兼容OpenAI等API。",
+        "useCases": [
+          "你依赖DeepSeek Web版专属功能 → 它帮你将这些能力封装成标准API，方便程序调用和集成。",
+          "你管理多个DeepSeek Web账号或需要团队共享 → 它帮你实现账号池化、自动轮换、并发管理，提高利用率。",
+          "你需要将DeepSeek能力整合进多模态/多LLM应用 → 它帮你提供兼容OpenAI/Claude/Gemini风格的统一API接口，降低开发难度。",
+          "你需要追踪DeepSeek对话历史、优化API调用性能或便捷管理 → 它提供响应缓存、服务端历史记录和React管理后台。"
+        ],
+        "audience": "希望通过API而非网页使用DeepSeek Web特有功能，或需高效管理多个DeepSeek Web账号的开发者、团队及个人用户。",
+        "quickStart": {
+          "prerequisites": "Docker和Docker Compose",
+          "steps": [
+            "复制示例配置：cp config.example.json config.json",
+            "复制环境变量：cp .env.example .env",
+            "启动服务：docker compose up -d"
+          ],
+          "note": "默认通过宿主机6011端口访问服务，管理台在 http://127.0.0.1:6011/admin。"
+        },
+        "competitors": [
+          {
+            "name": "DeepSeek官方API",
+            "method": "直接API调用",
+            "models": "官方支持模型（可能与Web版有差异）",
+            "pricing": "按量付费"
+          },
+          {
+            "name": "LiteLLM",
+            "method": "统一API接口，代理多种官方LLM",
+            "models": "广泛支持各类官方LLM",
+            "pricing": "免费网关，底层LLM按量付费"
+          }
+        ],
+        "pricing": "免费（需自备DeepSeek Web账号，可能产生DeepSeek官方费用）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目功能全面，支持多协议兼容API、账号管理、缓存、历史记录和用户友好的React管理后台。部署方式多样，文档清晰，体现出较高的开发质量和实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，Star数较低，暂无Issue记录，社区活跃度有待观察和提升。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-03T05:01:42.017Z"
+    },
+    {
+      "owner": "appergb",
+      "repo": "openless",
+      "fullName": "appergb/openless",
+      "description": "Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (按住快捷键说话，松开即得润色后的文字)",
+      "language": "HTML",
+      "topics": [
+        "ai-prompt",
+        "asr",
+        "dictation",
+        "llm",
+        "macos",
+        "open-source",
+        "prompt-engineering",
+        "rust",
+        "speech-to-text",
+        "swift",
+        "tauri",
+        "typeless",
+        "typeless-alternative",
+        "voice-input",
+        "windows",
+        "wispr-flow-alternative"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-27T07:25:49Z",
+      "url": "https://github.com/appergb/openless",
+      "analysis": {
+        "positioning": "AI润色语音输入，跨平台开源，高效生成AI提示词。",
+        "useCases": [
+          "你写AI提示词 → 它帮你语音输入，AI润色成结构化、高质量提示词，直接喂给ChatGPT。",
+          "你在任何应用打字 → 它帮你语音输入，AI润色文本，光标处直接出现，省去手动输入。",
+          "你进行日常文本输入 → 它帮你将随口说出的内容，整理成清晰、准确的文字，提高效率。"
+        ],
+        "audience": "频繁打字、需要高效撰写AI提示词、追求输入效率的Mac/Windows用户，尤其适合开发者、内容创作者等。",
+        "quickStart": {
+          "prerequisites": "macOS 12+ 或 Windows 10+",
+          "steps": [
+            "从GitHub Release下载并安装应用。",
+            "设置全局快捷键，按住说话，松开即得AI润色后的文字。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Typeless",
+            "method": "语音输入",
+            "models": "供应商私有",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Wispr Flow",
+            "method": "语音输入",
+            "models": "供应商私有",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Superwhisper",
+            "method": "语音输入",
+            "models": "供应商私有",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了语音输入痛点，特别是针对AI提示词有独到优化，能将口语化内容结构化。开源跨平台，技术栈现代（Rust/Tauri），具备核心竞争力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区非常活跃，已关闭Issue数量远超开启，显示项目维护积极且响应及时。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-03T05:02:08.866Z"
+    },
+    {
+      "owner": "Cuimao777",
+      "repo": "cuimao-translator",
+      "fullName": "Cuimao777/cuimao-translator",
+      "description": "一键将英文PDF翻译为流畅中文的Claude Code技能",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T16:30:21Z",
+      "url": "https://github.com/Cuimao777/cuimao-translator",
+      "analysis": {
+        "positioning": "一键将英文PDF翻译为流畅中文的Claude Code技能。",
+        "useCases": [
+          "你阅读英文原版书籍时 → 它帮你快速生成地道中文译本，告别机翻腔。",
+          "你需要出版级翻译质量 → 它帮你通过“精翻”模式，多轮审校润色，达到专业标准。",
+          "你担心AI翻译生硬欧化 → 它帮你自动检测并修正六大欧化中文通病。"
+        ],
+        "audience": "追求英文PDF书籍高质量、地道中文翻译的Claude Code用户、学生、研究人员及专业译者。",
+        "quickStart": {
+          "prerequisites": "已安装并配置Claude Code环境。",
+          "steps": [
+            "`git clone https://github.com/Cuimao777/cuimao-translator.git ~/.claude/skills/cuimao-translator`",
+            "重启Claude Code。",
+            "在Claude Code中直接说「翻译这个PDF」。"
+          ],
+          "note": "专为Claude Code环境设计，非通用AI工具。"
+        },
+        "competitors": [
+          {
+            "name": "DeepL/Google Translate",
+            "method": "网页上传PDF/文本复制",
+            "models": "自研翻译引擎",
+            "pricing": "免费版有限制/免费"
+          },
+          {
+            "name": "ChatGPT/Claude（通用版）",
+            "method": "对话界面上传PDF/文本",
+            "models": "GPT-4/Claude 3等",
+            "pricing": "免费版有限制/高级版付费"
+          }
+        ],
+        "pricing": "免费 (开源代码，运行依赖Claude Code环境及相关API费用)。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README结构清晰，核心价值主张明确。详尽阐述翻译模式、风格、哲学及欧化中文检测机制，体现对翻译质量的深刻理解。安装及使用示例直观易懂。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步，有1个开启Issue，暂无关闭记录，活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-03T05:02:28.665Z"
+    },
+    {
+      "owner": "watchtowrlabs",
+      "repo": "watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py",
+      "fullName": "watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-29T18:20:04Z",
+      "url": "https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py",
+      "analysis": {
+        "positioning": "cPanel/WHM认证绕过漏洞检测工具",
+        "useCases": [
+          "你怀疑cPanel/WHM存在漏洞 → 它帮你快速检测是否受CVE-2026-41940影响。",
+          "你需要进行安全审计 → 它为你提供cPanel/WHM漏洞状态的证据。",
+          "你负责漏洞响应 → 它协助确认系统是否可能已被攻击者利用。"
+        ],
+        "audience": "cPanel/WHM系统管理员、安全研究员、渗透测试人员，用于快速评估和验证cPanel/WHM服务器的认证绕过漏洞风险。",
+        "quickStart": {
+          "prerequisites": "Python 3 环境。",
+          "steps": [
+            "下载脚本：`git clone https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py.git`",
+            "运行检测：`python watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py --target https://你的cPanel_WHM地址:2087/`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码简洁，目标明确，Readme 清晰提供使用示例，专注于特定安全漏洞的检测，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区互动不活跃，Issue 0/0。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-03T05:02:40.217Z"
+    },
+    {
+      "owner": "UzenUPozitiv4ik",
+      "repo": "gpt-image-2-skill",
+      "fullName": "UzenUPozitiv4ik/gpt-image-2-skill",
+      "description": "A universal skill for generating realistic images",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-30T11:07:52Z",
+      "url": "https://github.com/UzenUPozitiv4ik/gpt-image-2-skill",
+      "analysis": {
+        "positioning": "GPT Image 2提示词增强技能，生成逼真高质量图像。",
+        "useCases": [
+          "你手动编写GPT Image 2提示词 → 它帮你将短提示词优化成逼真照片。",
+          "你想生成电影级构图和光影画面 → 它帮你生成电影剧照风格图像。",
+          "你需要UI、信息图、表情包的视觉素材 → 它帮你快速生成符合特定需求的概念图。"
+        ],
+        "audience": "GPT Image 2用户，希望通过优化提示词生成更真实、高质量图像的设计师、营销人员或内容创作者。",
+        "quickStart": {
+          "prerequisites": "需使用开启记忆功能的ChatGPT Web版，或Codex/API。",
+          "steps": [
+            "在ChatGPT Web版中启用Memory功能。",
+            "将提供的完整指令（REMEMBER THIS EXACTLY...）保存到ChatGPT。",
+            "通过AI（例如GPT-5.5）重写提示词，然后发送给gpt image 2生成图片。"
+          ],
+          "note": "推荐使用Codex或API获得最佳生成效果。"
+        },
+        "competitors": [],
+        "pricing": "免费 (Skill本身开源免费，但使用GPT Image 2 API可能涉及费用)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，详细的README提供了清晰的使用指南、模式和丰富示例。作为GPT Image 2的提示词优化工具，具有很高的实用价值。但目前社区互动（Issue）较少。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区活跃度较低，无开启或关闭的Issue。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-03T05:02:56.559Z"
+    },
+    {
+      "owner": "vibeforge1111",
+      "repo": "keep-codex-fast",
+      "fullName": "vibeforge1111/keep-codex-fast",
+      "description": "A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-02T08:57:24Z",
+      "url": "https://github.com/vibeforge1111/keep-codex-fast",
+      "analysis": {
+        "positioning": "Codex本地状态优化助手，告别卡顿。",
+        "useCases": [
+          "你Codex用久了卡顿 → 它帮你检查并清理本地状态，提速。",
+          "你想清理旧聊天又怕丢上下文 → 它帮你生成交接文档并安全归档。",
+          "你多项目、多终端导致Codex臃肿 → 它帮你识别并优化无用文件和进程。"
+        ],
+        "audience": "频繁使用Codex，积累大量上下文导致卡顿，希望安全管理本地状态的开发者。",
+        "quickStart": {
+          "prerequisites": "已安装Codex",
+          "steps": [
+            "向Codex提问：Install the keep-codex-fast skill from https://github.com/vibeforge1111/keep-codex-fast",
+            "向Codex提问：Use $keep-codex-fast to inspect my Codex local state and recommend a safe maintenance plan."
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为Codex的维护工具，它通过确保工作环境的流畅和上下文的完整性，间接提升了编程体验。尤其“先交接后归档”的理念很Vibe。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比良好，但整体活跃度较低。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-03T05:03:09.636Z"
+    },
+    {
+      "owner": "skydoves",
+      "repo": "compose-performance-skills",
+      "fullName": "skydoves/compose-performance-skills",
+      "description": "⚡️ A curated library of Agent Skills focused on Jetpack Compose performance.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "android",
+        "claude",
+        "claude-code",
+        "compose",
+        "compose-performance",
+        "jetpack-compose",
+        "kotlin",
+        "llm-tools",
+        "recomposition",
+        "skydoves"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-29T08:02:27Z",
+      "url": "https://github.com/skydoves/compose-performance-skills",
+      "analysis": {
+        "positioning": "专为LLM Agent打造的Jetpack Compose性能优化技能库。",
+        "useCases": [
+          "你作为Android开发者，遇到Jetpack Compose应用卡顿 → LLM Agent利用此技能库为你诊断并修复性能瓶颈。",
+          "你想赋能你的AI编码助手，使其精通Compose性能优化 → 它提供标准化、可加载的Agent Skill集合。",
+          "你想深入理解Compose性能优化的原理和最佳实践 → 它可以作为高质量知识库，提供引用溯源。"
+        ],
+        "audience": "使用LLM Agent进行Android开发的Jetpack Compose开发者和团队，尤其关注性能优化场景。",
+        "quickStart": {
+          "prerequisites": "需有支持Agent Skills标准的LLM运行时 (如Anthropic Claude Code, Android Studio Agent mode, Gemini等)。",
+          "steps": [
+            "克隆 `skydoves/compose-performance-skills` 项目到本地。",
+            "根据所用LLM运行时的说明，配置其加载本地的Agent Skills目录。",
+            "向LLM Agent提问Compose性能相关问题，Agent将自动调用相关技能进行分析和处理。"
+          ],
+          "note": "主要在Claude Code上迭代测试，其他兼容Agent Skills标准的运行时理论上可用但未独立测试。此库非Google官方技能库，需本地加载而非通过CLI安装。"
+        },
+        "competitors": [
+          {
+            "name": "android/skills",
+            "method": "Google官方技能库，通过CLI安装或Agent运行时加载。",
+            "models": "支持Anthropic Claude, Android Studio Agent mode, Gemini等兼容Agent Skills标准的LLM。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "专注于Jetpack Compose性能优化这一细分且高痛点领域。通过标准化的Agent Skills格式，直接赋能LLM Agent进行自动化诊断与修复，且技能内容均有可靠来源，极具专业性和实用价值。对于采用LLM Agent进行开发的团队而言，能显著提升效率和代码质量。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低（0开/1关），但鉴于其内容库性质，项目核心价值在于技能内容本身，更新和维护可能更多体现在技能内容上。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-03T05:03:25.996Z"
     }
   ]
 }
