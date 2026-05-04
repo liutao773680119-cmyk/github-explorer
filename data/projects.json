@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-03T05:03:26.006Z",
+  "updatedAt": "2026-05-04T05:04:39.498Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -24866,6 +24866,485 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-03T05:03:25.996Z"
+    },
+    {
+      "owner": "WeritoP",
+      "repo": "FL-STUDIO-PATCHER",
+      "fullName": "WeritoP/FL-STUDIO-PATCHER",
+      "description": "Fl Stduio patch for lifetime works",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-04T01:04:55Z",
+      "url": "https://github.com/WeritoP/FL-STUDIO-PATCHER",
+      "analysis": {
+        "positioning": "FL Studio 终身激活补丁，绕过授权限制，实现免费使用。",
+        "useCases": [
+          "你希望免费使用 FL Studio 的所有高级功能 → 它帮你一键激活，无需购买。",
+          "你不想承担 FL Studio 高昂的授权费用 → 它提供免费的绕过方案，长期可用。",
+          "你厌倦了授权到期或付费续订的烦恼 → 它提供一次性激活，免除后顾之忧。"
+        ],
+        "audience": "希望免费获取 FL Studio 完整功能、避免付费订阅或授权限制的音乐创作者和爱好者。",
+        "quickStart": {
+          "prerequisites": "已安装 FL Studio 软件；已下载补丁程序（下载链接在文本文件中）。",
+          "steps": [
+            "禁用杀毒软件（尤其是 Windows Defender）。",
+            "将补丁压缩包内容解压到 FL Studio 的安装目录。",
+            "运行解压后的补丁程序。"
+          ],
+          "note": "仅限 Windows 平台。"
+        },
+        "competitors": [
+          {
+            "name": "FL Studio 官方授权",
+            "method": "购买正版许可或订阅",
+            "models": "所有 FL Studio 版本",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他 FL Studio 破解工具/激活码生成器",
+            "method": "类似补丁、序列号输入",
+            "models": "通常针对特定版本",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。通过非官方手段为 FL Studio 软件提供终身激活服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在通过非官方手段绕过软件授权，涉嫌侵犯知识产权。虽然提供了明确的安装指南和功能，但其目的具有法律和道德风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何 Issue 记录，无法评估响应速度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-04T05:02:23.184Z"
+    },
+    {
+      "owner": "pixelxzen",
+      "repo": "phantom-motion",
+      "fullName": "pixelxzen/phantom-motion",
+      "description": "Phantom-Motion is an incredibly powerful, epic interactive dynamic visual storytelling generator. Its capabilities are limited only by the bounds of your imagination! 它是一个极其硬核的史诗级交互式动态视觉叙事生成器。它的实力只取决于你的想象力高低！",
+      "language": "HTML",
+      "topics": [
+        "gsp",
+        "html",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-04T01:27:04Z",
+      "url": "https://github.com/pixelxzen/phantom-motion",
+      "analysis": {
+        "positioning": "AI驱动，剧本转4K电影级动态视觉叙事视频。",
+        "useCases": [
+          "你想将AI剧本转为专业视频 → 它帮你生成4K 60FPS音画同步的商业级MP4大片",
+          "你厌倦传统代码动画的生硬 → 它帮你实现好莱坞电影级运镜与高级视效",
+          "你需要高级数据可视化动画 → 它帮你将数据转化为东方美学动态图表",
+          "你想展示3D非遗与科技结合 → 它帮你用全息模式演绎高精模型"
+        ],
+        "audience": "有电影级动画生成需求、追求极致视觉效果的AI智能体开发者和内容创作者。",
+        "quickStart": {
+          "prerequisites": "Node.js, Python3",
+          "steps": [
+            "安装Node.js/Python3，执行npm install和pip install requests。",
+            "将仓库集成到Claude Code等AI IDE，或注册SKILL.md到Agent Prompt。",
+            "输入触发词唤醒智能体，AI自动完成视频生成。"
+          ],
+          "note": "需将项目作为AI智能体Skill或Workspace集成，通过System Prompt驱动。"
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0开源协议，不依赖闭源付费插件）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述大量使用“极其硬核”、“史诗级”、“降维打击”、“次世代”、“大片”等极致修饰词，以及“实力只取决于你的想象高低”等夸张说法，情感色彩极强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，项目刚起步，几乎没有用户反馈或贡献（22 Star，0 Issue）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-04T05:02:35.398Z"
+    },
+    {
+      "owner": "Tommy-yw",
+      "repo": "RunbookHermes",
+      "fullName": "Tommy-yw/RunbookHermes",
+      "description": "Hermes-native AIOps agent for evidence-driven incident response, approval-gated remediation, and runbook learning.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-01T07:30:53Z",
+      "url": "https://github.com/Tommy-yw/RunbookHermes",
+      "analysis": {
+        "positioning": "AIOps智能运维代理，驱动事件响应与自愈。",
+        "useCases": [
+          "你的支付系统故障了 → 它帮你分析根因并自动化审批修复",
+          "发现服务异常却不知所措 → 它通过多维数据（日志、指标、追踪）驱动故障诊断",
+          "每次处理故障都耗时耗力 → 它学习并积累运行手册经验，加速故障响应"
+        ],
+        "audience": "运维工程师、SRE团队。尤其适用于处理支付系统等关键业务故障，追求自动化、证据驱动的故障响应与自愈能力。",
+        "quickStart": {
+          "prerequisites": "Hermes Agent运行环境（RunbookHermes基于其官方Agent构建）",
+          "steps": [
+            "目前文档未提供快速启动或部署的具体步骤，主要展示产品界面。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和截图专业详尽，功能定位清晰，技术栈主流。但Issue统计为零，社区活跃度尚未体现，可能是新项目或内部孵化。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为零，社区活跃度尚未体现。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-04T05:03:02.047Z"
+    },
+    {
+      "owner": "tddworks",
+      "repo": "baguette",
+      "fullName": "tddworks/baguette",
+      "description": "Headless iOS Simulator manager/farm + host-side input injection for iOS 26 — taps, swipes, multi-finger gestures, and 60 fps streaming",
+      "language": "Swift",
+      "topics": [
+        "agent",
+        "apple",
+        "cli",
+        "devicefarm",
+        "indigohid",
+        "ios",
+        "simulator",
+        "simulatorkit",
+        "streaming"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-01T08:14:13Z",
+      "url": "https://github.com/tddworks/baguette",
+      "analysis": {
+        "positioning": "无头iOS模拟器管理与输入注入工具",
+        "useCases": [
+          "你需要批量管理iOS模拟器 → 它帮你自动化创建、启动、关闭模拟器。",
+          "你希望远程控制或自动化测试iOS应用 → 它提供60fps屏幕流和无GUI输入注入。",
+          "你需构建iOS模拟器设备农场或多设备协同测试 → 它提供Web UI和多设备控制面板。"
+        ],
+        "audience": "iOS开发者、测试工程师和CI/CD管理员，用于高效自动化测试和设备管理。",
+        "quickStart": {
+          "prerequisites": "macOS 15+ 和 Xcode 26+",
+          "steps": [
+            "`brew install tddworks/tap/baguette`",
+            "`baguette serve` 以启动Web UI"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Appium",
+            "method": "WebDriver协议，多语言支持",
+            "models": "iOS/Android模拟器及真机",
+            "pricing": "免费"
+          },
+          {
+            "name": "Detox",
+            "method": "JavaScript测试框架，直接交互",
+            "models": "iOS/Android模拟器",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "优秀的代码结构（领域驱动设计）、全面测试（110+ Mockable测试）、高代码覆盖率和活跃CI/CD，体现了高质量工程实践。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 数量很少。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-05-04T05:03:19.313Z"
+    },
+    {
+      "owner": "nikzad-avasam",
+      "repo": "downloader",
+      "fullName": "nikzad-avasam/downloader",
+      "description": "for 🇮🇷 🪄 download files + 🌐 browse websites",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-28T10:53:36Z",
+      "url": "https://github.com/nikzad-avasam/downloader",
+      "analysis": {
+        "positioning": "将大文件下载并永久存储到GitHub仓库的工具。",
+        "useCases": [
+          "你需要在网络受限地区下载文件 → 它帮你通过GitHub Actions下载并永久存储文件。",
+          "你需要下载超大文件 → 它帮你将文件自动分割、压缩并上传到GitHub仓库。",
+          "你需要远程管理下载的文件 → 它帮你自动分类、打包文件，并支持批量清理。"
+        ],
+        "audience": "需要利用GitHub免费存储和带宽优势，下载大文件或应对网络限制的用户，尤其是伊朗地区的用户。",
+        "quickStart": {
+          "prerequisites": "GitHub账号",
+          "steps": [
+            "Fork此仓库。",
+            "在你的Fork仓库中，进入Actions标签页，选择“AVASAM - Download from URLs & Save to Repo”工作流。",
+            "点击“Run Workflow”并输入文件的直接下载链接，即可开始下载。"
+          ],
+          "note": "下载文件会被分割成90MB大小，需使用7zip等工具解压；部分伊朗服务器可能限制下载。"
+        },
+        "competitors": [],
+        "pricing": "免费 (基于GitHub Actions的免费额度，超出额度后按GitHub Actions标准计费)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README内容丰富，包含GIF、视频教程链接、清晰的步骤说明，并详细解释了文件处理和使用注意事项，用户友好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前只有一个开启的Issue。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-04T05:03:33.014Z"
+    },
+    {
+      "owner": "tgies",
+      "repo": "copy-fail-c",
+      "fullName": "tgies/copy-fail-c",
+      "description": "Cross-platform C port of the Copy Fail Linux LPE (CVE-2026-31431). Disclosed 2026-04-29 by Theori / Xint.",
+      "language": "C",
+      "topics": [
+        "af-alg",
+        "copy-fail",
+        "cve-2026-31431",
+        "exploit",
+        "kernel-exploit",
+        "linux-kernel",
+        "local-privilege-escalation",
+        "nolibc",
+        "portable-c",
+        "privilege-escalation",
+        "proof-of-concept",
+        "security-research"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-29T23:29:14Z",
+      "url": "https://github.com/tgies/copy-fail-c",
+      "analysis": {
+        "positioning": "CVE-2026-31431 Linux内核LPE漏洞跨平台C语言利用工具。",
+        "useCases": [
+          "你发现Linux系统存在CVE-2026-31431漏洞 → 它帮你以root权限执行任意命令。",
+          "你进行安全研究或红队演练 → 它帮你测试Linux内核漏洞利用能力，并验证防御措施。",
+          "你需高效、隐蔽地进行特权提升 → 它帮你生成体积小、可移植的C语言LPE二进制文件。"
+        ],
+        "audience": "适用于安全研究员、渗透测试人员和红队成员，用于Linux内核漏洞利用研究、测试及特权提升。",
+        "quickStart": {
+          "prerequisites": "GCC或其他C编译器，`make`工具。",
+          "steps": [
+            "克隆项目仓库。",
+            "运行 `make` 命令编译生成 `exploit`、`exploit-passwd` 和 `vulnerable`。",
+            "执行 `./exploit` 或 `./exploit-passwd` 进行漏洞利用。"
+          ],
+          "note": "目标系统为Linux内核，生成的二进制文件具备跨架构可移植性。"
+        },
+        "competitors": [
+          {
+            "name": "原始Python PoC (CVE-2026-31431)",
+            "method": "运行732字节的Python脚本",
+            "models": "仅限Linux",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个高度专业化的安全工具，专注于底层内核漏洞利用，技术门槛较高，非通用开发场景，与“vibe coding”的轻松愉悦氛围不符。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度中等，开启Issue多于关闭Issue，表明有持续的关注和问题待解决。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-04T05:03:43.789Z"
+    },
+    {
+      "owner": "matthart1983",
+      "repo": "syswatch",
+      "fullName": "matthart1983/syswatch",
+      "description": "Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux.",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-02T03:18:06Z",
+      "url": "https://github.com/matthart1983/syswatch",
+      "analysis": {
+        "positioning": "终端里的系统诊断全能工具，取代多个传统命令。",
+        "useCases": [
+          "你手动敲 `htop` `top` `mpstat` 查看CPU负载 → 它帮你用CPU标签页直观诊断，并提供历史趋势。",
+          "你感觉系统变慢但无从下手，需要挨个命令排查 → 它帮你通过Insights标签页自动检测异常并给出白话解释。",
+          "你需要监控macOS/Linux多系统指标（CPU/内存/磁盘/进程/GPU/电源等）→ 它帮你用一个TUI集成展示12个关键维度，支持会话回溯。"
+        ],
+        "audience": "开发者、SRE、系统管理员或任何需要快速、集成式 macOS/Linux 系统健康检查的用户。",
+        "quickStart": {
+          "prerequisites": "Rust 1.75+",
+          "steps": [
+            "克隆仓库并进入目录",
+            "编译项目",
+            "运行可执行文件"
+          ],
+          "note": "Linux无额外系统依赖，macOS链接系统框架。"
+        },
+        "competitors": [
+          {
+            "name": "htop",
+            "method": "CLI命令，半TUI",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "iostat",
+            "method": "CLI命令",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "nettop",
+            "method": "CLI命令",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Rust编写，性能可靠。README详尽，功能明确，演示清晰，提供多种常用命令的替代方案，并有独创的Insights功能，将复杂诊断结果用'白话'呈现，非常有价值。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区活动度低，尚无Issue记录，项目处于早期版本(v0.1)。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-04T05:03:57.993Z"
+    },
+    {
+      "owner": "pluk-inc",
+      "repo": "md-preview.app",
+      "fullName": "pluk-inc/md-preview.app",
+      "description": "A simple Markdown viewer for reading .md files",
+      "language": "Swift",
+      "topics": [
+        "macos",
+        "markdown"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-28T04:55:41Z",
+      "url": "https://github.com/pluk-inc/md-preview.app",
+      "analysis": {
+        "positioning": "macOS上极速、原生且功能强大的Markdown阅读器。",
+        "useCases": [
+          "你打开一个Markdown文件 → 它给你一个干净、可滚动的原生预览，支持Mermaid图和数学公式。",
+          "你在Finder里想快速查看Markdown内容 → 它提供系统级Quick Look预览，无需打开应用。",
+          "你需要高效阅读长Markdown文档 → 它提供文档大纲和内嵌搜索，并能快速切换到你喜欢的编辑器。"
+        ],
+        "audience": "需要一个快速、原生、功能全面且深度集成macOS的Markdown阅读和预览工具的开发者或普通用户。",
+        "quickStart": {
+          "prerequisites": "macOS 15+",
+          "steps": [
+            "下载并安装`md-preview.app`。",
+            "拖拽`.md`文件到应用图标，或将它设为默认`.md`文件处理器以开始预览。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Typora",
+            "method": "所见即所得的Markdown编辑器和预览器",
+            "models": "标准Markdown，支持部分扩展",
+            "pricing": "付费（有试用期）"
+          },
+          {
+            "name": "VS Code (内置Markdown预览)",
+            "method": "通用代码编辑器，通过内置功能预览Markdown",
+            "models": "标准Markdown，通过扩展支持更多",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于MIT许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为macOS上的原生Markdown应用，它功能强大（支持Mermaid、数学公式、Quick Look），UI简洁，运行快速，且能与用户现有编辑器无缝衔接，体现了高质量的工程实践和用户体验设计。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开启数略高于关闭数（5开2闭），社区活跃度一般，但项目质量高。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-05-04T05:04:12.886Z"
+    },
+    {
+      "owner": "simchowitzlabpublic",
+      "repo": "nano-world-model",
+      "fullName": "simchowitzlabpublic/nano-world-model",
+      "description": "A Minimalist, Batteries-included Repository for Advancing World Model Science.",
+      "language": "Python",
+      "topics": [
+        "diffusion-forcing",
+        "diffusion-models",
+        "model-predictive-control",
+        "nano",
+        "planning",
+        "robot-manipulation",
+        "streaming-video",
+        "video-generation",
+        "world-model"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-30T12:47:25Z",
+      "url": "https://github.com/simchowitzlabpublic/nano-world-model",
+      "analysis": {
+        "positioning": "极简、全功能的视频世界模型训练与应用平台",
+        "useCases": [
+          "你想快速实验视频世界模型 → 它提供极简环境，从克隆到首次推出只需几分钟",
+          "你需要构建基于扩散模型的机器人规划系统 → 它提供MPC规划能力，支持机器人操作",
+          "你要分析不同世界模型配置的性能 → 它提供统一训练/评估流程及消融实验支持，确保科学透明"
+        ],
+        "audience": "专注于视频世界模型研究的AI科学家、机器人开发者，以及需要快速迭代和透明实验的研究人员。",
+        "quickStart": {
+          "prerequisites": "conda",
+          "steps": [
+            "克隆项目，创建并激活Conda环境：`git clone ... && cd nano-world-model && conda env create ... && conda activate nanowm`",
+            "设置数据路径（如`export DATASET_DIR=/path/to/dino_wm_data`），然后运行一个DINO-WM PushT模型的训练：`python src/main.py experiment=dino_wm_pusht dataset=dino_wm/pusht model=nanowm_b2`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，MIT许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码库清晰，依赖极简，提供Hydra配置系统统一管理流程。Quick Start步骤详尽，易于从克隆到首次运行，并支持科学透明的实验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少，目前2开0关，社区活跃度较低，可能处于早期阶段或内部维护为主。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-04T05:04:25.312Z"
+    },
+    {
+      "owner": "aattaran",
+      "repo": "deepclaude",
+      "fullName": "aattaran/deepclaude",
+      "description": "Use Claude Code's autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-03T21:27:49Z",
+      "url": "https://github.com/aattaran/deepclaude",
+      "analysis": {
+        "positioning": "用更便宜的模型替代Claude Code昂贵大脑，享受相同的智能编程Agent体验。",
+        "useCases": [
+          "你想用Claude Code自主编程，但嫌API成本高 → 它帮你用DeepSeek等模型，成本降低17倍。",
+          "你希望在保持Claude Code强大工具链下，灵活切换大模型 → 它提供命令行工具，即时切换后端模型。",
+          "你追求高性能AI编程，同时又重视性价比 → 它让你以低成本体验Claude Code级别的自主多步编程。"
+        ],
+        "audience": "寻求高性价比的AI自主编程Agent用户，尤其是Claude Code的重度用户，希望能大幅降低使用成本。",
+        "quickStart": {
+          "prerequisites": "DeepSeek API key (建议充值5美元以上信用额度)",
+          "steps": [
+            "获取DeepSeek API Key。",
+            "设置 DEEPSEEK_API_KEY 环境变量。",
+            "安装 deepclaude 脚本。",
+            "运行 deepclaude 启动自主编程。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Claude Code (Anthropic官方)",
+            "method": "直接调用Anthropic官方API",
+            "models": "Claude Opus/Sonnet/Haiku",
+            "pricing": "付费，每月最高200美元，有使用限额"
+          }
+        ],
+        "pricing": "核心工具免费，使用需支付第三方大模型API费用（比Anthropic官方价格便宜高达17倍）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目专注于通过替换后端模型来大幅降低AI编程Agent的使用成本，核心价值在于实用性和效率优化，而非提升编程过程的趣味性或创造性“vibe”。",
+        "isVibeCoding": false,
+        "communityActivity": "项目处于早期阶段，Issues 开启3/关闭0，社区活跃度尚待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-04T05:04:39.487Z"
     }
   ]
 }
