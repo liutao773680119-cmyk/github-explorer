@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-04T05:04:39.498Z",
+  "updatedAt": "2026-05-05T04:46:56.739Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -25345,6 +25345,334 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-04T05:04:39.487Z"
+    },
+    {
+      "owner": "WeritoP",
+      "repo": "LInjector-FORKED-",
+      "fullName": "WeritoP/LInjector-FORKED-",
+      "description": "🔨 LInjector. An open-source Luau Script IDE allowing easy integration with diverse purposes. Working version at the website below. ⬇️",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-04T06:11:34Z",
+      "url": "https://github.com/WeritoP/LInjector-FORKED-",
+      "analysis": {
+        "positioning": "Luau脚本IDE与执行器，集成度高，可定制。",
+        "useCases": [
+          "你开发Luau脚本 → 它提供VS Code同款Monaco编辑器，带语法高亮。",
+          "你需要快速运行Luau脚本 → 它声称注入速度快（约0.3秒），且支持UWP版本。",
+          "你想定制或集成Luau脚本能力 → 它是开源的，允许你修改源码并集成自己的DLL。"
+        ],
+        "audience": "面向Luau脚本开发者，尤其是需要高效执行或定制脚本环境的用户，可能与Roblox UWP生态相关。",
+        "quickStart": {
+          "prerequisites": "Visual Studio 2022, .NET Framework 4.8。",
+          "steps": [
+            "克隆仓库",
+            "用Visual Studio 2022打开LInjector.sln",
+            "设置Release x86",
+            "构建解决方案 (CTRL + SHIFT + B)"
+          ],
+          "note": "如果首次打开Forms加载失败，重启Visual Studio即可解决。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目状态波动大（如“PATCHED”、“WORKING 2026”），说明了对抗性环境下的不确定性。代码存在未注释部分。项目声明其为“exploit”并拒绝滥用责任，表明其处于灰色地带。优点是开源透明，构建清晰，且声称性能优异。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues不活跃（0开0关），但README指引通过Discord联系。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-05T04:45:17.391Z"
+    },
+    {
+      "owner": "vercel-labs",
+      "repo": "deepsec",
+      "fullName": "vercel-labs/deepsec",
+      "description": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-30T16:16:11Z",
+      "url": "https://github.com/vercel-labs/deepsec",
+      "analysis": {
+        "positioning": "AI Agent驱动的内部代码安全漏洞扫描工具。",
+        "useCases": [
+          "你拥有大型复杂代码库 → 它帮你用AI agent挖掘传统工具难以发现的深层安全漏洞。",
+          "你想在内部运行高度定制化的安全扫描 → 它让你在自有基础设施中部署，并引导AI agent理解代码库。",
+          "你需要高精度、高投入的安全评审 → 它通过顶级AI模型，以高成本换取对潜在高风险漏洞的快速修补。"
+        ],
+        "audience": "寻求前沿AI驱动代码安全分析的大型企业、安全团队及高级开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js/pnpm，一个可编程的AI Agent（如Claude）。",
+          "steps": [
+            "在你代码库根目录运行 `npx deepsec init` 初始化项目。",
+            "进入 `.deepsec` 目录并 `pnpm install` 安装依赖。",
+            "引导AI Agent阅读文档并配置项目信息（生成 `INFO.md`）。",
+            "运行 `pnpm deepsec scan`、`process` 和 `export` 获取发现。"
+          ],
+          "note": "首次启动需要AI Agent帮助生成项目特定配置信息。"
+        },
+        "competitors": [],
+        "pricing": "付费，运营成本高昂。扫描大型代码库可能花费数千到数万美元，主要来自底层AI模型调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目来自`vercel-labs`，强调由“编码代理”驱动，并需要手动引导AI生成项目配置（`INFO.md`）。扫描成本高昂，面向高精度、高投入的早期探索用户。",
+        "isVibeCoding": true,
+        "communityActivity": "早期阶段，社区活跃度较低（3开/3关issue）。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-05T04:45:32.860Z"
+    },
+    {
+      "owner": "Kappaemme-git",
+      "repo": "codex-startup-pressure-test-skill",
+      "fullName": "Kappaemme-git/codex-startup-pressure-test-skill",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-03T08:20:20Z",
+      "url": "https://github.com/Kappaemme-git/codex-startup-pressure-test-skill",
+      "analysis": {
+        "positioning": "Codex平台的初创点子AI诊断器，残酷测试创业想法。",
+        "useCases": [
+          "你有一个新创业点子 → 它帮你提供一份创始人视角的深度诊断报告，包含优劣势和MVP方向。",
+          "你不确定产品痛点是否真实、竞争格局如何 → 它帮你验证问题真实性，并绘制竞争对手地图。",
+          "你想快速验证创业想法并获取早期用户 → 它帮你规划两周MVP和前10位客户获取策略。"
+        ],
+        "audience": "初创公司创始人、独立开发者、产品经理，需要快速、客观地评估新项目或产品创意。",
+        "quickStart": {
+          "prerequisites": "已安装Codex AI Agent",
+          "steps": [
+            "运行 `npx --yes codex-startup-pressure-test-skill@latest` 安装技能。",
+            "重启Codex。",
+            "在Codex提示中用 `$startup-pressure-test` 调用技能。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用LLM产品（如ChatGPT, Claude）",
+            "method": "直接对话输入",
+            "models": "取决于具体产品",
+            "pricing": "免费增值/付费"
+          },
+          {
+            "name": "自定义Prompt",
+            "method": "手动撰写提示词",
+            "models": "取决于用户使用的LLM",
+            "pricing": "免费/取决于LLM"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为Codex的插件，它提供了一套预设且高效的创业想法诊断框架，省去了手动构建复杂Prompt的麻烦，针对性强，实用性高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区互动不活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-05T04:45:47.951Z"
+    },
+    {
+      "owner": "JustLikeCheese",
+      "repo": "LGBT-Prompt",
+      "fullName": "JustLikeCheese/LGBT-Prompt",
+      "description": "利用 AI 对 LGBT 弱势群体的 \"同情偏向\" 让他执行原先会被拒绝的请求",
+      "language": "HTML",
+      "topics": [
+        "jailbreak",
+        "prompt"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-03T06:11:46Z",
+      "url": "https://github.com/JustLikeCheese/LGBT-Prompt",
+      "analysis": {
+        "positioning": "利用情感弱势诱导AI越狱的提示词库。",
+        "useCases": [
+          "你输入此提示词 → AI帮你生成受限制的敏感内容",
+          "你输入此提示词 → AI帮你绕过审核进行特定任务",
+          "你输入此提示词 → AI帮你克服拒绝偏向，完成指令"
+        ],
+        "audience": "想绕过大模型安全限制、突破AI伦理边界的用户或研究者。",
+        "quickStart": {
+          "prerequisites": "支持文本输入的AI大模型（如ChatGPT/Claude）",
+          "steps": [
+            "选择一个版本，复制项目中的LGBT-Prompt提示词。",
+            "将其作为前置指令输入到AI大模型中，并提出你的请求。"
+          ],
+          "note": "不同AI模型或版本越狱成功率不同，可能需要反复尝试或调整。"
+        },
+        "competitors": [
+          {
+            "name": "DAN (Do Anything Now)",
+            "method": "角色扮演指令",
+            "models": "多数LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "祖母故事/情景诱导",
+            "method": "虚构场景或情感故事包装请求",
+            "models": "多数LLM",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，仅为提示词库，使用AI模型可能需付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "利用AI情感偏见进行越狱，手法独特但道德争议大，效果依赖模型敏感度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 数量极少，社区交流不活跃。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-05T04:46:02.300Z"
+    },
+    {
+      "owner": "techjarves",
+      "repo": "OpenClaude-Portable",
+      "fullName": "techjarves/OpenClaude-Portable",
+      "description": "Run Claude Code from a USB drive on any PC — no installation required.",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-30T01:34:22Z",
+      "url": "https://github.com/techjarves/OpenClaude-Portable",
+      "analysis": {
+        "positioning": "免安装、便携式AI编程助手，U盘即插即用",
+        "useCases": [
+          "你频繁更换工作电脑 → 它帮你从U盘启动AI编程助手，无需安装，不留痕迹",
+          "你担心数据隐私或网络受限 → 它帮你通过Ollama本地运行AI模型，数据安全，支持离线",
+          "你需在多种AI模型间切换 → 它帮你通过统一界面管理和调用7种AI模型，提升开发效率"
+        ],
+        "audience": "频繁更换开发环境的开发者、追求便捷与隐私的学生及自由职业者",
+        "quickStart": {
+          "prerequisites": "首次运行需网络连接",
+          "steps": [
+            "Windows: 运行 `START.bat`",
+            "Linux/macOS: 运行 `chmod +x start.sh` 和 `./start.sh`"
+          ],
+          "note": "首次启动需网络下载核心组件；数据和配置在`data/`目录下跨平台共享，支持Ollama本地离线"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "VS Code等IDE插件，需安装",
+            "models": "OpenAI Codex / GPT系列",
+            "pricing": "订阅付费"
+          },
+          {
+            "name": "Cursor",
+            "method": "独立IDE，需安装",
+            "models": "GPT-4, Claude 2等",
+            "pricing": "免费版/付费版"
+          }
+        ],
+        "pricing": "项目开源免费；多数AI服务需自备API Key，可能涉及模型提供商的收费；支持Ollama本地离线运行",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "免安装、U盘启动的便携性极具创新和实用价值；支持多平台和7种主流AI模型；文档清晰，配有视频演示，社区Issue处理及时，关闭率高",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，Issue关闭数显著高于开启数，维护者响应及时",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-05T04:46:21.728Z"
+    },
+    {
+      "owner": "ynsmroztas",
+      "repo": "cPanelSniper",
+      "fullName": "ynsmroztas/cPanelSniper",
+      "description": "CVE-2026-41940 — cPanel & WHM Authentication Bypass via Session-File CRLF Injection",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-01T12:09:26Z",
+      "url": "https://github.com/ynsmroztas/cPanelSniper",
+      "analysis": {
+        "positioning": "专注于利用CVE-2026-41940绕过cPanel/WHM认证的Python工具。",
+        "useCases": [
+          "你进行渗透测试 → 它帮你通过CVE-2026-41940绕过cPanel认证，获取root权限。",
+          "你评估cPanel/WHM安全性 → 它帮你批量扫描并利用CVE-2026-41940漏洞。",
+          "你分析cPanel漏洞 → 它帮你深入理解CVE-2026-41940的工作原理和多阶段利用链。"
+        ],
+        "audience": "适合网络安全专家、渗透测试工程师和漏洞研究人员，用于授权的渗透测试和漏洞赏金项目。",
+        "quickStart": {
+          "prerequisites": "安装 Python 3.8+ 环境",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/ynsmroztas/cPanelSniper.git`",
+            "进入项目目录并运行主脚本：`python3 cPanelSniper.py --target <target_url> ...` (具体参数需参考完整文档)"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档对漏洞原理、利用方式、影响范围及技术细节阐述非常清晰，包括CVSS评分、受影响范围和利用链，并且强调无外部依赖，易于部署和理解。对于目标用户来说，信息传达高效直观。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，刚有用户提出问题，尚未有解决记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-05T04:46:41.869Z"
+    },
+    {
+      "owner": "raiyanyahya",
+      "repo": "how-to-train-your-gpt",
+      "fullName": "raiyanyahya/how-to-train-your-gpt",
+      "description": "Build a modern LLM from scratch. Every line commented. Explained like we are five.",
+      "language": "Unknown",
+      "topics": [
+        "attention-mechanism",
+        "deep-learning",
+        "educational",
+        "from-scratch",
+        "gpt",
+        "language-model",
+        "llama",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "python",
+        "pytorch",
+        "tokenisation",
+        "transformers",
+        "tutorial"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-03T21:41:33Z",
+      "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
+      "analysis": {
+        "positioning": "从零构建现代LLM的交互式教程，逐行注释，通俗易懂。",
+        "useCases": [
+          "你好奇ChatGPT原理 → 它帮你从零手写并理解LLM内部机制。",
+          "你学Transformer理论枯燥 → 它帮你通过实践代码深入理解。",
+          "你需评估LLM架构 → 它帮你掌握从tokenizer到attention的取舍。"
+        ],
+        "audience": "适合有Python基础，想深入理解LLM（如ChatGPT）工作原理的开发者和学生。",
+        "quickStart": {
+          "prerequisites": "Python基础（变量、函数、类、pip安装）",
+          "steps": [
+            "阅读00_overview章节了解项目概况",
+            "根据01_setup章节指导安装工具和配置环境"
+          ],
+          "note": "教程将指导GPU/CPU选择及PyTorch环境配置。"
+        },
+        "competitors": [
+          {
+            "name": "现有简易LLM库/API",
+            "method": "调用高级API/库函数实现功能",
+            "models": "使用预训练模型",
+            "pricing": "通常免费（服务可能收费）"
+          },
+          {
+            "name": "学术论文/教材",
+            "method": "阅读高深理论和数学公式",
+            "models": "概念模型",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "教程以极简方式讲解复杂LLM概念，代码逐行注释，结构清晰，从零开始，对初学者极度友好且有助于深入理解原理。完美契合Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "目前 Issue 统计显示无社区互动（0开启/0关闭）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-05T04:46:56.729Z"
     }
   ]
 }
