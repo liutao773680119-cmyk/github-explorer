@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-05T04:46:56.739Z",
+  "updatedAt": "2026-05-06T05:02:03.558Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -25673,6 +25673,671 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-05T04:46:56.729Z"
+    },
+    {
+      "owner": "WeritoP",
+      "repo": "BetterNitroDiscord",
+      "fullName": "WeritoP/BetterNitroDiscord",
+      "description": "BetterDiscord Plugin for Nitro features. Unlock screensharing modes, use cross-server and gif emotes and much more!",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T00:39:25Z",
+      "url": "https://github.com/WeritoP/BetterNitroDiscord",
+      "analysis": {
+        "positioning": "BetterDiscord插件，免费解锁Discord Nitro高级功能。",
+        "useCases": [
+          "你想在Discord上开高画质直播 → 它帮你免费实现1080p/60FPS屏幕共享。",
+          "你想用动态头像或横幅 → 它帮你设置GIF头像和横幅，无需Nitro。",
+          "你想在任何地方用高级表情 → 它帮你无限制使用跨服务器、动图表情。"
+        ],
+        "audience": "想免费体验Discord Nitro高级功能，且已安装BetterDiscord的普通Discord用户。",
+        "quickStart": {
+          "prerequisites": "已安装BetterDiscord，推荐安装ZeresPluginLibrary。",
+          "steps": [
+            "从Releases下载`NitroPerks_Installer.exe`。",
+            "运行安装程序，并重启Discord客户端。",
+            "在Discord用户设置 > BetterDiscord > Plugins中启用NitroPerks。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Discord Nitro",
+            "method": "官方付费订阅",
+            "models": "提供所有Discord Nitro功能",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费。通过BetterDiscord插件提供，无需订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个BetterDiscord用户插件，其主要目标是为用户提供便利功能，而非优化开发者编码体验。安装简单，配置直观，但其本身不涉及复杂的编码流程或前沿的开发范式。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示开启和关闭均为0，表明Issue追踪不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-06T04:58:16.057Z"
+    },
+    {
+      "owner": "2234839",
+      "repo": "ai-nvr",
+      "fullName": "2234839/ai-nvr",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T01:11:38Z",
+      "url": "https://github.com/2234839/ai-nvr",
+      "analysis": {
+        "positioning": "基于Bun+Vue3的AI智能NVR，实现视频监控与告警。",
+        "useCases": [
+          "你需要实时监控摄像头画面 → 它帮你接入RTSP，提供实时查看与录像。",
+          "你想智能分析视频内容 → 它帮你用AI（多模态LLM/CLIP）进行变动、越线、目标分类和语义搜索。",
+          "你希望监控异常时自动通知 → 它帮你配置告警规则，通过Webhook/钉钉/邮件推送通知。"
+        ],
+        "audience": "需要集成AI分析、自动化告警和PTZ控制的智能视频监控方案的个人或小型团队。",
+        "quickStart": {
+          "prerequisites": "Bun运行时环境",
+          "steps": [
+            "克隆仓库并安装依赖：`git clone https://github.com/2234839/ai-nvr.git && cd jk && bun install && cd web && bun install && cd ..`",
+            "复制并编辑配置文件：`cp nvr_config.yml.example nvr_config.yml`，填入摄像头RTSP地址等配置。",
+            "运行项目：`bun run src/index.ts`，然后访问`http://localhost:3100`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "采用Bun+Vue3前沿技术栈，整合多模态LLM、CLIP等AI能力，功能强大且README清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无活动，但README提及感谢社区支持，可能活跃于其他平台。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-06T04:58:27.371Z"
+    },
+    {
+      "owner": "hexianWeb",
+      "repo": "tsl-scifi-earth",
+      "fullName": "hexianWeb/tsl-scifi-earth",
+      "description": "Three.js WebGPU / TSL 粒子地球與 Flyline 可視化，Tweakpane 即時調參。",
+      "language": "JavaScript",
+      "topics": [
+        "earth",
+        "threejs",
+        "tsl",
+        "webgpu"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T02:00:07Z",
+      "url": "https://github.com/hexianWeb/tsl-scifi-earth",
+      "analysis": {
+        "positioning": "WebGPU + TSL粒子地球与Flyline可视化，高科技感数据大屏Demo。",
+        "useCases": [
+          "你想展示炫酷数据大屏 → 它提供科幻FUI风格地球场景，可即时调参。",
+          "你想做Three.js技术分享/面试作品集 → 它展示WebGPU与TSL最新实践。",
+          "你想学习WebGPU/TSL实时渲染 → 它提供模块化代码和复杂场景实现。"
+        ],
+        "audience": "适合希望在Web端展示高科技感3D地球可视化、探索Three.js WebGPU/TSL新技术的开发者。",
+        "quickStart": {
+          "prerequisites": "需支援 WebGPU 的瀏覽器（建议新版 Chrome／Edge 等）",
+          "steps": [
+            "npm install",
+            "npm run dev"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "使用WebGPU和TSL等前沿图形技术，实现科幻风格的3D粒子地球与Flyline可视化，适合作为技术演示和作品集。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数14，Issue开启/关闭均为0，社区活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-06T04:58:38.663Z"
+    },
+    {
+      "owner": "1TDSPY-26",
+      "repo": "front-1sem-aula-02",
+      "fullName": "1TDSPY-26/front-1sem-aula-02",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T00:27:43Z",
+      "url": "https://github.com/1TDSPY-26/front-1sem-aula-02",
+      "analysis": {
+        "positioning": "前端初学者Git/GitHub协作与CSS3实践项目。",
+        "useCases": [
+          "你初学Git/GitHub团队协作 → 它提供实际操作流程，助你熟悉Fork、Clone、分支管理与PR提交。",
+          "你需练习CSS3布局与样式 → 它提供一个待美化的Header，让你实战Flexbox/Grid、颜色、字体及响应式设计。",
+          "你渴望真实项目PR经验 → 它模拟团队环境，让你提交代码变更并寻求“市场接受度”。"
+        ],
+        "audience": "适合前端初学者，通过实战练习Git/GitHub协作流程及CSS3样式技能。",
+        "quickStart": {
+          "prerequisites": "Git基础知识、GitHub账号、VS Code",
+          "steps": [
+            "Fork项目到自己的GitHub账户。",
+            "Clone你的Forked项目到本地，创建新分支，修改`css/style.css`。",
+            "Commit并Push你的分支到GitHub，然后发起Pull Request。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README文档详尽，提供了清晰的Git/GitHub协作流程和CSS3实战指导，易于初学者快速上手。",
+        "isVibeCoding": true,
+        "communityActivity": "issues开启2个/关闭0个，目前社区活跃度较低，可能主要用于教学实践。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-06T04:58:53.575Z"
+    },
+    {
+      "owner": "crafter-station",
+      "repo": "petdex",
+      "fullName": "crafter-station/petdex",
+      "description": "Public gallery of animated Codex pets",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-02T07:51:35Z",
+      "url": "https://github.com/crafter-station/petdex",
+      "analysis": {
+        "positioning": "Codex动画宠物公共画廊与管理工具",
+        "useCases": [
+          "你想找Codex动画宠物资源 → 它帮你浏览、预览并下载已批准的宠物包。",
+          "你需要特定动画宠物包 → 它提供单个或完整图库的ZIP包下载。",
+          "你想分享自制Codex宠物包 → 它提供浏览器内在线验证和提交通道。"
+        ],
+        "audience": "Codex游戏玩家、内容创作者及开发者，用于管理和分享动画宠物资源。",
+        "quickStart": {
+          "prerequisites": "Bun运行时",
+          "steps": [
+            "bun install",
+            "bun dev"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "暂无明确直接竞品",
+            "method": "N/A",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是一个展示和管理平台，虽然涉及社区提交和构建过程，但核心Vibe并非通用编码工具，更偏向特定生态系统的内容管理。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较高，已关闭问题数（76）远超开启（10），表明项目维护者积极响应和解决问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-06T04:59:16.373Z"
+    },
+    {
+      "owner": "XBuilderLAB",
+      "repo": "cheat-on-content",
+      "fullName": "XBuilderLAB/cheat-on-content",
+      "description": "Content is already a cheat-code race—whoever cracks the patterns first wins the traffic. Your auto-evolving ops expert that learns YOUR account, not the global average. The Claude Code workflow behind 1M followers in 1 month.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-05T10:28:33Z",
+      "url": "https://github.com/XBuilderLAB/cheat-on-content",
+      "analysis": {
+        "positioning": "内容创作智能进化系统，帮你算爆款，而不是猜。",
+        "useCases": [
+          "你凭感觉发内容 → 它帮你量化灵感，将内容变为校准实验。",
+          "你内容爆了不知为何，扑了学不到东西 → 它帮你记录预测，T+3天复盘，进化评分公式。",
+          "你使用通用AI助手，分析结果不适配你的账号 → 它帮你打造专属运营专家，只服务你的账号并自动进化。"
+        ],
+        "audience": "寻求内容爆款公式的创作者、网红、运营人员，尤其适合需要精细化运营个人或品牌账号的用户。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code环境。",
+          "steps": [
+            "git clone https://github.com/XBuilderLAB/cheat-on-content.git && cd cheat-on-content",
+            "bash install.sh",
+            "在内容项目目录里开Claude Code，输入“初始化 cheat-on-content”"
+          ],
+          "note": "强烈建议导入对标账号数据（5-10条样本）以提高预测精度。"
+        },
+        "competitors": [
+          {
+            "name": "通用创作工具 (如写作辅助、灵感生成器)",
+            "method": "提供灵感、AI代写、多版本A/B测",
+            "models": "通常基于LLM",
+            "pricing": "免费/付费模式不定"
+          },
+          {
+            "name": "通用大型语言模型 (如ChatGPT、豆包、DeepSeek)",
+            "method": "提供通用分析和建议，不记忆用户上下文，不为特定账号进化",
+            "models": "各自大模型",
+            "pricing": "部分免费/订阅制"
+          }
+        ],
+        "pricing": "免费，MIT许可证。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目理念新颖，直击内容创作核心痛点，将凭感觉的创作转变为可进化的数据驱动系统，并通过自动进化机制实现个性化优化，而非通用方案。独特的“作弊”视角和“网红外挂”定位极具吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚发布，Issue数量少，活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-06T04:59:31.016Z"
+    },
+    {
+      "owner": "LayrKits",
+      "repo": "Sprite-Pipeline",
+      "fullName": "LayrKits/Sprite-Pipeline",
+      "description": "2D Sprite Sheet Creation Pipeline",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-03T18:19:20Z",
+      "url": "https://github.com/LayrKits/Sprite-Pipeline",
+      "analysis": {
+        "positioning": "一个将视频帧转换为规范2D精灵图的自动化工作流工具。",
+        "useCases": [
+          "你制作2D游戏动画 → 它帮你将视频素材（包括AI生成）转换为标准的256x256精灵图条。",
+          "你有多段动画视频需要处理 → 它提供一套从帧提取、蒙版、合并到预览的自动化流程，确保输出质量。",
+          "你希望利用AI生成动画素材 → 它提供AI提示词参考和AI助手技能，简化素材创建到精灵图生成的过程。"
+        ],
+        "audience": "游戏开发者、动画师、像素艺术家，或任何需要将视频源快速高效地转换为2D精灵图的工作者。",
+        "quickStart": {
+          "prerequisites": "Python 3, FFmpeg, 可选AI助手。",
+          "steps": [
+            "（可选）集成AI助手技能包。",
+            "安装Python依赖及FFmpeg。",
+            "准备或生成动画视频素材。",
+            "按照文档流程提取帧、蒙版、构建精灵图并审核。",
+            "运行脚本生成精灵图画廊清单。",
+            "在浏览器中预览最终精灵图。"
+          ],
+          "note": "FFmpeg安装方法因操作系统而异（macOS/Windows/Linux）。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目结构清晰，工作流详细且可复用，文档完善，支持AI助手集成，功能强大，是开发者高效处理2D精灵图的利器。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有1个开启Issue且无关闭，可能处于早期阶段或由少数开发者维护。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-06T04:59:45.999Z"
+    },
+    {
+      "owner": "joelbqz",
+      "repo": "writer-computer",
+      "fullName": "joelbqz/writer-computer",
+      "description": "Local-first desktop markdown editor",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-04-30T15:14:09Z",
+      "url": "https://github.com/joelbqz/writer-computer",
+      "analysis": {
+        "positioning": "本地优先的桌面Markdown编辑器，专为纯文本笔记和文档文件夹设计。",
+        "useCases": [
+          "你习惯用本地文件夹管理Markdown文档 → 它提供桌面级编辑体验，支持纯文本文件和Git工作流。",
+          "你需要高效处理包含表格、Mermaid图的复杂Markdown → 它提供扩展Markdown渲染能力，让你的内容可视化。",
+          "你希望编辑器与开发工作流无缝衔接 → 它支持多窗口编辑，并遵守`.gitignore`规则，保持项目整洁。"
+        ],
+        "audience": "适合需要本地化、高效管理和编辑Markdown文档的开发者、技术作家或个人知识库维护者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境 (通过`vp install`安装依赖)",
+          "steps": [
+            "`vp install`",
+            "`vp dev`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目采用现代技术栈（Tauri v2, React, Rust），结构清晰，README详尽，但社区活跃度和项目成熟度尚需观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前 Issue 开启少且未关闭任何。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-05-06T05:00:01.185Z"
+    },
+    {
+      "owner": "StartupHakk",
+      "repo": "OpenMonoAgent.ai",
+      "fullName": "StartupHakk/OpenMonoAgent.ai",
+      "description": "(BETA) AI shouldn't have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure, not a subscription.",
+      "language": "C#",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-30T17:32:21Z",
+      "url": "https://github.com/StartupHakk/OpenMonoAgent.ai",
+      "analysis": {
+        "positioning": "本地运行、无限量、免费的终端AI编程助手",
+        "useCases": [
+          "你担心AI编程助手的数据隐私和token费用 → 它帮你本地运行AI，代码不出网，无限次使用。",
+          "你希望在终端直接获得强大的AI编程辅助 → 它提供TUI/CLI交互式智能编程体验，集成了20多种工具。",
+          "你追求完全掌控AI工具链，不依赖云服务 → 它让你拥有模型、算力和数据，完全开源自托管。"
+        ],
+        "audience": "追求代码隐私、希望完全掌控AI工具链、偏好本地运行的开发者及团队。",
+        "quickStart": {
+          "prerequisites": "Linux环境，bash和curl工具（本地LLM推理可能需要GPU或NUC级别的CPU）。",
+          "steps": [
+            "运行安装脚本：`bash <(curl -fsSL https://raw.githubusercontent.com/StartupHakk/OpenMonoAgent.ai/refs/heads/main/get-openmono.sh)`",
+            "进入项目目录并启动agent：`cd your-project/ && openmono agent`"
+          ],
+          "note": "默认启动TUI模式，若需传统CLI模式，请使用 `openmono agent --classic`。"
+        },
+        "competitors": [
+          {
+            "name": "云端AI编程助手（如GitHub Copilot）",
+            "method": "API调用，代码及上下文上传至云端",
+            "models": "通常是专有或云端LLM",
+            "pricing": "订阅付费或按token计费"
+          },
+          {
+            "name": "基于API的本地LLM工具",
+            "method": "需要用户自行部署LLM和集成代理功能",
+            "models": "各种本地LLM",
+            "pricing": "通常免费，但集成和维护成本较高"
+          }
+        ],
+        "pricing": "完全免费，无订阅费，无token费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心理念是让AI工具成为基础设施而非订阅服务，强调完全本地化、零成本、无限量使用、代码隐私，并基于C#/.NET构建，高度符合开源精神和技术自由主义者的理想。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于Beta阶段，开启了13个issue，关闭了1个。有活跃的社区交流，但问题解决速度有待提升。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-06T05:00:27.672Z"
+    },
+    {
+      "owner": "jherrodthomas",
+      "repo": "automotive-skills-suite",
+      "fullName": "jherrodthomas/automotive-skills-suite",
+      "description": "100+ installable Claude skills covering Engineering areas such as, ISO 26262 functional safety, ISO/SAE 21434 cybersecurity, ISO 21448 SOTIF, AIAG-VDA quality (APQP/PPAP/FMEA), Automotive SPICE, and continuous improvement tools — every builder paired with a confirmation reviewer.",
+      "language": "Unknown",
+      "topics": [
+        "apqp",
+        "aspice",
+        "automotive",
+        "autosar",
+        "engineering",
+        "fusa",
+        "hardware",
+        "software-engineering",
+        "system"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-01T10:30:37Z",
+      "url": "https://github.com/jherrodthomas/automotive-skills-suite",
+      "analysis": {
+        "positioning": "汽车工程领域AI技能套件，助力标准化文档生成。",
+        "useCases": [
+          "你进行ISO 26262功能安全分析 → 它帮你自动生成HARA等安全文档。",
+          "你进行ISO/SAE 21434网络安全评估 → 它帮你快速产出TARA报告。",
+          "你管理汽车项目质量 → 它帮你实现APQP/PPAP/FMEA等质量流程文档自动化。"
+        ],
+        "audience": "汽车行业的工程师、质量经理和项目管理者，利用Claude AI提升标准化文档生成效率和准确性。",
+        "quickStart": {
+          "prerequisites": "需安装Cowork或Claude Desktop",
+          "steps": [
+            "从`skills/`目录下载所需技能文件",
+            "在Cowork/Claude Desktop中点击“Save skill”安装",
+            "通过自然语言指令触发技能，例如：'Build a HARA for a new ECU project — Electronic Stability Control'"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "技能本身免费（MIT许可），但需使用Claude AI平台。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "深度覆盖汽车工程全生命周期的多项复杂标准，提供152项技能，并创新性地采用“构建器+评审器”链式工作流，确保AI输出的质量和可靠性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前无Issue开启或关闭。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-06T05:00:46.936Z"
+    },
+    {
+      "owner": "OpenYSM",
+      "repo": "YSMParser",
+      "fullName": "OpenYSM/YSMParser",
+      "description": "A Parser to recover Yes-Steve-Model Encrypted Binaries.",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-30T15:25:26Z",
+      "url": "https://github.com/OpenYSM/YSMParser",
+      "analysis": {
+        "positioning": "一键解密Minecraft YSM模型，还原为Blockbench工程。",
+        "useCases": [
+          "你有一个加密的.ysm模型 → 它帮你一键解密并还原为Blockbench工程。",
+          "你需要编辑已加密的YSM模型 → 它帮你恢复模型的Blockbench工程文件（如动画、材质、控制器等）。",
+          "你发现解密后的模型参数（如长宽高、旋转角）与原文件有出入 → 它通过几何反推算法尽可能还原视觉外观一致的模型参数。"
+        ],
+        "audience": "《我的世界》模组开发者、YSM模型创作者，或任何需要处理和编辑YSM加密模型文件的人。",
+        "quickStart": {
+          "prerequisites": "构建：CMake ≥ 3.12, C++20编译器；或直接下载预编译可执行文件。",
+          "steps": [
+            "下载对应操作系统的可执行文件或自行编译。",
+            "将所有待解密的`.ysm`文件放入一个输入目录。",
+            "运行命令行：`YSMParser -i <输入目录> -o <输出目录>`。"
+          ],
+          "note": "支持Windows/macOS/Linux多平台可执行文件，也支持WASM构建。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源（MIT License）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "对原项目作者的动机和行为有强烈的主观判断和讽刺，行文充满个人色彩和场景驱动的戏剧性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数和关闭数持平（11/11），显示社区问题响应及时且活跃。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-06T05:01:01.318Z"
+    },
+    {
+      "owner": "jherrodthomas",
+      "repo": "robotics-skills-suite",
+      "fullName": "jherrodthomas/robotics-skills-suite",
+      "description": "76 audit-ready Claude skills automating the industrial robot, cobot, AMR, ROS2, V&V, AI/ML, and IEC 62443 lifecycle. 38 builder + reviewer pairs anchored to ISO 10218, 13849, 62061, 12100, 9283, 15066, 3691-4, and IEC 62443.",
+      "language": "Unknown",
+      "topics": [
+        "amr",
+        "anthropic",
+        "ce-marking",
+        "claude",
+        "claude-skills",
+        "cobot",
+        "fat-sat",
+        "functional-safety",
+        "iec62061",
+        "iec62443",
+        "industrial-robotics",
+        "iso10218",
+        "iso13849",
+        "iso15066",
+        "machinery-safety",
+        "nav2",
+        "ot-cybersecurity",
+        "robotics",
+        "ros2",
+        "urdf"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-03T13:30:01Z",
+      "url": "https://github.com/jherrodthomas/robotics-skills-suite",
+      "analysis": {
+        "positioning": "自动化生成机器人行业标准文档，由Claude驱动。",
+        "useCases": [
+          "你是机器人集成商要交付项目 → 它帮你自动生成ISO 10218合规文档。",
+          "你是OEM设备制造商要批量申请CE认证 → 它帮你规模化生成安全文件。",
+          "你是ROS2开发团队要交付系统 → 它帮你产出ROS2架构、URDF、Nav2等规范文档。"
+        ],
+        "audience": "机器人行业的集成商、OEM、ROS2开发者、OT网络安全团队等，需要自动化生成符合国际标准的审计级文档。",
+        "quickStart": {
+          "prerequisites": "需访问Anthropic Claude。",
+          "steps": [
+            "根据项目需求选择对应的Builder Skill。",
+            "通过Claude运行Builder Skill，生成多标签Excel工作簿。",
+            "使用配套的Reviewer Skill进行验证，产出可视化报告。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "项目本身免费开源（MIT），但使用需付费的Claude API/服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于工业机器人领域的复杂标准与合规性，通过“构建者+审查者”链式技能确保输出的准确性和审计就绪性，文档结构化且高度专业。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue统计显示社区活跃度较低，可能项目还在早期或维护团队内部解决问题。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-06T05:01:15.838Z"
+    },
+    {
+      "owner": "tgies",
+      "repo": "klattsch",
+      "fullName": "tgies/klattsch",
+      "description": "primitive parallel-formant speech synth in the browser",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-30T21:57:14Z",
+      "url": "https://github.com/tgies/klattsch",
+      "analysis": {
+        "positioning": "浏览器内实现70/80年代风格的并行共振峰语音合成器。",
+        "useCases": [
+          "你想在网页或应用中实现怀旧风格的语音播报 → 它帮你通过ARPABET字符或指令合成语音。",
+          "你想用命令行快速生成特定语音风格的音频文件 → 它帮你将文本直接渲染成WAV格式音频。",
+          "你想通过代码精细控制语音的音高、语调甚至实现唱歌效果 → 它提供API让你调整复杂的语音参数。"
+        ],
+        "audience": "对复古语音合成技术感兴趣的开发者、研究者，以及需要为网页或应用添加特定风格语音交互的工程师。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js和npm",
+          "steps": [
+            "打开终端，运行 `npm install klattsch` 安装项目。",
+            "执行 `npx klattsch \"HH AH L OW\" hello.wav` 即可生成一句“Hello”的WAV音频文件。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Web Speech API (浏览器内置TTS)",
+            "method": "JavaScript API调用",
+            "models": "浏览器内置，通常音质自然",
+            "pricing": "免费"
+          },
+          {
+            "name": "现代云端TTS (如Google Cloud Text-to-Speech, AWS Polly)",
+            "method": "REST API调用",
+            "models": "多种高质量、多语种声音",
+            "pricing": "通常有免费额度，超出按量计费"
+          }
+        ],
+        "pricing": "免费（MIT许可证），作者提供商业咨询服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于复古语音合成，技术细节硬核，适合特定品味和研究需求的开发者。独特而非大众化，带有浓厚的极客与怀旧情怀。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 数量较多（54个），但无关闭记录，表明项目维护活跃度较低或问题响应不及时。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-06T05:01:29.832Z"
+    },
+    {
+      "owner": "nateherkai",
+      "repo": "AIS-OS",
+      "fullName": "nateherkai/AIS-OS",
+      "description": "AI Operating System starter kit for Claude Code — three-skill kit (/onboard, /audit, /level-up) + 3Ms framework. Companion to the AIOS masterclass.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-01T00:53:01Z",
+      "url": "https://github.com/nateherkai/AIS-OS",
+      "analysis": {
+        "positioning": "Claude个性化AI操作系统启动套件，助你实现AI自动化。",
+        "useCases": [
+          "你遇到知识瓶颈或团队提问 → 它帮你用AI更准确、更快速地回答，附带来源。",
+          "你频繁切换应用处理思维工作 → 它成为你的默认思考界面，大幅减少上下文切换。",
+          "你努力记忆商业事实和决策 → 它可靠地检索信息，让你专注于提问而非记忆。"
+        ],
+        "audience": "独立创业者、小企业主、管理者、创作者、AI顾问等，希望通过AI自动化提升个人及团队效率的人群。",
+        "quickStart": {
+          "prerequisites": "需要能访问Claude大型语言模型。",
+          "steps": [
+            "运行`/onboard`进行个性化设置。",
+            "利用`/audit`和`/level-up`技能持续迭代和优化你的AIOS。"
+          ],
+          "note": "该套件专为Claude模型设计。"
+        },
+        "competitors": [
+          {
+            "name": "Custom GPTs (ChatGPT Plus)",
+            "method": "通过GPT Builder配置个性化AI助手，集成知识库和自定义指令。",
+            "models": "GPT-3.5, GPT-4系列",
+            "pricing": "ChatGPT Plus订阅付费"
+          },
+          {
+            "name": "Zapier / Make (formerly Integromat)",
+            "method": "通过可视化界面连接各类应用，构建自动化工作流，部分集成AI能力。",
+            "models": "自身AI功能或集成第三方LLM",
+            "pricing": "有免费层，高级功能付费"
+          }
+        ],
+        "pricing": "免费（MIT开源许可）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目理念清晰，通过“AIOS”概念提供个性化AI自动化解决方案，并有明确的“试金石”和“成功指标”来衡量价值。文档详尽且场景驱动，对用户痛点有深刻理解，具备优秀的设计思考和潜在影响。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量少（3个开启，0个关闭），表明社区互动或维护频率可能不高，项目或处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-06T05:01:47.414Z"
+    },
+    {
+      "owner": "NyxFoundation",
+      "repo": "speca",
+      "fullName": "NyxFoundation/speca",
+      "description": "SPECA: Specification-to-Checklist Agentic Auditing Framework",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-02T14:48:32Z",
+      "url": "https://github.com/NyxFoundation/speca",
+      "analysis": {
+        "positioning": "AI驱动，基于规范的智能审计框架，定位深层安全漏洞。",
+        "useCases": [
+          "你审计协议或密码库等复杂系统 → 它帮你从规范层面自动检查安全性，发现传统工具遗漏的漏洞。",
+          "你对比不同实现的安全性 → 它帮你用统一的规范属性词汇量，进行受控的跨实现比较。",
+          "你分析安全误报原因 → 它帮你追踪并解释误报的根本原因，提升诊断效率。"
+        ],
+        "audience": "关注协议、密码学等安全关键系统规范级审计的专家、安全研究员及开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+",
+          "steps": [
+            "参阅项目文档获取详细安装及使用指南"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统代码扫描工具 (SAST)",
+            "method": "基于代码模式匹配和局部代码逻辑分析",
+            "models": "N/A",
+            "pricing": "免费/付费版"
+          },
+          {
+            "name": "部分静态分析工具 (如Sonnet 4.5类)",
+            "method": "代码结构分析，有限的代码推理",
+            "models": "N/A",
+            "pricing": "免费/付费版"
+          }
+        ],
+        "pricing": "免费 (MIT许可证)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "聚焦前沿的AI Agent安全审计，解决传统工具痛点。星数不错，但社区活跃度及issue互动尚低，项目处于早期研究阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 4 / 已关闭 1，活跃度较低，项目尚处于早期研究或维护阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-06T05:02:03.547Z"
     }
   ]
 }
