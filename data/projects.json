@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-06T05:02:03.558Z",
+  "updatedAt": "2026-05-07T05:03:35.736Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -26338,6 +26338,545 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-06T05:02:03.547Z"
+    },
+    {
+      "owner": "BertecKol",
+      "repo": "Bertex-Here",
+      "fullName": "BertecKol/Bertex-Here",
+      "description": "",
+      "language": "Unknown",
+      "topics": [
+        "bitcoin-flash-transactions",
+        "btc-flash-payments",
+        "fake-btc-transaction",
+        "flash-btc-btc-fake",
+        "flash-btc-transfer",
+        "flash-uadt-sender-ios",
+        "flash-usdt-fake-sender",
+        "flash-usdt-online-sender",
+        "flash-usdt-sender-app",
+        "flash-usdt-sender-software-generator",
+        "flashcrypto",
+        "usdt-flash-crypto",
+        "usdt-online-sender"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-07T00:28:14Z",
+      "url": "https://github.com/BertecKol/Bertex-Here",
+      "analysis": {
+        "positioning": "生成多链临时性（闪付）USDT交易记录，可显示于主流钱包余额。",
+        "useCases": [
+          "你需要在短期内展示一笔USDT资金到账记录 → 它帮你生成一个可显示于主流钱包余额的“闪付”USDT交易。",
+          "你想在不进行真实资金转移的情况下测试区块链网络节点表现 → 它提供快速、隐匿的跨链闪付交易能力。",
+          "你寻求一种绕过常规检测的USDT交易模拟方式 → 它宣称能以高确认率和隐匿模式实现。"
+        ],
+        "audience": "寻求在主流加密钱包中创建短期、可显示USDT交易记录的用户，尤其适用于模拟或测试场景。",
+        "quickStart": {
+          "prerequisites": "Telegram账户",
+          "steps": [
+            "打开其Telegram Bot。",
+            "选择所需区块链网络，配置目标钱包地址和金额。",
+            "确认交易，即时获取TXID。"
+          ],
+          "note": "整个管理界面托管在Telegram上，强调匿名性和易用性。"
+        },
+        "competitors": [],
+        "pricing": "付费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质为生成“闪付”或虚假USDT交易，声称可短暂显示在钱包余额中，常与加密货币诈骗、欺诈等非法活动关联，尽管免责声明提及教育和测试用途，但其核心功能极易被滥用。社区活跃度低，无代码开源。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度低，无公开Issue互动，通过Telegram Bot提供服务，非典型开源社区项目。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-07T05:00:58.517Z"
+    },
+    {
+      "owner": "1TDSPO-26",
+      "repo": "front-1sem-aula-07",
+      "fullName": "1TDSPO-26/front-1sem-aula-07",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-07T00:18:30Z",
+      "url": "https://github.com/1TDSPO-26/front-1sem-aula-07",
+      "analysis": {
+        "positioning": "聚焦前端基础与响应式实践的课程项目仓库。",
+        "useCases": [
+          "你学习前端基础 → 它提供Git/HTML/CSS的系统性学习路径与实践项目。",
+          "你设计响应式网站 → 它指导你使用CSS Grid和Flexbox构建多设备适配的布局。",
+          "你希望提升代码质量 → 它提供前端结构重构和CSS最佳实践的练习。"
+        ],
+        "audience": "初中级前端开发者、学生。希望系统学习HTML/CSS基础、响应式布局及前端最佳实践。",
+        "quickStart": {
+          "prerequisites": "熟悉Git/GitHub基础操作",
+          "steps": [
+            "克隆此仓库到本地",
+            "在浏览器中打开`index.html`开始学习与实践"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README极度详尽，学习路线和实践任务清晰，对自学或课程辅助非常友好。但作为一个GitHub项目，社区互动和 Issue 活跃度目前为零。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，主要作为教学辅助材料，Issue 和互动尚未开始。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-07T05:01:13.622Z"
+    },
+    {
+      "owner": "yaojingang",
+      "repo": "yao-open-prompts",
+      "fullName": "yaojingang/yao-open-prompts",
+      "description": "Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "chinese-prompts",
+        "geo",
+        "prompt-engineering",
+        "prompts"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-06T13:04:20Z",
+      "url": "https://github.com/yaojingang/yao-open-prompts",
+      "analysis": {
+        "positioning": "多场景中文AI提示词库，提升AI沟通效率",
+        "useCases": [
+          "你做：需要高效生成高质量AI提示词 → 它帮你做：使用“智能元提示词生成系统V0.6”指导你系统化构建需求。",
+          "你做：创作短视频文案、社媒内容或市场营销文案 → 它帮你做：直接套用“36个内容与运营提示词”快速获得实战文案。",
+          "你做：日常AI辅助工作（如合同生成、产品原型、学习计划） → 它帮你做：在清晰的分类目录中找到并复制所需场景的提示词模板。"
+        ],
+        "audience": "使用AI工具的个人、内容创作者、营销人员及企业用户，希望通过高质量提示词提升AI输出效率和专业度。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在 `CATALOG.md` 中按场景查找并选择所需的提示词。",
+            "打开对应的Markdown文件，复制 `Prompt` 区域的内容。",
+            "将 `{{变量}}` 或 `[占位符]` 替换为你的真实任务信息。",
+            "将修改后的提示词粘贴到AI模型中测试并获取结果。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，提示词分类详尽，覆盖场景广泛，包含元提示词生成方法和实战内容，且有持续更新机制，易于上手和长期使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue全部关闭（0开启/0关闭），表明用户互动可能主要通过其他渠道进行或项目处于稳定发布状态。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-07T05:01:35.742Z"
+    },
+    {
+      "owner": "NamKhoa-07",
+      "repo": "Voidstrap",
+      "fullName": "NamKhoa-07/Voidstrap",
+      "description": "Voidstrap is a simple yet advanced fork of Bloxstrap, advanced customization and improvements.",
+      "language": "C#",
+      "topics": [
+        "bloxstrap",
+        "open-source",
+        "roblox",
+        "voidstrap"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-06T07:15:44Z",
+      "url": "https://github.com/NamKhoa-07/Voidstrap",
+      "analysis": {
+        "positioning": "已停更的Bloxstrap增强版，定制化Roblox启动器。",
+        "useCases": [
+          "你想要深度定制Roblox启动体验 → 它提供高级定制选项和改进功能。",
+          "你希望简化Roblox启动和配置流程 → 它提供更简单直观的游戏入口。",
+          "你担忧第三方工具的安全和作弊风险 → 它声明不注入作弊，开源可验证。",
+          "你追求与众不同的Roblox体验 → 它提供原版之外的个性化设置。"
+        ],
+        "audience": "追求Roblox个性化和简化体验的Windows用户（项目已停更）。",
+        "quickStart": {
+          "prerequisites": "Windows 10及以上系统",
+          "steps": [
+            "下载最新版本 (releases页面)",
+            "运行Exe并完成安装",
+            "启动Voidstrap"
+          ],
+          "note": "macOS和Linux用户可参考AppleBlox或Sober等替代品"
+        },
+        "competitors": [
+          {
+            "name": "Bloxstrap",
+            "method": "Roblox官方启动器增强",
+            "models": "Roblox客户端",
+            "pricing": "免费"
+          },
+          {
+            "name": "AppleBlox",
+            "method": "macOS专用Roblox启动器",
+            "models": "Roblox客户端",
+            "pricing": "免费"
+          },
+          {
+            "name": "Sober",
+            "method": "Linux专用Roblox启动器",
+            "models": "Roblox客户端",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，MIT许可证",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README中包含'scroll up dummy'等非正式语句，使用表情符号，并直言项目已停更并开启新项目，风格自由散漫，带有个人情感。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues统计为0/0，且项目已明确停更，社区基本无活跃度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-07T05:01:50.083Z"
+    },
+    {
+      "owner": "virgiliojr94",
+      "repo": "book-to-skill",
+      "fullName": "virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-01T02:09:39Z",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "analysis": {
+        "positioning": "将技术书籍转为Claude Code技能，实现智能检索与学习。",
+        "useCases": [
+          "你阅读技术书想快速找答案 → 它让你直接问Claude，获得精准内容而非页码列表。",
+          "你用Claude提问书籍内容常遇到幻觉 → 它确保Claude基于书本内容回答，提高准确性。",
+          "你读完技术书容易遗忘或懒得翻笔记 → 它将书变成可随时调用的Claude技能，融入日常工作流。"
+        ],
+        "audience": "技术开发者、研究人员和学生，希望高效利用技术书籍内容，并将其整合到基于Claude的AI工作流中。",
+        "quickStart": {
+          "prerequisites": "已安装Python环境并可访问Claude Code CLI (或相关集成)",
+          "steps": [
+            "安装`book-to-skill`工具 (例如 `pip install book-to-skill`)",
+            "运行`/book-to-skill <path-to-book.pdf/epub>`将书籍转为Claude技能",
+            "在Claude Code中通过`/your-book-slug <query>`调用技能进行查询"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LlamaIndex",
+            "method": "构建RAG应用，连接文档与LLM",
+            "models": "支持多种LLM",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "OpenAI Assistants API",
+            "method": "通过API上传文件，创建助手进行对话",
+            "models": "OpenAI模型",
+            "pricing": "按量付费"
+          }
+        ],
+        "pricing": "免费（开源Python项目，MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念独特，将技术书结构化为Claude Code技能，解决了AI幻觉和传统搜索低效的痛点，用户场景明确。Stars数不错，但当前Issue活跃度低，社区参与度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚待观察，当前Issue统计显示暂无公开交流。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-07T05:02:14.718Z"
+    },
+    {
+      "owner": "lightseekorg",
+      "repo": "tokenspeed",
+      "fullName": "lightseekorg/tokenspeed",
+      "description": "TokenSpeed is a speed-of-light LLM inference engine.",
+      "language": "Python",
+      "topics": [
+        "blackwell",
+        "deepseek",
+        "gpt-oss",
+        "kimi",
+        "lightseek",
+        "llm",
+        "minimax",
+        "qwen",
+        "speed-of-light",
+        "tokenspeed"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-06T13:13:21Z",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "analysis": {
+        "positioning": "专为Agent应用打造的极速LLM推理引擎",
+        "useCases": [
+          "你开发和部署AI Agent应用 → 它提供超越现有方案的极速推理能力，大幅降低延迟",
+          "你追求生产级LLM服务的高性能和高吞吐 → 它以vLLM的易用性提供TensorRT-LLM级的极致性能",
+          "你使用NVIDIA Blackwell等最新GPU → 它通过优化MLA内核，充分发挥硬件潜力，加速推理"
+        ],
+        "audience": "针对追求极致性能、低延迟的AI Agent应用开发者和生产环境部署工程师。",
+        "quickStart": {
+          "prerequisites": "NVIDIA GPU (推荐B200或兼容硬件，需支持CUDA)",
+          "steps": [
+            "git clone https://github.com/lightseekorg/tokenspeed.git",
+            "参照官方文档“Getting Started”和“Launching a Server”进行环境配置和部署"
+          ],
+          "note": "项目仍处于预览阶段，不建议直接用于生产环境，部分功能和模型支持仍在开发中。"
+        },
+        "competitors": [
+          {
+            "name": "TensorRT-LLM",
+            "method": "NVIDIA提供的高性能LLM推理优化库，通过编译优化提高性能",
+            "models": "支持主流LLMs",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "vLLM",
+            "method": "专注于LLM服务高效部署的Python库，提供PAGED ATTENTION等机制提升吞吐",
+            "models": "支持主流LLMs",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目技术愿景宏大，致力于解决Agentic Workloads推理痛点，核心设计先进。但目前处于早期预览阶段，Star数不高，Issue开启少且无关闭，社区活跃度低，尚不适合生产环境。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度非常初期，Issue开启少且无关闭，尚待发展。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-07T05:02:30.697Z"
+    },
+    {
+      "owner": "MayersScott",
+      "repo": "rkn-block-checker",
+      "fullName": "MayersScott/rkn-block-checker",
+      "description": "Diagnose RKN/TSPU internet blocks layer by layer (DNS, TCP, TLS, HTTP)",
+      "language": "Python",
+      "topics": [
+        "censorship",
+        "cli",
+        "dns",
+        "dpi",
+        "network-diagnostics",
+        "networking",
+        "python",
+        "rkn",
+        "tls",
+        "tspu"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-03T16:15:38Z",
+      "url": "https://github.com/MayersScott/rkn-block-checker",
+      "analysis": {
+        "positioning": "层层诊断RKN/TSPU网络封锁的CLI工具。",
+        "useCases": [
+          "你访问网站显示无法连接 → 它帮你精确诊断是DNS污染、TCP重置还是TLS/HTTP层被审查。",
+          "你身处网络审查区域 → 它帮你判断当前网络环境是否在RKN/TSPU封锁区，并识别封锁类型。",
+          "你进行网络排查或研究审查机制 → 它提供详细的分层报告，揭示审查类型和断点。",
+          "你希望了解网站实际被封锁的原因 → 它提供比浏览器更详细的错误分析，具体指出问题所在。"
+        ],
+        "audience": "面向受审查地区用户、网络工程师、隐私研究员，用于快速识别和分析网络封锁类型及断点。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "`pip install rkn-block-checker`",
+            "`rkn-check`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "深入到DNS、TCP、TLS、HTTP各层，精确诊断网络审查类型，提供详细分析，这种解决特定且复杂技术痛点的方式极具技术极客（vibe coding）气质。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少 (2开/0关)，社区活跃度较低，可能项目处于早期或维护不频繁。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-07T05:02:42.290Z"
+    },
+    {
+      "owner": "zarazhangrui",
+      "repo": "beautiful-html-templates",
+      "fullName": "zarazhangrui/beautiful-html-templates",
+      "description": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-05T06:18:21Z",
+      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+      "analysis": {
+        "positioning": "为AI Agent自动化生成精美HTML幻灯片提供模板库",
+        "useCases": [
+          "AI Agent需要生成演示文稿 → 它提供多样化HTML模板，自动匹配需求并生成",
+          "设计师或开发者寻求自动化内容展示 → 它允许编程生成多种风格的HTML幻灯片，无需手动设计",
+          "需快速制作演示文稿，无设计经验 → 交由AI Agent调用此库，一键生成专业级幻灯片"
+        ],
+        "audience": "AI Agent开发者和需要自动化、编程生成美观HTML幻灯片的用户",
+        "quickStart": {
+          "prerequisites": "支持Git克隆和文件操作的AI Agent",
+          "steps": [
+            "AI Agent克隆此项目",
+            "AI Agent根据`AGENTS.md`指导，选择并适配模板生成HTML幻灯片"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "PowerPoint / Google Slides",
+            "method": "GUI手动操作",
+            "models": "内置模板丰富",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Reveal.js",
+            "method": "需手动编写HTML/CSS",
+            "models": "提供框架，模板需自建",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确设计给“编码Agent”使用，通过代码自动化生成美观HTML演示文稿，高度贴合Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-07T05:02:56.681Z"
+    },
+    {
+      "owner": "nikzad-avasam",
+      "repo": "youtube-dl",
+      "fullName": "nikzad-avasam/youtube-dl",
+      "description": "🎬 You tube Downloader to your github repository .",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-03T22:01:37Z",
+      "url": "https://github.com/nikzad-avasam/youtube-dl",
+      "analysis": {
+        "positioning": "将YouTube视频永久存入GitHub仓库，随时取用。",
+        "useCases": [
+          "想长期保存YouTube视频 → 它帮你将视频永久存储在自己的GitHub仓库，随时按需下载。",
+          "需要批量下载YouTube视频 → 它支持同时下载多个YouTube视频URL，并能进行文件压缩和加密。",
+          "遇到YouTube视频下载限制 → 它使用bypass系统绕过限制，并支持调节下载质量或仅下载音频。"
+        ],
+        "audience": "适合需要将YouTube视频存档、收藏，并能接受使用GitHub Actions进行操作的用户。",
+        "quickStart": {
+          "prerequisites": "拥有GitHub账户",
+          "steps": [
+            "Fork项目到自己的GitHub仓库。",
+            "在你的仓库中进入“Actions”标签页，选择“You tube Downloader”工作流，输入YouTube视频URL、选择质量（可选设密码），然后运行。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "yt-dlp",
+            "method": "命令行工具",
+            "models": "支持多种视频网站",
+            "pricing": "免费"
+          },
+          {
+            "name": "在线YouTube下载网站",
+            "method": "网页端",
+            "models": "通常仅支持YouTube",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（基于GitHub Actions的免费额度，超出可能产生GitHub费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙利用GitHub Actions实现“云端”下载和永久存储YouTube视频，提供了一种新颖、无需本地部署的解决方案。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度尚可，Issue响应及时（11个已关闭，1个开启）。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-07T05:03:08.977Z"
+    },
+    {
+      "owner": "L1v1ng0ffTh3L4N",
+      "repo": "EdgeSavedPasswordsDumper",
+      "fullName": "L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper",
+      "description": "Security related proof of concepts",
+      "language": "C#",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-04T19:12:35Z",
+      "url": "https://github.com/L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper",
+      "analysis": {
+        "positioning": "Edge浏览器凭据明文存储漏洞演示工具",
+        "useCases": [
+          "你做安全研究 → 它帮你验证Edge浏览器内存中明文存储凭据的风险。",
+          "你学习内存检查和凭据处理 → 它提供C#示例代码，直观演示安全机制。",
+          "你评估终端服务器Edge安全 → 它揭示多用户环境下Edge凭据的窃取风险。"
+        ],
+        "audience": "专注于安全研究、教育学习及企业安全评估的个人或团队。",
+        "quickStart": {
+          "prerequisites": "Edge 147.0.3912.98 或更旧版本, .NET Framework 3.5, 管理员权限",
+          "steps": [
+            "下载并编译C#项目",
+            "以管理员权限运行可执行文件，查看Edge进程内存中的明文凭据"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作者自述C#经验不足，代码可能存在非规范模式，但作为教育和PoC工具已足够。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，issues暂无闭环。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-07T05:03:19.672Z"
+    },
+    {
+      "owner": "jingyaogong",
+      "repo": "minimind-o",
+      "fullName": "jingyaogong/minimind-o",
+      "description": "🎙️ 「大模型」从0训练0.1B能听能说能看的全模态Omni模型！A 0.1B Omni model trained from scratch, capable of listening, speaking, and seeing!",
+      "language": "Python",
+      "topics": [
+        "artificial-intelligence",
+        "chatgpt",
+        "omni"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-01T04:20:16Z",
+      "url": "https://github.com/jingyaogong/minimind-o",
+      "analysis": {
+        "positioning": "从零开始训练0.1B全模态Omni模型，人人可上手。",
+        "useCases": [
+          "想亲手从头搭建一个听、说、看的多模态AI模型 → 它帮你用极低成本（0.1B模型，单卡3090约2小时）完整实现一个Omni模型。",
+          "需要一个轻量级、端到端的全模态AI解决方案 → 它提供小规模Omni模型，支持CPU推理和真实对话体验（流式语音、实时打断）。",
+          "研究或学习多模态模型底层技术与训练流程 → 它提供完整代码、训练数据和技术报告，所有核心算法均PyTorch原生实现。"
+        ],
+        "audience": "AI开发者、研究者及爱好者，尤其适合想从0理解和实践轻量级全模态模型的人。",
+        "quickStart": {
+          "prerequisites": "一台带有NVIDIA RTX 3090或更高性能GPU的电脑，Python环境。",
+          "steps": [
+            "克隆项目代码",
+            "准备mini或full数据集",
+            "运行SFT全链路训练脚本"
+          ],
+          "note": "mini数据集可在单张RTX 3090上约2小时完成训练。"
+        },
+        "competitors": [
+          {
+            "name": "GPT-4o",
+            "method": "API调用",
+            "models": "私有大模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他开源Omni模型 (如Qwen3-Omni)",
+            "method": "使用预训练大模型权重",
+            "models": "大参数量模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，项目代码、模型权重、训练数据和技术报告全部开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目强调'大道至简'，致力于让每个人都能从0训练一个全模态模型。提供了完整的从0代码、轻量化模型（0.1B）、单卡GPU可训练、详细技术报告和在线体验，极大地降低了多模态大模型学习和实践门槛，动手乐趣十足。",
+        "isVibeCoding": true,
+        "communityActivity": "项目较新，社区活跃度尚待发展，目前只有一个开启Issue。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-07T05:03:35.728Z"
     }
   ]
 }
