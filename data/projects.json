@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-07T05:03:35.736Z",
+  "updatedAt": "2026-05-08T04:43:26.649Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -26877,6 +26877,559 @@
         "category": "LLM框架"
       },
       "analyzedAt": "2026-05-07T05:03:35.728Z"
+    },
+    {
+      "owner": "Tremorfitzapplaud",
+      "repo": "1tamilmv-telegram-bot",
+      "fullName": "Tremorfitzapplaud/1tamilmv-telegram-bot",
+      "description": "1tamilmv || 1tamilmv telegram || 1tamilmv bot || WD_1tamilmv_v2_bot",
+      "language": "Python",
+      "topics": [
+        "1tamilmv",
+        "1tamilmv-bot",
+        "1tamilmv-new-link"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-08T00:26:20Z",
+      "url": "https://github.com/Tremorfitzapplaud/1tamilmv-telegram-bot",
+      "analysis": {
+        "positioning": "一站式泰米尔电影信息与下载Telegram机器人。",
+        "useCases": [
+          "你想看最新泰米尔电影 → 它帮你推送最新上映和OTT平台更新。",
+          "你找不到某部泰米尔电影的下载链接 → 它提供直接下载链接。",
+          "你想了解泰米尔影星或电影详情 → 它提供演员资料、票房、影评等。",
+          "你希望关注特定电影或演员的更新 → 它提供个性化订阅通知。"
+        ],
+        "audience": "泰米尔电影爱好者，尤其是在Telegram上寻求电影资讯和下载的全球用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+，Telegram Bot API Token",
+          "steps": [
+            "克隆项目仓库",
+            "安装依赖（例如：pip install -r requirements.txt）",
+            "配置机器人（设置API Token等环境变量）",
+            "运行机器人脚本"
+          ],
+          "note": "README中Windows安装命令不完整，请参照Python项目通用部署流程。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README条理清晰，功能与技术特性明确，易于理解项目价值；但启动指令不完整，缺乏社区互动。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无Issue活动，社区互动度低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-08T04:40:29.212Z"
+    },
+    {
+      "owner": "nooncheetahstart",
+      "repo": "Kahoot-tools-AI",
+      "fullName": "nooncheetahstart/Kahoot-tools-AI",
+      "description": "Kahoot || Kahoot helper || Kahoot tools || Kahoot ai",
+      "language": "Python",
+      "topics": [
+        "kahoot",
+        "kahoot-answer-bot",
+        "kahoot-answers",
+        "kahoot-hack",
+        "kahoot-hacks"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-08T01:04:04Z",
+      "url": "https://github.com/nooncheetahstart/Kahoot-tools-AI",
+      "analysis": {
+        "positioning": "AI驱动的Kahoot辅助工具，助你轻松应对测验。",
+        "useCases": [
+          "你在玩Kahoot时 → 它帮你实时获取答案。",
+          "你想备考Kahoot → 它帮你进行练习并掌握正确答案。",
+          "你想提升Kahoot分数 → 它帮你分析表现并提供学习洞察。"
+        ],
+        "audience": "目标用户是学生，典型场景是参与Kahoot测验或备考。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+环境。",
+          "steps": [
+            "根据项目提供的安装命令进行安装（如`pip install ...`或`git clone ...`）。",
+            "运行助手并输入Kahoot游戏PIN码。"
+          ],
+          "note": "跨平台支持Windows、macOS和Linux。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供实时答案，虽然标榜为“学习助手”，但可能鼓励投机，削弱自主学习过程。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动度极低，社区互动可能主要通过Discord、Telegram等渠道。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-08T04:40:42.895Z"
+    },
+    {
+      "owner": "1TDSPw-26",
+      "repo": "front-aula-07-1sem",
+      "fullName": "1TDSPw-26/front-aula-07-1sem",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-08T00:13:35Z",
+      "url": "https://github.com/1TDSPw-26/front-aula-07-1sem",
+      "analysis": {
+        "positioning": "前端设计工程学习项目，聚焦现代、响应式界面开发。",
+        "useCases": [
+          "你想学习前端界面开发 → 它提供系统化的HTML、CSS学习路径和实践项目。",
+          "你想掌握响应式布局 → 它指导你用Flexbox和CSS Grid实现多设备适配。",
+          "你想遵循最佳实践重构前端项目 → 它提供代码优化和语义化结构refactor的练习。"
+        ],
+        "audience": "适合前端初学者及进阶者，尤其是在校学生或参加课程的学员。",
+        "quickStart": {
+          "prerequisites": "熟悉Git基础操作，具备基本的HTML和CSS知识。",
+          "steps": [
+            "克隆仓库：`git clone <repository_url>`",
+            "查阅README：根据“挑战”和“练习列表”完成前端界面重构与响应式布局任务。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "MDN Web Docs",
+            "method": "在线文档/教程",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "freeCodeCamp",
+            "method": "在线课程/项目",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README清晰，学习路径明确，强调最佳实践、语义化与响应式设计，教学质量高。虽是课程项目非完整产品，但内容组织优秀。",
+        "isVibeCoding": true,
+        "communityActivity": "无公开Issue，社区互动不活跃，主要作为教学资源。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-05-08T04:40:58.951Z"
+    },
+    {
+      "owner": "V4bel",
+      "repo": "dirtyfrag",
+      "fullName": "V4bel/dirtyfrag",
+      "description": "",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-07T18:18:28Z",
+      "url": "https://github.com/V4bel/dirtyfrag",
+      "analysis": {
+        "positioning": "Linux内核本地提权漏洞利用工具。",
+        "useCases": [
+          "你希望在特定Linux系统获取root权限 → 它帮你实现本地权限提升。",
+          "你是一名安全研究员 → 它提供Dirty Frag漏洞细节和PoC，用于研究和验证。",
+          "你负责系统安全评估 → 它帮助你测试系统是否存在Dirty Frag漏洞并评估风险。"
+        ],
+        "audience": "安全研究员、渗透测试工程师、系统管理员，用于漏洞研究、渗透测试及系统安全评估。",
+        "quickStart": {
+          "prerequisites": "C编译器 (如gcc)",
+          "steps": [
+            "git clone https://github.com/V4bel/dirtyfrag.git",
+            "cd dirtyfrag",
+            "gcc -O0 -Wall -o exp exp.c -lutil",
+            "./exp"
+          ],
+          "note": "此PoC仅供授权测试，切勿在未经授权的系统上使用。"
+        },
+        "competitors": [
+          {
+            "name": "Dirty Pipe (CVE-2022-0847)",
+            "method": "利用Linux内核管道机制的页缓存写入漏洞实现本地提权",
+            "models": "广泛影响Linux内核版本，通常在较新版本中修复",
+            "pricing": "免费"
+          },
+          {
+            "name": "Copy Fail (CVE-2023-51786)",
+            "method": "利用Linux内核页缓存写入漏洞实现本地提权",
+            "models": "广泛影响Linux内核版本，通常在较新版本中修复",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个安全漏洞利用工具，主要用于演示和利用系统漏洞，而非提升开发者的编码体验或提供愉悦的开发流程。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启18，关闭3。活跃度一般，可能存在较多待解决或讨论的问题。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-08T04:41:13.973Z"
+    },
+    {
+      "owner": "strukto-ai",
+      "repo": "mirage",
+      "fullName": "strukto-ai/mirage",
+      "description": "A Unified Virtual Filesystem For AI Agents",
+      "language": "TypeScript",
+      "topics": [
+        "agent-sandbox",
+        "agent-tools",
+        "ai-agents",
+        "bash",
+        "claude-code",
+        "fuse",
+        "langchain",
+        "llm-agents",
+        "openai-agents",
+        "python",
+        "typescript",
+        "vfs",
+        "virtual-filesystem"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-06T17:00:48Z",
+      "url": "https://github.com/strukto-ai/mirage",
+      "analysis": {
+        "positioning": "AI Agent的统一虚拟文件系统，简化跨服务数据操作。",
+        "useCases": [
+          "AI Agent需要分析Slack消息中的警报 → 它让你像操作本地文件一样，直接`grep`和`wc -l` Slack内容。",
+          "AI Agent需要读取GitHub仓库文件 → 它让你直接`cat`命令读取，无需复杂的API集成。",
+          "AI Agent需要将S3上的报告复制到本地存储 → 它让你用`cp`命令，无缝在不同挂载点间传输数据。"
+        ],
+        "audience": "开发AI Agent的工程师，希望统一Agent对各种云服务和数据源的访问，简化Agent工具开发。",
+        "quickStart": {
+          "prerequisites": "Node.js (for TypeScript) 或 Python 环境",
+          "steps": [
+            "根据所选语言（TypeScript/Python），通过npm或pip安装`mirage-ai`包。",
+            "实例化`Workspace`，将各种云服务或数据源（如S3, Slack, GitHub）挂载为虚拟文件目录。",
+            "使用`ws.execute()`方法，通过Bash命令风格与挂载的资源交互，或注册自定义命令。"
+          ],
+          "note": "支持TypeScript和Python SDK，提供统一编程接口。"
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目理念前瞻（AI Agent基础设施），技术栈现代（TypeScript，VFS），解决了Agent数据访问的痛点。代码示例简洁直观，社区关注度高（超1k星）。",
+        "isVibeCoding": true,
+        "communityActivity": "关注度较高（超1k星），但当前Issue解决活跃度较低（6开0关）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-08T04:41:28.975Z"
+    },
+    {
+      "owner": "antirez",
+      "repo": "ds4",
+      "fullName": "antirez/ds4",
+      "description": "DeepSeek 4 Flash local inference engine for Metal",
+      "language": "C",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-06T17:17:05Z",
+      "url": "https://github.com/antirez/ds4",
+      "analysis": {
+        "positioning": "DeepSeek v4 Flash 专用，针对 Metal 优化的本地推理引擎。",
+        "useCases": [
+          "你追求在本地设备上高效运行 DeepSeek v4 Flash 模型 → 它提供定制化的 Metal 图执行器，实现极速推理，特别优化思考模式。",
+          "你需要处理百万级上下文的大模型应用 → 它支持 100 万 token 上下文，并利用高效 KV 缓存（甚至可持久化到磁盘），在本地机器上实现长文本推理。",
+          "你希望在 MacBook 等高性能个人电脑上运行前沿大模型 → 它支持特殊2位量化，即便在 128GB RAM 的 MacBook 上也能高效运行 DeepSeek v4 Flash。"
+        ],
+        "audience": "希望在 macOS 等具备 Metal 加速能力的高端个人设备上，以极致效率运行 DeepSeek v4 Flash 模型（尤其关注其独特优势）的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "macOS 系统，具备 Metal 加速能力的硬件，推荐 128GB 或更高内存。",
+          "steps": [
+            "克隆项目到本地。",
+            "编译 C 语言源代码（可能需要 Make 或 Clang）。",
+            "根据文档加载 DeepSeek v4 Flash 模型并运行推理。"
+          ],
+          "note": "项目专注于 Metal，因此主要适用于 macOS 平台。"
+        },
+        "competitors": [
+          {
+            "name": "llama.cpp",
+            "method": "编译后运行，命令行或集成",
+            "models": "支持多种 GGUF 格式模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "Ollama",
+            "method": "Docker 或原生应用，API 调用",
+            "models": "支持多种模型，易于部署",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，MIT 许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目以 C 语言实现，低层级，性能导向，且高度特化某一模型，目标明确。虽然坦诚部分代码由 GPT 5.5 辅助生成，但强调人工主导思想、测试与调试，并致敬了 `llama.cpp` 和 GGML 的手写代码基础，整体给人一种追求极致效率和实用主义的感觉。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前Issue开闭比为 2/1，可能处于早期或高度集中开发阶段。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-08T04:41:44.559Z"
+    },
+    {
+      "owner": "NamKhoa-07",
+      "repo": "wallet-recovery-seed",
+      "fullName": "NamKhoa-07/wallet-recovery-seed",
+      "description": "ethereum wallet recovery password multithread tool, baked from pyethrecover and pyethereum, for using keystore v3 json file to help recover your lost password if you know some phrases using both brute and wordlist technique, start + end words, whole ascii or just numbers",
+      "language": "Python",
+      "topics": [
+        "bruteforce",
+        "etherium",
+        "generator",
+        "json",
+        "password",
+        "python",
+        "wallet"
+      ],
+      "license": "GPL-3.0",
+      "createdAt": "2026-05-07T08:04:51Z",
+      "url": "https://github.com/NamKhoa-07/wallet-recovery-seed",
+      "analysis": {
+        "positioning": "丢失以太坊Keystore V3密码？它助你多线程暴力或字典恢复。",
+        "useCases": [
+          "你记得钱包密码部分片段（如开头/结尾） → 它帮你结合已知线索和暴力/字典法尝试恢复。",
+          "你完全忘记钱包密码，想尝试所有可能字符组合 → 它帮你设定字符集和长度，进行全面暴力破解。",
+          "你手头有一份潜在密码列表文件 → 它帮你用这份列表快速测试，尝试匹配Keystore密码。"
+        ],
+        "audience": "以太坊Keystore V3文件用户，不慎丢失或遗忘密码，希望通过已知线索或穷举法找回密码。",
+        "quickStart": {
+          "prerequisites": "Linux / Windows 10 Anniversary Update 或更新版本（需启用WSL），Python 2.7.x",
+          "steps": [
+            "安装系统依赖：`sudo apt-get install libssl-dev build-essential automake pkg-config libtool libffi-dev libgmp-dev pandoc libreadline-dev zlib1g-dev curl git`",
+            "使用`pyenv`安装并激活Python 2.7.14环境。",
+            "安装Python模块依赖：`pip install setuptools --upgrade joblib pypandoc markdown rlp==0.6.0 py_ecc==1.1.3 ethereum==2.1.5`",
+            "根据需要使用`python generate.py`生成密码字典，或直接用`python recovery.py`加载字典/进行暴力破解以恢复密码。"
+          ],
+          "note": "建议在Linux或Windows 10 WSL环境下运行。"
+        },
+        "competitors": [],
+        "pricing": "免费（GPL-3.0开源许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档清晰，有视频演示，但依赖Python 2.7，安装过程略复杂，未提供简化部署方式（如Docker）。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue开启1个，关闭0个，维护状态显示为“yes”。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-08T04:42:13.938Z"
+    },
+    {
+      "owner": "thcp",
+      "repo": "stemdeck",
+      "fullName": "thcp/stemdeck",
+      "description": "Stemdeck is an AI-powered stem extraction platform for musicians and producers, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-03T10:51:20Z",
+      "url": "https://github.com/thcp/stemdeck",
+      "analysis": {
+        "positioning": "AI驱动的本地音乐分轨工具，免费且保护隐私。",
+        "useCases": [
+          "你练习乐器 → 它帮你分离伴奏、主唱，方便跟练。",
+          "你制作音乐 → 它帮你提取单轨素材，用于重混或采样。",
+          "你转录乐谱 → 它帮你隔离特定乐器，听清细节。"
+        ],
+        "audience": "注重隐私、追求免费方案的独立音乐人、制作人及音乐学习者。",
+        "quickStart": {
+          "prerequisites": "Python环境及Demucs相关依赖",
+          "steps": [
+            "（本地部署后）粘贴YouTube视频链接或上传音频。",
+            "获取6轨分离音频，在DAW式界面中编辑、混音、下载。"
+          ],
+          "note": "所有处理均在本地进行，无需联网、注册、无订阅费用。"
+        },
+        "competitors": [
+          {
+            "name": "Moises / LALAL.AI",
+            "method": "云端上传",
+            "models": "专有模型（通常质量更高）",
+            "pricing": "免费增值/按次付费"
+          }
+        ],
+        "pricing": "完全免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "免费、本地运行、隐私友好，功能核心且实用。README清晰对比竞品，Issue维护良好，但UI偏功能性，非极致打磨。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭迅速，项目维护稳定。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-08T04:42:29.802Z"
+    },
+    {
+      "owner": "facebookresearch",
+      "repo": "ProgramBench",
+      "fullName": "facebookresearch/ProgramBench",
+      "description": "Can Language Models Rebuild Programs From Scratch?",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-03T17:26:54Z",
+      "url": "https://github.com/facebookresearch/ProgramBench",
+      "analysis": {
+        "positioning": "评估AI Agent从编译二进制和文档重建代码的能力。",
+        "useCases": [
+          "你研究AI代码生成 → 它提供基准测试，衡量LLM从二进制和文档重建代码的能力。",
+          "你开发AI编程助手 → 它提供高级挑战任务，测试助手的逆向工程和代码实现水平。",
+          "你探索软件逆向工程自动化 → 它提供AI驱动的实验平台和评估框架。"
+        ],
+        "audience": "AI研究员、LLM开发者、软件逆向工程专家，用于评估和提升AI的代码理解与生成能力。",
+        "quickStart": {
+          "prerequisites": "Python环境（推荐uv）",
+          "steps": [
+            "uv pip install programbench",
+            "或 pip install programbench"
+          ],
+          "note": "官方推荐使用uv管理Python环境，也可通过git克隆仓库进行开发。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个开创性的研究项目，旨在评估LLM从底层理解和重建复杂程序的能力，对未来AI编程和逆向工程领域具有重要研究价值。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度尚可，Star数适中，Issue解决效率较高（关闭数是开放数的两倍）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-08T04:42:43.872Z"
+    },
+    {
+      "owner": "joshawome",
+      "repo": "chainreason",
+      "fullName": "joshawome/chainreason",
+      "description": "A benchmark for evaluating LLM reasoning on Ethereum and DeFi tasks",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-04T02:20:05Z",
+      "url": "https://github.com/joshawome/chainreason",
+      "analysis": {
+        "positioning": "评估LLM在以太坊和DeFi任务上的推理基准。",
+        "useCases": [
+          "你评估LLM理解DeFi协议机制 → 它帮你通过多选题测试LLM。",
+          "你评估LLM识别智能合约漏洞 → 它帮你分类Solidity代码片段，识别漏洞类型。",
+          "你评估LLM理解区块链交易意图 → 它帮你从解码的动作序列中推断交易目的。",
+          "你评估LLM进行AMM数学计算 → 它帮你计算兑换输出量，验证其数值推理。"
+        ],
+        "audience": "智能合约工程师、DeFi分析师或LLM研究人员，用于评估和对比LLM在区块链领域的推理能力。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+, Git，可选OpenAI API Key或本地模型依赖（torch, transformers, accelerate）",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/joshawome/chainreason && cd chainreason`",
+            "安装依赖：`pip install -e .` (如需本地模型推理，额外安装 `pip install torch transformers accelerate`)",
+            "配置OpenAI API Key (如使用OpenAI)：`export OPENAI_API_KEY=...`",
+            "运行评估：`python scripts/run_eval.py --task protocol_qa --client openai --model gpt-4o-mini --limit 5`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "专注于代码生成的LLM基准",
+            "method": "评估LLM生成Solidity代码的能力，而非其深层协议理解。",
+            "models": "未明确。",
+            "pricing": "免费（假设为开源基准）"
+          },
+          {
+            "name": "专注于漏洞检测的LLM基准",
+            "method": "评估LLM识别智能合约漏洞的能力，但在其他推理维度有所欠缺。",
+            "models": "未明确。",
+            "pricing": "免费（假设为开源基准）"
+          }
+        ],
+        "pricing": "免费（开源基准套件），模型推理可能涉及付费API（如OpenAI）或免费本地部署。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，代码使用Python标准库和常见AI/ML工具，有明确的评估目标和任务划分，易于扩展和使用。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区活跃度较低，Issue统计显示无开放或已关闭问题，项目尚处于早期或专注于核心开发。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-05-08T04:43:01.691Z"
+    },
+    {
+      "owner": "moxailoo",
+      "repo": "univ3-pool-lens",
+      "fullName": "moxailoo/univ3-pool-lens",
+      "description": "A focused TypeScript toolkit for inspecting Uniswap V3 pools — liquidity distribution, fee yield, and impermanent-loss math from your terminal.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-04T08:28:59Z",
+      "url": "https://github.com/moxailoo/univ3-pool-lens",
+      "analysis": {
+        "positioning": "终端Uniswap V3流动池快速分析工具。",
+        "useCases": [
+          "你想快速查看Uniswap V3池的实时流动性分布和价格 → 它帮你即时获取核心数据。",
+          "你想评估Uniswap V3 LP在特定价格区间的潜在无常损失（IL）→ 它帮你计算并预测IL。",
+          "你想估算Uniswap V3池的短期费用收益率（APR）→ 它帮你快速估算池的24小时费用APR。",
+          "你想在不依赖Subgraph或Notebook的情况下，快速进行Uniswap V3池的“健康检查”→ 它提供一个命令行工具进行秒级的数据验证。"
+        ],
+        "audience": "Uniswap V3流动性提供者（LP）或链上数据分析师，需要快速、本地化地查询和评估Uniswap V3池状态及LP策略。",
+        "quickStart": {
+          "prerequisites": "Node 20+，一个RPC URL（如Infura、Alchemy等）",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/moxailoo/univ3-pool-lens && cd univ3-pool-lens`",
+            "安装依赖并构建：`npm install && npm run build`，可选全局链接：`npm link`",
+            "配置RPC URL：复制`.env.example`为`.env`，并设置至少一个RPC URL"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Dune Analytics",
+            "method": "Web端可视化看板，SQL查询",
+            "models": "多链DeFi数据，自定义SQL模型",
+            "pricing": "免费（公共看板），付费（私有/高级功能）"
+          },
+          {
+            "name": "DefiLlama",
+            "method": "Web端聚合数据，API",
+            "models": "多链DeFi协议数据，TVL等指标",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位明确，专为Uniswap V3 LP和分析师解决痛点。CLI设计简洁高效，TypeScript编写，架构清晰，核心模块可复用。提供了快速、本地化的数据洞察，对开发者非常实用。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue开启0/关闭0，社区活跃度较低，可能因项目较新或维护者直接处理而非通过Issue。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-08T04:43:14.877Z"
+    },
+    {
+      "owner": "butthtio",
+      "repo": "solidity-cot-auditor",
+      "fullName": "butthtio/solidity-cot-auditor",
+      "description": "Multi-role chain-of-thought LLM pipeline for Solidity security auditing, layered on top of Slither output.",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-04T02:37:55Z",
+      "url": "https://github.com/butthtio/solidity-cot-auditor",
+      "analysis": {
+        "positioning": "Solidity智能合约AI审计助手，深度解读静态分析结果。",
+        "useCases": [
+          "你进行Solidity静态分析 → 它帮你将Slither的简洁输出转化为详细的技术解释、攻击POC和最小化修复方案。",
+          "你想直接审计Solidity文件 → 它帮你通过内置的Slither和LLM链生成完整的审计报告。",
+          "你需要在CI/CD中集成审计 → 它帮你处理Slither的JSON输出，提供更丰富的审计信息。",
+          "你想自定义审计流程 → 它帮你通过模块化的LLM角色进行灵活配置，或切换不同的LLM后端。"
+        ],
+        "audience": "Solidity开发者、安全审计师、智能合约项目团队，用于自动化和深化智能合约安全审计。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, OpenAI API Key (或兼容的LLM服务配置), solc编译器 (用于Slither)。",
+          "steps": [
+            "pip install -e \".[dev]\"",
+            "pip install slither-analyzer",
+            "export OPENAI_API_KEY=sk-...  # 或配置其他LLM服务",
+            "solidity-cot audit ./contracts/MyToken.sol --output reports/"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "工具本身免费开源，但使用LLM API需按量付费给第三方服务商（如OpenAI）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "模块化LLM设计，流程清晰，详细解读静态分析结果，且支持多种LLM后端。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示暂无公开问题或讨论。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-08T04:43:26.638Z"
     }
   ]
 }
