@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-08T04:43:26.649Z",
+  "updatedAt": "2026-05-09T04:55:24.207Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -27430,6 +27430,413 @@
         "category": "安全"
       },
       "analyzedAt": "2026-05-08T04:43:26.638Z"
+    },
+    {
+      "owner": "E4346",
+      "repo": "Multi-Network",
+      "fullName": "E4346/Multi-Network",
+      "description": "",
+      "language": "Unknown",
+      "topics": [
+        "bitcoin-flash-transactions",
+        "fake-btc-transaction",
+        "flash-btc-btc-fake",
+        "flash-btc-sender",
+        "flash-btc-transfer",
+        "flash-uadt-sender-ios",
+        "flash-usdt-crpto",
+        "flash-usdt-fake-sender",
+        "flash-usdt-online-sender",
+        "flash-usdt-online-senderflash",
+        "flash-usdt-sender-app",
+        "flash-usdt-sender-software-generator",
+        "flash-usdt-softwaress",
+        "flashcrypto",
+        "usdt-flash-crypto",
+        "usdt-online-sender",
+        "usdterc20"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-09T03:46:46Z",
+      "url": "https://github.com/E4346/Multi-Network",
+      "analysis": {
+        "positioning": "模拟超快速加密货币转账，生成带哈希的假交易证明。",
+        "useCases": [
+          "你需要展示加密货币转账效果 → 它帮你生成逼真的假交易记录，附带确认和哈希。",
+          "你需要测试系统对“闪电交易”的响应 → 它帮你模拟这类交易流程，无需真实资金。",
+          "你想向他人证明“资金已发出” → 它帮你快速生成伪造的转账成功凭证。"
+        ],
+        "audience": "目标用户是寻求模拟加密货币转账或生成虚假交易凭证的人群。",
+        "quickStart": {
+          "prerequisites": "联系项目管理员获取软件或演示。",
+          "steps": [
+            "点击README中的WhatsApp或Telegram链接",
+            "联系管理员获取演示或软件"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他加密假交易生成器",
+            "method": "下载专用软件/在线工具",
+            "models": "BTC, USDT或其他主流币",
+            "pricing": "付费/订阅"
+          },
+          {
+            "name": "图像编辑软件",
+            "method": "手动修改交易截图",
+            "models": "任意",
+            "pricing": "免费/付费（如Photoshop）"
+          }
+        ],
+        "pricing": "部分免费/付费，提供免费演示，软件本身可能需要付费购买。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目描述和Topics明确指向“假交易”、“伪造转账”，其主要用途存在严重的诈骗风险。联系方式非典型开源社区模式。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎没有社区活跃度，Issue 功能未被使用。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-09T04:52:52.114Z"
+    },
+    {
+      "owner": "killervillsy",
+      "repo": "SessionToJson",
+      "fullName": "killervillsy/SessionToJson",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-09T02:52:19Z",
+      "url": "https://github.com/killervillsy/SessionToJson",
+      "analysis": {
+        "positioning": "将浏览器会话数据（如localStorage、cookies）导出为JSON格式的工具。",
+        "useCases": [
+          "你正在调试或分析一个网站的会话数据 → 它帮你快速将当前会话中的所有关键数据（如localStorage、cookies）导出成结构化的JSON，方便离线查看或分享。",
+          "你需要为自动化测试准备特定的浏览器状态 → 它帮你将特定用户会话数据保存为JSON，便于在测试脚本中导入和复用。",
+          "你想备份或迁移特定网站的浏览器会话信息 → 它帮你将这些数据导出为可读的JSON文件，方便跨设备或浏览器恢复。"
+        ],
+        "audience": "Web开发者、测试人员或需要分析、备份浏览器会话数据的技术用户。",
+        "quickStart": {
+          "prerequisites": "现代JavaScript运行环境（如Node.js或浏览器）",
+          "steps": [
+            "git clone https://github.com/killervillsy/SessionToJson.git",
+            "cd SessionToJson && npm install && npm start"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目星数极少（11），无任何Issue活动记录，且未声明许可证，表明社区活跃度低，可靠性与维护前景存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区几乎没有活跃度，无 Issue 提交或讨论记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-09T04:53:17.422Z"
+    },
+    {
+      "owner": "wangrujun2016",
+      "repo": "auto-resume",
+      "fullName": "wangrujun2016/auto-resume",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-09T02:01:19Z",
+      "url": "https://github.com/wangrujun2016/auto-resume",
+      "analysis": {
+        "positioning": "BOSS直聘多账号自动化招呼桌面应用。",
+        "useCases": [
+          "你管理多个BOSS直聘账号 → 它帮你独立运行、互不干扰。",
+          "你需高效筛选和招呼职位 → 它按条件自动筛选并发送招呼。",
+          "你怕重复操作、想看进展 → 它记录已招呼，并实时推送操作日志。"
+        ],
+        "audience": "求职者、猎头，需要提升BOSS直聘沟通效率，管理多账号或大量职位。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Node.js 18+, Chrome浏览器（推荐）",
+          "steps": [
+            "安装前端/Electron依赖：`npm run install:all`",
+            "安装Python后端依赖（建议虚拟环境）：`cd backend && python -m venv .venv && .\\.venv\\Scripts\\Activate.ps1 && pip install -r requirements.txt`",
+            "启动开发模式：`npm run dev`"
+          ],
+          "note": "Python 2.7用户需升级至3.10+并确保已加入PATH；Playwright默认使用本机Chrome，也可自动下载Chromium。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用的BOSS直聘自动化工具，技术栈现代化（Electron+React+FastAPI+Playwright），设计考虑了多账号隔离、幂等和实时日志，有效解决了特定场景下的效率痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，暂无Issue反馈或贡献记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-09T04:53:30.494Z"
+    },
+    {
+      "owner": "vercel-labs",
+      "repo": "zero-native",
+      "fullName": "vercel-labs/zero-native",
+      "description": "Build native desktop + mobile apps with web UI and Zig",
+      "language": "Zig",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-08T19:53:41Z",
+      "url": "https://github.com/vercel-labs/zero-native",
+      "analysis": {
+        "positioning": "用Web UI和Zig构建轻量、极速的原生桌面/移动应用。",
+        "useCases": [
+          "你希望用Web技术快速构建桌面/移动应用，但又厌倦了Electron等方案的臃肿和性能问题 → zero-native帮你用Web UI和Zig构建微小、内存占用低、启动快的原生应用。",
+          "你需要应用具备原生的性能和访问操作系统API的能力，同时保留Web前端开发的便利性 → zero-native允许你用Zig直接调用C/原生SDK，同时前端继续使用你熟悉的Web工具链。",
+          "你对应用包体大小、渲染一致性或即时编译速度有要求 → zero-native让你选择系统WebView（包体最小）或打包Chromium（渲染一致），并且原生层用Zig实现即时编译。"
+        ],
+        "audience": "希望将Web前端技术栈用于原生桌面和移动应用开发，同时追求极致性能、小包体和直接原生访问能力的开发者，尤其是对Zig语言感兴趣的用户。",
+        "quickStart": {
+          "prerequisites": "npm (用于安装CLI工具), zig (用于构建原生应用)",
+          "steps": [
+            "npm install -g zero-native",
+            "zero-native init my_app --frontend next",
+            "cd my_app && zig build run"
+          ],
+          "note": "首次运行会自动安装前端依赖、构建原生外壳并打开桌面应用窗口。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目创新性强，结合Zig的性能优势和Web前端的开发效率，支持系统WebView和Chromium两种引擎，且注重原生调用和安全性。但目前仍处于预发布阶段，社区活跃度低，功能和稳定性仍有待验证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低（3个开启Issue，0个关闭Issue），项目处于非常早期探索阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-09T04:54:00.354Z"
+    },
+    {
+      "owner": "zzzhhh1",
+      "repo": "Sing-Flare-Auto",
+      "fullName": "zzzhhh1/Sing-Flare-Auto",
+      "description": "本项目提供了一个基于 Docker 容器的轻量级、高隐匿性科学上网节点部署方案。通过集成 sing-box 和 cloudflared，你可以轻松地在各类云平台（如 Koyeb、Render 等）或个人 VPS 上一键构建安全隧道。下方是详细的视频教程链接：",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-05T13:59:37Z",
+      "url": "https://github.com/zzzhhh1/Sing-Flare-Auto",
+      "analysis": {
+        "positioning": "轻量高隐匿性Docker部署方案，一键构建安全科学上网节点。",
+        "useCases": [
+          "你需要快速搭建安全稳定的科学上网节点 → 它帮你基于Docker一键部署高隐匿性节点。",
+          "你希望隐藏真实服务器IP，避免被封锁 → 它帮你利用Cloudflare Tunnel穿透内网，隐藏IP。",
+          "你部署的节点被风控或流媒体受限 → 它帮你通过集成Cloudflare WARP解锁流媒体、降低风控。"
+        ],
+        "audience": "适合希望在各类云平台或VPS上，通过Docker快速搭建和管理个人高隐匿性科学上网节点的用户。",
+        "quickStart": {
+          "prerequisites": "Cloudflare Zero Trust账号，一个域名，一个UUID。",
+          "steps": [
+            "在Cloudflare Zero Trust创建Tunnel并获取Token。",
+            "生成一个UUID。",
+            "在Koyeb/Render等平台创建应用，设置环境变量`UUID`和`ARGO_TOKEN`。",
+            "使用VLESS客户端连接（地址为Cloudflare Tunnel域名，端口443，UUID，WS协议，TLS开启）。"
+          ],
+          "note": "支持任何兼容Docker的环境部署，部署端口默认为8080。"
+        },
+        "competitors": [
+          {
+            "name": "其他手动配置代理（如 V2Ray/Xray）",
+            "method": "手动安装并配置服务端与反向代理，步骤复杂",
+            "models": "N/A",
+            "pricing": "软件免费，需自购服务器"
+          },
+          {
+            "name": "传统一键脚本（如 Shadowsocks/Trojan）",
+            "method": "运行Shell脚本部署，自动化程度和隐匿性可能较低",
+            "models": "N/A",
+            "pricing": "软件免费，需自购服务器"
+          }
+        ],
+        "pricing": "软件免费，但受CC BY-NC 4.0协议限制，严禁商业牟利，部署需自购云服务或VPS。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，基于Docker和Alpine Linux构建，轻量高效。利用Cloudflare Tunnel和sing-box提供高隐匿性、先进协议，解决核心痛点。环境变量配置灵活，部署教程详细，并提供WARP进阶玩法，考虑周全。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前仅有1个开启的Issue，且无已关闭Issue，响应速度未知。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-09T04:54:20.290Z"
+    },
+    {
+      "owner": "WenyuChiou",
+      "repo": "awesome-agentic-ai-zh",
+      "fullName": "WenyuChiou/awesome-agentic-ai-zh",
+      "description": "AI Agent 中文學習地圖 — 從零開始的結構化學習路徑，每階段有必做練習跟必修閱讀。三語對照（繁中／简中／English）。歡迎社群一起貢獻、優化內容。",
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "awesome-list",
+        "bilingual",
+        "claude-code",
+        "claude-skills",
+        "cli",
+        "learning-roadmap",
+        "llm-agents",
+        "mcp",
+        "model-context-protocol",
+        "tutorial"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-04T22:18:51Z",
+      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+      "analysis": {
+        "positioning": "AI Agent中文结构化学习路径，从入门到系统构建。",
+        "useCases": [
+          "你想入门AI Agent → 它提供结构化学习路径，避免迷茫。",
+          "你想用AI Agent工具提升效率 → 它提供CLI Power User路线，教你高效使用。",
+          "你想从零构建AI Agent系统 → 它提供Agent Builder路线，引导你设计多Agent系统。"
+        ],
+        "audience": "适合想系统学习AI Agent，从LLM使用者进阶到Agent系统构建者，或高效利用现有Agent工具的各类学习者。",
+        "quickStart": {
+          "prerequisites": "Python、Git、API基础知识、JSON。",
+          "steps": [
+            "git clone https://github.com/WenyuChiou/awesome-agentic-ai-zh.git",
+            "cd awesome-agentic-ai-zh",
+            "从 stages/00-foundations.md 开始学习"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目提供了极其详尽且结构化的AI Agent学习路径，从零基础到多Agent系统构建，包含动手练习、项目推荐和多语言支持，对学习者非常友好且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue区尚未有活动，但项目欢迎社区贡献和优化内容。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-09T04:54:31.554Z"
+    },
+    {
+      "owner": "BigPizzaV3",
+      "repo": "CodexPlusPlus",
+      "fullName": "BigPizzaV3/CodexPlusPlus",
+      "description": "一个CodexApp的增强工具",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T09:32:49Z",
+      "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
+      "analysis": {
+        "positioning": "Codex App增强工具，解锁插件并管理会话。",
+        "useCases": [
+          "你使用API Key模式的Codex → 它帮你解锁原生插件入口，正常使用所有插件功能。",
+          "你希望删除Codex会话 → 它帮你添加删除按钮，支持删除确认和撤销。",
+          "你想要自定义Codex部分增强功能 → 它帮你通过顶部菜单栏轻松开关增强选项。"
+        ],
+        "audience": "Codex App用户，特别是API Key模式下希望解锁插件功能或需要会话删除、自定义增强功能的开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+，Windows或macOS系统，已安装Codex App。",
+          "steps": [
+            "克隆项目并安装依赖：`python -m pip install -e .`",
+            "Windows用户双击`setup.bat`进行图形安装，或在命令行执行`python -m codex_session_delete setup`（macOS用户相同）。"
+          ],
+          "note": "Windows会在桌面生成快捷方式，macOS会在`/Applications`目录下生成`Codex++.app`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目通过Chromium DevTools Protocol非侵入式注入脚本，巧妙增强现有Codex App功能，解决特定用户痛点，符合小而精、具有技术巧思的“黑科技”调性。",
+        "isVibeCoding": true,
+        "communityActivity": "讨论交流群活跃，Issue开闭比（9开/3关）表明有用户反馈和维护响应，社区参与度良好。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-09T04:54:49.406Z"
+    },
+    {
+      "owner": "Ch1rpy2613",
+      "repo": "Mirrai",
+      "fullName": "Ch1rpy2613/Mirrai",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-05T14:04:55Z",
+      "url": "https://github.com/Ch1rpy2613/Mirrai",
+      "analysis": {
+        "positioning": "基于个人情感数据训练的AI对话伙伴，帮助用户处理亲密关系中的恐惧、焦虑与告别。",
+        "useCases": [
+          "你爱到极致却不敢表达害怕失去 → 它给你一个安全的虚拟树洞，让你倾诉最深焦虑并获得“她”的回应。",
+          "你深陷分手痛苦，有许多话未曾说出口 → 它作为虚拟对话对象，帮你完成一场迟来的告别，走向释怀。",
+          "你因亲密关系中的不安全感而情绪内耗 → 它通过模拟对话，让你在安全环境中反复练习表达、面对焦虑。"
+        ],
+        "audience": "适合在亲密关系中深感焦虑、不安全，或有未竟告别需求，需要情感出口的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js, Git, 熟悉命令行操作",
+          "steps": [
+            "`git clone Ch1rpy2613/Mirrai`",
+            "`cd Mirrai && npm install`",
+            "根据项目README指引配置个人数据并启动服务"
+          ],
+          "note": "本项目设计初衷为个人化情感模型训练，核心功能需基于用户个人数据进行配置与训练。"
+        },
+        "competitors": [
+          {
+            "name": "Replika",
+            "method": "移动App/Web聊天",
+            "models": "私有模型",
+            "pricing": "部分免费/付费订阅"
+          },
+          {
+            "name": "Character.AI",
+            "method": "Web/App创建和聊天自定义AI角色",
+            "models": "私有大型语言模型",
+            "pricing": "部分免费/付费订阅"
+          }
+        ],
+        "pricing": "免费（开源项目，需自行部署和配置）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目由作者深切的个人情感驱动，旨在解决亲密关系中的极端焦虑和不安全感。整个README充满真挚的情绪表达，明确指出并非为商业或学术目的，是典型的Vibe Coding。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue区未有活动记录，项目主要为作者个人情感输出，社区互动尚不明显。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-09T04:55:11.741Z"
+    },
+    {
+      "owner": "evanphi7",
+      "repo": "lighthouse-router",
+      "fullName": "evanphi7/lighthouse-router",
+      "description": "Off-chain DEX route discovery on Solana — pool decoders, multi-hop quoting, and arbitrage cycle detection",
+      "language": "Rust",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-04T08:42:52Z",
+      "url": "https://github.com/evanphi7/lighthouse-router",
+      "analysis": {
+        "positioning": "Solana链下DEX路由发现及套利工具",
+        "useCases": [
+          "你做Solana DEX跨币种交易报价 → 它帮你自动计算最优多跳路径和交易价格",
+          "你做DEX数据分析或策略开发 → 它帮你解码主流DEX池数据并提供底层数学计算",
+          "你做市场套利策略 → 它帮你检测Solana DEX间的负循环套利机会"
+        ],
+        "audience": "专注于Solana链上DEX交易、套利、数据分析的开发者、研究员及策略构建者",
+        "quickStart": {
+          "prerequisites": "Rust环境，Solana RPC端点",
+          "steps": [
+            "作为库引入：`cargo add lighthouse-router`",
+            "作为CLI工具安装：`cargo install --path .`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Jupiter",
+            "method": "集成服务/SDK",
+            "models": "提供全面的路由聚合、MEV保护、滑点保护、跨程序调用等高级功能",
+            "pricing": "免费（交易可能产生费用）"
+          }
+        ],
+        "pricing": "免费。开源Rust库及CLI工具。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "精准解决Solana开发者在构建DEX交互和套利策略时重复编写底层逻辑的痛点，提供模块化、可测试且高性能的Rust原语，架构清晰，定位明确，避免了大而全的冗余。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无社区Issue记录，可能为早期项目或个人工具，或问题解决及时无需Issue。",
+        "category": "后端框架"
+      },
+      "analyzedAt": "2026-05-09T04:55:24.196Z"
     }
   ]
 }
