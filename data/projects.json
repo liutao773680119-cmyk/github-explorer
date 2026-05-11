@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-10T05:10:45.579Z",
+  "updatedAt": "2026-05-11T05:41:25.001Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -28403,6 +28403,653 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-10T05:10:45.570Z"
+    },
+    {
+      "owner": "ai-twinkle",
+      "repo": "Hub",
+      "fullName": "ai-twinkle/Hub",
+      "description": "Twinkle Hub — community feedback / feature requests for hub.twinkleai.tw",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-11T02:26:38Z",
+      "url": "https://github.com/ai-twinkle/Hub",
+      "analysis": {
+        "positioning": "台湾首个MCP服务，让AI直接查询台湾政府数据及工具。",
+        "useCases": [
+          "你做台湾旅游规划 → 它帮你快速整合热门景点、合法住宿和夜市信息。",
+          "你分析台湾政府采购 → 它帮你筛选金额最大采购项目，分析厂商分布。",
+          "你查询台湾教育数据 → 它帮你找出大学录取率最高的科系。"
+        ],
+        "audience": "适合需要让AI直接查询台湾政府开放数据、采购信息及本地化工具的开发者和AI用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "登录hub.twinkleai.tw获取API Key。",
+            "将API Key配置到你的AI客户端（如Claude Desktop/Cursor）。"
+          ],
+          "note": "不同的AI客户端（Claude Desktop, Cursor, Claude Code, Codex等）配置方式略有不同。"
+        },
+        "competitors": [],
+        "pricing": "Alpha期完全免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供台湾专属的丰富开放数据和本地化工具，以标准MCP服务无缝集成主流AI客户端，定位明确，价值高，上手简单。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues区尚未有任何活动，用户反馈可能集中在Discord/Facebook社群。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-11T05:37:32.401Z"
+    },
+    {
+      "owner": "huangserva",
+      "repo": "3DCellForge",
+      "fullName": "huangserva/3DCellForge",
+      "description": "AI-powered interactive 3D cell generation and exploration studio.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-10T10:34:50Z",
+      "url": "https://github.com/huangserva/3DCellForge",
+      "analysis": {
+        "positioning": "AI驱动的交互式3D细胞生成与探索平台。",
+        "useCases": [
+          "你是一名生物研究者或学生，想直观探索细胞结构 → 它提供基于React Three Fiber的交互式3D细胞模型查看器。",
+          "你有细胞参考图像，想生成对应的3D模型 → 它通过集成Tripo/Hunyuan3D，将图片转换为可编辑的3D细胞模型。",
+          "你需要展示或分享细胞模型 → 它支持GLB导出、截图，并提供器官细节卡片和比较面板。"
+        ],
+        "audience": "生物研究员、教育工作者和学生，以及任何对细胞生物学可视化和AI生成3D模型感兴趣的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js, npm",
+          "steps": [
+            "`npm install`",
+            "`npm run dev`"
+          ],
+          "note": "AI生成功能需配置API Key (`.env.local`)，支持Tripo云服务或Hunyuan3D本地部署。"
+        },
+        "competitors": [],
+        "pricing": "核心工作室免费开源。AI 3D模型生成功能依赖第三方服务（Tripo为云端付费/部分免费，Hunyuan3D为本地部署免费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目采用现代前端技术栈 (React, Three.js, Vite)，功能清晰，提供交互式3D细胞探索及可选的AI图片转3D模型生成能力。快速启动简单，但完整AI功能需额外配置API Key。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 统计显示暂无开启或关闭的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-11T05:37:55.051Z"
+    },
+    {
+      "owner": "thakur-works",
+      "repo": "DarkGPT",
+      "fullName": "thakur-works/DarkGPT",
+      "description": "Darkgpt mod free #chatgpt",
+      "language": "Unknown",
+      "topics": [
+        "chatgpt-bypass",
+        "chatgpt5",
+        "darkgpt"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-10T11:32:52Z",
+      "url": "https://github.com/thakur-works/DarkGPT",
+      "analysis": {
+        "positioning": "免费且无限制地使用ChatGPT的修改版或替代方案。",
+        "useCases": [
+          "你希望免费使用ChatGPT → 它提供一个可用的“DarkGPT”版本，无需付费。",
+          "你遇到ChatGPT的地区或内容限制 → 它帮你绕过这些限制，进行自由对话。",
+          "你好奇“ChatGPT5”等新功能 → 它可能提供类似早期或修改版体验（基于Topics推断）。"
+        ],
+        "audience": "寻找免费、无限制地使用ChatGPT的用户，尤其希望突破官方服务限制的人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目到本地。",
+            "按照项目文档（若有）进行安装和运行。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT 官方版",
+            "method": "网页/API",
+            "models": "GPT-3.5, GPT-4",
+            "pricing": "部分免费，高级功能付费"
+          },
+          {
+            "name": "其他ChatGPT破解/绕过工具",
+            "method": "各异（如特定客户端、Web代理）",
+            "models": "通常基于ChatGPT",
+            "pricing": "免费/部分免费"
+          }
+        ],
+        "pricing": "免费。项目描述明确指出是“mod free”。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目获得一定星标，但缺乏详细的README（仅有许可证）、语言说明，且Issue功能未启用，难以评估其具体功能、活跃度和可靠性。其定位为ChatGPT的免费和绕过版。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue功能未启用或无人使用。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-11T05:38:13.790Z"
+    },
+    {
+      "owner": "thakur-works",
+      "repo": "Velocity-Executor",
+      "fullName": "thakur-works/Velocity-Executor",
+      "description": "This repository contains Velocity Executor — a free Roblox script executor for PC built for fast injection, stable performance, and easy access. Includes Level 8 execution in 2026 with no ads, no key checkpoints, and no extra verification.",
+      "language": "Unknown",
+      "topics": [
+        "roblox",
+        "velocity",
+        "velocity-roblox"
+      ],
+      "license": "GPL-3.0",
+      "createdAt": "2026-05-10T11:10:20Z",
+      "url": "https://github.com/thakur-works/Velocity-Executor",
+      "analysis": {
+        "positioning": "免费Roblox脚本执行器，主打无钥匙、高性能、易用性。",
+        "useCases": [
+          "你想在Roblox中运行高级自定义脚本（如GUI脚本） → 它帮你实现Level 8脚本支持，提供更强大的游戏内功能。",
+          "你厌倦了其他Roblox执行器繁琐的钥匙系统、广告和额外验证 → 它帮你免去一切障碍，即开即用，无广告烦恼。",
+          "你需要一个PC端Roblox脚本执行器，要求快速注入、稳定运行且资源占用低 → 它帮你提供快速注入引擎、稳定沙箱环境，并兼容Windows 10/11。"
+        ],
+        "audience": "PC端Roblox玩家或脚本使用者，寻求免费、高性能、免去钥匙系统和广告的脚本执行工具。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "下载并运行`VelBlox.exe`（以管理员身份）。",
+            "打开Roblox，然后注入并运行你的Lua脚本。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目名为'Executor'，核心功能是执行用户编写的Lua脚本（Level 8支持），并提供脚本中心、错误日志等功能。这直接与编程和代码执行相关，尽管其应用场景是游戏作弊或增强体验，但提供了代码运行环境和便利性。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue统计为零（0/0），社区活跃度有待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-11T05:38:27.129Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "huashu-md-html",
+      "fullName": "alchaincyf/huashu-md-html",
+      "description": "md/html 双向流水线 · 三个能力一站式：万物→md / md→精美html / html→md。封装 markitdown + Pandoc + html-to-markdown + trafilatura。4 套反 AI slop 主题。Claude Code skill.",
+      "language": "CSS",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-09T15:34:26Z",
+      "url": "https://github.com/alchaincyf/huashu-md-html",
+      "analysis": {
+        "positioning": "MD/HTML 双向转换流水线，为AI Agent优化的文档处理利器。",
+        "useCases": [
+          "你需要将PDF、Office文档、图片、音视频或网页内容转为干净Markdown时，它能帮你一键完成。",
+          "你希望将Markdown文档转换为高质量、反AI风格的精美HTML发布时，它能帮你按出版社品味排版。",
+          "你想要将已发布的HTML网页（如博客）抓取回来，去除冗余内容并归档为Markdown时，它能帮你还原纯净内容。"
+        ],
+        "audience": "追求高质量文档转换、反AI审美、并习惯通过AI Agent（如Claude Code）提升工作流效率的内容创作者、开发者和研究人员。",
+        "quickStart": {
+          "prerequisites": "需要Node.js环境及skills.sh CLI（用于安装）",
+          "steps": [
+            "在终端执行 `npx skills add alchaincyf/huashu-md-html` 安装该Skill。",
+            "在支持的AI Agent（如Claude Code）中，直接使用自然语言指令，例如「这个PDF转成md」或「把这篇md做成精美html，用article主题」等。"
+          ],
+          "note": "支持Claude Code、Cursor、Codex、OpenClaw、Hermes等多种AI Agent。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License，工具本身免费，AI Agent服务可能收费）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确强调“反AI slop主题”与“出版社品味”，提供Kenya Hara极简和Pentagram信息建筑派等高质量设计语言，并支持Agent通用，高度契合Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1/关闭0，社区活跃度较低，项目处于早期阶段或维护者主要在内部沟通。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-11T05:38:47.513Z"
+    },
+    {
+      "owner": "nickvasilescu",
+      "repo": "hermes-desktop-os1",
+      "fullName": "nickvasilescu/hermes-desktop-os1",
+      "description": "Hermes Desktop - OS1 Edition: native macOS workspace for Hermes Agent on Orgo cloud computers and SSH hosts",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-09T04:32:48Z",
+      "url": "https://github.com/nickvasilescu/hermes-desktop-os1",
+      "analysis": {
+        "positioning": "macOS原生AI Agent工作台，一站式管理云端/SSH主机Agent。",
+        "useCases": [
+          "你在不同界面操作AI Agent和云电脑 → 它让你在macOS本地一站式管理Orgo云电脑上的AI Agent。",
+          "你手动部署或配置AI Agent环境 → 它帮你一键在云电脑上安装和配置Hermes Agent。",
+          "你需要流畅的远程终端和Agent任务管理 → 它提供实时交互式终端、看板、文件、技能等集成管理。"
+        ],
+        "audience": "macOS开发者、研究者，需要集成管理云端或SSH主机上的AI Agent，并追求原生、高效的工作体验。",
+        "quickStart": {
+          "prerequisites": "macOS 14+ (Apple Silicon/Intel)，Orgo账号API Key 或 一个可通过SSH无交互访问的主机。",
+          "steps": [
+            "下载并安装`OS1.app`到`/Applications`。",
+            "打开`OS1.app`，进入Connections tab，点击Add Host。",
+            "选择Orgo VM并粘贴API key，或选择SSH方式配置连接。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "VS Code Remote Development",
+            "method": "IDE插件连接SSH/Dev Container管理远程开发环境",
+            "models": "不适用",
+            "pricing": "免费"
+          },
+          {
+            "name": "Termius / iTerm2",
+            "method": "高级SSH客户端连接远程主机执行命令",
+            "models": "不适用",
+            "pricing": "Termius有免费和付费版，iTerm2免费"
+          }
+        ],
+        "pricing": "项目本身免费开源（MIT License），但其依赖的Orgo云电脑服务需付费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "Readme明确提及受电影《Her》启发，强调“温暖珊瑚色、奶油色背景、纤细字体、平静的动态”，项目注重UI设计和一体化体验，用词优雅，设计感和艺术气息浓厚，致力于提供极致的用户体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数少（6个），且无已关闭Issue（0个），社区参与度不高，响应速度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-11T05:39:06.795Z"
+    },
+    {
+      "owner": "darkrishabh",
+      "repo": "agent-skills-eval",
+      "fullName": "darkrishabh/agent-skills-eval",
+      "description": "A test runner for agentskills.io-style AI agent skills",
+      "language": "TypeScript",
+      "topics": [
+        "agent-evals",
+        "agent-skills",
+        "agentskills",
+        "ai-agents",
+        "cli",
+        "jsonl",
+        "llm-evals",
+        "llm-evaluation",
+        "openai-compatible",
+        "typescript",
+        "yaml"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-06T05:10:29Z",
+      "url": "https://github.com/darkrishabh/agent-skills-eval",
+      "analysis": {
+        "positioning": "AI Agent技能效果验证与评估工具",
+        "useCases": [
+          "你开发Agent Skills → 它帮你科学验证Skill是否真正提升模型表现",
+          "你优化LLM技能Prompt → 它帮你通过对比测试获得数据支持的改进依据",
+          "你管理Agent技能库 → 它帮你标准化、自动化进行技能性能回归测试"
+        ],
+        "audience": "开发或维护AI Agent技能的工程师、研究员及产品经理，需要量化评估技能效果的团队。",
+        "quickStart": {
+          "prerequisites": "Node.js 环境（npx 命令依赖）",
+          "steps": [
+            "运行 `npx agent-skills-eval ./skills --target gpt-4o-mini --judge gpt-4o-mini --baseline --strict` 指令",
+            "打开生成的 `iteration-1/report/index.html` 查看详细对比报告"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Evals",
+            "method": "Python DSL / SDK",
+            "models": "主要支持OpenAI模型",
+            "pricing": "API调用付费"
+          },
+          {
+            "name": "LangChain Evaluation",
+            "method": "Python SDK",
+            "models": "各种LLM（通过LangChain集成）",
+            "pricing": "API调用付费"
+          }
+        ],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，解决Agent技能评估痛点，README清晰详尽，提供CLI和可视化报告，技术栈现代（TypeScript），实用性强。虽然Issue活跃度不高，但项目本身质量较高。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前仅有1个开启Issue且无关闭记录，可能处于早期阶段或维护者响应迅速。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-05-11T05:39:25.281Z"
+    },
+    {
+      "owner": "BuluBulugege",
+      "repo": "Free-BAI",
+      "fullName": "BuluBulugege/Free-BAI",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-05T14:34:13Z",
+      "url": "https://github.com/BuluBulugege/Free-BAI",
+      "analysis": {
+        "positioning": "BankOfAI免费API额度自动化获取与池化代理。",
+        "useCases": [
+          "你想免费使用GPT-5.4、Gemini 3.1 Pro等AI模型 → 它帮你自动批量注册BankOfAI账号，获取免费额度并提供统一代理。",
+          "你急需大量AI API Key → 它帮你管理和池化数百个API Key，提供兼容OpenAI的统一代理接口。",
+          "你研究Web3签名、去中心化认证和自动化脚本 → 它提供BankOfAI前端认证流程的逆向工程实践案例。"
+        ],
+        "audience": "寻求免费AI API访问的开发者/研究者，或对Web3认证逆向工程和自动化感兴趣的技术人员。",
+        "quickStart": {
+          "prerequisites": "一个Base L2链上的钱包（需少量ETH作为手续费），以及完成配置指南中的设置。",
+          "steps": [
+            "克隆项目仓库",
+            "根据项目配置指南设置参数",
+            "运行自动化注册与API Key池化脚本"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "官方AI服务商（如OpenAI）",
+            "method": "直接订阅/购买API额度",
+            "models": "最新SOTA模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他提供免费AI额度的平台（需手动）",
+            "method": "寻找并手动注册账户获取免费额度",
+            "models": "各平台自有模型",
+            "pricing": "免费（有限额）"
+          }
+        ],
+        "pricing": "免费（项目本身开源免费，利用BankOfAI平台的免费额度）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目通过逆向工程实现自动化批量注册Web3账号、获取免费AI API Key并进行池化，技术挑战性高，直击免费AI资源痛点，极具极客精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前只有一个未解决的Issue，没有已关闭的Issue。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-11T05:39:43.351Z"
+    },
+    {
+      "owner": "TQ-trade-agent",
+      "repo": "tq-trading-agent",
+      "fullName": "TQ-trade-agent/tq-trading-agent",
+      "description": "🌮 Traidng agent, AI-powered multi-agent stock research & trading strategy orchestration, trading agent - TypeScript, LangGraph, OpenAI-compatible APIs",
+      "language": "Vue",
+      "topics": [
+        "algorithmic-trading",
+        "financial-analysis",
+        "langchain",
+        "langgraph",
+        "openai",
+        "stock-research",
+        "trading-agent",
+        "trading-bot",
+        "typescript"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-06T14:52:16Z",
+      "url": "https://github.com/TQ-trade-agent/tq-trading-agent",
+      "analysis": {
+        "positioning": "AI驱动的多智能体股票研究与策略编排工具链",
+        "useCases": [
+          "你进行AI股票研究 → 它帮你生成结构化、可追溯的多智能体研究报告",
+          "你原型化交易策略 → 它帮你通过AI智能体（分析师、交易员、风控）快速验证与迭代",
+          "你学习多智能体金融应用 → 它提供中文语境下基于LangGraph的实践范例"
+        ],
+        "audience": "适用于中文语境下的金融研究者、教育者、学生及内部原型验证团队",
+        "quickStart": {
+          "prerequisites": "Node.js 18+，OpenAI API Key（或兼容API）",
+          "steps": [
+            "`git clone https://github.com/TQ-trade-agent/trading-agent.git`",
+            "`cd trading-agent`",
+            "`cp .env.example .env` 并填写API Key",
+            "`npm install`",
+            "`npm run dev` 或 `docker compose up --build`"
+          ],
+          "note": "支持命令行或HTTP接口调用，可本地开发或容器化部署。"
+        },
+        "competitors": [
+          {
+            "name": "TradingAgents",
+            "method": "多智能体金融研究",
+            "models": "大语言模型",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费使用项目代码，但需支付所用大模型API费用",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "结合LangGraph编排多智能体，实现股票研究和策略原型，技术栈前沿，中文友好，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数尚可（294），但Issue活动为零，社区互动待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-11T05:39:54.865Z"
+    },
+    {
+      "owner": "mereses-labs",
+      "repo": "solana-pumpfun-bundler",
+      "fullName": "mereses-labs/solana-pumpfun-bundler",
+      "description": "🏗️solana pumpfun bundler stealth-mode, bubblemap-bypassing, real bot activity An open-source bundler for pumpfun allows you to create a token and bundle it with 25 buys.Solana bundler Pumpfun bundler  bundler · Bonkfun bundler bundler. Multi-wallet bundler for Solana to",
+      "language": "TypeScript",
+      "topics": [
+        "bubblemap-bypass",
+        "bundler",
+        "jupiter-aggregator",
+        "pumpfun",
+        "solana",
+        "solana-bundle",
+        "trading"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-06T09:53:47Z",
+      "url": "https://github.com/mereses-labs/solana-pumpfun-bundler",
+      "analysis": {
+        "positioning": "Solana Pump.fun 代币发行与抢购自动化工具。",
+        "useCases": [
+          "你计划在 Pump.fun 上快速发行代币并确保初始流动性 → 它帮你自动化代币创建、元数据上传和多钱包捆绑式买入，抢占发币先机。",
+          "你希望在 Pump.fun 上进行高效的代币交易和管理 → 它帮你实现自动化买入/卖出策略，通过多钱包管理资金和交易行为。",
+          "你需要在 Solana 上批量管理多个钱包的资金 → 它帮你自动化 SOL 资金在不同捆绑器钱包间的路由与归集。"
+        ],
+        "audience": "Solana Pump.fun 代币发行者、早期投资者和寻求交易自动化的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+",
+          "steps": [
+            "运行 `npm install` 安装依赖。",
+            "创建 `.env` 文件，配置 RPC 节点和 Jito 相关参数。",
+            "复制 `settings.example.ts` 为 `settings.ts`，配置 LP 钱包、捆绑钱包和代币信息。",
+            "在指定路径放置代币图片。",
+            "运行 `npm start` 启动交互式菜单。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于 Solana Pump.fun 平台代币的自动化发行和抢购，代码质量良好，功能面向快速、竞争性交易，利用 Jito bundles 优化执行速度。项目描述提及“stealth-mode”和“bubblemap-bypassing”，暗示其针对性较强。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 活跃度低，0开启0关闭，可能在其他渠道进行交流或项目尚处于早期。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-11T05:40:07.173Z"
+    },
+    {
+      "owner": "0xdeadbeefnetwork",
+      "repo": "Copy_Fail2-Electric_Boogaloo",
+      "fullName": "0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
+      "description": "Copy Fail 2: Electric Boogaloo",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-07T18:09:08Z",
+      "url": "https://github.com/0xdeadbeefnetwork/Copy_Fail2-Electric_Boogaloo",
+      "analysis": {
+        "positioning": "Linux非特权本地提权漏洞利用工具，通过xfrm子系统。",
+        "useCases": [
+          "你是渗透测试人员 → 它帮你验证Linux系统xfrm子系统LPE漏洞。",
+          "你是安全研究员 → 它帮你复现并理解Linux内核LPE漏洞机制。",
+          "你是系统管理员 → 它帮你评估你的Linux服务器是否存在此提权风险。"
+        ],
+        "audience": "安全研究员、渗透测试人员、系统管理员，用于漏洞研究、渗透测试和系统安全评估。",
+        "quickStart": {
+          "prerequisites": "需要安装libssl-dev和gcc，且系统内核版本在受影响范围内。",
+          "steps": [
+            "sudo apt install -y libssl-dev gcc",
+            "gcc -O2 -Wall copyfail2.c -o copyfail2 -lcrypto",
+            "gcc -O2 -Wall aa-rootns.c -o aa-rootns",
+            "./run.sh"
+          ],
+          "note": "支持IPv6版本利用，需进入ipv6子目录运行。请注意测试列表中的兼容内核版本。"
+        },
+        "competitors": [
+          {
+            "name": "Copy Fail (CVE-2026-31431)",
+            "method": "通过其他内核子系统实现LPE (如xfs)",
+            "models": "特定Linux内核版本",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他Linux内核LPE漏洞",
+            "method": "利用各种内核缺陷实现提权",
+            "models": "各自目标内核版本",
+            "pricing": "免费 (通常开源)"
+          }
+        ],
+        "pricing": "免费，开源的漏洞利用代码。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "这是一个底层Linux内核漏洞利用工具，代码风格直接，目标明确，追求功能有效性而非用户体验或美学设计。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue关闭率高 (10/1)，表明项目维护者积极响应并处理漏洞相关问题。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-11T05:40:23.728Z"
+    },
+    {
+      "owner": "TitanFlow-Systems",
+      "repo": "polymarket-trading-bot-v2",
+      "fullName": "TitanFlow-Systems/polymarket-trading-bot-v2",
+      "description": "polymarket trading bot polymarket copy trading bot polymarket arbitrage bot polymarket trading bot polymarket copy trading bot polymarket arbitrage bot polymarket trading bot polymarket copy trading bot polymarket arbitrage bot polymarket trading bot polymarket copy trading bot polymarket arbitrage bot polymarket trading bot polymarket copy trading",
+      "language": "JavaScript",
+      "topics": [
+        "algorithmic-trading",
+        "api",
+        "arbitrage",
+        "automated-trading",
+        "blockchain",
+        "clob",
+        "copy-trading",
+        "crypto-bot",
+        "cryptocurrency",
+        "defi",
+        "ethereum",
+        "javascript",
+        "market-making",
+        "nodejs",
+        "polygon",
+        "polymarket",
+        "prediction-markets",
+        "quantitative-trading",
+        "trading-bot",
+        "websocket"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-05T20:40:48Z",
+      "url": "https://github.com/TitanFlow-Systems/polymarket-trading-bot-v2",
+      "analysis": {
+        "positioning": "Polymarket生产级Node.js交易机器人，支持套利与跟单。",
+        "useCases": [
+          "你想在Polymarket的BTC涨跌市场套利 → 它帮你自动发现并执行套利交易。",
+          "你想复制Polymarket上成功交易者的操作 → 它帮你实时跟单目标钱包的买入行为。",
+          "你需要一个稳定的Polymarket自动化交易系统 → 它提供生产级运行环境，含风控和故障恢复。"
+        ],
+        "audience": "寻求在Polymarket预测市场自动化套利或跟单的开发者、量化交易者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境，对Polymarket、区块链交易和市场风险有基本了解。",
+          "steps": [
+            "安装依赖：`npm install`",
+            "创建并配置环境变量文件：`Copy-Item .env.example .env`"
+          ],
+          "note": "环境变量文件创建命令为PowerShell语法。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，功能全面且注重生产环境稳定性，包含实时订单监控、风控、故障处理等高级特性，文档详尽并配有性能截图。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issues统计为0开/0关，社区活跃度信息不足。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-11T05:40:37.294Z"
+    },
+    {
+      "owner": "iam567",
+      "repo": "LifeManga",
+      "fullName": "iam567/LifeManga",
+      "description": "ios swift swiftui openai gpt-image manga ai-art",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-07T10:39:09Z",
+      "url": "https://github.com/iam567/LifeManga",
+      "analysis": {
+        "positioning": "AI驱动，将生活照片一键转为日式漫画并生成多格故事的iOS App。",
+        "useCases": [
+          "你拍了张照片 → 它帮你转换为8种日漫风格的图片，可彩/黑白，并添加气泡文字。",
+          "你有很多照片想做故事 → 它提供工程化管理、角色库，并用GPT-5自动生成多格漫画剧本与画面。",
+          "你创作漫画想保持风格一致 → 它支持“前一张续接”，保持画风、人物和剧情连贯性。"
+        ],
+        "audience": "热爱二次元、想将生活瞬间AI漫画化、或需要快速生成漫画草稿与角色设定的iOS用户。",
+        "quickStart": {
+          "prerequisites": "Apple ID，OpenAI 账号",
+          "steps": [
+            "安装Xcode 15+，克隆项目并打开。",
+            "修改Xcode中的Bundle ID并选择Apple ID Team。",
+            "将App安装到iPhone真机并信任开发者证书。",
+            "在App内设置中填入OpenAI API Key，并完成OpenAI Organization验证。"
+          ],
+          "note": "免费Apple ID签名的App 7天后过期，且一年限制安装10个不同App。"
+        },
+        "competitors": [],
+        "pricing": "App源码免费，但运行需支付OpenAI API调用费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "README文档极其详尽，功能、技术栈、截图、完整部署流程及常见问题解答一应俱全，对开发者友好，体现了作者高质量的开源精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前只有一个开启的Issue，无已关闭Issue，可能项目较新或维护较少。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-05-11T05:40:52.540Z"
+    },
+    {
+      "owner": "anthropics",
+      "repo": "financial-services",
+      "fullName": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-02-23T19:24:50Z",
+      "url": "https://github.com/anthropics/financial-services",
+      "analysis": {
+        "positioning": "Claude金融AI代理和技能库，加速专业工作流。",
+        "useCases": [
+          "你准备投行路演材料 → 它帮你整理估值模型、交易先例，生成完整路演PPT。",
+          "你研究市场趋势和竞品 → 它帮你分析行业、梳理竞争格局，提供潜在投资标的。",
+          "你核对总账差异 → 它帮你定位问题、追溯根源，为审核做好准备。"
+        ],
+        "audience": "金融行业专业人士（投行、研究、私募、财富管理），需要AI辅助草拟金融工作产品。",
+        "quickStart": {
+          "prerequisites": "Claude平台访问权限。",
+          "steps": [
+            "以Claude Cowork插件形式安装使用。",
+            "通过Claude Managed Agents API部署至自有工作流引擎。"
+          ],
+          "note": "核心功能一致，运行方式灵活选择。"
+        },
+        "competitors": [],
+        "pricing": "付费，依赖Claude平台的服务订阅费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于特定AI平台（Claude）的金融行业应用，提供即用型Agent和技能，非通用编程工具。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，开启问题数量（111）远多于已关闭问题（5），响应速度可能较慢。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-11T05:41:24.988Z"
     }
   ]
 }
