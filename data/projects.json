@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-13T05:31:28.933Z",
+  "updatedAt": "2026-05-14T05:13:15.590Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -30218,6 +30218,449 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-13T05:31:28.923Z"
+    },
+    {
+      "owner": "CyberSealNull",
+      "repo": "CcCompanion",
+      "fullName": "CyberSealNull/CcCompanion",
+      "description": "Bring Claude Code to your iPhone. Open-source iOS client + tiny Python push server. Local-first, runs on your own Mac and your own phone.",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-14T00:04:38Z",
+      "url": "https://github.com/CyberSealNull/CcCompanion",
+      "analysis": {
+        "positioning": "将你 Mac 上本地运行的 Claude Code 搬到 iPhone",
+        "useCases": [
+          "你身处异地或远离Mac → 在iPhone上远程与Mac上的Claude Code聊天、获取回复",
+          "你想了解Claude Code在Mac上的执行状态 → 在iPhone上实时查看Mac上Claude Code的tmux会话",
+          "你想管理Claude Code的多个会话或执行特定操作 → 在iPhone上通过斜杠命令控制Mac上的Claude Code"
+        ],
+        "audience": "拥有Anthropic Pro/Max订阅、Mac上运行Claude Code，并希望在iPhone上实现本地优先、隐私安全的远程交互的用户。",
+        "quickStart": {
+          "prerequisites": "macOS 14+, iOS 18+, Mac上已安装Claude Code并订阅Anthropic Pro/Max，网络互联（Tailscale/ZeroTier/局域网），可选Apple Developer账号（或使用Bark）。",
+          "steps": [
+            "在Mac上运行Python推送服务器",
+            "在iPhone上安装并配置iOS应用（首次启动有向导）"
+          ],
+          "note": "推荐使用AI引导安装文档，项目主要针对macOS平台。"
+        },
+        "competitors": [
+          {
+            "name": "Claude.ai (官方)",
+            "method": "移动App / Web",
+            "models": "Claude (最新模型)",
+            "pricing": "免费试用 / Pro / Team 订阅"
+          }
+        ],
+        "pricing": "免费（软件开源），但需Anthropic Pro/Max订阅和自备Mac/iPhone设备。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数较低，但功能定位精准、本地优先的隐私设计独特。提供了详尽的AI引导安装文档，技术实现考究（tmux、APNs、Tailscale），解决了特定用户的痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "非常初期，Issue 开闭比为 0/0，尚未有社区活跃度数据。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-14T05:11:06.069Z"
+    },
+    {
+      "owner": "David-patrick-chuks",
+      "repo": "Kyro-Protocol",
+      "fullName": "David-patrick-chuks/Kyro-Protocol",
+      "description": "Kyro Protocol is an on-chain financial infrastructure built on the Stellar network that enables AI agents (AgentKyro) to own wallets, hold USDC, execute payments, and transact autonomously.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-14T04:22:18Z",
+      "url": "https://github.com/David-patrick-chuks/Kyro-Protocol",
+      "analysis": {
+        "positioning": "恒星网络上的AI代理金融基础设施，实现自主钱包、支付与交易。",
+        "useCases": [
+          "你希望AI代理拥有独立钱包 → Kyro Protocol为其提供Stellar原生钱包，实现资产自主管理。",
+          "你需要AI间自动完成交易结算 → Kyro Protocol让AI代理自主执行USDC支付，支持实时机对机结算。",
+          "你希望AI自主购买API/服务 → Kyro Protocol使AI代理可编程购买API和数字工具。"
+        ],
+        "audience": "为希望AI代理在Web3环境中自主管理资金、购买服务、执行金融交易的开发者设计。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "整合Kyro SDK到你的去中心化应用中。",
+            "通过SDK实例化AgentKyro，并为其分配Stellar原生钱包和可编程USDC余额。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "未提及具体收费模式，根据项目早期阶段和开源特性推测为免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念前沿且清晰，但GitHub上代码语言未知，Stars和Issues数量极低，活跃度不足，尚处于非常早期阶段，不具备直接的代码参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Stars极少 (13)，Issue 统计为0/0，社区活跃度极低，项目尚处于非常早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-14T05:11:18.467Z"
+    },
+    {
+      "owner": "chrisbanes",
+      "repo": "skills",
+      "fullName": "chrisbanes/skills",
+      "description": "Skills for Kotlin, Jetpack Compose, and Android development",
+      "language": "Unknown",
+      "topics": [
+        "android",
+        "compose-multiplatform",
+        "coroutines",
+        "jetpack-compose",
+        "kotlin",
+        "kotlin-multiplatform",
+        "skills"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-12T07:34:30Z",
+      "url": "https://github.com/chrisbanes/skills",
+      "analysis": {
+        "positioning": "Kotlin/Jetpack Compose/Android开发技能集，解决特定难题。",
+        "useCases": [
+          "你处理Compose状态或副作用 → 它帮你掌握正确的状态管理与副作用处理。",
+          "你优化Compose性能或排查卡顿 → 它帮你诊断并提升Compose UI性能。",
+          "你设计或评审Flow/协程架构 → 它帮你规范Kotlin协程和Flow实践。"
+        ],
+        "audience": "专注于Kotlin、Jetpack Compose和Android开发的工程师，寻求最佳实践和问题解决方案。",
+        "quickStart": {
+          "prerequisites": "skills CLI (需Node.js/npm) 或 Claude Code 插件环境",
+          "steps": [
+            "npx skills add chrisbanes/skills",
+            "或在Claude Code中安装"
+          ],
+          "note": "CLI和Claude Code为不同使用场景和平台"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，技能点涵盖Kotlin/Compose核心痛点，实用性强。文档详细，有明确的场景驱动解决方案。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动极低（0开/1关），更像是一个最佳实践参考库，而非传统意义的协作项目。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-14T05:11:47.895Z"
+    },
+    {
+      "owner": "lillian039",
+      "repo": "ELF",
+      "fullName": "lillian039/ELF",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-11T14:44:10Z",
+      "url": "https://github.com/lillian039/ELF",
+      "analysis": {
+        "positioning": "基于JAX的连续扩散语言模型，在嵌入空间高效生成和优化文本。",
+        "useCases": [
+          "你做内容创作 → 它帮你生成流畅、语法正确的文本，从噪音逐步优化。",
+          "你做文本风格转换 → 它帮你通过连续嵌入空间调整文本特征，实现灵活控制。",
+          "你做高级NLP模型研究 → 它帮你探索连续扩散模型在语言领域的应用，实现更高性能。"
+        ],
+        "audience": "适合AI研究员和机器学习工程师，尤其是使用JAX和TPU进行创新性语言模型开发与优化的团队。",
+        "quickStart": {
+          "prerequisites": "JAX环境、TPU硬件支持、WandB账号（可选）",
+          "steps": [
+            "pip install -r requirements.txt",
+            "wandb login YOUR_WANDB_API_KEY （可选，用于实验追踪）",
+            "加载Hugging Face预训练模型进行推理"
+          ],
+          "note": "目前仅支持JAX+TPU，PyTorch版本即将发布。"
+        },
+        "competitors": [],
+        "pricing": "免费，基于MIT许可证，预训练模型可在Hugging Face免费使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是前沿研究的JAX实现，代码质量和文档清晰，性能表现优异。但使用门槛相对较高（需JAX+TPU），且尚无PyTorch版本，适用范围有一定限制。",
+        "isVibeCoding": true,
+        "communityActivity": "较低，项目较新且Issue数量少（2个开启，0个关闭），但说明维护者可能积极处理或项目稳定。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-14T05:12:03.605Z"
+    },
+    {
+      "owner": "Nightmare-Eclipse",
+      "repo": "GreenPlasma",
+      "fullName": "Nightmare-Eclipse/GreenPlasma",
+      "description": "GreenPlasma Windows CTFMON Arbitrary Section Creation Elevation of Privileges Vulnerability",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-12T15:56:16Z",
+      "url": "https://github.com/Nightmare-Eclipse/GreenPlasma",
+      "analysis": {
+        "positioning": "Windows CTFMON提权漏洞 PoC 和 CTF 挑战。",
+        "useCases": [
+          "你参与CTF挑战 → 它提供Win提权漏洞PoC助你解密，锻炼安全技能。",
+          "你研究Windows系统安全 → 它揭示CTFMON服务提权新途径，深入理解漏洞原理。",
+          "你进行渗透测试 → 它提供潜在提权思路以获取SYSTEM权限，用于安全评估。"
+        ],
+        "audience": "适合CTF玩家、安全研究员及渗透测试人员，用于研究Windows提权漏洞和实践挑战。",
+        "quickStart": {
+          "prerequisites": "Windows 11/2022/2026系统。",
+          "steps": [
+            "获取项目代码并理解其核心任意内存区段创建逻辑。",
+            "根据README提示，补充代码以实现完整的SYSTEM权限提权功能。"
+          ],
+          "note": "Windows 11/2022/2026系统验证有效，Windows 10未确认。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供的是剥离了关键提权部分的PoC，旨在作为CTF挑战，需要用户自行完善，因此直接可用性较低。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度低，目前仅有1个开启Issue且无已关闭。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-14T05:12:18.076Z"
+    },
+    {
+      "owner": "JUk1-GH",
+      "repo": "gpt-promo-scanner",
+      "fullName": "JUk1-GH/gpt-promo-scanner",
+      "description": "ChatGPT Team(Business) 促销码自动扫描工具 — 批量发现/验证/价格收集，支持 17 国 34 个码，最高折扣 71% | ChatGPT Business promo code scanner — batch discovery, validation, price collection, 34 codes across 17 countries, up to 71% off",
+      "language": "Python",
+      "topics": [
+        "chatgpt",
+        "chatgpt-business",
+        "chatgpt-team",
+        "clash",
+        "cloudflare-bypass",
+        "curl-cffi",
+        "discount",
+        "openai",
+        "promo-code",
+        "promo-codes",
+        "proxy",
+        "python",
+        "stripe",
+        "web-scraping"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-11T04:42:18Z",
+      "url": "https://github.com/JUk1-GH/gpt-promo-scanner",
+      "analysis": {
+        "positioning": "ChatGPT Business/Team促销码自动扫描，批量发现、验证与比价。",
+        "useCases": [
+          "想以优惠价订阅ChatGPT Business/Team → 帮你自动扫描并验证最高71%折扣的促销码。",
+          "想比较不同国家或合作伙伴的促销码折扣 → 帮你批量收集价格信息，智能比价。",
+          "想自动化寻找和管理促销码 → 提供完整工具链，覆盖候选码生成、验证到支付。",
+          "希望绕过Cloudflare限制，有效执行大规模Web Scraping → 内置Cloudflare bypass和代理支持。"
+        ],
+        "audience": "希望以折扣价订阅ChatGPT Business/Team服务的个人用户或中小团队；寻求自动化工具进行促销码发现与管理的开发者和技术爱好者。",
+        "quickStart": {
+          "prerequisites": "Clash Verge (或兼容Clash API的代理客户端)、Python 3.9+、ChatGPT账号（免费版即可）",
+          "steps": [
+            "克隆项目并安装依赖：`git clone ...` 和 `pip install -r requirements.txt`",
+            "配置并运行Clash代理客户端",
+            "通过浏览器获取ChatGPT的`accessToken`",
+            "复制`config.toml.example`为`config.toml`，并填入`accessToken`",
+            "运行`python discover_codes.py --cross`开始批量扫描促销码"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费。本项目工具免费开源，旨在帮助用户以折扣价订阅ChatGPT Business/Team付费服务。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位精准，解决了用户获取ChatGPT Business/Team优惠的实际痛点。文档详尽，从前置准备到支付流程均有清晰指引。功能覆盖全面（发现、验证、比价、支付），且技术实现考虑了Cloudflare绕过、多国代理等复杂场景，非常实用。虽然依赖外部服务（Clash、OpenAI Token有效期）可能带来一定不便，但整体完成度和实用价值很高。",
+        "isVibeCoding": true,
+        "communityActivity": "目前有3个Issue开启但均未关闭，社区反馈处理速度有待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-14T05:12:32.022Z"
+    },
+    {
+      "owner": "ltyzen",
+      "repo": "KMSAutoTool",
+      "fullName": "ltyzen/KMSAutoTool",
+      "description": "System license utility Windows product key manager Office license assistant Volume Licensing tool HWID management system deployment utility desktop OS setup enterprise license emulator digital license helper software repository installer package system verification tool.",
+      "language": "C++",
+      "topics": [
+        "kms-activator-2026",
+        "kms-client",
+        "kms-genuine-tool",
+        "kms-host-server",
+        "kms-office",
+        "kms-piko",
+        "kms-pisco",
+        "kms-server",
+        "kms-server-service-auto",
+        "kms-tools-download",
+        "kms-tools-portable",
+        "kmsauto-",
+        "kmsauto-net-2026",
+        "kmspico-2026",
+        "kmspico-multi-portable",
+        "kmspico-offline",
+        "kmspico-portable-2026",
+        "kmspico-windows-11-portable",
+        "kmspisco",
+        "office-kms-support"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T12:40:55Z",
+      "url": "https://github.com/ltyzen/KMSAutoTool",
+      "analysis": {
+        "positioning": "Windows/Office KMS 本地模拟工具。",
+        "useCases": [
+          "你进行 Windows/Office 软件部署 → 它帮你本地模拟 KMS 激活流程，验证部署管道。",
+          "你评估 Windows 操作系统或 Office 套件 → 它帮你无需生产环境即可进行本地许可测试。",
+          "你需要在测试或开发环境管理许可证 → 它帮你一键管理支持的操作系统和生产力软件的激活周期。"
+        ],
+        "audience": "系统管理员、开发人员及 IT 专业人士，需要在本地或测试环境进行 Windows 和 Office 许可服务集成测试。",
+        "quickStart": {
+          "prerequisites": "运行程序需管理员权限。",
+          "steps": [
+            "下载最新的便携式可执行文件。",
+            "以管理员身份运行应用程序。",
+            "从主菜单选择要管理的软件或操作系统版本。",
+            "点击“应用”或“激活服务”按钮，等待日志显示“成功”确认。",
+            "检查系统设置以验证本地管理服务状态。"
+          ],
+          "note": "这是一个独立的便携式程序，关闭后不会留下后台服务。"
+        },
+        "competitors": [
+          {
+            "name": "KMSPico",
+            "method": "一键式激活或本地 KMS 模拟",
+            "models": "Windows, Office",
+            "pricing": "免费"
+          },
+          {
+            "name": "KMSAuto NET",
+            "method": "一键式激活或本地 KMS 模拟",
+            "models": "Windows, Office",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，开源（MIT License）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "尽管项目声明用于系统管理员测试 KMS 集成，但其名称和大量相关话题（如 kms-activator, kmspico）强烈暗示它常被用于非授权激活。存在法律和安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0/0，表明社区在此仓库的活跃度极低，或问题未在此处追踪。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-05-14T05:12:44.971Z"
+    },
+    {
+      "owner": "manojmidhul92-art",
+      "repo": "Umbrella-HWID",
+      "fullName": "manojmidhul92-art/Umbrella-HWID",
+      "description": "Advanced HWID changer. Bypass Vanguard, EAC, BattlEye, Ricochet. Features: Disk serials spoofing, BIOS/Baseboard UUID change, MAC address randomize, Monitor ID masking. Registry cleaner, trace remover, permanent/temporary mode. Kernel-level protection, one-click spoofer, anti-cheat bypass.",
+      "language": "C++",
+      "topics": [
+        "device-shadow-mode",
+        "game-spoofing",
+        "hardware",
+        "hardware-id-change",
+        "hardware-spoof-suite",
+        "identity-shift",
+        "mac-address-changer",
+        "mac-spoofing",
+        "machine-spoof-core",
+        "mime-spoofing",
+        "packet-spoofing",
+        "spoof-detected",
+        "spoof-extension",
+        "spoofcall",
+        "spoofed",
+        "spoofer-hwid-premium",
+        "spoofing",
+        "spoofing-detection",
+        "system-anonymizer",
+        "voice-spoofing"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T14:23:02Z",
+      "url": "https://github.com/manojmidhul92-art/Umbrella-HWID",
+      "analysis": {
+        "positioning": "专业的硬件ID欺骗工具，用于绕过反作弊系统。",
+        "useCases": [
+          "你玩游戏遇到HWID封禁 → 它帮你修改硬件ID绕过封禁，重回游戏。",
+          "你想隐藏真实机器指纹 → 它帮你伪造硬盘序列号、BIOS UUID、MAC地址和显示器ID。",
+          "你希望系统痕迹被清除 → 它帮你清理注册表和移除系统残留痕迹，实现隐匿。"
+        ],
+        "audience": "需要绕过游戏反作弊系统（如Vanguard, EAC, BattlEye, Ricochet）或保护机器指纹隐私的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，需要管理员权限。",
+          "steps": [
+            "下载 `Umbrella.zip` 文件。",
+            "解压后，以管理员身份运行程序。"
+          ],
+          "note": "针对Windows 10和11优化。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证），仅用于教育和生产力目的。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，功能强大，支持多种硬件ID伪造及内核级反作弊系统绕过。用户界面现代且操作简单，提供一键式伪造和痕迹清理。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，有少量Issues开启但无已关闭Issues，表明响应可能不及时。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-14T05:12:58.246Z"
+    },
+    {
+      "owner": "yaassin12",
+      "repo": "DeepSeek-V4-Pro-App",
+      "fullName": "yaassin12/DeepSeek-V4-Pro-App",
+      "description": "DeepSeek V4 Pro: Advanced AI desktop app. Features: 1.6T MoE architecture, 1M token context window, Engram memory. Pro coding agent, Think Mode (High/Max), repo-level reasoning, complex bug fixing. Real-time web search, local API key storage, cross-file analysis, low-latency streaming interface.",
+      "language": "C++",
+      "topics": [
+        "agentic-ai",
+        "ai-application",
+        "ai-application-development",
+        "deep-seek",
+        "deepseek",
+        "deepseek-api",
+        "deepseek-chat",
+        "deepseek-ocr-2",
+        "deepseek-r1",
+        "deepseek-r1-zero",
+        "deepseek-v4-download",
+        "deepseek-v4-pro"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T15:00:14Z",
+      "url": "https://github.com/yaassin12/DeepSeek-V4-Pro-App",
+      "analysis": {
+        "positioning": "DeepSeek V4 Pro桌面应用，赋能开发者高效编程。",
+        "useCases": [
+          "你需要高性能、低延迟的DeepSeek V4 Pro本地客户端 → 它提供专属桌面应用，实现高速AI交互，支持1M上下文。",
+          "你需要复杂项目代码生成、跨文件分析 → 它作为Pro级编程助手，支持库级推理、Think Mode，并能修复复杂Bug。",
+          "你需要安全、私密的AI开发环境 → 它支持本地API Key存储及数据隔离，保障隐私，同时提供实时Web搜索。"
+        ],
+        "audience": "寻求低延迟、高效率、安全私密地利用DeepSeek V4 Pro进行代码开发、研究及复杂问题解决的专业开发者和高级用户。",
+        "quickStart": {
+          "prerequisites": "DeepSeek API Key 或本地部署的DeepSeek V4模型。",
+          "steps": [
+            "下载应用压缩包并解压",
+            "运行应用，选择偏好模型"
+          ],
+          "note": "支持Windows, macOS, Linux平台。"
+        },
+        "competitors": [
+          {
+            "name": "DeepSeek官方网页版",
+            "method": "网页端",
+            "models": "DeepSeek系列模型",
+            "pricing": "DeepSeek API按量付费，部分功能免费。"
+          },
+          {
+            "name": "Cursor",
+            "method": "集成开发环境 (IDE)",
+            "models": "GPT-4, Claude等",
+            "pricing": "部分免费，高级功能订阅。"
+          }
+        ],
+        "pricing": "应用本身免费使用，但DeepSeek API服务需按量付费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专为AI开发者和高级用户设计，提供 DeepSeek V4 Pro 的高级编程、推理与调试能力，强调性能与代码解决效率，技术栈涉及C++/Rust/Python等，门槛较高，极客感强。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue列表为空，无公开Bug报告或讨论，社区活跃度待观察。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-14T05:13:15.579Z"
     }
   ]
 }
