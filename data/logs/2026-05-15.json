@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-05-15",
+  "startedAt": "2026-05-15T05:32:43.369Z",
+  "finishedAt": "2026-05-15T05:37:00.095Z",
+  "durationSeconds": 257,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 8,
+    "skipped": 98,
+    "geminiCalls": 10,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-05-15T05:35:07.402Z",
+      "level": "warn",
+      "project": "jasonkneen/tiny-world-builder",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-15T05:35:14.139Z",
+      "level": "warn",
+      "project": "ChristianJR19/p-peg",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

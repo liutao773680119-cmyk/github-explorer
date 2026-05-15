@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-14T05:13:15.590Z",
+  "updatedAt": "2026-05-15T05:35:59.576Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -30661,6 +30661,364 @@
         "category": "AI编程助手"
       },
       "analyzedAt": "2026-05-14T05:13:15.579Z"
+    },
+    {
+      "owner": "vector-0802",
+      "repo": "Web3-Casino",
+      "fullName": "vector-0802/Web3-Casino",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-15T01:56:51Z",
+      "url": "https://github.com/vector-0802/Web3-Casino",
+      "analysis": {
+        "positioning": "Web3去中心化赌场DApp演示项目。",
+        "useCases": [
+          "你对Web3去中心化娱乐感兴趣 → 它帮你快速体验一个基于区块链的赌场游戏。",
+          "你是Web3开发者，想学习DApp开发 → 它提供一个Web3赌场应用的TypeScript实现范例。",
+          "你需要展示Web3应用的潜力 → 它提供一个完整的、可部署的去中心化赌场演示平台。"
+        ],
+        "audience": "对Web3去中心化应用、区块链娱乐有兴趣的用户和开发者，用于学习、演示和体验DApp。",
+        "quickStart": {
+          "prerequisites": "Node.js (>=16), npm或yarn, 一个Web3钱包 (如MetaMask) 及测试网资金。",
+          "steps": [
+            "git clone https://github.com/vector-0802/Web3-Casino.git",
+            "cd Web3-Casino",
+            "npm install 或 yarn install",
+            "npm run dev (启动开发服务器，具体命令可能因项目配置而异)",
+            "配置并部署智能合约到测试网 (如果项目包含合约部分)"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他开源Web3游戏/DApp范例",
+            "method": "直接参考代码或运行演示",
+            "models": "多种Web3应用场景",
+            "pricing": "免费"
+          },
+          {
+            "name": "Hardhat/Foundry DApp模板",
+            "method": "提供项目脚手架和开发环境",
+            "models": "通用Web3 DApp结构",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，开源项目，代码可自由使用和学习。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数较低，Issue为空，显示社区活跃度和维护状态不明确，可能是一个早期或个人学习项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无Issue记录，可能处于非活跃维护状态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-15T05:33:01.166Z"
+    },
+    {
+      "owner": "2951461586",
+      "repo": "mulerun-pool",
+      "fullName": "2951461586/mulerun-pool",
+      "description": "MuleRun Outlook registration and API key pool proxy",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-15T03:17:42Z",
+      "url": "https://github.com/2951461586/mulerun-pool",
+      "analysis": {
+        "positioning": "MuleRun批量注册与API Key代理池一体化方案。",
+        "useCases": [
+          "你想批量获取MuleRun账号 → 它帮你自动化Outlook邮箱注册和MuleRun账号创建。",
+          "你有大量AI API Key想统一管理和轮询使用 → 它提供一个兼容OpenAI/Anthropic的代理池，高效分配Key并接入主流网关。"
+        ],
+        "audience": "需要批量注册MuleRun账号，或统一管理、轮询AI API Key的开发者和运维人员。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+ 环境，Git。",
+          "steps": [
+            "克隆项目仓库并切换到项目目录。",
+            "创建并激活Python虚拟环境。",
+            "安装项目依赖（包括Playwright）。",
+            "根据需求，配置Outlook批量账号CSV文件或API Key JSON文件。",
+            "运行MuleRun注册流程或API Key代理池服务。"
+          ],
+          "note": "仅运行代理池时，Playwright相关依赖非强制。"
+        },
+        "competitors": [],
+        "pricing": "免费开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，README文档详细，提供了明确的安装、配置与使用指南。功能定位明确，代码组织良好，但项目活跃度（Star/Issue）较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前无开启或已关闭的Issue记录。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-15T05:33:25.524Z"
+    },
+    {
+      "owner": "nexu-io",
+      "repo": "html-anything",
+      "fullName": "nexu-io/html-anything",
+      "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "agentic",
+        "ai-agents",
+        "ai-design",
+        "ai-editor",
+        "byok",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "coding-agents",
+        "generative-ai",
+        "html",
+        "html-editor",
+        "hyperframes",
+        "local-first",
+        "markdown",
+        "nextjs",
+        "vibe-coding",
+        "wechat",
+        "xiaohongshu"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-11T09:40:38Z",
+      "url": "https://github.com/nexu-io/html-anything",
+      "analysis": {
+        "positioning": "本地AI智能生成HTML，一键输出多平台内容。",
+        "useCases": [
+          "你需高效制作专业级文章、演示文稿 → 它帮你通过AI Agent智能生成精美HTML内容。",
+          "你需将内容发布至微信、X、知乎等多个平台 → 它帮你一键导出适配各平台的内容（HTML/PNG）。",
+          "你通过Markdown构思Web原型或数据报告 → 它帮你调用本地AI Agent将其转换为可交付的HTML原型。",
+          "你希望快速生成产品手册、海报、简历等排版精美的内容 → 它帮你利用75种技能模板和9种输出表面高效实现。"
+        ],
+        "audience": "需要高效生成和发布多平台HTML内容的开发者、设计师和内容创作者。",
+        "quickStart": {
+          "prerequisites": "确保本地已配置并登录至少一个支持的AI编程助手CLI（如Claude Code、Cursor Agent等）。",
+          "steps": [
+            "安装 `html-anything` 工具。",
+            "输入你的内容描述，由AI Agent自动生成并编辑HTML。"
+          ],
+          "note": "本地运行，无需额外API Key，自动复用现有AI编程助手的CLI会话。"
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT/Claude等通用AI助手",
+            "method": "网页端聊天式交互，输出文本或代码",
+            "models": "GPT-x, Claude等",
+            "pricing": "免费/订阅"
+          },
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE内联代码补全与生成",
+            "models": "OpenAI Codex系列",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费（项目本身开源，但依赖的AI编程助手可能需付费订阅）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它通过本地AI Agent自动化HTML内容生成和多平台导出，将繁琐的排版和适配工作交给AI，显著提升效率并减少心智负担，使内容创作和发布过程更加流畅愉悦。",
+        "isVibeCoding": true,
+        "communityActivity": "项目发布时间较短，Issue数量不多但持续有新提交，团队有成功的大型开源项目经验，社区响应预计较快。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-15T05:33:49.446Z"
+    },
+    {
+      "owner": "yetone",
+      "repo": "native-feel-skill",
+      "fullName": "yetone/native-feel-skill",
+      "description": "An Agent Skill for designing cross-platform desktop apps that feel native — distilled from Raycast's 2.0 deep-dive and reverse engineering of Raycast Beta.app. Eight architectural tenets, four-layer architecture, WebKit/WebView2 survival guide, 75-item ship audit.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-14T19:28:43Z",
+      "url": "https://github.com/yetone/native-feel-skill",
+      "analysis": {
+        "positioning": "一个AI代理技能，用于设计具有原生体验的跨平台桌面应用。",
+        "useCases": [
+          "你有一个Electron/Tauri应用 feels web-y → 它帮你提供75项审计清单和修复建议，使其更具原生感。",
+          "你想开发一个跨平台桌面应用，同时追求原生性能和体验 → 它提供8项架构原则和四层架构，指导你的设计。",
+          "你遇到WebKit/WebView2的特定问题 → 它提供WebKit/WebView2生存指南，帮你解决兼容和性能难题。"
+        ],
+        "audience": "追求原生体验和性能的跨平台桌面应用开发者和架构师，尤其适用于基于Electron/Tauri/WebView的应用。",
+        "quickStart": {
+          "prerequisites": "需要安装 `skills` CLI 或一个兼容的AI代理（如Claude Code）。",
+          "steps": [
+            "使用 `skills` CLI 全局安装：`npx skills add yetone/native-feel-skill -g`。",
+            "或将提供的Prompt粘贴给你的AI代理，指示其克隆仓库并验证安装路径。"
+          ],
+          "note": "支持两种安装方式：通过 `skills` CLI 自动安装或手动Prompt引导AI代理安装。"
+        },
+        "competitors": [],
+        "pricing": "免费（作为开源Agent Skill，但可能需要付费AI代理配合使用）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目是一个AI代理技能，旨在通过与AI对话直接提供设计指导、架构原则和审计清单，高度集成于AI编程工作流。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区零活跃，表示目前社区互动较少或问题都通过其他方式解决。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-15T05:34:10.428Z"
+    },
+    {
+      "owner": "trong776",
+      "repo": "Roblox-Hub-2026",
+      "fullName": "trong776/Roblox-Hub-2026",
+      "description": "Developer utilities for Roblox game testing — Lua tools for exploring game mechanics and performance. MIT License.",
+      "language": "Unknown",
+      "topics": [
+        "lua",
+        "roblox"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-14T21:47:53Z",
+      "url": "https://github.com/trong776/Roblox-Hub-2026",
+      "analysis": {
+        "positioning": "Roblox游戏开发测试工具集，提升开发效率。",
+        "useCases": [
+          "你正在调试Roblox游戏机制 → 它帮你通过对象检查器和层级浏览器深入分析。",
+          "你发现Roblox游戏卡顿或内存泄漏 → 它帮你实时监控FPS、内存和网络延迟。",
+          "你需要频繁测试Roblox游戏内操作和视角 → 它帮你模拟输入、快速定位和自由控制相机。"
+        ],
+        "audience": "Roblox游戏开发者，需要高效的开发、测试和优化工具。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "`git clone https://github.com/trong776/Roblox-hub.git`",
+            "`cd Roblox-hub`"
+          ],
+          "note": "主要设计用于Windows 10/11 x64平台。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README清晰，功能分类明确，提供了Roblox开发者常用的游戏分析、性能监控和测试工具，实用性强，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前无任何开启或关闭的Issue。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-05-15T05:34:31.955Z"
+    },
+    {
+      "owner": "S4rdenz",
+      "repo": "gta-5-mod-menu",
+      "fullName": "S4rdenz/gta-5-mod-menu",
+      "description": "🚀 Dominate GTA V servers with this free, reliable FiveM mod menu featuring ESP, aimbot, and more, designed for Steam and Epic Games versions.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-14T13:48:33Z",
+      "url": "https://github.com/S4rdenz/gta-5-mod-menu",
+      "analysis": {
+        "positioning": "免费GTA V修改器，透视自瞄助你主宰FiveM服务器。",
+        "useCases": [
+          "你在GTA V服务器上想取得优势 → 它帮你用透视、自瞄等功能主宰服务器。",
+          "你在游戏里想要特定载具或金钱 → 它帮你即时生成载具、掉落金钱。",
+          "你追求个性化游戏体验 → 它提供可定制选项，满足你的风格和需求。"
+        ],
+        "audience": "寻求在GTA V中获得优势、快速获取资源或个性化游戏体验的玩家，支持Steam和Epic Games版本。",
+        "quickStart": {
+          "prerequisites": "Windows 10+, Intel Core i3/AMD equivalent, 4GB RAM, NVIDIA GTX 660/AMD equivalent, 稳定网络连接。",
+          "steps": [
+            "访问项目Release页面下载最新版本文件。",
+            "解压下载文件，双击执行文件（如`GTA5-Mod-Menu.exe`）启动应用程序。",
+            "根据应用内指示完成GTA 5客户端设置。"
+          ],
+          "note": "建议在启动GTA 5客户端前先运行Mod菜单以获得最佳效果。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能明确，操作简单。但作为游戏外挂，其使用场景具有争议性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区零活跃，社区支持可能主要通过FAQ或Discord。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-15T05:34:44.158Z"
+    },
+    {
+      "owner": "DepthFirstDisclosures",
+      "repo": "Nginx-Rift",
+      "fullName": "DepthFirstDisclosures/Nginx-Rift",
+      "description": "exploit for CVE-2026-42945",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-12T23:05:32Z",
+      "url": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+      "analysis": {
+        "positioning": "NGINX关键RCE漏洞利用，Python PoC。",
+        "useCases": [
+          "你做安全评估 → 它帮你验证NGINX服务器是否存在CVE-2026-42945漏洞。",
+          "你想了解复杂漏洞原理 → 它帮你学习NGINX堆溢出RCE的具体实现和利用手法。",
+          "你是系统管理员 → 它帮你检查部署的NGINX版本是否需要紧急更新补丁。"
+        ],
+        "audience": "安全研究员、渗透测试工程师、系统管理员，用于漏洞验证和安全审计。",
+        "quickStart": {
+          "prerequisites": "已安装Docker和Python3环境",
+          "steps": [
+            "构建Docker容器：`./setup.sh`",
+            "启动易受攻击的NGINX服务器：`docker compose -f env/docker-compose.yml up`",
+            "执行漏洞并获取shell：`python3 poc.py --shell`"
+          ],
+          "note": "测试环境为Ubuntu 24.04.3 LTS。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "巧妙利用NGINX双pass机制的缺陷，通过跨请求堆风水和`ngx_pool_t`结构体篡改实现无认证RCE，技术深度和影响力极高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues统计为0/0，表明项目可能较新或维护者直接处理，作为PoC项目，活跃度判断侧重其功能性。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-15T05:34:57.283Z"
+    },
+    {
+      "owner": "heygen-com",
+      "repo": "hyperframes",
+      "fullName": "heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "animation",
+        "ffmpeg",
+        "framework",
+        "gsap",
+        "html",
+        "mcp",
+        "puppeteer",
+        "rendering",
+        "typescript",
+        "video"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-03-10T01:51:06Z",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "analysis": {
+        "positioning": "AI智能体驱动，用HTML生成视频的开源框架",
+        "useCases": [
+          "你希望通过编程方式创作视频 → 它提供基于HTML/CSS/JS（GSAP）的视频描述和渲染能力。",
+          "你使用AI智能体制作内容 → 它让AI智能体通过HTML指令直接生成并渲染视频。",
+          "你追求视频内容迭代效率 → 它让你像开发网页一样快速预览和调整视频效果。"
+        ],
+        "audience": "面向希望通过AI智能体或前端技术栈快速生成和渲染视频内容的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 22",
+          "steps": [
+            "安装HyperFrames技能到你的AI智能体：`npx skills add heygen-com/hyperframes`",
+            "向AI描述你想要的视频内容，AI将自动编写并渲染。"
+          ],
+          "note": "支持Claude Code, Cursor, Gemini CLI, Codex等AI编码智能体，并提供Claude Design的集成指南。"
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0 开源协议）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心是利用HTML、GSAP等前端技术栈进行视频内容编码，并通过AI智能体实现自动化创作，结合了编码实现和AI抽象。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度高（59个开启），但无已关闭Issue，显示问题解决效率待提升或项目很新。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-15T05:35:59.559Z"
     }
   ]
 }
