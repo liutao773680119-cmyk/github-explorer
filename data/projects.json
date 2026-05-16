@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-15T05:35:59.576Z",
+  "updatedAt": "2026-05-16T04:58:09.990Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -31019,6 +31019,243 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-15T05:35:59.559Z"
+    },
+    {
+      "owner": "jasonkneen",
+      "repo": "tiny-world-builder",
+      "fullName": "jasonkneen/tiny-world-builder",
+      "description": "tiny-world-builder",
+      "language": "HTML",
+      "topics": [
+        "build",
+        "minecraft",
+        "voxel"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-10T21:45:19Z",
+      "url": "https://github.com/jasonkneen/tiny-world-builder",
+      "analysis": {
+        "positioning": "一个轻量级、基于Web的体素世界编辑器，灵感源自Minecraft。",
+        "useCases": [
+          "你想快速搭建像素风格游戏场景 → 它帮你直观拖拽、放置物体和地形。",
+          "你对Web端3D互动感兴趣 → 它作为纯JS/HTML项目，是学习Three.js和交互的好范例。",
+          "你希望快速原型化创意世界 → 它提供丰富的工具和智能拼接逻辑，加速你的构思。"
+        ],
+        "audience": "适合独立游戏开发者、Web前端学习者、或创意设计爱好者，用于快速构建和探索体素世界。",
+        "quickStart": {
+          "prerequisites": "Node.js (用于npm)",
+          "steps": [
+            "`npm install`",
+            "`npm run dev`"
+          ],
+          "note": "也可直接在浏览器打开`tiny-world-builder.html`文件运行。"
+        },
+        "competitors": [],
+        "pricing": "免费，AGPL-3.0开源许可。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "直观的点击、拖拽操作即可构建复杂的体素世界，提供了丰富的预设物体和智能拼接功能，大幅降低创作门槛，带来流畅的创意实现体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少 (1开0关)，社区活跃度有待观察，但可能项目本身已相当稳定。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-16T04:57:05.912Z"
+    },
+    {
+      "owner": "trong776",
+      "repo": "gta-5-mod-menu",
+      "fullName": "trong776/gta-5-mod-menu",
+      "description": "External game enhancement for GTA V single-player. ImGui overlay, no injection, minimal FPS impact. Windows x64, C++17.",
+      "language": "Unknown",
+      "topics": [
+        "cpp",
+        "directx",
+        "enhancement",
+        "gaming-tool",
+        "gta-5",
+        "imgui",
+        "open-source",
+        "trainer",
+        "utility",
+        "windows"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T16:18:35Z",
+      "url": "https://github.com/trong776/gta-5-mod-menu",
+      "analysis": {
+        "positioning": "GTA 5 单机外置修改器，ImGui界面，无注入低开销。",
+        "useCases": [
+          "想在GTA V单机里无敌 → 它帮你开启上帝模式、无限子弹。",
+          "嫌跑图太慢或想换车 → 它帮你瞬移到任意点，或召唤300+种载具。",
+          "想改变游戏环境 → 它帮你实时调整天气、时间、通缉等级。"
+        ],
+        "audience": "寻求增强单机体验的GTA V玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 x64系统，需安装GTA V，GPU支持DirectX 11。",
+          "steps": [
+            "下载最新版并解压",
+            "启动GTA V故事模式",
+            "以管理员身份运行本工具",
+            "游戏中按F5打开菜单"
+          ],
+          "note": "杀毒软件可能误报，属正常现象。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档详尽，功能清晰，提供性能数据，并提示潜在的杀毒软件误报，用户体验考虑周全。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区活跃度为零。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-16T04:57:25.267Z"
+    },
+    {
+      "owner": "B3hnamR",
+      "repo": "PsiphonOverMITM",
+      "fullName": "B3hnamR/PsiphonOverMITM",
+      "description": "",
+      "language": "PowerShell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-14T04:19:09Z",
+      "url": "https://github.com/B3hnamR/PsiphonOverMITM",
+      "analysis": {
+        "positioning": "Windows 上运行 Psiphon over MITM 的一键式启动器和管理工具。",
+        "useCases": [
+          "你想用本地代理（MITM-DomainFronting）运行Psiphon → 它帮你自动配置Xray并启动Psiphon所需的本地代理。",
+          "你需要Psiphon通过复杂的MITM-DomainFronting技术进行连接 → 它提供一键式启动、自动证书管理和日志，简化了复杂设置。",
+          "你在Windows上需要一个易于管理的Psiphon辅助工具 → 它提供启动/停止、自动证书安装和明确的端口输出，便于集成和调试。"
+        ],
+        "audience": "寻求在Windows上通过MITM-DomainFronting技术简化Psiphon连接和管理的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载项目文件（通常包含PowerShell脚本和Xray核心）。",
+            "运行主PowerShell脚本，它将自动生成证书、安装到信任根并启动Xray作为Psiphon的上游代理。"
+          ],
+          "note": "仅支持 Windows 10/11。"
+        },
+        "competitors": [
+          {
+            "name": "Patterniha/MITM-DomainFronting (手动配置)",
+            "method": "用户需手动配置Xray、生成证书并集成到Psiphon上游代理设置中",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对特定复杂代理场景（Psiphon over MITM）提供了一键式、自动化程度高的解决方案。功能包括自动证书管理、清晰日志和简易启停，极大地简化了用户操作，解决了手动配置的痛点。文档清晰，目标明确。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低。Issue 开闭比为 13:0，表明项目问题未能得到及时处理或响应。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-16T04:57:44.724Z"
+    },
+    {
+      "owner": "v12-security",
+      "repo": "pocs",
+      "fullName": "v12-security/pocs",
+      "description": "poc it like it's hot",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-13T08:17:58Z",
+      "url": "https://github.com/v12-security/pocs",
+      "analysis": {
+        "positioning": "v12-security团队的POC代码集合，用于漏洞验证。",
+        "useCases": [
+          "你发现了一个新的安全漏洞 → 它帮你提供现成的PoC快速验证。",
+          "你学习某种漏洞利用技术 → 它帮你提供相关PoC代码进行分析和学习。",
+          "你验证某个公开漏洞的有效性 → 它帮你提供对应PoC代码进行复现。"
+        ],
+        "audience": "适合安全研究员、渗透测试工程师和漏洞分析师，用于漏洞复现和概念验证。",
+        "quickStart": {
+          "prerequisites": "C编译器 (GCC/Clang)",
+          "steps": [
+            "`git clone https://github.com/v12-security/pocs.git`",
+            "`cd pocs`，然后编译并运行特定POC (具体指令依POC而异，例如 `gcc example_poc.c -o example_poc && ./example_poc`)"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Exploit-DB",
+            "method": "网站搜索，下载代码",
+            "models": "各种漏洞的PoC和Exploit",
+            "pricing": "免费"
+          },
+          {
+            "name": "GitHub通用漏洞库",
+            "method": "GitHub搜索，克隆代码",
+            "models": "特定或通用漏洞PoC",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目口号“poc it like it's hot”直接且充满自信，项目名和描述开门见山，符合安全领域追求实效的风格。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue有开启但无关闭，表明项目处于早期阶段或目前社区活跃度和维护响应度较低。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-16T04:57:56.851Z"
+    },
+    {
+      "owner": "lucasfrre",
+      "repo": "BongoCat-Desktop",
+      "fullName": "lucasfrre/BongoCat-Desktop",
+      "description": "BongoCat: Interactive stream overlay. Mouse and keyboard tracker, tablet pen pressure, osu! playstyle mode. Custom skin editor, transparent background, OBS studio plugin, gamepad support. Keypress visualizer, RGB lighting sync, emote animations, desktop pet, live reaction tool, WASD mapping.",
+      "language": "C++",
+      "topics": [
+        "awesome-bongo-cat",
+        "awesome-bongocat",
+        "bongo",
+        "bongo-cat",
+        "bongo-cat-english",
+        "bongo-cat-global",
+        "bongo-cat-internationalization",
+        "bongocat",
+        "bongocat-english",
+        "bongocat-global",
+        "bongocat-multi-language",
+        "bongocat-vietnamese",
+        "cat",
+        "deskpet",
+        "desktop-app-development",
+        "desktop-application",
+        "desktop-pet",
+        "overlay"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-13T16:14:35Z",
+      "url": "https://github.com/lucasfrre/BongoCat-Desktop",
+      "analysis": {
+        "positioning": "互动式桌面宠物/直播叠加工具，追踪操作并实时动画。",
+        "useCases": [
+          "你直播游戏或制作内容 → 它在屏幕上展示Bongo Cat，根据你的鼠标、键盘、绘画板操作实时演奏，增加趣味性。",
+          "你想要一个有趣的桌面伴侣 → 它在桌面活跃，对系统音乐做出反应，展示多种表情，让桌面生动起来。",
+          "你需要可视化键盘按键 → 它显示WASD映射和按键可视化，并支持RGB灯效同步，提升观众互动体验。"
+        ],
+        "audience": "直播主、内容创作者或任何寻求桌面互动娱乐的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统。",
+          "steps": [
+            "下载并解压`BongoCat.zip`",
+            "运行`BongoCat.exe`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "经典的Bongo Cat表情包，通过实时互动、音乐反应和自定义皮肤，为直播或桌面带来独特的趣味和活力，显著提升娱乐“氛围”。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 统计为0/0，表明当前在GitHub Issues上的活跃度较低。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-05-16T04:58:09.977Z"
     }
   ]
 }
