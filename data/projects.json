@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-16T04:58:09.990Z",
+  "updatedAt": "2026-05-17T05:31:24.091Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -31256,6 +31256,670 @@
         "needsReview": true
       },
       "analyzedAt": "2026-05-16T04:58:09.977Z"
+    },
+    {
+      "owner": "zhiyingzzhou",
+      "repo": "renewlet",
+      "fullName": "zhiyingzzhou/renewlet",
+      "description": "Renewlet 是一个自托管的订阅管理工具。它把 SaaS、AI 工具、云服务和开发工具的价格、续费日、预算和提醒放到一起，适合个人、独立团队和家庭实验室使用。",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-17T00:39:48Z",
+      "url": "https://github.com/zhiyingzzhou/renewlet",
+      "analysis": {
+        "positioning": "自托管订阅管理，集中追踪SaaS/AI/Dev工具续费与预算。",
+        "useCases": [
+          "你订阅了太多SaaS/AI/开发工具，记不清续费日和价格 → Renewlet帮你集中记录，一目了然。",
+          "你担心忘记续费导致不必要的支出 → Renewlet提供多渠道通知提醒。",
+          "你想控制每月订阅开销 → Renewlet分析支出、预算，展示哪些订阅可以节省。"
+        ],
+        "audience": "适合个人、独立团队和家庭实验室，轻松管理各类工具订阅的成本和续费。",
+        "quickStart": {
+          "prerequisites": "已安装Docker和Docker Compose v2的服务器",
+          "steps": [
+            "创建项目目录并进入：`mkdir -p renewlet && cd renewlet`",
+            "下载部署脚本并执行：`curl -fsSL https://raw.githubusercontent.com/zhiyingzzhou/renewlet/main/deploy/docker-deploy.sh | bash`",
+            "启动服务：`docker compose up -d`",
+            "访问 `http://localhost:3000/setup` 创建管理员用户"
+          ],
+          "note": "脚本会自动生成随机密钥和本地数据目录，无需手动修改配置文件。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License，自托管开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，解决痛点清晰。技术栈现代（React, Go, PocketBase, Docker），功能全面，文档清晰，自托管特性给予用户数据完全掌控权。目前Star数和Issue活跃度较低，但项目本身质量较高。",
+        "isVibeCoding": true,
+        "communityActivity": "处于项目早期，Star数较低，Issue活跃度有待提升（1开/0关）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:28:24.465Z"
+    },
+    {
+      "owner": "greatvishal27-rc",
+      "repo": "AI-Resume_Analyzer",
+      "fullName": "greatvishal27-rc/AI-Resume_Analyzer",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-17T02:35:46Z",
+      "url": "https://github.com/greatvishal27-rc/AI-Resume_Analyzer",
+      "analysis": {
+        "positioning": "AI驱动的简历分析与职位智能推荐工具",
+        "useCases": [
+          "你上传简历 → 它帮你自动提取关键技能和信息",
+          "你寻找新机会 → 它帮你基于简历内容推荐匹配职位",
+          "你优化简历 → 它帮你理解简历的亮点与不足"
+        ],
+        "audience": "求职者、职业发展顾问，用于智能分析简历、提取技能和匹配职位。",
+        "quickStart": {
+          "prerequisites": "Python 环境，并安装必要的依赖库",
+          "steps": [
+            "克隆项目仓库",
+            "安装Python依赖",
+            "运行主程序"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LinkedIn",
+            "method": "社交网络+职位平台",
+            "models": "自有算法",
+            "pricing": "免费/增值服务"
+          },
+          {
+            "name": "Jobscan",
+            "method": "在线简历分析工具",
+            "models": "专有算法",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目处于非常早期阶段，Star 数少，社区活跃度低，功能描述基础，缺乏深入细节和用户反馈。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 均为 0，社区几乎没有活跃度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-17T05:28:34.647Z"
+    },
+    {
+      "owner": "vercel-labs",
+      "repo": "zero",
+      "fullName": "vercel-labs/zero",
+      "description": "The programming language for agents",
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-15T16:55:16Z",
+      "url": "https://github.com/vercel-labs/zero",
+      "analysis": {
+        "positioning": "专为Agent设计，构建小型原生工具的系统级编程语言。",
+        "useCases": [
+          "你想为AI Agent开发底层、高性能且内存可控的工具 → 它提供Zero语言，让你实现Agent核心功能。",
+          "你需要构建轻量、快速、原生的可执行程序 → 它让你用Zero语言编写并编译成系统级原生工具。",
+          "你想深入分析代码依赖、大小或Web路由 → 它提供内置的`zero graph`、`zero size`、`zero routes`等分析命令。"
+        ],
+        "audience": "系统级编程开发者、AI Agent开发者、对底层性能和资源控制有高要求的工程师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "安装Zero：`curl -fsSL https://zerolang.ai/install.sh | bash && export PATH=\"$HOME/.zero/bin:$PATH\"`",
+            "验证安装：`zero --version`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Rust",
+            "method": "编译型语言，强调内存安全与并发，适用于系统编程。",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Go",
+            "method": "编译型语言，强调简洁、并发与快速编译，适用于高性能服务。",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（基于Apache-2.0开源许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一门全新的系统级编程语言，需要投入时间学习其独特语法、内存模型和编译流程，上手门槛相对较高，但提供了详细文档和示例。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，Issue开启较多（27个）但关闭较少（3个），活跃度有待观察，可能项目仍在早期快速迭代阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-17T05:28:53.615Z"
+    },
+    {
+      "owner": "DenisSergeevitch",
+      "repo": "agents-best-practices",
+      "fullName": "DenisSergeevitch/agents-best-practices",
+      "description": "Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
+      "language": "Unknown",
+      "topics": [
+        "agent-skill",
+        "agent-skills",
+        "agentic-workflows",
+        "agents",
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "codex",
+        "codex-skill",
+        "mcp",
+        "prompt-engineering"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T21:32:21Z",
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "analysis": {
+        "positioning": "一个通用的AI Agent技能库，助你设计、优化和解释各类Agent。",
+        "useCases": [
+          "你面对复杂业务场景 → 它助你为AI Agent生成生产级最小可用（MVP）蓝图。",
+          "你现有AI Agent架构混乱或效率低下 → 它帮你审计、重构Agent架构，优化性能。",
+          "你希望提高Agent设计水平和理解深度 → 它帮你解释Agent工作原理和最佳实践。"
+        ],
+        "audience": "AI Agent开发者、架构师及希望利用Agent简化多领域工作流的团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "运行 `npx skills add DenisSergeevitch/agents-best-practices -g` 将技能全局安装到兼容Agent环境。"
+          ],
+          "note": "支持Codex、Claude Code等兼容Agent平台，也可手动安装或通过对话粘贴指令。"
+        },
+        "competitors": [],
+        "pricing": "免费，基于MIT开源许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "为AI Agent开发提供了急需的结构化最佳实践，填补了Agent设计标准化的空白，对提高Agent的稳定性和生产力至关重要。",
+        "isVibeCoding": true,
+        "communityActivity": "中等偏低，有593 Star，但Issue开启4/关闭0，表明项目相对新或社区活跃度待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-17T05:29:13.095Z"
+    },
+    {
+      "owner": "sunyouzhi2003",
+      "repo": "LSFG-Desktop",
+      "fullName": "sunyouzhi2003/LSFG-Desktop",
+      "description": "Lossless Scaling 2026: Universal Frame Generation LSFG 3. Multi-frame gen: X2, X3, X4 multiplier for extreme FPS. AI Upscaling: LS1, FSR 3.1, NIS. Smooth gaming on Steam Deck, handhelds, and Android (LSFG-VK). Fix stuttering, low latency mode, VRR support, 4K spatial scaling, G-Sync compatible.",
+      "language": "C++",
+      "topics": [
+        "crimson-desert-lsfg",
+        "frame-generation",
+        "fsr-alternative",
+        "game-upscaler",
+        "gaming-booster",
+        "gaming-performance",
+        "integer-scaling",
+        "lossless-frame-generation",
+        "lossless-scaling",
+        "lossless-scaling-2026",
+        "lossless-scaling-isfg",
+        "lossless-scaling-pc",
+        "lossless-scaling-software",
+        "lossless-scaling-v3",
+        "lsfg",
+        "lsfg-3",
+        "lsfg-ai-upscaling",
+        "smooth-gaming",
+        "upscale-tool",
+        "windows-scaling-tool"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T13:36:32Z",
+      "url": "https://github.com/sunyouzhi2003/LSFG-Desktop",
+      "analysis": {
+        "positioning": "通用游戏画面增强与帧生成工具，大幅提升流畅度与画质。",
+        "useCases": [
+          "你在掌机、低配电脑或安卓设备上玩游戏帧数低、卡顿 → 它帮你通过多倍帧生成和AI超分，实现高帧率流畅游戏。",
+          "你玩游戏时画面模糊不清或有锯齿 → 它帮你应用LS1、FSR 3.1、NIS等多种超分算法，提供更锐利清晰的视觉效果。",
+          "你希望消除游戏中的卡顿、降低延迟或开启VRR → 它帮你优化游戏体验，提供低延迟模式并兼容VRR和G-Sync。"
+        ],
+        "audience": "追求极致游戏画质、帧数，或希望在性能有限设备（如Steam Deck、安卓）上改善游戏体验的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11系统，推荐最新显卡驱动。",
+          "steps": [
+            "从GitHub Release下载 `LosslessScaling.zip` 并解压。",
+            "运行 `LosslessScaling.exe`，并启动你的游戏（建议设置为无边框窗口模式）。",
+            "在应用中选择所需的帧生成（LSFG）或超分（LS1, FSR 3.1, NIS）模式进行应用。"
+          ],
+          "note": "游戏需设置为无边框窗口模式，部分杀毒软件可能误报，需添加白名单。"
+        },
+        "competitors": [
+          {
+            "name": "NVIDIA DLSS",
+            "method": "游戏内置，需NVIDIA RTX显卡支持",
+            "models": "DLSS 2/3/3.5",
+            "pricing": "免费 (游戏内功能)"
+          },
+          {
+            "name": "AMD FSR",
+            "method": "游戏内置，兼容性广泛",
+            "models": "FSR 1/2/3",
+            "pricing": "免费 (游戏内功能)"
+          },
+          {
+            "name": "Intel XeSS",
+            "method": "游戏内置，兼容性广泛",
+            "models": "XeSS",
+            "pricing": "免费 (游戏内功能)"
+          }
+        ],
+        "pricing": "免费 (MIT许可，但项目说明仅限教育和技术目的)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目技术先进，功能强大且实用，在GitHub上获得500+星。但社区互动（Issue处理，2开0关）不活跃，且许可证（MIT，但声明仅限教育和技术目的）存在非标准限制，可能影响其在商业或更广泛场景的应用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue处理不活跃，已开启2个但无已关闭Issue，维护者响应速度存疑。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:29:42.474Z"
+    },
+    {
+      "owner": "PHjont",
+      "repo": "Wallpaper-Engine-Live-wallpaper-engine",
+      "fullName": "PHjont/Wallpaper-Engine-Live-wallpaper-engine",
+      "description": "Wallpaper Engine Steam: Live wallpaper engine. Features: 3D interactive scenes, audio visualizer, clock widgets. Android sync, mobile companion, playlist scheduler. Performance optimization, low CPU usage, LED hardware lighting, Razer Chroma, Corsair iCUE, Steam Workshop integration, SceneScript.",
+      "language": "C++",
+      "topics": [
+        "animated-wallpaper",
+        "best-wallpaper-engine",
+        "free-wallpapers-engine",
+        "live-wallpaper",
+        "livewallpaper",
+        "steamworkshop",
+        "wallpaper-engine-downloader",
+        "wallpaper-engine-downloaderwallpaper-downloader",
+        "wallpaper-engine-gui",
+        "wallpaper-engine-pc",
+        "wallpaper-engine-setup",
+        "wallpaper-engine-software",
+        "wallpaper-engine-steam",
+        "wallpaper-live",
+        "wallpaper-pc",
+        "wallpaperengine-download",
+        "wallpapers"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T14:41:32Z",
+      "url": "https://github.com/PHjont/Wallpaper-Engine-Live-wallpaper-engine",
+      "analysis": {
+        "positioning": "为Windows桌面带来动态、交互式壁纸，支持Steam创意工坊和硬件灯效联动。",
+        "useCases": [
+          "你追求个性化桌面 → 它帮你设置3D交互、音频可视化或视频动态壁纸。",
+          "你希望桌面与硬件同步 → 它帮你实现与Razer Chroma、Corsair iCUE等RGB设备的灯效联动。",
+          "你想要手机也使用动态壁纸 → 它帮你通过Android同步和移动伴侣App实现。",
+          "你希望节省桌面资源 → 它提供性能优化设置，确保低CPU占用。"
+        ],
+        "audience": "追求个性化、动态化桌面体验的Windows用户，尤其是游戏玩家和硬件发烧友。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，推荐独立显卡。",
+          "steps": [
+            "从GitHub Release下载`WallpaperEngine.zip`压缩包。",
+            "解压后运行程序，如无法启动可尝试管理员权限运行。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Wallpaper Engine (Steam官方版)",
+            "method": "Steam平台购买下载安装",
+            "models": "支持3D场景、视频、网页、应用壁纸，社区创作",
+            "pricing": "付费"
+          },
+          {
+            "name": "Lively Wallpaper",
+            "method": "微软商店免费下载安装",
+            "models": "支持视频、GIF、网页、模拟器等多种动态壁纸，音频可视化",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT许可证)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能描述完整，涵盖主流需求并提供硬件联动等亮点；README清晰，提供下载及排障指南。但Issue统计为0/0，且许可证说明为“仅供教育和定制”，社区互动和长期维护情况存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启/关闭均为0，社区互动不活跃，可能不接受Issue报告或维护方式非公开。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:29:58.455Z"
+    },
+    {
+      "owner": "mark9-droid",
+      "repo": "TomodachiPC",
+      "fullName": "mark9-droid/TomodachiPC",
+      "description": "Tomodachi Life Living The Dream PC: Ultimate Mii manager and life simulator. Virtual island community, custom apartment editor, food preferences database, gift system. Mii personality maker, character interaction logs, voice synthesizer, QR code gallery, daily events tracker, dream collection, island news.",
+      "language": "C++",
+      "topics": [
+        "island-life",
+        "life-sim",
+        "life-simulator",
+        "living-the-dream",
+        "mii",
+        "mii-game",
+        "mii-sharing",
+        "nintendo-port",
+        "nintendo-switch-emulator",
+        "nintendo-tomodachi-life",
+        "nintendoswitch",
+        "tomodachi",
+        "tomodachi-life",
+        "tomodachi-life-2026",
+        "tomodachi-life-desktop",
+        "tomodachi-life-living-the-dream",
+        "tomodachi-life-pc",
+        "tomodachi-life-windows",
+        "tomodachi-living-the-dream",
+        "tomodachi-pc"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T13:58:17Z",
+      "url": "https://github.com/mark9-droid/TomodachiPC",
+      "analysis": {
+        "positioning": "流行的《朋友聚会》模拟人生游戏PC优化版。",
+        "useCases": [
+          "你怀念任天堂《朋友聚会》 → 它帮你用更高清画质和键鼠操作在PC上重温经典。",
+          "你想创建和管理Mii虚拟角色 → 它提供公寓编辑器、食物偏好、礼物系统，打造你的Mii社区。",
+          "你追求桌面生活模拟游戏 → 它提供一个虚拟岛屿，让Mii角色互动、发生趣事，体验梦幻生活。"
+        ],
+        "audience": "适合喜爱《朋友聚会》游戏，希望在Windows电脑上获得优化体验的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统",
+          "steps": [
+            "下载 `TomodachiPC.zip` 压缩包。",
+            "解压并运行游戏。"
+          ],
+          "note": "针对Windows 10/11优化，支持更高分辨率和宽屏。"
+        },
+        "competitors": [
+          {
+            "name": "任天堂 3DS",
+            "method": "购买3DS主机及游戏卡带",
+            "models": "3DS系列",
+            "pricing": "付费"
+          },
+          {
+            "name": "3DS模拟器 (如 Citra)",
+            "method": "下载模拟器，获取游戏ROM并加载",
+            "models": "模拟3DS游戏",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README清晰完整，提供详细功能、安装及故障排除指南。代码库有一定星标数，表明关注度，但Issue活动为零，社区互动方面有待观察。项目定位明确，完成度较高，是一个专注于游戏移植和优化的良好实践。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无公开Issue和讨论。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:30:11.447Z"
+    },
+    {
+      "owner": "0xdeadbeefnetwork",
+      "repo": "ssh-keysign-pwn",
+      "fullName": "0xdeadbeefnetwork/ssh-keysign-pwn",
+      "description": "Steal SSH host private keys and /etc/shadow via the ptrace_may_access mm-NULL bypass + pidfd_getfd. Pre-31e62c2ebbfd kernels.",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-14T22:44:21Z",
+      "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
+      "analysis": {
+        "positioning": "未授权用户窃取Linux敏感文件（SSH密钥/Shadow文件）的内核漏洞利用。",
+        "useCases": [
+          "你想获取目标Linux系统的SSH主机私钥 → 它帮你利用内核漏洞直接提取这些密钥文件内容。",
+          "你想获取目标Linux系统的`/etc/shadow`文件 → 它帮你利用内核漏洞读取哈希值进行离线破解。",
+          "你想验证特定Linux内核版本是否存在`ptrace_may_access`漏洞 → 它帮你提供PoC验证该漏洞的可利用性。"
+        ],
+        "audience": "适用于安全研究员、渗透测试人员及系统管理员，用于验证旧版本Linux内核的提权漏洞。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "make",
+            "./sshkeysign_pwn  # 窃取SSH主机密钥，或 ./chage_pwn root # 窃取/etc/shadow内容"
+          ],
+          "note": "目标系统需运行在 `31e62c2ebbfd` commit之前的Linux内核版本。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README文档清晰直观，开篇引用有风格，技术描述准确，提供GIF演示、构建运行指南及受影响系统列表，代码结构良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启与关闭比例良好 (2:6)，表明项目维护者积极响应问题。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-17T05:30:24.024Z"
+    },
+    {
+      "owner": "SubamanojJ-2004",
+      "repo": "gta-5-mod-menu",
+      "fullName": "SubamanojJ-2004/gta-5-mod-menu",
+      "description": "Ultimate Enhancement Toolkit for GTA V — powerful mod menu with ESP, vehicle spawner, recovery features, and clean UI",
+      "language": "Unknown",
+      "topics": [
+        "gameenhancement",
+        "luauiframework",
+        "openworldtools",
+        "runtimeoverlay",
+        "sandboxextensions"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-16T08:50:42Z",
+      "url": "https://github.com/SubamanojJ-2004/gta-5-mod-menu",
+      "analysis": {
+        "positioning": "GTA V终极增强工具包，解锁自由玩法。",
+        "useCases": [
+          "你希望提升游戏内精确度 → 它帮你实现精准辅助射击，提高命中率。",
+          "你想要快速获取载具或金钱 → 它帮你一键生成任何载具和恢复游戏内财富。",
+          "你渴望在洛圣都中无所不能 → 它帮你开启上帝模式、玩家修改和会话控制，享受极致自由。"
+        ],
+        "audience": "适合想深度定制GTA V游戏体验、享受更多自由度和强大功能的PC玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，Intel Core i3 / Ryzen 3+处理器，4 GB RAM，GTX 660 / RX 560或更高显卡，200 MB可用存储空间，稳定网络连接。",
+          "steps": [
+            "前往Releases下载最新版本。",
+            "解压下载的压缩包到指定目录。",
+            "运行`GTA5-ModMenu.exe`启动加载器。",
+            "启动GTA V游戏，并根据应用内提示完成设置。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，功能描述详细，易于理解和安装。Star数量适中，采用MIT许可证。但语言标示为Unknown，且Issue统计为零，社区活跃度和问题解决机制在GitHub上不明显。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue活跃度为零，无法评估社区响应速度和问题解决效率。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:30:36.828Z"
+    },
+    {
+      "owner": "Juwluuu",
+      "repo": "Subnautica-2-Release",
+      "fullName": "Juwluuu/Subnautica-2-Release",
+      "description": "Subnautica 2: Early Access release, Have Multiplayer 4-player co-op multiplayer, Planet Zazura exploration, DNA BioMod system, Tadpole modular submersible, new Leviathans list, CICADA crash site lore. Xbox Game Pass, Steam preload, base building blueprints, ocean currents, crafting recipes",
+      "language": "C++",
+      "topics": [
+        "early-access-subnautica-2",
+        "nitrox-pirate",
+        "pc-ports",
+        "playstation-5",
+        "porting-game",
+        "ps5-bot",
+        "ps5-stock",
+        "subnautica",
+        "subnautica-2",
+        "subnautica-2-coming-to-ps5",
+        "subnautica-2-multiplayer",
+        "subnautica-2-on-ps5",
+        "subnautica-2-release",
+        "subnautica-2-release-date-ps5",
+        "subnautica-2-steam",
+        "subnautica-2-xbox",
+        "subnautica-multiplayer",
+        "unknown-worlds"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-14T15:08:34Z",
+      "url": "https://github.com/Juwluuu/Subnautica-2-Release",
+      "analysis": {
+        "positioning": "水下生存游戏《深海迷航2》的非官方早期发布版，提供多人合作。",
+        "useCases": [
+          "你渴望抢先体验《深海迷航2》并多人游玩 → 它提供早期访问和4人合作模式。",
+          "你想探索新的Zazura星球生态 → 它提供新的星球Zazura和DNA生物改造系统。",
+          "你想在水下建造基地和潜艇 → 它支持基地建造蓝图和模块化潜艇。"
+        ],
+        "audience": "渴望抢先体验《深海迷航2》、享受多人合作水下探索的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，高配置PC。",
+          "steps": [
+            "下载并解压压缩包",
+            "以管理员身份运行`Subnautica2.exe`",
+            "根据PC性能调整图形设置",
+            "开始水下冒险"
+          ],
+          "note": "推荐Windows 10/11，遇到问题可参考Troubleshooting。"
+        },
+        "competitors": [
+          {
+            "name": "Unknown Worlds Entertainment (官方《深海迷航2》)",
+            "method": "官方平台购买 (Steam, Xbox, PSN)",
+            "models": "官方游戏资产与引擎",
+            "pricing": "付费"
+          },
+          {
+            "name": "Nitrox (《深海迷航》初代多人联机Mod)",
+            "method": "安装到《深海迷航》初代游戏",
+            "models": "《深海迷航》初代游戏资源",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个未经官方授权的“游戏发行”项目，直接提供可执行文件下载，且主题标签包含“nitrox-pirate”、“ps5-bot”等可疑词汇。极有可能是恶意软件或诈骗，存在高风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区为空，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:30:57.291Z"
+    },
+    {
+      "owner": "snoozinjs",
+      "repo": "Delta-exec",
+      "fullName": "snoozinjs/Delta-exec",
+      "description": "Delta exec Roblox PC mobile game assistant Autofarm, automatic questing, item collector, world teleports, chest tracker. Supported modes: Blox Fruits, Pet Simulator 99, Anime Defenders, MM2, Sol’s RNG. Speed simulator, high jump, flight mode, infinite resources, mobile optimization, cloud configs.",
+      "language": "C++",
+      "topics": [
+        "adopt-me-dupe-2026",
+        "adopt-me-script-spawn-pets",
+        "blox-fruits-auto-farm-2026",
+        "blox-fruits-autofarm-2026",
+        "blox-fruits-script-2025",
+        "blox-fruits-script-auto-bounty",
+        "blox-fruits-script-auto-farm-no-key",
+        "delta",
+        "delta-exploit",
+        "delta-exploits",
+        "delta-exucator",
+        "delta-new",
+        "delta-new-update",
+        "delta-pc",
+        "delta-queue",
+        "document-delta",
+        "free-pets",
+        "pet-simulator-script",
+        "pet-simulator-x",
+        "trade-glitch"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-13T16:53:49Z",
+      "url": "https://github.com/snoozinjs/Delta-exec",
+      "analysis": {
+        "positioning": "为Roblox玩家提供性能优化及游戏自动化/辅助功能的第三方客户端。",
+        "useCases": [
+          "你玩Roblox游戏 → 它帮你自动挂机、完成任务、收集物品。",
+          "你觉得Roblox卡顿 → 它帮你优化游戏性能，提升帧率和响应速度。",
+          "你想在Roblox特定游戏内作弊 → 它提供加速、跳高、飞行、无限资源等辅助功能。"
+        ],
+        "audience": "寻求Roblox游戏性能优化、追求自动化挂机或辅助功能的PC玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11",
+          "steps": [
+            "下载并解压压缩包",
+            "以管理员身份运行`DeltaRoblox.exe`",
+            "登录Roblox账户并调整设置"
+          ],
+          "note": "可能被杀毒软件误报，需添加排除项；使用时注意违反Roblox服务条款风险。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目开源，功能明确且优化性能，但其辅助功能涉及违反游戏服务条款，存在风险。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 统计显示目前社区互动较少（0开启/0关闭）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:31:11.355Z"
+    },
+    {
+      "owner": "jiaoyanming0-bot",
+      "repo": "OPAutoClicker",
+      "fullName": "jiaoyanming0-bot/OPAutoClicker",
+      "description": "OP Auto Clicker: Fast click interval, milliseconds, seconds. Left, right, middle button. keyboard auto clicker Single, double, triple click. Repeat until stopped, fixed count. Current location, pick coordinates. Hotkey trigger, start stop shortcut. Record playback, macro, Roblox AFK, Minecraft, mouse emulator, portable. ",
+      "language": "C#",
+      "topics": [
+        "auto-clicker",
+        "auto-clicker-op",
+        "autoclick",
+        "autoclicktool",
+        "hotkey",
+        "macro",
+        "macros",
+        "op-auto-clicker",
+        "op-auto-clicker-download",
+        "op-auto-clicker-install",
+        "opclicker"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-14T16:02:07Z",
+      "url": "https://github.com/jiaoyanming0-bot/OPAutoClicker",
+      "analysis": {
+        "positioning": "超高速鼠标自动点击工具，高度自定义支持宏录制。",
+        "useCases": [
+          "你玩Minecraft、Roblox等游戏需要挂机刷资源或训练 → 它帮你自动点击，解放双手，避免疲劳。",
+          "你工作中需重复点击界面按钮或特定区域 → 它帮你录制宏并自动执行，提高效率，减少重复劳动。",
+          "你需要进行快速反应或精确点击测试 → 它帮你设定毫秒级点击间隔，模拟鼠标行为。"
+        ],
+        "audience": "游戏玩家、需要执行重复鼠标操作的日常用户、软件测试人员。",
+        "quickStart": {
+          "prerequisites": "Windows 操作系统",
+          "steps": [
+            "访问项目发布页下载最新`.exe`文件。",
+            "直接运行（无需安装，绿色便携）。",
+            "设置热键、点击模式及间隔即可开始使用。"
+          ],
+          "note": "macOS或Linux用户请查看替代品，如AutoClicker-Desktop。"
+        },
+        "competitors": [
+          {
+            "name": "AutoClicker-Desktop",
+            "method": "跨平台鼠标自动点击工具",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档清晰、结构良好，快速上手指南和FAQ非常实用。对用户关注的“是否会封号”和“是否是病毒”等常见问题提供了详细解答，体现了对用户体验的关注。README排版美观，配图直观，且有Discord社区支持，代码开源也增加了信任度。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue活跃度低（0开启/0关闭），但提供了Discord支持渠道。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-17T05:31:24.078Z"
     }
   ]
 }
