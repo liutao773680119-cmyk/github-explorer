@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-18T05:50:28.838Z",
+  "updatedAt": "2026-05-19T05:45:18.238Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -32489,6 +32489,573 @@
         "category": "安全"
       },
       "analyzedAt": "2026-05-18T05:50:28.826Z"
+    },
+    {
+      "owner": "he4rt",
+      "repo": "marketing-extension",
+      "fullName": "he4rt/marketing-extension",
+      "description": "Chrome extension that passively captures X/Twitter GraphQL responses to track community engagement. Exports structured JSON for He4rt Hub ingestion.",
+      "language": "JavaScript",
+      "topics": [
+        "analytics",
+        "chrome-extension",
+        "community",
+        "engagement-tracking",
+        "graphql",
+        "he4rt",
+        "twitter",
+        "x"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-19T00:26:35Z",
+      "url": "https://github.com/he4rt/marketing-extension",
+      "analysis": {
+        "positioning": "Twitter/X社区互动数据分析Chrome扩展，助力运营洞察。",
+        "useCases": [
+          "你作为社区运营 → 它帮你批量导出Twitter/X互动数据，无需手动复制粘贴。",
+          "你想知道哪些成员活跃 → 它帮你识别社区内持续互动的高价值成员。",
+          "你想了解帖子互动全貌 → 它帮你追踪所有回复的参与度，不遗漏任何互动。",
+          "你想整合社区数据 → 它帮你将Twitter/X互动者与你的社区数据库（He4rt Hub）进行交叉分析。"
+        ],
+        "audience": "适用于社区运营者和开发者社区，希望深入分析和管理Twitter/X平台用户互动数据的场景。",
+        "quickStart": {
+          "prerequisites": "Google Chrome浏览器。",
+          "steps": [
+            "安装he4rt/marketing-extension Chrome扩展并激活。",
+            "在扩展中设置要追踪的Twitter/X句柄（例如“He4rtDevs”），然后正常浏览Twitter/X，扩展将在后台自动捕获数据。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源Chrome扩展）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个非常具体且技术性较强的工具，通过拦截GraphQL请求解决社区数据收集痛点。它为社区运营提供技术赋能，提升数据洞察力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活动，项目可能处于早期或维护者通过其他渠道进行交流。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-19T05:42:23.140Z"
+    },
+    {
+      "owner": "DuskMosquito",
+      "repo": "Lossless-Scaling-Desktop-2026",
+      "fullName": "DuskMosquito/Lossless-Scaling-Desktop-2026",
+      "description": "⭐️ Lossless Scaling Desktop 2026 | Setup Installer v1.0 | Patch Activator Keygen | License Key Pre-Activated | Full Version Latest Build Pro | Optimize Resolution Scaling | Enhance Performance Graphics | Get Desktop App Windows 10/11 PC | Direct Genuine Original x64 | Download Install Loader Mod ⭐️",
+      "language": "C",
+      "topics": [
+        "gaming-booster",
+        "lossless-scaling",
+        "lossless-scaling-2026",
+        "lossless-scaling-download",
+        "lossless-scaling-high-resolution",
+        "lossless-scaling-isfg",
+        "lossless-scaling-pc",
+        "lossless-scaling-software",
+        "lossless-scaling-v3",
+        "universal-frame-gen",
+        "upscale-tool"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-18T15:21:49Z",
+      "url": "https://github.com/DuskMosquito/Lossless-Scaling-Desktop-2026",
+      "analysis": {
+        "positioning": "无损缩放、帧生成，优化桌面/游戏视觉与性能的破解工具。",
+        "useCases": [
+          "你想要免费使用商业版Lossless Scaling → 它提供破解版安装包和激活工具。",
+          "你玩游戏想提升帧数和画质但不愿付费 → 它帮你激活商业版Lossless Scaling实现帧生成和无损缩放。",
+          "你不想购买正版软件 → 它提供预激活的完整版本。"
+        ],
+        "audience": "追求免费高性能游戏体验的Windows 10/11 PC用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 PC",
+          "steps": [
+            "下载提供的安装包和激活工具。",
+            "运行安装程序并使用补丁或Keygen进行激活。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Lossless Scaling (正版)",
+            "method": "Steam购买/官网购买",
+            "models": "自有无损缩放与ISFG帧生成算法",
+            "pricing": "付费"
+          },
+          {
+            "name": "Magpie",
+            "method": "GitHub下载/安装",
+            "models": "FSR/Lanczos/Anime4K等多种缩放算法",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（通过破解提供商业软件）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述充斥“激活码”、“破解”、“预激活”、“完整版”等盗版软件关键词，并非正常开源项目，内容可信度及合法性极低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issues 几乎无互动，更像是文件分发而非开发项目。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-19T05:42:42.492Z"
+    },
+    {
+      "owner": "Doorman11991",
+      "repo": "smallcode",
+      "fullName": "Doorman11991/smallcode",
+      "description": "AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-18T06:19:44Z",
+      "url": "https://github.com/Doorman11991/smallcode",
+      "analysis": {
+        "positioning": "AI编码助手，专为本地小模型优化，高效率。",
+        "useCases": [
+          "你使用本地7B-20B参数量的小型LLM → 它帮你将这些小模型高效转化为实用AI编码助手。",
+          "你希望在消费级硬件上运行AI编码代理 → 它通过优化架构，让你无需昂贵显卡或云API即可实现。",
+          "你关注代码隐私和数据安全 → 它提供完全本地运行的解决方案，所有操作均不依赖网络。"
+        ],
+        "audience": "拥有本地LLM资源、追求开发效率、注重代码隐私的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+ (LTS推荐), 本地LLM服务 (LM Studio, Ollama或OpenAI兼容端点)。",
+          "steps": [
+            "全局安装：`npm install -g smallcode` 或直接运行：`npx smallcode`。",
+            "进入你的项目目录，运行 `smallcode`。",
+            "在项目根目录创建 `.env` 文件，配置 `SMALLCODE_MODEL` 和 `SMALLCODE_BASE_URL`。"
+          ],
+          "note": "若使用非LTS Node版本，`better-sqlite3` 可能需手动编译环境（如Python、GCC等），但即使编译失败，项目仍可运行（自动回退到JSON内存模式）。"
+        },
+        "competitors": [
+          {
+            "name": "OpenCode",
+            "method": "基于API调用云端服务",
+            "models": "前沿大型模型 (如Claude, GPT-4)",
+            "pricing": "按量付费/订阅"
+          }
+        ],
+        "pricing": "免费（基于本地运行和MIT开源协议）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专为本地小模型优化，架构设计巧妙，解决了资源和隐私痛点，能带来高效、安心的编码体验。但初期环境配置有一定门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决及时，维护者活跃（1个开启/7个关闭）。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-19T05:43:04.493Z"
+    },
+    {
+      "owner": "openclaw",
+      "repo": "clawpatch",
+      "fullName": "openclaw/clawpatch",
+      "description": "Review code. Patch bugs. Land PRs.",
+      "language": "TypeScript",
+      "topics": [
+        "bot",
+        "review"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T08:43:03Z",
+      "url": "https://github.com/openclaw/clawpatch",
+      "analysis": {
+        "positioning": "自动化代码审查与修复智能体，能生成修复方案并辅助合入。",
+        "useCases": [
+          "你手动审查代码 → 它帮你自动化识别潜在问题，生成修复建议并跟踪。",
+          "你发现代码bug或需重构 → 它能针对特定问题自动生成修复代码，提升效率。",
+          "你在CI/CD中进行代码质量检查 → 它能集成到CI流程，自动生成报告并标记待修复项。"
+        ],
+        "audience": "希望自动化代码审查、修复和PR合入流程的开发者、技术团队及CI/CD工程师。",
+        "quickStart": {
+          "prerequisites": "Node.js (>=16) 和 pnpm",
+          "steps": [
+            "安装：`pnpm add -g clawpatch`",
+            "初始化、映射与审查：`clawpatch init && clawpatch map && clawpatch review`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot Workspace",
+            "method": "AI辅助代码编写、审查、修复，集成到开发流程",
+            "models": "OpenAI GPT系列",
+            "pricing": "付费"
+          },
+          {
+            "name": "Snyk Code",
+            "method": "AI驱动的静态代码分析，发现漏洞和代码异味",
+            "models": "机器学习模型",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费 (MIT开源许可)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README直接切入核心功能，工作流清晰，技术细节丰富，无冗余营销废话，体现开发者务实风格。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 关闭数 (23) 多于开启数 (16)，表明项目维护积极，问题得到有效处理。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-19T05:43:24.654Z"
+    },
+    {
+      "owner": "pedrodg28",
+      "repo": "yuzu-emu",
+      "fullName": "pedrodg28/yuzu-emu",
+      "description": "Yuzu Emulator Switch Nintendo Pokemon Scarlet Violet, Mario Kart 8 Deluxe, firmware 18.1.0, prod.keys, shader stutter fix, FPS++ mod, save file importer, amiibo bin, motion control setup, local wireless LDN, multicore, handheld mode, docked mode, custom resolution, Joy-Con drift fix.",
+      "language": "C++",
+      "topics": [
+        "download-yuzu",
+        "game-emulator",
+        "nes-emulator",
+        "nintendo",
+        "nintendo-ds",
+        "nintendo-dsi",
+        "nintendo-snes",
+        "nintendo-switch-hacking",
+        "nintendo-switch-homebrew",
+        "nintendo-switch-pc",
+        "pcport",
+        "switch-2",
+        "switch-emulator",
+        "switch-game-emulator",
+        "yuzu",
+        "yuzu-download",
+        "yuzu-emulator-github",
+        "yuzu-nintendo-switch",
+        "yuzu-switch",
+        "yuzu-vulkan"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-13T17:32:38Z",
+      "url": "https://github.com/pedrodg28/yuzu-emu",
+      "analysis": {
+        "positioning": "Windows PC上的高性能任天堂Switch模拟器，支持增强画质和多种玩法。",
+        "useCases": [
+          "你渴望在电脑上体验Switch大作 → 它让你能用PC玩《宝可梦 朱/紫》、《马里奥赛车8》等Switch游戏，支持更高画质和性能。",
+          "你在Switch游戏模拟中遭遇卡顿或低帧率 → 它提供着色器卡顿修复、FPS++ mod及多种性能优化设置，助你流畅游戏。",
+          "你希望在PC上实现Switch的特色功能 → 它支持amiibo、体感控制、存档导入、本地联机(LDN)及自定义分辨率，并解决Joy-Con漂移。"
+        ],
+        "audience": "适合希望在Windows PC上以更高性能、定制化功能体验任天堂Switch游戏的玩家，需合法拥有游戏文件。",
+        "quickStart": {
+          "prerequisites": "需要合法拥有Switch游戏文件(dump)和Windows 10/11操作系统。",
+          "steps": [
+            "下载并解压`YuzuEmulator.zip`压缩包。",
+            "运行`YuzuEmulator.exe`。",
+            "添加你的合法Nintendo Switch游戏文件。",
+            "配置手柄和图形设置，然后开始游戏。"
+          ],
+          "note": "针对Windows 10和Windows 11系统优化。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰、功能丰富、截图和安装指引完善，为用户提供了良好开箱体验。但GitHub Issue统计显示只有1个开启Issue且无已关闭Issue，表明该仓库社区活跃度或维护频次较低，对于C++项目而言，持续维护和问题解决能力存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "该仓库社区活跃度较低，目前只有1个待解决Issue，无已关闭Issue，维护情况存疑。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-19T05:43:43.795Z"
+    },
+    {
+      "owner": "Nightmare-Eclipse",
+      "repo": "MiniPlasma",
+      "fullName": "Nightmare-Eclipse/MiniPlasma",
+      "description": "CVE-2020-17103 was apparently not patched or the patch was reversed, regardless this the PoC for an LPE in cldflt.sys",
+      "language": "C#",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-14T20:32:21Z",
+      "url": "https://github.com/Nightmare-Eclipse/MiniPlasma",
+      "analysis": {
+        "positioning": "针对Windows cldflt.sys未修复LPE漏洞的提权PoC。",
+        "useCases": [
+          "你研究Windows内核漏洞 → 它帮你复现CVE-2020-17103（或其变种）的本地权限提升漏洞",
+          "你进行渗透测试 → 它帮你获取SYSTEM权限Shell，以便进一步行动",
+          "你评估Windows系统安全性 → 它帮你验证当前系统是否受该未打补丁的旧漏洞影响"
+        ],
+        "audience": "Windows系统安全研究员、渗透测试人员及安全评估师，用于漏洞复现、提权测试与系统安全评估。",
+        "quickStart": {
+          "prerequisites": "目标机器运行所有受影响的Windows操作系统版本",
+          "steps": [
+            "编译C#源代码",
+            "在目标Windows机器上执行编译后的程序",
+            "验证是否成功获取SYSTEM权限的Shell"
+          ],
+          "note": "该PoC利用竞态条件，成功率可能因系统环境而异"
+        },
+        "competitors": [],
+        "pricing": "免费，MIT开源许可",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目针对Windows系统中一个被认为已修复但实际仍存在的本地权限提升（LPE）漏洞提供了可靠的PoC。其代码能稳定生成SYSTEM权限的Shell，并详细解释了漏洞背景，对安全研究和渗透测试具有较高实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启4个但无关闭，表明维护响应可能不活跃或项目已相对稳定无需频繁更新。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-19T05:43:57.217Z"
+    },
+    {
+      "owner": "stephenlthorn",
+      "repo": "auto-identity-remove",
+      "fullName": "stephenlthorn/auto-identity-remove",
+      "description": "Automated data broker opt-out runner — removes your personal info from 30+ people-search sites on a monthly schedule",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-15T12:40:18Z",
+      "url": "https://github.com/stephenlthorn/auto-identity-remove",
+      "analysis": {
+        "positioning": "自动化数据经纪商信息移除，保护个人隐私。",
+        "useCases": [
+          "你担心隐私泄露 → 它帮你每月自动从500+数据经纪商移除个人信息。",
+          "你厌烦手动清除信息 → 它自动填写表单、解决验证码，省心省力。",
+          "你想了解清除进度 → 它完成通知，并列出需手动处理的网站。"
+        ],
+        "audience": "关注个人隐私、希望自动化从数据经纪商处移除个人信息的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+, Playwright浏览器 (通过 `npx playwright install chromium` 安装)",
+          "steps": [
+            "git clone https://github.com/stephenlthorn/auto-identity-remove.git && cd auto-identity-remove",
+            "npm install",
+            "node setup.js"
+          ],
+          "note": "支持macOS/Linux/Windows，自动适应调度系统，敏感配置本地存储且不受版本控制。"
+        },
+        "competitors": [],
+        "pricing": "项目代码免费使用，验证码解决服务CapSolver需按次付费（约$0.001/次）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "自动化程度高，解决了手动操作痛点，功能完善（如验证码集成、状态跟踪、跨平台调度、iMessage通知），README清晰，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "开启Issue为0，已关闭2个，表明维护者对问题的响应和处理效率较高，社区报告的问题不多，项目相对稳定。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-19T05:44:11.009Z"
+    },
+    {
+      "owner": "tritano",
+      "repo": "ultraviewer",
+      "fullName": "tritano/ultraviewer",
+      "description": "Teamviewer UltraViewer download free PC windows 11, portable zip, latest version 6.6, getting my ID stuck fix. Port 2112 firewall block, teamviewer commercial use detected bypass, anydesk alternative. Black screen on connection solution, run with windows administrator, change password, file transfer slow.",
+      "language": "TypeScript",
+      "topics": [
+        "anydesk-integration",
+        "download-ultraviewer",
+        "download-ultraviewer-for-windows",
+        "teamviewer",
+        "ultraviewer",
+        "ultraviewer-download",
+        "ultraviewer-download-for-windows",
+        "ultraviewer-for-windows",
+        "ultraviewer-pc",
+        "ultraviewer-unlock"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-16T17:07:32Z",
+      "url": "https://github.com/tritano/ultraviewer",
+      "analysis": {
+        "positioning": "TeamViewer/AnyDesk替代品，Windows远程桌面支持工具。",
+        "useCases": [
+          "你被TeamViewer检测出商业用途 → 它帮你绕过限制，免费使用远程支持。",
+          "你遇到UltraViewer ID卡死、连接黑屏或文件传输慢 → 它提供解决方案和优化建议。",
+          "你需要AnyDesk的免费替代品进行远程协助 → 它提供一个便捷的UltraViewer版本下载。"
+        ],
+        "audience": "需要免费或更便捷的Windows远程桌面支持解决方案的个人用户和IT支持人员。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统，可能需要管理员权限。",
+          "steps": [
+            "从项目Release页面下载对应Windows版本的UltraViewer压缩包。",
+            "解压文件，将安装程序放置到主文件夹。",
+            "运行应用程序。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "TeamViewer",
+            "method": "安装客户端",
+            "models": "远程桌面、文件传输、会议",
+            "pricing": "商业付费，有免费个人版限制"
+          },
+          {
+            "name": "AnyDesk",
+            "method": "安装客户端",
+            "models": "远程桌面、文件传输、会话管理",
+            "pricing": "商业付费，有免费个人版限制"
+          }
+        ],
+        "pricing": "免费 (本仓库提供UltraViewer的免费下载及问题解决方案，旨在绕过商业用途限制)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述直指用户痛点（TeamViewer商业用途检测、ID卡死、连接问题、文件传输慢），提供'免费下载'和'解决方案'，而非强调代码质量或创新。更偏向实用主义的工具分发和问题解决，带有规避官方限制的色彩。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低（1开/0关），社区互动不明显。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-19T05:44:27.568Z"
+    },
+    {
+      "owner": "cat9999aaa",
+      "repo": "thinshell",
+      "fullName": "cat9999aaa/thinshell",
+      "description": "thinshell",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-14T11:10:28Z",
+      "url": "https://github.com/cat9999aaa/thinshell",
+      "analysis": {
+        "positioning": "专为AI时代设计的组织协作框架，支持人与AI异构成员自我演化。",
+        "useCases": [
+          "你希望构建一个由人与AI共同参与的未来组织 → 它帮你定义其规则、角色与演化机制。",
+          "你希望AI Agent能作为组织核心成员参与决策与协作 → 它提供将AI融入组织的全新设计范式。",
+          "你希望组织结构能够像代码一样自我修正、迭代演进 → 它通过三层可演化规则实现自治管理。"
+        ],
+        "audience": "关注未来组织形态、希望构建人与AI深度协作自治组织的企业家、研究者或项目负责人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "阅读创世层（Genesis Layer）模板。",
+            "撰写存在声明（Existence Declaration），明确组织目的。",
+            "配置首个智能体（Agent）。",
+            "在微信或Telegram等聊天界面启动。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统公司",
+            "method": "层级管理，固定流程，人为主体",
+            "models": "N/A (组织形式)",
+            "pricing": "N/A (组织形式)"
+          },
+          {
+            "name": "DAO (去中心化自治组织)",
+            "method": "代币驱动，社区投票治理，易受投机影响",
+            "models": "N/A (组织形式)",
+            "pricing": "N/A (组织形式)"
+          },
+          {
+            "name": "Holacracy (合弄制)",
+            "method": "自主管理，圈子结构，但仅限人类成员",
+            "models": "N/A (组织形式)",
+            "pricing": "N/A (组织形式)"
+          },
+          {
+            "name": "AI Agent框架 (如LangChain, AutoGPT)",
+            "method": "专注于AI Agent的开发与执行，不解决组织设计问题",
+            "models": "依赖底层大模型 (如GPT-4)",
+            "pricing": "开源免费，模型调用付费"
+          }
+        ],
+        "pricing": "免费 (作为开放组织设计理念与框架，内容遵循CC BY-SA 4.0协议)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心是提出一套新的组织设计理念，并通过Markdown文档的形式将组织规则“编码”化，实现其自演化。它不是传统意义上的可运行代码库，但其核心思想是“将组织作为代码”。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活跃，所有Issue均为0，可能通过其官方Website或白皮书渠道进行社区互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-19T05:44:49.088Z"
+    },
+    {
+      "owner": "RastProxy88",
+      "repo": "Zephyr-Executor-Free-Roblox-Executor-PC-No-Key-Required-2026",
+      "fullName": "RastProxy88/Zephyr-Executor-Free-Roblox-Executor-PC-No-Key-Required-2026",
+      "description": "Free undetected Roblox script executor with instant injection, full UNC support, and no key system. Clean UI, built-in script hub, regular updates.",
+      "language": "Lua",
+      "topics": [
+        "lua",
+        "roblox"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-17T17:51:00Z",
+      "url": "https://github.com/RastProxy88/Zephyr-Executor-Free-Roblox-Executor-PC-No-Key-Required-2026",
+      "analysis": {
+        "positioning": "免费、无需密钥、即时注入的Roblox脚本执行器，声称不会被检测。",
+        "useCases": [
+          "你想在Roblox游戏中运行自定义Lua脚本 → 它帮你即时注入并执行脚本，声称免检测。",
+          "你厌倦了脚本执行器复杂的密钥验证和广告 → 它提供无密钥、无广告的使用体验。",
+          "你寻找Roblox热门游戏的实用脚本 → 它内置脚本中心，提供大量精选脚本。"
+        ],
+        "audience": "寻求在Roblox游戏中运行自定义Lua脚本以增强体验或获得优势的PC玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统",
+          "steps": [
+            "下载Zephyr Executor程序",
+            "运行程序并注入Roblox游戏进程",
+            "在内置编辑器中输入或从脚本中心选择脚本并执行"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "完全免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "这是一个专为Roblox设计的脚本执行器，声称实现“免检测”和“Byfron绕过”，并提供“无密钥”服务。其目标用户群体和功能（如游戏内脚本注入以获得优势）带有强烈的“地下”或“vibe”属性，符合该评分标准。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues 0开0关，社区活跃度低或主要集中在其他平台。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-19T05:45:04.007Z"
+    },
+    {
+      "owner": "arnabchoudhury404",
+      "repo": "hydra-launcher",
+      "fullName": "arnabchoudhury404/hydra-launcher",
+      "description": "hydralauncher: Hydra Launcher download free PC library  fontes links baixar , hydralauncher github,  trusted sources url list, steam verde download, hydralauncher github source code, no download available hydra launcher fix. Embedded bittorrent client setup, repack scraper json megathread, hydra cloud save files sync, python rpc server error",
+      "language": "TypeScript",
+      "topics": [
+        "epic-games",
+        "epic-games-store",
+        "gamelauncher",
+        "gaming",
+        "heroic-games-launcher",
+        "hydra-download",
+        "hydra-launcher-library",
+        "hydra-library",
+        "hydralauncher",
+        "hydralauncher-download",
+        "launcher",
+        "library-hydra",
+        "pirate-game",
+        "pirated-steam-games",
+        "steam"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-17T16:54:12Z",
+      "url": "https://github.com/arnabchoudhury404/hydra-launcher",
+      "analysis": {
+        "positioning": "Windows平台现代一体化游戏启动器。",
+        "useCases": [
+          "你游戏分散在不同平台（Epic/Steam等） → 它帮你整合统一管理并启动。",
+          "你追求启动器界面简洁和运行速度 → 它提供现代UI和快速加载体验。",
+          "你希望管理并快速启动你的正版游戏库 → 它帮你组织游戏集合。"
+        ],
+        "audience": "寻求统一管理和启动Windows PC端多平台游戏的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10或Windows 11操作系统",
+          "steps": [
+            "下载并解压压缩包",
+            "运行`HydraLauncher.exe`",
+            "添加你的游戏到库",
+            "开始玩游戏"
+          ],
+          "note": "针对Windows 10和Windows 11优化。"
+        },
+        "competitors": [
+          {
+            "name": "Heroic Games Launcher",
+            "method": "游戏启动及管理",
+            "models": "多平台游戏支持",
+            "pricing": "免费"
+          },
+          {
+            "name": "GOG Galaxy",
+            "method": "游戏聚合启动器",
+            "models": "多平台游戏同步与启动",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和Topics中大量出现与盗版相关的关键词（如“pirate-game”、“steam verde download”、“bittorrent client”），但README却强调“用于管理正版游戏”，这种表述上的矛盾和潜在的灰色地带令人存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无公开Issue或已解决Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-19T05:45:18.227Z"
     }
   ]
 }

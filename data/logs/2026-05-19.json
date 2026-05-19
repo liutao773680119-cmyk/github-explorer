@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-05-19",
+  "startedAt": "2026-05-19T05:42:10.783Z",
+  "finishedAt": "2026-05-19T05:46:30.754Z",
+  "durationSeconds": 260,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 11,
+    "skipped": 94,
+    "geminiCalls": 12,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-05-19T05:46:06.961Z",
+      "level": "warn",
+      "project": "affaan-m/ECC",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
