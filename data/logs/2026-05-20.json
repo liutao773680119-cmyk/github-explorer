@@ -1,0 +1,80 @@
+{
+  "version": "1",
+  "date": "2026-05-20",
+  "startedAt": "2026-05-20T05:45:19.758Z",
+  "finishedAt": "2026-05-20T05:49:58.761Z",
+  "durationSeconds": 279,
+  "success": true,
+  "stats": {
+    "fetched": 109,
+    "newProjects": 9,
+    "skipped": 100,
+    "geminiCalls": 16,
+    "statsUpdated": 109
+  },
+  "errors": [
+    {
+      "time": "2026-05-20T05:45:23.053Z",
+      "level": "warn",
+      "project": "thananon/9arm-skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-20T05:45:26.870Z",
+      "level": "warn",
+      "project": "guowang23333/kiro-pro-batch",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-20T05:46:01.832Z",
+      "level": "warn",
+      "project": "smallpeanutbaby/little-peanut-agent",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-20T05:46:05.742Z",
+      "level": "warn",
+      "project": "6c696e68/gpt_signup_hybrid",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-20T05:46:10.071Z",
+      "level": "warn",
+      "project": "vercel-labs/zerolang",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-20T05:47:23.270Z",
+      "level": "warn",
+      "project": "Flizorules05/ROM-MGBA-Pokemon-Emulator-PC",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-20T05:47:29.391Z",
+      "level": "warn",
+      "project": "Sunislazi/rbxfpsunlocker-boost-More-240FPS",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

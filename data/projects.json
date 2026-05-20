@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-19T05:45:18.238Z",
+  "updatedAt": "2026-05-20T05:49:30.668Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -33056,6 +33056,545 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-19T05:45:18.227Z"
+    },
+    {
+      "owner": "5ec1cff",
+      "repo": "injectrc",
+      "fullName": "5ec1cff/injectrc",
+      "description": "",
+      "language": "C++",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-20T04:34:17Z",
+      "url": "https://github.com/5ec1cff/injectrc",
+      "analysis": {
+        "positioning": "Android运行时init进程的脚本注入工具，实现系统级定制。",
+        "useCases": [
+          "你需要动态调整Android系统行为 → 它帮你运行时注入init脚本，快速测试系统启动逻辑。",
+          "你想优化Android设备性能 → 它帮你无需刷机即可测试和应用启动阶段的微调脚本。",
+          "你是Android安全研究员 → 它帮你获得运行时init脚本的执行能力，进行深度分析或攻防模拟。"
+        ],
+        "audience": "Android系统开发者、固件工程师、安全研究人员或高级玩家，用于系统级调试、定制与测试。",
+        "quickStart": {
+          "prerequisites": "Android NDK, Python3",
+          "steps": [
+            "安装 Android NDK 和 Python3。",
+            "执行 `python build.py build injectrc` 构建工具。",
+            "将生成的工具通过 `adb` 部署到Android设备，并运行 `./injectrc <rc 脚本路径>`。"
+          ],
+          "note": "适用于Android设备。"
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "高度专业化的Android系统底层工具，针对特定init进程注入场景，面向硬核开发者，缺乏普适性和广泛的“酷炫”用户体验。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极低，Issue 均为零，可能为个人维护或内部工具。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-05-20T05:45:44.590Z"
+    },
+    {
+      "owner": "xw7872081123",
+      "repo": "wallpaper-engine-steam",
+      "fullName": "xw7872081123/wallpaper-engine-steam",
+      "description": "Free Wallpaper Engine Steam: download PC windows 11, steam workshop downloader bypass, high CPU RAM usage fix, android apk mobile sync. 4k anime live wallpaper, black screen crash on startup, corsair icue razer chroma integration, ui32.exe error solution, scene web wallpaper, mobile connection pin, custom playlist screensaver, ",
+      "language": "TypeScript",
+      "topics": [
+        "animated-wallpaper",
+        "best-wallpaper-engine",
+        "downloadwallpaperengine",
+        "free-wallpapers-engine",
+        "linux-wallpaperengine",
+        "live-wallpapers",
+        "steamwallpaper",
+        "steamwallpaperengine",
+        "wallpaper-engine-features",
+        "wallpaperengine-download",
+        "wallpaperenginefree",
+        "wallpaperenginepc",
+        "wallpaperenginesteam",
+        "wallpapers",
+        "wallpapersengine"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-18T12:44:49Z",
+      "url": "https://github.com/xw7872081123/wallpaper-engine-steam",
+      "analysis": {
+        "positioning": "免费获取并优化Wallpaper Engine，美化桌面。",
+        "useCases": [
+          "你想免费使用Steam版Wallpaper Engine → 它帮你绕过下载限制，免费安装体验。",
+          "你用Wallpaper Engine出现高CPU/内存占用或黑屏崩溃 → 它提供故障排除和性能优化方案。",
+          "你希望定制酷炫的动态桌面并与硬件灯效联动 → 它支持海量壁纸，并集成Razer/iCUE灯效。"
+        ],
+        "audience": "寻求免费、优化版Wallpaper Engine的Windows 10/11用户，以及解决常见运行问题的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载并解压`WallpaperEngine.zip`压缩包。",
+            "以管理员身份运行`WallpaperEngine.exe`，按提示操作并选择你喜欢的壁纸。"
+          ],
+          "note": "针对Windows 10和11系统优化。"
+        },
+        "competitors": [
+          {
+            "name": "Wallpaper Engine (官方Steam版)",
+            "method": "通过Steam平台购买并安装",
+            "models": "动图、视频、交互式壁纸",
+            "pricing": "付费"
+          },
+          {
+            "name": "Lively Wallpaper",
+            "method": "通过Microsoft Store或GitHub免费下载",
+            "models": "视频、网页、GIF、Unity等动态壁纸",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在提供免费的Wallpaper Engine（或其增强版），并解决常见问题。代码语言和文档清晰，但Issue活跃度极低（1开0关），可能暗示维护不积极或社区互动不足。同时，其免费获取方式可能存在版权灰色地带，降低了项目的“干净”度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低，目前仅有1个开启的Issue，且无关闭记录，表明社区互动或项目维护不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-20T05:46:41.900Z"
+    },
+    {
+      "owner": "BasZ4ll",
+      "repo": "Stable-Diffusion-WebUI",
+      "fullName": "BasZ4ll/Stable-Diffusion-WebUI",
+      "description": "Stable Diffusion: webui automatic1111 download free, comfyui setup guide, sdxl checkpoint safetensors, lora model civitai, controlnet extension github. SD WebUI Forge launcher, low VRAM optimization, xformers command line arguments, python torch cuda error fix, out of memory solution, txt2img img2img, inpainting, realesrgan upscaler, local pc insta",
+      "language": "TypeScript",
+      "topics": [
+        "ai-image-generator",
+        "diffusion-model",
+        "image-to-image",
+        "offline-image-generator",
+        "stable-diffusion",
+        "stable-diffusion-2026",
+        "stable-diffusion-android",
+        "stable-diffusion-download",
+        "stable-diffusion-free",
+        "stable-diffusion-github",
+        "stable-diffusion-tutorial",
+        "stable-diffusion-ui",
+        "stable-diffusion-web-ui",
+        "stable-diffusion-webui-forge",
+        "stable-diffusion-webui-plugin",
+        "stable-diffusion-windows",
+        "stable-diffusion-xl",
+        "stablediffusion3",
+        "text-to-image"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-17T16:34:12Z",
+      "url": "https://github.com/BasZ4ll/Stable-Diffusion-WebUI",
+      "analysis": {
+        "positioning": "Stable Diffusion本地AI绘图WebUI，功能丰富，易用高效。",
+        "useCases": [
+          "想在本地用AI生成高质量图片 → 它提供直观Web界面，轻松实现文生图(txt2img)、图生图(img2img)及局部重绘(inpainting)。",
+          "显存不足或生成速度慢 → 它提供`--lowvram`、`xformers`优化选项及CUDA错误修复，有效解决常见性能问题。",
+          "需要扩展AI绘图功能 → 它支持SDXL、ControlNet等多种模型和插件，满足高级创作及定制需求。"
+        ],
+        "audience": "拥有NVIDIA显卡（推荐6GB VRAM以上）且希望在本地免费、深度定制AI图片生成体验的创作者和开发者。",
+        "quickStart": {
+          "prerequisites": "NVIDIA GPU (推荐6GB VRAM以上)",
+          "steps": [
+            "下载解压压缩包",
+            "运行`webui-user.bat`",
+            "等待首次设置和模型下载完成",
+            "浏览器打开控制台显示的链接"
+          ],
+          "note": "优化支持Windows 10/11"
+        },
+        "competitors": [
+          {
+            "name": "Automatic1111/stable-diffusion-webui (官方原版)",
+            "method": "本地部署Python环境运行",
+            "models": "SD 1.x, SDXL, LoRA, ControlNet等",
+            "pricing": "免费"
+          },
+          {
+            "name": "ComfyUI",
+            "method": "基于节点工作流的本地部署",
+            "models": "SD 1.x, SDXL, LoRA, ControlNet等",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和故障排除部分直接涉及底层显存优化（`--lowvram`）、CUDA错误修复、xformers参数等技术细节，针对本地部署的痛点提供具体解决方案，技术感强。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，社区活跃度极低（1个开启Issue，0关闭）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-20T05:46:59.655Z"
+    },
+    {
+      "owner": "thongthaibm",
+      "repo": "Lossless-Scaling-LSFG",
+      "fullName": "thongthaibm/Lossless-Scaling-LSFG",
+      "description": "Lossless Scaling github steam android: LSFG 3 frame generation steam, uncap FPS low end PC, AMD FSR NIS scaling, cursor lag fix. Double FPS laptop guide, windowed to borderless fullscreen, ghosting artifact solution, capture API DXGI GDI, half refresh rate VSync. Crack free bypass, anime4k setup, steam version latest release, latency reduction",
+      "language": "C#",
+      "topics": [
+        "crimson-desert-lsfg",
+        "frame-generation",
+        "fsr-alternative",
+        "gaming-performance",
+        "integer-scaling",
+        "lossless-frame-generation",
+        "lossless-scaling",
+        "lossless-scaling-2026",
+        "lossless-scaling-download",
+        "lossless-scaling-github",
+        "lossless-scaling-isfg",
+        "lossless-scaling-lsfg",
+        "lossless-scaling-pc",
+        "lossless-scaling-software",
+        "lossless-scaling-v3",
+        "lsfg",
+        "lsfg-3",
+        "lsfg-ai-upscaling",
+        "smooth-gaming",
+        "windows-scaling-tool"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-18T12:21:13Z",
+      "url": "https://github.com/thongthaibm/Lossless-Scaling-LSFG",
+      "analysis": {
+        "positioning": "低配电脑福音，画面无损放大+帧生成利器。",
+        "useCases": [
+          "你玩3A大作卡顿 → 它帮你解锁帧数限制，通过LSFG技术大幅提高游戏帧数，让低配电脑也能流畅运行。",
+          "你想提升游戏画质又不想牺牲性能 → 它帮你对游戏画面进行无损放大或高级缩放（FSR/NIS），同时保持清晰度。",
+          "你遇到游戏画面撕裂、光标延迟、残影等问题 → 它提供多种修复方案，如窗口化转无边框全屏、DXGI/GDI捕捉优化、垂直同步调整，解决常见显示异常。"
+        ],
+        "audience": "游戏玩家，特别是使用低配PC或笔记本的用户，希望能免费提升游戏性能、改善画面质量和解决显示问题。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11，需运行正版游戏/应用，且游戏设置为无边框窗口模式。",
+          "steps": [
+            "下载并解压压缩包",
+            "以管理员身份运行 LosslessScaling.exe",
+            "在游戏中设置为无边框窗口模式",
+            "选择所需的缩放模式并启用LSFG"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Lossless Scaling (Steam付费版)",
+            "method": "独立软件工具",
+            "models": "LSFG, FSR, NIS, Integer Scaling",
+            "pricing": "付费"
+          },
+          {
+            "name": "AMD FSR / NVIDIA NIS",
+            "method": "显卡驱动内置功能",
+            "models": "FSR, NIS",
+            "pricing": "免费 (需对应显卡)"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能实用，提供免费帧生成与缩放方案，安装与使用说明清晰。但社区活跃度不高，且带有“破解”性质，潜在维护风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 开启与关闭数均很少。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-20T05:47:18.394Z"
+    },
+    {
+      "owner": "FoundZiGu",
+      "repo": "GuJumpgate",
+      "fullName": "FoundZiGu/GuJumpgate",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-19T11:52:52Z",
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "analysis": {
+        "positioning": "全自动浏览器扩展，批量注册并激活GPT Plus。",
+        "useCases": [
+          "你需注册GPT Free账号 → 它帮你自动注册Free账号。",
+          "你需PayPal激活GPT Plus → 它帮你自动完成PayPal激活全流程。",
+          "你需Outlook/Hotmail别名 → 它帮你自动生成管理。",
+          "你需处理OAuth回调/JSON → 它帮你自动回调或生成无RT的AT JSON。"
+        ],
+        "audience": "有批量或自动化注册GPT Plus需求的技术用户，需自行配置代理、邮箱和接码服务。",
+        "quickStart": {
+          "prerequisites": "1. 1个带API、能连续收PayPal验证码的US `+1` 手机号；2. N个支持IMAP/Graph的Outlook邮箱 或 自建Cloudflare Temp Email (edu前缀)；3. N个支持GPT注册的JP代理，用于批量轮询；4. 1个干净、支持PayPal注册的US代理；5. 1个支持分流的代理工具（推荐Mihomo）。",
+          "steps": [
+            "下载并解压扩展包。",
+            "在Chrome `chrome://extensions/` 开启开发者模式并加载扩展。",
+            "启用扩展在无痕模式下的权限。",
+            "配置代理工具分流规则：注册走JP，支付走US，CPA地址直连。",
+            "运行`start-hotmail-helper.bat`（如使用Outlook/Hotmail）。",
+            "打开无痕浏览器，在扩展侧边栏配置CPA地址、接码API、PayPal接码电话、Outlook邮箱。",
+            "保存配置，开始运行。"
+          ],
+          "note": "Mihomo用户可利用AI提示词配置分流，无需手动配置ZeroOmega。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README详尽，图文并茂，安装配置流程清晰，提供了具体测试数据和代理配置的AI辅助提示，对技术用户友好。少量列表编号错误，但不影响理解。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1/关闭3，表明有少量用户反馈和维护，但整体活跃度不高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-20T05:47:47.917Z"
+    },
+    {
+      "owner": "AbhishekK130804",
+      "repo": "Claude-Mythos-AI-Anthropic-App",
+      "fullName": "AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "description": "Claude pro free Mythos design Opus Cowork  Sonnet AI Anthropic App: download free PC android apk iOS, Anthropic Claude API key setup, Claude roleplay mythos client, SillyTavern Claude prompt formatting, custom system prompt jailbreak, Mythos AI creative writing app, Claude 3.5 Sonnet Opus API cost, open source LLM frontend, Claude reverse proxy ",
+      "language": "C#",
+      "topics": [
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-code-cli",
+        "claude-code-hooks",
+        "claude-code-marketplace",
+        "claude-code-plugin",
+        "claude-code-plugins",
+        "claude-code-skill",
+        "claude-code-skills",
+        "claude-code-subagents",
+        "claude-cowork-free",
+        "claude-design-ai",
+        "claude-design-alternative",
+        "claude-design-download",
+        "claude-design-free",
+        "claude-mythos",
+        "claude-opus",
+        "claude-opus-4-6",
+        "mythos"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-18T17:01:42Z",
+      "url": "https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App",
+      "analysis": {
+        "positioning": "Claude多平台客户端，强调美学、个性化与多模态交互。",
+        "useCases": [
+          "你想在电脑或手机上优雅地使用Claude → 它提供美观的跨平台客户端，支持Mythos设计。",
+          "你需要Claude进行深度角色扮演或创意写作 → 它优化了长文本、系统提示和角色卡，助力沉浸式创作。",
+          "你关注API成本、隐私和定制化提示 → 它作为API前端，支持自定义提示、反向代理和本地存储。"
+        ],
+        "audience": "希望在多平台本地使用Claude，进行创意写作、角色扮演或深度推理的用户。",
+        "quickStart": {
+          "prerequisites": "Anthropic API Key",
+          "steps": [
+            "下载最新版本",
+            "解压并运行应用",
+            "输入你的Anthropic API Key"
+          ],
+          "note": "支持Windows/macOS/Linux/Android/iOS多平台。"
+        },
+        "competitors": [
+          {
+            "name": "Claude官网",
+            "method": "网页访问",
+            "models": "Claude系列",
+            "pricing": "部分免费/Pro付费"
+          },
+          {
+            "name": "SillyTavern",
+            "method": "桌面应用/Web UI",
+            "models": "支持Claude/多种LLM",
+            "pricing": "免费，需API Key"
+          }
+        ],
+        "pricing": "免费（需自备Anthropic API Key，API使用可能产生费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能全面，提供美观的Claude桌面/移动客户端，强调个性化、隐私和多模态，但核心是API封装。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前仅有一个开启Issue且无已关闭。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-20T05:48:03.807Z"
+    },
+    {
+      "owner": "ZoyaMalhotra",
+      "repo": "DualSenseX-DSX-Steam-Edition",
+      "fullName": "ZoyaMalhotra/DualSenseX-DSX-Steam-Edition",
+      "description": "DualSenseX Steam: DSX free download github, adaptive triggers test mod PC, audio to haptics setup, Xbox 360 DualShock 4 emulation. ViGEmBus driver error fix, Bluetooth audio latency, Cyberpunk 2077 controller mod, non-steam games controller not working, DS4Windows alternative. Paliverse crack bypass, BSOD crash fix, Steam Xbox Extended Feature",
+      "language": "C++",
+      "topics": [
+        "adaptive-triggers-pc",
+        "ds4",
+        "ds4-controller",
+        "ds4-windows",
+        "ds4windows",
+        "dsx-download",
+        "dsx-steam",
+        "dsx-windows",
+        "dual-sense-on-pc",
+        "dualsense",
+        "dualsense-controller",
+        "dualsense-pc-adaptive-triggers",
+        "dualshock4",
+        "game-controller",
+        "hidhide",
+        "ps3-controller",
+        "ps5-controller",
+        "psrp",
+        "steam",
+        "vigembus"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-18T16:41:06Z",
+      "url": "https://github.com/ZoyaMalhotra/DualSenseX-DSX-Steam-Edition",
+      "analysis": {
+        "positioning": "解锁PS5手柄在PC和Steam上的全部高级功能，提供最佳游戏体验。",
+        "useCases": [
+          "你希望在PC上完整体验PS5手柄的自适应扳机和触觉反馈 → 它帮你解锁手柄所有震动和扳机特效。",
+          "你发现PS5手柄无法在非Steam游戏或老游戏中正常工作 → 它帮你实现DS5手柄全面兼容，甚至模拟Xbox 360。",
+          "你遇到PS5手柄蓝牙延迟或驱动报错 → 它帮你优化连接性能，修复常见技术问题。"
+        ],
+        "audience": "寻求在Windows平台完美发挥PS5 DualSense手柄所有高级特性，尤其是在Steam和非Steam游戏中获得沉浸体验的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统",
+          "steps": [
+            "下载并解压DSX压缩包",
+            "以管理员身份运行DualSenseX.exe",
+            "通过USB或蓝牙连接你的DualSense手柄",
+            "配置设定，享受增强的游戏体验"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "DS4Windows",
+            "method": "通过模拟Xbox手柄，让PS4/PS5手柄在PC上使用",
+            "models": "主要支持PS4 DualShock 4，部分支持PS5 DualSense",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述直观，功能核心且击中痛点。README内容详尽，包含快速上手、功能概览和问题排查，配图清晰。是玩家实用工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低（1开0关），但可能是因为项目相对稳定或用户直接在其他平台反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-20T05:48:18.080Z"
+    },
+    {
+      "owner": "haiddrrs",
+      "repo": "Steam-Tools",
+      "fullName": "haiddrrs/Steam-Tools",
+      "description": "Lua Steam Tools: SteamTools download free PC latest version, lua manifest generator github, steamtools safe to use account ban risk, BeyondDimension SteamTools source code, unlock free steam games dlc unlocker, watt toolkit alternative, steamtools exe local ticket bypass, lua tools manifest downloader, st-setup virus total malware scan, steamtools",
+      "language": "C#",
+      "topics": [
+        "lua-steam-tools",
+        "luatools",
+        "manifest-steam-tools",
+        "steam-bypass",
+        "steam-client",
+        "steam-data",
+        "steam-education",
+        "steam-fix",
+        "steam-games",
+        "steam-library",
+        "steam-lua-tools",
+        "steam-tools",
+        "steam-tools-download",
+        "steam-tools-games",
+        "steamtool",
+        "steamtools",
+        "steamtools-download",
+        "steamtools-lua",
+        "steamtools-manifest",
+        "steamweb"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-18T17:20:43Z",
+      "url": "https://github.com/haiddrrs/Steam-Tools",
+      "analysis": {
+        "positioning": "Steam一体化工具集，提升游戏管理、优化与自定义体验。",
+        "useCases": [
+          "你想简化Steam游戏管理 → 它帮你集中管理、优化游戏和库。",
+          "你想快速生成Lua清单文件 → 它提供Lua manifest生成器。",
+          "你想解锁Steam游戏DLC或绕过本地票证 → 它提供对应功能（请遵守Steam政策）。"
+        ],
+        "audience": "追求Steam体验增强、游戏管理优化及高级功能的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，Steam客户端已运行",
+          "steps": [
+            "下载并解压项目",
+            "以管理员身份运行主程序并选择所需工具"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "瓦特工具箱 (Watt Toolkit)",
+            "method": "桌面应用",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Steam++ (SteamPlusPlus)",
+            "method": "桌面应用",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "UI简洁实用，解决Steam用户痛点，同时提供高级功能，符合Geek玩家需求。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低（1开0闭），无法评估响应速度，可能社区互动不强。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-20T05:48:37.382Z"
+    },
+    {
+      "owner": "affaan-m",
+      "repo": "ECC",
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-01-18T00:51:51Z",
+      "url": "https://github.com/affaan-m/ECC",
+      "analysis": {
+        "positioning": "AI Agent性能与生产力优化系统",
+        "useCases": [
+          "你开发AI Agent → 它帮你提升Agent性能、智能和稳定性",
+          "你使用Claude Code/Codex等AI编程助手 → 它帮你优化这些AI助手的运行效率与输出质量",
+          "你需要AI Agent具备长期记忆、持续学习和安全防护 → 它提供完整的内存优化、学习机制和安全扫描"
+        ],
+        "audience": "专注于AI Agent开发、优化与部署的开发者和团队，尤其对Anthropic Claude等模型用户有吸引力。",
+        "quickStart": {
+          "prerequisites": "Node.js/npm",
+          "steps": [
+            "安装核心npm包：`npm install ecc-universal` 或 `npm install ecc-agentshield`",
+            "根据官方文档，配置和集成各项性能、安全及记忆优化模块到你的AI Agent项目中"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目星标和贡献者数量极高，是Anthropic黑客松冠军，专注于AI Agent这一前沿领域，并提供涵盖性能、安全、记忆、学习等全面优化方案，显示出极高的价值和影响力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极高，拥有18万+星标和170+贡献者。虽然GitHub Issue统计为0，但其庞大的用户基础和高活跃度表明项目高度成熟且维护良好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-20T05:49:30.656Z"
     }
   ]
 }
