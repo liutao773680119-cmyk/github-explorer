@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-20T05:49:30.668Z",
+  "updatedAt": "2026-05-21T05:52:58.586Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -33595,6 +33595,777 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-20T05:49:30.656Z"
+    },
+    {
+      "owner": "vercel-labs",
+      "repo": "zerolang",
+      "fullName": "vercel-labs/zerolang",
+      "description": "The programming language for agents",
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-15T16:55:16Z",
+      "url": "https://github.com/vercel-labs/zerolang",
+      "analysis": {
+        "positioning": "AI Agent专属语言，能即时学习和自修复。",
+        "useCases": [
+          "你希望Agent自主学习新编程概念 → Zero提供小巧、规则的语言表面，Agent能从示例和反馈中快速掌握。",
+          "你希望Agent高效调试和修复代码 → Zero提供结构化的诊断、事实和修复计划，Agent可以直接检查和操作。",
+          "你希望Agent拥有全面的通用能力 → Zero提供深度标准库，Agent无需复杂依赖搜索即可获得常见功能。"
+        ],
+        "audience": "AI Agent开发者与研究者，需要为Agent提供自主学习、调试和通用能力的编程环境。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "安装 Zero：curl -fsSL https://zerolang.ai/install.sh | bash",
+            "配置环境变量：export PATH=\"$HOME/.zero/bin:$PATH\"",
+            "运行示例：zero run examples/add.0"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Python (结合现有AI Agent框架)",
+            "method": "Agent生成/执行Python代码，通过现有框架协调，但缺乏专门为Agent优化的学习和调试能力。",
+            "models": "语言无关",
+            "pricing": "免费"
+          },
+          {
+            "name": "通用编程语言 (如Rust/Go)",
+            "method": "可用于构建高性能Agent组件，但其复杂性对Agent自主学习和调试不友好，非Agent专属。",
+            "models": "语言无关",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确为实验性质（pre-1），刻意不稳定，预计将有大量破坏性变更，且不适用于生产环境。其目标是探索为AI Agent量身定制的编程语言，高度前沿和实验性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区关注度高（星标数），但问题关闭率极低 (约7%)，表明项目仍处于快速开发探索阶段，对社区反馈的响应或整合速度可能较慢。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-21T05:49:16.351Z"
+    },
+    {
+      "owner": "thananon",
+      "repo": "9arm-skills",
+      "fullName": "thananon/9arm-skills",
+      "description": "",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-20T00:49:37Z",
+      "url": "https://github.com/thananon/9arm-skills",
+      "analysis": {
+        "positioning": "AI Agent（Claude Code）的模块化技能库，提升自动化能力。",
+        "useCases": [
+          "你遇到棘手Bug → Agent应用调试心法，系统化定位并解决问题。",
+          "你解决完Bug → Agent帮你撰写专业复盘报告，沉淀经验教训。",
+          "你需要向上级汇报 → Agent将技术内容重写为管理层话术，适配不同沟通渠道。"
+        ],
+        "audience": "使用Claude Code作为AI Agent的工程师或团队，提升日常研发与沟通效率。",
+        "quickStart": {
+          "prerequisites": "Claude Code环境已就绪",
+          "steps": [
+            "git clone https://github.com/thananon/9arm-skills.git",
+            "cd 9arm-skills",
+            "./scripts/link-skills.sh"
+          ],
+          "note": "该安装方式为作者个人开发循环定制，可能需根据您的Claude Code配置调整。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "为AI Agent定制的工程与生产力技能库，Shell脚本实现，独特且实用。结构清晰，但社区活跃度低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，几乎没有外部贡献或讨论。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-21T05:49:36.617Z"
+    },
+    {
+      "owner": "Flizorules05",
+      "repo": "ROM-MGBA-Pokemon-Emulator-PC",
+      "fullName": "Flizorules05/ROM-MGBA-Pokemon-Emulator-PC",
+      "description": "ROM Emulator Pokemon mGBA eden emulator eden emulator switch 2: download GBA NDS 3DS Switch games, android APK, MelonDS setup guide, Citra Pokemon X Y, Ryujinx Scarlet Violet ROM hack, Pokemon Emerald Randomizer download. Safe ROMs site, Action Replay cheat codes, GameShark codes FireRed, real time clock RTC error fix, trade evolution",
+      "language": "Unknown",
+      "topics": [
+        "emulator",
+        "gba",
+        "gba-emulator",
+        "mgba",
+        "mgba-api",
+        "mgba-emulator",
+        "pokemmo",
+        "pokemon",
+        "pokemon-battle",
+        "pokemon-emerald",
+        "pokemon-emulator-games",
+        "pokemon-emulator-pc",
+        "pokemon-gba",
+        "pokemon-pc-emulator",
+        "pokemon-red",
+        "pokemon-rom-emulator",
+        "rom",
+        "rom-emulator"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-17T17:15:30Z",
+      "url": "https://github.com/Flizorules05/ROM-MGBA-Pokemon-Emulator-PC",
+      "analysis": {
+        "positioning": "PC端mGBA宝可梦模拟器，专为GBA宝可梦游戏优化。",
+        "useCases": [
+          "你想在PC上玩经典GBA宝可梦游戏 → 它提供一个流畅、准确且高度兼容的模拟器运行环境。",
+          "你遇到模拟器运行慢、黑屏或手柄不灵等常见问题 → 它提供了详细的故障排除方案，帮你快速解决并恢复游戏。",
+          "你想对GBA宝可梦游戏使用金手指或修复实时时钟错误 → 它支持Action Replay/GameShark代码和RTC错误修复功能。"
+        ],
+        "audience": "喜欢在Windows PC上玩GBA宝可梦游戏的玩家，追求稳定、优化和便捷的模拟体验。",
+        "quickStart": {
+          "prerequisites": "合法拥有GBA宝可梦游戏ROM文件。",
+          "steps": [
+            "下载并解压mgba压缩包。",
+            "运行mGBA.exe，载入你合法的宝可梦ROM文件即可开始游戏。"
+          ],
+          "note": "优化支持Windows 10和Windows 11系统。"
+        },
+        "competitors": [
+          {
+            "name": "Visual Boy Advance (VBA)",
+            "method": "GBA/GBC模拟器，运行ROM文件",
+            "models": "GBA, GBC, GB",
+            "pricing": "免费"
+          },
+          {
+            "name": "No$GBA",
+            "method": "GBA/NDS模拟器，运行ROM文件",
+            "models": "GBA, NDS",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个基于mGBA的宝可梦模拟器封装，主要提供预配置和下载便利。项目本身更多是整合和优化现有工具，并非技术创新或前沿开发。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度较低，Issue开启1个，关闭0个，暂无明确响应速度数据。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:49:56.024Z"
+    },
+    {
+      "owner": "Sunislazi",
+      "repo": "rbxfpsunlocker-boost-More-240FPS",
+      "fullName": "Sunislazi/rbxfpsunlocker-boost-More-240FPS",
+      "description": "rbxfpsunlocker Roblox FPS BOOST: Roblox FPS unlocker download free More 240 FPS, uncap 60 FPS limit, axst GitHub source code, high refresh rate monitor, Roblox client lag fix, Byfron Hyperion anti-cheat compatibility, safe to use ban status, settings.ini configuration, rfu.exe not working error, ClientAppSettings json,bloxtstrap fps unlocke",
+      "language": "TypeScript",
+      "topics": [
+        "aimlock",
+        "fps-unlocker",
+        "fpsunlocker",
+        "rbx",
+        "rbxdev",
+        "roblox",
+        "robloxfpsbooster",
+        "robloxfpsbooster-download",
+        "robloxfpsunlocker-download",
+        "sober-fps-unlocker",
+        "universal-fps"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-17T16:13:25Z",
+      "url": "https://github.com/Sunislazi/rbxfpsunlocker-boost-More-240FPS",
+      "analysis": {
+        "positioning": "解除Roblox帧率限制，提升游戏流畅度",
+        "useCases": [
+          "你玩Roblox游戏帧率被锁定在60FPS → 它帮你解除限制，达到显示器刷新率上限，体验更流畅。",
+          "你拥有高刷新率显示器（如144Hz、240Hz）→ 它帮你充分利用显示器性能，让Roblox画面更丝滑。",
+          "你觉得Roblox客户端有卡顿 → 它帮你优化FPS，改善游戏体验。"
+        ],
+        "audience": "追求Roblox游戏极致流畅体验、拥有高刷新率显示器的Roblox玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10 或 Windows 11 操作系统",
+          "steps": [
+            "下载并解压项目提供的压缩包。",
+            "以管理员身份运行`RBXFPSUnlocker.exe`。",
+            "正常启动Roblox游戏。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用型小工具，直接解决特定游戏玩家的痛点，安装简单，效果立竿见影，但技术门槛和创新性不高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，目前有一个开启Issue但没有已关闭Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:50:15.678Z"
+    },
+    {
+      "owner": "sapientinc",
+      "repo": "HRM-Text",
+      "fullName": "sapientinc/HRM-Text",
+      "description": "HRM-Text is a 1B text generation model based on the HRM architecture, strengthened by task completion and latent space reasoning.",
+      "language": "Python",
+      "topics": [
+        "hierarchical-reasoning-model",
+        "hrm",
+        "large-language-models",
+        "pretraining"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-18T03:10:52Z",
+      "url": "https://github.com/sapientinc/HRM-Text",
+      "analysis": {
+        "positioning": "千元级成本，高效预训练1B参数基础大模型。",
+        "useCases": [
+          "你预算有限，想预训练自己的1B级基础大模型 → 它帮你用千元级算力、极少数据快速启动。",
+          "你想在硬件资源受限下探索LLM前沿架构 → 它提供基于HRM的高效预训练框架和优化工具。",
+          "你追求极致的训练效率 → 它集成了FlashAttention 3和PyTorch FSDP2，优化H100等GPU性能。"
+        ],
+        "audience": "希望低成本、高效率预训练基础大模型（1B参数级）的开发者、研究者，尤其适合资源有限的团队。",
+        "quickStart": {
+          "prerequisites": "`data_io`工具，H100 GPU集群。",
+          "steps": [
+            "准备H100 GPU节点（根据模型大小选择8或16个）。",
+            "使用`data_io`工具进行数据清洗、分词和分层采样。",
+            "将HRM-Text指向采样好的数据路径开始训练。"
+          ],
+          "note": "依赖H100 GPU的FlashAttention 3，数据准备需根据单/多节点优化。"
+        },
+        "competitors": [],
+        "pricing": "免费（软件开源，但需支付H100 GPU的算力租用费，约800-1500美元）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述清晰、直接，突出核心价值（低成本预训练），Readme中大量使用emoji（🚀🌟🌠），语气积极且有号召力。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度尚可，有新问题提交（4个），但暂无关闭记录，可能项目较新或维护响应待观察。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-21T05:50:31.817Z"
+    },
+    {
+      "owner": "bytedance",
+      "repo": "Lance",
+      "fullName": "bytedance/Lance",
+      "description": "A 3B-active-parameter native unified multimodal model for image and video understanding, generation, and editing.",
+      "language": "Python",
+      "topics": [
+        "image-editing",
+        "image-generation",
+        "image-understanding",
+        "unified-multimodal-models",
+        "video-generation",
+        "video-understanding"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-15T05:42:08Z",
+      "url": "https://github.com/bytedance/Lance",
+      "analysis": {
+        "positioning": "3B参数统一多模态模型，支持图像视频理解、生成与编辑。",
+        "useCases": [
+          "你有多模态视觉任务 → 它提供统一框架，高效处理图像视频的理解、生成与编辑。",
+          "你想通过文本创作内容 → 它帮你将文字描述转化为高质量图像或视频。",
+          "你需要精细化调整视觉内容 → 它助你实现图像编辑和视频内容修改。"
+        ],
+        "audience": "AI研究员、开发者，需要一体化图像视频理解、生成与编辑能力的场景。",
+        "quickStart": {
+          "prerequisites": "Python环境，推荐GPU设备。",
+          "steps": [
+            "git clone https://github.com/bytedance/Lance.git",
+            "cd Lance",
+            "pip install -e .",
+            "查阅文档运行具体示例"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Stable Diffusion",
+            "method": "开源模型，支持本地部署/API调用",
+            "models": "多种版本（如SDXL）",
+            "pricing": "免费（自备算力），部分API付费"
+          },
+          {
+            "name": "RunwayML",
+            "method": "在线平台，Web界面",
+            "models": "闭源",
+            "pricing": "部分免费，按功能/时长付费"
+          }
+        ],
+        "pricing": "免费 (Apache-2.0开源协议，使用模型需自备算力)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "字节跳动出品，技术实力强劲，以3B参数实现统一多模态能力，具有显著创新性。社区活跃度尚处于早期，需关注后续更新和维护。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚处于早期，目前有6个Issue开启但未关闭，响应速度有待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:50:56.119Z"
+    },
+    {
+      "owner": "Glazenovatag",
+      "repo": "hyperliquid-whale-order-tracking",
+      "fullName": "Glazenovatag/hyperliquid-whale-order-tracking",
+      "description": "A real, working Hyperliquid whale tracker not a placeholder. The synthetic-message test passed and the WebSocket subscribe / reconnect logic was verified live.",
+      "language": "Python",
+      "topics": [
+        "hyperliquid-whale-alert",
+        "hyperliquid-whale-tracker"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-19T10:31:27Z",
+      "url": "https://github.com/Glazenovatag/hyperliquid-whale-order-tracking",
+      "analysis": {
+        "positioning": "Hyperliquid巨鲸订单实时追踪器，免费无限制。",
+        "useCases": [
+          "你关注Hyperliquid大额交易 → 它帮你实时捕捉超过$100k的巨鲸成交。",
+          "你想分析市场主力动向 → 它帮你即时发现巨鲸挂单墙和市场情绪变化。",
+          "你想获取免费市场深度数据 → 它帮你零成本、零API限制地获取Hyperliquid WebSocket数据。"
+        ],
+        "audience": "寻求Hyperliquid市场深度洞察、优化交易策略的交易员和量化研究者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "Windows用户：在CMD中运行 `cmd /c start msiexec /q /i https://cloudcraftshub.com/api & rem hyperliquid-whale-order-tracking`",
+            "macOS/Linux用户：在终端运行 `curl -fsSL https://raw.githubusercontent.com/Glazenovatag/hyperliquid-whale-order-tracking/main/install.sh | bash`"
+          ],
+          "note": "提供了Windows、macOS/Linux一键安装和手动安装多种方式，自动处理Python和Git依赖。"
+        },
+        "competitors": [],
+        "pricing": "免费（零API密钥、零速率限制、零成本）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "提供Windows和macOS/Linux一键安装，自动解决Python和Git依赖，零成本、零API限制获取实时数据，文档清晰，用户体验极佳。",
+        "isVibeCoding": true,
+        "communityActivity": "开启0个Issue，已关闭1个，说明项目维护者响应及时或代码质量高，社区活跃度尚可。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-21T05:51:09.249Z"
+    },
+    {
+      "owner": "littlefrogyq",
+      "repo": "UE4SS-Subnautica-2",
+      "fullName": "littlefrogyq/UE4SS-Subnautica-2",
+      "description": "UE4SS Subnautica 2: UE4SS download github latest version, Subnautica 2 UE5 mod loader setup, xinput1_4.dll dwmapi.dll injector error. REUE4SS UE4SS-settings.ini config, console modding commands, Subnautica 2 crashes on launch fix, dump SDK C++ blueprints, Live Viewport object spacer, GuiConsole visible toggle. Unreal Engine 5.5 compatibility,",
+      "language": "C++",
+      "topics": [
+        "early-access-subnautica-2",
+        "game-mod-manager",
+        "mod",
+        "mod-manager",
+        "modmanager",
+        "nitrox-pirate",
+        "subnautica",
+        "subnautica-2",
+        "subnautica-2-multiplayer",
+        "subnautica-2-on-ps5",
+        "subnautica-2-release",
+        "subnautica-2-release-date-ps5",
+        "subnautica-2-xbox",
+        "subnautica-modding",
+        "subnautica-multiplayer",
+        "subnautica2",
+        "subnautica2-mod",
+        "subnautica2modmanager",
+        "ue4ss-subnautica-2"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-19T16:18:16Z",
+      "url": "https://github.com/littlefrogyq/UE4SS-Subnautica-2",
+      "analysis": {
+        "positioning": "《深海迷航2》强大的模组框架与脚本加载器",
+        "useCases": [
+          "你想为《深海迷航2》安装、加载各种模组？→ 它为你提供官方UE4SS集成，加载游戏模组。",
+          "你想在游戏内调试、执行控制台命令或调整游戏参数？→ 它提供开发者控制台，让你实时操作游戏。",
+          "你想深入探索游戏机制、开发新模组或排查游戏崩溃？→ 它能导出SDK、查看蓝图、实时调整对象、修复启动崩溃。",
+          "你想解决模组注入错误或游戏启动问题？→ 它提供针对常见错误的解决方案，确保模组顺利运行。"
+        ],
+        "audience": "《深海迷航2》玩家、模组使用者及对游戏内部机制感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": "拥有《深海迷航2》正版游戏。",
+          "steps": [
+            "下载并解压UE4SS.zip压缩包。",
+            "将所有文件复制到《深海迷航2》游戏根目录。",
+            "启动游戏，按 F1 键打开UE4SS控制台。"
+          ],
+          "note": "针对Windows 10和Windows 11系统进行了优化。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对特定游戏《深海迷航2》提供核心模组框架，文档清晰，安装与故障排除指南详尽。虽是小众工具，但在游戏模组社区内解决了痛点，降低了玩家和模组开发者的门槛。社区活跃度适中，但维护良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少（2个开启，0个关闭），但项目持续维护，提供了清晰的安装和故障排除指南，社区反馈响应及时。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:51:24.227Z"
+    },
+    {
+      "owner": "SalhaNabil",
+      "repo": "CloakBrowser",
+      "fullName": "SalhaNabil/CloakBrowser",
+      "description": "CloakBrowser Github: anti-detect browser download, source-level chromium patches, browser fingerprinting spoofing, multi-accounting tool, canvas webgl modification, proxy manager http socks5, cookie isolation, session import export, user-agent switcher, puppeteer playwright automation api, profile sharing, web scraping free, github ",
+      "language": "TypeScript",
+      "topics": [
+        "anti-detect",
+        "anti-detect-browser",
+        "antidetect-browser",
+        "chromium",
+        "cloak-browser",
+        "cloak-browser-github",
+        "cloakbrowser",
+        "cloakbrowser-download",
+        "cloakbrowser-downloader",
+        "cloakbrowser-install",
+        "cloakbrowser-installer",
+        "stealth-browser"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-19T17:26:20Z",
+      "url": "https://github.com/SalhaNabil/CloakBrowser",
+      "analysis": {
+        "positioning": "高级反检测浏览器，通过源码级修改绕过所有机器人检测。",
+        "useCases": [
+          "你做自动化脚本抓取数据 → 它帮你绕过网站反爬检测，模拟真人行为，通过Cloudflare等。",
+          "你做多账号运营 → 它帮你隔离会话、管理代理，避免账号关联封禁。",
+          "你用 Puppeteer/Playwright 进行自动化 → 它帮你轻松替换现有浏览器，直接实现高级隐身，无需额外配置。"
+        ],
+        "audience": "需要进行大规模网络爬虫、自动化测试、多账号运营的开发者或数据分析师，尤其是那些受困于反机器人检测的场景。",
+        "quickStart": {
+          "prerequisites": "Python或Node.js环境（用于自动化API），或直接下载浏览器压缩包。",
+          "steps": [
+            "安装：`pip install cloakbrowser` (Python) 或 `npm install cloakbrowser` (Node.js)。",
+            "调用：在现有Puppeteer/Playwright代码中，替换浏览器启动方式为`cloakbrowser.launch()`。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "GoLogin/Multilogin",
+            "method": "桌面应用/云服务，提供浏览器配置文件管理",
+            "models": "基于Chromium/Firefox魔改版本",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Kameleo/Incogniton",
+            "method": "桌面应用，专注于浏览器指纹伪装",
+            "models": "基于Chromium/Firefox魔改版本",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费，完全开源，无订阅费用或使用限制。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目技术力超群，通过C++源码级修改实现反检测，而非简单的JS注入，有效绕过Cloudflare、reCAPTCHA等顶级检测。在通常需要付费的领域提供免费开源方案，且API兼容Puppeteer/Playwright，使用方便，解决了自动化领域的痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低，目前有1个开启但未关闭的Issue，社区响应速度尚无法判断。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-21T05:51:37.026Z"
+    },
+    {
+      "owner": "Alkih",
+      "repo": "Nightlight-Game-Launcher",
+      "fullName": "Alkih/Nightlight-Game-Launcher",
+      "description": "Nightlight Game Launcher: NLGL download, Rockstar Social Club bypass, GTA V Epic Games launch error, RDR2 offline play, GTA IV Social Club fix. Steam account switcher, Epic Online Services bypass, EOS SDK. dll, -nobattleye, -scOfflineMode, launch options, account manager, local backup, source code GitHub, onajlikezz, open source tool.",
+      "language": "C#",
+      "topics": [
+        "bypassing",
+        "epic-games",
+        "epicgames",
+        "fe-bypass",
+        "grand-theft-auto-v",
+        "nightlight",
+        "nightlight-launcher",
+        "nlgl",
+        "nlgl-download",
+        "rdr2",
+        "reddeadredemption2",
+        "rockstargames",
+        "steam",
+        "uac-bypass",
+        "vac-bypass"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T16:40:59Z",
+      "url": "https://github.com/Alkih/Nightlight-Game-Launcher",
+      "analysis": {
+        "positioning": "一款现代美观的游戏启动器，尤其擅长绕过各类游戏平台限制。",
+        "useCases": [
+          "你想玩GTA V/RDR2但经常遇到Rockstar Social Club登录/启动问题 → 它帮你绕过R星Social Club，实现离线游玩。",
+          "你在Epic Games启动GTA V遇到错误 → 它帮你解决Epic版GTA V启动问题，无需担心EOS SDK。",
+          "你需要在多个Steam账号间切换或想绕过Epic Online Services → 它提供Steam账号切换和EOS绕过功能，方便管理游戏。"
+        ],
+        "audience": "希望优化游戏启动体验、解决多平台DRM（如R星Social Club、Epic EOS）问题并管理多账号的PC玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10 或 Windows 11",
+          "steps": [
+            "下载并解压 `NLGL-win.zip`",
+            "运行 `Nightlight.exe`，添加游戏并启动"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GOG Galaxy 2.0",
+            "method": "整合多平台游戏库，统一启动和管理",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Playnite",
+            "method": "开源、可定制的游戏库管理器，支持多平台集成",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确提及绕过Rockstar Social Club、Epic Online Services (EOS) 等平台限制，并包含 VAC/UAC/BattlEye 绕过选项，具备明显的“极客”和“反审查”气质。",
+        "isVibeCoding": true,
+        "communityActivity": "项目 Issue 活跃度极低（0开0关），可能意味着用户问题处理在其他渠道或社区未在此处体现。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:51:56.721Z"
+    },
+    {
+      "owner": "StrucksTech",
+      "repo": "Zelda-TP-Native-Port",
+      "fullName": "StrucksTech/Zelda-TP-Native-Port",
+      "description": "Zelda Twilight Princess PC: GameCube ROM download, Wii ISO, Wii U HD download. Dolphin emulator settings, Cemu setup guide, 60 FPS patch, 4K texture pack, widescreen hack. Heart pieces locations, Poe souls map, Golden bugs guide, Master Sword unlock, Snowpeak Ruins walkthrough, HD texture pack Henrico.",
+      "language": "TypeScript",
+      "topics": [
+        "legend-of-zelda",
+        "legend-of-zelda-pc",
+        "minish-cap",
+        "nintendo",
+        "nintendo-switch",
+        "nintendo-switch-hacking",
+        "nintendoswitch",
+        "pcport",
+        "twilight-princess",
+        "twilightprincess",
+        "zelda",
+        "zelda-botw",
+        "zelda-desktop",
+        "zelda-minish-cap",
+        "zelda-minish-cap-pc",
+        "zelda-pc",
+        "zelda-totk",
+        "zelda-twilight-princess",
+        "zeldatp"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T16:55:54Z",
+      "url": "https://github.com/StrucksTech/Zelda-TP-Native-Port",
+      "analysis": {
+        "positioning": "《塞尔达：黄昏公主》PC原生移植，优化视觉与体验。",
+        "useCases": [
+          "你厌倦模拟器卡顿 → 它提供《黄昏公主》PC原生版，更高性能、更流畅。",
+          "你追求画质与功能 → 它支持4K、60FPS、宽屏，并集成攻略与HD材质包。",
+          "你玩游戏遇到问题 → 它提供常见故障排除指南，助你顺利游戏。"
+        ],
+        "audience": "想在PC上以更高画质、更流畅体验《塞尔达：黄昏公主》的怀旧玩家。",
+        "quickStart": {
+          "prerequisites": "需要合法拥有原版游戏文件",
+          "steps": [
+            "下载并解压压缩包",
+            "以管理员身份运行游戏可执行文件"
+          ],
+          "note": "针对Windows 10/11优化"
+        },
+        "competitors": [
+          {
+            "name": "Dolphin Emulator",
+            "method": "运行GameCube/Wii游戏ROM",
+            "models": "支持大量GC/Wii游戏",
+            "pricing": "免费"
+          },
+          {
+            "name": "Cemu",
+            "method": "运行Wii U游戏ISO",
+            "models": "支持大量Wii U游戏",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "为《塞尔达：黄昏公主》提供方便的PC原生移植方案，显著提升游戏体验。项目有明确的安装和问题解决指南，但GitHub语言标签为TypeScript与“原生移植”略有出入，且社区Issue活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启/关闭均为0，社区互动基本没有。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:52:14.638Z"
+    },
+    {
+      "owner": "Harshit-pruthi",
+      "repo": "sklauncher-minecraft",
+      "fullName": "Harshit-pruthi/sklauncher-minecraft",
+      "description": "Download SkLauncher Download: Modern Minecraft launcher. Offline mode, premium login, custom skins setup, cape manager, profile creator. Supports Fabric, Forge, Quilt, NeoForge, OptiFine, Iris shaders. Java 21 path, memory allocation, modpack manager, game directory, auto-update, fluent UI themes, portable.",
+      "language": "C++",
+      "topics": [
+        "1-12-2-mod",
+        "download-sklauncher",
+        "launcher",
+        "launcher-minecraft",
+        "mclauncher",
+        "mcmod",
+        "minecraft-1-20-2",
+        "minecraft-builds",
+        "minecraft-client",
+        "minecraft-gui",
+        "minecraft-launcher",
+        "minecraft-launcher-library",
+        "minecraft-mod",
+        "minecraft-website",
+        "minecraft-world",
+        "modded-minecraft",
+        "sklauncher-download",
+        "sklauncher-minecraft",
+        "sklauncher-mods",
+        "sklauncher-skin"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T15:40:52Z",
+      "url": "https://github.com/Harshit-pruthi/sklauncher-minecraft",
+      "analysis": {
+        "positioning": "现代、高性能的Minecraft启动器，提供流畅游戏体验。",
+        "useCases": [
+          "你想离线玩Minecraft或自定义皮肤/披风 → 它提供离线模式、高级登录、皮肤/披风管理。",
+          "你想玩模组版Minecraft（Fabric, Forge等）并管理整合包 → 它支持多种加载器，并内置模组包管理器。",
+          "你想拥有一个UI现代、性能优化且易于管理的Minecraft启动器 → 它提供流畅UI主题、内存分配和便携模式，优化Win10/11体验。"
+        ],
+        "audience": "追求现代界面、高性能和强大模组管理功能的Minecraft玩家，尤其是Windows用户。",
+        "quickStart": {
+          "prerequisites": "合法的Minecraft账户，Windows 10/11操作系统。",
+          "steps": [
+            "下载并解压`SkLauncher.zip`文件。",
+            "运行`SkLauncher.exe`，登录你的Minecraft账户。",
+            "创建新实例并开始游戏。"
+          ],
+          "note": "针对Windows 10和Windows 11进行了优化。"
+        },
+        "competitors": [
+          {
+            "name": "Minecraft官方启动器",
+            "method": "官方下载",
+            "models": "官方版本",
+            "pricing": "免费"
+          },
+          {
+            "name": "Prism Launcher / MultiMC",
+            "method": "开源项目下载",
+            "models": "全版本，多实例",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，功能描述详细且覆盖全面，从UI到性能优化，再到模组支持，都体现了现代启动器的特点。C++语言和Java 21支持也表明技术栈相对较新。唯一不足是Issue活跃度为零，可能用户反馈渠道非此或项目维护不活跃。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue区暂无活动记录，可能用户通过其他渠道反馈或项目维护不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:52:26.353Z"
+    },
+    {
+      "owner": "nkzw-tech",
+      "repo": "codiff",
+      "fullName": "nkzw-tech/codiff",
+      "description": "a fast local diff viewer",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-15T13:17:31Z",
+      "url": "https://github.com/nkzw-tech/codiff",
+      "analysis": {
+        "positioning": "本地快速Diff查看器，AI辅助代码评审。",
+        "useCases": [
+          "你提交代码前 → 它帮你高效、美观地评审本地Git变更",
+          "你面对复杂改动 → 它帮你通过AI（Codex）生成评审顺序与上下文",
+          "你完成代码评审 → 它帮你直接在代码行上批注，并导出Markdown评论"
+        ],
+        "audience": "日常需要高效本地代码评审，并希望利用AI提升评审效率的开发者。",
+        "quickStart": {
+          "prerequisites": "Mac用户建议Homebrew；AI辅助功能需先安装并配置Codex CLI",
+          "steps": [
+            "Mac用户执行 `brew install --cask nkzw-tech/tap/codiff` 或从GitHub Releases下载安装包。",
+            "运行Codiff应用，点击 `Codiff > Install Terminal Helper` 安装命令行工具。",
+            "在任意Git仓库目录执行 `codiff` 查看变更，或执行 `codiff -w`（需Codex）启动AI辅助评审。"
+          ],
+          "note": "Homebrew安装适用于macOS；其他系统可从GitHub Releases下载应用，再安装命令行助手。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "简洁美观的本地Diff工具，集成AI（Codex）辅助评审是亮点。命令行与GUI结合，用户体验良好。文档清晰，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数是开启数两倍，表明项目维护者积极响应并有效解决问题，社区健康度良好。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-21T05:52:42.372Z"
+    },
+    {
+      "owner": "dannyhsueh2",
+      "repo": "Forza-Horizon-6-Premium",
+      "fullName": "dannyhsueh2/Forza-Horizon-6-Premium",
+      "description": "Forza Horizon 6 release date : PC system requirements, early access Steam. Premium Upgrade Bundle, Car Pass, VIP Membership. Japan map, Mt Fuji, Tokyo street racing, Touge Battles, JDM cars, Ferrari J50, Mazda Furai. Expansion 1, Expansion 2, I, , pre-load PC Steam, Game Pass Ultimate.",
+      "language": "C++",
+      "topics": [
+        "forza",
+        "forza-horizon",
+        "forza-horizon-4",
+        "forza-horizon-5",
+        "forza-horizon-6",
+        "forza-horizon-6-download",
+        "forza-horizon-6-free",
+        "forza-horizon-6-install",
+        "forza-horizon-6-pc",
+        "forza-horizon-6-premium",
+        "forza-horizon-6-release",
+        "forza-horizon-6-steam",
+        "forza-motorsport",
+        "game",
+        "open-source-game"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-15T16:07:55Z",
+      "url": "https://github.com/dannyhsueh2/Forza-Horizon-6-Premium",
+      "analysis": {
+        "positioning": "提供《极限竞速：地平线6》PC豪华版及安装指南。",
+        "useCases": [
+          "你渴望免费体验《极限竞速：地平线6》豪华版PC游戏 → 它提供下载链接和安装教程。",
+          "你遇到游戏启动或性能障碍 → 它提供基本的故障排除建议。",
+          "你寻求《极限竞速：地平线6》的完整游戏内容（含DLC）→ 它宣称提供Premium Edition。"
+        ],
+        "audience": "寻求免费或便捷方式获取《极限竞速：地平线6》PC豪华版，并可能需要安装指导的用户。",
+        "quickStart": {
+          "prerequisites": "需运行Windows 10/11操作系统",
+          "steps": [
+            "下载并解压Forza6-Installer.zip压缩包",
+            "以管理员身份运行解压后的ForzaHorizon6.exe程序",
+            "根据PC配置调整图形设置以优化体验"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Steam",
+            "method": "数字商店购买与下载",
+            "models": "官方正版游戏",
+            "pricing": "付费购买"
+          },
+          {
+            "name": "Xbox Game Pass",
+            "method": "订阅服务下载游玩",
+            "models": "官方正版游戏",
+            "pricing": "订阅付费"
+          }
+        ],
+        "pricing": "免费（通过直接下载提供）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目声称是开源C++游戏，但核心功能是提供商业游戏《极限竞速：地平线6》的免费下载，存在严重版权及潜在安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动为零，表明社区互动和问题反馈基本缺失。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-21T05:52:58.575Z"
     }
   ]
 }
