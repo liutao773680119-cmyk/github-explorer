@@ -1,0 +1,89 @@
+{
+  "version": "1",
+  "date": "2026-05-22",
+  "startedAt": "2026-05-22T05:42:29.794Z",
+  "finishedAt": "2026-05-22T05:46:28.289Z",
+  "durationSeconds": 238,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 8,
+    "skipped": 97,
+    "geminiCalls": 16,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-05-22T05:44:55.423Z",
+      "level": "warn",
+      "project": "basketikun/infinite-canvas",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-22T05:44:58.952Z",
+      "level": "warn",
+      "project": "MediatorSpeak/dota2-gameplay-tools",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-22T05:45:02.499Z",
+      "level": "warn",
+      "project": "WUBING2023/PaperSpine",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-22T05:45:06.098Z",
+      "level": "warn",
+      "project": "lynote-ai/humanize-text",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-22T05:45:09.708Z",
+      "level": "warn",
+      "project": "Klotzkette/claude-fuer-deutsches-recht",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-22T05:45:13.446Z",
+      "level": "warn",
+      "project": "seochecks-ai/slopless",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-22T05:45:16.929Z",
+      "level": "warn",
+      "project": "internetkafe/vpnhostinglist",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-22T05:45:47.569Z",
+      "level": "warn",
+      "project": "Imbad0202/academic-research-skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

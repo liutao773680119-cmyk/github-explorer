@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-21T05:52:58.586Z",
+  "updatedAt": "2026-05-22T05:44:51.818Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -34366,6 +34366,406 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-21T05:52:58.575Z"
+    },
+    {
+      "owner": "amoslee2026",
+      "repo": "Babel",
+      "fullName": "amoslee2026/Babel",
+      "description": "AI-native Chiplet design flow based on open-source EDA toolchain",
+      "language": "SystemVerilog",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-05-22T02:04:52Z",
+      "url": "https://github.com/amoslee2026/Babel",
+      "analysis": {
+        "positioning": "基于AI Agent和开源EDA的Chiplet智能设计流。",
+        "useCases": [
+          "你描述AI芯片需求 → 它帮你自动完成从架构到GDSII的全流程设计。",
+          "你寻求RTL代码生成和校验 → 它帮你用AI Agent自动生成高质量SystemVerilog代码。",
+          "你进行复杂芯片验证或物理设计 → 它帮你用AI Agent实现100%覆盖率验证或自动化布局布线。"
+        ],
+        "audience": "专注于AI芯片设计、追求效率和自动化的硬件工程师、EDA工具开发者及AI芯片研究人员。",
+        "quickStart": {
+          "prerequisites": "具备Claude Code环境或兼容的AI Agent平台。",
+          "steps": [
+            "在AI Agent平台（如Claude Code）中，通过`/bba-architect`指令描述你的芯片设计需求。",
+            "等待AI Agent驱动的五阶段流水线自动执行设计、验证、综合和物理设计。"
+          ],
+          "note": "该流程依赖特定的AI Agent平台进行交互和指令触发。"
+        },
+        "competitors": [
+          {
+            "name": "暂无直接竞品",
+            "method": "该项目结合AI Agent与开源EDA工具链，构建AI原生Chiplet设计流程，尚无直接对标的开源或商业产品。",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费（基于GPL-3.0开源许可）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将AI Agent与开源EDA工具链深度结合，构建全自动的AI原生Chiplet设计流程，是硬件设计领域的创新探索，极具前瞻性和实验性，旨在颠覆传统芯片设计模式。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常早期，Issue数量为零，活跃度较低，社区互动尚待发展。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-22T05:42:43.018Z"
+    },
+    {
+      "owner": "datawhalechina",
+      "repo": "Agent-Learning-Hub",
+      "fullName": "datawhalechina/Agent-Learning-Hub",
+      "description": "AI Agent 学习路线与资料库收集",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-17T06:41:12Z",
+      "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
+      "analysis": {
+        "positioning": "AI Agent系统学习路线图与精选资源库",
+        "useCases": [
+          "你是AI Agent新手 → 它为你提供从概念到实践的分阶段学习To-Do列表，避免盲目收集资料",
+          "你是LLM应用开发者，想深入Agent工程 → 它帮你重点补齐Agent loop、工具调用、评测和工程化能力",
+          "你想基于Agent做实际项目 → 它提供不同难度级别的项目阶梯，助你构建可运行的作品"
+        ],
+        "audience": "所有对AI Agent感兴趣的学习者和开发者，尤其是希望系统性、实用地构建可靠Agent，而非停留在理论或碎片化信息的人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开GitHub仓库的README文件，找到「How To Use」部分",
+            "根据你的学习背景（新手/LLM应用开发者/想做项目/仅找资料），选择相应的学习路径",
+            "按照「Learning Todo List」或「Project Ladder」的指引，一步步完成学习和实践任务"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "CrewAI",
+            "method": "通过定义角色和任务，快速编排多Agent工作流",
+            "models": "支持各种主流LLM（如OpenAI, Anthropic, Gemini等）",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "AutoGen",
+            "method": "微软开源的多Agent会话框架，支持自定义Agent协作解决复杂任务",
+            "models": "支持各种主流LLM（如OpenAI, Azure OpenAI）",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目内容高度结构化、实用性极强，明确指出学习重点和避免的误区。不仅提供清晰的ToDo列表和项目实践路径，还强调了当前Agent领域值得投入的方向，对开发者学习和构建实际Agent工程非常有指导意义。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低（0开启/1关闭），可能说明内容成熟稳定，更新主要通过Maintainer直接维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-22T05:43:02.220Z"
+    },
+    {
+      "owner": "kageroumado",
+      "repo": "phosphene",
+      "fullName": "kageroumado/phosphene",
+      "description": "A video wallpaper engine for macOS Tahoe",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-20T23:33:59Z",
+      "url": "https://github.com/kageroumado/phosphene",
+      "analysis": {
+        "positioning": "macOS Tahoe 视频壁纸引擎，深度集成系统原生壁纸功能。",
+        "useCases": [
+          "你厌倦了静态桌面背景，想用动感视频 → Phosphene 帮你将自选 MP4/MOV 视频设为 macOS 桌面与锁屏壁纸，无缝融入系统设置。",
+          "你有多显示器或多空间，希望壁纸个性化 → Phosphene 帮你实现每个显示器或空间独立设置视频壁纸，并由 macOS 持久化管理。",
+          "你担心视频壁纸耗电影响性能 → Phosphene 帮你智能感知系统状态（电源、温度、游戏模式），动态调整播放策略，确保流畅节能。"
+        ],
+        "audience": "macOS Tahoe 用户，希望将自定义视频作为桌面/锁屏壁纸，并追求原生体验、高效能及多显示器支持。",
+        "quickStart": {
+          "prerequisites": "macOS Tahoe (26.0+), Apple Silicon 设备, Xcode 17+ (构建时需要)。",
+          "steps": [
+            "git clone https://github.com/kageroumado/phosphene.git && cd phosphene",
+            "在 Xcode 17+ 中打开 Phosphene.xcodeproj，选择 Phosphene scheme 并运行。"
+          ],
+          "note": "需要配置开发团队进行代码签名。项目依赖 Apple 私有框架，仅支持 macOS Tahoe (26.0+) 和 Apple Silicon 设备。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT 许可证，开源项目)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "优点是深度集成系统原生壁纸功能，提供多屏、智能节能、无缝循环等高级特性。缺点是高度依赖 macOS Tahoe 和 Apple 私有框架 WallpaperExtensionKit，可能在未来 OS 更新中面临兼容性风险；且仅支持 Apple Silicon 设备。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 9 / 已关闭 0，表明有活跃的问题报告，但解决方案或关闭速度有待提升。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-22T05:43:24.723Z"
+    },
+    {
+      "owner": "uktrash",
+      "repo": "LSFG-Desktop",
+      "fullName": "uktrash/LSFG-Desktop",
+      "description": "Lossless Scaling github steam reddit LSFG 3 frame generation  v3.22, uncap FPS low end PC, AMD FSR NIS scaling, cursor lag fix. Double FPS laptop guide, windowed to borderless fullscreen, ghosting artifact solution, capture API DXGI GDI, half refresh rate VSync. anime4k ,  version , latency reduction, lsfg",
+      "language": "C#",
+      "topics": [
+        "crimson-desert-lsfg",
+        "frame-generation",
+        "gaming-performance",
+        "lossless-frame-generation",
+        "lossless-scaling",
+        "lossless-scaling-2026",
+        "lossless-scaling-android",
+        "lossless-scaling-download",
+        "lossless-scaling-github",
+        "lossless-scaling-lsfg",
+        "lossless-scaling-pc",
+        "lossless-scaling-reddit",
+        "lossless-scaling-software",
+        "lossless-scaling-steam",
+        "lossless-scaling-v3",
+        "lsfg",
+        "lsfg-ai-upscaling",
+        "lsfg-vk",
+        "optiscaler",
+        "smooth-gaming"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-20T12:51:00Z",
+      "url": "https://github.com/uktrash/LSFG-Desktop",
+      "analysis": {
+        "positioning": "优化游戏画质与帧率的无损放大和插帧工具。",
+        "useCases": [
+          "你想在低配电脑上流畅玩游戏 → 它帮你解除帧率限制，通过AI插帧提高FPS。",
+          "你觉得游戏画面不够清晰 → 它帮你通过FSR/NIS/anime4k等算法无损放大，提升视觉锐度。",
+          "你遇到游戏鼠标延迟或画面残影 → 它帮你减少输入延迟并解决画面伪影。",
+          "你想让窗口模式游戏实现无边框全屏 → 它帮你将窗口游戏扩展为无边框全屏。"
+        ],
+        "audience": "追求更高游戏帧率和清晰画质的PC玩家，尤其适用于低配置或老旧硬件的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统。",
+          "steps": [
+            "下载并解压压缩包。",
+            "以管理员身份运行 `LosslessScaling.exe`。",
+            "将游戏设置为无边框窗口模式，然后启用所需的缩放和LSFG功能。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Lossless Scaling (Steam版)",
+            "method": "购买并在Steam平台运行的桌面应用",
+            "models": "LSFG、FSR、NIS等多种缩放和插帧算法",
+            "pricing": "付费"
+          },
+          {
+            "name": "AMD Fluid Motion Frames (AFMF) / NVIDIA DLSS 3 Frame Generation",
+            "method": "GPU驱动级功能或游戏内置",
+            "models": "AFMF (AMD), DLSS 3 (NVIDIA)",
+            "pricing": "免费（需兼容硬件）"
+          }
+        ],
+        "pricing": "免费（MIT许可证开源）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能实用且文档清晰，但Issue活跃度极低（无已关闭Issue），社区互动和长期维护情况有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，目前所有Issue均处于开启状态，无已关闭Issue记录，表明社区互动或维护响应较少。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-22T05:43:49.927Z"
+    },
+    {
+      "owner": "evilsocket",
+      "repo": "audit",
+      "fullName": "evilsocket/audit",
+      "description": "An 8-stage vulnerability-discovery agent.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-18T20:42:44Z",
+      "url": "https://github.com/evilsocket/audit",
+      "analysis": {
+        "positioning": "基于Claude Pro/Max的多阶段漏洞发现Agent。",
+        "useCases": [
+          "你做安全审计 → 它帮你通过8阶段Agent协作，发现真实代码漏洞并生成报告。",
+          "你研究LLM在安全领域的应用 → 它帮你提供一个可运行的、基于Cloudflare Glasswing架构的实践案例。",
+          "你需要自动化安全测试 → 它帮你实现从代码映射、漏洞狩猎到可达性验证的端到端流程。"
+        ],
+        "audience": "安全研究员、渗透测试工程师、企业安全团队，旨在自动化和深化代码漏洞挖掘。",
+        "quickStart": {
+          "prerequisites": "Python环境, Claude Pro/Max订阅",
+          "steps": [
+            "安装：`pip install -e .`",
+            "认证：确保已通过`claude login`登录或设置`CLAUDE_CODE_OAUTH_TOKEN`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费，要求用户拥有Claude Pro/Max订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "严格遵循Cloudflare Glasswing的8阶段设计，采用多Agent、对抗验证、可达性分析等创新理念，架构清晰，旨在实现高效低误报的漏洞发现。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚处于早期，Issue开启1/关闭0，社区活跃度较低，有待发展。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-22T05:44:02.370Z"
+    },
+    {
+      "owner": "LiuMengxuan04",
+      "repo": "shushu-internship-tool",
+      "fullName": "LiuMengxuan04/shushu-internship-tool",
+      "description": "把岗位描述变项目，把项目变简历，把简历变面试。",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "skills"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-17T11:25:47Z",
+      "url": "https://github.com/LiuMengxuan04/shushu-internship-tool",
+      "analysis": {
+        "positioning": "AI驱动的实习项目准备工具，打通JD→项目→简历→面试全链路。",
+        "useCases": [
+          "你想找实习项目 → 它根据JD智能推荐并排序最匹配的GitHub项目。",
+          "你拿到一个项目代码 → 它帮你快速审计代码结构、依赖和数据流。",
+          "你准备实习面试 → 它为你生成STAR简历、核心代码讲解、面试Q&A和PPT提示词。"
+        ],
+        "audience": "计算机专业0/低经验实习生，快速将招聘JD转化为可面试的实战项目和简历。",
+        "quickStart": {
+          "prerequisites": "Python 3环境",
+          "steps": [
+            "克隆仓库并进入目录：`git clone ... && cd shushu-internship-tool`",
+            "创建并激活Python虚拟环境，安装依赖：`python3 -m venv .venv && . .venv/bin/activate && python -m pip install -e \".[dev]\"`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "鼠鼠实习简历优化器",
+            "method": "整理已有项目代码和业务背景，生成简历成果和面试复盘。",
+            "models": "AI驱动",
+            "pricing": "免费"
+          },
+          {
+            "name": "ProjectProof",
+            "method": "审核现有实习/AI项目，补强证据化和面试追问材料。",
+            "models": "AI驱动",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源工具）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "CLI工具，安装运行流程标准，功能模块化，但缺乏交互式UI，用户体验依赖AI助手的集成。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数较多（400+），但Issue活跃度为0，可能用户主要在QQ群交流。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-22T05:44:22.064Z"
+    },
+    {
+      "owner": "CylinderChairman",
+      "repo": "aida64",
+      "fullName": "CylinderChairman/aida64",
+      "description": "aida64 unlocker extreme edition",
+      "language": "PowerShell",
+      "topics": [
+        "aida64",
+        "aida64-extreme-patch",
+        "aida64-unlocker"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-20T10:52:40Z",
+      "url": "https://github.com/CylinderChairman/aida64",
+      "analysis": {
+        "positioning": "AIDA64性能解锁工具，释放PC硬件极限潜力。",
+        "useCases": [
+          "你想极致压榨硬件性能 → 它助AIDA64深入挖掘系统潜力。",
+          "你需要专业级硬件测试报告 → 它帮你获取更详尽的诊断数据。",
+          "你追求硬件跑分和超频优化 → 它提供更精准的AIDA64性能评估。"
+        ],
+        "audience": "AIDA64 Extreme版用户、PC硬件发烧友、超频玩家。",
+        "quickStart": {
+          "prerequisites": "需已安装AIDA64 Extreme，且拥有有效许可或试用版。",
+          "steps": [
+            "以管理员身份打开CMD",
+            "复制并运行提供的PowerShell命令"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（本工具），但需AIDA64 Extreme付费许可或试用版。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "合法增强AIDA64功能，非破解，但用户群体小众，且社区活跃度低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低（1开0关），可能因项目简单或社区参与度不高。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-22T05:44:38.862Z"
+    },
+    {
+      "owner": "ZettPW",
+      "repo": "KMSTools",
+      "fullName": "ZettPW/KMSTools",
+      "description": "windows tool, office 2026 perpetual license command, net download, digital entitlement permanent custom host ",
+      "language": "C#",
+      "topics": [
+        "activator",
+        "kms",
+        "kms-activation-github",
+        "kms-client",
+        "kms-host-server",
+        "kms-office",
+        "kms-script",
+        "kms-server",
+        "kms-studio-dev",
+        "kmsauto-",
+        "kmsauto-net-2026",
+        "kmsauto-portable-official",
+        "kmspico-2027",
+        "kmspico-portable-2026",
+        "kmspico-update",
+        "permanent-windows-activator-2026",
+        "windows-11-activator-kmsauto",
+        "windows-activaton",
+        "windows-activator-free"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-20T16:09:42Z",
+      "url": "https://github.com/ZettPW/KMSTools",
+      "analysis": {
+        "positioning": "Windows和Office的KMS激活工具集，支持永久数字权利。",
+        "useCases": [
+          "你安装了未激活的Windows → 它帮你通过KMS激活系统，获得完整功能。",
+          "你安装了未激活的Microsoft Office → 它帮你通过KMS激活Office套件，解锁所有功能。",
+          "你需要部署或测试多台机器的Windows/Office激活 → 它提供自动化和统一管理能力，提高效率。"
+        ],
+        "audience": "需要激活Windows和Office的用户；系统管理员用于非生产环境的KMS激活测试。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，管理员权限。",
+          "steps": [
+            "下载并解压`KMSAuto.zip` (密码可能为`2026`)。",
+            "以管理员身份运行`KMSTools.exe`。",
+            "从菜单中选择要激活的产品（Windows或Office），等待激活成功。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "KMSAuto系列",
+            "method": "KMS激活",
+            "models": "Windows, Office",
+            "pricing": "免费"
+          },
+          {
+            "name": "KMSPico系列",
+            "method": "KMS激活",
+            "models": "Windows, Office",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "该项目旨在通过KMS技术激活Windows和Office，尽管声明用于教育目的，但其实际用途多为获取未经授权的软件使用权，涉及盗版或灰色地带。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，基本无Issue互动和贡献。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-22T05:44:51.803Z"
     }
   ]
 }
