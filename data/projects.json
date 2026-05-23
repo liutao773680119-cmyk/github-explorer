@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-22T05:44:51.818Z",
+  "updatedAt": "2026-05-23T05:11:16.510Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -34766,6 +34766,632 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-22T05:44:51.803Z"
+    },
+    {
+      "owner": "gokulgml",
+      "repo": "polymarket-copy-trading-bot",
+      "fullName": "gokulgml/polymarket-copy-trading-bot",
+      "description": "polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,",
+      "language": "TypeScript",
+      "topics": [
+        "bot",
+        "copy-trade",
+        "copytrade",
+        "polymarket",
+        "polymarket-trade",
+        "polymarket-trading-bot",
+        "trading"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-23T00:20:16Z",
+      "url": "https://github.com/gokulgml/polymarket-copy-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket跟单交易机器人，自动复制指定用户交易。",
+        "useCases": [
+          "你想跟上Polymarket顶尖交易员操作 → 它帮你实时监控并复制其交易。",
+          "你手动跟单Polymarket耗时费力 → 它帮你自动化跟单，省时省力。",
+          "你希望在Polymarket降低跟单风险 → 它提供倍数与最大持仓限制，控制风险。"
+        ],
+        "audience": "希望自动化Polymarket跟单交易，或降低手动操作风险的用户。",
+        "quickStart": {
+          "prerequisites": "Git, Node.js v20+, npm, 已充值的Polymarket账户, Polymarket账户EOA私钥和Funder地址。",
+          "steps": [
+            "克隆仓库",
+            "安装依赖"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个专为Polymarket设计的跟单交易机器人。功能明确，文档清晰，提供风险控制选项（如倍数、最大持仓限制），降低用户手动操作成本和风险。实用性强，但市场相对小众。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示目前社区活跃度低，无开启或已关闭Issue。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-23T05:07:16.629Z"
+    },
+    {
+      "owner": "lynote-ai",
+      "repo": "humanize-text",
+      "fullName": "lynote-ai/humanize-text",
+      "description": "Free open-source AI text humanizer to convert AI-generated content into undetectable, human-like writing. Bypass Turnitin, GPTZero, and all major AI detectors. No sign-up required. Try our unlimited free online tool",
+      "language": "Python",
+      "topics": [
+        "ai-detection",
+        "ai-humanize",
+        "ai-humanizer",
+        "ai-tools",
+        "dify",
+        "gptzero-bypass",
+        "humanize-ai",
+        "humanize-ai-text",
+        "humanize-text",
+        "humanizer",
+        "n8n",
+        "openclaw"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-18T10:12:15Z",
+      "url": "https://github.com/lynote-ai/humanize-text",
+      "analysis": {
+        "positioning": "免费开源AI文本人性化工具，助内容规避检测，提升自然度。",
+        "useCases": [
+          "你用AI生成论文或内容 → 它帮你改写成不易被Turnitin、GPTZero等检测器发现的人类写作风格。",
+          "你是开发者或研究者，想探索AI文本人性化技术 → 它提供四种开源改写方法供你实验和二次开发。",
+          "你需要将AI草稿快速优化为人性化且流畅可读的文本 → 它助你简化流程，无需复杂配置，快速生成。"
+        ],
+        "audience": "追求AI内容自然度、规避AI检测的写作者、学生，及对AI文本人性化技术感兴趣的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "git clone 项目仓库",
+            "安装依赖 (例如 pip install -r requirements.txt)"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Lynote.ai (官方在线版)",
+            "method": "网页在线工具",
+            "models": "未明确 (内部专有)",
+            "pricing": "免费无限使用 (提供更强功能和长文本支持)"
+          },
+          {
+            "name": null,
+            "method": null,
+            "models": null,
+            "pricing": null
+          }
+        ],
+        "pricing": "免费。项目代码完全开源且个人免费使用；其官方在线工具也提供免费无限次数服务。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目结构简单，易于二次开发和理解，提供了多种核心技术方法探索，方便贡献和学习。",
+        "isVibeCoding": true,
+        "communityActivity": "较低。目前有4个Issue开启，但0个已关闭，活跃度有待提升。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-23T05:07:48.708Z"
+    },
+    {
+      "owner": "WUBING2023",
+      "repo": "PaperSpine",
+      "fullName": "WUBING2023/PaperSpine",
+      "description": "PaperSpine is a motivation-driven Codex skill for learning from strong academic papers, building a paper’s central argument, and rewriting manuscripts through evidence-aware blueprints, revision matrices, and LaTeX-safe audits.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-17T08:37:31Z",
+      "url": "https://github.com/WUBING2023/PaperSpine",
+      "analysis": {
+        "positioning": "AI驱动的学术论文写作助手，构建论点并重写稿件。",
+        "useCases": [
+          "你希望从优秀论文中学习并提炼论点 → 它帮你梳理核心论证，生成论点蓝图。",
+          "你需要撰写学术论文或报告 → 它帮你基于证据构建稿件结构和内容，并确保格式合规。",
+          "你想要修改现有的学术稿件 → 它帮你进行LaTeX安全的重写和审计，提升质量。"
+        ],
+        "audience": "针对学术研究人员、学生和专业撰稿人，辅助其高效完成各类学术论文、报告的撰写与修订。",
+        "quickStart": {
+          "prerequisites": "Codex或Claude Code环境，Git",
+          "steps": [
+            "克隆仓库: `git clone https://github.com/WUBING2023/PaperSpine.git`",
+            "进入目录并安装: `cd PaperSpine && .\\install.ps1 -Target all`"
+          ],
+          "note": "Codex安装后重启并调用`$paper-spine`，Claude Code安装后重载并使用`/paperspine`。"
+        },
+        "competitors": [],
+        "pricing": "免费，项目本身开源免费，但依赖的Codex或Claude Code平台可能收费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专注于学术写作，提供结构化、证据感知且LaTeX安全的AI辅助，解决特定痛点，设计思路严谨，非通用文本生成。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开闭比1:1，但总体数量很少。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-23T05:08:02.965Z"
+    },
+    {
+      "owner": "basketikun",
+      "repo": "infinite-canvas",
+      "fullName": "basketikun/infinite-canvas",
+      "description": "面向AI创作的开源无限画布工作台，集成 AI 生图、参考图编辑、画布编排、对话助手、提示词库和素材管理等功能。",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-18T23:45:50Z",
+      "url": "https://github.com/basketikun/infinite-canvas",
+      "analysis": {
+        "positioning": "AI创作无限画布工作台，集生图、编排、辅助于一体",
+        "useCases": [
+          "你探索AI视觉方案 → 它帮你快速迭代、管理图片结果",
+          "你生图思路凌乱 → 它在无限画布上帮你整理、关联创作流程",
+          "你对现有作品不满意 → 它基于画布内容帮你对话、生图并自动插入",
+          "你缺少生图灵感 → 它提供精选提示词库助你快速启动"
+        ],
+        "audience": "AI图片创作者、设计师，用于视觉方案探索和迭代管理",
+        "quickStart": {
+          "prerequisites": "Docker",
+          "steps": [
+            "克隆项目: git clone git@github.com/basketikun/infinite-canvas.git",
+            "进入目录: cd infinite-canvas",
+            "复制配置: cp .env.example .env",
+            "启动服务: docker-compose up -d"
+          ],
+          "note": "部署后需修改.env文件中的默认账号密码等配置，并访问http://localhost:3000"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能全面，AI集成度高，UI直观，部署便捷；但项目仍处开发阶段，不保证数据兼容性，不建议公网多用户使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决速度待观察，但提供了QQ群和论坛等交流渠道，有一定社区基础。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-23T05:08:18.644Z"
+    },
+    {
+      "owner": "Jawaz-Keyzor",
+      "repo": "FL-Studio-2026-Producer-Edition-Unlock",
+      "fullName": "Jawaz-Keyzor/FL-Studio-2026-Producer-Edition-Unlock",
+      "description": "Full feature activation for FL Studio 2026 Producer Edition. Enables all plugins, VST support, audio export without restrictions, and lifetime updates. Educational tool for studying DAW architecture.",
+      "language": "Unknown",
+      "topics": [
+        "educational-resource",
+        "export-wav-mp3",
+        "fl-studio-2026",
+        "flp-project",
+        "sic-tools",
+        "vst-plugins"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-21T21:37:42Z",
+      "url": "https://github.com/Jawaz-Keyzor/FL-Studio-2026-Producer-Edition-Unlock",
+      "analysis": {
+        "positioning": "FL Studio 2026制作人版全功能解锁，称作教育工具。",
+        "useCases": [
+          "你想免费体验FL Studio 2026 Producer Edition全部功能 → 它帮你提供完整插件、VST支持和无限制音频导出。",
+          "你作为学生或研究者，需要一个功能完备的DAW环境进行架构学习 → 它允许你访问所有高级功能，无需购买正版。",
+          "你想导出无水印、多格式的音频文件 → 它帮你移除所有导出限制，支持WAV/MP3/FLAC等。"
+        ],
+        "audience": "寻求免费、完整FL Studio 2026 Producer Edition体验的音乐爱好者、学生或DAW架构研究者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统",
+          "steps": [
+            "下载适用于Windows 10/11的FL Studio 2026 Producer Edition Unlock工具。",
+            "运行此工具以激活FL Studio 2026 Producer Edition，解锁所有功能。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "FL Studio Producer Edition (官方正版)",
+            "method": "购买正版授权",
+            "models": "FL Studio 2026 Producer Edition",
+            "pricing": "付费"
+          },
+          {
+            "name": "Cakewalk by BandLab",
+            "method": "免费下载安装",
+            "models": "Cakewalk DAW",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，通过规避官方授权提供FL Studio 2026 Producer Edition的全功能使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供了FL Studio全功能解锁，具有一定实用性（426 Star），但其性质属于规避正版授权，存在版权风险和法律争议，且“教育工具”的定位有待商榷。无Issue活动，社区互动度低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率为100%（0/0），互动度极低或无人公开反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-23T05:08:34.279Z"
+    },
+    {
+      "owner": "perplexityai",
+      "repo": "bumblebee",
+      "fullName": "perplexityai/bumblebee",
+      "description": "Read-only tool for inventorying packages, extensions, and developer-tool metadata on macOS and Linux developer endpoints, built for fast supply-chain exposure checks.",
+      "language": "Go",
+      "topics": [
+        "golang",
+        "package-inventory",
+        "supply-chain-security"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-20T18:11:37Z",
+      "url": "https://github.com/perplexityai/bumblebee",
+      "analysis": {
+        "positioning": "快速检查开发端点软件包依赖的安全曝露。",
+        "useCases": [
+          "你想知道某个安全公告中的软件包或版本存在于哪些开发机 → 它帮你快速扫描本地元数据，找出匹配项。",
+          "你需要审计开发环境的供应链风险 → 它帮你收集开发机上散乱的包管理器、扩展、开发工具配置状态，生成结构化清单。",
+          "你在处理安全事件响应 → 它提供只读的曝露检查，快速定位受影响的开发机，而无需执行包管理器命令或读取源文件。"
+        ],
+        "audience": "负责安全响应、供应链审计的工程师，快速定位 macOS 和 Linux 开发机上的潜在软件供应链风险。",
+        "quickStart": {
+          "prerequisites": "Go 1.25+",
+          "steps": [
+            "go install github.com/perplexityai/bumblebee/cmd/bumblebee@latest",
+            "运行 bumblebee 命令开始扫描"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于解决特定供应链安全痛点，Go语言实现，零外部依赖，生成静态二进制，部署和使用方便。但Issue开启数量多于关闭数量，社区活跃度或维护频率有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 7 个，但无关闭记录，活跃度较低，可能处于早期阶段或维护不频繁。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-23T05:08:52.208Z"
+    },
+    {
+      "owner": "paradigmxyz",
+      "repo": "centaur",
+      "fullName": "paradigmxyz/centaur",
+      "description": "Multiplayer, self-hosted, secure agents.",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-18T17:30:29Z",
+      "url": "https://github.com/paradigmxyz/centaur",
+      "analysis": {
+        "positioning": "团队共享、自托管、带安全沙箱的多人协作AI Agent平台。",
+        "useCases": [
+          "你排查CI故障 → 它用Agent在沙箱中调查、执行代码并反馈结果。",
+          "你查询内部工具信息 → 它用Agent调用内部工具并给出答案。",
+          "你需要统一团队Agent行为和工具集 → 它提供共享平台、统一工具集和可复用工作流。"
+        ],
+        "audience": "追求团队协作、统一Agent行为，并需要在真实环境中执行任务的技术团队和开发者。",
+        "quickStart": {
+          "prerequisites": "需要部署Centaur平台（通常是Kubernetes环境）。",
+          "steps": [
+            "在Slack中@Centaur提出任务。",
+            "Centaur分配隔离沙箱，Agent在其中执行代码、调用工具。",
+            "在Slack线程中接收Agent的进度更新和最终结果。"
+          ],
+          "note": "也支持通过API直接驱动Agent执行任务。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Assistants API",
+            "method": "云服务API",
+            "models": "OpenAI模型",
+            "pricing": "按用量付费"
+          },
+          {
+            "name": "自定义Agent部署方案",
+            "method": "开发者自行构建Agent逻辑，部署到自有服务器/VM",
+            "models": "任意LLM",
+            "pricing": "框架免费，基础设施自付"
+          }
+        ],
+        "pricing": "免费（开源），但需承担自托管基础设施（如Kubernetes）费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供团队共享的AI Agent平台，带隔离沙箱和强大功能。专注于企业级协作和生产环境，技术栈偏底层和基础设施，适合解决复杂工程问题而非个人趣味开发。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue 关闭率较低 (4/28)，可能响应速度有待提高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-23T05:09:13.476Z"
+    },
+    {
+      "owner": "Jawaz-Keyzor",
+      "repo": "CS2-External-Cheat-2026",
+      "fullName": "Jawaz-Keyzor/CS2-External-Cheat-2026",
+      "description": "External gameplay assistant for CS2. Provides visual overlay through screen capture analysis — wall transparency visualization, sound radar, grenade trajectory helper. No memory access, no injection. Educational project for studying computer vision and overlay rendering.",
+      "language": "Unknown",
+      "topics": [
+        "cs2-tool-2026",
+        "gaming-overlay",
+        "wall-assistant",
+        "windows-11"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-22T21:30:17Z",
+      "url": "https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026",
+      "analysis": {
+        "positioning": "CS2外部辅助工具，基于屏幕分析提供透视、听声辨位和投掷物轨迹。",
+        "useCases": [
+          "你想掌握战场全局 → 它通过屏幕捕获分析，显示墙后敌人及关键结构（透视）。",
+          "你想精准判断敌人位置 → 它通过音频处理，可视化敌人声音方向和距离（声呐雷达）。",
+          "你想完美投掷道具 → 它预测投掷物轨迹，助你精准投掷烟雾、闪光和燃烧弹。"
+        ],
+        "audience": "CS2玩家寻求安全辅助；计算机视觉、渲染技术爱好者研究外挂规避检测方法。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载项目发布的最新版本。",
+            "运行程序，在CS2游戏窗口上自动叠加辅助信息。"
+          ],
+          "note": "仅支持Windows 10/11系统。"
+        },
+        "competitors": [],
+        "pricing": "免费，MIT开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙利用屏幕捕获和图像识别实现游戏辅助，无需内存注入，规避反作弊检测；同时强调教育用途，技术含量高且玩法独特。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无Issue活动，社区活跃度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-23T05:09:24.991Z"
+    },
+    {
+      "owner": "Klotzkette",
+      "repo": "claude-fuer-deutsches-recht",
+      "fullName": "Klotzkette/claude-fuer-deutsches-recht",
+      "description": "⚠️ Experimentelle Skill-Sammlung für deutsches Recht (Arbeits-, Gesellschafts-, Insolvenz-, Datenschutz-, Prozessrecht u.a.) – inzwischen verbessert und im Alltag getestet, aber weiterhin Experiment. Bitte selber ausprobieren, Issues/PRs willkommen! Keine Rechtsberatung. Mandatsgeheimnis (§§ 203/204 StGB, § 43e BRAO), DSGVO, US-Transfer, KI-VO & Co",
+      "language": "Python",
+      "topics": [
+        "anthropic",
+        "bgh",
+        "claude-skills",
+        "deutsches-recht",
+        "dsgvo",
+        "german-law",
+        "kanzlei",
+        "legal-ai",
+        "legaltech"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-18T16:43:56Z",
+      "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+      "analysis": {
+        "positioning": "为德国法律实务定制的Claude AI技能集，优化工作流程。",
+        "useCases": [
+          "你起草德国劳动法/公司法等领域的初步法律分析 → 它帮你生成符合德国法学方法论的分析框架和草稿。",
+          "你需按德国法院（如BGH）风格引用判例和评论 → 它帮你组织和引用相关法律文献。",
+          "你寻求改进律所或法务部门的工作效率 → 它提供基于AI的实践工作流和子代理示例。"
+        ],
+        "audience": "适合德国律师、法务部门和法律顾问，用于提高法律研究、分析及文件起草效率。",
+        "quickStart": {
+          "prerequisites": "需有Anthropic Claude API访问权限，熟悉Python。",
+          "steps": [
+            "下载并理解仓库中的技能、子代理及工作流示例。",
+            "根据自身案件、律所标准和合规要求，校准和定制这些AI技能。"
+          ],
+          "note": "项目为实验性质，用户需自行测试并适应实践。"
+        },
+        "competitors": [
+          {
+            "name": "通用LLM平台 (如未定制的Claude/ChatGPT)",
+            "method": "通用文本生成与分析",
+            "models": "Claude/GPT系列",
+            "pricing": "通常订阅或按量付费"
+          },
+          {
+            "name": "其他德国法律AI解决方案",
+            "method": "专业法律信息检索/分析",
+            "models": "未指定",
+            "pricing": "通常订阅"
+          }
+        ],
+        "pricing": "代码开源免费，但使用底层Claude API需付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为基于Claude的德国法律AI技能集，项目开源、实验性强，鼓励社区测试与贡献，并对法律风险有清晰免责声明，定位明确且务实。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues和PR统计均为0，表明社区公开互动不多，但项目积极邀请用户进行测试并提交反馈和贡献。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-23T05:09:48.740Z"
+    },
+    {
+      "owner": "Tong89",
+      "repo": "smartNode",
+      "fullName": "Tong89/smartNode",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-21T07:31:35Z",
+      "url": "https://github.com/Tong89/smartNode",
+      "analysis": {
+        "positioning": "天基数据回传可视化仿真平台",
+        "useCases": [
+          "你想了解天基数据回传系统的运作原理 → 它帮你通过三维可视化，直观展示卫星、地面站和中继链路的协同工作。",
+          "你需要模拟和测试不同的数据回传任务策略 → 它帮你提交任务，并实时监测资源状态、利用率和数据流，评估策略效果。",
+          "你正在进行天基通信相关的教学、研究或原型开发 → 它提供一个开放的本地仿真平台，便于学习、教学展示和二次开发验证。"
+        ],
+        "audience": "研究天基通信、卫星网络或从事相关教学与开发的工程师和学生。",
+        "quickStart": {
+          "prerequisites": "Git, Python 3",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/Tong89/smartNode.git && cd smartNode`",
+            "创建并激活虚拟环境，安装依赖：`python -m venv .venv`，然后 `(Windows) .\\.venv\\Scripts\\activate` 或 `(macOS/Linux) source .venv/bin/activate`，接着 `pip install -r requirements.txt`",
+            "启动后端服务：`python backend/app.py`",
+            "在浏览器访问：`http://127.0.0.1:5000/frontend/`"
+          ],
+          "note": "Windows用户也可双击`run_server.bat`快速启动。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位明确，功能涵盖三维可视化、任务调度与资源监测，且提供开放API，便于教学、研究和二次开发。快速开始流程清晰，技术栈主流，对于特定领域的仿真需求非常实用。",
+        "isVibeCoding": true,
+        "communityActivity": "当前Issue统计为0/0，社区互动不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-23T05:09:59.467Z"
+    },
+    {
+      "owner": "Tencent-Hunyuan",
+      "repo": "Hy-MT2",
+      "fullName": "Tencent-Hunyuan/Hy-MT2",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-18T07:54:11Z",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+      "analysis": {
+        "positioning": "腾讯开源的多语言“快思考”翻译模型家族。",
+        "useCases": [
+          "你需要处理复杂场景下的多语言翻译任务 → 它提供33种语言的高质量翻译，并有效遵循多语言指令。",
+          "你的应用需要高性能、轻量化的端侧翻译 → 它通过极致量化技术将模型部署到设备上，大幅降低存储并加速推理。",
+          "你希望评估或集成翻译模型 → 它提供基准测试工具（IFMTBench）和易于集成的Translator Skill。"
+        ],
+        "audience": "需要高效、高质、多语种翻译能力，尤其关注复杂场景、指令遵循及端侧部署性能的开发者、研究者和企业。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "访问HuggingFace或ModelScope平台，下载或使用Hy-MT2系列模型。",
+            "根据文档指引，集成模型进行多语言翻译，或利用IFMTBench进行翻译指令遵循能力评测。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "DeepSeek-V4-Pro",
+            "method": "模型下载部署/API调用",
+            "models": "DeepSeek-V4-Pro",
+            "pricing": "模型免费/API付费"
+          },
+          {
+            "name": "Kimi K2.6",
+            "method": "API调用",
+            "models": "Kimi K2.6",
+            "pricing": "付费"
+          },
+          {
+            "name": "Microsoft Translator",
+            "method": "API调用",
+            "models": "内部模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "Doubao Translate",
+            "method": "API调用",
+            "models": "内部模型",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费，模型及相关工具开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "腾讯出品，技术报告详尽，提供多尺寸模型，支持极致量化，且积极参与WMT26等行业活动，有 HuggingFace、ModelScope 等多平台支持。项目发布时间较新，社区活跃度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚发布，Issue活跃度尚低（1个开启，0个关闭）。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-23T05:10:16.095Z"
+    },
+    {
+      "owner": "Imbad0202",
+      "repo": "academic-research-skills",
+      "fullName": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "topics": [
+        "academic-pipeline",
+        "academic-writing",
+        "ai-research",
+        "claude",
+        "claude-code",
+        "literature-review",
+        "peer-review",
+        "prompt-engineering"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-02-26T06:31:01Z",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "analysis": {
+        "positioning": "Claude AI辅助学术研究全流程，从构思到发表。",
+        "useCases": [
+          "你规划论文结构 → 它帮你通过苏格拉底式对话梳理大纲。",
+          "你寻找文献、格式化引用 → 它帮你自动化繁琐的引用和格式工作。",
+          "你担心AI生成内容出现幻觉或错误 → 它帮你运行7模式完整性检查规避风险。",
+          "你想保持写作风格和检查机器痕迹 → 它帮你校准文风并检查写作质量。"
+        ],
+        "audience": "适用于需要用Claude AI辅助学术论文研究、写作、审阅全流程的科研人员或学生。",
+        "quickStart": {
+          "prerequisites": "需在Claude Code CLI/VS Code/JetBrains (v3.7.0+)环境中。",
+          "steps": [
+            "/plugin marketplace add Imbad0202/academic-research-skills",
+            "/plugin install academic-research-skills"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费使用，接受捐赠。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "社区活跃度极高（近2万Star），文档清晰，功能定位明确且有创新性，结合Claude AI深度赋能学术研究全流程，解决实际痛点，并坚守人机协作的核心理念，项目成熟度高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率高，更新迭代活跃，社区参与度极高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-23T05:10:57.603Z"
+    },
+    {
+      "owner": "Lum1104",
+      "repo": "Understand-Anything",
+      "fullName": "Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-03-15T02:30:51Z",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "analysis": {
+        "positioning": "代码/知识库/文档转交互式知识图谱，探索提问。",
+        "useCases": [
+          "你新入职面对庞大代码库 → 它帮你快速理解项目结构与依赖。",
+          "你想查找代码中的某个功能或概念 → 它帮你通过知识图谱高效搜索和定位。",
+          "你希望理解特定文件、函数或类的作用 → 它帮你直接提问并获取AI解释。"
+        ],
+        "audience": "开发者、技术文档维护者，尤其适合需要快速理解大型复杂代码库或知识体系的用户。",
+        "quickStart": {
+          "prerequisites": "需要接入或配置支持的AI模型（如Claude Code, Codex, Copilot, Gemini等）",
+          "steps": [
+            "安装Understand Anything工具/插件",
+            "配置与目标代码库/知识库的连接，并选择AI模型进行分析"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证），开源项目。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "交互式知识图谱使复杂代码理解更直观、更具吸引力，提升开发体验；项目Topics明确包含\"vibe-coding\"标签。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，拥有近2万星标，Issue解决效率高（已关闭远多于开启），且设有Discord社区。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-23T05:11:16.497Z"
     }
   ]
 }

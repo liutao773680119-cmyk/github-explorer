@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-05-23",
+  "startedAt": "2026-05-23T05:07:05.509Z",
+  "finishedAt": "2026-05-23T05:12:11.075Z",
+  "durationSeconds": 306,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 13,
+    "skipped": 93,
+    "geminiCalls": 15,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-05-23T05:07:22.298Z",
+      "level": "warn",
+      "project": "zy-zmc/tianming-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-23T05:09:31.349Z",
+      "level": "warn",
+      "project": "edgenuitybot/exodusbot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
