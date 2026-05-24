@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-23T05:11:16.510Z",
+  "updatedAt": "2026-05-24T05:43:30.861Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -35392,6 +35392,932 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-05-23T05:11:16.497Z"
+    },
+    {
+      "owner": "maowuzz",
+      "repo": "chatgpt-session-forge",
+      "fullName": "maowuzz/chatgpt-session-forge",
+      "description": "ChatGPT 会话管理与 CPA/sub2api/Cockpit 导出工具 / Local ChatGPT session manager and CPA/sub2api/Cockpit exporter",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-24T01:13:06Z",
+      "url": "https://github.com/maowuzz/chatgpt-session-forge",
+      "analysis": {
+        "positioning": "ChatGPT会话批量管理与凭证导出工具",
+        "useCases": [
+          "你有多批ChatGPT账号需要登录管理 → 它帮你自动批量登录、获取验证码、识别状态",
+          "你需要将ChatGPT会话凭证集成到CPA/sub2api/Cockpit等工具 → 它帮你一键导出对应格式的JSON凭证",
+          "你需要本地化管理多账号数据，避免第三方风险 → 它提供本地运行的会话管理和数据存储"
+        ],
+        "audience": "适用于需要批量管理和自动化登录多个ChatGPT账号，并将凭证导出供其他工具使用的开发者或团队。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+；Outlook账号的邮箱、密码、Microsoft OAuth Client ID和Refresh Token；能访问ChatGPT和Outlook相关服务。",
+          "steps": [
+            "运行 `npm install` 安装依赖。",
+            "运行 `npm start` 启动本地Web服务，然后浏览器访问 `http://localhost:3000`。在Web UI中导入Outlook账号，进行批量登录，并导出所需凭证。"
+          ],
+          "note": "Windows PowerShell用户设置环境变量需使用 `$env:PORT = \"8080\"` 语法。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，本地部署）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了特定场景下批量管理ChatGPT账号和导出凭证的痛点，功能特性明确，文档详尽，本地化部署保障数据安全，但受众相对小众。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示开启和关闭均为0，可能项目较新或用户群特定。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:39:32.934Z"
+    },
+    {
+      "owner": "SmithVestibule",
+      "repo": "Hytale-Mods-Windows-2026",
+      "fullName": "SmithVestibule/Hytale-Mods-Windows-2026",
+      "description": "⭐️ Hytale Mods 2026 | Aimbot ESP Wallhack | Triggerbot NoRecoil Glow | Mod Menu Executor Loader | Auto Farm Heal Macro | Speedhack Fly NoClip | Cheat Menu Trainer Injector | Undetected Hacks PC | Latest Build Version Pro | Get Full Setup Installer v1.0 | Pre-Activated Keygen Serial | Download for Windows 11 ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "early-plugin",
+        "hytale-api",
+        "hytale-launcher",
+        "hytale-library",
+        "hytale-mods",
+        "hytale-protocol"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:15:20Z",
+      "url": "https://github.com/SmithVestibule/Hytale-Mods-Windows-2026",
+      "analysis": {
+        "positioning": "Hytale 游戏作弊工具，提供透视、自瞄、飞行、加速等辅助功能。",
+        "useCases": [
+          "你玩Hytale想获得优势 → 它帮你自动瞄准、透视、穿墙，提升击杀率。",
+          "你玩Hytale想快速升级或收集资源 → 它帮你实现自动农场、自动治疗、加速和飞行。",
+          "你玩Hytale想使用高级作弊功能 → 它帮你注入作弊菜单，绕过检测，解锁职业版特性。"
+        ],
+        "audience": "Hytale 玩家，尤其是寻求游戏内作弊、辅助功能的 Windows 用户，并愿意承担风险。",
+        "quickStart": {
+          "prerequisites": "Windows 11 操作系统，Hytale 游戏。",
+          "steps": [
+            "下载并运行 v1.0 完整安装包。",
+            "使用预激活密钥生成器进行激活。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费软件，但项目描述暗示提供预激活密钥生成器以免费使用专业版功能（即破解）。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目公然提供游戏作弊工具，鼓励不正当游戏行为，违反游戏公平性原则，可能导致用户账号被封禁，开发和使用均存在严重的道德与合规风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为 0，表明社区几乎没有公开反馈或讨论，活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:39:43.220Z"
+    },
+    {
+      "owner": "MysticCommissioner",
+      "repo": "Revo-Uninstaller-Pro-Crack-2026",
+      "fullName": "MysticCommissioner/Revo-Uninstaller-Pro-Crack-2026",
+      "description": "⭐️ Revo Uninstaller Pro 2026 | Uninstall Software Windows 10/11 | Complete Removal Tool | Setup Installer v5.0 | Activation Keygen License | Full Version Pre-Activated | Cleanup Junk Files | Manage Installed Programs | Latest Build Pro Updated | Get Desktop Genuine Original | Uninstaller Utility PC ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "disk-cleaning",
+        "free-revo-uninstaller-2024",
+        "pc-cleaning-solutions-windows",
+        "revo-uninstaller",
+        "revo-uninstaller-2024",
+        "revo-uninstaller-download",
+        "revo-uninstaller-license-free",
+        "revo-uninstaller-pro-activation-file",
+        "revo-uninstaller-pro-discount",
+        "revo-uninstaller-pro-key",
+        "revo-uninstaller-pro-program-cleaner",
+        "revo-uninstaller-pro-windows-support",
+        "uninstall-utility",
+        "uninstaller-tools",
+        "windows-cleaner"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:16:53Z",
+      "url": "https://github.com/MysticCommissioner/Revo-Uninstaller-Pro-Crack-2026",
+      "analysis": {
+        "positioning": "提供Revo Uninstaller Pro 2026破解版，用于彻底卸载软件。",
+        "useCases": [
+          "你安装软件后残留垃圾文件 → 它帮你彻底清理，不留痕迹。",
+          "你想卸载顽固程序 → 它帮你强制移除，解决卸载难题。",
+          "你希望PC运行流畅 → 它帮你管理程序，优化系统性能。"
+        ],
+        "audience": "寻求免费且完整版Revo Uninstaller Pro，以优化PC性能的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统",
+          "steps": [
+            "下载并解压项目提供的安装包。",
+            "运行安装程序并按提示安装。",
+            "根据指引使用Keygen或预激活版本完成激活（如需）。"
+          ],
+          "note": "仅支持Windows 10/11系统。"
+        },
+        "competitors": [
+          {
+            "name": "Revo Uninstaller Pro (官方正版)",
+            "method": "官方网站下载，购买激活码",
+            "models": "软件卸载，残留清理，启动项管理",
+            "pricing": "付费"
+          },
+          {
+            "name": "Geek Uninstaller",
+            "method": "官方网站下载，运行软件",
+            "models": "软件卸载，强制移除，注册表清理",
+            "pricing": "免费/Pro版付费"
+          }
+        ],
+        "pricing": "免费 (提供付费软件的破解版)",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "非开发项目，主要提供破解版软件下载，无技术贡献或开源协作价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue功能未启用或无人使用，社区无活跃度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:39:55.100Z"
+    },
+    {
+      "owner": "Cascadethroughspark",
+      "repo": "Spotify-Premium-Crack-2026",
+      "fullName": "Cascadethroughspark/Spotify-Premium-Crack-2026",
+      "description": "⭐️ Spotify Premium 2026 | Setup Installer v1.0 | Keygen License Key | Full Version Pre-Activated | Latest Build Pro | Bypass Activation Loader | Unlimited Music Streaming | Offline Downloads | High-Quality Audio | Get Desktop Version for Windows 10/11 PC | Enjoy All Features 2026 ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "new-releases",
+        "search-tracks",
+        "spotify-account",
+        "spotify-android",
+        "spotify-bot",
+        "spotify-data",
+        "spotify-desktop-client",
+        "spotify-extension",
+        "spotify-hack-pc",
+        "spotify-ios-16",
+        "spotify-theme",
+        "spotify-windows",
+        "spotifyapi"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:17:17Z",
+      "url": "https://github.com/Cascadethroughspark/Spotify-Premium-Crack-2026",
+      "analysis": {
+        "positioning": "免费获取Spotify Premium功能，畅享无限制音乐体验。",
+        "useCases": [
+          "你想听Spotify无广告高音质音乐 → 它帮你解锁Spotify Premium高级功能。",
+          "你想下载Spotify歌曲离线播放 → 它帮你实现无限制离线下载。",
+          "你希望免费使用Spotify所有付费特性 → 它帮你绕过激活，提供预激活版本。"
+        ],
+        "audience": "渴望免费使用Spotify Premium所有高级功能（如无广告、离线下载、高音质）的Windows PC用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 PC",
+          "steps": [
+            "下载并运行项目提供的安装程序。",
+            "按照提示完成安装，享受预激活的Spotify Premium功能。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Spotify Premium (官方订阅)",
+            "method": "按月/年付费订阅",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目本身性质是提供付费软件的免费破解版本，这在技术社区中通常不被鼓励且存在法律和安全风险。尽管描述功能诱人，但项目活跃度极低（16星，0 issue），可靠性和安全性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，没有开放或关闭的issue，表明用户参与度非常低或项目缺乏维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:40:06.158Z"
+    },
+    {
+      "owner": "VisibleChefCraft",
+      "repo": "Ads-Power-Crack-Latest-TS",
+      "fullName": "VisibleChefCraft/Ads-Power-Crack-Latest-TS",
+      "description": "⭐️ Ads-Power Proxy Tool | Multi-Account Manager | Login Automation | Session Control Bypass | User-Agent Rotator | IP Rotation Manager | API Integration Tool | Full Version v3.5 | Latest Build 2026 | Windows 10/11 PC | Setup Installer Serial Key Pre-Activated ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "ad-free",
+        "ads",
+        "adspower-automation",
+        "digital-advertising"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:14:07Z",
+      "url": "https://github.com/VisibleChefCraft/Ads-Power-Crack-Latest-TS",
+      "analysis": {
+        "positioning": "全自动多账号管理工具，绕过平台风控",
+        "useCases": [
+          "你想管理多个社交媒体/电商账号 → 它帮你高效批量操作，避免账号关联。",
+          "你需要自动化登录和保持会话 → 它帮你自动登录，并绕过会话检测和验证码。",
+          "你担心账号被封或被识别 → 它帮你自动切换IP和浏览器指纹，模拟真实用户行为。"
+        ],
+        "audience": "数字营销人员、电商卖家、联盟推广者或任何需要自动化管理大量在线账号并规避平台风控的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 PC",
+          "steps": [
+            "下载并运行Setup Installer安装包。",
+            "（由于是预激活版）安装完成后即可直接启动并使用，无需手动输入序列号。"
+          ],
+          "note": "该工具专为Windows系统设计，不支持其他操作系统。"
+        },
+        "competitors": [
+          {
+            "name": "AdsPower",
+            "method": "安装客户端，创建和管理浏览器配置文件。",
+            "models": "支持Chrome/Firefox内核指纹，提供代理集成。",
+            "pricing": "付费，按套餐和配置文件数量计费"
+          },
+          {
+            "name": "GoLogin",
+            "method": "安装客户端，创建独立的虚拟浏览器环境。",
+            "models": "支持Chrome内核指纹，可集成多种代理。",
+            "pricing": "部分免费（有限制），主要为付费套餐"
+          }
+        ],
+        "pricing": "免费 (该版本为破解预激活版)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名称包含'Crack'字样，疑似破解版软件分发。无许可证声明，且社区活跃度为零，潜在风险较高。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何社区互动或活跃度（Issue统计为零）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:40:19.042Z"
+    },
+    {
+      "owner": "Forestterbreak",
+      "repo": "SolidWorks-cracked",
+      "fullName": "Forestterbreak/SolidWorks-cracked",
+      "description": "SolidWorks — 3D parametric design, simulation, PDM, rendering, electrical design, and technical communication.",
+      "language": "Unknown",
+      "topics": [
+        "dassault-solidworks",
+        "parametric-design",
+        "solidworks",
+        "solidworks-simulation"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:17:13Z",
+      "url": "https://github.com/Forestterbreak/SolidWorks-cracked",
+      "analysis": {
+        "positioning": "提供SolidWorks破解版，让你免费获取昂贵的专业CAD/CAE软件功能。",
+        "useCases": [
+          "你没有预算购买SolidWorks正版 → 它帮你免费获得全套CAD/CAE功能，但有法律风险。",
+          "你需要临时使用SolidWorks进行学习或小项目 → 它提供一个非授权的解决方案，避免高额费用。",
+          "你急需SolidWorks的特定高级功能进行设计或仿真 → 它让你直接体验和使用这些功能，无需付费。"
+        ],
+        "audience": "想免费使用SolidWorks所有功能，但不愿支付正版授权费用的用户，或个人学习者（需承担法律风险）。",
+        "quickStart": {
+          "prerequisites": "需要一台Windows操作系统电脑，并可能需要关闭杀毒软件或防火墙。",
+          "steps": [
+            "下载破解包并解压",
+            "运行安装程序并按提示安装SolidWorks",
+            "使用破解补丁或注册机进行激活"
+          ],
+          "note": "此操作存在法律风险和潜在安全隐患。"
+        },
+        "competitors": [
+          {
+            "name": "Fusion 360",
+            "method": "官方免费版",
+            "models": "3D设计、CAM、仿真",
+            "pricing": "个人和初创公司免费"
+          },
+          {
+            "name": "Onshape",
+            "method": "云端SaaS，公共项目免费",
+            "models": "3D设计、PDM",
+            "pricing": "公共项目免费"
+          }
+        ],
+        "pricing": "免费（但违法，且有潜在安全风险）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供SolidWorks破解版，功能齐全但完全违法，存在版权侵权和安全风险。社区活跃度极低，存在潜在木马或恶意软件的风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无人维护，问题无响应。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:40:32.040Z"
+    },
+    {
+      "owner": "OilGiraffeSing",
+      "repo": "4K-Video-Downloader-Plus-cracked",
+      "fullName": "OilGiraffeSing/4K-Video-Downloader-Plus-cracked",
+      "description": "4K Video Downloader Plus — Download 4K and 8K videos, playlists, channels, and subtitles from YouTube, TikTok, and social.",
+      "language": "Unknown",
+      "topics": [
+        "4k-video-downloader"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:13:57Z",
+      "url": "https://github.com/OilGiraffeSing/4K-Video-Downloader-Plus-cracked",
+      "analysis": {
+        "positioning": "高清视频下载工具的破解版，支持多平台和字幕。",
+        "useCases": [
+          "你想离线观看YouTube视频 → 它帮你下载4K/8K高清视频。",
+          "你需要保存TikTok精彩片段 → 它帮你下载社交媒体视频和字幕。",
+          "你想批量下载UP主的整个频道内容 → 它帮你下载完整的播放列表和频道。"
+        ],
+        "audience": "寻求免费下载YouTube、TikTok等平台高清视频和字幕的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载破解包。",
+            "解压并运行。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "4K Video Downloader Plus (正版)",
+            "method": "桌面应用",
+            "models": "YouTube, TikTok, Instagram等",
+            "pricing": "付费"
+          },
+          {
+            "name": "yt-dlp",
+            "method": "命令行工具",
+            "models": "广泛支持各类视频网站",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，通过破解规避正版收费。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目名为“cracked”，低星，无Issue活动，暗示为盗版软件分发，非正规开源项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区完全不活跃，无任何Issue交流或贡献。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:40:45.143Z"
+    },
+    {
+      "owner": "firestokercloak",
+      "repo": "Battlefield-External-Crack-2026",
+      "fullName": "firestokercloak/Battlefield-External-Crack-2026",
+      "description": "⭐️ Battlefield-External Aimbot | ESP WH Wallhack Triggerbot NoRecoil | Glow Skin Changer RageHack Legit | Speedhack Fly BunnyHop NoClip | AntiAFK Auto Farm Auto Heal | Macro Mod Menu Loader Injector | HWID Spoofer Bypass Undetected | PC Steam 2026 Latest Build ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "battlebit-remastered",
+        "battlefield-6",
+        "bf4",
+        "bf5",
+        "bf6",
+        "bf6-menu",
+        "paratranz",
+        "redsec-mod"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:14:37Z",
+      "url": "https://github.com/firestokercloak/Battlefield-External-Crack-2026",
+      "analysis": {
+        "positioning": "专为战地系列游戏打造的多功能作弊工具。",
+        "useCases": [
+          "你想在战地游戏中获得压倒性优势 → 它提供自瞄、透视、无后座等作弊功能。",
+          "你担心作弊被封号 → 它提供HWID欺骗和反检测功能以规避封禁。",
+          "你想自动化游戏内重复操作 → 它提供自动挂机、自动农场、自动治疗等宏功能。"
+        ],
+        "audience": "寻求在PC Steam版战地系列游戏中（包括战地6、BF4、BF5等）获取非公平优势的玩家。",
+        "quickStart": {
+          "prerequisites": "已安装PC Steam版战地系列游戏（如《战地6》或《战地2042》）的最新版本。",
+          "steps": [
+            "下载并运行项目提供的加载器或注入器。",
+            "在游戏中通过Mod菜单激活所需功能。"
+          ],
+          "note": "仅支持PC Steam平台上的特定游戏版本。"
+        },
+        "competitors": [
+          {
+            "name": "其他战地系列游戏辅助/外挂",
+            "method": "下载并运行，通常通过注入器或独立客户端加载",
+            "models": "特定战地游戏版本，如BFV、BF1、BF6等",
+            "pricing": "免费或付费"
+          },
+          {
+            "name": "作弊订阅服务",
+            "method": "按月或按次付费订阅，提供多种游戏的作弊功能",
+            "models": "支持多款主流射击游戏",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费或付费，具体项目描述未提及，但此类工具通常有免费版和高级付费版。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质为游戏作弊工具，通过技术手段破坏游戏公平性，存在道德风险。尽管代码实现上涉及游戏逆向工程、内存注入等技术，但其用途在主流技术社区不被鼓励，且可能带来安全隐患。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，无可见的Issue交流或贡献记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:40:55.793Z"
+    },
+    {
+      "owner": "modaic-ai",
+      "repo": "gepa-viz",
+      "fullName": "modaic-ai/gepa-viz",
+      "description": "Interactive live visualizer for gepa runs",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-24T01:41:29Z",
+      "url": "https://github.com/modaic-ai/gepa-viz",
+      "analysis": {
+        "positioning": "实时可视化GEPA提示词优化过程，洞察演化路径。",
+        "useCases": [
+          "你做GEPA提示词优化 → 它帮你实时监控提示词演化树和帕累托前沿。",
+          "你做提示词迭代 → 它帮你直观理解被拒绝的提示词原因和反馈。",
+          "你做效果分析 → 它帮你点击查看候选提示词详情、父子差异和具体分数。"
+        ],
+        "audience": "AI/LLM工程师、研究员，或任何使用GEPA框架优化提示词的用户，用于实时监控和调试提示词演进。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "运行 `pip install gepa-viz` 安装可视化工具。",
+            "在你的GEPA或DSPy脚本中集成`GepaVizCallback`回调函数。",
+            "在新终端运行 `gepa-viz serve --run your_run.json` 启动可视化服务器。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "为GEPA提示词优化提供了实时、交互式可视化，极大提升了调试和理解效率。项目集成度高，使用简便。但星数和Issue活跃度较低，可能用户群体小众或处于早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前无公开Issue和已关闭Issue。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-24T05:41:08.878Z"
+    },
+    {
+      "owner": "powersoldierduct",
+      "repo": "Boris-FX-Mocha-PRO-Crack",
+      "fullName": "powersoldierduct/Boris-FX-Mocha-PRO-Crack",
+      "description": "⭐️ Boris-FX-Mocha Download | Visual Effects Compositor v2023 | Setup Installer | Activation Key | License Key Pre-Activated | Full Version Serial | Latest Build Pro Updated | Get Desktop Working Windows 10/11 PC | Premium Loader Mod | Motion Graphics Software ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "borisfx",
+        "borisfx-plugin-free",
+        "free-boris-fx",
+        "mocha-vfx",
+        "plugins-after-effects"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T00:14:46Z",
+      "url": "https://github.com/powersoldierduct/Boris-FX-Mocha-PRO-Crack",
+      "analysis": {
+        "positioning": "提供Boris FX Mocha Pro 2023破解版，含安装包、激活密钥及完整功能。",
+        "useCases": [
+          "你想免费获取专业视觉特效合成软件 → 它帮你下载并激活Mocha Pro 2023，无需购买。",
+          "你预算有限但需要高级平面追踪和动态遮罩功能 → 它帮你绕过付费，使用Mocha Pro完成项目。",
+          "你在Windows 10/11上寻找最新版Mocha Pro的预激活版本 → 它帮你提供可直接工作的安装包。"
+        ],
+        "audience": "预算有限的视觉特效师、动态图形设计师和后期制作人员，希望免费使用Boris FX Mocha Pro的完整功能。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 PC",
+          "steps": [
+            "下载项目中提供的安装包和激活工具。",
+            "按照说明安装软件并完成激活过程。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Boris FX Mocha Pro (官方版)",
+            "method": "购买正版授权",
+            "models": "N/A",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他破解软件网站/论坛",
+            "method": "下载并尝试激活",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。通过破解方式获取原价付费软件的完整功能，存在法律风险。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目提供付费软件的破解版本，虽然能满足部分用户免费使用的需求，但涉及软件盗版，存在法律风险和潜在安全隐患，不符合软件开发的道德规范。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，没有Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:41:20.603Z"
+    },
+    {
+      "owner": "highkay",
+      "repo": "keytoauth",
+      "fullName": "highkay/keytoauth",
+      "description": "一个自动icloud取码到登录chatgpt取auth session最后转cpa+sub2api的脚本",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-24T03:26:27Z",
+      "url": "https://github.com/highkay/keytoauth",
+      "analysis": {
+        "positioning": "自动化获取 ChatGPT Web 会话并转为 CPA/Sub2API 格式的工具。",
+        "useCases": [
+          "你有 iCloud 验证码需要批量登录 ChatGPT → 它帮你自动完成登录流程，获取会话。",
+          "你想将获取的 ChatGPT 会话用于 API 调用 → 它帮你将会话转换为 CPA 和 Sub2API 格式。",
+          "你面临 Cloudflare 挑战或代理访问慢 → 它整合 FlareSolverr 预解并优化代理等待时间。"
+        ],
+        "audience": "需要批量将 iCloud 验证码转换为 ChatGPT Web 会话的开发者或自动化工具使用者。",
+        "quickStart": {
+          "prerequisites": [
+            "Python 3.9+",
+            "安装依赖：`pip install -r requirements.txt`",
+            "安装 Patchright Chrome：`patchright install chrome`",
+            "启动本地 FlareSolverr (默认地址 `http://127.0.0.1:8191/v1`)"
+          ],
+          "steps": [
+            "准备包含 key 的输入文件，例如 `keys.txt`",
+            "运行 `python main.py --input keys.txt`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目文档清晰全面，覆盖使用、配置、排错和开发细节。代码结构良好，模块化，并且针对代理、Cloudflare 等复杂环境做了鲁棒性设计，具备良好的可维护性和实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前无 Issue 讨论。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-24T05:41:32.329Z"
+    },
+    {
+      "owner": "larajuniorlara",
+      "repo": "Claude-Design-Studio",
+      "fullName": "larajuniorlara/Claude-Design-Studio",
+      "description": "🚀 Claude Design AI 2026: Ultimate UI/UX Generator & Plugin Suite – Free Download",
+      "language": "Unknown",
+      "topics": [
+        "claude-ai",
+        "claude-code",
+        "claude-code-cli",
+        "claude-code-hooks",
+        "claude-code-marketplace",
+        "claude-code-plugin",
+        "claude-code-plugins",
+        "claude-code-skill",
+        "claude-code-skills",
+        "claude-code-subagents",
+        "claude-cowork-free",
+        "claude-design",
+        "claude-design-ai",
+        "claude-design-alternative",
+        "claude-design-download",
+        "claude-design-install",
+        "claude-design-installer"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:19:50Z",
+      "url": "https://github.com/larajuniorlara/Claude-Design-Studio",
+      "analysis": {
+        "positioning": "AI驱动的UI/UX生成与代码设计平台，弥合前后端鸿沟。",
+        "useCases": [
+          "你设计UI/UX → 它帮你用AI生成代码和视觉元素，告别枯燥手写。",
+          "你开发复杂应用 → 它帮你集成设计，避免传统模板工具的局限和臃肿。",
+          "你追求代码美观 → 它帮你将设计融入逻辑，提升用户体验，让代码更有“灵魂”。"
+        ],
+        "audience": "追求代码美学与UI/UX效率的全栈开发者和设计师，尤其注重AI辅助设计。",
+        "quickStart": {
+          "prerequisites": "AI服务API Key (如Claude/OpenAI)",
+          "steps": [
+            "1. 访问官方下载页 (https://larajuniorlara.github.io) 获取安装包并安装。",
+            "2. 配置API Key，通过命令行或UI界面启动设计生成指令。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Figma + AI插件",
+            "method": "传统设计工具，通过插件扩展AI功能",
+            "models": "N/A",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "ChatGPT/Claude",
+            "method": "自然语言描述直接生成代码或UI建议",
+            "models": "GPT系列/Claude系列",
+            "pricing": "免费/付费API"
+          }
+        ],
+        "pricing": "免费下载。可能涉及AI服务API调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述充满诗意和宏大愿景，用大量修辞手法和哲学理念包装功能，强调“代码与画布的桥梁”，风格强烈。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启和关闭均为0，可能项目处于早期或内部开发阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-24T05:42:00.212Z"
+    },
+    {
+      "owner": "jskblue",
+      "repo": "Tomodachi-Island-Life-Remastered",
+      "fullName": "jskblue/Tomodachi-Island-Life-Remastered",
+      "description": "New Tomodachi Life 2026 PC Edition 🏝️ Life Sim & Mii Creator for Windows 🎮",
+      "language": "Unknown",
+      "topics": [
+        "island-life",
+        "life-simulation",
+        "living-the-dream",
+        "mii",
+        "mii-game",
+        "mii-sharing",
+        "nes-emulator",
+        "nintendo-switch",
+        "nintendo-switch-emulator",
+        "nintendo-switch-pc",
+        "nintendo-tomodachi-life",
+        "nintendoswitch",
+        "tomodachi-life",
+        "tomodachi-life-2026",
+        "tomodachi-life-desktop",
+        "tomodachi-life-living-the-dream",
+        "tomodachi-life-pc",
+        "tomodachi-life-windows",
+        "tomodachi-living-the-dream",
+        "tomodachi-pc"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:23:31Z",
+      "url": "https://github.com/jskblue/Tomodachi-Island-Life-Remastered",
+      "analysis": {
+        "positioning": "《朋友聚会》PC版：原生重构，2026新岛屿生活模拟。",
+        "useCases": [
+          "你想在PC上玩《朋友聚会》→ 它提供原生PC版，无需模拟器。",
+          "你想体验更丰富的Mii互动→ 它提供更大岛屿、AI对话、深度个性化模拟。",
+          "你想和朋友分享Mii角色→ 它支持互联网Mii分享功能。"
+        ],
+        "audience": "喜爱《朋友聚会》系列的PC玩家，想在桌面端体验更先进、更自由的Mii岛屿生活模拟。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目主页或下载链接（jskblue.github.io）。",
+            "参照“Installation & Setup”指南进行安装。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Nintendo 3DS版《朋友聚会》",
+            "method": "原生主机游戏",
+            "models": "Nintendo 3DS",
+            "pricing": "付费购买卡带/数字版"
+          },
+          {
+            "name": "3DS模拟器（如Citra）",
+            "method": "在PC上模拟3DS运行游戏ROM",
+            "models": "兼容3DS ROM",
+            "pricing": "免费（模拟器），ROM可能需付费或通过其他方式获取"
+          }
+        ],
+        "pricing": "免费（项目未提及收费，推测为爱好者免费项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，README文档结构完整，功能描述宏大（AI集成、24/7客服），但Issue数为0，且部分承诺（如24/7客服）对个人项目而言略显夸张，需进一步观察实际开发进度与社区互动。",
+        "isVibeCoding": true,
+        "communityActivity": "极低，目前无任何Issue活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:42:13.322Z"
+    },
+    {
+      "owner": "NicoleK-M",
+      "repo": "Spoof-Matrix-Hardware",
+      "fullName": "NicoleK-M/Spoof-Matrix-Hardware",
+      "description": "Ultimate Hardware Spoofing Suite 2026 🔧 Bypass Detection, Mask Device ID, Change MAC",
+      "language": "Unknown",
+      "topics": [
+        "device-shadow-mode",
+        "game-spoofing",
+        "hardware",
+        "hardware-id-change",
+        "hardware-spoof-suite",
+        "identity-shift",
+        "mac-address-changer",
+        "mac-spoofing",
+        "machine-spoof-core",
+        "mime-spoofing",
+        "packet-spoofing",
+        "spoof-detected",
+        "spoof-extension",
+        "spoofcall",
+        "spoofed",
+        "spoofer-hwid-premium",
+        "spoofing",
+        "spoofing-detection",
+        "system-anonymizer",
+        "voice-spoofing"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:23:54Z",
+      "url": "https://github.com/NicoleK-M/Spoof-Matrix-Hardware",
+      "analysis": {
+        "positioning": "高级硬件身份伪装与系统匿名化框架。",
+        "useCases": [
+          "你是隐私倡导者或希望匿名上网 → 它帮你生成虚假硬件身份，避免被追踪和指纹识别。",
+          "你是渗透测试员 → 它帮你伪装设备身份，模拟多种环境，规避目标系统检测。",
+          "你是开发者，测试反作弊或风控系统 → 它帮你生成逼真的虚拟硬件配置，模拟不同设备进行系统测试。"
+        ],
+        "audience": "需要进行高级硬件身份伪装、系统匿名化、渗透测试或反作弊系统研究的技术人员。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载并安装PhantomSpoof Engine。",
+            "配置身份伪装档案或使用控制台命令启动。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念先进，功能描述强大，README专业且详细，但'2026'字样、语言/许可证未知、Issue为0等信息提示项目可能仍在早期构想或预告阶段，实际可用性待考。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue为0，社区活跃度极低或项目尚未正式启动。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-24T05:42:31.712Z"
+    },
+    {
+      "owner": "Lablez",
+      "repo": "Ping-Slayer-Network-Optimizer",
+      "fullName": "Lablez/Ping-Slayer-Network-Optimizer",
+      "description": "Ultimate Free Network Optimizer 2026 🚀 Boost FPS & Fix Ping Instantly",
+      "language": "Unknown",
+      "topics": [
+        "booster",
+        "download-exitlag-github",
+        "exit",
+        "exitlag-2026",
+        "exitlag-github",
+        "exitlag-no-trial",
+        "fortnite-fps-overdrive",
+        "fps-unlocker",
+        "fpsboost",
+        "fpsbooster",
+        "game-booster",
+        "game-optimizer",
+        "gaming-tools",
+        "high-performance",
+        "lag-fix",
+        "latency-reducer",
+        "network-acceleration",
+        "network-routing",
+        "packet-loss-fix",
+        "ping-fix"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:21:47Z",
+      "url": "https://github.com/Lablez/Ping-Slayer-Network-Optimizer",
+      "analysis": {
+        "positioning": "终极免费网络优化器，通过智能路由加速游戏，提升FPS，降低延迟。",
+        "useCases": [
+          "玩竞技游戏时遇到高延迟和卡顿 → 它通过智能网络路由优化，显著降低Ping值并减少丢包，助你获得更流畅的游戏体验。",
+          "进行直播或高带宽应用需要稳定网络 → 它提供实时数据包优先级和内核级优化，确保关键流量得到高速传输，避免中断。",
+          "网络受ISP限速或拥堵影响，导致性能不佳 → 它智能绕过拥堵节点和ISP节流，动态选择最佳网络路径，最大化带宽利用率。"
+        ],
+        "audience": "竞技玩家、游戏主播及对网络性能有极致要求的用户，期望无延迟、零丢包的顶尖在线体验。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目下载链接 `https://Lablez.github.io` 获取软件安装包。",
+            "安装后运行，可选择预设游戏配置文件或根据需求自定义优化设置。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "ExitLag",
+            "method": "通过专用服务器网络优化游戏路由，减少延迟和丢包。",
+            "models": "专注于游戏加速，针对多款主流游戏提供优化。",
+            "pricing": "付费订阅，通常提供免费试用。"
+          },
+          {
+            "name": "传统VPN服务",
+            "method": "通过加密隧道改变IP地址和网络路径，主要用于隐私保护或突破地域限制。",
+            "models": "通用网络代理，不专门针对游戏进行精细化优化。",
+            "pricing": "多数为付费订阅。"
+          }
+        ],
+        "pricing": "免费。项目明确标榜为“终极免费网络优化器”，并强调注册用户可获得无试用期限制的性能体验。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述极力强调高性能、前沿技术（AI驱动、内核级优化、云增强），但作为GitHub项目，语言未知、Issue数为零，且下载链接指向外部，代码透明度低。宣传内容过于商业化和“完美”，与典型的开源项目氛围不符。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区完全没有互动，不具备典型开源项目的社区协作特征。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:42:47.837Z"
+    },
+    {
+      "owner": "muhammadqasimkalhoro94-blip",
+      "repo": "claude-zeroclaw-agentics",
+      "fullName": "muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
+      "description": "🚀 ZeroClaw Subagents 2026: AI Orchestration with Claude Code Router & MCP",
+      "language": "Unknown",
+      "topics": [
+        "awesome-claude-code",
+        "claude",
+        "claude-4-5-sonnet",
+        "claude-code",
+        "claude-code-claw",
+        "claude-code-cli",
+        "claude-code-proxy",
+        "claude-code-router",
+        "claude-code-sdk",
+        "claude-code-zeroclaw",
+        "claude-context",
+        "claude-desktop",
+        "claude-integration",
+        "claude-mcp",
+        "claude-sdk",
+        "claude-skill",
+        "claude-subagents",
+        "zeroclaw",
+        "zeroclaw-claude",
+        "zeroclaw-claude-code"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:20:14Z",
+      "url": "https://github.com/muhammadqasimkalhoro94-blip/claude-zeroclaw-agentics",
+      "analysis": {
+        "positioning": "基于Claude的零成本分布式AI智能体编排框架。",
+        "useCases": [
+          "你需要在多个代码库间切换上下文 → 它帮你用Claude高效协同、无需多开会话。",
+          "你想让Claude同时管理桌面应用、自定义集成和SDK → 它帮你实现统一协调，共享记忆。",
+          "你想让Claude跨多个MCP服务器和代码库工作 → 它帮你通过零成本缓存实现分布式智能。"
+        ],
+        "audience": "面向使用Claude 4.5 Sonnet进行复杂多仓库、多工具开发的工程师。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+ (推荐3.12), 已安装Claude Code CLI",
+          "steps": [
+            "从项目主页下载或根据文档安装Zeroclaw"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（框架本身，API调用费用另计）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "语言充满创新和前瞻性，强调“零成本”、“分布式智能”和“编排”，配有清晰的技术架构图，表达了颠覆传统Claude使用模式的愿景。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无Issue活动，社区活跃度未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-24T05:43:00.657Z"
+    },
+    {
+      "owner": "teendriller0",
+      "repo": "AllMods-Subnautica-2",
+      "fullName": "teendriller0/AllMods-Subnautica-2",
+      "description": "﻿Subnautica 2 Mod Manager 2026 – Ultimate Multiplayer Mods Download",
+      "language": "Unknown",
+      "topics": [
+        "mod",
+        "mod-manager",
+        "modmanager",
+        "sn2-mod",
+        "sn2-mods",
+        "subnautica-2-all-mods",
+        "subnautica-2-mod",
+        "subnautica-2-mods",
+        "subnautica-2-multiplayer",
+        "subnautica-mod",
+        "subnautica-mods",
+        "subnautica-multiplayer",
+        "subnautica2",
+        "subnautica2-mod",
+        "subnautica2modmanager",
+        "ue4ss-subnautica-2"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T11:00:39Z",
+      "url": "https://github.com/teendriller0/AllMods-Subnautica-2",
+      "analysis": {
+        "positioning": "《深海迷航2》终极模组管理器，解锁多人联机与无限探索。",
+        "useCases": [
+          "你觉得《深海迷航2》玩法不够丰富 → 它帮你安装各种模组，扩展游戏内容、新增生物和UI。",
+          "你想和朋友联机探索《深海迷航2》海底世界 → 它帮你搭建多达32人的P2P多人联机环境。",
+          "你追求极致个性化或定制化游戏体验 → 它提供运行时脚本注入、资产覆盖及性能调优功能。"
+        ],
+        "audience": "适合希望扩展《深海迷航2》游戏体验、实现多人联机或进行深度定制的玩家、模组开发者及服务器管理员。",
+        "quickStart": {
+          "prerequisites": "已安装《深海迷航2》游戏本体",
+          "steps": [
+            "访问项目提供的下载链接 (teendriller0.github.io)",
+            "下载并运行模组管理器"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰，功能丰富，特别强调了多人联机和UE4SS底层支持，架构图和配置示例提升了专业感。作为游戏模组工具，技术细节到位。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，表明在GitHub上可见的社区互动和问题解决不活跃，但项目声称通过Discord提供24/7支持。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-24T05:43:30.850Z"
     }
   ]
 }

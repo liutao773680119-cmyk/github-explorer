@@ -1,0 +1,107 @@
+{
+  "version": "1",
+  "date": "2026-05-24",
+  "startedAt": "2026-05-24T05:39:21.403Z",
+  "finishedAt": "2026-05-24T05:44:27.433Z",
+  "durationSeconds": 306,
+  "success": true,
+  "stats": {
+    "fetched": 115,
+    "newProjects": 17,
+    "skipped": 98,
+    "geminiCalls": 27,
+    "statsUpdated": 115
+  },
+  "errors": [
+    {
+      "time": "2026-05-24T05:43:03.813Z",
+      "level": "warn",
+      "project": "pierremichaeljensen/Yuzu-Switch-Emulation-Kit",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:06.883Z",
+      "level": "warn",
+      "project": "bollahouse/office-2024-pro-integration-suite",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:09.935Z",
+      "level": "warn",
+      "project": "rayhayqal/Mythos-Claude-Skill-Forge",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:13.106Z",
+      "level": "warn",
+      "project": "sofian160616/Delta-Inject-Workstation",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:16.131Z",
+      "level": "warn",
+      "project": "ochoaochoa330-design/Aegis-V4-Client-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:19.204Z",
+      "level": "warn",
+      "project": "rafa450367/forza-horizon-6-community-edition",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:33.983Z",
+      "level": "warn",
+      "project": "danyy-svg/AutoCAD-Suite-Builder",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:37.094Z",
+      "level": "warn",
+      "project": "hahavelhojoguinho/guild-advancement-automator",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:40.163Z",
+      "level": "warn",
+      "project": "sikander12342/Subnautica-2-Nitrox-Deep-Dive",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-24T05:43:43.305Z",
+      "level": "warn",
+      "project": "pheejm/forza-horizon-6-ultimate-mod-pack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
