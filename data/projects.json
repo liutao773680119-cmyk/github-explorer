@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-24T05:43:30.861Z",
+  "updatedAt": "2026-05-25T06:07:23.635Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -36318,6 +36318,1002 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-24T05:43:30.850Z"
+    },
+    {
+      "owner": "gonefunctor",
+      "repo": "ariel",
+      "fullName": "gonefunctor/ariel",
+      "description": "AArch64 EL2 hypervisor for QEMU virt that boots at EL2",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-25T00:58:52Z",
+      "url": "https://github.com/gonefunctor/ariel",
+      "analysis": {
+        "positioning": "AArch64 EL2 轻量级 hypervisor，专为QEMU virt环境设计。",
+        "useCases": [
+          "你做AArch64虚拟化研究 → 它帮你快速在QEMU virt环境启动并测试EL2 hypervisor。",
+          "你开发AArch64 EL1 Guest OS → 它帮你提供一个可控的EL2环境来运行和调试你的Guest。",
+          "你需要自定义Guest OS特权行为 → 它帮你通过策略表拦截和处理Guest的特权操作。",
+          "你需要从Guest与Hypervisor通信 → 它帮你通过Hypercall实现Guest与Hypervisor的交互。"
+        ],
+        "audience": "适用于AArch64系统编程、虚拟化技术研究者及嵌入式开发者，在QEMU virt上进行EL2 hypervisor或Guest OS开发。",
+        "quickStart": {
+          "prerequisites": "QEMU、GCC (或兼容AArch64的C编译器)、make",
+          "steps": [
+            "克隆项目到本地",
+            "运行 `make clean && make` 编译Hypervisor",
+            "运行 `make run` 启动Hypervisor及内置诊断Guest",
+            "或运行 `make run-linux LINUX_IMAGE=/path/Image LINUX_DTB=/path/qemu-virt.dtb` 启动外部Linux镜像"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "AArch64 EL2 hypervisor开发需要深入理解硬件和虚拟化原理，纯C语言，技术门槛高，不适合追求快速上手或“炫技”的开发者，但对特定领域爱好者有深层吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "项目Star数低（23），Issue统计显示0开/0闭，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:02:25.702Z"
+    },
+    {
+      "owner": "realrossmanngroup",
+      "repo": "no_ai_slop_writing_rules",
+      "fullName": "realrossmanngroup/no_ai_slop_writing_rules",
+      "description": "Claude Code reference: write in Louis Rossmann's voice, never like AI slop. Portable CLAUDE.md plus skills.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-25T00:29:21Z",
+      "url": "https://github.com/realrossmanngroup/no_ai_slop_writing_rules",
+      "analysis": {
+        "positioning": "为Claude定制，以Louis Rossmann风格杜绝AI套路写作。",
+        "useCases": [
+          "你提交的内容有明显AI痕迹 → 它帮你去除AI固化模式，产出个性化文本。",
+          "你想复刻Louis Rossmann的犀利文风 → 它为Claude提供数据驱动指南，精确模仿其表达。",
+          "你寻求通用非AI写作规范 → 它提供一套可移植规则，适用于文章、脚本、邮件等场景。"
+        ],
+        "audience": "寻求高质量、个性化文本输出的LLM用户，尤其厌倦AI套路、或希望模仿特定人声（如Louis Rossmann）的创作者。",
+        "quickStart": {
+          "prerequisites": "已安装并配置Claude Code环境。",
+          "steps": [
+            "将项目文件夹置于目标项目旁，或指定给Claude Code。",
+            "要求Claude进行文本创作或编辑，它将自动遵循这些规则并自检输出。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费使用（需自备Claude Code环境）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是对“AI味”内容的直接抨击，旨在通过一套严苛规则和数据驱动的风格分析，帮助AI摆脱刻板模式，模仿特定人物的鲜明、个性化文风，对“好”内容有极强的主观追求和明确定义。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎没有社区互动，目前无Issue开启或关闭。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-25T06:02:38.016Z"
+    },
+    {
+      "owner": "Hemani-S",
+      "repo": "legal-case--prediction-project",
+      "fullName": "Hemani-S/legal-case--prediction-project",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-25T05:39:31Z",
+      "url": "https://github.com/Hemani-S/legal-case--prediction-project",
+      "analysis": {
+        "positioning": "基于Jupyter Notebook的法律案件结果预测方案。",
+        "useCases": [
+          "你是一名律师/法务，想快速评估案件胜诉概率 → 它帮你通过机器学习预测案件结果，辅助决策。",
+          "你是一名法律AI开发者，想学习和实践法律文本预测 → 它提供可运行的Jupyter Notebook，方便复用和学习。",
+          "你是一名法律研究员，想分析历史判例数据模式 → 它提供一个结构化项目，用于探索法律数据预测模型。"
+        ],
+        "audience": "适合律师、法务、法律研究员及法律AI学习者，用于辅助案件决策、数据分析及技术学习。",
+        "quickStart": {
+          "prerequisites": "Python环境，Jupyter Notebook/Lab",
+          "steps": [
+            "克隆项目仓库",
+            "安装requirements.txt中的依赖",
+            "启动Jupyter Notebook/Lab并打开项目文件"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LexisNexis/Thomson Reuters（部分高级服务）",
+            "method": "订阅平台，直接查询分析结果",
+            "models": "专有AI模型，法律知识图谱",
+            "pricing": "付费"
+          },
+          {
+            "name": "Hugging Face等开源NLP库上的法律模型",
+            "method": "部署模型，编写代码调用API",
+            "models": "Transformer/BERT等预训练模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目Star数较低，Issue不活跃，可能缺乏持续维护。作为一个Jupyter Notebook项目，更偏向于概念验证或学习示例，而非成熟产品。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无开启或关闭的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:02:51.886Z"
+    },
+    {
+      "owner": "johilrohan92-prog",
+      "repo": "Fingerprint-Based-Blood-Group-Detection-Using--vision-transformer-and--ensemble-learning",
+      "fullName": "johilrohan92-prog/Fingerprint-Based-Blood-Group-Detection-Using--vision-transformer-and--ensemble-learning",
+      "description": "",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-25T05:02:06Z",
+      "url": "https://github.com/johilrohan92-prog/Fingerprint-Based-Blood-Group-Detection-Using--vision-transformer-and--ensemble-learning",
+      "analysis": {
+        "positioning": "基于指纹图像，用AI自动检测血型。",
+        "useCases": [
+          "你做AI图像识别在医疗领域的应用研究 → 它帮你提供指纹血型识别的机器学习模型和数据集范例。",
+          "你对生物特征识别的非侵入性检测方法感兴趣 → 它帮你探索通过指纹图像判断血型的可行性。",
+          "你在学习深度学习模型（如ResNet, VGG16）的实践应用 → 它帮你提供一个具体的案例，了解如何用这些模型解决图像分类问题。"
+        ],
+        "audience": "机器学习开发者、AI研究者，及对生物特征识别和医疗AI应用感兴趣的学生。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+、Jupyter Notebook、PyTorch及requirements.txt中列出的其他库。",
+          "steps": [
+            "git clone https://github.com/johilrohan92-prog/Fingerprint-Based-Blood-Group-Detection-Using--vision-transformer-and--ensemble-learning.git",
+            "cd Fingerprint-Based-Blood-Group-Detection-Using--vision-transformer-and--ensemble-learning",
+            "pip install -r requirements.txt"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，代码和数据集组织良好，提供多种深度学习模型（ResNet, VGG16等）对比。但项目描述与实际列出的模型存在视觉Transformer与CNN的差异，且创新性和实际应用潜力需进一步评估。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前没有Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:03:08.061Z"
+    },
+    {
+      "owner": "open-gsd",
+      "repo": "get-shit-done-redux",
+      "fullName": "open-gsd/get-shit-done-redux",
+      "description": "Getting Shit Done, the Aftermath",
+      "language": "JavaScript",
+      "topics": [
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-22T11:36:21Z",
+      "url": "https://github.com/open-gsd/get-shit-done-redux",
+      "analysis": {
+        "positioning": "AI编程助手，智能管理AI上下文，提升代码生成质量。",
+        "useCases": [
+          "你用AI编程助手写代码时，上下文过长导致质量下降 → 它帮你通过智能管理上下文，保持AI代码输出质量。",
+          "你希望AI按明确规范精准生成代码，避免跑偏 → 它帮你实现规范驱动开发，AI代码生成更符合预期。",
+          "你需要一款轻量高效的AI编程工具，提高开发效率 → 它提供元提示与上下文工程，加速你的开发进程。"
+        ],
+        "audience": "适合AI编程开发者，尤其是对AI代码质量、效率和按规范开发有高要求的工程师，以及使用Claude Code、OpenCode、Gemini CLI等多种AI编码工具的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开终端，运行 `npx @opengsd/get-shit-done-redux@latest` 初始化项目。",
+            "（针对GSD老用户）运行 `/gsd-map-codebase` 重新索引你的代码库。"
+          ],
+          "note": "支持Mac、Windows和Linux跨平台运行，无特定平台差异。"
+        },
+        "competitors": [
+          {
+            "name": "SpecKit",
+            "method": "AI规范驱动开发",
+            "models": "多种AI编程模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "OpenSpec",
+            "method": "AI规范驱动开发",
+            "models": "多种AI编程模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "Taskmaster",
+            "method": "AI任务管理与代码生成",
+            "models": "多种AI编程模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于MIT许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名“Get Shit Done”、描述“Aftermath”及用户评价“No bs”、“Literally just gets shit done”等词语，直白粗犷，强调极致的效率和解决问题，自带一种“不废话，干就完了”的酷劲。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue全部已关闭（83/83），维护团队响应迅速；项目拥有617个GitHub Star，活跃的Discord社区，并定期发布安全审计报告和连续性公告，社区活跃且透明。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-25T06:03:28.066Z"
+    },
+    {
+      "owner": "0xSero",
+      "repo": "codex-shim",
+      "fullName": "0xSero/codex-shim",
+      "description": "Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-22T07:38:07Z",
+      "url": "https://github.com/0xSero/codex-shim",
+      "analysis": {
+        "positioning": "让Codex桌面版用上BYOK模型和ChatGPT 5.5。",
+        "useCases": [
+          "你使用Codex Desktop → 它让你在Codex中集成并使用Factory BYOK自定义模型（如OpenAI、Anthropic等）。",
+          "你拥有ChatGPT订阅 → 它让你在Codex Desktop的模型选择器中同时看到并使用GPT-5.5。",
+          "你不想修改Codex Desktop配置 → 它通过本地shim，无需重新编译或更改全局配置即可扩展模型支持。"
+        ],
+        "audience": "拥有多种AI模型API密钥（如OpenAI/Anthropic/Factory）的Codex Desktop用户，希望统一管理和使用这些模型。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+, git",
+          "steps": [
+            "克隆项目，安装Python依赖，并创建二进制文件软链接。",
+            "运行`codex-shim generate`生成模型目录，然后运行`codex-shim start`启动本地shim服务。",
+            "使用`codex-shim app .`命令启动Codex Desktop，使其连接到本地shim以加载自定义模型。"
+          ],
+          "note": "macOS arm64已测试。Linux/Windows用户可跳过ASAR补丁。如果模型未显示，可能需要额外的Picker补丁。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决Codex Desktop官方模型限制的痛点。文档清晰，安装和使用步骤详细，命令行工具简化操作。作为一个shim，它在特定生态中填补了空白，没有直接竞品。",
+        "isVibeCoding": true,
+        "communityActivity": "开启5个Issue，已关闭0个，表明有用户反馈和活跃度，但目前尚未有Issue被解决。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-25T06:03:44.232Z"
+    },
+    {
+      "owner": "rayhayqal",
+      "repo": "Mythos-Claude-Skill-Forge",
+      "fullName": "rayhayqal/Mythos-Claude-Skill-Forge",
+      "description": "🚀 Claude Mythos AI 2026 – Build Autonomous Agent Skills & Plugins for Next-Gen Apps",
+      "language": "Unknown",
+      "topics": [
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "claude-code-cli",
+        "claude-code-hooks",
+        "claude-code-marketplace",
+        "claude-code-plugin",
+        "claude-code-plugins",
+        "claude-code-skill",
+        "claude-code-skills",
+        "claude-code-subagents",
+        "claude-cowork-free",
+        "claude-design-ai",
+        "claude-design-alternative",
+        "claude-design-download",
+        "claude-design-free",
+        "claude-mythos",
+        "claude-opus",
+        "claude-opus-4-6",
+        "mythos"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:56:37Z",
+      "url": "https://github.com/rayhayqal/Mythos-Claude-Skill-Forge",
+      "analysis": {
+        "positioning": "为Claude AI构建自主智能体技能与插件的开发框架。",
+        "useCases": [
+          "你想为Claude定制复杂、有特定行为模式的AI助手 → 它通过'神话层'(mythos layers)和'行为分析器'，将Claude打造成具备专业技能的数字工匠。",
+          "你需要在应用中集成多功能的AI工作流 → 它提供子代理编排、技能市场与插件注册，实现多AI协同作业。",
+          "你是开发者，想利用Claude API构建下一代AI应用 → 它提供命令行工具(CLI)、钩子(Hooks)及兼容OpenAI的API路由器，简化开发与集成。"
+        ],
+        "audience": "追求高级定制化Claude AI体验的开发者、设计师和研究者。",
+        "quickStart": {
+          "prerequisites": "Python (3.10-3.12), Claude API密钥。",
+          "steps": [
+            "访问项目提供的下载链接，获取项目代码或安装包。",
+            "根据项目文档配置Claude API密钥，并开始构建您的Mythos AI技能。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain/LlamaIndex",
+            "method": "Python SDK/JS SDK",
+            "models": "支持多种LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "直接使用Anthropic Claude API",
+            "method": "API调用",
+            "models": "Claude系列模型",
+            "pricing": "按使用量付费"
+          }
+        ],
+        "pricing": "免费 (项目代码开源，但使用Claude API需按其官方定价付费)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述富有远见，概念宏大，将Claude AI打造成具备个性化行为模式和专业技能的“数字工匠”。架构图清晰且设计复杂，强调了“神话层”等创新概念，展现了构建下一代自主智能体的高度抱负。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无公开Issue和Pull Request记录，无法评估维护响应速度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-25T06:04:04.590Z"
+    },
+    {
+      "owner": "rafa450367",
+      "repo": "forza-horizon-6-community-edition",
+      "fullName": "rafa450367/forza-horizon-6-community-edition",
+      "description": "Forza Horizon 6 Premium Free Download 2026 – Steam PC Open Source Game",
+      "language": "Unknown",
+      "topics": [
+        "forza",
+        "forza-horizon",
+        "forza-horizon-6",
+        "forza-horizon-6-download",
+        "forza-horizon-6-free",
+        "forza-horizon-6-install",
+        "forza-horizon-6-pc",
+        "forza-horizon-6-premium",
+        "forza-horizon-6-release",
+        "forza-horizon-6-steam",
+        "forza-motorsport",
+        "game",
+        "open-source-game"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:57:22Z",
+      "url": "https://github.com/rafa450367/forza-horizon-6-community-edition",
+      "analysis": {
+        "positioning": "社区驱动的《极限竞速：地平线6》开源模拟器。",
+        "useCases": [
+          "你想开发定制竞速游戏 → 它提供模块化开源的游戏基础。",
+          "你想为游戏深度定制Mod → 它提供开放的代码平台进行扩展。",
+          "你想体验社区共创的竞速世界 → 它提供一个可参与建设的驾驶模拟环境。"
+        ],
+        "audience": "期望深度参与或高度定制开放世界赛车游戏的开发者、Modder及玩家。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目主页（rafa450367.github.io）获取下载链接或源码。",
+            "依据项目提供的指引进行安装或编译。"
+          ],
+          "note": "支持Windows、Linux、macOS等主流操作系统，并支持跨平台存档。"
+        },
+        "competitors": [
+          {
+            "name": "官方《极限竞速：地平线》系列（如地平线5）",
+            "method": "购买正版，通过Steam/Xbox等平台游玩。",
+            "models": "官方游戏内容、DLC。",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他商业开放世界赛车游戏（如《极品飞车》系列）",
+            "method": "购买正版，通过各游戏平台游玩。",
+            "models": "各自游戏内容。",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（开源项目）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述强烈强调开源、社区驱动、模块化及可定制性，营造了积极的开发参与氛围，但缺乏具体的代码语言和活跃的Issue，实际开发状态有待考证。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 开启和关闭均为0，与项目宣称的“社区驱动”和“24/7支持”不符，实际社区活跃度存疑。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:04:27.403Z"
+    },
+    {
+      "owner": "pheejm",
+      "repo": "forza-horizon-6-ultimate-mod-pack",
+      "fullName": "pheejm/forza-horizon-6-ultimate-mod-pack",
+      "description": "Forza Horizon 6 Best New CarPack Mods 2026 🚗🔥 Free Download & More Mods",
+      "language": "Unknown",
+      "topics": [
+        "fh6-mod",
+        "forza-horizon-6-carpack",
+        "forza-horizon-6-mod",
+        "forza-horizon-6-modpack",
+        "forza-mod",
+        "forza6-cars"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:57:00Z",
+      "url": "https://github.com/pheejm/forza-horizon-6-ultimate-mod-pack",
+      "analysis": {
+        "positioning": "为《极限竞速：地平线6》提供终极车辆包和游戏增强模组。",
+        "useCases": [
+          "想要体验《极限竞速：地平线6》中官方未收录的车辆 → 它帮你加入细节逼真的新车包。",
+          "觉得游戏画面、性能或音效不够尽兴 → 它帮你增强游戏视觉、性能和音频体验。",
+          "想深度自定义《极限竞速：地平线6》的玩法 → 它帮你通过模组调整游戏物理和UI。"
+        ],
+        "audience": "《极限竞速：地平线6》的资深玩家，希望扩展车辆库、深度定制游戏体验。",
+        "quickStart": {
+          "prerequisites": "需拥有《极限竞速：地平线6》PC版。",
+          "steps": [
+            "访问项目提供的下载链接获取模组包。",
+            "按照项目文档指引进行安装和设置。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目宣称支持未发布的FH6，且AI集成、外部下载链接可疑，极可能是欺诈或钓鱼。",
+        "isVibeCoding": true,
+        "communityActivity": "社区无活跃度，Issue均为0。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:04:47.456Z"
+    },
+    {
+      "owner": "pierremichaeljensen",
+      "repo": "Yuzu-Switch-Emulation-Kit",
+      "fullName": "pierremichaeljensen/Yuzu-Switch-Emulation-Kit",
+      "description": "Yuzu Nintendo Switch Emulator 2026 ⚡ Best Free PC Download & Vulkan Setup Guide",
+      "language": "Unknown",
+      "topics": [
+        "download-yuzu",
+        "game-boy-emulator",
+        "game-emulator",
+        "nes-emulator",
+        "nintendo-ds-emulator",
+        "nintendo-switch",
+        "nintendo-switch-emulator",
+        "nintendo-switch-hacking",
+        "nintendo-switch-homebrew",
+        "nintendo-switch-pc",
+        "nintendoswitch",
+        "retro-emulation",
+        "super-nintendo",
+        "yuzu",
+        "yuzu-download",
+        "yuzu-early-access",
+        "yuzu-emulator",
+        "yuzu-nintendo-switch",
+        "yuzu-switch",
+        "yuzu-vulkan"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:24:40Z",
+      "url": "https://github.com/pierremichaeljensen/Yuzu-Switch-Emulation-Kit",
+      "analysis": {
+        "positioning": "跨世代一体化游戏模拟平台，统一Nintendo多主机体验。",
+        "useCases": [
+          "你渴望在PC上玩Nintendo Switch游戏 → 它提供最佳PC兼容性及Vulkan优化，让你畅玩Switch大作。",
+          "你厌倦了为不同老游戏机安装多个模拟器 → 它将Game Boy、NES、SNES、DS等经典主机集成到统一平台，一站式解决。",
+          "你追求跨世代游戏模拟的高性能体验 → 它提供动态分辨率、低延迟输入和自适应帧同步，确保所有游戏丝滑运行。"
+        ],
+        "audience": "追求高性能、多世代游戏模拟体验的玩家和复古游戏爱好者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11、Linux (Ubuntu 22.04+、Fedora 38+) 或 macOS 14+ 操作系统；推荐支持Vulkan的显卡。",
+          "steps": [
+            "点击README中的下载链接获取安装包。",
+            "运行安装并启动仿真套件。",
+            "选择所需的游戏机核心并加载游戏ROM。"
+          ],
+          "note": "macOS平台Vulkan支持受限，性能可能不如Windows/Linux。"
+        },
+        "competitors": [
+          {
+            "name": "RetroArch",
+            "method": "统一管理各种模拟器核心，提供多主机模拟。",
+            "models": "广泛支持Game Boy, NES, SNES, Nintendo DS等众多主机，也可通过核心模拟Switch。",
+            "pricing": "免费"
+          },
+          {
+            "name": "Ryujinx",
+            "method": "专注于Nintendo Switch模拟，追求高性能和兼容性。",
+            "models": "Nintendo Switch",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目描述宏大且包含详细架构图、多语言支持，但无代码（语言未知）、无GitHub Issue跟踪，且直接引导至外部下载链接。项目名引用已关停的Yuzu模拟器并带有可疑的'2026'字样，作为开源代码项目真实性存疑，更像是经过包装的、可能包含私有分发甚至恶意内容的下载页面。",
+        "isVibeCoding": true,
+        "communityActivity": "无活跃度，GitHub Issue为零，不支持社区贡献。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:05:08.177Z"
+    },
+    {
+      "owner": "bollahouse",
+      "repo": "office-2024-pro-integration-suite",
+      "fullName": "bollahouse/office-2024-pro-integration-suite",
+      "description": "Microsoft Office 2026 Premium Free Download – Full Suite Installer 🚀",
+      "language": "Unknown",
+      "topics": [
+        "microsoft-office",
+        "microsoft-office-26",
+        "microsoft365",
+        "office",
+        "office-2024",
+        "office-365",
+        "office-download",
+        "office-installer",
+        "office-premium",
+        "office-tool",
+        "office-word",
+        "office365"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:57:44Z",
+      "url": "https://github.com/bollahouse/office-2024-pro-integration-suite",
+      "analysis": {
+        "positioning": "疑点重重，声称免费Office 2026且AI集成部署。",
+        "useCases": [
+          "你手动调整文档格式 → 它智能预测并自动优化排版。",
+          "你需要数据分析或内容生成 → 它利用AI模型（如GPT-4、Claude）自动填充、提炼或生成内容。",
+          "你作为IT管理员部署办公套件 → 它提供统一的YAML配置与命令行工具进行企业级部署和管理。"
+        ],
+        "audience": "面向寻求免费Office 2026、注重AI集成与企业级部署的IT管理员、高级用户和开发者。",
+        "quickStart": {
+          "prerequisites": "已安装 `office-premium-cli` 工具",
+          "steps": [
+            "准备一份YAML配置文件（如 `enterprise_2026.yaml`），定义语言、AI集成、安全等参数。",
+            "使用命令行工具 `office-premium-cli` 调用配置文件进行部署，例如：`office-premium-cli --profile enterprise_2026.yaml --install-path /opt/office-premium`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Microsoft Office (或 Microsoft 365)",
+            "method": "官方订阅/购买，下载安装。",
+            "models": "集成Copilot（特定版本/订阅）。",
+            "pricing": "付费。"
+          },
+          {
+            "name": "WPS Office",
+            "method": "免费下载安装。",
+            "models": "内置AI助手功能。",
+            "pricing": "部分免费，高级功能付费。"
+          }
+        ],
+        "pricing": "免费（根据项目描述）。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目声称提供“免费Office 2026”下载，但技术描述（AI集成、YAML配置、Mermaid图）与“免费下载器”的定位严重不符。语言、许可证未知，Issue数为零，且下载链接指向个人GitHub Pages，这些都指向该项目高度可疑，可能为恶意软件或钓鱼。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 开闭比为 0/0，无法评估响应速度。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-05-25T06:05:24.545Z"
+    },
+    {
+      "owner": "sofian160616",
+      "repo": "Delta-Inject-Workstation",
+      "fullName": "sofian160616/Delta-Inject-Workstation",
+      "description": "Delta Executor 2026 ⚡ Ultimate Roblox PC Script Hub - Free Download New",
+      "language": "Unknown",
+      "topics": [
+        "delta-executor-pc-edition",
+        "delta-executor-windows",
+        "delta-exploit",
+        "delta-exploit-2026",
+        "delta-exploits",
+        "delta-exucator",
+        "delta-new",
+        "delta-new-update",
+        "delta-queue",
+        "game-scripts",
+        "script-hub",
+        "scripthub"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:20:38Z",
+      "url": "https://github.com/sofian160616/Delta-Inject-Workstation",
+      "analysis": {
+        "positioning": "Roblox PC脚本执行器，实现游戏脚本自动化。",
+        "useCases": [
+          "你希望在Roblox游戏中自动执行复杂操作 → 它帮你加载并精确运行Roblox脚本。",
+          "你想找免费的Roblox脚本外挂工具 → 它提供一个PC端Roblox脚本执行器，声称免费。",
+          "你希望高效管理多个Roblox游戏脚本 → 它通过“Delta Queue Architecture”优化脚本执行和管理。"
+        ],
+        "audience": "Roblox PC玩家、脚本使用者，特别是寻求免费辅助工具或希望自动化游戏内操作的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 PC",
+          "steps": [
+            "访问README中提供的下载链接获取安装包。",
+            "在Windows PC上运行安装程序，并根据指引配置Delta Executor。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "KRNL",
+            "method": "下载并运行客户端，注入Roblox游戏进程以执行脚本。",
+            "models": "支持Lua脚本",
+            "pricing": "免费（通常含广告或Key系统）"
+          },
+          {
+            "name": "Synapse X",
+            "method": "下载并运行客户端，注入Roblox游戏进程以执行脚本。",
+            "models": "支持Lua脚本，功能更强大",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质为Roblox游戏第三方脚本执行器/外挂工具，存在游戏封号风险。虽然声称免费，但开源信息不完整（实际License为Unknown），GitHub仓库无Issue活动，且下载链接指向外部网站，存在潜在安全隐患。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue和Pull Request统计均为空，无法评估响应速度和项目维护状态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:05:41.861Z"
+    },
+    {
+      "owner": "ochoaochoa330-design",
+      "repo": "Aegis-V4-Client-2026",
+      "fullName": "ochoaochoa330-design/Aegis-V4-Client-2026",
+      "description": "Minecraft Vape V4 Hack 2026 Client ☑️ Instant Download New KillAura ESP",
+      "language": "Unknown",
+      "topics": [
+        "minecraft",
+        "minecraft-client",
+        "minecraft-esp",
+        "minecraft-impact",
+        "minecraft-killaura",
+        "minecraft-launcher",
+        "minecraft-vape",
+        "minecraft-vape-v4-download",
+        "minecraft-wurst",
+        "mod",
+        "vape-v4-client",
+        "vape-v4-free-account",
+        "vape-v4-hack"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:24:17Z",
+      "url": "https://github.com/ochoaochoa330-design/Aegis-V4-Client-2026",
+      "analysis": {
+        "positioning": "Minecraft高级增强客户端，宣称合法优化非外挂",
+        "useCases": [
+          "你玩Minecraft竞技小游戏 → 它帮你精准打击、透视实体",
+          "你建造复杂红石或跑酷 → 它帮你优化移动、智能搭桥",
+          "你想个性化Minecraft体验 → 它提供模块化界面及AI集成"
+        ],
+        "audience": "寻求高性能、高精度和个性化Minecraft体验的玩家，尤其是竞技或建造爱好者。",
+        "quickStart": {
+          "prerequisites": "拥有正版Minecraft游戏",
+          "steps": [
+            "访问下载链接 (https://ochoaochoa330-design.github.io) 进行下载。",
+            "根据客户端指引进行安装和配置。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "VapeV4",
+            "method": "客户端安装",
+            "models": "Minecraft增强功能",
+            "pricing": "未知"
+          },
+          {
+            "name": "Wurst",
+            "method": "客户端安装",
+            "models": "Minecraft增强功能",
+            "pricing": "未知"
+          },
+          {
+            "name": "Impact",
+            "method": "客户端安装",
+            "models": "Minecraft增强功能",
+            "pricing": "未知"
+          }
+        ],
+        "pricing": "可能提供免费版本，但具体商业模式未明确。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目表面上宣称是“合法增强平台”而非“外挂”，但其核心功能（如KillAura、ESP、Scaffold Walk）及关键词（vape-v4-hack）与作弊软件高度重合，且下载链接指向外部，存在风险和语义矛盾。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前只有一个Issue且未关闭，响应速度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:05:54.708Z"
+    },
+    {
+      "owner": "danyy-svg",
+      "repo": "AutoCAD-Suite-Builder",
+      "fullName": "danyy-svg/AutoCAD-Suite-Builder",
+      "description": "🚀 AutoCAD 2026 Pro Full Crack + Plugins for 3D CAD & Architectural Design",
+      "language": "Unknown",
+      "topics": [
+        "3d-cad-software",
+        "architectural-design-software",
+        "auto-cad",
+        "auto-cad-free",
+        "autocad",
+        "autocad-25",
+        "autocad-addins",
+        "autocad-install",
+        "autocad-program",
+        "autodesk-autocad-full",
+        "cad-software",
+        "latest-release-autocad",
+        "plugin-autocad",
+        "windows-cad"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:19:28Z",
+      "url": "https://github.com/danyy-svg/AutoCAD-Suite-Builder",
+      "analysis": {
+        "positioning": "AI赋能的下一代AutoCAD智能设计与协作平台。",
+        "useCases": [
+          "你描述设计概念（如“有机扶手阳台”）→ 它通过OpenAI API自动生成参数化变体。",
+          "你进行建筑结构优化或代码合规性检查 → 它利用Claude API提供智能建议和约束验证。",
+          "你需要在AutoCAD中进行多用户协作和动态模型编辑 → 它提供实时同步和适应性界面，增强团队效率。"
+        ],
+        "audience": "适用于使用AutoCAD 2025+进行建筑设计和3D CAD建模的专业人士，特别是需要AI辅助设计和团队协作的用户。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统，已安装AutoCAD 2025+。",
+          "steps": [
+            "点击README中的下载链接（https://danyy-svg.github.io）下载Auto-2026-Desktop。",
+            "按照指引安装该套件/插件，并将其集成至AutoCAD 2025+。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费（项目名暗示为破解版），但README未提及AI服务费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名直接包含“Full Crack”，暗示传播盗版软件，这严重损害其合法性和安全性。尽管README描述了一个功能强大的AI辅助CAD工具，但其真实性、是否包含恶意代码、以及使用是否合规均存疑。这种矛盾性导致信任度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 功能关闭且无任何记录，社区活跃度极低或不存在。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-25T06:06:14.735Z"
+    },
+    {
+      "owner": "hahavelhojoguinho",
+      "repo": "guild-advancement-automator",
+      "fullName": "hahavelhojoguinho/guild-advancement-automator",
+      "description": "🚀 Discord Server Booster 2026 – Auto Join & Boost Tool with Token Manager",
+      "language": "Unknown",
+      "topics": [
+        "discord-boost",
+        "discord-boost-bot",
+        "discord-boost-tool",
+        "discord-guild",
+        "discord-invite-manager",
+        "discord-selfbot",
+        "discord-server",
+        "discord-server-boost-tool",
+        "discord-server-joiner",
+        "discord-server-raid",
+        "discord-server-raid-bot",
+        "discord-token",
+        "discord-token-booster",
+        "discord-token-joiner",
+        "selfbot",
+        "server-joiner",
+        "server-script",
+        "token"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:21:01Z",
+      "url": "https://github.com/hahavelhojoguinho/guild-advancement-automator",
+      "analysis": {
+        "positioning": "Discord服务器自动化加群、助力及AI互动模拟工具。",
+        "useCases": [
+          "你希望快速提升Discord服务器的人气和活跃度 → 它帮你自动化加群、提升Server Boost等级，并模拟真实用户互动。",
+          "你需要管理大量Discord账号Token并避免被检测 → 它提供智能Token轮换、健康监控和限速处理。",
+          "你希望模拟真实且自然的社区对话以提升 engagement → 它集成OpenAI/Claude API，生成上下文感知、情感丰富的消息。"
+        ],
+        "audience": "Discord社区管理者、服主及自动化爱好者，旨在通过智能自动化提升服务器可见度和活跃度。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+，OpenAI/Claude API密钥（可选）。",
+          "steps": [
+            "访问项目GitHub页面下载工具。",
+            "配置Discord Token池和API密钥（如需AI互动）。",
+            "运行工具，启动自动化加群、助力和互动任务。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（工具本身开源），但AI API调用可能产生服务商费用。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目旨在通过“自控机器人”和“Token”自动化Discord服务器加群、助力和模拟互动。尽管强调“模仿有机增长”，其核心机制可能违反Discord服务条款，存在账号被封禁的风险。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue区活跃度极低，目前没有开放或关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-25T06:06:28.293Z"
+    },
+    {
+      "owner": "sikander12342",
+      "repo": "Subnautica-2-Nitrox-Deep-Dive",
+      "fullName": "sikander12342/Subnautica-2-Nitrox-Deep-Dive",
+      "description": "Subnautica 2 Release Date 2026 PS5 & Steam - Early Access Nitrox Multiplayer Guide",
+      "language": "Unknown",
+      "topics": [
+        "early-access-subnautica-2",
+        "nitrox-pirate",
+        "pc-ports",
+        "playstation-5",
+        "porting-game",
+        "ps5-bot",
+        "ps5-stock",
+        "subnautica",
+        "subnautica-2",
+        "subnautica-2-coming-to-ps5",
+        "subnautica-2-multiplayer",
+        "subnautica-2-on-ps5",
+        "subnautica-2-release",
+        "subnautica-2-release-date-ps5",
+        "subnautica-2-steam",
+        "subnautica-2-xbox",
+        "subnautica-multiplayer",
+        "unknown-worlds"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T10:22:56Z",
+      "url": "https://github.com/sikander12342/Subnautica-2-Nitrox-Deep-Dive",
+      "analysis": {
+        "positioning": "Subnautica 2多平台移植与部署工具集",
+        "useCases": [
+          "你开发Subnautica 2多平台版本 → 它帮你标准化移植与部署流程",
+          "你作为modder或移植团队 → 它提供工具实现Subnautica 2跨平台“融合”",
+          "你关注Nitrox多人模式或PS5自动化 → 它支持Nitrox同步与PS5机器人管理"
+        ],
+        "audience": "适合Subnautica 2开发者、modder及移植团队，实现游戏跨平台部署与管理。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "根据平台需求配置游戏移植部署档案（Example Profile Configuration）",
+            "通过命令行调用工具包执行集成操作（Example Console Invocation）"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述充满营销术语（如“数字船坞”、“核心神经系统”、“端口融合”），强调“24/7支持架构”、“AI集成（代码审查）”等与典型开源工具定位不符的商业化措辞，目标年份设定更像商业产品发布。",
+        "isVibeCoding": true,
+        "communityActivity": "极低（0 issues开启/0关闭，无活动迹象）",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-25T06:06:41.101Z"
+    },
+    {
+      "owner": "run-liyi",
+      "repo": "wechatpay",
+      "fullName": "run-liyi/wechatpay",
+      "description": "微信账单分析工具 - 基于Electron的可视化账单分析应用",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-21T06:40:00Z",
+      "url": "https://github.com/run-liyi/wechatpay",
+      "analysis": {
+        "positioning": "你的微信账单专属可视化分析工具。",
+        "useCases": [
+          "你想知道钱都花哪了，收支结构如何 → 它帮你直观呈现收支构成、消费大头和交易明细。",
+          "你想掌握消费趋势和习惯，优化财务管理 → 它帮你按时段、按类别分析资金流向和变化趋势。",
+          "你需要整理财务数据，生成专业报告 → 它帮你将多维度分析结果一键导出Excel，便于长期留存和深入分析。"
+        ],
+        "audience": "适合需要深入了解个人微信消费习惯、优化财务管理的普通用户，以及希望通过可视化工具提升数据分析效率的人群。",
+        "quickStart": {
+          "prerequisites": "已安装 Node.js 和 npm",
+          "steps": [
+            "克隆项目并进入目录：`git clone ... && cd wechatpay`",
+            "安装依赖：`npm install`",
+            "运行应用：`npm start`"
+          ],
+          "note": "应用打包支持 Windows/macOS/Linux 平台，运行应用无平台差异。"
+        },
+        "competitors": [
+          {
+            "name": "微信APP内置账单功能",
+            "method": "在微信APP内查看，功能受限",
+            "models": "基础收支统计、月度账单",
+            "pricing": "免费"
+          },
+          {
+            "name": "专业记账APP/软件（如随手记、MoneyWiz）",
+            "method": "手动录入或需复杂导入流程，多账户管理",
+            "models": "全面预算、多维度报表、资产负债",
+            "pricing": "部分免费/付费订阅"
+          }
+        ],
+        "pricing": "免费。开源工具，无任何使用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，README文档详尽，功能特性丰富且实用，技术栈主流，提供多平台打包和清晰的使用指南，对用户和开发者都比较友好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低。目前无任何 Issue 记录，可能是项目较新或用户参与度尚不高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:06:58.086Z"
+    },
+    {
+      "owner": "bonus-2026",
+      "repo": "casino-bonus",
+      "fullName": "bonus-2026/casino-bonus",
+      "description": "Casino Bonus guide featuring a $250 USD no deposit welcome reward for new users with promo code DROP. Explore crypto casino bonuses, cashback systems, welcome offers, and gaming platform features",
+      "language": "Unknown",
+      "topics": [
+        "casino-bonus-2026"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-23T13:50:00Z",
+      "url": "https://github.com/bonus-2026/casino-bonus",
+      "analysis": {
+        "positioning": "加密赌场免费奖金指南，注册即送250美元",
+        "useCases": [
+          "你想免费试玩加密赌场 → 它帮你找到250美元免存欢迎奖金",
+          "你想了解加密赌场优势 → 它带你探索其交易速度、隐私等特点",
+          "你想学习赌场奖励机制 → 它为你讲解欢迎奖金、返现等系统原理"
+        ],
+        "audience": "寻求在线赌场（特别是加密赌场）免费奖励和注册优惠的新用户",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问注册链接：https://dicewin.cc/auth/register?promo=drop",
+            "注册时使用促销代码：DROP",
+            "领取250美元欢迎奖金"
+          ],
+          "note": "请务必查看当地法律和平台条款"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身是信息指南，推荐的赌场奖金为免费领取）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个利用GitHub发布营销内容的页面，而非传统意义上的技术开发项目，因此编码氛围评分最低。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极低，Issue功能基本未被使用，更像是一个单向信息发布渠道。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-25T06:07:13.230Z"
+    },
+    {
+      "owner": "Unclecheng-li",
+      "repo": "poc-lab",
+      "fullName": "Unclecheng-li/poc-lab",
+      "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
+      "language": "C",
+      "topics": [
+        "c",
+        "cybersecurity",
+        "linux",
+        "poc",
+        "python",
+        "python3",
+        "vulnerability"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-20T13:31:52Z",
+      "url": "https://github.com/Unclecheng-li/poc-lab",
+      "analysis": {
+        "positioning": "高危漏洞PoC集，助攻多平台安全研究。",
+        "useCases": [
+          "你复现新披露的高危漏洞 → 它提供现成PoC脚本和复现指南。",
+          "你评估系统风险 → 它帮你快速验证特定CVE的实际影响。",
+          "你学习漏洞攻防 → 它提供真实PoC案例，帮你理解漏洞原理和利用。"
+        ],
+        "audience": "专注于漏洞研究、渗透测试和安全防御的安全专家、工程师及学习者。",
+        "quickStart": {
+          "prerequisites": "Git, Python3",
+          "steps": [
+            "`git clone https://github.com/Unclecheng-li/poc-lab.git && cd poc-lab`",
+            "`cd <CVE-or-NAME>`",
+            "`cat README.md`",
+            "`python3 exploit.py` (或 `bash exploit.sh`)"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README结构清晰，提供中英文版，快速上手指南详细，贡献和免责声明完备，内容组织良好，方便查阅和使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活动，但项目活跃，通过Pull Request引入新PoC。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-25T06:07:23.624Z"
     }
   ]
 }
