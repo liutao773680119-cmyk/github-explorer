@@ -1,0 +1,62 @@
+{
+  "version": "1",
+  "date": "2026-05-26",
+  "startedAt": "2026-05-26T05:43:54.359Z",
+  "finishedAt": "2026-05-26T05:49:57.879Z",
+  "durationSeconds": 364,
+  "success": true,
+  "stats": {
+    "fetched": 109,
+    "newProjects": 19,
+    "skipped": 90,
+    "geminiCalls": 24,
+    "statsUpdated": 109
+  },
+  "errors": [
+    {
+      "time": "2026-05-26T05:48:40.821Z",
+      "level": "warn",
+      "project": "Simbastack-hq/framedex",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-26T05:48:43.978Z",
+      "level": "warn",
+      "project": "akitaonrails/ai-memory",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-26T05:48:47.202Z",
+      "level": "warn",
+      "project": "kouhxp/yapsnap",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-26T05:48:51.275Z",
+      "level": "warn",
+      "project": "PredictiveFlow-Labs/polymarket-arbitrage-bot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-26T05:49:15.381Z",
+      "level": "warn",
+      "project": "rohitg00/ai-engineering-from-scratch",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

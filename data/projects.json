@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-25T06:07:23.635Z",
+  "updatedAt": "2026-05-26T05:48:37.590Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -37314,6 +37314,850 @@
         "category": "安全"
       },
       "analyzedAt": "2026-05-25T06:07:23.624Z"
+    },
+    {
+      "owner": "SeemSeam",
+      "repo": "plan-tree",
+      "fullName": "SeemSeam/plan-tree",
+      "description": "Codex skill for maintaining structured planning document trees",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-26T00:22:59Z",
+      "url": "https://github.com/SeemSeam/plan-tree",
+      "analysis": {
+        "positioning": "帮助AI Agent将短期规划固化为长期结构化文档树。",
+        "useCases": [
+          "你进行AI项目协作，讨论、决策零散 → 它帮你把这些信息结构化为可维护的Markdown规划树。",
+          "你使用AI Agent快速迭代，进展和新问题难以追踪 → 它帮你将每次执行的进展、证据和新问题回写到规划树，避免信息漂移。",
+          "你面临复杂的AI项目规划，传统方法效率低 → 它帮你从“小规划小执行”转变为“大规划大批次执行”，提升项目稳定性与可控性。"
+        ],
+        "audience": "适用于AI项目经理、开发者及团队，在AI辅助开发中追求规范化、可持续的规划管理和决策追踪。",
+        "quickStart": {
+          "prerequisites": "需支持Codex技能的AI Agent平台。",
+          "steps": [
+            "安装并配置SeemSeam/plan-tree作为Codex技能（具体步骤需查阅其集成平台文档）。",
+            "通过AI Agent交互，引导其将短期计划、讨论、决策等转化为规划树结构。",
+            "在AI Agent执行任务后，指示其将执行结果、遇到的问题或新的决策更新回规划树。"
+          ],
+          "note": "作为一个“Codex skill”，其具体使用方式依赖于集成平台和AI Agent的交互接口。"
+        },
+        "competitors": [
+          {
+            "name": "传统项目管理工具（如Jira、Trello）",
+            "method": "任务列表、看板、文档关联（需人工维护）",
+            "models": "N/A",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "通用文档协作平台（如Notion、Confluence）",
+            "method": "灵活的文档创建与知识库搭建（需人工结构化）",
+            "models": "N/A",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费（根据GitHub项目信息推断为开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目通过强调“大规划、大批次执行”模式，将短期计划固化为长期结构化文档，显著减少AI辅助开发中的“即兴编码”和信息漂移，有助于提升项目规范性。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极低或项目刚起步，目前Issue统计为0/0，无公开问题讨论。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:44:09.992Z"
+    },
+    {
+      "owner": "vaamonde",
+      "repo": "ai-network-senac-tit",
+      "fullName": "vaamonde/ai-network-senac-tit",
+      "description": "Repositório do Curso de IA para Redes de Computadores do SENAC Lapa Tito",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-26T00:51:22Z",
+      "url": "https://github.com/vaamonde/ai-network-senac-tit",
+      "analysis": {
+        "positioning": "SENAC Lapa Tito的计算机网络AI课程代码库。",
+        "useCases": [
+          "你正在学习SENAC Lapa Tito的AI网络课程 → 它帮你获取课程代码和资料。",
+          "你是该课程讲师 → 它帮你管理和分享课程材料。",
+          "你想了解AI在网络中的应用 → 它可以作为该课程的学习参考。"
+        ],
+        "audience": "SENAC Lapa Tito计算机网络AI课程的学员、讲师，或对AI与网络结合感兴趣的学习者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目：`git clone https://github.com/vaamonde/ai-network-senac-tit.git`",
+            "进入目录：`cd ai-network-senac-tit`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，项目代码基于MIT许可开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数低，且Issue活跃度为零，主要用于特定课程教学，代码库本身缺乏广泛吸引力与社区互动。",
+        "isVibeCoding": true,
+        "communityActivity": "无Issue记录，社区活跃度极低或不存在。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:44:20.538Z"
+    },
+    {
+      "owner": "WoodHelmsman",
+      "repo": "Macrium-Reflect-Crack",
+      "fullName": "WoodHelmsman/Macrium-Reflect-Crack",
+      "description": "Software repository — parsed from GitHub.",
+      "language": "Unknown",
+      "topics": [
+        "download",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-26T00:24:03Z",
+      "url": "https://github.com/WoodHelmsman/Macrium-Reflect-Crack",
+      "analysis": {
+        "positioning": "提供Macrium Reflect备份软件的破解补丁，助你免费使用高级功能。",
+        "useCases": [
+          "你想免费使用Macrium Reflect备份系统 → 它帮你激活软件，解锁所有专业版功能。",
+          "你需要定期克隆硬盘但预算有限 → 它帮你绕过付费限制，无偿使用克隆工具。",
+          "你希望恢复电脑到特定状态但无力购买专业备份软件 → 它让你免费享受Macrium Reflect的恢复服务。"
+        ],
+        "audience": "寻求免费获取Macrium Reflect高级功能的用户，或希望在不付费的情况下进行系统备份和恢复的个人。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统；已安装或准备安装Macrium Reflect软件原版。",
+          "steps": [
+            "下载本项目提供的破解文件。",
+            "按照指引替换或运行破解补丁，激活Macrium Reflect。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Acronis True Image",
+            "method": "购买许可/订阅",
+            "models": "磁盘备份、克隆、恢复",
+            "pricing": "付费"
+          },
+          {
+            "name": "AOMEI Backupper Standard",
+            "method": "下载免费版使用/购买高级版",
+            "models": "文件/系统/磁盘备份",
+            "pricing": "免费/部分免费"
+          }
+        ],
+        "pricing": "本项目本身免费，但它使得付费软件Macrium Reflect得以免费使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在提供付费软件的破解补丁，可能涉及版权侵犯。代码本身没有展示创新或积极的社区贡献。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何Issue记录，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:44:32.314Z"
+    },
+    {
+      "owner": "opencrewmanspigot",
+      "repo": "Unnamed-ESP",
+      "fullName": "opencrewmanspigot/Unnamed-ESP",
+      "description": "Player ESP for Roblox, fully undetectable, uses Synapse's built in drawing API",
+      "language": "Unknown",
+      "topics": [
+        "download",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-26T01:41:09Z",
+      "url": "https://github.com/opencrewmanspigot/Unnamed-ESP",
+      "analysis": {
+        "positioning": "Roblox玩家透视辅助，基于Synapse API，隐蔽性极强。",
+        "useCases": [
+          "你玩Roblox时想看穿对手位置 → 它帮你实时显示所有玩家的准确位置。",
+          "你担心使用第三方工具被Roblox检测封号 → 它帮你通过Synapse API提供高隐蔽性透视功能。",
+          "你渴望在游戏中轻松掌握全局视野 → 它帮你穿透障碍物，洞悉战场态势。"
+        ],
+        "audience": "Roblox玩家，特别是追求游戏优势且已安装Synapse脚本执行器的用户。",
+        "quickStart": {
+          "prerequisites": "Synapse X (Roblox脚本执行器), Windows操作系统",
+          "steps": [
+            "安装并运行Synapse X。",
+            "将本ESP脚本注入到Roblox游戏中。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心功能是为Roblox游戏提供作弊（ESP）能力，这与多数技术社区倡导的积极、合法开发实践相悖。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:44:45.355Z"
+    },
+    {
+      "owner": "PoolSocialTower",
+      "repo": "Folx-Pro-Crack",
+      "fullName": "PoolSocialTower/Folx-Pro-Crack",
+      "description": "Software repository — parsed from GitHub.",
+      "language": "Unknown",
+      "topics": [
+        "download",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-26T00:05:48Z",
+      "url": "https://github.com/PoolSocialTower/Folx-Pro-Crack",
+      "analysis": {
+        "positioning": "提供Folx Pro破解版，免费获取高级下载功能。",
+        "useCases": [
+          "你想免费使用Folx Pro的高级功能 → 它帮你获取破解版软件。",
+          "你在寻找Folx Pro软件的免费替代方案 → 它提供非官方的免费安装包。",
+          "你想在Windows上管理下载，不愿付费 → 它提供Folx Pro的破解版本供你使用。"
+        ],
+        "audience": "希望在Windows上免费使用Folx Pro高级下载管理功能的用户，但需注意潜在风险。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统，需谨慎处理潜在的安全警告和病毒提示。",
+          "steps": [
+            "下载此仓库中提供的软件安装包。",
+            "按照包内说明进行安装和激活（通常涉及禁用杀毒软件或特定操作）。"
+          ],
+          "note": "主要面向Windows平台，操作需自行承担风险。"
+        },
+        "competitors": [
+          {
+            "name": "Folx (官方正版)",
+            "method": "通过官方网站购买并安装",
+            "models": "N/A",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他破解软件下载站",
+            "method": "在搜索引擎中查找并下载第三方破解包",
+            "models": "N/A",
+            "pricing": "免费（但来源和安全性更难保障）"
+          }
+        ],
+        "pricing": "免费（通过破解绕过付费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目为破解软件，存在版权侵犯风险和潜在的安全隐患，不符合健康开源生态精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue交互，无人维护迹象。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:44:57.343Z"
+    },
+    {
+      "owner": "joeseesun",
+      "repo": "wechat-radar",
+      "fullName": "joeseesun/wechat-radar",
+      "description": "微信聊天情报看板：聚合群聊信号、话题、链接和趋势",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-24T05:43:09Z",
+      "url": "https://github.com/joeseesun/wechat-radar",
+      "analysis": {
+        "positioning": "微信群聊情报看板，将嘈杂群组转化为本地智能工作台。",
+        "useCases": [
+          "你被海量群消息淹没 → 它帮你聚合关键信号、话题和链接，生成每日情报。",
+          "你需要跨群整理信息或追踪话题 → 它用AI聚合跨群话题，生成摘要报告。",
+          "你面对大量群内链接和资源 → 它帮你去重、生成可读标题，并可配合AI分析优先级。"
+        ],
+        "audience": "微信群用户、内容创作者、信息分析师，旨在高效获取群聊中的价值信息并利用AI处理。",
+        "quickStart": {
+          "prerequisites": "macOS、微信4.x (建议小号)、Node.js 20+、pnpm、wx-cli及daemon、可选Codex CLI。",
+          "steps": [
+            "git clone https://github.com/joeseesun/wechat-radar.git",
+            "cd wechat-radar",
+            "pnpm install",
+            "pnpm rebuild better-sqlite3",
+            "pnpm dev"
+          ],
+          "note": "仅支持macOS，建议使用注册半年以上小号或测试号，勿在微信高版本上贸然测试，注意数据和隐私安全。"
+        },
+        "competitors": [],
+        "pricing": "免费，仅限个人非商业研究和实验使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "精准定位微信群聊信息过载痛点，提供本地优先的智能情报聚合方案。功能设计实用，集成AI辅助分析，且对数据隐私和使用风险有清晰提示。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前1个Issue开启，0个已关闭。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:45:16.332Z"
+    },
+    {
+      "owner": "MoonshotAI",
+      "repo": "kimi-code",
+      "fullName": "MoonshotAI/kimi-code",
+      "description": "The Starting Point for Next-Gen Agents",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-22T08:02:03Z",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "analysis": {
+        "positioning": "终端AI编程助手，生成、阅读、修改代码。",
+        "useCases": [
+          "你希望理解项目结构 → 它帮你分析并解释主要目录。",
+          "你需要在终端编写、编辑代码或执行shell命令 → 它作为AI代理在TUI中辅助完成。",
+          "你遇到复杂操作难以用文字描述 → 它可观看屏幕录像或Demo视频，理解意图并辅助解决。"
+        ],
+        "audience": "希望在终端获得AI辅助，提高开发效率的开发者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "执行安装脚本（macOS/Linux使用curl，Windows使用PowerShell）。",
+            "运行 `kimi --version` 验证安装，进入项目目录后运行 `kimi` 启动交互界面。",
+            "首次启动后，使用 `/login` 命令登录（OAuth或API Key），然后输入任务。"
+          ],
+          "note": "安装脚本区分操作系统。开发环境需Node.js ≥ 24.15.0和pnpm。"
+        },
+        "competitors": [],
+        "pricing": "免费（CLI工具本身），但依赖模型提供商（如月之暗面Kimi模型）可能需要付费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "单文件快速安装、毫秒级启动、为长时间专注会话设计的TUI界面、支持视频输入、AI原生配置、子代理并行工作、生命周期钩子等，都显著提升了开发体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，开启Issue多于关闭Issue，项目可能处于快速迭代或早期阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-26T05:45:30.327Z"
+    },
+    {
+      "owner": "zhaoyue4810",
+      "repo": "pianke",
+      "fullName": "zhaoyue4810/pianke",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T06:33:38Z",
+      "url": "https://github.com/zhaoyue4810/pianke",
+      "analysis": {
+        "positioning": "本地AI辅助摄影选片工具，高效智能，隐私无忧。",
+        "useCases": [
+          "你一次拍摄了几百张照片，选片费时费力 → 它能AI自动初筛废片并智能分组，用擂台式PK帮你快速选出最佳。",
+          "你担心照片上传云端隐私泄露 → 它能纯本地处理所有照片的分析、初筛、分组，确保隐私安全。",
+          "你使用RAW格式拍摄，处理缓慢且希望保留原始文件 → 它能原生支持RAW+JPG双拍及纯RAW，快速分析预览图并自动配对处理文件。"
+        ],
+        "audience": "摄影师、摄影爱好者，需要高效、隐私地从大量照片中筛选出满意作品。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载项目ZIP压缩包并解压到本地。",
+            "双击运行对应操作系统的启动器脚本（macOS: `启动_macOS.command`, Windows: `启动_Windows.bat`）。"
+          ],
+          "note": "macOS首次运行需按Control键点击脚本后选择打开；Windows首次运行需点击更多信息选择仍要运行。国内用户如遇安装慢，可考虑使用Trae或Qoder辅助安装依赖。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README详细，启动便捷且对国内用户友好（提供换源/Trae教程），功能围绕摄影师选片痛点（效率、隐私、RAW支持）设计，提供多种AI模式适应不同需求，交互直观。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启9个，已关闭0个，说明项目较新或维护者积极响应处理。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:45:48.943Z"
+    },
+    {
+      "owner": "KNG7-P",
+      "repo": "Se7en-Pro",
+      "fullName": "KNG7-P/Se7en-Pro",
+      "description": "",
+      "language": "C#",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-20T22:36:24Z",
+      "url": "https://github.com/KNG7-P/Se7en-Pro",
+      "analysis": {
+        "positioning": "Psiphon 3 的现代化 Windows WPF 客户端 UI 框架。",
+        "useCases": [
+          "你希望为Psiphon 3构建定制的Windows客户端 → 它提供基于MVVM和Material Design的UI/编排层。",
+          "你需要在Psiphon基础上集成Xray或CDN加速 → 它提供可选的系统级隧道和CDN前置助手。",
+          "你追求现代美观的桌面应用界面 → 它采用WPF + Material Design 3，支持深浅及主题色调。"
+        ],
+        "audience": "C#/.NET 开发者，旨在为 Psiphon 3 网络隧道定制或构建 Windows 桌面客户端。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (x64), .NET SDK 8, Visual Studio 2022+",
+          "steps": [
+            "克隆项目代码",
+            "使用 `dotnet build PsiphonUI\\PsiphonUI.csproj -c Release -r win-x64 --self-contained false` 或在 Visual Studio 中打开 `PsiphonUI.sln` 编译"
+          ],
+          "note": "编译后运行，需自行配置 Psiphon 凭据和服务器列表才能实际连接。"
+        },
+        "competitors": [
+          {
+            "name": "从零构建 Psiphon UI",
+            "method": "C#/WPF 手动开发",
+            "models": "无特定框架，全部自实现",
+            "pricing": "开发人力成本"
+          }
+        ],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "采用现代 .NET 8, WPF, MVVM 和 Material Design 3 技术栈，提供丰富功能（Xray/CDN集成、系统级功能），代码结构清晰，是构建定制化 Psiphon UI 的优秀起点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比健康 (6开/4关)，显示项目有积极维护和响应。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:46:07.167Z"
+    },
+    {
+      "owner": "ShinyaTomitsuka",
+      "repo": "arbitrage-trading-bot",
+      "fullName": "ShinyaTomitsuka/arbitrage-trading-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot bot",
+      "language": "TypeScript",
+      "topics": [
+        "arbitrage-bot",
+        "arbitrage-trading-bot",
+        "bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-trading-bot",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-21T21:57:07Z",
+      "url": "https://github.com/ShinyaTomitsuka/arbitrage-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket自动化预测市场交易与套利机器人。",
+        "useCases": [
+          "你需要在Polymarket UP/DOWN预测市场自动交易 → 它帮你实时监测市场、执行配置的策略（如套利），并在Polygon上提交FAK订单。",
+          "你想在Polymarket短周期（5m/15m/1h）加密预测市场中捕捉机会 → 它帮你自动化识别并交易BTC、ETH、SOL、XRP等代币的UP/DOWN市场。",
+          "你寻求一个可快速部署、用于Polymarket实盘交易的机器人 → 它提供一个基于TypeScript的开源框架，允许你通过`trade.toml`配置并直接运行。"
+        ],
+        "audience": "适合希望在Polymarket CLOB上进行自动化交易和套利的开发者或量化交易者。",
+        "quickStart": {
+          "prerequisites": "Node.js (>=20.6.0), TypeScript (>=5.3), 配置`trade.toml`，并准备Polymarket实盘资金。",
+          "steps": [
+            "安装依赖：`npm install`",
+            "配置交易策略：编辑`trade.toml`",
+            "运行机器人：`npm run dev`"
+          ],
+          "note": "这是一个用于Polymarket实盘交易的机器人，直接操作链上资金，并非回测或模拟器。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "直接面向Polymarket预测市场的自动化交易，旨在快速捕捉套利或短期波动机会，具有高风险高回报的属性，符合“vibe coding”追求短期、直接经济效益的特点。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数308，Issue开启1/关闭0，表明目前社区活跃度较低，项目处于早期或维护不频繁。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:46:20.583Z"
+    },
+    {
+      "owner": "jianshuo",
+      "repo": "ccglass",
+      "fullName": "jianshuo/ccglass",
+      "description": "See what your coding agent (Claude Code, Codex, Kimi) sends to the model — local proxy + web dashboard",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-22T05:35:11Z",
+      "url": "https://github.com/jianshuo/ccglass",
+      "analysis": {
+        "positioning": "AI编程助手流量监控利器：本地代理+实时Web仪表盘。",
+        "useCases": [
+          "你用AI编程助手写代码 → 它帮你实时查看助手发给模型的所有请求、提示词、工具调用和费用等详细信息。",
+          "你的AI编程助手输出不符合预期 → 它帮你逐轮对比提示词和模型响应差异，快速定位问题根源。",
+          "你担心AI编程助手调用模型成本过高 → 它帮你实时监控Token消耗、缓存命中率和费用，助你掌握成本开销。"
+        ],
+        "audience": "使用Claude Code、Codex、Kimi等AI编程助手的开发者，用于调试、分析和监控助手与大模型间的交互。",
+        "quickStart": {
+          "prerequisites": "Node.js 及 npm 包管理器。",
+          "steps": [
+            "全局安装：`npm install -g ccglass`",
+            "运行并选择客户端（如Claude）：`ccglass claude` 或直接运行 `ccglass` 按提示选择。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Charles Proxy",
+            "method": "通用HTTP/HTTPS代理抓包工具，需手动配置并处理SSL证书问题。",
+            "models": "监控所有HTTP流量，不限于AI模型。",
+            "pricing": "付费"
+          },
+          {
+            "name": "mitmproxy",
+            "method": "开源HTTP/HTTPS代理抓包工具，需手动配置并处理SSL证书问题。",
+            "models": "监控所有HTTP流量，不限于AI模型。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（MIT License）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它提供了一个实时、可视化的Web仪表盘，直接解决了AI编程助手流量难以监控的痛点，极大提升了调试和分析AI交互的体验，让与AI助手的协作过程更顺畅、直观。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 关闭率极高 (17/1)，显示项目维护积极，社区响应迅速。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-26T05:46:42.052Z"
+    },
+    {
+      "owner": "VILA-Lab",
+      "repo": "FigMirror",
+      "fullName": "VILA-Lab/FigMirror",
+      "description": "An Automated AI Agent Tool for Plotting Your Data in Any Paper's Figure Style.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "llm-agents",
+        "matplotlib",
+        "paper-figures",
+        "plotting",
+        "python",
+        "research-tools",
+        "scientific-visualization",
+        "skill"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T13:37:03Z",
+      "url": "https://github.com/VILA-Lab/FigMirror",
+      "analysis": {
+        "positioning": "AI智能体，帮你把数据图表画成任意论文风格。",
+        "useCases": [
+          "你想复刻某篇论文的图表风格 → 它帮你自动生成带有相同风格的数据图。",
+          "你想快速为多组数据生成统一风格的专业图表 → 它帮你批量出图并提供可编辑脚本。",
+          "你在为论文赶DDL，需要快速出图 → 它帮你省去反复调整Matplotlib参数的时间。"
+        ],
+        "audience": "科研工作者、学生、数据分析师，需要高质量、风格统一的论文级图表。",
+        "quickStart": {
+          "prerequisites": "Claude/Codex等大模型API Key，Python环境。",
+          "steps": [
+            "选取参考图并指定目标风格。",
+            "粘贴你的数据。",
+            "获得可编辑的Matplotlib脚本及高质量PDF图表。"
+          ],
+          "note": "本地Web应用。"
+        },
+        "competitors": [],
+        "pricing": "免费（使用Claude/Codex等需支付对应API费用）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "痛点明确，利用AI Agent解决科研绘图风格统一的难题，大幅提高效率。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，刚起步（2个Issue开启，0关闭）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:46:56.135Z"
+    },
+    {
+      "owner": "mila89",
+      "repo": "polymarket-trading-bot",
+      "fullName": "mila89/polymarket-trading-bot",
+      "description": "Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot bot",
+      "language": "TypeScript",
+      "topics": [
+        "arbitrage-bot",
+        "arbitrage-trading-bot",
+        "bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-btc-arbitrage-bot",
+        "polymarket-trading-bot",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T04:58:49Z",
+      "url": "https://github.com/mila89/polymarket-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket自动化预测市场交易机器人",
+        "useCases": [
+          "你想在Polymarket上自动交易 → 它帮你根据预设策略自动买卖UP/DOWN代币",
+          "你想测试或部署Polymarket交易策略 → 它提供两种可配置的策略模型，支持实时链上交互和FAK订单",
+          "你想免干预地参与Polymarket预测市场 → 它帮你实现生产级自动化交易，持续监控市场并执行策略"
+        ],
+        "audience": "寻求在Polymarket平台实现加密预测市场自动化交易的量化交易员或开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js, npm",
+          "steps": [
+            "克隆项目仓库",
+            "配置trade.toml文件（包括交易对、时间窗口和策略参数）",
+            "运行npm install安装依赖",
+            "运行npm run dev启动交易机器人"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述清晰，开宗明义点出核心功能为Polymarket自动化交易，详细阐述了两种交易策略和实现细节（如实时链上状态、FAK订单），方便开发者快速理解和上手。TypeScript语言和模块化设计也提升了可读性和可维护性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前没有开启或关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:47:06.678Z"
+    },
+    {
+      "owner": "md0070",
+      "repo": "polymarket-trading-bot",
+      "fullName": "md0070/polymarket-trading-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot",
+      "language": "TypeScript",
+      "topics": [
+        "arbitrage-bot",
+        "arbitrage-trading-bot",
+        "polymarket-arbitrage-bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-bot",
+        "polymarket-trading-bot",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T20:10:42Z",
+      "url": "https://github.com/md0070/polymarket-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket预测市场自动化套利交易机器人。",
+        "useCases": [
+          "你每天手动盯盘Polymarket预测市场 → 它帮你根据预设策略自动交易UP/DOWN币种。",
+          "你希望在Polymarket上实现自动化套利或执行复杂策略 → 它帮你实时监控CLOB盘口并自动执行FAK订单。",
+          "你追求在Polymarket上进行免干预的仓位管理 → 它帮你基于时间或价格比率自动建仓、平仓或紧急换仓。"
+        ],
+        "audience": "寻求在Polymarket预测市场中实现交易自动化、策略执行的量化交易者、开发者及高级用户。",
+        "quickStart": {
+          "prerequisites": "Node.js环境，Polymarket账户并充值真实资金，配置`trade.toml`交易策略文件。",
+          "steps": [
+            "克隆项目并安装依赖: `git clone ... && npm install`",
+            "配置`trade.toml`文件，设定交易对、策略及参数",
+            "运行机器人: `npm run dev`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能明确，实现Polymarket自动化交易，提供开箱即用的策略，易于配置和部署，满足特定小众需求。",
+        "isVibeCoding": true,
+        "communityActivity": "不活跃，目前无Issue记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:47:17.433Z"
+    },
+    {
+      "owner": "yui540",
+      "repo": "comimi",
+      "fullName": "yui540/comimi",
+      "description": "Open-source comic reader library for JS/TS",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-23T00:49:25Z",
+      "url": "https://github.com/yui540/comimi",
+      "analysis": {
+        "positioning": "在网站内嵌入高性能漫画阅读器库。",
+        "useCases": [
+          "你在开发漫画内容平台 → 它帮你省去从头构建阅读器界面的工作。",
+          "你需在个人网站展示漫画作品 → 它帮你快速集成一个功能完备的阅读器。",
+          "你寻找不依赖特定UI框架的组件 → 它提供独立的JS/TS漫画阅读器，兼容性强。"
+        ],
+        "audience": "Web开发者，需在任意JS/TS项目中内嵌独立高性能漫画阅读器。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "通过npm安装：`npm install @yui540/comimi`",
+            "在项目中引入 `createMangaViewer`，指定挂载DOM和漫画数据即可使用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "自定义开发",
+            "method": "手动编写HTML/CSS/JS实现图片加载、翻页等逻辑。",
+            "models": "支持任意图片，需自行处理格式和解码。",
+            "pricing": "开发者时间成本"
+          },
+          {
+            "name": "通用图片库 (如 Swiper.js)",
+            "method": "集成通用图片轮播库，再自行添加漫画特有逻辑。",
+            "models": "主要支持图片格式。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "独立轻量，不依赖React等UI框架，开箱即用。TypeScript开发，代码质量有保障。快速启动示例清晰，文档指引明确，专注解决特定问题，提升开发效率。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前2个Issue未关闭，尚待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:47:33.844Z"
+    },
+    {
+      "owner": "judithsulfan",
+      "repo": "trading-bot",
+      "fullName": "judithsulfan/trading-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot bot",
+      "language": "TypeScript",
+      "topics": [
+        "arbitrage-bot",
+        "arbitrage-trading-bot",
+        "betting-strategy",
+        "bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-bot",
+        "polymarket-trading-bot",
+        "trading-bot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-21T18:10:18Z",
+      "url": "https://github.com/judithsulfan/trading-bot",
+      "analysis": {
+        "positioning": "Polymarket自动交易/套利机器人，TypeScript实现。",
+        "useCases": [
+          "你想在Polymarket上自动化交易BTC、ETH等UP/DOWN市场 → 它帮你通过可配置策略自动执行买入、卖出和紧急换仓。",
+          "你想进行Polymarket套利交易 → 它帮你实时获取CLOB价格，根据规则策略自动进行FAK（Fill-and-Kill）订单操作。",
+          "你希望监控Polymarket市场和你的投资组合 → 它帮你周期性地提供市场和仓位日志，并追踪实时链上余额。"
+        ],
+        "audience": "适合希望在Polymarket加密预测市场上，通过自动化策略进行交易或套利的开发者或资深交易员。",
+        "quickStart": {
+          "prerequisites": "Node.js (>=20.6.0), TypeScript (5.3), 配置好的Gnosis Safe签名器+代理钱包（Polygon网络）。",
+          "steps": [
+            "克隆项目，配置 `trade.toml` 和 `.env` 文件。",
+            "运行机器人，它将连接CLOB客户端、钱包，并锁定目标市场。",
+            "机器人将根据实时价格和预设策略执行FAK订单，并确认交易后的余额。"
+          ],
+          "note": "5分钟窗口目前仅支持BTC，其他币种支持15分钟及更长周期。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，功能全面且注重实战（非模拟P&L），涵盖市场发现、实时定价、策略执行和订单管理。README文档详尽，结构清晰，是Polymarket自动化交易的优秀“入门级生产工具”。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1个，关闭0个，社区活跃度较低，可能项目较新或维护者尚未积极处理外部贡献。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:47:46.805Z"
+    },
+    {
+      "owner": "XingYu-Zhong",
+      "repo": "DeepSeek-GUI",
+      "fullName": "XingYu-Zhong/DeepSeek-GUI",
+      "description": "AI agent workspace for DeepSeek models, with Code and Claw modes built into your application.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-21T13:22:06Z",
+      "url": "https://github.com/XingYu-Zhong/DeepSeek-GUI",
+      "analysis": {
+        "positioning": "DeepSeek模型桌面AI Agent工作站，支持代码、写作、自动化。",
+        "useCases": [
+          "你厌倦了在命令行中使用AI Agent → 它提供直观桌面GUI，让AI编程更高效。",
+          "你需要AI协助代码开发但想控制风险 → 它提供Code模式，可预览文件修改、审批操作。",
+          "你想用AI辅助Markdown长文写作或文档管理 → 它提供Write模式，支持实时预览与AI补全。",
+          "你想让AI自动处理飞书/Lark消息或定时任务 → 它提供Claw模式，实现后台自动化Agent。"
+        ],
+        "audience": "面向开发者及高频AI工作者，特别适合需要AI辅助编程、文档写作和自动化，并要求可视化审查和项目管理的场景。",
+        "quickStart": {
+          "prerequisites": "DeepSeek API Key",
+          "steps": [
+            "下载并安装 macOS/Windows 预构建包。",
+            "首次启动，按引导填写 DeepSeek API Key。",
+            "选择Code/Write/Claw模式，开始智能体工作。"
+          ],
+          "note": "Linux/Unix 用户可从源码自行构建。"
+        },
+        "competitors": [],
+        "pricing": "免费开源，模型调用需自备DeepSeek API Key并自行付费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "专为开发者设计，提供Code模式、项目级工作区、文件变更审查等核心编程功能，深入整合开发工作流。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue仅开启1个且无关闭记录，可能项目较新或用户反馈渠道不集中。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:48:02.016Z"
+    },
+    {
+      "owner": "unprovable",
+      "repo": "ShadowCat",
+      "fullName": "unprovable/ShadowCat",
+      "description": "Single file optical file transfer using a browser",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-22T11:02:33Z",
+      "url": "https://github.com/unprovable/ShadowCat",
+      "analysis": {
+        "positioning": "单文件HTML，通过浏览器和二维码，为老旧设备实现离线文件传输。",
+        "useCases": [
+          "你做：想将照片从无线模块坏掉的老旧手机传输到电脑 → 它帮你做：通过扫描二维码序列，在设备无无线功能时安全传输文件。",
+          "你做：在没有网络或蓝牙连接的隔离环境中，需要在两台设备间共享文件 → 它帮你做：利用设备摄像头和屏幕，提供可靠的离线数据传输方案。",
+          "你做：教学或工业场景中，使用低配或受限设备进行数据交换 → 它帮你做：提供稳定且易于部署的、不依赖网络的传输方法。"
+        ],
+        "audience": "拥有无线功能损坏但摄像头和浏览器仍正常工作的老旧设备用户，或在严格离线环境下需要传输文件的场景。",
+        "quickStart": {
+          "prerequisites": "Python 3",
+          "steps": [
+            "1. 在发送端设备（如电脑）上运行 'python3 -m http.server 8000' 启动本地服务器。",
+            "2. 使用浏览器访问 http://<你的设备IP>:8000/qrcode.html。",
+            "3. 在发送端选择文件、设置参数并点击发送；在接收端打开摄像头对准发送端屏幕扫描二维码。"
+          ],
+          "note": "iOS Safari需要HTTPS环境才能使用摄像头；若传输失败可尝试降低帧率、减小块大小或提高ECC等级。"
+        },
+        "competitors": [
+          {
+            "name": "Airdrop",
+            "method": "苹果设备间无线传输（Wi-Fi/蓝牙）",
+            "models": "苹果生态设备",
+            "pricing": "免费"
+          },
+          {
+            "name": "Nearby Share (邻近共享)",
+            "method": "安卓/Chrome OS设备间无线传输（蓝牙/Wi-Fi）",
+            "models": "安卓/Chrome OS设备",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙地利用二维码和浏览器解决了老旧设备无线模块失效的痛点，设计简洁（单文件HTML），实用性强，充满技术趣味和创新。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数较少（5个开启，0个关闭），社区活跃度有待观察，响应速度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-26T05:48:21.358Z"
+    },
+    {
+      "owner": "hanyi0000",
+      "repo": "chatgpt-plus-automation-toolkit",
+      "fullName": "hanyi0000/chatgpt-plus-automation-toolkit",
+      "description": "自动化完成 ChatGPT 账号注册、GoPay/PayPal 支付、OAuth 授权与 Session 导出，含 Windows 控制面板",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-21T17:04:35Z",
+      "url": "https://github.com/hanyi0000/chatgpt-plus-automation-toolkit",
+      "analysis": {
+        "positioning": "自动化ChatGPT Plus注册、支付、授权与会话导出工具。",
+        "useCases": [
+          "你想批量注册ChatGPT Plus账号 → 它帮你自动化完成注册、支付与授权。",
+          "你需要导出ChatGPT会话或OAuth授权信息 → 它帮你自动化提取并导出。",
+          "你想自动化管理多个ChatGPT账号 → 它提供全流程自动化操作和账户池管理。",
+          "你想快速获取免费ChatGPT账号 → 它帮你自动化注册免费账号。"
+        ],
+        "audience": "需要批量管理、自动化注册或导出ChatGPT Plus/Free账号会话的开发者和技术用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Playwright（自动安装Chromium）",
+          "steps": [
+            "pip install -r requirements.txt",
+            "playwright install chromium",
+            "cp .env.example .env && cp config.example.yaml config.yaml",
+            "python main.py"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费（开源工具，使用自身账号池、代理等需自费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，模块化设计良好，提供交互式菜单和命令行模式。文档详细，配置清晰，工程实践性强。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，GitHub Issue 活跃度暂无数据（0 开 0 闭），但提供了 QQ 交流群。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-26T05:48:37.573Z"
     }
   ]
 }
