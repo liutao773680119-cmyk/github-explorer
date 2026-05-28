@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-05-28",
+  "startedAt": "2026-05-28T05:51:38.250Z",
+  "finishedAt": "2026-05-28T05:55:35.268Z",
+  "durationSeconds": 237,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 11,
+    "skipped": 94,
+    "geminiCalls": 12,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-05-28T05:54:01.443Z",
+      "level": "warn",
+      "project": "RayceAnderson/tomodachi-pc",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

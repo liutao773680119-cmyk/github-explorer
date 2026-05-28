@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-27T06:00:10.700Z",
+  "updatedAt": "2026-05-28T05:54:35.680Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -38961,6 +38961,560 @@
         "category": "其他"
       },
       "analyzedAt": "2026-05-27T06:00:10.684Z"
+    },
+    {
+      "owner": "XuToWei",
+      "repo": "Image-To-UI",
+      "fullName": "XuToWei/Image-To-UI",
+      "description": "Image-to-UI Codex skill: convert game UI screenshots and sliced sprites into ui_structure.json.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-28T02:42:36Z",
+      "url": "https://github.com/XuToWei/Image-To-UI",
+      "analysis": {
+        "positioning": "将游戏UI截图和切片精灵图转换为结构化JSON。",
+        "useCases": [
+          "你手动解析游戏UI布局 → 它自动从截图和素材生成结构化UI数据。",
+          "你耗时重建游戏UI界面 → 它帮你快速生成UI布局JSON，加速开发。",
+          "你希望统一管理UI资产 → 它将分散的UI元素整合成可编程结构，便于维护。"
+        ],
+        "audience": "游戏开发者、UI设计师或需要将UI图像资产结构化的前端工程师。",
+        "quickStart": {
+          "prerequisites": "Python环境，且作为Codex技能集成或独立使用。",
+          "steps": [
+            "准备目标UI效果图（如`test/Design/0_Tutorial_1 1.png`）。",
+            "准备切片精灵图目录（如`test/Sprite/`）。",
+            "调用`image-to-ui`技能，指定效果图和精灵图目录以生成`ui_structure.json`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，MIT开源许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了一个游戏UI开发中的特定痛点，但项目非常早期，Star数和社区活跃度都较低，未来潜力有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue记录，项目处于非常早期阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-28T05:51:48.700Z"
+    },
+    {
+      "owner": "OpenBMB",
+      "repo": "PilotDeck",
+      "fullName": "OpenBMB/PilotDeck",
+      "description": "Task-oriented AI Agent productivity platform",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-22T06:50:28Z",
+      "url": "https://github.com/OpenBMB/PilotDeck",
+      "analysis": {
+        "positioning": "面向任务的AI Agent生产力平台",
+        "useCases": [
+          "你想构建和管理AI Agent → 它提供WorkSpace组织Agent任务与协作",
+          "你需要Agent具备长期记忆 → 它提供Agent记忆进化与上下文管理能力",
+          "你有复杂多任务项目 → 它帮你调度和执行通用型Agent任务"
+        ],
+        "audience": "适合希望利用AI Agent自动化、高效完成复杂任务的开发者、研究者和团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问官网下载桌面应用，直接运行",
+            "或参照官网教程，进行本地部署"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain Agents",
+            "method": "Python/JS库开发",
+            "models": "支持主流LLM",
+            "pricing": "免费（框架本身）"
+          },
+          {
+            "name": "AutoGPT",
+            "method": "CLI工具/Python库",
+            "models": "支持OpenAI等",
+            "pricing": "免费（工具本身）"
+          }
+        ],
+        "pricing": "免费，项目开源（AGPL-3.0），但使用LLM服务可能产生API费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "知名机构共同开发，技术栈现代（TypeScript），方向前沿（AI Agent）。Star数较好，但Issues开启较多而无关闭记录，社区响应和维护仍处早期。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数较多（18个），但无关闭记录，表明社区响应和维护仍处早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-28T05:52:07.633Z"
+    },
+    {
+      "owner": "UditAkhourii",
+      "repo": "adhd",
+      "fullName": "UditAkhourii/adhd",
+      "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
+      "language": "TypeScript",
+      "topics": [
+        "adhd",
+        "agents",
+        "ai",
+        "ai-agents",
+        "brainstorm",
+        "chain-of-thought",
+        "claude",
+        "claude-agent-sdk",
+        "creativity",
+        "divergent-thinking",
+        "ideation",
+        "interdisciplinary",
+        "llm",
+        "llm-tools",
+        "nodejs",
+        "prompt-engineering",
+        "tree-of-thought",
+        "typescript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T11:06:35Z",
+      "url": "https://github.com/UditAkhourii/adhd",
+      "analysis": {
+        "positioning": "为AI代理提供并行发散思维，解决推理过早收敛，提升创新能力。",
+        "useCases": [
+          "你需要头脑风暴多种创意方案 → 它帮你从多认知框架并行思考，打破思维定式。",
+          "你在做复杂设计决策或API设计 → 它帮你深入探索幸存方案，规避潜在陷阱。",
+          "你在模糊调试或制定战略 → 它帮你发现更多可能性，提升问题解决效率。"
+        ],
+        "audience": "适用于需要AI代理进行创造性、跨学科思考、设计决策及复杂问题解决的开发者、设计师与策略制定者。",
+        "quickStart": {
+          "prerequisites": "Node.js >=18",
+          "steps": [
+            "npx skills add UditAkhourii/adhd"
+          ],
+          "note": "自动适配Claude Code等50+主流AI代理，安装后重启代理即可使用。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心在于利用“认知扭曲”实现并行发散思维，专为创意、跨学科设计等模糊场景服务，旨在突破传统LLM的思维定式，是典型的Vibe Coding应用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，目前15个开启的Issue均未关闭，响应速度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-28T05:52:23.056Z"
+    },
+    {
+      "owner": "op7418",
+      "repo": "guizang-social-card-skill",
+      "fullName": "op7418/guizang-social-card-skill",
+      "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
+      "language": "HTML",
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "anthropic",
+        "claude-code",
+        "claude-skill",
+        "codex",
+        "editorial-design",
+        "html-template",
+        "image-generation",
+        "playwright",
+        "rednote",
+        "social-cards",
+        "swiss-design",
+        "wechat",
+        "xiaohongshu"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-27T12:05:05Z",
+      "url": "https://github.com/op7418/guizang-social-card-skill",
+      "analysis": {
+        "positioning": "AI Agent驱动，高效生成小红书图文与公众号封面对。",
+        "useCases": [
+          "你文章无排版 → 它帮你生成电子杂志风/瑞士风小红书图文组图",
+          "你公众号文章缺封面 → 它帮你生成21:9头图+1:1分享卡对",
+          "你有零散图片/文案 → 它帮你自动排版并美化成社交媒体卡片",
+          "你需要产品测评/旅行攻略图文 → 它帮你用特定视觉系统自动生成"
+        ],
+        "audience": "运营、内容创作者、营销人员及AI Agent开发者，尤其关注小红书和公众号内容视觉生成效率的用户。",
+        "quickStart": {
+          "prerequisites": "具备Shell权限的AI Agent环境 (如Claude Code, Codex)",
+          "steps": [
+            "在Agent中执行 `npx skills add https://github.com/op7418/guizang-social-card-skill` 或手动克隆安装。",
+            "通过自然语言指令，如“帮我基于这篇文章做一套瑞士风小红书图文”，让Agent为你生成图文。"
+          ],
+          "note": "Agent环境下的安装与更新指令已提供，直接复制给Agent即可执行。"
+        },
+        "competitors": [],
+        "pricing": "免费 (基于AGPL-3.0开源许可)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位精准，功能细节丰富（双视觉系统、多版式、智能图源、截图美化等），文档清晰，极大提升社交媒体视觉内容生成效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区反馈渠道可能主要通过Agent集成或私下沟通，GitHub上活跃度暂未显现。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-28T05:52:36.452Z"
+    },
+    {
+      "owner": "FlashML-org",
+      "repo": "flashlib",
+      "fullName": "FlashML-org/flashlib",
+      "description": "Fast and memory-efficient classical machine learning operators",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-26T17:19:26Z",
+      "url": "https://github.com/FlashML-org/flashlib",
+      "analysis": {
+        "positioning": "GPU加速经典机器学习，兼顾速度与内存效率的Python库。",
+        "useCases": [
+          "你需要在GPU上高效运行大规模KMeans、PCA、UMAP等经典ML算法 → 它帮你通过Triton和CuteDSL实现极致加速，同时节省内存。",
+          "你希望在部署模型前预估其GPU运行时间、FLOPs和内存消耗 → 它帮你通过`flashlib.info`模块在CPU上快速预测，无需实际运行或GPU环境。",
+          "你习惯使用Scikit-learn风格的API进行机器学习开发，但需要GPU加速 → 它帮你提供熟悉的API接口，无缝切换到GPU高性能计算。"
+        ],
+        "audience": "追求经典机器学习算法极致性能与内存效率的机器学习工程师、研究员和数据科学家。",
+        "quickStart": {
+          "prerequisites": "Python环境，已安装pip；需具备CUDA支持的NVIDIA GPU。",
+          "steps": [
+            "pip install flashlib",
+            "import torch; from flashlib import flash_kmeans; x = torch.randn(1_000_000, 128, device=\"cuda\"); labels, _, _ = flash_kmeans(x, n_clusters=1024)"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Scikit-learn",
+            "method": "Python API，CPU执行",
+            "models": "丰富的经典ML算法（KMeans, PCA, DBSCAN等）",
+            "pricing": "免费"
+          },
+          {
+            "name": "RAPIDS cuML",
+            "method": "Python API，GPU加速执行",
+            "models": "GPU优化的经典ML算法（KMeans, PCA, UMAP等）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专注于利用Triton和CuteDSL为经典机器学习算法提供高性能GPU加速和卓越内存效率。API设计简洁，类似Scikit-learn，且独创的`flashlib.info`模块可在CPU上预估GPU资源消耗，对规划ML流程非常有价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，表明项目可能非常新或社区互动尚未开始。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-28T05:53:00.208Z"
+    },
+    {
+      "owner": "5-m0cftvuvif",
+      "repo": "stake-monthly",
+      "fullName": "5-m0cftvuvif/stake-monthly",
+      "description": "Stake Monthly is one of the most discussed topics in online platform communities, loyalty systems, and crypto entertainment ecosystems. This educational guide explains how monthly reward structures, VIP progression, recurring engagement systems, and community participation models work across modern digital platforms.",
+      "language": "HTML",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-26T19:16:05Z",
+      "url": "https://github.com/5-m0cftvuvif/stake-monthly",
+      "analysis": {
+        "positioning": "线上平台忠诚度与月度奖励机制的教育指南。",
+        "useCases": [
+          "你想了解线上平台忠诚度、VIP和月度奖励体系原理 → 它提供详细的教育性内容。",
+          "你寻求加密娱乐平台的注册欢迎奖金和促销码 → 它直接提供注册链接和奖励信息。",
+          "你希望探讨数字平台的用户留存和社区参与模型 → 它解析相关概念与流行度。"
+        ],
+        "audience": "关注线上娱乐、加密社区忠诚度体系的玩家或用户，以及寻求注册福利的新手。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "阅读项目提供的HTML内容，理解月度奖励系统。",
+            "访问指南中提供的赌场注册链接，并使用促销码领取欢迎奖金。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他在线赌场评论/促销网站",
+            "method": "提供评测、奖金信息",
+            "models": "各种在线赌场",
+            "pricing": "免费"
+          },
+          {
+            "name": "线上忠诚度项目相关的博客文章",
+            "method": "知识分享",
+            "models": "概念性解释",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（项目本身），额外奖金需注册相关平台。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "本质是带有推广目的的静态HTML教育指南，并非传统意义上的可编程工具或框架，不涉及代码开发。",
+        "isVibeCoding": true,
+        "communityActivity": "无社区活跃度，Issue统计为0，未见互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-28T05:53:19.376Z"
+    },
+    {
+      "owner": "Mclisterjoeh2o",
+      "repo": "yellowkey-bitlocker",
+      "fullName": "Mclisterjoeh2o/yellowkey-bitlocker",
+      "description": "yellowkey  bitlocker github vulnerability  bypass  cve-2026-45585 windows 11 security zero day exploit winre recovery mode poc nightmare eclipse chaotic eclipse exploit tool usb attack encryption hack script mitigation guide fstx winpeshl shell unpatched fix tool",
+      "language": "TypeScript",
+      "topics": [
+        "bitlocker",
+        "bitlocker-bypass",
+        "bitlocker-drive-encryption",
+        "bitlocker-drive-management",
+        "bitlocker-lock",
+        "bitlocker-yellowkey",
+        "cve-2026-45585",
+        "nightmare-eclipse",
+        "yellow-key",
+        "yellowkey",
+        "yellowkey-bitlocker",
+        "yellowkey-cve",
+        "yellowkey-exploit",
+        "yellowkey-vulnerability"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-23T17:19:03Z",
+      "url": "https://github.com/Mclisterjoeh2o/yellowkey-bitlocker",
+      "analysis": {
+        "positioning": "BitLocker物理绕过工具，利用WinRE漏洞攻击Windows 11/10。",
+        "useCases": [
+          "你做渗透测试 → 它帮你无密钥访问受BitLocker保护的硬盘。",
+          "你做安全研究 → 它帮你验证BitLocker加密在WinRE下的弱点。",
+          "你做应急响应 → 它帮你快速获取被加密但需取证的Windows系统数据。"
+        ],
+        "audience": "安全研究员、渗透测试工程师、数字取证专家，用于教育和安全研究目的。",
+        "quickStart": {
+          "prerequisites": "一个USB驱动器，目标电脑的物理访问权限",
+          "steps": [
+            "下载`YellowKey.zip`最新版本。",
+            "准备一个可启动USB。",
+            "从USB启动目标PC。",
+            "按照屏幕指示操作。",
+            "访问加密驱动器。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "直接针对主流加密技术BitLocker进行物理绕过，利用系统漏洞，典型的黑客工具氛围。",
+        "isVibeCoding": true,
+        "communityActivity": "低，有开启问题但无关闭记录，维护活跃度待观察。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-28T05:53:30.249Z"
+    },
+    {
+      "owner": "neuralCPL",
+      "repo": "polymarket-trading-bot",
+      "fullName": "neuralCPL/polymarket-trading-bot",
+      "description": "polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, ",
+      "language": "JavaScript",
+      "topics": [
+        "arbitrage",
+        "automated-trading",
+        "btc-trading",
+        "clob",
+        "copy-trading",
+        "defi",
+        "ethereum",
+        "nodejs",
+        "polygon",
+        "polymarket",
+        "prediction-markets",
+        "trading-bot",
+        "websocket"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-25T17:54:33Z",
+      "url": "https://github.com/neuralCPL/polymarket-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket预测市场自动化套利与跟单机器人",
+        "useCases": [
+          "你希望在Polymarket BTC 5分钟涨跌市场套利 → 它自动发现市场、挂买单、在价格对齐时执行套利，并将匹配的USDC对合并赎回。",
+          "你希望自动复制高频交易者的操作 → 它提供跟单模块，自动镜像特定钱包的交易。",
+          "你需要一个生产级的交易工具，而非玩具脚本 → 它内置风险限制、熔断器和安全关闭，确保交易可靠性。"
+        ],
+        "audience": "Polymarket预测市场的高级交易者、量化交易员，或希望通过自动化进行套利和跟单的DeFi用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+，Polymarket账户（带代理钱包），Polygon EOA私钥，Polygon链上USDC和MATIC，可靠的Polygon RPC节点。",
+          "steps": [
+            "安装依赖：`npm install`",
+            "配置环境变量：复制`.env.example`为`.env`，并填写`PRIVATE_KEY`、`PROXY_WALLET`、`POLYGON_RPC`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述清晰，提供了生产级机器人所需的功能、安全保障和核心策略解释。安装配置指南详细，便于快速上手。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 开启和关闭数量均为0。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-28T05:53:44.109Z"
+    },
+    {
+      "owner": "ObesidianQuant",
+      "repo": "polymarket-trade-engine",
+      "fullName": "ObesidianQuant/polymarket-trade-engine",
+      "description": "polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, polymarket trading bot, polymarket copy trading bot, ",
+      "language": "TypeScript",
+      "topics": [
+        "algorithmic-trading",
+        "binary-markets",
+        "btc",
+        "clob",
+        "cryptocurrency",
+        "defi",
+        "ethereum",
+        "polymarket",
+        "prediction-markets",
+        "quantitative-trading",
+        "solana",
+        "strategy-testing",
+        "trading-engine",
+        "typescript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T18:06:19Z",
+      "url": "https://github.com/ObesidianQuant/polymarket-trade-engine",
+      "analysis": {
+        "positioning": "Polymarket二元预测市场自动化交易引擎。",
+        "useCases": [
+          "你想在Polymarket上自动交易 → 它帮你实时执行策略，管理订单。",
+          "你想验证交易策略 → 它提供策略测试框架，进行回测和前向测试。",
+          "你想定制交易逻辑 → 它提供可扩展接口，让你快速集成自定义策略。"
+        ],
+        "audience": "适合量化交易员、策略开发者和Polymarket预测市场参与者，用于自动化短周期市场交易和策略验证。",
+        "quickStart": {
+          "prerequisites": "Node.js (v18+), npm/yarn",
+          "steps": [
+            "克隆仓库，安装依赖并构建项目：`git clone ... && cd polymarket-trade-engine && npm install && npm run build`",
+            "配置Polymarket API密钥和交易参数，然后运行交易引擎：`npm start`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，文档结构完整，明确提供了自动化交易和策略回测的核心功能，且支持多种主流加密货币的短周期市场，模块化设计便于扩展。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 统计显示无开启或关闭记录，可能主要由项目维护者自行迭代。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-28T05:53:57.860Z"
+    },
+    {
+      "owner": "mikaeldengale-cloud",
+      "repo": "Deepseek-v4-Pro-App",
+      "fullName": "mikaeldengale-cloud/Deepseek-v4-Pro-App",
+      "description": "deepseek v4 flash pro chat  api  app windows 11 desktop client github open source ai assistant chatbot coding agent moe model 1.6t parameters free api setup guide reasoning max mode local deployment",
+      "language": "TypeScript",
+      "topics": [
+        "ai-app",
+        "ai-application",
+        "ai-powered-applications",
+        "deep-seek",
+        "deepseek",
+        "deepseek-ai",
+        "deepseek-api",
+        "deepseek-app",
+        "deepseek-chat",
+        "deepseek-cli",
+        "deepseek-desktop",
+        "deepseek-download",
+        "deepseek-ocr-2",
+        "deepseek-pro",
+        "deepseek-r1",
+        "deepseek-v3",
+        "deepseek-v4",
+        "deepseek-v4-pro",
+        "deepseekv4"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-23T17:05:57Z",
+      "url": "https://github.com/mikaeldengale-cloud/Deepseek-v4-Pro-App",
+      "analysis": {
+        "positioning": "DeepSeek V4 Pro/Flash的Windows桌面客户端，支持AI编程与推理。",
+        "useCases": [
+          "你需要在Windows桌面快速与DeepSeek AI对话 → 它提供原生、快速、多聊天的桌面客户端体验。",
+          "你需要AI辅助代码编写或问题解决 → 它作为强大的编码代理，提供智能编程帮助。",
+          "你希望利用DeepSeek的高级推理能力处理复杂任务 → 它支持高级推理模式，助你解决复杂问题。"
+        ],
+        "audience": "Windows 11 用户、AI爱好者及开发者，追求高效、原生体验的DeepSeek AI客户端。",
+        "quickStart": {
+          "prerequisites": "需要DeepSeek API Key（API有免费额度）",
+          "steps": [
+            "下载并解压最新发行版",
+            "运行DeepSeek-V4-Pro-App.exe",
+            "输入你的DeepSeek API Key",
+            "开始聊天和编程"
+          ],
+          "note": "仅支持Windows 11操作系统"
+        },
+        "competitors": [
+          {
+            "name": "DeepSeek官方网页版",
+            "method": "浏览器访问",
+            "models": "DeepSeek V4 Pro/Flash",
+            "pricing": "免费API（有免费额度），模型按量计费"
+          },
+          {
+            "name": "其他通用AI桌面客户端（若支持DeepSeek）",
+            "method": "桌面应用/Web应用",
+            "models": "可能支持DeepSeek V4 Pro/Flash及其他模型",
+            "pricing": "通常有免费版或免费API额度，模型按量计费"
+          }
+        ],
+        "pricing": "免费（客户端免费，但需DeepSeek API Key，API有免费额度，超出后按量付费）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目本身用TypeScript开发，且核心功能之一是“Coding Agent”，旨在为开发者提供AI辅助编程。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前有一个开启的Issue，尚未有已解决的Issue。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-28T05:54:17.396Z"
+    },
+    {
+      "owner": "apple",
+      "repo": "corecrypto",
+      "fullName": "apple/corecrypto",
+      "description": "Apple corecrypto",
+      "language": "C++",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-22T15:07:05Z",
+      "url": "https://github.com/apple/corecrypto",
+      "analysis": {
+        "positioning": "Apple核心密码库，供内部使用和安全审计。",
+        "useCases": [
+          "你是安全研究员 → 它帮你审查和验证Apple核心加密库的安全性。",
+          "你是Apple内部开发者 → 它帮你为系统级组件（如内核、引导加载程序）提供底层加密功能。",
+          "你想了解Apple底层密码实现 → 它提供源代码供你学习其数学算法和加密原语。"
+        ],
+        "audience": "专注于Apple系统安全审计、内部开发以及研究Apple底层加密实现的开发者和安全研究员。",
+        "quickStart": {
+          "prerequisites": "确保已安装Xcode及其命令行工具。",
+          "steps": [
+            "克隆仓库。",
+            "在项目根目录运行 `xcodebuild -scheme corecrypto` 构建静态库。",
+            "运行 `xcodebuild -scheme corecrypto_test` 执行测试。"
+          ],
+          "note": "该项目主要在macOS环境下构建和运行。"
+        },
+        "competitors": [],
+        "pricing": "免费（限用于安全审计及内部验证，不得二次分发或用于商业产品）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "并非面向社区开发者，许可证限制严格，主要用于Apple内部使用及安全审计，外部贡献和二次开发空间极小。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极低，无公开issue交流。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-28T05:54:35.665Z"
     }
   ]
 }
