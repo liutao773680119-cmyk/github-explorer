@@ -1,0 +1,242 @@
+{
+  "version": "1",
+  "date": "2026-05-29",
+  "startedAt": "2026-05-29T05:52:28.121Z",
+  "finishedAt": "2026-05-29T05:58:44.978Z",
+  "durationSeconds": 377,
+  "success": true,
+  "stats": {
+    "fetched": 130,
+    "newProjects": 14,
+    "skipped": 116,
+    "geminiCalls": 39,
+    "statsUpdated": 130
+  },
+  "errors": [
+    {
+      "time": "2026-05-29T05:52:31.396Z",
+      "level": "warn",
+      "project": "Polymarket-DevRel/polymarket-devrel",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:53:23.950Z",
+      "level": "warn",
+      "project": "ivanzhang/movie-region-guide",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:53:29.479Z",
+      "level": "warn",
+      "project": "tianjiu8341/new-movies-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:53:33.812Z",
+      "level": "warn",
+      "project": "xdotboo/mystery-crime-pick",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:54:09.868Z",
+      "level": "warn",
+      "project": "neihandianying/short-drama-binge",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:54:13.539Z",
+      "level": "warn",
+      "project": "strahlk/family-warm-pick",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:55:16.604Z",
+      "level": "warn",
+      "project": "91banyou/variety-korean-shows",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:55:20.434Z",
+      "level": "warn",
+      "project": "yanqiongtan/retro-classic-films",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:56:35.884Z",
+      "level": "warn",
+      "project": "yihuagongnet/anime-watch-list",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:56:39.076Z",
+      "level": "warn",
+      "project": "xiaolansp/variety-show-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:56:42.306Z",
+      "level": "warn",
+      "project": "yipinloubbs/best-mainland-cinema",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:56:45.460Z",
+      "level": "warn",
+      "project": "tianjiu8341/variety-mainland",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:56:48.628Z",
+      "level": "warn",
+      "project": "xiongqi123123/awesome-rebuttal",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:16.466Z",
+      "level": "warn",
+      "project": "alfiyahkamilah1239298/WallpaperDownloader-26",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:20.647Z",
+      "level": "warn",
+      "project": "withkynam/vibecode-pro-max-kit",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:27.563Z",
+      "level": "warn",
+      "project": "martawewqc7692530/MineCraft-Collection-C-Client",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:33.701Z",
+      "level": "warn",
+      "project": "tanekaverd64170803960/Lossless-Scaling-Util-V3.0",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:36.865Z",
+      "level": "warn",
+      "project": "odinsalazar964150/Gemini-Pro-Desktop-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:42.030Z",
+      "level": "warn",
+      "project": "AmmarkoV/SAM3DBody-cpp",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:45.251Z",
+      "level": "warn",
+      "project": "adelaideacfalle50838568946/ChatGPT-Pro-Desktop-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:48.487Z",
+      "level": "warn",
+      "project": "Sophomoresty/gemini-web2api",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:54.230Z",
+      "level": "warn",
+      "project": "RayceAnderson/tomodachi-pc",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:57:57.369Z",
+      "level": "warn",
+      "project": "helloianneo/ian-xiaohei-illustrations",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:58:00.617Z",
+      "level": "warn",
+      "project": "ikeda042/PhenoPixel",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-29T05:58:03.742Z",
+      "level": "warn",
+      "project": "lceminecraft-launcher/LCE-Emerald-Launcher",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

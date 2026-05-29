@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-28T05:54:35.680Z",
+  "updatedAt": "2026-05-29T05:57:13.285Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -39515,6 +39515,698 @@
         "category": "安全"
       },
       "analyzedAt": "2026-05-28T05:54:35.665Z"
+    },
+    {
+      "owner": "ivanzhang",
+      "repo": "overseas-drama-guide",
+      "fullName": "ivanzhang/overseas-drama-guide",
+      "description": "海外剧集观影笔记 - 鱿鱼游戏 / 权力的游戏 / 绝命毒师",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T00:13:57Z",
+      "url": "https://github.com/ivanzhang/overseas-drama-guide",
+      "analysis": {
+        "positioning": "海外剧集精选指南，附带免费观看渠道。",
+        "useCases": [
+          "你寻找热门海外剧 → 它提供2025-2026年韩、美、日剧推荐。",
+          "你追剧时不知道去哪看 → 它直接提供努努影院的剧集观看链接。",
+          "你偏爱特定类型剧集 → 它按国别和题材分类，方便选择。"
+        ],
+        "audience": "海外剧爱好者，尤其是想免费获取最新剧集推荐和观看链接的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库README。",
+            "浏览推荐剧集列表并点击相应观看链接。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影/剧集",
+            "method": "搜索、浏览榜单与用户评论",
+            "models": "用户评分、影评",
+            "pricing": "免费"
+          },
+          {
+            "name": "IMDb",
+            "method": "搜索、浏览全球影视数据库",
+            "models": "用户评分、专业影评、演职员信息",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。项目本身开源，推荐的观看渠道也无需付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个Markdown格式的剧集推荐和链接聚合项目，实用性强，但技术复杂度较低，更侧重内容整理而非代码开发。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，没有Issue或PR记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:52:42.740Z"
+    },
+    {
+      "owner": "ivanzhang2",
+      "repo": "mainland-tv-drama",
+      "fullName": "ivanzhang2/mainland-tv-drama",
+      "description": "大陆电视剧追剧手册 2024-2026",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T00:41:34Z",
+      "url": "https://github.com/ivanzhang2/mainland-tv-drama",
+      "analysis": {
+        "positioning": "2024-2026国产高分电视剧推荐指南，附带在线观看资源链接。",
+        "useCases": [
+          "你追剧茫然 → 它提供2024-2026国产高分剧清单。",
+          "你寻找剧集资源 → 它直达努努影院观看页面。",
+          "你想了解热门国产剧 → 它帮你快速定位高人气作品。"
+        ],
+        "audience": "国产剧爱好者、追剧党，尤其适合想快速找到高分剧集及观看链接的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub项目页面",
+            "浏览剧集推荐和观看链接"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影/电视剧",
+            "method": "用户评分、影评、兴趣推荐",
+            "models": "N/A (基于社区数据)",
+            "pricing": "免费"
+          },
+          {
+            "name": "影视剧聚合导航站",
+            "method": "人工整理、链接聚合",
+            "models": "N/A",
+            "pricing": "免费/广告盈利"
+          }
+        ],
+        "pricing": "完全免费，项目本身是信息整理，观看资源链接到免费（含广告）平台。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质是Markdown文档形式的信息整理，技术复杂度极低，但内容对目标用户有实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue交互记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:52:57.358Z"
+    },
+    {
+      "owner": "ivanzhang2",
+      "repo": "year-by-year-films",
+      "fullName": "ivanzhang2/year-by-year-films",
+      "description": "按年份分类电影榜：2024 / 2025 / 2026",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:40:14Z",
+      "url": "https://github.com/ivanzhang2/year-by-year-films",
+      "analysis": {
+        "positioning": "精选每年口碑电影榜单，快速发现好片。",
+        "useCases": [
+          "你不知道看什么电影 → 它帮你提供每年精选口碑片单。",
+          "你想看特定年份的佳片 → 它帮你按年份快速定位优秀电影。",
+          "你想了解未来热门大片 → 它帮你预览2025/2026年待映新作。"
+        ],
+        "audience": "电影爱好者和普通观众，用于快速筛选年度口碑佳片，或查询未来上映热门。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库README页面。",
+            "浏览各年份电影列表和推荐观看链接。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影",
+            "method": "电影搜索、评分、影评、榜单",
+            "models": "包含全球电影、电视剧、动漫、综艺等详细信息、用户评分、影评。",
+            "pricing": "免费（部分增值服务或购票功能付费）"
+          },
+          {
+            "name": "IMDb",
+            "method": "电影搜索、评分、影评、榜单、预告片",
+            "models": "包含全球电影、电视剧、影人等详细信息、用户评分、行业新闻。",
+            "pricing": "免费（部分增值服务或Pro会员付费）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质是精选电影列表的Markdown文档，技术复杂度极低，主要价值在于内容整理和链接分享。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度低，目前无Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:53:10.363Z"
+    },
+    {
+      "owner": "xuekun001",
+      "repo": "korean-tv-drama-pick",
+      "fullName": "xuekun001/korean-tv-drama-pick",
+      "description": "韩剧追剧精选：黑暗荣耀 / 鱿鱼游戏 / 请回答系列",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:40:09Z",
+      "url": "https://github.com/xuekun001/korean-tv-drama-pick",
+      "analysis": {
+        "positioning": "精选高分韩剧，按题材分类，并提供在线观看入口。",
+        "useCases": [
+          "你剧荒了想找好韩剧 → 它帮你快速发现现象级爆款和高分剧。",
+          "你想看特定题材（如爱情、职场）的韩剧 → 它帮你按类别筛选推荐。",
+          "你找到了想看的韩剧但不知道去哪看 → 它帮你直达在线观看页面。"
+        ],
+        "audience": "韩剧爱好者或剧荒用户，想快速发现热门好剧并直接获取观看链接。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开项目README页面。",
+            "在列表里选择感兴趣的韩剧，点击对应的观看链接即可。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影/MyDramaList",
+            "method": "浏览用户评分和评论进行推荐",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "各大视频平台韩剧专区 (如Netflix、爱奇艺)",
+            "method": "平台内浏览和搜索",
+            "models": null,
+            "pricing": "部分免费/会员付费"
+          }
+        ],
+        "pricing": "免费。项目本身提供内容导航，实际观看平台可能免费或需订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用性强，直接解决了用户找剧和观剧的痛点，内容组织清晰。但项目本身无技术创新，仅为资源整理。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue和互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:53:45.497Z"
+    },
+    {
+      "owner": "gvzaixian",
+      "repo": "hk-tv-series",
+      "fullName": "gvzaixian/hk-tv-series",
+      "description": "港剧推荐：TVB 经典 + 近年新港剧",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:39:53Z",
+      "url": "https://github.com/gvzaixian/hk-tv-series",
+      "analysis": {
+        "positioning": "港剧迷的追剧手册，精选TVB经典与近年热门新剧，并提供观看链接。",
+        "useCases": [
+          "想回味TVB经典 → 它直接列出剧目，并提供观看路径。",
+          "想追看最新港剧 → 它推荐近期热门，省去你搜索的麻烦。",
+          "想按类型找剧 → 它分类整理警匪/法律剧，助你快速定位。"
+        ],
+        "audience": "港剧爱好者，特别是那些想快速找到优质港剧推荐和观看链接的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开项目README",
+            "根据推荐和链接观看港剧"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "个人博客/影视论坛",
+            "method": "通过阅读、交流获取推荐，但需自行寻找观看源。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "影视聚合App/网站",
+            "method": "直接搜索剧集和观看链接，但推荐可能缺乏策划。",
+            "models": null,
+            "pricing": "免费/部分付费"
+          }
+        ],
+        "pricing": "免费。项目本身为开源信息列表，推荐的观看平台也未提及收费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个简单直接、场景明确的港剧推荐列表。虽然技术含量低，但有效地解决了港剧迷的片源寻找痛点，内容策划有价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:54:06.078Z"
+    },
+    {
+      "owner": "gvzaixian",
+      "repo": "hong-kong-classics",
+      "fullName": "gvzaixian/hong-kong-classics",
+      "description": "港片经典推荐 - 无间道 / 英雄本色 / 古惑仔",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T00:14:55Z",
+      "url": "https://github.com/gvzaixian/hong-kong-classics",
+      "analysis": {
+        "positioning": "港片经典推荐列表，附带观看指引。",
+        "useCases": [
+          "你想重温或探索港片经典 → 它提供按年代划分的精选片单。",
+          "你找到想看的港片但不知在哪看 → 它提供一键直达的免费观看链接。",
+          "你寻找高分、有口碑的港片 → 它突出标注《无间道》等代表作。"
+        ],
+        "audience": "所有对香港电影感兴趣、希望获取经典推荐及观看渠道的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 GitHub 项目页面。",
+            "浏览 README，根据年代和推荐选择感兴趣的电影。",
+            "点击 README 中提供的「努努影院」链接直达观看。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影",
+            "method": "搜索/浏览",
+            "models": "用户评分、影评",
+            "pricing": "免费"
+          },
+          {
+            "name": "电影类垂直网站/论坛",
+            "method": "浏览推荐文章",
+            "models": "编辑推荐",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目直接、简洁地提供了港片推荐列表和观看链接，实用性强，但项目本身无代码逻辑，主要是信息聚合。",
+        "isVibeCoding": true,
+        "communityActivity": "社区互动极低，无 Issue 或 PR 记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:54:27.524Z"
+    },
+    {
+      "owner": "xiaolansp",
+      "repo": "hk-tv-drama",
+      "fullName": "xiaolansp/hk-tv-drama",
+      "description": "港剧 + 港片精选：寻秦记 / 使徒行者 / 大时代",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:40:25Z",
+      "url": "https://github.com/xiaolansp/hk-tv-drama",
+      "analysis": {
+        "positioning": "经典港剧港片精选合集，附观看链接。",
+        "useCases": [
+          "你想重温经典港剧港片 → 它提供精选片单和直达观看链接。",
+          "你在寻找热门港片资源 → 它帮你快速定位流行电影并提供播放入口。",
+          "你不确定看什么港剧 → 它推荐TVB黄金期和近年佳作，省去选择烦恼。"
+        ],
+        "audience": "港剧港片爱好者，尤其是怀旧党和希望便捷观看的剧迷影迷。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目页面。",
+            "根据推荐片单选择想看的剧集或电影。",
+            "点击提供的链接前往外部平台观看。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "各大影视资源网站/论坛",
+            "method": "用户自行搜索或浏览获取资源链接，更新和整理度不一。",
+            "models": "N/A",
+            "pricing": "免费/部分付费"
+          },
+          {
+            "name": "官方流媒体平台（如MyTV Super，Netflix港区）",
+            "method": "订阅会员，直接观看，内容受版权限制。",
+            "models": "N/A",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费 (项目本身提供免费内容和外部免费观看链接)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个简单的港剧港片资源导航列表，技术复杂度低，主要价值在于内容整理和链接聚合。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue 均为0，无互动迹象。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:54:48.083Z"
+    },
+    {
+      "owner": "xingjiu8341",
+      "repo": "tv-drama-mainland",
+      "fullName": "xingjiu8341/tv-drama-mainland",
+      "description": "国产电视剧追剧手册 2025-2026",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:25:34Z",
+      "url": "https://github.com/xingjiu8341/tv-drama-mainland",
+      "analysis": {
+        "positioning": "2025-2026年度国产电视剧精选指南，附在线观看链接。",
+        "useCases": [
+          "想看高分国产剧 → 它提供2025-2026年度精选剧目清单。",
+          "想追某部热播国产剧 → 它给出剧集简介和外部观看链接。",
+          "想快速了解近期口碑国产剧 → 它按类型推荐并附带关键信息。"
+        ],
+        "audience": "喜欢观看国产电视剧的用户，寻找高分剧集或便捷观看入口时使用。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub项目页面。",
+            "浏览README中的剧集推荐和观看链接。"
+          ],
+          "note": "观看链接指向第三方网站，内容可用性可能受地域或时效性影响。"
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影/电视",
+            "method": "搜索剧集、查看评分与影评",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "主流视频平台（如腾讯视频）",
+            "method": "平台内搜索、订阅观看",
+            "models": null,
+            "pricing": "部分免费/会员付费"
+          }
+        ],
+        "pricing": "项目本身免费；观看链接指向的第三方平台可能包含免费或广告内容。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个内容整理型项目，结构清晰，信息实用，但无复杂技术实现或创新点。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何 Issue，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:55:03.935Z"
+    },
+    {
+      "owner": "piapiapiacom",
+      "repo": "anime-japanese-2026",
+      "fullName": "piapiapiacom/anime-japanese-2026",
+      "description": "日本动漫追番清单 2025-2026",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:25:39Z",
+      "url": "https://github.com/piapiapiacom/anime-japanese-2026",
+      "analysis": {
+        "positioning": "日本动漫追番清单，涵盖新番、经典及观看链接。",
+        "useCases": [
+          "你想了解未来新番 → 它帮你按季度追踪最新番剧。",
+          "你想补番经典作品 → 它为你推荐高分必看动漫。",
+          "你想找动漫观看资源 → 它提供直接跳转的观影链接。"
+        ],
+        "audience": "日本动漫爱好者，特别是追新番、补旧番或寻找观看资源的群体。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub项目主页 piapiapiacom/anime-japanese-2026。",
+            "查阅README，浏览按季度分类的番剧列表及相关链接。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "MyAnimeList",
+            "method": "网站/APP，全球大型动漫数据库，提供用户管理、评分、社交。",
+            "models": "动漫、漫画、制作人员等数据。",
+            "pricing": "免费（有高级会员）"
+          },
+          {
+            "name": "AniList",
+            "method": "网站/APP，现代界面动漫数据库，支持自定义列表和社交功能。",
+            "models": "动漫、漫画、角色等数据。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，一个GitHub开源内容仓库。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README内容组织清晰，提供实用信息，但项目本身无代码逻辑，仅为静态列表，无法评价代码质量。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度低，目前无Issue或Pull Request。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:55:34.999Z"
+    },
+    {
+      "owner": "yihuagongnet",
+      "repo": "national-anime",
+      "fullName": "yihuagongnet/national-anime",
+      "description": "国产动漫推荐：国创 / 大陆动画 2024-2026",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:39:48Z",
+      "url": "https://github.com/yihuagongnet/national-anime",
+      "analysis": {
+        "positioning": "国产动漫爱好者专属，精选国创动画剧集及电影，提供分类推荐与观看链接。",
+        "useCases": [
+          "你想找最新的热门国产仙侠玄幻动画 → 它帮你快速找到《斗罗大陆》、《凡人修仙传》等系列并提供观看入口。",
+          "你想回顾高质量的国产动画电影 → 它帮你罗列《长安三万里》、《哪吒之魔童降世》等，并提供观看链接。",
+          "你想系统了解近年优秀国创动画，但不知道从何看起 → 它帮你按类型（如都市、历史）筛选，直接链接到观看平台。"
+        ],
+        "audience": "适合喜欢观看国产动漫、国创动画的观众，尤其是对近期热门和经典作品感兴趣，并希望获取观看链接的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 GitHub 项目页面。",
+            "根据兴趣浏览不同分类的推荐动漫。",
+            "点击提供的链接直接跳转到第三方影院观看。"
+          ],
+          "note": "观看链接依赖第三方影院平台，可能存在地区或版权限制，且非官方来源。"
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影/动画",
+            "method": "用户评分、影评推荐，需自行搜索观看渠道。",
+            "models": null,
+            "pricing": "免费（信息查询）"
+          },
+          {
+            "name": "B站国创区",
+            "method": "官方播放平台，内置推荐系统。",
+            "models": null,
+            "pricing": "部分免费/付费（大会员）"
+          }
+        ],
+        "pricing": "项目本身免费提供信息，但推荐的第三方观看平台可能含有广告或付费内容。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供实用内容列表，分类清晰，直接提供观看链接，对于目标用户而言具有明确价值。但项目本身不涉及代码创新或复杂功能，更像是一个资源整理。",
+        "isVibeCoding": true,
+        "communityActivity": "目前无 Issue 互动，社区活跃度较低，更偏向静态信息整理。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:55:48.843Z"
+    },
+    {
+      "owner": "soutongs",
+      "repo": "movie-search-tips",
+      "fullName": "soutongs/movie-search-tips",
+      "description": "影视搜索技巧：拼音 / 别名 / 错字都能搜到",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T00:42:11Z",
+      "url": "https://github.com/soutongs/movie-search-tips",
+      "analysis": {
+        "positioning": "中文影视搜索技巧指南，助力提升网站搜索体验。",
+        "useCases": [
+          "你是影视网站开发者，想优化站内搜索 → 它提供拼音、错别字、别名等实用搜索优化方案。",
+          "你负责影视网站SEO，想抓住长尾搜索流量 → 它揭示用户搜索习惯，指导关键词布局。",
+          "你希望用户通过英文名、别名也能搜到中文影视 → 它提供多语言/别名映射搜索的思路。"
+        ],
+        "audience": "影视网站开发者、产品经理及SEO优化师，寻求提升站内搜索功能和用户体验的实战策略。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "阅读项目 README 文档",
+            "参考其中技巧，在你的影视网站或搜索引擎中进行实现和优化"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目清晰总结了中文影视搜索的常见痛点及解决方案，README内容实用且有具体示例，对相关领域开发者有参考价值。但项目本身是纯文档，不含代码实现，且社区互动度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "无 Issue 开启或关闭记录，社区活跃度低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:56:02.656Z"
+    },
+    {
+      "owner": "soutongs",
+      "repo": "japanese-tv-drama",
+      "fullName": "soutongs/japanese-tv-drama",
+      "description": "日剧追番手册：半泽直树 / 重启人生 / 古畑任三郎",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T01:40:19Z",
+      "url": "https://github.com/soutongs/japanese-tv-drama",
+      "analysis": {
+        "positioning": "日剧爱好者追剧指南，按题材精选推荐，提供观看链接。",
+        "useCases": [
+          "你想看特定题材的日剧 → 它帮你快速定位如《半泽直树》等经典剧集。",
+          "你剧荒不知道看什么 → 它提供职场、推理、治愈等多种分类榜单，帮你选择心仪剧目。",
+          "你找到想看的日剧却不知何处观看 → 它直接提供部分剧集的免费观看链接。"
+        ],
+        "audience": "日剧入门新手或资深爱好者，用于发现热门日剧、寻找观看资源。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开项目页面",
+            "浏览日剧分类和推荐，点击链接观看"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影（日剧区）",
+            "method": "用户评分、评论、榜单推荐，提供部分观看平台入口",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "各类影视聚合网站/App",
+            "method": "聚合多个影视平台资源，提供搜索和观看",
+            "models": "N/A",
+            "pricing": "免费（含广告或部分需付费）"
+          }
+        ],
+        "pricing": "免费。项目本身是开源列表，推荐的观看平台也免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个日剧推荐列表，内容整理清晰，分类明确，且提供了直接观看链接，实用性强。但技术实现层面简单。",
+        "isVibeCoding": true,
+        "communityActivity": "目前无Issue记录，社区活跃度低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:56:16.880Z"
+    },
+    {
+      "owner": "xuekun001",
+      "repo": "korean-drama-recs",
+      "fullName": "xuekun001/korean-drama-recs",
+      "description": "韩剧追剧手册 - 鱿鱼游戏 / 黑暗荣耀 / 请回答系列",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T00:14:13Z",
+      "url": "https://github.com/xuekun001/korean-drama-recs",
+      "analysis": {
+        "positioning": "韩剧高分剧集分类推荐，附带高清在线观看链接。",
+        "useCases": [
+          "你想看热门韩剧 → 它帮你发现《鱿鱼游戏》、《黑暗荣耀》等高分剧集。",
+          "你不知道哪里能看 → 它提供努努影院的韩剧专区和剧集直达链接。",
+          "你剧荒了想找新剧 → 它按类型（悬疑、复仇、爱情等）推荐精选韩剧。"
+        ],
+        "audience": "韩剧爱好者和剧荒者，方便快速找到分类推荐与在线观看资源。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开项目 README。",
+            "选择感兴趣的韩剧分类或剧集。",
+            "点击链接跳转至在线观看页面。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "豆瓣电影/剧集",
+            "method": "网页/App浏览、搜索、榜单、用户评分",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "影视内容社区/博客",
+            "method": "浏览编辑推荐、用户讨论",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个静态韩剧推荐列表，内容整理清晰、实用，但项目本身不涉及代码或交互，活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，Issue 统计显示无任何交互记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-29T05:56:32.511Z"
+    },
+    {
+      "owner": "harrietteehisqu7759383",
+      "repo": "kms-pico-latest-april-2026",
+      "fullName": "harrietteehisqu7759383/kms-pico-latest-april-2026",
+      "description": "A secure, educational toolkit for understanding KMS activation, designed for lab environments.",
+      "language": "C#",
+      "topics": [
+        "kms-activator-windows-10-pro",
+        "kms-client",
+        "kms-office",
+        "kms-pico-office-2019-activator",
+        "kms-piko",
+        "kms-server",
+        "kms-server-service-autokmspico-portable-2026",
+        "kmspico-1121-free-download",
+        "kmspico-2027",
+        "kmspico-clean",
+        "kmspico-portable-clean-2026",
+        "kmspico-windows-11-activator-download",
+        "kmspisco",
+        "windows-10-pro-activator-kms"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-25T15:39:47Z",
+      "url": "https://github.com/harrietteehisqu7759383/kms-pico-latest-april-2026",
+      "analysis": {
+        "positioning": "用于安全、合规地学习和分析KMS激活机制的教育工具包。",
+        "useCases": [
+          "你想安全合规地学习KMS激活原理 → 它提供隔离环境和详尽文档助你理解。",
+          "你需研究或审计KMS激活机制 → 它提供受控工具和脚本进行分析和测试。",
+          "你想提升系统管理或网络安全技能 → 它支持你在实验室环境中实践相关知识。"
+        ],
+        "audience": "适用于教育机构、IT专业人员、安全研究员及系统管理员，用于学习、研究和审计KMS激活机制。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub Releases页面下载最新版本。",
+            "在隔离的实验室或虚拟机环境中运行和学习。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "KMS Pico (实际激活工具)",
+            "method": "运行程序，一键激活",
+            "models": "Windows, Office",
+            "pricing": "免费"
+          },
+          {
+            "name": "Windows/Office KMS激活器 (其他)",
+            "method": "运行程序，一键激活",
+            "models": "Windows, Office",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述强调教育和合规，但项目名和Topic高度关联非法KMS激活工具，可能引发误解，合规性存在潜在争议。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低，社区互动不活跃。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-05-29T05:57:13.273Z"
     }
   ]
 }
