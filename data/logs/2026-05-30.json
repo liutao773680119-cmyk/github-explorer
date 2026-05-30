@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "date": "2026-05-30",
+  "startedAt": "2026-05-30T05:28:33.308Z",
+  "finishedAt": "2026-05-30T05:34:43.735Z",
+  "durationSeconds": 370,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 19,
+    "skipped": 87,
+    "geminiCalls": 22,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-05-30T05:31:51.461Z",
+      "level": "warn",
+      "project": "martawewqc7692530/MineCraft-Collection-C-Client",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-30T05:33:39.650Z",
+      "level": "warn",
+      "project": "foru17/make-x-great-again",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-05-30T05:33:42.741Z",
+      "level": "warn",
+      "project": "nv-tlabs/Gamma-World",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

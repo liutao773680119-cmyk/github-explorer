@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-29T05:57:13.285Z",
+  "updatedAt": "2026-05-30T05:33:36.418Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -40207,6 +40207,900 @@
         "category": "安全"
       },
       "analyzedAt": "2026-05-29T05:57:13.273Z"
+    },
+    {
+      "owner": "wwe-dog",
+      "repo": "ppt-image2-editable-rebuild",
+      "fullName": "wwe-dog/ppt-image2-editable-rebuild",
+      "description": "一个基于截图/参考图重建可编辑 PPT 的 Codex skill。先用 image2/imagegen 生成单页视觉参考图，再以局部截图保留复杂插图、图标、地图等视觉资产，同时用 PPT 文本框和形状重建标题、正文、卡片、箭头、标签、结论条等可编辑元素。",
+      "language": "Python",
+      "topics": [],
+      "license": "Unlicense",
+      "createdAt": "2026-05-30T02:58:39Z",
+      "url": "https://github.com/wwe-dog/ppt-image2-editable-rebuild",
+      "analysis": {
+        "positioning": "将AI生成的PPT视觉稿，智能重建为可编辑的PowerPoint文件。",
+        "useCases": [
+          "你用AI生成了精美PPT视觉稿 → 它帮你把视觉稿拆解成可编辑的标题、正文、图表。",
+          "你急需将设计参考图快速转换为可修改的PPT → 它自动识别并重建PPT中的卡片、箭头和结论条。",
+          "你想批量制作风格统一但内容可变的PPT → 它帮你从单页参考图批量生成可编辑PPT。"
+        ],
+        "audience": "使用AI工具（如image2/imagegen）生成PPT视觉稿，但需要最终输出可编辑、易修改PPT的专业人士、设计师或内容创作者。",
+        "quickStart": {
+          "prerequisites": "需安装Python，并能调用 image2/imagegen 生成PPT视觉参考图",
+          "steps": [
+            "使用 image2/imagegen 生成单页PPT视觉参考图（强烈建议背景保持简洁）。",
+            "通过 Codex 客户端调用 `/ppt-image2-editable-rebuild` 或 `$ppt-image2-editable-rebuild`，输入参考图路径即可按页重建。"
+          ],
+          "note": "Codex 客户端可能需要使用 skill chip 或 `$` 语法调用。"
+        },
+        "competitors": [],
+        "pricing": "免费（自愿打赏支持作者和付费教学答疑）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作者对项目原理、痛点和最佳实践有深入洞察，提供了详细的工作流和明确的使用建议。积极引导用户并开放交流，显示出对项目的热情和对用户的负责态度。",
+        "isVibeCoding": true,
+        "communityActivity": "目前 Issues 0/0，活跃度尚待验证，但作者开放微信交流渠道，可及时获取支持和反馈。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-30T05:28:49.724Z"
+    },
+    {
+      "owner": "kitlangton",
+      "repo": "cellshot",
+      "fullName": "kitlangton/cellshot",
+      "description": "",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-30T03:10:16Z",
+      "url": "https://github.com/kitlangton/cellshot",
+      "analysis": {
+        "positioning": "高性能终端可视化捕获工具",
+        "useCases": [
+          "你做AI Agent开发 → 它帮你捕获TUI程序的运行状态和输出，用于日志或自动化交互训练。",
+          "你做TUI应用开发 → 它帮你生成高质量的SVG/PNG截图，用于文档、演示或自动化测试。",
+          "你做终端操作评审 → 它帮你输出JSON格式的样式化帧数据，便于未来进行视觉差异比较和远程协议传输。"
+        ],
+        "audience": "需要对终端应用（TUI）进行高保真捕获、测试、文档或自动化交互的开发者和AI Agent。",
+        "quickStart": {
+          "prerequisites": "Rust 1.93 或更高版本。",
+          "steps": [
+            "cargo install cellshot",
+            "cellshot --help 或参考文档中的会话示例进行捕获。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个专注于解决特定痛点的实用CLI工具，能够高保真捕获终端UI和交互。提供多种高级输出格式和强大的会话管理功能，代码示例清晰，功能强大且有价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0开0关，项目活跃度较低，可能项目较新或功能已较稳定。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-30T05:29:01.584Z"
+    },
+    {
+      "owner": "helloianneo",
+      "repo": "ian-xiaohei-illustrations",
+      "fullName": "helloianneo/ian-xiaohei-illustrations",
+      "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+      "language": "Unknown",
+      "topics": [
+        "ai-agent",
+        "chinese",
+        "codex-skill",
+        "handdrawn",
+        "illustration",
+        "image-generation",
+        "xiaohei"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-27T22:47:56Z",
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "analysis": {
+        "positioning": "专为中文文章设计，通过AI生成怪诞手绘风格配图，直击认知锚点。",
+        "useCases": [
+          "你写中文文章 → 它帮你为判断、流程、状态、隐喻生成独特手绘配图",
+          "你生产知识/方法论内容 → 它帮你把抽象概念和认知锚点具象化",
+          "你使用Codex进行内容创作 → 它帮你稳定复用一套高识别度的视觉语言"
+        ],
+        "audience": "中文内容创作者，特别是知识型博主、方法论分享者和Codex用户，需要为文章生成风格独特、传达核心概念的配图。",
+        "quickStart": {
+          "prerequisites": "Codex AI Agent 环境",
+          "steps": [
+            "克隆仓库：git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git",
+            "复制skill到Codex目录：cp -R ./ian-xiaohei-illustrations \"${CODEX_HOME:-$HOME/.codex}/skills/\"",
+            "在Codex中使用：Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张小黑怪诞正文配图。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Midjourney / Stable Diffusion（直接Prompt）",
+            "method": "需手动编写复杂Prompt，从零开始创作，反复调试，难以标准化风格",
+            "models": "自身模型",
+            "pricing": "付费 / 免费（取决于版本）"
+          },
+          {
+            "name": "通用AI写作助手（如ChatGPT Plus的DALL-E）",
+            "method": "简单提示词生成，图片质量和语义理解能力有限，风格难以定制",
+            "models": "DALL-E 3 / 其他通用模型",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心在于将文章中的抽象认知锚点转化为独特的视觉隐喻，风格鲜明、高度定制，强调“画出关键认知动作”，符合Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前Issue开启1个，暂无关闭。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-30T05:29:16.375Z"
+    },
+    {
+      "owner": "withkynam",
+      "repo": "vibecode-pro-max-kit",
+      "fullName": "withkynam/vibecode-pro-max-kit",
+      "description": "Your AI forgets. This remembers. Spec-driven coding harness for vibecoders, product owners, CEOs and real builders — self-improving context memory, 12 agents, 32 skills. Kills context rot, ships features, not spaghetti. Claude Code & Codex. Any stack. 30 seconds",
+      "language": "JavaScript",
+      "topics": [
+        "agentic",
+        "ai-agents",
+        "ai-coding-assistant",
+        "ai-development",
+        "ai-workflow",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli-tools",
+        "code-quality",
+        "codex",
+        "coding-agents",
+        "cursor",
+        "developer-tools",
+        "llm",
+        "openai",
+        "prompt-engineering",
+        "typescript",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-27T05:46:25Z",
+      "url": "https://github.com/withkynam/vibecode-pro-max-kit",
+      "analysis": {
+        "positioning": "规约驱动的AI编码Agent框架，告别上下文遗忘和烂代码。",
+        "useCases": [
+          "你让AI编写复杂功能 → 它帮你规划、设计，生成高质量、可维护代码。",
+          "你和AI协作开发时上下文丢失 → 它提供自记忆能力，确保AI长期理解项目上下文。",
+          "你需要团队协作评审AI代码产物 → 它自动生成PRD和计划，方便团队共享和评审。"
+        ],
+        "audience": "面向开发者、产品经理和工程负责人，旨在提升AI辅助开发大型复杂项目的效率和质量。",
+        "quickStart": {
+          "prerequisites": "需配置Claude或OpenAI API密钥",
+          "steps": [
+            "安装项目：`npm install -g vibecode-pro-max-kit`",
+            "初始化项目：`vibecode init` 或根据文档配置",
+            "开始开发：使用`vibecode`命令驱动AI Agent进行规约驱动式编码"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GPT-Engineer",
+            "method": "通过对话和Prompt逐步生成代码项目",
+            "models": "OpenAI (GPT-4)",
+            "pricing": "免费 (需支付LLM API费用)"
+          },
+          {
+            "name": "OpenDevin",
+            "method": "开源的自主代码开发Agent，模拟Devin能力",
+            "models": "OpenAI, Claude等",
+            "pricing": "免费 (需支付LLM API费用)"
+          }
+        ],
+        "pricing": "免费 (项目本身开源免费，但使用LLM API需支付费用)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名直接包含“vibecode”，README中明确提及目标用户为“vibecoders”，并引用动漫台词来形容开发理念，风格独特且充满趣味性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃，但解决速度待观察（16个开放，0个关闭），可能处于早期快速迭代阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-30T05:29:35.741Z"
+    },
+    {
+      "owner": "Michaelliv",
+      "repo": "pi-dynamic-workflows",
+      "fullName": "Michaelliv/pi-dynamic-workflows",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-28T20:46:15Z",
+      "url": "https://github.com/Michaelliv/pi-dynamic-workflows",
+      "analysis": {
+        "positioning": "Pi的动态工作流扩展，用JS脚本编排AI子代理，高效处理复杂任务。",
+        "useCases": [
+          "你进行大型代码审计 → 它通过动态工作流，将审计任务分解给多个AI子代理并行处理，并合成最终报告。",
+          "你需要多角度分析技术文档或代码 → 它协调多个AI子代理从不同视角解读和总结，提供全面视图。",
+          "你面对复杂需求需要AI协作完成 → 它让你用JavaScript脚本编排多个AI子代理，自动化完成多步骤、高难度的项目任务。"
+        ],
+        "audience": "Pi用户和开发者，需要AI以结构化、可控的方式完成复杂、多步骤的任务，尤其适合代码分析、项目管理等场景。",
+        "quickStart": {
+          "prerequisites": "已安装并配置好Pi (earendil-works/pi)",
+          "steps": [
+            "运行 `pi install npm:pi-dynamic-workflows` 安装扩展。",
+            "在Pi中输入 `/reload` 激活扩展。",
+            "直接向Pi提问，例如：`Run a workflow to inspect this repository and summarize the main modules.`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Anthropic Claude Code (动态工作流)",
+            "method": "语言模型原生支持的动态工作流",
+            "models": "Claude 系列",
+            "pricing": "付费（基于token使用）"
+          }
+        ],
+        "pricing": "免费 (开源项目，作为Pi扩展使用)",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "核心概念新颖且强大，实现细节清晰。但GitHub Issue统计显示所有问题均为开启状态 (12/0)，表明项目维护在问题解决方面可能滞后，存在潜在风险。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，存在待解决问题，但无已关闭问题，表明维护者对问题解决的响应可能不足。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-30T05:29:48.147Z"
+    },
+    {
+      "owner": "baoweise-bot",
+      "repo": "aimili-vpngate",
+      "fullName": "baoweise-bot/aimili-vpngate",
+      "description": "aimili-vpngate是一个借助vpngate.net让Linux用干净ip出站的代理工具。",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-25T14:13:24Z",
+      "url": "https://github.com/baoweise-bot/aimili-vpngate",
+      "analysis": {
+        "positioning": "Linux VPS智能VPN代理网关，提供干净IP出站。",
+        "useCases": [
+          "你在VPS上跑服务需要多变、干净的出站IP → 它帮你自动采集、测试VPNGate节点，提供高性能HTTP/SOCKS5代理。",
+          "你在VPS上搭建Xray等代理服务 → 它作为落地出站代理，提升匿名性和出站IP多样性。",
+          "你需要为Linux VPS实现智能策略路由出站 → 它利用OpenVPN隧道和策略路由管理出站网络。"
+        ],
+        "audience": "Linux VPS用户，尤其是需要动态、干净出站IP，或作为其他代理服务（如Xray）落地端的开发者/运维人员。",
+        "quickStart": {
+          "prerequisites": "curl, ca-certificates (对于全新Ubuntu/Debian系统)",
+          "steps": [
+            "执行一行安装指令：`bash <(curl -Ls ...)`",
+            "使用`ml`命令管理服务，如`ml status`查看状态，`ml start`启动。"
+          ],
+          "note": "Debian系统需先修改安装脚本再运行；若遇包管理器锁定错误，需先解锁。"
+        },
+        "competitors": [
+          {
+            "name": "手动配置公共OpenVPN/WireGuard客户端",
+            "method": "寻找免费OpenVPN配置文件或购买VPN服务，手动配置系统路由",
+            "models": null,
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "商业代理/IP服务商",
+            "method": "购买专用IP或SOCKS5/HTTP代理服务",
+            "models": null,
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档清晰，快速开始教程和故障排除详细，提供便捷的CLI管理和架构图，用户上手体验良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决进度缓慢（7开0关），但项目可能较新。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-30T05:30:05.880Z"
+    },
+    {
+      "owner": "Sophomoresty",
+      "repo": "gemini-web2api",
+      "fullName": "Sophomoresty/gemini-web2api",
+      "description": "Convert Google Gemini web into OpenAI-compatible API. Zero auth, cross-platform, single file.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-28T11:25:55Z",
+      "url": "https://github.com/Sophomoresty/gemini-web2api",
+      "analysis": {
+        "positioning": "将Google Gemini网页版能力包装成OpenAI兼容API。",
+        "useCases": [
+          "你使用ChatBox、Cherry Studio等OpenAI客户端 → 它帮你免费对接Google Gemini模型。",
+          "你现有应用基于OpenAI SDK开发 → 它帮你零成本切换，无需修改代码调用Gemini模型。",
+          "你需要在Gemini中进行工具调用或网络搜索 → 它帮你通过OpenAI API标准实现这些高级功能。"
+        ],
+        "audience": "开发者，希望零认证、零成本、跨平台使用OpenAI API协议调用Google Gemini模型能力。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "下载或克隆项目中的`gemini_web2api.py`文件",
+            "运行 `python gemini_web2api.py`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "单文件纯Python实现，无额外依赖，将Gemini网页功能巧妙转换为标准OpenAI API，零认证零成本，简洁高效。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度适中，有少量Issue，且有解决记录。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-05-30T05:30:21.015Z"
+    },
+    {
+      "owner": "alfiyahkamilah1239298",
+      "repo": "WallpaperDownloader-26",
+      "fullName": "alfiyahkamilah1239298/WallpaperDownloader-26",
+      "description": "A comprehensive community toolkit for organizing, creating, and managing dynamic wallpaper projects and assets, enhancing your Wallpaper Engine experience.",
+      "language": "TypeScript",
+      "topics": [
+        "live-wallpapers",
+        "steamworkshop",
+        "wallpaper-changer",
+        "wallpaper-engine-key-gen",
+        "wallpaperengine-download"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-28T12:34:25Z",
+      "url": "https://github.com/alfiyahkamilah1239298/WallpaperDownloader-26",
+      "analysis": {
+        "positioning": "增强Wallpaper Engine体验，动态壁纸项目管理工具。",
+        "useCases": [
+          "你做：自定义动态壁纸项目杂乱无章、难以维护 → 它帮你做：提供标准化项目结构，告别文件混乱。",
+          "你做：从零开始创作动态壁纸效率低下 → 它帮你做：提供预设模板，加速内容创作。",
+          "你做：管理大量壁纸素材困难重重 → 它帮你做：提供资产管理工具，轻松分类、同步和更新。"
+        ],
+        "audience": "专注于Wallpaper Engine内容创作的开发者和爱好者，寻求高效项目管理和创作流程。",
+        "quickStart": {
+          "prerequisites": "已安装正版Wallpaper Engine。",
+          "steps": [
+            "下载最新Release版本。",
+            "使用工具初始化新动态壁纸项目工作区。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该工具为动态壁纸创作者提供了结构化和自动化的支持，极大地降低了内容管理的复杂性，使创作者能更专注于艺术表达而非繁琐的项目维护。它本身不是直接的视觉生成工具，但为“氛围编程”类内容的生产提供了坚实的基础。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前有1个开启Issue，无已关闭Issue，响应速度未知。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-30T05:30:35.166Z"
+    },
+    {
+      "owner": "2aronS",
+      "repo": "Duel-Agents",
+      "fullName": "2aronS/Duel-Agents",
+      "description": "CLI, SDK, and IDE plugins for Duel Agents",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "cursor",
+        "duel-agents",
+        "llm",
+        "npm",
+        "openai-compatible",
+        "openclaw",
+        "sdk",
+        "typescript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-28T10:45:44Z",
+      "url": "https://github.com/2aronS/Duel-Agents",
+      "analysis": {
+        "positioning": "IDE与应用的多模型LLM路由层，兼顾成本与效果。",
+        "useCases": [
+          "你同时使用多个LLM模型（如OpenAI/Anthropic）并关注成本 → 它帮你自动路由提示词，选择最经济且效果最佳的模型响应。",
+          "你正在使用Claude Code、Cursor、Codex CLI或OpenClaw等AI编程助手 → 它提供插件和配置，让这些助手通过Duel Agents平台，享受统一的多模型管理和优化。",
+          "你想在自己的应用或Agent中集成LLM能力，并希望简化多模型管理与成本控制 → 它提供SDK，统一API接口，方便快速接入多模型能力。"
+        ],
+        "audience": "使用AI编程助手或在应用中集成LLM的开发者和AI工程师，特别关注LLM调用成本和性能优化。",
+        "quickStart": {
+          "prerequisites": "Duel API Key（需从duelagents.com订阅获取）",
+          "steps": [
+            "导出DUEL_API_KEY环境变量",
+            "运行`npx @duel-agents/install all`安装所需工具插件",
+            "运行`npx @duel-agents/install doctor`验证安装"
+          ],
+          "note": "个别工具（如Cursor）可能需要额外在设置中配置OpenAI Base URL和API Key。"
+        },
+        "competitors": [],
+        "pricing": "付费订阅服务，通过优化多模型LLM调用，帮助用户节省成本。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目提供了CLI、SDK和各种IDE插件，旨在将多模型LLM能力无缝集成到开发工作流中，并自动优化调用成本与效果。工具链完善，与现有AI编程助手结合紧密，对开发者非常友好且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue统计显示目前没有活跃的社区互动（开启0/关闭0）。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-30T05:30:51.140Z"
+    },
+    {
+      "owner": "MatinSenPai",
+      "repo": "SenPaiScanner",
+      "fullName": "MatinSenPai/SenPaiScanner",
+      "description": "A light-weight scanner for Cloudflare IPs, written in Golang",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-28T17:02:54Z",
+      "url": "https://github.com/MatinSenPai/SenPaiScanner",
+      "analysis": {
+        "positioning": "面向VLESS/Trojan用户的Cloudflare IP优选器，带交互式TUI。",
+        "useCases": [
+          "你使用VLESS/Trojan代理 → 它帮你自动扫描并验证可用于Cloudflare代理的IP。",
+          "你所在网络不稳定，想找高可用、低延迟的Cloudflare IP → 它提供两阶段测试，确保IP实际工作和性能。",
+          "你不想记忆命令行参数，偏好图形化操作 → 它提供简洁的终端UI，通过菜单和箭头键即可完成操作。"
+        ],
+        "audience": "需要为VLESS/Trojan代理寻找稳定、低延迟Cloudflare IP的用户，尤其是在网络环境不佳时，且偏好交互式终端工具。",
+        "quickStart": {
+          "prerequisites": "无特定前置条件，可直接下载预编译二进制文件或通过脚本安装。",
+          "steps": [
+            "在Linux/macOS上运行 `curl -fsSL https://github.com/MatinSenPai/SenPaiScanner/raw/refs/heads/main/install.sh | bash`",
+            "运行 `senpaiscanner` 并按菜单提示操作，粘贴VLESS/Trojan配置即可开始优选。"
+          ],
+          "note": "Windows用户请从GitHub Release页面下载对应版本，或参照README中的PowerShell命令进行安装。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "通过直观的终端UI和两阶段测试（连通性+实际代理验证），极大地简化了VLESS/Trojan用户在不稳定网络下寻找高质量Cloudflare IP的复杂过程，体验友好且高效。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度良好，22个Issue中20个已关闭，响应和解决问题效率高。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-30T05:31:07.721Z"
+    },
+    {
+      "owner": "AmmarkoV",
+      "repo": "SAM3DBody-cpp",
+      "fullName": "AmmarkoV/SAM3DBody-cpp",
+      "description": "Real-time 3D full-body reconstruction from a single camera, Multiperson BVH output, Pure C++ runtime, ONNX + ggml, 70-joint skeleton with hands.",
+      "language": "C",
+      "topics": [
+        "3d-human-pose",
+        "bvh",
+        "computer-vision",
+        "cpp",
+        "cuda",
+        "ggml",
+        "motion-capture",
+        "multi-person-pose-estimation",
+        "onnx",
+        "opengl",
+        "pose-detection",
+        "pose-estimation",
+        "pose-tracking",
+        "real-time",
+        "sam-3d-body"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-24T08:12:55Z",
+      "url": "https://github.com/AmmarkoV/SAM3DBody-cpp",
+      "analysis": {
+        "positioning": "单摄像头实时全身3D重建，纯C++运行时，直接输出BVH。",
+        "useCases": [
+          "你需要将视频人物动作用于动画/游戏 → 它帮你从普通视频实时生成多人物BVH动作文件，可直接导入DCC软件。",
+          "你开发C++实时应用需要3D人体姿态 → 它提供纯C++推理引擎，无Python依赖，输出70点骨骼和3D网格。",
+          "你想快速制作虚拟主播/数字人动画 → 它支持MakeHuman角色驱动，简化3D角色动作捕捉流程。"
+        ],
+        "audience": "需要实时、无Python依赖的C++ 3D人体姿态估计和动作捕捉开发者、动画师、游戏开发人员。",
+        "quickStart": {
+          "prerequisites": "HuggingFace模型文件 (推荐CUDA GPU，或CPU专属FP32模型)",
+          "steps": [
+            "从HuggingFace下载模型压缩包并解压，将`onnx/`目录放置于项目根目录。",
+            "执行 `./fast_sam_3dbody_run --from clip.mp4 --bvh ./p.bvh --headless` 命令进行实时推理和BVH导出。"
+          ],
+          "note": "CPU用户需下载独立的FP32版backbone模型。"
+        },
+        "competitors": [
+          {
+            "name": "MediaPipe Pose",
+            "method": "SDK/框架，集成到Python/JS/C++应用",
+            "models": "基于TensorFlow Lite模型，提供2D/3D姿态点",
+            "pricing": "免费"
+          },
+          {
+            "name": "DeepMotion (服务)",
+            "method": "云端SaaS，上传视频生成BVH",
+            "models": "自研AI模型",
+            "pricing": "部分免费/付费订阅"
+          }
+        ],
+        "pricing": "免费 (MIT许可证)，模型文件免费托管于HuggingFace。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，纯C++运行时，无Python依赖，ONNX+ggml集成体现技术硬核。BVH输出直接可用，有Blender插件支持，场景落地性强。Issue活跃度尚低，但核心功能突出。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅开启1个Issue，无已关闭Issue，可能处于早期或维护者响应较快。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-30T05:31:31.507Z"
+    },
+    {
+      "owner": "ace-trump-tech",
+      "repo": "DeltaForce-OBS-Locker",
+      "fullName": "ace-trump-tech/DeltaForce-OBS-Locker",
+      "description": "三角洲行动OBS锁头插件 – 基于OBS渲染注入的智能锁头辅助，支持QQ音乐/网易云联精准骨骼识别、平滑自瞄、压枪抑制，稳定过检，提升击杀效率。动加载。DeltaForce OBS Lockhead Plugin – Smart aim assist via OBS injection, supports QQ Music/NetEase Cloud integration. Bone recognition, smooth aimbot, recoil control, stable anti-cheat bypass.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-26T05:24:10Z",
+      "url": "https://github.com/ace-trump-tech/DeltaForce-OBS-Locker",
+      "analysis": {
+        "positioning": "《三角洲行动》OBS/QQ音乐注入式智能锁头插件",
+        "useCases": [
+          "你玩《三角洲行动》时想提高命中率 → 它基于画面识别和模拟输入，提供精准骨骼锁头和压枪。",
+          "你担心使用游戏辅助被封号 → 它采用OBS/QQ音乐渲染注入，不修改游戏内存，降低检测风险。",
+          "你想深度优化游戏辅助效果 → 它利用YOLO骨骼识别、多帧投票及手电筒光斑中心模拟头部，提升瞄准精度。"
+        ],
+        "audience": "寻求在《三角洲行动》中稳定提升射击准度和击杀效率，同时注重规避检测的玩家。",
+        "quickStart": {
+          "prerequisites": "Python 3.7+、GitHub账号、OBS Studio 28.0+（或QQ音乐PC版）",
+          "steps": [
+            "安装OBS Studio并确保版本符合要求。",
+            "从GitHub Star/Fork本项目并下载ZIP包。",
+            "将`DeltaForce_OBS.dll`（或Python版相关文件）复制到OBS指定插件目录。",
+            "在OBS中启动并配置插件功能。"
+          ],
+          "note": "另有QQ音乐联动方式（魔改玩法）及Python直接运行方式（开发/测试）。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目巧妙利用OBS渲染注入和图像识别技术，实现游戏辅助功能，技术细节有一定亮点。然而，其作为游戏作弊工具的性质，可能引发伦理和公平性争议，且存在被游戏官方封禁的风险。",
+        "isVibeCoding": true,
+        "communityActivity": "讨论活跃，有8个开启的Issue邀请开发者参与讨论，但目前无已关闭Issue，显示问题解决周期可能较长或侧重讨论。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-30T05:32:04.296Z"
+    },
+    {
+      "owner": "lceminecraft-launcher",
+      "repo": "LCE-Emerald-Launcher",
+      "fullName": "lceminecraft-launcher/LCE-Emerald-Launcher",
+      "description": "lce emerald launcher minecraft  github Download minecraft legacy console edition",
+      "language": "TypeScript",
+      "topics": [
+        "1-12-2-mod",
+        "launcher",
+        "lce-launcher",
+        "lce-launcher-minecraft",
+        "lce-minecraft",
+        "lce-minecraft-download",
+        "lce-minecraft-launcher",
+        "lce-minecraft-launcher-download",
+        "mc-launcher",
+        "mclauncher",
+        "mcmod",
+        "minecraft-client",
+        "minecraft-client-mod",
+        "minecraft-gui",
+        "minecraft-launcher",
+        "minecraft-launcher-library",
+        "minecraft-mod",
+        "minecraft-utilities",
+        "minecraft-utility-mod",
+        "modded-minecraft"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T16:58:07Z",
+      "url": "https://github.com/lceminecraft-launcher/LCE-Emerald-Launcher",
+      "analysis": {
+        "positioning": "Minecraft LCE 遗产版 PC 游戏的桌面启动器。",
+        "useCases": [
+          "你想在PC上玩Minecraft Legacy Console Edition (LCE) 的复活社区版本（如neoLegacy、Revelations、360 Revived） → 它帮你一键安装和启动这些版本。",
+          "你想在LCE中应用自定义皮肤、模组或体验多人游戏 → 它帮你轻松管理并实现这些功能。",
+          "你需要一个简单直观的工具来管理多个LCE版本 → 它提供干净、用户友好的界面进行版本切换和管理。"
+        ],
+        "audience": "Minecraft LCE 玩家，特别适合想玩社区复活版、自定义皮肤、模组或多人游戏的 PC 用户。",
+        "quickStart": {
+          "prerequisites": "确保你拥有合法的Minecraft游戏副本。",
+          "steps": [
+            "下载最新版本压缩包。",
+            "解压文件。",
+            "以管理员身份运行 `LCE-Emerald-Launcher.exe`。",
+            "选择并安装你偏好的LCE版本。",
+            "启动游戏。"
+          ],
+          "note": "仅支持 Windows 10/11 平台。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能全面、界面友好的Minecraft LCE遗产版专用启动器。解决特定玩家群体的痛点，但应用场景较为垂直。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度较低，可能项目非常稳定或问题处理方式不在 GitHub Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-30T05:32:15.995Z"
+    },
+    {
+      "owner": "garnix-io",
+      "repo": "garnix-ci",
+      "fullName": "garnix-io/garnix-ci",
+      "description": "CI and hosting for nix-based, flakified github repos",
+      "language": "Haskell",
+      "topics": [],
+      "license": "BSD-3-Clause",
+      "createdAt": "2026-05-27T17:48:52Z",
+      "url": "https://github.com/garnix-io/garnix-ci",
+      "analysis": {
+        "positioning": "Nix flake GitHub仓库的专用CI与托管平台",
+        "useCases": [
+          "你管理Nix flake项目 → 它帮你自动构建、测试并托管CI结果",
+          "你希望快速部署一个本地Garnix服务 → 它提供一键式QEMU VM部署，方便开发与测试",
+          "你开发Garnix前端 → 它支持前端开发模式，可连接后端VM进行联调"
+        ],
+        "audience": "Nix生态开发者和团队，尤其是有Nix flake项目需要自动化CI/CD和结果托管的GitHub用户。",
+        "quickStart": {
+          "prerequisites": "GitHub账号，Nix环境",
+          "steps": [
+            "执行`nix run -L .#examples_spinUpVms`启动本地Garnix服务VM。",
+            "访问VM的`/garnix-admin`页面，创建GitHub App并配置凭证到`secrets/dev.yaml`。",
+            "在GitHub UI中启用App，然后通过`curl`命令提交测试构建。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Actions",
+            "method": "GitHub内置，YAML配置",
+            "models": "任意代码库",
+            "pricing": "免费额度，超出付费"
+          },
+          {
+            "name": "GitLab CI",
+            "method": "GitLab内置，YAML配置",
+            "models": "任意代码库",
+            "pricing": "免费额度，超出付费"
+          }
+        ],
+        "pricing": "免费（开源，可自托管）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供了完整的本地开发部署环境和清晰的API调用示例，对于Nix开发者自动化项目构建和测试流程有直接帮助。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue为空，社区活跃度信息不足，项目可能处于早期阶段或主要供内部使用。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-05-30T05:32:30.650Z"
+    },
+    {
+      "owner": "ytnrvdf",
+      "repo": "wha-spell-simulator",
+      "fullName": "ytnrvdf/wha-spell-simulator",
+      "description": "A fan-made browser-based Witch Hat Atelier spell simulator.",
+      "language": "JavaScript",
+      "topics": [
+        "witch-hat-atelier"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T00:57:33Z",
+      "url": "https://github.com/ytnrvdf/wha-spell-simulator",
+      "analysis": {
+        "positioning": "《帽檐下的异世界工坊》漫画的同人咒语模拟器。",
+        "useCases": [
+          "你想体验绘制《帽檐下的异世界工坊》咒语 → 它帮你在线绘制并模拟咒语效果。",
+          "你想学习咒语结构和解析 → 它展示咒语的AST和IR输出，助你理解其内部逻辑。",
+          "你想制作和测试自定义咒语笔画模板 → 它提供参考工具和效果实验室进行视觉和动画调试。"
+        ],
+        "audience": "《帽檐下的异世界工坊》漫画粉丝、前端开发者及图形识别爱好者。",
+        "quickStart": {
+          "prerequisites": "Node.js",
+          "steps": [
+            "npm install",
+            "npm start",
+            "访问 http://127.0.0.1:5173/"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "创意十足的《帽檐下的异世界工坊》同人项目，将漫画中的魔法绘制和效果可视化，交互体验新颖。README详细且提供了开发工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启10个，关闭0个，社区活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-30T05:32:42.870Z"
+    },
+    {
+      "owner": "osulazerdownload",
+      "repo": "osulazer",
+      "fullName": "osulazerdownload/osulazer",
+      "description": "osu mania download skin lazer map open source rhythm game windows 11 macos linux android ios mobile default client latest version 2026 download beatmaps skins custom rulesets multiplayer free",
+      "language": "C#",
+      "topics": [
+        "beatmap",
+        "osu-game",
+        "osu-lazer",
+        "osu-mania",
+        "osu-skin",
+        "osu-skins",
+        "osugame",
+        "osumania"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T16:46:30Z",
+      "url": "https://github.com/osulazerdownload/osulazer",
+      "analysis": {
+        "positioning": "想在多平台玩osu!lazer？这是个高性能、现代化的非官方客户端。",
+        "useCases": [
+          "你追求极致流畅的osu!lazer体验 → 它提供性能优异、界面现代的客户端。",
+          "你需要在Windows、macOS、Linux甚至手机玩osu! → 它支持全平台，方便你随时开玩。",
+          "你喜欢个性化游戏界面和玩法 → 它支持深度皮肤定制和高级游戏机制。"
+        ],
+        "audience": "追求更佳游戏体验，喜爱跨平台、高性能和高度定制化osu!lazer的玩家。",
+        "quickStart": {
+          "prerequisites": "系统要求：Windows 10/11、macOS或Linux；CPU：现代双核；RAM：4GB（推荐8GB）；GPU：OpenGL 3.3兼容。",
+          "steps": [
+            "下载最新发布包 `osulazer.zip`",
+            "解压到任意目录",
+            "运行 `osu!.exe` 文件",
+            "登录osu!账号即可开始游戏"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "ppy/osu (官方osu!lazer客户端)",
+            "method": "从官方GitHub仓库或官网下载安装",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为知名音游osu!lazer的非官方多平台分发，提供了便捷的下载和安装。README清晰，功能宣传明确。但Issue活跃度极低，代码原创性是分发而非从零开始。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低，社区参与度不明显。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-30T05:32:56.220Z"
+    },
+    {
+      "owner": "Monke-Manager",
+      "repo": "MonkeModManager",
+      "fullName": "Monke-Manager/MonkeModManager",
+      "description": "monkemodmanager download github gorilla tag mod installer manager bepinex cosmetics quest link steam vr custom maps utility tool windows 11 latest version 2026 free gameplay tutorial update guide fix error",
+      "language": "C#",
+      "topics": [
+        "game-mod-manager",
+        "gorilla",
+        "gorilla-tag",
+        "gorillatag",
+        "gorillatagmenu",
+        "gorillatagmods",
+        "gorillatagvr",
+        "gtag",
+        "mod-manager",
+        "mod-managers",
+        "modmanager",
+        "monkemodmanager"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T17:28:54Z",
+      "url": "https://github.com/Monke-Manager/MonkeModManager",
+      "analysis": {
+        "positioning": "Gorilla Tag 模组管理利器，一键定制游戏体验。",
+        "useCases": [
+          "想在《Gorilla Tag》里玩新花样 → 它帮你轻松安装、管理和更新游戏模组。",
+          "嫌手动装模组太麻烦 → 它提供一键式安装，省去繁琐操作。",
+          "追求游戏个性化体验 → 它支持各种模组，自定义房间、外观无障碍。"
+        ],
+        "audience": "《Gorilla Tag》玩家，特别是希望便捷安装、管理模组，享受更多自定义内容的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 操作系统。",
+          "steps": [
+            "下载并解压 MonkeModManager.zip",
+            "以管理员身份运行 MonkeModManager.exe",
+            "选择所需模组并安装",
+            "启动 Gorilla Tag 畅玩"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目名称与游戏高度契合，界面简洁，操作强调'一键式'安装，用户体验设计优秀。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues 开启数量少且无关闭记录，社区响应或维护状态待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-30T05:33:07.202Z"
+    },
+    {
+      "owner": "paraschopra",
+      "repo": "make-pages-interactive",
+      "fullName": "paraschopra/make-pages-interactive",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-26T05:39:25Z",
+      "url": "https://github.com/paraschopra/make-pages-interactive",
+      "analysis": {
+        "positioning": "将静态HTML页面变为AI驱动的实时协作和评论平台。",
+        "useCases": [
+          "你做HTML报告、文档、设计稿迭代 → 它帮你通过AI实现实时批注、反馈与自动修改。",
+          "你审查研究报告（含图表、表格）→ 它帮你直接在页面上划词、点击元素留注，由AI修改并展示变更。",
+          "你原型UI需要快速反馈 → 它帮你将静态HTML原型变为可交互的反馈收集界面，AI自动处理反馈。"
+        ],
+        "audience": "适合需要AI辅助进行静态HTML内容（如报告、文档、设计稿、原型）快速迭代和协作反馈的技术人员、研究员和设计师。",
+        "quickStart": {
+          "prerequisites": "需安装并运行Claude Code环境。",
+          "steps": [
+            "git clone https://github.com/paraschopra/make-pages-interactive ~/.claude/skills/make-pages-interactive",
+            "（可选）更新技能：python ~/.claude/skills/make-pages-interactive/scripts/update.py"
+          ],
+          "note": "Claude Code会自动发现~/.claude/skills/目录下包含SKILL.md的技能。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身开源免费，但需依赖Anthropic Claude Code环境，Claude服务可能收费）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "架构简洁（仅三个核心文件，Python服务器不到300行，无额外依赖），目的明确，直接解决痛点，非常符合\"Vibe Coding\"的精髓。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，有9个开启的Issue但没有已关闭的，可能处于早期或维护不频繁状态。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-30T05:33:19.596Z"
+    },
+    {
+      "owner": "OldenEraTemplateGenerator",
+      "repo": "Olden-Era-Template-Generator",
+      "fullName": "OldenEraTemplateGenerator/Olden-Era-Template-Generator",
+      "description": "olden era template generator github Download heroes of might and magic homm random map rmg json custom map editor templates utility tool windows 11 latest version free preview zone layout multiplayer",
+      "language": "C#",
+      "topics": [
+        "heroes-might-and-magic-olden-era",
+        "homm-olden-era",
+        "olden-era",
+        "oldenera",
+        "oldeneratemplategenerator",
+        "templategenerator"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T17:14:33Z",
+      "url": "https://github.com/OldenEraTemplateGenerator/Olden-Era-Template-Generator",
+      "analysis": {
+        "positioning": "专为“旧时代”风格项目设计的模版生成器。",
+        "useCases": [
+          "你想为奇幻角色扮演项目快速启动 → 它帮你一键生成角色设定、背景故事等模板。",
+          "你在进行“旧时代”风格的创意写作 → 它帮你提供结构化的世界观、剧情大纲模板。",
+          "你在开发复古奇幻游戏 → 它帮你快速搭建项目文档和世界构建模板。"
+        ],
+        "audience": "适用于需要快速创建“旧时代”/奇幻/中世纪风格角色扮演、写作或游戏开发项目模板的创作者和开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载并解压最新版本压缩包。",
+            "运行 `Olden-Era-Template-Generator.exe`，选择模板并生成项目。"
+          ],
+          "note": "当前版本主要面向 Windows 平台，通过 `.exe` 文件运行。"
+        },
+        "competitors": [],
+        "pricing": "免费且开源（MIT License）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个实用工具，能够解决特定领域（旧时代/奇幻项目初期搭建）的痛点，帮助用户标准化和加速内容创作，提升效率。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前只有一个 Issue 开启，没有已关闭的 Issue。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-05-30T05:33:36.404Z"
     }
   ]
 }
