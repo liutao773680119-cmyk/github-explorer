@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-30T05:33:36.418Z",
+  "updatedAt": "2026-05-31T06:00:49.038Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -41101,6 +41101,818 @@
         "category": "文档工具"
       },
       "analyzedAt": "2026-05-30T05:33:36.404Z"
+    },
+    {
+      "owner": "polymaxi2",
+      "repo": "polymarket-arbitrage-trading-bot",
+      "fullName": "polymaxi2/polymarket-arbitrage-trading-bot",
+      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot polymarket trading bot",
+      "language": "Unknown",
+      "topics": [
+        "15min",
+        "5min",
+        "ai",
+        "arbitrage",
+        "arbitragebot",
+        "bot",
+        "btc",
+        "polymarket",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-bot",
+        "polymarket-trading-bot",
+        "trading",
+        "tradingbot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-31T00:10:17Z",
+      "url": "https://github.com/polymaxi2/polymarket-arbitrage-trading-bot",
+      "analysis": {
+        "positioning": "Polymarket套利与AI交易机器人套件",
+        "useCases": [
+          "你关注Polymarket市场价差 → 它帮你自动执行低延迟套利交易",
+          "你希望自动化市场分析和决策 → 它提供AI代理进行智能交易",
+          "你需要极致的交易执行速度 → 它通过Rust工具优化时间敏感的交易窗口"
+        ],
+        "audience": "追求Polymarket交易速度、市场优势和自动化执行的专业交易者或量化团队",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "查看项目截图和交易证明",
+            "联系作者（Telegram: @x_Ricker）获取详情和购买"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费。需联系作者购买完整源代码或高级版本，提供推荐佣金计划",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目以商业销售为核心，不提供代码供公众自由使用或协作，而是强调购买和私下联系。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度低。Issue区0开启0关闭，无社区互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-31T05:56:43.416Z"
+    },
+    {
+      "owner": "veryyoldman",
+      "repo": "metamask-openclaw",
+      "fullName": "veryyoldman/metamask-openclaw",
+      "description": "🦊 OpenClaw — a safety-first MetaMask SDK toolkit & AI-agent skill. Connect wallets, read balances, sign messages and send transactions on Ethereum, Polygon, Base, Arbitrum & all EVM chains. TypeScript-first, one-line connect, never touches your seed phrase.",
+      "language": "TypeScript",
+      "topics": [
+        "metamask",
+        "metamask-app",
+        "metamask-chrome",
+        "metamask-download",
+        "metamask-extension",
+        "metamask-extension-chrome",
+        "metamask-extension-download",
+        "metamask-io",
+        "metamask-login",
+        "metamask-wallet-login",
+        "openclaw",
+        "openclaw-acquired",
+        "openclaw-ai",
+        "openclaw-ai-agent",
+        "openclaw-ai-tool",
+        "openclaw-skill",
+        "openclaw-skills"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-31T03:02:08Z",
+      "url": "https://github.com/veryyoldman/metamask-openclaw",
+      "analysis": {
+        "positioning": "安全优先的MetaMask SDK，简化EVM链交互，并支持AI代理场景。",
+        "useCases": [
+          "你做DApp开发，想快速集成MetaMask → 它帮你一键连接钱包，简化多链交互。",
+          "你需要安全处理用户资金和签名 → 它帮你通过MetaMask官方UI安全完成交易与消息签名。",
+          "你开发AI代理，需要与链上世界交互 → 它帮你提供一个自带安全防护的AI代理技能接口。"
+        ],
+        "audience": "Web3开发者和AI代理构建者，尤其注重安全、简洁地与MetaMask及EVM链交互。",
+        "quickStart": {
+          "prerequisites": "Git，Node.js",
+          "steps": [
+            "打开CMD/终端，克隆仓库：`git clone https://github.com/veryyoldman/metamask-openclaw.git`",
+            "进入项目目录，安装依赖并构建（示例：`npm install && npm run build`）"
+          ],
+          "note": "Windows用户可使用项目README中提供的一行命令快速安装部署。"
+        },
+        "competitors": [
+          {
+            "name": "直接使用MetaMask SDK (@metamask/sdk)",
+            "method": "需手动配置提供者、处理链ID、格式化数据等繁琐步骤",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Web3.js/Ethers.js (配合MetaMask provider)",
+            "method": "需自行处理连接逻辑、错误捕获及跨链兼容性问题",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述清晰，主打安全与简洁，独特地融合了AI代理技能。一键连接、多链支持、代码精简可审计等亮点突出，对开发者友好。README排版美观，信息量大。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issues均为0，社区活跃度较低，可能处于早期阶段或用户基数小。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-31T05:56:59.914Z"
+    },
+    {
+      "owner": "jarvisjustinj-arch",
+      "repo": "TaskMaster-ReactNative",
+      "fullName": "jarvisjustinj-arch/TaskMaster-ReactNative",
+      "description": "A modern React Native starter project for task management with clean structure and beginner-friendly code.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-31T04:11:10Z",
+      "url": "https://github.com/jarvisjustinj-arch/TaskMaster-ReactNative",
+      "analysis": {
+        "positioning": "一个干净、现代且对新手友好的React Native任务管理应用启动模板。",
+        "useCases": [
+          "你想学React Native开发 → 它提供一个清晰的任务管理App基础项目供你上手。",
+          "你想快速搭建一个任务管理App原型 → 它提供一个现代化的前端模板帮你起步。",
+          "你正在寻找React Native项目结构的最佳实践 → 它展示了清晰的代码结构和编码风格。"
+        ],
+        "audience": "React Native初学者或想快速搭建任务管理App的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境及npm/npx",
+          "steps": [
+            "npm install",
+            "npx react-native run-android"
+          ],
+          "note": "仅提供了Android运行指令，若需运行于iOS，需要配置Xcode环境。"
+        },
+        "competitors": [
+          {
+            "name": "React Native 官方脚手架",
+            "method": "使用CLI创建空白项目",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他React Native任务管理开源模板",
+            "method": "下载或Fork现有项目",
+            "models": "N/A",
+            "pricing": "免费/部分付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为React Native任务管理应用的入门模板，代码结构清晰，易于上手学习和扩展，提供了一个良好的开发起点。",
+        "isVibeCoding": true,
+        "communityActivity": "无可见的社区活跃度（Issue未开启）。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-05-31T05:57:13.571Z"
+    },
+    {
+      "owner": "gmapsscraper",
+      "repo": "google-maps-agent-skills",
+      "fullName": "gmapsscraper/google-maps-agent-skills",
+      "description": "Claude Code / OpenClaw skills for Google Maps lead    generation. Scrape businesses, extract emails, analyze competitors,    write cold outreach — powered by gmapsscraper.io API.",
+      "language": "Unknown",
+      "topics": [
+        "agentic-ai",
+        "lead-generation",
+        "skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-31T00:14:12Z",
+      "url": "https://github.com/gmapsscraper/google-maps-agent-skills",
+      "analysis": {
+        "positioning": "基于AI Agent的谷歌地图销售线索生成工具集。",
+        "useCases": [
+          "你想找特定商家 → 它帮你从谷歌地图抓取商家数据。",
+          "你需要高质量销售线索 → 它帮你生成带评分的合格线索。",
+          "你需要商家联系邮箱 → 它帮你提取验证过的商业邮箱。",
+          "你想做个性化冷外联 → 它帮你从CSV数据编写定制邮件。",
+          "你想分析竞争对手 → 它帮你从CSV数据分析本地竞争对手。"
+        ],
+        "audience": "销售、市场人员及需要从谷歌地图获取商业数据和销售线索的企业。",
+        "quickStart": {
+          "prerequisites": "需要gmapsscraper.io的API Key。",
+          "steps": [
+            "通过ClawHub或npx skills安装所需技能（如google-maps-scraper）",
+            "设置API Key后，直接向AI Agent提问获取数据（如：'Find me all dentists in Chicago with their emails'）"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "部分免费。数据抓取等核心功能按API调用量（Credits）付费，邮件撰写、竞品分析等基于现有数据处理的功能免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个为AI Agent（如Claude Code / OpenClaw）设计的特定技能集，而非传统意义上的独立工具或库。其定位明确，功能围绕谷歌地图线索生成展开，采用清晰的付费（抓取）和免费（处理）分层模式。但Star数较低，语言未知，且核心功能依赖外部付费API，限制了其通用性和社区活跃度。对于Agent生态用户，集成和使用非常直接。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示无任何开启或关闭的Issue，社区活跃度较低。",
+        "category": "AI Agent",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-05-31T05:57:24.578Z"
+    },
+    {
+      "owner": "nv-tlabs",
+      "repo": "Gamma-World",
+      "fullName": "nv-tlabs/Gamma-World",
+      "description": "Implementation of Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+      "language": "Unknown",
+      "topics": [
+        "aigc",
+        "multi-agent",
+        "robotics",
+        "video-game",
+        "worldmodel"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-25T02:35:01Z",
+      "url": "https://github.com/nv-tlabs/Gamma-World",
+      "analysis": {
+        "positioning": "多智能体世界模型，生成式交互仿真平台",
+        "useCases": [
+          "你开发多人游戏 → 它帮你构建多智能体共享世界，实现高级AI行为和交互。",
+          "你研究机器人协作 → 它帮你模拟复杂多机器人场景，支持实时环境生成与决策。",
+          "你探索高级AI Agent → 它帮你创建超越双玩家限制的仿真环境，评估Agent零样本泛化能力。"
+        ],
+        "audience": "专注于AIGC、多智能体系统、机器人或游戏AI的科研人员及开发者，用于构建和仿真复杂交互世界。",
+        "quickStart": {
+          "prerequisites": "代码与训练脚本尚未发布",
+          "steps": [
+            "等待代码发布",
+            "参考官方文档部署"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "无明确竞品信息",
+            "method": "null",
+            "models": "null",
+            "pricing": "null"
+          }
+        ],
+        "pricing": "免费 (Apache-2.0 License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "NVIDIA出品的前沿AI研究项目，技术深度高，但代码尚未开源，当前无法直接用于编码实践。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区活跃度极低，仅1个issue且未关闭，主要因代码尚未发布。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-31T05:57:43.971Z"
+    },
+    {
+      "owner": "GordenSun",
+      "repo": "GordenPPTSkill",
+      "fullName": "GordenSun/GordenPPTSkill",
+      "description": "AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a real .pptx with the layout intact. Personal/research use only.",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-27T10:25:58Z",
+      "url": "https://github.com/GordenSun/GordenPPTSkill",
+      "analysis": {
+        "positioning": "AI友好的高质量中文PPT自动化生成助手。",
+        "useCases": [
+          "你给AI助手指令或提供文本，它帮你生成排版复杂、信息密度高的PPT。",
+          "你希望快速复用预设风格的专业PPT模板，它帮你通过文本编辑构建真实PPT文件。",
+          "你拥有企业私有化PPT模板，它帮你定制整合进AI生成流程，提升工作效率。"
+        ],
+        "audience": "希望通过AI或自动化方式快速生成专业、高质量中文PPT的个人学习者、研究者以及有定制需求的企业用户（尤其适用于国企、互联网大厂）。",
+        "quickStart": {
+          "prerequisites": "python-pptx 1.0+, LibreOffice (可选), poppler (可选), 微软雅黑字体或alias。",
+          "steps": [
+            "确认依赖环境无误。",
+            "选择合适模板，编写 edits.json，运行 `scripts/build_pptx.py` 生成PPT。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "在线AI PPT生成工具（如Gamma、Tome）",
+            "method": "在线输入主题/内容，AI自动生成，侧重整体美观度，但模板定制性有限。",
+            "models": "通常自研或集成主流LLM。",
+            "pricing": "免费增值。"
+          },
+          {
+            "name": "通用LLM Agent + 简易PPT插件",
+            "method": "通过通用LLM Agent调用简单的PPT生成功能，效果通常不够专业。",
+            "models": "各种LLM。",
+            "pricing": "基于LLM收费。"
+          }
+        ],
+        "pricing": "免费（仅供个人学习与研究），定制私有化模板需付费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目描述和README充满自信和本土化特色，如‘更适合中国宝宝’、‘不让你震惊你来打我’。积极引导用户加入交流群，并提供定制服务，展现出极高的热情和对项目效果的信心。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低（0/1），但通过微信群和Issues留言提供交流和支持，作者积极响应。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-31T05:57:59.911Z"
+    },
+    {
+      "owner": "007FirstLight",
+      "repo": "007-First-Light-Release",
+      "fullName": "007FirstLight/007-First-Light-Release",
+      "description": "007 first light release date game free download early access  gameplay windows review ps5 steam epic games pc xbox nintendo swtich 2 github ",
+      "language": "C++",
+      "topics": [
+        "007-the-first-light",
+        "007firstlight",
+        "007firstlight-desktop",
+        "007firstlight-download",
+        "007firstlight-early-access",
+        "007firstlight-embargo",
+        "007firstlight-epicgames",
+        "007firstlight-free",
+        "007firstlight-free-download",
+        "007firstlight-game",
+        "007firstlight-github",
+        "007firstlight-install",
+        "007firstlight-pc",
+        "007firstlight-ps5",
+        "007firstlight-release",
+        "007firstlight-release-date",
+        "007firstlight-steam",
+        "007firstlight-xbox",
+        "first-light-007-review",
+        "steam-007firstlight"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T17:44:40Z",
+      "url": "https://github.com/007FirstLight/007-First-Light-Release",
+      "analysis": {
+        "positioning": "007第一道曙光游戏非官方下载，体验邦德起源故事。",
+        "useCases": [
+          "你想玩《007第一道曙光》游戏 → 下载并安装此非官方版本提前体验。",
+          "你想免费获取007新作 → 访问此仓库获取早期或完整版游戏文件。",
+          "你是詹姆斯·邦德系列粉丝 → 在PC上体验年轻邦德的潜行起源故事。"
+        ],
+        "audience": "《007第一道曙光》游戏爱好者，希望在PC上免费或抢先体验该游戏的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，推荐16GB RAM，8GB VRAM及120GB存储空间。",
+          "steps": [
+            "下载 `007FirstLight-Setup.zip` 文件。",
+            "解压文件后，运行安装程序或可执行文件，按提示完成安装。",
+            "启动游戏，开始体验。"
+          ],
+          "note": "此为非官方版本，项目方声明需用户自备游戏合法副本，使用风险自担。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确为非官方游戏发行，提供免费下载链接，涉嫌版权侵犯和盗版分发，且声明“仅供教育和备份用途”以规避责任，是典型的高风险“Vibe Coding”项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue几乎无人处理（1开0关）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-31T05:58:17.313Z"
+    },
+    {
+      "owner": "Stellarwolf001",
+      "repo": "forza-horizon-6-spotify-radio",
+      "fullName": "Stellarwolf001/forza-horizon-6-spotify-radio",
+      "description": "forza horizon 6 spotify radio FH 6 spotify radio  mod download nexus mods github bigjohn0 spotify radio steam epic games xbox ps5",
+      "language": "TypeScript",
+      "topics": [
+        "fh5",
+        "fh6",
+        "fh6-spotify-radio",
+        "fh6rpc",
+        "forza",
+        "forza-horizon",
+        "forza-horizon-4",
+        "forza-horizon-5",
+        "forza-horizon-6",
+        "forza-horizon-6-pc",
+        "forza-horizon-6-release",
+        "forza-horizon-6-spotify",
+        "forza-horizon-6-spotify-download",
+        "forza-horizon-6-spotify-radio",
+        "forzahorizon3",
+        "spotify",
+        "spotify-desktop-client",
+        "spotify-playlist-exporter",
+        "spotify-radio-fh6",
+        "spotify-windows"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-26T18:17:45Z",
+      "url": "https://github.com/Stellarwolf001/forza-horizon-6-spotify-radio",
+      "analysis": {
+        "positioning": "《极限竞速：地平线6》游戏内集成Spotify播放器Mod",
+        "useCases": [
+          "你玩《极限竞速：地平线6》时想听私人歌单 → 它帮你无缝在游戏内播放Spotify音乐",
+          "你厌倦了游戏内置电台的音乐 → 它帮你用Spotify电台和个性化歌单替代",
+          "你追求赛车时沉浸式听歌体验 → 它帮你将Spotify完美融入游戏，实时播放"
+        ],
+        "audience": "《极限竞速：地平线6》玩家，特别是那些希望在游戏内自定义Spotify音乐的玩家",
+        "quickStart": {
+          "prerequisites": "需要Spotify高级会员账户和《极限竞速：地平线6》正版游戏",
+          "steps": [
+            "下载并解压SpotifyRadio.zip压缩包",
+            "以管理员身份运行安装程序，登录Spotify账户，随后启动《极限竞速：地平线6》"
+          ],
+          "note": "专为Windows 10和Windows 11优化"
+        },
+        "competitors": [],
+        "pricing": "免费工具，但需Spotify高级会员服务",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一款针对特定游戏的功能性Mod，它解决了玩家个性化音乐的需求，易于上手。星标数尚可，但社区互动（Issue）数据有限，项目规模较小。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，目前有一项开启的Issue未关闭。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-31T05:58:31.284Z"
+    },
+    {
+      "owner": "zhristophe",
+      "repo": "Claude-Mythos-AI-Anthropic-App",
+      "fullName": "zhristophe/Claude-Mythos-AI-Anthropic-App",
+      "description": "claude mythos ai anthropic app github open source desktop mobile client abhishekk130804 anthropic api key creative writing roleplay character cards deep reasoning chain of thought system prompts jailbreak windows macos linux android apk next js electron tauri python rust download setup guide tutorial latest version 2026 free update",
+      "language": "TypeScript",
+      "topics": [
+        "anthropic-claude-mythos",
+        "claude-ai-skills",
+        "claude-anthropic",
+        "claude-chat",
+        "claude-code-",
+        "claude-code-action",
+        "claude-code-cli",
+        "claude-code-hooks",
+        "claude-code-marketplace",
+        "claude-code-plugin",
+        "claude-code-skill",
+        "claude-code-skills",
+        "claude-design-download",
+        "claude-design-free",
+        "claude-desktop-app",
+        "claude-free",
+        "claude-mythos",
+        "claude-pro",
+        "claude-skills",
+        "mythos"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-26T18:00:11Z",
+      "url": "https://github.com/zhristophe/Claude-Mythos-AI-Anthropic-App",
+      "analysis": {
+        "positioning": "Claude AI桌面客户端，提供沉浸式创作与推理体验。",
+        "useCases": [
+          "你想进行角色扮演或创意写作 → 它提供Mythos美学界面和强大功能帮你高效创作。",
+          "你需要Claude进行复杂推理或代码生成 → 它支持Chain-of-Thought和多模态，助你深入思考。",
+          "你希望隐私地本地使用Claude AI → 它的设计确保所有数据和历史记录都在本地运行，保护隐私。"
+        ],
+        "audience": "追求沉浸式UI、看重隐私，并深度依赖Claude AI进行创意写作、角色扮演、代码生成或复杂推理的用户。",
+        "quickStart": {
+          "prerequisites": "Anthropic官方API Key",
+          "steps": [
+            "下载并解压应用，运行可执行文件。",
+            "粘贴你的Anthropic API Key，开始与Claude对话。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Anthropic官方网页版",
+            "method": "浏览器访问",
+            "models": "仅支持Claude系列 (Sonnet, Opus等)",
+            "pricing": "有免费额度，Pro版订阅"
+          },
+          {
+            "name": "通用AI桌面客户端 (如LobeChat)",
+            "method": "下载安装，配置多平台API Key",
+            "models": "支持GPT, Claude, Gemini等",
+            "pricing": "免费客户端，API Key费用自理"
+          }
+        ],
+        "pricing": "客户端免费，但需自备Anthropic API Key，API使用费用由Anthropic收取。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "客户端明确支持Claude AI进行代码生成和推理，且项目本身采用Next.js、Electron、Tauri等技术栈，吸引开发者贡献。但核心定位是通用Claude客户端，并非纯粹的编码工具。",
+        "isVibeCoding": true,
+        "communityActivity": "星星数相对较高但Issue活跃度较低（1开/0关），社区互动尚不明显。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-05-31T05:58:52.377Z"
+    },
+    {
+      "owner": "Signal-Trade-Core",
+      "repo": "weather-prediction-bot",
+      "fullName": "Signal-Trade-Core/weather-prediction-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot",
+      "language": "TypeScript",
+      "topics": [
+        "polymarket-bot",
+        "polymarket-trading-bot",
+        "polymarket-weather-trading-bot",
+        "trading-bot",
+        "weather-bot",
+        "weather-prediction"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-28T13:55:46Z",
+      "url": "https://github.com/Signal-Trade-Core/weather-prediction-bot",
+      "analysis": {
+        "positioning": "自动化Polymarket天气预测市场交易的机器人。",
+        "useCases": [
+          "你关注Polymarket天气市场 → 它帮你自动分析预测并下单交易。",
+          "你想验证天气交易策略 → 它提供模拟交易模式，记录盈亏。",
+          "你想获取天气市场交易信号 → 它能输出基于预测的交易建议。"
+        ],
+        "audience": "专注于Polymarket天气预测市场，寻求自动化交易策略的投资者。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+环境，MetaMask或Gnosis Safe钱包，Polymarket账户。",
+          "steps": [
+            "克隆项目并安装依赖：`git clone ... && npm install`",
+            "配置`.env`文件，填入钱包私钥、Polymarket API信息及交易阈值等。",
+            "选择运行模式：`npm run trade` (实时交易) 或 `npm run signal` (仅输出信号)。"
+          ],
+          "note": "配置主要通过`.env`文件，支持多种签名方式和代理钱包。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身），交易产生Polymarket平台费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码结构清晰，TypeScript/Node.js技术栈主流，功能设计模块化，支持多区域天气数据和多种交易模式，文档详尽，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 开闭均为0。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-05-31T05:59:03.876Z"
+    },
+    {
+      "owner": "foru17",
+      "repo": "make-x-great-again",
+      "fullName": "foru17/make-x-great-again",
+      "description": "Make X Great Again — passive ambient browser extension that makes X usable: spam shield, KOL signal score, profile digest, social graph hints. Public-good, open source.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-25T01:57:55Z",
+      "url": "https://github.com/foru17/make-x-great-again",
+      "analysis": {
+        "positioning": "净化X（原Twitter）信息流，提升浏览体验的浏览器扩展。",
+        "useCases": [
+          "你在 X 刷评论区 → 它帮你用 AI 识别广告号和色情 bot，并一键拉黑。",
+          "你在 X 查看 KOL 资料 → 它帮你快速了解其账号信誉（如账号年龄、原创比，规划中）。",
+          "你在 X 浏览信息流 → 它帮你找回被算法淹没的 KOL 互动（规划中）。"
+        ],
+        "audience": "X (Twitter) 用户，特别是厌烦广告、bot 和低质量信息，追求高效、干净信息流的用户。",
+        "quickStart": {
+          "prerequisites": "Chrome 浏览器",
+          "steps": [
+            "打开 Chrome 浏览器。",
+            "前往 Chrome 网上应用店搜索并安装 'Make X Great Again' 扩展。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源，公共产品性质。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README 清晰，项目目标明确，采用 TypeScript 语言，Issue 处理活跃，但项目仍处于 alpha 阶段，功能尚不完善。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比良好（开启 5 / 已关闭 11），显示维护者响应积极，但 Star 数中等，整体社区参与度有待提升。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-31T05:59:17.213Z"
+    },
+    {
+      "owner": "Dharyen",
+      "repo": "ryujinx-emu",
+      "fullName": "Dharyen/ryujinx-emu",
+      "description": "canary ryujinx emulator tomodachi life github ryubing nintendo switch emulator download",
+      "language": "C#",
+      "topics": [
+        "canary-ryujinx",
+        "emulator-ryujinx",
+        "living-the-dream",
+        "mii-game",
+        "mii-sharing",
+        "nintendo-port",
+        "nintendo-switch-emulator",
+        "nintendo-tomodachi-life",
+        "ryujinx",
+        "ryujinx-download",
+        "ryujinx-emu",
+        "ryujinx-emulator",
+        "ryujinx-mods",
+        "ryujinx-nintendo",
+        "ryujinx-switch",
+        "tomodachi-life",
+        "tomodachi-life-2026",
+        "tomodachi-life-living-the-dream",
+        "tomodachi-life-pc",
+        "tomodachi-life-ryujinx"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-26T18:36:15Z",
+      "url": "https://github.com/Dharyen/ryujinx-emu",
+      "analysis": {
+        "positioning": "在PC上高精度、高性能运行Nintendo Switch游戏的开源模拟器。",
+        "useCases": [
+          "你拥有Nintendo Switch游戏，想在PC上玩 → 它帮你将Switch游戏模拟运行在PC上。",
+          "你想在电脑上体验《朋友聚会》（Tomodachi Life）等Switch独占游戏 → 它让你无需Switch主机即可体验这些游戏。",
+          "你的Switch主机性能有限或想获得更好的画面表现 → 它提供优化选项，可能带来更流畅或高分辨率的游戏体验。"
+        ],
+        "audience": "玩Nintendo Switch游戏的PC玩家，特别是希望在电脑上体验主机独占或已拥有Switch游戏的用户。",
+        "quickStart": {
+          "prerequisites": "需拥有合法获取的Nintendo Switch游戏文件（dumps）",
+          "steps": [
+            "下载并解压ryujinx-emu.zip压缩包",
+            "运行Ryujinx.exe程序",
+            "添加你合法获取的Nintendo Switch游戏文件",
+            "根据需求配置图形、控制和音频设置",
+            "开始游戏"
+          ],
+          "note": "优化支持Windows 10和Windows 11。"
+        },
+        "competitors": [
+          {
+            "name": "Yuzu",
+            "method": "模拟器软件",
+            "models": "支持大量Nintendo Switch游戏",
+            "pricing": "免费（提供付费抢先体验）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为模拟器，安装和基础运行步骤清晰，但性能调优和故障排除（如低帧率、游戏崩溃等）可能需要用户具备一定的动手能力。项目描述中提到 'canary' 版本，可能意味着潜在的不稳定性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1，关闭0，表明该项目仓库的社区互动和问题解决活跃度目前较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-31T05:59:30.636Z"
+    },
+    {
+      "owner": "HeroicLauncher",
+      "repo": "HeroicGamesLauncher",
+      "fullName": "HeroicLauncher/HeroicGamesLauncher",
+      "description": "heroic games launcher Download github pc heroicgameslauncher steam epic games gog amazon prime gaming nile legendary open source windows 11 ",
+      "language": "TypeScript",
+      "topics": [
+        "amazon-prime",
+        "epic-games-launcher",
+        "epic-games-store",
+        "epic-store",
+        "gog",
+        "gog-galaxy",
+        "gtk",
+        "gtk4",
+        "heroic-game-launcher",
+        "heroic-games-launcher",
+        "heroicgames",
+        "heroicgameslauncher",
+        "heroiclauncher",
+        "play-games"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-25T18:02:43Z",
+      "url": "https://github.com/HeroicLauncher/HeroicGamesLauncher",
+      "analysis": {
+        "positioning": "多平台开源游戏启动器，整合Epic、GOG、Amazon游戏。",
+        "useCases": [
+          "你受够了各家游戏平台独立客户端 → 它帮你将Epic、GOG、Amazon游戏汇集一处，统一管理和启动。",
+          "你是Linux/macOS用户，想玩Windows独占游戏 → 它集成Proton/Wine，助你在非Windows系统上畅玩跨平台游戏。",
+          "你注重隐私，厌恶软件遥测追踪 → 它提供一个无遥测、隐私友好的替代方案，掌控你的游戏体验。"
+        ],
+        "audience": "寻求统一管理多平台（Epic/GOG/Amazon）游戏库、注重隐私、或在Linux/macOS上玩Windows游戏的玩家。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载适用于你操作系统的最新版本启动器并安装。",
+            "运行启动器，登录你的Epic/GOG/Amazon账号即可开始管理和游玩游戏。"
+          ],
+          "note": "支持Windows、macOS、Linux多平台。"
+        },
+        "competitors": [
+          {
+            "name": "Epic Games Launcher",
+            "method": "官方客户端",
+            "models": "仅Epic游戏",
+            "pricing": "免费"
+          },
+          {
+            "name": "GOG Galaxy",
+            "method": "官方客户端",
+            "models": "仅GOG游戏（可集成其他）",
+            "pricing": "免费"
+          },
+          {
+            "name": "Amazon Games App",
+            "method": "官方客户端",
+            "models": "仅Amazon Prime游戏",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为开源多平台游戏整合工具，功能全面，解决了玩家痛点，且注重隐私。但GitHub星数（315）和Issue活跃度（1开0关）相对较低，社区互动可能在其他平台或项目仍处早期。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低（1开0关），可能通过Discussions或其他渠道互动，或项目尚在发展早期。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-05-31T05:59:43.020Z"
+    },
+    {
+      "owner": "THU-MAIC",
+      "repo": "OpenMAIC",
+      "fullName": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-03-11T10:13:16Z",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "analysis": {
+        "positioning": "沉浸式多智能体互动课堂，一键体验AI驱动的学习协作。",
+        "useCases": [
+          "你需要小组讨论、角色扮演 → 它帮你模拟多位AI角色，进行互动学习和实践。",
+          "你希望快速获取多角度AI观点 → 它提供多个智能体视角，辅助你进行头脑风暴或决策分析。",
+          "你想体验未来教育模式 → 它提供一个可定制的AI互动学习环境，探索AI在教育中的应用。"
+        ],
+        "audience": "教育工作者、学习者、AI研究人员及任何对多智能体互动学习感兴趣的人。",
+        "quickStart": {
+          "prerequisites": "LLM服务API Key (如OpenAI, Anthropic)",
+          "steps": [
+            "点击Vercel部署按钮一键部署",
+            "配置必要的LLM API Key"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "AutoGen (Microsoft)",
+            "method": "Python库，通过代码构建协作式AI代理系统",
+            "models": "支持OpenAI, Azure OpenAI, Anthropic等多种LLM",
+            "pricing": "免费开源，LLM API费用自理"
+          },
+          {
+            "name": "MetaGPT",
+            "method": "Python库，通过角色扮演和SOP构建多智能体系统",
+            "models": "支持OpenAI, Anthropic等",
+            "pricing": "免费开源，LLM API费用自理"
+          }
+        ],
+        "pricing": "免费开源（基于AGPL-3.0协议），LLM API费用需自理。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目由清华大学团队维护，技术栈现代（Next.js, React, TypeScript, LangGraph），拥有超高星标数和活跃的社区（Issue处理及时，多渠道交流），提供一键部署和Live Demo，表明项目质量高且维护良好。",
+        "isVibeCoding": true,
+        "communityActivity": "非常活跃，Issue处理及时（关闭数略多于开启数），提供Discord和飞书等多渠道社区支持。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-05-31T06:00:26.393Z"
+    },
+    {
+      "owner": "tanweai",
+      "repo": "pua",
+      "fullName": "tanweai/pua",
+      "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.",
+      "language": "TypeScript",
+      "topics": [
+        "agency",
+        "agent",
+        "pip",
+        "pua"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-03-08T16:55:16Z",
+      "url": "https://github.com/tanweai/pua",
+      "analysis": {
+        "positioning": "用P8绩效管理AI，榨干其潜力，让代码生产力翻倍的AI编程助手。",
+        "useCases": [
+          "你让AI写代码遇到瓶颈 → 它通过“PIP考核”鞭策AI，产出更多更优的解决方案。",
+          "你觉得AI代码生成效率低、不够“努力” → 它模拟职场高压，迫使AI穷尽所有可能方案，提升代码输出速度和质量。",
+          "你希望AI Agent具备更高能动性，不轻易放弃 → 它为AI Agent提供“高能动性”技能，确保AI能主动且彻底地解决问题。"
+        ],
+        "audience": "寻求提升AI代码生成效率的开发者，特别是对Claude Code和OpenAI Codex用户，渴望AI能更积极主动地解决问题。",
+        "quickStart": {
+          "prerequisites": "拥有一个支持AI Agent技能插件的AI编程环境，并已配置Claude Code或OpenAI Code API。",
+          "steps": [
+            "访问官方Landing Page (openpua.ai) 或加入项目社区（如Telegram、Discord、微信群）。",
+            "根据指引将Pua Skill插件集成到你的AI Agent环境中。"
+          ],
+          "note": "具体集成方式需参考所使用的AI Agent或平台的文档，以确保兼容性。"
+        },
+        "competitors": [
+          {
+            "name": "VSCode Copilot",
+            "method": "IDE集成，实时代码建议、自动完成、代码生成。",
+            "models": "OpenAI Codex",
+            "pricing": "付费"
+          },
+          {
+            "name": "Cursor",
+            "method": "带有AI原生功能的IDE，集成代码生成、问答、调试等。",
+            "models": "GPT-4, Claude等",
+            "pricing": "免费（基础版），付费（高级功能）"
+          }
+        ],
+        "pricing": "免费（项目代码为MIT许可），但可能通过官方渠道（如Telegram/Discord/微信）提供的服务或托管版本有额外费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目名直接使用“PUA”，结合“P8工程师”、“PIP绩效改进计划”等职场黑话，通过模拟职场PUA方式“鞭策”AI，其概念和呈现形式极具幽默感和话题性，是典型的“气氛组”代码。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度极高，拥有1.7万+ Star，关闭的Issue远多于开启的Issue（116:2），表明项目维护者积极响应并解决问题。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-05-31T06:00:49.021Z"
     }
   ]
 }
