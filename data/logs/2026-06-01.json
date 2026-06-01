@@ -1,0 +1,152 @@
+{
+  "version": "1",
+  "date": "2026-06-01",
+  "startedAt": "2026-06-01T06:30:04.773Z",
+  "finishedAt": "2026-06-01T06:32:49.088Z",
+  "durationSeconds": 164,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 1,
+    "skipped": 105,
+    "geminiCalls": 16,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-06-01T06:30:08.631Z",
+      "level": "warn",
+      "project": "djs0618/RFABE",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:30:12.761Z",
+      "level": "warn",
+      "project": "mmaterone/shender",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:30:27.637Z",
+      "level": "warn",
+      "project": "pewdiepie-archdaemon/odysseus",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:30:42.039Z",
+      "level": "warn",
+      "project": "BlackCandleLab/polymarket-trading-bot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:16.862Z",
+      "level": "warn",
+      "project": "Jadoox3/Mina-The-Hollower-Release",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:20.973Z",
+      "level": "warn",
+      "project": "Noahmusahdevs/roblox-account-manager",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:25.436Z",
+      "level": "warn",
+      "project": "Harkirat1462/claude-code-cli",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:29.499Z",
+      "level": "warn",
+      "project": "Szili1994/create-aeronautics-minecraft-mod",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:33.717Z",
+      "level": "warn",
+      "project": "anthropic-claude-code-ai/free-claude-code-ai-desktop-app",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:42.996Z",
+      "level": "warn",
+      "project": "Beam-NG-Drive/BeamMP",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:46.235Z",
+      "level": "warn",
+      "project": "malk190/Romestead-Game-Release",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:49.406Z",
+      "level": "warn",
+      "project": "liyue-aigc/female-portrait-director",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:52.566Z",
+      "level": "warn",
+      "project": "Bartates/lunar-client-minecraft",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:55.774Z",
+      "level": "warn",
+      "project": "oyunhacktr/Windows-Xbox-Mode",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-01T06:31:58.978Z",
+      "level": "warn",
+      "project": "bonus-2026/crypto-casino-bonus",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

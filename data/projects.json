@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-05-31T06:00:49.038Z",
+  "updatedAt": "2026-06-01T06:31:05.430Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -41913,6 +41913,74 @@
         "category": "AI编程助手"
       },
       "analyzedAt": "2026-05-31T06:00:49.021Z"
+    },
+    {
+      "owner": "tor-browsers",
+      "repo": "tor-browser",
+      "fullName": "tor-browsers/tor-browser",
+      "description": "tor browser download official onion dark web privacy security anonymous vpn unblock windows 11 android apk latest version 2026 free setup guide fix",
+      "language": "C#",
+      "topics": [
+        "anti-detect-browser",
+        "antidetect-browser",
+        "blackweb",
+        "onion",
+        "onion-browser",
+        "onion-crawler",
+        "tor",
+        "tor-browser",
+        "tor-browser-download",
+        "tor-browser-web",
+        "tor-browser-windows",
+        "tor-download",
+        "tor-hidden-services",
+        "tor-host",
+        "tor-network",
+        "tor-onion-browser",
+        "torbrowser",
+        "torproject"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-28T16:50:14Z",
+      "url": "https://github.com/tor-browsers/tor-browser",
+      "analysis": {
+        "positioning": "官方Tor浏览器下载与增强版，深度隐私匿名浏览工具。",
+        "useCases": [
+          "你访问暗网或洋葱网站 → 它帮你隐藏身份并安全浏览。",
+          "你需突破网络封锁或匿名访问内容 → 它提供VPN级匿名解锁与隐私保护。",
+          "你关注个人上网隐私和数据安全 → 它通过Tor网络和安全优化确保匿名。"
+        ],
+        "audience": "关注网络隐私、需要匿名访问暗网或突破网络限制的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载并解压`tor-browser.zip`。",
+            "以管理员身份运行`TorBrowser.exe`并按向导安装。"
+          ],
+          "note": "Windows 11优化，也支持Android APK（但安装步骤未详述）。"
+        },
+        "competitors": [
+          {
+            "name": "The Tor Project 官方Tor浏览器",
+            "method": "访问`torproject.org`下载官方版本",
+            "models": "基于Firefox ESR，通过Tor网络匿名路由",
+            "pricing": "免费"
+          },
+          {
+            "name": "Brave Browser",
+            "method": "下载安装Brave浏览器",
+            "models": "内置Ad/Tracker拦截，可选Tor私有窗口",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述存在误导性（如“2026最新版”），Issue活跃度极低（1/0），可能并非官方Tor项目，有潜在安全风险。使用需谨慎。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启率高但无人关闭，无维护迹象。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-01T06:31:05.409Z"
     }
   ]
 }
