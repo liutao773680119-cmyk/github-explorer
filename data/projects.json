@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-01T06:31:05.430Z",
+  "updatedAt": "2026-06-02T06:20:16.798Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -41981,6 +41981,732 @@
         "category": "安全"
       },
       "analyzedAt": "2026-06-01T06:31:05.409Z"
+    },
+    {
+      "owner": "001x1",
+      "repo": "Multi-Crypto-Flashing-Tool",
+      "fullName": "001x1/Multi-Crypto-Flashing-Tool",
+      "description": "✅ https://cryptoflasher.net ✅",
+      "language": "Unknown",
+      "topics": [
+        "bitcoin-flash-transactions",
+        "btc-flash-software-mainnet",
+        "crypto-wallet-fake-balance",
+        "exodus-fake-balance-tool",
+        "fake-balance-crypto",
+        "flashcrypto"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-02T00:11:36Z",
+      "url": "https://github.com/001x1/Multi-Crypto-Flashing-Tool",
+      "analysis": {
+        "positioning": "模拟加密货币交易与钱包余额显示工具",
+        "useCases": [
+          "你想在加密钱包中展示虚假余额 → 它帮你实现钱包虚拟金额显示",
+          "你想模拟比特币链上未确认交易 → 它帮你生成虚假的闪电交易记录",
+          "你想在特定钱包（如Exodus）显示假资金 → 它帮你显示账户中不存在的余额"
+        ],
+        "audience": "需要模拟加密货币交易或在钱包中显示虚假余额的用户，可能用于演示或特定高风险目的。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目描述中的官方网站 cryptoflasher.net",
+            "根据官网指引了解并获取工具"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "未知，GitHub项目本身免费，但关联网站可能提供付费服务或软件。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目功能明确指向生成虚假加密货币交易和钱包余额，存在潜在的欺诈风险，社区活跃度极低，可靠性与合法性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue开启或关闭，表明项目无人维护或关注。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-02T06:15:57.782Z"
+    },
+    {
+      "owner": "Ching0346mi7",
+      "repo": "Flash-USDT-Sender",
+      "fullName": "Ching0346mi7/Flash-USDT-Sender",
+      "description": "Flash USDT Sender — Multi-network flash transaction tool for USDT, BTC, and ETH with configurable duration, custom gas settings, ERC-20/TRC-20/BEP-20 support, and block explorer-visible confirmations",
+      "language": "Python",
+      "topics": [
+        "bitcoin-flash-transactions",
+        "crpto",
+        "exodus-flash",
+        "fake-btc-transaction",
+        "flash-btc-software-free",
+        "flash-crypto-2025",
+        "flash-loan",
+        "flash-usdt-binance-2026",
+        "flash-usdt-flashers",
+        "flash-xrp-sender",
+        "flashcrypto",
+        "flasher-script",
+        "flasher-tool",
+        "flashingsoftwareflasher",
+        "flashusftsendarbot",
+        "okx-fake-balance",
+        "trx-flash",
+        "usdt-flash-coin",
+        "usdt-trc20-software",
+        "wallet-spoofer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-02T01:19:19Z",
+      "url": "https://github.com/Ching0346mi7/Flash-USDT-Sender",
+      "analysis": {
+        "positioning": "多链“闪电”交易工具，让USDT/BTC/ETH交易短暂显示在区块浏览器。",
+        "useCases": [
+          "你想在区块链浏览器上展示一笔“转账成功”的USDT交易记录，但不想实际花费代币 → 它帮你创建一笔可在Etherscan/TronScan/BscScan上暂时可见的假USDT交易（支持ERC-20/TRC-20/BEP-20）。",
+          "你需要让比特币或以太坊的“余额”在接收方钱包中短暂显示 → 它帮你生成短时可见的BTC/ETH闪电交易，持续1-72小时。",
+          "你想自定义“假交易”的显示时长和网络费用 → 它提供可配置的持续时间（1-72小时）和自定义Gas设置。"
+        ],
+        "audience": "寻求在链上制造短期虚假交易记录，用于演示或特定目的的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "克隆项目到本地。",
+            "按照项目说明配置交易参数并运行脚本。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目采用独特的ASCII艺术标题，但核心功能偏向工具性，整体氛围中规中矩，主要服务于特定需求。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue互动，也没有积极的开发或维护迹象。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-02T06:16:12.613Z"
+    },
+    {
+      "owner": "pewdiepie-archdaemon",
+      "repo": "odysseus",
+      "fullName": "pewdiepie-archdaemon/odysseus",
+      "description": "Self-hosted AI workspace. ",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-31T14:05:51Z",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "analysis": {
+        "positioning": "本地私有AI工作站，提供ChatGPT/Claude级UI体验。",
+        "useCases": [
+          "你想要一个本地化的ChatGPT或Claude体验 → 它帮你把AI聊天、文件处理、研究等功能私有化部署，数据全归自己。",
+          "你面对多步骤复杂任务，想让AI自动化执行 → 它提供AI Agent，集成文件、网页、Shell等工具自主完成任务。",
+          "你希望AI辅助日常办公，如邮件处理、文档编辑、日程管理等，并确保数据隐私 → 它将AI能力深度集成到邮件、文档、日历等，一切数据本地留存。"
+        ],
+        "audience": "追求数据隐私、技术能力较强，希望在本地私有化部署全能AI工作台的个人或团队。",
+        "quickStart": {
+          "prerequisites": "具备一定的技术背景，需要自备兼容的硬件环境。",
+          "steps": [
+            "根据官方GitHub仓库指引克隆项目",
+            "配置本地AI模型（如Ollama）或API密钥",
+            "启动Odysseus服务并访问UI界面"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "method": "云服务",
+            "models": "OpenAI系列模型",
+            "pricing": "部分免费/付费订阅"
+          },
+          {
+            "name": "Claude",
+            "method": "云服务",
+            "models": "Anthropic系列模型",
+            "pricing": "部分免费/付费订阅"
+          }
+        ],
+        "pricing": "软件免费，需自备硬件或支付第三方API（如OpenAI）费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名、README中的颜文字和“jank and fun”字眼透露出强烈的个人风格与热情，功能全面且深度集成日常生产力工具，充满极客探索精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，Star数高，但Issue解决速度有待提高。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-06-02T06:16:38.952Z"
+    },
+    {
+      "owner": "Gloridust",
+      "repo": "WechatOnCloud",
+      "fullName": "Gloridust/WechatOnCloud",
+      "description": "云微WOC，云微信，自由连接",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T06:14:13Z",
+      "url": "https://github.com/Gloridust/WechatOnCloud",
+      "analysis": {
+        "positioning": "NAS上的多用户共享云微信，不改客户端。",
+        "useCases": [
+          "你需要在服务器（如NAS）上运行微信 → 它帮你通过浏览器实现多端同步和访问。",
+          "你希望多个用户共享同一个微信会话 → 它让你授权子账号访问特定微信实例。",
+          "你需要同时管理多个独立的微信账号 → 它支持动态创建和销毁多个微信实例。",
+          "你不想在本地设备安装微信或希望跨设备使用 → 它提供网页版操作体验。"
+        ],
+        "audience": "拥有Docker环境（尤其NAS，支持x86_64/arm64）的用户，寻求集中管理、多用户共享或远程访问微信的个人及小型团队。",
+        "quickStart": {
+          "prerequisites": "宿主机已安装 Docker 和 Docker Compose，支持 x86_64 或 arm64 架构。",
+          "steps": [
+            "在宿主机上创建项目目录。",
+            "在项目目录中执行 `docker compose up -d` 启动面板容器。",
+            "通过浏览器访问 `http://宿主机IP:36080` 进入面板。",
+            "在面板中按需创建和管理微信实例。"
+          ],
+          "note": "面板容器启动后，微信实例容器由面板动态创建和管理，无需手动操作。可选择本地自构建镜像或直接拉取 GHCR 官方镜像。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目设计清晰，将面板与微信实例分离，利用 Docker 实现动态管理，并通过 KasmVNC 提供无修改的官方微信体验。README 对 Docker 概念和工作原理解释详尽，对新手友好，显示了良好的工程实践。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度一般，有少量开启（4个）和关闭（1个）记录，表明项目在持续维护中。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-02T06:17:04.329Z"
+    },
+    {
+      "owner": "liyue-aigc",
+      "repo": "female-portrait-director",
+      "fullName": "liyue-aigc/female-portrait-director",
+      "description": "A modular Codex Skill for directing and expanding detailed AI female portrait prompts.",
+      "language": "Unknown",
+      "topics": [
+        "ai-image-generation",
+        "codex",
+        "codex-skill",
+        "open-source",
+        "prompt-engineering"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-30T06:32:54Z",
+      "url": "https://github.com/liyue-aigc/female-portrait-director",
+      "analysis": {
+        "positioning": "生成AI女性肖像提示词的导演系统。",
+        "useCases": [
+          "你输入少量参数 → 它帮你生成高质量、风格化的AI女性肖像描述。",
+          "你想要特定风格的女性肖像 → 它帮你通过内置风格文件，确保图像主题明确且风格统一。",
+          "你希望详细控制人物细节 → 它帮你扩展面部、身体、服装、场景等模块，并融合为自然连贯的摄影瞬间。"
+        ],
+        "audience": "AI图像创作者、设计师和艺术家，希望快速、精准生成多样化女性肖像提示词。",
+        "quickStart": {
+          "prerequisites": "Node.js with `npx`",
+          "steps": [
+            "通过 npx 安装 Skill：`npx skills@latest add liyue-aigc/female-portrait-director -g -a codex -y`",
+            "在 Codex 中调用 `$female-portrait-director`，并输入少量参数，如 `Style: clean lifestyle portrait`。"
+          ],
+          "note": "或通过 Git 克隆到 Codex skills 目录手动安装。"
+        },
+        "competitors": [
+          {
+            "name": "AI绘画提示词生成器 (Web/插件)",
+            "method": "通过网页界面或插件选择风格、元素等生成提示词。",
+            "models": "通常支持主流AI绘画模型 (e.g., Stable Diffusion, Midjourney)。",
+            "pricing": "多数免费，部分高级功能或平台可能付费。"
+          },
+          {
+            "name": "通用大型语言模型 (LLM)",
+            "method": "通过自然语言对话，让LLM根据需求生成提示词。",
+            "models": "Llama, GPT系列, Claude等。",
+            "pricing": "部分免费，API调用通常按量付费。"
+          }
+        ],
+        "pricing": "免费。本项目是开源的MIT许可，通过npx或Git安装使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，功能设计严谨，支持多种风格。但目前Issue数量为零，社区活跃度待观察，可能是新项目或非常稳定。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue为0/0，无法判断社区活跃度，可能项目较新或维护者尚未广泛接受Issue报告。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-02T06:17:26.065Z"
+    },
+    {
+      "owner": "jdevalk",
+      "repo": "specification.website",
+      "fullName": "jdevalk/specification.website",
+      "description": "Website specification — HTML, accessibility, security, SEO, agent-readiness. Platform-agnostic, sourced, MIT.",
+      "language": "TypeScript",
+      "topics": [
+        "accessibility",
+        "agent-readiness",
+        "astro",
+        "cloudflare-pages",
+        "llms-txt",
+        "mcp",
+        "seo",
+        "specification",
+        "web-security",
+        "web-standards",
+        "well-known"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-29T09:13:26Z",
+      "url": "https://github.com/jdevalk/specification.website",
+      "analysis": {
+        "positioning": "汇集Web标准规范，助你构建高质量网站。",
+        "useCases": [
+          "你构建网站 → 它帮你遵循HTML、安全、SEO等Web标准。",
+          "你优化可访问性 → 它帮你理解并实现WCAG对齐规则。",
+          "你适配AI代理 → 它帮你确保网站内容对AI可读。"
+        ],
+        "audience": "追求Web标准合规性、高性能及AI友好度的开发者、产品经理和QA人员。",
+        "quickStart": {
+          "prerequisites": "Node.js 22.12+, npm。",
+          "steps": [
+            "git clone https://github.com/jdevalk/specification.website.git",
+            "cd specification.website",
+            "npm install",
+            "npm run dev"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "W3C / WHATWG / IETF",
+            "method": "查阅分散的官方标准文档",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Google Developers / MDN Web Docs",
+            "method": "查阅特定领域的开发指南",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。内容和代码均开源许可。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "作为一份严谨的Web标准规范网站，内容严肃且注重准确性，风格偏向工具书而非“酷炫”体验，但信息组织清晰。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue数量较少（5开2关），有一定社区参与但活跃度中等，更侧重内容贡献。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-06-02T06:17:43.458Z"
+    },
+    {
+      "owner": "anomalyco",
+      "repo": "rift",
+      "fullName": "anomalyco/rift",
+      "description": "",
+      "language": "Rust",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-31T18:09:30Z",
+      "url": "https://github.com/anomalyco/rift",
+      "analysis": {
+        "positioning": "Git worktree的超快、省空间替代方案。",
+        "useCases": [
+          "你做Git多分支开发，频繁切换上下文 → 它帮你即时创建隔离工作区，不额外占用大量磁盘空间。",
+          "你管理大型代码库，创建Git worktree耗时且占用资源 → 它帮你0.1秒内基于COW创建新工作区，性能优异。",
+          "你需要在应用中集成工作区管理能力 → 它帮你通过FFI库在Bun/Node中操作工作区。"
+        ],
+        "audience": "macOS或Linux+btrfs的高级Git用户，特别是处理大型代码库或需要频繁上下文切换的开发者。",
+        "quickStart": {
+          "prerequisites": "macOS (APFS) 或 Linux x64 (btrfs)",
+          "steps": [
+            "npm install -g rift-snapshot",
+            "cd your/repo && rift init",
+            "rift create"
+          ],
+          "note": "Linux x64需btrfs，macOS使用APFS `clonefile`。Windows平台暂不支持工作区创建。"
+        },
+        "competitors": [
+          {
+            "name": "Git worktree",
+            "method": "`git worktree add <path> <branch>`",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目处于早期实验阶段，但提供了一种高性能、省空间的Git工作区管理方案。即时创建和COW特性非常有吸引力，特别适合macOS和Linux+btrfs用户。但实验性状态和Windows平台缺失是减分项。",
+        "isVibeCoding": true,
+        "communityActivity": "非常低，无公开Issue活动，项目处于早期实验阶段。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-02T06:18:01.354Z"
+    },
+    {
+      "owner": "DannyMac180",
+      "repo": "skills",
+      "fullName": "DannyMac180/skills",
+      "description": "AI agent skills created by me: Dan McAteer",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-29T14:54:55Z",
+      "url": "https://github.com/DannyMac180/skills",
+      "analysis": {
+        "positioning": "AI Agent技能集，专为动态工作流设计。",
+        "useCases": [
+          "你希望AI Agent能执行复杂、多步骤的业务流程 → 它帮你规划、运行带子Agent、审批和验证的动态工作流。",
+          "你需要一个可靠、可控的Agent任务执行系统 → 它提供可复用的工作流组件，支持目标模式和监督。",
+          "你希望扩展AI Agent的能力以应对企业级协作任务 → 它提供集成能力，可连接外部系统进行数据交换或操作。"
+        ],
+        "audience": "AI Agent开发者或高级用户，希望为Agent扩展复杂任务规划、执行和监督能力，尤其适用于需要动态、多步骤工作流的场景。",
+        "quickStart": {
+          "prerequisites": "已安装Git，并拥有一个支持技能的AI Agent（如Codex）。",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/DannyMac180/skills.git`",
+            "将`codex-dynamic-workflows`技能目录复制到你的AI Agent技能路径，然后通过Agent指令调用。"
+          ],
+          "note": "示例以Codex Agent为例，其他Agent需调整安装路径和调用方式。部分Agent可能支持直接通过GitHub URL安装技能。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain Agents",
+            "method": "通过Python库构建Agent和工具链",
+            "models": "支持各类主流LLM",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "LlamaIndex Agents",
+            "method": "通过Python库构建Agent和数据处理工具",
+            "models": "支持各类主流LLM",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（MIT License开源）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README清晰、定位明确，提供了具体的安装和使用示例，易于理解。项目专注于提供AI Agent的特定“技能”，而非完整的框架。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前有一个开启的Issue，无已关闭，表明项目处于早期或维护频率不高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-02T06:18:19.431Z"
+    },
+    {
+      "owner": "ikeda042",
+      "repo": "PhenoPixel",
+      "fullName": "ikeda042/PhenoPixel",
+      "description": "PhenoPixel: A web application for single-cell microscopy image analysis (deployed at Hiroshima University).",
+      "language": "TypeScript",
+      "topics": [
+        "bacteria",
+        "bioinformatics-pipeline",
+        "cell-analysis",
+        "cell-contour",
+        "fastapi",
+        "fluorescence-microscopy-imaging",
+        "microbiology",
+        "nikon-nd2",
+        "opencv",
+        "react",
+        "single-cell-analysis"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-27T03:56:54Z",
+      "url": "https://github.com/ikeda042/PhenoPixel",
+      "analysis": {
+        "positioning": "显微单细胞图像分析Web应用，批量提取与表型分析。",
+        "useCases": [
+          "你需高效分析大量显微图像中的单细胞 → 它提供Web界面，批量提取细胞并进行表型分析。",
+          "你想自动化处理Nikon ND2格式的显微数据 → 它支持ND2文件管理，方便上传、选择及配置提取流程。",
+          "你关注科研结果的可复现性与规范引用 → 它提供详细的可复现性清单和引用模板，确保数据追踪。"
+        ],
+        "audience": "显微生物学/细胞生物学研究人员，需高效分析单细胞图像，并确保数据分析可复现。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问PhenoPixel部署的Web界面（如广岛大学版本）。",
+            "通过ND2 Manager上传并选择待分析的显微图像数据。",
+            "在Cell Extraction页面配置参数，启动细胞提取与自动化标注。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证开源项目，可自行部署或使用广岛大学部署版本）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "技术栈现代，功能聚焦科研痛点（单细胞分析、可复现性），界面清晰，但社区活跃度不高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量少，维护者解决及时，但整体社区互动活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-02T06:18:34.088Z"
+    },
+    {
+      "owner": "BoundingBoxSoftware",
+      "repo": "CharacterController",
+      "fullName": "BoundingBoxSoftware/CharacterController",
+      "description": "A character controller for Unity that covers many edge cases.",
+      "language": "C#",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-27T04:47:29Z",
+      "url": "https://github.com/BoundingBoxSoftware/CharacterController",
+      "analysis": {
+        "positioning": "Unity高健壮性角色控制器，解决内置缺陷与边缘问题。",
+        "useCases": [
+          "你做Unity游戏角色 → 它帮你构建一个处理复杂物理交互和边缘情况的健壮角色控制器。",
+          "你遇到Unity物理更新与视觉不同步 → 它帮你通过定制物理更新消除视觉跳变和性能开销。",
+          "你角色在复杂地形（如楼梯）移动不流畅 → 它帮你通过地面坡度估算实现平滑行走。",
+          "你希望角色与世界物体有更真实的物理交互 → 它帮你提供基于刚体的核心，确保标准物理行为。"
+        ],
+        "audience": "Unity游戏开发者，尤其适合对角色移动体验、物理交互和边缘情况处理有高要求的项目。",
+        "quickStart": {
+          "prerequisites": "Unity游戏引擎",
+          "steps": [
+            "将项目导入Unity工程。",
+            "根据项目README说明，配置Physics Manager脚本和角色控制器组件。",
+            "将角色控制器组件附加到你的角色对象上。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Unity内置Character Controller",
+            "method": "Unity引擎自带组件，直接添加。",
+            "models": "Unity游戏角色。",
+            "pricing": "免费（随引擎提供）"
+          },
+          {
+            "name": "其他Asset Store第三方角色控制器",
+            "method": "购买并导入Asset Store包，集成到项目中。",
+            "models": "Unity游戏角色。",
+            "pricing": "通常付费，部分免费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "针对Unity内置Character Controller的痛点，通过定制物理更新、地面坡度估算等高级特性，提供了健壮且处理复杂边缘情况的解决方案，提升了角色控制的品质和真实感。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前仅有1个开启Issue且无关闭。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-02T06:18:52.238Z"
+    },
+    {
+      "owner": "bonus-2026",
+      "repo": "crypto-casino-bonus",
+      "fullName": "bonus-2026/crypto-casino-bonus",
+      "description": "Explore the best Crypto Casino Bonus - including no deposit welcome bonuses. Learn about Bitcoin casino rewards, free spins, cashback offers, crypto payments, mobile gaming, and responsible online casino promotions.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-29T10:54:11Z",
+      "url": "https://github.com/bonus-2026/crypto-casino-bonus",
+      "analysis": {
+        "positioning": "加密赌场奖金指南，提供独家优惠和注册福利。",
+        "useCases": [
+          "你想找最佳加密赌场奖励 → 它帮你发现免费注册、无需存款的独家奖金。",
+          "你想了解加密赌场优惠机制 → 它帮你理解欢迎奖励、免费旋转和返现系统。",
+          "你犹豫选择哪个加密赌场 → 它帮你获取Betcube $250新人奖励，附带注册链接。"
+        ],
+        "audience": "对加密货币赌场奖励、优惠和区块链博彩平台感兴趣的用户。",
+        "quickStart": {
+          "prerequisites": "满足当地法律法规规定的博彩年龄要求，并遵守平台条款。",
+          "steps": [
+            "点击Betcube注册链接：[https://betcube.top/auth/register?promo=cube](https://betcube.top/auth/register?promo=cube)",
+            "注册时使用优惠码 **CUBE** 获取 $250 USD 欢迎奖金"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费 (该项目本身为信息指南，免费阅读)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个托管在GitHub上的项目，但本质上是加密赌场奖金的推广页面/信息指南，而非传统的软件开发项目。尽管有300 Star，但主要吸引力在于其提供的信息和福利，而非代码或技术实现。 Issue活跃度低，社区参与度不高。",
+        "isVibeCoding": true,
+        "communityActivity": "低，Issue 数量很少 (开启 1 / 已关闭 0)，未见活跃讨论或贡献。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-02T06:19:06.487Z"
+    },
+    {
+      "owner": "qiuqiubuchongle-cloud",
+      "repo": "chokepoint-atlas",
+      "fullName": "qiuqiubuchongle-cloud/chokepoint-atlas",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-01T08:52:27Z",
+      "url": "https://github.com/qiuqiubuchongle-cloud/chokepoint-atlas",
+      "analysis": {
+        "positioning": "AI基础设施供应链分析Agent，专找AI卡脖子环节。",
+        "useCases": [
+          "你研究AI光通信 → 它帮你拆解供应链，找出潜在瓶颈。",
+          "你分析数据中心供电 → 它帮你定位关键限制，交叉验证。",
+          "你关注机器人供应链 → 它帮你洞察核心堵点，预判风险。"
+        ],
+        "audience": "关注AI产业深度研究的投资者、分析师，不追短期热点，只求底层逻辑和真实风险。",
+        "quickStart": {
+          "prerequisites": "Python 3, Codex环境",
+          "steps": [
+            "使用`skill-installer`命令安装`ai-supply-chain-bottleneck-hunter`技能。",
+            "重启Codex以加载新技能。"
+          ],
+          "note": "若默认安装失败，可尝试git模式安装。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "目标明确，场景清晰，提供深度研究工具而非短期炒作，文档专业易懂。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步或维护者主要在内部使用，社区Issue活动极低（1开0关）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-02T06:19:18.087Z"
+    },
+    {
+      "owner": "PolyMomentum-Labs",
+      "repo": ".github",
+      "fullName": "PolyMomentum-Labs/.github",
+      "description": "Official docs for PolyMomentum — Polymarket CLOB V2 integration, trading strategies, bot architecture, and OpenClaw/MCP AI workflows.",
+      "language": "Unknown",
+      "topics": [
+        "polymarket-5min-bot",
+        "polymarket-arbitrae-trading-bot",
+        "polymarket-bot",
+        "polymarket-btc-5min-arbitrage-bot",
+        "polymarket-btc-arbitrage-bot",
+        "polymarket-mcp-server",
+        "polymarket-trading-bot-strategies"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-05-28T12:49:38Z",
+      "url": "https://github.com/PolyMomentum-Labs/.github",
+      "analysis": {
+        "positioning": "Polymarket量化交易策略与机器人开发指南。",
+        "useCases": [
+          "你想在Polymarket上部署交易机器人 → 它提供机器人架构和策略开发指南。",
+          "你需要Polymarket CLOB V2接口的集成方案 → 它提供官方的集成文档。",
+          "你想开发Polymarket量化交易策略 → 它提供套利和5分钟交易策略思路。"
+        ],
+        "audience": "关注Polymarket的量化交易员、开发者和策略研究者，用于构建自动化交易系统或研究市场策略。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "在PolyMomentum组织下创建或使用.github仓库。",
+            "将组织主页内容推送到该仓库。"
+          ],
+          "note": "以上步骤适用于发布PolyMomentum组织主页，而非核心交易系统的启动指南。"
+        },
+        "competitors": [],
+        "pricing": "不明确",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "清晰的组织文档，描述了一个复杂的交易系统项目。但当前仓库仅为组织主页和文档，Issue活跃度极低，无法判断核心项目代码质量和维护情况。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低，社区互动不明显。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-02T06:19:38.136Z"
+    },
+    {
+      "owner": "yb2460",
+      "repo": "harness-anything",
+      "fullName": "yb2460/harness-anything",
+      "description": "CLI harness for WPS Office -- let AI agents control Writer, Calc & Impress via COM automation",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "automation",
+        "cli",
+        "cli-anything",
+        "com",
+        "office",
+        "python",
+        "windows",
+        "wps"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-27T08:25:28Z",
+      "url": "https://github.com/yb2460/harness-anything",
+      "analysis": {
+        "positioning": "AI Agent 办公、设计、学术全栈操控 CLI 工具集。",
+        "useCases": [
+          "你写论文需要文献分析与撰写 → 它通过AI Agent帮你完成文献检索、综述和论文初稿。",
+          "你制作WPS/Office文档耗时耗力 → 它通过AI Agent自动化排版、填充表格、生成演示文稿。",
+          "你设计图像缺乏效率 → 它通过AI Agent直接操控Illustrator/Photoshop生成和编辑图形。"
+        ],
+        "audience": "程序员、研究人员、设计师，希望通过AI Agent自动化办公、学术研究和图形设计任务。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11, Python 3.10+, 对应Office/设计软件 (WPS/MS Office, Adobe Illustrator/Photoshop)。",
+          "steps": [
+            "安装办公自动化模块：`pip install git+https://github.com/yb2460/cli-anything-wps.git`",
+            "安装设计自动化模块（例如Illustrator）：先克隆项目 `git clone https://github.com/yb2460/harness-anything.git`，然后 `cd harness-anything/illustrator-harness/agent-harness && pip install -e .`"
+          ],
+          "note": "仅支持Windows平台，依赖COM自动化接口。"
+        },
+        "competitors": [
+          {
+            "name": "Microsoft 365 Copilot",
+            "method": "AI驱动，深度集成Office应用",
+            "models": "OpenAI模型",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "UiPath (RPA)",
+            "method": "RPA机器人，流程自动化",
+            "models": "无（或自有AI功能）",
+            "pricing": "付费，有免费社区版"
+          }
+        ],
+        "pricing": "免费 (MIT协议)。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "将AI Agent与CLI结合，通过COM自动化深度操控WPS、Adobe等主流办公与设计软件，实现办公、学术、设计全栈智能化，极具前瞻性和实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步，社区活跃度较低，Issue开启2个，暂无关闭。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-02T06:20:00.382Z"
+    },
+    {
+      "owner": "MatixYo",
+      "repo": "ESP32-Plane-Radar",
+      "fullName": "MatixYo/ESP32-Plane-Radar",
+      "description": "Open-source ESP32 firmware for a 1.28″ round display that shows live ADS-B aircraft around your location as a sonar-style plane radar.",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-31T08:25:05Z",
+      "url": "https://github.com/MatixYo/ESP32-Plane-Radar",
+      "analysis": {
+        "positioning": "基于ESP32的开源固件，将圆屏变为ADS-B飞机实时雷达。",
+        "useCases": [
+          "你喜欢航空或想实时了解周围空域 → 它帮你构建一个便携式ADS-B飞机雷达，实时显示航迹和信息。",
+          "你热衷硬件DIY或创客项目 → 它提供ESP32固件、3D打印外壳设计及详细说明，让你轻松组装专属雷达。",
+          "你需要一个独立、可配置的户外显示设备 → 它提供Wi-Fi设置向导和物理按键控制，部署简单，功能实用。"
+        ],
+        "audience": "适合硬件DIY爱好者、航空迷和创客，用于制作个人便携式飞机雷达。",
+        "quickStart": {
+          "prerequisites": "ESP32-C3 Super Mini开发板, 1.28英寸圆形GC9A01显示屏, Wi-Fi网络。",
+          "steps": [
+            "烧录固件到ESP32。",
+            "连接至设备AP(`PlaneRadar-Setup`)，通过Web页面配置Wi-Fi、经纬度。",
+            "设备重启后，即可显示实时飞机雷达。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Flightradar24",
+            "method": "网站/App",
+            "models": "全球实时航班数据",
+            "pricing": "免费（基础功能），部分付费"
+          },
+          {
+            "name": "FlightAware",
+            "method": "网站/App",
+            "models": "全球实时航班数据",
+            "pricing": "免费（基础功能），部分付费"
+          }
+        ],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目概念独特且实用，提供完整的固件、硬件选型和3D打印外壳方案。README清晰，界面效果图直观，功能设置考虑周到（如Wi-Fi配置、按键控制）。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，有新问题提交但解决关闭速度较慢（7开1关）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-02T06:20:16.782Z"
     }
   ]
 }

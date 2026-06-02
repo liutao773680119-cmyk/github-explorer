@@ -1,0 +1,80 @@
+{
+  "version": "1",
+  "date": "2026-06-02",
+  "startedAt": "2026-06-02T06:15:40.311Z",
+  "finishedAt": "2026-06-02T06:21:48.044Z",
+  "durationSeconds": 368,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 15,
+    "skipped": 91,
+    "geminiCalls": 22,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-06-02T06:16:17.645Z",
+      "level": "warn",
+      "project": "chrisryugj/archhub-mcp",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-02T06:16:50.966Z",
+      "level": "warn",
+      "project": "asz798838958/aBaiAutoplus",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-02T06:17:08.827Z",
+      "level": "warn",
+      "project": "BlackCandleLab/polymarket-trading-bot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-02T06:17:48.753Z",
+      "level": "warn",
+      "project": "QwenLM/Qwen-VLA",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-02T06:20:20.356Z",
+      "level": "warn",
+      "project": "BarneyD66/open-warehouse-system",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-02T06:20:23.819Z",
+      "level": "warn",
+      "project": "ShadowSpread/polymarket-auto-trading",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-02T06:20:27.224Z",
+      "level": "warn",
+      "project": "zgwl/chinese-buy-us-stock-guide",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
