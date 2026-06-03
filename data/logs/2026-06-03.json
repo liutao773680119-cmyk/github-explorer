@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-06-03",
+  "startedAt": "2026-06-03T06:29:08.961Z",
+  "finishedAt": "2026-06-03T06:35:23.296Z",
+  "durationSeconds": 374,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 18,
+    "skipped": 87,
+    "geminiCalls": 19,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-06-03T06:31:04.898Z",
+      "level": "warn",
+      "project": "tiantianGPU/reg-factory",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

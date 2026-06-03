@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-02T06:20:16.798Z",
+  "updatedAt": "2026-06-03T06:34:07.752Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -42707,6 +42707,852 @@
         "category": "其他"
       },
       "analyzedAt": "2026-06-02T06:20:16.782Z"
+    },
+    {
+      "owner": "veteranbv",
+      "repo": "aicrawl",
+      "fullName": "veteranbv/aicrawl",
+      "description": "",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-03T00:52:50Z",
+      "url": "https://github.com/veteranbv/aicrawl",
+      "analysis": {
+        "positioning": "本地AI对话历史归档工具，安全私有。",
+        "useCases": [
+          "你导入Claude/ChatGPT导出文件 → 它帮你将AI对话记录统一归档到本地SQLite数据库。",
+          "你想查找AI对话内容或附件文本 → 它提供全文搜索，快速定位所需信息。",
+          "你需要导出AI对话记录 → 它帮你批量或按需导出为Markdown格式。"
+        ],
+        "audience": "关注AI对话隐私与本地管理，需高效归档、搜索和导出Claude/ChatGPT聊天记录的个人用户。",
+        "quickStart": {
+          "prerequisites": "Go 1.26.2+",
+          "steps": [
+            "编译项目: `GOWORK=off go build ./cmd/aicrawl`",
+            "初始化数据库: `aicrawl init`",
+            "导入Claude导出文件: `aicrawl import ./claude-export.zip --provider claude`",
+            "搜索对话内容: `aicrawl search \"known phrase\"`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能聚焦，严格本地化处理AI对话数据，隐私保护到位。Go语言CLI，架构清晰，易用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数12，Issue数为0，社区活跃度较低，可能处于早期开发或小范围使用阶段。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-03T06:29:25.156Z"
+    },
+    {
+      "owner": "GalaxyGeneralRobotics",
+      "repo": "Humanoid-GPT",
+      "fullName": "GalaxyGeneralRobotics/Humanoid-GPT",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-03T04:22:11Z",
+      "url": "https://github.com/GalaxyGeneralRobotics/Humanoid-GPT",
+      "analysis": {
+        "positioning": "GPT风格人形机器人运动生成与零样本追踪。",
+        "useCases": [
+          "你想让机器人学习复杂动作 → 它能通过GPT式预训练，实现零样本全身运动追踪。",
+          "你需要为人形机器人开发通用控制器 → 它提供基于20亿帧数据的Transformer模型，优化Unitree G1控制。",
+          "你处理海量运动捕捉数据 → 它能整合并高效利用，生成统一的人形运动模型。"
+        ],
+        "audience": "人形机器人研究员、开发者、AI运动控制工程师。",
+        "quickStart": {
+          "prerequisites": "NVIDIA GPU (CUDA 12.x), Conda/Miniconda",
+          "steps": [
+            "克隆代码库",
+            "进入项目目录",
+            "创建并激活conda环境",
+            "安装依赖 (根据GPU/CPU选择)"
+          ],
+          "note": "MacOS用户请使用mjpython命令启动MuJoCo查看器，并可选择跳过jax[cuda12]安装。"
+        },
+        "competitors": [
+          {
+            "name": "传统浅层MLP运动追踪器",
+            "method": "受限于稀疏数据，泛化能力差，需要为特定动作微调",
+            "models": "浅层MLP模型",
+            "pricing": "免费/开源"
+          }
+        ],
+        "pricing": "免费/开源 (Apache 2.0)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "顶级学术会议（CVPR 2026）论文项目，采用GPT风格Transformer架构，基于20亿帧超大规模数据预训练，实现零样本泛化，专为人形机器人优化，技术前沿且潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "项目发布初期，Issue未有公开活动（0开0关），社区活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-03T06:29:37.054Z"
+    },
+    {
+      "owner": "asz798838958",
+      "repo": "aBaiAutoplus",
+      "fullName": "asz798838958/aBaiAutoplus",
+      "description": "多平台 AI 账号自动注册与管理 · 协议化付款一键开通 ChatGPT Plus",
+      "language": "Python",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-31T14:29:52Z",
+      "url": "https://github.com/asz798838958/aBaiAutoplus",
+      "analysis": {
+        "positioning": "AI 账号自动化注册与管理，一键开通 ChatGPT Plus。",
+        "useCases": [
+          "你想开通 ChatGPT Plus 但支付受限 → 它帮你通过 PayPal 或 GoPay 协议化一键开通。",
+          "你需要批量注册和管理各类 AI 平台账号 → 它帮你自动化注册流程，提升效率。",
+          "你想为你的服务集成 AI 账号注册能力 → 它提供可独立部署的API和插件化框架，方便扩展。"
+        ],
+        "audience": "需要批量注册、管理 AI 平台账号，或便捷开通 ChatGPT Plus 的个人开发者及服务商。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "下载 Mac/Windows 桌面版安装包。",
+            "一键启动，通过界面操作完成账号注册或 ChatGPT Plus 开通。"
+          ],
+          "note": "同时支持 Docker 部署和内置 Web UI 访问。"
+        },
+        "competitors": [
+          {
+            "name": "any-auto-register",
+            "method": "Python 项目部署 / Docker",
+            "models": "多平台 AI 账号自动注册与管理 (基础版)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，AGPL-3.0 开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供自动化注册和协议化付款功能，可能涉及目标平台服务条款（ToS），但作者有明确免责声明，且技术本身是中立的。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃，有少量待解决问题，社区有一定互动性。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-03T06:29:56.131Z"
+    },
+    {
+      "owner": "b-nnett",
+      "repo": "goose",
+      "fullName": "b-nnett/goose",
+      "description": "Goose Swift proof-of-concept README",
+      "language": "Rust",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-02T12:16:37Z",
+      "url": "https://github.com/b-nnett/goose",
+      "analysis": {
+        "positioning": "WHOOP 5.0独立本地健康数据分析iOS工具",
+        "useCases": [
+          "你戴WHOOP 5.0手环 → 它帮你本地化收集并展示详尽健康数据",
+          "你想要更深入了解WHOOP数据 → 它帮你把原始数据转换为睡眠、恢复、压力等多种图表",
+          "你希望WHOOP数据更私密 → 它帮你实现本地存储和分析，不依赖官方云服务"
+        ],
+        "audience": "熟悉Xcode和Rust开发的WHOOP 5.0用户或开发者，用于评估和早期试用独立健康数据分析方案。",
+        "quickStart": {
+          "prerequisites": "Xcode开发环境、Rust开发环境、WHOOP 5.0手环",
+          "steps": [
+            "克隆项目仓库",
+            "用Xcode打开`GooseSwift.xcodeproj`，按指示构建Rust核心",
+            "在Xcode中运行iOS应用到设备"
+          ],
+          "note": "仅支持WHOOP 5.0设备，且为早期Alpha测试版，性能差，功能不完整。"
+        },
+        "competitors": [
+          {
+            "name": "WHOOP官方应用",
+            "method": "官方数据同步与分析，云端存储",
+            "models": "所有WHOOP设备",
+            "pricing": "需WHOOP订阅服务"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "极早期Alpha概念验证，明确表示不适合普通用户，性能差，许多功能未完善，且公开测试版定于2026年。",
+        "isVibeCoding": true,
+        "communityActivity": "早期阶段，有7个待解决问题，但尚未有已关闭问题，社区贡献/解决仍需观察。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-06-03T06:30:09.374Z"
+    },
+    {
+      "owner": "ClaudioDrews",
+      "repo": "memory-os",
+      "fullName": "ClaudioDrews/memory-os",
+      "description": "A 7-layer memory operating system for Hermes Agent — persistent memory with Qdrant, structured facts, fabric recall, auto-curated wiki, and surgical context injection. Runs locally, any LLM provider.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-31T19:50:25Z",
+      "url": "https://github.com/ClaudioDrews/memory-os",
+      "analysis": {
+        "positioning": "为Hermes Agent打造的七层本地化记忆操作系统",
+        "useCases": [
+          "你希望Agent记住所有历史对话 → 它能提供持久化记忆和跨对话的语义搜索，让Agent不再健忘。",
+          "你想让Agent掌握你的项目、技术栈等结构化信息 → 它能存储并利用带信任评分的结构化事实，形成专属知识库。",
+          "你担心Agent记忆方案被厂商锁定或不够深入 → 它提供本地化、多层级、LLM无关的记忆基础设施，确保数据自主可控。",
+          "你苦恼Agent上下文注入不准确导致胡言乱语 → 它能自动、智能且精确地注入上下文，并确保Agent有效利用。"
+        ],
+        "audience": "Hermes Agent的重度用户，以及任何希望其AI Agent具备真实、持久记忆能力并本地化部署的开发者。",
+        "quickStart": {
+          "prerequisites": "Hermes Agent + Docker (Qdrant, Redis, ARQ Worker) + Python 3.11+",
+          "steps": [
+            "安装并配置Hermes Agent运行环境",
+            "部署Docker所需服务（Qdrant, Redis, ARQ Worker）",
+            "安装Memory OS并集成到Hermes Agent"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供7层深度记忆体系，彻底解决AI Agent遗忘问题，支持本地部署，兼容所有LLM提供商，是解决Agent持久化记忆痛点的强力方案。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比1:1（2开2闭），显示项目维护积极，关注度良好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-03T06:30:28.071Z"
+    },
+    {
+      "owner": "QwenLM",
+      "repo": "Qwen-VLA",
+      "fullName": "QwenLM/Qwen-VLA",
+      "description": "The official repository of Qwen-VLA",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-28T03:46:53Z",
+      "url": "https://github.com/QwenLM/Qwen-VLA",
+      "analysis": {
+        "positioning": "统一视觉-语言-动作的通用机器人智能体模型。",
+        "useCases": [
+          "你想控制机器人完成复杂操作 → Qwen-VLA帮你实现多任务、多环境下的统一指令执行。",
+          "你想让机器人理解并执行自然语言指令 → Qwen-VLA帮你将视觉、语言与机器人动作无缝结合。",
+          "你正在开发多平台机器人 → Qwen-VLA提供一套权重适配多种机器人形态，无需为每个平台单独开发。"
+        ],
+        "audience": "机器人研究员、AI开发者、智能硬件工程师，致力于开发通用型具身智能系统。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目仓库到本地。",
+            "按照文档指引安装必要的依赖。",
+            "运行提供的Demo或根据指引开始训练/部署模型。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，基于开源模型Qwen3.5-4B开发。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "具身智能领域的重大进展，一个统一模型在多任务、多环境、多机器人形态上超越专业模型，具备极高的研究价值和潜在应用前景，但目前主要面向具身智能研究和高阶机器人开发。",
+        "isVibeCoding": true,
+        "communityActivity": "初期活跃，7个开启Issue，1个已关闭，社区正在积累和处理问题。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-03T06:30:45.316Z"
+    },
+    {
+      "owner": "zgwl",
+      "repo": "chinese-buy-us-stock-guide",
+      "fullName": "zgwl/chinese-buy-us-stock-guide",
+      "description": "美股指南",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-30T04:27:25Z",
+      "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
+      "analysis": {
+        "positioning": "为中国大陆投资者提供美股投资全流程科普与风险指南。",
+        "useCases": [
+          "你想了解美股开户、入金、出金流程 → 它帮你明确每一步的来龙去脉和风险。",
+          "你关注美股投资的税务和合规问题 → 它帮你理解CRS、FATCA机制，规划低风险投资路径。",
+          "你希望安全规划美股资金回流或管理遗产 → 它帮你分析出金路径和遗产税等风险。"
+        ],
+        "audience": "适合计划或正在投资美股的中国大陆投资者，尤其关注合规与风险的入门用户。",
+        "quickStart": {
+          "prerequisites": "无特定技术前置条件，需具备基本投资风险意识。",
+          "steps": [
+            "优先阅读“二（税务）”和“三（合规）”，评估风险承受度。",
+            "根据具体需求，按目录选择“开户”、“入金”或“出金”等章节进行阅读和实践。"
+          ],
+          "note": "文档信息更新至2026年5月，但政策变化快，请务必自行核实最新规定。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "深度覆盖美股投资全流程，对开户、税务、合规等敏感环节有详尽解释，结构清晰，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示社区互动不活跃，只有一个开启Issue且未关闭。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-03T06:31:00.958Z"
+    },
+    {
+      "owner": "VAST-AI-Research",
+      "repo": "TripoSplat",
+      "fullName": "VAST-AI-Research/TripoSplat",
+      "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-01T12:50:21Z",
+      "url": "https://github.com/VAST-AI-Research/TripoSplat",
+      "analysis": {
+        "positioning": "单张2D图快速生成高质量、可变数量的3D高斯模型。",
+        "useCases": [
+          "你做游戏或AR/VR内容开发 → 它帮你从概念图或照片快速生成可用的3D资产。",
+          "你做3D仿真或数字孪生 → 它帮你把真实世界图像转化为轻量级3D场景元素。",
+          "你做研究或实验 → 它为你提供高质量、可定制的2D转3D高斯模型技术栈。"
+        ],
+        "audience": "面向3D内容创作者、游戏开发者、AR/VR工程师及相关研究人员，用于快速生成3D资产和场景。",
+        "quickStart": {
+          "prerequisites": "Python环境，并安装huggingface_hub（如使用其CLI下载模型）",
+          "steps": [
+            "从HuggingFace下载预训练模型权重到`ckpts/`目录。",
+            "运行Python脚本或使用官方ComfyUI模板集成到ComfyUI工作流中。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码简洁（仅两文件，2000行），依赖少，易于理解、定制和集成。提供官方ComfyUI支持，方便快速部署和使用。",
+        "isVibeCoding": true,
+        "communityActivity": "项目Issue开启数量少，可能处于早期阶段或社区互动有待提升。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-06-03T06:31:18.065Z"
+    },
+    {
+      "owner": "ProxyShard",
+      "repo": "ShardBrowser",
+      "fullName": "ProxyShard/ShardBrowser",
+      "description": "Free, open-source anti-detect browser launcher for web scraping and multi-accounting. By the ProxyShard team. Engine-level fingerprint spoofing in Chromium 148 (WebGL / WebGPU / Client Hints / fonts / TLS), 170+ device profiles bundled, stable QUIC + WebRTC over SOCKS5.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "anti-detect-browser",
+        "antidetect-browser",
+        "browser-fingerprinting",
+        "chromium",
+        "fingerprint",
+        "headless-browser",
+        "headless-chrome",
+        "multi-accounting",
+        "playwright",
+        "proxy",
+        "proxyshard",
+        "puppeteer",
+        "quic",
+        "stealth-browser",
+        "tauri",
+        "udp",
+        "web-scraping",
+        "webrtc",
+        "webscraping"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-30T23:05:14Z",
+      "url": "https://github.com/ProxyShard/ShardBrowser",
+      "analysis": {
+        "positioning": "免费开源，用于网络爬虫和多账号管理的防检测浏览器启动器。",
+        "useCases": [
+          "你做网络爬虫，总被网站识别为机器人并封禁 → 它帮你模拟真实用户指纹，稳定绕过反爬虫检测。",
+          "你需要同时管理多个社交媒体/电商账号，怕被关联 → 它帮你为每个账号提供独立的浏览器环境和真实的用户指纹。",
+          "你的代理服务被目标网站识别为代理流量 → 它帮你结合SOCKS5代理，并在引擎层面伪造WebRTC、QUIC等协议指纹，进一步提升隐匿性。"
+        ],
+        "audience": "需要进行大规模网络爬取、账号批量管理或自动化操作的开发者和业务专家。",
+        "quickStart": {
+          "prerequisites": "Node.js 或 Python 环境 (如需使用编程API)。",
+          "steps": [
+            "安装 `shardx` 库 (Python: `pip install shardx` 或 Node.js: `npm install @proxyshard/shardx`)。",
+            "通过启动器界面或代码配置浏览器指纹、代理，并启动防检测浏览器会话。"
+          ],
+          "note": "项目提供独立的桌面启动器和可编程API（Python/Node.js库）两种使用方式，共享配置状态。"
+        },
+        "competitors": [
+          {
+            "name": "GoLogin",
+            "method": "桌面客户端，API",
+            "models": "多Chromium/Firefox指纹配置",
+            "pricing": "付费"
+          },
+          {
+            "name": "AdsPower",
+            "method": "桌面客户端，API",
+            "models": "多Chromium/Firefox指纹配置",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费且开源 (MIT License)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "技术深度高，宣称实现引擎级指纹伪造和QUIC/WebRTC代理穿透，有商业团队（ProxyShard）背书。但GitHub Issues未开启，社区活跃度待观察，Star数不高。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues未开启，社区活跃度无法评估。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-03T06:31:36.264Z"
+    },
+    {
+      "owner": "WUBING2023",
+      "repo": "ExamPass-Assistant",
+      "fullName": "WUBING2023/ExamPass-Assistant",
+      "description": "把课堂讲义变成考试利器 一键将 PPT、Word、PDF 课件转化为结构清晰的知识清单和交互式测试题，让复习事半功倍。 适用人群：大学生、各个阶段老师、其他需要对付短期考试的朋友",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-30T14:38:13Z",
+      "url": "https://github.com/WUBING2023/ExamPass-Assistant",
+      "analysis": {
+        "positioning": "AI驱动的考前复习神器，将各类课件智能转为知识清单和交互式测试题。",
+        "useCases": [
+          "你面临期末考试，课件散乱，复习没重点 → 它帮你生成结构化知识点和自测题，高效备考。",
+          "你是一位老师，需要为学生快速出练习题或作业 → 它帮你秒出练习题和作业，省时省力。",
+          "你手头有大量PPT/Word/PDF资料需要快速提炼重点和测试掌握程度 → 它帮你一键生成知识导图和交互式测试页面。"
+        ],
+        "audience": "适合学生高效备考、老师快速出题，以及任何需要从课件中快速提炼知识点并自测的用户。",
+        "quickStart": {
+          "prerequisites": "Python环境，Git",
+          "steps": [
+            "克隆项目，进入目录并安装Python依赖：`git clone ... && cd ExamPass-Assistant && pip install -r requirements.txt`",
+            "在课程文件目录下运行 `/exampass` 命令，即可生成知识导图和交互式测试题。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费开源，但AI模型（如Claude）调用可能产生费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，解决实际痛点。代码结构清晰，README详尽实用，功能描述清晰。作为v0.1版本，功能已较完善，但社区活跃度较低，未来成长空间大。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有1个Issue开启且无关闭记录，响应速度未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-03T06:31:53.517Z"
+    },
+    {
+      "owner": "OnlyTerp",
+      "repo": "UltraCode-Shim",
+      "fullName": "OnlyTerp/UltraCode-Shim",
+      "description": "Give Claude Code's ultracode mode to ANY model you already pay for. A tiny local proxy + one config.json. Point your AI at AGENTS.md and it sets itself up.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-30T18:48:20Z",
+      "url": "https://github.com/OnlyTerp/UltraCode-Shim",
+      "analysis": {
+        "positioning": "让任何模型用上Claude Code的UltraCode模式。",
+        "useCases": [
+          "你希望在Claude Code中使用UltraCode模式，但不想仅限于Claude模型 → 它让你用自己付费的GPT、DeepSeek、Ollama等模型实现UltraCode体验。",
+          "你觉得Claude Code的动态工作流成本过高，或想灵活选择模型 → 它帮你将主控（Orchestrator）和工作模型（Worker）分离，优化成本与效果。",
+          "你已为GPT、DeepSeek等模型付费，想在Claude Code的UI中高效利用 → 它提供无缝集成，无需额外工具或切换环境。"
+        ],
+        "audience": "寻求在Claude Code环境中，用自己付费模型实现Claude UltraCode体验的开发者和AI用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+，已安装Claude Code，并能访问OpenAI/其他模型的API Key。",
+          "steps": [
+            "`git clone`项目，并安装Python 3.8+。",
+            "编辑`config.json`配置你自己的模型API信息。",
+            "运行代理（`python main.py`），并在Claude Code的`/model`菜单中选择该代理。"
+          ],
+          "note": "跨平台支持Windows、macOS、Linux。"
+        },
+        "competitors": [
+          {
+            "name": "Claude Code (原生UltraCode模式)",
+            "method": "直接在Claude Code中选择UltraCode模式。",
+            "models": "仅限Claude系列模型（如Claude Opus）。",
+            "pricing": "付费，按Claude模型API使用量。"
+          },
+          {
+            "name": "Cursor IDE (Composer模式)",
+            "method": "在Cursor IDE中直接使用其Composer功能。",
+            "models": "支持Cursor自身集成的模型。",
+            "pricing": "免费版有限制，付费版功能更全。"
+          }
+        ],
+        "pricing": "免费（项目本身），但需自行为后端AI模型付费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "精准解决用户痛点，通过巧妙的本地代理机制，将专属AI能力泛化到任意模型，技术方案独特且有深度。充分利用了现有工具链，实现了“借鸡生蛋”。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，Issue数量不多（开启4/关闭1），但有处理，持续关注中。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-03T06:32:11.657Z"
+    },
+    {
+      "owner": "johnmiddleton12",
+      "repo": "my-whoop",
+      "fullName": "johnmiddleton12/my-whoop",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-29T03:16:06Z",
+      "url": "https://github.com/johnmiddleton12/my-whoop",
+      "analysis": {
+        "positioning": "WHOOP 4.0 手环的开源本地数据客户端。",
+        "useCases": [
+          "你希望完全掌控WHOOP手环的生物数据 → 它帮你通过蓝牙从手环读取数据并存储到个人设备。",
+          "你关注数据隐私，不信任官方云服务 → 它帮你实现数据本地化管理和可选的自托管服务器存储。",
+          "你是开发者或研究人员，想基于WHOOP数据做二次开发或安全研究 → 它提供开放的协议解析和跨语言解码方案。"
+        ],
+        "audience": "WHOOP 4.0 用户、数据隐私高度关注者、开发者或安全研究人员，希望实现数据本地化、自托管及独立控制。",
+        "quickStart": {
+          "prerequisites": "拥有WHOOP 4.0手环及个人数据、一台iOS设备或一台可部署自托管服务器的主机。",
+          "steps": [
+            "克隆项目代码。",
+            "运行iOS应用或部署自托管服务器，通过蓝牙连接你的WHOOP 4.0手环开始数据采集。"
+          ],
+          "note": "iOS应用负责数据采集、解码和本地存储；可选的Python服务器可提供自托管数据存储和摄取。"
+        },
+        "competitors": [
+          {
+            "name": "WHOOP官方应用/服务",
+            "method": "订阅WHOOP服务，通过官方应用连接手环，数据默认上传云端。",
+            "models": "仅支持WHOOP自家手环。",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费（开源项目，但需自备WHOOP手环及相关部署硬件）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目通过逆向工程实现用户对个人数据的独立读取和本地化存储，强调数据主权和开放性，旨在增强用户控制力而非商业竞争，充分体现了对技术自由和个人数字权利的追求，是非常纯粹的Vibe Coding精神。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，目前有2个开放Issue，暂无关闭记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-03T06:32:26.784Z"
+    },
+    {
+      "owner": "shipfastlabs",
+      "repo": "parsel",
+      "fullName": "shipfastlabs/parsel",
+      "description": "A fast, helpful, and open-source document parser for PHP",
+      "language": "PHP",
+      "topics": [
+        "docs",
+        "ocr",
+        "pdf",
+        "text-extarction"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-29T14:48:28Z",
+      "url": "https://github.com/shipfastlabs/parsel",
+      "analysis": {
+        "positioning": "PHP本地化文档解析库，高效提取各类文件内容。",
+        "useCases": [
+          "你处理大量PDF发票 → 它帮你快速提取纯文本发票信息。",
+          "你分析文档页面布局 → 它帮你获取文本、图片等元素的坐标和结构化数据。",
+          "你为在线文档生成预览图 → 它帮你截取指定页面的高清截图。",
+          "你处理扫描版图片/PDF → 它帮你识别其中的文本内容（OCR）。"
+        ],
+        "audience": "PHP开发者，需要本地、高效地从PDF、Office文档和图片中提取文本、结构化数据或进行OCR，避免数据外传。",
+        "quickStart": {
+          "prerequisites": "PHP 8.4+ 和 `liteparse` 二进制工具。",
+          "steps": [
+            "`composer require shipfastlabs/parsel`",
+            "`vendor/bin/parsel-install-lit` 安装`liteparse`二进制"
+          ],
+          "note": "liteparse二进制工具支持多种包管理器（如npm/pip/cargo）安装；Office/图片解析需额外安装LibreOffice/ImageMagick，不同操作系统命令不同。"
+        },
+        "competitors": [
+          {
+            "name": "Google Cloud Document AI",
+            "method": "云API",
+            "models": "多种预训练模型，自定义模型",
+            "pricing": "按用量收费"
+          },
+          {
+            "name": "AWS Textract",
+            "method": "云API",
+            "models": "OCR, 表格/表单提取",
+            "pricing": "按用量收费"
+          },
+          {
+            "name": "Tesseract OCR",
+            "method": "本地命令行/库",
+            "models": "仅OCR，多语言",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费，开源（MIT License）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码示例清晰，API设计友好，安装选项周全；但项目Star数和社区活跃度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue开启数略多于关闭数，总数不多，项目处于初期发展阶段。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-06-03T06:32:46.351Z"
+    },
+    {
+      "owner": "johnbean393",
+      "repo": "KeyType",
+      "fullName": "johnbean393/KeyType",
+      "description": "An open-source Cotypist with macOS system wide AI autocomplete",
+      "language": "Swift",
+      "topics": [
+        "ai",
+        "ai-autocomplete",
+        "autocomplete",
+        "completions",
+        "cotabby",
+        "cotypist",
+        "gemma4",
+        "llm",
+        "macos",
+        "qwen3-5"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-31T16:08:48Z",
+      "url": "https://github.com/johnbean393/KeyType",
+      "analysis": {
+        "positioning": "macOS全系统AI Tab补全工具，本地运行，提升打字效率。",
+        "useCases": [
+          "你在代码编辑器中输入代码 → 它能智能预测并补全长变量名或函数名，Tab键接受。",
+          "你在邮件或聊天应用中回复信息 → 它能根据上下文快速生成连贯的语句，帮你提高沟通效率。",
+          "你在任何文本框输入内容时遇到打字瓶颈 → 它提供本地LLM驱动的系统级Tab补全，让输入更流畅智能。"
+        ],
+        "audience": "任何需要在macOS上高效打字、追求本地隐私、厌倦重复输入，并希望通过AI提升文本输入体验的用户。",
+        "quickStart": {
+          "prerequisites": "macOS系统",
+          "steps": [
+            "下载最新版本的KeyType.dmg文件。",
+            "安装并拖拽KeyType应用到“应用程序”文件夹。",
+            "运行KeyType并完成首次设置。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Cotypist",
+            "method": "macOS全系统AI补全，类似Tab键接受",
+            "models": "闭源，模型未公开",
+            "pricing": "闭源应用，通常收费"
+          }
+        ],
+        "pricing": "免费，MIT开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目解决了macOS用户在文本输入中的效率痛点，提供了本地、开源的AI补全方案。实现细节清晰，结构良好，易于安装和开发。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数多于开启数，社区活跃度良好，问题处理及时。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-03T06:33:07.468Z"
+    },
+    {
+      "owner": "BarneyD66",
+      "repo": "open-warehouse-system",
+      "fullName": "BarneyD66/open-warehouse-system",
+      "description": "Chinese-first open-source WMS starter for cross-border warehouse, fulfillment, inventory, billing, returns, and 3PL operations.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-31T02:47:39Z",
+      "url": "https://github.com/BarneyD66/open-warehouse-system",
+      "analysis": {
+        "positioning": "针对跨境电商/海外仓，提供中文优先的WMS/OMS/TMS一体化系统开源Starter。",
+        "useCases": [
+          "你还在用表格和微信群管理海外仓业务 → 它帮你快速搭建结构化WMS系统，告别手工对账。",
+          "你需要一个轻量级跨境WMS/3PL解决方案 → 它提供官网获客、客户门户到仓库作业全流程的参考实现。",
+          "你是开发者想学习WMS或构建SaaS后台 → 它基于Next.js+PostgreSQL提供可读、可改、可部署的中文业务系统模板。"
+        ],
+        "audience": "中国跨境卖家、海外仓/3PL服务商以及希望构建中文业务SaaS后台的开发团队。",
+        "quickStart": {
+          "prerequisites": "Node.js/npm",
+          "steps": [
+            "npm install",
+            "cp .env.example .env.local",
+            "npm run dev"
+          ],
+          "note": "开发环境使用本地演示登录，生产环境需配置密钥、白名单和数据库连接。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源协议）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目作为中文优先的WMS Starter，技术栈现代、文档详尽，覆盖业务流程全面，快速上手指南清晰，对开发者友好，适合作为业务系统开发起点。",
+        "isVibeCoding": true,
+        "communityActivity": "开启11个Issue但无关闭，表明项目刚起步或正在积极收集初期反馈，但尚未有Issue解决进展。",
+        "category": "后端框架"
+      },
+      "analyzedAt": "2026-06-03T06:33:21.350Z"
+    },
+    {
+      "owner": "duncatzat",
+      "repo": "vigils",
+      "fullName": "duncatzat/vigils",
+      "description": "A local control plane for AI agents — see what they do, approve what matters, keep secrets out. Rust + Tauri + Chrome MV3.",
+      "language": "Rust",
+      "topics": [
+        "agent-security",
+        "ai-agents",
+        "audit-log",
+        "desktop",
+        "llm",
+        "local-first",
+        "pii",
+        "rust",
+        "sandbox",
+        "tauri"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-31T15:45:25Z",
+      "url": "https://github.com/duncatzat/vigils",
+      "analysis": {
+        "positioning": "AI Agent本地控制平台，监控行为、审批操作、保护隐私。",
+        "useCases": [
+          "你使用AI代理时担心数据泄露 → 它帮你识别并脱敏敏感信息，确保隐私安全。",
+          "你想了解AI代理具体做了什么 → 它通过防篡改审计日志，帮你记录并追溯所有操作。",
+          "担心AI代理执行危险操作 → 它帮你设置人工审批流程，确保关键操作安全可控。"
+        ],
+        "audience": "任何使用AI代理（如Claude Code, Cursor等）并关注其行为透明度、数据隐私和操作安全的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问vigils.ai官网下载对应平台的安装包。"
+          ],
+          "note": "支持Windows、macOS和Linux平台。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源，Apache-2.0 许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "技术栈先进（Rust, Tauri），专注于解决AI代理的安全和隐私核心痛点，通过本地控制、防篡改审计和敏感信息脱敏等机制，确保AI代理的行为可控且安全，项目理念和实现都非常扎实。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前GitHub上Issue列表为空，项目可能处于早期阶段或用户互动较少。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-03T06:33:36.259Z"
+    },
+    {
+      "owner": "mavi9727stoke6893",
+      "repo": "Acrobat-Version-Pro-2",
+      "fullName": "mavi9727stoke6893/Acrobat-Version-Pro-2",
+      "description": "Adobe Acrobat Pro Professional 2026 – Industry-standard PDF editor for creating, editing, converting, and signing documents with advanced features.",
+      "language": "C++",
+      "topics": [
+        "acrobat",
+        "acrobat-breaker",
+        "acrobat-full",
+        "acrobat-live",
+        "acrobat-pro",
+        "acrobat-pro-dc",
+        "acrobat-reader-pro",
+        "acrobat-windows",
+        "adobe-acrobat",
+        "adobe-creative-cloud",
+        "pdf-editing",
+        "pdf-generation",
+        "pdf-monster-tool",
+        "pdf-software"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-31T10:00:56Z",
+      "url": "https://github.com/mavi9727stoke6893/Acrobat-Version-Pro-2",
+      "analysis": {
+        "positioning": "行业标准PDF编辑器，Adobe Acrobat Pro 2026。",
+        "useCases": [
+          "你需要创建或修改PDF文档 → 它提供高级PDF创建和编辑工具。",
+          "你有Word/Excel/PPT文件想转PDF → 它能将多种格式转换为PDF。",
+          "你需要给PDF文件添加签名或加密 → 它支持电子签名和密码保护。",
+          "你有扫描件需要提取文字 → 它内置OCR功能，可识别扫描文档内容。",
+          "你需要处理PDF表单 → 它能创建、填写和收集表单数据。"
+        ],
+        "audience": "专业人士、企业用户及需要高效处理PDF文档（包括创建、编辑、转换、签名等）的用户。",
+        "quickStart": {
+          "prerequisites": "推荐 Windows 10 / Windows 11 操作系统",
+          "steps": [
+            "点击下载按钮获取 Acrobat_Acrobat_Setup.exe 安装包。",
+            "运行下载的安装文件，按照提示完成快速安装。",
+            "启动应用，选择你的文档文件夹即可开始工作。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "福昕PDF编辑器 (Foxit PDF Editor)",
+            "method": "购买软件授权或订阅",
+            "models": null,
+            "pricing": "付费"
+          },
+          {
+            "name": "Wondershare PDFelement (万兴PDF专家)",
+            "method": "购买软件授权或订阅",
+            "models": null,
+            "pricing": "付费"
+          },
+          {
+            "name": "Smallpdf (在线/桌面)",
+            "method": "在线使用或订阅桌面版",
+            "models": null,
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费 (项目提供Adobe Acrobat Pro 2026的下载，未提及官方授权或付费信息，疑似非官方分发)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目直接提供Adobe Acrobat Pro商业软件的下载链接，且Topic中包含`acrobat-breaker`等关键词，强烈暗示其为非官方（破解）分发。存在潜在的法律、安全及道德风险。提供的C++代码更像是一个下载或激活工具，而非完整的PDF编辑器实现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启1个，已关闭0个，几乎没有互动。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-06-03T06:33:51.759Z"
+    },
+    {
+      "owner": "turbodragonecholegend2914353",
+      "repo": "Roblox-Exec-Collection-Desktop",
+      "fullName": "turbodragonecholegend2914353/Roblox-Exec-Collection-Desktop",
+      "description": "A curated collection of documentation and safe templates for understanding and analyzing Roblox execution environments in a controlled lab setting.",
+      "language": "C#",
+      "topics": [
+        "blox-fruits-script-2025",
+        "blox-fruits-script-2026",
+        "blox-fruits-script-all-fruits",
+        "blox-fruits-script-auto-farm-no-key",
+        "byfron",
+        "codex-download",
+        "delta-executor-windows",
+        "delta-exploit",
+        "delta-new-update",
+        "electron-exploit",
+        "lua-scripting",
+        "luna-download",
+        "nexus-lifetime-access",
+        "nexus-scripts",
+        "oxygen-fix",
+        "roblox-script-lua",
+        "script-builder",
+        "script-execution",
+        "script-hub",
+        "serverside"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-31T13:20:19Z",
+      "url": "https://github.com/turbodragonecholegend2914353/Roblox-Exec-Collection-Desktop",
+      "analysis": {
+        "positioning": "Roblox执行环境安全分析与教育研究工具包",
+        "useCases": [
+          "你想深入理解Roblox脚本运行机制 → 它提供结构化文档和安全模板，助你在沙盒环境深度分析。",
+          "你想进行Roblox安全审计或漏洞研究 → 它提供一套道德规范和分析工具，确保你安全合规地探索潜在风险。",
+          "你想教学或学习Roblox脚本行为和执行模型 → 它提供丰富的教育资源和工具，帮助你在受控环境中进行学习和演示。"
+        ],
+        "audience": "专注于Roblox执行环境、脚本行为分析、安全审计及教育目的的开发者、研究员和教育工作者。",
+        "quickStart": {
+          "prerequisites": "具备C#开发环境，了解Roblox Studio基本操作。",
+          "steps": [
+            "从GitHub releases页面下载最新工具包。",
+            "在本地、隔离的Roblox Studio环境中，参照文档和模板进行研究与实验。"
+          ],
+          "note": "严格遵守项目指导，仅在受控沙盒环境中使用，禁止用于任何未经授权的在线游戏利用行为。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目是一个结构化研究和分析工具包，提供文档和模板以理解Roblox执行环境，侧重于安全审计和教育，而非基于高层次抽象或意图进行代码生成，不属于Vibe Coding范畴。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度较低，Issue 开启 1 / 已关闭 0，表明项目可能较新或互动主要在线下。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-03T06:34:07.733Z"
     }
   ]
 }
