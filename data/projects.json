@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-03T06:34:07.752Z",
+  "updatedAt": "2026-06-04T06:26:52.823Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -43553,6 +43553,1240 @@
         "category": "安全"
       },
       "analyzedAt": "2026-06-03T06:34:07.733Z"
+    },
+    {
+      "owner": "boona13",
+      "repo": "sprite-lab",
+      "fullName": "boona13/sprite-lab",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-04T00:19:56Z",
+      "url": "https://github.com/boona13/sprite-lab",
+      "analysis": {
+        "positioning": "纯前端离线雪碧图背景去除与帧切割利器。",
+        "useCases": [
+          "你制作游戏或Web素材，需要去除背景 → 它帮你自动识别并精确去除各种背景（品红、绿幕、棋盘格、纯色），无光晕残留。",
+          "你手动切割复杂的雪碧图动画帧或道具图集 → 它帮你通过像素连接自动检测切割雪碧图，实时预览动画，并导出为单独帧、长条图和manifest。",
+          "你担心上传素材到在线工具的安全和隐私 → 它帮你完全在本地浏览器运行，不上传任何数据，无需网络，100%确定性处理。"
+        ],
+        "audience": "游戏开发者、像素艺术家、UI设计师或前端工程师等，需要高效、隐私地处理游戏素材或Web应用中的雪碧图和图片背景。",
+        "quickStart": {
+          "prerequisites": "已安装 Node.js 和 npm",
+          "steps": [
+            "git clone https://github.com/boona13/sprite-lab.git",
+            "cd sprite-lab",
+            "npm install",
+            "npm run dev（开发模式） 或 npm run build & npm run preview（生产模式）"
+          ],
+          "note": "开发模式下，请打开Vite打印的本地URL；生产模式下，可将dist/文件夹部署到任何静态托管服务。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度实用的前端工具，专注于解决游戏开发和素材处理中雪碧图背景去除和帧切割的痛点。纯本地浏览器运行，无需上传，保证数据隐私，且技术方案（多通道Alpha蒙版、像素连接检测）非常成熟可靠，有效避免了传统工具的边缘光晕和不精准切割问题。开发体验友好，快速上手。",
+        "isVibeCoding": true,
+        "communityActivity": "项目社区活跃度较低，当前只有一个未关闭的Issue，尚无互动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:21:09.937Z"
+    },
+    {
+      "owner": "ApprenticeTrek55",
+      "repo": "4k-video-downloader-crack",
+      "fullName": "ApprenticeTrek55/4k-video-downloader-crack",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:13:16Z",
+      "url": "https://github.com/ApprenticeTrek55/4k-video-downloader-crack",
+      "analysis": {
+        "positioning": "提供4K视频下载工具的破解版本，实现无限制使用。",
+        "useCases": [
+          "你想要免费下载YouTube 4K视频 → 它帮你解锁付费功能，无需购买。",
+          "你已安装正版但不想支付订阅费 → 它帮你移除限制，永久免费使用。",
+          "你需要批量下载高清视频但预算有限 → 它帮你白嫖高端下载功能。"
+        ],
+        "audience": "寻求免费使用4K视频下载工具，规避付费的用户。",
+        "quickStart": {
+          "prerequisites": "原始4K视频下载器（正版或试用版），操作系统（Windows/macOS）",
+          "steps": [
+            "下载并解压破解文件。",
+            "根据说明替换原程序文件或运行补丁。",
+            "启动程序，验证破解是否成功。"
+          ],
+          "note": "具体步骤可能因原程序版本和破解方式而异，需谨慎操作。"
+        },
+        "competitors": [
+          {
+            "name": "4K Video Downloader (正版)",
+            "method": "官方购买/订阅",
+            "models": "支持所有官方功能",
+            "pricing": "付费"
+          },
+          {
+            "name": "yt-dlp",
+            "method": "命令行操作",
+            "models": "支持大部分视频网站",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（通过规避原软件付费机制实现）",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目本质为软件破解，涉及法律与道德风险，且代码或补丁质量难以保障。社区活跃度极低，长期可用性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何社区互动迹象，Issue区空白。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:21:26.562Z"
+    },
+    {
+      "owner": "Jasionf",
+      "repo": "smart-home-button",
+      "fullName": "Jasionf/smart-home-button",
+      "description": "",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-04T03:17:56Z",
+      "url": "https://github.com/Jasionf/smart-home-button",
+      "analysis": {
+        "positioning": "M5Stack Dial智能家居HMI固件，实体旋钮+屏幕操控Home Assistant。",
+        "useCases": [
+          "你觉得手机操作智能家居不够直观 → 它帮你用物理旋钮和屏幕快速调节设备、查看状态。",
+          "你想快速查看家庭状态（时间、天气、冰箱）→ 它帮你将核心信息在桌面小屏上实时展示。",
+          "你需要一个专注的倒计时器或空调控制器 → 它帮你提供专属界面，精准控制。"
+        ],
+        "audience": "Home Assistant用户、M5Stack Dial硬件玩家、寻求物理交互智能家居方案的DIY爱好者。",
+        "quickStart": {
+          "prerequisites": "M5Stack Dial设备 (推荐V1.1)，已部署Home Assistant，对ESPHome有基本了解。",
+          "steps": [
+            "克隆或下载项目代码。",
+            "根据项目文档配置ESPHome环境，修改`esphome/`目录下的YAML文件以适配你的Home Assistant实体。",
+            "编译固件并烧录到M5Stack Dial设备。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Home Assistant Dashboard (手机/平板)",
+            "method": "软件应用，触摸屏操作",
+            "models": "通用移动设备",
+            "pricing": "免费"
+          },
+          {
+            "name": "第三方智能家居实体控制器",
+            "method": "商业硬件，通常需要网关或集成",
+            "models": "特定智能家居生态，如Aqara、Zemismart",
+            "pricing": "付费硬件"
+          }
+        ],
+        "pricing": "免费 (MIT License)。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "这是一个高质量的M5Stack Dial固件，完美解决了Home Assistant用户需要物理旋钮和屏幕进行直观控制的痛点。项目结构清晰，UI美观（基于LVGL），功能丰富且模块化，文档和图库展示详尽，是一个精心打造的极客项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示目前没有开放或关闭的讨论/问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:21:40.838Z"
+    },
+    {
+      "owner": "magmaagentstare",
+      "repo": "Internet-Manager-Download-crack",
+      "fullName": "magmaagentstare/Internet-Manager-Download-crack",
+      "description": "Internet Manager Download - High-speed download accelerator and file management utility. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "browser",
+        "connection",
+        "internet",
+        "internet-manager-download",
+        "networking",
+        "proxy",
+        "vpn"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:46:41Z",
+      "url": "https://github.com/magmaagentstare/Internet-Manager-Download-crack",
+      "analysis": {
+        "positioning": "提供Internet Manager Download高速下载器的破解与使用指南。",
+        "useCases": [
+          "你嫌弃下载速度慢且文件管理混乱 → 它帮你利用软件加速下载并高效整理文件。",
+          "你想免费使用付费下载管理工具 → 它提供该工具的破解方法和详细配置说明。",
+          "你初次接触该下载器不知如何设置 → 它提供全面的安装与功能配置指引。"
+        ],
+        "audience": "希望免费体验或高效利用Internet Manager Download进行高速下载和文件管理的个人用户。",
+        "quickStart": {
+          "prerequisites": "需自行下载Internet Manager Download原版软件（通常为试用版）",
+          "steps": [
+            "根据项目提供的指南，获取并应用破解补丁或注册码。",
+            "参照指南步骤，完成软件的安装、配置与功能使用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "XDM (Xtreme Download Manager)",
+            "method": "直接安装使用",
+            "models": "Windows, macOS, Linux",
+            "pricing": "免费"
+          },
+          {
+            "name": "FDM (Free Download Manager)",
+            "method": "直接安装使用",
+            "models": "Windows, macOS, Linux, Android",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（项目本身是指南和破解，旨在免费使用付费软件）",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目旨在提供付费软件的免费使用方案，但GitHub社区活跃度极低（Star少，无Issue），且涉及破解行为，技术价值和可持续性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无Issue讨论和代码贡献。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:21:59.663Z"
+    },
+    {
+      "owner": "ZettaSnailStar",
+      "repo": "autodesk-revit-crack",
+      "fullName": "ZettaSnailStar/autodesk-revit-crack",
+      "description": "Autodesk Revit - Building Information Modeling (BIM) software for architectural design. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "3d-modeling",
+        "architecture",
+        "bim",
+        "cad",
+        "engineering",
+        "rendering",
+        "revit"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T02:01:45Z",
+      "url": "https://github.com/ZettaSnailStar/autodesk-revit-crack",
+      "analysis": {
+        "positioning": "提供Autodesk Revit破解版安装与功能指南。",
+        "useCases": [
+          "你想免费使用专业的BIM软件 → 它帮你获取并安装Autodesk Revit。",
+          "你不熟悉Revit的功能特性 → 它帮你快速了解软件核心能力。",
+          "你正在寻找Revit的详细安装教程 → 它帮你提供逐步设置说明。"
+        ],
+        "audience": "寻求免费Autodesk Revit软件、安装指导和功能概览的建筑师、工程师和学生。",
+        "quickStart": {
+          "prerequisites": "一台Windows操作系统的电脑，并有足够的存储空间。",
+          "steps": [
+            "根据指南下载并运行破解安装包。",
+            "按照提示完成Autodesk Revit的安装和激活。"
+          ],
+          "note": "该软件主要支持Windows平台。"
+        },
+        "competitors": [
+          {
+            "name": "Graphisoft ArchiCAD",
+            "method": "商业软件，官方购买或试用",
+            "models": "BIM模型、建筑设计、可视化",
+            "pricing": "付费"
+          },
+          {
+            "name": "FreeCAD",
+            "method": "开源软件，免费下载安装",
+            "models": "3D CAD、参数化建模、部分BIM功能（需插件）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "本项目提供Revit破解版本，故免费获取使用；Revit官方版为付费商业软件。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在提供商业软件破解版，存在法律风险和潜在的安全隐患，不具备社区协作和可持续发展特性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue功能未开启，基本没有社区互动和活跃度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:22:12.156Z"
+    },
+    {
+      "owner": "Maneirsense61",
+      "repo": "Adobe-InDesign-2024-crack",
+      "fullName": "Maneirsense61/Adobe-InDesign-2024-crack",
+      "description": "Adobe InDesign 2024 - Industry-leading page design and layout software for print and digital media. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "artwork",
+        "creative",
+        "design",
+        "graphics",
+        "illustration",
+        "indesign",
+        "photo-editing"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:32:04Z",
+      "url": "https://github.com/Maneirsense61/Adobe-InDesign-2024-crack",
+      "analysis": {
+        "positioning": "免费获取并安装Adobe InDesign 2024破解版。",
+        "useCases": [
+          "你想免费使用专业的排版设计软件 → 它提供Adobe InDesign 2024的破解版本。",
+          "你需要进行书籍、杂志、海报等复杂图文排版 → 它让你无需付费即可使用InDesign核心功能。",
+          "你正在学习平面设计或桌面出版，寻求低成本的行业标准工具 → 它帮你绕过官方订阅费用获取InDesign。"
+        ],
+        "audience": "适合希望免费使用Adobe InDesign 2024进行专业页面设计和布局的个人用户或小型团队。",
+        "quickStart": {
+          "prerequisites": "Windows/macOS操作系统，互联网连接。",
+          "steps": [
+            "下载Adobe InDesign 2024破解安装包。",
+            "按照项目提供的指引运行安装程序并激活软件。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Adobe InDesign (官方版)",
+            "method": "订阅Adobe Creative Cloud",
+            "models": "N/A",
+            "pricing": "付费"
+          },
+          {
+            "name": "Affinity Publisher",
+            "method": "购买软件许可",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费。它提供Adobe InDesign 2024的破解版本，避免官方订阅费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供知名付费软件的破解版本，功能上能满足用户需求，但存在潜在的法律风险、安全隐患（如捆绑恶意软件）以及软件稳定性问题。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue开启或关闭。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:22:23.873Z"
+    },
+    {
+      "owner": "SmashGeninFilter48",
+      "repo": "lumion-crack",
+      "fullName": "SmashGeninFilter48/lumion-crack",
+      "description": "Lumion - Fast 3D rendering software for architectural visualization. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "3d-modeling",
+        "architecture",
+        "bim",
+        "cad",
+        "engineering",
+        "lumion",
+        "rendering"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T02:09:04Z",
+      "url": "https://github.com/SmashGeninFilter48/lumion-crack",
+      "analysis": {
+        "positioning": "提供Lumion建筑渲染软件的破解与安装教程。",
+        "useCases": [
+          "你需要使用Lumion进行建筑可视化渲染但预算有限 → 它提供Lumion破解版的获取与安装指南。",
+          "你正在寻找Lumion的详细安装步骤和功能介绍 → 它提供全面设置说明和功能亮点解析。",
+          "你希望快速上手Lumion软件 → 它帮你理解其核心特性并成功部署。"
+        ],
+        "audience": "适合希望免费使用Lumion进行建筑可视化、BIM、CAD渲染的设计师、学生及相关从业者。",
+        "quickStart": {
+          "prerequisites": "一台符合Lumion运行配置的电脑。",
+          "steps": [
+            "根据项目提供的详细指南，获取Lumion破解文件并进行破解。",
+            "依据指南完成Lumion软件的安装与设置。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Enscape",
+            "method": "CAD软件插件集成",
+            "models": "Revit, SketchUp, Rhino, ArchiCAD, Vectorworks",
+            "pricing": "付费"
+          },
+          {
+            "name": "Twinmotion",
+            "method": "独立实时渲染软件",
+            "models": "多种3D格式导入 (如FBX, OBJ)",
+            "pricing": "商业版付费，教育版/学生版免费"
+          }
+        ],
+        "pricing": "免费 (提供Lumion破解方案，实现无成本使用)",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目旨在传播破解软件，不符合技术社区倡导的开源精神、知识产权保护原则，且无实际代码贡献或创新。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue开启或关闭记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:22:42.543Z"
+    },
+    {
+      "owner": "grayservicesee",
+      "repo": "qustudio-crack",
+      "fullName": "grayservicesee/qustudio-crack",
+      "description": "Qustudio - Comprehensive digital design and creative workflow environment. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "maintenance",
+        "optimization",
+        "qustudio",
+        "repair",
+        "system-utility",
+        "tools"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T02:12:41Z",
+      "url": "https://github.com/grayservicesee/qustudio-crack",
+      "analysis": {
+        "positioning": "Qustudio数字设计环境的破解、优化及维护指南。",
+        "useCases": [
+          "你想要免费使用Qustudio软件 → 它帮你完成Qustudio的破解安装。",
+          "你遇到Qustudio软件运行问题 → 它帮你进行数据恢复、系统优化和维护。",
+          "你需要快速了解Qustudio软件功能 → 它帮你提供功能亮点和设置指引。"
+        ],
+        "audience": "寻求免费使用Qustudio数字设计环境，或需要其系统维护、优化工具的用户。",
+        "quickStart": {
+          "prerequisites": "Qustudio软件安装包（可选）及系统管理员权限。",
+          "steps": [
+            "下载并运行本项目提供的工具或脚本。",
+            "按照项目内的详细指引完成Qustudio的安装、破解或维护操作。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Qustudio官方版本",
+            "method": "购买正版授权或订阅服务",
+            "models": "Qustudio完整功能与官方支持",
+            "pricing": "付费"
+          },
+          {
+            "name": "GIMP / Krita 等免费设计软件",
+            "method": "下载并安装开源软件",
+            "models": "图像编辑、数字绘画等核心设计功能",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。本项目本身免费提供，旨在帮助用户免费使用Qustudio软件。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供商业软件Qustudio的破解与维护指导，内容可能涉及法律和道德风险，且社区活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数为零，Star数较低，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:23:03.872Z"
+    },
+    {
+      "owner": "GhoulPikemanVolt",
+      "repo": "TechSmith-Snagit-crack",
+      "fullName": "GhoulPikemanVolt/TechSmith-Snagit-crack",
+      "description": "TechSmith Snagit - Advanced screen capture and recording software for quick communication. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "maintenance",
+        "optimization",
+        "repair",
+        "snagit",
+        "system-utility",
+        "tools"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:56:05Z",
+      "url": "https://github.com/GhoulPikemanVolt/TechSmith-Snagit-crack",
+      "analysis": {
+        "positioning": "提供TechSmith Snagit屏幕录制与截图软件的破解方案。",
+        "useCases": [
+          "你想免费使用Snagit的高级截图录屏功能 → 它提供详细教程帮你绕过付费限制。",
+          "你需要快速制作教学视频或演示截图 → 它让你能免费使用Snagit高效完成。",
+          "你不愿为屏幕捕获软件付费 → 它帮你获取并安装破解版Snagit。"
+        ],
+        "audience": "适合希望免费获取并使用TechSmith Snagit软件进行截图、录屏的个人用户或学生。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统",
+          "steps": [
+            "下载项目提供的Snagit安装包和破解工具。",
+            "按照项目说明，安装Snagit并执行破解步骤。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OBS Studio",
+            "method": "下载并安装",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "ShareX",
+            "method": "下载并安装",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（项目本身提供的是TechSmith Snagit的破解方案，用户无需付费获取完整功能）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在提供付费软件的破解版，虽可能实现免费使用，但存在法律风险和潜在的安全隐患，不推荐。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，无任何Issue开启或关闭，也无交互。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:23:37.633Z"
+    },
+    {
+      "owner": "Tidelespiral",
+      "repo": "Revo-Uninstaller-Pro-crack",
+      "fullName": "Tidelespiral/Revo-Uninstaller-Pro-crack",
+      "description": "Revo Uninstaller Pro - Advanced software uninstaller and system cleanup utility. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "maintenance",
+        "optimization",
+        "repair",
+        "revo-uninstaller-pro",
+        "system-utility",
+        "tools"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:51:51Z",
+      "url": "https://github.com/Tidelespiral/Revo-Uninstaller-Pro-crack",
+      "analysis": {
+        "positioning": "深度软件卸载与系统清理工具的破解及使用指南。",
+        "useCases": [
+          "你不想花钱购买Revo Uninstaller Pro → 它帮你免费获得并安装完整功能版。",
+          "你安装软件后残留文件过多，系统变慢 → 它帮你彻底清除残余文件和注册表，优化系统。",
+          "你误删软件想恢复或系统出现问题 → 它提供数据恢复和系统修复功能，维护系统健康。"
+        ],
+        "audience": "追求系统极致洁净和运行效率，但不愿付费购买Revo Uninstaller Pro的个人用户。",
+        "quickStart": {
+          "prerequisites": "禁用杀毒软件或防火墙（常见破解软件步骤）",
+          "steps": [
+            "下载项目提供的破解程序或修改版安装包。",
+            "按照指引运行破解程序或安装已修改的Revo Uninstaller Pro。",
+            "验证软件是否已激活全部高级功能。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "IObit Uninstaller",
+            "method": "桌面应用，深度卸载，支持批量。",
+            "models": "PC软件卸载。",
+            "pricing": "免费版/付费专业版"
+          },
+          {
+            "name": "Geek Uninstaller",
+            "method": "桌面应用，绿色免安装，强制卸载。",
+            "models": "PC软件卸载。",
+            "pricing": "免费版/付费专业版"
+          }
+        ],
+        "pricing": "免费（通过破解方式获取付费软件的高级功能）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供付费软件的破解版，虽然能满足用户需求，但涉及版权问题，且社区活跃度低。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何Issue活动，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:23:53.887Z"
+    },
+    {
+      "owner": "Teamcherope68",
+      "repo": "Affinity-Designer-2-crack",
+      "fullName": "Teamcherope68/Affinity-Designer-2-crack",
+      "description": "Affinity Designer 2 - Award-winning vector graphics software for UI design and illustrations. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "affinity-designer",
+        "artwork",
+        "creative",
+        "design",
+        "graphics",
+        "illustration",
+        "photo-editing"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:33:02Z",
+      "url": "https://github.com/Teamcherope68/Affinity-Designer-2-crack",
+      "analysis": {
+        "positioning": "获取并安装获奖UI设计与插画工具Affinity Designer 2的破解版本。",
+        "useCases": [
+          "你苦于Affinity Designer 2高昂的费用 → 它提供免费的破解版下载与安装指南。",
+          "你想体验Affinity Designer 2的强大功能 → 它让你零成本快速上手。",
+          "你需要矢量图形设计和插画工具 → 它帮你用破解版Affinity Designer 2完成创意作品。"
+        ],
+        "audience": "希望免费使用Affinity Designer 2进行UI设计、插画、图形创作的个人用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目仓库，下载Affinity Designer 2破解包",
+            "按照README中的详细指引进行安装和激活"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Adobe Illustrator",
+            "method": "订阅制购买并安装",
+            "models": "桌面应用",
+            "pricing": "付费"
+          },
+          {
+            "name": "Figma",
+            "method": "在线协作或桌面应用安装",
+            "models": "网页应用/桌面应用",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "通过本项目获取软件免费，但原版Affinity Designer 2为一次性付费软件。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目提供盗版软件，存在法律、安全风险及道德问题，不属于技术贡献范畴且无社区活跃度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue或Pull Request互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:24:11.577Z"
+    },
+    {
+      "owner": "OlivePathAngular",
+      "repo": "Adobe-Photoshop-2024-crack",
+      "fullName": "OlivePathAngular/Adobe-Photoshop-2024-crack",
+      "description": "Adobe Photoshop 2024 - Professional image editing, retouching, and graphic design software. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "artwork",
+        "creative",
+        "design",
+        "graphics",
+        "illustration",
+        "photo-editing",
+        "photoshop"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:32:14Z",
+      "url": "https://github.com/OlivePathAngular/Adobe-Photoshop-2024-crack",
+      "analysis": {
+        "positioning": "提供Adobe Photoshop 2024破解版及其安装教程与功能介绍。",
+        "useCases": [
+          "你渴望免费使用专业图像处理软件 → 它帮你获取并安装破解版Adobe Photoshop 2024。",
+          "你没有正版授权又急需用Photoshop设计海报或修图 → 它提供解决方案让你规避付费。",
+          "你不知道如何安装Photoshop破解版 → 它提供详细的设置指南和功能介绍。"
+        ],
+        "audience": "希望免费获取并使用Adobe Photoshop 2024进行专业图像编辑、设计，但又不愿支付高昂订阅费用的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载项目提供的Adobe Photoshop 2024破解安装包。",
+            "按照项目中的设置指南完成软件安装和破解步骤。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Adobe Photoshop (官方正版)",
+            "method": "订阅购买",
+            "models": "桌面应用",
+            "pricing": "付费"
+          },
+          {
+            "name": "GIMP",
+            "method": "下载安装",
+            "models": "桌面应用",
+            "pricing": "免费"
+          },
+          {
+            "name": "Photopea",
+            "method": "在线使用",
+            "models": "Web应用",
+            "pricing": "部分免费"
+          }
+        ],
+        "pricing": "免费（通过破解方式获取原付费软件）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供付费软件的破解版，虽然满足了部分用户免费使用的需求，但存在严重的版权侵权风险和潜在的安全隐患。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何Issue活动，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:24:25.104Z"
+    },
+    {
+      "owner": "silverqualityexcite",
+      "repo": "Wondershare-Dr-Fone-crack",
+      "fullName": "silverqualityexcite/Wondershare-Dr-Fone-crack",
+      "description": "Wondershare Dr Fone - Complete mobile device management and data recovery solution. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "dr-fone",
+        "maintenance",
+        "optimization",
+        "repair",
+        "system-utility",
+        "tools"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:59:31Z",
+      "url": "https://github.com/silverqualityexcite/Wondershare-Dr-Fone-crack",
+      "analysis": {
+        "positioning": "Wondershare Dr Fone破解版，提供移动设备管理与数据恢复功能。",
+        "useCases": [
+          "你手机不慎丢失重要数据（如照片、联系人）→ 它帮你免费获取Dr. Fone，尝试恢复数据。",
+          "你想备份手机资料或修复iOS/Android系统小故障 → 它帮你免费使用Dr. Fone，进行设备管理与维护。",
+          "你希望绕过付费订阅，免费使用Wondershare Dr. Fone完整功能 → 它提供破解版安装与激活方案。"
+        ],
+        "audience": "希望免费使用Wondershare Dr. Fone进行手机数据恢复、备份与管理的个人用户。",
+        "quickStart": {
+          "prerequisites": "电脑（Windows/macOS）、目标移动设备",
+          "steps": [
+            "下载并安装Wondershare Dr. Fone破解版程序",
+            "根据提供的指南进行激活或运行，获取完整功能"
+          ],
+          "note": "安装和激活步骤可能因操作系统版本或破解方式而异。"
+        },
+        "competitors": [
+          {
+            "name": "EaseUS MobiSaver",
+            "method": "下载并购买软件/免费试用",
+            "models": "支持iOS/Android设备",
+            "pricing": "部分功能免费/付费"
+          },
+          {
+            "name": "Tenorshare UltData",
+            "method": "下载并购买软件/免费试用",
+            "models": "支持iOS/Android设备",
+            "pricing": "部分功能免费/付费"
+          }
+        ],
+        "pricing": "免费 (通过破解方式获取Wondershare Dr. Fone完整功能)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个提供商业付费软件破解方案的项目，虽然满足了特定用户需求，但存在潜在的法律风险和安全隐患，不属于常规的开源贡献。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue功能未被使用，几乎没有用户互动或维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:24:40.334Z"
+    },
+    {
+      "owner": "Nightbinpath",
+      "repo": "exitlag-crack",
+      "fullName": "Nightbinpath/exitlag-crack",
+      "description": "Exitlag - Gaming VPN to reduce latency, ping, and packet loss for optimal performance. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "browser",
+        "connection",
+        "internet",
+        "itlag",
+        "networking",
+        "proxy",
+        "vpn"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T02:05:13Z",
+      "url": "https://github.com/Nightbinpath/exitlag-crack",
+      "analysis": {
+        "positioning": "Exitlag游戏加速器的非官方“破解”方案，实现免费使用。",
+        "useCases": [
+          "你想免费体验Exitlag的加速服务 → 它帮你获取并使用Exitlag，无需付费订阅。",
+          "你玩PVP竞技游戏时常遇到高延迟卡顿 → 它帮你降低延迟和丢包，提升游戏流畅度。",
+          "你正在使用Exitlag付费版但遇到激活问题 → 它帮你提供潜在的解决方案，绕过激活限制。"
+        ],
+        "audience": "寻求免费使用Exitlag游戏加速器，或在Exitlag激活方面遇到困难的玩家。",
+        "quickStart": {
+          "prerequisites": "对Exitlag客户端安装和网络配置有基础了解，并接受使用非官方解决方案的风险。",
+          "steps": [
+            "从项目地址获取Nightbinpath/exitlag-crack文件。",
+            "按照项目提供的指南进行Exitlag的安装和“破解”操作。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Exitlag (官方版)",
+            "method": "付费订阅官方服务，安装客户端",
+            "models": "支持PC游戏，部分主机游戏",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "UU加速器",
+            "method": "付费订阅其加速服务，安装客户端",
+            "models": "支持PC、主机、移动游戏",
+            "pricing": "付费订阅，部分有免费体验"
+          }
+        ],
+        "pricing": "免费 (旨在绕过Exitlag的付费订阅，从而免费使用其服务)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "星数极少，社区完全不活跃，项目性质是“破解”，存在潜在风险（如稳定性、安全性）和法律合规性问题。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，没有Issue交流和反馈，维护状态不明。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:24:55.104Z"
+    },
+    {
+      "owner": "origintherapistclamp",
+      "repo": "Guitar-Pro-8-crack",
+      "fullName": "origintherapistclamp/Guitar-Pro-8-crack",
+      "description": "Guitar Pro 8 - Comprehensive tablature editor and musical score software for guitarists. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "audio-editing",
+        "daw",
+        "guitar-pro",
+        "mastering",
+        "mixing",
+        "music-production",
+        "sound-design"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:44:28Z",
+      "url": "https://github.com/origintherapistclamp/Guitar-Pro-8-crack",
+      "analysis": {
+        "positioning": "提供Guitar Pro 8破解版及安装指南，助你免费使用吉他制谱软件。",
+        "useCases": [
+          "你不想付费购买Guitar Pro 8 → 它帮你提供完整破解版下载及安装教程，免费使用。",
+          "你需要Guitar Pro 8来制作吉他谱或进行音乐编曲 → 它帮你获取并快速上手这款专业软件。",
+          "你对Guitar Pro 8功能不熟悉，需要快速了解 → 它帮你提供功能亮点介绍，节省学习时间。"
+        ],
+        "audience": "希望免费获取并使用Guitar Pro 8进行吉他谱编辑、创作的吉他手和音乐爱好者。",
+        "quickStart": {
+          "prerequisites": "一台个人电脑",
+          "steps": [
+            "下载项目提供的Guitar Pro 8破解版文件。",
+            "按照项目中的设置指引完成安装和激活。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "TuxGuitar",
+            "method": "安装软件",
+            "models": "吉他谱编辑，多音轨制谱",
+            "pricing": "免费"
+          },
+          {
+            "name": "MuseScore",
+            "method": "安装软件",
+            "models": "乐谱编辑，作曲，打印",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（提供付费软件Guitar Pro 8的破解版）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供付费软件的破解版，违反软件许可协议，存在潜在法律和安全风险。尽管满足了用户免费使用的需求，但在技术社区中通常不被鼓励和认可。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue开启或关闭，表明缺乏用户交流和维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:25:08.784Z"
+    },
+    {
+      "owner": "Fountainplonurse",
+      "repo": "Parsec-crack",
+      "fullName": "Fountainplonurse/Parsec-crack",
+      "description": "Parsec - High-performance remote desktop software optimized for low-latency gaming. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "maintenance",
+        "optimization",
+        "parsec",
+        "repair",
+        "system-utility",
+        "tools"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:51:30Z",
+      "url": "https://github.com/Fountainplonurse/Parsec-crack",
+      "analysis": {
+        "positioning": "Parsec远程桌面优化与设置指南，助你畅享低延迟游戏体验。",
+        "useCases": [
+          "你想远程玩游戏 → 它提供Parsec设置指南，确保最低延迟和最佳性能。",
+          "你遇到Parsec性能问题或卡顿 → 它提供优化技巧和修复方案，提升远程桌面流畅度。",
+          "你不熟悉Parsec各项功能 → 它详细介绍特性和使用方法，助你充分利用。"
+        ],
+        "audience": "Parsec远程桌面用户，尤其是追求极致低延迟游戏体验或需要深度优化的玩家和专业人士。",
+        "quickStart": {
+          "prerequisites": "已安装Parsec远程桌面软件",
+          "steps": [
+            "克隆或下载本项目仓库",
+            "查阅文档中的设置、优化或故障排除章节"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Steam Remote Play",
+            "method": "通过Steam客户端内置功能",
+            "models": "PC",
+            "pricing": "免费"
+          },
+          {
+            "name": "Moonlight/Sunshine",
+            "method": "开源客户端，需搭配NVIDIA GameStream或Sunshine服务端",
+            "models": "PC, Android, iOS, tvOS等",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (项目本身为开源文档，但Parsec本体有免费版和付费版)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数较低，无Issue开启或关闭记录，表明社区活跃度极低。语言未标识，且采用非标准许可证。虽有明确描述，但维护和更新情况不明朗，更像个人兴趣或临时性项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue开启或关闭记录，表明项目目前处于不活跃状态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:25:27.631Z"
+    },
+    {
+      "owner": "Harborzuglorify",
+      "repo": "adspower-crack",
+      "fullName": "Harborzuglorify/adspower-crack",
+      "description": "Adspower - Anti-detect browser for managing multiple accounts securely and anonymously. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "adspower",
+        "browser",
+        "connection",
+        "internet",
+        "networking",
+        "proxy",
+        "vpn"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T02:00:53Z",
+      "url": "https://github.com/Harborzuglorify/adspower-crack",
+      "analysis": {
+        "positioning": "Adspower破解版使用指南，用于多账号安全匿名管理。",
+        "useCases": [
+          "你需要管理多个社交媒体账号并避免关联封禁 → 它帮你模拟独立环境，实现账号隔离操作。",
+          "你在进行电商或网赚的多账号操作 → 它提供匿名浏览器环境，确保每个账号IP和指纹独立。",
+          "你想学习如何设置和使用Adspower这类防关联浏览器 → 它提供详细的Adspower破解版配置指南。"
+        ],
+        "audience": "运营、营销或网赚人员，需匿名安全管理大量在线账号，并寻求Adspower破解方案。",
+        "quickStart": {
+          "prerequisites": "Adspower软件本体（或其安装包）",
+          "steps": [
+            "获取Adspower软件（或其破解补丁）",
+            "根据项目提供的指南，进行安装和配置"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GoLogin",
+            "method": "下载并安装客户端，创建浏览器配置文件",
+            "models": "支持Windows, macOS, Linux",
+            "pricing": "部分免费，主要付费"
+          },
+          {
+            "name": "Multilogin",
+            "method": "下载并安装客户端，配置浏览器指纹和代理",
+            "models": "支持Windows, macOS",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "项目本身免费，提供Adspower付费软件的破解或使用指南。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数较低，社区活跃度不足（无issue）。作为一个破解指南项目，其生命周期和维护更新可能受限。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue交流或反馈。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-04T06:25:41.182Z"
+    },
+    {
+      "owner": "Tabooglisalvage",
+      "repo": "SEMRUSH-PRO-crack",
+      "fullName": "Tabooglisalvage/SEMRUSH-PRO-crack",
+      "description": "SEMRUSH PRO - Comprehensive SEO, keyword research, and digital marketing toolkit. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "maintenance",
+        "optimization",
+        "repair",
+        "semrush-pro",
+        "system-utility",
+        "tools"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:52:17Z",
+      "url": "https://github.com/Tabooglisalvage/SEMRUSH-PRO-crack",
+      "analysis": {
+        "positioning": "提供SEMRUSH PRO破解版安装和使用指南",
+        "useCases": [
+          "你想免费使用专业级SEO工具 → 它提供SEMRUSH PRO破解版让你进行关键词研究",
+          "你需要分析竞争对手的在线营销策略 → 它帮你通过SEMRUSH PRO破解版获取对手数据",
+          "你想优化网站排名提升流量 → 它让你免费使用SEMRUSH PRO高级功能进行网站审计和优化"
+        ],
+        "audience": "希望免费获取并使用SEMRUSH PRO专业级SEO、关键词研究及数字营销工具的个人或团队。",
+        "quickStart": {
+          "prerequisites": "了解SEMRUSH PRO基本功能，并准备进行非官方软件安装。",
+          "steps": [
+            "遵循项目提供的详细设置指南进行安装。",
+            "根据指南配置并激活SEMRUSH PRO破解版。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Ahrefs",
+            "method": "SaaS订阅",
+            "models": "网页版",
+            "pricing": "付费"
+          },
+          {
+            "name": "Moz Pro",
+            "method": "SaaS订阅",
+            "models": "网页版",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（提供SEMRUSH PRO付费版破解方案）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名为SEMRUSH PRO破解版，存在法律及道德风险。Star数较低且无Issue活动，社区活跃度低。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何Issue记录，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:25:54.644Z"
+    },
+    {
+      "owner": "paintlynxreproduce",
+      "repo": "cinema-4d-crack",
+      "fullName": "paintlynxreproduce/cinema-4d-crack",
+      "description": "Cinema 4D - Professional 3D modeling, animation, simulation and rendering software solution. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "3d-modeling",
+        "architecture",
+        "bim",
+        "cad",
+        "cinema-4d",
+        "engineering",
+        "rendering"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T02:03:33Z",
+      "url": "https://github.com/paintlynxreproduce/cinema-4d-crack",
+      "analysis": {
+        "positioning": "Cinema 4D专业3D软件的免费获取与安装指南。",
+        "useCases": [
+          "你想免费体验Cinema 4D的3D建模功能 → 它提供破解版与详细安装教程。",
+          "你追求电影级动画渲染效果 → 它助你使用Cinema 4D进行高级动画制作。",
+          "你需要创建复杂的建筑或工业设计模型 → 它让你无需付费即可使用Cinema 4D的专业工具。"
+        ],
+        "audience": "希望免费获取并使用Maxon Cinema 4D的3D设计师、动画师、建筑师及学生。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载本项目提供的Cinema 4D破解包及安装指南。",
+            "依据详细步骤完成软件安装与激活。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Maxon 官方渠道",
+            "method": "正版购买/订阅",
+            "models": "完整、稳定的Cinema 4D功能",
+            "pricing": "付费"
+          },
+          {
+            "name": "其他破解/盗版网站",
+            "method": "下载未知来源安装包",
+            "models": "功能与安全性存疑的Cinema 4D",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (提供Cinema 4D破解及安装教程)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供热门专业3D软件Cinema 4D的破解与安装教程，方便用户免费使用。但其本质涉及软件盗版，存在法律风险和潜在安全隐患，不推荐用于商业用途。",
+        "isVibeCoding": true,
+        "communityActivity": "无Issue活动，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:26:10.110Z"
+    },
+    {
+      "owner": "GalaxyHemomancer",
+      "repo": "Sketch-App-crack",
+      "fullName": "GalaxyHemomancer/Sketch-App-crack",
+      "description": "Sketch App - Vector graphics editor for digital design and UI/UX prototyping. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "artwork",
+        "creative",
+        "design",
+        "graphics",
+        "illustration",
+        "photo-editing",
+        "sketch-app"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:52:35Z",
+      "url": "https://github.com/GalaxyHemomancer/Sketch-App-crack",
+      "analysis": {
+        "positioning": "提供Sketch App破解安装指南，助你免费使用专业设计软件。",
+        "useCases": [
+          "你预算有限，想用Sketch App进行专业设计 → 它帮你获取并安装破解版Sketch App。",
+          "你对Sketch App安装配置不熟悉 → 它提供详细的设置指南和功能亮点介绍。",
+          "你寻求免费途径使用Mac平台UI/UX设计工具 → 它提供方案获取Sketch App。"
+        ],
+        "audience": "预算有限或想免费体验Sketch App的设计师、UI/UX原型师，以及需要详细安装指南的用户。",
+        "quickStart": {
+          "prerequisites": "macOS操作系统电脑",
+          "steps": [
+            "访问项目获取破解文件及详细安装指南",
+            "按照指南步骤完成Sketch App的安装和激活"
+          ],
+          "note": "Sketch App仅支持macOS。"
+        },
+        "competitors": [
+          {
+            "name": "Figma",
+            "method": "在线协作/桌面应用",
+            "models": "UI/UX设计、原型、协作",
+            "pricing": "个人免费，团队订阅"
+          },
+          {
+            "name": "Adobe XD",
+            "method": "桌面应用",
+            "models": "UI/UX设计、原型",
+            "pricing": "部分免费，高级订阅"
+          },
+          {
+            "name": "Lunacy",
+            "method": "桌面应用",
+            "models": "矢量编辑、UI/UX设计",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（项目本身是免费指南，旨在帮助用户免费获取付费软件Sketch App）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "为付费设计软件提供非官方免费方案，虽满足特定需求但存在版权和安全风险；项目活跃度低，缺乏维护。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue记录，项目可能缺乏长期维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:26:27.643Z"
+    },
+    {
+      "owner": "HairdresserRecognize",
+      "repo": "octo-browser-crack",
+      "fullName": "HairdresserRecognize/octo-browser-crack",
+      "description": "Octo Browser - Secure anti-detect browser for multi-accounting and digital fingerprint management. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "browser",
+        "connection",
+        "internet",
+        "networking",
+        "octo-browser",
+        "proxy",
+        "vpn"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T02:09:54Z",
+      "url": "https://github.com/HairdresserRecognize/octo-browser-crack",
+      "analysis": {
+        "positioning": "Octo浏览器反检测多账号管理指南与设置。",
+        "useCases": [
+          "你想进行多个社交媒体/电商账号操作 → 它帮你隔离指纹，防止账号关联封禁。",
+          "你需要模拟不同设备环境进行测试或数据采集 → 它帮你管理数字指纹，提高匿名性和数据质量。",
+          "你正在寻找安全高效的多账号运营方案 → 它帮你提供抗检测浏览器设置指导，降低操作风险。"
+        ],
+        "audience": "需要进行多账号运营、匿名浏览或数字指纹管理的用户，如营销人员、电商卖家、联盟客、爬虫开发者。",
+        "quickStart": {
+          "prerequisites": "Octo Browser客户端（通常需自行获取）",
+          "steps": [
+            "根据指南内容，理解Octo Browser的核心功能和反检测原理。",
+            "遵循指南中的详细设置说明，配置浏览器环境和指纹管理。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Dolphin Anty",
+            "method": "下载客户端使用",
+            "models": "不适用",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "AdsPower",
+            "method": "下载客户端使用",
+            "models": "不适用",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费 (指南本身免费，但Octo Browser通常是付费服务，且项目名包含'crack'，暗示可能涉及非官方免费使用方案)",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目Star数和社区活跃度极低（无Issue），语言未知，且标题含有'crack'字样，可靠性和维护前景存疑，不建议生产环境使用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue开启或关闭记录，项目基本处于无人维护状态。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-04T06:26:41.576Z"
+    },
+    {
+      "owner": "meteorriversteal",
+      "repo": "Altium-Designer-24-crack",
+      "fullName": "meteorriversteal/Altium-Designer-24-crack",
+      "description": "Altium Designer 24 - Comprehensive PCB design software for professional electronics engineering. Comprehensive guide with setup instructions, feature highlights.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "designer",
+        "maintenance",
+        "optimization",
+        "repair",
+        "system-utility",
+        "tools"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T01:33:02Z",
+      "url": "https://github.com/meteorriversteal/Altium-Designer-24-crack",
+      "analysis": {
+        "positioning": "Altium Designer 24 破解版，附安装指南与功能亮点。",
+        "useCases": [
+          "你想免费使用Altium Designer 24 → 它提供破解工具和详细安装指南",
+          "你需要快速了解Altium Designer 24的核心功能 → 它提供功能亮点介绍",
+          "你在寻找Altium Designer 24的安装教程 → 它提供完整的设置说明"
+        ],
+        "audience": "希望免费获取和使用Altium Designer 24的电子工程师、学生或爱好者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "下载本项目提供的破解工具和指南",
+            "按照指南步骤安装并激活Altium Designer 24"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Altium Designer 24 (官方版)",
+            "method": "购买正版许可或申请试用",
+            "models": "提供标准版、专业版等订阅或永久许可模式",
+            "pricing": "付费"
+          },
+          {
+            "name": "KiCad",
+            "method": "直接下载安装",
+            "models": "开源PCB设计软件",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供商业软件的破解方案，虽然能满足特定用户需求，但存在法律和道德风险，不属于正向开源贡献。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，无Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-04T06:26:52.806Z"
     }
   ]
 }

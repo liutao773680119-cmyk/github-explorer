@@ -1,0 +1,170 @@
+{
+  "version": "1",
+  "date": "2026-06-04",
+  "startedAt": "2026-06-04T06:20:55.264Z",
+  "finishedAt": "2026-06-04T06:29:00.870Z",
+  "durationSeconds": 486,
+  "success": true,
+  "stats": {
+    "fetched": 133,
+    "newProjects": 22,
+    "skipped": 111,
+    "geminiCalls": 39,
+    "statsUpdated": 133
+  },
+  "errors": [
+    {
+      "time": "2026-06-04T06:26:56.187Z",
+      "level": "warn",
+      "project": "Seizebetweengaze/AutoDesk-Inventor-Professional-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:26:59.407Z",
+      "level": "warn",
+      "project": "boundaryflameboiler/Adobe-After-Effects-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:02.578Z",
+      "level": "warn",
+      "project": "Petaarreminisce/Ableton-Live-12-Suite-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:05.801Z",
+      "level": "warn",
+      "project": "Psychezumalter/Celemony-Melodyne-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:09.059Z",
+      "level": "warn",
+      "project": "CrownMessengerIgnite/Camtasia-Studio-2023-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:12.316Z",
+      "level": "warn",
+      "project": "Rimgravent48/ZBrush-2024-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:15.631Z",
+      "level": "warn",
+      "project": "MarinaNewtCapture/Xfer-Serum-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:18.823Z",
+      "level": "warn",
+      "project": "BlockadeBroker/Tenorshare-4uKey-crack",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:26.878Z",
+      "level": "warn",
+      "project": "cpaczek/skylight",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:31.059Z",
+      "level": "warn",
+      "project": "SenhorH/tab-labeler",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:43.422Z",
+      "level": "warn",
+      "project": "tiantianGPU/reg-factory",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:46.713Z",
+      "level": "warn",
+      "project": "c0deJedi/nbd-vram",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:52.070Z",
+      "level": "warn",
+      "project": "bytedance/Bernini",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:27:55.327Z",
+      "level": "warn",
+      "project": "jd-opensource/JoyAI-Echo",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:28:00.571Z",
+      "level": "warn",
+      "project": "S-Sigdel/vimhjkl",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:28:07.652Z",
+      "level": "warn",
+      "project": "V0id-v2/Void-Tools-v2.0",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-04T06:28:11.868Z",
+      "level": "warn",
+      "project": "Mochocyang/QMAI",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
