@@ -1,0 +1,152 @@
+{
+  "version": "1",
+  "date": "2026-06-05",
+  "startedAt": "2026-06-05T06:00:19.979Z",
+  "finishedAt": "2026-06-05T06:05:41.073Z",
+  "durationSeconds": 321,
+  "success": true,
+  "stats": {
+    "fetched": 109,
+    "newProjects": 7,
+    "skipped": 102,
+    "geminiCalls": 22,
+    "statsUpdated": 109
+  },
+  "errors": [
+    {
+      "time": "2026-06-05T06:01:09.302Z",
+      "level": "warn",
+      "project": "HemomancerCreate/Undown-Tool",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:01:15.648Z",
+      "level": "warn",
+      "project": "coinbaselarper/lucideium",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:01:20.222Z",
+      "level": "warn",
+      "project": "zzszmyf/codefuse",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:01:24.330Z",
+      "level": "warn",
+      "project": "gonefunctorz/ariel",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:01:28.392Z",
+      "level": "warn",
+      "project": "SiliconConch/PickCam",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:01.317Z",
+      "level": "warn",
+      "project": "SenhorH/tab-labeler",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:06.171Z",
+      "level": "warn",
+      "project": "jd-opensource/JoyAI-Echo",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:11.436Z",
+      "level": "warn",
+      "project": "V0id-v2/Void-Tools-v2.0",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:14.453Z",
+      "level": "warn",
+      "project": "tiantianGPU/reg-factory",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:17.546Z",
+      "level": "warn",
+      "project": "tastyeffectco/sandboxes",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:20.734Z",
+      "level": "warn",
+      "project": "c0deJedi/nbd-vram",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:28.317Z",
+      "level": "warn",
+      "project": "S-Sigdel/vimhjkl",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:02:33.252Z",
+      "level": "warn",
+      "project": "Mochocyang/QMAI",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:04:18.486Z",
+      "level": "warn",
+      "project": "ni5arga/deanonymizer",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-05T06:04:24.016Z",
+      "level": "warn",
+      "project": "dsta022/lerobot-rgb-rgbd-vla-dataset-toolkit",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

