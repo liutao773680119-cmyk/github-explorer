@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-05T06:05:02.415Z",
+  "updatedAt": "2026-06-06T05:36:44.330Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -45144,6 +45144,699 @@
         "category": "AI编程助手"
       },
       "analyzedAt": "2026-06-05T06:05:02.392Z"
+    },
+    {
+      "owner": "jd-opensource",
+      "repo": "JoyAI-Echo",
+      "fullName": "jd-opensource/JoyAI-Echo",
+      "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-02T03:25:51Z",
+      "url": "https://github.com/jd-opensource/JoyAI-Echo",
+      "analysis": {
+        "positioning": "长程音视频生成框架，分钟级、跨模态、高一致性、实时交互。",
+        "useCases": [
+          "你想要通过对话指令实时编辑视频 → 它帮你实现对话式、即时可编辑的视频创作。",
+          "你希望制作人物音画一致的分钟级长视频 → 它帮你生成高质量、高一致性的长音频视频。",
+          "你需要在流式传输下输出高分辨率长视频 → 它帮你维持高清晰度并保证低延迟。"
+        ],
+        "audience": "视频创作者、AI研究员及开发者，特别是对实时、长程、高一致性、交互式音视频生成有需求的。",
+        "quickStart": {
+          "prerequisites": "Python 3.11, PyTorch 2.8, CUDA 12.8",
+          "steps": [
+            "克隆项目仓库",
+            "安装所有依赖库（例如通过pip）",
+            "运行推理脚本以生成音视频"
+          ],
+          "note": "仅提供推理功能，不支持模型训练。"
+        },
+        "competitors": [
+          {
+            "name": "HappyOyster (directing mode)",
+            "method": null,
+            "models": null,
+            "pricing": null
+          },
+          {
+            "name": "Wan 2.6 (short-video specialist)",
+            "method": null,
+            "models": null,
+            "pricing": null
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "京东开源项目，专注于分钟级长视频的音视频生成，首次实现了长程跨模态一致性、实时推理、对话式交互和高分辨率输出，解决了当前长视频生成的核心痛点。项目提供清晰的论文、项目页面和Hugging Face模型，但社区活跃度中等偏低，Star数尚可。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，有少量开启和关闭的Issue，表明有一定关注和响应。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-06T05:32:27.484Z"
+    },
+    {
+      "owner": "tastyeffectco",
+      "repo": "sandboxes",
+      "fullName": "tastyeffectco/sandboxes",
+      "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
+      "language": "Go",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "dev-environment",
+        "docker",
+        "isolation",
+        "preview",
+        "preview-environment",
+        "sandbox",
+        "self-hosted"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-03T18:55:02Z",
+      "url": "https://github.com/tastyeffectco/sandboxes",
+      "analysis": {
+        "positioning": "AI应用构建的开源引擎，提供隔离式云开发沙盒和实时预览URL。",
+        "useCases": [
+          "你希望构建AI应用平台，让用户直接在浏览器里“输入需求→秒出网站” → 它为你提供运行在自家服务器上的后端，一键搞定隔离开发环境、AI编码代理和实时预览。",
+          "你需要为AI编程代理提供私有、隔离、可自动休眠/唤醒且带实时预览的开发环境 → 它让你在单机上以低成本快速启动N个沙盒，文件持久化，内存自动释放。",
+          "你正在寻找替代Kubernetes的轻量级方案，来为SaaS工厂提供隔离的用户开发环境 → 它通过简单的Go程序和Docker实现，告别复杂部署，易于理解和维护。"
+        ],
+        "audience": "AI应用构建平台、SaaS工厂的开发者，以及需要为AI编程代理提供高效隔离开发环境的技术团队。",
+        "quickStart": {
+          "prerequisites": "已安装Docker",
+          "steps": [
+            "运行 `sandboxed` 服务（通过Go二进制文件或Docker镜像）。",
+            "向 `/sandbox` 发送HTTP POST请求创建隔离沙盒。",
+            "向 `.../tasks` 发送HTTP POST请求，让AI代理在沙盒中生成代码。",
+            "通过 `http://<id>.preview...` 访问生成的应用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Replit",
+            "method": "提供在线集成开发环境 (IDE) 和代码托管服务，内置AI编程助手",
+            "models": "整合Ghostwriter AI助手，支持多种编程模型",
+            "pricing": "免费基础层，高级功能付费"
+          },
+          {
+            "name": "CodeSandbox",
+            "method": "提供在线IDE、协作平台和预览环境，内置AI代码辅助功能",
+            "models": "提供AI代码辅助功能",
+            "pricing": "免费基础层，团队和企业版付费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，强调“无Kubernetes，一键部署”，后端架构（Go + Docker + Traefik + SQLite）轻量且易读。专注于解决核心痛点，减少了不必要的复杂性，非常符合Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "处于早期阶段（Beta），有5个开启的Issue但尚未有关闭的，社区活跃度尚待观察，但表明项目正在发展中。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-06T05:32:50.314Z"
+    },
+    {
+      "owner": "tiantianGPU",
+      "repo": "reg-factory",
+      "fullName": "tiantianGPU/reg-factory",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-01T13:38:37Z",
+      "url": "https://github.com/tiantianGPU/reg-factory",
+      "analysis": {
+        "positioning": "全自动批量注册Outlook邮箱及主流AI平台账号工具。",
+        "useCases": [
+          "你希望批量获取Outlook邮箱账号 → 它帮你全自动注册并准备好。",
+          "你想批量注册ChatGPT、Grok、Claude等AI平台账号 → 它帮你用注册好的Outlook邮箱自动完成注册。",
+          "你需要可直登的AI平台Cookie用于自动化或测试 → 它帮你注册并导出这些Cookie。",
+          "你想快速构建一个AI账号池 → 它帮你自动化注册流程，降低人工成本。"
+        ],
+        "audience": "需要批量注册AI服务账号（如ChatGPT、Grok、Claude）并获取直登Cookie的开发者、研究人员、自动化爱好者或内容创作者。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "克隆项目仓库：`git clone <项目地址>`",
+            "安装依赖：`pip install -r requirements.txt`",
+            "运行主程序（需根据项目具体文档配置和执行）"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动注册",
+            "method": "人工逐一操作注册流程",
+            "models": "全部支持",
+            "pricing": "免费（时间成本高）"
+          },
+          {
+            "name": "账号购买平台",
+            "method": "在第三方平台购买现成的AI账号",
+            "models": "视平台供应而定",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（开源工具，使用需自备运行环境及潜在的服务费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实现全自动批量注册主流AI平台账号，并直出可登录的Cookie，自动化程度高，解决了特定场景下的批量账号需求，极具实用价值和“黑科技”感。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue 尚未开启或未有用户提交。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-06T05:33:02.522Z"
+    },
+    {
+      "owner": "Jane-xiaoer",
+      "repo": "xiaoer-videolab",
+      "fullName": "Jane-xiaoer/xiaoer-videolab",
+      "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
+      "language": "JavaScript",
+      "topics": [
+        "bilibili",
+        "chrome-extension",
+        "launchd",
+        "macos",
+        "manifest-v3",
+        "privacy-friendly",
+        "video-downloader",
+        "youtube-dl",
+        "yt-dlp"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-04T05:20:47Z",
+      "url": "https://github.com/Jane-xiaoer/xiaoer-videolab",
+      "analysis": {
+        "positioning": "一键本地化下载网页视频，隐私优先。",
+        "useCases": [
+          "想安全地下载任意网页视频 → 一键保存到本地，无需担心隐私泄露或流氓插件。",
+          "厌倦了功能复杂、广告多的下载工具 → 它提供极简、纯粹的本地下载体验。",
+          "需要频繁下载不同平台的视频（如B站、YouTube、X）→ 它通过统一入口高效处理1800+网站。"
+        ],
+        "audience": "适合注重隐私和安全，并需要便捷、一键式下载网页视频的 macOS 用户。",
+        "quickStart": {
+          "prerequisites": "`brew install yt-dlp ffmpeg`",
+          "steps": [
+            "`git clone https://github.com/Jane-xiaoer/xiaoer-videolab.git`",
+            "`cd xiaoer-videolab && ./scripts/install.sh`",
+            "在 Chrome 浏览器访问 `chrome://extensions/` 并加载 `extension/` 目录作为未打包扩展。"
+          ],
+          "note": "仅支持 macOS"
+        },
+        "competitors": [
+          {
+            "name": "传统浏览器视频下载插件",
+            "method": "浏览器内直接下载或跳转第三方网站",
+            "models": "各异，可靠性参差",
+            "pricing": "多为免费，但可能存在广告、跟踪或数据收集"
+          },
+          {
+            "name": "`yt-dlp` (命令行版)",
+            "method": "命令行手动输入URL执行下载",
+            "models": "1800+ 站点",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费。基于 MIT 许可证的开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，利用成熟工具 `yt-dlp` 实现核心功能，强调本地化和隐私保护。安装流程友好（brew/脚本），对开发者和注重隐私的用户有吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度较低（0 开启 / 1 关闭），但项目结构简洁、文档详细，可能用户自行解决能力较强。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-06T05:33:17.948Z"
+    },
+    {
+      "owner": "SenhorH",
+      "repo": "tab-labeler",
+      "fullName": "SenhorH/tab-labeler",
+      "description": "Rename browser tabs locally and bring order to chaotic sessions.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-02T21:45:25Z",
+      "url": "https://github.com/SenhorH/tab-labeler",
+      "analysis": {
+        "positioning": "本地重命名浏览器标签页，整理混乱会话。",
+        "useCases": [
+          "你打开的标签页标题过于混乱或无意义（如\"Untitled Document\"）→ 它帮你自定义标签页名称，使其一目了然。",
+          "你经常处理Web应用，页面标题频繁变化（如SPA）→ 它帮你持久化自定义标签，即使页面内容更新标题也不变。",
+          "你需要快速标记重要或待办的标签页 → 它帮你添加表情符号前缀或使用预设标签（如\"✅ Done\", \"🔥 Important\"）。"
+        ],
+        "audience": "适合那些在浏览器中同时打开大量标签页、寻求提高工作效率的用户，尤其是需要对不同任务、项目或信息源进行快速识别和分类的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js (npm)",
+          "steps": [
+            "安装依赖：`npm install`",
+            "构建扩展：`npm run build`",
+            "打开Chromium浏览器扩展页面（如Chrome: `chrome://extensions`），开启开发者模式。",
+            "选择“加载已解压的扩展程序”，并选择生成的 `dist` 文件夹。"
+          ],
+          "note": "适用于Chrome、Edge、Brave等基于Chromium的浏览器。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用型浏览器扩展，专注于解决小痛点，代码开源且遵循隐私保护原则，易于安装和使用，没有多余功能。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低（1开启/0关闭），可能说明项目简单稳定或用户反馈较少。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-06T05:33:30.896Z"
+    },
+    {
+      "owner": "Mochocyang",
+      "repo": "QMAI",
+      "fullName": "Mochocyang/QMAI",
+      "description": "青幕AI写作软件，解决长篇小说写作问题，解决小说角色性格不统一，防止人设崩坏。",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-31T00:41:43Z",
+      "url": "https://github.com/Mochocyang/QMAI",
+      "analysis": {
+        "positioning": "为长篇小说作者设计的记忆型AI写作桌面系统。",
+        "useCases": [
+          "你写网文连载 → 它帮你保持人设、剧情前后一致，告别AI遗忘。",
+          "你构建小说世界观 → 它帮你管理复杂人物关系、事件，防止设定崩坏。",
+          "你用AI写长篇 → 它让AI记住所有细节，输出稳定风格的内容。"
+        ],
+        "audience": "追求长篇小说质量与连贯性的网文作者、小说策划者及AI辅助写作者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载并安装对应操作系统版本（Windows/macOS/Linux）",
+            "启动软件，配置大模型API"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用AI聊天工具（如ChatGPT）",
+            "method": "单次对话生成，无长篇记忆管理",
+            "models": "通用大模型",
+            "pricing": "通常有免费额度"
+          }
+        ],
+        "pricing": "软件免费，需自备大模型API密钥（通常需付费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，核心功能围绕长篇写作痛点设计，界面截图专业，README详尽，思路清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低，社区互动待提升（0开启/1关闭）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-06T05:33:43.549Z"
+    },
+    {
+      "owner": "S-Sigdel",
+      "repo": "vimhjkl",
+      "fullName": "S-Sigdel/vimhjkl",
+      "description": "learn vim from your terminal with spaced repetition",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-01T08:08:33Z",
+      "url": "https://github.com/S-Sigdel/vimhjkl",
+      "analysis": {
+        "positioning": "终端交互式Vim教程，助你掌握高级技巧。",
+        "useCases": [
+          "你学过`vimtutor`但想进阶 → 它帮你学习Vim高级技巧，如点命令、文本对象、宏等。",
+          "你掌握了Vim基础但想巩固 → 它通过间隔重复和真实按键评分，帮你高效练习易错技能。",
+          "你想系统提升Vim操作速度 → 它提供学习、盲练、巩固等多种模式，在真实Vim中反复训练。",
+          "你希望练习`ex`命令而非手动编辑 → 它要求你输入真实的`ex`命令，确保你掌握正确的Vim工作流。"
+        ],
+        "audience": "适合希望系统学习、深入掌握Vim/Neovim高级操作，并通过实践高效提升Vim技能的开发者。",
+        "quickStart": {
+          "prerequisites": "`vim` 或 `nvim` (需在 PATH 中)。",
+          "steps": [
+            "`brew install S-Sigdel/tap/vimhjkl` (macOS / Linux)",
+            "`paru -S vimhjkl` (Arch Linux)"
+          ],
+          "note": "源码安装需要 `uv`。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "直接提升开发者Vim使用效率和技能，通过真实Vim环境进行教学和练习，高度契合编码场景。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启6个但尚未关闭，项目有反馈但解决进度待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-06T05:33:56.026Z"
+    },
+    {
+      "owner": "chaitanyagiri",
+      "repo": "munder-difflin",
+      "fullName": "chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "claude-code",
+        "free",
+        "harness",
+        "harness-engineering",
+        "memory"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-05-31T15:25:05Z",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "analysis": {
+        "positioning": "可视化本地Claude多Agent协作平台。",
+        "useCases": [
+          "你想让Claude Code处理复杂任务 → 它帮你组织Claude Code Agent团队，通过GOD协调者协同完成。",
+          "你想理解或调试Claude Code Agent的交互与工作流 → 它将Agent可视化为桌面角色，直观展示消息传递与工作状态。",
+          "你想为Claude Code Agent提供长期记忆和智能路由 → 它内置高速记忆层和Agent间消息路由机制。"
+        ],
+        "audience": "希望本地化、可视化管理并调试Claude Code多Agent协作，提升开发效率的AI Agent开发者或研究者。",
+        "quickStart": {
+          "prerequisites": "已安装Claude CLI并可正常使用",
+          "steps": [
+            "克隆项目到本地",
+            "运行 `npm install` 安装依赖",
+            "运行 `npm start` 启动桌面应用"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "AutoGen (微软)",
+            "method": "Python库，通过代码定义多Agent协作流程，提供编程接口。",
+            "models": "支持多种LLM（需配置API），灵活性高。",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "CrewAI",
+            "method": "Python库，专注于任务驱动的Agent团队协作与编排，提供编程接口。",
+            "models": "支持多种LLM（OpenAI, Anthropic等）。",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "独特的《办公室》主题，将Agent可视化为桌面动画角色，交互直观，上手门槛低（桌面应用）。兼具技术深度（模拟真实终端、高速内存层），娱乐性与实用性并存。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期阶段（5个Issue开启，0个关闭），社区活跃度有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-06T05:34:11.563Z"
+    },
+    {
+      "owner": "ConiferKit",
+      "repo": "sage",
+      "fullName": "ConiferKit/sage",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-01T23:51:01Z",
+      "url": "https://github.com/ConiferKit/sage",
+      "analysis": {
+        "positioning": "本地AI操作系统，提供高性能、高安全、一体化的私有AI工作环境。",
+        "useCases": [
+          "你追求极致本地AI性能和隐私 → 它用Rust自研引擎，确保所有数据不离机。",
+          "你厌倦复杂AI部署和配置 → 它提供一键安装，无Docker、无服务器、无配置困扰。",
+          "你希望AI能更安全地与系统交互 → 它在内核级沙箱运行AI Agent，精确控制权限。",
+          "你不仅需要AI聊天，还需AI辅助开发 → 它内置编辑器、终端、文件查看器等，打造AI工作站。"
+        ],
+        "audience": "重视数据隐私、追求本地化高性能AI、寻求一体化开发体验的个人开发者和技术用户。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "根据操作系统下载对应安装包（.dmg/.exe/.AppImage）。",
+            "运行安装包进行安装。"
+          ],
+          "note": "macOS首次打开需右键-打开，或运行 `xattr -dr com.apple.quarantine /Applications/Sage.app`。Windows若遇SmartScreen提示，点击“更多信息 -> 仍要运行”。Linux需设置AppImage为可执行权限（`chmod +x`）。"
+        },
+        "competitors": [
+          {
+            "name": "LM Studio",
+            "method": "桌面应用（GUI）",
+            "models": "支持多种常见开源LLM模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "Ollama",
+            "method": "命令行/API",
+            "models": "支持多种常见开源LLM模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "目前可免费下载使用，核心技术（推理引擎和Agent运行时）为专有编译二进制。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目强调自研Rust引擎、内核级沙箱、一体化生态而非简单UI封装，明确的隐私承诺和极简主义安装体验，展现出对本地AI技术栈的深刻理解和独特工程愿景，非普通开源项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，项目明确表示此仓库仅用于分发App和发布说明，不接受源代码贡献。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-06T05:34:29.874Z"
+    },
+    {
+      "owner": "jeff141",
+      "repo": "meatshell",
+      "fullName": "jeff141/meatshell",
+      "description": "一个轻量级、低内存占用的 SSH / 终端客户端（A lightweight, low-memory SSH / terminal client）",
+      "language": "Rust",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-04T07:13:39Z",
+      "url": "https://github.com/jeff141/meatshell",
+      "analysis": {
+        "positioning": "一个轻量低内存、FinalShell风格的Rust SSH/终端客户端。",
+        "useCases": [
+          "你习惯FinalShell的会话管理与侧边监控，但苦于其高内存占用 → 它帮你用Rust实现核心功能，内存从400MB+降至几十MB。",
+          "你需要在多个远程服务器间频繁切换，并管理文件 → 它帮你提供多标签页、会话管理和SFTP文件浏览与传输。",
+          "你追求高性能、低资源消耗的SSH/终端工具 → 它帮你提供原生级别的速度和内存表现，且支持Windows/Linux/macOS。",
+          "你需要在连接服务器时快速查看本地或远端系统资源 → 它帮你实时监控本地资源，并规划实现远端资源监控。"
+        ],
+        "audience": "追求高性能、低内存占用、FinalShell风格体验的开发者、运维工程师或高级用户。",
+        "quickStart": {
+          "prerequisites": "Linux需glibc ≥ 2.35 (如Ubuntu 22.04+/Debian 12+)，macOS需手动处理Gatekeeper拦截。",
+          "steps": [
+            "访问GitHub Releases页面，下载对应操作系统的二进制压缩包。",
+            "Windows解压后双击 `meatshell.exe`；Linux解压后运行 `./meatshell`；macOS解压后先执行 `xattr -dr com.apple.quarantine meatshell` 再运行 `./meatshell`。"
+          ],
+          "note": "Linux用户可运行 `install-linux.sh` 脚本添加应用图标和启动器入口。首次启动后，点击右上角 \"＋ 新建会话\" 添加服务器。"
+        },
+        "competitors": [
+          {
+            "name": "FinalShell",
+            "method": "GUI客户端",
+            "models": "跨平台 (Java)",
+            "pricing": "基础免费，部分高级功能付费"
+          },
+          {
+            "name": "MobaXterm",
+            "method": "GUI客户端",
+            "models": "Windows平台，功能丰富",
+            "pricing": "基础免费，专业版付费"
+          },
+          {
+            "name": "Termius",
+            "method": "GUI客户端",
+            "models": "跨平台 (桌面/移动)，云同步",
+            "pricing": "基础免费，云同步及高级功能付费"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目采用Rust + Slint等现代高性能技术栈，目标明确（解决FinalShell内存痛点），有清晰的路线图和精美截图，体现了追求极致性能和用户体验的Vibe Coding精神。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，Issue 关闭数多于开启数，显示维护者积极响应和解决问题。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-06T05:34:47.965Z"
+    },
+    {
+      "owner": "CWS6206",
+      "repo": "ai-coding-starter-kit",
+      "fullName": "CWS6206/ai-coding-starter-kit",
+      "description": "Kuratierte Agent Skills, Checklisten, Templates und Leitfäden für Schweizer Entwicklungsteams – direkt aus meinen Blog-Artikeln destilliert.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-06-05T08:46:35Z",
+      "url": "https://github.com/CWS6206/ai-coding-starter-kit",
+      "analysis": {
+        "positioning": "AI Agent技能与工作流瑞士团队启动套件。",
+        "useCases": [
+          "你刚开始使用AI Agent编程 → 它帮你快速、安全地集成精选Agent技能和模板。",
+          "你希望规范AI辅助开发流程 → 它提供安全检查清单和最佳实践指南。",
+          "你担心AI Agent引入安全风险 → 它提供安全审查流程，助你规避风险。"
+        ],
+        "audience": "寻求安全、规范地将AI Agent集成到开发工作流的瑞士开发团队。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code、Codex、Cursor或Gemini CLI等AI编程环境。",
+          "steps": [
+            "从技能列表（如skills/）选择Agent Skill。",
+            "审查技能的来源、许可和维护者信息。",
+            "参照SECURITY.md进行安全检查。",
+            "先在测试项目或隔离环境安装并验证。",
+            "确认行为、权限和网络访问安全后，方可用于生产环境。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动筛选和集成AI Agent技能",
+            "method": "自行搜索、评估、部署Agent技能",
+            "models": "针对各种AI模型皆可",
+            "pricing": "免费（但耗费时间和精力）"
+          }
+        ],
+        "pricing": "免费（GPL-3.0开源许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "它将AI Agent开发所需的技能、模板、检查清单一站式打包，并强调安全受控的部署流程，显著降低了上手门槛和潜在风险，让开发者能更安心、顺畅地拥抱AI编程，提升开发体验。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度低，只有一个未关闭的Issue，社区互动不活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-06T05:35:04.097Z"
+    },
+    {
+      "owner": "ni5arga",
+      "repo": "deanonymizer",
+      "fullName": "ni5arga/deanonymizer",
+      "description": "Deanonymize anyone based on their public commenting or posting history & pattern.",
+      "language": "TypeScript",
+      "topics": [
+        "cli",
+        "deanonymization",
+        "hackernews",
+        "osint",
+        "osint-tool",
+        "reddit",
+        "typescript"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-02T18:52:29Z",
+      "url": "https://github.com/ni5arga/deanonymizer",
+      "analysis": {
+        "positioning": "基于公开信息模式识别，评估个人身份去匿名化风险的OSINT工具。",
+        "useCases": [
+          "你关注个人隐私安全 → 它帮你分析跨平台公共行为，生成身份风险报告和缓解建议。",
+          "你想知道自己在网上泄露了多少隐私 → 它帮你聚合公开言论，评估被识别风险。",
+          "你想降低线上身份可归因性 → 它帮你识别低熵披露点，提供具体缓解措施。"
+        ],
+        "audience": "关注网络隐私和安全的用户，特别是希望评估和降低线上身份暴露风险的个人、安全研究员或红队人员。",
+        "quickStart": {
+          "prerequisites": "Node.js环境，以及Anthropic或OpenAI等LLM服务的API Key。",
+          "steps": [
+            "运行 `npm install` 安装依赖",
+            "设置 `ANTHROPIC_API_KEY` 或 `OPENAI_API_KEY` 环境变量"
+          ],
+          "note": "分析阶段默认使用Anthropic（若API Key存在），也可通过设置 `OPENAI_BASE_URL` 使用其他OpenAI兼容的LLM端点。"
+        },
+        "competitors": [],
+        "pricing": "免费（工具本身），但核心分析功能依赖付费的第三方LLM服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，有研究基础支撑。文档详尽，架构清晰，安装配置简单。利用LLM提升分析能力，体现了技术前沿性。Issue 处理及时，活跃度良好。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃，Issue 开闭比平衡（4/4），显示项目维护者响应及时。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-06T05:35:17.698Z"
+    },
+    {
+      "owner": "Yuan1z0825",
+      "repo": "nature-skills",
+      "fullName": "Yuan1z0825/nature-skills",
+      "description": "符合nature论文学术表达和科研绘图的Skill",
+      "language": "Python",
+      "topics": [
+        "codex-skills",
+        "nature",
+        "nature-skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-24T03:11:46Z",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "analysis": {
+        "positioning": "医疗AI科研表达与绘图技能及合作平台。",
+        "useCases": [
+          "你进行医疗AI学术研究 → 它提供符合Nature标准的学术表达与科研绘图指导。",
+          "你寻求医疗AI前沿实习机会 → 它提供课题组招募信息及申请渠道。",
+          "你寻求医疗AI创业或投资合作 → 它提供与项目发起人交流对接的途径。"
+        ],
+        "audience": "医疗AI领域的研究生、博士生、学者、创业者及投资人，寻求学术提升、职业发展或产业合作。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "查阅项目README中的个人介绍和招募信息",
+            "根据需求添加发起人微信或投递简历",
+            "探索`skills/nature-*`目录中的具体技能指导"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，但作为“技能库”的核心内容在README节选中未充分展示具体的使用方式和价值，更多侧重个人品牌和团队招募。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率高（11/13），显示维护者对用户反馈有较好的响应。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-06T05:36:31.446Z"
+    },
+    {
+      "owner": "JCodesMore",
+      "repo": "ai-website-cloner-template",
+      "fullName": "JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "automation",
+        "boilerplate",
+        "claude",
+        "claude-code",
+        "clone",
+        "developer-tools",
+        "nextjs",
+        "react",
+        "reverse-engineering",
+        "shadcn-ui",
+        "skills",
+        "tailwindcss",
+        "template",
+        "typescript",
+        "web-scraping",
+        "website-clone"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-03-13T11:14:39Z",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "analysis": {
+        "positioning": "AI驱动，一键克隆任意网站为现代Next.js代码。",
+        "useCases": [
+          "你想快速复刻现有网站界面 → 它帮你用AI生成整洁的Next.js/React代码。",
+          "你想基于某网站设计快速启动新项目 → 它帮你自动提取设计元素和组件规范。",
+          "你想学习或逆向工程优秀网站结构 → 它帮你分解网站，提供可复用的代码库。"
+        ],
+        "audience": "追求效率的前端开发者、设计师，希望利用AI快速构建或复刻网站原型。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从该模板创建自己的GitHub仓库。",
+            "克隆新仓库到本地并进入目录。",
+            "安装项目依赖：`npm install`。",
+            "启动AI代理（推荐Claude Code）：`claude --chrome`。",
+            "运行克隆技能：`/clone-website <目标URL>`。"
+          ],
+          "note": "推荐使用Claude Code (Opus 4.7)，但也支持其他AI代理。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目），但使用AI代理服务可能产生费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "利用AI代理实现网站一键克隆与逆向工程，极大简化开发流程，富有未来感和效率提升的魔法感。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，拥有超过1.6万星，问题解决效率良好（9开7闭）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-06T05:36:44.310Z"
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "date": "2026-06-06",
+  "startedAt": "2026-06-06T05:32:07.220Z",
+  "finishedAt": "2026-06-06T05:37:38.048Z",
+  "durationSeconds": 331,
+  "success": true,
+  "stats": {
+    "fetched": 103,
+    "newProjects": 14,
+    "skipped": 89,
+    "geminiCalls": 18,
+    "statsUpdated": 103
+  },
+  "errors": [
+    {
+      "time": "2026-06-06T05:35:22.676Z",
+      "level": "warn",
+      "project": "zzzhhh1/free-nodes",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-06T05:35:26.567Z",
+      "level": "warn",
+      "project": "eversinc33/MogVMP",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-06T05:35:30.306Z",
+      "level": "warn",
+      "project": "torvalds/ScrollWheel",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-06T05:35:48.837Z",
+      "level": "warn",
+      "project": "wy51ai/edulab",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
