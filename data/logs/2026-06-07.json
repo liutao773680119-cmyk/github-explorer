@@ -1,0 +1,98 @@
+{
+  "version": "1",
+  "date": "2026-06-07",
+  "startedAt": "2026-06-07T06:04:03.155Z",
+  "finishedAt": "2026-06-07T06:07:48.270Z",
+  "durationSeconds": 225,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 7,
+    "skipped": 99,
+    "geminiCalls": 16,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-06-07T06:04:05.808Z",
+      "level": "warn",
+      "project": "JimLiu/baoyu-design",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:04:39.931Z",
+      "level": "warn",
+      "project": "zenhosta/9drive",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:05:30.648Z",
+      "level": "warn",
+      "project": "torvalds/ScrollWheel",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:05:42.615Z",
+      "level": "warn",
+      "project": "best-spicy-ai/ai-naughty-tools",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:05:46.151Z",
+      "level": "warn",
+      "project": "zarazhangrui/beautiful-feishu-whiteboard",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:06:15.718Z",
+      "level": "warn",
+      "project": "openai/role-specific-plugins",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:06:36.814Z",
+      "level": "warn",
+      "project": "zaydmulani09/mnemo",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:06:40.750Z",
+      "level": "warn",
+      "project": "arinltte/latte",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-07T06:06:45.407Z",
+      "level": "warn",
+      "project": "rednote-hilab/dots.tts",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

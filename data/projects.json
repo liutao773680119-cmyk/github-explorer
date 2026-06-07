@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-06T05:36:44.330Z",
+  "updatedAt": "2026-06-07T06:06:31.436Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -45837,6 +45837,292 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-06T05:36:44.310Z"
+    },
+    {
+      "owner": "CMC-27",
+      "repo": "Vibe-App-Wiki",
+      "fullName": "CMC-27/Vibe-App-Wiki",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-07T01:11:35Z",
+      "url": "https://github.com/CMC-27/Vibe-App-Wiki",
+      "analysis": {
+        "positioning": "AI Agent驱动的标准化应用开发与文档管理脚手架",
+        "useCases": [
+          "你使用AI Agent开发项目 → 它提供规范和指南，确保AI Agent遵循项目规则。",
+          "你启动新应用 → 它提供结构化文档，帮你系统化规划架构、功能和设计。",
+          "你开发前端UI → 它提供设计规则和CSS令牌，确保界面风格一致、高质量。"
+        ],
+        "audience": "适用于需要通过AI Agent协作开发，并重视项目结构、规划及文档统一管理的开发者和团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "运行 `create-app-vision-north-star` skill 或编辑 `Docs/core/01-vision-north-star.md` 以定义应用核心目标。",
+            "在 `/Docs` 目录中构建应用的Schema、路由和功能，规划架构。",
+            "引导AI Agent阅读 `AGENT.md` 文件，使其遵守项目规范、编码和验证流程。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心是为AI Agent驱动的开发提供标准化脚手架、规划指南和文档管理，直接且深入地支持AI在代码生成和项目管理中的应用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前无Issue或互动记录。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-07T06:04:23.943Z"
+    },
+    {
+      "owner": "nevertoday",
+      "repo": "zhongguo-traditional-colors",
+      "fullName": "nevertoday/zhongguo-traditional-colors",
+      "description": "中华传统色演示、色卡浏览与颜色知识科普开源项目",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-03T03:26:16Z",
+      "url": "https://github.com/nevertoday/zhongguo-traditional-colors",
+      "analysis": {
+        "positioning": "中华传统色设计素材库，设计师、内容创作者必备。",
+        "useCases": [
+          "你做设计、写内容、做课件或搭建网页主题 → 它帮你提供稳妥、好看、能直接使用的中国色参考",
+          "你需要快速查找或制作中国色参考图 → 它提供742张高清PNG色卡，包含色名、HEX、RGB、CMYK、配色推荐和气质关键词",
+          "你需要搭建自己的传统色素材库 → 它提供ZIP包一次性下载全部高清图片，文件名与清单对应"
+        ],
+        "audience": "设计师、内容创作者、教育工作者、前端开发者等，任何需要高质量中华传统色参考和素材的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在线浏览色卡：访问项目主页提供的在线浏览链接",
+            "下载全部高清图片：直接下载Release中的ZIP文件作为素材库"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "中国色 (zhongguose.com)",
+            "method": "在线浏览、查询、复制代码",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目代码以静态页面和图片资源为主，易于理解和使用。其核心价值在于精心整理和提供742种高质量中华传统色卡及相关数据，对开发者和设计师来说是便捷的素材库，但本身并非复杂的技术实现项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 开闭统计均为0，这可能与项目作为静态资源和展示平台，维护需求相对不高有关。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-07T06:04:56.155Z"
+    },
+    {
+      "owner": "wy51ai",
+      "repo": "edulab",
+      "fullName": "wy51ai/edulab",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-04T07:02:45Z",
+      "url": "https://github.com/wy51ai/edulab",
+      "analysis": {
+        "positioning": "将学术问题转为交互式学习网页的教育技能集。",
+        "useCases": [
+          "学生/教师想直观理解立体几何 → 它帮你生成一个可交互的3D教学页面。",
+          "你有一个立体几何文字题或图片 → 它帮你自动解答并生成带步骤和可视化的网页。",
+          "你需要随机生成立体几何练习题 → 它帮你生成题目并附带详细解答和3D模型。"
+        ],
+        "audience": "适合需要直观理解和交互式学习立体几何的学生、老师及开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js (用于npx)",
+          "steps": [
+            "`npx skills add wy51ai/edulab`",
+            "`npx skills update` (更新至最新版本)"
+          ],
+          "note": "也可作为Claude Code插件安装 (`/plugin marketplace add wy51ai/edulab` / `/plugin install edulab`)。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供立体几何交互式可视化学习方案，技术栈明确（sympy/Three.js），使用场景具体，作为AI Agent插件扩展性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1/关闭0，社区互动不活跃，但项目有261 Star。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-07T06:05:10.744Z"
+    },
+    {
+      "owner": "razr001",
+      "repo": "align-dev",
+      "fullName": "razr001/align-dev",
+      "description": "AlignDev helps AI-assisted frontend teams generate shared coding standards and SKILL.md so Claude Code, Codex, Cursor, Copilot, and other agents write consistently.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "copilot",
+        "cursor",
+        "fronted",
+        "nextjs",
+        "skills"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-03T14:19:33Z",
+      "url": "https://github.com/razr001/align-dev",
+      "analysis": {
+        "positioning": "AI时代前端编码规范生成器，统一AI编程助手输出风格。",
+        "useCases": [
+          "你使用多个AI编程助手（如Claude Code, Copilot等） → 它帮你统一各AI产出代码风格，避免项目混乱。",
+          "你需要快速制定前端团队编码规范 → 它提供7步可视化向导，3分钟生成完整Markdown规范文档。",
+          "你希望AI编程助手理解团队编码偏好 → 它生成可被AI直接读取的`SKILL.md`，指导AI按规范编写。"
+        ],
+        "audience": "依赖AI辅助开发的前端团队，尤其是对代码一致性和规范化有高要求的团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 AlignDev 网站（razr001/align-dev）。",
+            "通过7步可视化向导，选择核心技术栈、UI风格、目录结构等团队规范。",
+            "下载或复制生成的Markdown标准文档和`SKILL.md`文件。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "统一AI编程助手的输出风格，避免代码“漂移”和不一致性，极大提升代码库的整洁度和团队协作的顺畅度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 和 PR 均为 0，项目可能处于早期阶段或未开放社区互动。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-07T06:05:24.031Z"
+    },
+    {
+      "owner": "zonghaoyuan",
+      "repo": "infiplot",
+      "fullName": "zonghaoyuan/infiplot",
+      "description": "InfiPlot is the world's first interactive plot game that AI generates all text and images in real-time. InfiPlot是全球首个由 AI 实时生成全部图文内容的交互式剧情游戏",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-06-02T02:49:30Z",
+      "url": "https://github.com/zonghaoyuan/infiplot",
+      "analysis": {
+        "positioning": "AI实时生成全部图文的互动剧情游戏",
+        "useCases": [
+          "你想体验魔法世界 → 它帮你实时生成哈利波特式剧情",
+          "你想成为校园万人迷 → 它帮你生成众星捧月的浪漫故事",
+          "你想弥补人生遗憾 → 它帮你重返过去做不同选择"
+        ],
+        "audience": "所有渴望个性化、实时生成互动剧情体验的玩家",
+        "quickStart": {
+          "prerequisites": "AI服务API Key（文本、图像、视觉、TTS）",
+          "steps": [
+            "点击Vercel或Cloudflare一键部署按钮",
+            "配置各项AI服务API Key"
+          ],
+          "note": "Cloudflare部署需付费Worker计划，个人推荐Vercel部署"
+        },
+        "competitors": [],
+        "pricing": "免费在线试玩（需自备AI服务API费用）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度依赖AI实时生成图文剧情，实现个性化游戏体验，创新性强。",
+        "isVibeCoding": true,
+        "communityActivity": "初期活跃，Issue互动较少（1开0闭），但有200+ Star关注。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-07T06:05:59.403Z"
+    },
+    {
+      "owner": "Albert-Weasker",
+      "repo": "niubi_guard",
+      "fullName": "Albert-Weasker/niubi_guard",
+      "description": "Open-source GitHub repository abuse detection and response system.",
+      "language": "TypeScript",
+      "topics": [
+        "abuse-detection",
+        "cli",
+        "github",
+        "moderation",
+        "nextjs",
+        "open-source",
+        "security",
+        "spam-detection",
+        "typescript"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-03T14:32:02Z",
+      "url": "https://github.com/Albert-Weasker/niubi_guard",
+      "analysis": {
+        "positioning": "GitHub仓库滥用检测与响应系统，维护者防骚扰利器。",
+        "useCases": [
+          "你是GitHub仓库维护者，面对垃圾信息、骚扰评论或恶意攻击 → 它帮你自动检测并响应。",
+          "你希望定制化防滥用策略（如黑白名单、AI模型） → 它让你细粒度控制检测信号、模型和响应动作。",
+          "你担心误操作 → 它提供干运行（Dry-run）模式，确保强力操作前可预览。"
+        ],
+        "audience": "GitHub仓库维护者，特别是面临垃圾信息、骚扰、恶意攻击困扰的项目负责人。",
+        "quickStart": {
+          "prerequisites": "npm",
+          "steps": [
+            "npm install -g niubi-guard",
+            "niubi-guard init"
+          ],
+          "note": "也可选择使用免费托管版 niubistar.com/guard，无需配置；或通过Docker、源码自建并运行Web UI。"
+        },
+        "competitors": [],
+        "pricing": "免费（提供开源自建和免费托管服务）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名'Niubi Guard'（牛逼卫士）带有中文俚语色彩，显得自信、直接且略带玩味，不走寻常路。",
+        "isVibeCoding": true,
+        "communityActivity": "处于早期阶段，Issue 开启多于关闭，活跃度有待观察。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-07T06:06:11.967Z"
+    },
+    {
+      "owner": "Soul-AILab",
+      "repo": "SoulX-Transcriber",
+      "fullName": "Soul-AILab/SoulX-Transcriber",
+      "description": "An end-to-end framework for multi-speaker transcription that jointly models who spoke, when, and what.",
+      "language": "Python",
+      "topics": [
+        "asr",
+        "llm",
+        "sd",
+        "sdr",
+        "speech-recognition"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-02T05:08:08Z",
+      "url": "https://github.com/Soul-AILab/SoulX-Transcriber",
+      "analysis": {
+        "positioning": "一体化多说话人语音转写框架，精准识别“谁何时说了什么”。",
+        "useCases": [
+          "你有多说话人会议录音 → 它帮你自动生成带说话人标签和时间戳的会议纪要。",
+          "你需要整理访谈或播客内容 → 它帮你高效转写多说话人对话并区分发言者。",
+          "你开发智能会议系统或语音助手 → 它提供端到端的多说话人语音识别（ASR）能力。"
+        ],
+        "audience": "开发者、研究员及企业用户，处理复杂多说话人对话场景的语音转写需求。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "git clone https://github.com/Soul-AILab/SoulX-Transcriber.git",
+            "cd SoulX-Transcriber && pip install -e ."
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，基于Apache-2.0开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，README专业且包含性能对比和Demo，技术方向前沿（端到端多说话人ASR）。Star数尚可，但社区互动有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启少（2个），无已关闭Issue，说明项目可能较新或互动不多。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-07T06:06:31.421Z"
     }
   ]
 }
