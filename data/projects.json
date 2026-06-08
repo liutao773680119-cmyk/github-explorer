@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-07T06:06:31.436Z",
+  "updatedAt": "2026-06-08T06:24:13.501Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -46123,6 +46123,633 @@
         "category": "其他"
       },
       "analyzedAt": "2026-06-07T06:06:31.421Z"
+    },
+    {
+      "owner": "supperzl",
+      "repo": "ita",
+      "fullName": "supperzl/ita",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-08T05:38:40Z",
+      "url": "https://github.com/supperzl/ita",
+      "analysis": {
+        "positioning": "利用OpenAI SSO漏洞，自动化批量开通团队AI账号。",
+        "useCases": [
+          "你需要为团队批量开通ChatGPT/Codex账号 → 它利用IDP API自动生成并授权，省去手动操作。",
+          "你想高效管理团队AI账号的refresh token → 它自动化获取token并推送至Sub2API统一管理。",
+          "你遇到OpenAI SSO Bug导致开号困难 → 它提供纯HTTP协议的自动化方案，解决开号痛点。"
+        ],
+        "audience": "需要为团队批量开通并管理OpenAI（Codex/ChatGPT）账号的管理员和技术用户。",
+        "quickStart": {
+          "prerequisites": "Python 3环境；联系作者购买IDP API点数。",
+          "steps": [
+            "安装依赖：`python3 -m pip install 'curl_cffi>=0.7'`",
+            "复制并配置环境变量：`cp .env.example .env`，填入IDP和Sub2API信息。",
+            "运行批量开号：`python3 scripts/run_batch_tui.py`（交互式）或 `python3 scripts/run_batch_tui.py --count 10 --threads 3 --yes`（非交互式）。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费，需联系作者购买IDP API点数。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，功能完整（批量TUI、重试、纯HTTP），文档详细，专注解决特定场景的AI账号自动化开通与管理问题。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无GitHub Issue互动记录。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-08T06:20:14.517Z"
+    },
+    {
+      "owner": "StalkerLightning",
+      "repo": "roblox-voice-fix-2026",
+      "fullName": "StalkerLightning/roblox-voice-fix-2026",
+      "description": "GoodbyeDPI · Zapret · DPI bypass 2026 · ⬇ Releases · без Python · один exe · roblox voice fix 2026 · 3-in-1 bypass 2026 · Discord · YouTube · TG · ⬇ Скачать exe · roblox voice fix 2026 · #automation #bypass #chatgpt-fix #discord-fix #dpi-bypass #goodbyedpi #python #russia #telegram-fix #tool #youtube-fix #zapret #telegram #2026 #discord #youtube #d",
+      "language": "HTML",
+      "topics": [
+        "2026",
+        "automation",
+        "bypass",
+        "chatgpt-fix",
+        "discord",
+        "discord-fix",
+        "dpi",
+        "dpi-bypass",
+        "fix",
+        "gaming",
+        "goodbyedpi",
+        "python",
+        "roblox",
+        "russia",
+        "telegram",
+        "telegram-fix",
+        "tool",
+        "youtube",
+        "youtube-fix",
+        "zapret"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-08T00:04:44Z",
+      "url": "https://github.com/StalkerLightning/roblox-voice-fix-2026",
+      "analysis": {
+        "positioning": "一键解决俄罗斯等地区YouTube/Discord/Telegram访问限制的DPI绕过工具。",
+        "useCases": [
+          "你所在的区域YouTube视频加载慢、画质受限 → 它帮你流畅观看、恢复预览图和高画质。",
+          "你无法正常使用Discord语音通话或加载媒体文件 → 它帮你修复语音、媒体和CDN连接。",
+          "你的Telegram连接困难或文件下载缓慢 → 它帮你稳定连接并加速文件下载。"
+        ],
+        "audience": "面向Windows 10/11用户，尤其是俄罗斯等DPI审查严格地区，需一次性解决YouTube、Discord、Telegram等多个服务访问障碍的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11",
+          "steps": [
+            "访问项目Releases页面，下载最新`roblox-voice-fix-2026.zip`压缩包。",
+            "解压下载的文件。",
+            "以管理员身份运行压缩包中的`.exe`文件。",
+            "重启浏览器、Discord和Telegram应用。"
+          ],
+          "note": "与VPN通常不兼容，使用时请关闭VPN。若发生故障，可尝试运行`ipconfig /flushdns`命令。"
+        },
+        "competitors": [
+          {
+            "name": "单独的YouTube DPI绕过工具",
+            "method": "运行针对单个服务的特定工具",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "单独的Discord DPI绕过工具",
+            "method": "运行针对单个服务的特定工具",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，直接解决了特定地区用户的网络访问痛点。文档清晰，提供打包好的exe，易于上手和使用。但其核心技术GoodbyeDPI/Zapret并非原创，项目主要在于集成和预配置，创新性一般。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前无公开Issue记录。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-08T06:20:29.273Z"
+    },
+    {
+      "owner": "canwhite",
+      "repo": "MicroRAG",
+      "fullName": "canwhite/MicroRAG",
+      "description": "The minimal implementation of rag",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-08T01:45:46Z",
+      "url": "https://github.com/canwhite/MicroRAG",
+      "analysis": {
+        "positioning": "纯Python从零实现的最小RAG学习/演示系统",
+        "useCases": [
+          "你想理解RAG工作原理 → 它提供一个极简的纯Python实现供你剖析核心逻辑",
+          "你厌倦了复杂ML库的RAG教程 → 它用标准库展示RAG核心组件的自动微分过程",
+          "你想快速搭建一个玩具RAG系统 → 它提供开箱即用的训练+推理完整流程，验证概念"
+        ],
+        "audience": "机器学习初学者、教育者或对RAG底层原理感兴趣的开发者，用于学习和概念验证。",
+        "quickStart": {
+          "prerequisites": "需要安装uv工具 (pip install uv)",
+          "steps": [
+            "安装 uv (pip install uv)",
+            "运行 `uv run main.py`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python库，提供模块化RAG组件和编排能力",
+            "models": "支持多种LLM和嵌入模型",
+            "pricing": "免费（框架本身）"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "Python库，专注于RAG数据管理、索引和查询",
+            "models": "支持多种LLM和嵌入模型",
+            "pricing": "免费（框架本身）"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "纯Python标准库实现，无外部ML依赖，单命令运行，开箱即用，极简RAG核心流程一目了然，非常适合快速理解和实验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活动极低，目前无任何开启或关闭的 Issue。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-08T06:20:43.443Z"
+    },
+    {
+      "owner": "zenhosta",
+      "repo": "9drive",
+      "fullName": "zenhosta/9drive",
+      "description": "9Drive is a storage gateway web app for connecting multiple Google Drive accounts into one virtual storage dashboard. Users can connect Google Drive accounts, track quota, upload files, organize files with virtual folders, preview files, and let the backend route uploads to the Drive account with enough free space.",
+      "language": "TypeScript",
+      "topics": [
+        "drive",
+        "gateway",
+        "google",
+        "storage"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-04T09:22:03Z",
+      "url": "https://github.com/zenhosta/9drive",
+      "analysis": {
+        "positioning": "Google Drive 多账号聚合，智能存储与统一管理网关。",
+        "useCases": [
+          "你有多余的 Google Drive 存储空间 → 它帮你将多个账号聚合为一体，统一上传和管理文件。",
+          "你上传文件时不想手动挑选剩余空间 → 它自动识别并路由文件到空间充足的 Google Drive 账号。",
+          "你需要在 Google Drive 中同步 MySQL 数据库 → 它提供手动同步功能，实现数据库备份与恢复。"
+        ],
+        "audience": "拥有多个 Google Drive 账号，希望集中管理、智能分发文件，并实时追踪存储配额的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+，npm，本地 MySQL 数据库，Google Cloud 项目及 OAuth 凭证。",
+          "steps": [
+            "克隆项目，分别进入 `backend` 和 `frontend` 目录安装依赖。",
+            "创建 `9drive` 数据库，并配置 `backend/.env` 中的数据库、JWT 和 Google OAuth 信息。",
+            "运行 `cd backend && npm run prisma:migrate:dev` 后，分别在前后端目录运行 `npm run dev` 启动服务。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (项目开源，可自行部署，提供在线预览服务)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能清晰，技术栈现代化，提供详细的 README 和在线预览。但缺少开源许可，且 Issue 活跃度较低，可能存在维护风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 数量极少，无关闭 Issue，表明社区活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-08T06:21:05.389Z"
+    },
+    {
+      "owner": "JimLiu",
+      "repo": "baoyu-design",
+      "fullName": "JimLiu/baoyu-design",
+      "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "cursor",
+        "design",
+        "prototyping",
+        "ui-design"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-07T01:16:18Z",
+      "url": "https://github.com/JimLiu/baoyu-design",
+      "analysis": {
+        "positioning": "本地Agent驱动的AI设计工具，直接输出HTML。",
+        "useCases": [
+          "你依赖claude.ai/design网站进行UI设计 → 它让你在本地编辑器里获得相同能力，无需离开开发环境。",
+          "你需要在设计稿上反复修改细节 → 它支持通过Agent的内置预览和元素标注，直接在HTML上指点修改，大幅提升迭代效率。",
+          "你希望设计产物完全可控、可版本管理 → 它将UI/原型/线框图输出为自包含HTML，可直接纳入代码仓库。"
+        ],
+        "audience": "适合需要高效生成UI设计、原型和线框图，并希望在本地开发环境深度迭代的前端工程师、产品设计师和产品经理。",
+        "quickStart": {
+          "prerequisites": "本地Agent（如Cursor, Claude Code, Claude Desktop），推荐搭配Claude Opus 4.8模型。",
+          "steps": [
+            "获取 baoyu-design 项目文件。",
+            "将项目作为Agent Skill配置或导入到你的本地Agent中。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "claude.ai/design",
+            "method": "在线网页端交互",
+            "models": "Claude (具体版本未知)",
+            "pricing": "未明确，可能部分免费/订阅制"
+          }
+        ],
+        "pricing": "项目代码免费，但运行依赖付费的AI模型（如Claude Opus 4.8）及支持Agent Skill的本地Agent工具。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极大地提升了AI辅助设计的沉浸感和迭代速度。无需离开编辑器，通过Agent在本地预览HTML，并直接通过指点修改，实现了代码-设计-预览的无缝循环。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues未开启，目前没有社区活跃度数据。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-08T06:21:21.726Z"
+    },
+    {
+      "owner": "mysk-research",
+      "repo": "loupe",
+      "fullName": "mysk-research/loupe",
+      "description": "A privacy-focused iOS app that raises awareness about what native apps can see",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-04T00:45:57Z",
+      "url": "https://github.com/mysk-research/loupe",
+      "analysis": {
+        "positioning": "iOS隐私检测工具，揭示应用可获取的设备指纹。",
+        "useCases": [
+          "你担心隐私泄露 → 它帮你直观展示iOS应用能获取的设备指纹数据。",
+          "你想了解设备指纹原理 → 它帮你亲手体验各种可被追踪的信号源。",
+          "你开发iOS应用 → 它帮你评估应用在无意中收集了哪些用户数据。"
+        ],
+        "audience": "关注iOS设备隐私的用户、隐私研究者及希望了解应用数据获取边界的开发者。",
+        "quickStart": {
+          "prerequisites": "Xcode 26 或更高版本",
+          "steps": [
+            "打开 `code/Loupe.xcodeproj`。",
+            "复制 `code/Config/Signing.local.xcconfig.example` 到 `code/Config/Signing.local.xcconfig` 并填写你自己的 `DEVELOPMENT_TEAM` 及 Bundle 标识符。",
+            "在设备或模拟器上构建并运行。"
+          ],
+          "note": "macOS版本大部分功能已完成，但仍需完善。"
+        },
+        "competitors": [],
+        "pricing": "免费且开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确声明几乎完全由AI编码工具构建，体现了前沿的AI辅助开发理念。",
+        "isVibeCoding": true,
+        "communityActivity": "开启4个Issue，无关闭，社区活跃度尚处于起步阶段。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-08T06:21:46.558Z"
+    },
+    {
+      "owner": "Parcle-AI",
+      "repo": "parcle-memory",
+      "fullName": "Parcle-AI/parcle-memory",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-06T02:15:35Z",
+      "url": "https://github.com/Parcle-AI/parcle-memory",
+      "analysis": {
+        "positioning": "为AI智能体提供私有、持久的长期记忆服务。",
+        "useCases": [
+          "你希望AI智能体能记住与用户的历史对话和信息 → 它能为每个用户管理独立的、可写入和检索的记忆。",
+          "你需要AI智能体处理多种格式的输入（如聊天记录、PDF、Markdown） → 它能统一摄入并存储这些不同类型的数据。",
+          "你想让AI智能体基于记忆给出准确、带引用的自然语言答案 → 它能通过自然语言提问，返回合成答案并标明出处。"
+        ],
+        "audience": "开发者构建需要记忆能力、上下文感知和知识检索能力的AI智能体应用。",
+        "quickStart": {
+          "prerequisites": "安装 `parcle` Python 库；获取 Parcle API 密钥。",
+          "steps": [
+            "通过 `ingest_dialog` 摄入用户对话记录，或通过 `ingest_file` 摄入文件内容。",
+            "使用 `search` 方法向指定用户的记忆提问，获取带置信度和引用的答案。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费API服务",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码示例清晰简洁，API设计直观易懂，直接展示了核心功能的使用方式，新手友好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示开启0/关闭0，表明项目可能非常新或社区互动尚未活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-08T06:22:03.596Z"
+    },
+    {
+      "owner": "torvalds",
+      "repo": "ScrollWheel",
+      "fullName": "torvalds/ScrollWheel",
+      "description": "Minimalist RP2350 magnetic sensor scroll wheel toy project",
+      "language": "C",
+      "topics": [],
+      "license": "GPL-2.0",
+      "createdAt": "2026-06-02T15:48:56Z",
+      "url": "https://github.com/torvalds/ScrollWheel",
+      "analysis": {
+        "positioning": "基于RP2350的磁性传感器旋钮，实现音量控制或自定义硬件交互。",
+        "useCases": [
+          "你想 DIY 一个物理音量旋钮 → 它提供 RP2350 方案，配合磁性传感器实现精确控制。",
+          "你想给项目增加自定义硬件旋钮 → 它提供 RP2350 基础代码，方便集成磁性传感器和开关。",
+          "你想探索 RP2350 嵌入式开发 → 它提供一个可玩性高的入门级项目，学习传感器和 GPIO 交互。"
+        ],
+        "audience": "寻求 RP2350 方案，为 DIY 项目添加物理旋钮或学习嵌入式硬件交互的开发者。",
+        "quickStart": {
+          "prerequisites": "RP2350开发板 (如Pimoroni Tiny 2350), AS5600磁性角度传感器, 开关, WS2812 RGB LED (可选但代码假定)",
+          "steps": [
+            "准备硬件：RP2350开发板、AS5600传感器、开关及WS2812 LED（可选）。",
+            "根据README调整GPIO配置，编译并烧录固件到RP2350板。"
+          ],
+          "note": "不同RP2350板子的GPIO和LED配置差异大，需根据实际硬件调整代码，不能开箱即用。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目，遵循GPL-2.0许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目自称“toy project”和“early trials”，代码未打磨，且明确指出不能“build and use as-is”，需要大量适配。更像是个人探索或学习性质。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，所有7个Issue均未关闭，无响应迹象。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-08T06:22:18.064Z"
+    },
+    {
+      "owner": "RestrictionGuru",
+      "repo": "Lossless-Scaling-Download-2026",
+      "fullName": "RestrictionGuru/Lossless-Scaling-Download-2026",
+      "description": "⭐️ Lossless Scaling — full lifetime version of the popular upscaling tool. Greatly improves image quality in games and videos using smart algorithms, integer scaling and frame generation. Makes everything look sharper and smoother on Windows 10/11. ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "crimson-desert-lsfg",
+        "frame-generation",
+        "gaming-performance",
+        "lossless-scaling",
+        "lossless-scaling-2026",
+        "lossless-scaling-download",
+        "lossless-scaling-github",
+        "lossless-scaling-isfg",
+        "lossless-scaling-lsfg",
+        "lossless-scaling-pc",
+        "lossless-scaling-reddit",
+        "lossless-scaling-software",
+        "lossless-scaling-steam",
+        "lossless-scaling-v3",
+        "lsfg",
+        "lsfg-ai-upscaling",
+        "lsfg-vk",
+        "smooth-gaming",
+        "upscale-tool"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-07T21:19:53Z",
+      "url": "https://github.com/RestrictionGuru/Lossless-Scaling-Download-2026",
+      "analysis": {
+        "positioning": "Windows游戏/视频画质增强神器，提供无损缩放和帧生成。",
+        "useCases": [
+          "你玩窗口化游戏/看视频 → 它帮你全屏无损放大，画质更清晰。",
+          "你玩游戏帧数不够高 → 它帮你生成帧，画面更流畅。",
+          "你玩的老游戏或显卡不支持帧生成 → 它帮你强制开启，提升视觉体验。"
+        ],
+        "audience": "追求极致游戏画质和流畅度的Windows玩家，尤其是老游戏或中低端显卡用户。",
+        "quickStart": {
+          "prerequisites": "操作系统：Windows 10+，CPU：双核，内存：4 GB，硬盘：500 MB，GPU：兼容DirectX 11。",
+          "steps": [
+            "从Releases下载`Lossless-Scaling-x64-3.2.rar`。",
+            "使用密码`1165`解压文件，然后运行`setup`。"
+          ],
+          "note": "解压失败可尝试关闭杀毒软件，运行时若遇问题请以管理员身份启动。"
+        },
+        "competitors": [
+          {
+            "name": "Lossless Scaling (Steam官方版)",
+            "method": "付费软件，Steam商店购买，功能相同。",
+            "models": "LS1, FSR, NIS, 帧生成。",
+            "pricing": "付费"
+          },
+          {
+            "name": "Magpie",
+            "method": "开源免费工具，提供窗口化应用缩放。",
+            "models": "FSR, Lanczos, Bilinear, Integer Scale。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（此GitHub项目提供，但原版软件在Steam上是付费的）。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "这是一个二进制分发项目，非代码库，本质上是流行付费软件的免费下载版本。缺乏正常的技术项目开发活跃度（无语言、无Issue），但README信息充分，能有效指导用户使用。",
+        "isVibeCoding": true,
+        "communityActivity": "无社区互动，Issue区完全不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-08T06:22:39.791Z"
+    },
+    {
+      "owner": "rednote-hilab",
+      "repo": "dots.tts",
+      "fullName": "rednote-hilab/dots.tts",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-04T09:22:35Z",
+      "url": "https://github.com/rednote-hilab/dots.tts",
+      "analysis": {
+        "positioning": "2B参数全连续端到端TTS系统，SOTA语音合成。",
+        "useCases": [
+          "你需要SOTA高质量文本转语音 → 它提供2B参数连续模型，生成超稳定、表现力强的语音。",
+          "你想进行高相似度语音克隆或情绪表达 → 它实现高相似度语音克隆和丰富情感表达。",
+          "你希望在多语言环境中合成语音 → 它在24种语言基准测试中，平均说话人相似度最高。"
+        ],
+        "audience": "语音合成研究员、AI应用开发者、内容创作者。",
+        "quickStart": {
+          "prerequisites": "Conda 环境，Python 3.10–3.12",
+          "steps": [
+            "创建并激活conda环境",
+            "通过pip从源码安装"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费开源（Apache-2.0许可，提供完整代码）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Apache-2.0开源，提供完整推理、微调代码及预训练模型。支持CLI、Python API和Web Demo，并提供在线Playground和Demo页面，文档详细，上手方便。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数236，Issue开闭比尚可（3开1闭），社区活跃度一般。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-08T06:22:54.090Z"
+    },
+    {
+      "owner": "axisrajachopper",
+      "repo": "AutoCAD-Keygen-2026",
+      "fullName": "axisrajachopper/AutoCAD-Keygen-2026",
+      "description": "⭐️ AutoCAD 2026 is a professional design and drafting software for Windows 10/11 PC that includes setup installer v2026, keygen activation, license key, patch loader mod, pre-activated full version and latest Pro serial build so you can get it working right after installation on x64 desktop. ⭐️",
+      "language": "Unknown",
+      "topics": [
+        "3d-cad-software",
+        "architectural-design-software",
+        "auto-cad",
+        "auto-cad-free",
+        "autocad",
+        "autocad-25",
+        "autocad-addins",
+        "autocad-install",
+        "autocad-program",
+        "autodesk-autocad-full",
+        "cad-software",
+        "latest-release-autocad",
+        "plugin-autocad",
+        "windows-cad"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-07T20:08:46Z",
+      "url": "https://github.com/axisrajachopper/AutoCAD-Keygen-2026",
+      "analysis": {
+        "positioning": "提供AutoCAD 2026安装包及激活工具。",
+        "useCases": [
+          "你缺少AutoCAD 2026许可证 → 它帮你获取并激活软件，实现免费使用。",
+          "你想免费使用AutoCAD 2026进行专业设计和制图 → 它提供完整安装包和破解激活方案。",
+          "你需要快速部署AutoCAD 2026预激活完整版 → 它提供包含安装程序、激活工具和预激活版本。"
+        ],
+        "audience": "希望免费获取并使用AutoCAD 2026进行专业设计、制图的用户，通常用于规避高昂的正版订阅费用。",
+        "quickStart": {
+          "prerequisites": "64位Windows 10/11系统，至少8GB RAM，10GB磁盘空间，2.5 GHz处理器，2GB DirectX 11显卡，.NET 8。",
+          "steps": [
+            "从Releases下载`AutoCAD-Keygen-setup.win.rar`文件。",
+            "使用密码`8881`解压压缩包。",
+            "运行解压后的`setup`文件进行安装和激活。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Autodesk AutoCAD官方版",
+            "method": "官方订阅或购买",
+            "models": "AutoCAD 2D/3D设计和制图",
+            "pricing": "付费"
+          },
+          {
+            "name": "FreeCAD",
+            "method": "开源免费下载安装",
+            "models": "2D草图、3D建模",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（通过非法途径获取正版软件功能）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目提供盗版软件的激活工具（keygen），明确提示可能违反许可条款并带来安全风险，不符合法律法规和正版软件使用规范。",
+        "isVibeCoding": true,
+        "communityActivity": "无活跃社区支持，Issue 统计为零。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-08T06:23:05.345Z"
+    },
+    {
+      "owner": "openai",
+      "repo": "role-specific-plugins",
+      "fullName": "openai/role-specific-plugins",
+      "description": "Role-specific Codex plugin templates",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-02T16:27:24Z",
+      "url": "https://github.com/openai/role-specific-plugins",
+      "analysis": {
+        "positioning": "为OpenAI Codex提供行业角色定制插件模板。",
+        "useCases": [
+          "你准备销售会议 → 它帮你快速生成会议材料、跟进邮件、审查销售线索。",
+          "你需要分析数据 → 它帮你查询、可视化、解释、验证数据集并构建仪表板。",
+          "你进行金融市场分析 → 它帮你生成研报、估值模型、风险回顾和投资备忘录。"
+        ],
+        "audience": "适合需要利用OpenAI Codex，针对销售、数据分析、产品设计、金融等专业领域优化工作流的团队或个人开发者。",
+        "quickStart": {
+          "prerequisites": "需有OpenAI Codex环境及对应连接器（如Salesforce, Databricks等）的有效ID。",
+          "steps": [
+            "选择并获取目标角色插件的模板（如Sales插件）。",
+            "修改插件目录下的`.app.json`文件，替换其中的占位符（如`REPLACE_WITH_SALESFORCE_APP_OR_CONNECTOR_ID`）为实际连接器ID。",
+            "将配置好的插件集成到OpenAI Codex工作区。"
+          ],
+          "note": "所有连接器占位符必须替换为实际可用的ID才能正常使用插件功能。"
+        },
+        "competitors": [],
+        "pricing": "免费提供插件模板，使用需基于OpenAI Codex及第三方连接服务（如Salesforce, Databricks等）的付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为OpenAI官方出品，项目方向明确且功能实用。但目前Star数和Issue活跃度较低，社区参与度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，有少量开放Issue但无关闭记录，表明项目处于早期或维护频率不高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-08T06:23:28.296Z"
+    },
+    {
+      "owner": "webadderallorg",
+      "repo": "Recordly",
+      "fullName": "webadderallorg/Recordly",
+      "description": "Create polished demo videos without editing skills. Mac/Windows/Linux",
+      "language": "TypeScript",
+      "topics": [
+        "electron",
+        "free",
+        "linux",
+        "macos",
+        "open-source",
+        "screen-recorder",
+        "screen-studio",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-03-12T23:38:32Z",
+      "url": "https://github.com/webadderallorg/Recordly",
+      "analysis": {
+        "positioning": "无需剪辑技能，轻松创建专业演示视频的桌面工具",
+        "useCases": [
+          "你录制产品演示或教程 → 它帮你自动美化、加特效，无需专业剪辑经验。",
+          "你希望制作高质量产品视频 → 它帮你一站式搞定缩放、鼠标轨迹、背景样式。",
+          "你使用传统录屏工具后期复杂 → 它帮你简化视频录制与后期制作流程，一步到位。"
+        ],
+        "audience": "需要快速制作高质量产品演示、教程视频的开发者、产品经理、技术作者和营销人员。",
+        "quickStart": {
+          "prerequisites": "macOS 14.0+ / Windows 10 Build 19041+ / Linux现代发行版",
+          "steps": [
+            "访问官网或GitHub下载对应平台安装包",
+            "安装并运行Recordly应用程序",
+            "开始录制屏幕并使用内置工具进行智能编辑"
+          ],
+          "note": "Linux平台目前不支持光标隐藏功能。macOS和Windows利用原生API提供高效录屏能力。"
+        },
+        "competitors": [
+          {
+            "name": "OBS Studio",
+            "method": "桌面软件录制/直播",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Camtasia",
+            "method": "桌面软件录制/剪辑",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费且开源（AGPL 3.0）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "通过自动化演示视频制作中的复杂编辑（如自动缩放、鼠标轨迹美化），极大地提升了用户体验，让非专业人士也能轻松制作出高质量、有'Vibe'的视频。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，Star数超1.6万，已关闭Issue数（218）远超开启数（146），且持续接受PR，社区支持强大。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-08T06:24:13.476Z"
     }
   ]
 }

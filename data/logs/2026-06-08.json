@@ -1,0 +1,80 @@
+{
+  "version": "1",
+  "date": "2026-06-08",
+  "startedAt": "2026-06-08T06:19:49.092Z",
+  "finishedAt": "2026-06-08T06:25:01.595Z",
+  "durationSeconds": 313,
+  "success": true,
+  "stats": {
+    "fetched": 107,
+    "newProjects": 13,
+    "skipped": 94,
+    "geminiCalls": 20,
+    "statsUpdated": 107
+  },
+  "errors": [
+    {
+      "time": "2026-06-08T06:20:50.060Z",
+      "level": "warn",
+      "project": "tastyeffectco/sandboxd",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-08T06:21:25.337Z",
+      "level": "warn",
+      "project": "amElnagdy/guard-skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-08T06:21:29.706Z",
+      "level": "warn",
+      "project": "NoopApp/noop",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-08T06:21:36.019Z",
+      "level": "warn",
+      "project": "ninjawarlorddisclose/CapCut-Pro-Crack-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-08T06:21:49.753Z",
+      "level": "warn",
+      "project": "YuvBindal/produck-oss",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-08T06:22:25.047Z",
+      "level": "warn",
+      "project": "Plumezisieve/IDM-6.42-Lifetime-Patch-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-08T06:23:33.977Z",
+      "level": "warn",
+      "project": "FerroxLabs/wayland",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
