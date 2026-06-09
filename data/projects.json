@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-08T06:24:13.501Z",
+  "updatedAt": "2026-06-09T05:49:57.832Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -46750,6 +46750,216 @@
         "category": "其他"
       },
       "analyzedAt": "2026-06-08T06:24:13.476Z"
+    },
+    {
+      "owner": "aaron-ywl",
+      "repo": "multi-agent-game-factory",
+      "fullName": "aaron-ywl/multi-agent-game-factory",
+      "description": " From idea to playable game — 6 AI agents collaborate to design, code, review, test, and generate art",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-09T02:37:36Z",
+      "url": "https://github.com/aaron-ywl/multi-agent-game-factory",
+      "analysis": {
+        "positioning": "AI Agent协作式游戏工厂，从想法到可玩游戏。",
+        "useCases": [
+          "你想快速验证一个游戏想法 → 它帮你自动生成设计、代码和美术资源。",
+          "你想尝试多智能体协作开发 → 它提供一个完整的游戏开发流水线示例。",
+          "你希望AI自动修复代码bug和测试用例 → 它通过Reviewer和Test Agent实现循环优化。"
+        ],
+        "audience": "游戏开发者、AI Agent研究者，或任何想快速将游戏想法变为可玩原型的人。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, pip",
+          "steps": [
+            "克隆项目仓库",
+            "安装依赖 (pip install -r requirements.txt)",
+            "运行FastAPI服务，通过Web UI交互"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "创新地使用6个AI Agent协作完成从游戏设计到美术、代码的全流程生成，架构清晰，技术栈现代。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步，Issue统计均为0，Star数较少，社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-09T05:47:39.967Z"
+    },
+    {
+      "owner": "diffusionstudio",
+      "repo": "lottie",
+      "fullName": "diffusionstudio/lottie",
+      "description": "Open-source skill and harness for generating production ready Lottie animations with codex/claude code",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-04T13:39:32Z",
+      "url": "https://github.com/diffusionstudio/lottie",
+      "analysis": {
+        "positioning": "用LLM一键生成Lottie动画，实时预览，生产就绪。",
+        "useCases": [
+          "你想要快速创建动态加载动画 → 它帮你通过自然语言描述，让AI生成Lottie动画。",
+          "你正在开发需要动画的UI组件 → 它帮你让AI直接生成动画JSON并集成到项目中。",
+          "你希望提高动画设计与迭代效率 → 它帮你实时预览AI生成的Lottie动画，即时调整。",
+          "你是一名开发者，想将Lottie动画生成能力集成到自己的AI Agent → 它提供了一个开放技能接口，让你的AI Agent拥有文本到Lottie的能力。"
+        ],
+        "audience": "适合需要AI辅助快速生成、预览和迭代Lottie动画的开发者和设计师。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js，并配置支持skills的LLM代理（如Claude Code/Codex）",
+          "steps": [
+            "运行 `npx skills add diffusionstudio/lottie`",
+            "通过支持skills的LLM代理，用自然语言指令生成Lottie动画"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，MIT License）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "通过AI智能生成Lottie动画并提供实时预览，极大简化了动画创建流程，实现快速迭代和可视化编程体验，非常符合Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低（Issue 0/0），项目可能处于早期或内部使用阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-09T05:47:53.680Z"
+    },
+    {
+      "owner": "FerroxLabs",
+      "repo": "wayland",
+      "fullName": "FerroxLabs/wayland",
+      "description": "Wayland - The AI Agent That Perceives. Reasons. Acts. Evolves.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-06-05T17:38:22Z",
+      "url": "https://github.com/FerroxLabs/wayland",
+      "analysis": {
+        "positioning": "本地AI Agent，统一管理并驱动机器上所有AI工具的指挥中心。",
+        "useCases": [
+          "你手动切换多个AI CLI → 它帮你从一个控制中心统一调用、规划和执行任务。",
+          "你只用AI回答一个问题 → 它帮你进行多周期的项目管理，从想法到交付。",
+          "你担心数据隐私/厂商锁定 → 它帮你本地运行，保管你的密钥、文件和Shell。"
+        ],
+        "audience": "寻求效率、隐私和本地控制的开发者或项目经理，他们需要协调多个AI工具完成复杂工作流。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从官网或GitHub发布页下载并安装Wayland应用。",
+            "粘贴你的AI API Key，即可开始使用。"
+          ],
+          "note": "支持macOS、Windows和Linux平台。"
+        },
+        "competitors": [
+          {
+            "name": "Claude Code",
+            "method": "独立使用其CLI/API",
+            "models": "Claude",
+            "pricing": "付费"
+          },
+          {
+            "name": "OpenAI (Codex功能)",
+            "method": "独立使用其CLI/API",
+            "models": "GPT系列",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费且开源。无订阅，无云端往返，无锁定。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决多AI工具碎片化管理痛点，概念独特。本地优先、开源，技术栈（TypeScript/Rust）先进，功能潜力大。项目早期，Star数257显示初步认可。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，有9个开启的Issue和1个已关闭的Issue，用户积极反馈但问题解决速度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-09T05:49:02.284Z"
+    },
+    {
+      "owner": "xiaohuailabs",
+      "repo": "xiaohu-video-translate",
+      "fullName": "xiaohuailabs/xiaohu-video-translate",
+      "description": "对 AI 说一句话，把外语视频自动配上中文字幕 —— 下载/转写/翻译/润色/烧录一条龙，全程本地，转写零 API 费",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-08T09:55:55Z",
+      "url": "https://github.com/xiaohuailabs/xiaohu-video-translate",
+      "analysis": {
+        "positioning": "AI驱动，一句话将外语视频转为本地中文字幕视频及文稿。",
+        "useCases": [
+          "你想观看外语视频，但缺乏字幕或翻译质量差 → 它帮你一键生成高品质中文字幕视频，可选择双语。",
+          "你需处理大量视频字幕，厌倦了多软件切换和手动操作 → 它帮你自动化下载、转写、翻译、润色、烧录全流程。",
+          "你希望利用现有AI编程助手来简化视频内容处理 → 它作为技能集成到主流AI编程助手，用自然语言驱动完成任务。"
+        ],
+        "audience": "经常观看外语视频、或需要批量处理视频字幕，且熟悉或使用AI编程助手的技术用户。",
+        "quickStart": {
+          "prerequisites": "macOS (推荐Apple Silicon) / Linux，需安装Homebrew、Python，以及yt-dlp、ffmpeg、mlx-whisper (或faster-whisper) 等依赖。",
+          "steps": [
+            "安装基础工具和转写引擎，如`brew install yt-dlp ffmpeg`和`pip3 install mlx-whisper`。",
+            "克隆仓库：`git clone https://github.com/xiaohuailabs/xiaohu-video-translate.git`。",
+            "进入目录并安装技能：`cd xiaohu-video-translate && bash install.sh`。"
+          ],
+          "note": "安装步骤以Claude Code为例，其他AI编程工具需根据其技能加载方式调整，首次运行MLX模型会自动下载。"
+        },
+        "competitors": [
+          {
+            "name": "在线视频翻译SaaS服务",
+            "method": "上传视频至云端平台，由平台AI处理生成字幕。",
+            "models": "通常使用平台自研AI或集成商业API。",
+            "pricing": "多数为订阅制或按分钟/小时收费。"
+          },
+          {
+            "name": "传统手工工具链",
+            "method": "用户手动组合yt-dlp、Whisper CLI、翻译软件、视频剪辑工具等完成类似流程。",
+            "models": "用户自行选择和配置各项工具。",
+            "pricing": "工具本身多为免费或一次性付费，但耗费大量时间和精力。"
+          }
+        ],
+        "pricing": "免费。核心功能（下载、转写、烧录）全程本地运行不收费，翻译环节复用用户现有AI资源。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "它将视频下载、转写、翻译、润色、烧录等复杂步骤高度集成，通过AI编程助手实现自然语言驱动的“一句话”工作流，且强调本地免费、高质量字幕输出，具备实用性、创新性和技术优雅。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，Issue数量少（2个开启，0个关闭），社区活跃度有待观察。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-09T05:49:45.090Z"
+    },
+    {
+      "owner": "cellebrite-labs",
+      "repo": "ghidra-rpc",
+      "fullName": "cellebrite-labs/ghidra-rpc",
+      "description": "A Ghidra agentic reverse engineering skill.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-04T18:41:57Z",
+      "url": "https://github.com/cellebrite-labs/ghidra-rpc",
+      "analysis": {
+        "positioning": "LLM驱动Ghidra，自主完成逆向工程任务。",
+        "useCases": [
+          "你想要AI分析二进制漏洞 → 它帮你自动反编译、追踪调用图、查找不安全函数。",
+          "你想要AI修改或打补丁 → 它帮你自动组装指令、写入字节、调整执行流。",
+          "你想要AI对比不同版本二进制 → 它帮你自动识别版本差异、匹配函数、追踪变更。"
+        ],
+        "audience": "适合AI Agent开发者、安全研究员，用于自动化逆向工程和恶意软件分析。",
+        "quickStart": {
+          "prerequisites": "Ghidra 11+, Python 3.11+, Java 17+, uv",
+          "steps": [
+            "设置Ghidra安装路径：`export GHIDRA_INSTALL_DIR=/opt/ghidra_12.0`",
+            "安装ghidra-rpc：`uv tool install /path/to/ghidra-rpc`",
+            "引导AI助手开始任务，例如：\"Load /usr/bin/ls into Ghidra and find any unsafe string operations.\""
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "赋予LLM自主执行专业级逆向工程任务的能力，极大地扩展了AI在安全分析和代码理解领域的边界。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，开启4个Issue但无已关闭，有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-09T05:49:57.812Z"
     }
   ]
 }
