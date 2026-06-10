@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-09T05:49:57.832Z",
+  "updatedAt": "2026-06-10T06:04:04.068Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -46960,6 +46960,141 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-09T05:49:57.812Z"
+    },
+    {
+      "owner": "GordenSun",
+      "repo": "GordenSuperPPTSkills",
+      "fullName": "GordenSun/GordenSuperPPTSkills",
+      "description": "AI PPT赛道终结者，史上最最最强 PPT Skill！！！  使用GPT生成豪华的图片格式PPT，然后转换为完全可编辑的PPTX文件。",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-07T16:20:13Z",
+      "url": "https://github.com/GordenSun/GordenSuperPPTSkills",
+      "analysis": {
+        "positioning": "AI驱动PPT生成与图片转可编辑PPTX，终结者级解决方案。",
+        "useCases": [
+          "你想要快速生成豪华图片版PPT → 它帮你用GPT生成主题PPT的每页图片和图片型PPTX。",
+          "你有一堆PPT图片或图片型PPT → 它帮你把这些图片解析并还原成完全可编辑的PPTX文件。",
+          "你希望一键从内容到可编辑PPT → 它帮你自动串联生成图片PPT再转换为可编辑PPTX。"
+        ],
+        "audience": "AI Agent（尤其Codex）用户、PPT重度使用者、内容创作者，寻求高效、高质量和完全可编辑PPT方案的人。",
+        "quickStart": {
+          "prerequisites": "安装Codex，具备GPT 5.5模型或更高（推荐），安装Python依赖（`python-pptx`, `pillow`, `numpy`）。",
+          "steps": [
+            "将整个GitHub仓库复制到Codex的skills目录，或直接告知Codex进行安装。",
+            "根据需求调用对应技能，如使用`GordenImagePPTGen`生成图片PPT，或`GordenImage2PPTX`转换图片为可编辑PPTX。"
+          ],
+          "note": "当前仅限Codex使用，且图片转可编辑PPTX会消耗较多GPT额度。"
+        },
+        "competitors": [
+          {
+            "name": "Gamma/Tome等AI演示文稿工具",
+            "method": "Web端文本生成演示文稿，通常输出固定布局或图片型。",
+            "models": "内部LLM",
+            "pricing": "部分免费"
+          },
+          {
+            "name": "Microsoft Copilot for PowerPoint",
+            "method": "MS Office集成，文本生成演示文稿，输出可编辑PPTX。",
+            "models": "OpenAI模型",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "代码免费，但使用需支付GPT API调用及Codex平台的额度费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个为特定AI Agent（Codex）设计的技能包，其安装方式和使用场景更偏向于开发者或高级用户对AI能力的探索和集成，而非即插即用的终端产品。但其模块化设计和详细的实现步骤显示出一定的工程化思考。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub上Issue活跃度低（0开0关），社区交流可能主要通过微信群进行。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-10T06:02:01.304Z"
+    },
+    {
+      "owner": "vorpus",
+      "repo": "performativeUI",
+      "fullName": "vorpus/performativeUI",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-07T15:45:48Z",
+      "url": "https://github.com/vorpus/performativeUI",
+      "analysis": {
+        "positioning": "AI原生React组件，幽默展示项目“融资火爆”氛围。",
+        "useCases": [
+          "你希望在产品中通过UI暗示融资能力 → 它帮你用“AI原生”组件幽默地营造“供不应求”的错觉。",
+          "你正在构建一个讽刺性Demo或概念验证 → 它帮你快速集成带有“高科技、高估值”氛围的UI元素。",
+          "你是一名开发者，想学习React和AI概念结合的幽默范例 → 它提供了一个有趣的代码库来探索其独特的“氛围编程”实践。"
+        ],
+        "audience": "有幽默感的开发者、创业公司市场人员、以及希望通过代码进行讽刺的个人用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "npm install performative-ui",
+            "查阅文档获取组件目录和API参考"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目名、描述及徽章（如“AI-native”、“frontier-ready”、“vibes-immaculate”、“Hacktoberfest 2026”）明确指向其高度幽默和讽刺的“氛围编程”特质。",
+        "isVibeCoding": true,
+        "communityActivity": "极低，3个Issue开启但无关闭，可能为新项目或非传统社区贡献模式。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-06-10T06:02:18.847Z"
+    },
+    {
+      "owner": "tryproduck",
+      "repo": "produck-oss",
+      "fullName": "tryproduck/produck-oss",
+      "description": "Helping startups accelerate PMF",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-06T03:43:20Z",
+      "url": "https://github.com/tryproduck/produck-oss",
+      "analysis": {
+        "positioning": "AI驱动的反馈闭环，自动将用户反馈转为代码。",
+        "useCases": [
+          "你收到用户Bug报告 → Produck AI代理复现、修复并提交PR。",
+          "你想快速定位并解决产品问题 → Produck让用户在应用内精确标记问题，加速修复。",
+          "你希望提升用户忠诚度 → Produck在问题修复后自动通知用户，变抱怨者为共建者。"
+        ],
+        "audience": "适合希望通过AI技术提升用户反馈处理效率、加速产品迭代的初创公司及产品开发团队。",
+        "quickStart": {
+          "prerequisites": "产品已集成Produck SDK或Chrome浏览器。",
+          "steps": [
+            "将Produck SDK脚本嵌入应用，或安装Chrome扩展。",
+            "用户通过Produck小部件或扩展记录问题/反馈。",
+            "团队评审并合并Produck AI生成的代码PR。"
+          ],
+          "note": "SDK用于应用内反馈，Chrome扩展可捕获任意网站反馈。"
+        },
+        "competitors": [
+          {
+            "name": "Hotjar",
+            "method": "嵌入SDK收集会话录像、热力图、调查。",
+            "models": "N/A",
+            "pricing": "部分免费"
+          },
+          {
+            "name": "UserVoice",
+            "method": "嵌入小部件收集用户反馈、需求管理。",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "未明确说明，但提供AI代理服务，推测为部分免费/付费模式。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "直接利用AI代理自动复现Bug、编写修复代码并提交PR，高度自动化了开发流程中的关键环节。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub仓库目前Issue数量为零，社区活跃度极低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-10T06:04:04.049Z"
     }
   ]
 }
