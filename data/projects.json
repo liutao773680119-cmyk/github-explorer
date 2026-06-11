@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-10T06:04:04.068Z",
+  "updatedAt": "2026-06-11T06:23:18.109Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -47095,6 +47095,661 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-10T06:04:04.049Z"
+    },
+    {
+      "owner": "MSNightmare",
+      "repo": "GreatXML",
+      "fullName": "MSNightmare/GreatXML",
+      "description": "GreatXML bitlocker bypass vulnerability",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-11T01:03:12Z",
+      "url": "https://github.com/MSNightmare/GreatXML",
+      "analysis": {
+        "positioning": "BitLocker绕过漏洞利用工具，可获取加密卷未受限访问权限。",
+        "useCases": [
+          "你进行BitLocker加密系统安全审计 → 它帮你发现并通过特定条件绕过BitLocker保护，获取加密卷访问权。",
+          "你需要在受BitLocker保护的离线机器上进行取证 → 它帮你利用WinRE环境，在不登录情况下获取对BitLocker加密卷的shell访问。",
+          "你遇到BitLocker锁定的机器无法访问内部数据 → 它帮你提供一个潜在的漏洞利用途径，获取数据访问能力。"
+        ],
+        "audience": "渗透测试人员、安全研究员及取证分析师，用于验证BitLocker防护绕过能力。",
+        "quickStart": {
+          "prerequisites": "目标机器已启用BitLocker；可将文件复制到恢复分区根目录；能够重启进入WinRE（Shift+重启）。",
+          "steps": [
+            "准备`unattend.xml`和`Recovery`目录。",
+            "将它们复制到恢复分区根目录。",
+            "重启电脑，按Shift+点击重启按钮进入WinRE。",
+            "（如果Defender离线扫描未曾启动，需想办法先进入离线扫描状态）。",
+            "若操作成功，将获得一个对BitLocker卷具有无限制访问权限的shell。"
+          ],
+          "note": "依赖Windows Recovery Environment (WinRE) 和特定的系统状态（如Defender离线扫描或进入离线扫描状态）。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个安全漏洞利用工具，专注于破坏和绕过安全机制，而非创造、美学设计或传统意义上的开发工作。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度低，有一个新开启的Issue，尚未关闭，暂无回复。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-11T06:18:59.105Z"
+    },
+    {
+      "owner": "franselstadt",
+      "repo": "BunEHR",
+      "fullName": "franselstadt/BunEHR",
+      "description": "A production-grade Electronic Health Record system implementing the full openEHR REST API v1 specification, built with the Bun runtime, Hono framework, Drizzle ORM, and PostgreSQL 16",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-11T00:25:20Z",
+      "url": "https://github.com/franselstadt/BunEHR",
+      "analysis": {
+        "positioning": "开放标准、高性能的开源电子健康档案系统后端。",
+        "useCases": [
+          "你在开发符合openEHR标准的医疗信息系统 → 它帮你提供完整的REST API和高性能后端。",
+          "你需要一个可互操作的临床数据存储方案 → 它的openEHR v1实现确保数据与其他系统无缝集成。",
+          "你想构建实时医院管理仪表盘 → 它提供WebSocket实现实时事件和病房地图功能。"
+        ],
+        "audience": "追求高性能、开放标准互操作性的医疗系统开发者、医院IT部门。",
+        "quickStart": {
+          "prerequisites": "Docker + Docker Compose, Bun (for local development)",
+          "steps": [
+            "克隆仓库并进入目录：`git clone https://github.com/franselstadt/BunEHR.git && cd BunEHR`",
+            "复制环境配置并启动服务：`cp .env .env.local && docker compose up -d`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "EHRbase",
+            "method": "openEHR平台",
+            "models": "不适用",
+            "pricing": "商业或开源"
+          },
+          {
+            "name": "Better Platform",
+            "method": "openEHR平台",
+            "models": "不适用",
+            "pricing": "商业"
+          }
+        ],
+        "pricing": "免费（基于Apache 2.0开源许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "技术栈前沿（Bun, Hono, Drizzle, PostgreSQL 16），声称“生产级”并完整实现了openEHR标准，但目前GitHub星标数量和社区活跃度（0 Issue）较低，可能处于早期阶段或个人维护。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度低，Issue开闭均为0，星标数少（36），项目处于早期或个人维护阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-11T06:19:13.463Z"
+    },
+    {
+      "owner": "kaor333",
+      "repo": "Exodus-Fake-Balance",
+      "fullName": "kaor333/Exodus-Fake-Balance",
+      "description": "Exodus Fake Balance — Native balance overlay tool for Exodus wallet with real-time spoofing across BTC, ETH, SOL, XRP and 200+ assets, persistent hooks, and screenshot-safe display rendering",
+      "language": "Python",
+      "topics": [
+        "bitcoin-flash-transactions",
+        "crpto",
+        "crypto-wallet-fake-balance",
+        "crypto-wallet-simulator",
+        "exodus",
+        "exodus-api",
+        "exodus-fake-balance-tool",
+        "exodus-logger",
+        "exodus-standalone",
+        "fake-balance",
+        "fake-balance-crypto",
+        "fake-btc-transaction",
+        "fake-crypto",
+        "flash-crypto-2025",
+        "flash-loan",
+        "flash-usdt-freedemo",
+        "flasher-tool",
+        "okx-fake-balance",
+        "usdt-flash-coin",
+        "wallet-spoofer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-11T00:34:06Z",
+      "url": "https://github.com/kaor333/Exodus-Fake-Balance",
+      "analysis": {
+        "positioning": "Exodus钱包余额模拟器，截图安全，实时伪造。",
+        "useCases": [
+          "想向朋友展示一夜暴富 → 它帮你将Exodus钱包余额伪造为巨额数字，且截图无痕。",
+          "需要制作加密货币投资收益演示 → 它帮你轻松模拟各类资产的虚假余额，实时更新。",
+          "想给朋友开个玩笑 → 它帮你瞬间让Exodus钱包显示“巨款”，骗过对方眼睛。"
+        ],
+        "audience": "加密货币营销人员、内容创作者、测试人员或希望进行恶作剧、演示模拟Exodus钱包余额的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+ 环境，已安装Exodus桌面钱包（Windows或macOS）。",
+          "steps": [
+            "克隆项目仓库。",
+            "安装Python依赖（若有）。",
+            "运行工具并配置伪造余额。"
+          ],
+          "note": "支持Windows和macOS平台，具体配置和运行步骤请参考项目README详细说明。"
+        },
+        "competitors": [
+          {
+            "name": "通用加密货币假余额/交易工具",
+            "method": "通常通过模拟网络请求、篡改本地数据或前端注入等方式，用于特定钱包或交易所。",
+            "models": "支持范围因工具而异，可能仅限于少数主流币种或特定交易所。",
+            "pricing": "免费开源或以服务/代码包形式出售。"
+          }
+        ],
+        "pricing": "免费 (MIT许可证开源)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰，README详尽，技术实现原理介绍透彻，有明确的特性列表和使用说明，代码规范良好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-11T06:19:29.111Z"
+    },
+    {
+      "owner": "Sliverkiss",
+      "repo": "mimocode2api",
+      "fullName": "Sliverkiss/mimocode2api",
+      "description": "MiMoCode2API 是一个轻量级的 API 网关，将 MiMo 语言模型服务转换为标准的 OpenAI Chat Completions 接口",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-11T00:55:11Z",
+      "url": "https://github.com/Sliverkiss/mimocode2api",
+      "analysis": {
+        "positioning": "MiMo模型转OpenAI接口的轻量级网关",
+        "useCases": [
+          "你已拥有 MiMo 语言模型服务 → 它帮你将其轻松转换为标准的 OpenAI Chat Completions 接口",
+          "你使用 Hermes Agent、Cursor 等 OpenAI API 客户端 → 它帮你无缝接入 MiMo 模型，无需修改客户端代码",
+          "你需要为 MiMo 服务提供基础认证 → 它帮你内置 API Key 认证保护，确保访问安全"
+        ],
+        "audience": "希望利用 MiMo 模型，但倾向于或需要使用 OpenAI API 标准接口的开发者和用户。",
+        "quickStart": {
+          "prerequisites": "Git, Docker, Docker Compose",
+          "steps": [
+            "克隆项目并进入目录：`git clone ... && cd mimocode2api`",
+            "使用 Docker Compose 启动服务：`docker compose up -d --build`",
+            "查看日志获取生成的 API Key：`docker logs mimo2api | grep \"API Key\"`",
+            "通过 `curl` 命令验证健康检查、模型列表及对话接口"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，精准解决MiMo模型与OpenAI生态兼容的痛点。采用Go语言实现，轻量高效（Docker镜像约12MB），文档详尽，上手快速。支持流式响应、API Key认证等核心功能，但社区活跃度目前较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue 统计显示尚处于早期阶段。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-11T06:19:49.796Z"
+    },
+    {
+      "owner": "rbrown101010",
+      "repo": "rilable",
+      "fullName": "rbrown101010/rilable",
+      "description": "An iPhone app that builds apps — prompt to live web + iOS apps. SwiftUI + Convex + Claude + Daytona + Chorus.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-11T04:22:07Z",
+      "url": "https://github.com/rbrown101010/rilable",
+      "analysis": {
+        "positioning": "iPhone端AI赋能，提示词秒生可部署Web/iOS应用。",
+        "useCases": [
+          "你有一个应用想法，想快速验证 → 它帮你通过提示词生成并部署可运行的Web应用，即时预览。",
+          "你想在iPhone上开发iOS原生应用但缺乏SwiftUI经验 → 它帮你从提示词生成、云端编译并提供真机安装包。",
+          "你用AI生成代码遇到编译错误 → 它通过内置AI Agent自动识别、修复并迭代应用代码。"
+        ],
+        "audience": "追求极致效率的开发者、产品经理或创意者，想在iPhone上通过AI快速将想法变为Web/iOS应用原型或最小可行产品。",
+        "quickStart": {
+          "prerequisites": "需自备Anthropic (Claude), Daytona, Chorus等服务的API密钥及一个Convex后端（免费）。",
+          "steps": [
+            "将此GitHub仓库地址提供给Claude Code等AI编程助手，请求其帮你完成设置。",
+            "根据AI助手的指引（或手动参考`CLAUDE.md`），创建Convex后端、收集所需的API密钥并配置应用。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "AI代码生成平台（如Cursor、GitHub Copilot X）",
+            "method": "桌面IDE集成/网页交互，代码生成后需手动集成部署。",
+            "models": "多样，通常支持GPT系列、Claude等。",
+            "pricing": "通常付费或部分免费。"
+          },
+          {
+            "name": "传统低代码/无代码平台（如Bubble、AppGyver）",
+            "method": "可视化拖拽，通过界面配置逻辑，无需编写代码。",
+            "models": "不涉及AI模型直接生成代码。",
+            "pricing": "通常提供免费套餐，高级功能付费。"
+          }
+        ],
+        "pricing": "免费（开源），但需自备各项AI服务（Claude, Daytona, Chorus等）的API密钥并承担其使用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "结合AI Agent、SwiftUI、多云部署（Daytona, Chorus）及无服务器后端（Convex），实现iPhone端提示词生成并部署Web/iOS应用的完整闭环，技术栈新颖且功能前瞻。尤其通过AI助手引导设置流程，极具创新和“酷炫”感。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无Issue互动记录，星标数较少。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-11T06:20:09.568Z"
+    },
+    {
+      "owner": "XiaomiMiMo",
+      "repo": "MiMo-Code",
+      "fullName": "XiaomiMiMo/MiMo-Code",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-10T11:52:41Z",
+      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "analysis": {
+        "positioning": "开源AI编码助手，具备跨会话记忆，深度理解项目。",
+        "useCases": [
+          "你开发新功能时，频繁切换任务、忘记上下文 → 它帮你自动保存项目记忆和会话进度，无需重复上下文。",
+          "你需要在终端进行编码、运行命令、Git操作 → 它提供多智能体（build, plan, compose）在终端中自动化这些开发流程。",
+          "你面对复杂开发任务，需要管理和跟踪进度 → 它提供树形任务系统和自动检查点，确保任务进展可追溯。"
+        ],
+        "audience": "寻求终端效率、希望AI能深度理解并辅助开发、减少重复上下文输入的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "执行 `curl -fsSL https://mimo.xiaomi.com/install | bash` 或 `npm install -g @mimo-ai/cli` 进行安装。",
+            "首次启动时，根据向导选择 MiMo Auto 或配置其他LLM API。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Claude Code",
+            "method": "通过导入现有认证",
+            "models": "未提及",
+            "pricing": "未提及"
+          },
+          {
+            "name": "基于OpenAI API的其他AI编程助手",
+            "method": "通过OpenAI兼容API调用",
+            "models": "OpenAI模型",
+            "pricing": "通常基于API调用付费"
+          }
+        ],
+        "pricing": "部分免费（MiMo Auto限时免费），部分付费（连接第三方LLM API需支付服务费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "小米出品的开源AI编码助手，深度整合终端环境，提供多智能体、跨会话记忆、智能上下文管理和任务跟踪等核心功能，提升开发效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃，但已关闭Issue数相对较少 (107开启/12关闭)，项目维护者可能面临较大处理压力或响应速度待提升。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-11T06:20:23.635Z"
+    },
+    {
+      "owner": "NoopApp",
+      "repo": "noop",
+      "fullName": "NoopApp/noop",
+      "description": "Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
+      "language": "Swift",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-07T17:03:02Z",
+      "url": "https://github.com/NoopApp/noop",
+      "analysis": {
+        "positioning": "WHOOP数据本地化管理伴侣，无云、无订阅、数据隐私。",
+        "useCases": [
+          "你担心WHOOP数据上传云端 → 它帮你把所有数据留在本地设备。",
+          "你不想为WHOOP订阅付费 → 它帮你免费离线使用WHOOP手环。",
+          "你希望完全掌控自己的健康数据 → 它帮你通过蓝牙直连手环，数据完全自管。"
+        ],
+        "audience": "WHOOP 4/5手环用户，重视数据隐私、不愿订阅、追求离线体验。",
+        "quickStart": {
+          "prerequisites": "WHOOP 4/5手环。macOS（Apple Silicon/Intel）或Android 8+设备。",
+          "steps": [
+            "从项目Releases页面下载对应平台的应用（macOS为.app，Android为.apk）。",
+            "macOS用户：拖拽至Applications，首次启动需通过Terminal执行`xattr -dr com.apple.quarantine /Applications/NOOP.app`或在系统设置“隐私与安全性”中点击“Open Anyway”解除阻止。",
+            "Android用户：侧载安装（需在设置中启用“安装未知应用”权限）。"
+          ],
+          "note": "iOS版仍在开发路线图上。macOS应用未公证，首次启动需额外操作。"
+        },
+        "competitors": [
+          {
+            "name": "WHOOP官方应用",
+            "method": "云端同步，需付费订阅WHOOP服务",
+            "models": "WHOOP 4.0/5.0",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费。无订阅、无账户、无费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位明确，开门见山直指核心价值（本地优先、数据自管、无订阅）。README内容精炼，直接提供了下载和详细的启动指南，考虑周全。略有不足是macOS启动步骤略显繁琐，但解释清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率高（74/6），表明项目维护活跃，问题响应和解决效率高。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-06-11T06:20:35.700Z"
+    },
+    {
+      "owner": "shadcn",
+      "repo": "improve",
+      "fullName": "shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-10T11:06:58Z",
+      "url": "https://github.com/shadcn/improve",
+      "analysis": {
+        "positioning": "用高级AI模型审计代码，生成执行计划，低成本模型执行。",
+        "useCases": [
+          "你做代码审计 → 它帮你发现问题，按优先级生成可执行的改进计划。",
+          "你做功能开发或重构 → 它帮你针对分支改动提供AI驱动的审查和优化建议。",
+          "你已有改进计划 → 它帮你调度低成本AI模型自动执行、测试，并审查完成情况。"
+        ],
+        "audience": "希望通过AI提升代码质量、自动化开发流程的开发者和团队，尤其适合使用Agent Skills生态的用户。",
+        "quickStart": {
+          "prerequisites": "具备Agent Skills兼容的Agent环境",
+          "steps": [
+            "执行 `npx skills add shadcn/improve` 安装此Agent技能。",
+            "在Agent环境中运行 `/improve` 启动代码审计。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot (或类似AI代码助手)",
+            "method": "IDE集成，提供代码补全、生成、聊天问答、代码审查建议。",
+            "models": "OpenAI Codex / 自有模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "LangChain / CrewAI (或类似AI Agent框架)",
+            "method": "提供Agent构建框架，开发者需自行设计Agent流程和工具以实现代码审计和改进。",
+            "models": "用户配置（OpenAI, Anthropic等）",
+            "pricing": "框架免费，LLM调用付费"
+          }
+        ],
+        "pricing": "工具本身开源免费（MIT），但其运行依赖的高性能AI模型（如GPT-4）会产生调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目理念创新，明确区分高智力规划与低成本执行，高效利用AI资源。README清晰，场景驱动，易于理解和上手。作为Agent技能，定位精准，潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "项目发布不久，Issue数量较少，社区互动处于早期积累阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-11T06:20:54.759Z"
+    },
+    {
+      "owner": "MSNightmare",
+      "repo": "RoguePlanet",
+      "fullName": "MSNightmare/RoguePlanet",
+      "description": "RoguePlanet Windows Defender Vulnerability",
+      "language": "C++",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-09T19:10:18Z",
+      "url": "https://github.com/MSNightmare/RoguePlanet",
+      "analysis": {
+        "positioning": "Windows Defender竞态条件提权漏洞利用PoC，获取SYSTEM权限。",
+        "useCases": [
+          "你想验证Windows Defender提权漏洞 → 它帮你尝试在Windows 10/11上获取SYSTEM权限。",
+          "你想复现Windows Defender的竞态条件漏洞 → 它提供一个PoC帮你验证漏洞是否存在。",
+          "你想研究Windows Defender内部机制 → 它展示一个可用的提权PoC供你分析防御策略。"
+        ],
+        "audience": "Windows安全领域红队、渗透测试人员、研究员，用于漏洞复现与提权。",
+        "quickStart": {
+          "prerequisites": "Windows 11 (官方版/Canary) 或 Windows 10 (安装了june 2026补丁)。",
+          "steps": [
+            "获取项目源码并编译。",
+            "在符合条件的目标Windows 10/11系统上运行编译好的PoC。"
+          ],
+          "note": "PoC不支持Windows Server，但漏洞本身存在，需重新设计利用方式。提权利用为竞态条件，成功率可能波动。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README语言风格轻松随意，夹杂口语化表达，如“Welcome back everyone !!!”、“honestly I'm done with this bug”，透露出开发者在分享成果时的个人情绪与直接性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比较为均衡 (4开3闭)，表明项目有一定关注度且开发者对问题有所处理。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-11T06:21:15.327Z"
+    },
+    {
+      "owner": "apple",
+      "repo": "coreai-models",
+      "fullName": "apple/coreai-models",
+      "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+      "language": "Python",
+      "topics": [],
+      "license": "BSD-3-Clause",
+      "createdAt": "2026-06-08T04:32:27Z",
+      "url": "https://github.com/apple/coreai-models",
+      "analysis": {
+        "positioning": "Apple Core AI模型开发套件，助力设备端AI集成与部署。",
+        "useCases": [
+          "你做AI模型开发，想在Apple设备上运行 → 它帮你将Hugging Face等开源模型转换为Core AI格式。",
+          "你做自定义AI模型，想针对Apple设备优化 → 它帮你提供Python构建模块，简化PyTorch模型编写。",
+          "你想将AI功能集成到macOS/iOS应用 → 它帮你提供Swift运行时工具，并简化`.aimodel`文件集成。",
+          "你想提升AI编程助手使用Core AI的效率 → 它帮你提供可插拔的Skills插件。"
+        ],
+        "audience": "Apple平台开发者、AI研究员及希望在macOS/iOS应用中集成或开发设备端AI模型的团队。",
+        "quickStart": {
+          "prerequisites": "uv包管理器，macOS和iOS 27.0+，Xcode 27.0+",
+          "steps": [
+            "git clone https://github.com/apple/coreai-models.git && cd coreai-models",
+            "uv run coreai.model.registry --list-models"
+          ],
+          "note": "模型导出为`.aimodel`文件，需配合Core AI框架及Swift包在Apple设备上运行。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供模型转换食谱、Python构建模块和Swift运行时工具，简化Apple设备上的AI开发、集成和代理能力扩展，适合快速实验与部署。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启10个，关闭3个。总Issue量较少，活跃度一般。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-06-11T06:21:34.677Z"
+    },
+    {
+      "owner": "Tencent-Hunyuan",
+      "repo": "UniRL",
+      "fullName": "Tencent-Hunyuan/UniRL",
+      "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
+      "language": "Python",
+      "topics": [
+        "reinforcement-learning"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-08T12:29:36Z",
+      "url": "https://github.com/Tencent-Hunyuan/UniRL",
+      "analysis": {
+        "positioning": "统一多模态模型强化学习训练框架。",
+        "useCases": [
+          "你开发多模态AI模型 → 它帮你用强化学习统一训练，提升模型性能。",
+          "你研究LLM强化学习 → 它帮你实现如DRPO等算法，进行指令微调。",
+          "你研究扩散模型RL → 它帮你实现如Flow-DPPO等算法，优化生成效果。"
+        ],
+        "audience": "专注于大模型和多模态AI的科研人员及工程师，用于深度定制和算法研究。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+，可能需要分布式计算环境（如Ray）。",
+          "steps": [
+            "选择对应的训练入口（如train_diffusion, train_ar）。",
+            "配置Hydra示例，定义模型、算法、奖励等参数。",
+            "运行项目提供的算法教程或示例。"
+          ],
+          "note": "部署模式和模块映射需查阅项目详细README。"
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0 开源许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "腾讯混元团队出品，专注于统一多模态模型强化学习，提供自有算法（DRPO, Flow-DPPO），架构设计分层清晰，适合专业研究与开发。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启8个，关闭0个，社区活跃度较低，大部分问题可能由团队内部处理或项目尚处于早期阶段。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-11T06:21:53.351Z"
+    },
+    {
+      "owner": "IvanSobolev",
+      "repo": "Neo3dEngine",
+      "fullName": "IvanSobolev/Neo3dEngine",
+      "description": "A minimalist CPU-based 3D console engine in C# (.NET 8) built from scratch. Features Raycasting/Raytracing, dynamic lighting & shadows, .obj loader, and custom TCP-based multiplayer with real-time chat. No external graphics APIs.",
+      "language": "C#",
+      "topics": [
+        "3d-engine",
+        "console-app",
+        "csharp",
+        "custom-network-protocol",
+        "dotnet",
+        "game-engine",
+        "game-engine-3d",
+        "multiplayer",
+        "raycasting",
+        "raycasting-engine",
+        "tcp-socket"
+      ],
+      "license": "GPL-3.0",
+      "createdAt": "2026-06-06T09:33:31Z",
+      "url": "https://github.com/IvanSobolev/Neo3dEngine",
+      "analysis": {
+        "positioning": "纯CPU、C#实现的极简控制台3D引擎，带光追和联机。",
+        "useCases": [
+          "你做X：想理解3D图形渲染底层原理，不依赖复杂API → 它帮你做Y：提供一个从零开始、纯CPU实现的C#控制台3D引擎，助你深入学习光线投射/追踪、数学模型和渲染优化。",
+          "你做X：需要在轻量级、无需GPU的环境下进行3D可视化实验 → 它帮你做Y：让你在纯文本终端里，通过ASCII字符实时展示3D模型、动态光影和自定义场景。",
+          "你做X：想实践自定义网络协议和多人游戏同步逻辑 → 它帮你做Y：提供一个TCP驱动的多人联机框架，包含实时位置同步和文字聊天，用于网络编程实验。"
+        ],
+        "audience": "适合对3D图形渲染、底层网络协议或C#编程原理感兴趣的开发者、学生和教育工作者，尤其是不想被GPU API束缚的学习者。",
+        "quickStart": {
+          "prerequisites": ".NET 8 SDK",
+          "steps": [
+            "克隆IvanSobolev/Neo3dEngine仓库。",
+            "使用.NET 8 SDK构建项目。",
+            "运行控制台应用程序，体验纯CPU渲染的3D世界，或启动demo探索多人联机功能。"
+          ],
+          "note": "控制台输入依赖Win32 API (`GetAsyncKeyState`)，部分功能可能仅限Windows平台。"
+        },
+        "competitors": [
+          {
+            "name": "其他纯CPU光线追踪项目示例",
+            "method": "多种语言实现，通常渲染静态图片",
+            "models": "几何体或OBJ",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他控制台ASCII图形库/游戏引擎",
+            "method": "使用字符或伪图形API绘制",
+            "models": "通常是2D或简易3D",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "纯C#从零实现，不依赖任何外部图形API，在控制台模拟3D光追、动态光影、甚至自定义网络联机，是对底层原理极致探索和挑战的体现。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量不多（3开2关），说明项目处于维护或演示状态，社区活跃度一般。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-11T06:22:10.374Z"
+    },
+    {
+      "owner": "secret-tools",
+      "repo": "secret-tool",
+      "fullName": "secret-tools/secret-tool",
+      "description": "Secret-Tools — classified discord utilities. Star the repo.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-08T19:39:09Z",
+      "url": "https://github.com/secret-tools/secret-tool",
+      "analysis": {
+        "positioning": "预告神秘的Discord自动化与工具项目，强调“终极力量”。",
+        "useCases": [
+          "你想在Discord社群实现复杂交互 → 它将提供高级机器人实现自动化管理。",
+          "你需要提升Discord操作效率 → 它将提供自动化工具执行批量任务。",
+          "你希望集中管理Discord工具 → 它将提供功能强大的控制面板。"
+        ],
+        "audience": "追求Discord高级自动化、自定义机器人和强大控制能力的开发者或高级用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面。",
+            "点击“Star”关注项目进展。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "void-tools",
+            "method": "使用工具",
+            "models": null,
+            "pricing": "未知"
+          },
+          {
+            "name": "void-nuke",
+            "method": "使用工具",
+            "models": null,
+            "pricing": "未知"
+          },
+          {
+            "name": "redtiger",
+            "method": "使用工具",
+            "models": null,
+            "pricing": "未知"
+          }
+        ],
+        "pricing": "未知",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目宣发材料大量运用神秘的终端命令行和黑客风格UI元素，营造了强烈且独特的科技感氛围。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启数少且无关闭记录，项目尚处于预热或内部开发阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-11T06:23:01.902Z"
+    },
+    {
+      "owner": "jwangkun",
+      "repo": "claude-for-financial-services-cn",
+      "fullName": "jwangkun/claude-for-financial-services-cn",
+      "description": " 63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-07T15:45:23Z",
+      "url": "https://github.com/jwangkun/claude-for-financial-services-cn",
+      "analysis": {
+        "positioning": "Claude 金融 AI 助手，专为 A 股打造。",
+        "useCases": [
+          "你写茅台年报点评 → 它帮你按中金格式生成 A 股年报点评。",
+          "你建比亚迪 DCF 模型 → 它帮你用中债无风险利率构建模型。",
+          "你做行业投资策略 → 它帮你分析 A 股半导体行业，生成投资策略。",
+          "你做路演 PPT → 它帮你生成 .pptx 文件或刷新 PPT 图表数据。"
+        ],
+        "audience": "A 股市场的金融从业者，如投研分析师、基金经理、投行人士，需借助 AI 提效专业工作。",
+        "quickStart": {
+          "prerequisites": "已安装 @anthropic-ai/claude-code (npm 包)",
+          "steps": [
+            "添加插件市场：claude plugin marketplace add jwangkun/claude-for-financial-services-cn",
+            "安装全量技能包：claude plugin install china-finance@claude-for-financial-services-cn 或按需安装垂直领域技能包"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "原版 Claude 金融技能包 (Anthropic 官方)",
+            "method": "直接使用官方 Claude 金融技能（面向华尔街市场）",
+            "models": "Claude",
+            "pricing": "取决于 Claude API 费用"
+          }
+        ],
+        "pricing": "免费（开源项目本身），需支付 Claude API 调用费用和 Wind/iFind 等数据源费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度专注于 A 股金融领域，提供了大量实用的专业技能包（63个），解决了特定用户群体的痛点，上手流程清晰，适配国内数据源和准则。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚开源，目前 Issues 均未开启/关闭，社区活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-11T06:23:18.090Z"
     }
   ]
 }
