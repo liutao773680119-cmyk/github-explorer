@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-11T06:23:18.109Z",
+  "updatedAt": "2026-06-12T06:17:10.155Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -47750,6 +47750,338 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-11T06:23:18.090Z"
+    },
+    {
+      "owner": "joeseesun",
+      "repo": "qiaomu-ai-prd",
+      "fullName": "joeseesun/qiaomu-ai-prd",
+      "description": "Turn one-line product ideas into AI-implementable PRDs with speed-read cards, constraint layers, overdelivery ideas, metrics, and acceptance scripts.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-12T02:38:55Z",
+      "url": "https://github.com/joeseesun/qiaomu-ai-prd",
+      "analysis": {
+        "positioning": "将模糊产品想法转化为AI可执行PRD",
+        "useCases": [
+          "你只有一句产品想法 → 它帮你生成AI可编程的完整PRD",
+          "你面对AI编程助手 → 它帮你清晰定义需求细节和技术架构",
+          "你需要产品决策 → 它替你做产品判断，并细化为可执行方案"
+        ],
+        "audience": "产品经理、独立开发者，或任何想通过AI编程助手高效落地产品创意的人。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js，agent支持本地skills目录，当前工作区可写。",
+          "steps": [
+            "运行`npx skills add joeseesun/qiaomu-ai-prd`安装",
+            "通过`qiaomu-ai-prd`命令结合你的产品想法生成PRD"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (开源项目)",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目核心是把模糊的想法转化为严谨、可执行的PRD，强调结构化、产品判断和详细规范，与Vibe Coding的随意性与探索性相悖。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue统计显示目前无开放或关闭Issue，项目可能较新或社区互动主要在其他平台。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-12T06:14:40.835Z"
+    },
+    {
+      "owner": "corerajsack52",
+      "repo": "discord-dpi-fix-2026",
+      "fullName": "corerajsack52/discord-dpi-fix-2026",
+      "description": "⬇ discord-dpi-fix-2026.rar в Releases · #discord #dpi #fix #zapret-discord-youtube #rkn-bypass #no-vpn #dpi-fix #russia-bypass #unblock-discord #discord-not-working",
+      "language": "HTML",
+      "topics": [
+        "automation",
+        "bypass",
+        "connecting-fix",
+        "discord",
+        "discord-fix",
+        "discord-not-working",
+        "dpi",
+        "dpi-bypass",
+        "dpi-fix",
+        "fix",
+        "goodbyedpi",
+        "no-vpn",
+        "python",
+        "rkn-bypass",
+        "russia",
+        "russia-bypass",
+        "tool",
+        "unblock-discord",
+        "windivert",
+        "zapret-discord-youtube"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-12T02:21:20Z",
+      "url": "https://github.com/corerajsack52/discord-dpi-fix-2026",
+      "analysis": {
+        "positioning": "专为俄罗斯用户，一键解决Discord等服务的DPI限制。",
+        "useCases": [
+          "你在俄罗斯使用Discord时语音连接、RTC无限加载 → 它帮你修复语音和RTC连接，确保通话流畅。",
+          "你在俄罗斯使用Discord时图片、GIF无法加载或客户端显示空白 → 它帮你解决媒体内容加载问题，恢复正常使用。",
+          "你在俄罗斯无法访问YouTube、Telegram等服务 → 它提供独立的修复程序，一键绕过其他服务的DPI限制。"
+        ],
+        "audience": "俄罗斯地区用户，希望免VPN绕过政府DPI审查，正常使用Discord、YouTube和Telegram等在线服务。",
+        "quickStart": {
+          "prerequisites": "Windows 10 或 11 操作系统",
+          "steps": [
+            "打开项目Releases页面，下载最新版 `discord-dpi-fix-2026.rar` 压缩包。",
+            "解压后，运行 `Исправить-Discord.exe` （修复Discord），或根据需要选择 `Исправить-YouTube.exe` 等程序。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "GoodbyeDPI",
+            "method": "命令行工具，需要手动配置和启动",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "VPN服务",
+            "method": "安装客户端，通过加密隧道连接",
+            "models": "N/A",
+            "pricing": "多数付费，部分提供免费额度"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，解决用户痛点；README清晰详尽，有明确的使用指引和FAQ；考虑了杀毒软件误报情况并给出解决方案；打包方便，无需复杂配置，用户体验良好。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue活跃度低，无公开问题报告或讨论记录。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-12T06:15:00.102Z"
+    },
+    {
+      "owner": "corerajsack52",
+      "repo": "discord-sticker-fix-2026",
+      "fullName": "corerajsack52/discord-sticker-fix-2026",
+      "description": "⬇ discord-sticker-fix-2026.rar в Releases · #discord #sticker #fix #zapret-discord-youtube #rkn-bypass #no-vpn #dpi-fix #russia-bypass #unblock-discord #discord-not-working",
+      "language": "HTML",
+      "topics": [
+        "automation",
+        "bypass",
+        "connecting-fix",
+        "discord",
+        "discord-fix",
+        "discord-not-working",
+        "dpi-bypass",
+        "dpi-fix",
+        "fix",
+        "goodbyedpi",
+        "no-vpn",
+        "python",
+        "rkn-bypass",
+        "russia",
+        "russia-bypass",
+        "sticker",
+        "tool",
+        "unblock-discord",
+        "windivert",
+        "zapret-discord-youtube"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-12T03:29:06Z",
+      "url": "https://github.com/corerajsack52/discord-sticker-fix-2026",
+      "analysis": {
+        "positioning": "专为俄罗斯用户解决Discord、YouTube等服务连接问题的免VPN DPI绕过工具。",
+        "useCases": [
+          "你身处俄罗斯，Discord语音/视频/图片加载缓慢或无法连接 → 它帮你恢复Discord服务正常使用。",
+          "你无法访问被RKN屏蔽的YouTube等服务 → 它提供免VPN方案以绕过网络审查。",
+          "你不想手动配置复杂的DPI绕过工具 → 它提供一键运行的便携式解决方案。"
+        ],
+        "audience": "居住在俄罗斯，因网络审查（RKN）导致Discord、YouTube、Telegram等服务无法正常使用，且寻求简单、免VPN解决方案的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10 或 11 操作系统",
+          "steps": [
+            "访问项目的Releases页面。",
+            "下载 `discord-sticker-fix-2026.rar` 压缩包。",
+            "运行压缩包内的 `Исправить-Discord.exe`（用于修复Discord，或选择其他服务对应的EXE）。"
+          ],
+          "note": "杀毒软件可能将底层WinDivert组件误报为`RiskTool`，请将项目文件夹添加到杀毒软件的白名单中。"
+        },
+        "competitors": [
+          {
+            "name": "VPN服务",
+            "method": "安装VPN客户端，连接服务器。",
+            "models": null,
+            "pricing": "付费为主，部分提供免费试用"
+          },
+          {
+            "name": "GoodbyeDPI",
+            "method": "下载并手动配置运行，需命令行操作。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Zapret (手动配置)",
+            "method": "下载并手动配置运行，需命令行操作。",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目将复杂的网络DPI绕过技术封装为一键运行的EXE文件，极大简化了用户操作，提供了“无需配置，即刻解决问题”的体验，提升了技术使用的便捷性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issues 开启 0 / 已关闭 0，暂无用户反馈或贡献记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-12T06:15:50.940Z"
+    },
+    {
+      "owner": "corerajsack52",
+      "repo": "discord-update-fix-2026",
+      "fullName": "corerajsack52/discord-update-fix-2026",
+      "description": "⬇ discord-update-fix-2026.rar в Releases · #discord #update #fix #zapret-discord-youtube #rkn-bypass #no-vpn #dpi-fix #russia-bypass #unblock-discord #discord-not-working",
+      "language": "HTML",
+      "topics": [
+        "automation",
+        "bypass",
+        "connecting-fix",
+        "discord",
+        "discord-fix",
+        "discord-not-working",
+        "dpi-bypass",
+        "dpi-fix",
+        "fix",
+        "goodbyedpi",
+        "no-vpn",
+        "python",
+        "rkn-bypass",
+        "russia",
+        "russia-bypass",
+        "tool",
+        "unblock-discord",
+        "update",
+        "windivert",
+        "zapret-discord-youtube"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-12T03:06:26Z",
+      "url": "https://github.com/corerajsack52/discord-update-fix-2026",
+      "analysis": {
+        "positioning": "解决俄罗斯地区Discord等服务DPI封锁的便携修复工具。",
+        "useCases": [
+          "你在俄罗斯使用Discord语音通话，遇到“正在验证语音连接”或连接中断 → 它帮你恢复流畅的语音通话。",
+          "你在Discord看不到图片、GIF或客户端显示为空白 → 它帮你正常加载所有媒体内容和客户端界面。",
+          "你在俄罗斯因为网络审查导致Discord无法连接 → 它帮你绕过DPI审查，恢复Discord正常使用。"
+        ],
+        "audience": "在俄罗斯或其他受DPI审查地区，因网络限制无法正常使用Discord语音、媒体或连接的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 操作系统",
+          "steps": [
+            "打开项目 Releases 页面",
+            "下载 `discord-update-fix-2026.rar` 文件",
+            "解压后运行 `Исправить-Discord.exe` (修复-Discord.exe)"
+          ],
+          "note": "Zapret 使用 WinDivert 技术，可能被杀毒软件误报为 `RiskTool` 或 `WinDivert`，需将程序所在文件夹添加至杀毒软件例外。请仅从本项目的 Releases 页面下载，谨防伪造。"
+        },
+        "competitors": [
+          {
+            "name": "VPN服务 (如ProtonVPN, ExpressVPN)",
+            "method": "安装客户端，连接VPN服务器",
+            "models": "N/A (服务)",
+            "pricing": "通常订阅制，有免费/试用"
+          },
+          {
+            "name": "GoodbyeDPI (底层工具)",
+            "method": "手动下载并运行命令行工具进行配置",
+            "models": "N/A (工具)",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "Zapret (底层工具)",
+            "method": "手动下载并运行命令行工具进行配置",
+            "models": "N/A (工具)",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目直接解决了特定地区用户因网络审查导致Discord等服务无法访问的痛点，提供了简单易用的便携式解决方案，用户体验导向明确，信息清晰，且提供了多服务修复。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue活跃度较低（0开启/0关闭），可能因项目简单易用或用户直接使用。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-12T06:16:11.750Z"
+    },
+    {
+      "owner": "JFGAtlas",
+      "repo": "aethergate-pro",
+      "fullName": "JFGAtlas/aethergate-pro",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-07T07:57:03Z",
+      "url": "https://github.com/JFGAtlas/aethergate-pro",
+      "analysis": {
+        "positioning": "企业级高可用VPN/代理网关管理，解决VPS上路由冲突和SSH断线。",
+        "useCases": [
+          "你直接在VPS上运行VPN网关 → 它通过网络命名空间隔离，防止SSH断线和路由污染。",
+          "你需要稳定可靠的代理服务并过滤不良IP → 它提供自愈监控、单端口多协议代理和诈骗分数过滤。",
+          "你希望可视化管理和监控代理节点 → 它提供现代玻璃质感Web仪表盘及实时诊断。"
+        ],
+        "audience": "代理网络工程师，或需要在Linux VPS上稳定、高效部署和管理VPN/代理服务的技术人员。",
+        "quickStart": {
+          "prerequisites": "拥有VPS的root权限 (推荐Ubuntu 20.04/22.04+ 或 Debian 11+)。",
+          "steps": [
+            "通过SSH连接到VPS。",
+            "将项目代码库克隆到VPS目录。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目专注于解决VPS上VPN/代理的实际痛点，通过网络命名空间隔离、自愈监控、诈骗IP过滤、单端口多协议支持和美观仪表盘等功能，提供了企业级稳定易用的解决方案，架构设计清晰且专业。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚可，有一定星标，但Issue开启数少（3个）且无已关闭记录，后续活跃度待观察。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-12T06:16:55.124Z"
+    },
+    {
+      "owner": "yux1azhengye",
+      "repo": "BestSerenitySkillFromAT",
+      "fullName": "yux1azhengye/BestSerenitySkillFromAT",
+      "description": "BestSerenityFromAT(AlphaTerminal On The Way)",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-06T15:09:20Z",
+      "url": "https://github.com/yux1azhengye/BestSerenitySkillFromAT",
+      "analysis": {
+        "positioning": "整合Serenity供应链卡点投资策略精华，打造终极分析框架。",
+        "useCases": [
+          "你想学习Serenity投资法 → 它帮你理解并掌握供应链卡点策略。",
+          "你想寻找潜在高收益股票 → 它帮你分析供应链关键节点，识别暴击机会。",
+          "你想生成投资分析报告 → 它提供报告模板和知识库，助你高效输出。"
+        ],
+        "audience": "深度价值投资者、量化策略研究员，或对Serenity投资法感兴趣的股民，用于挖掘供应链关键节点高成长股。",
+        "quickStart": {
+          "prerequisites": "一个支持调用自定义Agent或Prompt的LLM平台账户",
+          "steps": [
+            "访问项目SKILL.md文件",
+            "根据你使用的LLM平台，复制并执行对应的“一行安装”指令"
+          ],
+          "note": "该指令将把Serenity投资策略框架部署到你的LLM环境中。"
+        },
+        "competitors": [],
+        "pricing": "免费。项目本身开源免费，但使用LLM服务可能产生费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目围绕特定投资方法论构建，高度垂直于量化金融和AI Agent能力集成，追求高收益“暴击机会”，有极客和社群深度研究的氛围。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，目前只有1个已关闭Issue，可能社区交流主要在其他平台。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-12T06:17:10.140Z"
     }
   ]
 }
