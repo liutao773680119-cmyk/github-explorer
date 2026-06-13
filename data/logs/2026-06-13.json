@@ -1,0 +1,116 @@
+{
+  "version": "1",
+  "date": "2026-06-13",
+  "startedAt": "2026-06-13T05:57:58.618Z",
+  "finishedAt": "2026-06-13T06:03:37.541Z",
+  "durationSeconds": 339,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 11,
+    "skipped": 94,
+    "geminiCalls": 22,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-06-13T05:58:02.209Z",
+      "level": "warn",
+      "project": "gsgpkazqyx/zapret-vpn-russia",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:07.107Z",
+      "level": "warn",
+      "project": "joeseesun/qiaomu-goal-meta-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:13.164Z",
+      "level": "warn",
+      "project": "NuvioMedia/NuvioDesktop",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:17.509Z",
+      "level": "warn",
+      "project": "Danilaa1/slot-text",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:38.151Z",
+      "level": "warn",
+      "project": "XBuilderLAB/cheat-on-money",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:43.846Z",
+      "level": "warn",
+      "project": "BuilderIO/skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:47.054Z",
+      "level": "warn",
+      "project": "lenucksi/aur-malware-check",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:50.196Z",
+      "level": "warn",
+      "project": "inbrainfun/inbrain",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:00:53.221Z",
+      "level": "warn",
+      "project": "valkor-ai/loom",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:01:15.714Z",
+      "level": "warn",
+      "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-13T06:03:35.405Z",
+      "level": "warn",
+      "project": "anthropics/skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

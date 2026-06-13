@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-12T06:17:10.155Z",
+  "updatedAt": "2026-06-13T06:03:32.992Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -48082,6 +48082,530 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-12T06:17:10.140Z"
+    },
+    {
+      "owner": "DietrichGebert",
+      "repo": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-12T00:52:37Z",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "analysis": {
+        "positioning": "让AI Agent像资深老鸟一样思考，写更少、更好的代码。",
+        "useCases": [
+          "你让AI Agent生成复杂组件 → 它引导AI优先使用原生或已有功能，避免冗余代码和引入不必要的依赖。",
+          "你希望AI代码遵循YAGNI（你不需要它）原则 → 它帮助AI在编写前思考“是否真的需要存在”，减少过度设计。",
+          "你审查AI生成的代码发现冗余 → 它提供审查工具（`/ponytail-review`），辅助AI定位并删除可精简的代码。"
+        ],
+        "audience": "适合AI Agent开发者、Prompt工程师，以及任何希望AI代码输出更简洁、高效和遵循最佳实践的编程人员。",
+        "quickStart": {
+          "prerequisites": "已安装支持的AI Agent平台（如Cursor、Windsurf）",
+          "steps": [
+            "在Agent插件市场中添加：`/plugin marketplace add DietrichGebert/ponytail`",
+            "安装插件：`/plugin install ponytail@ponytail`"
+          ],
+          "note": "对于Copilot、Aider等其他AI工具，需复制项目提供的相应规则文件（例如`.github/copilot-instructions.md`）到对应目录以启用。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "AI代码生成与补全",
+            "models": "多种LLM",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Cursor",
+            "method": "集成AI功能的IDE，提供代码生成与重构",
+            "models": "GPT-4, Claude等",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心理念、文案、Logo甚至名字都完美诠释了“懒惰且高效”的资深开发者形象，充满了幽默感和对工程最佳实践的致敬，是Vibe Coding的典范。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量不多（开启1/关闭3），但关闭率高，说明项目维护者对现有问题响应及时，社区活跃度适中。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-13T05:58:26.803Z"
+    },
+    {
+      "owner": "SkyBlue997",
+      "repo": "enableMacosAI",
+      "fullName": "SkyBlue997/enableMacosAI",
+      "description": "国行 Mac 一键开启完整 Apple 智能(端侧 + Private Cloud Compute 云端)· macOS 27 / Apple Silicon",
+      "language": "Shell",
+      "topics": [
+        "apple-intelligence"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-10T13:23:39Z",
+      "url": "https://github.com/SkyBlue997/enableMacosAI",
+      "analysis": {
+        "positioning": "国行Mac一键开启完整Apple智能（端侧+云端）。",
+        "useCases": [
+          "你拥有国行Mac，想体验Apple Intelligence的全套功能（包括云端PCC） → 它能绕过区域限制，一键开启端侧和Private Cloud Compute的完整Apple智能。",
+          "你不想手动配置复杂的系统参数（如SIP、kext加载、启动项） → 它提供一键安装脚本，自动完成所有必要设置，并帮你体检。",
+          "你在安装Apple Intelligence后遇到问题或想了解状态 → 它提供`status`命令进行系统体检，方便排查问题并提供解决方案。"
+        ],
+        "audience": "国行Mac用户，希望完整体验Apple Intelligence的写作工具、图乐园、Genmoji等高级功能，且不介意关闭SIP。",
+        "quickStart": {
+          "prerequisites": "SIP 已关闭（需在恢复模式执行 `csrutil disable`）；AMFI 必须开启（`boot-args`不能有`amfi_get_out_of_my_way=1`）；Apple 账户「媒体与购买项目」地区须为Apple智能支持区（如美国/日本）；系统语言和Siri语言需一致，且为Apple智能支持语言（推荐English US）。",
+          "steps": [
+            "在恢复模式（1TR）中执行 `csrutil disable` 关闭 SIP 并允许第三方kext",
+            "运行 `sudo ./install.sh` 进行一键安装",
+            "首次安装后，前往「系统设置 → 隐私与安全性」点击“允许”，然后重启Mac"
+          ],
+          "note": "安装成功后若Apple智能仍未完全启用，请使用`sudo ./install.sh status`体检，并重点检查Apple账户地区和系统/Siri语言设置是否符合要求。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，提供一键安装/卸载脚本和详细的原理说明、前置条件与验证方法。针对macOS新版本（27）的Apple Intelligence机制进行了深入研究，通过内核扩展从IORegistry源头修改区域码，技术实现巧妙且直观。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度尚可，有未解决问题但也有积极处理。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-13T05:58:43.970Z"
+    },
+    {
+      "owner": "plannotator",
+      "repo": "effective-html",
+      "fullName": "plannotator/effective-html",
+      "description": "Agent skill for elegant and simple html plans, architecture diagrams, or whatever else you can think of.",
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-09T23:24:51Z",
+      "url": "https://github.com/plannotator/effective-html",
+      "analysis": {
+        "positioning": "AI Agent专属HTML可视化技能包，生成优雅图表和计划。",
+        "useCases": [
+          "你想要AI Agent生成架构图 → 它帮你生成高质量SVG驱动的全屏HTML架构图。",
+          "你需要AI Agent提供项目计划 → 它帮你生成符合“有效HTML”风格的HTML计划页面。",
+          "你让AI Agent描述概念 → 它帮你输出简洁、自包含的有效HTML文件。"
+        ],
+        "audience": "适合需要AI Agent直接生成标准化、视觉化HTML文档（如架构图、项目计划）的开发者和架构师。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js及npm/npx",
+          "steps": [
+            "npx skills add plannotator/effective-html",
+            "npx skills add plannotator/effective-html --skill html-diagram"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Mermaid.js",
+            "method": "文本转图（Markdown语法）",
+            "models": null,
+            "pricing": "免费开源"
+          },
+          {
+            "name": "PlantUML",
+            "method": "文本转图（特定语法）",
+            "models": null,
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于为AI Agent提供生成高品质HTML视觉输出（图表、计划）的实用能力，避免Agent“瞎编”复杂前端代码，直接输出简洁有效的视觉成果。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前仅有少量Issue，项目可能较新或维护者响应迅速。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-13T05:58:59.277Z"
+    },
+    {
+      "owner": "levy-street",
+      "repo": "world-of-claudecraft",
+      "fullName": "levy-street/world-of-claudecraft",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-10T05:55:59Z",
+      "url": "https://github.com/levy-street/world-of-claudecraft",
+      "analysis": {
+        "positioning": "自建/可离线，魔兽世界怀旧服风格微型MMO。",
+        "useCases": [
+          "你想体验怀旧MMO → 它让你即刻在线或离线畅玩。",
+          "你想搭建私人游戏服务器 → 它提供一键Docker部署方案。",
+          "你想参与MMO游戏开发 → 它支持热重载和客户端/服务器协作开发。"
+        ],
+        "audience": "怀旧MMO玩家、游戏开发者以及希望自建定制游戏世界的极客。",
+        "quickStart": {
+          "prerequisites": "Docker环境",
+          "steps": [
+            "拷贝配置文件并编辑 `POSTGRES_PASSWORD`: `cp .env.example .env`",
+            "一键启动Postgres和游戏服务器: `docker compose up -d --build`",
+            "访问 `http://localhost:8787` 即可开始游戏"
+          ],
+          "note": "远程部署推荐配置TLS反向代理；开发模式支持热重载，方便快速迭代。"
+        },
+        "competitors": [
+          {
+            "name": "AzerothCore",
+            "method": "C++编写，通过编译搭建WoW怀旧服仿真服务器。",
+            "models": "支持WoW游戏客户端连接。",
+            "pricing": "免费 (开源)"
+          }
+        ],
+        "pricing": "免费 (MIT许可，开源项目)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档详尽，架构清晰（确定性模拟核心），部署和开发流程友好。提供了丰富的截图和Discord社区，易于上手和扩展。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue活跃度较低 (开启7/关闭2)，但提供了Discord社区链接，可能在该平台更为活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-13T05:59:16.630Z"
+    },
+    {
+      "owner": "khrisat",
+      "repo": "text-humanizer",
+      "fullName": "khrisat/text-humanizer",
+      "description": "Advanced open-source AI humanizer designed to make AI-generated text undetectable by Turnitin, GPTZero, and other AI detection services.",
+      "language": "Python",
+      "topics": [
+        "ai-detection",
+        "ai-detection-bypasser",
+        "ai-humanizer",
+        "humanizer",
+        "humanizer-ai",
+        "humanizer-de",
+        "text-humanizer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-09T18:11:45Z",
+      "url": "https://github.com/khrisat/text-humanizer",
+      "analysis": {
+        "positioning": "让AI生成文本绕过检测，更像人写。",
+        "useCases": [
+          "学生用AI写作业 → 避免被Turnitin等检测服务发现",
+          "内容创作者用AI生成文章 → 提高原创度，避免被AI标签",
+          "开发者需要AI生成文本 → 获得自然、不易被识别的文本输出"
+        ],
+        "audience": "需要让AI生成内容规避检测（如学生、内容创作者）的用户。",
+        "quickStart": {
+          "prerequisites": "Python环境（pip）和DeepSeek API Key",
+          "steps": [
+            "git clone https://github.com/khrisat/text-humanizer.git",
+            "cd text-humanizer",
+            "pip install -r requirements.txt",
+            "copy .\\config\\config.example.toml .\\config.toml",
+            "编辑 config.toml 配置 DeepSeek API key",
+            "python main.py"
+          ],
+          "note": "Windows/Linux/MacOS平台通用，copy命令在Linux/MacOS上通常为cp"
+        },
+        "competitors": [],
+        "pricing": "免费（需自备DeepSeek等LLM API Key）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙利用多语言LLM翻译链（DeepSeek → Google Translate → DeepL → DeepSeek）进行语义等价转换，以此打乱文本结构，规避AI检测，具有逆向工程的巧妙性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前无开启或关闭的Issue记录。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-13T05:59:30.492Z"
+    },
+    {
+      "owner": "ziqihe10-droid",
+      "repo": "xuefeng-agent",
+      "fullName": "ziqihe10-droid/xuefeng-agent",
+      "description": "AI 高考志愿顾问 — 会追问、会分析、敢说真话",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-07T15:33:07Z",
+      "url": "https://github.com/ziqihe10-droid/xuefeng-agent",
+      "analysis": {
+        "positioning": "基于海量高考数据与方法论，提供深度分析和直言建议的AI志愿顾问。",
+        "useCases": [
+          "你物理类580分想去武汉学计算机 → 它帮你分析位次、推荐冲稳保院校专业，并提示行业风险。",
+          "你文科生分数不高想考公 → 它帮你规划考公方向、推荐专业院校，并提醒复习重点。",
+          "你家庭有电力资源想进电网 → 它帮你精准筛选电力优势院校专业，并强调能力重要性。"
+        ],
+        "audience": "面临高考志愿填报困境，寻求专业、务实、敢言建议的高中生、家长及教育工作者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Git环境",
+          "steps": [
+            "1. `git clone ziqihe10-droid/xuefeng-agent`",
+            "2. 安装项目依赖 (例如 `pip install -r requirements.txt`)",
+            "3. 运行主程序 (例如 `python main.py` 或参考项目文档启动)"
+          ],
+          "note": "项目目前需本地部署运行，未提供在线演示或一键部署方案。"
+        },
+        "competitors": [
+          {
+            "name": "通用大语言模型 (如 ChatGPT)",
+            "method": "对话式交互",
+            "models": "GPT系列、文心一言等通用模型",
+            "pricing": "部分免费/订阅付费"
+          }
+        ],
+        "pricing": "免费 (代码基于MIT许可证开源)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述直接、内容扎实、案例分析深度且敢于直言不讳（如劝退金融），体现了很强的专业性和实用主义精神。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 7 / 已关闭 0。项目活跃度较低，可能处于早期开发阶段或维护者尚未及时处理反馈。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-13T05:59:50.605Z"
+    },
+    {
+      "owner": "jmmy9609-design",
+      "repo": "gpt-pp",
+      "fullName": "jmmy9609-design/gpt-pp",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-09T11:05:36Z",
+      "url": "https://github.com/jmmy9609-design/gpt-pp",
+      "analysis": {
+        "positioning": "PayPal零额提链控制台，智能收单转化网关。",
+        "useCases": [
+          "你需在Stripe会话中提取PayPal支付链接 → 它能自动核对商户并安全转化提取。",
+          "你做支付系统风控研究 → 它提供零额隔离、住宅代理调度等防风控参考实现。",
+          "你需学习网络协议分析与接口逆向 → 它展示Stripe/PayPal支付流程的关键上下文拦截与处理。"
+        ],
+        "audience": "支付安全研究员、网络协议分析师、开发者，用于学习支付系统防风控与接口逆向。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "macOS/Linux: chmod +x start.sh && ./start.sh",
+            "Windows: 双击 start.bat"
+          ],
+          "note": "脚本自动完成环境配置、依赖安装并打开管理后台。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目因源码泄露而开源，README中“特别感谢某位热心大佬为我们上了生动一课”，这种坦诚且带有幽默感的自嘲，展现了独特的开源态度和Vibe。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为1开0关，表明社区互动尚处于起步阶段，或项目刚开放。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-13T06:00:01.617Z"
+    },
+    {
+      "owner": "coder",
+      "repo": "boo",
+      "fullName": "coder/boo",
+      "description": "A GNU screen style terminal multiplexer built on libghostty.",
+      "language": "Zig",
+      "topics": [
+        "ai",
+        "coding",
+        "ghostty",
+        "multiplexer",
+        "screen",
+        "terminal"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-10T01:53:01Z",
+      "url": "https://github.com/coder/boo",
+      "analysis": {
+        "positioning": "一个基于libghostty的终端复用器，专为AI自动化优化。",
+        "useCases": [
+          "你担心SSH断线丢失工作 → 它帮你保持终端会话持续运行，随时重新连接。",
+          "你需要管理多个终端会话 → 它提供全屏UI，方便查看和切换会话。",
+          "你想用AI或脚本自动化终端任务 → 它提供API，让程序像人一样精确读取和操作屏幕。"
+        ],
+        "audience": "终端用户、开发者、系统管理员，特别是需要为AI Agent提供精确终端交互能力的工程师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "curl -fsSL https://raw.githubusercontent.com/coder/boo/main/install.sh | sh",
+            "boo new"
+          ],
+          "note": "适用于Linux和macOS，可通过环境变量指定版本和安装路径。"
+        },
+        "competitors": [
+          {
+            "name": "GNU screen",
+            "method": "命令行工具",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "tmux",
+            "method": "命令行工具",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心特性明确指出支持“Agent-friendly automation primitives”，能让AI代理精确读取屏幕状态并进行自动化操作，与AI编程场景高度契合。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动极低，目前无开启中的Issue，总共关闭2个。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-13T06:00:31.335Z"
+    },
+    {
+      "owner": "google-labs-code",
+      "repo": "design.md",
+      "fullName": "google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-10T17:54:59Z",
+      "url": "https://github.com/google-labs-code/design.md",
+      "analysis": {
+        "positioning": "定义设计系统格式，赋能AI代码代理理解视觉识别。",
+        "useCases": [
+          "你希望AI代码代理能理解你的设计规范 → 它提供统一的DESIGN.md格式，让代理结构化理解设计系统。",
+          "你管理一个设计系统 → 它帮你校验DESIGN.md文件，检查WCAG对比度、捕捉结构问题。",
+          "你需要追踪设计系统的版本迭代 → 它帮你比较不同DESIGN.md文件，检测代币和文本变化，发现设计回归。"
+        ],
+        "audience": "希望将设计规范自动化、智能化地传递给开发和AI代码代理的设计师、前端开发者、设计系统架构师。",
+        "quickStart": {
+          "prerequisites": "Node.js (NPM/PNPM/Yarn)",
+          "steps": [
+            "创建或获取一个DESIGN.md文件，包含YAML设计代币和Markdown设计理念。",
+            "运行 `npx @google/design.md lint DESIGN.md` 验证设计系统规范和WCAG对比度。",
+            "运行 `npx @google/design.md diff DESIGN.md DESIGN-v2.md` 比较设计系统版本差异。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0 开源许可证，CLI 工具）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "它为AI代理理解和生成设计提供了一个创新的、标准化的“语言”，将机器可读的代币与人可读的解释结合，是未来AI辅助UI设计和开发的基础设施。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，Issue 关闭率接近 50%，项目有持续维护和问题解决。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-13T06:01:29.400Z"
+    },
+    {
+      "owner": "react",
+      "repo": "react",
+      "fullName": "react/react",
+      "description": "The library for web and native user interfaces.",
+      "language": "JavaScript",
+      "topics": [
+        "declarative",
+        "frontend",
+        "javascript",
+        "library",
+        "react",
+        "ui"
+      ],
+      "license": "MIT",
+      "createdAt": "2013-05-24T16:15:54Z",
+      "url": "https://github.com/react/react",
+      "analysis": {
+        "positioning": "声明式Web与原生UI构建利器。",
+        "useCases": [
+          "你需要开发复杂的交互式UI → 它帮你以声明式方式构建，高效更新和渲染，代码可预测易调试。",
+          "你想管理UI状态并复用代码 → 它帮你构建独立组件，封装状态，轻松组合复杂界面。",
+          "你希望一套代码跨平台（Web/移动端/服务器） → 它帮你“学一次，写到处”，无需重写代码。"
+        ],
+        "audience": "致力于高效构建声明式、组件化Web与原生UI的开发者及团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "初尝React：访问官网“Quick Start”或“Learn”页面。",
+            "添加到现有项目：根据官网指引集成React。",
+            "创建新项目：使用官方推荐的JavaScript工具链启动新应用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Vue.js",
+            "method": "UI构建框架/库",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Angular",
+            "method": "UI构建框架/库",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "现代Web和原生UI开发的主流选择，拥有庞大活跃的社区与生态，是生产力与影响力的双重标杆。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极高，每日有大量新Issue（开启1284），但关闭Issue为零（可能为数据统计偏差），整体维护积极。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-06-13T06:02:46.681Z"
+    },
+    {
+      "owner": "microsoft",
+      "repo": "markitdown",
+      "fullName": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "license": "MIT",
+      "createdAt": "2024-11-13T19:56:40Z",
+      "url": "https://github.com/microsoft/markitdown",
+      "analysis": {
+        "positioning": "LLM专属文档转换利器，将各类文件高效转为结构化Markdown。",
+        "useCases": [
+          "你处理PDF报告 → 它帮你转成Markdown，方便LLM快速摘要与理解。",
+          "你需要从Word/Excel/PPT中提取关键信息用于LLM分析 → 它帮你高效转为结构化Markdown，供LLM处理。",
+          "你集成LLM Agent → 它帮你将多媒体文件（图片/音频/视频链接）内容转为Markdown，拓宽Agent感知能力。"
+        ],
+        "audience": "LLM开发者、数据科学家及任何需要将非结构化文档高效转换为LLM友好Markdown格式的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.10或更高版本，推荐使用虚拟环境。",
+          "steps": [
+            "创建并激活虚拟环境（如：`python -m venv .venv`，`source .venv/bin/activate`）",
+            "安装MarkItDown：`pip install 'markitdown[all]'`"
+          ],
+          "note": "若使用`uv`，请用`uv venv`创建环境，并使用`uv pip install`安装包。"
+        },
+        "competitors": [
+          {
+            "name": "textract",
+            "method": "Python库，从各种文档中提取原始文本。",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "微软出品，高星级项目，支持多种文件类型转Markdown以适配LLM，功能强大。但开启了837个Issue而关闭数为0，社区活跃度和维护状态存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量庞大但无任何关闭记录，社区维护停滞或效率极低。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-13T06:03:32.971Z"
     }
   ]
 }
