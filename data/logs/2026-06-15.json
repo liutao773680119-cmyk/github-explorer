@@ -1,0 +1,107 @@
+{
+  "version": "1",
+  "date": "2026-06-15",
+  "startedAt": "2026-06-15T06:57:34.396Z",
+  "finishedAt": "2026-06-15T07:01:28.126Z",
+  "durationSeconds": 234,
+  "success": true,
+  "stats": {
+    "fetched": 107,
+    "newProjects": 9,
+    "skipped": 98,
+    "geminiCalls": 19,
+    "statsUpdated": 107
+  },
+  "errors": [
+    {
+      "time": "2026-06-15T06:59:57.382Z",
+      "level": "warn",
+      "project": "nolangz/pixel2motion",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:01.291Z",
+      "level": "warn",
+      "project": "mrtooher/fable-mode",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:05.192Z",
+      "level": "warn",
+      "project": "akula-atlasair/-zapret-discord-youtube",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:08.873Z",
+      "level": "warn",
+      "project": "BuilderIO/skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:12.902Z",
+      "level": "warn",
+      "project": "LearnPrompt/luban-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:16.192Z",
+      "level": "warn",
+      "project": "royalbhati/sqltoerdiagram",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:19.225Z",
+      "level": "warn",
+      "project": "eli-labz/Third-Eye",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:22.475Z",
+      "level": "warn",
+      "project": "skydoves/compose-nav-graph",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:00:46.679Z",
+      "level": "warn",
+      "project": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-15T07:01:24.478Z",
+      "level": "warn",
+      "project": "anthropics/skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

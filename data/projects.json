@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-14T06:22:50.754Z",
+  "updatedAt": "2026-06-15T06:59:52.704Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -49753,6 +49753,386 @@
         "category": "前端框架"
       },
       "analyzedAt": "2026-06-14T06:22:50.736Z"
+    },
+    {
+      "owner": "thamer4a-afk",
+      "repo": "VelocityRobloxExecutor",
+      "fullName": "thamer4a-afk/VelocityRobloxExecutor",
+      "description": "Better scripts executor for Roblox 2026.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-15T06:47:32Z",
+      "url": "https://github.com/thamer4a-afk/VelocityRobloxExecutor",
+      "analysis": {
+        "positioning": "免费、无需Key的Roblox脚本执行器，主打高性能与易用性。",
+        "useCases": [
+          "你希望在Roblox中运行复杂脚本（如GUI、高级指令） → 它提供Level 8脚本支持和快速注入引擎，帮你无缝实现。",
+          "你厌倦了Roblox执行器中烦人的Key系统和广告 → 它提供无Key、无广告体验，让你直接启动并注入。",
+          "你追求脚本执行的安全性和稳定性，并希望始终兼容Roblox最新版本 → 它承诺频繁更新和轻量安全的沙盒环境，确保最佳体验。"
+        ],
+        "audience": "适合希望在Roblox中运行自定义脚本、追求无Key无广告体验的PC（Windows 10/11）玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit推荐)",
+          "steps": [
+            "点击下载链接获取VelBlox.exe。",
+            "以管理员身份运行VelBlox.exe。",
+            "打开Roblox，然后注入并运行你的Lua脚本。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能全面，针对Roblox脚本执行痛点（如Key系统、广告）提供无障碍体验，支持高级脚本，且承诺频繁更新和轻量安全，对目标用户吸引力强。描述中多次提到“2026”可能旨在强调其未来兼容性，但实际效果待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub上Issues统计显示开启0/关闭0，社区活跃度极低或未通过GitHub Issues进行。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-15T06:57:46.972Z"
+    },
+    {
+      "owner": "Swarmchefill",
+      "repo": "CapC-Pro",
+      "fullName": "Swarmchefill/CapC-Pro",
+      "description": "CapCut Pro Studio (2026) - The ultimate high-performance video editing suite with all premium features unlocked. Experience 4K HDR exporting, AI-powered transitions, and a full professional asset library without limitations.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-15T03:11:01Z",
+      "url": "https://github.com/Swarmchefill/CapC-Pro",
+      "analysis": {
+        "positioning": "解锁CapCut专业功能的高性能视频剪辑套件。",
+        "useCases": [
+          "你想制作高质量视频并导出4K HDR → 它帮你无限制导出专业级视频。",
+          "你想快速添加炫酷特效和AI功能到视频 → 它帮你实现AI转场、背景移除和智能追踪。",
+          "你需要专业音频处理和社交媒体优化 → 它帮你进行音频编辑、一键适配平台。"
+        ],
+        "audience": "适合寻求CapCut专业版全部功能的内容创作者和视频制作专业人士。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 x64系统",
+          "steps": [
+            "下载ZIP包并解压到工作目录。",
+            "运行安装程序，按向导完成安装。"
+          ],
+          "note": "仅支持Windows x64平台。"
+        },
+        "competitors": [
+          {
+            "name": "CapCut Pro（官方版）",
+            "method": "官方渠道订阅/购买",
+            "features": "完整视频剪辑、AI特效、素材库",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费（提供CapCut Pro全部功能）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目声称提供CapCut Pro的全部付费功能，且直接提供可执行程序下载。这类项目存在潜在的版权风险、安全隐患（可能捆绑恶意软件），且稳定性无法保证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无Issue记录，也无活跃讨论迹象。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-15T06:58:01.364Z"
+    },
+    {
+      "owner": "alchaincyf",
+      "repo": "loop-engineering-orange-book",
+      "fullName": "alchaincyf/loop-engineering-orange-book",
+      "description": "别再问我什么是 Loop Engineering — 橙皮书系列。A plain-language guide to loop engineering (中文 + English PDF). Free.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-15T05:27:07Z",
+      "url": "https://github.com/alchaincyf/loop-engineering-orange-book",
+      "analysis": {
+        "positioning": "AI Agent系统化设计指南，告别手动Prompt。",
+        "useCases": [
+          "你手动驱动AI Agent → 它教你构建系统自动化Agent流程。",
+          "你想理解Loop Engineering → 它提供通俗易懂的定义和实践框架。",
+          "你面对复杂的Agent任务 → 它指导你设计可验证、自决策的循环系统。"
+        ],
+        "audience": "寻求提升AI Agent使用效率、从手动Prompt转向系统化设计的开发者和AI高级用户。",
+        "quickStart": {
+          "prerequisites": "具备AI Agent基础使用经验",
+          "steps": [
+            "访问GitHub项目页面",
+            "下载中文版或英文版PDF阅读"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "及时捕捉并清晰定义了AI Agent领域新兴概念“Loop Engineering”，内容权威且通俗易懂，为开发者提供了从“Harness”到“Loop”的进阶路径，具有前瞻性。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无Issue活跃度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-15T06:58:13.334Z"
+    },
+    {
+      "owner": "tamnd",
+      "repo": "kage",
+      "fullName": "tamnd/kage",
+      "description": "Shadow any website for offline viewing, with the JavaScript stripped out",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-14T11:21:55Z",
+      "url": "https://github.com/tamnd/kage",
+      "analysis": {
+        "positioning": "纯净离线网页克隆工具，剥离JS，确保内容持久访问。",
+        "useCases": [
+          "你想保存网页供未来离线阅读 → 它帮你克隆纯净无JS的静态网页，确保内容持久可用。",
+          "你需要离线或长期归档网页内容 → 它帮你生成可脱机浏览、不依赖原站的静态副本。",
+          "你希望阅读网页时无追踪无干扰 → 它帮你移除所有脚本，提供纯粹的阅读体验。"
+        ],
+        "audience": "任何需要离线、纯净、持久化保存网页内容的用户或开发者。",
+        "quickStart": {
+          "prerequisites": "本地需安装Chrome/Chromium（或使用Docker跳过此步骤）。",
+          "steps": [
+            "通过Go安装：`go install github.com/tamnd/kage/cmd/kage@latest`",
+            "克隆网站：`kage clone paulgraham.com`"
+          ],
+          "note": "也可使用Docker，无需本地安装Chrome：`docker run --rm -v \"$PWD/out:/out\" ghcr.io/tamnd/kage clone paulgraham.com`"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Go语言实现，性能高效。利用Headless Chrome保证网页渲染准确性，同时剥离JS，提供纯净持久的离线体验。文档详尽，安装灵活，社区有一定活跃度。",
+        "isVibeCoding": true,
+        "communityActivity": "有一定活跃度，Issue开闭比合理，项目处于积极维护状态。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-15T06:58:34.980Z"
+    },
+    {
+      "owner": "orange2ai",
+      "repo": "renwei-writing",
+      "fullName": "orange2ai/renwei-writing",
+      "description": "人味儿写作 · An AI agent skill: edit people's words without erasing the person behind them",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-12T21:45:48Z",
+      "url": "https://github.com/orange2ai/renwei-writing",
+      "analysis": {
+        "positioning": "为AI润色注入“人味儿”，避免文本僵硬。",
+        "useCases": [
+          "你写完初稿或口述内容 → AI改稿时，它帮你保留文字背后的个人风格和情感。",
+          "你让AI润色文章后觉得太生硬 → 它提供方法让AI的修改更自然、有温度，不失个性。",
+          "你担心AI改掉你的“存在感” → 它作为AI Agent技能，引导AI在修改中维持你的独特性。"
+        ],
+        "audience": "所有希望AI辅助写作但又不想失去文字个性的人，尤其是内容创作者、文案撰稿人、个人IP运营者。",
+        "quickStart": {
+          "prerequisites": "已安装Cola AI Agent框架",
+          "steps": [
+            "git clone https://github.com/orange2ai/renwei-writing.git ~/.cola/skills/renwei-writing"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "blader/humanizer",
+            "method": "将AI生成的文本进行人化处理",
+            "models": "Unknown",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "开源与个人用途免费，闭源商业用途需商业授权。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目直击AI辅助写作的痛点：AI改稿容易失去“人味儿”。作者通过自身经历，深入剖析问题本质（存在感缺失），并将其提炼为一套可用的“心法”和“技能”，不仅解决了问题，更分享了深刻的思考和实践经验，非常接地气且富有温度。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，Issue统计为0，社区活动暂未开始。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-15T06:58:48.046Z"
+    },
+    {
+      "owner": "loc567",
+      "repo": "loc567",
+      "fullName": "loc567/loc567",
+      "description": "loc567 是一款完全开源免费的纯网页端iOS模拟定位工具。在线体验地址：https://loc567.com",
+      "language": "C",
+      "topics": [],
+      "license": "LGPL-2.1",
+      "createdAt": "2026-06-11T06:05:29Z",
+      "url": "https://github.com/loc567/loc567",
+      "analysis": {
+        "positioning": "纯网页端iOS模拟定位工具，无需电脑越狱，兼容广且稳定。",
+        "useCases": [
+          "你是iOS开发者，需测试地图/定位功能 → 它帮你提供低成本、低风险的合法开发测试环境。",
+          "你需要绕过企业微信/钉钉等考勤定位 → 它帮你隐蔽模拟定位，避免检测（注意免责声明）。",
+          "你需要便捷的iOS虚拟定位，不想安装App或连接电脑 → 它帮你直接在Safari上操作，零安装成本。",
+          "你需要长时间稳定的iOS虚拟定位 → 它帮你网页切后台仍保活，不易掉线。"
+        ],
+        "audience": "iOS开发者用于定位功能测试，以及寻求合规或便捷虚拟定位解决方案的用户（需注意免责声明）。",
+        "quickStart": {
+          "prerequisites": "iPhone原生Safari浏览器；合规网络环境。",
+          "steps": [
+            "1. 用iPhone Safari访问官网loc567.com",
+            "2. 授予地理位置权限，搜索并开启模拟定位",
+            "3. 网页切后台，定位状态持续生效"
+          ],
+          "note": "非Safari浏览器或不合规网络将导致网页解析失败。"
+        },
+        "competitors": [
+          {
+            "name": "loc567",
+            "method": "纯网页端，Safari直接使用",
+            "models": "iOS12-iOS26",
+            "pricing": "免费"
+          },
+          {
+            "name": "市面同类定位软件",
+            "method": "部分需电脑，通常依赖巨魔TrollStore",
+            "models": "限制多，依赖特定环境",
+            "pricing": "大多收费"
+          }
+        ],
+        "pricing": "免费，个人非商用场景永久免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，功能定位明确，提供详尽使用说明及免责条款。C语言项目对贡献者要求较高，Issue活跃度一般。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，目前有2个开启和1个关闭，解决速度尚可。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-06-15T06:59:06.732Z"
+    },
+    {
+      "owner": "EEliberto",
+      "repo": "IPA-Download",
+      "fullName": "EEliberto/IPA-Download",
+      "description": "一款用于安装 IPA 历史版本的工具，适用于获取旧版应用并自动捕获数据包。下载后，可直接通过 AirDrop 传输至 iPhone、iPad 上并安装并使用。",
+      "language": "Swift",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-13T08:32:39Z",
+      "url": "https://github.com/EEliberto/IPA-Download",
+      "analysis": {
+        "positioning": "一站式IPA历史版本管理与下载工具。",
+        "useCases": [
+          "想找App Store旧版应用 → 它帮你下载指定IPA历史版本。",
+          "需分析App网络数据 → 它帮你下载同时自动捕获数据包。",
+          "下载IPA后想轻松安装 → 它帮你一键AirDrop至iOS设备并安装。",
+          "App Store跨区下载/多账户管理 → 它自动切换地区商店与Apple ID。",
+          "需要快速查找特定节日App图标 → 它帮你预览IPA图标并识别版本。"
+        ],
+        "audience": "适用于 macOS Apple 芯片用户，需要获取旧版 iOS 应用、分析数据包或管理多区 Apple ID 的开发者及普通用户。",
+        "quickStart": {
+          "prerequisites": "macOS 26+（注：此版本号疑为笔误），配备 Apple 芯片的 Mac。",
+          "steps": [
+            "前往“设置”>“Apple 账户”，添加并登录你的 Apple 账户，完成双重认证。",
+            "在主页面搜索App，选择所需的历史版本进行下载。",
+            "下载完成后，通过AirDrop传输至你的 iPhone/iPad 进行安装。"
+          ],
+          "note": "目前仅支持 macOS 26+ 和 Apple 芯片 Mac，无 Windows 版本计划。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能强大且细节完善，支持跨区下载、数据包捕获、AirDrop安装，UI精美。但其声明的macOS 26+系统要求（疑为笔误）目前限制了广泛使用，否则得分会更高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，8个已关闭Issue对比1个开启Issue，显示问题解决及时高效。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-06-15T06:59:22.387Z"
+    },
+    {
+      "owner": "DanMcInerney",
+      "repo": "architect-loop",
+      "fullName": "DanMcInerney/architect-loop",
+      "description": "Claude Fable 5 as architect, GPT-5.5 Codex as builder, the repo as memory - a research-backed Claude Code skill for the cross-vendor agent loop",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-12T01:54:12Z",
+      "url": "https://github.com/DanMcInerney/architect-loop",
+      "analysis": {
+        "positioning": "Claude规划GPT执行，基于Repo的跨厂商AI Agent开发。",
+        "useCases": [
+          "你想要自动化软件开发流程 → 它帮你用AI（Claude规划、GPT实现）管理从需求到集成的全链路。",
+          "你需要进行项目前期技术调研或决策 → 它帮你用AI（Claude设计、GPT研究）快速生成带引用的研究报告。",
+          "你寻求构建健壮、自监督的AI开发Agent → 它提供内置监督机制（如存活检查、卡顿排查）的结构化Agent循环。"
+        ],
+        "audience": "寻求AI（Claude+GPT）自动化开发流程的开发者、架构师及团队。",
+        "quickStart": {
+          "prerequisites": "已订阅Claude Code（付费计划），已订阅ChatGPT（用于Codex CLI登录），安装Codex CLI。",
+          "steps": [
+            "git clone https://github.com/DanMcInerney/architect-loop",
+            "cd architect-loop && ./install.sh"
+          ],
+          "note": "Windows用户使用`.\\install.ps1`，支持全局或项目内安装。"
+        },
+        "competitors": [
+          {
+            "name": "AutoGPT / BabyAGI",
+            "method": "接收高层目标，自主规划并执行任务",
+            "models": "多种LLM（如GPT-3.5/4）",
+            "pricing": "免费（API调用需付费）"
+          },
+          {
+            "name": "Devin (Cognition Labs)",
+            "method": "接收产品需求，自主完成软件工程任务",
+            "models": "内部专有模型",
+            "pricing": "未公开"
+          }
+        ],
+        "pricing": "付费（依赖现有Claude Code和ChatGPT订阅，无额外API Key费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，架构清晰地将规划（Claude）与实现（GPT）分离，并以代码仓库作为唯一记忆，结合了自监督机制，是AI Agent在软件开发领域落地的良好实践。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少（1开0关），社区活跃度有待观察，但项目有一定关注度（410 Star）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-15T06:59:38.571Z"
+    },
+    {
+      "owner": "inbrainfun",
+      "repo": "inbrain",
+      "fullName": "inbrainfun/inbrain",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-10T16:31:48Z",
+      "url": "https://github.com/inbrainfun/inbrain",
+      "analysis": {
+        "positioning": "AI驱动的自我进化预测情报网络，为预测市场提供记忆与智能。",
+        "useCases": [
+          "你手动创建预测市场 → 它帮你AI评估并筛选高质量市场",
+          "你依赖纯人工预测赔率 → 它帮你结合AI与众包智慧预测，实时更新",
+          "你只获取静态预测报告 → 它帮你提供每日AI报告、高潜力市场与趋势分析",
+          "你寻找传统市场缺乏的上下文 → 它帮你提供基于知识图谱的长期记忆与背景"
+        ],
+        "audience": "对社交信号分析、AI预测、量化交易及去中心化预测市场感兴趣的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Bun runtime环境, OpenAI API Key",
+          "steps": [
+            "克隆仓库并进入目录：git clone https://github.com/inbrain-ai/inbrain.git && cd inbrain",
+            "安装依赖：bun install",
+            "初始化本地脑：bun run dev init --pglite",
+            "启动预测引擎：bun run dev start",
+            "（可选）运行一次梦境循环：bun run dev dream"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Polymarket / Kalshi (传统预测市场)",
+            "method": "人工创建市场，纯众包赔率，人工审核结算，无记忆与学习能力。",
+            "models": "N/A",
+            "pricing": "交易手续费"
+          }
+        ],
+        "pricing": "核心代码免费开源，但运行需自备OpenAI API Key（按量付费）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目定位清晰，解决了传统预测市场无记忆、无学习的痛点。架构设计精妙，通过多Agent系统和‘梦境循环’实现自我进化，功能全面且具有前瞻性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低（1开0闭），可能项目较新或维护者主要在代码层面协作，社区参与度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-15T06:59:52.684Z"
     }
   ]
 }
