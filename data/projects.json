@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-15T06:59:52.704Z",
+  "updatedAt": "2026-06-16T07:06:44.741Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -50133,6 +50133,211 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-15T06:59:52.684Z"
+    },
+    {
+      "owner": "mrtooher",
+      "repo": "fable-mode",
+      "fullName": "mrtooher/fable-mode",
+      "description": "A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-13T05:33:14Z",
+      "url": "https://github.com/mrtooher/fable-mode",
+      "analysis": {
+        "positioning": "Claude大模型任务执行增强，分阶段规划、验证与自审，提升复杂任务完成质量。",
+        "useCases": [
+          "你让Claude处理横跨多个文档或数据源的复杂项目 → 它帮你规划任务分解、按步骤执行并交叉验证，确保结果一致性。",
+          "你需要Claude完成一项需要高可靠性、低错误率的复杂工作 → 它强制Claude进行分阶段规划、每阶段验证和最终自审，减少疏漏。",
+          "你希望Claude在执行任务时能有效利用子工具或子代理 → 它帮助Claude识别可独立完成的子任务，并委派给现有工具或代理并行处理。"
+        ],
+        "audience": "使用Claude大模型处理复杂、多阶段任务，并追求高精度和可靠输出的开发者、研究人员或项目经理。",
+        "quickStart": {
+          "prerequisites": "已配置Claude开发环境，支持技能加载",
+          "steps": [
+            "将`fable-mode`项目目录放置到Claude技能加载路径下。",
+            "在Claude任务中通过名称调用`fable-mode`，或让其自动触发。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Prompt工程（如Chain-of-Thought）",
+            "method": "通过精心设计的提示词引导模型进行结构化思考和分步推理",
+            "models": "各种LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "LLM编排框架（如LangChain/LlamaIndex）",
+            "method": "提供模块化工具和抽象层来构建复杂的、多步骤的LLM应用和Agent",
+            "models": "各种LLM",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰，注重实用性和流程规范，代码风格偏向严谨和结构化，而非新潮或实验性，属于务实型工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有一个Issue开启，尚未有Issue关闭，响应速度未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-16T07:03:59.357Z"
+    },
+    {
+      "owner": "skydoves",
+      "repo": "compose-nav-graph",
+      "fullName": "skydoves/compose-nav-graph",
+      "description": "⛵️ Compose Navigation Graph plugin for Android Studio that visualizes your entire app flow as an interactive map of rendered previews, typed arguments, and transitions.",
+      "language": "Kotlin",
+      "topics": [
+        "android",
+        "compose",
+        "compose-multiplatform",
+        "jetpack-compose",
+        "jetpack-navigation",
+        "kmp",
+        "kotlin-multiplatform",
+        "navigation",
+        "navigation3",
+        "skydoves"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-12T05:58:40Z",
+      "url": "https://github.com/skydoves/compose-nav-graph",
+      "analysis": {
+        "positioning": "Android Studio插件，将Compose导航流可视化为交互地图。",
+        "useCases": [
+          "你开发大型Compose应用 → 它将复杂的导航结构可视化为交互地图，助你快速理解全貌。",
+          "你调试Compose导航或想快速查看屏幕 → 它无需模拟器，直接渲染@Preview缩略图，显示类型化参数和跳转关系。",
+          "你需要在代码审查时验证导航变更 → 它通过提交`.nav`基线文件，自动检查和验证PR中的导航改动，确保流程完整。"
+        ],
+        "audience": "使用Compose和Jetpack Navigation的Android开发者，尤其适用于复杂应用导航流程的理解、开发和维护。",
+        "quickStart": {
+          "prerequisites": "Android Studio，Compose项目",
+          "steps": [
+            "在Gradle中集成插件（Gradle plugin）和KSP处理器。",
+            "依据文档注解你的Compose屏幕，然后使用Android Studio插件查看交互式导航图。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。开源项目，遵循Apache-2.0许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为Android Studio插件，它将复杂的Compose导航代码可视化为带有屏幕预览和跳转动画的交互式地图，极大地提升了理解、开发和调试体验。文档清晰，支持PR验证，让开发者更高效、愉悦地管理导航流程。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好。Issue关闭数量远多于开启数量（2开/5关），表明项目积极维护并响应用户反馈。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-06-16T07:04:57.684Z"
+    },
+    {
+      "owner": "EvoLinkAI",
+      "repo": "awesome-gpt-image-2-API-and-Prompts",
+      "fullName": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "description": "GPT-Image-2 API and Prompts",
+      "language": "Python",
+      "topics": [
+        "ai-art",
+        "api",
+        "awesome-list",
+        "awesome-lists",
+        "chatgpt",
+        "creative-tools",
+        "generative-ai",
+        "gpt-image-2",
+        "gpt-image-2-api",
+        "gpt-image-2-prompts",
+        "gptimage2",
+        "image-generation",
+        "image-models",
+        "image-prompt",
+        "image-to-image",
+        "openai",
+        "prompt-collection",
+        "prompt-engineering",
+        "text-to-image",
+        "visual-ai"
+      ],
+      "license": "CC0-1.0",
+      "createdAt": "2026-04-18T11:22:14Z",
+      "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "analysis": {
+        "positioning": "GPT-Image-2 API与Prompt精选库，助你高效出图。",
+        "useCases": [
+          "你做电商营销 → 它帮你生成高质量商品图和广告创意。",
+          "你做视觉设计 → 它帮你快速产出海报、插画、UI原型和角色设计。",
+          "你做创意摄影 → 它帮你实现多样化肖像与场景的AI生成。",
+          "你开发AI应用 → 它提供GPT-Image-2 API调用模式和可复用视觉工作流。"
+        ],
+        "audience": "面向希望高效利用GPT-Image-2进行视觉内容创作的设计师、营销人员、开发者和AI艺术爱好者。",
+        "quickStart": {
+          "prerequisites": "OpenAI/EvoLinkAI账户及GPT-Image-2 API访问权限。",
+          "steps": [
+            "浏览仓库中763+精选提示词案例，学习不同场景的生成技巧。",
+            "根据需求选择或修改提示词，并通过GPT-Image-2 API或相关工具生成图片。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身是开源资源库，底层GPT-Image-2 API可能涉及付费）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目结构清晰，内容（763+提示词）丰富且分类细致，覆盖电商、广告、设计等多个应用场景。多语言支持、API调用示例和工作流指导，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃，Issue开闭比良好（4/15），表明维护者响应及时。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-16T07:05:58.565Z"
+    },
+    {
+      "owner": "anthropics",
+      "repo": "skills",
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "license": "Unknown",
+      "createdAt": "2025-09-22T15:53:31Z",
+      "url": "https://github.com/anthropics/skills",
+      "analysis": {
+        "positioning": "Claude的官方技能库，扩展其专业任务能力。",
+        "useCases": [
+          "你希望Claude能按公司规范创作 → 它提供技能让Claude遵循品牌指南生成文档。",
+          "你希望Claude能处理特定数据 → 它提供技能让Claude按组织流程分析数据。",
+          "你希望自定义Claude功能 → 它提供开发范例，助你为Claude定制专属任务能力。"
+        ],
+        "audience": "希望定制Claude功能、扩展其应用场景的开发者和企业用户。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "浏览现有技能示例，获取开发灵感。",
+            "参考`template`目录和官方文档，为Claude创建自定义技能。"
+          ],
+          "note": "技能行为在Claude不同平台（Claude Code, Claude.ai, API）和实际环境中可能有所差异，需自行充分测试。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Plugins/Custom GPTs",
+            "method": "定义功能清单/行为指令，LLM按需调用",
+            "models": "OpenAI GPT系列",
+            "pricing": "部分免费（GPTs需Plus），API调用付费"
+          },
+          {
+            "name": "LangChain Tools/Agents",
+            "method": "提供多种工具（如搜索、计算），LLM通过Agent框架决策并使用",
+            "models": "广泛支持各种LLM",
+            "pricing": "框架免费，API调用付费"
+          }
+        ],
+        "pricing": "使用技能库免费，但运行技能需要通过Anthropic的Claude服务，该服务有免费试用和付费API。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目由Anthropic官方维护，功能强大且具示范性。但Issue开启962/关闭0，表明社区问题处理流程不透明或非标准，影响外部贡献者参与感。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue大量开启但无关闭记录，反映Issue管理不活跃，但项目本身作为官方实现仍有持续更新。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-16T07:06:44.722Z"
     }
   ]
 }

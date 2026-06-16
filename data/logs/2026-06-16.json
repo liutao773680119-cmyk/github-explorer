@@ -1,0 +1,143 @@
+{
+  "version": "1",
+  "date": "2026-06-16",
+  "startedAt": "2026-06-16T07:02:34.864Z",
+  "finishedAt": "2026-06-16T07:06:48.491Z",
+  "durationSeconds": 254,
+  "success": true,
+  "stats": {
+    "fetched": 107,
+    "newProjects": 4,
+    "skipped": 103,
+    "geminiCalls": 18,
+    "statsUpdated": 107
+  },
+  "errors": [
+    {
+      "time": "2026-06-16T07:02:38.523Z",
+      "level": "warn",
+      "project": "sneakers-the-rat/ImportantCode",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:02:44.507Z",
+      "level": "warn",
+      "project": "Ikuyr1/Solana-Drainer-Tool",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:02:48.716Z",
+      "level": "warn",
+      "project": "Liunian06/ko-lesson",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:02:54.837Z",
+      "level": "warn",
+      "project": "Jack182617/btc-solo-lab",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:03:30.539Z",
+      "level": "warn",
+      "project": "nolangz/pixel2motion",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:03:37.627Z",
+      "level": "warn",
+      "project": "vorssaint/vorssaint-utils",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:04:04.395Z",
+      "level": "warn",
+      "project": "SunJaycy/GoldenEye-Recomp",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:04:19.078Z",
+      "level": "warn",
+      "project": "royalbhati/sqltoerdiagram",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:04:34.151Z",
+      "level": "warn",
+      "project": "LearnPrompt/luban-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:04:38.746Z",
+      "level": "warn",
+      "project": "fguzman82/gateGPT",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:05:05.900Z",
+      "level": "warn",
+      "project": "BuilderIO/skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:05:15.174Z",
+      "level": "warn",
+      "project": "duolahypercho/fusion-fable",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:05:19.466Z",
+      "level": "warn",
+      "project": "Nanako0129/coralline",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-16T07:05:26.046Z",
+      "level": "warn",
+      "project": "MiniMax-AI/MSA",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
