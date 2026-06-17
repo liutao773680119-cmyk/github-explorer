@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-16T07:06:44.741Z",
+  "updatedAt": "2026-06-17T06:41:30.743Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -50338,6 +50338,201 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-16T07:06:44.722Z"
+    },
+    {
+      "owner": "Plaer1",
+      "repo": "junction",
+      "fullName": "Plaer1/junction",
+      "description": "VS Code chat sidebar for local AI coding agents",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-17T05:27:09Z",
+      "url": "https://github.com/Plaer1/junction",
+      "analysis": {
+        "positioning": "VS Code本地AI编程助手，统一管理多个Agent",
+        "useCases": [
+          "你正在VS Code中开发，想利用本地AI编码助手 → 它提供统一的聊天侧边栏，让你直接与多种本地AI Agent互动。",
+          "你需要为本地AI Agent提供代码上下文 → 它支持拖拽文件或右键添加文件/选区到聊天，快速提供上下文。",
+          "你希望自定义AI助手的交互体验 → 它提供多种聊天布局、跟进模式和动画效果，满足个性化需求。"
+        ],
+        "audience": "VS Code开发者，需要高效利用本地AI Agent进行编程，并希望统一管理和提供上下文。",
+        "quickStart": {
+          "prerequisites": "运行中的VS Code编辑器，以及至少一个支持的本地AI Agent后端（如OpenClaw, Hermes等）。",
+          "steps": [
+            "在VS Code扩展市场搜索并安装`Junction`插件。",
+            "确保你的本地AI Agent后端已启动并配置。",
+            "通过命令面板（`Ctrl/Cmd + Shift + P`）运行 `Junction: Open Sidebar` 打开侧边栏。",
+            "在侧边栏顶部选择AI模型和推理强度，即可开始与本地AI Agent聊天。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供动画启动屏、多种字符集的雨滴效果、可定制主题和聊天布局，注重交互细节和视觉体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度尚未体现。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-17T06:39:37.977Z"
+    },
+    {
+      "owner": "GasBladesmith",
+      "repo": "Wondershare-Filmora-Crack-2026",
+      "fullName": "GasBladesmith/Wondershare-Filmora-Crack-2026",
+      "description": "Wondershare Filmora — full premium build for Windows with pro features unlocked. Creative Suite Pro Pack",
+      "language": "Unknown",
+      "topics": [
+        "creative",
+        "download",
+        "editor",
+        "media",
+        "productivity",
+        "software",
+        "tools",
+        "video",
+        "windows",
+        "wondershare"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-17T02:22:01Z",
+      "url": "https://github.com/GasBladesmith/Wondershare-Filmora-Crack-2026",
+      "analysis": {
+        "positioning": "提供万兴神剪手（Filmora）全功能破解版，Windows平台免费使用。",
+        "useCases": [
+          "你想制作专业视频却不想付费 → 它帮你解锁万兴神剪手所有高级功能，无水印无限制导出。",
+          "你需要在本地离线剪辑视频 → 它提供完整本地安装包，无需联网验证，随时随地使用。",
+          "你追求视频编辑效率和所有特效插件 → 它集成所有插件和特效，让你无需额外安装，即装即用。"
+        ],
+        "audience": "Windows用户，想免费获得万兴神剪手完整高级功能，进行专业视频编辑和创作。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit), 8 GB RAM, 4 GB空闲磁盘空间",
+          "steps": [
+            "点击README中的DOWNLOAD链接，打开安装页面。",
+            "从安装页面下载文件，并输入页面显示的密码。",
+            "解压压缩包，运行安装程序，许可证密钥可在`license.txt`中找到。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Wondershare Filmora (官方版)",
+            "method": "官方下载，订阅制",
+            "models": "null",
+            "pricing": "付费"
+          },
+          {
+            "name": "DaVinci Resolve (免费版)",
+            "method": "官方网站下载安装",
+            "models": "null",
+            "pricing": "免费（高级版付费）"
+          }
+        ],
+        "pricing": "免费，提供万兴神剪手完整高级功能，无需订阅或购买。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "分发盗版软件，侵犯版权，且存在潜在安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "无社区活跃度，Issue 完全关闭，无互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-17T06:39:51.230Z"
+    },
+    {
+      "owner": "nolangz",
+      "repo": "pixel2motion",
+      "fullName": "nolangz/pixel2motion",
+      "description": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+      "language": "Python",
+      "topics": [
+        "ai-design-tools",
+        "animated-logo",
+        "brand-motion",
+        "claude-skill",
+        "codex-skill",
+        "html-animation",
+        "logo-animation",
+        "logo-motion",
+        "logo-reveal",
+        "motion-design",
+        "pixel-to-svg",
+        "raster-to-svg",
+        "svg-animation",
+        "svg-motion",
+        "vector-animation"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-12T04:25:17Z",
+      "url": "https://github.com/nolangz/pixel2motion",
+      "analysis": {
+        "positioning": "AI驱动，将像素Logo一键转为流畅SVG动效。",
+        "useCases": [
+          "你有模糊的像素Logo → 它帮你生成高清平滑的SVG矢量图。",
+          "你想为品牌Logo添加动态效果 → 它帮你自动生成可预览的SVG动画、HTML demo和GIF/视频。",
+          "你需要可复用的Logo动效代码或QA证据 → 它帮你导出可审查的HTML动效和动图。"
+        ],
+        "audience": "面向设计师和开发者，尤其需要高效、可复用、AI辅助生成品牌动效和SVG矢量图的场景。",
+        "quickStart": {
+          "prerequisites": "准备Claude或Codex的API访问权限。",
+          "steps": [
+            "根据项目提供的Skill instructions部署为AI Skill。",
+            "通过AI提示词输入像素Logo，获取动效输出。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心价值清晰，提供交互式Demo和丰富的动效预览，快速展现了从像素图到流畅动效的AI转化能力，非常直观。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，目前有3个开启issue但尚未关闭，需关注后续维护响应。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-17T06:40:53.361Z"
+    },
+    {
+      "owner": "TestSprite",
+      "repo": "testsprite-cli",
+      "fullName": "TestSprite/testsprite-cli",
+      "description": "Official TestSprite CLI — AI-powered automated testing from your terminal",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "cli",
+        "e2e-testing",
+        "playwright",
+        "qa",
+        "test-automation",
+        "testing"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-11T10:44:15Z",
+      "url": "https://github.com/TestSprite/testsprite-cli",
+      "analysis": {
+        "positioning": "AI驱动的CLI测试工具，为智能体编程提供验证层。",
+        "useCases": [
+          "你让AI快速生成代码 → 它模拟真实用户测试，快速发现并反馈AI代码中的bug。",
+          "你用智能体开发后需验证效果 → 它自动运行应用，向智能体反馈破损点，促其自我修复。",
+          "你团队需要高效端到端测试 → 它利用AI自动化测试，提升代码验证效率，降低人工成本。"
+        ],
+        "audience": "智能体编程开发者，以及寻求AI辅助自动化端到端测试的团队和个人。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 20",
+          "steps": [
+            "`npm install -g @testsprite/testsprite-cli`",
+            "根据文档初始化并运行测试（例如：`testsprite init` / `testsprite run`）"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "核心CLI工具可能免费，完整AI测试平台为付费服务模式。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "紧跟AI Agent开发热潮，解决AI生成代码的验证痛点，采用现代技术栈（TypeScript, Playwright），产品概念新颖且有潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前 Issue 开启数为0，已关闭1。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-06-17T06:41:30.722Z"
     }
   ]
 }
