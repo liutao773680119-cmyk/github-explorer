@@ -1,0 +1,89 @@
+{
+  "version": "1",
+  "date": "2026-06-18",
+  "startedAt": "2026-06-18T06:22:17.429Z",
+  "finishedAt": "2026-06-18T06:27:25.718Z",
+  "durationSeconds": 308,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 14,
+    "skipped": 92,
+    "geminiCalls": 22,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-06-18T06:22:24.837Z",
+      "level": "warn",
+      "project": "Try112/cesium-vectortile-gl-plus",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-18T06:22:29.850Z",
+      "level": "warn",
+      "project": "natedemoss/cf-recommend",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-18T06:25:28.077Z",
+      "level": "warn",
+      "project": "duolahypercho/fusion-fable",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-18T06:25:31.666Z",
+      "level": "warn",
+      "project": "bjarneo/ku",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-18T06:25:48.484Z",
+      "level": "warn",
+      "project": "privatenumber/mac-ocr",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-18T06:26:30.797Z",
+      "level": "warn",
+      "project": "joeseesun/qiaomu-novel-generator",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-18T06:26:33.916Z",
+      "level": "warn",
+      "project": "baskduf/FableCodex",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-18T06:26:36.894Z",
+      "level": "warn",
+      "project": "rotejin/tomari-guruguru",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
