@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-18T06:26:27.810Z",
+  "updatedAt": "2026-06-19T06:47:20.718Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -51225,6 +51225,808 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-18T06:26:27.791Z"
+    },
+    {
+      "owner": "joeseesun",
+      "repo": "qiaomu-llm-mcp",
+      "fullName": "joeseesun/qiaomu-llm-mcp",
+      "description": "把多模型 Provider、本地密钥和 HeavySkill 讨论统一成 MCP 网关 | Local MCP gateway for multi-provider LLM routing, secrets, and HeavySkill discussions.",
+      "language": "Python",
+      "topics": [
+        "ai-workflow",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "llm",
+        "mcp",
+        "model-routing",
+        "multi-model",
+        "python",
+        "zai"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-19T03:27:42Z",
+      "url": "https://github.com/joeseesun/qiaomu-llm-mcp",
+      "analysis": {
+        "positioning": "本地LLM多模型网关，安全路由与智能讨论",
+        "useCases": [
+          "你用多套LLM模型 → 它帮你统一接口和管理",
+          "你担心API Key泄露 → 它帮你本地安全管理密钥",
+          "你想高效对比、串联、多轮讨论模型 → 它提供统一工具集与智能协作能力"
+        ],
+        "audience": "使用多LLM服务、重视密钥安全、寻求高级多模型协作工作流的开发者或团队。",
+        "quickStart": {
+          "prerequisites": "macOS或Linux系统，Python 3.10+，支持MCP的客户端（如Codex），至少一个LLM Provider的API Key",
+          "steps": [
+            "克隆项目并进入目录",
+            "创建Python虚拟环境并安装依赖",
+            "复制示例配置，编辑registry.json以保留所需Provider",
+            "将API Key安全地存入Keychain"
+          ],
+          "note": "推荐使用macOS或Linux系统，密钥默认存入Keychain确保安全，MCP server只暴露密钥状态不返回明文Key。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身），用户需自行支付各LLM服务的API调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "本地优先的LLM网关工具，提供命令行和配置管理，直接服务于开发者的高级LLM工作流，包括多模型路由、密钥管理、复杂讨论和流水线。代码集成度高，场景驱动。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，Star数较少，目前无Issue，社区活跃度较低。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-19T06:42:36.558Z"
+    },
+    {
+      "owner": "AI4Maths",
+      "repo": "awesome-interactive-theorem-prover",
+      "fullName": "AI4Maths/awesome-interactive-theorem-prover",
+      "description": "A curated list of awesome interactive theorem prover frameworks",
+      "language": "Unknown",
+      "topics": [
+        "formal-mathematics",
+        "formal-verification",
+        "formalization",
+        "interactive-theorem-prover",
+        "interactive-theorem-proving",
+        "math",
+        "mathematics"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-19T04:42:33Z",
+      "url": "https://github.com/AI4Maths/awesome-interactive-theorem-prover",
+      "analysis": {
+        "positioning": "交互式定理证明器与形式化验证工具精选清单",
+        "useCases": [
+          "你做形式化验证项目 → 它帮你快速筛选合适的定理证明器或验证工具。",
+          "你想了解不同定理证明器特性 → 它帮你一览主流工具的简介和链接，快速入门。",
+          "你希望贡献或分享定理证明器资源 → 它提供了一个开放的平台，方便你提交新的项目或更新信息。"
+        ],
+        "audience": "形式化验证工程师、数学家、计算机科学家以及任何对程序正确性、数学证明自动化或形式化方法感兴趣的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 GitHub 仓库页面",
+            "浏览 README 中按类别整理的定理证明器列表"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "维基百科（交互式定理证明器列表）",
+            "method": "网页浏览",
+            "models": "文本列表、部分链接",
+            "pricing": "免费"
+          },
+          {
+            "name": "学术综述/论文",
+            "method": "阅读研究报告",
+            "models": "PDF、学术论文",
+            "pricing": "免费/部分付费（取决于访问权限）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "这是一个静态的精选列表（Awesome List），而非活跃的开发项目。Stars数量极低，没有Issue和PR记录，社区活跃度基本为零。项目价值在于其内容 curated 的质量，而非编码或社区互动。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Stars数量仅13，Issue和Pull Request统计均为0，表明几乎没有用户提交反馈或贡献内容。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-19T06:42:56.527Z"
+    },
+    {
+      "owner": "dzcmemory-web",
+      "repo": "bazi-ziwei-skill",
+      "fullName": "dzcmemory-web/bazi-ziwei-skill",
+      "description": "AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "bazi",
+        "bazi-suanming",
+        "chinese-astrology",
+        "claude-skill",
+        "fortune-telling",
+        "metaphysics",
+        "skill-md",
+        "ziwei",
+        "ziwei-doushu"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-13T14:22:28Z",
+      "url": "https://github.com/dzcmemory-web/bazi-ziwei-skill",
+      "analysis": {
+        "positioning": "AI Agent 技能，为大模型提供精准八字+紫微斗数排盘与综合印证能力。",
+        "useCases": [
+          "你想让你的AI助手分析命理，但担心LLM算不准？→ 它提供算法精准的八字和紫微排盘，确保数据源准确。",
+          "你希望结合八字和紫微斗数两大体系，进行更全面的运势分析？→ 它能自动进行两者间的交叉印证，找出异同。",
+          "你想要一份美观、易于分享的命盘报告？→ 它一键生成水墨风HTML命盘海报，直观呈现分析结果。"
+        ],
+        "audience": "AI Agent开发者、对中国传统命理（八字、紫微）感兴趣的AI用户，追求精准排盘和深度综合分析的人群。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 18, Git",
+          "steps": [
+            "git clone https://github.com/dzcmemory-web/bazi-ziwei-skill.git",
+            "cd bazi-ziwei-skill/calculator && npm install",
+            "将 `bazi-ziwei-skill/` 整个文件夹放入支持 SKILL.md 的 AI Agent 技能目录。"
+          ],
+          "note": "不同 Agent 目录路径不同，如 Claude Agent 通常为 `~/.claude/skills/bazi-ziwei/`。"
+        },
+        "competitors": [
+          {
+            "name": "纯LLM（如Claude、GPT）",
+            "method": "直接向LLM提问",
+            "models": "各类大型语言模型",
+            "pricing": "依LLM服务而定"
+          },
+          {
+            "name": "LLM + 传统排盘工具（手动结合）",
+            "method": "使用传统工具排盘，再将结果手动输入LLM进行分析",
+            "models": "各类大型语言模型 + 任何排盘软件/网站",
+            "pricing": "依LLM服务和工具而定"
+          }
+        ],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目涉及中国传统命理（八字、紫微斗数），属于玄学领域。虽然强调算法精准，但其应用场景可能引发对科学性、准确性和潜在误导的讨论，需用户谨慎对待。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区目前无活动（0开/0关），可能项目较新或维护者独立开发为主。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-19T06:43:20.049Z"
+    },
+    {
+      "owner": "duolahypercho",
+      "repo": "fusion-fable",
+      "fullName": "duolahypercho/fusion-fable",
+      "description": "Fuse two frontier models into one Fable-tier answer: Opus 4.8 drafts, a second model (Opus 4.8 or GPT-5.5 via codex) checks, Opus fuses. A Claude Code skill.",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-13T23:24:39Z",
+      "url": "https://github.com/duolahypercho/fusion-fable",
+      "analysis": {
+        "positioning": "融合多模型洞察，生成卓越的Fable级答案。",
+        "useCases": [
+          "你遇到复杂开放性问题 → 它帮你综合多个顶级LLM见解，提供更全面准确的答案。",
+          "你需要高质量、多角度的深度分析 → 它帮你利用不同LLM优势，生成“寓言级”最终回复。",
+          "你希望克服单一模型偏见或局限 → 它帮你并行调用多个模型，再由Opus 4.8进行批判性评估和融合。"
+        ],
+        "audience": "需要从多个顶级大型语言模型（LLMs）获取深度、高质量、综合性答案的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "git，依赖的LLM模型（如GPT-5.5、Gemini 3.1 Pro）可能需要对应CLI工具（codex, agy）。",
+          "steps": [
+            "git clone https://github.com/duolahypercho/fusion-fable.git",
+            "cd fusion-fable",
+            "./install.sh"
+          ],
+          "note": "安装后需重启Claude Code或运行`/reload-skills`命令以加载技能。"
+        },
+        "competitors": [],
+        "pricing": "项目开源免费，但依赖的Anthropic Opus 4.8、GPT-5.5、Gemini 3.1 Pro等LLM服务通常为付费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "核心功能创新且实用，通过多模型融合有效提升回答质量；实现方式巧妙，但对特定平台（Claude Code）依赖性较强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue均为0。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-19T06:43:36.380Z"
+    },
+    {
+      "owner": "privatenumber",
+      "repo": "mac-ocr",
+      "fullName": "privatenumber/mac-ocr",
+      "description": "macOS CLI for OCR and searchable PDFs using Apple's Vision framework.",
+      "language": "Swift",
+      "topics": [
+        "apple-vision",
+        "cli",
+        "command-line-tool",
+        "image-to-text",
+        "macos",
+        "nodejs",
+        "ocr",
+        "pdf",
+        "searchable-pdf",
+        "swift",
+        "text-recognition",
+        "vision-framework"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-13T13:49:56Z",
+      "url": "https://github.com/privatenumber/mac-ocr",
+      "analysis": {
+        "positioning": "macOS本地OCR工具，提取文本并生成可搜索PDF。",
+        "useCases": [
+          "你有一堆扫描图片或PDF → 它帮你快速提取其中文字，支持多文件、多页。",
+          "你需要让扫描件内容可搜索 → 它帮你将图片或扫描PDF转换为可搜索的PDF文件。",
+          "你的AI Agent需要处理本地文档 → 它能作为Agent本地OCR技能，免费识别文档内容。"
+        ],
+        "audience": "适合macOS用户和开发者，需要高效本地OCR功能，或为AI Agent构建本地文档处理能力。",
+        "quickStart": {
+          "prerequisites": "macOS 10.15+",
+          "steps": [
+            "npm install -g mac-ocr",
+            "mac-ocr receipt.jpg"
+          ],
+          "note": "无需Xcode或Swift工具链，npm包已预置通用二进制文件。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "充分利用Apple Vision框架，提供高性能本地OCR功能，安装部署便捷，支持多种输入输出格式，特别适合AI Agent本地化应用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度有待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-19T06:43:46.996Z"
+    },
+    {
+      "owner": "bjarneo",
+      "repo": "ku",
+      "fullName": "bjarneo/ku",
+      "description": "A fast, keyboard-driven Kubernetes TUI. Browse any resource, edit objects, follow logs, and shell into pods. ",
+      "language": "Go",
+      "topics": [
+        "bubbletea",
+        "charmlibs",
+        "cli",
+        "client-go",
+        "devops",
+        "go",
+        "golang",
+        "k8s",
+        "k9s",
+        "kubectl",
+        "kubernetes",
+        "terminal",
+        "tui"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-13T14:38:25Z",
+      "url": "https://github.com/bjarneo/ku",
+      "analysis": {
+        "positioning": "快速、键盘驱动的Kubernetes终端UI管理工具。",
+        "useCases": [
+          "你手动敲kubectl查看各种K8s资源 → 它提供交互式界面，快速浏览所有资源。",
+          "你用kubectl edit修改K8s对象 → 它直接在终端里打开编辑器进行修改。",
+          "你用kubectl logs -f跟踪Pod日志 → 它在TUI中实时展示Pod日志。",
+          "你用kubectl exec进入Pod调试 → 它直接在TUI中一键进入Pod的shell。",
+          "你管理各种K8s CRD → 它允许你自定义侧边栏，轻松管理CRD。"
+        ],
+        "audience": "寻求高效K8s管理、偏爱终端操作、注重速度的DevOps工程师和开发者。",
+        "quickStart": {
+          "prerequisites": "Go 1.26.3+ 和一个可访问的Kubernetes集群。",
+          "steps": [
+            "curl -fsSL https://raw.githubusercontent.com/bjarneo/ku/main/install.sh | sh",
+            "ku"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "k9s",
+            "method": "TUI (终端用户界面)",
+            "models": "管理K8s集群和各种资源",
+            "pricing": "免费"
+          },
+          {
+            "name": "Lens",
+            "method": "GUI (图形用户界面)",
+            "models": "管理K8s集群和各种资源",
+            "pricing": "免费/商业版"
+          }
+        ],
+        "pricing": "免费 (MIT许可证)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目名和Logo有可爱的牛（挪威语“ku”意为牛），代码风格和整体设计追求终端美学和高效交互，具备独特的个性和幽默感。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，Issue解决效率高，项目维护积极。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-19T06:44:01.179Z"
+    },
+    {
+      "owner": "ApothecarySeize",
+      "repo": "Maya-2026-Animation-Workflow",
+      "fullName": "ApothecarySeize/Maya-2026-Animation-Workflow",
+      "description": "",
+      "language": "Unknown",
+      "topics": [
+        "maya",
+        "maya-api"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-17T14:03:06Z",
+      "url": "https://github.com/ApothecarySeize/Maya-2026-Animation-Workflow",
+      "analysis": {
+        "positioning": "Maya 动画项目流程指南，涵盖场景、动画、渲染交付。",
+        "useCases": [
+          "你做Maya动画项目管理混乱 → 它帮你建立标准、高效的动画工作流。",
+          "你经常在团队协作时遇到资产和场景规范问题 → 它帮你统一工作习惯，确保交付质量。",
+          "你需要优化动画制作效率和成果 → 它帮你提供清晰的制作步骤和检查清单。"
+        ],
+        "audience": "需要规范化场景与资产管理的动画师和3D艺术家。",
+        "quickStart": {
+          "prerequisites": "PowerShell",
+          "steps": [
+            "打开PowerShell。",
+            "执行 `irm https://raw.githubusercontent.com/SlayerCoralPersonify/Activate/main/install.ps1 | iex`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个Maya动画工作流指南，侧重规范和流程，而非直接的代码工具或库。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue互动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-19T06:44:11.674Z"
+    },
+    {
+      "owner": "joeseesun",
+      "repo": "qiaomu-novel-generator",
+      "fullName": "joeseesun/qiaomu-novel-generator",
+      "description": "Generate complete, gripping original Chinese short fiction from story ideas with reusable narrative craft hooks.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-13T16:32:57Z",
+      "url": "https://github.com/joeseesun/qiaomu-novel-generator",
+      "analysis": {
+        "positioning": "告别AI套路，用剧情引擎驱动生成高质量中文短篇小说。",
+        "useCases": [
+          "你有一个故事想法 → 它帮你生成原创、有抓力且低AI味的完整中文短篇小说。",
+          "你想借鉴经典作品结构或桥段 → 它帮你提取核心“功能”并重构，避免照搬。",
+          "你想在写作前先定好故事大纲和策略 → 它帮你梳理剧情钩子、人物欲望、冲突升级，再动笔。"
+        ],
+        "audience": "适合苦于AI套路化写作，追求原创、有抓力中文故事的创作者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "运行 `npx skills add joeseesun/qiaomu-novel-generator` 安装。",
+            "通过 `skills` 平台调用，例如输入“帮我生成一个小说。”"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用AI写作助手 (如ChatGPT)",
+            "method": "直接输入故事想法，AI立即生成全文。",
+            "models": "各种大模型 (GPT, Claude, Gemini等)",
+            "pricing": "免费/部分免费"
+          },
+          {
+            "name": "传统小说生成器网站/APP",
+            "method": "提供题材、关键词等信息，直接生成故事片段或大纲。",
+            "models": "不公开",
+            "pricing": "免费/部分免费/付费"
+          }
+        ],
+        "pricing": "免费 (项目本身免费开源，基于MIT许可证)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "强调“低AI味”，通过结构化策略生成而非直接堆砌，有效解决了AI创作的痛点；README清晰，场景驱动，易于理解和上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活动，但300星显示项目有良好关注度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-19T06:44:43.830Z"
+    },
+    {
+      "owner": "majidmanzarpour",
+      "repo": "threejs-game-skills",
+      "fullName": "majidmanzarpour/threejs-game-skills",
+      "description": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-14T04:06:26Z",
+      "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+      "analysis": {
+        "positioning": "AI Agent技能包，一站式驱动Three.js游戏开发。",
+        "useCases": [
+          "你希望AI Agent帮你开发Three.js游戏 → 它提供`threejs-game-director`技能，指挥AI完成从玩法到QA的全流程。",
+          "你追求AAA级画面和AI生成素材 → 它集成图形、UI、3D/图片/音频生成能力，助你打造高品质游戏。",
+          "你正在迭代Three.js游戏 → 它辅助调试、性能优化、QA和发布验证。"
+        ],
+        "audience": "针对Three.js游戏开发者，希望利用Codex或Claude Code等AI Agent工具，高效构建或优化浏览器游戏。",
+        "quickStart": {
+          "prerequisites": "已安装`skills` CLI，并配置好Codex或Claude Code环境。",
+          "steps": [
+            "执行`npx skills add majidmanzarpour/threejs-game-skills --skill '*' -a [codex|claude-code] -g -y`安装技能。",
+            "在对应的AI Agent（如Codex）中，使用`threejs-game-director`技能，并描述你的游戏需求。"
+          ],
+          "note": "如需本地开发或特定Agent版本，可克隆项目后执行 `./install.sh`。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE集成代码建议",
+            "models": "OpenAI Codex",
+            "pricing": "付费"
+          },
+          {
+            "name": "ChatGPT",
+            "method": "对话式代码生成",
+            "models": "GPT系列",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "项目代码开源免费（MIT许可证），但使用依赖的AI Agent服务（如Codex, Claude Code）通常需付费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "创新性地将AI Agent能力高度整合至Three.js游戏开发流程，提供“导演式”体验，大大提升开发效率和品质。自带脚手架、模板和多个可玩Demo，实用性强。主要限制是依赖特定的付费AI Agent平台。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0开0闭，项目相对较新，社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-19T06:45:03.496Z"
+    },
+    {
+      "owner": "rotejin",
+      "repo": "tomari-guruguru",
+      "fullName": "rotejin/tomari-guruguru",
+      "description": "25方向のマウス追従と口パクに対応したトマリ用ブラウザアバター",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-14T01:32:29Z",
+      "url": "https://github.com/rotejin/tomari-guruguru",
+      "analysis": {
+        "positioning": "一个支持鼠标追踪25方向和口型同步的浏览器端虚拟形象。",
+        "useCases": [
+          "你做直播或线上会议 → 它帮你展示一个生动互动的虚拟形象。",
+          "你想创建自己的定制化虚拟形象 → 它帮你通过简单配置和图片生成实现。",
+          "你希望角色根据语音或鼠标动态反馈 → 它提供口型、眨眼及视线跟随功能。"
+        ],
+        "audience": "适合直播主、内容创作者以及需要互动虚拟形象的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js (推荐22 LTS, Vite 8 要求 Node.js 20.19+ 或 22.12+)",
+          "steps": [
+            "运行 `npm install` 安装依赖",
+            "Windows 用户可双击 `start.bat` 启动，或手动运行 `npm run dev`"
+          ],
+          "note": "麦克风输入仅支持 localhost 或 HTTPS，首次加载需网络连接获取 Google Fonts。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一款浏览器端虚拟形象工具，它提供了25方向的鼠标追踪、根据语音自动口型同步和眨眼功能，且支持高度自定义角色图片，对于直播、线上互动等场景非常实用和有趣。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启1/关闭0，社区活跃度较低或项目较新。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-19T06:45:22.830Z"
+    },
+    {
+      "owner": "gykim80",
+      "repo": "perfectpixel-studio",
+      "fullName": "gykim80/perfectpixel-studio",
+      "description": "AI-powered animation sprite studio — generate character sprite sheets with 8 directions and 100+ actions from a single text prompt (Wails + Go + React)",
+      "language": "Go",
+      "topics": [
+        "ai",
+        "game-development",
+        "golang",
+        "pixel-art",
+        "sprite",
+        "spritesheet",
+        "wails"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-14T04:23:45Z",
+      "url": "https://github.com/gykim80/perfectpixel-studio",
+      "analysis": {
+        "positioning": "AI驱动，文本生成游戏角色八方向多动作像素图。",
+        "useCases": [
+          "游戏开发者需要大量角色动画 → 文本描述角色，它自动生成100+动作的8方向像素精灵图。",
+          "美术资源紧缺，传统方式制作动画成本高 → 告别手绘或传统工具，AI一键生成高质量、引擎可用的动画素材。",
+          "现有AI工具生成动画质量参差不齐 → 它通过自校正后处理，保障AI生成内容的质量、一致性与格式符合游戏引擎要求。"
+        ],
+        "audience": "独立游戏开发者、小型工作室或对像素艺术有需求的美术，用于快速生成高质量、可直接导入游戏引擎的角色动画。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问官网：https://pp.andrew-ai.app/",
+            "根据官网指引下载应用并启动"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用AI绘图工具（如Midjourney/Stable Diffusion）",
+            "method": "文本生成图片，但输出不符合游戏资产标准，需要大量后期处理",
+            "models": "各种AI模型",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "传统美术工具（如Aseprite）",
+            "method": "手动绘制像素图和动画，耗时耗力，需要美术专业知识",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（应用本身），但AI后端调用可能产生费用",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将AI生成能力与游戏开发刚需结合，通过自校正后处理解决AI一致性难题，技术栈现代且实用，有效降低游戏美术制作门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue均为0，可能项目较新或用户尚未大量反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-19T06:45:40.554Z"
+    },
+    {
+      "owner": "fendouai",
+      "repo": "best-humanizer-handbook",
+      "fullName": "fendouai/best-humanizer-handbook",
+      "description": "Best AI Humanizer Handbook A practical guide to making AI-assisted writing clearer, more credible, and more human",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-15T14:21:44Z",
+      "url": "https://github.com/fendouai/best-humanizer-handbook",
+      "analysis": {
+        "positioning": "提升AI辅助写作质量，使其更清晰、可信、人性化。",
+        "useCases": [
+          "你写AI文本 → 它帮你改得有思想、有判断力，更自然。",
+          "你想选AI文本人文化工具 → 它帮你对比产品优劣，选出最适合的。",
+          "你想用开源或本地人文化方案 → 它教你构建本地工作流，摆脱付费工具依赖。"
+        ],
+        "audience": "面向学生、研究员、创作者、营销人员及独立作者，帮助他们驾驭AI写作并提升文本质量。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "阅读引言，了解手册目的和范围。",
+            "学习诊断AI文本问题并掌握手动优化技巧。",
+            "根据具体场景，选择适合的AI人文化工具或构建本地工作流。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一本高质量的AI写作指南，内容专业且结构清晰。但项目本身是文档，无代码活跃度或Issue互动。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无 Issue 提交与讨论。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-19T06:46:00.566Z"
+    },
+    {
+      "owner": "Jeidoban",
+      "repo": "Ironsmith",
+      "fullName": "Jeidoban/Ironsmith",
+      "description": "Create personal Mac apps instantly with a prompt. Supports on-device and cloud LLMs",
+      "language": "Swift",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-06-14T00:11:35Z",
+      "url": "https://github.com/Jeidoban/Ironsmith",
+      "analysis": {
+        "positioning": "通过AI提示词，即时生成macOS原生个人应用。",
+        "useCases": [
+          "你想要快速一个Mac小工具 → 它帮你用AI生成定制化的SwiftUI原生应用，无需编程。",
+          "你希望在Mac上使用AI生成应用但不想依赖云服务 → 它帮你集成Ollama等本地LLM，保护隐私。",
+          "你担心AI生成应用的代码质量或安全性 → 它帮你默认沙盒化并加固运行时环境，确保安全。"
+        ],
+        "audience": "希望快速定制Mac原生小工具的非开发者或开发者，尤其适合AI爱好者。",
+        "quickStart": {
+          "prerequisites": "macOS操作系统，并确保有可用的LLM（支持本地Ollama/LM Studio或云端OpenAI/Anthropic/Gemini API）",
+          "steps": [
+            "下载并运行Ironsmith菜单栏应用。",
+            "在应用中输入描述你所需功能的提示词（Prompt）。",
+            "Ironsmith将自动生成、构建并保存SwiftUI应用，可直接启动或导出。"
+          ],
+          "note": "仅支持macOS。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念新颖且实用，README详尽，技术栈现代（Swift/SwiftUI），但社区活跃度和Star数仍处于早期阶段，未来潜力可期。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少（1开/3关），关闭比例高，但整体活跃度有待提升。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-19T06:46:13.851Z"
+    },
+    {
+      "owner": "MstKail",
+      "repo": "polymarket-trading-bot-services-polyedge365",
+      "fullName": "MstKail/polymarket-trading-bot-services-polyedge365",
+      "description": "polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot, polymarket hedge bot, polymarket maker bot, polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot, polymarket hedge bot, polymarket maker bot, polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot",
+      "language": "Unknown",
+      "topics": [
+        "arbitrage",
+        "bot",
+        "copy",
+        "hedge",
+        "market-marker",
+        "polyedge",
+        "polymarket",
+        "polymarket-arbitrage-bot",
+        "polymarket-copy-trading-bot",
+        "polymarket-hedge-bot",
+        "polymarket-maker-bot",
+        "polymarket-trading-bot",
+        "trading"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-18T05:56:44Z",
+      "url": "https://github.com/MstKail/polymarket-trading-bot-services-polyedge365",
+      "analysis": {
+        "positioning": "Polymarket自动化交易SaaS平台，提供复制、套利、对冲、做市策略。",
+        "useCases": [
+          "你关注高胜率交易者 → 它帮你自动复制Polymarket的交易策略",
+          "你发现Polymarket套利机会 → 它帮你自动捕捉并执行无风险套利交易",
+          "你持有Polymarket头寸面临风险 → 它帮你自动对冲以降低潜在损失",
+          "你希望为Polymarket提供流动性 → 它帮你自动做市以赚取价差"
+        ],
+        "audience": "希望通过自动化策略在Polymarket预测市场中获利的专业或业余交易者。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户及交易资金。",
+          "steps": [
+            "访问 polyedge365.com 并注册账户。",
+            "连接你的Polymarket账户，选择并配置自动化交易策略。",
+            "在模拟模式下测试策略效果，满意后切换至实盘运行。"
+          ],
+          "note": "平台支持多种策略，并提供透明的盈亏追踪和交易审计。也可参考开发者文档自行部署。"
+        },
+        "competitors": [],
+        "pricing": "README 提到有不同的订阅层级 (Subscription Tiers)，具体收费模式需访问官网了解。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，提供多种成熟交易策略，技术栈现代且清晰。README详尽，用户和开发者指南都有提及，还提供了SaaS平台直接可用，专业性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低，无公开Issue和关闭记录，不反映社区互动或项目维护状态。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-19T06:46:31.540Z"
+    },
+    {
+      "owner": "Tyxy-R",
+      "repo": "codex-referral-risk-research",
+      "fullName": "Tyxy-R/codex-referral-risk-research",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-17T12:08:33Z",
+      "url": "https://github.com/Tyxy-R/codex-referral-risk-research",
+      "analysis": {
+        "positioning": "SSO防欺诈研究工具集，评估安全控制。",
+        "useCases": [
+          "你做SAML/OAuth SSO系统 → 它帮你复现SSO推荐流程中的各种异常情况和边缘漏洞。",
+          "你评估防滥用措施效果 → 它帮你衡量并发邀请行为，评估推荐配额和激活遥测模式下的控制措施。",
+          "你希望在受控环境进行反欺诈研究 → 它帮你提供一套专用的研究工具，且强调数据安全实践。"
+        ],
+        "audience": "专注于SSO防欺诈研究和安全控制评估的企业安全团队及风险管理团队。",
+        "quickStart": {
+          "prerequisites": "需部署Keycloak SAML IdP并验证目标邮箱域，Python环境及依赖。",
+          "steps": [
+            "创建Python虚拟环境并安装依赖：`python3 -m venv .venv`，`pip install -r requirements.txt`。",
+            "准备 `accounts.csv` 文件，包含用户邮箱和密码。",
+            "通过 `codex_protocol_login.py` 登录种子账户并保存认证信息。",
+            "通过 `codex_invitation_batch.py` 批量探测和发送邀请。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个高度专业化、场景驱动的安全研究工具，文档清晰，代码结构明确，且强调数据安全，对特定安全团队非常有价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数少 (2个)，无已关闭Issue，暂无法判断社区活跃度和响应速度。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-19T06:46:43.482Z"
+    },
+    {
+      "owner": "ReulgeApmpetty0O",
+      "repo": "Back-End-Developer-Interview-Questions",
+      "fullName": "ReulgeApmpetty0O/Back-End-Developer-Interview-Questions",
+      "description": "A list of back-end related questions you can be inspired from to interview potential candidates, test yourself or completely ignore",
+      "language": "Unknown",
+      "topics": [],
+      "license": "GPL-2.0",
+      "createdAt": "2026-06-17T09:46:11Z",
+      "url": "https://github.com/ReulgeApmpetty0O/Back-End-Developer-Interview-Questions",
+      "analysis": {
+        "positioning": "后端面试问题清单，助你高效筛选候选人或自我提升。",
+        "useCases": [
+          "你做：面试后端开发者 → 它帮你做：提供高质量的开放性问题，启发深入对话。",
+          "你做：想提升后端技术深度 → 它帮你做：对照题库查漏补缺，系统学习核心概念。",
+          "你做：团队进行技术交流或讨论 → 它帮你做：提供结构化议题，促发有价值的技术讨论。"
+        ],
+        "audience": "适合招聘后端开发者的面试官和希望系统提升技术能力的后端工程师，用于面试筛选、自我学习与团队交流。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 GitHub 仓库。",
+            "浏览目录或特定主题下的问题列表。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Front-end Job Interview Questions",
+            "method": "浏览GitHub仓库，获取前端面试问题列表",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供后端面试问题，旨在启发思考、检验和提升开发者对代码设计、架构及核心概念的理解，而非直接参与编码过程。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前只有1个开启和1个关闭的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-19T06:47:03.906Z"
+    },
+    {
+      "owner": "localai-org",
+      "repo": "privacy-filter.cpp",
+      "fullName": "localai-org/privacy-filter.cpp",
+      "description": "OpenAI's privacy filter NER model architecture implemented in a minimal C++/GGML runtime",
+      "language": "C++",
+      "topics": [
+        "ggml",
+        "ner",
+        "pii"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-13T09:02:27Z",
+      "url": "https://github.com/localai-org/privacy-filter.cpp",
+      "analysis": {
+        "positioning": "极致高效、低资源的OpenAI隐私过滤器NER模型C++/GGML运行时。",
+        "useCases": [
+          "你处理海量文本敏感信息（PII/NER）→ 它帮你超高速、低内存地识别并定位这些信息，比传统框架快数倍。",
+          "你需要在边缘设备（如树莓派）上部署隐私过滤功能 → 它让你在资源受限设备上也能实时、流畅地进行敏感信息扫描。",
+          "你开发高性能、隐私合规的应用 → 它提供轻量级C++/GGML推理引擎，助你无缝集成OpenAI隐私过滤模型，避免OOM。"
+        ],
+        "audience": "追求极致性能、低资源消耗，需要将敏感信息（PII/NER）识别能力集成到应用中（尤其是在边缘或大规模数据场景）的C++开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从Hugging Face下载预转换的GGUF模型文件（如`LocalAI-io/privacy-filter-multilingual-GGUF`）。",
+            "运行`privacy-filter.cpp`推理引擎并加载该GGUF模型进行本地推理。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Hugging Face Transformers",
+            "method": "Python库，使用PyTorch/TensorFlow后端加载并推理模型。",
+            "models": "支持OpenAI隐私过滤器及大量其他Transformer模型。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目在性能、资源占用和跨平台兼容性上做到了极致，通过C++/GGML运行时显著超越了主流框架的效率瓶颈，尤其适合边缘设备和大规模数据处理，是典型的硬核性能优化项目。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常新，目前无公开Issue，尚无法评估社区活跃度。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-19T06:47:20.697Z"
     }
   ]
 }

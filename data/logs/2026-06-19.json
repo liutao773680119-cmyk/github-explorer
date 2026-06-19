@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "date": "2026-06-19",
+  "startedAt": "2026-06-19T06:42:23.877Z",
+  "finishedAt": "2026-06-19T06:48:16.676Z",
+  "durationSeconds": 353,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 17,
+    "skipped": 89,
+    "geminiCalls": 20,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-06-19T06:44:20.251Z",
+      "level": "warn",
+      "project": "baskduf/FableCodex",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-19T06:45:07.983Z",
+      "level": "warn",
+      "project": "boogu-project/Boogu-Image",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-19T06:46:47.728Z",
+      "level": "warn",
+      "project": "nnecrkvenuOX/formcms",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
