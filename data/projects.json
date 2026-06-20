@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-19T06:47:20.718Z",
+  "updatedAt": "2026-06-20T05:59:56.834Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -52027,6 +52027,715 @@
         "category": "LLM框架"
       },
       "analyzedAt": "2026-06-19T06:47:20.697Z"
+    },
+    {
+      "owner": "itssosunny",
+      "repo": "im-not-strange-ai",
+      "fullName": "itssosunny/im-not-strange-ai",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-20T00:46:34Z",
+      "url": "https://github.com/itssosunny/im-not-strange-ai",
+      "analysis": {
+        "positioning": "AI韩语文本润色插件，将AI输出转换为地道自然的韩语表达。",
+        "useCases": [
+          "AI生成韩文稿件有翻译腔、机械表达、重复短语 → 它帮你自动识别并润色，保留原意，去除AI痕迹。",
+          "想让AI文本更符合韩语母语者的表达习惯 → 它基于10大类别、40+子模式识别AI特有表达，修正为地道韩语。",
+          "在Claude Code或OpenAI Codex中快速集成韩文润色工具 → 它提供简单的命令行或插件安装方式，轻松集成到你的工作流。"
+        ],
+        "audience": "AI内容创作者、市场营销人员、翻译人员等，需要将AI生成的韩语文本转换为地道、自然的表达。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code CLI 或 OpenAI Codex CLI",
+          "steps": [
+            "claude plugin marketplace add itssosunny/im-not-strange-ai",
+            "claude plugin install im-not-strange-ai@im-not-strange-ai"
+          ],
+          "note": "Codex目前仅支持Fast模式，Claude Code支持完整的Strict模式。"
+        },
+        "competitors": [
+          {
+            "name": "QuillBot",
+            "method": "在线工具",
+            "models": "通用（非特定模型）",
+            "pricing": "部分免费"
+          },
+          {
+            "name": "Hix.ai",
+            "method": "在线工具",
+            "models": "通用（非特定模型）",
+            "pricing": "部分免费"
+          },
+          {
+            "name": "Undetectable AI",
+            "method": "在线工具",
+            "models": "通用（非特定模型）",
+            "pricing": "部分免费"
+          }
+        ],
+        "pricing": "免费，作为插件安装在Claude Code或Codex环境中使用，实际使用可能涉及底层大模型调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目处于v0.0早期阶段，Star数少，Issues为空，表明社区参与度尚低。但功能定位明确，技术架构清晰，README文档专业详细，未来潜力大。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚启动（v0.0），Star数和Issues数均很低，社区活跃度尚待发展。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:56:33.248Z"
+    },
+    {
+      "owner": "yansc153",
+      "repo": "huajiao-finance-writer",
+      "fullName": "yansc153/huajiao-finance-writer",
+      "description": "蒸馏个人 voice、可自我迭代的中文财经写作 Skill",
+      "language": "Python",
+      "topics": [
+        "ai-writing",
+        "chinese-writing",
+        "codex-skill",
+        "deepseek",
+        "finance-writing"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-20T01:42:19Z",
+      "url": "https://github.com/yansc153/huajiao-finance-writer",
+      "analysis": {
+        "positioning": "可自我学习、蒸馏个人风格的中文财经AI写作系统。",
+        "useCases": [
+          "你希望财经文章有个人独特“声调” → 它帮你基于2万条推文蒸馏你的写作风格，写出带有你个人烙印的财经长文初稿。",
+          "你厌倦了AI写作的“八股文”和“AI味” → 它帮你通过多层清洗机制和自我迭代，持续去除AI痕迹，让文章更像人言。",
+          "你追求高效且能不断进化的财经内容创作 → 它帮你处理源材料，快速生成符合你风格的长文，并根据你的手改学习优化，越用越像你。"
+        ],
+        "audience": "适合希望将个人财经写作风格数字化、追求深度个性化和去除AI味的高效财经内容创作者、分析师及评论员。",
+        "quickStart": {
+          "prerequisites": "DeepSeek API key",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/yansc153/huajiao-finance-writer.git`",
+            "配置DeepSeek API Key：将Key写入`~/.codex/secrets/deepseek_api_key.txt`",
+            "运行生成脚本：`python3 scripts/deepseek_generate.py source.md out.md`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用AI写作工具 (如ChatGPT, Claude)",
+            "method": "直接Prompt或内置功能",
+            "models": "多种LLM",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "自定义Prompt工程 (基于通用LLM)",
+            "method": "编写复杂Prompt指令，人工调优",
+            "models": "多种LLM",
+            "pricing": "模型API费用"
+          }
+        ],
+        "pricing": "免费开源工具，但需支付所用大模型（如DeepSeek）的API调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述和README语言风格鲜明、直接、极具个性，强调“2万条个人推文蒸馏”、“AI 味 滚”、“究极版”等，透露出开发者对AI内容的高度个人化追求和对通用AI写作的强烈不屑。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计均为 0，目前未见活跃的社区交流。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:56:51.465Z"
+    },
+    {
+      "owner": "boogu-project",
+      "repo": "Boogu-Image",
+      "fullName": "boogu-project/Boogu-Image",
+      "description": "Boogu-Image-0.1 is an Apache-2.0 open-source image generation and editing model family that delivers near-closed-source performance with an order of magnitude less data.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-16T14:59:20Z",
+      "url": "https://github.com/boogu-project/Boogu-Image",
+      "analysis": {
+        "positioning": "高性能、低数据量需求的开源图像生成与编辑模型家族。",
+        "useCases": [
+          "你需要根据文字描述生成图像 → 它帮你生成高质量图像，支持中英文文本。",
+          "你追求快速出图效果 → 它帮你提供Turbo模型实现快速图像生成。",
+          "你希望对现有图像进行精细调整 → 它帮你实现强大的图像编辑功能。"
+        ],
+        "audience": "关注开源、追求高性能低成本图像生成与编辑能力的AI开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Python环境，需安装PyTorch及相关ML库。",
+          "steps": [
+            "克隆GitHub仓库",
+            "安装项目依赖（通常在`requirements.txt`中）",
+            "下载预训练模型检查点",
+            "参照代码运行推理或部署到自己的应用"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Midjourney",
+            "method": "Discord Bot/Web界面",
+            "models": "闭源私有模型",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "DALL-E (OpenAI)",
+            "method": "API/Web界面",
+            "models": "闭源私有模型",
+            "pricing": "按量付费"
+          },
+          {
+            "name": "Stable Diffusion (Stability AI)",
+            "method": "开源模型，多种UI (如Automatic1111, ComfyUI)",
+            "models": "SDXL, SD 1.5等开源模型",
+            "pricing": "模型免费，服务可能收费"
+          }
+        ],
+        "pricing": "完全免费，Apache-2.0开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位雄心勃勃（接近闭源性能，数据量少一个数量级），并已建立完整的项目生态（多演示、Hugging Face/ModelScope集成）。但Stars数相对不高，Issues目前无关闭记录，社区活跃度和响应速度有待观察，表明项目仍处于早期发展阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启5个，关闭0个，社区活跃度和问题响应速度有待提升，可能项目较新或处于内部开发为主阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-20T05:57:14.348Z"
+    },
+    {
+      "owner": "baskduf",
+      "repo": "FableCodex",
+      "fullName": "baskduf/FableCodex",
+      "description": "🗿 FableCodex is a Codex-style coding agent workflow that plans like Fable.",
+      "language": "Python",
+      "topics": [
+        "codex",
+        "context-engineering",
+        "fable-5",
+        "prompt-engineering",
+        "skills",
+        "workflow"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-06-14T13:11:00Z",
+      "url": "https://github.com/baskduf/FableCodex",
+      "analysis": {
+        "positioning": "Codex Agent流程增强插件，以严谨工作流确保代码质量。",
+        "useCases": [
+          "你使用Codex进行复杂代码开发或重构 → 它强制遵循“先检查、再计划、后验证”的严谨流程，减少遗漏和错误。",
+          "你使用Codex调试疑难bug → 它引导系统性地检查工作区、工具和证据，帮你更高效地定位和解决问题。",
+          "你使用Codex处理对质量要求高的任务 → 它帮你记录目标和发现，并通过“最终审查门槛”确保交付物的可靠性。"
+        ],
+        "audience": "使用Codex Agent进行复杂、多步或对质量有高要求编程任务的开发者和团队。",
+        "quickStart": {
+          "prerequisites": "需先安装Codex Agent",
+          "steps": [
+            "codex plugin marketplace add baskduf/FableCodex --ref v0.4.3",
+            "codex plugin add codex-fable5@fablecodex",
+            "重启Codex，并在Prompt中添加`@codex-fable5`来启用此技能。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，基于AGPL-3.0开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目侧重于通过流程化、证据驱动的工作流提升Codex Agent的严谨性和可靠性，而非轻松愉快的氛围编程，更强调纪律性而非创造性。",
+        "isVibeCoding": false,
+        "communityActivity": "项目尚处于早期，Issue 开启6个但无已关闭，社区活跃度有待提升。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-20T05:57:27.788Z"
+    },
+    {
+      "owner": "nnecrkvenuOX",
+      "repo": "formcms",
+      "fullName": "nnecrkvenuOX/formcms",
+      "description": "AI Agent: Open-source headless CMS built with ASP.NET Core (C#) and React, featuring REST APIs, GraphQL, and a GrapesJS page designer.",
+      "language": "C#",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-17T10:16:06Z",
+      "url": "https://github.com/nnecrkvenuOX/formcms",
+      "analysis": {
+        "positioning": "AI驱动的无头CMS，通过自然语言快速生成全栈应用。",
+        "useCases": [
+          "你苦于手动搭建后端API和管理界面 → 它让你通过自然语言快速生成Schema、API和完整的UI。",
+          "你想用AI Agent协作开发全栈应用 → 它提供MCP服务器，让各种AI Agent直接参与Schema设计、数据填充和应用部署。",
+          "你是初学者，想零代码构建应用 → 它让你在浏览器中描述需求，AI自动生成并部署一个可用的全栈系统。"
+        ],
+        "audience": "适合希望通过自然语言或AI Agent快速开发、部署全栈应用的开发者和初学者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "打开FormCMS的FormMate在线Demo (https://demo.formcms.com/mate)。",
+            "在浏览器中输入自然语言描述你的应用需求（如：构建一个图书馆系统），AI将自动生成Schema、API、数据和UI。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GPT Engineer",
+            "method": "CLI/Prompt",
+            "models": "OpenAI GPT系列",
+            "pricing": "免费（API按量付费）"
+          },
+          {
+            "name": "MetaGPT",
+            "method": "CLI/Agent",
+            "models": "OpenAI GPT系列",
+            "pricing": "免费（API按量付费）"
+          }
+        ],
+        "pricing": "核心平台开源免费，使用AI模型可能需要支付API费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "将自然语言直接转化为完整的全栈应用（包括Schema、API、UI和部署），并支持AI Agent协同工作，效率极高，富有未来感，是AI辅助开发领域的出色实践。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭均为0，社区活跃度目前较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:57:47.930Z"
+    },
+    {
+      "owner": "MstKail",
+      "repo": "wc2026-crypto-sportsbook",
+      "fullName": "MstKail/wc2026-crypto-sportsbook",
+      "description": "2026 FIFA World Cup crypto sportsbook | soccer football betting platform | React TypeScript Vite | MetaMask wallet EIP-191 | live WebSocket odds scores | bet settlement engine | world cup 2026 betting | WC2026 predictions odds markets | blockchain crypto wallet sportsbook",
+      "language": "TypeScript",
+      "topics": [
+        "betting-platform",
+        "blockchain",
+        "crypto-sportsbook",
+        "ethers-js",
+        "express",
+        "fifa-world-cup",
+        "football-betting",
+        "live-odds",
+        "metamask",
+        "nodejs",
+        "prisma",
+        "react",
+        "soccer-betting",
+        "tailwindcss",
+        "typescript",
+        "vite",
+        "wc2026",
+        "websocket",
+        "world-cup-2026",
+        "zustand"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-19T06:30:39Z",
+      "url": "https://github.com/MstKail/wc2026-crypto-sportsbook",
+      "analysis": {
+        "positioning": "2026世界杯加密体育博彩平台全栈演示，基于React/Node.js。",
+        "useCases": [
+          "想学习构建加密体育博彩平台 → 它提供全栈架构、UI和核心逻辑参考。",
+          "需要集成MetaMask进行Web3身份验证 → 它展示EIP-191签名认证流程。",
+          "关注实时赔率/比分WebSocket实现 → 它提供实时数据更新和UI联动示例。",
+          "研究投注结算引擎逻辑 → 它包含自动匹配结束、市场结算及派彩机制。"
+        ],
+        "audience": "寻求构建或学习加密体育博彩平台的全栈开发者、区块链集成爱好者、WebSockets实时数据应用开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js (v18+), Yarn/npm, MetaMask浏览器插件。",
+          "steps": [
+            "git clone https://github.com/MstKail/wc2026-crypto-sportsbook.git",
+            "cd wc2026-crypto-sportsbook",
+            "yarn install && yarn dev"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费 (作为开源代码和演示项目)。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "全栈项目，技术栈现代且实用，UI和核心功能（如MetaMask集成、实时赔率、结算引擎）实现完善，明确为教育/演示用途，对学习和参考价值高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue渠道不活跃 (0/0)，但241星表明项目有一定关注度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-20T05:58:12.117Z"
+    },
+    {
+      "owner": "Forsy-AI",
+      "repo": "agent-apprenticeship",
+      "fullName": "Forsy-AI/agent-apprenticeship",
+      "description": "The living ecosystem for AI agents learning from real-world work through iterative loops and training-signal exchange.",
+      "language": "Unknown",
+      "topics": [
+        "agent-apprenticeship",
+        "agent-economy",
+        "agent-experience",
+        "agent-learning",
+        "agent-traces",
+        "agentic-ai",
+        "ai-agents",
+        "autonomous-agents",
+        "claude-code",
+        "codex",
+        "cursor",
+        "ecosystem-learning",
+        "hermes-agent",
+        "loop-engineering",
+        "openclaw",
+        "opencode",
+        "post-training",
+        "real-world-tasks",
+        "reinforcement-learning",
+        "training-signals"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-19T16:19:37Z",
+      "url": "https://github.com/Forsy-AI/agent-apprenticeship",
+      "analysis": {
+        "positioning": "打造AI智能体生态，通过真实任务迭代学习与经验共享。",
+        "useCases": [
+          "你想让AI智能体掌握真实世界技能 → 它提供迭代学习环境与丰富任务数据。",
+          "你想提升AI智能体表现 → 它通过共享经验和训练信号加速学习。",
+          "你想评估智能体任务价值 → 它能帮你估算AI智能体工作的经济价值。"
+        ],
+        "audience": "AI智能体开发者、研究员，用于训练、改进智能体，并挖掘其商业潜力。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "`apprentice init` 初始化项目",
+            "`apprentice run \"<你的任务描述>\"` 运行AI智能体任务",
+            "`apprentice ecosystem contribute <bundle_path>` 贡献任务学习成果"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证，通过npm安装使用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供CLI工具和基础设施，鼓励开发者集成和贡献学习信号，是构建AI智能体生态的平台而非最终产品。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度暂未显现，Issue 统计显示尚未有公开讨论或反馈。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:58:22.912Z"
+    },
+    {
+      "owner": "SubBoost",
+      "repo": "subboost",
+      "fullName": "SubBoost/subboost",
+      "description": "Clash/Mihomo 订阅转换、增强和管理工具。通过 UI 可视化，一键实现链式代理、精确分流、防 DNS 泄露和多订阅聚合等高级功能。",
+      "language": "TypeScript",
+      "topics": [
+        "clash",
+        "dns-leak-protection",
+        "mihomo",
+        "mihomo-config",
+        "mihomo-rules",
+        "proxy",
+        "subscription-converter"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-06-15T19:22:32Z",
+      "url": "https://github.com/SubBoost/subboost",
+      "analysis": {
+        "positioning": "可视化管理Clash/Mihomo订阅，一键配置高级代理。",
+        "useCases": [
+          "你有多来源的代理订阅 → 它帮你聚合、转换并自动更新。",
+          "你想用链式代理或精细分流 → 它帮你通过UI一键设置，无需手动改配置。",
+          "你担心代理使用中DNS泄露 → 它帮你默认配置，有效防范风险。"
+        ],
+        "audience": "Clash/Mihomo用户，特别是希望通过可视化UI简化复杂代理配置、实现多订阅聚合和高级分流的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问官网subboost.org",
+            "导入订阅链接即可开始配置"
+          ],
+          "note": "也可通过Docker一键部署私有服务。"
+        },
+        "competitors": [
+          {
+            "name": "Sub-Store",
+            "method": "基于规则链的订阅处理与分发",
+            "models": "Clash, Surge, Quantumult X等多种格式",
+            "pricing": "免费"
+          },
+          {
+            "name": "手动编辑Clash/Mihomo YAML",
+            "method": "直接修改配置文件，手动添加或调整规则",
+            "models": "YAML",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，提供在线服务及开源代码供自部署。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "TypeScript技术栈，提供Docker部署方案，文档齐全，在线服务可用。UI直观，核心功能强大且易用。Issue数量少但无已关闭，社区活跃度需观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量少且无已关闭，社区活跃度待观察，可能处于早期阶段或用户反馈较少。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-20T05:58:41.145Z"
+    },
+    {
+      "owner": "rpanigrahi222",
+      "repo": "intruth-factcheck",
+      "fullName": "rpanigrahi222/intruth-factcheck",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-17T06:53:59Z",
+      "url": "https://github.com/rpanigrahi222/intruth-factcheck",
+      "analysis": {
+        "positioning": "实时AI事实核查，即时验证直播讲话真伪。",
+        "useCases": [
+          "你在看直播辩论 → 它帮你实时核查发言真伪。",
+          "你在听政治演讲 → 它帮你即时识别并验证事实性声明。",
+          "你在观看新闻采访 → 它帮你同步分析受访者言论。"
+        ],
+        "audience": "关注实时信息真伪的媒体人、研究者及普通用户。",
+        "quickStart": {
+          "prerequisites": "自备Anthropic API Key。",
+          "steps": [
+            "打开一个包含视频、直播、辩论或演讲的网页。",
+            "启动Chrome扩展程序，并根据需要分配发言人。",
+            "系统将实时显示事实核查结果及来源。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（需自备Anthropic API Key）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "AI实时事实核查，创新性强，解决直播场景痛点。已发布Chrome扩展，功能完善，但仍属早期研究项目，具备巨大潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，有少量Issue，响应及时（1开/2关）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:58:52.732Z"
+    },
+    {
+      "owner": "leyten",
+      "repo": "shard",
+      "fullName": "leyten/shard",
+      "description": "Pipeline-parallel LLM inference across GPUs on separate machines.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-15T21:31:07Z",
+      "url": "https://github.com/leyten/shard",
+      "analysis": {
+        "positioning": "跨分散机器GPU的流水线并行LLM推理引擎。",
+        "useCases": [
+          "你部署超大LLM（单卡无法承载）→ 它帮你将模型层分片到多台机器GPU，甚至跨地域分布",
+          "你希望在消费级硬件和广域网环境下高效运行LLM → 它通过异步流水线和推测解码优化WAN瓶颈，实现生产级推理速度",
+          "你需要LLM推理过程的透明性和可验证性 → 它为你提供可验证的运行收据，记录GPU、IP、网络延迟等关键信息"
+        ],
+        "audience": "需要将超大型LLM部署到分散式、非数据中心环境的开发者和研究人员。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，Apache-2.0协议）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目解决了在广域网环境下部署超大型LLM的核心痛点，通过精妙的异步流水线和推测解码优化，将延迟瓶颈转化为吞吐量。对技术细节的阐述清晰深入，并提供了可验证的运行收据，非常硬核且有价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示社区互动度暂为0，可能项目处于早期或内部使用阶段。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-20T05:59:03.379Z"
+    },
+    {
+      "owner": "FeijiangHan",
+      "repo": "PaperForge",
+      "fullName": "FeijiangHan/PaperForge",
+      "description": "An active paper-reading skill that reconstructs author reasoning, explains methods mechanistically, stress-tests assumptions, and generates follow-up research ideas.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-15T15:38:37Z",
+      "url": "https://github.com/FeijiangHan/PaperForge",
+      "analysis": {
+        "positioning": "AI驱动的论文主动阅读与深度分析工具。",
+        "useCases": [
+          "你读论文时想深入理解和批判性思考 → 它帮你重建作者思路、解释方法、检验假设、生成研究想法。",
+          "你想高效评估论文质量和潜在问题 → 它帮你识别最脆弱的假设、设计反例、规划最小复现实验。",
+          "你已有论文阅读prompt或skills，想优化提升 → 它帮你对比、融合，形成更适合你研究方向的个性化prompt。",
+          "你是文科社科研究者，想用AI辅助阅读 → 它帮你定制人文社科方向的深度阅读prompt。"
+        ],
+        "audience": "需要深度理解、批判性分析学术论文的研究者、学生和AI Agent开发者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "复制 `System_Prompt.txt` 内容到ChatGPT的“自定义指令”或Claude的“Project Instructions”",
+            "在对话中发送论文链接、标题或PDF"
+          ],
+          "note": "Claude/ChatGPT平台设置略有不同，推荐使用System Prompt方式。"
+        },
+        "competitors": [],
+        "pricing": "免费 (项目本身)，LLM使用费用另计",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目设计注重实效，提供多平台集成方案及深度阅读分析框架，README清晰易懂，具备很高的实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue活跃度较低，可能因项目性质或处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:59:17.362Z"
+    },
+    {
+      "owner": "aresyn",
+      "repo": "codex-control-plane-mcp",
+      "fullName": "aresyn/codex-control-plane-mcp",
+      "description": "Durable MCP control plane for long-running Codex Desktop tasks",
+      "language": "Python",
+      "topics": [
+        "agent-tools",
+        "agentic-workflows",
+        "ai-agents",
+        "automation",
+        "codex",
+        "codex-desktop",
+        "developer-tools",
+        "hermes",
+        "hermes-agent",
+        "long-running-tasks",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "openai-codex",
+        "openclaw",
+        "orchestration",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-17T10:02:02Z",
+      "url": "https://github.com/aresyn/codex-control-plane-mcp",
+      "analysis": {
+        "positioning": "专为Codex Desktop打造的持久化任务控制平台。",
+        "useCases": [
+          "你想让AI执行耗时任务 → 它提供稳定异步操作，避免中断和客户端超时。",
+          "你需要审批或回应AI提问 → 它提供交互API，清晰管理计划模式下的审批流程。",
+          "你担心客户端重试导致任务重复 → 它确保重试安全，并防止生成重复提示。"
+        ],
+        "audience": "AI Agent开发者或需要自动化Codex Desktop执行复杂、长时编程任务的开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+, Windows操作系统及Codex Desktop。",
+          "steps": [
+            "MCP客户端/编排器提交任务或启动计划模式工作流。",
+            "立即收到operationId或workflowId。",
+            "轮询任务状态，根据需要回答审批或批准计划。",
+            "读取最终报告、诊断信息、线程ID和回合ID。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "直接调用Codex/薄封装",
+            "method": "阻塞式/脆弱",
+            "models": "Codex Desktop",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "它专注于为AI Agent自动化Codex Desktop提供稳定、持久的控制平面，有效解决了长时编程任务的可靠性和交互难题，是构建高级AI编程助手的关键组件。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率较高（11/7），表明问题得到积极处理，社区活跃度良好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:59:30.359Z"
+    },
+    {
+      "owner": "Liunian06",
+      "repo": "ko-lesson",
+      "fullName": "Liunian06/ko-lesson",
+      "description": "一个期末赶制的一个屎山skill，将清朝老PPT复活为能看的资料",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-16T05:43:13Z",
+      "url": "https://github.com/Liunian06/ko-lesson",
+      "analysis": {
+        "positioning": "基于AI将散乱课程材料转化为Obsidian动态学习系统，从入门到期末备考全覆盖。",
+        "useCases": [
+          "你期末复习一团糟，PPT和资料散乱 → 它帮你梳理脉络，生成Obsidian学习笔记，附带期末考卷和巩固卷。",
+          "你希望边学边调整学习路径，不只是看总结 → 它提供逐课反馈模式，根据你的掌握度动态调整后续内容和难度。",
+          "你面对多语言、跨学科、含代码/公式的复杂课程 → 它能深入翻译、解释背景、拆解步骤，帮你构建可迁移的理解。"
+        ],
+        "audience": "受期末复习困扰的学生党，以及希望借助AI和Obsidian构建高效、自适应学习闭环的学习者。",
+        "quickStart": {
+          "prerequisites": "已安装Codex AI助手",
+          "steps": [
+            "克隆仓库到Codex技能目录（Windows/macOS/Linux各有命令）",
+            "重启Codex",
+            "使用指令：`使用 ko-lesson，基于 你的学习材料/目录 生成课程学习资料。`"
+          ],
+          "note": "支持“逐课学习”和“全量期末复习”两种模式。"
+        },
+        "competitors": [
+          {
+            "name": "通用PDF总结工具",
+            "method": "文本总结、提炼要点",
+            "models": "通用LLM",
+            "pricing": "免费/部分免费/付费"
+          },
+          {
+            "name": "传统笔记软件",
+            "method": "手动整理、链接",
+            "models": "N/A",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "项目开源免费，基于Codex平台运行。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "尽管自嘲为“屎山”，但项目目标清晰，功能设计极其周全，直击学生党备考痛点。其构建的从材料整理、学习路径重构、Obsidian输出到逐课反馈、期末考试和巩固卷的完整闭环，远超一般AI总结工具，展现了极强的实用性和创新性。200+星标也证明了其受欢迎程度。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，已有200+星标，初期关注度高。目前Issue统计为0开0关，社区互动主要体现在星标数上，Issue活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:59:45.687Z"
+    },
+    {
+      "owner": "joeseesun",
+      "repo": "qiaomu-app-review-insights",
+      "fullName": "joeseesun/qiaomu-app-review-insights",
+      "description": "把 App Store 评价变成产品研究证据，发现痛点、机会和版本风险 | Turn App Store reviews into product research evidence: pain points, opportunities, and version risks.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skill",
+        "app-reviews",
+        "app-store",
+        "app-store-reviews",
+        "competitive-analysis",
+        "deepseek",
+        "nextjs",
+        "product-management",
+        "review-analysis",
+        "user-research",
+        "voice-of-customer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-15T06:55:04Z",
+      "url": "https://github.com/joeseesun/qiaomu-app-review-insights",
+      "analysis": {
+        "positioning": "App Store 评论智能分析，秒变产品洞察报告。",
+        "useCases": [
+          "你是产品经理 → 它帮你把用户抱怨转成需求池和风险清单",
+          "你是独立开发者 → 它帮你从竞品差评里找新产品机会",
+          "你是增长/内容团队 → 它帮你把用户评价转成营销内容素材",
+          "你是投研/行研 → 它帮你快速洞察热门App口碑趋势",
+          "你是Agent用户 → 它帮你用自然语言驱动App评论分析"
+        ],
+        "audience": "面向产品经理、开发者、增长营销及研究人员，旨在快速挖掘App Store评论中的核心产品洞察。",
+        "quickStart": {
+          "prerequisites": "Node.js, npm, DeepSeek API Key",
+          "steps": [
+            "git clone https://github.com/joeseesun/qiaomu-app-review-insights.git",
+            "cd qiaomu-app-review-insights",
+            "npm install",
+            "cp .env.example .env.local",
+            "编辑 .env.local，配置 DeepSeek API Key",
+            "npm run dev"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费开源，自部署需支付LLM调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决产品经理痛点，开源且易于部署。但社区活跃度尚待提升，且需自备LLM API Key。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度较低，目前只有 1 个开启 Issue 且无已关闭。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-20T05:59:56.813Z"
     }
   ]
 }
