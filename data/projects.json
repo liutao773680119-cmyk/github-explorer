@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-20T05:59:56.834Z",
+  "updatedAt": "2026-06-21T06:31:48.260Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -52736,6 +52736,493 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-20T05:59:56.813Z"
+    },
+    {
+      "owner": "fivetaku",
+      "repo": "insane-review",
+      "fullName": "fivetaku/insane-review",
+      "description": "Use GPT-5.5 Pro (web-only, no API) from inside Claude Code — repomix-pack the relevant code, send to subscription ChatGPT Pro, harvest the review (API cost $0)",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-21T00:41:04Z",
+      "url": "https://github.com/fivetaku/insane-review",
+      "analysis": {
+        "positioning": "无API成本，用Claude Code驱动GPT-5.5 Pro代码审查。",
+        "useCases": [
+          "你正在开发项目并想用最新GPT模型审查代码 → 它帮你通过Claude Code调用GPT-5.5 Pro提供代码审查，零API成本。",
+          "你想让GPT-5.5 Pro作为AI Agent委员会一员参与讨论 → 它帮你将其集成到agent-council与其他模型协同工作。",
+          "你不想手动挑选审查文件 → 它帮你自动选择完整相关文件并审计，确保无遗漏地提交给Pro进行审查。"
+        ],
+        "audience": "ChatGPT Pro订阅用户，希望在Claude Code环境中，利用GPT-5.5 Pro的先进能力进行代码审查或作为AI Agent，且不产生额外API费用。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code，拥有ChatGPT Pro订阅，已配置支持CDP调试的浏览器（如Comet/Chrome），并已安装node/repomix、playwright、pyperclip。",
+          "steps": [
+            "添加插件市场：/plugin marketplace add https://github.com/fivetaku/gptaku_plugins.git",
+            "安装插件：/plugin install insane-review",
+            "重启Claude Code",
+            "启动浏览器并配置CDP端口（如：open -a Comet --args --remote-debugging-port=9222），登录ChatGPT并选择GPT-5.5 Pro",
+            "验证环境：python3 bin/pack_and_ask.py --check-env",
+            "运行审查：/insane-review review the auth flow in src/auth 或自然语言请求"
+          ],
+          "note": "首次设置需要进行浏览器配置和环境验证，确保CDP连接和ChatGPT登录状态。"
+        },
+        "competitors": [
+          {
+            "name": "基于OpenAI API的AI代码审查工具",
+            "method": "API调用，集成在IDE或通过脚本",
+            "models": "GPT-4, Codex等官方API模型",
+            "pricing": "按API用量付费"
+          },
+          {
+            "name": "基于Claude/Gemini API的AI代码审查工具",
+            "method": "API调用，集成在IDE或通过脚本",
+            "models": "Claude系列, Gemini系列等官方API模型",
+            "pricing": "按API用量付费"
+          }
+        ],
+        "pricing": "付费。项目本身无额外费用，但需要用户拥有ChatGPT Pro订阅计划。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目创新性地解决了GPT-5.5 Pro无API的痛点，通过CDP驱动Web端实现高级功能。设计注重“fail-closed”原则，确保操作的可靠性和结果的准确性，且支持完整代码审查和Agent协同，技术方案和执行力俱佳。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，项目处于早期阶段（11 Stars），目前无开启或关闭的Issue。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-21T06:29:12.019Z"
+    },
+    {
+      "owner": "zhongerxin",
+      "repo": "cowart",
+      "fullName": "zhongerxin/cowart",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-18T16:08:30Z",
+      "url": "https://github.com/zhongerxin/cowart",
+      "analysis": {
+        "positioning": "Codex 的 AI 绘图协作画布，本地化无限构思迭代。",
+        "useCases": [
+          "你需要在 Codex 中生成图片 → 它让你在本地画布创建占位符，由 Codex 智能填充。",
+          "你希望根据现有图片快速迭代 → 它让你在画布上标注，Codex 根据标注生成新图，不破坏原图。",
+          "你需要在项目内可视化构思 → 它提供与项目绑定的本地无限画布，方便持久化和管理。"
+        ],
+        "audience": "需要利用 AI 在 Codex 环境下进行视觉构思、图片生成与迭代的设计师、开发者及产品经理。",
+        "quickStart": {
+          "prerequisites": "已安装并配置 Codex。",
+          "steps": [
+            "向 Codex 发送以下指令进行自动安装：`请从 https://github.com/zhongerxin/cowart.git 安装 Cowart Codex 插件。请 clone 仓库到 ~/plugins/cowart，确认 .codex-plugin/plugin.json 存在，把插件加入 personal marketplace，然后运行 codex plugin add cowart@personal。安装后请校验插件，并告诉我是否需要开启一个新对话来加载新技能和 MCP 工具。`",
+            "安装后，建议开启一个新的 Codex 对话，让新技能和 MCP 工具完整加载。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Midjourney",
+            "method": "文本提示词生成图片，通过 Discord 或 Web 界面操作，非项目内协作。",
+            "models": "专有模型",
+            "pricing": "付费，有免费试用"
+          },
+          {
+            "name": "DALL-E 3 (via ChatGPT Plus)",
+            "method": "文本提示词生成图片，通过对话式 AI 界面，非项目内协作。",
+            "models": "专有模型",
+            "pricing": "付费（ChatGPT Plus 订阅）"
+          },
+          {
+            "name": "Stable Diffusion (如 Automatic1111)",
+            "method": "文本提示词生成、图生图、Inpainting/Outpainting，需本地部署或云服务。",
+            "models": "开源（SDXL, SD 1.5等）",
+            "pricing": "免费（本地部署），云服务按用量付费"
+          }
+        ],
+        "pricing": "免费（开源项目，作为 Codex 插件，自身不收费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将 AI 绘画能力深度融入 Codex AI 编程助手，通过本地无限画布实现视觉构思、AI 生成及标注迭代，极大地提升了开发者在项目中的设计协作与素材生成效率，创新性强。",
+        "isVibeCoding": true,
+        "communityActivity": "项目较新，Issue 总数不多（3个），但响应迅速（2个已关闭），活跃度良好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-21T06:29:36.643Z"
+    },
+    {
+      "owner": "ngrok",
+      "repo": "webernetes",
+      "fullName": "ngrok/webernetes",
+      "description": "Kubernetes in the browser.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-16T16:52:34Z",
+      "url": "https://github.com/ngrok/webernetes",
+      "analysis": {
+        "positioning": "浏览器内运行的Kubernetes模拟器，无需后端服务。",
+        "useCases": [
+          "你做Kubernetes教学或演示 → 它帮你创建浏览器内交互式K8s沙箱环境，无需真实集群。",
+          "你开发K8s应用原型或概念验证 → 它帮你快速在浏览器模拟K8s API行为，即时验证逻辑。",
+          "你学习或探索Kubernetes → 它帮你提供轻量级、无需配置的本地K8s模拟运行环境。"
+        ],
+        "audience": "Kubernetes内容创作者、教学者、前端开发者，以及需要轻量级K8s模拟环境进行学习和原型验证的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js/npm",
+          "steps": [
+            "安装依赖: `npm install @ngrok/webernetes`",
+            "定义自定义镜像: 继承`BaseImage`类并实现`exec`方法来模拟容器行为。",
+            "创建并注册集群: `const cluster = new Cluster(); cluster.registerImage(MyImage);`",
+            "运行集群并部署Pod: `await cluster.run(); // ... 使用K8s API部署包含自定义镜像的Pod ...`"
+          ],
+          "note": "重要提示：Webernetes不运行真实Docker镜像，仅模拟K8s API及容器行为。"
+        },
+        "competitors": [
+          {
+            "name": "Minikube",
+            "method": "本地虚拟机/容器运行",
+            "models": "完整K8s集群",
+            "pricing": "免费"
+          },
+          {
+            "name": "Play with Kubernetes (PWD)",
+            "method": "远程云环境提供限时会话",
+            "models": "完整K8s集群",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，开源（Apache-2.0许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "在浏览器中模拟K8s核心概念，为交互式教学和轻量级内容创作提供了独特思路。代码示例清晰，易于上手，但功能尚属实验性且不运行真实Docker镜像，限制了其通用性。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，Issue活跃度较低（4开/0关），社区参与度有待观察。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-21T06:29:58.224Z"
+    },
+    {
+      "owner": "anthropics",
+      "repo": "launch-your-agent",
+      "fullName": "anthropics/launch-your-agent",
+      "description": "Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it",
+      "language": "HTML",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-16T14:49:50Z",
+      "url": "https://github.com/anthropics/launch-your-agent",
+      "analysis": {
+        "positioning": "助你将想法快速转化为Claude托管Agent，并部署运行。",
+        "useCases": [
+          "你有一个Agent想法 → 它帮你面试、构思v0版本，明确目标。",
+          "你想快速部署Claude Agent → 它帮你一键启动、评估、迭代，并生成部署脚本。",
+          "你需要定时运行Agent或规划未来升级 → 它帮你调度部署，并规划v1/v2版本迭代方向。"
+        ],
+        "audience": "适合技术创始人或开发者，希望通过Claude Code快速构建、部署和管理Claude托管Agent，无论是内部工具、产品组件还是客户服务Agent。",
+        "quickStart": {
+          "prerequisites": "已安装并登录Claude Code，拥有Anthropic API Key（用于你的账户）。",
+          "steps": [
+            "git clone <this-repo> && cd <this-repo>",
+            "在项目目录下运行 `claude`，然后输入 `/launch-your-agent`"
+          ],
+          "note": "技能文件自动加载，无需额外安装。完成后可运行 `/wrap-up` 生成总结报告和下一步建议。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python/JS库，通过链式调用和Agents实现LLM应用开发",
+            "models": "支持多种LLM，包括Claude",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "Python库，专注于LLM数据集成和检索增强生成（RAG）应用开发",
+            "models": "支持多种LLM，包括Claude",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（工具本身开源），但使用Anthropic API服务需按量付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Anthropic官方提供的Claude Managed Agents (CMA) 参考实现，文档清晰，流程完善，能帮助用户从零快速构建和部署Agent。虽明确声明不维护，但作为入门指南和快速原型工具非常实用，Star数适中，显示其价值。",
+        "isVibeCoding": true,
+        "communityActivity": "非活跃，官方明确表示不维护且不接受贡献，作为参考实现，其生命周期已完成，无需社区活跃度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-21T06:30:18.767Z"
+    },
+    {
+      "owner": "aidenybai",
+      "repo": "cnfast",
+      "fullName": "aidenybai/cnfast",
+      "description": "Fast drop in replacement for `cn`",
+      "language": "TypeScript",
+      "topics": [
+        "clsx",
+        "cn",
+        "tailwindcss"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-19T19:46:29Z",
+      "url": "https://github.com/aidenybai/cnfast",
+      "analysis": {
+        "positioning": "高性能替代`clsx` + `tailwind-merge`，提速3倍以上。",
+        "useCases": [
+          "你正在使用`clsx`和`tailwind-merge`组合CSS类 → 它帮你无需改代码，直接提升3.2倍以上性能。",
+          "你基于Shadcn/ui开发项目 → 它让你一键替换默认`cn`函数，获得更快渲染速度。",
+          "你构建数据密集或高频渲染的Web应用（如数据表格） → 它帮你显著减少`cn`函数调用开销，保证应用流畅。"
+        ],
+        "audience": "前端开发者，尤其在使用Tailwind CSS和`clsx`/`tailwind-merge`组合的性能敏感型或大型项目中。",
+        "quickStart": {
+          "prerequisites": "Node.js (npm/yarn/pnpm) 环境",
+          "steps": [
+            "安装: `npm install cnfast`",
+            "迁移现有项目: `npx cnfast migrate` 或 `npx shadcn@latest add aidenybai/cnfast/cn` (针对shadcn/ui项目)"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "clsx + tailwind-merge",
+            "method": "手动组合 `twMerge(clsx(...))`",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为`clsx` + `tailwind-merge`的直接、高性能替代方案，它解决了前端性能优化的一个痛点。提供了一键迁移工具和明确的性能对比，实用性极强，且无代码修改成本。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue量极少，目前0开启1关闭，项目可能非常稳定或处于早期关注阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-21T06:30:34.330Z"
+    },
+    {
+      "owner": "clent267",
+      "repo": "FUNCAPTCHAV3",
+      "fullName": "clent267/FUNCAPTCHAV3",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-20T14:06:37Z",
+      "url": "https://github.com/clent267/FUNCAPTCHAV3",
+      "analysis": {
+        "positioning": "生产级Roblox FunCaptcha自动化破解服务。",
+        "useCases": [
+          "你做：需要绕过Roblox的FunCaptcha验证 → 它帮你做：提供API，自动破解常规、抑制或PoW型FunCaptcha。",
+          "你做：需要解密FunCaptcha相关的TGuess或BDA数据 → 它帮你做：通过API自动帮你解密这些加密数据。",
+          "你做：想快速部署一个FunCaptcha破解服务 → 它帮你做：提供开箱即用的Flask服务和Render部署方案。"
+        ],
+        "audience": "寻求Roblox自动化、机器人脚本开发或爬虫任务，需稳定绕过FunCaptcha的开发者。",
+        "quickStart": {
+          "prerequisites": "git 和 Python 3.11.6+ 环境。",
+          "steps": [
+            "git clone https://github.com/clent267/FUNCAPTCHAV3.git && cd FUNCAPTCHAV3",
+            "pip install -r requirements.txt",
+            "python app.py"
+          ],
+          "note": "除了本地运行，还提供了Render云平台一键部署方案。"
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "文档详尽，提供开箱即用的部署方案（本地/Render），API清晰，集成度高，适合生产环境使用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度未知，项目Issue记录为空。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-21T06:30:48.675Z"
+    },
+    {
+      "owner": "world-action-models",
+      "repo": "awesome-world-action-models",
+      "fullName": "world-action-models/awesome-world-action-models",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-17T03:12:36Z",
+      "url": "https://github.com/world-action-models/awesome-world-action-models",
+      "analysis": {
+        "positioning": "世界行动模型（WAMs）论文精选列表与综述。",
+        "useCases": [
+          "你对世界行动模型（WAMs）感兴趣 → 它提供精选论文列表及综述，助你快速入门。",
+          "你正在研究WAMs → 它按预测方式和设计哲学分类论文，便于系统性学习与比较。",
+          "你需要了解WAMs最新趋势及挑战 → 它通过综述提炼关键趋势，并连接到更广泛的AI问题。"
+        ],
+        "audience": "适合AI研究员、学生及对世界行动模型、AI规划、机器人或未来预测技术感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目主页或直接下载PDF综述。",
+            "根据时间线、类别或比较点浏览论文列表。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "高质量学术资源列表，结构清晰，维护良好，包含详细综述和论文分类。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低（0/0），但项目声明欢迎PR，可能更侧重内容贡献而非问题反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-21T06:31:07.035Z"
+    },
+    {
+      "owner": "halfof8",
+      "repo": "patterngen-oss",
+      "fullName": "halfof8/patterngen-oss",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-16T06:15:37Z",
+      "url": "https://github.com/halfof8/patterngen-oss",
+      "analysis": {
+        "positioning": "动态图形的程序化动画图案生成器，打通Figma到Blender工作流。",
+        "useCases": [
+          "你在Figma设计标题 → 它帮你生成环绕标题的程序化动画图案。",
+          "你希望为标题卡片制作独特动画背景 → 它提供可定制的SVG图案动画生成。",
+          "你需要将动画图案导入Blender进行3D合成 → 它导出分层PNG序列并提供Blender插件。"
+        ],
+        "audience": "动态图形设计师、视频制作人及3D艺术家，寻求快速创建动画标题和背景。",
+        "quickStart": {
+          "prerequisites": "Git, Node.js, npm",
+          "steps": [
+            "克隆项目",
+            "安装依赖",
+            "启动开发服务器"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度可定制的程序化动画生成工具，支持导入自定义SVG图案和定义动画类型，强调创意视觉效果和跨工具链整合。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区活跃度极低（0开启/0关闭），但项目具备一定星标数 (194)。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-21T06:31:18.896Z"
+    },
+    {
+      "owner": "Verdi38",
+      "repo": "Silent-Crypto-Miner",
+      "fullName": "Verdi38/Silent-Crypto-Miner",
+      "description": "Cryptocurrency mining toolkit with multi-algorithm CPU/GPU support, resource management, thermal throttling, activity-based pausing, scheduled mining, pool failover, hashrate optimization, real-time monitoring, and cross-platform builds for Windows, Linux, and macOS. Supports XMR, ETC, KAS, RVN, ERG, and BTG mining workflows.",
+      "language": "Python",
+      "topics": [
+        "ai-mining",
+        "bitcoin-mining-tools",
+        "bitcoinminer",
+        "browser-mining",
+        "cloud-mining",
+        "cpuminer",
+        "cryptojacking",
+        "cryptominer",
+        "gminer",
+        "gpu-mining",
+        "gpumining",
+        "miner",
+        "miner-monitoring",
+        "mining",
+        "mining-pool",
+        "mining-proxy",
+        "mining-rig",
+        "monero-mining",
+        "silentcryptominer",
+        "xmrig-miner"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-17T19:10:00Z",
+      "url": "https://github.com/Verdi38/Silent-Crypto-Miner",
+      "analysis": {
+        "positioning": "多算法CPU/GPU加密货币挖矿工具，支持隐匿模式",
+        "useCases": [
+          "你希望高效挖掘多种加密货币 → 它帮你通过CPU/GPU优化算力，支持XMR、ETC、KAS等多种算法。",
+          "你需要在不干扰日常使用或不被察觉的情况下挖矿 → 它提供隐匿模式（活动暂停、进程伪装、温度节流）和定时挖矿功能。",
+          "你想要分发定制化的挖矿客户端 → 它提供客户端构建器，可生成跨Windows、Linux、macOS平台的定制化客户端。"
+        ],
+        "audience": "寻求在多平台部署、优化算力，并可能需要隐匿运行的加密货币矿工或系统管理员。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "安装项目依赖（如Python库）。",
+            "配置挖矿参数（选择算法、矿池、设置隐匿选项等）。",
+            "使用内置客户端构建器生成跨平台（Windows/Linux/macOS）的可执行挖矿客户端。",
+            "部署并运行生成的客户端开始挖矿。"
+          ],
+          "note": "生成的客户端支持Windows, Linux, macOS跨平台部署。"
+        },
+        "competitors": [
+          {
+            "name": "XMRig",
+            "method": "命令行工具，CPU/GPU挖矿",
+            "models": "Monero (RandomX), KawPow等",
+            "pricing": "免费，通常有开发者抽水"
+          },
+          {
+            "name": "Gminer",
+            "method": "命令行工具，GPU挖矿",
+            "models": "Ethash, KHeavyHash, KawPow等",
+            "pricing": "免费，通常有开发者抽水"
+          }
+        ],
+        "pricing": "免费（MIT许可证），可能包含开发者抽水。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供隐匿模式、自动启动、进程伪装和客户端构建器功能，这些特性使其易于被滥用于未经授权的加密货币挖矿（即“挖矿劫持”），而不是仅用于用户自有设备的合法挖矿。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1 / 已关闭0，社区活跃度较低，可能项目较新或用户反馈较少。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-21T06:31:35.032Z"
+    },
+    {
+      "owner": "r3xmax",
+      "repo": "PhantomCtx",
+      "fullName": "r3xmax/PhantomCtx",
+      "description": "Activation Context Hijacking Evasion Tool",
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-16T11:07:55Z",
+      "url": "https://github.com/r3xmax/PhantomCtx",
+      "analysis": {
+        "positioning": "利用Windows激活上下文劫持，加载任意DLL，绕过EDR。",
+        "useCases": [
+          "你做渗透测试 → 它帮你利用合法Windows特性在目标系统上加载恶意DLL，绕过安全软件。",
+          "你做红队演练 → 它帮你无需传统DLL劫持的“脆弱二进制文件”条件，扩展攻击面。",
+          "你做安全研究 → 它帮你分析Activation Context机制，测试EDR对新型DLL加载的检测能力。"
+        ],
+        "audience": "适合红队攻击者、渗透测试人员及安全研究员，用于利用Windows系统特性加载任意DLL并规避EDR检测。",
+        "quickStart": {
+          "prerequisites": "C编译器（如MSVC）用于编译源码，或直接使用预编译版本。",
+          "steps": [
+            "下载并编译项目（或获取预编译版）`PhantomCtx.exe`。",
+            "运行 `PhantomCtx.exe -m [MODE] [OPTIONS]`，选择 `recon`、`spawn` 或 `runtime` 模式。",
+            "指定目标进程或可执行文件，实现DLL劫持。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统DLL劫持 (Traditional DLL Hijacking)",
+            "method": "依赖于存在DLL加载漏洞的二进制文件，操纵DLL搜索顺序。",
+            "models": "N/A",
+            "pricing": "N/A"
+          },
+          {
+            "name": "DLL侧载 (DLL Sideloading)",
+            "method": "依赖于将恶意DLL放置在合法DLL预期加载路径，通常需要写入权限。",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个低级别的系统安全工具，专注于利用Windows底层机制进行攻击或测试，而非提升日常开发效率或提供高级编程抽象。其使用需要深入的系统和安全知识。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 统计显示当前无任何开启或关闭的Issue，表明直接在GitHub上的社区互动不活跃或尚处于早期阶段。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-21T06:31:48.238Z"
     }
   ]
 }
