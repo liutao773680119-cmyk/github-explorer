@@ -1,0 +1,368 @@
+{
+  "version": "1",
+  "date": "2026-06-22",
+  "startedAt": "2026-06-22T07:00:08.921Z",
+  "finishedAt": "2026-06-22T07:04:02.175Z",
+  "durationSeconds": 233,
+  "success": true,
+  "stats": {
+    "fetched": 134,
+    "newProjects": 0,
+    "skipped": 134,
+    "geminiCalls": 39,
+    "statsUpdated": 134
+  },
+  "errors": [
+    {
+      "time": "2026-06-22T07:00:12.275Z",
+      "level": "warn",
+      "project": "WilonityInc/WilonityLoader",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:15.855Z",
+      "level": "warn",
+      "project": "HKUDS/AgentSpace",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:19.592Z",
+      "level": "warn",
+      "project": "HackMoonString/SoftMaker-Office-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:23.430Z",
+      "level": "warn",
+      "project": "Blockadezemooring/Steam-Disk-Write-Error-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:27.896Z",
+      "level": "warn",
+      "project": "ManateeRepel/ArtRage-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:34.385Z",
+      "level": "warn",
+      "project": "NorthGladiator/DNS-Server-Not-Responding-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:37.697Z",
+      "level": "warn",
+      "project": "aquarangerdrag/Windows-Installer-Service-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:40.929Z",
+      "level": "warn",
+      "project": "TruckerEdge73/Nitro-PDF-Pro-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:44.257Z",
+      "level": "warn",
+      "project": "CodeBeauticianTap/CLion-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:47.500Z",
+      "level": "warn",
+      "project": "Channellunavolt/Avid-Pro-Tools-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:50.713Z",
+      "level": "warn",
+      "project": "Polishcharemain/PhpStorm-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:00:53.975Z",
+      "level": "warn",
+      "project": "MysticColonelSucceed/Error-0x80070005-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:02.048Z",
+      "level": "warn",
+      "project": "ClaspCobblerSpot/WebStorm-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:05.441Z",
+      "level": "warn",
+      "project": "TannerConform/Error-0x8024402F-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:08.712Z",
+      "level": "warn",
+      "project": "FrequencyPyromancer/Parallels-Desktop-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:13.875Z",
+      "level": "warn",
+      "project": "SolderSeekerCavity/Prosoft-Data-Rescue-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:18.195Z",
+      "level": "warn",
+      "project": "Hiddenvounderpass/Error-0x80004005-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:22.148Z",
+      "level": "warn",
+      "project": "NailSoundShack/ACDSee-Photo-Studio-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:26.264Z",
+      "level": "warn",
+      "project": "Hectokostimulate/Battle-net-Update-Stuck-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:30.696Z",
+      "level": "warn",
+      "project": "DivideCourierZen/MSVCR110-DLL-Missing-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:36.522Z",
+      "level": "warn",
+      "project": "WeaverCanyon/Error-0xc0000142-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:39.807Z",
+      "level": "warn",
+      "project": "Realvarecognize/UFS-Explorer-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:43.021Z",
+      "level": "warn",
+      "project": "dusksmokesteeple13/Realtek-Audio-Not-Working-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:46.361Z",
+      "level": "warn",
+      "project": "trapsaboteurenhance/Error-0x80070002-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:49.686Z",
+      "level": "warn",
+      "project": "MuseumDragon46/Ethernet-Unidentified-Network-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:52.931Z",
+      "level": "warn",
+      "project": "Fabledshuunderpass77/Windows-11-24H2-Update-Failed-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:56.212Z",
+      "level": "warn",
+      "project": "RadianHelper/DataGrip-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:01:59.561Z",
+      "level": "warn",
+      "project": "Dataarpipe61/Error-0x80070570-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:02:08.641Z",
+      "level": "warn",
+      "project": "scaleclientindicate/Steam-Download-Stuck-Fix",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:02:17.827Z",
+      "level": "warn",
+      "project": "ChampionProduction/RustRover-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:02:22.955Z",
+      "level": "warn",
+      "project": "zhongerxin/Cowart",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:02:37.330Z",
+      "level": "warn",
+      "project": "lyra81604/zhengxi-views",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:02:43.027Z",
+      "level": "warn",
+      "project": "overflowy/make-look-scanned",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:02:47.873Z",
+      "level": "warn",
+      "project": "cloudflare/security-audit-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:02:51.124Z",
+      "level": "warn",
+      "project": "eooce/transfer-api",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:03:03.012Z",
+      "level": "warn",
+      "project": "dososo/chinese-traditional-patterns",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:03:07.177Z",
+      "level": "warn",
+      "project": "Sorathiya123/claude-ai-free-desktop-app",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:03:10.549Z",
+      "level": "warn",
+      "project": "yolfinance/yolfi-agent",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-22T07:03:13.310Z",
+      "level": "warn",
+      "project": "EURICO55/download-tor-browser",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
