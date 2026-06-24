@@ -1,0 +1,89 @@
+{
+  "version": "1",
+  "date": "2026-06-24",
+  "startedAt": "2026-06-24T05:42:55.333Z",
+  "finishedAt": "2026-06-24T05:49:44.066Z",
+  "durationSeconds": 409,
+  "success": true,
+  "stats": {
+    "fetched": 104,
+    "newProjects": 21,
+    "skipped": 83,
+    "geminiCalls": 29,
+    "statsUpdated": 104
+  },
+  "errors": [
+    {
+      "time": "2026-06-24T05:48:34.390Z",
+      "level": "warn",
+      "project": "Valorant-AI/valorant-ai-aimbot-undetected",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-24T05:48:37.564Z",
+      "level": "warn",
+      "project": "SamAun1234/auto-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-24T05:48:40.664Z",
+      "level": "warn",
+      "project": "ma7mod7/Paralives-Ultimate-Trainer-2026_v_2",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-24T05:48:43.862Z",
+      "level": "warn",
+      "project": "we9lii/Paralives-Ultimate-Trainer-2026_v_2",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-24T05:48:47.058Z",
+      "level": "warn",
+      "project": "huang-sir1/radiology-skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-24T05:48:50.307Z",
+      "level": "warn",
+      "project": "qwer-xyz/incudal",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-24T05:48:53.492Z",
+      "level": "warn",
+      "project": "we9lii/Resident-Evil-Requiem-Ultimate-Trainer-2026_v_2",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-24T05:49:18.161Z",
+      "level": "warn",
+      "project": "calesthio/OpenMontage",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

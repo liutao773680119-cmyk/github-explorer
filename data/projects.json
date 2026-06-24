@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-21T06:31:48.260Z",
+  "updatedAt": "2026-06-24T05:48:31.029Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -53223,6 +53223,1005 @@
         "category": "安全"
       },
       "analyzedAt": "2026-06-21T06:31:48.238Z"
+    },
+    {
+      "owner": "baidu",
+      "repo": "Unlimited-OCR",
+      "fullName": "baidu/Unlimited-OCR",
+      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-18T08:40:15Z",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "analysis": {
+        "positioning": "颠覆传统OCR，实现文档图像“一句话”智能解析。",
+        "useCases": [
+          "你手动从长篇合同中提取关键条款 → 它帮你自动解析并结构化信息。",
+          "你处理多页财务报表，跨页数据难以关联 → 它帮你统一处理多页PDF，提取关联数据。",
+          "你面对复杂布局的扫描件，识别文字效果差 → 它帮你高精度识别并理解文档深层内容。"
+        ],
+        "audience": "寻求高效、高精度文档智能处理方案的开发者和企业用户，尤其需要处理长文档、多页PDF和复杂布局内容。",
+        "quickStart": {
+          "prerequisites": "Python 3.12.3+, CUDA 12.9+, NVIDIA GPU。",
+          "steps": [
+            "安装指定Python包：pip install torch transformers Pillow matplotlib einops addict easydict pymupdf psutil",
+            "加载模型与分词器：from_pretrained('baidu/Unlimited-OCR')",
+            "调用model.infer()或model.infer_multi()进行图像/多页PDF推理"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "DeepSeek-OCR",
+            "method": "可能也是Python库，提供模型API",
+            "models": "DeepSeek自研OCR模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "由百度出品，面向前沿的“一句话长文本解析”OCR技术，提供清晰的Python推理接口和Hugging Face支持，社区关注度高（4k+星），技术领先。",
+        "isVibeCoding": true,
+        "communityActivity": "开启Issue数（9）高于关闭数（3），项目较新，社区活跃度处于起步阶段，响应速度待观察。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-06-24T05:43:10.956Z"
+    },
+    {
+      "owner": "zhongerxin",
+      "repo": "Cowart",
+      "fullName": "zhongerxin/Cowart",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-18T16:08:30Z",
+      "url": "https://github.com/zhongerxin/Cowart",
+      "analysis": {
+        "positioning": "Codex AI图像构思、标注、迭代的本地无限画布插件",
+        "useCases": [
+          "你构思AI图片 → 它帮你用无限画布可视化编辑，并让Codex生成图片",
+          "你对AI生成图片不满意想修改 → 它帮你直接在画布上标注，让Codex生成修订图",
+          "你需要一个项目级的可视化工作区 → 它帮你提供本地持久化的无限画布，管理图片和构思"
+        ],
+        "audience": "Codex 用户，需要可视化地构思、标注和迭代AI生成图片的设计师或开发者。",
+        "quickStart": {
+          "prerequisites": "Codex CLI工具已安装并配置。",
+          "steps": [
+            "在Codex中发送 `请从 https://github.com/zhongerxin/cowart.git 安装 Cowart Codex 插件。` 进行自动安装。",
+            "在Codex中说 `Open the Cowart canvas for this project.` 即可打开本地画布。"
+          ],
+          "note": "安装后建议开启新对话加载新技能，画布数据默认保存到项目 `canvas/` 目录。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供详细的自动/手动安装指南、清晰的使用示例和截图、支持本地开发、自定义环境变量，且基于开放源代码的tldraw，便于开发者理解和扩展。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率良好（7/11），显示社区活跃度适中且维护者响应较好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-24T05:43:26.718Z"
+    },
+    {
+      "owner": "lyra81604",
+      "repo": "zhengxi-views",
+      "fullName": "lyra81604/zhengxi-views",
+      "description": "可溯源的郑希(易方达基金经理)投研 Agent Skill——基于他全部公开观点原文 + 有原话佐证的投资方法 + 全市场基金真实数据，能溯源问答、按他框架给基金打分，绝不杜撰。⚠️仅研究学习辅助，不构成投资建议‼️website是郑希主页！",
+      "language": "Python",
+      "topics": [
+        "agent-skill",
+        "chinese-funds",
+        "funds",
+        "investing"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-20T04:27:07Z",
+      "url": "https://github.com/lyra81604/zhengxi-views",
+      "analysis": {
+        "positioning": "可溯源的郑希投研AI Skill：基于原话，能问答、打分、做前瞻。",
+        "useCases": [
+          "你想查郑希真实观点 → 它提供带原文出处的解答和观点演变。",
+          "你想用郑希思路做前瞻判断 → 它基于其方法论进行推演，并声明非本人观点。",
+          "你想用郑希框架给基金打分 → 它根据其投资标准对全市场基金进行评分。"
+        ],
+        "audience": "对基金经理郑希投资方法感兴趣的投资者、研究员或AI开发者，用于投研学习、模拟分析及Agent集成。",
+        "quickStart": {
+          "prerequisites": "Python环境，AI平台（如ChatGPT/Claude/WorkBuddy等）账户，可能需要API密钥。",
+          "steps": [
+            "遵循项目安装指南配置Skill。",
+            "在支持的AI平台中启用并调用该Skill。"
+          ],
+          "note": "不同AI平台集成方式略有差异，请参考项目说明。"
+        },
+        "competitors": [
+          {
+            "name": "通用AI大模型",
+            "method": "直接提问",
+            "models": "ChatGPT, Claude, Gemini等",
+            "pricing": "免费/部分免费/付费"
+          }
+        ],
+        "pricing": "免费（作为开源Agent Skill集成）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决大模型在特定领域（基金经理观点）常犯的“杜撰”问题。数据来源清晰可溯源，功能设计场景化且实用性强，支持多AI平台。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步或作者独立维护，暂无Issue活动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-24T05:43:39.268Z"
+    },
+    {
+      "owner": "kanavtwtgg",
+      "repo": "birds.cafe",
+      "fullName": "kanavtwtgg/birds.cafe",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-21T13:57:28Z",
+      "url": "https://github.com/kanavtwtgg/birds.cafe",
+      "analysis": {
+        "positioning": "沉浸式浏览器观鸟体验，无任务纯享。",
+        "useCases": [
+          "你感到压力 → 它帮你通过模拟飞行放松心情。",
+          "你寻求数字冥想 → 它提供宁静的浏览器交互体验。",
+          "你想摸鱼 → 它提供一个无负担的背景互动景观。"
+        ],
+        "audience": "寻求放松、减压，或需要安静、无压力的数字体验的用户。",
+        "quickStart": {
+          "prerequisites": "Python (已安装)",
+          "steps": [
+            "克隆项目代码。",
+            "在项目根目录运行 `python -m http.server 8000`。",
+            "打开浏览器访问 `http://localhost:8000`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确“无任务、无分数、无压力”，旨在提供安静、舒缓的体验，完美符合 Vibe Coding 的核心理念。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭均为 0，社区活跃度低，可能为个人维护项目或项目已高度稳定。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-24T05:43:53.161Z"
+    },
+    {
+      "owner": "bozhouDev",
+      "repo": "codex-orange-book",
+      "fullName": "bozhouDev/codex-orange-book",
+      "description": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-23T02:36:54Z",
+      "url": "https://github.com/bozhouDev/codex-orange-book",
+      "analysis": {
+        "positioning": "Codex AI编程工具的非官方全链路实战指南。",
+        "useCases": [
+          "你想系统学习Codex → 它提供从安装到实战的全链路指导。",
+          "你会写代码但不知如何集成Codex → 它教你将Codex融入实际开发工作流。",
+          "你想构建AI编程工作流 → 它展示Codex如何实现自动化与流程构建。"
+        ],
+        "audience": "开发者、独立开发者、AI工具重度用户和技术团队负责人，旨在系统学习、实战应用或构建AI编程工作流。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "阅读使用说明，了解Codex基础认知。",
+            "依据指南安装配置Codex，掌握标准工作流。",
+            "参考实战案例，将Codex应用于具体开发任务。"
+          ],
+          "note": "本指南为非官方开源，Codex更新频繁，请以OpenAI官方文档及实际版本为准。"
+        },
+        "competitors": [
+          {
+            "name": "Cursor",
+            "method": "AI编辑器，在项目中协助修改、重构代码。",
+            "models": "未知",
+            "pricing": "未知"
+          },
+          {
+            "name": "ChatGPT",
+            "method": "对话式AI，用于问答、代码优化等，需手动复制粘贴。",
+            "models": "未知",
+            "pricing": "未知"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它作为Codex的全面指南，通过清晰的结构、实战案例和高级功能解析，帮助开发者系统掌握AI编程利器，显著提升编码效率和工作流体验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启但无关闭记录。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-24T05:44:09.110Z"
+    },
+    {
+      "owner": "sums001",
+      "repo": "Windows-Copilot-API",
+      "fullName": "sums001/Windows-Copilot-API",
+      "description": "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "api",
+        "copilot",
+        "llm",
+        "microsoft-copilot",
+        "openai"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-19T13:24:44Z",
+      "url": "https://github.com/sums001/Windows-Copilot-API",
+      "analysis": {
+        "positioning": "免费将Windows Copilot转为OpenAI兼容API，无需密钥。",
+        "useCases": [
+          "你想免费使用GPT-4/5级别模型 → 它让你通过Copilot接口免费调用，无API密钥或计费。",
+          "你想将Copilot能力集成到应用中 → 它提供OpenAI兼容REST API和Python库，轻松接入现有工具。",
+          "你所在区域匿名Copilot受限 → 它允许你用已登录的微软账户访问，绕过地区限制。"
+        ],
+        "audience": "希望免费、便捷地通过API使用GPT-4/5级别模型的开发者、研究者或AI应用构建者。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+、微软账户",
+          "steps": [
+            "克隆项目并进入目录",
+            "创建并激活虚拟环境，安装依赖及Playwright浏览器，运行登录命令完成微软账户认证"
+          ],
+          "note": "Windows用户激活虚拟环境方法不同，可能需调整脚本执行策略。首次调用API也可自动触发登录流程。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI API",
+            "method": "官方API密钥，HTTP请求",
+            "models": "GPT-4, GPT-3.5等",
+            "pricing": "付费"
+          },
+          {
+            "name": "Google Gemini API",
+            "method": "官方API密钥，HTTP请求",
+            "models": "Gemini Pro, Gemini Ultra等",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费，使用你自己的微软Copilot账户。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目巧妙利用逆向工程，将免费的Copilot服务包装成OpenAI兼容API，提供了极高的实用价值（免费访问GPT-4/5级别模型）。设置简单，易于集成。虽是非官方项目，但解决了许多开发者对免费LLM API的需求。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，已解决12个Issue，当前只有1个Issue开启，响应速度和维护效率良好。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-24T05:44:27.933Z"
+    },
+    {
+      "owner": "cloudflare",
+      "repo": "security-audit-skill",
+      "fullName": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-18T14:08:44Z",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "analysis": {
+        "positioning": "多阶段AI智能体安全审计工具。",
+        "useCases": [
+          "你想了解应用架构和攻击面 → 它帮你通过多智能体侦察，自动绘制架构图和信任边界。",
+          "你想全面发现代码漏洞 → 它帮你组织多智能体从注入、权限等角度攻击代码库，挖掘可利用漏洞。",
+          "你担心安全报告有误报或不准确 → 它帮你利用独立智能体验证和对抗性审查，确保发现结果真实可靠。"
+        ],
+        "audience": "安全研究员、开发者或DevSecOps团队，希望利用AI自动化、标准化代码安全审计，提升漏洞发现效率和准确性。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "运行 `npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit` 安装技能。",
+            "在代码库中启动你的编码Agent，并输入如 `security audit this codebas…` 这样的指令开始审计。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "AI安全分析平台",
+            "method": "AI驱动的静态/动态分析，提供漏洞检测与修复建议",
+            "models": "通常使用LLM或自研AI模型",
+            "pricing": "通常付费，或部分功能免费"
+          },
+          {
+            "name": "传统SAST工具",
+            "method": "基于规则和模式匹配的静态代码分析",
+            "models": "N/A",
+            "pricing": "免费（社区版）/付费（企业版）"
+          }
+        ],
+        "pricing": "免费 (MIT License，开源工具)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "独创性地将AI Agent应用于多阶段、结构化的安全审计，通过平行智能体、对抗性验证等机制显著提升漏洞发现的深度和准确性，并已成功孵化Cloudflare内部系统。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示暂无社区活跃度（0开/0关）。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-24T05:44:49.105Z"
+    },
+    {
+      "owner": "yo-WASSUP",
+      "repo": "Good-Badminton",
+      "fullName": "yo-WASSUP/Good-Badminton",
+      "description": "🏸  AI Badminton Hawk-Eye System",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-20T10:16:22Z",
+      "url": "https://github.com/yo-WASSUP/Good-Badminton",
+      "analysis": {
+        "positioning": "AI视觉驱动的羽毛球鹰眼系统，自动化比赛视频分析。",
+        "useCases": [
+          "你想复盘比赛中球员的走位和轨迹 → 它帮你生成带骨架、轨迹和统计信息的分析视频。",
+          "你想统计比赛关键数据，如回合数、移动距离和速度 → 它帮你自动检测回合，并提供球员运动数据报告和可视化图表。",
+          "你想提升羽毛球技战术水平 → 它提供AI鹰眼能力，帮你定位击球点、分析球员姿态和技术动作（实验中）。"
+        ],
+        "audience": "羽毛球爱好者、教练、技术分析师及运动数据研究者，用于比赛视频复盘和技战术分析。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+，FFmpeg，羽毛球YOLO检测权重。",
+          "steps": [
+            "创建并激活Python虚拟环境。",
+            "安装 `requirements.txt` 中的依赖。"
+          ],
+          "note": "GPU加速需安装特定PyTorch版本，推荐NVIDIA显卡。"
+        },
+        "competitors": [
+          {
+            "name": "专业体育分析服务（如Hawk-Eye）",
+            "method": "专有硬件+专家人工分析，通常应用于职业赛事",
+            "models": "高度定制化算法，非开源",
+            "pricing": "高昂的商业服务费用"
+          }
+        ],
+        "pricing": "免费。基于Apache-2.0开源协议，所有功能均可免费使用和二次开发。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "仓库名“yo-WASSUP”和项目名“Good-Badminton”略带活泼感，项目文档专业且结构清晰，包含小红书链接增强社区互动，整体在专业中融入了轻量级社区氛围。",
+        "isVibeCoding": false,
+        "communityActivity": "中等活跃，Issue开闭比接近1:1（5开4闭），表明社区反馈得到及时处理。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-24T05:45:09.345Z"
+    },
+    {
+      "owner": "raiyanyahya",
+      "repo": "recall",
+      "fullName": "raiyanyahya/recall",
+      "description": "Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-plugin",
+        "context",
+        "developer-tools",
+        "llm",
+        "local-first",
+        "memory",
+        "offline",
+        "privacy",
+        "productivity",
+        "python",
+        "summarization",
+        "textrank"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-19T20:36:41Z",
+      "url": "https://github.com/raiyanyahya/recall",
+      "analysis": {
+        "positioning": "Claude Code 本地记忆助手，省token，保护隐私。",
+        "useCases": [
+          "你每次用 Claude Code 都要重复解释项目背景 → 它自动帮你生成本地项目总结，省去重复输入。",
+          "你担心项目代码和敏感信息发送到外部 → 它确保所有记忆和总结都本地处理，保护隐私。",
+          "你希望节省 Claude Code 的使用额度 → 它用本地算法生成总结，不消耗 LLM token，有效延长订阅。"
+        ],
+        "audience": "使用 Claude Code 进行本地开发，注重效率、隐私和成本的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在 Claude Code 中启用 Recall 插件即可自动开始工作。"
+          ],
+          "note": "专为 Claude Code 本地订阅用户设计。"
+        },
+        "competitors": [
+          {
+            "name": "常见LLM记忆工具",
+            "method": "将上下文发送到外部LLM API进行总结",
+            "models": "各类外部LLM（如GPT, Claude API）",
+            "pricing": "消耗LLM API token，产生额外费用"
+          }
+        ],
+        "pricing": "免费，利用现有Claude Code订阅，并通过本地总结节省LLM token费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "聚焦Claude Code痛点，提供本地、隐私、省钱的记忆方案。文档清晰，强调“零摩擦”体验，是典型的开发者福音项目。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，项目刚起步，目前仅有少量 Issue。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-24T05:45:23.240Z"
+    },
+    {
+      "owner": "overflowy",
+      "repo": "make-look-scanned",
+      "fullName": "overflowy/make-look-scanned",
+      "description": "Makes PDFs look scanned (CLI or in the browser via WASM)",
+      "language": "Go",
+      "topics": [
+        "go",
+        "pdf",
+        "scan",
+        "wasm"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-06-20T17:39:59Z",
+      "url": "https://github.com/overflowy/make-look-scanned",
+      "analysis": {
+        "positioning": "让电子PDF秒变逼真扫描件，告别数字痕迹。",
+        "useCases": [
+          "你担心PDF太过“数字感” → 它帮你加入扫描纹理、纸张色调、边缘阴影等，让文档更自然。",
+          "你需要模拟纸质文件复印件的效果 → 它帮你调整倾斜、模糊、JPEG压缩，输出更真实的“劣化”版本。",
+          "你希望在浏览器中直接处理PDF为扫描件 → 它提供WASM支持，在客户端快速实现效果。"
+        ],
+        "audience": "需要将规整的PDF文档转换为具有物理扫描（如手写稿、复印件）视觉效果的用户和开发者。",
+        "quickStart": {
+          "prerequisites": "Go 和 C 编译工具链",
+          "steps": [
+            "go build -o make-look-scanned .",
+            "./make-look-scanned input.pdf -o output.scanned.pdf --preset medium"
+          ],
+          "note": "构建出的二进制文件是自包含的，无需额外运行时依赖。浏览器端也可通过WASM使用。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能独特且专注，完美模拟纸质文档扫描效果，提供丰富的定制参数和预设。支持CLI和WASM双模式，细节考量周全（如输出确定性）。",
+        "isVibeCoding": true,
+        "communityActivity": "尚无公开Issue，社区互动待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-24T05:45:35.815Z"
+    },
+    {
+      "owner": "eooce",
+      "repo": "transfer-api",
+      "fullName": "eooce/transfer-api",
+      "description": "Cloudflare Worker adapter for unlimited.surf OpenAI/Anthropic-compatible API routes.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-19T19:24:47Z",
+      "url": "https://github.com/eooce/transfer-api",
+      "analysis": {
+        "positioning": "Cloudflare Worker，将unlimited.surf转换为OpenAI/Anthrop",
+        "useCases": [
+          "你用OpenAI/Anthropic工具链 → 它帮你通过熟悉的API调用unlimited.surf服务。",
+          "你需要在Cloudflare Workers部署AI代理 → 它提供即插即用的unlimited.surf代理方案。",
+          "你尝试将unlimited.surf接入Agent/IDE → 它提供OpenAI/Anthropic兼容接口以便集成。"
+        ],
+        "audience": "寻求低成本或替代性AI服务（如unlimited.surf）并希望以OpenAI/Anthropic标准接口接入的开发者或团队。",
+        "quickStart": {
+          "prerequisites": "GitHub账号、Cloudflare账号、unlimited.surf API Key。",
+          "steps": [
+            "将项目推送到GitHub私有仓库。",
+            "在Cloudflare Workers & Pages中关联GitHub仓库，配置构建命令`npm install && npx wrangler deploy`。",
+            "在Cloudflare Workers设置中添加`UNLIMITED_SURF_API_KEY`和`WORKER_API_KEY`（可选）为Secret。",
+            "部署后验证Worker健康状态。"
+          ],
+          "note": "强烈建议不要将API Key提交到仓库，并通过Cloudflare Secret管理。注意官方关于unlimited.surf潜在安全风险的警告，避免接入有控制权的Agent。"
+        },
+        "competitors": [
+          {
+            "name": "直接使用unlimited.surf API",
+            "method": "直接调用其原始API",
+            "models": "unlimited.surf支持的所有模型",
+            "pricing": "unlimited.surf定价"
+          },
+          {
+            "name": "自定义Cloudflare Worker",
+            "method": "自行开发与部署",
+            "models": "可自由配置",
+            "pricing": "Cloudflare Workers免费额度/付费"
+          }
+        ],
+        "pricing": "免费（项目开源），部署在Cloudflare Workers有免费额度，但`unlimited.surf`上游服务本身需付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决将特定服务兼容通用API的痛点，提供详细的部署指南和兼容多种API的能力，方便开发者快速集成和使用。及时提示安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前有两个开启的Issue，无已关闭Issue，可能项目较新或维护者较少。",
+        "category": "AI Agent",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-06-24T05:45:55.338Z"
+    },
+    {
+      "owner": "HKUDS",
+      "repo": "AgentSpace",
+      "fullName": "HKUDS/AgentSpace",
+      "description": "\"AgentSpace: Human + Agents. One Team. One Workspace\"",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-22T04:08:03Z",
+      "url": "https://github.com/HKUDS/AgentSpace",
+      "analysis": {
+        "positioning": "专为人机协作设计，团队级AI Agent协作工作空间",
+        "useCases": [
+          "你需团队化管理AI Agent并协调多Agent工作 → 它提供共享工作区，让Agent各司其职高效协作",
+          "你担心AI Agent操作敏感数据或关键任务失控 → 它提供权限、审批与审计，确保Agent行为安全可控",
+          "你计划在组织内大规模部署与审计AI Agent → 它支持Agent招募、角色分配和跨组织管理"
+        ],
+        "audience": "适合需要将AI Agent深度整合到团队协作，并进行企业级管理和扩展的组织及团队",
+        "quickStart": {
+          "prerequisites": "Node.js 24+, PostgreSQL 16+",
+          "steps": [
+            "`git clone HKUDS/AgentSpace`",
+            "`npm install && npm start`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0 开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，专注人机协作，提供团队级Agent管理与协作能力。文档专业，演示直观，且由知名机构支持，具备扎实工程与商业化潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般（开启4/关闭2），但提供了微信和飞书社群入口，项目正处于积极发展中。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-24T05:46:10.284Z"
+    },
+    {
+      "owner": "ksimback",
+      "repo": "looper",
+      "fullName": "ksimback/looper",
+      "description": "Design visual, review-gated agent loops for Claude Code before you run them.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-18T19:44:20Z",
+      "url": "https://github.com/ksimback/looper",
+      "analysis": {
+        "positioning": "为Claude Code定制的AI Agent循环设计与审查工具。",
+        "useCases": [
+          "你有一个模糊的AI自动化想法 → 它帮你具象化为结构清晰、可审查的AI Agent工作流。",
+          "你想确保Agent执行逻辑严谨、结果可控 → 它帮你设计带明确目标、多模型审查及校验机制的Agent循环。",
+          "你需要将设计的Agent部署到Claude Code → 它帮你生成可直接运行的配置文件和执行脚本。"
+        ],
+        "audience": "Claude Code开发者及AI Agent设计者，尤其关注Agent工作流的设计质量、可视化和预运行审查。",
+        "quickStart": {
+          "prerequisites": "需使用Claude Code会话环境。",
+          "steps": [
+            "在Claude Code会话中，输入`/looper`启动交互式设计。",
+            "按照提示定义Agent目标、计划、审查门槛和停止条件。",
+            "Looper会生成ASCII流程图预览、`loop.yaml`和`run-loop.py`等文件。"
+          ],
+          "note": "Looper主要负责设计，生成的脚本可在当前会话或外部独立运行。"
+        },
+        "competitors": [
+          {
+            "name": "/goal (Claude Code内置功能)",
+            "method": "在会话中设定持久目标，Claude自动检查并持续工作。",
+            "models": "Claude",
+            "pricing": "免费（Claude Code功能的一部分）"
+          },
+          {
+            "name": "/loop (Claude Code内置功能)",
+            "method": "运行Agent循环，聚焦执行而非设计，缺乏设计阶段的可视化和审查。",
+            "models": "Claude",
+            "pricing": "免费（Claude Code功能的一部分）"
+          }
+        ],
+        "pricing": "免费（开源MIT许可证），运行Agent可能产生Claude模型使用费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "亮点：精准切入AI Agent设计痛点，通过交互式设计、可视化和内置最佳实践，显著提升Agent开发质量与效率，尤其强调预运行审查，避免盲目执行。待改进：GitHub Issue全部为0，社区活跃度和问题响应机制尚不明确。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue全部为0，社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-24T05:46:27.055Z"
+    },
+    {
+      "owner": "samasante",
+      "repo": "liquid-glass",
+      "fullName": "samasante/liquid-glass",
+      "description": "Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-22T23:31:35Z",
+      "url": "https://github.com/samasante/liquid-glass",
+      "analysis": {
+        "positioning": "实时DOM折射的跨浏览器React液态玻璃组件。",
+        "useCases": [
+          "你希望在React项目中实现Apple风格的液态玻璃UI → 它帮你轻松为UI元素添加磨砂、着色、边缘光和实时折射效果。",
+          "你需要在Chrome/Edge中折射实时DOM内容 → 它帮你直接弯曲页面背景，文字和链接仍可交互。",
+          "你需要在所有浏览器中（包括Safari/Firefox）弯曲特定图片或视频 → 它帮你通过复制内容实现跨平台的高级折射效果。"
+        ],
+        "audience": "寻求高质量Apple风格UI特效，且关注跨浏览器兼容性的React前端开发者。",
+        "quickStart": {
+          "prerequisites": "`react` 和 `react-dom`",
+          "steps": [
+            "`npm i @samasante/liquid-glass`",
+            "`import { Glass } from \"@samasante/liquid-glass\"; <Glass>你的内容</Glass>`"
+          ],
+          "note": "实时DOM弯曲（`backdrop-filter: url()`）仅限Chrome/Edge；Safari/Firefox需传入内容副本以实现弯曲。"
+        },
+        "competitors": [
+          {
+            "name": "基于`backdrop-filter: url()`的CSS方案",
+            "method": "使用CSS `backdrop-filter: url()`",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "基于WebGL和`html2canvas`的截图方案",
+            "method": "WebGL渲染`html2canvas`生成的页面截图",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目清晰解决了现有液态玻璃效果方案的跨浏览器和实时DOM交互痛点，提供了多模式支持，API设计简洁高效，且无额外运行时依赖，提升开发体验。",
+        "isVibeCoding": true,
+        "communityActivity": "极低，开启1个issue，0个已关闭。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-06-24T05:46:40.807Z"
+    },
+    {
+      "owner": "goehou",
+      "repo": "tabbit-toy",
+      "fullName": "goehou/tabbit-toy",
+      "description": "这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-23T03:37:12Z",
+      "url": "https://github.com/goehou/tabbit-toy",
+      "analysis": {
+        "positioning": "将Tabbit AI浏览器内的模型转换为OpenAI API格式，实现本地快速调用。",
+        "useCases": [
+          "你依赖Tabbit浏览器里的Claude/GPT等模型 → 它帮你将这些模型集成到支持OpenAI API的第三方客户端（如NextChat），摆脱浏览器限制。",
+          "你想用自动化脚本调用Tabbit模型 → 它帮你提供标准OpenAI API接口，方便程序化访问和二次开发。",
+          "你希望快速切换并测试Tabbit的多种AI模型 → 它帮你通过统一的API接口和简单的模型名调用，无需复杂配置，加速开发和实验。"
+        ],
+        "audience": "希望利用Tabbit浏览器Pro会员模型（如Claude Opus、GPT-5.5）但又不愿受限于Tabbit浏览器UI的开发者或高级用户。",
+        "quickStart": {
+          "prerequisites": "已安装Tabbbit浏览器并登录（Pro会员通过设为默认浏览器免费获取），Node.js 18+。",
+          "steps": [
+            "使用项目自带的Chrome扩展或手动导出Tabbbit的登录Cookie。",
+            "在Tabbbit浏览器控制台获取真实的Tabbbit版本号。",
+            "配置`.env`文件，填入Cookie和版本号。",
+            "执行`node src/server.mjs`启动服务。"
+          ],
+          "note": "项目零依赖，无需`npm install`。"
+        },
+        "competitors": [
+          {
+            "name": "Tabbit浏览器本身",
+            "method": "直接在浏览器界面使用",
+            "models": "21个AI模型（含Claude, GPT等）",
+            "pricing": "免费/Pro会员（免费解锁）"
+          },
+          {
+            "name": "各模型官方API (如OpenAI, Anthropic)",
+            "method": "集成各模型官方API",
+            "models": "各自支持的模型",
+            "pricing": "按量付费"
+          }
+        ],
+        "pricing": "部分免费（依赖Tabbit的免费Pro会员），部分模型按Tabbit免费额度计量。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目强调零依赖，无需npm install，并提供一键导出Cookie的浏览器扩展，极大简化了配置和启动流程，快速上手体验优秀，文档清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue响应积极，已关闭Issue数多于开启，显示项目有人维护且会处理问题。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-24T05:46:58.040Z"
+    },
+    {
+      "owner": "SarkAzia",
+      "repo": "baiyueguang-learning-skill",
+      "fullName": "SarkAzia/baiyueguang-learning-skill",
+      "description": "用视奸前任白月光的方式学数学以及任何学科",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-21T13:00:22Z",
+      "url": "https://github.com/SarkAzia/baiyueguang-learning-skill",
+      "analysis": {
+        "positioning": "把调查前任白月光的专注力，转移到学习任何知识上。",
+        "useCases": [
+          "你习惯死记硬背知识点 → 它帮你把知识点转化为可追踪的线索，激活好奇心。",
+          "你对学习枯燥内容提不起兴趣 → 它帮你把学习过程转化为一场有趣的调查探究。",
+          "你认为自己缺乏专注力 → 它帮你发现你的专注力只是被错误地引导，并重新定向到知识追踪。"
+        ],
+        "audience": "适合所有觉得传统学习枯燥、难以专注，希望以探究式思维掌握任何学科知识的学习者。",
+        "quickStart": {
+          "prerequisites": "具备任一主流大语言模型（如ChatGPT, Gemini, Claude）的访问权限。",
+          "steps": [
+            "复制项目提供的“白月光学习模式”Prompt指令。",
+            "将其粘贴到你的AI对话框中。",
+            "输入你想调查的知识点，获取AI生成的调查报告。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT等通用AI助手",
+            "method": "直接问答、解释概念、总结归纳",
+            "models": "GPT系列、Gemini、Claude等",
+            "pricing": "免费/付费订阅"
+          },
+          {
+            "name": "传统学习工具（如Anki、Quizlet）",
+            "method": "抽认卡、间隔重复、测试记忆",
+            "models": "N/A（非AI驱动）",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费（通过开源Prompt使用，需自备大语言模型服务）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目名及核心理念以“视奸前任白月光”为隐喻，强烈的场景化和情感冲击力，旨在颠覆传统学习观念，激发用户兴趣，是典型的氛围编码。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前无Issue活动记录。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-24T05:47:14.777Z"
+    },
+    {
+      "owner": "yin-yizhen",
+      "repo": "sonic-topography",
+      "fullName": "yin-yizhen/sonic-topography",
+      "description": "随音乐产生交互的棋盘式海浪，支持网易云搜索",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-18T04:26:20Z",
+      "url": "https://github.com/yin-yizhen/sonic-topography",
+      "analysis": {
+        "positioning": "随音乐生成交互式3D地形可视化，支持网易云。",
+        "useCases": [
+          "想让音乐看得见 → 它帮你把音乐实时转换成会起伏、发光、产生波纹和流星的3D地形。",
+          "想用网易云听歌但又追求独特体验 → 它让你在美妙视觉中播放网易云歌曲和歌单。",
+          "想个性化定制视觉效果 → 它让你自由调整地形EQ、主题、特效，打造专属音乐体验。"
+        ],
+        "audience": "音乐爱好者、视觉艺术追求者或任何想用互动视觉丰富听歌体验的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js",
+          "steps": [
+            "npm install",
+            "npm run dev"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费，仅供学习、研究和个人非商业体验使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能完整且支持本地/网易云音乐，视觉效果独特，文档详细，打包成Windows单EXE方便用户。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues数量不多，已关闭比例较低（1/5），需观察作者响应速度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-24T05:47:28.776Z"
+    },
+    {
+      "owner": "BohemiaInteractive",
+      "repo": "CWR",
+      "fullName": "BohemiaInteractive/CWR",
+      "description": "Arma: Cold War Assault Remastered Source Code Repository.",
+      "language": "C++",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-22T12:56:54Z",
+      "url": "https://github.com/BohemiaInteractive/CWR",
+      "analysis": {
+        "positioning": "Arma: Cold War Assault（2001）重制版引擎与游戏源码。",
+        "useCases": [
+          "你想研究经典游戏引擎 → 它可以作为Bohemia Interactive引擎技术源头学习资料。",
+          "你想基于老游戏魔改或修复bug → 它可以提供现代化的C++20源码用于开发。",
+          "你想创建自己的Cold War Crisis类游戏 → 它可以作为跨平台（Windows/Linux）游戏开发起点。"
+        ],
+        "audience": "对《闪点行动：冷战危机》及Bohemia Interactive引擎技术感兴趣的游戏开发者、模组制作者和爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "cmake --preset win-x64-clang-rwdi",
+            "cmake --build build/win-x64-clang-rwdi"
+          ],
+          "note": "在GNU/Linux上，使用匹配的`linux-x64-clang-rwdi`预设。"
+        },
+        "competitors": [],
+        "pricing": "核心引擎及游戏源码在GPL-3.0下免费开源，但游戏数据和商标需单独处理。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目架构清晰，代码现代化（C++20），支持跨平台构建。提供了详细的社区贡献指南和构建流程，对社区开放度高。",
+        "isVibeCoding": true,
+        "communityActivity": "项目发布不久，Issue活跃度较低（2开0关），响应速度待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-24T05:47:43.927Z"
+    },
+    {
+      "owner": "pixelgridhub-coder",
+      "repo": "Gothic-Remake-Lockpick-Solver",
+      "fullName": "pixelgridhub-coder/Gothic-Remake-Lockpick-Solver",
+      "description": "Gothic Remake Lockpick Solver chest gate puzzle combination sequence pin plate slider helper assistant unreal pc steam alkimia thq colony break logic calculator ue5 turn door pattern",
+      "language": "C#",
+      "topics": [
+        "community-module",
+        "game-tools",
+        "gothic",
+        "gothic-fiction",
+        "gothic-horror",
+        "gothic-lockpicking",
+        "gothic-lockpicking-tool",
+        "gothic-remake",
+        "gothic-remake-free",
+        "gothic-remake-guide",
+        "gothic-remake-lockbreaker",
+        "gothic-remake-lockpicking",
+        "gothic-remake-mod",
+        "gothic-remake-tool",
+        "gothic1",
+        "gothic2",
+        "lock-solver",
+        "lockpicking",
+        "modding-gothic",
+        "visual-enhancement"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-20T17:28:01Z",
+      "url": "https://github.com/pixelgridhub-coder/Gothic-Remake-Lockpick-Solver",
+      "analysis": {
+        "positioning": "《哥特式重制版》开锁辅助，提供视觉引导和智能解谜。",
+        "useCases": [
+          "玩《哥特式1重制版》遇到开锁难题 → 它提供视觉引导，助你轻松过关。",
+          "不想被开锁机制卡住影响剧情体验 → 它提供计时辅助和智能解谜，帮你专注故事。",
+          "想快速掌握《哥特式1重制版》开锁技巧 → 它作为训练工具，助你高效练习。"
+        ],
+        "audience": "《哥特式1重制版》玩家，尤其是不想被开锁小游戏困扰，只想享受剧情和探索乐趣的用户。",
+        "quickStart": {
+          "prerequisites": "已拥有《哥特式1重制版》正版游戏；建议在Windows 11系统上使用。",
+          "steps": [
+            "下载并解压`Lockpick-Solver.zip`。",
+            "以管理员身份运行工具，根据设置向导配置后启动《哥特式重制版》。",
+            "在游戏遇到开锁时激活解谜器。"
+          ],
+          "note": "已在Windows 11上优化。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，提供详细的README、安装指南和故障排除说明，并有截图和徽章，对目标游戏用户非常友好且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示当前开启和关闭均为0，无法评估社区活跃度及响应速度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-24T05:47:58.755Z"
+    },
+    {
+      "owner": "ma7mod7",
+      "repo": "Resident-Evil-Requiem-Ultimate-Trainer-2026_v_2",
+      "fullName": "ma7mod7/Resident-Evil-Requiem-Ultimate-Trainer-2026_v_2",
+      "description": "Ultimate trainer for Resident Evil Requiem (RE9) – 42+ features including God Mode, Infinite Ammo, CP Editor, FOV fix, and more.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-22T18:48:25Z",
+      "url": "https://github.com/ma7mod7/Resident-Evil-Requiem-Ultimate-Trainer-2026_v_2",
+      "analysis": {
+        "positioning": "生化危机安魂曲（RE9）终极修改器，提供超42项强大功能。",
+        "useCases": [
+          "你想轻松通过《生化危机安魂曲》的难关 → 它提供无敌、无限弹药、一击必杀等战斗辅助，助你横扫浣熊市。",
+          "你想快速解锁RE9所有内容或自定义游戏进度 → 它能编辑CP点，一键解锁全部特殊内容，省去肝的烦恼。",
+          "你想优化RE9的游戏体验，如调整视角或游戏速度 → 它提供FOV修复、游戏速度调节、第一/第三人称切换等功能，让游玩更舒适。"
+        ],
+        "audience": "《生化危机安魂曲》（RE9）玩家，尤其是那些希望降低游戏难度、快速解锁内容或自定义游戏体验的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), 已安装《生化危机安魂曲》(Steam/Epic/Xbox PC), 至少4GB RAM。",
+          "steps": [
+            "访问项目Releases页，下载`RE9_Trainer_Setup.zip`（密码: `raccoon2026`）。",
+            "解压，以管理员身份运行`RE9_Trainer.exe`。在游戏中按下`Insert`键，打开修改器界面。"
+          ],
+          "note": "所有功能均离线可用，不修改游戏文件，仅通过REFramework内存注入。"
+        },
+        "competitors": [
+          {
+            "name": "其他RE9修改器",
+            "method": "多数需付费订阅、含广告链接、可能需联网验证。",
+            "models": "针对RE9",
+            "pricing": "多数付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能强大且文档完善，对特定游戏玩家而言是高效实用工具，但作为非通用型开发项目，其编码领域影响力有限。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示目前无公开活跃的社区讨论，用户反馈可能通过其他渠道。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-24T05:48:12.859Z"
+    },
+    {
+      "owner": "bonhs1983",
+      "repo": "Peace-Equalizer-Apo",
+      "fullName": "bonhs1983/Peace-Equalizer-Apo",
+      "description": "peace equalizer apo gui system wide parametric equalizer windows 11 windows 10 audio configuration tool sourceforge download bass boost preamp sound booster headphones calibration microphone setup gaming audio interface gui vst plugins open source desktop utility pc audio enhancement profile manager audio effects",
+      "language": "C#",
+      "topics": [
+        "audio-dsp",
+        "audio-equalizer",
+        "autoeq",
+        "desktop-app",
+        "eq-plugins",
+        "eq-presets",
+        "eq-profiles",
+        "equalization",
+        "equalizer",
+        "equalizer-apo",
+        "equalizers",
+        "graphic-eq",
+        "gui-tools",
+        "headphone-eq",
+        "loudness-correction",
+        "parametric-equalizer",
+        "peace-eq",
+        "peace-equalizer-gui",
+        "speaker-correction",
+        "vst-plugins"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-18T16:54:34Z",
+      "url": "https://github.com/bonhs1983/Peace-Equalizer-Apo",
+      "analysis": {
+        "positioning": "Windows系统级专业音频均衡器增强工具。",
+        "useCases": [
+          "你对Windows音质不满意，想精细化调校 → 它提供系统级参数均衡器，轻松实现专业音效定制。",
+          "你玩游戏、听歌、看电影时想有专属音效 → 它能创建和管理不同场景的音频配置文件，一键切换。",
+          "你想提升耳机、麦克风表现或加入VST效果 → 它提供耳机校准、麦克风优化和VST插件支持，扩展音频功能。"
+        ],
+        "audience": "Windows用户，尤其是对游戏音效、音乐发烧或语音通话有高要求的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), 需先安装Equalizer APO。",
+          "steps": [
+            "下载并解压Peace",
+            "安装Equalizer APO（如果未安装）",
+            "运行Peace，开始配置音效"
+          ],
+          "note": "安装Equalizer APO时建议选择“Device”模式。"
+        },
+        "competitors": [
+          {
+            "name": "FXSound",
+            "method": "独立Windows应用",
+            "models": "N/A",
+            "pricing": "付费"
+          },
+          {
+            "name": "Boom 3D",
+            "method": "独立Windows应用",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费，开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Windows系统级专业音效增强工具，弥补了Equalizer APO缺乏友好UI的痛点，功能强大且开源免费，但生态和用户规模有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue区暂无活跃度（0开启/0关闭），无法判断响应速度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-24T05:48:31.006Z"
     }
   ]
 }
