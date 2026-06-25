@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-06-25",
+  "startedAt": "2026-06-25T05:44:49.307Z",
+  "finishedAt": "2026-06-25T05:51:15.896Z",
+  "durationSeconds": 387,
+  "success": true,
+  "stats": {
+    "fetched": 109,
+    "newProjects": 18,
+    "skipped": 91,
+    "geminiCalls": 20,
+    "statsUpdated": 109
+  },
+  "errors": [
+    {
+      "time": "2026-06-25T05:45:41.465Z",
+      "level": "warn",
+      "project": "SwarmSamurai/Sugar-Bytes-Effectrix-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-25T05:46:49.154Z",
+      "level": "warn",
+      "project": "Yu9191/wloc",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
