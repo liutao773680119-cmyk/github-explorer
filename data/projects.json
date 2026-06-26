@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-25T05:50:24.477Z",
+  "updatedAt": "2026-06-26T05:54:16.015Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -55111,6 +55111,763 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-25T05:50:24.456Z"
+    },
+    {
+      "owner": "xiaohuailabs",
+      "repo": "xiaohu-ip-studio",
+      "fullName": "xiaohuailabs/xiaohu-ip-studio",
+      "description": "开源中文配图技能 + IP 角色库:用「挑认知锚点→现编隐喻→反PPT自检」为中文深度文生成固定角色出演的正文配图",
+      "language": "HTML",
+      "topics": [
+        "agent-skill",
+        "ai-illustration",
+        "character-design",
+        "chinese",
+        "claude-code",
+        "codex",
+        "gpt-image",
+        "illustration",
+        "ip-character",
+        "mascot"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-26T00:49:42Z",
+      "url": "https://github.com/xiaohuailabs/xiaohu-ip-studio",
+      "analysis": {
+        "positioning": "为中文深度文章提供AI驱动、固定IP角色出演的自动配图技能。",
+        "useCases": [
+          "你写完一篇深度中文文章 → 它帮你自动识别关键段落并生成主题配图。",
+          "你希望文章配图有统一风格和品牌IP → 它帮你用预设或自选角色库保持视觉一致性。",
+          "你需要解释复杂概念、流程或情绪 → 它帮你将内容转化成易懂、有记忆点的解释图或四格漫画。"
+        ],
+        "audience": "中文内容创作者、博主、企业号运营者，希望通过一致的视觉形象，快速为深度文章配图并建立品牌IP。",
+        "quickStart": {
+          "prerequisites": "需集成到支持Agent Skill的AI平台（如Claude），或具备相应开发环境。",
+          "steps": [
+            "选择一个文章主题适配的IP角色（共31个）。",
+            "将你的中文文章输入给Agent，指示其配图。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "通用AI绘图工具（如Midjourney/DALL-E/Stable Diffusion）",
+            "method": "通过文本Prompt生成图片，需要用户自行设计角色、风格并反复调试以保持一致性。",
+            "models": "各自专有模型或开源模型",
+            "pricing": "付费或部分免费"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述语言生动活泼，如“挑认知锚点→现编隐喻→反PPT自检”、“一眼怪但一秒懂的解释图”、“谐音梗meme”等，充满幽默感和互联网文化特色。提供的31个IP角色库，尤其是当代情绪态和谐音梗系列，精准捕捉了中文互联网的流行情绪和痛点，具备强烈的“vibe”。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低。Issue统计显示开启0/关闭0，表明当前项目互动和反馈较少。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-26T05:50:18.448Z"
+    },
+    {
+      "owner": "Megaeljourney",
+      "repo": "AppWave",
+      "fullName": "Megaeljourney/AppWave",
+      "description": "AppWave gives you a beautiful, intuitive interface to the powerful Windows Package Manager (Winget). Browse hundreds of popular apps, filter by category, and install dozens at once with a single click. No more hunting for download pages or clicking through installers.",
+      "language": "Unknown",
+      "topics": [
+        "device-driver-tools",
+        "driver-development",
+        "driver-tool",
+        "drivers",
+        "drivers-and-programs",
+        "driverstore",
+        "installer",
+        "installer-tools",
+        "installers",
+        "silent-installation",
+        "windows-customization",
+        "windows-driver",
+        "windows-tools",
+        "windows-upgrade",
+        "windowsdriver"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-26T00:50:24Z",
+      "url": "https://github.com/Megaeljourney/AppWave",
+      "analysis": {
+        "positioning": "Windows 应用一键批量安装与可视化管理利器",
+        "useCases": [
+          "你购买了新电脑或重装了系统 → 它帮你用AppWave一键批量安装所有常用软件，省去逐个下载和点击的繁琐。",
+          "你是IT专业人士，需要为多台Windows机器快速部署标准软件环境 → 它提供高效、自动化的软件安装流程，节约大量部署时间。",
+          "你希望快速找到并安装特定类别的Windows应用程序，但不想命令行操作 → 它提供直观的图形界面，支持分类浏览和搜索，轻松筛选和安装。"
+        ],
+        "audience": "适合PC装机用户、IT专业人士及任何希望高效、便捷地管理和批量安装Windows应用程序的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目官方下载页面（https://soft-tools.xyz/#packages），下载并安装AppWave Installer。",
+            "打开AppWave应用程序，在直观的界面中浏览、搜索或按类别筛选所需应用，勾选后点击“一键安装”即可。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Windows Package Manager (Winget) CLI",
+            "method": "命令行输入指令进行单个或批量安装",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Ninite",
+            "method": "通过网页选择应用后下载定制安装器运行",
+            "models": null,
+            "pricing": "免费（个人版），有付费专业版"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，提供Winget的可视化解决方案，UI截图美观，解决的痛点明确。但Star数量和社区活跃度较低（无Issue），表明项目尚处于早期阶段或用户基数较小，成熟度和稳定性有待进一步验证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无公开Issue和已关闭Issue，表明项目处于极早期或用户参与度不高。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-26T05:50:33.126Z"
+    },
+    {
+      "owner": "VolcanoSteam",
+      "repo": "roblox-xecutor",
+      "fullName": "VolcanoSteam/roblox-xecutor",
+      "description": "Wilonity the best roblox exploit on github!",
+      "language": "Unknown",
+      "topics": [
+        "byfron",
+        "celex-download",
+        "electron-exploit",
+        "game-scripts",
+        "rbx",
+        "rbxstu",
+        "roblox",
+        "stutter-fix",
+        "ui-library",
+        "unc",
+        "wilonity"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-26T03:15:37Z",
+      "url": "https://github.com/VolcanoSteam/roblox-xecutor",
+      "analysis": {
+        "positioning": "Roblox平台免费高性能Lua脚本执行器。",
+        "useCases": [
+          "想在Roblox游戏中运行自定义Lua脚本 → VolcanoSteam提供免费、快速的脚本注入与执行服务。",
+          "希望获取游戏内增强功能（如透视、自瞄、自动农场）→ VolcanoSteam内置脚本库或支持导入自定义脚本实现。",
+          "需要对抗Roblox官方检测与补丁更新 → VolcanoSteam提供内置反检测和自动更新机制。"
+        ],
+        "audience": "寻求在Roblox游戏中免费执行Lua脚本、获取游戏增强或测试脚本的玩家及脚本爱好者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11操作系统，4GB RAM，最新版Roblox，.NET Framework 4.8+。",
+          "steps": [
+            "访问官网下载并安装执行器。",
+            "启动Roblox游戏，打开执行器，点击“Inject”注入。",
+            "粘贴或选择Lua脚本，点击“Execute”运行。"
+          ],
+          "note": "建议使用小号Roblox账户以防封禁；安装时可能需要暂时禁用杀毒软件（可能存在误报）。"
+        },
+        "competitors": [],
+        "pricing": "完全免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，README结构清晰，提供了详细的功能列表和使用步骤。但其作为Roblox“exploit”工具的性质，以及安装时需要禁用杀毒软件的提示，可能对部分用户构成安全疑虑。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues为零，社区活跃度未知或非常低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-26T05:50:46.588Z"
+    },
+    {
+      "owner": "nonononull",
+      "repo": "codex-retry-gateway",
+      "fullName": "nonononull/codex-retry-gateway",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-26T02:08:21Z",
+      "url": "https://github.com/nonononull/codex-retry-gateway",
+      "analysis": {
+        "positioning": "Codex本地重试网关，专治上游516错误。",
+        "useCases": [
+          "Codex上游服务出现特定错误码（如516）时 → 它帮你统一拦截并返回502。",
+          "你想自定义Codex错误处理逻辑和响应 → 它提供管理页面，动态配置判定条件和响应码。",
+          "想在不修改Codex核心配置下增强错误处理 → 它作为本地网关，只需修改Codex的`base_url`指向本地。"
+        ],
+        "audience": "Codex用户，希望对特定上游错误（尤其是`reasoning_tokens = 516`）进行统一拦截和处理，提升体验和稳定性。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+ (macOS/Linux)",
+          "steps": [
+            "执行启动脚本（Windows: `powershell -ExecutionPolicy Bypass -File .\\scripts\\launch-ui.ps1` 或 macOS/Linux: `bash ./scripts/launch-ui.sh`）",
+            "浏览器访问 `http://127.0.0.1:4610/__codex_retry_gateway/ui` 管理设置"
+          ],
+          "note": "脚本支持`--no-open`参数可不自动打开浏览器；Windows和macOS/Linux有不同脚本及参数格式。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了Codex特定上游错误处理的痛点，提供清晰的安装、恢复脚本及便捷的Web管理界面，开发体验良好，但解决的问题比较小众。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue统计为0开0关，社区活跃度尚待观察，项目功能性强，更新可能不频繁。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-06-26T05:51:01.839Z"
+    },
+    {
+      "owner": "Ever-5475",
+      "repo": "vue-admin-cms",
+      "fullName": "Ever-5475/vue-admin-cms",
+      "description": "基于 Vue.js 2 + Flask+MySQL 的前后端分离内容管理系统",
+      "language": "Vue",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T00:55:06Z",
+      "url": "https://github.com/Ever-5475/vue-admin-cms",
+      "analysis": {
+        "positioning": "基于Vue2 + Flask的全栈前后端分离内容管理系统。",
+        "useCases": [
+          "你希望快速搭建一个包含用户、文章管理及数据报表的后台 → 它提供开箱即用的前后端解决方案。",
+          "你需要一个支持JWT认证、角色权限及可视化数据分析的轻量级CMS → 它帮你实现高效的内容发布与运营。",
+          "你正在学习Vue2和Flask全栈开发，需要一个实战项目参考 → 它提供清晰的代码结构和完整的功能模块。"
+        ],
+        "audience": "适合需要快速部署轻量级内容管理系统，或作为Vue2/Flask全栈开发学习实践的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 12, Python >= 3.7, MySQL >= 5.7",
+          "steps": [
+            "安装后端依赖：`pip install flask pymysql pyjwt`",
+            "配置 `config.py` 中的 MySQL 数据库信息",
+            "启动后端服务：`python app.py` (默认运行于 `http://localhost:5000`)",
+            "安装前端依赖：`npm install`",
+            "启动前端开发服务：`npm run dev` (默认运行于 `http://localhost:9528`)"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Strapi",
+            "method": "基于 API 的 Headless CMS，通过管理界面配置数据模型，前端自由选择技术栈。",
+            "models": "支持自定义内容类型及字段。",
+            "pricing": "免费开源，提供付费企业版。"
+          },
+          {
+            "name": "Directus",
+            "method": "API优先的开源数据平台，将任何SQL数据库转换为强大的Headless CMS。",
+            "models": "基于现有数据库结构，支持扩展和自定义字段。",
+            "pricing": "免费开源，提供付费云服务。"
+          }
+        ],
+        "pricing": "免费（MIT 许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，功能完整，技术栈主流，提供了良好的开发和学习参考。但目前星标数和社区互动极低（0 issues），表明其生产环境的成熟度和社区支持尚待验证。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，0 开/关 Issue，几乎没有社区互动和反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-26T05:51:20.300Z"
+    },
+    {
+      "owner": "Yu9191",
+      "repo": "wloc",
+      "fullName": "Yu9191/wloc",
+      "description": "修改 Apple 网络定位（gs-loc）返回坐标 · 支持 Surge / Quantumult X / Loon / Stash · 快捷指令一键设置/恢复定位",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-24T06:15:30Z",
+      "url": "https://github.com/Yu9191/wloc",
+      "analysis": {
+        "positioning": "iOS网络定位修改工具，通过代理脚本实现虚拟定位，无需越狱。",
+        "useCases": [
+          "想让你的iPhone/iPad显示在特定地点 → 它修改Apple网络定位服务，让你足不出户“身临其境”。",
+          "App测试需要模拟不同地理位置 → 它提供在线地图选点，一键设置虚拟定位，方便测试各类LBS应用。",
+          "厌倦了手动输入经纬度 → 它支持多种地图链接解析和收藏位置功能，轻松选定并保存常用地点。"
+        ],
+        "audience": "寻求iOS虚拟定位方案的用户、App开发者（进行位置功能测试）、或希望保护隐私的用户。",
+        "quickStart": {
+          "prerequisites": "iOS设备，并已安装Surge/Quantumult X/Loon/Stash等支持MITM的代理工具。",
+          "steps": [
+            "订阅对应代理工具的wloc模块并启用MITM。",
+            "打开在线选点页面，在地图上选择目标位置并点击“储存到设备”。",
+            "（iOS 16+）重启设备以清除系统定位缓存，然后打开地图验证。"
+          ],
+          "note": "iOS 16/17及更高版本，设置后需**重启设备**方可生效，飞行模式或关闭定位服务无法清除缓存。"
+        },
+        "competitors": [
+          {
+            "name": "Jailbreak Tweaks (如LocationFaker)",
+            "method": "Cydia安装插件，系统级修改",
+            "models": "越狱iOS设备",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "桌面虚拟定位软件 (如iTools, Tenorshare iAnyGo)",
+            "method": "PC连接iPhone操作，模拟GPS数据",
+            "models": "所有iOS版本",
+            "pricing": "付费"
+          },
+          {
+            "name": "VPN服务",
+            "method": "连接VPN服务器，改变IP归属",
+            "models": "所有iOS版本",
+            "pricing": "免费/付费 (主要改变IP归属，不精确修改设备定位)"
+          }
+        ],
+        "pricing": "免费（脚本本身），但依赖付费代理工具（如Surge/Quantumult X等）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个针对特定网络服务（Apple WLOC）进行劫持与修改的实用工具，通过JavaScript脚本实现，代码逻辑相对独立，主要解决特定设备功能需求，不属于通用开发框架或库。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，有6个开启的Issue但尚无关闭记录，可能处理不及时或维护者响应较慢。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-26T05:51:47.999Z"
+    },
+    {
+      "owner": "m1ckc3s",
+      "repo": "claude-status-bar",
+      "fullName": "m1ckc3s/claude-status-bar",
+      "description": "A tiny macOS menu bar status indicator for Claude Code: animated icons, elapsed timer, and open/close lifecycle.",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-21T18:02:49Z",
+      "url": "https://github.com/m1ckc3s/claude-status-bar",
+      "analysis": {
+        "positioning": "macOS菜单栏Claude Code状态指示器，轻量无扰",
+        "useCases": [
+          "Claude Code在思考/运行工具时，你切到其他应用 → 它在菜单栏显示Claude状态，无需频繁切换查看",
+          "Claude Code需要你批准操作时，你没注意到 → 它在菜单栏用黄点提醒你",
+          "想知道Claude工作了多久或是否有新版本 → 它在菜单栏显示实时计时器或更新提示"
+        ],
+        "audience": "频繁使用Claude Code的macOS开发者，希望不打断工作流地监控AI状态。",
+        "quickStart": {
+          "prerequisites": "macOS 12+，Claude Code (CLI或桌面版)，Node.js",
+          "steps": [
+            "从GitHub Releases下载最新的ClaudeStatusBar.dmg",
+            "打开dmg文件，将应用拖入Applications文件夹并启动"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供多种动画样式（Claude Spark, Crab Walking），可自定义图标颜色，有完成音效，轻量无打扰，纯粹为提升用户体验和趣味性而设计，超出了基本功能需求。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度适中，有用户反馈和维护响应（6个开启，3个已关闭Issue）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-26T05:52:03.364Z"
+    },
+    {
+      "owner": "PMTraderAdam",
+      "repo": "pm-adam-trader",
+      "fullName": "PMTraderAdam/pm-adam-trader",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-24T15:42:58Z",
+      "url": "https://github.com/PMTraderAdam/pm-adam-trader",
+      "analysis": {
+        "positioning": "Polymarket自动化交易机器人，捕捉加密货币动量，智能下单。",
+        "useCases": [
+          "你想在Polymarket上自动交易 → 它帮你监控加密货币行情，捕捉动量，自动买卖预测市场份额",
+          "你希望通过量化策略参与Polymarket → 它提供预构建的交易引擎，执行特定动量策略",
+          "你对编程不熟悉但想运行交易机器人 → 它提供跨平台二进制包，无需安装依赖即可运行"
+        ],
+        "audience": "希望在Polymarket进行自动化交易的投资者，尤其适合不想从源代码构建的非开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载对应平台的压缩包",
+            "解压，配置机器人参数",
+            "运行执行文件"
+          ],
+          "note": "提供Windows, Linux, macOS跨平台预编译二进制包。"
+        },
+        "competitors": [],
+        "pricing": "免费。分发包和二进制文件免费提供，但核心策略引擎不开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供多平台预编译二进制包，部署简便，无需依赖。但核心策略引擎不开源，且Issue活跃度为零，透明度与社区参与度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue为零，社区活跃度未知或不通过GitHub Issue体现。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-26T05:52:21.671Z"
+    },
+    {
+      "owner": "WangJunqing-coder",
+      "repo": "huasheng13-skill",
+      "fullName": "WangJunqing-coder/huasheng13-skill",
+      "description": "基于花生十三公开教学体系、课程资料、历年正题整理得到的skill。",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-22T12:04:23Z",
+      "url": "https://github.com/WangJunqing-coder/huasheng13-skill",
+      "analysis": {
+        "positioning": "公务员考试备考AI助手，提供花生十三体系解题策略与学习规划。",
+        "useCases": [
+          "你遇到公考难题 → 它帮你分析题目、提供解题思路和详细解析。",
+          "你想提升答题速度 → 它提供模块化速解技巧和系统化训练计划。",
+          "你困惑于备考规划 → 它提供个性化备考策略与时间分配建议。"
+        ],
+        "audience": "参加公务员考试，希望借助AI工具系统学习花生十三体系解题技巧的考生。",
+        "quickStart": {
+          "prerequisites": "需要运行在支持Hermes Skill的AI Agent平台上。",
+          "steps": [
+            "直接通过自然语言提问（发题目、问方法、要计划）",
+            "无需记忆任何特定命令"
+          ],
+          "note": "专为Hermes Agent平台设计。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，README清晰，示例丰富实用，直接面向用户痛点，代码风格和文档注重实用性与即时反馈。",
+        "isVibeCoding": true,
+        "communityActivity": "现有Issue数量少，但获得了241 Star，说明有一定关注度，社区互动有待发展。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-26T05:52:33.925Z"
+    },
+    {
+      "owner": "aleishawei1983",
+      "repo": "Seed-Generator",
+      "fullName": "aleishawei1983/Seed-Generator",
+      "description": "Professional BIP-39 Seed & HD Wallet Toolkit with 12–24 word mnemonics, checksum validation, BIP-44/49/84 derivation, and multi-chain support (BTC, ETH, SOL, LTC, DOGE, ADA, DOT, AVAX, ATOM, XRP, TRX). Features offline CSPRNG, PBKDF2-HMAC-SHA512, AES-256-GCM encryption, wallet recovery, CSV/JSON export, and custom derivation paths.",
+      "language": "Python",
+      "topics": [
+        "bitcoin-recovery",
+        "brute-force-tool",
+        "btc-password-recovery",
+        "crypto-recovery-funds",
+        "cryptochecker",
+        "cryptorecovery",
+        "eth-bruteforce",
+        "mnemonic-library",
+        "mnemonic-phrase",
+        "mnemonic-recovery",
+        "mnemonic-wallet-tool",
+        "old-wallet",
+        "recover-btc",
+        "recovery-crypto",
+        "recovery-phrase",
+        "recovery-tool",
+        "seed-phrases-finder",
+        "seed-recovery-2025",
+        "seed-recovery-tool",
+        "seedphrase"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-25T15:36:07Z",
+      "url": "https://github.com/aleishawei1983/Seed-Generator",
+      "analysis": {
+        "positioning": "专业级多链加密钱包种子生成、密钥派生及恢复工具。",
+        "useCases": [
+          "你需安全创建新的加密钱包助记词 → 它帮你离线、合规地生成12-24词助记词及派生地址。",
+          "你丢失或需要恢复旧钱包私钥 → 它帮你通过助记词进行钱包恢复和多链密钥派生。",
+          "你是开发者需批量管理或测试加密密钥 → 它帮你批量生成、加密存储并导出多格式密钥。"
+        ],
+        "audience": "加密货币开发者、研究员及资深用户，用于安全管理、生成和恢复多链钱包资产。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "git clone https://github.com/aleishawei1983/Seed-Generator.git",
+            "cd Seed-Generator && pip install -r requirements.txt && python -m seed_generator"
+          ],
+          "note": "支持Windows、Linux、macOS跨平台运行。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能性强，严格遵循行业标准，专注于解决加密钱包密钥生成与恢复的特定技术痛点，但缺乏通用性或酷炫感。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue反馈。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-26T05:52:51.198Z"
+    },
+    {
+      "owner": "amplifthq",
+      "repo": "opentag",
+      "fullName": "amplifthq/opentag",
+      "description": "Open-source @agent mentions for Slack and GitHub. OpenTag routes tagged requests to Codex, Claude Code, then returns results in thread.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "codex",
+        "github",
+        "slack"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-24T08:05:12Z",
+      "url": "https://github.com/amplifthq/opentag",
+      "analysis": {
+        "positioning": "将AI Agent无缝集成到GitHub/Slack等工作流，无需切换应用。",
+        "useCases": [
+          "你在GitHub提交Issue → OpenTag调用AI Agent生成提交分支和PR → 结果自动回传GitHub。",
+          "你在Slack发起讨论 → OpenTag调用AI Agent执行任务 → 结果自动返回Slack会话。",
+          "你需要自定义AI Agent处理流程 → OpenTag提供统一接口，可在本地或托管环境运行任意Agent。"
+        ],
+        "audience": "希望将AI Agent能力直接融入现有工作平台（如GitHub、Slack）的开发者和团队，追求效率与控制权。",
+        "quickStart": {
+          "prerequisites": "Node 22.x, pnpm 9.x",
+          "steps": [
+            "pnpm install",
+            "pnpm test",
+            "pnpm smoke:protocol",
+            "pnpm smoke:slack-protocol",
+            "pnpm build"
+          ],
+          "note": "需复制.env.example配置本地运行环境，可运行examples/github-to-pr等示例。"
+        },
+        "competitors": [
+          {
+            "name": "Claude Tag",
+            "method": "在现有工作流中@提及Agent",
+            "models": "Claude",
+            "pricing": "可能商业或闭源"
+          }
+        ],
+        "pricing": "免费，MIT许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，直击用户痛点（避免AI工作区切换），提供清晰的场景示例（GitHub-PR/Slack），并且强调了执行环境和Agent选择的灵活性。文档结构良好，已提供初步测试和配置指南。但仍处于v0阶段，社区贡献和功能成熟度有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "初期活跃度尚可，有少量问题被提出并已关闭，表明项目有维护和响应。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-26T05:53:03.649Z"
+    },
+    {
+      "owner": "dama-cyber",
+      "repo": "Casting-Workflow",
+      "fullName": "dama-cyber/Casting-Workflow",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-23T08:26:29Z",
+      "url": "https://github.com/dama-cyber/Casting-Workflow",
+      "analysis": {
+        "positioning": "基于本地语料和LLM，自动化生成特定风格短篇小说的工作流。",
+        "useCases": [
+          "你希望快速创作某一类型（如古风言情）小说但缺乏灵感 → 它帮你从海量语料中蒸馏提炼核心风格指纹和要素。",
+          "你正在用LLM生成小说但效果平庸 → 它为LLM提供结构化且风格明确的上下文，大幅提升初稿质量。",
+          "你生成的作品标点符号不够自然或想模拟特定阅读平台风格 → 它提供后处理工具，自动清理脏标点并注入模拟风格。",
+          "你想要搭建自己的小说生成管道并掌控从语料到输出的每一步 → 它提供一套从数据准备、指纹提取到LLM调用、后处理的完整工具链。"
+        ],
+        "audience": "网络小说作者、内容创作者、Prompt工程师，以及任何需要批量或快速生成特定风格短篇小说初稿的技术用户。",
+        "quickStart": {
+          "prerequisites": "已安装Python，并确保网络通畅以便初次运行加载`jieba`分词模型。需要能访问的LLM服务（如Claude/GPT/DeepSeek）。",
+          "steps": [
+            "准备语料：将目标类型（如05_古代言情）的≥5篇`.txt`小说放入`corpus/`对应分类目录。",
+            "蒸馏指纹：运行`python run_pipeline.py --category [分类编号]`，系统自动筛选、蒸馏语料指纹并输出LLM所需上下文到`output/fusion_context.txt`。",
+            "LLM生成：将`output/fusion_context.txt`内容完整复制给Claude/GPT等LLM，指令其生成一篇约1000字的原创短篇小说，保存为`output/story.txt`。",
+            "后处理：运行`python tools/clean_commas.py output/story.txt`清理逗号，再运行`python tools/inject_punctuation.py output/story.txt`注入模拟标点风格。"
+          ],
+          "note": "LLM生成步骤目前需手动复制粘贴文本，并依赖外部LLM服务。"
+        },
+        "competitors": [
+          {
+            "name": "直接调用大型语言模型API (如OpenAI API, Claude API)",
+            "method": "开发者自行编写代码调用API，需手动设计复杂Prompt来指导生成，且通常缺乏本地语料风格蒸馏能力。",
+            "models": "GPT系列、Claude系列等。",
+            "pricing": "按量付费"
+          },
+          {
+            "name": "通用AI写作助手 (如ChatGPT Plus, Notion AI)",
+            "method": "用户在聊天界面或文档编辑器中直接输入Prompt指令，但难以进行精细的语料库指纹提取和后处理定制。",
+            "models": "通常为厂商自家LLM。",
+            "pricing": "订阅制，或按用量收费"
+          }
+        ],
+        "pricing": "免费，项目本身开源免费使用，但需要用户自行支付外部大型语言模型（LLM）服务的费用（如果选择付费模型）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目结构清晰，流程化指导详细，提供了从语料准备、指纹蒸馏、LLM生成到后处理的全套工具链。Prompt工程与代码实现结合紧密，实用性强，代码导向且可复现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启数量少（1个开启/0个关闭），暂无互动记录，可能处于早期阶段或维护者较少。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-26T05:53:27.233Z"
+    },
+    {
+      "owner": "manojd23625",
+      "repo": "Steam-Tools",
+      "fullName": "manojd23625/Steam-Tools",
+      "description": "steamtools steam download manifest steamtools manifest steamdb steamtools lua steamtools games steam download manifest steam steam manifest client tool utility script file manager app library pc game",
+      "language": "C#",
+      "topics": [
+        "free-manifest-generator",
+        "lua-manifest",
+        "luatools",
+        "manifest-steam-tools",
+        "manifester",
+        "steam-card",
+        "steam-idler",
+        "steam-linux",
+        "steam-lua-patchher",
+        "steam-manifest-download-tool",
+        "steam-market",
+        "steam-platform",
+        "steam-tools",
+        "steam-tools-download",
+        "steam-utilities",
+        "steam-utility",
+        "steam-workshop",
+        "steamcommunity",
+        "steamtools",
+        "steamtools-lua"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-21T14:02:36Z",
+      "url": "https://github.com/manojd23625/Steam-Tools",
+      "analysis": {
+        "positioning": "Steam高级管理和优化工具，修复常见下载问题。",
+        "useCases": [
+          "你想高效管理Steam游戏文件 → 它帮你生成清单、备份客户端。",
+          "你下载Steam游戏遇到Bad Hash等错误 → 它帮你通过本地票据绕过并修复。",
+          "你想绕过Steam客户端某些限制 → 它提供Lua工具和代理功能实现。"
+        ],
+        "audience": "寻求Steam高级客户端管理、优化及修复下载问题的Windows用户。",
+        "quickStart": {
+          "prerequisites": "Windows 11（推荐），管理员权限。",
+          "steps": [
+            "下载并解压Steam-Tools.zip。",
+            "以管理员身份运行SteamTools.exe，并根据向导完成设置。"
+          ],
+          "note": "Optimized for Windows 11."
+        },
+        "competitors": [
+          {
+            "name": "Watt Toolkit",
+            "method": "集成多种Steam辅助功能（加速、令牌、清单等）",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能实用，但界面略显陈旧，且项目明确指出“自行承担风险”，可能存在违反Steam服务条款的潜在风险，需要谨慎使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue列表无活动（0开/0关），社区活跃度不高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-26T05:53:41.412Z"
+    },
+    {
+      "owner": "Radiant303",
+      "repo": "SpringNote",
+      "fullName": "Radiant303/SpringNote",
+      "description": "懒人实习记录工具",
+      "language": "Dart",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-06-20T11:34:58Z",
+      "url": "https://github.com/Radiant303/SpringNote",
+      "analysis": {
+        "positioning": "AI驱动的个人知识管理系统，让你的笔记“活”起来，自动生成报告。",
+        "useCases": [
+          "你输入零散想法 → 它帮你AI自动整理为结构化内容，并自动生成日报、周报、月报。",
+          "你想回顾过去的记录 → 它帮你通过“回忆书”进行对话式检索和智能整理。",
+          "你关心工作投入与回报 → 它帮你通过“牛马时钟”实时计算并展示时薪和工作时长。"
+        ],
+        "audience": "适合希望高效管理个人知识、自动化报告生成、并利用AI沉淀思考的“懒人”用户，尤其适用于需要定期输出工作总结的职场人士或实习生。",
+        "quickStart": {
+          "prerequisites": "需注册并配置DeepSeek（或其他兼容OpenAI API的LLM）的BaseURL、模型名称及API Key。",
+          "steps": [
+            "前往GitHub Release页下载并安装SpringNote桌面应用",
+            "根据应用内指引配置AI供应商（如DeepSeek）的BaseURL和模型，并设为默认模型"
+          ],
+          "note": "目前主要支持Windows平台，提供极致桌面体验。"
+        },
+        "competitors": [
+          {
+            "name": "Notion",
+            "method": "一体化工作区，提供笔记、文档、项目管理等，AI功能需订阅。",
+            "models": "内建AI助手（付费），第三方模型集成有限。",
+            "pricing": "基础免费，AI及高级功能付费。"
+          },
+          {
+            "name": "Obsidian",
+            "method": "本地Markdown笔记，通过双向链接构建知识网络，AI功能多依赖插件。",
+            "models": "主要通过社区插件集成AI功能。",
+            "pricing": "免费（商业使用需付费）。"
+          }
+        ],
+        "pricing": "免费（基于AGPL-3.0开源协议，AI服务调用需自备API Key）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "“懒人实习记录工具”的描述和“牛马时钟”功能，结合AI自动生成日报/周报的特点，体现了一种务实、高效、且带点自嘲的开发者文化，非常接地气。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度中等，Issue关闭数大于开启数，表明开发者积极响应并解决问题。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-26T05:53:58.739Z"
+    },
+    {
+      "owner": "Johell1NS",
+      "repo": "browser-search",
+      "fullName": "Johell1NS/browser-search",
+      "description": "A skill for AI agents: search the web with SearXNG, browse with Camofox, bypass protections with CloakBrowser. Anti-hallucination by design. Self-hosted, free, unlimited.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "ai-tools",
+        "browser-automation",
+        "camoufox",
+        "cloakbrowser",
+        "deep-research",
+        "opencode",
+        "searxng",
+        "web-scraping",
+        "web-search"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-22T13:43:13Z",
+      "url": "https://github.com/Johell1NS/browser-search",
+      "analysis": {
+        "positioning": "AI智能体专属技能，无障碍网页搜索与浏览。",
+        "useCases": [
+          "你做AI Agent深度研究或需要实时网络信息 → 它帮你集成SearXNG、Camofox、CloakBrowser，实现防幻觉、反反爬的网页搜索和浏览。",
+          "你AI Agent的网页访问被Cloudflare等防护系统阻拦 → 它帮你自动切换至CloakBrowser，绕过反爬机制，确保任务顺利执行。",
+          "你不想为AI Agent的网页访问支付高额API费用 → 它提供100%免费、自托管、无限制的解决方案，帮你省去订阅和API开销。"
+        ],
+        "audience": "适合AI Agent开发者、研究人员及任何需要为AI Agent提供稳定、免费、无限制网页访问能力的个人或团队。",
+        "quickStart": {
+          "prerequisites": "Docker, npm",
+          "steps": [
+            "确保已安装Docker和npm。",
+            "根据项目文档部署SearXNG、Camofox、CloakBrowser。",
+            "将`browser-search`作为技能集成到你的AI Agent中。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "付费网页搜索/浏览API (如Google Search API, SerperDev)",
+            "method": "通过API调用获取数据",
+            "models": "不限",
+            "pricing": "付费"
+          },
+          {
+            "name": "自行开发反反爬系统 (如基于Playwright/Puppeteer)",
+            "method": "开发者手动编写和维护代码",
+            "models": "不限",
+            "pricing": "免费（但开发维护成本高）"
+          }
+        ],
+        "pricing": "100%免费、自托管、无限制。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目针对AI Agent网页访问痛点，整合开源工具，提供免费、自托管、反反爬、防幻觉的完整解决方案。设计轻量化，可在树莓派等低功耗设备上运行。但当前Star数不高，且Issues为0，社区活跃度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue为0/0，尚未有公开讨论或贡献。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-26T05:54:15.994Z"
     }
   ]
 }
