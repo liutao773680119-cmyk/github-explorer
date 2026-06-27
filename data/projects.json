@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-26T05:54:16.015Z",
+  "updatedAt": "2026-06-27T05:32:02.285Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -55868,6 +55868,193 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-26T05:54:15.994Z"
+    },
+    {
+      "owner": "zanetanasta",
+      "repo": "Seed-Generator",
+      "fullName": "zanetanasta/Seed-Generator",
+      "description": "Professional BIP-39 Seed & HD Wallet Toolkit with 12–24 word mnemonics, checksum validation, BIP-44/49/84 derivation, and multi-chain support (BTC, ETH, SOL, LTC, DOGE, ADA, DOT, AVAX, ATOM, XRP, TRX). Features offline CSPRNG, PBKDF2-HMAC-SHA512, AES-256-GCM encryption, wallet recovery, CSV/JSON export, and custom derivation paths.",
+      "language": "Python",
+      "topics": [
+        "brute-force-tool",
+        "mnemonic-code-converter",
+        "mnemonic-generator-solana",
+        "mnemonic-phrase",
+        "mnemonic-recovery",
+        "mnemonic-seed",
+        "mnemonics-generator",
+        "phrase-generator",
+        "seed-phase-checker",
+        "seed-phrases-finder",
+        "seed-phrases-generate",
+        "seed-phrases-generator",
+        "seed-recovery-2025",
+        "seed-recovery-tool",
+        "seed-tool-generate",
+        "seedphrase",
+        "seedphrase-checker",
+        "seedphrase-generator",
+        "seedphrase-generatorseed-generator"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-27T02:33:43Z",
+      "url": "https://github.com/zanetanasta/Seed-Generator",
+      "analysis": {
+        "positioning": "专业多链HD钱包助记词和种子生成工具",
+        "useCases": [
+          "你需要安全创建加密货币钱包助记词 → 它帮你离线生成符合BIP-39标准的12-24词助记词。",
+          "你想管理多个加密货币（BTC、ETH、SOL等）的派生地址 → 它帮你从一个助记词派生多链地址。",
+          "你丢失了钱包但有助记词，或需要批量导出密钥 → 它帮你恢复钱包或将密钥以CSV/JSON格式安全导出。"
+        ],
+        "audience": "对安全和多链管理有高要求的加密货币用户、研究者和开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "克隆项目仓库",
+            "安装依赖并运行主程序"
+          ],
+          "note": "支持Windows/Linux/macOS平台。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "遵循行业标准（BIP-39/44/49/84），使用审计库，支持多链，强调离线安全和多种加密算法，功能专业且全面。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无活动，可能项目非常稳定或社区参与度较低。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-27T05:30:16.208Z"
+    },
+    {
+      "owner": "maria-rcks",
+      "repo": "dinorip",
+      "fullName": "maria-rcks/dinorip",
+      "description": "Free & Open Source Texture Ripper",
+      "language": "TypeScript",
+      "topics": [
+        "game-development",
+        "ps1",
+        "psx",
+        "ripper",
+        "texture-rip",
+        "texture-ripper",
+        "textures"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-25T01:49:15Z",
+      "url": "https://github.com/maria-rcks/dinorip",
+      "analysis": {
+        "positioning": "免费开源桌面工具，从参考图提取游戏纹理并构建图集。",
+        "useCases": [
+          "你从复古游戏截图提取纹理 → 它帮你透视校正、精确裁剪并输出PNG。",
+          "你想调整提取出的纹理颜色 → 它提供亮度、对比度、饱和度等多种图像编辑功能。",
+          "你需要将多张纹理打包成图集 → 它帮你进行移动、缩放、旋转和排布，并导出完整图集。"
+        ],
+        "audience": "专注于PS1/PSX等复古游戏纹理提取、编辑和图集制作的游戏开发者或美术人员。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "加载PNG/JPG/JPEG源图像，或从剪贴板粘贴。",
+            "添加透视提取器（ripper），调整角点、弯曲边缘以精确提取纹理。",
+            "（可选）在图集工作区调整纹理位置、大小、旋转，进行颜色编辑。",
+            "导出选定纹理、所有纹理或完整图集为PNG。"
+          ],
+          "note": "macOS快捷键使用⌘ (Command)，Windows/Linux使用Ctrl。"
+        },
+        "competitors": [
+          {
+            "name": "puck_psx's original texture ripper",
+            "method": "桌面应用",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "免费开源，功能全面，界面直观，操作流畅（支持快捷键及可视化演示），专注于PS1等复古游戏纹理提取的细分需求，且明确致敬原版项目。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，已关闭的 Issue 数量远多于开启的，表明项目维护及时。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-27T05:31:28.882Z"
+    },
+    {
+      "owner": "FlavioAdamo",
+      "repo": "openfit",
+      "fullName": "FlavioAdamo/openfit",
+      "description": "Desktop dashboard and Codex-powered assistant for Fitbit data",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-23T12:54:29Z",
+      "url": "https://github.com/FlavioAdamo/openfit",
+      "analysis": {
+        "positioning": "Fitbit数据桌面看板与智能助理",
+        "useCases": [
+          "你依赖Fitbit官方App查看数据 → 它帮你提供桌面端私密、定制化的数据可视化体验。",
+          "你希望深入分析Fitbit数据并获取洞察 → 它帮你集成Codex智能助理进行健康分析。",
+          "你不想将健康数据上传至第三方浏览器或云端 → 它帮你构建本地化的Electron桌面应用，确保数据私密性。"
+        ],
+        "audience": "追求数据隐私、希望在桌面端管理Fitbit健康数据并利用AI助手进行个性化分析的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 22+, npm 10+, Codex Desktop (可选，用于AI助手)",
+          "steps": [
+            "npm install",
+            "npm run dev"
+          ],
+          "note": "个人数据访问需自行配置Google Cloud OAuth，本地打包应用未签名。"
+        },
+        "competitors": [
+          {
+            "name": "Fitbit官方App/网站",
+            "method": "移动App/浏览器",
+            "models": "N/A",
+            "pricing": "免费（需Fitbit设备）"
+          }
+        ],
+        "pricing": "免费（应用本身），访问个人数据需自行配置Google Cloud OAuth，可能涉及Google Cloud平台API费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于Fitbit数据，提供桌面端私密化体验，并集成AI助手，技术栈现代且README清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前有4个Issue开启但无已关闭，可能项目趋于稳定或开发团队内部消化问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-27T05:31:47.710Z"
+    },
+    {
+      "owner": "haowang02",
+      "repo": "codex-candy-eval",
+      "fullName": "haowang02/codex-candy-eval",
+      "description": "Codex 降智测试",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-21T18:36:56Z",
+      "url": "https://github.com/haowang02/codex-candy-eval",
+      "analysis": {
+        "positioning": "批量测试Codex对数学题的推理能力与准确率。",
+        "useCases": [
+          "你做：想快速评估Codex模型在简单数学题上的推理表现 → 它帮你做：自动化批量运行测试，统计推理token数和正确率。",
+          "你做：需要对比不同Codex模型或推理难度（reasoning effort）的实际效果 → 它帮你做：通过参数轻松切换模型和难度，直观获取性能数据。",
+          "你做：作为AI开发者，希望验证Codex对特定问题是否有“降智”现象 → 它帮你做：提供一个标准化的测试框架，快速获取验证结果。"
+        ],
+        "audience": "对Codex模型性能感兴趣的开发者、研究人员或AI爱好者，用于快速验证模型在特定推理任务上的表现。",
+        "quickStart": {
+          "prerequisites": "已安装并登录Codex CLI",
+          "steps": [
+            "执行`python codex_candy_eval.py -m gpt-5.5 -r high -n 5`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (脚本本身免费，Codex CLI 使用可能涉及 OpenAI 计费)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码简洁，无第三方依赖，易于理解和使用。定位明确，解决一个特定测试需求。有明确的社区致谢。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，开启1个，已关闭0个，表明目前互动和贡献不多。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-27T05:32:02.266Z"
     }
   ]
 }

@@ -1,0 +1,71 @@
+{
+  "version": "1",
+  "date": "2026-06-27",
+  "startedAt": "2026-06-27T05:30:03.703Z",
+  "finishedAt": "2026-06-27T05:33:02.400Z",
+  "durationSeconds": 179,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 4,
+    "skipped": 101,
+    "geminiCalls": 10,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-06-27T05:30:27.988Z",
+      "level": "warn",
+      "project": "winsznx/theeleven",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-27T05:30:43.866Z",
+      "level": "warn",
+      "project": "bikini/exploitarium",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-27T05:30:50.833Z",
+      "level": "warn",
+      "project": "Pluviobyte/video-production-skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-27T05:30:54.896Z",
+      "level": "warn",
+      "project": "iebb/mithka",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-27T05:31:13.450Z",
+      "level": "warn",
+      "project": "byJoey/cfnew-deployer",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-27T05:31:32.413Z",
+      "level": "warn",
+      "project": "JayWebtech/autoshorts",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
