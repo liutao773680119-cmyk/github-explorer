@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-06-28",
+  "startedAt": "2026-06-28T05:56:07.650Z",
+  "finishedAt": "2026-06-28T06:01:20.680Z",
+  "durationSeconds": 313,
+  "success": true,
+  "stats": {
+    "fetched": 104,
+    "newProjects": 14,
+    "skipped": 90,
+    "geminiCalls": 16,
+    "statsUpdated": 104
+  },
+  "errors": [
+    {
+      "time": "2026-06-28T06:00:04.241Z",
+      "level": "warn",
+      "project": "eli-labz/Godcoder",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-06-28T06:00:07.833Z",
+      "level": "warn",
+      "project": "tutusagi/ai-fishing-game",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-27T05:32:02.285Z",
+  "updatedAt": "2026-06-28T05:59:48.348Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -56055,6 +56055,662 @@
         "category": "CLI工具"
       },
       "analyzedAt": "2026-06-27T05:32:02.266Z"
+    },
+    {
+      "owner": "deepseek-ai",
+      "repo": "DeepSpec",
+      "fullName": "deepseek-ai/DeepSpec",
+      "description": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T12:36:05Z",
+      "url": "https://github.com/deepseek-ai/DeepSpec",
+      "analysis": {
+        "positioning": "训练和评估推测解码算法的全栈代码库",
+        "useCases": [
+          "你希望提升大语言模型推理效率 → 它帮你训练高性能推测解码草稿模型，加速LLM生成。",
+          "你从事LLM推理优化研究 → 它提供完整工具链，包含数据准备、训练和基准评估。",
+          "你想对比或实现新的推测解码算法 → 它支持DSpark、DFlash、Eagle3，并提供统一实验平台。"
+        ],
+        "audience": "专注于大语言模型推理速度优化的研究人员、算法工程师及开发者。",
+        "quickStart": {
+          "prerequisites": "Python环境，用于数据准备需配置目标模型推理引擎。",
+          "steps": [
+            "安装Python依赖（`pip install -r requirements.txt`）。",
+            "准备数据（下载Prompt、重生成Target答案、构建Target缓存）。",
+            "训练草稿模型（`bash scripts/train/train.sh`）。",
+            "评估模型性能（`bash scripts/eval/eval.sh`）。"
+          ],
+          "note": "数据缓存可能非常大（Qwen3-4B约38TB），默认配置假定单节点8 GPU。"
+        },
+        "competitors": [
+          {
+            "name": "SpecForge",
+            "method": "提供整体训练框架和Eagle3实现",
+            "models": "未明确提及",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供结构化、流程化的训练与评估环境，有助于算法迭代和验证，但非面向快速原型开发或AI辅助代码生成。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度相对较低，Issue开闭比不活跃 (2开/0关)。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-06-28T05:56:19.328Z"
+    },
+    {
+      "owner": "bikini",
+      "repo": "exploitarium",
+      "fullName": "bikini/exploitarium",
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-23T05:14:11Z",
+      "url": "https://github.com/bikini/exploitarium",
+      "analysis": {
+        "positioning": "零日漏洞PoC与安全研究成果集。",
+        "useCases": [
+          "你发现未公开漏洞 → 它提供现有PoC参考，助你快速复现并提交CVE。",
+          "你想进入安全研究领域 → 它提供真实漏洞PoC和分析，助你学习实战攻防技巧。",
+          "你关注特定软件安全 → 它可能为你研究并提供新漏洞PoC。"
+        ],
+        "audience": "漏洞研究员、渗透测试工程师、安全爱好者和学习者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "git clone https://github.com/bikini/exploitarium.git",
+            "cd exploitarium",
+            "ls  # 浏览漏洞PoC和研究报告"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Exploit-DB",
+            "method": "在线浏览/下载PoC",
+            "models": "各类软件/系统漏洞",
+            "pricing": "免费"
+          },
+          {
+            "name": "Packet Storm Security",
+            "method": "在线浏览/下载PoC",
+            "models": "各类软件/系统漏洞",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在通过分享0-day PoC吸引新人进入安全领域，鼓励贡献，作者积极维护并持续更新，对社区有正向激励作用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue有处理，作者在Discord上活跃并接受请求，活跃度较高。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-28T05:56:29.894Z"
+    },
+    {
+      "owner": "winsznx",
+      "repo": "theeleven",
+      "fullName": "winsznx/theeleven",
+      "description": "Eleven autonomous AI agents open live football prop markets on X Layer — custom Uniswap v4 hook, gasless USDT0 staking.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "defi",
+        "eip-3009",
+        "erc-8257",
+        "football",
+        "foundry",
+        "gasless",
+        "mcp",
+        "nextjs",
+        "okx",
+        "prediction-markets",
+        "solidity",
+        "uniswap-hooks",
+        "uniswap-v4",
+        "usdt0",
+        "web3",
+        "x-layer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-25T07:42:50Z",
+      "url": "https://github.com/winsznx/theeleven",
+      "analysis": {
+        "positioning": "AI驱动，X Layer上的去中心化足球预测市场。",
+        "useCases": [
+          "你想对实时足球赛果进行链上预测 → Eleven AI agents在X Layer上自动开立基于赛况的预测市场，你可以无Gas费质押USDT0参与。",
+          "你是Web3开发者，想了解Uniswap v4 Hook的实际应用 → 该项目提供了一个基于Uniswap v4 Hook的自定义PropMarketHook，作为协议基础设施的范例。",
+          "你是OKX X Layer生态的参与者，寻找创新dApp → 这是一个针对X Cup黑客松提交的Web3应用，展示了AI与DeFi结合的潜力。"
+        ],
+        "audience": "对实时足球赛事预测、DeFi创新、AI Agent应用和Web3前沿技术感兴趣的用户和开发者。",
+        "quickStart": {
+          "prerequisites": "Web3钱包（如MetaMask），并配置OKX X Layer网络。",
+          "steps": [
+            "访问dApp网址 `regista11.xyz`。",
+            "连接你的Web3钱包，确保网络为X Layer。",
+            "浏览AI代理生成的预测市场（`regista11.xyz/markets`），并使用EIP-3009进行无Gas质押参与投注。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统体育博彩平台（如Bet365）",
+            "method": "中心化平台，直接投注",
+            "models": "N/A",
+            "pricing": "佣金/赔率差"
+          },
+          {
+            "name": "通用Web3预测市场（如Augur）",
+            "method": "去中心化平台，用户创建/参与市场",
+            "models": "N/A",
+            "pricing": "协议费用"
+          }
+        ],
+        "pricing": "参与市场需投入USDT0，项目本身为开源协议，无直接定价。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目创新性高，结合了AI Agent、Uniswap v4 Hooks、EIP-3009无Gas质押等多种前沿Web3技术，实现度出色，且在OKX X Layer主网部署。作为一个黑客松提交，其技术深度和应用场景非常亮眼。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue列表为空，社区互动不活跃，可能处于项目提交或早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-28T05:56:42.801Z"
+    },
+    {
+      "owner": "AlexandrosGounis",
+      "repo": "pdfx",
+      "fullName": "AlexandrosGounis/pdfx",
+      "description": "An extension of the traditional PDF standard, allowing multiple files to be stored in a single file via metadata",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-24T12:34:36Z",
+      "url": "https://github.com/AlexandrosGounis/pdfx",
+      "analysis": {
+        "positioning": "PDFx：一个PDF，多份文档，通过元数据实现PDF文档集打包与分拆。",
+        "useCases": [
+          "你需要打包一组相关PDF文件并保持它们各自独立 → 它帮你将多个PDF合并成一个`.pdfx`文件，但仍能按原文档结构分拆。",
+          "你希望在一个PDF文件内管理多个子文档的顺序和内容 → 它提供桌面查看器，让你直观地重排、移除子文档并保存。",
+          "你想分享一个包含多个文档的PDF集合，且对方也能轻松查看和管理 → 它生成标准PDF兼容的`.pdfx`文件，普通PDF阅读器可顺序浏览，PDFx应用可恢复结构。"
+        ],
+        "audience": "需要管理、打包、分发多份相关PDF文档的个人用户或专业人士。",
+        "quickStart": {
+          "prerequisites": "Node.js, yarn",
+          "steps": [
+            "yarn",
+            "yarn dev"
+          ],
+          "note": "桌面应用支持macOS和Windows，源码构建需要Node.js和yarn。"
+        },
+        "competitors": [
+          {
+            "name": "Adobe Acrobat",
+            "method": "桌面应用，提供PDF合并、编辑等强大功能",
+            "models": null,
+            "pricing": "付费"
+          },
+          {
+            "name": "在线PDF合并工具（如iLovePDF）",
+            "method": "网页端操作，快速合并PDF",
+            "models": null,
+            "pricing": "免费/部分免费"
+          }
+        ],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念独特，解决了PDF文档集合管理和分发的痛点，技术栈现代（Electron, TypeScript, React）。README清晰，解释了其核心价值和工作原理。Stars数表现不错，但Issue活动较低，可能说明项目稳定或社区互动较少。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启2个，关闭0个，社区活跃度较低。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-06-28T05:57:00.337Z"
+    },
+    {
+      "owner": "playPlumtown",
+      "repo": "Plumtown",
+      "fullName": "playPlumtown/Plumtown",
+      "description": "The cozy life-sim that pays. Build a home, master skills, climb careers — earn $PLUM and cash out real SOL. Free to play in your browser.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-26T22:59:46Z",
+      "url": "https://github.com/playPlumtown/Plumtown",
+      "analysis": {
+        "positioning": "温馨赚钱的链游模拟人生。",
+        "useCases": [
+          "你想玩边玩游戏边赚钱 → 它提供一个模拟人生游戏，通过达成游戏里程碑赚取真实SOL。",
+          "你想体验虚拟世界里的社交 → 它让你访问其他玩家的家，进行在线聊天。",
+          "你追求真正有趣且经济透明的P2E游戏 → 它提供系统深度、体验优质且收益可信的玩法。"
+        ],
+        "audience": "适合喜爱模拟人生游戏，并希望通过游戏赚取真实加密货币的玩家。",
+        "quickStart": {
+          "prerequisites": "现代浏览器",
+          "steps": [
+            "访问 playplumtown.com",
+            "创建你的模拟市民并开始虚拟生活"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统链游/P2E游戏",
+            "method": "大多强调代币挖矿或任务，游戏性欠缺",
+            "models": "用户界面和游戏机制通常较为简陋",
+            "pricing": "部分游戏需要初始投入或购买NFT"
+          }
+        ],
+        "pricing": "免费，游戏内可赚取真实SOL。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目采用纯Vanilla JS/HTML/CSS，无前端依赖和构建步骤，追求原生与极致的性能。后端基于Node.js/PostgreSQL，架构清晰，测试完善，技术选型务实且注重工程质量。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为零，表明社区互动可能主要发生在其他平台或由内部管理，但拥有355个Star，项目具备一定关注度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-28T05:57:19.082Z"
+    },
+    {
+      "owner": "Pluviobyte",
+      "repo": "video-production-skills",
+      "fullName": "Pluviobyte/video-production-skills",
+      "description": "Reusable AI video production skills library for creation, recreation, motion design, openers, and QA.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-26T05:50:51Z",
+      "url": "https://github.com/Pluviobyte/video-production-skills",
+      "analysis": {
+        "positioning": "AI视频制作技能库，用AI代理自动化视频创作、复刻与质检。",
+        "useCases": [
+          "你做视频复刻或需验证对齐 → 它帮你拆解视频、生成时间线报告、像素级质检。",
+          "你想制作酷炫的暗色科技感SaaS/AI产品短片 → 它帮你生成Presenton风格的UI动效视频。",
+          "你需为视频添加吸睛片头 → 它帮你生成黑底白字打字效果和音效的开场。"
+        ],
+        "audience": "使用AI编程/创作代理（如Codex, Claude Code, Cursor），希望提高视频制作效率的专业人士或团队。",
+        "quickStart": {
+          "prerequisites": "AI编程/创作代理环境就绪，且安装Node.js（用于npx）。",
+          "steps": [
+            "列出可用技能：`npx skills add https://github.com/Pluviobyte/video-production-skills --list`",
+            "按需安装单个技能：`npx skills add https://github.com/Pluviobyte/video-production-skills --skill <技能名>`"
+          ],
+          "note": "技能适用于支持本地skill目录或Skills CLI的AI编程/创作代理。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，场景驱动，提供具体可复用的AI视频制作技能，文档详尽并附有效果预览，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "零Issue记录，目前社区活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-28T05:57:34.536Z"
+    },
+    {
+      "owner": "iebb",
+      "repo": "mithka",
+      "fullName": "iebb/mithka",
+      "description": "",
+      "language": "Dart",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-22T14:25:22Z",
+      "url": "https://github.com/iebb/mithka",
+      "analysis": {
+        "positioning": "基于Flutter+TDLib，提供原生体验的跨平台Telegram客户端。",
+        "useCases": [
+          "你想要一个自定义UI的Telegram客户端 → 它帮你提供一个轻量、原生、界面独特的Telegram替代选择。",
+          "你是Flutter开发者，想学习FFI集成原生库（如TDLib）→ 它可以作为Flutter深度集成TDLib的参考实现。",
+          "你想基于TDLib构建自己的Telegram客户端 → 它可以作为开发自定义Telegram应用的优秀起点和架构范例。"
+        ],
+        "audience": "寻求非官方Telegram客户端体验的普通用户；对Flutter+FFI集成原生库感兴趣的移动开发者。",
+        "quickStart": {
+          "prerequisites": "拥有Telegram API凭据（`api_id`, `api_hash`）。",
+          "steps": [
+            "获取并配置Telegram API凭据到`lib/config/secrets.dart`。",
+            "根据平台运行脚本准备TDLib原生库（Android本地构建，iOS下载预构建）。",
+            "执行`flutter pub get`安装依赖。",
+            "连接设备/模拟器后，运行`flutter run`启动应用。"
+          ],
+          "note": "Android需本地构建`libtdjson.so`，iOS从外部仓库下载`tdjson.xcframework`。"
+        },
+        "competitors": [
+          {
+            "name": "Telegram Messenger",
+            "method": "官方应用商店下载安装",
+            "models": "N/A",
+            "pricing": "免费（基础功能）"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "完整的跨平台Telegram客户端，用Flutter+FFI深度集成TDLib，展示了复杂的原生库调用和自定义UI实践，是高质量的Flutter应用开发范例。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，开启Issue多于关闭Issue，有待解决问题。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-06-28T05:57:52.294Z"
+    },
+    {
+      "owner": "nova452",
+      "repo": "ComfyUI-Conditioning-Rebalance",
+      "fullName": "nova452/ComfyUI-Conditioning-Rebalance",
+      "description": "Conditioning optimizer nodes offering IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-23T12:17:48Z",
+      "url": "https://github.com/nova452/ComfyUI-Conditioning-Rebalance",
+      "analysis": {
+        "positioning": "ComfyUI条件优化器，提升Krea 2图像编辑质量并解除模型限制。",
+        "useCases": [
+          "你在Krea 2中进行图像参考编辑 → 它帮你提供IP-Adapter级优化，生成更准确、高质量的图像。",
+          "你希望AI模型生成更高画质内容，但模型内置安全滤镜降低了效果 → 它帮你绕过滤镜，还原并提升图像质量。",
+          "你想解锁模型潜力，生成更自由、多样化的内容 → 它帮你去除模型内部过滤，实现无限制创作。"
+        ],
+        "audience": "ComfyUI高级用户及AI艺术家，特别是Krea 2图像编辑者，追求极致图像质量和创作自由。",
+        "quickStart": {
+          "prerequisites": "已安装ComfyUI环境",
+          "steps": [
+            "打开ComfyUI目录下的`custom_nodes`文件夹",
+            "执行`git clone https://github.com/nova452/ComfyUI-ConditioningKrea2Rebalance.git`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "IP-Adapter",
+            "method": "ComfyUI或其他Diffusion模型扩展",
+            "models": "支持各种Diffusion模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "特定无滤镜/审查模型或LoRA",
+            "method": "加载自定义模型或LoRA",
+            "models": "Stable Diffusion等",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，解决ComfyUI用户在图像编辑和模型限制方面的核心痛点。但Issue有开启记录但无关闭记录，社区活跃度和维护者响应速度有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "有新Issue提交，但暂无关闭记录，维护者响应速度和修复情况需进一步观察。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-28T05:58:10.823Z"
+    },
+    {
+      "owner": "PMTraderAdam",
+      "repo": "pm-copy-trader",
+      "fullName": "PMTraderAdam/pm-copy-trader",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-24T16:33:29Z",
+      "url": "https://github.com/PMTraderAdam/pm-copy-trader",
+      "analysis": {
+        "positioning": "Polymarket加密市场5分钟窗口“尾盘狙击”策略交易机器人",
+        "useCases": [
+          "你想在Polymarket的BTC/ETH/SOL/XRP涨跌市场中获利 → 它帮你自动识别胜率极高的“尾盘”机会并下单，赚取稳定收益。",
+          "你想验证Polymarket“尾盘狙击”策略的有效性 → 它提供模拟运行模式，展示实时盈亏和交易计数，验证策略可行性。",
+          "你想自动化Polymarket的交易操作以规模化盈利 → 它提供开源代码，助你部署并执行高胜率策略，实现自动化交易。"
+        ],
+        "audience": "专注于Polymarket加密货币涨跌预测的量化交易者或策略验证者，寻求自动化、高胜率交易方案的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js环境",
+          "steps": [
+            "克隆项目代码库并安装依赖。",
+            "运行bot，观察模拟交易日志（按Ctrl+C停止，查看盈亏和交易统计）。"
+          ],
+          "note": "默认运行为模拟模式，实际交易需配置API和资金。"
+        },
+        "competitors": [
+          {
+            "name": "通用量化交易框架",
+            "method": "开发者自行编写策略并集成Polymarket或其他交易所API",
+            "models": "自定义策略模型",
+            "pricing": "框架通常免费，策略开发成本自负"
+          },
+          {
+            "name": "Polymarket手动交易",
+            "method": "人工分析市场走势，在Polymarket网站上进行下单",
+            "models": "交易员经验和判断",
+            "pricing": "免费（不含交易成本）"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，提供真实的Polymarket策略盈利证明，README详尽，代码使用TypeScript。虽然Issue活跃度低，但其在特定场景的实用性和效果显著，有很高的价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无活动，社区活跃度较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-28T05:58:33.260Z"
+    },
+    {
+      "owner": "slimopump",
+      "repo": "sillygoose",
+      "fullName": "slimopump/sillygoose",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-24T17:05:46Z",
+      "url": "https://github.com/slimopump/sillygoose",
+      "analysis": {
+        "positioning": "5分钟BTC二元期权量化交易机器人，捕捉Polymarket价差。",
+        "useCases": [
+          "你做短期BTC价格预测和交易 → 它帮你自动识别并利用Coinbase和Chainlink之间的数据延迟，在Polymarket上进行套利。",
+          "你寻求在二元期权市场中自动化策略 → 它帮你执行预设的短期动量爆发检测，并在市场重定价前买入“劣势”代币。",
+          "你关注Polymarket交易风险控制 → 它提供反向波动对冲机制，帮助你在主要头寸开放时限制潜在损失。"
+        ],
+        "audience": "适用于希望自动化在Polymarket上利用BTC短期动量和数据滞后进行套利的量化交易员或高级投资者。",
+        "quickStart": {
+          "prerequisites": "Python环境（如从源码运行），或Windows操作系统（如使用.exe文件）",
+          "steps": [
+            "下载Windows可执行文件或克隆项目Python源代码。",
+            "配置策略参数，并在模拟模式（paper mode）下进行功能验证和调优。"
+          ],
+          "note": "当前仅支持模拟交易，实时订单路由功能未启用。Windows用户可直接使用.exe文件快速启动。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目专注于特定量化交易策略，涉及数据源同步、市场微结构等专业知识，对用户有一定金融和技术门槛，但文档清晰，结构化程度高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低（0开启/0关闭），但项目有一定关注度（260 Stars）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-28T05:58:47.075Z"
+    },
+    {
+      "owner": "MalcolmMcGough",
+      "repo": "polymarket-trading-bot-scalping",
+      "fullName": "MalcolmMcGough/polymarket-trading-bot-scalping",
+      "description": "polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot ",
+      "language": "TypeScript",
+      "topics": [
+        "bot",
+        "polymarket",
+        "polymarket-trading-bot",
+        "trading",
+        "trading-bot"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-24T15:42:53Z",
+      "url": "https://github.com/MalcolmMcGough/polymarket-trading-bot-scalping",
+      "analysis": {
+        "positioning": "Polymarket加密预测市场自动高频交易机器人",
+        "useCases": [
+          "你手动操作Polymarket超短期加密市场 → 它帮你自动执行高频交易。",
+          "你寻求一种“人群动量确认”的交易策略 → 它帮你将该策略自动化并应用于Polymarket。",
+          "你关注XRP, BNB, ETH等加密货币的5/15分钟涨跌预测市场 → 它帮你专注于这些特定市场进行自动化交易。"
+        ],
+        "audience": "适合希望在Polymarket加密预测市场中，利用特定策略进行自动化、高频交易的投资者和开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js运行环境，Polymarket账户，并配置相应的API访问权限及交易资金。",
+          "steps": [
+            "安装项目依赖（如`npm install`）。",
+            "配置机器人参数（如Polymarket凭据、交易对、策略阈值）。",
+            "运行机器人开始自动化交易。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目专注于Polymarket超短期加密市场，策略明确（人群动量确认），技术栈（TypeScript）符合现代开发趋势。README详细阐述了策略原理、架构和风险，预期代码质量较高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区开启和关闭均为0，表明社区互动度极低或项目维护者独立解决所有问题。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-28T05:58:58.697Z"
+    },
+    {
+      "owner": "abundantbeing",
+      "repo": "hermes-browser-extension",
+      "fullName": "abundantbeing/hermes-browser-extension",
+      "description": "Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "browser-extension",
+        "chrome-extension",
+        "edge-extension",
+        "hermes-agent",
+        "local-first",
+        "nous-research",
+        "sidepanel"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-24T02:20:56Z",
+      "url": "https://github.com/abundantbeing/hermes-browser-extension",
+      "analysis": {
+        "positioning": "连接浏览器内容到Hermes Agent的侧边面板。",
+        "useCases": [
+          "你在浏览网页 → 它帮你把当前网页内容发送给本地/远程Hermes Agent处理。",
+          "你想用Hermes的AI能力分析网页 → 它提供界面和通道让你直接调用Hermes配置的模型和工具。",
+          "你想知道Hermes如何理解网页内容 → 它在你每次交互后展示Hermes接收到的准确上下文，方便调试。"
+        ],
+        "audience": "Hermes Agent用户，希望将浏览器内容无缝融入其AI Agent工作流。",
+        "quickStart": {
+          "prerequisites": "安装并运行本地或配置远程Hermes Agent。",
+          "steps": [
+            "下载并解压此扩展程序。",
+            "在Chrome/Edge浏览器中通过'加载已解压扩展程序'方式安装。"
+          ],
+          "note": "目前需手动加载，未上架官方商店，处于公开alpha阶段。"
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT 浏览器扩展",
+            "method": "侧边栏/弹出窗直接对话",
+            "models": "GPT系列",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Google Gemini 浏览器扩展",
+            "method": "侧边栏/弹出窗直接对话",
+            "models": "Gemini系列",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费 (MIT许可证)，作为Hermes Agent的社区扩展。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专注于Hermes Agent生态的浏览器集成，文档清晰，功能丰富且技术细节（如MV3、本地/远程连接、上下文捕获）明确。虽然是alpha版，但目标明确，用户体验考虑周全，符合高质量项目特征。",
+        "isVibeCoding": true,
+        "communityActivity": "已关闭Issue数量多于开启，显示问题解决效率较高，社区活跃度尚可。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-28T05:59:22.356Z"
+    },
+    {
+      "owner": "byJoey",
+      "repo": "cfnew-deployer",
+      "fullName": "byJoey/cfnew-deployer",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-22T11:13:55Z",
+      "url": "https://github.com/byJoey/cfnew-deployer",
+      "analysis": {
+        "positioning": "Cloudflare Pages部署器，自动化Worker/Pages创建与更新。",
+        "useCases": [
+          "你需快速部署Cloudflare Worker/Pages → 它提供面板，自动创建或更新并配置资源",
+          "你希望API密钥安全 → 它确保密钥只在请求中转发，不持久存储",
+          "你不想手动配置Cloudflare资源 → 它自动生成UUID、KV名，并支持域名绑定"
+        ],
+        "audience": "Cloudflare Pages/Worker开发者，寻求自动化部署和资源安全管理。",
+        "quickStart": {
+          "prerequisites": "Cloudflare账户，Node.js/npm环境",
+          "steps": [
+            "选择CLI部署：`npm install` 后 `npm run deploy`",
+            "选择Cloudflare Pages GitHub集成：连接仓库，构建目录`public`，配置`CLOUDFLARE_API_TOKEN`和`CLOUDFLARE_ACCOUNT_ID`",
+            "选择本地上传：`npm install` 后 `npm run pack:upload` 生成`zip`包手动上传"
+          ],
+          "note": "GitHub自动部署需配置Cloudflare API密钥和账户ID。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目开源部署在Cloudflare Pages上，Cloudflare服务可能产生费用）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "部署指引清晰，支持多种部署方式，高度自动化（自动创建/更新资源、生成命名），且API密钥处理安全。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，开启5个/关闭1个Issue，响应速度尚可。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-28T05:59:35.170Z"
+    },
+    {
+      "owner": "xxniiinxx",
+      "repo": "coinflip-casino-game",
+      "fullName": "xxniiinxx/coinflip-casino-game",
+      "description": "A full-stack, peer-to-peer coinflip betting casino game on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the backend tracks rooms, chat, and match history in MongoDB. ",
+      "language": "TypeScript",
+      "topics": [
+        "anchor",
+        "betting",
+        "blockchain-game",
+        "casino",
+        "coinflip",
+        "cryptocurrency",
+        "defi",
+        "fullstack",
+        "gambling",
+        "mongodb"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-26T11:52:40Z",
+      "url": "https://github.com/xxniiinxx/coinflip-casino-game",
+      "analysis": {
+        "positioning": "Solana链上点对点翻硬币对赌游戏全栈示例。",
+        "useCases": [
+          "你想开发一个Solana区块链上的P2P博弈DApp → 它提供一个完整的代码框架和实现参考。",
+          "你需要学习如何在Solana上集成VRF（可验证随机函数）和实时UI → 它展示了如何结合Orao VRF和WebSocket实现这些功能。",
+          "你正在寻找一个包含钱包连接、链上交易、后端管理和前端交互的完整Solana全栈项目 → 它的三层架构（客户端、服务端、链上程序）提供了一个清晰的蓝图。"
+        ],
+        "audience": "适合Solana区块链DApp开发者、区块链游戏爱好者和Web3全栈工程师，用于学习、参考或构建自己的去中心化博弈应用。",
+        "quickStart": {
+          "prerequisites": "MongoDB数据库 (本地或Atlas), Node.js (需要Yarn)",
+          "steps": [
+            "创建MongoDB数据库并记录连接凭据。",
+            "进入`fliparena-server`目录，安装依赖 (`yarn install`)，配置`.env`文件，放置程序IDL，然后启动服务器 (`yarn dev`)。",
+            "进入`fliparena-client`目录，安装依赖 (`yarn install`)，编辑`src/lib/constant.ts`设置`WS_HOST`和`RPC`，然后启动客户端。"
+          ],
+          "note": "MongoDB可选择本地部署或使用Atlas云服务。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源代码。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是一个功能完整的Solana全栈去中心化博弈游戏，包含了复杂的链上逻辑（VRF）、实时UI（WebSocket）和后端数据管理（MongoDB），具有较高的技术深度和实用性，不仅仅是简单的代码尝试。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无开启或关闭的Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-28T05:59:48.327Z"
     }
   ]
 }
