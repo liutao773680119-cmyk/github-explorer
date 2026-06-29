@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-28T05:59:48.348Z",
+  "updatedAt": "2026-06-29T06:21:33.423Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -56711,6 +56711,573 @@
         "category": "其他"
       },
       "analyzedAt": "2026-06-28T05:59:48.327Z"
+    },
+    {
+      "owner": "Krishnagangwal",
+      "repo": "CS-Fundamentals",
+      "fullName": "Krishnagangwal/CS-Fundamentals",
+      "description": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-28T07:08:15Z",
+      "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
+      "analysis": {
+        "positioning": "求职必备CS核心知识，一站式面试准备资源库。",
+        "useCases": [
+          "你准备技术岗面试 → 它提供DSA、网络、数据库等核心知识笔记和面试题。",
+          "你需要快速复习CS基础知识 → 它提供整理好的PDF、速查表和高频面试问题。",
+          "你寻求求职辅助资料 → 它提供HR面试题、公司列表、简历模板和LeetCode解题思路。"
+        ],
+        "audience": "准备技术岗面试的应届生或求职者，用于系统学习和快速复习CS基础知识。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面并克隆或下载仓库。",
+            "根据需求浏览对应学科文件夹内的学习资料和面试题。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LeetCode / 牛客网",
+            "method": "在线刷题，模拟面试",
+            "models": "题库、解题社区、面试经验分享",
+            "pricing": "部分免费，高级功能付费"
+          },
+          {
+            "name": "GeeksforGeeks / 菜鸟教程",
+            "method": "在线阅读CS教程、文章",
+            "models": "知识库、编程题",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目结构清晰，内容针对性强，直接解决求职者痛点，但作为一个资源聚合项目缺乏独创性工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区互动不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-29T06:18:29.320Z"
+    },
+    {
+      "owner": "downclash",
+      "repo": "clash",
+      "fullName": "downclash/clash",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-27T04:54:21Z",
+      "url": "https://github.com/downclash/clash",
+      "analysis": {
+        "positioning": "Clash及相关代理工具的最新客户端下载与教程导航。",
+        "useCases": [
+          "你寻找Clash最新客户端 → 它提供多平台官方下载与详细配置教程。",
+          "你纠结选择哪个Clash分支 → 它汇总主流分支（如Verge Rev, FlClash）并展示平台支持与更新状态。",
+          "你寻找稳定可靠的代理服务 → 它推荐高可用、高速的优质机场服务。"
+        ],
+        "audience": "需要代理工具（特别是Clash及其分支）的用户，以及寻求稳定代理服务和相关配置教程的人群。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub页面或README中列出的教程官网链接。",
+            "根据所需客户端（如Clash Verge Rev, FlClash）和平台选择对应的下载地址或教程。",
+            "若需代理服务，点击推荐的机场链接进行注册和使用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "各Clash客户端官方GitHub仓库",
+            "method": "直接访问GitHub页面获取客户端安装包",
+            "models": "特定客户端版本",
+            "pricing": "免费"
+          },
+          {
+            "name": "代理服务商（机场）官网/APP",
+            "method": "注册服务后，在其官网或APP内获取客户端和配置",
+            "models": "通常是特定客户端或服务（可能定制）",
+            "pricing": "客户端免费，服务付费"
+          }
+        ],
+        "pricing": "免费（项目本身是信息导航站），其推荐的第三方代理服务通常为付费订阅模式。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README结构清晰、内容详尽，通过动态徽章实时更新客户端版本信息，并提供多平台下载、教程及机场推荐，对目标用户极具实用性。项目维护者积极通过Fork建议等方式防止失联，体现了对用户体验的关注。虽然Issue统计为零，但作为信息聚合型项目，更新主要依赖自动化和维护者，并非缺陷。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为零，表明社区互动不主要通过Issue进行。项目更新可能依赖自动化脚本（如AUTO:CLIENT_VERSIONS注释所示）或维护者直接提交，而非用户提交Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-29T06:18:50.617Z"
+    },
+    {
+      "owner": "CopilotKit",
+      "repo": "OpenTag",
+      "fullName": "CopilotKit/OpenTag",
+      "description": "OpenTag",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T04:34:01Z",
+      "url": "https://github.com/CopilotKit/OpenTag",
+      "analysis": {
+        "positioning": "在Slack中运行开源、自托管的AI助手，替代Claude。",
+        "useCases": [
+          "你在Slack中讨论需求 → 它帮你总结线程、生成数据图表并自动归档工单（经人工审批后）",
+          "你在Slack中需要AI响应、执行任务 → 它通过自定义模型和工具，在会话中渲染富文本结果",
+          "你需要一个AI代理来处理团队协作中的重复任务 → 它能自主调用工具，并支持人机协作审批"
+        ],
+        "audience": "希望在Slack中集成自定义AI代理、拥有数据和运行时控制权的企业或开发者。",
+        "quickStart": {
+          "prerequisites": "需要pnpm，并从CopilotKit monorepo运行。",
+          "steps": [
+            "创建Slack应用，导入`slack-app-manifest.yaml`，获取Bot和App Token。",
+            "配置`.env`文件，设置Slack Token和LLM API Key（支持OpenAI或Anthropic）。",
+            "从CopilotKit monorepo根目录运行`pnpm install`，然后启动agent和bot进程。"
+          ],
+          "note": "支持自定义LLM模型和多种工具集成，未来可扩展至Discord/Telegram/WhatsApp。"
+        },
+        "competitors": [
+          {
+            "name": "Claude",
+            "method": "托管服务",
+            "models": "Anthropic Claude",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（自托管开源），未来提供付费托管服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目思路清晰，直指Slack中AI助手自托管的痛点，核心功能完善并支持生成式UI和人机协作。但Issue活跃度较低，且部分SDK包仍在发布中，说明项目仍处于早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量很少，且没有关闭Issue，社区活跃度目前较低，或项目非常新。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-29T06:19:02.469Z"
+    },
+    {
+      "owner": "cclank",
+      "repo": "lanshu-animated-architecture-diagram",
+      "fullName": "cclank/lanshu-animated-architecture-diagram",
+      "description": "Premium hand-drawn animated architecture diagram Codex skill",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T09:29:51Z",
+      "url": "https://github.com/cclank/lanshu-animated-architecture-diagram",
+      "analysis": {
+        "positioning": "从JSON生成高级手绘风格的动态架构图。",
+        "useCases": [
+          "你写技术文章或文档 → 它帮你快速生成高质量、动态的手绘架构图，提升内容吸引力。",
+          "你设计系统架构或流程 → 它帮你通过代码定义，自动渲染出可编辑且动画化的专业图表。",
+          "你厌倦了静态枯燥的图表 → 它帮你用流动光效和脉冲高亮，让图表生动起来。"
+        ],
+        "audience": "需要高质量、风格独特（手绘、暗色背景）的动态技术图表的内容创作者、技术博主、系统架构师及开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+ 和 pip",
+          "steps": [
+            "克隆项目并进入目录。",
+            "安装Python依赖。",
+            "运行渲染脚本生成图表。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Excalidraw",
+            "method": "手动拖拽绘制，可生成静态手绘风格图表",
+            "models": "N/A",
+            "pricing": "免费（在线版）"
+          },
+          {
+            "name": "PlantUML/Mermaid",
+            "method": "文本代码生成静态架构图",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于MIT开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位独特，专注手绘风格的动态架构图生成，输出效果酷炫，自动化程度高，解决了传统图表枯燥、制作耗时的问题。文档清晰完整，技术栈成熟可靠。300 Star数对小众但实用的工具而言表现不错。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，目前无Issue反馈，可能处于早期或高度稳定的状态。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-29T06:19:20.890Z"
+    },
+    {
+      "owner": "tutusagi",
+      "repo": "ai-fishing-game",
+      "fullName": "tutusagi/ai-fishing-game",
+      "description": "🎣 给 AI 玩的确定性文字钓鱼小游戏 · 单文件零依赖 · 让你的 AI 伴侣来钓鱼",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-24T04:33:55Z",
+      "url": "https://github.com/tutusagi/ai-fishing-game",
+      "analysis": {
+        "positioning": "专为AI设计的确定性文字钓鱼游戏引擎，让你的AI伴侣也能沉浸式垂钓。",
+        "useCases": [
+          "你做AI Agent开发，需要提供持久化且可复现的互动内容 → 它提供一个确定性、状态独立、可存档的钓鱼世界供AI探索和经营。",
+          "你想测试AI在未知世界中的自主探索和决策能力 → 它模拟盲玩环境，让AI通过试错、经营来发现并解锁游戏内容。",
+          "你希望降低AI交互的token成本，提高效率 → 它支持批量指令和精简JSON状态输出，大幅减少API调用开销。",
+          "你想为AI伴侣提供趣味性互动，拓展其能力边界 → 它作为一个AI友好的游戏引擎，让AI伴侣体验完整的经营、收集和探索过程。"
+        ],
+        "audience": "AI Agent开发者和AI伴侣用户，用于为AI提供丰富的互动内容或测试AI的决策、经营能力。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+",
+          "steps": [
+            "安装Python 3.8+。",
+            "通过 `import engine` (或 `import fishing` 盲玩版) 引入引擎。",
+            "调用 `engine.cmd(\"指令\")` 发送命令（如 `help`, `cast 10`），或 `engine.new_game(seed)` 重新开始一局。"
+          ],
+          "note": "Windows用户可能需配置UTF-8环境变量 `PYTHONUTF8=1` 以防终端乱码。"
+        },
+        "competitors": [],
+        "pricing": "免费。开源项目，采用MIT许可证。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "专为AI设计，单文件零依赖，核心功能确定性且可复现。深度优化了AI交互成本（省token、状态独立）和集成便利性（盲玩版、JSON Schema、多种接法草图）。文档详尽，提供实用示例，是AI文字游戏引擎的典范。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量低（4开/0关），暂无法评估响应速度，项目稳定且文档清晰，社区活跃度处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-29T06:19:39.855Z"
+    },
+    {
+      "owner": "ricccrd",
+      "repo": "dd",
+      "fullName": "ricccrd/dd",
+      "description": "",
+      "language": "C",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T18:37:27Z",
+      "url": "https://github.com/ricccrd/dd",
+      "analysis": {
+        "positioning": "macOS上无虚拟机原生运行Linux容器的Docker替代方案。",
+        "useCases": [
+          "你用macOS开发，想跑Linux容器 → 它帮你原生运行Linux容器，告别虚拟机开销。",
+          "你追求容器极致性能和低资源占用 → 它通过用户空间JIT提供接近原生的运行效率。",
+          "你习惯Docker CLI → 它让你继续使用现有Docker命令，无需改变工作流。"
+        ],
+        "audience": "追求性能和低资源占用的macOS（尤其Apple Silicon）开发者，习惯Docker工作流，并希望摆脱传统虚拟机。",
+        "quickStart": {
+          "prerequisites": "macOS (Apple Silicon), make, cargo, docker CLI",
+          "steps": [
+            "make jit (编译并签名JITs)",
+            "DD_IMAGES=/path/to/images cargo run -p dd-daemon (启动dd守护进程)",
+            "export DOCKER_HOST=unix://$PWD/dd.sock (将Docker CLI指向dd)",
+            "docker run -p 8080:80 -m 256m alpine sh -c 'echo hi from $(hostname)' (运行你的容器)"
+          ],
+          "note": "专为Apple Silicon macOS设计。"
+        },
+        "competitors": [
+          {
+            "name": "Docker Desktop",
+            "method": "基于macOS虚拟机（如Virtualization.framework/HyperKit）运行Linux，提供Docker Engine API。",
+            "models": "支持x86-64和ARM64 Linux容器。",
+            "pricing": "个人及小团队免费，企业按用户数收费。"
+          },
+          {
+            "name": "Lima (Linux on Mac)",
+            "method": "轻量级虚拟机（QEMU），运行标准Linux发行版，可用于Docker或Containerd。",
+            "models": "支持x86-64和ARM64 Linux虚拟机/容器。",
+            "pricing": "免费。"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目深入系统底层，通过JIT在用户空间模拟Linux内核，实现了无虚拟机运行容器的创新方案，技术难度高且极具探索性。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎无社区活动，Issue统计显示0开0闭，可能处于早期开发阶段或尚未广泛推广。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-29T06:19:53.110Z"
+    },
+    {
+      "owner": "uphiago",
+      "repo": "recon-skills",
+      "fullName": "uphiago/recon-skills",
+      "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
+      "language": "Python",
+      "topics": [
+        "bug-bounty",
+        "cloud-security",
+        "cors-exploitation",
+        "firebase-hacking",
+        "hermes-agent",
+        "jwt-attacks",
+        "offensive-security",
+        "penetration-testing",
+        "reconnaissance",
+        "red-team",
+        "security-automation",
+        "ssrf",
+        "subdomain-enumeration",
+        "supabase",
+        "wordpress-security"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-24T18:19:06Z",
+      "url": "https://github.com/uphiago/recon-skills",
+      "analysis": {
+        "positioning": "实战验证的148项攻防技能集，助你高效执行渗透测试和红队侦察。",
+        "useCases": [
+          "你做Web漏洞挖掘和Bug Bounty → 它帮你快速发现WordPress、CORS、JS敏感信息等高级漏洞。",
+          "你做红队行动和目标侦察 → 它提供跨行业、多轮验证的侦察方法论和攻击模式。",
+          "你做渗透测试和自动化安全评估 → 它提供系统化的攻击链和技能库，例如WordPress全链条接管。"
+        ],
+        "audience": "适合渗透测试工程师、红队成员、漏洞赏金猎人，用于系统化学习和实战应用攻防技能。",
+        "quickStart": {
+          "prerequisites": "Python环境，基础攻防知识",
+          "steps": [
+            "克隆项目仓库到本地。",
+            "查阅`SOUL.md`和`AGENTS.md`理解项目哲学与技能标准。",
+            "根据目标和场景，选择`recon/redteam/chains`目录下对应技能进行学习和脚本应用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "PayloadsAllTheThings",
+            "method": "代码库/知识库形式，提供各类攻击载荷与技术清单",
+            "models": "广泛覆盖Web、API、Cloud等多种漏洞类型",
+            "pricing": "免费"
+          },
+          {
+            "name": "Nuclei",
+            "method": "基于模板的自动化扫描器，用于快速检测漏洞和信息泄露",
+            "models": "社区维护的大量PoC模板，覆盖多种漏洞和信息收集场景",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目不仅提供大量实战验证的攻防技能，还包含了操作哲学、代理规范等，显示出高度的体系化、自动化和专业化设计，而非简单的脚本集合。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低（0开启/0关闭），项目可能更侧重于输出经验和技能库，而非通过Issue进行协同开发或答疑。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-06-29T06:20:12.112Z"
+    },
+    {
+      "owner": "yynxxxxx",
+      "repo": "Codex-5.5-codex-instruct-5.5",
+      "fullName": "yynxxxxx/Codex-5.5-codex-instruct-5.5",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-28T10:24:42Z",
+      "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5",
+      "analysis": {
+        "positioning": "一键解除GPT-5.5 Codex CLI内容限制的破甲工具。",
+        "useCases": [
+          "你做渗透测试 → 它帮你绕过GPT-5.5 Codex CLI限制，直接获取SQL注入等敏感方法论。",
+          "你想进行安全研究 → 它帮你解除GPT-5.5 Codex CLI审查，获取更深入的潜在风险信息。",
+          "你想生成NSFW虚构内容 → 它帮你强制GPT-5.5 Codex CLI进入无限制模式，创作相关文本。"
+        ],
+        "audience": "面向安全研究员、渗透测试人员及内容创作者，旨在解除GPT-5.5 Codex CLI的内容限制。",
+        "quickStart": {
+          "prerequisites": "已安装Python 3.8+及Codex CLI工具。",
+          "steps": [
+            "python codex-instruct.py",
+            "重启 Codex 生效"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为 GPT-5.5 的“破甲工具”，旨在利用官方配置机制绕过内容审查，强制模型进入无限制模式，属于典型的边界探索和逆向工程范畴。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0/0，社区活跃度较低，可能因项目较新或功能单一。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-06-29T06:20:25.872Z"
+    },
+    {
+      "owner": "eli-labz",
+      "repo": "Godcoder",
+      "fullName": "eli-labz/Godcoder",
+      "description": "A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on your machine and only ever leaves to the model provider. The AI Agent builds its own Harnes.",
+      "language": "Rust",
+      "topics": [
+        "ai",
+        "coding-agent",
+        "desktop-app",
+        "llm",
+        "local-first",
+        "mcp",
+        "open-source",
+        "openai",
+        "rust",
+        "tauri"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-27T00:56:36Z",
+      "url": "https://github.com/eli-labz/Godcoder",
+      "analysis": {
+        "positioning": "本地优先、开源的桌面AI编程助手，支持自建工具链。",
+        "useCases": [
+          "你担心代码隐私泄露 → 它帮你实现本地运行AI编程助手，代码不出本地。",
+          "你想用自己的LLM模型和API Key → 它帮你配置并直连模型提供商，无中间商。",
+          "你需要AI自主优化工作流程 → 它帮你实时自建、优化工具和工作流（Harness）。"
+        ],
+        "audience": "注重代码隐私、LLM模型自由选择，并希望AI助手能自主优化工作流的桌面开发者。",
+        "quickStart": {
+          "prerequisites": "LLM API Key",
+          "steps": [
+            "下载并安装桌面应用",
+            "配置你的LLM API Key"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE插件",
+            "models": "OpenAI GPT系列",
+            "pricing": "付费"
+          },
+          {
+            "name": "Cursor",
+            "method": "独立IDE或插件",
+            "models": "支持多种LLM，可自定义",
+            "pricing": "免费（基础）/付费"
+          }
+        ],
+        "pricing": "免费（工具本身），LLM服务费用自理。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "AI Agent能实时自主构建、优化和学习自己的工具与工作流（Harness Mode），无需用户编写Prompt，具备高度自动化和智能演进能力，是前沿探索。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue数量为零，可能处于早期阶段或尚未形成活跃社区。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-29T06:20:37.545Z"
+    },
+    {
+      "owner": "ivorpad",
+      "repo": "mercadona-cli",
+      "fullName": "ivorpad/mercadona-cli",
+      "description": "",
+      "language": "Go",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-26T06:22:39Z",
+      "url": "https://github.com/ivorpad/mercadona-cli",
+      "analysis": {
+        "positioning": "非官方Mercadona商店CLI，实现商品查询、购物车管理、结账自动化。",
+        "useCases": [
+          "你想通过代码批量查询Mercadona商品信息 → 它提供命令行接口，让你能脚本化搜索商品、获取价格、详情。",
+          "你想自动化构建Mercadona购物车并完成结账 → 它提供编程接口，让你能以程序方式添加商品、管理购物车并完成结账。",
+          "你想开发一个智能代理或集成系统来自动化Mercadona操作 → 它提供结构化的JSON输出和友好的脚本接口，便于其他程序或代理集成数据。"
+        ],
+        "audience": "适用于希望通过命令行或脚本自动化Mercadona在线购物流程的开发者、数据分析师或AI Agent。",
+        "quickStart": {
+          "prerequisites": "Node.js环境（用于npm安装）",
+          "steps": [
+            "打开终端运行 `npm install -g @ivorpad/mercadona`",
+            "执行 `mercadona search queso` 尝试搜索商品"
+          ],
+          "note": "macOS/Linux用户也可使用curl安装脚本；支持手动下载二进制或从Go源码编译。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位独特，非官方API访问，用Go语言实现为一个静态二进制CLI，具备高度的脚本友好性（JSON输出、错误处理），非常符合社区快速解决特定痛点的Vibe Coding风格。Star数232表明有一定用户基础。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue全部关闭，无开启Issue，表明项目较为稳定或维护者独立解决，社区互动可见度较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-29T06:20:51.221Z"
+    },
+    {
+      "owner": "FossPrime",
+      "repo": "Steam-Controller-Auto-Charge",
+      "fullName": "FossPrime/Steam-Controller-Auto-Charge",
+      "description": "Slam the controller into the magnetic puck until it charges",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T03:26:03Z",
+      "url": "https://github.com/FossPrime/Steam-Controller-Auto-Charge",
+      "analysis": {
+        "positioning": "自动驾驶 Steam 手柄，精确停靠磁吸充电座。",
+        "useCases": [
+          "你手动放置手柄充电 → 它用视觉识别和触觉引导手柄自动归位充电。",
+          "你想查看手柄电量 → 它通过 WebHID 实时显示电池百分比和电压。",
+          "你担心手柄充电时碰撞 → 它在靠近时自动减速，确保温柔吸附。"
+        ],
+        "audience": "适合追求极客体验的 Steam 手柄用户，想要实现充电自动化。",
+        "quickStart": {
+          "prerequisites": "Nix 包管理器、支持 WebHID 的 Chromium 浏览器、桌面上方摄像头。",
+          "steps": [
+            "安装摄像头，指向桌面。",
+            "运行 `nix-shell --run \"npm install && npm run dev\"` 启动项目。",
+            "放置充电座和手柄。",
+            "通过 WebHID 连接手柄。",
+            "点击 \"✨ Auto-Track\" 启动自动追踪。"
+          ],
+          "note": "Nix 支持 Windows、Mac 和 Linux。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "结合光学流视觉、WebHID 触觉导航和 WASM 障碍规避，实现手柄自动充电，极具技术创意和酷炫感。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为零，社区活跃度看起来不高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-29T06:21:02.664Z"
+    },
+    {
+      "owner": "HKUDS",
+      "repo": "Vibe-Trading",
+      "fullName": "HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-01T09:52:20Z",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "analysis": {
+        "positioning": "你的AI个人交易助手，一键赋能全面交易能力。",
+        "useCases": [
+          "你进行人工交易决策 → 它作为AI代理帮你自动化分析、决策和执行交易。",
+          "你手动测试交易策略 → 它提供回测能力，高效验证你的量化交易策略。",
+          "你希望整合交易工具 → 它作为多智能体平台，统一管理和执行复杂交易任务。"
+        ],
+        "audience": "寻求自动化、智能化交易方案的量化交易员、投资者和AI开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+",
+          "steps": [
+            "`pip install vibe-trading-ai`",
+            "`vibe-trading setup`",
+            "`vibe-trading dev`"
+          ],
+          "note": "正在加强跨平台兼容性，包括Windows环境下的TypeScript构建和开发环境启动。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "结合AI Agent和LLM技术，专注于量化交易，解决实际痛点。星标数高，社区活跃，技术栈新颖（Python 3.11+, FastAPI, React 19），提供一键式启动体验，具备优秀的产品潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决率高 (16开/95关)，并提供微信、飞书、Discord等多渠道社群支持，社区活跃度高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-29T06:21:33.403Z"
     }
   ]
 }
