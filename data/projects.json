@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-29T06:21:33.423Z",
+  "updatedAt": "2026-06-30T05:50:57.691Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -57278,6 +57278,547 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-29T06:21:33.403Z"
+    },
+    {
+      "owner": "Kenia1989",
+      "repo": "Flash-USDT-Sender",
+      "fullName": "Kenia1989/Flash-USDT-Sender",
+      "description": "Flash USDT Sender — Multi-network flash transaction tool for USDT, BTC, and ETH with configurable duration, custom gas settings, ERC-20/TRC-20/BEP-20 support, and block explorer-visible confirmations",
+      "language": "Python",
+      "topics": [
+        "bitcoinflashtool",
+        "crypto-wallet-simulator",
+        "cryptojacking",
+        "electrum-fake-balance",
+        "electrum-wallet",
+        "eth-flasher",
+        "exodus-fake-balance",
+        "fake-balance-crypto",
+        "fake-balance-exodus",
+        "flash-free-demo",
+        "flasher-script",
+        "flasher-tool",
+        "flashingsoftware",
+        "okx-fake-balance",
+        "phantom-clone",
+        "phantom-fake-money",
+        "phantom-larp-tool",
+        "sol-flash-software-2025",
+        "trustwallet-clone",
+        "trx-flash"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-30T04:06:01Z",
+      "url": "https://github.com/Kenia1989/Flash-USDT-Sender",
+      "analysis": {
+        "positioning": "多链闪付工具，可在区块浏览器上短暂显示USDT/BTC/ETH交易。",
+        "useCases": [
+          "你想欺骗他人你已付款 → 它帮你制造一笔虚假的、可在区块链浏览器上短暂查询到的加密货币转账记录。",
+          "你想展示虚拟资产以获取信任 → 它帮你向他人钱包发送一个显示有余额、但实际无法使用的“闪付”金额。",
+          "你想研究区块链浏览器如何处理短时伪造交易 → 它帮你创建并观察这类特殊交易的生命周期。"
+        ],
+        "audience": "寻求制造虚假加密货币交易记录以进行欺骗或展示的用户，或安全研究人员用于分析这类欺诈手段。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "克隆或下载项目代码。",
+            "安装Python依赖库。",
+            "配置交易参数（接收地址、金额、网络、显示时长等）。",
+            "运行脚本执行“闪付”操作。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他“闪付”脚本/工具",
+            "method": "命令行运行或预编译程序",
+            "models": "USDT (ERC-20/TRC-20/BEP-20), BTC, ETH",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于MIT许可证开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "其核心功能是制造能在区块链浏览器上短暂显示的“闪付”交易，具有明显的欺诈或迷惑性用途。项目描述和标签（如“fake-balance-crypto”、“cryptojacking”）也强烈暗示了其潜在的恶意应用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-30T05:47:52.171Z"
+    },
+    {
+      "owner": "pickrui",
+      "repo": "oixcloud-external-proxy-program",
+      "fullName": "pickrui/oixcloud-external-proxy-program",
+      "description": "oixcloud external-proxy helper — distribution (docs + binaries via Releases)",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-30T03:45:42Z",
+      "url": "https://github.com/pickrui/oixcloud-external-proxy-program",
+      "analysis": {
+        "positioning": "Surge 外部代理助手，一键接入 oixcloud 服务。",
+        "useCases": [
+          "你使用 oixcloud 且想用 Surge 代理上网 → 它帮你自动登录、拉取节点、本地SOCKS5出站。",
+          "你嫌手动配置 Surge 外部代理繁琐 → 它帮你一键生成并导入 Surge 配置。",
+          "你希望 Surge 直接从本地获取代理配置 → 它帮你启用本地订阅服务，确保配置一致。"
+        ],
+        "audience": "使用 Surge 且需要简化 oixcloud 代理配置的 macOS 用户。",
+        "quickStart": {
+          "prerequisites": "macOS 系统",
+          "steps": [
+            "下载并安装程序到 `/usr/local/bin`。",
+            "运行 `oixcloud-external-proxy-program`，按提示粘贴 Access Token 登录。",
+            "在菜单中选择「一键接入 Surge」完成配置导入。"
+          ],
+          "note": "macOS 需执行 `xattr -dr com.apple.quarantine` 解除签名拦截。"
+        },
+        "competitors": [],
+        "pricing": "免费使用（工具本身）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README 清晰，详细说明了安装、使用流程和高级选项，并提供中英双语，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Star 数 12，Issue 0/0，社区活跃度较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-30T05:48:04.613Z"
+    },
+    {
+      "owner": "baairon",
+      "repo": "torlink",
+      "fullName": "baairon/torlink",
+      "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "language": "TypeScript",
+      "topics": [
+        "downloader",
+        "magnet-links",
+        "p2p",
+        "torrent",
+        "torrent-client",
+        "zero-configuration"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-25T12:37:15Z",
+      "url": "https://github.com/baairon/torlink",
+      "analysis": {
+        "positioning": "终端里的零配置BT搜索下载利器。",
+        "useCases": [
+          "你被传统BT站广告、弹窗困扰 → 它提供干净、无干扰的终端搜索下载体验。",
+          "你想快速找到靠谱的资源且一键下载 → 它整合优质源，直接下载到你的电脑。",
+          "你需要同时下载多个BT文件并管理 → 它支持后台多任务下载，并自动保存到指定目录。"
+        ],
+        "audience": "适合所有厌倦传统BT网站繁琐操作，喜欢在终端高效工作，追求简洁体验的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js",
+          "steps": [
+            "打开终端。",
+            "执行命令：`npx torlnk`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极致的终端体验，零配置，一键安装即用，完美解决传统BT下载痛点，兼顾简洁和效率，高度符合Vibe Coding特征。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启8个，关闭0个，社区活跃度较低，可能项目较新或维护不足。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-30T05:48:19.163Z"
+    },
+    {
+      "owner": "tdeverx",
+      "repo": "contained-app",
+      "fullName": "tdeverx/contained-app",
+      "description": "A native macOS app for Apple's Container CLI",
+      "language": "Swift",
+      "topics": [
+        "apple-container",
+        "apple-silicon",
+        "containers",
+        "devtools",
+        "docker-alternative",
+        "liquid-glass",
+        "macos",
+        "sparkle",
+        "swift",
+        "swiftpm",
+        "swiftui"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-25T22:02:07Z",
+      "url": "https://github.com/tdeverx/contained-app",
+      "analysis": {
+        "positioning": "macOS上管理Apple容器CLI的本地图形界面",
+        "useCases": [
+          "你习惯用Docker Desktop管理容器 → 它提供macOS原生体验的Apple容器CLI图形界面。",
+          "你想在Apple Silicon上高效管理Linux容器 → 它提供全生命周期管理、详细信息查看及定制功能。",
+          "你希望快速部署或批量管理容器 → 它支持模板、预设配置及`compose.yaml`导入。"
+        ],
+        "audience": "使用Apple Silicon Mac，希望以原生应用体验管理Linux容器的开发者。",
+        "quickStart": {
+          "prerequisites": "macOS (Apple Silicon 兼容)",
+          "steps": [
+            "从 GitHub Releases 下载最新 `.dmg` 文件",
+            "安装并运行应用"
+          ],
+          "note": "支持通过Sparkle进行App内更新，提供稳定、测试、夜间三种更新渠道。"
+        },
+        "competitors": [
+          {
+            "name": "Docker Desktop",
+            "method": "GUI / CLI",
+            "models": "Linux容器 (Docker Engine)",
+            "pricing": "商业版/免费版"
+          },
+          {
+            "name": "Rancher Desktop",
+            "method": "GUI / CLI",
+            "models": "Kubernetes, containerd, Lima",
+            "pricing": "免费"
+          },
+          {
+            "name": "Colima",
+            "method": "CLI",
+            "models": "containerd, Docker",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极致追求macOS原生体验，从UI（Liquid Glass、SwiftUI-first）到功能（全键盘快捷键、辅助功能、Sparkle更新）都力求与系统深度融合，提供顺滑且高效的容器管理体验，彰显开发者对细节的极致把控和对Apple平台理念的深刻理解。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃开发中，有正在处理的Issues，但关闭比例较低，表明仍在积极迭代完善阶段，目标是发布1.0版本。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-30T05:48:39.029Z"
+    },
+    {
+      "owner": "blknoiz0632",
+      "repo": "CandyDrop",
+      "fullName": "blknoiz0632/CandyDrop",
+      "description": "Cut the rope. Feed the monster. Earn real Solana. A skill-based play-to-earn puzzle on @Solana — play, stack $CANDY, claim SOL. No wagers. Just skill.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-26T22:59:46Z",
+      "url": "https://github.com/blknoiz0632/CandyDrop",
+      "analysis": {
+        "positioning": "基于Solana的技能型“割绳子”链游，边玩边赚SOL。",
+        "useCases": [
+          "你想玩休闲益智游戏 → 它让你通过“割绳子”挑战赢取$CANDY和SOL奖励。",
+          "你想在链上赚钱 → 它提供公平的P2E机制，根据游戏技能和持有量分配每日SOL奖池。",
+          "你希望参与Solana生态的Web3游戏 → 它提供一个部署在Solana主网的技能型游戏。"
+        ],
+        "audience": "喜欢休闲益智游戏且想通过技能在Solana链上赚取加密货币的玩家。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+和PostgreSQL (本地运行所需)",
+          "steps": [
+            "访问 `playCandydrop.com` 或直接前往 `candydrop-production.up.railway.app` 开始游戏。",
+            "连接你的Solana钱包，通过“割绳子”游戏挑战赢取奖励。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，通过游戏技能和持有量赚取$CANDY代币，进而兑换SOL。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰，README详细阐述了玩法、P2E机制和技术栈，展示了专业性。Star数量可观，但GitHub Issues均为0，可能表明开发或社区反馈主要在其他平台，或代码库主要用于展示。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub上Issue统计为0开0闭，社区活跃度在代码库层面不明显，可能在其他平台互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-30T05:48:55.573Z"
+    },
+    {
+      "owner": "Einsia",
+      "repo": "Browser-BC",
+      "fullName": "Einsia/Browser-BC",
+      "description": "Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-26T14:37:26Z",
+      "url": "https://github.com/Einsia/Browser-BC",
+      "analysis": {
+        "positioning": "本地化浏览器行为克隆，为LLM提供可复用GUI操作技能。",
+        "useCases": [
+          "你录制浏览器任务 → 它帮你提炼成LLM可用的网站操作技能",
+          "你希望Claude Code/Desktop自动完成复杂网页操作 → 它提供预训练的技能模块",
+          "你需在特定网站上复用一系列GUI操作 → 它帮你构建网站专属能力桶并安装为技能"
+        ],
+        "audience": "希望利用LLM自动化浏览器任务、特别是Claude用户的开发者或技术爱好者。",
+        "quickStart": {
+          "prerequisites": "Anthropic LLM API Key (SF_LLM_KEY), pnpm (用于扩展构建)",
+          "steps": [
+            "配置并运行本地服务器，如 `./scripts/start.sh`",
+            "构建并加载Chrome扩展程序，在 `chrome://extensions` 中加载 `extension/dist/chrome-mv3`",
+            "使用扩展程序录制任务、停止、标记并上传，等待技能自动生成"
+          ],
+          "note": "适用于Chrome浏览器扩展，本地服务运行在 `http://127.0.0.1:8099/`"
+        },
+        "competitors": [
+          {
+            "name": "Playwright",
+            "method": "编程脚本驱动浏览器自动化",
+            "models": "不适用",
+            "pricing": "免费"
+          },
+          {
+            "name": "LLM驱动的GUI自动化工具",
+            "method": "自然语言指令/录制回放+AI",
+            "models": "各异 (GPT, Claude等)",
+            "pricing": "通常需API费用/订阅"
+          }
+        ],
+        "pricing": "核心软件免费，用户需自备LLM API Key支付模型调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README结构清晰，详尽描述项目目的、架构和快速上手步骤，并配有代码示例。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数为0，表明项目可能处于早期阶段或社区活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-30T05:49:18.817Z"
+    },
+    {
+      "owner": "offchainthoughts",
+      "repo": "Amber",
+      "fullName": "offchainthoughts/Amber",
+      "description": "Bank the expensive compute once, then carry it offline as a single file that can prove it is what it claims to be.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-28T22:56:13Z",
+      "url": "https://github.com/offchainthoughts/Amber",
+      "analysis": {
+        "positioning": "一次性生成可信Embedding，离线携带并验证其真实性。",
+        "useCases": [
+          "你构建RAG向量库 → 它帮你把昂贵Embedding计算一次性打包成自认证文件，便于离线使用。",
+          "你担心离线RAG数据被篡改 → 它帮你用亚线性成本快速验证向量库的真实性和完整性，防范欺诈。",
+          "你需要将Embedding结果分享给他人 → 它帮你生成一个独立的`.amber`文件，无需模型即可验证，方便传播。"
+        ],
+        "audience": "适用于需要构建、分享和验证可信离线RAG向量库的开发者、研究员及企业用户。",
+        "quickStart": {
+          "prerequisites": "Git, Python环境, pip。构建Embedding需安装 `sentence-transformers`。",
+          "steps": [
+            "git clone https://github.com/offchainthoughts/amber && cd amber",
+            "pip install -e .",
+            "pip install -e '.[semantic]' # 可选，安装语义Embedding后端",
+            "amber build examples/corpus -o corpus.amber",
+            "amber verify corpus.amber",
+            "amber audit corpus.amber -k 8 --rho 0.1",
+            "amber query corpus.amber \"how do plants make sugar\""
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "ChromaDB",
+            "method": "本地或客户端-服务器模式部署，存储向量与元数据",
+            "models": "支持多种Embedding模型接入",
+            "pricing": "免费"
+          },
+          {
+            "name": "LanceDB",
+            "method": "本地文件存储，支持向量搜索与SQL查询",
+            "models": "支持多种Embedding模型接入",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目核心在于提供一个“自认证”的离线Embedding文件格式，并通过概率性审计以亚线性成本验证其真实性，有效解决了RAG数据信任与篡改问题，技术方案巧妙且有独到之处。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何已开启或已关闭的Issue。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-06-30T05:49:34.948Z"
+    },
+    {
+      "owner": "wlzh",
+      "repo": "dji-4g-vohive-mac",
+      "fullName": "wlzh/dji-4g-vohive-mac",
+      "description": "在 Mac（Apple Silicon / Intel）上用 UTM 跑 Linux 虚拟机，把大疆 4G 模块（EG25-G）伪装成移远 Quectel EC25 并部署 vohive 平台的完整步骤",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-27T15:02:46Z",
+      "url": "https://github.com/wlzh/dji-4g-vohive-mac",
+      "analysis": {
+        "positioning": "Mac上用UTM，将大疆4G模块伪装成通用EC25，一键部署vohive平台。",
+        "useCases": [
+          "你想在Mac上用大疆4G模块跑vohive平台 → 它提供Mac上完整的部署路径，无需Linux真机。",
+          "你持有大疆4G模块但通用驱动不认 → 它教你永久修改模块USB身份为通用EC25，解决驱动识别问题。",
+          "你想管理多张SIM卡、eSIM、收发短信、代理网络 → 它帮你部署vohive一体化平台，实现这些功能。"
+        ],
+        "audience": "拥有Mac和大疆4G模块（1代），希望在本地部署vohive平台进行多卡管理、短信收发和网络代理的技术爱好者或开发者。",
+        "quickStart": {
+          "prerequisites": "Apple Silicon/Intel Mac，UTM虚拟机软件，大疆4G模块（1代，EG25-G），USB扩展坞（如果需要）。",
+          "steps": [
+            "根据Mac芯片选择对应Ubuntu Server ISO并用UTM创建虚拟机。",
+            "将大疆4G模块USB直通给虚拟机。",
+            "在虚拟机内执行AT指令，永久修改模块USB VID/PID为通用EC25。",
+            "运行vohive一键安装脚本部署平台。",
+            "通过浏览器或机器人访问并管理vohive后台。"
+          ],
+          "note": "Apple Silicon Mac使用ARM架构虚拟机，Intel Mac使用x86架构虚拟机，虚拟机内操作步骤一致。"
+        },
+        "competitors": [
+          {
+            "name": "OrbStack",
+            "method": "虚拟机/容器运行环境",
+            "models": "不支持任意USB设备直通，无法满足本项目需求",
+            "pricing": "免费（部分功能付费）"
+          },
+          {
+            "name": "Multipass",
+            "method": "虚拟机管理工具",
+            "models": "不支持任意USB设备直通，无法满足本项目需求",
+            "pricing": "免费"
+          },
+          {
+            "name": "Docker Desktop",
+            "method": "容器运行环境",
+            "models": "不支持任意USB设备直通，无法满足本项目需求",
+            "pricing": "免费（部分功能付费）"
+          }
+        ],
+        "pricing": "免费（基于UTM、Linux、vohive均为开源免费方案）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目解决了Mac用户使用特定硬件（大疆4G模块）部署特定平台（vohive）的痛点，通过详细的VM配置、USB直通、硬件ID修改等复杂步骤，提供了从零到一的完整且高质量的解决方案。技术细节扎实，针对性强，体现了深度实践和解决疑难问题的“极客”精神。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数293，Issue开启1个/关闭0个，说明项目有一定关注度，但问题解决或文档完善度较高，社区参与活跃度有待观察。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-06-30T05:49:50.290Z"
+    },
+    {
+      "owner": "diinki",
+      "repo": "linux-antiquity",
+      "fullName": "diinki/linux-antiquity",
+      "description": "A highly tasteful Linux-theme, reminiscent of art-nouveau and old drawings related to astronomy, science, and mythology.",
+      "language": "QML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-27T23:06:00Z",
+      "url": "https://github.com/diinki/linux-antiquity",
+      "analysis": {
+        "positioning": "艺术复古风Linux主题，高度定制化桌面美学",
+        "useCases": [
+          "你想要一个独特美观的Linux桌面 → 它帮你把系统界面换成艺术复古主题",
+          "你追求艺术风格的桌面体验 → 它以天文、科学、神话为灵感，呈现旧版画风格",
+          "你喜欢高度定制化系统外观 → 它提供丰富的可配置选项，让你的桌面独一无二"
+        ],
+        "audience": "追求个性化、艺术复古风格的Linux桌面用户，尤其是Hyprland桌面环境用户。",
+        "quickStart": {
+          "prerequisites": "Hyprland (>0.55), Hyprpaper, Quickshell (>0.3.0), Kitty, Nemo, Mako, jq, socat；推荐 nwg-look, dconf, dconf-editor。",
+          "steps": [
+            "安装所有必要依赖软件。",
+            "运行项目提供的安装脚本进行安装。",
+            "关注项目仓库，及时获取更新并安装最新版本。"
+          ],
+          "note": "当前版本（0.1）主要为概念验证的艺术项目，安装和使用需自担风险；代码尚未完全优化，性能非首要考量。"
+        },
+        "competitors": [
+          {
+            "name": "其他Linux桌面主题",
+            "method": "下载安装包，配置桌面环境应用",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目明确声明是“艺术项目”，初版重心在于概念验证而非性能优化，追求独特的艺术复古视觉风格，且使用QML实现，非常符合Vibe Coding的特点。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启1个，关闭0个，响应速度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-06-30T05:50:03.813Z"
+    },
+    {
+      "owner": "lycorp-jp",
+      "repo": "sim-use",
+      "fullName": "lycorp-jp/sim-use",
+      "description": "Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
+      "language": "Swift",
+      "topics": [
+        "accessibility",
+        "ai-agents",
+        "ai-development",
+        "android-emulator",
+        "ios-simulator",
+        "mobile-automation"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-26T05:59:56Z",
+      "url": "https://github.com/lycorp-jp/sim-use",
+      "analysis": {
+        "positioning": "赋予AI代理在移动模拟器/设备上观察与操作的能力",
+        "useCases": [
+          "你想让AI理解移动屏幕 → 它将屏幕转为高效文本大纲供LLM理解",
+          "你想让AI操作移动界面 → 它允许AI通过元素别名精准点击",
+          "你想让AI自动化测试移动应用 → 它让AI能验证应用构建并闭环开发流程"
+        ],
+        "audience": "移动应用开发者、AI Agent研究者，用于让AI自动化测试或操作移动应用",
+        "quickStart": {
+          "prerequisites": "安装有iOS模拟器或Android模拟器/设备的开发环境",
+          "steps": [
+            "sim-use ui 获取当前屏幕的可读元素大纲",
+            "sim-use tap @N 根据元素别名进行点击操作"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (Apache-2.0开源协议)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "为AI Agent在移动端提供了“眼睛”和“手”，以高效、跨平台的方式实现自动化观察与操作，极具创新性和实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚处于早期阶段，社区活跃度较低 (1个开放issue，0个已关闭)",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-30T05:50:20.810Z"
+    },
+    {
+      "owner": "fathah",
+      "repo": "hermes-desktop",
+      "fullName": "fathah/hermes-desktop",
+      "description": "Desktop Companion for Hermes Agent",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "autonomous-agents",
+        "chatbot",
+        "hermes",
+        "llm"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-02T15:26:49Z",
+      "url": "https://github.com/fathah/hermes-desktop",
+      "analysis": {
+        "positioning": "Hermes Agent桌面GUI，简化AI助手管理与交互。",
+        "useCases": [
+          "你厌倦CLI管理Hermes Agent → 它提供直观桌面GUI，一站式安装、配置、使用AI助手。",
+          "你想与Hermes Agent交流 → 它提供图形化界面进行聊天、会话、管理记忆与技能。",
+          "你希望AI助手实现跨平台消息通知 → 它支持设置消息网关，让AI助手多平台工作。"
+        ],
+        "audience": "希望通过图形界面轻松部署、配置和使用Hermes Agent的AI爱好者及开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 `hermesone.org` 或 GitHub Releases 下载对应平台的桌面应用。",
+            "启动应用，按照引导安装Hermes Agent并进行配置。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "高星、活跃开发、热门AI领域、现代技术栈。社区活跃，但Issue关闭率一般。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，大量Issue开启，但关闭率有提升空间。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-06-30T05:50:57.669Z"
     }
   ]
 }
