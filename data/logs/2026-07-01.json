@@ -1,0 +1,179 @@
+{
+  "version": "1",
+  "date": "2026-07-01",
+  "startedAt": "2026-07-01T06:06:54.299Z",
+  "finishedAt": "2026-07-01T06:15:02.746Z",
+  "durationSeconds": 488,
+  "success": true,
+  "stats": {
+    "fetched": 132,
+    "newProjects": 17,
+    "skipped": 115,
+    "geminiCalls": 35,
+    "statsUpdated": 132
+  },
+  "errors": [
+    {
+      "time": "2026-07-01T06:07:16.801Z",
+      "level": "warn",
+      "project": "zhujingqi/Twitter_Engagement_Tool",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:09:16.952Z",
+      "level": "warn",
+      "project": "zaidoonkamil/TikTok_Follower_Farm",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:09:54.029Z",
+      "level": "warn",
+      "project": "triangkas/Skyrim_Special_Edition_God_Mode",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:10:44.810Z",
+      "level": "warn",
+      "project": "Sac-tharan/The_Elder_Scrolls_Online_Auto-Farm",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:10:50.210Z",
+      "level": "warn",
+      "project": "MikoVelascoRamirez/Roblox_Adopt_Me_Pet_Farm",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:11:17.290Z",
+      "level": "warn",
+      "project": "serder8866/Universal_USB_Boot_Maker",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:11:21.097Z",
+      "level": "warn",
+      "project": "usaid-anxari/Roblox_Tower_Defense_Simulator_Auto-Farm",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:11:51.670Z",
+      "level": "warn",
+      "project": "piedraprog/Network_Scanner",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:11:55.058Z",
+      "level": "warn",
+      "project": "omarabdelazez11/Valorant_TriggerBot_Elite",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:12:13.907Z",
+      "level": "warn",
+      "project": "Rohim616/OneDrive_Sync_Tool",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:12:17.374Z",
+      "level": "warn",
+      "project": "Parth-Rana-333/Spider-Man_Remastered_Unlimited_Gadgets",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:12:20.849Z",
+      "level": "warn",
+      "project": "ahmedkuwity-source/Rainbow_Six_Siege_Wallhack___Aimbot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:12:24.297Z",
+      "level": "warn",
+      "project": "iamhmjayed/MEGA_Cloud_Bot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:12:27.835Z",
+      "level": "warn",
+      "project": "LoAy-Ashraf-744/The_Sims_4_Cheat_Engine",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:12:47.639Z",
+      "level": "warn",
+      "project": "99Ayush/iPhone_Backup_Tool",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:13:50.766Z",
+      "level": "warn",
+      "project": "flebonan/WeatherMaster",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:13:54.183Z",
+      "level": "warn",
+      "project": "ravsindong/Nim",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-01T06:13:57.636Z",
+      "level": "warn",
+      "project": "ik190/macos-chatgpt-overlay-bar",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
