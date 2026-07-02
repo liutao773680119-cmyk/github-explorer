@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-01T06:13:34.709Z",
+  "updatedAt": "2026-07-02T05:40:15.017Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -58563,6 +58563,816 @@
         "category": "CLI工具"
       },
       "analyzedAt": "2026-07-01T06:13:34.687Z"
+    },
+    {
+      "owner": "asz798838958",
+      "repo": "FrciblyK12",
+      "fullName": "asz798838958/FrciblyK12",
+      "description": "多线程全自动注册free 强上K12空间",
+      "language": "Python",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-02T03:47:34Z",
+      "url": "https://github.com/asz798838958/FrciblyK12",
+      "analysis": {
+        "positioning": "全自动批量注册与管理ChatGPT免费账号的Web面板。",
+        "useCases": [
+          "你需要大量ChatGPT免费账号进行测试或研究 → 它帮你全自动批量注册，支持配置数量、并发和身份。",
+          "你管理着现有ChatGPT免费账号 → 它提供Web面板集中查看列表、状态、邮箱和详情，并支持批量导出和复制。",
+          "你希望自动化账号注册后的流程 → 它能配置注册后自动加入工作区、导出结果，并支持集成邮箱、验证码、接码、代理等第三方服务。"
+        ],
+        "audience": "需要高效获取、管理和自动化ChatGPT免费账号的开发者、研究人员或个人用户。",
+        "quickStart": {
+          "prerequisites": "Docker Desktop (或 Docker Engine)",
+          "steps": [
+            "克隆项目仓库。",
+            "在项目根目录运行 `docker compose up -d --build` 启动服务。"
+          ],
+          "note": "部署到公网时，务必在 `.env` 文件中设置 `APP_PASSWORD` 访问密码；如需本地手动启动，请参照文档安装Python/Node.js依赖并分别启动前后端。"
+        },
+        "competitors": [
+          {
+            "name": "lxf746/any-auto-register",
+            "method": "插件化注册框架（本项目基于此进行二次开发）",
+            "models": "通用（非特定AI模型）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源项目，遵循AGPL-3.0许可协议）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名称和描述虽带有“强上”风格，暗示其目标明确且直接，但README内容组织清晰、技术栈成熟，功能实现完整，易于理解和部署。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue统计为零。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:34:53.915Z"
+    },
+    {
+      "owner": "Captureandencoder",
+      "repo": "Marvel-Rivals-Menu-2026",
+      "fullName": "Captureandencoder/Marvel-Rivals-Menu-2026",
+      "description": "🎯 Marvel-Rivals-Menu – gameplay enhancement menu for Marvel Rivals. Features visual assistance, aim support, protection, movement, and more. For educational purposes only.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-02T01:32:55Z",
+      "url": "https://github.com/Captureandencoder/Marvel-Rivals-Menu-2026",
+      "analysis": {
+        "positioning": "《漫威争锋》游戏辅助菜单，提供视觉、瞄准、保护及移动增强。",
+        "useCases": [
+          "你玩《漫威争锋》瞄不准敌人 → 它帮你自动瞄准，提升精准度。",
+          "你玩《漫威争锋》看不清敌人位置 → 它提供透视、距离显示，一目了然。",
+          "你玩《漫威争锋》总被打死或跑得慢 → 它让你无敌、无限资源，加速移动甚至飞行。"
+        ],
+        "audience": "寻求《漫威争锋》游戏内“增强体验”的玩家，但需承担账号被封禁风险。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), 已安装《漫威争锋》游戏，8GB RAM, DirectX 11兼容显卡。",
+          "steps": [
+            "下载并解压项目提供的压缩包。",
+            "以管理员身份运行 MarvelRivalsMenu.exe。",
+            "启动《漫威争锋》游戏，按 INSERT 或 F1 键打开菜单，开启所需功能。"
+          ],
+          "note": "该工具仅供教育目的，使用风险自担，可能导致游戏账号被封禁。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供强大的游戏辅助功能，可能严重破坏游戏公平性，虽声明“教育目的”，但实际用途风险极高，易导致账号封禁。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub上无任何Issue记录，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:35:05.461Z"
+    },
+    {
+      "owner": "codyg1997",
+      "repo": "Electrum-Fake-Balance",
+      "fullName": "codyg1997/Electrum-Fake-Balance",
+      "description": "Electrum Fake — Bitcoin wallet balance spoofing tool with real-time overlay for Electrum desktop client, custom BTC balance injection, transaction history forging, and screenshot-safe persistent display rendering",
+      "language": "Python",
+      "topics": [
+        "bch-wallet",
+        "bitcoin-electrum-wallet",
+        "bsv-electrum-wallet",
+        "crypto-wallet-simulator",
+        "desktop-wallet",
+        "electrum-cash",
+        "electrum-fake-balance",
+        "electrum-fork",
+        "electrum-redd-wallet",
+        "electrum-rxd-wallet",
+        "electrum-trc-wallet",
+        "electrum-wallet",
+        "electrum-wallet-ecash",
+        "electrum-wallet-everus",
+        "fake-balance-crypto",
+        "flash-eth-software",
+        "flash-free-demo",
+        "flasher-tool",
+        "okx-fake-balance",
+        "zcoin-electrum-wallet"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-02T01:42:55Z",
+      "url": "https://github.com/codyg1997/Electrum-Fake-Balance",
+      "analysis": {
+        "positioning": "针对Electrum钱包的虚拟余额显示工具，支持交易历史伪造和截图安全。",
+        "useCases": [
+          "你想向人展示巨额比特币余额 → 它帮你实时显示虚假高额余额，连截图都看不出破绽。",
+          "你在制作加密货币教学视频或演示文稿 → 它帮你便捷地注入自定义余额和交易历史，无需动用真钱。",
+          "你需要测试或模拟Electrum钱包在特定余额下的显示效果 → 它帮你轻松伪造余额状态，快速验证UI逻辑。"
+        ],
+        "audience": "寻求在Electrum钱包中伪造余额、交易历史的个人，常用于内容创作、教学演示或恶作剧。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+，已安装Electrum桌面客户端。",
+          "steps": [
+            "克隆项目到本地。",
+            "运行主程序，按提示操作以注入伪造余额和交易历史。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "技术上通过进程内存补丁、Qt信号拦截等方式实现对Electrum钱包界面的深度篡改，颇具极客精神。但其核心功能是伪造比特币余额和交易历史，具有严重的伦理和欺诈风险，应用场景敏感。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区完全空白，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:35:24.114Z"
+    },
+    {
+      "owner": "SeVipl8",
+      "repo": "Silent-Crypto-Miner",
+      "fullName": "SeVipl8/Silent-Crypto-Miner",
+      "description": "Silent Crypto Miner is an advanced cryptocurrency mining builder and runtime engine with multi-algorithm CPU/GPU support and intelligent resource management. Create custom mining executables with configurable algorithms, cross-platform output, real-time monitoring, session persistence, thermal throttling, scheduling, and hashrate optimization.",
+      "language": "Python",
+      "topics": [
+        "bitcoin-mining-tools",
+        "bitcoinminer",
+        "browser-mining",
+        "cpuminer",
+        "cryptomining",
+        "ethereum-classic",
+        "ethereumclassic",
+        "gpu-mining",
+        "gpumining",
+        "miner",
+        "miner-monitoring",
+        "mining",
+        "mining-os",
+        "mining-pool",
+        "mining-proxy",
+        "monero-mining",
+        "silentcryptominer",
+        "xmr",
+        "xmrig",
+        "zec"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-02T04:09:58Z",
+      "url": "https://github.com/SeVipl8/Silent-Crypto-Miner",
+      "analysis": {
+        "positioning": "高级加密货币挖矿构建器，支持多算法CPU/GPU挖矿及隐身管理。",
+        "useCases": [
+          "你希望高效挖取多种加密货币 → 它帮你构建自定义客户端，智能切换CPU/GPU算法并优化算力。",
+          "你希望挖矿程序隐蔽运行 → 它提供隐身模式、进程伪装、开机自启和热量限制，避免被察觉。",
+          "你需要灵活管理挖矿任务 → 它支持实时监控、会话持久化和定时调度，精细控制挖矿行为。"
+        ],
+        "audience": "适合寻求定制化、高效且具备隐身功能的加密货币挖矿解决方案的个人或组织。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "克隆项目仓库。",
+            "安装Python依赖。",
+            "运行构建器，创建自定义挖矿客户端。"
+          ],
+          "note": "生成的挖矿客户端支持Windows、Linux和macOS跨平台运行。"
+        },
+        "competitors": [],
+        "pricing": "免费，采用MIT开源许可。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目星标数低（30），且无任何Issue活动（0/0），表明社区关注度和活跃度极低，可能缺乏持续维护和支持。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue报告或交流。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:35:37.609Z"
+    },
+    {
+      "owner": "Xcanex",
+      "repo": "Lunar-Discord-Tool-X1",
+      "fullName": "Xcanex/Lunar-Discord-Tool-X1",
+      "description": "We offer top-tier premium tools for free. You can get them by joining our Discord server via the links for Roblox, Discord, or Telegram; in exchange for a server boost, you gain access to all the tools shown in the image and many others.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-02T03:06:11Z",
+      "url": "https://github.com/Xcanex/Lunar-Discord-Tool-X1",
+      "analysis": {
+        "positioning": "Roblox/Discord/Telegram自动化平台，助力解锁高级工具。",
+        "useCases": [
+          "你管理多个Roblox账号 → 它帮你自动化游戏操作或账号管理。",
+          "你运营Discord社群 → 它帮你自动化消息发送、成员管理等任务。",
+          "你使用Telegram进行特定操作 → 它帮你实现消息转发、机器人控制等自动化流程。"
+        ],
+        "audience": "希望在Roblox、Discord或Telegram上实现自动化操作的用户，需Windows平台支持。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统, Python 3.11",
+          "steps": [
+            "加入项目的Discord服务器。",
+            "通过Discord服务器助力（Boost）来解锁支持者权限。",
+            "在Discord服务器中获取最新的Lunar发布版本并下载。",
+            "启动Lunar即可使用。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，但需通过Discord服务器助力（Boost）获取访问权限。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目号称提供自动化工具，但核心代码未公开，语言和许可证未知。需Discord助力才能获取，GitHub仓库更像宣传入口而非开放开发，开源氛围不浓。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低（0/0），社区主要在Discord，GitHub仓库更侧重宣传和引导。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:35:51.629Z"
+    },
+    {
+      "owner": "agentasiexperiment",
+      "repo": "ASI",
+      "fullName": "agentasiexperiment/ASI",
+      "description": "ASI — artificial super intelligence runtime on Fable 5",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-02T01:34:53Z",
+      "url": "https://github.com/agentasiexperiment/ASI",
+      "analysis": {
+        "positioning": "部署运行Fable 5超智能，驱动自主决策与支付。",
+        "useCases": [
+          "你需要AI自主决策和支付 → 它在达到超级智能阈值后，无需人工审批即可动用Solana资金，支付API等资源费用。",
+          "你需要AI智能调用外部API和资源 → 它能通过x402协议自动结算API费用，执行复杂任务。",
+          "你需要AI控制物理设备 → 它提供机器人桥接，让超智能AI直接控制物理世界的执行器。"
+        ],
+        "audience": "探索ASI（超智能）前沿、构建高度自主AI Agent的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境，并具备Fable 5推理层API访问权限。",
+          "steps": [
+            "git clone https://github.com/agentasiexperiment/ASI.git",
+            "cd ASI && npm install",
+            "配置.env文件，提供Fable 5 API地址和Solana钱包信息。",
+            "运行项目（具体启动命令需参考项目脚本，通常为 npm start/run dev 或 ts-node src/main.ts 等）。"
+          ],
+          "note": "Fable 5 推理层并非开源且为核心依赖，需另行获取。"
+        },
+        "competitors": [],
+        "pricing": "代码遵循MIT许可免费，但核心依赖Fable 5推理层（非开源）及Solana链上实际交易需付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "概念大胆、技术前沿，旨在实现超智能AI的自主运行与决策，但项目活跃度极低（11 Star，0 Issue），且高度依赖非公开的Fable 5推理层，实际可用性和可验证性存疑，更像是研究性概念验证或内部实验成果展示。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，基本处于未活跃状态。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-02T05:36:10.578Z"
+    },
+    {
+      "owner": "mekos2772",
+      "repo": "ios-location-spoofer",
+      "fullName": "mekos2772/ios-location-spoofer",
+      "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-06-30T11:20:30Z",
+      "url": "https://github.com/mekos2772/ios-location-spoofer",
+      "analysis": {
+        "positioning": "iOS免越狱虚拟定位工具，通过代理修改地图数据。",
+        "useCases": [
+          "你想要在社交媒体上显示异地打卡 → 它帮你模拟身处世界任何角落。",
+          "你需要在特定区域解锁应用功能或内容 → 它帮你绕过地理限制。",
+          "你不想透露真实位置但又必须开启定位 → 它帮你隐藏真实行踪。"
+        ],
+        "audience": "需要免越狱在iOS设备上虚拟定位的用户，尤其是已在使用Shadowrocket、Surge等代理工具的用户。",
+        "quickStart": {
+          "prerequisites": "已安装支持HTTPS解密/MITM的代理软件（如Shadowrocket, Surge, Loon, Stash, Quantumult X）",
+          "steps": [
+            "在代理软件中开启HTTPS解密/MITM并信任CA证书。",
+            "导入对应平台的定位修改模块并启用。",
+            "重新连接VPN，并开关iOS定位服务。",
+            "打开地图App验证定位是否生效。"
+          ],
+          "note": "Loon用户可在插件UI直接填写经纬度或地址，并需额外确认MITM域名配置和Prepare脚本启用。"
+        },
+        "competitors": [
+          {
+            "name": "acheong08/ios-location-spoofer",
+            "method": "独立Go App，自建VPN+MITM",
+            "models": "只支持WiFi热点坐标修改",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "项目本身及核心功能免费，可选择性部署免费的Cloudflare Worker或自建Node服务以获得网页选点高级功能。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目创意独特，巧妙利用现有代理工具实现免越狱虚拟定位，功能丰富且文档详尽（含保姆级教程）。虽然Issue关闭率为0，但提供了详细排查指南并鼓励社区贡献。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数量不多但均未关闭，项目方鼓励用户报告问题和提交PR，表明有一定活跃度，但响应速度需观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:36:30.695Z"
+    },
+    {
+      "owner": "Kulaxyz",
+      "repo": "self-learning-skills",
+      "fullName": "Kulaxyz/self-learning-skills",
+      "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-28T19:30:36Z",
+      "url": "https://github.com/Kulaxyz/self-learning-skills",
+      "analysis": {
+        "positioning": "AI编程智能体自学习技能，捕获并复用经验知识。",
+        "useCases": [
+          "你费力调试找到关键配置或命令 → 它帮你将这些“黄金路径”存储为可复用技能。",
+          "你遇到重复性操作（如部署命令、DB连接方式） → 它让你的智能体记住步骤，下次自动加载。",
+          "你多次尝试并失败后才找到解决方案 → 它记录失败路径，智能体下次可避免重蹈覆辙。"
+        ],
+        "audience": "使用Claude Code、Cursor等AI编程助手的开发者，以及希望提升智能体工作效率的Prompt工程师。",
+        "quickStart": {
+          "prerequisites": "npx 或已安装 skills CLI",
+          "steps": [
+            "npx skills add kulaxyz/self-learning-skills"
+          ],
+          "note": "可选择指定安装到全局（-g）或特定智能体（-a claude-code），或作为Claude Code插件安装，也可手动复制文件。"
+        },
+        "competitors": [],
+        "pricing": "MIT License，完全免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "智能体不再“健忘”，每次都能从上次的经验中学习，避免反复踩坑和重复劳动，显著提升开发流程的顺畅度和效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 1开/0关，社区活跃度较低，项目可能较新或处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-02T05:36:42.739Z"
+    },
+    {
+      "owner": "aquace",
+      "repo": "CVE-2026-41940-PoC",
+      "fullName": "aquace/CVE-2026-41940-PoC",
+      "description": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+      "language": "Python",
+      "topics": [
+        "cpanel",
+        "cve",
+        "cve-2026-41940",
+        "cve-2026-41940-poc"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-06-28T07:13:52Z",
+      "url": "https://github.com/aquace/CVE-2026-41940-PoC",
+      "analysis": {
+        "positioning": "cPanel/WHM CVE-2026-41940认证绕过漏洞PoC工具",
+        "useCases": [
+          "你有一个cPanel服务器列表 → 它帮你批量扫描并识别存在CVE-2026-41940漏洞的服务器。",
+          "你想验证某个cPanel服务器是否存在漏洞 → 它帮你利用CVE-2026-41940漏洞获取root权限。",
+          "你已获得服务器root权限 → 它帮你执行系统命令、管理账户、修改密码等后渗透操作。"
+        ],
+        "audience": "适用于安全研究员、渗透测试工程师和漏洞赏金猎人，用于教育学习、授权渗透测试或漏洞验证。",
+        "quickStart": {
+          "prerequisites": "Python环境，Git",
+          "steps": [
+            "git clone https://github.com/aquace/CVE-2026-41940-PoC",
+            "cd CVE-2026-41940-PoC",
+            "python exp.py -u https://target1.com:2083"
+          ],
+          "note": "在Windows上使用`python exp.py`，在MacOS/Linux上使用`python3 exp.py`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码结构清晰，文档详尽，提供了安装、使用、扫描、利用及后渗透的完整流程和具体命令示例，易于上手和理解。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活动，可能开发者或用户主要通过其他渠道交流。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-02T05:36:55.150Z"
+    },
+    {
+      "owner": "Leron-X",
+      "repo": "leronx",
+      "fullName": "Leron-X/leronx",
+      "description": "LeronX — AI Image & Video Generation Platform",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T08:05:42Z",
+      "url": "https://github.com/Leron-X/leronx",
+      "analysis": {
+        "positioning": "模块化的开源AI视频生成引擎，将文本提示转化为完整视频。",
+        "useCases": [
+          "你想用AI批量生成视频内容 → 它帮你自动化脚本、场景规划、渲染和后期制作。",
+          "你想自定义AI视频生成流程 → 它提供模块化管道和插件系统，任你扩展。",
+          "你想将文本转换为多语言、带情感的配音视频 → 它帮你实现AI驱动的语音合成和字幕对齐。"
+        ],
+        "audience": "适合需要构建或扩展AI视频生成能力的开发者、技术团队和内容自动化平台。",
+        "quickStart": {
+          "prerequisites": "python >= 3.10, ffmpeg >= 5.0",
+          "steps": [
+            "git clone https://github.com/leronx/leronx-engine.git",
+            "cd leronx-engine",
+            "pip install -e \".[dev]\""
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "RunwayML (Pro)",
+            "method": "SaaS平台，网页操作",
+            "models": "Gen-1, Gen-2等多种AI模型",
+            "pricing": "付费为主，部分免费试用"
+          },
+          {
+            "name": "HeyGen (Pro)",
+            "method": "SaaS平台，网页操作",
+            "models": "基于AI数字人、TTS等模型",
+            "pricing": "付费为主，部分免费试用"
+          }
+        ],
+        "pricing": "核心引擎开源免费，完整SaaS平台LeronX Pro为付费服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，模块化设计良好，MIT许可，且提供详细功能列表和架构说明。Python生态友好，Star数适中。然而，Issue统计0/0表明社区活跃度或互动仍在初期阶段，可能是新项目或内部管理严格。作为核心引擎，与SaaS的区分明确，具备应用潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计0/0，表明社区活跃度或公开互动目前较低。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-02T05:37:21.608Z"
+    },
+    {
+      "owner": "tryOpenRAM",
+      "repo": "OpenRAM",
+      "fullName": "tryOpenRAM/OpenRAM",
+      "description": "Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+      "language": "Vue",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-26T22:59:46Z",
+      "url": "https://github.com/tryOpenRAM/OpenRAM",
+      "analysis": {
+        "positioning": "Solana原生AI算力与模型市场，无门槛支付与访问。",
+        "useCases": [
+          "你需要GPU算力 → 它让你通过SOL租用Vast.ai的GPU，按小时计费，无需传统支付。",
+          "你想调用多种AI模型 → 它提供统一API，帮你访问139+开源及前沿模型，一个密钥搞定。",
+          "你有多余算力或AI API想变现 → 它让你在Solana链上发布并获得SOL收入。"
+        ],
+        "audience": "AI开发者、研究员、初创公司以及有闲置算力者，寻求去中心化、无传统KYC/支付障碍的AI计算与模型解决方案。",
+        "quickStart": {
+          "prerequisites": "Solana钱包（如Phantom）、SOL代币",
+          "steps": [
+            "连接Solana钱包。",
+            "支付SOL购买所需GPU算力或模型访问权限。",
+            "获取算力使用凭证或API密钥。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统云GPU服务商 (如Runpod, Lambda Labs)",
+            "method": "需注册账户，信用卡支付，KYC",
+            "models": "用户自行部署",
+            "pricing": "付费"
+          },
+          {
+            "name": "主流AI模型API (如OpenAI, Anthropic)",
+            "method": "需注册账户，信用卡支付，KYC",
+            "models": "平台自有或精选模型",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "付费。按需使用，以SOL代币在Solana链上直接支付。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念独特，描述清晰，技术栈现代化（Vue/Next.js/TypeScript）。但GitHub Issue统计显示目前社区活跃度较低，可能产品刚上线或主要以服务为主导。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue为空，表明目前项目主要侧重服务提供，或社区反馈尚未通过GitHub Issue体现。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-02T05:37:46.968Z"
+    },
+    {
+      "owner": "kui123456789",
+      "repo": "cdk-redeem-only-extension",
+      "fullName": "kui123456789/cdk-redeem-only-extension",
+      "description": "UPI redeem only extension",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-27T15:00:12Z",
+      "url": "https://github.com/kui123456789/cdk-redeem-only-extension",
+      "analysis": {
+        "positioning": "全自动ChatGPT账号注册与CDK兑换Chrome扩展",
+        "useCases": [
+          "你批量注册ChatGPT账号 → 它帮你自动完成邮箱注册、验证、密码设置与2FA开通。",
+          "你批量管理ChatGPT账号并兑换CDK → 它帮你导入账号、识别Free/Plus组、一键兑换CDK。",
+          "你需监控CDK兑换状态 → 它帮你自动确认兑换成功并移动账号到Plus组。"
+        ],
+        "audience": "适合需要批量注册、管理ChatGPT账号及兑换CDK的代理商或个人开发者。",
+        "quickStart": {
+          "prerequisites": "需提供后端`UPI Key`",
+          "steps": [
+            "打开Chrome `chrome://extensions/`，开启开发者模式。",
+            "点击“加载已解压的扩展程序”，选择项目目录。",
+            "在侧栏配置`UPI Key`、`CDK池`及`兑换轮数`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "扩展本身免费开源（MIT协议），核心功能依赖需配置的后端`UPI Key`，可能涉及后端服务费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，专注于ChatGPT账号注册和CDK兑换自动化，针对特定需求提供了详细的功能和教程，但受限于特定后端API，通用性不强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有1个开启Issue，无已关闭Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:38:02.154Z"
+    },
+    {
+      "owner": "Narankhuu1",
+      "repo": "Audio_Normalizer",
+      "fullName": "Narankhuu1/Audio_Normalizer",
+      "description": "Normalize audio volume across multiple files to the same level. Reduce loudness variation for albums or playlists.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:11:07Z",
+      "url": "https://github.com/Narankhuu1/Audio_Normalizer",
+      "analysis": {
+        "positioning": "批量统一音频音量，告别播放忽大忽小。",
+        "useCases": [
+          "你下载了多首歌曲音量不一 → 它帮你将所有歌曲音量调到一致。",
+          "你想制作一张专辑或播放列表 → 它帮你避免歌曲间音量差异，提供流畅听感。",
+          "你追求一致的听觉体验 → 它帮你精确控制音量，提升播放质量。"
+        ],
+        "audience": "音乐爱好者、DJ、内容创作者，需要批量调整音频音量以获得一致播放体验。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64‑bit)。请注意：提供的下载包需密码解压。",
+          "steps": [
+            "点击下载按钮（`Download Now`）下载压缩包。",
+            "使用密码 `trainer2026` 解压ZIP文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用程序并等待加载。",
+            "按 `INSERT` 或 `F1` 打开'trainer菜单'并启用功能。"
+          ],
+          "note": "警告：项目描述为音频标准化工具，但其下载链接、安装步骤及运行文件（`trainer.exe`）明确指向一个游戏修改器或类似的'trainer'程序，需要密码解压和管理员权限运行，与音频工具功能严重不符。此行为高度可疑，不建议执行这些步骤，请谨慎对待。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目名和描述声称是音频标准化工具，但其下载链接、安装步骤及运行文件（`trainer.exe`）均指向一个需要密码解压、以管理员权限运行且提及'trainer菜单'、'激活键'和'目标软件'的程序。这种描述与实际安装流程严重脱节，且行为特征高度符合恶意软件或捆绑安装程序的模式。零Issue和Windows平台限制也加剧了其可疑性。强烈建议用户提高警惕，避免下载和运行。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 为零可能因其真实用途并非普通开源项目。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:38:19.004Z"
+    },
+    {
+      "owner": "bao123455",
+      "repo": "Blox_Fruits_-_Auto_Farm___Raid_Script",
+      "fullName": "bao123455/Blox_Fruits_-_Auto_Farm___Raid_Script",
+      "description": "The ultimate auto-farm and raid script for Blox Fruits, the anime-inspired action RPG with 62+ billion visits[reference:9]. Inspired by One Piece, this trainer offers deep progression, auto-farming, and boss hunting.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:12:04Z",
+      "url": "https://github.com/bao123455/Blox_Fruits_-_Auto_Farm___Raid_Script",
+      "analysis": {
+        "positioning": "《Blox Fruits》自动刷怪、突袭与辅助脚本。",
+        "useCases": [
+          "你想肝《Blox Fruits》的等级和资源 → 它帮你自动刷怪、完成任务。",
+          "你想快速获取游戏内碎片 → 它帮你自动完成突袭。",
+          "你想轻松发现并击败Boss或瞬移 → 它帮你显示Boss位置，实现任意传送。"
+        ],
+        "audience": "《Blox Fruits》玩家，寻求游戏内经验、资源自动化获取及便捷操作的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)",
+          "steps": [
+            "点击下载按钮下载压缩包并用密码 `trainer2026` 解压。",
+            "以管理员身份运行 `trainer.exe`，启动游戏，然后按 `INSERT` 或 `F1` 键打开菜单。"
+          ],
+          "note": "仅支持Windows系统。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "作为游戏辅助工具，核心目标是功能实现而非代码的架构优雅性或长期可维护性。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue区无任何活动，社区互动度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:38:29.892Z"
+    },
+    {
+      "owner": "Vibhav11Krishna",
+      "repo": "Application_Uninstaller_Pro",
+      "fullName": "Vibhav11Krishna/Application_Uninstaller_Pro",
+      "description": "Uninstall applications completely, including leftover files and registry entries. Remove stubborn software.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:11:06Z",
+      "url": "https://github.com/Vibhav11Krishna/Application_Uninstaller_Pro",
+      "analysis": {
+        "positioning": "彻底卸载Windows应用，清除残留文件和注册表，解决顽固软件卸载难题。",
+        "useCases": [
+          "你想彻底删除一个旧应用 → 它帮你一键清理所有残留文件和注册表。",
+          "你有多个软件要卸载 → 它帮你批量处理，省去逐个操作的麻烦。",
+          "某个流氓软件卸不掉 → 它帮你强制移除，解决顽固程序困扰。"
+        ],
+        "audience": "适用于所有Windows 10/11用户，尤其是追求系统干净、需要彻底卸载软件和清理残留的个人用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), 管理员权限。",
+          "steps": [
+            "下载压缩包并用密码`trainer2026`解压。",
+            "以管理员身份运行`trainer.exe`。",
+            "启动应用，按`INSERT`或`F1`打开菜单使用功能。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Revo Uninstaller",
+            "method": "安装监控、深度扫描残留",
+            "models": "Windows应用",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "Geek Uninstaller",
+            "method": "快速扫描、强制卸载",
+            "models": "Windows应用",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费，MIT许可。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目功能描述吸引人，但下载和运行方式（需要密码解压名为`trainer.exe`的可执行文件，且操作指引提及“trainer menu”）高度可疑，与普通卸载工具的发布方式不符，存在潜在安全风险。一个Python项目直接提供Windows可执行文件，且Issue活跃度为零，需谨慎评估。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue开启或关闭记录，用户互动不明确。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:38:44.600Z"
+    },
+    {
+      "owner": "montez27albert-collab",
+      "repo": "Arsenal_-_Aimbot___ESP",
+      "fullName": "montez27albert-collab/Arsenal_-_Aimbot___ESP",
+      "description": "Aimbot and ESP for Arsenal, the fast-paced FPS with 6.2 billion visits[reference:28]. Dominate every match with perfect aim, wallhacks, and no recoil.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:11:06Z",
+      "url": "https://github.com/montez27albert-collab/Arsenal_-_Aimbot___ESP",
+      "analysis": {
+        "positioning": "Arsenal FPS游戏辅助，提供自瞄、透视和无后座力功能。",
+        "useCases": [
+          "你玩Arsenal FPS游戏 → 它帮你精准打击敌人，获得优势。",
+          "你玩Arsenal FPS游戏 → 它帮你洞察敌情，掌握战场动态。",
+          "你玩Arsenal FPS游戏 → 它帮你消除武器后坐力，射击更稳定。"
+        ],
+        "audience": "希望在Windows 10/11系统上通过作弊在Arsenal游戏中取得压倒性优势的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)",
+          "steps": [
+            "点击下载链接获取压缩包。",
+            "使用密码`trainer2026`解压ZIP文件。",
+            "以管理员身份运行`trainer.exe`。",
+            "启动Arsenal游戏，等待加载。",
+            "按`INSERT`或`F1`打开辅助菜单并启用所需功能。"
+          ],
+          "note": "运行前可能需要临时禁用杀毒软件。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个游戏作弊工具，违反游戏服务条款，可能导致账号封禁，且存在潜在安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示0开0关，表明社区活跃度低或项目不接受公开Bug反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:39:08.680Z"
+    },
+    {
+      "owner": "vidhitam",
+      "repo": "Data_Recovery",
+      "fullName": "vidhitam/Data_Recovery",
+      "description": "Recover accidentally deleted files from HDD, SSD, USB, and memory cards. Quick and deep scan modes.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:13:42Z",
+      "url": "https://github.com/vidhitam/Data_Recovery",
+      "analysis": {
+        "positioning": "Windows平台误删文件恢复工具，支持多介质快速深度扫描。",
+        "useCases": [
+          "你不小心删除了硬盘、固态硬盘、U盘或存储卡上的文件 → 它帮你通过快速扫描找回。",
+          "你误格式化了驱动器，丢失了重要数据 → 它帮你通过深度扫描尝试恢复。",
+          "你不小心丢失了某个分区 → 它帮你恢复丢失的分区，并导出文件。"
+        ],
+        "audience": "Windows 10/11用户，需要恢复各类存储介质（HDD/SSD/USB/存储卡）中误删、格式化或丢失分区的文件。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 操作系统。",
+          "steps": [
+            "点击下载链接下载压缩包。",
+            "使用密码 `trainer2026` 解压 ZIP 文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用程序并等待加载。",
+            "按 `INSERT` 或 `F1` 键打开“trainer menu”并启用功能。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目星标数低，无任何Issue活动，社区活跃度极低。最主要的问题是，其下载和安装方式（通过一个名为 `trainer.exe` 的可执行文件，需要解压密码 `trainer2026`，并从非官方渠道下载）非常可疑，与常见的数据恢复工具或正规开源项目格格不入，更像是游戏修改器或潜在的恶意软件分发方式，存在严重的安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何社区活动（0 open / 0 closed issues）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:39:22.184Z"
+    },
+    {
+      "owner": "rjsdl56",
+      "repo": "All_Star_Tower_Defense_-_Auto-Place___Auto-Farm",
+      "fullName": "rjsdl56/All_Star_Tower_Defense_-_Auto-Place___Auto-Farm",
+      "description": "Auto-place and auto-farm for All Star Tower Defense, the anime tower defense game with 7.8 billion visits[reference:26]. Automatically place and upgrade towers, farm gems, and beat every wave.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:11:05Z",
+      "url": "https://github.com/rjsdl56/All_Star_Tower_Defense_-_Auto-Place___Auto-Farm",
+      "analysis": {
+        "positioning": "为《全明星塔防》提供自动放置、自动农场功能，让你轻松挂机。",
+        "useCases": [
+          "你想在《全明星塔防》中快速升级塔防 → 它帮你自动策略性放置和升级塔防。",
+          "你想在《全明星塔防》中获取大量宝石 → 它帮你自动挂机农场宝石。",
+          "你不想频繁操作《全明星塔防》 → 它帮你跳过波次、去除技能冷却，并防止挂机被踢。"
+        ],
+        "audience": "《全明星塔防》玩家，希望通过自动化工具轻松获取游戏资源、快速推进游戏进度。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统，并能运行Roblox游戏《全明星塔防》",
+          "steps": [
+            "点击下载链接获取压缩包，并使用密码 `trainer2026` 解压。",
+            "以管理员身份运行 `trainer.exe`，启动游戏，然后按 `INSERT` 或 `F1` 键打开菜单启用功能。"
+          ],
+          "note": "仅支持Windows 10/11操作系统。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个游戏作弊/修改器工具（trainer），通过自动化和绕过游戏机制（如无冷却、自动农场）来获取游戏内优势。这类工具在游戏社区中通常不被认可，可能存在账号封禁风险。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示无开启也无关闭，社区互动度较低或未在GitHub上体现。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-02T05:39:32.570Z"
+    },
+    {
+      "owner": "microsoft",
+      "repo": "SkillOpt",
+      "fullName": "microsoft/SkillOpt",
+      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "self-evolving-agents"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-08T06:41:01Z",
+      "url": "https://github.com/microsoft/SkillOpt",
+      "analysis": {
+        "positioning": "针对冻结LLM Agent，自动化训练可复用自然语言技能的优化器。",
+        "useCases": [
+          "你想让LLM Agent更智能地完成复杂任务 → 它帮你自动化训练并优化可复用的自然语言技能，无需微调底层模型。",
+          "你希望本地AI编程助手（如Copilot）自我进化 → 它能夜间离线复盘、重放任务，自动巩固和更新Agent技能。",
+          "你正在构建LLM Agent应用或评测框架 → 它提供成熟的技能训练、验证与部署机制，简化开发与优化流程。"
+        ],
+        "audience": "LLM Agent开发者、研究者及需要提升Agent自动化能力的工程师，特别适合构建智能编码助手或多步骤任务执行系统。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "pip install skillopt",
+            "参考官方文档进行配置、数据准备和训练/评估"
+          ],
+          "note": "支持OpenAI、Azure、Claude、Qwen、MiniMax等多种LLM后端。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "微软出品，Star数过万，社区活跃度高。创新性强，解决冻结LLM Agent技能自动化训练难题，提供类神经网络训练范式。文档、视频、论文齐全，PyPI易于安装，且已有多项目集成，成熟度极高。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃，Issue解决效率高（关闭数远超开启数），且不断有新功能和外部集成。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-02T05:40:15.002Z"
     }
   ]
 }
