@@ -1,0 +1,89 @@
+{
+  "version": "1",
+  "date": "2026-07-03",
+  "startedAt": "2026-07-03T05:30:46.827Z",
+  "finishedAt": "2026-07-03T05:35:59.745Z",
+  "durationSeconds": 313,
+  "success": true,
+  "stats": {
+    "fetched": 110,
+    "newProjects": 14,
+    "skipped": 96,
+    "geminiCalls": 22,
+    "statsUpdated": 110
+  },
+  "errors": [
+    {
+      "time": "2026-07-03T05:32:28.050Z",
+      "level": "warn",
+      "project": "JasonLiu0826/ackem",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-03T05:32:31.633Z",
+      "level": "warn",
+      "project": "Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-03T05:32:35.936Z",
+      "level": "warn",
+      "project": "lingbol088-spec/reverse-flow-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-03T05:32:40.903Z",
+      "level": "warn",
+      "project": "spiritov/ds.css",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-03T05:32:45.310Z",
+      "level": "warn",
+      "project": "smileyprathu/Color_Picker",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-03T05:32:48.407Z",
+      "level": "warn",
+      "project": "JokiTsien/App_Store_Play_Store_Review_Bot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-03T05:32:51.982Z",
+      "level": "warn",
+      "project": "CaptainCodex/Among_Us_Ghost_Mode",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-03T05:35:37.599Z",
+      "level": "warn",
+      "project": "palmier-io/palmier-pro",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

