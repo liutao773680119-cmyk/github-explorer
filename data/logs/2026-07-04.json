@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "date": "2026-07-04",
+  "startedAt": "2026-07-04T05:24:09.435Z",
+  "finishedAt": "2026-07-04T05:30:44.228Z",
+  "durationSeconds": 395,
+  "success": true,
+  "stats": {
+    "fetched": 106,
+    "newProjects": 21,
+    "skipped": 85,
+    "geminiCalls": 25,
+    "statsUpdated": 106
+  },
+  "errors": [
+    {
+      "time": "2026-07-04T05:29:19.951Z",
+      "level": "warn",
+      "project": "SuperJJ007/CSSwitch",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-04T05:29:33.637Z",
+      "level": "warn",
+      "project": "akihitohyh/chatgpt-register-sub2api",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-04T05:29:36.850Z",
+      "level": "warn",
+      "project": "haiou-666/haiou2.0-Claude-Code-",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-04T05:29:59.644Z",
+      "level": "warn",
+      "project": "palmier-io/palmier-pro",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

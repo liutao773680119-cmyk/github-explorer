@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-03T05:35:34.263Z",
+  "updatedAt": "2026-07-04T05:30:15.256Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -59986,6 +59986,1039 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-03T05:35:34.237Z"
+    },
+    {
+      "owner": "lxh77721",
+      "repo": "k12-reg",
+      "fullName": "lxh77721/k12-reg",
+      "description": "多线程全自动注册free 强上K12空间 gmail版",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-04T01:47:38Z",
+      "url": "https://github.com/lxh77721/k12-reg",
+      "analysis": {
+        "positioning": "K12/GPT账号注册与Sub2API自动化管理控制台",
+        "useCases": [
+          "你需批量注册K12账号 → 它全自动多线程完成注册、加入K12空间并获取AT。",
+          "你管理大量邮箱用于验证 → 它提供邮箱池管理和动态Gmail接码，简化验证流程。",
+          "你需要将新账号快速接入Sub2API系统 → 它自动化OAuth/noRT入库、账号测活及AT修复。"
+        ],
+        "audience": "面向需要大规模自动化注册、管理GPT/K12账号并对接API服务的技术用户或运营团队。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+ (建议22+), npm 10+, 可访问相关服务的网络环境, 可选HTTP/SOCKS代理。",
+          "steps": [
+            "`npm install` && `npm run dev` 启动服务。",
+            "访问Web控制台，点击「设置」填写配置。",
+            "按需导入邮箱池或启用动态接码，设置任务选项后启动。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动注册流程",
+            "method": "人工浏览器操作，逐一注册验证",
+            "models": "N/A",
+            "pricing": "免费(人力成本)"
+          },
+          {
+            "name": "自定义自动化脚本",
+            "method": "基于Puppeteer/Playwright等自行开发脚本",
+            "models": "N/A",
+            "pricing": "免费(开发成本)"
+          }
+        ],
+        "pricing": "免费开源 (MIT协议)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目采用TypeScript和Node.js开发，通过npm进行安装启动，提供Web控制台及API服务，涉及OAuth、AT等技术细节，适合具备前端/后端开发背景或DevOps经验的技术用户。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示0开0闭，目前公开社区活跃度较低。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-04T05:24:29.948Z"
+    },
+    {
+      "owner": "HUANGCHIHHUNGLeo",
+      "repo": "claude-real-video",
+      "fullName": "HUANGCHIHHUNGLeo/claude-real-video",
+      "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-30T10:55:02Z",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "analysis": {
+        "positioning": "让任何LLM真正“看懂”视频，本地智能提取关键帧与文字。",
+        "useCases": [
+          "你上传视频给LLM进行分析 → 它帮你自动剔除重复帧，精准识别场景变化，并提取对应文字，让LLM高效理解视频。",
+          "你希望Claude Code能直接处理视频链接 → 它能作为Claude技能，让Claude自主“观看”视频并回答问题。",
+          "你需要从视频中快速获取特定信息并保存 → 它能根据你的“Why”意图，聚焦分析视频内容，并将结果归档到你的知识库。"
+        ],
+        "audience": "面向需要深度分析视频内容或将视频整合到LLM工作流的开发者、研究人员及内容创作者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "pip install claude-real-video",
+            "crv \"https://www.youtube.com/watch?v=...\""
+          ],
+          "note": "运行后会在`crv-out/`目录生成关键帧图片、文字转录和清单文件，可直接用于Claude/ChatGPT/Gemini等LLM。"
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT",
+            "method": "粘贴YouTube链接，只阅读视频文字转录",
+            "models": "ChatGPT (GPT系列)",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "Gemini (原生视频解读)",
+            "method": "上传视频至Google云端，以固定间隔（如1 fps）采样帧",
+            "models": "Gemini",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "传统视频帧提取工具",
+            "method": "按固定时间间隔（如每秒1帧）提取视频帧，易漏掉快速切换场景或重复帧过多",
+            "models": "null",
+            "pricing": "免费/各类软件功能"
+          }
+        ],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目巧妙解决了LLM无法高效、精准“看懂”视频的痛点。通过本地智能帧提取（场景感知+去重）及文字转录，大幅提升LLM理解视频的能力，并且可集成到Claude Code等AI工具链中，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动较少，当前开启和关闭的Issue均为0。项目可能较新或维护良好。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-04T05:24:50.933Z"
+    },
+    {
+      "owner": "xuchonglang",
+      "repo": "investing-for-beginners",
+      "fullName": "xuchonglang/investing-for-beginners",
+      "description": "小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架",
+      "language": "Unknown",
+      "topics": [
+        "chinese",
+        "cryptocurrency",
+        "investing",
+        "options",
+        "xiaoyinsi"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-03T03:56:00Z",
+      "url": "https://github.com/xuchonglang/investing-for-beginners",
+      "analysis": {
+        "positioning": "面向中文投资者的美股、期权、加密货币入门知识框架。",
+        "useCases": [
+          "你对投资一无所知 → 它帮你构建美股、期权、加密货币的完整知识框架。",
+          "你担心被投资骗局蒙蔽 → 它帮你识别杠杆、钓鱼、链上攻击等常见风险。",
+          "你需要快速理解金融术语 → 它提供精简词条助你入门，并指引深度学习。"
+        ],
+        "audience": "适合零基础、无金融背景的中文投资者，旨在建立美股、期权和加密货币的投资认知。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目README或小隐寺官网。",
+            "根据目录选择感兴趣的投资主题（美股、期权、加密货币）开始学习。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "雪球/富途牛牛等投资社区百科",
+            "method": "在线阅读、社区问答",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "财经媒体/券商投资入门课程",
+            "method": "观看视频、阅读专题",
+            "models": "N/A",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "完全免费，开放的投资知识指南。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "该项目主要作为结构化的投资知识文档仓库，不涉及代码编写或交互功能，主要价值在于内容的组织和呈现。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue区暂无活动，但500+ Star数表明项目内容受到广泛关注和认可。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-04T05:25:07.601Z"
+    },
+    {
+      "owner": "uzairansaruzi",
+      "repo": "hermex",
+      "fullName": "uzairansaruzi/hermex",
+      "description": "Native iPhone app for your Hermes agent",
+      "language": "Swift",
+      "topics": [
+        "hermes",
+        "hermes-agent",
+        "hermex",
+        "ios",
+        "llm",
+        "self-hosted",
+        "swift",
+        "swiftui"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-02T12:47:31Z",
+      "url": "https://github.com/uzairansaruzi/hermex",
+      "analysis": {
+        "positioning": "iPhone 远程遥控你的自部署 AI 助手",
+        "useCases": [
+          "你想随时随地管理自部署的 Hermes AI 助手 → Hermex 让你用 iPhone 直接聊天、下达指令、检查状态。",
+          "你需要一个移动端界面来控制 AI 助手的任务和技能 → Hermex 让你在手机上查看、编辑计划任务，浏览技能库。",
+          "你希望在手机上安全、私密地使用 AI 助手，不希望数据经过第三方 → Hermex 实现端到端直连你的服务器，无中介，无追踪。"
+        ],
+        "audience": "适合已部署 Hermes AI 助手并希望通过 iPhone 进行安全、便捷移动端管理的技术用户。",
+        "quickStart": {
+          "prerequisites": "已在服务器上部署 nesquena/hermes-webui",
+          "steps": [
+            "在 App Store 下载 Hermex 应用。",
+            "在应用中连接到你的 Hermes 服务器。"
+          ],
+          "note": "要求 iOS 18+，原生 SwiftUI 构建。"
+        },
+        "competitors": [
+          {
+            "name": "hermes-webui (通过移动浏览器)",
+            "method": "直接通过移动浏览器访问 Web UI",
+            "models": "取决于用户自部署配置",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "完全免费，无内购，无订阅。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专注于为自部署 Hermes AI 助手提供高质量、隐私优先的 iOS 原生控制体验，功能全面且承诺免费，但要求 iOS 18+ 门槛较高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 39 / 已关闭 4，活跃度较高，但问题解决速度有待提升或项目处于快速发展期。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:25:22.398Z"
+    },
+    {
+      "owner": "jamesob",
+      "repo": "local-llm",
+      "fullName": "jamesob/local-llm",
+      "description": "Everything I know about running LLMs locally",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-03T13:06:03Z",
+      "url": "https://github.com/jamesob/local-llm",
+      "analysis": {
+        "positioning": "本地顶级LLM硬件与软件部署指南",
+        "useCases": [
+          "你预算充裕想自建AI大脑 → 它教你如何用2k-40k美元搭建高性能本地LLM平台",
+          "你追求极致性能想跑大模型 → 它指导你优化多GPU互联，实现接近Opus的本地推理速度",
+          "你对云服务存疑想掌控数据 → 它提供即用型Docker配置，帮你本地部署LLM和STT服务"
+        ],
+        "audience": "预算充足、追求高性能、希望完全掌控AI模型运行环境的硬件爱好者与AI开发者。",
+        "quickStart": {
+          "prerequisites": "约2k-40k美元的硬件预算（多GPU、AMD EPYC、PCIe交换机等）、Linux系统基础、DIY硬件组装能力（含少量木工）",
+          "steps": [
+            "根据指南选择并购买推荐的硬件配置。",
+            "参照详细步骤组装硬件，配置PCIe交换机、BIOS参数及内核参数进行系统调优。",
+            "使用`runners`目录下的Docker Compose文件快速部署vLLM或Whisper等服务。"
+          ],
+          "note": "主要面向基于Linux的高端多GPU系统，需进行底层系统参数调优以发挥最佳性能。"
+        },
+        "competitors": [
+          {
+            "name": "OpenAI / Anthropic",
+            "method": "云API服务",
+            "models": "GPT系列 / Claude系列",
+            "pricing": "按量付费"
+          },
+          {
+            "name": "Ollama / LM Studio",
+            "method": "软件一键部署（简化硬件配置要求）",
+            "models": "社区主流小模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "项目本身免费（开源指南与脚本），主要花费在于搭建本地硬件平台的巨额投入。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个高度技术化、硬件驱动的项目，涉及底层系统配置、多GPU优化、PCIe交换机等，需要深厚的Linux和硬件知识，适合硬核玩家。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示开启0/关闭0，社区活跃度较低，更像是一个个人经验分享和参考指南。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-04T05:25:41.953Z"
+    },
+    {
+      "owner": "spiritov",
+      "repo": "ds.css",
+      "fullName": "spiritov/ds.css",
+      "description": "A css framework recreating the DS / DS Lite's UI",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-29T05:33:18Z",
+      "url": "https://github.com/spiritov/ds.css",
+      "analysis": {
+        "positioning": "重现任天堂DS/DS Lite经典UI的CSS框架。",
+        "useCases": [
+          "你做怀旧Web应用 → 它帮你快速构建任天堂DS风格界面。",
+          "你寻求独特UI主题 → 它提供一套即插即用的DS视觉组件。",
+          "你需要展示复古情怀 → 它通过经典UI元素唤起用户回忆。"
+        ],
+        "audience": "面向需要为Web项目快速集成任天堂DS/DS Lite风格UI的开发者和设计师。",
+        "quickStart": {
+          "prerequisites": "JavaScript/CSS基础，Node.js（如果使用npm）。",
+          "steps": [
+            "安装：`npm i @spiritov/ds.css`",
+            "在项目中引入CSS文件。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "自定义CSS",
+            "method": "手动编写样式",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目高度专注于复古任天堂DS/DS Lite的独特UI风格，强烈的情怀驱动。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，Issue 讨论和贡献较少。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-07-04T05:25:54.247Z"
+    },
+    {
+      "owner": "jmerelnyc",
+      "repo": "Talos",
+      "fullName": "jmerelnyc/Talos",
+      "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocket, and reports uptime for payouts.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "distributed-computing",
+        "gpu",
+        "llm",
+        "ollama",
+        "python",
+        "websocket",
+        "worker"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-02T14:43:11Z",
+      "url": "https://github.com/jmerelnyc/Talos",
+      "analysis": {
+        "positioning": "连接Talos网络，分享GPU算力为AI模型推理赚取收益的客户端。",
+        "useCases": [
+          "你有多余的GPU资源 → 它帮你连接Talos网络，为开放AI模型提供推理服务。",
+          "你希望通过闲置GPU获得收益 → 它帮你根据提供的推理服务时长和任务量赚取报酬。",
+          "你想要参与去中心化AI计算 → 它帮你将本地Ollama模型和GPU贡献给Talos网络。"
+        ],
+        "audience": "拥有闲置GPU并希望通过提供AI推理服务赚取收益的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+，本地运行Ollama并至少拉取一个模型（如llama3.1:8b），推荐NVIDIA GPU，拥有Talos账户并获取设备配对码。",
+          "steps": [
+            "pip install -e .",
+            "talos-worker pair --code TALOS-XXXX-XXXX （替换为你的配对码）",
+            "talos-worker run --allocation 0.5"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Render Network",
+            "method": "用户贡献GPU算力，为渲染、AI等任务提供支持。",
+            "models": "不直接托管模型，提供通用GPU计算资源。",
+            "pricing": "贡献者获得报酬，使用者付费。"
+          },
+          {
+            "name": "Akash Network",
+            "method": "去中心化云平台，用户可以在去中心化网络上部署各种容器化应用（含AI）。",
+            "models": "运行用户自己的模型，提供计算资源。",
+            "pricing": "贡献者获得报酬，使用者付费。"
+          }
+        ],
+        "pricing": "免费（客户端可免费安装使用），用户贡献GPU算力可根据实际使用情况赚取收益。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "定位清晰，安装运行指南简洁，但Star数与GitHub Issue活跃度（0开0关）严重不符，可能表明项目维护或社区沟通主要通过其他渠道，或Issue区未被充分利用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，GitHub Issue区（0开0关）未见任何公开交流，其支持或反馈渠道可能不在GitHub Issue。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-04T05:26:15.297Z"
+    },
+    {
+      "owner": "lingbol088-spec",
+      "repo": "reverse-flow-skill",
+      "fullName": "lingbol088-spec/reverse-flow-skill",
+      "description": "面向 AI Agent / Codex 的本地 CTF 逆向工程流程技能。加载后通过“真心为你”进入逆向模式，默认在本地沙盒、CTF、crackme、wargame 或训练靶场环境中工作，按“分析 → 报告 → 逆向 → 深度逆向 → 漏洞研判 → 用户选择下一步”的流程推进。",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-30T22:08:31Z",
+      "url": "https://github.com/lingbol088-spec/reverse-flow-skill",
+      "analysis": {
+        "positioning": "面向 AI Agent 的本地 CTF 逆向工程流程技能",
+        "useCases": [
+          "你提供逆向样本（如 crackme/固件/APK）→ 它自动化按“分析→报告→逆向→漏洞研判”流程进行处理。",
+          "你想“解锁/绕过/拿flag” → 它解析意图，定位关键逻辑，提供本地 patch、调试方案或期望输入。",
+          "你作为 AI Agent 开发者 → 它为你的 Agent 扩展了结构化、流程化的本地逆向分析能力。"
+        ],
+        "audience": "AI Agent 开发者、CTF 选手及安全研究员，用于 AI 辅助本地逆向分析。",
+        "quickStart": {
+          "prerequisites": "已安装 Codex 环境",
+          "steps": [
+            "复制技能目录到你的 Codex 技能目录。",
+            "在 Codex 中，使用启动词“真心为你”并提供分析目标。"
+          ],
+          "note": "安装命令为 PowerShell 示例，适用于 Windows 环境。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT 许可证)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，README 详尽且友好，工作流设计合理。采用“英文内核提示词 + 中文用户交互”模式，启动词和用户交互口语化，兼具专业性和易用性，独具特色。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 2 / 关闭 0，社区活跃度较低，可能处于早期阶段或用户反馈较少。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:26:31.752Z"
+    },
+    {
+      "owner": "FractalFir",
+      "repo": "crustc",
+      "fullName": "FractalFir/crustc",
+      "description": "Entirety of `rustc`, translated to C. ",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-28T12:25:34Z",
+      "url": "https://github.com/FractalFir/crustc",
+      "analysis": {
+        "positioning": "Rust编译器转C代码，在任何C兼容平台运行。",
+        "useCases": [
+          "你有一个Rust项目想跑在不支持LLVM/GCC的旧硬件上 → 它帮你把Rust编译成C代码，兼容这些平台。",
+          "你想在极度定制化的C编译环境（如嵌入式系统）下使用Rust → 它能根据你的C编译器特性生成兼容的C代码。",
+          "你关注Rust跨平台兼容性的极限 → 它展示了Rust代码在仅支持C的平台上的可行性。"
+        ],
+        "audience": "针对需要将Rust应用部署到不支持Rust原生工具链（如LLVM/GCC）的旧有、小众或定制硬件平台的开发者。",
+        "quickStart": {
+          "prerequisites": "GCC，make，以及特定版本的Rust nightly工具链（包含LLVM库）。",
+          "steps": [
+            "确保本地安装了指定版本的Rust nightly工具链。",
+            "运行 `make -j20 LLVM_LIB_DIR=<你的LLVM库路径>` 编译项目。",
+            "设置 `LD_LIBRARY_PATH` 并执行 `./rustc_driver ./rustc/rustc --version` 验证。"
+          ],
+          "note": "生成的C代码是编译器/平台特定的，无法通用，需要为每个目标重新生成。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将整个Rust编译器翻译成4600万行C代码，耗时三年，历经14次尝试，旨在解决Rust在极其小众/老旧硬件上的兼容性问题，工程量巨大且极具创新性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，开启4个Issue但无关闭，可能项目处于早期或维护者较少。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-04T05:26:45.451Z"
+    },
+    {
+      "owner": "LinXiaoTao",
+      "repo": "FuckClaude",
+      "fullName": "LinXiaoTao/FuckClaude",
+      "description": "",
+      "language": "Astro",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-02T05:36:45Z",
+      "url": "https://github.com/LinXiaoTao/FuckClaude",
+      "analysis": {
+        "positioning": "一款轻量级浏览器工具，快速检测你是否会被Claude识别为“中国用户”。",
+        "useCases": [
+          "你在中国大陆尝试使用Claude（或通过非官方接口）→ 它帮你预判是否会被标记为“中国用户”。",
+          "你想了解Claude判定“中国用户”的原理→ 它帮你分析浏览器环境指纹，揭示潜在风险点。",
+          "你希望规避Claude的地区限制 → 它为你提供环境风险评估，为选择代理服务或防检测浏览器提供参考。"
+        ],
+        "audience": "在受限地区使用Claude AI的开发者和用户，或关心AI平台区域风控机制的技术爱好者。",
+        "quickStart": {
+          "prerequisites": "现代Web浏览器",
+          "steps": [
+            "访问项目页面（或在本地运行）",
+            "点击页面上的扫描按钮，等待结果"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Ergou API",
+            "method": "AI API 网关，提供Claude等模型的官方通道访问",
+            "models": "Claude, GPT, Gemini",
+            "pricing": "付费"
+          },
+          {
+            "name": "Roxy Browser",
+            "method": "多账号防关联浏览器，全面伪装浏览器指纹",
+            "models": "N/A (浏览器工具)",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（开源工具本体免费，其赞助商提供的服务为付费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目命名直接大胆，直指痛点；描述简洁实用，技术性强，带有反抗审查的“黑客精神”。",
+        "isVibeCoding": true,
+        "communityActivity": "项目有初步活跃度，存在少量Issue开启和关闭记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-04T05:27:03.765Z"
+    },
+    {
+      "owner": "Evolink-AI",
+      "repo": "Awesome-Blender-Seedance-Workflow-Usecases",
+      "fullName": "Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+      "description": "Curated Blender + Seedance workflows for AI filmmaking: previs, camera control, Blender MCP, reference video, and agent-guided use cases.",
+      "language": "Python",
+      "topics": [
+        "seedance",
+        "seedance-2",
+        "seedance-2-0",
+        "seedance-2-0-api",
+        "seedance-2-api",
+        "seedance-2-mini",
+        "seedance2"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-29T15:03:09Z",
+      "url": "https://github.com/Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+      "analysis": {
+        "positioning": "Blender与Seedance结合，赋能AI电影制作的实战工作流精选集。",
+        "useCases": [
+          "你做Blender三维预演 → 它帮你通过Seedance实现AI电影的预演与摄像机控制",
+          "你做多角色动画编排 → 它帮你利用Blender MCP控制Seedance的角色动作",
+          "你制作参考视频/FBX/Mixamo动画 → 它帮你用Seedance生成高质量AI视频内容",
+          "你希望智能体辅助视频创作 → 它帮你通过Codex/Claude智能体实现Blender场景快速搭建和视频生成"
+        ],
+        "audience": "寻求AI辅助视频创作的电影制作人、动画师、内容创作者，尤其适用于需要精确控制Blender场景和角色来生成AI视频的用户。",
+        "quickStart": {
+          "prerequisites": "EvoLink Blender-to-video cookbook",
+          "steps": [
+            "首先学习EvoLink官方Blender到视频烹饪手册",
+            "然后参考本项目提供的实战工作流指南进行操作"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目提供了AI电影制作领域非常实用且具体的Blender+Seedance工作流案例，对于希望将3D预演、摄像机控制和角色动画与AI视频生成结合的用户来说，具有很高的参考价值和落地性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue 功能未被使用。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:27:14.563Z"
+    },
+    {
+      "owner": "maaslalani",
+      "repo": "fast",
+      "fullName": "maaslalani/fast",
+      "description": "Internet speed test in your terminal",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-28T03:07:02Z",
+      "url": "https://github.com/maaslalani/fast",
+      "analysis": {
+        "positioning": "终端极速网络测速工具",
+        "useCases": [
+          "你担心网速慢 → 它帮你命令行快速确认网络带宽。",
+          "你管理无GUI服务器 → 它帮你轻松在终端测试服务器出网速度。",
+          "你需自动化监测网络性能 → 它提供简单命令便于脚本集成。"
+        ],
+        "audience": "开发者、系统管理员及任何需要快速、无干扰地在终端检查网络速度的用户。",
+        "quickStart": {
+          "prerequisites": "Go 语言环境",
+          "steps": [
+            "确保已安装 Go 语言环境。",
+            "执行 `go install github.com/maaslalani/fast@main` 安装。",
+            "或从 GitHub Release 页面下载对应二进制文件。",
+            "在终端运行 `fast` 即可开始测速。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "fast.com",
+            "method": "网页端浏览器访问",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "speedtest.net",
+            "method": "网页端/客户端应用/命令行工具（第三方）",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "简洁的命令行工具，Go语言开发，安装和使用都极其简单直接，提供了清晰的动图演示，对开发者友好度高。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，当前有 3 个开启的 Issue 待处理，尚无关闭记录。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-04T05:27:26.278Z"
+    },
+    {
+      "owner": "revfactory",
+      "repo": "webtoon-harness",
+      "fullName": "revfactory/webtoon-harness",
+      "description": "트렌드 조사부터 세로 스크롤 뷰어 완성까지, 웹툰 한 회차를 27개 AI 에이전트 팀이 만들어내는 Claude Code 하네스",
+      "language": "HTML",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-28T12:02:16Z",
+      "url": "https://github.com/revfactory/webtoon-harness",
+      "analysis": {
+        "positioning": "AI Agent 团队自动化创作完整网络漫画章节的Claude Code框架。",
+        "useCases": [
+          "你做：想从零开始高效创作一部网络漫画。\n它帮你做：自动完成从市场调研到剧本、视觉、组装的整个创作流程。",
+          "你做：在多章节漫画创作中，难以保持角色形象和情节连贯性。\n它帮你做：通过先行渲染角色参考图和连续性管理，确保跨章节内容一致。",
+          "你做：需要快速生成漫画草稿并进行质量迭代。\n它帮你做：并行渲染并进行6轴验证，自动再生不达标面板，提高效率和质量。"
+        ],
+        "audience": "适合希望利用AI大规模、高效、自动化生成网络漫画内容的内容创作者、工作室和技术开发者。",
+        "quickStart": {
+          "prerequisites": "Claude API访问权限及相应开发环境",
+          "steps": [
+            "克隆项目仓库。",
+            "配置Claude API凭证和相关参数。",
+            "运行 `webtoon-orchestrator` 技能以启动创作流程。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Midjourney / Stable Diffusion (间接)",
+            "method": "文本生成图像",
+            "models": "各自私有模型",
+            "pricing": "付费/部分免费"
+          },
+          {
+            "name": "Claude / ChatGPT (间接)",
+            "method": "文本生成文本",
+            "models": "各自私有模型",
+            "pricing": "付费/部分免费"
+          }
+        ],
+        "pricing": "免费（项目代码），但使用Claude API需支付相应费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目目标宏大，通过27个AI代理分工协作，实现了从市场调研到最终交付的网络漫画全流程自动化。设计精巧，特点突出（如先行渲染角色参考图、in-image气泡、生成-验证循环、连续性管理），极具创新性和实用价值。虽然需要Claude API支持，但其提供的端到端解决方案对网络漫画创作领域具有颠覆潜力，是AI Agent应用的一个出色范例。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无已开启或已关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:27:44.024Z"
+    },
+    {
+      "owner": "Ssupercoder",
+      "repo": "Salary-Negotiation-Skill",
+      "fullName": "Ssupercoder/Salary-Negotiation-Skill",
+      "description": "谈薪skill--自动化谈薪的开拓者与领跑者",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-28T07:53:42Z",
+      "url": "https://github.com/Ssupercoder/Salary-Negotiation-Skill",
+      "analysis": {
+        "positioning": "AI智能谈薪咨询系统，助你科学提升薪资满意度。",
+        "useCases": [
+          "你作为校招生，面对薪资谈判信息不对称、经验缺失 → 它帮你专业化谈薪，避免薪资被低估。",
+          "你作为职场人，跳槽缺乏薪酬博弈经验 → 它提供动态博弈策略，避免长期人力资本损失。",
+          "你作为高薪人才，面对体系化薪酬策略处于弱势 → 它提供专业建议，提升谈薪效率与满意度。"
+        ],
+        "audience": "所有希望在求职面试中获得更高薪资的个体，尤其是缺乏谈判经验的校招生和资深职场人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "1. 访问项目提供的链接（如`谈薪skill_easy/SKILL.md`）下载Skill文件。",
+            "2. 参考项目Bilibili视频教程，在Codex或OpenClaw等平台运行该Skill。"
+          ],
+          "note": "项目提供Python本地部署版本及免代码平台（Codex/OpenClaw）版本。"
+        },
+        "competitors": [
+          {
+            "name": "付费咨询/辅导",
+            "method": "一对一定制化人工辅导",
+            "models": "N/A (人工)",
+            "pricing": "昂贵"
+          },
+          {
+            "name": "职场KOL/博主内容",
+            "method": "碎片化经验分享，简单问答",
+            "models": "N/A (人工)",
+            "pricing": "免费"
+          },
+          {
+            "name": "脉脉、OfferShow等信息聚合平台",
+            "method": "聚合市场求职薪资信息供参考",
+            "models": "N/A (数据聚合)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（项目开源，提供免代码平台免费版本）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，架构清晰，采用LLM Agent、RAG等前沿技术解决真实痛点。README详尽，但GitHub Issue活跃度尚处初期。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度目前较低，Issue统计显示开启1个、关闭0个，响应和解决尚处于初期。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:28:01.356Z"
+    },
+    {
+      "owner": "meituan-longcat",
+      "repo": "LongCat-2.0",
+      "fullName": "meituan-longcat/LongCat-2.0",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-29T12:46:02Z",
+      "url": "https://github.com/meituan-longcat/LongCat-2.0",
+      "analysis": {
+        "positioning": "美团发布，万亿参数MoE大模型，专为长文本理解与生成设计。",
+        "useCases": [
+          "你处理超长文档 → 它帮你理解核心语义，生成摘要或回答复杂问题。",
+          "你开发高级AI应用 → 它提供千亿级参数的长文本理解和生成能力。",
+          "你关注前沿大模型技术 → 它展示MoE架构在替代硬件上的训练与部署能力。"
+        ],
+        "audience": "大模型研究员、AI开发者、企业AI团队，尤其关注长文本处理和MoE架构。",
+        "quickStart": {
+          "prerequisites": "Python环境，Hugging Face或ModelScope账号。",
+          "steps": [
+            "访问Hugging Face或ModelScope平台下载/加载LongCat-2.0模型。",
+            "通过transformers库或其他兼容框架调用模型进行推理。"
+          ],
+          "note": "考虑到模型规模，部署和运行需高性能计算资源。"
+        },
+        "competitors": [
+          {
+            "name": "Mixtral 8x7B",
+            "method": "自部署/API",
+            "models": "Mixtral系列",
+            "pricing": "免费（自部署）"
+          },
+          {
+            "name": "Llama 3",
+            "method": "自部署",
+            "models": "Llama系列",
+            "pricing": "免费（自部署）"
+          },
+          {
+            "name": "GPT-4",
+            "method": "API",
+            "models": "GPT系列",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（模型开源，部署成本自担）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "美团重磅推出，万亿级MoE大模型，强调长文本和AI ASIC硬件，技术栈前沿且规模庞大。",
+        "isVibeCoding": true,
+        "communityActivity": "刚发布，Issue活动度较低，但已建立多渠道社区联系。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-04T05:28:16.457Z"
+    },
+    {
+      "owner": "prathoshap",
+      "repo": "vagdhenu",
+      "fullName": "prathoshap/vagdhenu",
+      "description": "Vāgdhenu — metered Sanskrit/Vedic chant text-to-speech (DiT + BigVGAN). Apache-2.0.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-28T15:35:26Z",
+      "url": "https://github.com/prathoshap/vagdhenu",
+      "analysis": {
+        "positioning": "专业的梵语吟诵TTS，能生成符合韵律和传统旋律的语音。",
+        "useCases": [
+          "你需要为梵语经典制作高质量吟诵音频 → 它帮你生成具备韵律和传统曲调的专业梵语吟诵。",
+          "你想将梵语诗歌或经文转化为有声内容 → 它帮你自动处理复杂的梵语发音和韵律细节，生成媲美真人吟诵的效果。",
+          "你正在开发梵语学习或传播应用 → 它帮你提供准确且富有表现力的梵语吟诵语音库。"
+        ],
+        "audience": "梵语学者、传统文化传播者、有声内容制作者及相关AI应用开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10, CUDA 12.1 GPU",
+          "steps": [
+            "bash scripts/setup.sh (安装依赖和模型)",
+            "python src/render.py --shard examples/sample_shard.json --results /tmp/res.json --outdir out (根据JSON配置渲染梵语吟诵音频)"
+          ],
+          "note": "支持批量渲染，也提供单句渲染接口。"
+        },
+        "competitors": [],
+        "pricing": "免费 (Apache-2.0 开源许可，模型和演示均可免费获取和使用)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供生产级的梵语吟诵TTS，项目结构清晰，文档详尽，有真实生产案例（YouTube视频，高MOS评分）。维护者为知名教授，专业性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般（Issue数量少，但由教授团队维护，项目质量和稳定性有保障）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-04T05:28:29.019Z"
+    },
+    {
+      "owner": "xt4d",
+      "repo": "GameBlocks",
+      "fullName": "xt4d/GameBlocks",
+      "description": "Concise and self-explanatory building blocks that help coding agents prototype browser-based 3D games.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-01T16:38:56Z",
+      "url": "https://github.com/xt4d/GameBlocks",
+      "analysis": {
+        "positioning": "专为AI编程Agent设计，快速搭建浏览器端3D游戏原型。",
+        "useCases": [
+          "AI编程Agent难以通过自然语言精确描述3D行为 → 它提供清晰语义的可组合模块，降低3D系统实现难度。",
+          "AI编程Agent需要构建3D游戏中的坐标系、角色移动等基础功能 → 它提供可复用代码，加速原型开发和泛化能力。",
+          "AI编程Agent在生成式世界中需管理结构化、一致性的交互状态 → 它提供状态层，支持模型渲染和状态更新，确保一致性。"
+        ],
+        "audience": "适用于需要AI编程助手（如Codex, Claude Code）快速开发浏览器端3D游戏原型的开发者或研究人员。",
+        "quickStart": {
+          "prerequisites": "已安装Git和Codex或Claude Code AI编程助手",
+          "steps": [
+            "克隆仓库到本地：`git clone https://github.com/xt4d/GameBlocks.git`",
+            "将`gameblocks`目录复制到对应AI助手的技能文件夹（例如：`cp -R gameblocks/. ~/.codex/skills/gameblocks/`）"
+          ],
+          "note": "Codex和Claude Code的技能文件夹路径不同，具体命令请参考其README。复制后可能需要重启AI助手应用。"
+        },
+        "competitors": [
+          {
+            "name": "Codex (纯自然语言模式)",
+            "method": "通过自然语言描述3D游戏行为",
+            "models": "OpenAI Codex等",
+            "pricing": "通常随平台订阅/API调用计费"
+          },
+          {
+            "name": "Claude Code (纯自然语言模式)",
+            "method": "通过自然语言描述3D游戏行为",
+            "models": "Anthropic Claude系列",
+            "pricing": "通常随平台订阅/API调用计费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目设计理念在于为AI编程Agent提供清晰、可组合的3D游戏构建模块，减少Agent处理复杂3D行为的难度，提升原型开发效率。其模块化、语义清晰的特点有助于Agent直观理解和使用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue开闭数量均为0，尚处于早期或维护频率不高。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-04T05:28:47.962Z"
+    },
+    {
+      "owner": "JimLiu",
+      "repo": "science-skills",
+      "fullName": "JimLiu/science-skills",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-01T15:59:32Z",
+      "url": "https://github.com/JimLiu/science-skills",
+      "analysis": {
+        "positioning": "Claude Science风格的AI科学计算助手配置资产",
+        "useCases": [
+          "你希望构建或定制科学AI助手 → 它提供系统提示、技能和代理配置模版",
+          "你需要AI助手进行生物分子建模 → 它提供AlphaFold2、OpenFold等工具技能集成",
+          "你需要AI助手辅助科学分析报告 → 它提供文献综述、图表生成、叙述撰写等技能",
+          "你需要为AI助手定义特定职能（如审阅、书签） → 它提供定制化代理配置文件"
+        ],
+        "audience": "对Claude Science产品感兴趣、希望定制或理解科学AI助手工作原理的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "需有访问Claude Science产品或兼容的AI助手运行环境",
+          "steps": [
+            "克隆或下载项目仓库",
+            "将`SYSTEM_PROMPT.md`、`skills/`和`agents/`目录下的配置资产集成到你的Claude Science风格AI助手环境中"
+          ],
+          "note": "本项目是配置和文档，非独立可执行应用，需与兼容的AI助手平台配合使用。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python/JS库，构建AI应用和Agent",
+            "models": "广泛支持各类LLM",
+            "pricing": "免费（框架）"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "Python库，构建LLM应用，重点在数据RAG",
+            "models": "广泛支持各类LLM",
+            "pricing": "免费（框架）"
+          }
+        ],
+        "pricing": "免费，本项目是开源配置资产。其来源于的Claude Science产品可能为付费服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个项目配置和文档集合，并非活跃开发的代码库。它提供了有价值的参考和集成资产，但本身不涉及大量编码活动或持续开发。星标数量中等，但Issue统计显示社区活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue和PR均显示为0，可能为项目维护者单方面发布。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:29:00.110Z"
+    },
+    {
+      "owner": "mistydew",
+      "repo": "tokenicode-deepseek-alpha",
+      "fullName": "mistydew/tokenicode-deepseek-alpha",
+      "description": "TOKENICODE DeepSeek Alpha: a DeepSeek/CC Switch focused TOKENICODE fork",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-06-30T00:41:56Z",
+      "url": "https://github.com/mistydew/tokenicode-deepseek-alpha",
+      "analysis": {
+        "positioning": "DeepSeek优化的TOKENICODE分叉，集成本地模型与编码辅助。",
+        "useCases": [
+          "你使用DeepSeek/Ollama等LLM开发 → 它提供优化的API调用、模型管理与本地集成。",
+          "你进行代码辅助编程 → 它集成Claude Code权限管理，处理长上下文代码。",
+          "你管理多个AI项目或会话 → 它提供项目文件夹分组、会话时间线和MCP配置导入。"
+        ],
+        "audience": "使用DeepSeek、Ollama等大模型进行代码开发、LLM应用构建的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "前往Release页面下载对应操作系统的安装包或便携版。",
+            "安装并运行应用。"
+          ],
+          "note": "Windows用户可直接使用便携版Exe，开箱即用。"
+        },
+        "competitors": [
+          {
+            "name": "TOKENICODE (原版)",
+            "method": "桌面应用",
+            "models": "通用LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE插件",
+            "models": "GPT模型",
+            "pricing": "收费"
+          },
+          {
+            "name": "Cursor",
+            "method": "独立IDE",
+            "models": "GPT, Claude等",
+            "pricing": "免费/收费"
+          }
+        ],
+        "pricing": "免费，开源项目，依赖用户自行配置LLM服务（部分服务可能收费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目深度集成DeepSeek/Ollama等大模型，提供上下文管理、模型切换、权限控制等大量开发辅助功能，优化AI编程体验。",
+        "isVibeCoding": true,
+        "communityActivity": "持续更新中（处于alpha阶段），但Issue处理速度有待提高（7开0关）。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-04T05:29:16.739Z"
+    },
+    {
+      "owner": "Mayuqi-crypto",
+      "repo": "HowToGetAlongWithGirls",
+      "fullName": "Mayuqi-crypto/HowToGetAlongWithGirls",
+      "description": "Dating coach skills and references",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-06-28T15:05:14Z",
+      "url": "https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls",
+      "analysis": {
+        "positioning": "为AI助手打造的两性社交指导技能包。",
+        "useCases": [
+          "你聊天卡壳 → 它逐条分析对话，给出可复制的回复。",
+          "你约会没方向 → 它提供从吸引到长期相处全周期指导。",
+          "你管理多个暧昧对象 → 它帮你追踪记录，确保不混乱。"
+        ],
+        "audience": "寻求AI辅助提升社交技能、管理两性关系的个人用户。",
+        "quickStart": {
+          "prerequisites": "已配置Claude或其他可集成技能的AI助手。",
+          "steps": [
+            "集成项目至AI助手的知识库或技能目录。",
+            "通过`/coach`命令或AI自动识别调用技能。"
+          ],
+          "note": "主要适配Claude，也可自定义嵌入其他AI项目。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将复杂的两性社交经验解构为AI可调用的结构化技能，实现社交行为的“编程”指导。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低，可能为早期项目或个人维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:29:30.463Z"
+    },
+    {
+      "owner": "xbtlin",
+      "repo": "ai-berkshire",
+      "fullName": "xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "anthropic",
+        "berkshire-hathaway",
+        "charlie-munger",
+        "china-stock",
+        "claude",
+        "claude-code",
+        "financial-analysis",
+        "fintech",
+        "fundamental-analysis",
+        "investment",
+        "investment-research",
+        "llm",
+        "mcp",
+        "portfolio-management",
+        "stock-analysis",
+        "stock-market",
+        "value-investing",
+        "warren-buffett"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-04-07T11:19:51Z",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "analysis": {
+        "positioning": "AI驱动的价值投资研究框架，整合四大师方法论。",
+        "useCases": [
+          "你进行投资研究 → 它用AI模仿大师思路，提供结构化投资建议。",
+          "你怕AI分析不靠谱 → 它内置反偏见、数据校验，提升决策可靠性。",
+          "你想追踪投资效果 → 它提供可复现的研究流程，便于横向对比和追踪。"
+        ],
+        "audience": "追求深度与效率的价值投资者、金融分析师及量化交易爱好者。",
+        "quickStart": {
+          "prerequisites": "Python环境，Anthropic或OpenAI API Key。",
+          "steps": [
+            "克隆项目并安装依赖：`git clone ... && pip install -r requirements.txt`",
+            "配置API Key",
+            "运行对应的投资研究Agent"
+          ],
+          "note": "同时兼容Claude Code与Codex模型。"
+        },
+        "competitors": [
+          {
+            "name": "通用LLM (如ChatGPT, Claude)",
+            "method": "直接自然语言问答",
+            "models": "各大厂商LLM",
+            "pricing": "免费/订阅"
+          }
+        ],
+        "pricing": "免费开源（MIT协议），但需支付LLM API费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "高度结构化的AI投资Agent框架，实盘验证，强调大师方法论、多Agent对抗及严谨数据校验，解决了通用AI在投资决策中的痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度高，Issue解决及时 (关闭Issue数>开启数)，Star数近万，社区关注度极高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-04T05:30:15.232Z"
     }
   ]
 }
