@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-04T05:30:15.256Z",
+  "updatedAt": "2026-07-05T05:46:50.356Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -61019,6 +61019,678 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-04T05:30:15.232Z"
+    },
+    {
+      "owner": "Kulaxyz",
+      "repo": "token-diet",
+      "fullName": "Kulaxyz/token-diet",
+      "description": "Always-on token-efficiency skill for coding agents (Claude Code, Codex, Cursor, Windsurf, Cline). ~31% lower bill on average, no loss of correctness.",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-03T15:20:04Z",
+      "url": "https://github.com/Kulaxyz/token-diet",
+      "analysis": {
+        "positioning": "AI编程助手提效降本工具。",
+        "useCases": [
+          "你与AI agent对话 → 它自动精简回复，去除冗余开场白和结束语",
+          "你让AI生成文档、注释或计划 → 它输出核心信息，无废话",
+          "你让AI编写代码 → 它只生成必要功能，代码简洁地道，无多余逻辑",
+          "你让AI编写测试 → 它聚焦关键路径，只写必要的测试用例",
+          "AI处理上下文信息 → 它智能筛选并批量读取，减少不必要的文件读取"
+        ],
+        "audience": "使用Claude Code、Codex、Cursor、Windsurf、Cline等编程AI助手的开发者，旨在降低API账单并提升效率。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "执行 `curl -fsSL https://raw.githubusercontent.com/Kulaxyz/token-diet/main/install.sh | bash` 进行安装",
+            "可选：添加 `--ultra` 启用极致精简模式，或指定 `-a agent_name` 针对特定Agent安装"
+          ],
+          "note": "默认全局安装，支持指定Agent或安装到当前项目；提供 `on`/`lite`/`ultra`/`off` 四种精简级别，也可通过 `/token-diet` 命令按需控制。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，旨在降低现有AI服务费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了AI编码成本高、输出冗余的痛点，安装简单，效果显著，让开发者更高效地利用AI，符合效率至上的极客精神。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度暂无法评估。",
+        "category": "AI编程助手",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-05T05:42:41.405Z"
+    },
+    {
+      "owner": "elder-plinius",
+      "repo": "T3MP3ST",
+      "fullName": "elder-plinius/T3MP3ST",
+      "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai",
+        "multi-agent",
+        "offensive-security",
+        "redteam"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-02T17:53:55Z",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "analysis": {
+        "positioning": "将AI编码Agent转化为零日漏洞猎手的自动化红队平台。",
+        "useCases": [
+          "你做自动化红队渗透测试 → 它帮你驱动AI Agent自动完成侦察、利用、报告。",
+          "你拥有AI编码Agent（如Claude Code）→ 它帮你将Agent升级为0-day漏洞挖掘机器。",
+          "你想验证AI Agent的攻防能力 → 它提供可复现的基准测试和真实CVE验证环境。"
+        ],
+        "audience": "具备AI编码Agent并寻求自动化红队、漏洞挖掘能力的攻防安全专家。",
+        "quickStart": {
+          "prerequisites": "已登录并可用的AI编码Agent（如Claude Code, Codex, Hermes）",
+          "steps": [
+            "配置授权的目标",
+            "启动T3MP3ST执行侦察、利用、报告"
+          ],
+          "note": "无需新的API密钥或云服务，完全本地自托管。"
+        },
+        "competitors": [],
+        "pricing": "免费，基于用户已有的AI编码Agent和本地资源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "包含酷炫的ASCII艺术、隐藏彩蛋等Vibe Coding元素，但项目核心强调“可复现性”而非“Vibes”，甚至在彩蛋中明确指出“receipts_not_vibes”以示区分。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启5个/关闭0个，社区活跃度较低，处于早期阶段，但欢迎PR。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-05T05:43:00.139Z"
+    },
+    {
+      "owner": "ammaarreshi",
+      "repo": "Generals-Mac-iOS-iPad",
+      "fullName": "ammaarreshi/Generals-Mac-iOS-iPad",
+      "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
+      "language": "C++",
+      "topics": [
+        "apple-silicon",
+        "command-and-conquer",
+        "dxvk",
+        "game-port",
+        "generals-zero-hour",
+        "ios",
+        "ipad",
+        "macos",
+        "moltenvk",
+        "open-source-game",
+        "rts",
+        "sdl3"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-04T02:59:39Z",
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
+      "analysis": {
+        "positioning": "在Apple设备上原生运行《命令与征服：将军-绝命时刻》",
+        "useCases": [
+          "你想在Mac/iPhone/iPad上玩《命令与征服：将军-绝命时刻》→ 它帮你实现游戏引擎原生运行，非模拟。",
+          "你希望在移动设备上体验RTS游戏并获得良好触控→ 它提供专为RTS设计的触摸操作。",
+          "你对将旧DirectX游戏移植到现代Apple平台感兴趣→ 它展示了基于DXVK/MoltenVK的移植方案。"
+        ],
+        "audience": "《命令与征服：将军-绝命时刻》的忠实玩家，以及对在Apple设备上原生运行Windows游戏感兴趣的开发者和技术爱好者。",
+        "quickStart": {
+          "prerequisites": "macOS：Xcode命令行工具，Homebrew，CMake，Ninja，Meson，Pkgconf，SteamCMD，vcpkg，LunarG Vulkan SDK。iOS：完整Xcode，XcodeGen，Apple开发者账号。",
+          "steps": [
+            "克隆项目并安装所有依赖。",
+            "运行平台特定构建脚本以编译游戏引擎。",
+            "通过脚本获取你已拥有的游戏资产（需自购游戏）。",
+            "运行游戏（macOS）或打包并安装到iOS设备（iOS）。"
+          ],
+          "note": "macOS构建相对直接，iOS需要额外的Xcode设置、开发者团队ID、MoltenVK和字体处理。"
+        },
+        "competitors": [
+          {
+            "name": "CrossOver/Wine",
+            "method": "通过模拟层在macOS上运行Windows版游戏",
+            "models": "N/A",
+            "pricing": "付费"
+          },
+          {
+            "name": "云游戏服务 (如GeForce Now)",
+            "method": "通过云端串流游戏画面到Apple设备",
+            "models": "N/A",
+            "pricing": "付费/部分免费"
+          }
+        ],
+        "pricing": "免费（项目代码开源），但需用户自购游戏资产（例如Steam）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目技术栈复杂但组织清晰，提供了详细的macOS和iOS快速启动指南，脚本自动化程度高，强调了原生运行而非模拟，对开发者非常友好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动较少但所有Issue均已关闭，表明项目维护者积极解决问题。项目本身作为上游分支的iOS移植和修复，表明了活跃的开发。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-07-05T05:43:17.222Z"
+    },
+    {
+      "owner": "CalmNoteDepot",
+      "repo": "MECCHA-CHAMELEON-VISION",
+      "fullName": "CalmNoteDepot/MECCHA-CHAMELEON-VISION",
+      "description": "🎨 Meccha Chameleon Vision — Desktop Tool 2026",
+      "language": "Unknown",
+      "topics": [
+        "meccha-chameleon-download",
+        "meccha-chameleon-fps",
+        "meccha-chameleon-target-lock",
+        "meccha-chameleon-wh",
+        "meccha-chemeleon-fps-booster"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-04T20:05:45Z",
+      "url": "https://github.com/CalmNoteDepot/MECCHA-CHAMELEON-VISION",
+      "analysis": {
+        "positioning": "一款针对特定游戏《MECCHA CHAMELEON》的桌面视觉实验与自定义工具。",
+        "useCases": [
+          "你玩《MECCHA CHAMELEON》时想调整游戏内视觉效果 → 它帮你实现实时视觉定制和实验。",
+          "你想进行《MECCHA CHAMELEON》的视觉参数测试和教育研究 → 它提供一个独立环境进行探索。",
+          "你需要提升《MECCHA CHAMELEON》的游戏表现或特定视觉辅助 → 它可能提供FPS优化和目标高亮功能。"
+        ],
+        "audience": "《MECCHA CHAMELEON》玩家、游戏视觉mod制作者、对游戏内视觉机制感兴趣的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "已安装《MECCHA CHAMELEON》游戏，Windows操作系统。",
+          "steps": [
+            "启动《MECCHA CHAMELEON》游戏。",
+            "运行 MecchaChameleonVision.exe。",
+            "在应用中确认目标进程和桥接状态。",
+            "按下预设热键即可应用效果。"
+          ],
+          "note": "版本1.4.0采用mesh-first视觉路由，游戏更新后需从研究工具本地准备mesh配置。"
+        },
+        "competitors": [
+          {
+            "name": "Cheat Engine",
+            "method": "内存修改/脚本注入",
+            "models": "N/A (通用)",
+            "pricing": "免费"
+          },
+          {
+            "name": "ReShade",
+            "method": "后处理滤镜注入",
+            "models": "N/A (通用)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费且开源（GPL-3.0-or-later许可证），可直接下载使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述虽称“测试和教育”，但其标签（如meccha-chameleon-wh, meccha-chameleon-target-lock, meccha-chemeleon-fps-booster）强烈暗示其具有提供“透视墙”（WH）、“目标锁定”和“帧数提升”等游戏辅助功能，涉嫌作弊性质，存在灰色地带。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启/关闭均为0。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-05T05:43:37.704Z"
+    },
+    {
+      "owner": "SuperJJ007",
+      "repo": "CSSwitch",
+      "fullName": "SuperJJ007/CSSwitch",
+      "description": "帮你的 Claude Science 一键接入你自己的 API：DeepSeek / 通义千问 / 智谱 GLM / Kimi / MiniMax / 小米 MiMo / 硅基流动 / OpenRouter / 任意 OpenAI·Anthropic 兼容端点",
+      "language": "Rust",
+      "topics": [
+        "anthropic",
+        "claude",
+        "claude-science",
+        "dashscope",
+        "deepseek",
+        "llm",
+        "macos",
+        "mcp",
+        "menubar",
+        "openai-compatible",
+        "proxy",
+        "qwen",
+        "tauri"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-02T16:46:56Z",
+      "url": "https://github.com/SuperJJ007/CSSwitch",
+      "analysis": {
+        "positioning": "让Claude Science一键接入你的第三方LLM API",
+        "useCases": [
+          "你订阅了Claude Science但想用DeepSeek/通义千问等模型 → 它帮你无缝接入，无需订阅官方服务。",
+          "你担心API Key或登录凭证泄露 → 它通过本地代理和隔离环境确保安全，不触碰你的真实Claude账号信息。",
+          "你想在Claude Science上切换不同AI服务商 → 它提供面板管理多种第三方API配置，轻松切换。"
+        ],
+        "audience": "使用Claude Science进行AI科研工作，但希望灵活使用自己的第三方LLM API（如DeepSeek、通义千问等）的用户。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Science，系统中有python3。",
+          "steps": [
+            "从GitHub Release下载并安装CSSwitch。",
+            "在CSSwitch面板中新建第三方API配置，填入API Key并选择服务商，点击“一键开始”即可使用。"
+          ],
+          "note": "仅支持macOS (Apple Silicon)平台。"
+        },
+        "competitors": [
+          {
+            "name": "CC Switch",
+            "method": "Claude Code API服务商切换工具（代理）",
+            "models": "针对Claude Code的第三方模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，MIT许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供了创新且实用的Claude Science第三方API接入方案，功能完善且注重安全隔离，但Issue解决率目前较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区有活跃的Issue提交，但目前Issue关闭数为0，项目响应和解决情况需持续关注。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-05T05:43:51.816Z"
+    },
+    {
+      "owner": "yynxxxxx",
+      "repo": "Codex-X",
+      "fullName": "yynxxxxx/Codex-X",
+      "description": "Codex Switch & Instruct desktop manager",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-04T03:28:35Z",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "analysis": {
+        "positioning": "Codex CLI 可视化增强管理器，简化大模型操作。",
+        "useCases": [
+          "你希望快速切换大模型提示词 → 它帮你一键注入/禁用预设指令。",
+          "你管理多个大模型Provider → 它帮你可视化切换API服务商和官方认证。",
+          "你编辑Codex CLI配置文件很麻烦 → 它帮你图形化修改TOML/JSON配置。",
+          "你本地会话Provider元数据出问题 → 它帮你检查并修复历史会话数据。"
+        ],
+        "audience": "依赖Codex CLI进行大模型交互，需高效管理Prompt、Provider、配置文件的开发者或安全研究员。",
+        "quickStart": {
+          "prerequisites": "Codex CLI 已安装。",
+          "steps": [
+            "从GitHub Release下载对应平台的安装包。",
+            "双击安装并运行应用。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将复杂的命令行操作通过美观的桌面GUI简化，提供直观的Prompt管理、Provider切换和配置编辑，提升了Codex CLI用户的效率与体验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区互动尚未活跃，Issue统计为0。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-05T05:44:04.912Z"
+    },
+    {
+      "owner": "antiwork",
+      "repo": "chromeless",
+      "fullName": "antiwork/chromeless",
+      "description": "The browser that isn't there — zero-chrome macOS browser for clean screenshots and fullscreen video. One Swift file.",
+      "language": "Swift",
+      "topics": [
+        "browser",
+        "macos",
+        "screenshots",
+        "swift",
+        "webkit"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-03T19:22:25Z",
+      "url": "https://github.com/antiwork/chromeless",
+      "analysis": {
+        "positioning": "零边框macOS浏览器，专为纯净截图和沉浸式视频而生。",
+        "useCases": [
+          "你想要干净无冗余的网页截图 → 它帮你生成纯净的PNG截图，完全剔除浏览器UI，所见即所得。",
+          "你追求沉浸式全屏观看视频（如YouTube）→ 它帮你提供无边框全屏体验，内容独占整个屏幕，无干扰。",
+          "你需要展示仪表盘或特定网页内容 → 它帮你用极简界面聚焦内容，作为无边框信息展示窗口。",
+          "你需要自动化网页截图（如测试、CI/CD）→ 它帮你通过命令行，指定URL、尺寸和等待时间，自动生成高质量网页截图。"
+        ],
+        "audience": "追求极致简洁网页视图、专业截图需求（特别是自动化）或需要全屏沉浸体验的macOS用户和开发者。",
+        "quickStart": {
+          "prerequisites": "安装Xcode Command Line Tools",
+          "steps": [
+            "运行`./build.sh`生成应用",
+            "打开`Chromeless.app`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "常规浏览器 (Safari/Chrome)",
+            "method": "自带全屏模式和网页截图功能，但包含浏览器UI",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "macOS系统截图 (Shift+Cmd+4)",
+            "method": "截图区域或窗口，可能包含系统边框和阴影",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (开源项目，MIT许可)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目代码极其精简（单个Swift文件，无依赖），体积小巧，功能聚焦且实用（零边框浏览、纯净截图），性能卓越，符合macOS原生应用最佳实践。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，目前有7个开启的Issue，0个已关闭，新问题尚未得到解决反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-05T05:44:21.154Z"
+    },
+    {
+      "owner": "BenMakesEverything",
+      "repo": "Pocket-Lab-Power-Supply",
+      "fullName": "BenMakesEverything/Pocket-Lab-Power-Supply",
+      "description": "A lab bench power supply, but pocket-sized and battery powered.",
+      "language": "C++",
+      "topics": [],
+      "license": "CERN-OHL-S-2.0",
+      "createdAt": "2026-07-01T00:00:37Z",
+      "url": "https://github.com/BenMakesEverything/Pocket-Lab-Power-Supply",
+      "analysis": {
+        "positioning": "口袋实验室电源：便携、电池供电、可调电压电流的实验台电源。",
+        "useCases": [
+          "你在户外或无交流电环境调试电子设备 → 它提供稳定可调的电源，无需固定电源插座。",
+          "你的实验台需要一个紧凑、功能齐全的备用或主用电源 → 它可替代笨重的传统电源，节省空间。",
+          "你希望在移动中进行电子项目开发或故障排除 → 它提供便携式、可编程的供电方案，提升灵活性。"
+        ],
+        "audience": "适合需要便携、可调电源的电子工程师、创客、学生及所有对开放硬件和DIY电源感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": "熟悉电子电路组装、焊接技能，需自购4S锂电池组及兼容USB-C PD的充电器。",
+          "steps": [
+            "根据 `/hardware` 目录下的PCB、原理图和BOM文件，制作或采购元器件并完成电路板组装。",
+            "将 `/firmware` 目录下的固件刷入微控制器（MCU）。",
+            "依照文档（WIP）进行电池连接、首次设置及使用，务必严格遵守安全须知，特别是电池配置调整。"
+          ],
+          "note": "**重要安全警告：** PCB设计专用于4S锂离子电池组（充电至16.8V）。如需使用其他电池配置，必须修改BQ25792充电芯片的PROG引脚设置，否则将导致电池过充损坏！"
+        },
+        "competitors": [
+          {
+            "name": "商用便携式实验室电源",
+            "method": "购买现成产品",
+            "models": "例如：DPS系列（如DPS3005）模块集成产品",
+            "pricing": "付费"
+          },
+          {
+            "name": "通用移动电源+DC-DC模块",
+            "method": "组合DIY，非一体化",
+            "models": "各类USB充电宝、市售DC-DC升降压模块",
+            "pricing": "购买元件"
+          }
+        ],
+        "pricing": "免费（指硬件设计和固件开源免费获取），用户需自购元器件并自行制作，涉及硬件成本。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位精准且实用，开放硬件和固件为DIY爱好者提供了巨大价值。但目前仍处于WIP阶段，文档尚不完善，社区活跃度有待提升，且对用户具备一定硬件制作能力有要求。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期开发阶段，Issue开闭比（2开/0关）显示社区互动和成熟度尚需时间积累。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-05T05:44:41.777Z"
+    },
+    {
+      "owner": "akihitohyh",
+      "repo": "chatgpt-register-sub2api",
+      "fullName": "akihitohyh/chatgpt-register-sub2api",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-02T19:36:29Z",
+      "url": "https://github.com/akihitohyh/chatgpt-register-sub2api",
+      "analysis": {
+        "positioning": "ChatGPT账号批量注册、K12团队加入、Sub2API全自动导出工具。",
+        "useCases": [
+          "你做ChatGPT账号分发 → 它帮你自动批量注册并管理凭证。",
+          "你管理K12团队账号 → 它帮你自动将新账号加入指定K12工作区。",
+          "你使用Sub2API服务 → 它帮你自动登录并导出Team空间账号的Sub2API JSON。"
+        ],
+        "audience": "适合需要批量注册、管理和导出ChatGPT K12团队账号的开发者、运维人员或服务提供商。",
+        "quickStart": {
+          "prerequisites": "Python 3环境；Outlook邮箱池凭证（需从Azure获取client_id和refresh_token）；K12 workspace ID；可选但推荐代理。",
+          "steps": [
+            "克隆项目并安装依赖：`git clone <this-repo> && cd chatgpt-register-sub2api && python3 -m venv .venv && source .venv/bin/activate && pip install -e .`",
+            "生成配置文件 `chatgpt-register init`，编辑 `config.yaml` 填入邮箱池、代理、K12 workspace ID，然后运行 `chatgpt-register run -n 10 -v`。"
+          ],
+          "note": "推荐使用代理（尤其注册多账号时），防止触发OpenAI风控；TLS指纹伪装是绕过OpenAI反爬的关键；Team空间重新登录步骤需调试确认API。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源工具）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "通过TLS指纹伪装绕过OpenAI反爬，自动化K12团队加入及Sub2API导出，解决非官方、灰色地带需求，技术实现巧妙且极具'黑科技'性质。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启但无关闭，活跃度一般，响应速度待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-05T05:44:54.633Z"
+    },
+    {
+      "owner": "lzh-phd",
+      "repo": "topic-feasibility-screener",
+      "fullName": "lzh-phd/topic-feasibility-screener",
+      "description": "有大致的想法不知道怎么选题？只要给这个skills扔点数据，他能自动帮你延伸出多个idea，检索文献，并帮你跑初步回归验证实证可行性和理论可行性，最后打分排名，让你的科研第一步不再难堪！",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-02T11:53:32Z",
+      "url": "https://github.com/lzh-phd/topic-feasibility-screener",
+      "analysis": {
+        "positioning": "实证研究选题自动筛选与可行性验证助手",
+        "useCases": [
+          "你不知道怎么选题 → 它帮你基于数据自动发散想法，检索文献。",
+          "你担心选题不可行 → 它帮你跑初步回归验证实证和理论可行性。",
+          "你还在手动筛选文献 → 它帮你将文献证据分类，打分排名，生成报告。"
+        ],
+        "audience": "面向会计、金融、经济学、管理学等领域的研究生和早期研究人员，用于快速筛选并验证实证研究选题。",
+        "quickStart": {
+          "prerequisites": "Codex环境，并准备好`.csv`或Stata `.dta`格式的实证数据集。",
+          "steps": [
+            "将数据集作为输入，运行`topic-feasibility-screener` Codex skill。",
+            "查看自动生成的HTML可视化报告，获取候选选题、可行性评分和二次验证结果。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于解决实证研究选题的痛点，提供自动化、系统化的验证流程，功能明确且实用，尤其适合学术研究场景。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，当前Issue为0，尚无用户反馈与互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-05T05:45:06.491Z"
+    },
+    {
+      "owner": "Archive228",
+      "repo": "loopkit",
+      "fullName": "Archive228/loopkit",
+      "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-30T08:46:55Z",
+      "url": "https://github.com/Archive228/loopkit",
+      "analysis": {
+        "positioning": "为AI编程助手提供33项实战技能，提升代码质量和开发效率。",
+        "useCases": [
+          "AI编程助手总是“猜”或“胡编乱造” → 它让助手加载相关技能，精准解决问题，停止瞎猜。",
+          "需要确保代码安全 → 它让助手进行OWASP审查、权限检查、输入验证等，增强代码安全性。",
+          "想让AI助手产出高质量提交和完善文档 → 它让助手遵循干净提交、生成变更日志等规范。"
+        ],
+        "audience": "使用Claude Code、Cursor、Codex、Gemini CLI等AI编程助手的开发者，寻求提升助手代码质量和可靠性。",
+        "quickStart": {
+          "prerequisites": "已安装并使用Claude Code, Cursor, Codex, 或 Gemini CLI 等AI编程助手。",
+          "steps": [
+            "`curl -fsSL https://raw.githubusercontent.com/Archive228/loopkit/main/install.sh | bash`"
+          ],
+          "note": "`FORCE=1` 可覆盖现有配置。"
+        },
+        "competitors": [
+          {
+            "name": "手动Prompt工程",
+            "method": "自行撰写详细Prompt或自定义技能文件",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供了一套经过实战验证的AI编程助手技能库，直接解决了AI助手“猜测”和“胡编乱造”的问题，让其产出更干净、更可靠的代码，极大提升开发体验和效率。场景非常具体且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "项目相对较新，目前Issue统计为0，社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-05T05:45:21.305Z"
+    },
+    {
+      "owner": "frankchiu-dev",
+      "repo": "claude-codex-usage-dashboard",
+      "fullName": "frankchiu-dev/claude-codex-usage-dashboard",
+      "description": "A local Windows dashboard for Claude Code and Codex usage limits.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-29T13:43:25Z",
+      "url": "https://github.com/frankchiu-dev/claude-codex-usage-dashboard",
+      "analysis": {
+        "positioning": "本地看板，实时监控Claude Code和Codex用量限额。",
+        "useCases": [
+          "你频繁使用Claude Code或Codex编码 → 它帮你实时掌握本地用量进度，避免因超限而中断。",
+          "你有多余的手机/平板 → 它帮你将其变为专用显示器，一目了然地查看AI助手用量。",
+          "你需要在局域网内其他设备上查看用量 → 它帮你通过Wi-Fi访问仪表盘，无需中断开发机操作。"
+        ],
+        "audience": "频繁使用Claude Code或Codex的开发者，希望通过轻量级本地工具实时监控API用量。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11或macOS，Node.js 18+，正确配置Claude Code `statusLine`，有本地Codex session数据。",
+          "steps": [
+            "git clone https://github.com/frankchiu-dev/claude-codex-usage-dashboard.git",
+            "cd claude-codex-usage-dashboard",
+            "node server.js"
+          ],
+          "note": "服务器启动后会提供本地和局域网URL，支持KOBO/E-ink模式（`/k`或`/u`）。"
+        },
+        "competitors": [
+          {
+            "name": "Anthropic官方用量面板",
+            "method": "Web端访问",
+            "models": "Claude系列",
+            "pricing": "免费（随官方服务提供）"
+          },
+          {
+            "name": "OpenAI官方用量面板",
+            "method": "Web端访问",
+            "models": "Codex/GPT系列",
+            "pricing": "免费（随官方服务提供）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙解决了Claude Code和Codex本地用量监控的痛点，采用无依赖的纯Node.js实现，部署简单，支持多种设备。但数据更新依赖实际使用和本地文件写入，存在一定滞后性。",
+        "isVibeCoding": true,
+        "communityActivity": "项目Issue开启/关闭比为2/0，表明有用户关注或遇到问题，但维护响应速度和活跃度待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-05T05:45:37.493Z"
+    },
+    {
+      "owner": "frecodecasti",
+      "repo": "gem5-branchpred",
+      "fullName": "frecodecasti/gem5-branchpred",
+      "description": "This is an read-only mirror of the gem5 simulator. The upstream repository is stored in https://gem5.googlesource.com, code reviews should be submitted to https://gem5-review.googlesource.com/. The mirrors are synchronized every 15 minutes.",
+      "language": "C++",
+      "topics": [],
+      "license": "BSD-3-Clause",
+      "createdAt": "2026-07-02T07:20:04Z",
+      "url": "https://github.com/frecodecasti/gem5-branchpred",
+      "analysis": {
+        "positioning": "高性能、模块化的计算机系统全系统模拟器。",
+        "useCases": [
+          "你研究计算机体系结构 → 它帮你精确模拟CPU、内存等硬件行为。",
+          "你设计新的处理器或微架构特性（如分支预测）→ 它帮你验证其性能与正确性。",
+          "你开发系统级软件（如操作系统内核）→ 它帮你提供一个可控的模拟环境进行测试与调试。"
+        ],
+        "audience": "适合计算机体系结构研究人员、处理器设计师及系统软件开发者，用于高性能模拟和实验。",
+        "quickStart": {
+          "prerequisites": "g++或clang, Python, SCons, SWIG, zlib, m4, (可选)protobuf",
+          "steps": [
+            "安装所有前置依赖。",
+            "执行 'scons build/<ARCH>/gem5.opt'，其中 ARCH 是目标架构 (如X86)。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "QEMU",
+            "method": "模拟器/虚拟机",
+            "models": "多种CPU架构，如X86, ARM等",
+            "pricing": "免费"
+          },
+          {
+            "name": "SimpleScalar",
+            "method": "指令集架构模拟器",
+            "models": "MIPS, ARM等（较老）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于BSD-3-Clause开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个底层的计算机体系结构模拟器，主要面向研究和开发，涉及复杂C++代码和命令行操作，对编码专业性要求较高。",
+        "isVibeCoding": true,
+        "communityActivity": "该仓库为只读镜像，Issues功能未启用，无法评估GitHub上的社区活跃度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-05T05:46:01.277Z"
+    },
+    {
+      "owner": "palmier-io",
+      "repo": "palmier-pro",
+      "fullName": "palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "topics": [
+        "ai-video",
+        "claude",
+        "macos",
+        "mcp",
+        "seedance2",
+        "swift",
+        "video-editor"
+      ],
+      "license": "GPL-3.0",
+      "createdAt": "2026-04-07T04:15:51Z",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "analysis": {
+        "positioning": "专为AI设计的macOS Apple Silicon视频剪辑工具。",
+        "useCases": [
+          "你想要通过AI快速生成视频内容 → 它帮你用最新模型在时间线内直接生成视频和图像。",
+          "你习惯用AI助手辅助创作 → 它让你通过MCP协议连接Claude/Codex/Cursor等Agent，在时间线共同编辑视频。",
+          "你追求极致的AI视频创作效率和深度集成体验 → 它提供Swift原生的AI驱动视频编辑器，灵感源自Premiere Pro。"
+        ],
+        "audience": "追求效率、喜爱AI辅助创作的macOS视频内容创作者、开发者及AI Agent用户。",
+        "quickStart": {
+          "prerequisites": "macOS 26 (Tahoe) on Apple Silicon",
+          "steps": [
+            "从GitHub下载并安装Palmier Pro.dmg。",
+            "通过MCP协议连接你现有的AI Agent（如Claude, Codex, Cursor），或使用内置Agent开始创作。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Adobe Premiere Pro",
+            "method": "传统专业非线性视频编辑软件，逐步集成AI功能",
+            "models": "Adobe Sensei AI",
+            "pricing": "订阅制"
+          },
+          {
+            "name": "CapCut",
+            "method": "免费易用的多平台视频编辑软件，内置多种AI辅助功能",
+            "models": "自研AI能力（如智能抠图、字幕生成、文本转语音等）",
+            "pricing": "免费/部分付费功能"
+          }
+        ],
+        "pricing": "免费（GPL-3.0开源许可，核心应用可下载使用）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "创新性强，专为macOS Apple Silicon和AI设计，深度整合主流AI Agent协议，开源且社区活跃，有Y Combinator背书，解决AI视频创作的痛点，潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度高，issue开启与关闭比例健康（68/31），项目有Y Combinator背书，并通过Discord和X保持积极的用户互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-05T05:46:50.327Z"
     }
   ]
 }

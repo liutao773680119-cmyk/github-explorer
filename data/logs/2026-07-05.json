@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-07-05",
+  "startedAt": "2026-07-05T05:42:21.967Z",
+  "finishedAt": "2026-07-05T05:47:51.162Z",
+  "durationSeconds": 329,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 14,
+    "skipped": 91,
+    "geminiCalls": 15,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-07-05T05:45:47.081Z",
+      "level": "warn",
+      "project": "oomol-lab/open-connector",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
