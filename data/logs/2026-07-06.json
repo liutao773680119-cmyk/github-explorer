@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-07-06",
+  "startedAt": "2026-07-06T06:03:18.233Z",
+  "finishedAt": "2026-07-06T06:06:54.469Z",
+  "durationSeconds": 216,
+  "success": true,
+  "stats": {
+    "fetched": 108,
+    "newProjects": 9,
+    "skipped": 99,
+    "geminiCalls": 10,
+    "statsUpdated": 108
+  },
+  "errors": [
+    {
+      "time": "2026-07-06T06:05:24.252Z",
+      "level": "warn",
+      "project": "Pluviobyte/rnskill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

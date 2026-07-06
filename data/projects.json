@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-05T05:46:50.356Z",
+  "updatedAt": "2026-07-06T06:06:22.478Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -61691,6 +61691,421 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-05T05:46:50.327Z"
+    },
+    {
+      "owner": "starmiaoa",
+      "repo": "chatgpt-register-sub2api",
+      "fullName": "starmiaoa/chatgpt-register-sub2api",
+      "description": "ChatGPT register to Sub2API exporter with workspace and alias support",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-06T02:09:15Z",
+      "url": "https://github.com/starmiaoa/chatgpt-register-sub2api",
+      "analysis": {
+        "positioning": "自动化注册ChatGPT账号并导出Sub2API兼容JSON。",
+        "useCases": [
+          "你需要批量注册ChatGPT账号 → 它帮你自动化注册、邮箱验证、加入workspace。",
+          "你希望高效管理ChatGPT账号及其workspace上下文 → 它帮你检查、刷新账号状态，避免混淆。",
+          "你想将注册好的ChatGPT账号集成到Sub2API平台 → 它帮你生成Sub2API兼容的JSON格式数据。",
+          "你只有一个Outlook主邮箱但想注册多个ChatGPT账号 → 它帮你利用Outlook别名批量注册。"
+        ],
+        "audience": "需要批量注册、管理ChatGPT账号，并将其导出为Sub2API格式的开发者或运维人员。",
+        "quickStart": {
+          "prerequisites": "Python, Git, curl-cffi, pyyaml",
+          "steps": [
+            "git clone <this-repo>",
+            "cd chatgpt-register-sub2api",
+            "python -m venv .venv && source .venv/bin/activate (或 PowerShell: .\\_.venv\\Scripts\\Activate.ps1)",
+            "pip install -e .",
+            "chatgpt-register init 生成配置文件",
+            "编辑config.yaml，配置邮箱池、代理、workspace ID",
+            "chatgpt-register run -c config.yaml -n <数量> -t <线程数> --workspace-id <UUID>"
+          ],
+          "note": "Windows PowerShell的虚拟环境激活命令不同。"
+        },
+        "competitors": [],
+        "pricing": "免费 (CLI工具，但需自备邮箱/代理等资源)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，功能完整，README文档详细且有安全提醒。星数和Issue活跃度较低，可能处于早期或高度小众自用阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低（Issue统计为0/0），可能处于早期或高度小众自用阶段，尚未形成活跃的社区交流。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-06T06:03:30.980Z"
+    },
+    {
+      "owner": "PKU-YuanGroup",
+      "repo": "OpenAI4S",
+      "fullName": "PKU-YuanGroup/OpenAI4S",
+      "description": "9.9 元豆包API复刻 Claude Science",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-06T00:34:35Z",
+      "url": "https://github.com/PKU-YuanGroup/OpenAI4S",
+      "analysis": {
+        "positioning": "低成本复刻Claude Science功能，提供Code-as-Action科学研究AI Agent",
+        "useCases": [
+          "你需要在科学研究中自动化代码执行和数据分析 → 它帮你利用豆包API，以图灵完备的代码实现复杂科学任务的自动化处理。",
+          "你希望用AI Agent进行复杂的数据探索和实验模拟，但受限于昂贵的模型API → 它让你用每月9.9元的低成本体验Claude Science级别的Agent能力。",
+          "你厌倦了传统AI Agent固定的工具调用模式 → 它提供Code-as-Action范式，允许Agent直接编写、执行任意Python/R代码，进行复杂逻辑控制。"
+        ],
+        "audience": "适合希望以极低成本（9.9元/月）获得高性能、图灵完备AI Agent能力，进行科学研究、数据分析和复杂任务自动化的开发者和科研人员。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+，Volcengine Ark账户并开通9.9元/月的豆包API“小档位”计划。",
+          "steps": [
+            "安装OpenAI4S项目依赖。",
+            "在OpenAI4S中选择并配置火山方舟的`ark`作为API Provider。",
+            "启动项目，开始利用Code-as-Action Agent进行科学任务。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统ReAct+`tool_use`范式AI Agent",
+            "method": "每次一个JSON工具调用，行动空间是固定的工具菜单。",
+            "models": "支持各类主流LLM（如OpenAI GPT系列等）。",
+            "pricing": "通常按模型API调用次数和Token计费，成本较高。"
+          },
+          {
+            "name": "Claude Science",
+            "method": "高级Agent能力，支持复杂科学任务处理。",
+            "models": "Claude系列旗舰模型。",
+            "pricing": "昂贵的旗舰模型API费用。"
+          }
+        ],
+        "pricing": "付费，项目本身开源免费。但使用时需支付火山方舟豆包API“小档位”计划的每月9.9元费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "核心代码基于纯Python标准库，拥有206个通过测试，代码质量和稳定性良好；项目由北大YuanGroup开发，有学术背景支撑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无公开Issue或已关闭Issue。",
+        "category": "AI Agent",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-06T06:03:46.544Z"
+    },
+    {
+      "owner": "shaohua-pan",
+      "repo": "StarWAM",
+      "fullName": "shaohua-pan/StarWAM",
+      "description": "A Generalizable Codebase for World-Action Models",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-06T02:45:36Z",
+      "url": "https://github.com/shaohua-pan/StarWAM",
+      "analysis": {
+        "positioning": "构建通用世界-动作模型（WAMs）的模块化研究代码库。",
+        "useCases": [
+          "你想研究机器人策略，结合生成式视频模型和动作预测 → 它提供模块化代码库，快速实验不同世界模型和动作表示。",
+          "你想将现有预训练视频生成模型用于机器人世界模型 → 它提供适配器，帮你快速集成Wan2.2或Cosmos-Predict2等作为机器人世界模型。",
+          "你想探索不同类型的世界-动作模型（WAM）架构（如多流、共享token或特征条件）→ 它提供多种WAM家族实现，方便比较和开发。"
+        ],
+        "audience": "机器人学习研究者和开发者，用于快速原型设计和实验新型机器人策略。",
+        "quickStart": {
+          "prerequisites": "Python 3.x, Git, 深度学习环境（如PyTorch, CUDA等，需自行配置）。",
+          "steps": [
+            "git clone https://github.com/shaohua-pan/StarWAM.git",
+            "cd StarWAM",
+            "pip install -e .",
+            "运行 examples/ 目录下提供的训练或推理脚本（例如，libero基准测试的配置）。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "各自独立的WAM模型研究实现",
+            "method": "通常是为特定论文或模型发布的独立代码库",
+            "models": "例如Motus, DreamZero, Video-IDM等特定WAM模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于Apache-2.0开源许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，模块化程度高，旨在解决世界-动作模型（WAMs）研究中代码复用和实验效率问题。但目前Star数不高（31），Issue空置，且声明为早期研究发布，未来内容有待完善。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue区尚未有任何互动，处于早期发布阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-06T06:04:04.898Z"
+    },
+    {
+      "owner": "CalmNoteDepot",
+      "repo": "MECCHA-VISION-ULTIMATE",
+      "fullName": "CalmNoteDepot/MECCHA-VISION-ULTIMATE",
+      "description": "🎯 Meccha Vision Ultimate — Ultimate Enhancement Tool for MECCHA CHAMELEON ESP · Aimbot · Fly Hack · Teleport · God Mode · Infinite Paint · Speed Hack · No Recoil",
+      "language": "Unknown",
+      "topics": [
+        "meccha-chameleon-download",
+        "meccha-chameleon-fps",
+        "meccha-chameleon-target-lock",
+        "meccha-chameleon-wh",
+        "meccha-chemeleon-fps-booster"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-04T20:05:45Z",
+      "url": "https://github.com/CalmNoteDepot/MECCHA-VISION-ULTIMATE",
+      "analysis": {
+        "positioning": "《MECCHA CHAMELEON》游戏辅助外挂，提供全方位作弊功能。",
+        "useCases": [
+          "玩家想透视所有敌人 → 它让你看到敌人的位置、血量和距离。",
+          "玩家想精准射击且无后座 → 它提供自瞄、无后坐力、无扩散。",
+          "玩家想在游戏中无敌且自由移动 → 它实现上帝模式、飞行、瞬移、加速。"
+        ],
+        "audience": "希望在《MECCHA CHAMELEON》游戏中轻松获胜、体验无敌快感的玩家。",
+        "quickStart": {
+          "prerequisites": "WinRAR 或 7-Zip (用于解压)",
+          "steps": [
+            "从 GitHub 下载压缩包。",
+            "使用解压工具提取文件。",
+            "运行辅助工具，通过 INSERT 或 F1 键调出菜单。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供游戏作弊功能，尽管有技术实现，但其性质与游戏公平性相悖，且可能违反游戏服务条款。",
+        "isVibeCoding": true,
+        "communityActivity": "无任何 Issue，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-06T06:04:25.300Z"
+    },
+    {
+      "owner": "HKUDS",
+      "repo": "OpenOPC",
+      "fullName": "HKUDS/OpenOPC",
+      "description": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-01T10:17:37Z",
+      "url": "https://github.com/HKUDS/OpenOPC",
+      "analysis": {
+        "positioning": "打造你的个人AI原生公司，实现自动化运营和成长。",
+        "useCases": [
+          "你做AI模型开发 → 它帮你招募AI员工、搭建团队，自动训练评估模型、开发Agent。",
+          "你做SaaS产品开发 → 它帮你组建开发团队，自动开发安卓App、网站、MVP、小程序等。",
+          "你做市场销售 → 它帮你自动进行外拓、制定销售策略、撰写提案、拓展渠道。"
+        ],
+        "audience": "希望利用AI实现业务全流程自动化，从研发到销售的内容创造者、创业者和企业管理者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "克隆项目仓库",
+            "安装依赖",
+            "运行项目"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目理念新颖，旨在通过AI实现企业全流程自动化，覆盖广泛应用场景，但目前社区活跃度较低，可能仍在早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启少且无关闭，表明项目尚处于起步或维护不频繁阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-06T06:04:49.338Z"
+    },
+    {
+      "owner": "dzhng",
+      "repo": "skills",
+      "fullName": "dzhng/skills",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-02T10:24:16Z",
+      "url": "https://github.com/dzhng/skills",
+      "analysis": {
+        "positioning": "AI Agent技能库，赋能软件工厂自动化构建",
+        "useCases": [
+          "你做AI驱动的软件项目规划 → 它帮你与AI智能代理协同，生成可验证的需求规范。",
+          "你构建复杂软件项目 → 它驱动AI代理，通过迭代和验证自动完成项目实施。",
+          "你关注项目代码和视觉质量 → 它在开发过程中自动进行代码重构、截图比对和审查。"
+        ],
+        "audience": "追求高度自动化、自主化软件开发的开发者和团队，尤其是在利用AI Agent构建“软件工厂”场景下。",
+        "quickStart": {
+          "prerequisites": "已安装支持Skills协议的AI代理环境（如Claude Code, Codex, Duet等）。",
+          "steps": [
+            "npx skills add dzhng/skills",
+            "让你的AI代理执行 /write-spec 命令，定义项目目标。",
+            "启动开发循环：/goal /implement-spec specs/<feature>"
+          ],
+          "note": "也可手动复制所需技能到AI代理的技能目录（如.claude/skills/）。"
+        },
+        "competitors": [],
+        "pricing": "免费，MIT开源协议。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目解决了AI Agent在软件开发中实现高度自动化和自主化的核心痛点，通过模块化的“技能”库，提供了从规划到实施、验证的完整工作流。理念前瞻，实现清晰，且有实际成果支撑，对构建“软件工厂”有示范意义。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低（2开0关），项目可能处于早期阶段或由个人主导开发，社区互动有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-06T06:05:05.647Z"
+    },
+    {
+      "owner": "514-labs",
+      "repo": "dnsglobe",
+      "fullName": "514-labs/dnsglobe",
+      "description": "Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers worldwide, on a world map in your terminal",
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "dns",
+        "dns-checker",
+        "dns-propagation",
+        "ratatui",
+        "rust",
+        "tui"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-05T01:03:37Z",
+      "url": "https://github.com/514-labs/dnsglobe",
+      "analysis": {
+        "positioning": "在终端用全球地图实时监测DNS传播状态。",
+        "useCases": [
+          "你刚更新了DNS记录 → 它帮你实时监测全球34个解析器上的传播进度。",
+          "你排查DNS解析故障 → 它帮你快速定位哪个区域的解析器有问题。",
+          "你需要命令行下的DNS传播监测工具 → 它提供带有世界地图的TUI，支持看守模式。"
+        ],
+        "audience": "DevOps工程师、网络管理员或任何需要快速诊断全球DNS传播状态的技术人员。",
+        "quickStart": {
+          "prerequisites": "Rust环境 (for cargo install), 或macOS/Linux系统 (for Homebrew install)",
+          "steps": [
+            "安装：`brew install 514-labs/tap/dnsglobe` (macOS/Linux) 或 `cargo install dnsglobe`",
+            "运行：`dnsglobe example.com`"
+          ],
+          "note": "macOS/Linux用户可使用Homebrew快速安装，也可从GitHub Releases下载预编译二进制文件。"
+        },
+        "competitors": [
+          {
+            "name": "dnschecker.org",
+            "method": "Web界面",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "whatsmydns.net",
+            "method": "Web界面",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "命令行下提供带世界地图的交互式DNS传播监测TUI，功能实用且设计感强。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚启动或社区活跃度较低，Issue开启2个但尚未关闭。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-06T06:05:19.600Z"
+    },
+    {
+      "owner": "synthetic-sciences",
+      "repo": "openscience",
+      "fullName": "synthetic-sciences/openscience",
+      "description": "The open-source AI workbench for scientific research",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "bun",
+        "cli",
+        "co-scientist",
+        "llm",
+        "ml",
+        "ml-engineering",
+        "open-source",
+        "research",
+        "research-tools",
+        "science",
+        "scientific-computing",
+        "typescript"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-03T15:06:45Z",
+      "url": "https://github.com/synthetic-sciences/openscience",
+      "analysis": {
+        "positioning": "开源AI科研工作台，驱动科学发现与实验全流程",
+        "useCases": [
+          "你做科学研究 → 它帮你读文献、写代码、跑实验、分析并撰写报告",
+          "你进行生物/物理/ML/化学特定领域研究 → 它提供领域专家Agent和290+技能，深度集成专业数据库",
+          "你需要在一个集成环境进行研究 → 它提供带文件树、编辑器、终端、历史记录的浏览器UI工作区"
+        ],
+        "audience": "科研人员、科学家、机器学习工程师以及需要AI辅助进行复杂科学研究的学生",
+        "quickStart": {
+          "prerequisites": "Node.js (npm或npx可用)",
+          "steps": [
+            "npm install -g @synsci/openscience",
+            "openscience （或 npx synsci）"
+          ],
+          "note": "首次运行需配置模型API密钥或使用免费演示模型"
+        },
+        "competitors": [],
+        "pricing": "免费使用AI工作台本身，但底层LLM调用需自备API密钥或使用部分免费演示模型",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "将LLM能力与科研工作流深度结合，提供全面的AI Agent和丰富的科研技能库，实现从文献到报告的全流程自动化，极大提升科研效率",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭数量远超开启数量，显示项目维护积极，响应速度良好",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-06T06:05:37.646Z"
+    },
+    {
+      "owner": "EKKOLearnAI",
+      "repo": "hermes-studio",
+      "fullName": "EKKOLearnAI/hermes-studio",
+      "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics ",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "chat-ui",
+        "dashboard",
+        "hermes",
+        "hermes-agent",
+        "hermes-web-ui",
+        "llm",
+        "multi-model",
+        "multi-platform",
+        "self-hosted",
+        "typescript",
+        "vue3",
+        "web-ui"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-04-11T07:38:18Z",
+      "url": "https://github.com/EKKOLearnAI/hermes-studio",
+      "analysis": {
+        "positioning": "Hermes Agent 的本地AI代理管理平台与桌面应用",
+        "useCases": [
+          "你与AI代理交互 → 它提供多会话、流式聊天、文件管理及本地持久化",
+          "你想本地化管理AI模型和代理配置 → 它提供统一仪表盘管理模型、凭证、技能和运行时设置",
+          "你想自动化AI代理任务或集成多平台 → 它帮你配置定时任务、Kanban和多平台渠道"
+        ],
+        "audience": "适合希望本地化部署、管理和运行AI代理，并进行会话、自动化和开发的用户",
+        "quickStart": {
+          "prerequisites": "Node.js (如果你选择npm方式)",
+          "steps": [
+            "全局安装 `hermes-web-ui` npm 包：`npm install -g hermes-web-ui`",
+            "运行 `hermes-web-ui start` 启动本地Web界面"
+          ],
+          "note": "也可直接下载桌面应用（Windows/macOS/Linux）"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，可本地部署）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "采用TypeScript和Vue3构建现代前端，集成AI代理、LLM多模型管理、自动化任务及本地化运行能力，提供桌面应用和Web控制台，技术栈前沿且功能强大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃，但目前几乎没有被解决/关闭（103开/0关）",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-06T06:06:22.453Z"
     }
   ]
 }
