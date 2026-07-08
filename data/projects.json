@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-07T05:47:19.636Z",
+  "updatedAt": "2026-07-08T04:52:05.749Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -62617,6 +62617,477 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-07T05:47:19.613Z"
+    },
+    {
+      "owner": "tryaxon",
+      "repo": "tryaxon-sdk",
+      "fullName": "tryaxon/tryaxon-sdk",
+      "description": "Open-source TypeScript SDK for building a private-by-default Unity and Godot copilot with local project scanning, OpenAI integration, code and scene generation, debugging, asset analysis, and review-first file patching.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-08T03:11:43Z",
+      "url": "https://github.com/tryaxon/tryaxon-sdk",
+      "analysis": {
+        "positioning": "Unity/Godot游戏AI副驾私有化开发SDK",
+        "useCases": [
+          "你想要生成Unity/Godot游戏代码 → 它帮你根据需求生成玩家控制器、游戏系统等引擎专用代码。",
+          "你需要理解项目中的脚本和场景 → 它帮你扫描本地项目并总结脚本和场景信息。",
+          "你关心代码变更的安全性 → 它帮你生成可审核的代码补丁而不是直接修改文件。",
+          "你希望自定义AI助手 → 它帮你构建自己的CLI、编辑器工具或自托管AI副驾。"
+        ],
+        "audience": "针对希望构建私有、上下文感知Unity/Godot AI编程助手的游戏开发者、工具工程师及团队。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js和npm，并拥有OpenAI API Key。",
+          "steps": [
+            "npm i tryaxon",
+            "编写TypeScript代码导入Axon，配置API Key和游戏引擎，然后调用generateCode等方法。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE插件，实时代码补全/建议，通用性强，但缺乏深度游戏引擎上下文和私有化部署选项。",
+            "models": "OpenAI Codex/GPT系列",
+            "pricing": "付费"
+          },
+          {
+            "name": "Tabnine",
+            "method": "IDE插件，AI代码补全，支持本地模型运行。通用性强，但游戏引擎特定上下文支持不足。",
+            "models": "内部模型",
+            "pricing": "部分免费/付费"
+          }
+        ],
+        "pricing": "免费（SDK开源），AI模型调用需自备OpenAI API Key并支付相关费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "理念独特，专注于游戏引擎上下文、私有化和可审核的代码变更，解决了行业痛点，潜力巨大。但项目非常新，Star数和社区活跃度极低，存在长期维护和发展的不确定性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue几乎没有讨论和贡献。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-08T04:49:04.210Z"
+    },
+    {
+      "owner": "sean-hayes58",
+      "repo": "pet-simulator-99-v2-script",
+      "fullName": "sean-hayes58/pet-simulator-99-v2-script",
+      "description": "Valex: Roblox Lua executor & script hub for Pet Simulator 99 on Windows. Auto-updating, keyless automation for grinding, hatching, and quests. Optimized for 2026.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-07-08T01:42:39Z",
+      "url": "https://github.com/sean-hayes58/pet-simulator-99-v2-script",
+      "analysis": {
+        "positioning": "《宠物模拟器99》Windows平台自动挂机脚本。",
+        "useCases": [
+          "你挂机刷金币经验 → 它自动为你高效刷取。",
+          "你想孵化宠物蛋 → 它帮你自动孵化。",
+          "你想抢购稀有宠物/道具 → 它帮你自动在玩家摊位“秒杀”。"
+        ],
+        "audience": "《宠物模拟器99》玩家，希望省去重复劳动，专注于游戏高级策略。",
+        "quickStart": {
+          "prerequisites": "安装 AutoHotkey 2.0+。",
+          "steps": [
+            "从项目链接下载 `.ahk` 脚本文件。",
+            "双击运行脚本。"
+          ],
+          "note": "仅支持 Windows 平台。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源 (GPL-3.0 协议)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对《Roblox宠物模拟器99》的特定痛点（重复劳动）提供自动化解决方案，直接有效，但技术范畴属常见游戏辅助工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 功能未启用，社区活跃度低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-08T04:49:15.766Z"
+    },
+    {
+      "owner": "Shpigford",
+      "repo": "knockoff",
+      "fullName": "Shpigford/knockoff",
+      "description": "Chrome extension that filters pseudo-brand junk out of Amazon. Buy from real, established brands.",
+      "language": "JavaScript",
+      "topics": [
+        "amazon",
+        "browser-extension",
+        "chrome-extension"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-06T15:06:06Z",
+      "url": "https://github.com/Shpigford/knockoff",
+      "analysis": {
+        "positioning": "亚马逊山寨品牌过滤器，助你专注正品购物体验。",
+        "useCases": [
+          "你在亚马逊搜索商品 → 它帮你自动识别并过滤山寨品牌，只显示真实品牌商品。",
+          "你想避免购买无信誉、无保修的“商标抢注”商品 → 它通过多重检测机制，隐藏或标记可疑商品。",
+          "你重视品牌质量和信誉，愿为正品支付更高价格 → 它帮你专注于知名品牌，提升购物效率和满意度。"
+        ],
+        "audience": "重视商品质量和品牌信誉的亚马逊消费者，以及厌倦山寨货干扰购物体验的用户。",
+        "quickStart": {
+          "prerequisites": "Chrome 或 Safari 浏览器",
+          "steps": [
+            "访问 Chrome Web Store 或 Safari 应用商店。",
+            "搜索 'Knockoff' 并点击 '添加到 Chrome' 或安装。"
+          ],
+          "note": "Safari 用户需通过 Xcode 运行并启用扩展，可能需允许未签名扩展。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目功能明确，通过本地内容脚本实现品牌过滤，不依赖服务器，保护用户隐私。识别机制结合了自定义列表、知名品牌列表和复杂的命名启发式算法，逻辑严谨且可配置。README提供了详细的安装和工作原理说明，支持社区贡献，整体设计实用且可靠。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度良好，Issue 解决率高（10个已关闭，6个开启），表明项目维护积极。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-08T04:49:31.966Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "X4G",
+      "fullName": "x4gKing/X4G",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-04T06:43:51Z",
+      "url": "https://github.com/x4gKing/X4G",
+      "analysis": {
+        "positioning": "VLESS/WebSocket隧道网关，带管理面板和流量限制。",
+        "useCases": [
+          "你想快速搭建一个高性能VLESS隧道服务器 → 它提供基于WebSocket/XHTTP的网关服务，易于部署。",
+          "你需要为多个用户或应用分配独立的隧道链接并限制流量 → 它提供漂亮的后台管理面板，可创建带MB/GB流量限制的专属链接。",
+          "你希望自定义VLESS连接的指纹、ALPN、端口等参数进行更隐蔽的穿透 → 它允许为每个链接单独配置这些高级选项。"
+        ],
+        "audience": "需要部署和管理VLESS隧道服务、分配用户流量、或进行定制化网络穿透的个人用户及小型团队。",
+        "quickStart": {
+          "prerequisites": "GitHub账号，Railway.app账号。",
+          "steps": [
+            "Fork项目到GitHub个人仓库。",
+            "通过Railway.app的“Deploy from GitHub repo”部署Fork后的仓库。",
+            "在Railway设置中启用服务的公共域名，确保`RAILWAY_PUBLIC_DOMAIN`变量正确设置。",
+            "访问`https://your-app.up.railway.app/dashboard`获取并管理VLESS链接。"
+          ],
+          "note": "所有链接和流量统计默认in-memory存储，服务重启将重置。生产环境建议连接外部数据库（Redis/PostgreSQL）实现持久化。"
+        },
+        "competitors": [
+          {
+            "name": "X-UI/Pannel-X (V2Ray/Xray管理面板)",
+            "method": "通常需VPS自部署",
+            "models": "支持VLESS/VMess/Trojan等多种协议",
+            "pricing": "免费"
+          },
+          {
+            "name": "手动部署V2Ray/Xray核心",
+            "method": "命令行配置",
+            "models": "支持VLESS/VMess/Trojan等多种协议",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源项目，部署于Railway平台可能涉及其付费套餐）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目提供了详细的README、部署教程和视频指导，功能特性清晰，部署流程简化。但Issue关闭率为0，表明社区问题解决的活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启率高但关闭率为0，社区问题解决活跃度较低，可能需依赖Telegram支持。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-08T04:49:48.791Z"
+    },
+    {
+      "owner": "anthropics",
+      "repo": "jacobian-lens",
+      "fullName": "anthropics/jacobian-lens",
+      "description": " Companion code for the global workspace interpretability paper",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-02T20:30:04Z",
+      "url": "https://github.com/anthropics/jacobian-lens",
+      "analysis": {
+        "positioning": "解释大模型内部激活如何影响其输出。",
+        "useCases": [
+          "你研究LLM可解释性 → 它提供一个“Jacobian Lens”方法来量化分析模型内部表示与最终输出的关系。",
+          "你调试大模型行为 → 它帮你“透视”模型中间层决策，理解特定激活如何导致模型说出某个词。",
+          "你探索模型的“全局工作空间”概念 → 它提供参考代码，重现论文实验结果并进行自定义探索。"
+        ],
+        "audience": "LLM可解释性研究员和高级开发者，用于深入理解、调试和实验大模型的内部运作机制。",
+        "quickStart": {
+          "prerequisites": "Python环境，pip，HuggingFace Transformers库。",
+          "steps": [
+            "安装项目：`pip install -e .`",
+            "加载HuggingFace解码器模型，然后选择应用预训练透镜或拟合新透镜来分析模型输出。"
+          ],
+          "note": "仅为论文的参考实现，不维护，不接受贡献。性能未优化，但支持HuggingFace解码器模型。"
+        },
+        "competitors": [
+          {
+            "name": "LIT (Language Interpretability Tool)",
+            "method": "提供多种交互式可视化，分析模型行为（如注意力、Saliency）。",
+            "models": "广泛支持各种NLP模型。",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "Captum",
+            "method": "PyTorch模型可解释性库，提供集成梯度、Saliency等归因方法。",
+            "models": "PyTorch模型。",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费开源",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能明确，是论文的参考实现，但官方明确声明不维护且不接受贡献，Issue活跃度低，不适合生产环境或持续开发。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启3个，无关闭，官方声明不维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-08T04:50:14.116Z"
+    },
+    {
+      "owner": "simonlin1212",
+      "repo": "Vibe-Research",
+      "fullName": "simonlin1212/Vibe-Research",
+      "description": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
+      "language": "TypeScript",
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "dashboard",
+        "fastapi",
+        "fintech",
+        "hk-stocks",
+        "investment-research",
+        "llm",
+        "mcp",
+        "python",
+        "react",
+        "stock-market",
+        "trading",
+        "us-stocks"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-05T06:30:55Z",
+      "url": "https://github.com/simonlin1212/Vibe-Research",
+      "analysis": {
+        "positioning": "个人AI投研Agent，覆盖A股/美股/港股，提供数据与AI分析。",
+        "useCases": [
+          "你每日复盘大盘和市场情绪 → 它帮你整合关键信息，并让你的AI自动复盘。",
+          "你深入研究A/美/港个股 → 它提供行情、财报、估值、资金面等数据，接入AI进行深度分析。",
+          "你希望快速掌握市场资讯 → 它聚合多源资讯，并让你的AI提炼当日要点。"
+        ],
+        "audience": "追求高效、个性化投研体验的个人投资者，尤其关注A股，并希望通过AI赋能决策。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, React 19环境（含Node.js）",
+          "steps": [
+            "克隆项目",
+            "安装Python和JavaScript依赖",
+            "配置AI接口",
+            "启动应用"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (开源项目)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能丰富，涵盖A/美/港股数据，集成AI Agent提升投研效率，技术栈主流，社区活跃度高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开闭比良好（5/4），维护者响应积极。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-08T04:50:30.182Z"
+    },
+    {
+      "owner": "Robbyant",
+      "repo": "lingbot-vision",
+      "fullName": "Robbyant/lingbot-vision",
+      "description": "Self-supervised learning for spatial perception",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-06T14:09:42Z",
+      "url": "https://github.com/Robbyant/lingbot-vision",
+      "analysis": {
+        "positioning": "自监督视觉预训练模型，强化密集空间感知能力。",
+        "useCases": [
+          "你做复杂场景的深度估计 → 它提供高精度视觉编码器，提升深度感知准确性。",
+          "你做物体边界识别与语义分割 → 它利用边界建模机制，输出更精确的分割结果。",
+          "你做视频中移动物体的跟踪 → 它通过冻结特征匹配，简化视频目标分割流程。"
+        ],
+        "audience": "专注于计算机视觉、机器人或3D感知领域，需要高性能密集空间特征的研发人员和研究者。",
+        "quickStart": {
+          "prerequisites": "Python环境",
+          "steps": [
+            "访问HuggingFace或ModelScope平台，选择所需LingBot-Vision模型。",
+            "加载预训练模型权重，将其作为视觉编码器集成到下游任务中。",
+            "基于预训练特征进行微调或直接推理，实现深度估计、分割等任务。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（基于Apache-2.0开源协议，模型可在HuggingFace等平台免费获取和使用）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个前沿的自监督视觉预训练模型，主要面向科研和深度定制开发。它提供了强大的基础能力，但并非开箱即用的通用工具，需要一定的机器学习背景知识和工程实现能力才能充分利用。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开闭比平衡（2/2），但总数不多，响应速度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-08T04:50:45.558Z"
+    },
+    {
+      "owner": "can1357",
+      "repo": "pon",
+      "fullName": "can1357/pon",
+      "description": "Python 3.14, compiled to metal — JIT & AoT native compiler and runtime in Rust. Cranelift backend, ruff parser, Green Tea GC, byte-exact differential testing against CPython.",
+      "language": "Rust",
+      "topics": [
+        "aot",
+        "compiler",
+        "cranelift",
+        "garbage-collector",
+        "jit",
+        "python",
+        "python3",
+        "runtime",
+        "rust"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-02T16:44:07Z",
+      "url": "https://github.com/can1357/pon",
+      "analysis": {
+        "positioning": "Python 3.14 原生JIT/AoT编译器和运行时，旨在实现Bun/V8级的性能。",
+        "useCases": [
+          "你运行Python脚本 → 它将代码直接编译成原生机器码，提供远超CPython的执行速度。",
+          "你想发布独立的Python应用 → 它帮你将Python代码编译成不依赖解释器的单个原生可执行文件。",
+          "你关心Python内存管理 → 它采用自研Green Tea GC，替代引用计数，提升效率。"
+        ],
+        "audience": "寻求高性能、独立部署Python应用，且关注底层编译优化的开发者。",
+        "quickStart": {
+          "prerequisites": "Rust toolchain (包含 cargo)",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/can1357/pon.git && cd pon`",
+            "创建示例Python文件：`printf 'def add(a, b):\\n    return a + b\\n\\nprint(\"hello, world\")\\nprint(add(2, 3))\\n' > hello.py`",
+            "JIT模式运行：`cargo run -p pon -- run hello.py`",
+            "AoT模式编译：`cargo run -p pon -- build hello.py -o hello`",
+            "运行编译后的原生可执行文件：`./hello`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "CPython",
+            "method": "解释器执行，引用计数（refcount）内存管理。",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "Nuitka",
+            "method": "将Python代码翻译成C/C++，然后编译成原生可执行文件或模块。",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "PyPy",
+            "method": "带有JIT编译器的Python解释器，实现高性能。",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "代码结构清晰，文档详细，目标宏大且技术栈先进（如Rust、Cranelift、自研GC），并强调字节级C++兼容性测试，显示出高水平的工程严谨性。虽然仍在早期开发阶段，但前景可期。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，项目处于早期开发阶段，响应速度待观察。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-08T04:51:06.990Z"
+    },
+    {
+      "owner": "Tencent-Hunyuan",
+      "repo": "Hy3",
+      "fullName": "Tencent-Hunyuan/Hy3",
+      "description": "Hy3 (295B A21B), a leading reasoning and agent model in its size, with great cost efficiency.",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-02T12:48:04Z",
+      "url": "https://github.com/Tencent-Hunyuan/Hy3",
+      "analysis": {
+        "positioning": "腾讯混元团队295B MoE推理与Agent模型，兼顾性能与成本效率。",
+        "useCases": [
+          "你想开发高性能AI应用 → 它提供强大的推理和Agent能力支持。",
+          "你在寻找成本效益高的AI模型 → 它以较小激活参数规模匹敌更大模型。",
+          "你需要提升现有产品的智能化水平 → 它提供可靠且性能卓越的AI模型集成。"
+        ],
+        "audience": "关注模型性能与成本效率的AI开发者、研究者及企业，尤其是在推理和Agent应用场景。",
+        "quickStart": {
+          "prerequisites": "Python及相关AI库环境（如PyTorch）",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/Tencent-Hunyuan/Hy3.git`",
+            "安装依赖：根据项目要求安装（通常是`pip install -r requirements.txt`）",
+            "参考官方文档运行推理或部署示例。"
+          ],
+          "note": "可通过Hugging Face、ModelScope等平台直接获取模型权重，并支持vLLM、SGLang等多种部署方案。"
+        },
+        "competitors": [
+          {
+            "name": "Mixtral 8x7B",
+            "method": "API调用或本地部署",
+            "models": "Mixtral 8x7B",
+            "pricing": "免费（开源）"
+          },
+          {
+            "name": "Llama 3 70B",
+            "method": "API调用或本地部署",
+            "models": "Llama 3 70B",
+            "pricing": "免费（开源）"
+          }
+        ],
+        "pricing": "免费（Apache 2.0 开源许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "由腾讯混元团队推出，项目结构清晰，文档详尽，提供多种部署和优化方案。模型性能卓越，且在成本效益上具有优势，具备较高的实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃，但目前无已关闭Issue，响应速度有待观察。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-08T04:51:27.533Z"
+    },
+    {
+      "owner": "langchain-ai",
+      "repo": "openwiki",
+      "fullName": "langchain-ai/openwiki",
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-06-22T23:48:26Z",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "analysis": {
+        "positioning": "基于AI智能体，为代码库自动生成及维护文档。",
+        "useCases": [
+          "你刚启动新项目 → 它帮你自动生成Agent相关基础文档。",
+          "你更新了代码 → 它帮你通过CI自动更新Agent文档，保持同步。",
+          "你需要了解代码库 → 它帮你交互式问答，快速获取Agent信息。"
+        ],
+        "audience": "使用AI Agent的开发者、团队，追求自动化、高质量代码文档的项目。",
+        "quickStart": {
+          "prerequisites": "Node.js (for npm)",
+          "steps": [
+            "安装CLI：`npm install -g openwiki`",
+            "初始化并配置模型：`openwiki --init`"
+          ],
+          "note": "支持GitHub Actions/GitLab CI自动更新文档。"
+        },
+        "competitors": [],
+        "pricing": "免费（工具本身），LLM服务商API费用自理。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "通过AI智能体自动化生成和更新代码文档，特别是针对Agent代码库，减少人工维护负担，支持多种LLM及CI集成，提升开发体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数远超关闭数（126/7），表明问题处理速度有待提升，社区活跃度中等偏低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-08T04:52:05.725Z"
     }
   ]
 }
