@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-08T04:52:05.749Z",
+  "updatedAt": "2026-07-09T05:49:08.798Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -63088,6 +63088,862 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-08T04:52:05.725Z"
+    },
+    {
+      "owner": "ThornRogueHypnotize",
+      "repo": "Meccha-Chameleon-MecchaSpecter",
+      "fullName": "ThornRogueHypnotize/Meccha-Chameleon-MecchaSpecter",
+      "description": "Tool for MECCHA CHAMELEON ESP · Aimbot · Fly Hack · Teleport · God Mode · Infinite Paint",
+      "language": "Unknown",
+      "topics": [
+        "mecca-chameleon",
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-hacks",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T02:23:43Z",
+      "url": "https://github.com/ThornRogueHypnotize/Meccha-Chameleon-MecchaSpecter",
+      "analysis": {
+        "positioning": "MECCHA CHAMELEON游戏的完整作弊工具。",
+        "useCases": [
+          "你玩捉迷藏找不到人 → 它帮你透视敌人（ESP、Wallhack）。",
+          "你想精准打击敌人 → 它帮你自动瞄准（Aimbot、Silent Aim）。",
+          "你想快速移动躲避追捕 → 它帮你飞行、瞬移、加速（Fly Hack、Teleport、Speed Hack）。",
+          "你想在游戏中无敌并自定义规则 → 它帮你开启上帝模式、无限颜料、隐身、延长比赛时间。"
+        ],
+        "audience": "适合想在《MECCHA CHAMELEON》游戏中轻松获胜、体验作弊快感的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)系统，已安装Steam版《MECCHA CHAMELEON》游戏，至少4GB内存，50MB存储空间，DirectX 11兼容显卡。",
+          "steps": [
+            "点击下载链接，解压压缩包。",
+            "以管理员身份运行可执行文件。",
+            "启动《MECCHA CHAMELEON》游戏。",
+            "按下 INSERT 或 F1 键打开菜单，按需切换功能。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一款针对热门游戏的作弊工具，它功能全面且有效，能满足特定用户群体需求。但其性质引发伦理争议，且社区活跃度（Issue）不透明。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue功能未被使用，无法从Issue统计判断社区活跃度。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:44:01.281Z"
+    },
+    {
+      "owner": "DoorDreamShout",
+      "repo": "Neverlose-CS2",
+      "fullName": "DoorDreamShout/Neverlose-CS2",
+      "description": "🔥 Neverlose-CS2 – premium internal cheat for CS2. Features rage aimbot, anti-aim, ESP, Lua scripting, skin changer, and more. One of the most powerful tools in the HvH scene. Trusted by thousands worldwide.",
+      "language": "Python",
+      "topics": [
+        "neverlose",
+        "neverlose-client",
+        "neverlose-cs2",
+        "neverlose-download",
+        "neverlose-free"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T01:49:46Z",
+      "url": "https://github.com/DoorDreamShout/Neverlose-CS2",
+      "analysis": {
+        "positioning": "CS2高级内部作弊工具，专为HvH（黑客对决）场景优化",
+        "useCases": [
+          "你希望在CS2对战中获得压倒性优势 → 它提供高级自动瞄准、反作弊和透视功能助你轻松制胜。",
+          "你追求自定义游戏体验 → 它支持Lua脚本，让你能根据需求扩展作弊功能。",
+          "你想在游戏中免费体验稀有皮肤 → 它提供皮肤更换器，让你无需付费即可使用任意皮肤。"
+        ],
+        "audience": "CS2玩家，尤其是在高水平作弊对局（HvH）中寻求绝对优势或进行游戏测试的群体。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统",
+          "steps": [
+            "点击下载链接 https://github.com/DoorDreamShout/Neverlose-CS2/releases/download/16/NL-CS2.7z 获取NL-CS2.7z压缩包。",
+            "解压文件，并按照内部说明进行安装和配置。"
+          ],
+          "note": "⚠️ 这是一个内部作弊工具，使用存在被VAC封禁的高风险，建议在小号上使用。"
+        },
+        "competitors": [],
+        "pricing": "免费提供 (此GitHub仓库提供免费下载版本，原产品通常为付费高级作弊)",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目为CS2作弊工具，其目的是破坏游戏公平性，与技术社区通常鼓励的创新、协作和积极贡献的精神相悖。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0开/0关，表明GitHub仓库上的Issue区完全不活跃，社区互动未通过标准Issue流程展现。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-09T05:44:21.399Z"
+    },
+    {
+      "owner": "PierIllusionist",
+      "repo": "MECCHA-CHAMELEON-CamoPhantom",
+      "fullName": "PierIllusionist/MECCHA-CHAMELEON-CamoPhantom",
+      "description": "Complete Hack Tool for MECCHA CHAMELEON ESP · Aimbot · Fly Hack · Teleport · God Mode · Infinite Paint",
+      "language": "Unknown",
+      "topics": [
+        "mecca-chameleon",
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T01:07:10Z",
+      "url": "https://github.com/PierIllusionist/MECCHA-CHAMELEON-CamoPhantom",
+      "analysis": {
+        "positioning": "《MECCHA CHAMELEON》游戏的一站式作弊工具。",
+        "useCases": [
+          "你玩《MECCHA CHAMELEON》想看穿墙体 → 它帮你透视敌人、显示距离和血量。",
+          "你玩《MECCHA CHAMELEON》想精准命中 → 它帮你自动瞄准、无后坐力、自动射击。",
+          "你玩《MECCHA CHAMELEON》想自由移动 → 它帮你空中飞行、瞬间传送、加速移动。",
+          "你玩《MECCHA CHAMELEON》想无限资源/无敌 → 它帮你开启上帝模式、无限颜料、瞬间伪装。"
+        ],
+        "audience": "追求游戏《MECCHA CHAMELEON》极致作弊体验，想轻松碾压对手的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10 或 11 操作系统",
+          "steps": [
+            "点击README中的下载链接，下载 `MecchaPhantom.zip` 压缩包。",
+            "解压并运行其中的程序。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目提供游戏作弊工具，虽然实现了特定技术功能，但其本质是破坏游戏公平性，与开源社区倡导的积极、协作、共赢精神相悖。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为 0/0，表明社区互动极少或未通过GitHub Issues进行。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:44:34.207Z"
+    },
+    {
+      "owner": "TrapCourierFold",
+      "repo": "TBH-Mod-Menu",
+      "fullName": "TrapCourierFold/TBH-Mod-Menu",
+      "description": "⚡ TBH-Mod-Menu – complete mod menu for TBH: Task Bar Hero. Features God Mode, unlimited money, EXP multiplier, instant kill, game speed hack, and more. Skip the grind and dominate the taskbar!",
+      "language": "Python",
+      "topics": [
+        "tbh-cheat",
+        "tbh-cheats",
+        "tbh-hack",
+        "tbh-mod-menu"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T01:17:19Z",
+      "url": "https://github.com/TrapCourierFold/TBH-Mod-Menu",
+      "analysis": {
+        "positioning": "TBH: Task Bar Hero游戏作弊工具，助你速通、称霸任务栏。",
+        "useCases": [
+          "你觉得游戏太肝或太难 → 它提供无敌、秒杀功能，让你轻松碾压敌人。",
+          "你厌倦了重复刷金币、经验 → 它能给你无限金钱、多倍经验，迅速毕业满级。",
+          "你嫌游戏节奏慢，想加快进度 → 它提供游戏加速，让你效率倍增，快速推进。"
+        ],
+        "audience": "适用于想在TBH: Task Bar Hero游戏中轻松享受、快速通关或体验作弊乐趣的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统。",
+          "steps": [
+            "从项目主页下载最新版本。",
+            "按照说明安装并启动Mod菜单。"
+          ],
+          "note": "⚠️ 警告：避免使用无限金钱功能，有被反作弊系统检测的风险；God Mode等功能相对安全。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个特定游戏的作弊工具，功能直接、明确，但偏向游戏“破坏”而非开发辅助，且有反作弊风险，适用场景有限。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue无报告（0/0），但有73星和近2k下载量，说明有一定用户群体，但社区互动不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:44:47.764Z"
+    },
+    {
+      "owner": "DisplayLead68",
+      "repo": "TBH-Cheat",
+      "fullName": "DisplayLead68/TBH-Cheat",
+      "description": "⚡ TBH-Cheat – complete cheat/trainer tool for TBH: Task Bar Hero. Features God Mode, unlimited money, EXP multiplier, instant kill, game speed hack, and more. Skip the grind and dominate the taskbar!",
+      "language": "Python",
+      "topics": [
+        "tbh-cheat",
+        "tbh-cheats",
+        "tbh-hack",
+        "tbh-mod-menu"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T00:56:31Z",
+      "url": "https://github.com/DisplayLead68/TBH-Cheat",
+      "analysis": {
+        "positioning": "TBH: Task Bar Hero 游戏的终极作弊工具，助你跳过肝，轻松霸服。",
+        "useCases": [
+          "你想快速升级角色 → 它帮你开启经验乘数，瞬间满级。",
+          "你在游戏中缺钱 → 它帮你获取无限金钱（但需谨慎使用，避免反作弊）。",
+          "你想轻松击败敌人 → 它帮你开启无敌模式和秒杀，所向披靡。",
+          "你觉得游戏节奏太慢 → 它帮你加速游戏进程。"
+        ],
+        "audience": "适合《TBH: Task Bar Hero》玩家，尤其是不想肝、想快速体验游戏乐趣或测试游戏机制的用户。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统",
+          "steps": [
+            "点击项目README中的下载链接（tbhchea.7z）进行下载。",
+            "解压后运行作弊工具，在游戏中激活所需功能。"
+          ],
+          "note": "仅支持Windows平台。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能明确，目标用户清晰，但作为游戏作弊工具，存在潜在风险（反作弊、封号），且其性质不属于主流技术实践范畴。README提示部分功能可能导致封号，表明其稳定性受限。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:45:04.908Z"
+    },
+    {
+      "owner": "Boltoachisel",
+      "repo": "TBH-Hack",
+      "fullName": "Boltoachisel/TBH-Hack",
+      "description": "⚡ TBH-Hack – complete hack/trainer tool for TBH: Task Bar Hero. Features God Mode, unlimited money, EXP multiplier, instant kill, game speed hack, and more. Skip the grind and dominate the taskbar!",
+      "language": "Python",
+      "topics": [
+        "tbh-cheat",
+        "tbh-cheats",
+        "tbh-hack",
+        "tbh-mod-menu"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T01:07:34Z",
+      "url": "https://github.com/Boltoachisel/TBH-Hack",
+      "analysis": {
+        "positioning": "针对热门闲置RPG《任务栏英雄》的辅助工具，助你轻松“开挂”称霸。",
+        "useCases": [
+          "你想快速升级，不想肝→它帮你多倍获取经验，快速满级。",
+          "你觉得游戏战斗太难，总是打不过→它提供无敌模式和秒杀功能，轻松通关。",
+          "你游戏内金币不足，升级受限→它提供无限金币、金币倍增，让你财富自由。"
+        ],
+        "audience": "适合《任务栏英雄》玩家，尤其是想跳过枯燥升级、快速体验游戏乐趣或挑战极限的用户。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统，已安装《任务栏英雄》游戏。",
+          "steps": [
+            "从GitHub Release下载`tbhchea.7z`文件并解压。",
+            "运行解压后的工具，并确保《任务栏英雄》游戏正在运行。"
+          ],
+          "note": "游戏有反作弊机制，特别是“无限金币”功能可能导致封号或存档损坏，请谨慎使用。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "基于Python开发的游戏辅助工具，涉及内存修改等编程技术，但主要面向最终用户，不属于通用开发框架或库。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue统计显示无人提问或反馈，社区活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:45:18.157Z"
+    },
+    {
+      "owner": "Voltoverbungalow37",
+      "repo": "Meccha-Chameleon-MecchaWraith",
+      "fullName": "Voltoverbungalow37/Meccha-Chameleon-MecchaWraith",
+      "description": "MECCHA CHAMELEON ESP · Aimbot · Fly Hack · Teleport · God Mode · Infinite Paint",
+      "language": "Unknown",
+      "topics": [
+        "mecca-chameleon",
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-hacks",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T02:40:43Z",
+      "url": "https://github.com/Voltoverbungalow37/Meccha-Chameleon-MecchaWraith",
+      "analysis": {
+        "positioning": "MecchaWraith 是热门捉迷藏游戏《MECCHA CHAMELEON》的终极作弊工具。",
+        "useCases": [
+          "你玩《MECCHA CHAMELEON》时想透视所有玩家 → 它帮你开启ESP（透视），看穿墙壁，掌握敌我位置。",
+          "你玩《MECCHA CHAMELEON》时想轻松击败对手 → 它帮你提供自瞄、无后座等战斗功能，大幅提高命中率。",
+          "你玩《MECCHA CHAMELEON》时想自由穿梭或快速移动 → 它帮你实现飞行、瞬移、加速，掌控全场。",
+          "你玩《MECCHA CHAMELEON》时想无敌或拥有无限资源 → 它帮你开启上帝模式、无限颜料，轻松获胜。"
+        ],
+        "audience": "适合希望在《MECCHA CHAMELEON》游戏中获得不公平优势、享受“胜利”快感的玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)操作系统，已安装《MECCHA CHAMELEON》Steam版，至少4GB RAM，50MB存储空间，兼容DirectX 11的GPU。",
+          "steps": [
+            "点击下载按钮，解压压缩包。",
+            "以管理员身份运行可执行文件。",
+            "启动《MECCHA CHAMELEON》游戏。",
+            "按 `INSERT` 或 `F1` 键打开作弊菜单，切换功能。",
+            "开始游戏并统治比赛。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本质是游戏作弊工具，虽然实现上可能需要技术，但其目的是破坏游戏公平性，不符合通常意义上的‘vibe coding’积极、创造性或社区贡献的氛围。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue区完全空白，表明项目几乎没有社区互动或反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:45:31.743Z"
+    },
+    {
+      "owner": "jcranokc",
+      "repo": "app-monitor",
+      "fullName": "jcranokc/app-monitor",
+      "description": "Local-first macOS app usage, storage, cleanup, update, and uninstall monitor.",
+      "language": "Swift",
+      "topics": [
+        "app-cleanup",
+        "local-first",
+        "macos",
+        "sqlite",
+        "swift",
+        "swiftui",
+        "usage-tracking"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-09T01:57:43Z",
+      "url": "https://github.com/jcranokc/app-monitor",
+      "analysis": {
+        "positioning": "macOS本地优先App管理工具：监控使用、存储、更新、清理、卸载。",
+        "useCases": [
+          "你想知道App使用情况、哪个用得最多 → 它帮你生成App使用报告、趋势图和热力图。",
+          "你想清理App残留文件、找出大文件垃圾 → 它帮你扫描App及相关文件，提供清理建议和大文件警告。",
+          "你想方便地更新或彻底卸载App → 它帮你检查更新，并指导你彻底卸载App及其支持文件。"
+        ],
+        "audience": "关注macOS App使用效率、存储空间和系统健康的普通用户及开发者。",
+        "quickStart": {
+          "prerequisites": "macOS 14+, Xcode命令行工具或Xcode (Swift 5.9+)。",
+          "steps": [
+            "./scripts/build_app.sh debug",
+            "open \"build/App Monitor.app\""
+          ],
+          "note": "为获得完整macOS App体验，建议通过脚本构建并运行App。"
+        },
+        "competitors": [
+          {
+            "name": "CleanMyMac X",
+            "method": "桌面应用",
+            "models": "N/A",
+            "pricing": "付费 (订阅制)"
+          },
+          {
+            "name": "AppCleaner",
+            "method": "桌面应用",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT许可，开源)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目基于现代SwiftUI/SQLite技术栈，功能完备且注重隐私，提供了全面的macOS App管理方案。但目前社区活跃度较低 (Issue数为0, Star数少)。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度非常低，目前无Issue互动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:45:46.694Z"
+    },
+    {
+      "owner": "withmarbleapp",
+      "repo": "os-taxonomy",
+      "fullName": "withmarbleapp/os-taxonomy",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "ODbL-1.0",
+      "createdAt": "2026-07-08T09:27:48Z",
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "analysis": {
+        "positioning": "儿童学习知识图谱，开放细粒度课程体系数据",
+        "useCases": [
+          "你构建个性化学习路径 → 它提供分龄、细粒度、带前置依赖的知识点数据，帮你智能推荐学习内容",
+          "你开发教育产品或课程 → 它提供多国课程标准对齐的开放学习图谱，帮你快速搭建教育内容体系",
+          "你作为家长或老师 → 它展示儿童学习知识点的层级和前置关系，帮你理解和规划学习进度"
+        ],
+        "audience": "教育科技开发者、课程设计师、教师、家长及研究人员，用于理解、构建或分析儿童学习路径。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/withmarbleapp/os-taxonomy.git`",
+            "进入数据目录：`cd os-taxonomy/data/`",
+            "访问JSON数据文件，如`topics.json`获取微主题，`dependencies.json`获取前置关系"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "开放、结构化、数据质量高，提供详细的微主题、前置关系及课程对齐数据，对教育领域开发者和研究者价值巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无活跃度，但项目获得一定星标数。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:46:09.349Z"
+    },
+    {
+      "owner": "wouterdebie",
+      "repo": "davit",
+      "fullName": "wouterdebie/davit",
+      "description": "A native macOS UI for Apple's platform",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-04T16:50:17Z",
+      "url": "https://github.com/wouterdebie/davit",
+      "analysis": {
+        "positioning": "macOS容器UI，直面Apple Silicon原生容器栈。",
+        "useCases": [
+          "你希望在macOS上管理Apple原生容器 → 它提供一个原生UI，让你轻松查看、启动、停止、删除容器。",
+          "你需要调试容器内部 → 它提供实时日志、统计、终端Shell和文件浏览器，让你深入排查问题。",
+          "你希望快速部署或更新容器镜像 → 它支持一键拉取、更新最新镜像，并基于镜像运行新容器。"
+        ],
+        "audience": "macOS开发者或系统管理员，尤其使用Apple Silicon原生容器栈时，需要一个直观的GUI管理工具。",
+        "quickStart": {
+          "prerequisites": "运行macOS Sonoma或更高版本的Apple Silicon Mac，并确保已启用Apple的`container`平台。",
+          "steps": [
+            "下载并安装Davit应用。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OrbStack",
+            "method": "macOS应用",
+            "models": "Docker/Kubernetes/Linux VM",
+            "pricing": "个人免费，商业付费"
+          },
+          {
+            "name": "Docker Desktop",
+            "method": "macOS应用",
+            "models": "Docker容器/Kubernetes",
+            "pricing": "小型团队免费，企业付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "深入结合macOS原生技术栈（SwiftUI, XPC, ContainerAPIClient），专门服务Apple Silicon容器平台，提供高度优化的原生UI和性能。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度高，Issue处理及时且解决迅速（0开启，7关闭）。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-09T05:46:27.700Z"
+    },
+    {
+      "owner": "V4bel",
+      "repo": "Januscape",
+      "fullName": "V4bel/Januscape",
+      "description": "",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-06T15:35:00Z",
+      "url": "https://github.com/V4bel/Januscape",
+      "analysis": {
+        "positioning": "KVM/x86 虚拟机逃逸漏洞 Januscape PoC。",
+        "useCases": [
+          "你评估云环境安全性 → 它帮你测试 KVM/x86 宿主机的虚拟机逃逸风险。",
+          "你进行安全审计 → 它帮你验证 KVM 宿主机对未授权访客的隔离能力。",
+          "你研究虚拟化安全 → 它为你提供 KVM/x86 虚拟机逃逸的实战案例和 PoC。"
+        ],
+        "audience": "适合安全研究员、渗透测试工程师、云服务提供商用于评估和验证 KVM/x86 虚拟化环境的安全性。",
+        "quickStart": {
+          "prerequisites": "宿主机为 KVM/x86 环境，访客机已安装 build-essential 及对应内核头文件。",
+          "steps": [
+            "在访客机中安装内核头文件并编译 PoC 模块（`make`）。",
+            "卸载原有 KVM 模块（`rmmod kvm_intel` 或 `rmmod kvm_amd`），然后加载 PoC 模块（Intel: `insmod poc.ko` / AMD: `insmod poc.ko amd=1`）。"
+          ],
+          "note": "Intel 和 AMD 平台加载 PoC 模块的方式略有不同。PoC 会导致宿主机内核崩溃，请勿在未经授权的系统上运行。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "极其专业的 KVM/x86 虚拟机逃逸漏洞研究与 PoC，涉及底层系统调用、内存管理和 CPU 架构，技术难度极高，是典型的硬核安全研究项目。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度一般，目前开放 5 个，关闭 1 个。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-09T05:46:44.748Z"
+    },
+    {
+      "owner": "op7418",
+      "repo": "guizang-material-illustration",
+      "fullName": "op7418/guizang-material-illustration",
+      "description": "归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。",
+      "language": "Unknown",
+      "topics": [
+        "agent",
+        "chart-visualization",
+        "chinese",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "explainer",
+        "illustration",
+        "image-generation",
+        "material-illustration",
+        "skill",
+        "social-media"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-07T13:57:13Z",
+      "url": "https://github.com/op7418/guizang-material-illustration",
+      "analysis": {
+        "positioning": "AI Agent专属，快速生成带字、材质化的解释图与图表。",
+        "useCases": [
+          "你需要文章配图 → 它帮你把核心概念生成带中文标签的材质解释图。",
+          "你有丑陋的图表截图 → 它帮你抽取语义，美化成归藏材质风格图表。",
+          "你要解释冷门概念 → 它帮你查参考、生成统一风格的视觉解释图。"
+        ],
+        "audience": "经常使用AI Agent，需要为文章、报告、社交媒体快速生成带中文标签的材质化解释图和美化图表的内容创作者、设计师及技术人员。",
+        "quickStart": {
+          "prerequisites": "Node.js 或 具备shell权限的AI Agent",
+          "steps": [
+            "执行 `npx skills add https://github.com/op7418/guizang-material-illustration --skill guizang-material-illustration`",
+            "或向具备shell权限的AI Agent发送：“帮我安装 guizang-material-illustration。请把 https://github.com/op7418/guizang-material-illustration 克隆到 ~/.claude/skills/guizang-material-illustration，安装完成后检查 SKILL.md、assets/、references/ 是否存在。”"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为AI Agent的配图Skill，能将抽象概念、数据、技术说明等转化为带中文标签的材质化解释图和美化图表，极大地提升内容生产效率和可视化效果，符合AI辅助创意和编码的趋势。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-09T05:47:09.136Z"
+    },
+    {
+      "owner": "SmileLikeYe",
+      "repo": "agent-chief",
+      "fullName": "SmileLikeYe/agent-chief",
+      "description": "Attention is your scarcest resource. Chief is the local-first layer that guards it — turning every agent, alert, and feed into one honest call: interrupt, or not.",
+      "language": "Python",
+      "topics": [
+        "harness",
+        "harness-engineering",
+        "llm",
+        "local-first"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-04T15:28:56Z",
+      "url": "https://github.com/SmileLikeYe/agent-chief",
+      "analysis": {
+        "positioning": "本地优先的智能总管，过滤Agent与通知，仅在关键时打扰。",
+        "useCases": [
+          "你被海量Agent、CI、RSS通知淹没 → 它帮你智能判断噪音，只在值得时打扰你",
+          "你想让Agent自动做事又怕失控 → 它帮你调度任务给Agent，并验证结果再报告",
+          "你在开会或深夜收到不合时宜的通知 → 它能根据你的场景（工作/休息）调整打扰阈值"
+        ],
+        "audience": "被各种Agent、自动化通知轰炸的开发者和技术人员，追求高效、专注的工作流。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+",
+          "steps": [
+            "pip install agent-chief"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源），LLM判断功能可能产生第三方API调用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "间接提升开发体验。它通过智能过滤和调度，大幅减少干扰，让开发者能更专注地进入“心流”状态，优化开发环境。",
+        "isVibeCoding": true,
+        "communityActivity": "项目非常新，目前Issue统计（开启0/关闭0）显示社区互动尚处于早期。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-09T05:47:27.697Z"
+    },
+    {
+      "owner": "nexu-io",
+      "repo": "motion-anything",
+      "fullName": "nexu-io/motion-anything",
+      "description": "✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "animation",
+        "claude",
+        "design-tools",
+        "figma-motion-alternative",
+        "motion-design",
+        "motion-graphics",
+        "webgl"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-06T14:56:20Z",
+      "url": "https://github.com/nexu-io/motion-anything",
+      "analysis": {
+        "positioning": "AI驱动的运动层，感性描述即可生成动画。",
+        "useCases": [
+          "你需要快速生成动态页面或启动视频 → 它能根据一句话描述智能生成。",
+          "你想精细调整现有组件动画 → 它提供页面上组件级的实时编辑能力。",
+          "你是设计师，寻求Figma动画替代方案 → 它以AI驱动提供更智能高效的动画创作。"
+        ],
+        "audience": "面向设计师、前端开发者和内容创作者，旨在通过AI和聊天界面简化动画制作与编辑。",
+        "quickStart": {
+          "prerequisites": "需要自备AI模型API Key（支持Claude Code, Codex, Gemini等）。",
+          "steps": [
+            "git clone https://github.com/nexu-io/motion-anything.git",
+            "cd motion-anything",
+            "[执行项目提供的单一启动命令]"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Figma (动画功能)",
+            "method": "UI界面设计与动画编辑",
+            "models": "无AI模型（基于设计师手动操作）",
+            "pricing": "部分免费，高级功能付费"
+          },
+          {
+            "name": "Adobe After Effects",
+            "method": "专业视频合成与动态图形制作",
+            "models": "无AI模型（基于设计师手动操作）",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费开源（Apache-2.0），无水印、无按次渲染费用，但AI模型调用需自备API Key付费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目描述极具吸引力，核心价值与用户痛点结合紧密。‘描述感受，AI生成动画’的愿景直观且场景化，技术细节和生态支持也很充分，非常Vibe。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 数量少（开启4/关闭1），社区活跃度有待观察，可能项目较新。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-09T05:47:47.734Z"
+    },
+    {
+      "owner": "jiguang132",
+      "repo": "storyai-3d-director-desk",
+      "fullName": "jiguang132/storyai-3d-director-desk",
+      "description": "A browser-based 3D director desk demo built with React, Vite, and Three.js.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-06T01:52:14Z",
+      "url": "https://github.com/jiguang132/storyai-3d-director-desk",
+      "analysis": {
+        "positioning": "轻量级浏览器3D导演台，用于电影预演和场景规划。",
+        "useCases": [
+          "你想快速搭建镜头预演 → 它帮你通过拖拽角色、机位、场景，在浏览器里完成。",
+          "你需要规划电影分镜和镜头 → 它帮你记录机位、截图，并进行基础镜头管理。",
+          "你想自定义3D角色和场景 → 它支持本地FBX/OBJ模型、全景图导入，并可配置模型库。"
+        ],
+        "audience": "电影制作人、视觉艺术家、游戏开发者，或任何需要进行3D场景预可视化和分镜规划的个人或团队。",
+        "quickStart": {
+          "prerequisites": "Node.js 和 npm",
+          "steps": [
+            "运行 `npm install` 安装依赖",
+            "运行 `npm run dev` 启动本地开发服务器"
+          ],
+          "note": "若默认端口被占用，Vite会自动顺延到下一个可用端口。"
+        },
+        "competitors": [
+          {
+            "name": "Blender",
+            "method": "专业桌面级3D建模/动画/渲染软件，功能强大但学习曲线陡峭，有Grease Pencil和Sequencer做预演。",
+            "models": "广泛支持各种3D模型格式，可内部创建。",
+            "pricing": "免费"
+          },
+          {
+            "name": "Storyboarder",
+            "method": "桌面应用，专注于2D手绘分镜，可导入3D模型作为参考，更偏向传统分镜制作。",
+            "models": "支持导入部分3D模型作为辅助。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，MIT许可，适合作为基础进行扩展。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数适中，功能概览清晰且有截图。测试覆盖度较高（304/312通过），但有少量已知失败用例。Issue数量极低（1开0关），表明可能处于早期演示阶段或作为扩展基础，而非活跃开发的成熟产品。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极低，可能处于早期阶段或维护者响应速度有待观察，但作为演示Demo而言可能较为稳定。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:48:05.705Z"
+    },
+    {
+      "owner": "Robbyant",
+      "repo": "lingbot-vla-v2",
+      "fullName": "Robbyant/lingbot-vla-v2",
+      "description": "From Foundation to Application",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-07T16:48:56Z",
+      "url": "https://github.com/Robbyant/lingbot-vla-v2",
+      "analysis": {
+        "positioning": "面向机器人应用的视觉-语言-动作基础模型，推动实际落地。",
+        "useCases": [
+          "你做复杂机器人任务开发 → 它提供多模态基础模型，简化感知、理解与执行。",
+          "你需要机器人适应多种硬件形态 → 它统一行动空间，支持手臂、灵巧手、移动基座等多元控制。",
+          "你希望机器人能可靠预测下一步行动 → 它通过预测动力学模型提升机器人在真实世界中的决策能力。"
+        ],
+        "audience": "机器人研发工程师、具身智能（Embodied AI）研究员。",
+        "quickStart": {
+          "prerequisites": "Miniconda/Anaconda, Python 3.12, PyTorch 2.8.0",
+          "steps": [
+            "git clone https://github.com/Robbyant/lingbot-vla-v2.git && cd lingbot-vla-v2",
+            "bash tools/create_train_env.sh"
+          ],
+          "note": "可自定义环境名或传入`flash-attn`本地安装包路径以优化安装。"
+        },
+        "competitors": [],
+        "pricing": "免费，基于Apache-2.0开源许可证，预训练模型可在Hugging Face和ModelScope下载。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档结构清晰，提供详细概述、亮点、安装指南及模型下载链接。README包含大量徽章和框架图片，信息丰富且专业，上手友好。",
+        "isVibeCoding": true,
+        "communityActivity": "已关闭Issue数量远超当前开启数（3:1），表明项目维护者积极响应并解决了问题。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-09T05:48:18.587Z"
+    },
+    {
+      "owner": "mira-wm",
+      "repo": "mira",
+      "fullName": "mira-wm/mira",
+      "description": "Code for MIRA: Multiplayer Interactive World Models with Representation Autoencoders",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-05T08:41:59Z",
+      "url": "https://github.com/mira-wm/mira",
+      "analysis": {
+        "positioning": "基于扩散模型的《火箭联盟》多人互动实时世界模型。",
+        "useCases": [
+          "你做AI游戏策略研究 → 它帮你提供高保真实时模拟环境，测试AI决策效果。",
+          "你开发游戏AI智能体 → 它帮你加速AI迭代，单GPU实现20 FPS的2v2比赛模拟。",
+          "你探索生成模型在互动模拟中的应用 → 它帮你提供50亿参数潜在扩散模型示例，展示世界模型构建。"
+        ],
+        "audience": "AI研究员和游戏AI开发者，用于在高性能模拟环境中开发和测试游戏智能体。",
+        "quickStart": {
+          "prerequisites": "NVIDIA GPU，需要安装pixi。",
+          "steps": [
+            "pixi run setup # 首次运行，创建环境并安装MIRA",
+            "pixi run test # 运行测试套件验证安装"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，项目代码采用Apache-2.0开源许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "技术非常前沿，通过50亿参数的潜在扩散模型实现实时多人游戏世界模型，并提供实时Demo和开放数据集。有Epic Games等大公司背书，但目前社区Issue活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启/关闭比为1/0，基本没有外部互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-09T05:48:34.673Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "3x-ui",
+      "fullName": "x4gKing/3x-ui",
+      "description": "",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-04T10:37:51Z",
+      "url": "https://github.com/x4gKing/3x-ui",
+      "analysis": {
+        "positioning": "一个基于Docker的Web面板，用于便捷管理多协议代理服务。",
+        "useCases": [
+          "你想快速部署一个代理服务器 → 它帮你通过Docker容器一键启动和配置。",
+          "你需要集中管理多个代理协议和用户 → 它帮你提供一个直观的Web界面进行增删改查。",
+          "你希望监控代理服务的运行状态和流量 → 它帮你提供面板进行实时查看。"
+        ],
+        "audience": "适合需要自建和管理个人或小型代理服务、对Docker部署有一定了解的用户。",
+        "quickStart": {
+          "prerequisites": "Docker环境",
+          "steps": [
+            "确保已安装Docker环境",
+            "拉取并运行项目提供的Docker镜像或通过Docker Compose部署"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "X-UI",
+            "method": "Web面板，Shell脚本一键部署",
+            "models": "VLESS, VMess, Trojan, Shadowsocks等",
+            "pricing": "免费"
+          },
+          {
+            "name": "手动配置V2Ray/Xray",
+            "method": "命令行配置，JSON文件编辑",
+            "models": "VLESS, VMess, Trojan, Shadowsocks等",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，一个开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "星标数尚可，但项目信息（描述、README）缺失，且Issue活跃度低（1开0关），可能维护不积极或仅供特定群体使用，需自行探索。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启1个，关闭0个，表明维护者响应不积极或项目处于稳定/低更新状态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-09T05:48:51.130Z"
+    },
+    {
+      "owner": "xiaotianfotos",
+      "repo": "homerail",
+      "fullName": "xiaotianfotos/homerail",
+      "description": "Voice-first local agent orchestration runtime for auditable DAG workflows.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-07T12:11:18Z",
+      "url": "https://github.com/xiaotianfotos/homerail",
+      "analysis": {
+        "positioning": "语音优先、本地部署、可审计的Agent工作流编排运行时。",
+        "useCases": [
+          "你想自动化家庭任务 → 它让你通过语音命令驱动本地Agent，执行可追溯的工作流。",
+          "你希望Agent任务透明可控 → 它将多Agent协作转化为DAG，提供详细回放与评估，而非黑盒聊天。",
+          "你需要Agent提供清晰反馈 → 它为你生成简洁易读的交互界面，而非原始日志或JSON。"
+        ],
+        "audience": "适合智能家居爱好者、本地服务开发者或追求高效自动化和任务可追溯性的个人用户。",
+        "quickStart": {
+          "prerequisites": "Node.js、Docker",
+          "steps": [
+            "安装CLI工具：`npm install -g homerail`",
+            "运行`hr start`启动本地服务"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "编程API，集成LLM与工具",
+            "models": "支持广泛LLM及模型",
+            "pricing": "免费（框架）"
+          },
+          {
+            "name": "CrewAI / AutoGen",
+            "method": "编程API，定义多Agent角色和任务",
+            "models": "支持主流LLM",
+            "pricing": "免费（框架）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目愿景清晰独特，强调语音优先、本地部署和可审计工作流，README详尽且设计精巧。但目前Issue关闭数为0，社区活跃度仍需观察，且与现有Agent框架的差异化仍有待市场验证。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue开启数多于关闭数（5/0），社区互动和问题解决效率有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-09T05:49:08.773Z"
     }
   ]
 }

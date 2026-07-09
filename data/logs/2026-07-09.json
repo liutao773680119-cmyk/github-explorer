@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-07-09",
+  "startedAt": "2026-07-09T05:43:49.277Z",
+  "finishedAt": "2026-07-09T05:50:24.741Z",
+  "durationSeconds": 395,
+  "success": true,
+  "stats": {
+    "fetched": 113,
+    "newProjects": 19,
+    "skipped": 94,
+    "geminiCalls": 20,
+    "statsUpdated": 113
+  },
+  "errors": [
+    {
+      "time": "2026-07-09T05:49:12.318Z",
+      "level": "warn",
+      "project": "Robbyant/lingbot-video",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
