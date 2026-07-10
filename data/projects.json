@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-09T05:49:08.798Z",
+  "updatedAt": "2026-07-10T05:43:12.062Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -63944,6 +63944,299 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-09T05:49:08.773Z"
+    },
+    {
+      "owner": "Robbyant",
+      "repo": "lingbot-world-v2",
+      "fullName": "Robbyant/lingbot-world-v2",
+      "description": "Infinite Worlds with Versatile Interactions",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-08T09:24:50Z",
+      "url": "https://github.com/Robbyant/lingbot-world-v2",
+      "analysis": {
+        "positioning": "基于LLM的无界虚拟世界，支持多智能体驱动与实时互动。",
+        "useCases": [
+          "你想要生成动态、复杂的虚拟世界 → 它帮你创建无界限、多类型交互（攻击、施法等）的虚拟场景。",
+          "你需要AI代理自动规划角色行为和生成环境 → 它通过“飞行员”和“导演”智能体，实现角色行为驱动和环境元素合成。",
+          "你追求实时、高帧率的AI世界模型 → 它提供低延迟、高刷新率（720p@60fps）的实时版本，确保流畅体验。"
+        ],
+        "audience": "虚拟世界开发者、游戏AI研究员、需要高级AI内容生成和智能体行为模拟的创作者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问国际版在线平台Reactor体验：https://www.reactor.inc/lingbot-world-v2",
+            "访问国内版移动平台灵光体验：https://www.lingguang.com/support"
+          ],
+          "note": "线上平台提供实时版本便捷体验，完整功能和官方Demo需参加WAIC 2026。"
+        },
+        "competitors": [],
+        "pricing": "License CC BY-NC-SA 4.0，免费用于非商业用途，商业使用需授权。部分在线Demo平台可能有限制。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目技术前沿，提供高度动态、实时交互的AI虚拟世界。文档清晰，有Demo、论文、模型链接，展示了扎实的研究背景和落地能力，但GitHub社区活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue数量极少（2开/0关），可能用户主要通过在线Demo体验而非GitHub提交问题。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-10T05:41:21.523Z"
+    },
+    {
+      "owner": "Robbyant",
+      "repo": "lingbot-video",
+      "fullName": "Robbyant/lingbot-video",
+      "description": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "language": "Python",
+      "topics": [
+        "image-to-video",
+        "lingbot-video",
+        "video-generation",
+        "world-models"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-08T13:52:08Z",
+      "url": "https://github.com/Robbyant/lingbot-video",
+      "analysis": {
+        "positioning": "首个开源MoE视频生成模型，为具身智能打造，连接视频与物理世界理解。",
+        "useCases": [
+          "你希望根据文本描述生成逼真且符合物理规律的视频 → 它帮你生成高质量、物理合理、甚至包含任务完成度的视频。",
+          "你正在开发具身智能应用，需要模拟现实世界交互或环境 → 它帮你提供具身智能所需的视频合成与物理世界理解能力。",
+          "你需要将图片或文本转换为视频，或对现有视频进行精炼 → 它提供T2I、T2V、TI2V以及视频精炼功能。"
+        ],
+        "audience": "具身智能研究者、AI视频内容创作者及开发者，用于生成高质量、符合物理规律的视频内容。",
+        "quickStart": {
+          "prerequisites": "Python环境，Git",
+          "steps": [
+            "git clone https://github.com/Robbyant/lingbot-video",
+            "cd lingbot-video",
+            "python -m venv .venv",
+            "source .venv/bin/activate",
+            "python -m pip install -U pip",
+            "pip install -r requirements.txt",
+            "pip install -e ."
+          ],
+          "note": "Rewriter部署可采用更高效后端。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "首个开源大规模MoE具身智能视频生成模型，技术亮点突出（高效MoE架构、海量具身数据训练、多重奖励系统确保物理合理性与任务完成），提供多任务支持、详细文档与模型下载。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚发布，Issue开启5个但尚未关闭，社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-10T05:41:37.089Z"
+    },
+    {
+      "owner": "oso95",
+      "repo": "scroll-world",
+      "fullName": "oso95/scroll-world",
+      "description": "A skill that turn any brand into a scrollable 3D world",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-06T21:28:58Z",
+      "url": "https://github.com/oso95/scroll-world",
+      "analysis": {
+        "positioning": "为任何品牌生成沉浸式可滚动的3D世界着陆页的AI Agent技能",
+        "useCases": [
+          "你是市场营销人员/品牌方 → 它帮你快速创建高度沉浸式的3D品牌/产品介绍页面。",
+          "你是Web开发者，想实现Apple官网那种丝滑滚动动画 → 它提供整套技术栈和资产生成，无需从零开发。",
+          "你是AI Agent开发者/用户 → 它作为Agent技能，扩展了Agent生成互动网页的能力。"
+        ],
+        "audience": "追求沉浸式交互体验的市场/品牌专家、Web开发者及AI Agent用户。",
+        "quickStart": {
+          "prerequisites": "Higgsfield CLI（需认证和积分）, ffmpeg/ffprobe, Python 3（可选）",
+          "steps": [
+            "安装Vercel skills CLI并添加此技能：`npx skills add oso95/scroll-world`",
+            "在AI Agent中调用`$scroll-world`或直接提出需求"
+          ],
+          "note": "Claude Code可作为插件安装，其他Agent通过skills CLI，也可手动复制技能文件夹。"
+        },
+        "competitors": [],
+        "pricing": "项目本身免费开源（MIT协议），但依赖的Higgsfield服务需要付费积分。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "利用AI Agent技能，生成电影级无缝滚动的3D品牌/产品落地页，技术前沿且效果惊艳，创造力十足。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues 开启 1 / 关闭 0，说明社区活跃度较低，可能处于早期阶段或维护不频繁。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-10T05:41:51.138Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "3x-ui-Upgrade",
+      "fullName": "x4gKing/3x-ui-Upgrade",
+      "description": "",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-08T06:13:23Z",
+      "url": "https://github.com/x4gKing/3x-ui-Upgrade",
+      "analysis": {
+        "positioning": "在Railway单端口部署3x-ui的解决方案。",
+        "useCases": [
+          "你希望在Railway上部署3x-ui但平台只支持一个公网端口 → 它帮你通过Nginx将3x-ui面板和VLESS/WebSocket代理流量复用到同一个端口。",
+          "你追求3x-ui部署配置的简洁高效 → 它帮你提供预配置的Dockerfile和Nginx模板，简化一键部署流程。",
+          "你担心部署后数据丢失 → 它帮你明确指出需挂载Volume实现配置和用户数据的持久化。"
+        ],
+        "audience": "希望在Railway平台部署3x-ui，且对单端口访问有需求的开发者或个人用户。",
+        "quickStart": {
+          "prerequisites": "GitHub账户, Railway账户",
+          "steps": [
+            "新建GitHub仓库，上传`Dockerfile`、`nginx.conf.template`和`start.sh`三个文件。",
+            "在Railway中选择该GitHub仓库进行部署，待构建完成后生成唯一的公共域名。",
+            "通过域名访问3x-ui面板（`/managepanel/`），配置VLESS Inbound（端口**8080**），并获取客户端连接。"
+          ],
+          "note": "如需持久化面板配置和用户数据，需在Railway中将Volume挂载到`/etc/x-ui`路径。"
+        },
+        "competitors": [],
+        "pricing": "免费 (部署平台Railway可能产生费用)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目精准解决了3x-ui在Railway单端口部署的痛点，通过Nginx实现流量复用，文档清晰，部署流程简洁高效，对特定用户群体价值高。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区互动较少（Issue统计显示0开0闭），可能因为项目功能专一，文档清晰，无需大量互动。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-10T05:42:11.189Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "PasarGuard",
+      "fullName": "x4gKing/PasarGuard",
+      "description": "",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-05T18:55:14Z",
+      "url": "https://github.com/x4gKing/PasarGuard",
+      "analysis": {
+        "positioning": "AI驱动的市场交易异常行为监控工具。",
+        "useCases": [
+          "你担忧市场交易中的欺诈行为 → 它帮你实时检测并预警异常交易模式。",
+          "你需要深入理解市场数据的异常波动 → 它帮你提供智能分析，识别潜在风险。",
+          "你希望自动化市场监管与合规性检查 → 它帮你部署一套自动化的监控和报告系统。"
+        ],
+        "audience": "关注金融市场、电商平台或大宗商品交易安全与合规性的分析师、风控人员及监管机构。",
+        "quickStart": {
+          "prerequisites": "Docker",
+          "steps": [
+            "git clone https://github.com/x4gKing/PasarGuard.git",
+            "cd PasarGuard",
+            "docker build -t pasarguard .",
+            "docker run -p 8080:8080 pasarguard"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Feedzai",
+            "method": "SaaS / API集成",
+            "models": "专有深度学习模型",
+            "pricing": "付费"
+          },
+          {
+            "name": "ThreatMetrix (LexisNexis)",
+            "method": "SaaS / API集成",
+            "models": "设备智能、行为生物识别",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费 (开源项目，但可能需要自建基础设施费用)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "358 Star 数尚可，但项目README为视频链接，不利于快速获取关键信息。语言为 Dockerfile，侧重部署而非应用逻辑本身。Issue 活跃度为零，社区参与度待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 数量为零，无法评估活跃度，可能缺乏社区互动与反馈。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-10T05:42:41.187Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "PasarGuard-Node",
+      "fullName": "x4gKing/PasarGuard-Node",
+      "description": "",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-06T07:02:26Z",
+      "url": "https://github.com/x4gKing/PasarGuard-Node",
+      "analysis": {
+        "positioning": "去中心化市场实时监控与异常预警系统",
+        "useCases": [
+          "你运营一个去中心化市场 → 它帮你实时查看商品、用户、订单等核心数据。",
+          "你担心市场出现异常交易或欺诈行为 → 它帮你监测潜在风险，并提供安全预警。",
+          "你希望快速部署市场数据监控方案 → 它提供Docker化节点，一键启动监控面板。"
+        ],
+        "audience": "去中心化市场的运营者、Web3 DApp开发者，用于监控交易数据、用户行为，防范安全风险。",
+        "quickStart": {
+          "prerequisites": "已安装Docker和Docker Compose",
+          "steps": [
+            "克隆项目仓库：`git clone [repo_url]`",
+            "进入项目目录：`cd PasarGuard-Node`",
+            "启动服务：`docker-compose up -d`",
+            "通过浏览器访问监控面板"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Dune Analytics / Nansen",
+            "method": "Web平台查询/分析",
+            "models": "公有链数据",
+            "pricing": "部分免费/付费"
+          },
+          {
+            "name": "Grafana + Prometheus",
+            "method": "自行搭建与集成",
+            "models": "通用指标数据，需自定义集成Web3数据",
+            "pricing": "免费 (开源)"
+          }
+        ],
+        "pricing": "免费 (开源项目，自行部署)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位独特，视频演示清晰易懂，Dockerfile部署便捷。但Star数中等，Issue活跃度较低，README直接链接视频，缺乏快速文字概览。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1，关闭0，社区活跃度较低，可能处于早期阶段或维护频率不高。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-10T05:43:00.204Z"
+    },
+    {
+      "owner": "SmtimesIWndr",
+      "repo": "gdid-reversal",
+      "fullName": "SmtimesIWndr/gdid-reversal",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-06T04:42:54Z",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+      "analysis": {
+        "positioning": "全面逆向分析Windows全局设备标识GDID的生成、存储和传输机制。",
+        "useCases": [
+          "你做隐私保护研究 → 它帮你理解微软如何通过GDID追踪用户设备。",
+          "你做安全取证分析 → 它帮你了解GDID在Windows系统中的真实生成和存储方式，避免误判。",
+          "你想验证微软官方声明 → 它帮你对比法庭文件与实际逆向结果，揭示GDID的真相。"
+        ],
+        "audience": "关注Windows隐私、安全取证、系统逆向工程的技术人员和研究者。",
+        "quickStart": {
+          "prerequisites": "运行Windows 11 (26200)的机器。",
+          "steps": [
+            "查看项目文档中 [§7 Find your own GDID] 部分。",
+            "通过一次注册表读取操作，获取你设备的GDID。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "深入揭示Windows核心系统（GDID）的内部工作原理，涉及逆向工程、ETW追踪、PDB符号解析等底层技术，并对官方声明和法庭证据进行求证与反驳，技术挑战性和洞察力强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示项目活跃度较低 (1个开启，0个关闭)。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-10T05:43:12.041Z"
     }
   ]
 }
