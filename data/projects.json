@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-10T05:43:12.062Z",
+  "updatedAt": "2026-07-11T04:47:57.123Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -64237,6 +64237,563 @@
         "category": "安全"
       },
       "analyzedAt": "2026-07-10T05:43:12.041Z"
+    },
+    {
+      "owner": "mrbear1024",
+      "repo": "ai-content-kb",
+      "fullName": "mrbear1024/ai-content-kb",
+      "description": "A review-first reference architecture for AI-assisted personal content knowledge systems",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-11T01:07:01Z",
+      "url": "https://github.com/mrbear1024/ai-content-kb",
+      "analysis": {
+        "positioning": "AI赋能、审查优先的个人内容知识库参考架构。",
+        "useCases": [
+          "你研究写作需要区分原始资料与个人观点 → 它帮你通过明确的 provenance 分层存储，确保内容来源清晰可信。",
+          "你利用AI生成内容担心污染核心知识 → 它帮你将AI输出路由至`.kb/staging/`，经审查后再融入主库，避免意外“事实化”。",
+          "你希望构建一个既有引用出处又可读性强的知识库 → 它帮你将整理后的内容发布到`wiki/`层，作为人类可浏览的带引用界面。"
+        ],
+        "audience": "适合从事研究、写作、教学和出版的专业人士，尤其是需要结构化、审查式地管理个人知识、外部证据及AI生成内容的复杂关系的用户。",
+        "quickStart": {
+          "prerequisites": "Git",
+          "steps": [
+            "git clone https://github.com/mrbear1024/ai-content-kb.git",
+            "cd ai-content-kb"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念独特、架构设计清晰且文档详尽，但目前社区活跃度极低（星标和Issue数量少），尚处于非常早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，星标仅12，无开放或关闭Issue，项目处于早期探索或个人维护阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-11T04:44:34.451Z"
+    },
+    {
+      "owner": "ZhangSir9901",
+      "repo": "BBRv3-Onekey",
+      "fullName": "ZhangSir9901/BBRv3-Onekey",
+      "description": "Debian 12/13 一键安装 XanMod BBRv3 智能优化脚本",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-11T01:53:19Z",
+      "url": "https://github.com/ZhangSir9901/BBRv3-Onekey",
+      "analysis": {
+        "positioning": "Debian 12/13网络调优，一键安装XanMod BBRv3并智能优化。",
+        "useCases": [
+          "你优化VPS网络 → 它根据出网路由精准识别，自动推荐最佳BBRv3调优方案。",
+          "你在Debian 12安装包遇到404 → 它自动适配LTS分支，解决“Unable to locate package”报错。",
+          "你的境外VPS网络抖动导致安装失败 → 它内置5次自动重试，提高安装成功率。"
+        ],
+        "audience": "拥有Debian 12/13系统VPS，追求网络速度优化（如建站、翻墙）的用户。",
+        "quickStart": {
+          "prerequisites": "Debian 12/13系统，root用户权限",
+          "steps": [
+            "登录到您的Debian 12/13服务器（需root用户）",
+            "运行一键安装命令 `bash <(curl -fsSL https://raw.githubusercontent.com/ZhangSir9901/BBRv3-Onekey/main/bbr3.sh)`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "脚本设计考虑周全，集成智能判断、错误处理和用户引导，解决多个实际痛点，实用性强，但技术复杂度相对有限。",
+        "isVibeCoding": true,
+        "communityActivity": "目前无公开Issue，社区活跃度待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-11T04:44:46.607Z"
+    },
+    {
+      "owner": "Nanako0129",
+      "repo": "pilotfish",
+      "fullName": "Nanako0129/pilotfish",
+      "description": "Multi-model orchestration layer for Claude Code — the frontier model plans, cheaper models execute, verification guards quality. One-prompt install.",
+      "language": "Unknown",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "multi-agent",
+        "orchestration"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-08T10:53:34Z",
+      "url": "https://github.com/Nanako0129/pilotfish",
+      "analysis": {
+        "positioning": "Claude多模型编排层，用廉价模型高效执行代码任务，前沿模型规划验证。",
+        "useCases": [
+          "你用Claude前沿模型（如Fable 5）做复杂编程 → 它帮你用更便宜模型执行大部分代码任务，大幅降低API成本。",
+          "你发现Claude编程成本过高，且大部分是低价值任务 → 它帮你智能分配给高效低成本模型，提高效率并保障质量。",
+          "你想平衡AI编程质量与成本，避免前沿模型滥用 → 它帮你实现智能模型分工和验证，确保项目经济高效。"
+        ],
+        "audience": "使用Claude进行编程，关注成本效率、质量保障的开发者及AI Agent构建者。",
+        "quickStart": {
+          "prerequisites": "Claude API Key，合适的Claude模型访问权限（Fable 5/Opus/Sonnet/Haiku）",
+          "steps": [
+            "执行一键安装命令（详情参考官方文档）",
+            "配置三个核心文件以定义模型行为和任务流"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "直接使用Claude前沿模型",
+            "method": "所有任务均由Claude Fable 5/Opus等模型完成",
+            "models": "Claude Fable 5 / Opus",
+            "pricing": "付费，成本最高"
+          },
+          {
+            "name": "Sonnet执行器咨询Fable模型",
+            "method": "廉价模型执行，前沿模型作为顾问提供指导",
+            "models": "Claude Sonnet (执行), Claude Fable 5 (顾问)",
+            "pricing": "付费，成本低于纯Fable，高于pilotfish方案"
+          }
+        ],
+        "pricing": "免费（开源工具），但依赖Anthropic Claude付费API。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "精妙利用Anthropic模型分层特性，以优雅配置实现成本优化与质量保障，场景明确，上手简单，且有官方性能数据背书。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度一般，3个已关闭Issue表明开发者有响应和维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-11T04:45:19.488Z"
+    },
+    {
+      "owner": "Doriandarko",
+      "repo": "texts-to-transformer",
+      "fullName": "Doriandarko/texts-to-transformer",
+      "description": "Train a tiny Transformer from scratch on your iMessage history, entirely on your Mac.",
+      "language": "Python",
+      "topics": [
+        "apple-silicon",
+        "imessage",
+        "local-first",
+        "machine-learning",
+        "mlx",
+        "transformer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-08T08:12:17Z",
+      "url": "https://github.com/Doriandarko/texts-to-transformer",
+      "analysis": {
+        "positioning": "在Mac本地训练专属iMessage聊天风格Transformer模型。",
+        "useCases": [
+          "你好奇AI模型如何从零训练且注重隐私 → 它帮你安全地在本地Mac上，用你的iMessage数据训练一个迷你Transformer。",
+          "你想拥有一个能模仿自己说话风格的私人AI助手 → 它帮你构建一个学习你用词、节奏和习惯的本地模型，仅供私用。",
+          "你希望了解数据处理到模型部署的完整机器学习流程 → 它提供从iMessage数据快照、文本处理、分词器训练到模型训练、评估和本地聊天的全套解决方案。"
+        ],
+        "audience": "对AI/机器学习有兴趣、注重数据隐私的Apple Silicon Mac用户，想在本地从零开始训练个人化语言模型。",
+        "quickStart": {
+          "prerequisites": "Apple Silicon Mac (M1或更新), macOS 14+, 推荐16 GB统一内存, 足够磁盘空间, Homebrew或uv安装器, Terminal/Codex等应用需有完全磁盘访问权限。",
+          "steps": [
+            "git clone https://github.com/Doriandarko/texts-to-transformer",
+            "cd texts-to-transformer && uv install --system"
+          ],
+          "note": "项目基于Python 3.11和MLX 0.32.0，不依赖PyTorch，且需要Apple Silicon Mac的硬件环境。"
+        },
+        "competitors": [
+          {
+            "name": "Hugging Face Transformers (本地训练)",
+            "method": "Python库，需要用户自行组织数据和训练逻辑",
+            "models": "支持各种Transformer模型，通常基于预训练模型微调",
+            "pricing": "免费"
+          },
+          {
+            "name": "Ollama/LM Studio",
+            "method": "提供本地运行LLM的能力，通过下载模型包运行",
+            "models": "各类开源LLM模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专为Apple Silicon Mac用户打造，提供从iMessage数据到Transformer模型训练的完整本地化、隐私友好解决方案。技术栈现代（MLX），目标明确且流程清晰，对特定用户群吸引力强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计显示社区活跃度目前较低，无开启或关闭的Issue。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-11T04:45:40.298Z"
+    },
+    {
+      "owner": "ronak-create",
+      "repo": "FableCut",
+      "fullName": "ronak-create/FableCut",
+      "description": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agent",
+        "canvas",
+        "claude",
+        "ffmpeg",
+        "javascript",
+        "llm",
+        "mcp",
+        "nle",
+        "reels",
+        "video-editing",
+        "video-editor",
+        "zero-dependency"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-06T16:18:57Z",
+      "url": "https://github.com/ronak-create/FableCut",
+      "analysis": {
+        "positioning": "浏览器内AI驱动的零依赖视频编辑器，JSON时间线可编程。",
+        "useCases": [
+          "你有一个AI Agent模型 → 它帮你通过JSON驱动视频剪辑，实现自动化内容生成。",
+          "你想快速搭建一个浏览器内视频编辑功能 → 它提供零依赖的核心引擎和丰富编辑能力。",
+          "你需要在人机协作模式下编辑视频 → 它允许AI与人同步操作JSON时间线并实时预览。"
+        ],
+        "audience": "对AI Agent驱动视频编辑、零依赖浏览器NLE开发或高级内容自动化感兴趣的开发者和创作者。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js",
+          "steps": [
+            "`git clone https://github.com/ronak-create/FableCut.git`",
+            "`cd FableCut`",
+            "`node server.js`",
+            "在浏览器中打开提示的地址"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统SaaS AI视频工具（如RunwayML, HeyGen）",
+            "method": "SaaS平台操作，多数通过Web UI或API调用",
+            "models": "多数采用内部或特定模型，不开放",
+            "pricing": "通常为付费订阅模式"
+          },
+          {
+            "name": "桌面非线性编辑器（如Premiere Pro, DaVinci Resolve）",
+            "method": "桌面应用，手动操作或脚本扩展",
+            "models": "无原生AI Agent直接集成能力",
+            "pricing": "部分免费（如DaVinci Resolve），多数专业版付费"
+          }
+        ],
+        "pricing": "免费，MIT开源许可证",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目核心在于AI Agent通过JSON驱动浏览器内视频编辑，零依赖架构和实时更新UI极具吸引力。丰富的Premiere级编辑功能也令人印象深刻。Issue未处理是唯一不足。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前开启的6个Issue均未关闭或回复。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-11T04:45:56.914Z"
+    },
+    {
+      "owner": "WeZZard",
+      "repo": "jlens-qwen36",
+      "fullName": "WeZZard/jlens-qwen36",
+      "description": "J-space / Jacobian-lens visualizer for Qwen3.6-27B (4-bit) on Apple Silicon, ported to Apple MLX",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-07T18:33:14Z",
+      "url": "https://github.com/WeZZard/jlens-qwen36",
+      "analysis": {
+        "positioning": "Apple Silicon上Qwen3.6模型雅可比透镜可视化调试器",
+        "useCases": [
+          "你希望理解大模型内部推理过程 → 它帮你可视化模型在每个层和位置“关注”哪些词汇，揭示潜在意图。",
+          "你发现大模型输出与预期不符 → 它帮你调试模型在输出前压制或选择性处理了哪些概念，找到问题根源。",
+          "你在与模型进行实时对话 → 它帮你实时展示模型在生成每个新词时内部“思维”的变化轨迹。"
+        ],
+        "audience": "大模型研究员、开发者，尤其关注LLM可解释性、内部机制和行为调试的用户。",
+        "quickStart": {
+          "prerequisites": "Apple Silicon Mac，约24GB空闲RAM",
+          "steps": [
+            "克隆项目并安装依赖：`git clone https://github.com/WeZZard/jlens-qwen36.git && cd jlens-qwen36 && uv sync`",
+            "下载并重组预训练的雅可比透镜（约3.3GB）：`gh release download v0.2-fulldepth --repo WeZZard/jlens-qwen36 --pattern '*.npz.part-*' --dir data/lens/ && cat data/lens/*.npz.part-* > data/lens/lens.npz && rm data/lens/*.part-*`",
+            "启动本地服务器：`uv run python -m uvicorn jlens_qwen.serve:app --host 127.0.0.1 --port 8765`"
+          ],
+          "note": "模型（Qwen3.6-27B）首次运行时自动从HuggingFace下载（约15GB）。"
+        },
+        "competitors": [
+          {
+            "name": "Logit Lens (逻辑透镜)",
+            "method": "通过直接观察最终层logit值来推断模型意图，是更基础的解释方法。",
+            "models": "不限特定模型，普遍适用于各类LLM。",
+            "pricing": "免费（为一种技术/方法）"
+          }
+        ],
+        "pricing": "免费（开源项目，自托管）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "解决了大模型可解释性这一核心难题，通过创新的雅可比透镜方法和定制MLX Metal内核，实现了在Apple Silicon上的高性能可视化调试。提供了实时在线体验，技术深度和实用价值兼具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前已关闭1个Issue，无开放Issue，但项目提供在线演示且技术深度较高。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-11T04:46:17.142Z"
+    },
+    {
+      "owner": "gostonx",
+      "repo": "uninstally",
+      "fullName": "gostonx/uninstally",
+      "description": "A clean, native macOS uninstaller. Completely removes apps and every file they leave behind using smart bundle-identifier detection. SwiftUI + Finder extension.",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-08T17:08:34Z",
+      "url": "https://github.com/gostonx/uninstally",
+      "analysis": {
+        "positioning": "macOS原生应用卸载工具，彻底清除残留文件。",
+        "useCases": [
+          "你想彻底删除macOS应用及其所有残留文件 → 它帮你智能检测并清除缓存、偏好设置等。",
+          "你想快速卸载macOS应用，不打开额外工具 → 它提供Finder右键菜单，一键直达卸载。",
+          "你管理Homebrew安装的包，想统一卸载 → 它帮你列表并清除Homebrew安装的Cask和Formulae。",
+          "你手动删除了应用，担心有残留 → 它帮你扫描系统，找出并清理所有孤立文件。"
+        ],
+        "audience": "macOS用户，尤其是对系统整洁度有要求、需要彻底卸载应用和管理Homebrew包的人。",
+        "quickStart": {
+          "prerequisites": "Homebrew",
+          "steps": [
+            "brew install --cask uninstally"
+          ],
+          "note": "初次使用时Homebrew可能会要求信任gostonx/tap，按提示操作即可。"
+        },
+        "competitors": [
+          {
+            "name": "AppCleaner",
+            "method": "拖拽/查找",
+            "models": "null",
+            "pricing": "免费"
+          },
+          {
+            "name": "CleanMyMac X (卸载功能)",
+            "method": "GUI应用内",
+            "models": "null",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "原生体验，功能全面（包括Finder集成、Homebrew支持），安装便捷，多语言和隐私保护考虑周全，SwiftUI实现体现了现代macOS开发趋势。",
+        "isVibeCoding": true,
+        "communityActivity": "项目发布初期活跃度高，但目前Issue量较低（2开1闭），反馈和迭代仍需观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-11T04:46:27.627Z"
+    },
+    {
+      "owner": "wassermanproductions",
+      "repo": "motion-previs-studio",
+      "fullName": "wassermanproductions/motion-previs-studio",
+      "description": "Open-source desktop app for AI-film motion, depth, pose, and camera-move previsualization.",
+      "language": "TypeScript",
+      "topics": [
+        "aiprevis",
+        "aivideocreation",
+        "previsualization"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-06T07:30:10Z",
+      "url": "https://github.com/wassermanproductions/motion-previs-studio",
+      "analysis": {
+        "positioning": "AI电影预演桌面应用，提取视频运动、深度、姿态、运镜。",
+        "useCases": [
+          "你想用AI生成视频，但缺乏精确控制 → 它帮你从参考视频提取姿态、深度、运镜等控制层，实现高精度预演。",
+          "你希望AI电影角色动作更自然逼真 → 它帮你导出标准的OpenPose骨骼动画，供AI模型精准复刻人体姿态。",
+          "你需要将现实镜头的运镜精准复制到AI场景 → 它帮你从视频背景中分离并解析出纯粹的摄像机运动轨迹，避免主体干扰。"
+        ],
+        "audience": "AI视频创作者、电影制作人，需要精细控制AI生成视频的运动、姿态和运镜。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "启动应用，导入你的参考视频素材。",
+            "选择所需提取的控制模式（如姿态、深度、运镜或完整场景），进行调整和预览。",
+            "导出为与Seedance、ComfyUI、Blender等工作流兼容的生产包，用于AI视频生成。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "多种专业工具组合（如OpenPose、视频追踪软件）",
+            "method": "分别使用不同工具提取所需控制层，然后手动整合。",
+            "models": "各工具自有模型（如OpenPose模型）。",
+            "pricing": "通常免费（开源工具）或部分付费。"
+          },
+          {
+            "name": "部分商业AI视频生成平台自带功能",
+            "method": "在平台内直接操作，可能集成部分控制层提取功能。",
+            "models": "平台私有模型。",
+            "pricing": "通常付费。"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于AI电影预演的桌面工具，功能强大且持续更新（v4），能显著提升AI视频制作精度。作者积极开发，但社区活跃度（Issue）暂未体现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无公开Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-11T04:46:49.165Z"
+    },
+    {
+      "owner": "eli-labz",
+      "repo": "Cognitive-Core-Skills",
+      "fullName": "eli-labz/Cognitive-Core-Skills",
+      "description": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verification, learning, governance) for LLMs, SLMs, AI agents, and world models — with schemas, 159 skill cards, benchmarks, and CI.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-safety",
+        "artificial-intelligence",
+        "benchmarks",
+        "cognitive-architecture",
+        "json-schema",
+        "knowledge-graph",
+        "llm",
+        "machine-learning",
+        "prompt-engineering",
+        "schema",
+        "slm",
+        "taxonomy",
+        "world-models"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-05T21:25:55Z",
+      "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
+      "analysis": {
+        "positioning": "AI Agent认知技能通用分类与基准。",
+        "useCases": [
+          "你做AI Agent能力设计 → 它提供感知、记忆、推理等八大核心技能的标准化分类与体系。",
+          "你需要标准化AI Agent评估或开发 → 它提供可复用的JSON/YAML/Markdown技能卡片和验证测试。",
+          "你想深入理解或扩展LLM/Agent能力 → 它提供详细的技能定义、Schemas和基准框架。"
+        ],
+        "audience": "AI Agent开发者、研究者、架构师，用于标准化和评估AI的认知能力。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "阅读文档`docs/cognitive-core-skills/`理解分类体系。",
+            "查阅`data/`目录下的机器可读数据和`Skills/index.md`中的技能卡片。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，V1.0.0稳定发布，提供完整分类体系和技能卡片。社区互动机制已建立，但Issue活跃度待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区互动机制已建立，但Issue统计显示目前用户反馈和贡献活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-11T04:47:04.513Z"
+    },
+    {
+      "owner": "PitShipwrightGraph",
+      "repo": "MecchaPhantom",
+      "fullName": "PitShipwrightGraph/MecchaPhantom",
+      "description": "🦎 MecchaPhantom – complete hack tool for MECCHA CHAMELEON. Features ESP wallhack, aimbot, fly hack, teleport, god mode, infinite paint, speed hack, and more. Dominate the hide-and-seek battlefield!",
+      "language": "Python",
+      "topics": [
+        "mecca-chameleon",
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-hacks",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-08T15:22:14Z",
+      "url": "https://github.com/PitShipwrightGraph/MecchaPhantom",
+      "analysis": {
+        "positioning": "MECCHA CHAMELEON玩家的终极作弊工具，助你称霸捉迷藏战场。",
+        "useCases": [
+          "你想轻松发现隐藏的玩家 → 它帮你提供ESP透视、距离指示和玩家标签。",
+          "你想精确瞄准并快速淘汰对手 → 它帮你实现Aimbot、静默瞄准和自动射击。",
+          "你想在地图中自由穿梭而不被发现 → 它帮你实现飞行、瞬移、加速和无重力。",
+          "你想在游戏中保持不败并拥有无限资源 → 它帮你实现无敌模式和无限涂料。"
+        ],
+        "audience": "寻求在Steam热门捉迷藏游戏《MECCHA CHAMELEON》中获得压倒性优势的玩家。",
+        "quickStart": {
+          "prerequisites": "《MECCHA CHAMELEON》游戏",
+          "steps": [
+            "从GitHub Releases下载mecchaphantom.7z压缩包",
+            "解压并根据README指引运行程序"
+          ],
+          "note": "目前仅支持Windows平台。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "作为游戏作弊工具，它破坏游戏公平性，不属于正面编程实践，且可能导致账号被封禁。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 统计为0，社区活跃度低，无公开互动记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-11T04:47:18.719Z"
+    },
+    {
+      "owner": "crynta",
+      "repo": "terax-ai",
+      "fullName": "crynta/terax-ai",
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "language": "TypeScript",
+      "topics": [
+        "agents",
+        "ai",
+        "code-editor",
+        "linux",
+        "macos",
+        "reactjs",
+        "rust",
+        "tauri",
+        "terminal",
+        "windows",
+        "xterm-js"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-04-21T18:33:12Z",
+      "url": "https://github.com/crynta/terax-ai",
+      "analysis": {
+        "positioning": "轻量级AI原生终端开发工作区，集代码编辑与AI助手于一身。",
+        "useCases": [
+          "你习惯用终端，但想在一个地方搞定编码、版本控制和AI辅助 → 它提供终端、编辑器、Git 和 AI 助手的一体化工作区，无需切换。",
+          "你寻求一个不臃肿的IDE，同时想集成本地AI模型提升效率 → 它以7MB的极致轻量体积，支持本地AI自动补全和代码修改，保护隐私。",
+          "你需要快速预览本地Web项目或查看Git历史图 → 它内置Web预览和Git图谱，无需额外工具，直接在工作区内完成。"
+        ],
+        "audience": "追求轻量、终端优先、且希望在本地环境中集成AI辅助的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从 terax.app 或 GitHub Release 下载适合你操作系统的安装包。",
+            "安装并启动应用即可使用。"
+          ],
+          "note": "支持 macOS, Linux, Windows 全平台。"
+        },
+        "competitors": [
+          {
+            "name": "VS Code + AI插件",
+            "method": "安装VS Code，再安装AI插件（如GitHub Copilot）。",
+            "models": "Copilot (OpenAI模型), 或其它插件支持本地/云端模型。",
+            "pricing": "VS Code免费，Copilot付费，本地AI插件通常免费。"
+          },
+          {
+            "name": "Cursor (AI原生IDE)",
+            "method": "下载并安装Cursor。",
+            "models": "OpenAI, Anthropic, Google 等云端模型，支持插件扩展本地模型。",
+            "pricing": "基础功能免费，高级AI功能订阅付费。"
+          }
+        ],
+        "pricing": "免费，开源（Apache-2.0），无遥测，无需账户即可使用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "融合了轻量、终端优先、AI原生的前沿开发理念。采用现代Rust/Tauri/React技术栈，提供高性能WebGL终端和强大的本地AI辅助功能，同时承诺用户隐私，是追求高效、私密、未来感的开发者理想选择。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度高。拥有8k+ Star，Issue 开闭比较健康（367/216），且提供Discord社区，表明项目维护积极，用户参与度高。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-11T04:47:57.092Z"
     }
   ]
 }
