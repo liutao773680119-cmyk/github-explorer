@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-11T04:47:57.123Z",
+  "updatedAt": "2026-07-12T04:58:43.211Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -64794,6 +64794,442 @@
         "category": "AI编程助手"
       },
       "analyzedAt": "2026-07-11T04:47:57.092Z"
+    },
+    {
+      "owner": "xsser",
+      "repo": "cliproxyapi-cloudflare-stack",
+      "fullName": "xsser/cliproxyapi-cloudflare-stack",
+      "description": "感谢马斯克 让我grok自由，免费注册grok 无数个号。然后cpa自由使用",
+      "language": "Shell",
+      "topics": [
+        "cli-proxy-api",
+        "cloudflare",
+        "cloudflare-tunnel",
+        "cloudflare-workers",
+        "openai-api",
+        "self-hosted"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-12T00:46:03Z",
+      "url": "https://github.com/xsser/cliproxyapi-cloudflare-stack",
+      "analysis": {
+        "positioning": "自托管的OpenAI兼容API网关，掌控凭证与流量。",
+        "useCases": [
+          "你不想将OpenAI/Grok等LLM凭证交给第三方托管 → 它帮你用Cloudflare技术栈自建安全API网关，凭证完全在你掌控。",
+          "你拥有多个LLM API凭证（如Grok小号），需要统一入口并实现负载均衡 → 它帮你池化凭证，通过一个HTTPS域名对外提供服务，并支持热加载和故障转移。",
+          "你需要在内网运行LLM代理服务，但不希望开放公网端口 → 它利用Cloudflare Tunnel将内网服务安全反向代理到公网，无需公网IP或端口映射。"
+        ],
+        "audience": "具备VM运维能力，希望自托管并安全管理多个LLM API凭证的开发者或团队。",
+        "quickStart": {
+          "prerequisites": "Cloudflare账号、一台可访问网络的VM、你已授权的LLM API凭证。",
+          "steps": [
+            "部署CLIProxyAPI网关到VM，并获取API key。",
+            "配置Cloudflare Worker和Tunnel，将网关安全暴露到公网。"
+          ],
+          "note": "部署涉及VM、Cloudflare Worker和Tunnel，需要一定的Cloudflare和Linux操作经验。"
+        },
+        "competitors": [
+          {
+            "name": "直接使用LLM官方API",
+            "method": "官方SDK/HTTP请求",
+            "models": "仅限特定供应商",
+            "pricing": "按量付费"
+          },
+          {
+            "name": "第三方托管的API代理服务",
+            "method": "注册账号，使用其提供的API endpoint",
+            "models": "通常支持多种LLM",
+            "pricing": "按量付费或订阅"
+          }
+        ],
+        "pricing": "免费（项目本身），但需支付自托管基础设施（VM、Cloudflare）费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "巧妙结合Cloudflare全家桶实现LLM凭证安全托管与池化，技术栈新潮且解决了个人用户的痛点（如多Grok账号管理），黑客精神浓厚。",
+        "isVibeCoding": true,
+        "communityActivity": "项目较新，社区活跃度暂时较低，有待发展。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-12T04:56:11.957Z"
+    },
+    {
+      "owner": "yusukebe",
+      "repo": "ax",
+      "fullName": "yusukebe/ax",
+      "description": "The AI-era curl",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-06T09:39:01Z",
+      "url": "https://github.com/yusukebe/ax",
+      "analysis": {
+        "positioning": "AI时代专为智能代理设计的网页抓取与数据提取CLI。",
+        "useCases": [
+          "你用`curl`抓取API数据 → `ax`帮你抓取并提供完整请求报告，JSON自动解析。",
+          "你手动解析网页结构 → `ax --outline`帮你发现页面重复结构，`--locate 'text'`定位元素，无需面对原始HTML。",
+          "你写脚本从HTML提取结构化数据 → `ax`帮你一行命令提取多字段数据（如`--row`、`--table`），支持过滤与输出格式控制。",
+          "你想让AI高效阅读文档 → `ax --md --budget`帮你将文档转为Markdown，并控制输出token预算，优化LLM上下文利用。"
+        ],
+        "audience": "适合AI编码代理及开发者，简化网页数据获取、理解和结构化提取流程，尤其在需要为LLM提供干净、高效上下文时。",
+        "quickStart": {
+          "prerequisites": "curl",
+          "steps": [
+            "安装：`curl -fsSL https://ax.yusuke.run/install | sh`",
+            "教代理使用：`npx skills add yusukebe/ax` 或 `ax agent-context`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "htmlq",
+            "method": "CSS选择器，需结合`curl`，不支持多字段一次提取。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "curl",
+            "method": "基础HTTP请求工具，空响应静默，不提供结构发现与数据提取功能。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "Firecrawl",
+            "method": "云API服务，返回Markdown文本而非结构化数据，按量计费。",
+            "models": null,
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费（本地运行，无需API Key）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确面向“AI-era curl”和“coding agent”，通过结构化输出、token预算控制、无噪音报告等特性，完美适配LLM的上下文窗口，是为AI智能体量身定制的编程辅助工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，但现有Issue（1开1闭）显示问题被处理，项目处于早期或由核心开发者主导。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-12T04:56:42.577Z"
+    },
+    {
+      "owner": "Raymondhou0917",
+      "repo": "speak-human-tw",
+      "fullName": "Raymondhou0917/speak-human-tw",
+      "description": "「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。",
+      "language": "Unknown",
+      "topics": [
+        "agent-skills",
+        "ai-writing",
+        "claude-code",
+        "codex",
+        "cursor",
+        "humanizer",
+        "prompt-engineering",
+        "traditional-chinese",
+        "writing-tools",
+        "zh-tw"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-08T09:23:53Z",
+      "url": "https://github.com/Raymondhou0917/speak-human-tw",
+      "analysis": {
+        "positioning": "專為繁體中文設計，去除AI寫作痕跡，校正中式用語與標點。",
+        "useCases": [
+          "你用AI寫社群文案 → 它幫你去除機器人emoji和勸誡式語氣，讓內容更自然。",
+          "你用AI寫電子報或公告 → 它幫你清除價值上升詞和解說句，讓語氣更貼近真人對話。",
+          "你用AI撰寫的內容包含中國用語或半形標點 → 它幫你校正成台灣繁體中文習慣。"
+        ],
+        "audience": "所有使用AI撰寫繁體中文內容，希望內容自然、去AI味、符合台灣習慣的創作者、行銷人員及辦公人士。",
+        "quickStart": {
+          "prerequisites": "支援skill或Markdown輸入的AI Agent，如Claude Code, Codex, Cursor。",
+          "steps": [
+            "將欲改寫的繁體中文內容輸入AI Agent。",
+            "調用`/speak-human-tw`指令或將其內容作為提示詞應用。"
+          ],
+          "note": "此為校對工具，建議先用個人風格寫初稿，再用此skill抓AI味並修正。"
+        },
+        "competitors": [],
+        "pricing": "免費，開源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README內容豐富，場景痛點描述清晰，前後對比案例直觀，解釋了正確應用流程，整體易懂且吸引人。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活躍度一般，但問題關閉速度快。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-12T04:56:54.598Z"
+    },
+    {
+      "owner": "DexCrancer",
+      "repo": "pm-ninesoulx",
+      "fullName": "DexCrancer/pm-ninesoulx",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-08T18:22:38Z",
+      "url": "https://github.com/DexCrancer/pm-ninesoulx",
+      "analysis": {
+        "positioning": "一个通用或特定场景下的项目或进程管理工具。",
+        "useCases": [
+          "你管理多个开发项目 → 它帮你追踪项目状态和进度。",
+          "你运行复杂的后台进程 → 它帮你启动、停止和监控这些进程。",
+          "你需要自动化部署脚本 → 它帮你编排和执行部署流程。"
+        ],
+        "audience": "需要管理开发项目、自动化任务或监控后台进程的开发者和运维人员。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "git clone https://github.com/DexCrancer/pm-ninesoulx.git",
+            "cd pm-ninesoulx && [查阅README文件获取具体的安装和运行指令]"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "pm2",
+            "method": "命令行工具，通过 `pm2 start app.js` 等启动和管理应用。",
+            "models": "支持Node.js、Python、PHP等多种语言应用。",
+            "pricing": "免费"
+          },
+          {
+            "name": "Supervisor",
+            "method": "守护进程管理系统，通过配置文件 `/etc/supervisor/conf.d/` 管理进程。",
+            "models": "管理任意后台进程。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，遵循MIT开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目有272星但缺乏基本信息（语言、Topics、详细README），Issue为0也说明社区互动不足或项目未被广泛使用/维护。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭0，几乎无社区互动迹象。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-12T04:57:15.961Z"
+    },
+    {
+      "owner": "Liquid4All",
+      "repo": "antidoom",
+      "fullName": "Liquid4All/antidoom",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-07T10:31:29Z",
+      "url": "https://github.com/Liquid4All/antidoom",
+      "analysis": {
+        "positioning": "通过偏好数据训练，解决大模型生成重复循环问题。",
+        "useCases": [
+          "大模型生成内容陷入重复循环 → 它帮你自动检测并生成训练数据规避",
+          "优化特定大模型避免“鬼打墙”现象 → 它帮你通过LoRA微调提升模型摆脱重复的能力",
+          "低温度采样下大模型常出现重复 → 它帮你提供FTPO训练，根治循环起始点"
+        ],
+        "audience": "大模型开发者、研究员，需要定制化解决大模型推理中重复循环问题的团队。",
+        "quickStart": {
+          "prerequisites": "需支持PyTorch和vLLM的GPU运行时 (NVIDIA/CUDA或AMD/ROCm)。",
+          "steps": [
+            "git clone https://github.com/Liquid4All/antidoom && cd antidoom && uv sync",
+            "编辑configs/default.yaml，设置model_name；运行：uv run antidoom -c configs/default.yaml -r runs/antidoom1 --temp 0.01 --model-name LiquidAI/LFM2.5-1.2B-Base"
+          ],
+          "note": "AMD/ROCm用户需使用不同的uv.lock和配置文件，详情参见文档。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位明确，针对大模型重复循环这一特定痛点提供清晰解决方案（FTPO+LoRA）。Quick Start指导简洁高效，技术深度足，直接解决实际问题。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue均为0，可能项目较新或维护者直接处理。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-12T04:57:29.871Z"
+    },
+    {
+      "owner": "bkingfilm",
+      "repo": "lapian-notes",
+      "fullName": "bkingfilm/lapian-notes",
+      "description": "拉片笔记:把电影变成 AI 辅助的拉片笔记 - 本地抽帧/剧情泳道时间轴/结构树/情绪曲线/段落深拆",
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "film-analysis",
+        "filmmaking",
+        "react",
+        "screenwriting",
+        "vite"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-08T06:06:31Z",
+      "url": "https://github.com/bkingfilm/lapian-notes",
+      "analysis": {
+        "positioning": "把电影变成可编辑的AI辅助拉片笔记，深拆叙事结构与情绪曲线。",
+        "useCases": [
+          "你想系统学习电影叙事 → 它帮你自动抽帧、生成时间轴，并提供AI分析包进行结构化解读。",
+          "你关注电影创作中的隐私安全 → 它全程本地运行，影片和笔记数据不上传任何服务器。",
+          "你需要精细分析电影段落 → 它支持任意段落深拆，导出至AI分析后生成场与镜头级细节。"
+        ],
+        "audience": "为电影爱好者、创作者、学习者提供一个隐私友好的AI辅助电影叙事分析平台。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载最新版ZIP包并解压",
+            "运行相应启动脚本（Windows: `run.bat`，Mac: `run.command`）"
+          ],
+          "note": "首次启动自动配置环境，浏览器会自动打开工具页面；使用期间保持黑色服务窗口开启。"
+        },
+        "competitors": [
+          {
+            "name": "传统电影分析方法/工具",
+            "method": "手动截图、标记、笔记，或使用视频剪辑软件辅助分析",
+            "models": "无AI集成",
+            "pricing": "软件付费/免费，主要成本为时间"
+          },
+          {
+            "name": "通用AI聊天工具 (如ChatGPT)",
+            "method": "手动上传影片文字描述、字幕、部分截图进行问答分析",
+            "models": "GPT-3.5/4等",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "完全免费，开源工具，全程本地运行。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "深刻洞察电影创作者痛点，通过AI技术创新性地将繁琐的拉片过程标准化、智能化、可视化，极大提升了学习和创作效率。其本地化运行也体现了对用户隐私的尊重，为电影爱好者和创作者提供了赋能。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue 活跃度低 (0开0关)，但拥有2500+成员的Discord社区，用户交流活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-12T04:57:52.501Z"
+    },
+    {
+      "owner": "kuskhan",
+      "repo": "jetendard",
+      "fullName": "kuskhan/jetendard",
+      "description": "JetBrainsMono Nerd Font Mono rebuilt with Pretendard Korean glyphs for balanced Hangul monospace rendering.",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-06T07:46:16Z",
+      "url": "https://github.com/kuskhan/jetendard",
+      "analysis": {
+        "positioning": "结合JetBrainsMono与Pretendard，专为韩文优化等宽代码字体。",
+        "useCases": [
+          "代码中韩文注释或文本显示不齐 → 获得JetBrainsMono代码特性与韩文平衡对齐的字体。",
+          "编辑器/终端等宽字体韩文渲染效果差 → 解决韩文间距、对齐问题，提升阅读体验。",
+          "需要统一拉丁文与韩文视觉风格 → 生成一套在代码与UI中都视觉统一的等宽字体。"
+        ],
+        "audience": "需要在使用JetBrainsMono时兼顾韩文排版美观与平衡的开发者和设计师。",
+        "quickStart": {
+          "prerequisites": "`uv` (Python包管理器)",
+          "steps": [
+            "uv sync --all-groups",
+            "make download",
+            "make run"
+          ],
+          "note": "生成的字体文件在`fonts/ttf/`、`fonts/otf/`、`fonts/webfont/`目录中。"
+        },
+        "competitors": [
+          {
+            "name": "Yeomil Mono",
+            "method": "使用预构建字体",
+            "models": "基于Geist Mono与Pretendard",
+            "pricing": "免费"
+          },
+          {
+            "name": "Geist Mono",
+            "method": "使用预构建字体",
+            "models": "Geist Mono系列",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对特定用户群体（经常处理韩文的开发者）的痛点，提供了高质量的解决方案。项目目标明确，可复现性强，且有详细的构建与配置说明，截图展示效果直观。Issue暂无活动，但对于这类工具，核心功能稳定即可。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活动，可能处于项目早期或功能稳定，维护者响应速度未知。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-12T04:58:04.354Z"
+    },
+    {
+      "owner": "zerosupercycIe",
+      "repo": "risk-free-sniper",
+      "fullName": "zerosupercycIe/risk-free-sniper",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-07T09:28:50Z",
+      "url": "https://github.com/zerosupercycIe/risk-free-sniper",
+      "analysis": {
+        "positioning": "Polymarket加密市场自动化交易机器人",
+        "useCases": [
+          "你想在Polymarket上自动交易涨跌市场 → 它帮你监测市场动量，并在价格穿越关键锚定价时自动下单。",
+          "你想无风险测试Polymarket交易策略 → 它提供沙盒（paper trading）模式，无需真实资金即可模拟交易。",
+          "你想实时监控交易表现和市场动态 → 它提供Web UI，展示实时行情、图表和交易历史。",
+          "你想以生产级别部署Polymarket交易机器人 → 它支持PM2进程管理，便于长期稳定运行。"
+        ],
+        "audience": "寻求自动化Polymarket加密货币涨跌市场交易策略，并希望在实盘前进行模拟测试的技术用户或交易者。",
+        "quickStart": {
+          "prerequisites": "Python环境, Node.js/npm (用于Web UI)",
+          "steps": [
+            "运行 `make install` 安装Python依赖和Web UI相关依赖。",
+            "在不同终端分别启动：`make server` (数据源+API), `make bot` (交易逻辑), `make web` (Web UI)。"
+          ],
+          "note": "Web UI在 `http://localhost:5174` 访问。生产环境可使用 `make pm2-start` 一键部署。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，交易费用需自理）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目结构清晰，文档详尽，提供了快速启动、架构和配置的详细说明。使用`make`命令简化了操作，支持沙盒模式，代码易于理解和部署。虽然Issues活跃度低，但初始体验良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度目前较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-12T04:58:18.464Z"
+    },
+    {
+      "owner": "OmarH-creator",
+      "repo": "Autonomous-Forge",
+      "fullName": "OmarH-creator/Autonomous-Forge",
+      "description": "This repo is automated and is fully AI-built and AI-maintained project that continuously plans, codes, tests, and improves itself.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-06T21:12:03Z",
+      "url": "https://github.com/OmarH-creator/Autonomous-Forge",
+      "analysis": {
+        "positioning": "AI自主构建和维护的本地化开发与安全框架。",
+        "useCases": [
+          "你希望通过AI实现自动化代码维护 → 它帮你构建受控的维护流程，包括任务规划和提案。",
+          "你担心AI生成代码的潜在风险 → 它帮你执行本地安全检查、副作用拦截和人工评审。",
+          "你需要跟踪和回溯AI的开发决策 → 它帮你记录证据包，实现过程重现和存档。"
+        ],
+        "audience": "寻求AI辅助开发、需要严格控制AI行为并进行人工干预的开发者和维护者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "`git clone https://github.com/OmarH-creator/Autonomous-Forge.git`",
+            "`cd Autonomous-Forge`"
+          ],
+          "note": "该项目为研究测试，非生产就绪，当前测试多有失败，且缺少详细运行指令。"
+        },
+        "competitors": [
+          {
+            "name": "GPT-Engineer",
+            "method": "根据人类提示词自动生成代码。",
+            "models": "OpenAI等多种LLM",
+            "pricing": "取决于LLM使用"
+          },
+          {
+            "name": "Auto-GPT",
+            "method": "自主设定目标，通过AI Agent完成复杂任务。",
+            "models": "OpenAI等多种LLM",
+            "pricing": "取决于LLM使用"
+          }
+        ],
+        "pricing": "免费开源",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目本身就是一次前沿的“AI自治体”实验，完全由AI自主规划、开发、测试和维护，是理解AI编程潜力的绝佳案例。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 数量不多且未关闭，主要作为AI实验项目。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-12T04:58:43.191Z"
     }
   ]
 }
