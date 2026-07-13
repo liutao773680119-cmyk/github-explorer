@@ -1,0 +1,53 @@
+{
+  "version": "1",
+  "date": "2026-07-13",
+  "startedAt": "2026-07-13T05:02:34.865Z",
+  "finishedAt": "2026-07-13T05:06:51.340Z",
+  "durationSeconds": 256,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 9,
+    "skipped": 96,
+    "geminiCalls": 13,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-07-13T05:03:08.401Z",
+      "level": "warn",
+      "project": "mereyabdenbekuly-ctrl/clodex-ide",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-13T05:03:50.396Z",
+      "level": "warn",
+      "project": "yetone/kill-ai-slop",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-13T05:04:48.412Z",
+      "level": "warn",
+      "project": "Moore-developers/moore-wechat-article-downloader",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-13T05:05:46.033Z",
+      "level": "warn",
+      "project": "pengchujin/jzsub",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-12T04:58:43.211Z",
+  "updatedAt": "2026-07-13T05:05:38.282Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -65230,6 +65230,360 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-12T04:58:43.191Z"
+    },
+    {
+      "owner": "vinhhien112",
+      "repo": "Three.js-Object-Sculptor-Codex-Plugin",
+      "fullName": "vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
+      "description": "Codex plugin that turns attached object images into code-only, animation-ready procedural Three.js models.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-09T16:23:29Z",
+      "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
+      "analysis": {
+        "positioning": "AI驱动，图片秒变Three.js可动画3D模型代码。",
+        "useCases": [
+          "你希望快速创建游戏道具或场景装饰 → 它能将参考图转换成可动画的Three.js程序化3D模型，省去手工建模。",
+          "你需要大量风格化、可交互的3D对象用于产品展示或Web项目 → 它能从图片自动生成代码化、层级清晰的Three.js模型，方便定制和动画。",
+          "你想用代码而非传统建模工具构建复杂的植物或机械部件 → 它能通过AI指导，从2D图像重建具有程序化几何、材质细节和动画骨架的Three.js模型。"
+        ],
+        "audience": "前端开发者、游戏设计师、3D艺术家，或任何需要将2D参考图快速转换为高质量、可动画的Three.js程序化3D模型代码的用户。",
+        "quickStart": {
+          "prerequisites": "Codex AI环境",
+          "steps": [
+            "在Codex插件环境中上传你希望重建为3D模型的对象图片。",
+            "利用插件指导Codex逐步完成模型描述、分解、几何/材质构建，最终生成Three.js可动画模型代码。"
+          ],
+          "note": "作为Codex插件，需在Codex生态系统内使用。"
+        },
+        "competitors": [
+          {
+            "name": "Luma AI / Meshy (或类似AI图片转3D网格工具)",
+            "method": "上传图片/视频，生成静态3D网格（mesh）",
+            "models": "通常是GLB, OBJ等网格文件",
+            "pricing": "免费增值/付费"
+          },
+          {
+            "name": "Blender / Maya (传统3D建模软件)",
+            "method": "人工建模和纹理制作",
+            "models": "各种格式的3D模型",
+            "pricing": "免费 (Blender) / 付费 (Maya)"
+          }
+        ],
+        "pricing": "免费 (MIT许可证)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目核心是将图片转化为可维护、可动画的Three.js程序化代码，强调代码生成、结构化编程和分阶段构建，高度契合代码优先的开发理念。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无活动（开启0/关闭0），项目活跃度需从其他渠道（如提交历史）评估，目前来看社区互动较少。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-13T05:02:53.511Z"
+    },
+    {
+      "owner": "CoscoAI",
+      "repo": "luxy-aisre",
+      "fullName": "CoscoAI/luxy-aisre",
+      "description": "AISRE for Cosco",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-10T05:57:02Z",
+      "url": "https://github.com/CoscoAI/luxy-aisre",
+      "analysis": {
+        "positioning": "Kubernetes与云基础设施的智能SRE控制平面。",
+        "useCases": [
+          "你面对复杂云故障，难以定位 → 它帮你整合告警、日志、拓扑等证据，提供SRE聊天式诊断和修复计划。",
+          "你收到Kubernetes告警，需要快速响应 → 它生成可预览的、经人工审批的修复方案，并验证恢复效果。",
+          "你需要自动化日常运维，确保安全可控 → 它提供受控修复、执行验证、回滚机制，并沉淀操作知识到技能库。",
+          "你关注发布质量和风险管理 → 它提供SLO、错误预算、金丝雀发布风险门控和智能巡检队列，保障系统健康。"
+        ],
+        "audience": "专注于Kubernetes和云基础设施的SRE、DevOps工程师和平台工程师，寻求AI赋能的自动化运维解决方案。",
+        "quickStart": {
+          "prerequisites": "Python 3.14+, TypeScript 5.x, Kubernetes环境, Docker",
+          "steps": [
+            "使用Docker部署luxy-aisre镜像",
+            "在Kubernetes集群中部署相关组件"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "非商业用途免费（PolyForm Noncommercial License），商业用途可能需单独授权或受限。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目概念新颖，聚焦AI Agent赋能SRE，解决云原生复杂运维痛点。架构清晰，截图专业，功能全面（SRE Chat、智能诊断、受控修复、拓扑分析），且已发布3.1.0版本，具备较高成熟度。许可协议限制了部分商业场景，且公开Issue活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues活跃度非常低，只有1个开启Issue，无关闭Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-13T05:03:29.715Z"
+    },
+    {
+      "owner": "cosmtrek",
+      "repo": "mindwalk",
+      "fullName": "cosmtrek/mindwalk",
+      "description": "A visualization tool that replays coding-agent sessions on a 3D map of your codebase.",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-09T11:41:46Z",
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "analysis": {
+        "positioning": "AI编码助手行为3D可视化与回放工具。",
+        "useCases": [
+          "你觉得AI Agent代码行为不透明 → 它帮你将Agent交互日志实时映射到3D代码库，以光影动态回放其搜索、阅读和编辑路径。",
+          "你想快速评估Agent的工作范围与效率 → 它帮你通过文件“触碰状态”（访问、读取、修改）和操作热力图，直观判断Agent的关注点和修改阶段。",
+          "你想调试Agent的决策过程 → 它帮你提供时间线标记和检查器，支持跳转到特定事件点，深挖Agent每次操作的上下文。"
+        ],
+        "audience": "使用AI编程助手（如Claude Code、Codex）的开发者、研究者，用于可视化、理解和优化Agent在代码库中的行为。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "curl -fsSL https://raw.githubusercontent.com/cosmtrek/mindwalk/master/scripts/install.sh | sh",
+            "mindwalk"
+          ],
+          "note": "安装器将二进制文件安装到~/.local/bin，Windows用户可在GitHub Releases下载；无参数运行时会自动扫描默认Agent会话目录并打开浏览器UI。"
+        },
+        "competitors": [],
+        "pricing": "免费，MIT开源协议，所有数据本地处理。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "通过将代码库抽象为3D地图，Agent行为具象化为流动的光影、色彩变化（如冷暖色代表观察与修改），以及直观的键盘交互，为理解AI Agent的“思维”过程提供了极具沉浸感和感知力的体验，远超传统日志阅读。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前 Issue 开启少且无关闭记录，项目可能处于早期阶段或维护频率不高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-13T05:03:46.048Z"
+    },
+    {
+      "owner": "AlayaLab",
+      "repo": "AlayaWorld",
+      "fullName": "AlayaLab/AlayaWorld",
+      "description": "Full-stack open-source interactive long-horizon world model.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-07T17:15:20Z",
+      "url": "https://github.com/AlayaLab/AlayaWorld",
+      "analysis": {
+        "positioning": "全栈开源、可交互的长时序世界模型与生成平台。",
+        "useCases": [
+          "你希望创建动态、可交互的虚拟世界 → 它帮你生成具备实时相机控制和事件切换的长时间视频世界。",
+          "你是一名AI研究员，探索生成式世界模型 → 它为你提供一个研究平台，专注于交互性、一致性和稳定性。",
+          "你正在设计游戏原型或模拟环境 → 它帮助你快速搭建具有长时序记忆和实时交互的生成式场景。"
+        ],
+        "audience": "专注于生成式AI、虚拟世界构建的AI研究员、游戏开发者及模拟环境设计者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "目前代码和预训练权重均未发布，请等待官方更新。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个前沿的AI研究项目，提出了创新的世界模型方法，并有清晰的路线图。但目前核心代码和权重尚未发布，尚处于理论和演示阶段，实际可用性需待后续发布。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启1个且未关闭，可能因代码未发布。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-13T05:04:04.923Z"
+    },
+    {
+      "owner": "thatmagicalcat",
+      "repo": "txm",
+      "fullName": "thatmagicalcat/txm",
+      "description": "Terminal Math rendering engine",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-09T03:24:59Z",
+      "url": "https://github.com/thatmagicalcat/txm",
+      "analysis": {
+        "positioning": "在终端渲染LaTeX数学公式的利器。",
+        "useCases": [
+          "你在编写技术文档或代码注释时需要即时预览LaTeX公式 → 它帮你直接在终端快速渲染，无需切换应用。",
+          "你在终端进行数据分析或教学演示，需要展示复杂数学表达式 → 它帮你将公式以清晰美观的字符形式呈现，提升可读性。",
+          "你是NeoVim用户，想在编辑器内直接预览LaTeX公式 → 它通过`txm.nvim`插件集成，提供无缝的数学公式预览体验。"
+        ],
+        "audience": "习惯在终端工作的开发者、研究人员、学生，尤其适合需要快速查看或展示LaTeX数学公式的场景。",
+        "quickStart": {
+          "prerequisites": "需安装Nix (启用flakes) 或Rust Cargo",
+          "steps": [
+            "nix run github:thatmagicalcat/txm -- \"E = mc^2\"",
+            "cargo install txm"
+          ],
+          "note": "Arch Linux和Gentoo用户可使用各自包管理器安装"
+        },
+        "competitors": [],
+        "pricing": "完全免费且开源",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "一个用Rust编写的终端数学公式渲染引擎，巧妙解决了在CLI环境下查看LaTeX公式的痛点。多平台安装支持和对NeoVim的集成，使其成为CLI用户的重要生产力工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，当前开启Issue数多于已关闭数（7开/2关），待解决问题比例较高。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-13T05:04:21.536Z"
+    },
+    {
+      "owner": "osama-fawad",
+      "repo": "Pekingman",
+      "fullName": "osama-fawad/Pekingman",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-07T20:28:43Z",
+      "url": "https://github.com/osama-fawad/Pekingman",
+      "analysis": {
+        "positioning": "面向AGI的多模态智能体系统，赋予NPC人类级认知行为。",
+        "useCases": [
+          "你构建沉浸式游戏 → 它帮你创建有记忆、情感、逻辑的拟真NPC。",
+          "你开发数字人或元宇宙 → 它帮你实现连续响应、行为一致的虚拟角色。",
+          "你设计交互式内容 → 它帮你提供具备环境感知和拟人决策能力的智能代理。"
+        ],
+        "audience": "游戏开发者、元宇宙平台构建者、数字人项目及所有需要高拟真、持久一致智能角色的创作者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": "项目主要为研究展示，提供了项目页面和演示视频，未见公开代码或快速上手指南。"
+        },
+        "competitors": [],
+        "pricing": "未提及",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目以研究论文和概念演示为主，核心语言标为HTML，未直接提供可运行的代码库和详尽的开发指引。作为AGI前沿探索有价值，但实用集成度待考证。",
+        "isVibeCoding": true,
+        "communityActivity": "无Issue，社区活跃度极低或未知。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-13T05:04:34.567Z"
+    },
+    {
+      "owner": "opencoredev",
+      "repo": "login-with-chatgpt",
+      "fullName": "opencoredev/login-with-chatgpt",
+      "description": "A simple SDK that lets your users log in with their ChatGPT account.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-08T03:29:48Z",
+      "url": "https://github.com/opencoredev/login-with-chatgpt",
+      "analysis": {
+        "positioning": "让用户用ChatGPT账号登录的SDK，自带订阅，安全省心。",
+        "useCases": [
+          "你想在应用中集成ChatGPT功能 → 用户直接用自己账号登录，无需你处理订阅和支付。",
+          "你担心用户API Key安全 → 它通过HttpOnly Cookie和后端代理，确保Token不触达浏览器。",
+          "你正在用Vercel AI SDK开发AI应用 → 它提供Vercel AI SDK Provider，轻松实现客户端直接流式传输。",
+          "你想提供AI图片生成/编辑功能 → 它支持用用户ChatGPT账号生成、编辑图片，带尺寸、质量等控制。"
+        ],
+        "audience": "希望在自己的应用中快速集成ChatGPT登录功能、由用户自带订阅、并关注API Key安全的前后端开发者。",
+        "quickStart": {
+          "prerequisites": "Node 18+, Bun/npm/pnpm",
+          "steps": [
+            "安装核心包：`bun add @opencoredev/loginwithchatgpt-server @opencoredev/loginwithchatgpt-react @opencoredev/loginwithchatgpt-ai`",
+            "查阅官方快速上手文档进行配置和集成。"
+          ],
+          "note": "支持Bun、npm、pnpm包管理器，所有模块均以ESM形式提供类型定义。"
+        },
+        "competitors": [
+          {
+            "name": "用户提供OpenAI API Key",
+            "method": "开发者直接在应用中收集并使用用户的OpenAI API Key",
+            "models": "支持用户订阅的所有OpenAI模型",
+            "pricing": "用户自购API Key并管理额度"
+          },
+          {
+            "name": "开发者统一支付OpenAI API",
+            "method": "开发者使用自己的OpenAI API Key，管理所有用户请求和支付",
+            "models": "支持开发者订阅的所有OpenAI模型",
+            "pricing": "开发者需为所有API调用付费"
+          }
+        ],
+        "pricing": "免费（MIT License），用户需自带ChatGPT订阅。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README结构清晰，信息丰富，涵盖安装、模块划分、安全模型和生产部署指导。还支持Agent Skill集成，考虑周全，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue开启和关闭均为0，社区活跃度待观察。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-13T05:05:09.860Z"
+    },
+    {
+      "owner": "sunflower-of-parchman",
+      "repo": "codex-hygiene",
+      "fullName": "sunflower-of-parchman/codex-hygiene",
+      "description": "Codex skill for auditing and tuning Codex Desktop context/tool surfaces",
+      "language": "Shell",
+      "topics": [
+        "codex",
+        "codex-skill",
+        "developer-tools",
+        "mcp",
+        "token-usage"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-07T21:51:14Z",
+      "url": "https://github.com/sunflower-of-parchman/codex-hygiene",
+      "analysis": {
+        "positioning": "Codex桌面效率工具，分析并优化其上下文和工具使用。",
+        "useCases": [
+          "你需要了解Codex桌面版实际的token消耗 → 它帮你精确测量各工具和会话的token使用情况。",
+          "你发现Codex桌面版token消耗异常或性能下降 → 它帮你定位高消耗原因，例如长线程、旧配置、不必要的工具。",
+          "你希望提高Codex工作流的效率和质量，减少干扰 → 它帮你建议可逆的优化步骤，如缩小重放和工具范围，而非盲目删除。"
+        ],
+        "audience": "使用Codex桌面版的开发者和AI Agent使用者，希望监控、诊断并优化其Codex环境效率和资源消耗。",
+        "quickStart": {
+          "prerequisites": "macOS或Unix-like系统，需Bash, sqlite3, Perl, awk, sort。可选：jq, codex CLI。",
+          "steps": [
+            "克隆项目到Codex技能目录：`mkdir -p \"$HOME/.agents/skills\" && git clone https://github.com/sunflower-of-parchman/codex-hygiene.git \"$HOME/.agents/skills/codex-hygiene\"`",
+            "调用：`$codex-hygiene`（或重启Codex）。快速测量可执行：`SKILL_DIR=\"$HOME/.agents/skills/codex-hygiene\" && \"$SKILL_DIR/scripts/measure_codex_context.sh\"`"
+          ],
+          "note": "Codex通常自动检测新技能，否则需手动重启。脚本默认只读。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "通过优化Codex桌面环境和资源使用，间接提升使用AI编程助手的效率和体验，让AI更专注、可控，从而改善编程“氛围”。",
+        "isVibeCoding": true,
+        "communityActivity": "项目Issue未开启，社区互动尚不活跃。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-13T05:05:25.645Z"
+    },
+    {
+      "owner": "CWS6206",
+      "repo": "EasyLastSkill",
+      "fullName": "CWS6206/EasyLastSkill",
+      "description": "EasyLastSkill ist eine deutschsprachige Codex-/Agent-Skill fuer schnelle Recherchen zu den letzten Tagen eines Themas. Standardmaessig betrachtet sie die letzten 30 Tage und erstellt einen kompakten Bericht mit Quellen, Relevanzscore und Unsicherheiten.",
+      "language": "Python",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-07-08T11:15:29Z",
+      "url": "https://github.com/CWS6206/EasyLastSkill",
+      "analysis": {
+        "positioning": "快速检索主题近况的Agent技能，自动生成报告。",
+        "useCases": [
+          "你需要快速了解某主题（如“OpenAI Codex”）最新发展 → 它帮你自动抓取最近30天信息，生成带源头的简明报告。",
+          "你需要对比两个相关主题（如“Codex vs Claude Code”）的异同 → 它提供对比模式，汇总关键点。",
+          "你需要分享研究结果给他人 → 它支持生成HTML/Markdown格式报告，方便存储和分发。"
+        ],
+        "audience": "关注最新技术动态的研究人员、开发者和分析师，需要快速获取和对比特定主题近期信息的场景。",
+        "quickStart": {
+          "prerequisites": "Node.js (用于npx skills) 或 Python 环境",
+          "steps": [
+            "`npx skills add CWS6206/EasyLastSkill -g` 或 `python skills/easy-last-skill/scripts/build_skill_bundle.py`",
+            "`python skills/easy-last-skill/scripts/easy_last_skill.py \"你的主题\"`"
+          ],
+          "note": "可作为Agent Skill安装，也可独立本地运行。"
+        },
+        "competitors": [],
+        "pricing": "免费（基于GPL-3.0开源许可）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对特定需求（快速获取主题近期信息）提供了实用且功能丰富的解决方案，支持多种数据源和报告格式，文档清晰，持续迭代更新（v0.2）。",
+        "isVibeCoding": true,
+        "communityActivity": "当前无开启或关闭的Issue，社区活跃度信息不足。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-13T05:05:38.259Z"
     }
   ]
 }
