@@ -1,0 +1,44 @@
+{
+  "version": "1",
+  "date": "2026-07-14",
+  "startedAt": "2026-07-14T04:30:13.625Z",
+  "finishedAt": "2026-07-14T04:36:26.690Z",
+  "durationSeconds": 373,
+  "success": true,
+  "stats": {
+    "fetched": 107,
+    "newProjects": 16,
+    "skipped": 91,
+    "geminiCalls": 19,
+    "statsUpdated": 107
+  },
+  "errors": [
+    {
+      "time": "2026-07-14T04:32:55.015Z",
+      "level": "warn",
+      "project": "Kappaemme-git/codex-first-customer-finder-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-14T04:34:19.003Z",
+      "level": "warn",
+      "project": "Git-creat7/grokRegister-cpa",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-14T04:34:46.015Z",
+      "level": "warn",
+      "project": "change-42-yhmm/quota-float",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

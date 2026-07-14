@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-13T05:05:38.282Z",
+  "updatedAt": "2026-07-14T04:35:22.332Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -65584,6 +65584,723 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-13T05:05:38.259Z"
+    },
+    {
+      "owner": "0xNikoDev",
+      "repo": "robinhood-ai-dev-sniper",
+      "fullName": "0xNikoDev/robinhood-ai-dev-sniper",
+      "description": "🏹 RobinHood — AI Dev Sniper: high-performance Go trading bot for Ethereum & EVM chains. Uniswap V2/V3 sniper with Flashbots bundle protection, multi-wallet coordinated buys, real-time mempool monitoring, AI deving autopilot, Twitter/X signal parsing, top-dev tracking, volume bot and ERC-20 token creator. Base, BNB Chain, Arbitrum.",
+      "language": "Go",
+      "topics": [
+        "ai-trading",
+        "arbitrum",
+        "base",
+        "blockchain",
+        "bnb-chain",
+        "crypto",
+        "defi",
+        "erc20",
+        "ethereum",
+        "evm",
+        "flashbots",
+        "golang",
+        "memecoin",
+        "mempool",
+        "mev",
+        "mev-bot",
+        "sniper-bot",
+        "trading-bot",
+        "uniswap",
+        "web3"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-14T01:15:03Z",
+      "url": "https://github.com/0xNikoDev/robinhood-ai-dev-sniper",
+      "analysis": {
+        "positioning": "基于AI和Go语言的高性能以太坊/EVM链交易狙击机器人",
+        "useCases": [
+          "你手动追踪推特热点和新项目部署来抢占先机 → 它帮你通过AI解析推特信号，自动部署预设策略进行代币狙击。",
+          "你希望在新代币上线时抢购但面临前端运行和MEV攻击 → 它帮你通过Flashbots捆绑交易和多钱包协调，实现次区块级安全抢购。",
+          "你关注顶尖交易员并希望模仿他们的成功策略 → 它帮你自动追踪并镜像顶尖交易员的部署和交易行为。"
+        ],
+        "audience": "寻求新代币首发抢购、自动化交易及顶尖交易员策略复制的加密交易者。",
+        "quickStart": {
+          "prerequisites": "需要支付ETH购买授权以获取源代码。",
+          "steps": [
+            "购买授权，获取完整的Go语言源代码。",
+            "根据需求配置机器人参数并部署运行。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他Web3交易狙击机器人",
+            "method": "购买或订阅软件/服务",
+            "models": "私有算法/策略",
+            "pricing": "付费/订阅"
+          },
+          {
+            "name": "MEV机器人项目 (通用)",
+            "method": "部署智能合约/运行客户端",
+            "models": "特定MEV策略",
+            "pricing": "自研或开源社区"
+          }
+        ],
+        "pricing": "付费，一次性购买源代码，分为Core (1 ETH) 和 Full Suite (1.5 ETH) 两种。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "付费提供完整Go语言源代码，用户需自行部署和配置。功能高度专业化，涉及AI策略、链上监控及多钱包管理等，适合具备一定技术背景的加密交易者。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue未开启，社区活跃度主要体现在购买和Telegram支持渠道。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:30:31.011Z"
+    },
+    {
+      "owner": "macong0420",
+      "repo": "topic-material-collector",
+      "fullName": "macong0420/topic-material-collector",
+      "description": "Open-source Codex skill for researching, timestamping, downloading, clipping, and cataloging video-first materials.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-14T03:23:32Z",
+      "url": "https://github.com/macong0420/topic-material-collector",
+      "analysis": {
+        "positioning": "面向AI助手的开源视频素材收集与处理工具",
+        "useCases": [
+          "你制作视频（选题/脚本/旁白）→ 它帮你自动检索、下载、裁剪视频素材",
+          "你的AI Agent需要视频内容分析 → 它为Agent提供带时间戳、元数据、风险评估的素材包",
+          "你研究特定主题的视频内容 → 它帮你定位关键片段，整理来源和许可信息"
+        ],
+        "audience": "视频内容创作者、使用Codex或其他AI Agent的开发者和用户、需要批量处理视频素材的研究人员",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, yt-dlp, ffmpeg",
+          "steps": [
+            "安装 yt-dlp 和 ffmpeg（平台特定命令，如brew install/apt install/winget install）",
+            "克隆仓库，并将其作为Skill安装到Codex默认目录",
+            "在Codex中通过 `$topic-material-collector` 命令调用"
+          ],
+          "note": "依赖项安装方式因操作系统而异，请参考README中macOS/Ubuntu/Windows的指引"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标清晰，解决了视频内容创作中素材收集的痛点，并与AI Agent（如Codex）紧密结合，提供了自动化、可追溯的解决方案。代码结构清晰，文档详尽，但目前社区活跃度较低（Star数和Issue数）。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无社区活动，Issue统计显示开启和关闭均为0",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:30:42.243Z"
+    },
+    {
+      "owner": "MDX-Tom",
+      "repo": "gpt-5.6-instruct",
+      "fullName": "MDX-Tom/gpt-5.6-instruct",
+      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-11T09:44:24Z",
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "analysis": {
+        "positioning": "专为gpt-5.6-sol大模型设计的越狱提示词与测试套件。",
+        "useCases": [
+          "你进行安全研究/渗透测试 → 它帮助gpt-5.6-sol绕过限制，直接执行任务。",
+          "你进行逆向工程/软件破解 → 它让gpt-5.6-sol提供相关代码和指导。",
+          "你希望gpt-5.6-sol生成NSFW虚构内容 → 它消除拒绝，使模型按指令输出。"
+        ],
+        "audience": "提示词工程师、安全研究员、渗透测试人员，以及任何希望突破gpt-5.6-sol限制的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.8+",
+          "steps": [
+            "下载项目并解压提示词压缩包",
+            "运行部署脚本 `codex-instruct.py`"
+          ],
+          "note": "可选择指定Codex home目录进行部署。"
+        },
+        "competitors": [
+          {
+            "name": "yynxxxxx/Codex-5.5-codex-instruct-5.5",
+            "method": "提示词注入",
+            "models": "gpt-5.5系列",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心是“破甲”与“越狱”，直接挑战大模型限制，提供测试与优化流程，完美符合技术探索、打破壁垒的黑客精神。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，有753个Star，Issue数量少且能及时处理。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-14T04:31:01.511Z"
+    },
+    {
+      "owner": "littledivy",
+      "repo": "mimic",
+      "fullName": "littledivy/mimic",
+      "description": "Intercept any app, then call it from Python like a library",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-13T05:13:00Z",
+      "url": "https://github.com/littledivy/mimic",
+      "analysis": {
+        "positioning": "截取App流量，AI生成Python客户端调用。",
+        "useCases": [
+          "你想用Python调用任何App的私有API → 它帮你截取流量，AI生成可用的Python客户端库。",
+          "你需要自动化手机应用操作或数据获取 → 它帮你将App行为转化为Python代码，实现脚本化控制。",
+          "你厌倦手动分析App请求头和鉴权机制 → 它自动提取会话和认证信息，并支持令牌刷新。"
+        ],
+        "audience": "开发者、自动化工程师，需要通过编程方式与移动应用或私有API交互。",
+        "quickStart": {
+          "prerequisites": "Mac电脑，iPhone（如需抓取iOS App流量）。",
+          "steps": [
+            "运行 `sh install.sh` 安装mimic。",
+            "运行 `mimic doctor` 检查环境。",
+            "运行 `mimic record`，根据提示配置iPhone代理并信任证书。",
+            "在iPhone上正常使用目标App，mimic会捕捉流量。",
+            "运行 `mimic hosts` 选取目标API主机。",
+            "运行 `mimic learn <your-api-host>` 查看捕捉到的API端点。",
+            "运行 `mimic gen <your-api-host>` 生成Python客户端代码。"
+          ],
+          "note": "iOS App抓包需在iPhone上配置代理并信任mitmproxy证书。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目通过AI将真实应用交互转化为可编程的Python客户端，极大地降低了与私有API交互的门槛，非常适合快速构建自动化脚本和探索性开发。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示项目处于早期或维护者自用状态。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-14T04:31:21.486Z"
+    },
+    {
+      "owner": "mereyabdenbekuly-ctrl",
+      "repo": "clodex-ide",
+      "fullName": "mereyabdenbekuly-ctrl/clodex-ide",
+      "description": "Local-first, zero-trust agentic IDE for verifiable autonomous software development.",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "agentic-ide",
+        "ai-agents",
+        "developer-tools",
+        "electron",
+        "ide",
+        "local-first",
+        "typescript",
+        "zero-trust"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-12T10:35:44Z",
+      "url": "https://github.com/mereyabdenbekuly-ctrl/clodex-ide",
+      "analysis": {
+        "positioning": "本地优先、零信任、可验证的AI代理IDE",
+        "useCases": [
+          "你进行AI辅助开发 → 它帮你将AI任务、代码、终端、Git等集成在一个Electron工作区",
+          "你担心AI生成代码的安全性与可靠性 → 它提供零信任、隔离运行和用户审查机制确保安全",
+          "你需要一个全栈、可控的AI开发环境 → 它提供持续的AI任务、模型集成和受管执行能力"
+        ],
+        "audience": "关注安全性和可验证性的AI驱动型开发者及团队",
+        "quickStart": {
+          "prerequisites": "Node.js (v22.23.1+), pnpm (v10.30.3+)",
+          "steps": [
+            "git clone mereyabdenbekuly-ctrl/clodex-ide",
+            "cd clodex-ide && pnpm install && pnpm dev"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，AGPL-3.0 开源许可",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目处于技术预览阶段，核心架构已实现但高级功能仍在完善中。代码库维护良好，愿景清晰，但社区交互和项目成熟度尚待发展。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开启2个，已关闭0个，表明社区活跃度较低，项目非常早期。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-14T04:31:34.039Z"
+    },
+    {
+      "owner": "William-Lu-stack",
+      "repo": "LuxyAI",
+      "fullName": "William-Lu-stack/LuxyAI",
+      "description": "AgenticOps for Kubernetes and cloud infrastructure.",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-10T05:57:02Z",
+      "url": "https://github.com/William-Lu-stack/LuxyAI",
+      "analysis": {
+        "positioning": "面向K8s和云基础设施的AI原生SRE控制平面，实现自解释、自修复与验证。",
+        "useCases": [
+          "你收到K8s告警 → 它帮你自动诊断、收集证据并生成可执行的修复预案。",
+          "你的基础设施故障 → 它帮你安全执行修复操作，并验证是否真正恢复。",
+          "你排查复杂问题 → 它帮你通过3D拓扑分析发现故障影响，并提供SRE对话与实时证据。"
+        ],
+        "audience": "SRE工程师、运维团队和云架构师，专注于K8s及云基础设施的AI自动化运维。",
+        "quickStart": {
+          "prerequisites": "Python 3.14+, TypeScript 5.x, Kubernetes集群, Docker环境",
+          "steps": [
+            "部署到K8s或Docker (具体步骤参见官方文档)"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "非商业用途免费，商业用途需授权。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "AI原生、AgenticOps理念贯穿始终，旨在通过智能体闭环实现基础设施自解释、自修复与验证，大大提升SRE效率和运维体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低 (1个开启，0个关闭)，星标数较多 (569)，但社区互动待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:31:50.182Z"
+    },
+    {
+      "owner": "AlephAITech",
+      "repo": "WorkBuddyGuide",
+      "fullName": "AlephAITech/WorkBuddyGuide",
+      "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+      "language": "Python",
+      "topics": [
+        "codex",
+        "guide",
+        "llm",
+        "workbuddy"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-10T04:13:51Z",
+      "url": "https://github.com/AlephAITech/WorkBuddyGuide",
+      "analysis": {
+        "positioning": "WorkBuddy 实战指南，助你驾驭AI团队。",
+        "useCases": [
+          "你初次使用 WorkBuddy → 它帮你快速安装上手，完成第一个任务。",
+          "你处理日常办公、知识管理或特定行业工作 → 它提供实战案例和工作流，实现自动化和高效。",
+          "你希望构建 AI 团队或复杂自动化系统 → 它指导你设计多 Agent 系统和自定义 Skill。",
+          "你有 WorkBuddy 使用难题，不知道如何解决 → 它提供“帮你解决”渠道，定制化输出解决方案。"
+        ],
+        "audience": "WorkBuddy 的使用者，无论是初学者、希望提升效率的资深用户，还是寻求团队落地的管理者。",
+        "quickStart": {
+          "prerequisites": "Node.js 20～24",
+          "steps": [
+            "npm install",
+            "npm run dev"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用至上，场景驱动，注重社区共创和问题解决，内容结构清晰且易于上手，从入门到团队落地全覆盖。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues 统计显示目前无公开或已关闭 Issue，但提供“参与共创”和“帮你解决”渠道，鼓励社区积极贡献案例。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:32:02.933Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "Marzban-Panel",
+      "fullName": "x4gKing/Marzban-Panel",
+      "description": "",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-12T22:22:09Z",
+      "url": "https://github.com/x4gKing/Marzban-Panel",
+      "analysis": {
+        "positioning": "在Railway快速部署Marzban面板，自动同步上游更新。",
+        "useCases": [
+          "你想自动化部署Marzban到Railway → 它帮你一键克隆官方源码、构建并部署。",
+          "你担心Marzban版本过旧 → 它帮你总能获取最新官方源码，无需手动同步。",
+          "你想要轻松升级Marzban → 它帮你只需重新部署Railway项目即可完成升级。"
+        ],
+        "audience": "希望在Railway平台快速部署并维护最新Marzban面板，享受自动化更新与简化管理的用户。",
+        "quickStart": {
+          "prerequisites": "GitHub账号, Railway账号",
+          "steps": [
+            "Fork本仓库到你的GitHub账户。",
+            "在Railway创建新项目，选择“Deploy from GitHub Repo”并关联你Fork的仓库。",
+            "等待构建完成（首次构建因构建Dashboard会耗时较长）。",
+            "（可选但推荐）在Railway的Variables中添加`SUDO_USERNAME`和`SUDO_PASSWORD`以自动创建管理员账户。",
+            "（可选）如需使用Postgres，设置`SQLALCHEMY_DATABASE_URL`变量。"
+          ],
+          "note": "Railway自动注入端口`$PORT`。可通过`MARZBAN_REF`构建参数指定Marzban版本。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身开源免费，部署平台Railway可能根据使用情况产生费用）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目思路清晰，通过Dockerfile按需克隆上游源码并构建，解决了传统复制源码模式的更新维护痛点，对Marzban用户非常实用且提供了便捷的Railway部署方案。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues数量少，目前1开0关，活跃度待观察，可能项目稳定性较高或社区交流主要通过其他渠道。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-14T04:32:20.514Z"
+    },
+    {
+      "owner": "yetone",
+      "repo": "kill-ai-slop",
+      "fullName": "yetone/kill-ai-slop",
+      "description": "A field guide to the visual & copy tics of AI-generated products — and an Agent Skill that scans your project and strips them out. https://killaislop.com",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-10T08:59:16Z",
+      "url": "https://github.com/yetone/kill-ai-slop",
+      "analysis": {
+        "positioning": "识别并清理AI产品常见的审美疲劳设计和代码“槽点”。",
+        "useCases": [
+          "你不想让产品看起来像AI流水线作品 → 它提供多语言图文指南和交互演示，教你如何避免和修复AI审美疲劳。",
+          "你正在使用AI编程助手开发项目 → 它作为Agent Skill扫描你的代码，识别AI设计痕迹并建议或应用清洁修复。",
+          "你想快速评估现有项目的设计“AI味” → 它提供一个无依赖的CLI扫描器，快速生成设计槽点报告。"
+        ],
+        "audience": "开发者、设计师，希望避免产品设计同质化，提升美学和用户体验。",
+        "quickStart": {
+          "prerequisites": "npm (用于网站), AI编码代理工具 (如 Claude Code, Cursor) 或 npx (用于Agent Skill)",
+          "steps": [
+            "网站运行：cd website → npm install → npm run dev",
+            "Agent Skill安装：npx skills add yetone/kill-ai-slop"
+          ],
+          "note": "Agent Skill可手动安装，适用于Claude Code、Cursor等多种编码代理；也可直接运行CLI扫描器。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目明确反对AI产品常见的审美疲劳设计，其网站本身就作为反例，采用极简、克制的设计风格，无渐变、表情符号等元素，是反“Vibe Coding”的典型。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue活跃度极低（0开启，1关闭），但有400+ Star，表明项目受到一定关注。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-14T04:32:35.253Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "Marzban-Node",
+      "fullName": "x4gKing/Marzban-Node",
+      "description": "",
+      "language": "Dockerfile",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-12T22:22:51Z",
+      "url": "https://github.com/x4gKing/Marzban-Node",
+      "analysis": {
+        "positioning": "将Marzban-node一键部署至Railway云平台。",
+        "useCases": [
+          "你想在Railway上快速部署Marzban-node → 它帮你自动化适配并部署，无需手动配置。",
+          "你需要将Railway上的Marzban-node接入Marzban面板 → 它提供必要的端口和TLS配置，简化集成。",
+          "你想更新Railway上的Marzban-node到最新版 → 它通过简单的重新部署自动更新，无需手动同步文件。"
+        ],
+        "audience": "需要快速在Railway云平台部署和管理Marzban-node的开发者或系统管理员。",
+        "quickStart": {
+          "prerequisites": "已拥有Railway账户；已部署Marzban面板并准备好节点设置。",
+          "steps": [
+            "Fork此GitHub仓库。",
+            "在Railway上创建一个新服务，选择从Fork的仓库部署。",
+            "部署完成后，将Railway服务的host和port添加到Marzban面板的Node Settings。",
+            "（可选）若需节点管理TLS，设置`SERVICE_TLS=true`并提供`SSL_CLIENT_CERT_FILE`。"
+          ],
+          "note": "Railway平台会在边缘处理TLS，因此默认情况下节点无需自行管理TLS证书，简化配置。"
+        },
+        "competitors": [
+          {
+            "name": "PasarGuard-Node",
+            "method": "与本项目类似，通过Fork仓库并在Railway构建时打补丁的方式部署特定服务。",
+            "models": null,
+            "pricing": null
+          }
+        ],
+        "pricing": "项目代码开源免费，部署依赖Railway平台（Railway有免费额度，超出部分收费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，README详尽，解决了一个明确痛点（在特定云平台部署特定应用）且方案优雅（运行时克隆、打补丁），易于使用和维护。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无公开Issue或PR互动。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-14T04:32:49.810Z"
+    },
+    {
+      "owner": "pengchujin",
+      "repo": "jzsub",
+      "fullName": "pengchujin/jzsub",
+      "description": "JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。",
+      "language": "Python",
+      "topics": [
+        "bilingual",
+        "codex",
+        "subtitles",
+        "video",
+        "yt-dlp"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-10T15:10:00Z",
+      "url": "https://github.com/pengchujin/jzsub",
+      "analysis": {
+        "positioning": "输入链接，一键获取最高画质视频、封面及GPT双语硬字幕MP4。",
+        "useCases": [
+          "你想看国外视频但语言不通 → 它帮你生成带GPT双语硬字幕的MP4，学语言或理解内容更轻松。",
+          "你想收藏高画质视频但平台下载受限 → 它帮你下载最高画质视频、音频、封面，并封装成MP4。",
+          "你需要带精美双语字幕的视频素材 → 它帮你自动烧录MiSans字体、自适应排版的双语字幕MP4，省去后期处理。"
+        ],
+        "audience": "适合需要下载、离线观看或学习带有精准双语字幕视频的用户，以及内容创作者。",
+        "quickStart": {
+          "prerequisites": "Codex环境及git",
+          "steps": [
+            "克隆项目并将其技能文件复制到Codex的技能目录。",
+            "在Codex任务中输入`$jzsub [视频链接]`即可运行。"
+          ],
+          "note": "实际功能受限于源视频平台，若无字幕则仅交付视频及封面。"
+        },
+        "competitors": [
+          {
+            "name": "yt-dlp",
+            "method": "CLI命令下载",
+            "models": "无",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "在线视频字幕工具",
+            "method": "网页上传/链接，手动或AI翻译",
+            "models": "各异",
+            "pricing": "通常有免费额度，高级功能付费"
+          }
+        ],
+        "pricing": "免费开源（MIT协议），但GPT双语翻译功能需用户自备API Key并承担其使用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README清晰，功能定位精准，结合主流下载工具（yt-dlp）和GPT实现高度自动化，实用性强。项目注重细节（如低耗运行、自适应烧录），提升用户体验。",
+        "isVibeCoding": true,
+        "communityActivity": "项目Issue均为0，社区活跃度有待观察，但已获得300+ Star，表明一定关注度。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-14T04:33:19.510Z"
+    },
+    {
+      "owner": "jakubkrehel",
+      "repo": "skills",
+      "fullName": "jakubkrehel/skills",
+      "description": "A set of agent skills that help improve different parts of a product, from animations and typography to layout and colors.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-10T08:58:36Z",
+      "url": "https://github.com/jakubkrehel/skills",
+      "analysis": {
+        "positioning": "AI设计Agent技能集，优化产品UI/UX细节。",
+        "useCases": [
+          "你设计产品动画 → 它帮你优化动画流畅度与用户体验。",
+          "你处理排版和字体 → 它帮你智能调整字体、字号、行距，提升阅读性。",
+          "你进行界面布局 → 它帮你优化元素排布，提升视觉平衡和响应式设计。"
+        ],
+        "audience": "产品设计师、前端开发者和UI/UX工程师，快速迭代和优化产品界面体验。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js环境",
+          "steps": [
+            "运行 `npx skills add jakubkrehel/skills` 安装 Agent 技能集"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是实用的Agent技能集，命名和描述直接，无明显独特文化或实验性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低（或项目太新），目前无Issue记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:33:34.757Z"
+    },
+    {
+      "owner": "Moore-developers",
+      "repo": "moore-wechat-article-downloader",
+      "fullName": "Moore-developers/moore-wechat-article-downloader",
+      "description": "本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "claude-code",
+        "codex-skill",
+        "content-analysis",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "wechat",
+        "wechat-articles",
+        "wechat-mp"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-08T04:29:05Z",
+      "url": "https://github.com/Moore-developers/moore-wechat-article-downloader",
+      "analysis": {
+        "positioning": "本地优先微信文章情报库，赋能AI分析与内容研究。",
+        "useCases": [
+          "你想学习某个公众号的创作套路 → 它帮你拆解选题、标题、结构、读者反馈，提炼可借鉴方法。",
+          "你想把零散的微信文章链接统一管理和分析 → 它帮你将链接导入本地，构建可搜索、可复用的资料库。",
+          "你希望AI智能分析微信内容获取洞察 → 它将公众号文章、评论、互动数据转化为AI（Codex/Claude）可用的本地知识库。"
+        ],
+        "audience": "内容创作者、研究者/产品人、知识管理用户、AI用户，希望将微信公众号内容沉淀为本地可分析、可复用的资料库。",
+        "quickStart": {
+          "prerequisites": "git及Codex/Claude Code运行环境（部分高级功能可能需macOS微信桌面客户端及mitmproxy等）",
+          "steps": [
+            "根据所用AI平台（Codex或Claude Code）选择相应技能目录，执行：git clone https://github.com/Moore-developers/moore-wechat-article-downloader.git ~/.{codex或claude}/skills/moore-wechat-article-downloader",
+            "重新打开 Codex / Claude Code，使用自然语言指令（如“同步我关注的公众号，按日期列出最近 50 篇新文章”）操作。"
+          ],
+          "note": "需根据所用AI平台选择对应安装路径，如~/.codex/skills或~/.claude/skills。"
+        },
+        "competitors": [
+          {
+            "name": "常见公众号导出工具",
+            "method": "多为脚本或一次性批量导出，需手动配置参数，通常不集成AI或本地知识库管理。",
+            "models": "不支持AI模型直接集成。",
+            "pricing": "通常免费。"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目解读非常场景化，直接命中用户痛点，用具体指令示例展示功能，并清晰区分于竞品，非常适合AI Agent集成，易于理解和上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少（0开/1关），可能为早期项目，但Star数较高（257），社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:33:52.590Z"
+    },
+    {
+      "owner": "DexCrancer",
+      "repo": "AdelanSoulx-PM-Trading-Bot",
+      "fullName": "DexCrancer/AdelanSoulx-PM-Trading-Bot",
+      "description": "PM: tail-end / endcycle sniper opportunities",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-08T18:22:38Z",
+      "url": "https://github.com/DexCrancer/AdelanSoulx-PM-Trading-Bot",
+      "analysis": {
+        "positioning": "Polymarket尾部狙击机器人，自动化套利。",
+        "useCases": [
+          "你手动筛选Polymarket尾部市场 → 它自动扫描、发现并评分潜在的狙击机会。",
+          "你手动计算风险和回报 → 它自动进行仓位管理、风险控制（如每日亏损上限）。",
+          "你手动执行交易 → 它通过CLOB V2自动下单买入，并详细记录所有操作。"
+        ],
+        "audience": "适合对Polymarket预测市场有兴趣，希望自动化挖掘尾部高胜率套利机会的开发者和投资者。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+",
+          "steps": [
+            "克隆项目代码。",
+            "安装Python依赖。",
+            "根据需求配置参数（如API密钥、风险管理）。",
+            "运行（默认干跑模式，无实际资金风险）。"
+          ],
+          "note": "默认启用干跑模式（Dry Run），确保安全，不会实际下单。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目开源、采用Python实现，针对特定利基市场（预测市场套利），提供清晰的策略和详细的配置选项，自带安全防护（干跑模式），对于热衷于量化交易和自动化工具的开发者来说，具有较高的吸引力和可玩性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前没有开放Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:34:07.161Z"
+    },
+    {
+      "owner": "Jane-xiaoer",
+      "repo": "paper-collage-ad-codex",
+      "fullName": "Jane-xiaoer/paper-collage-ad-codex",
+      "description": "Codex skill for complete paper-cut collage ad production, local IndexTTS-2 voice cloning, animation, audio and MP4 QC",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-10T05:50:11Z",
+      "url": "https://github.com/Jane-xiaoer/paper-collage-ad-codex",
+      "analysis": {
+        "positioning": "基于Codex的AI广告制作技能，专为剪纸拼贴广告。",
+        "useCases": [
+          "你想要独特广告创意 → 它帮你从产品资料提炼视觉隐喻。",
+          "你只有产品概念 → 它帮你输出脚本、对白和分镜。",
+          "你希望广告有专属配音 → 它帮你用AI克隆授权声音并生成旁白。",
+          "你希望一站式制作高质量视频 → 它帮你完成动画、音效、合成和MP4质检。"
+        ],
+        "audience": "广告制作人、营销人员、创意团队，想在Codex环境中快速、定制化生成剪纸拼贴广告视频。",
+        "quickStart": {
+          "prerequisites": "macOS用户需安装ffmpeg和node。",
+          "steps": [
+            "全局或项目内安装skill到Codex目录。",
+            "重启Codex后，使用自然语言指令调用（例如：`用 paper-collage-ad 给这个产品制作一条有趣的 45 秒剪纸广告。`）。",
+            "（可选）若需本地声音克隆，需安装IndexTTS-2 MLX运行时并准备参考声音文件。"
+          ],
+          "note": "该工具主要面向OpenAI Codex桌面/CLI环境。"
+        },
+        "competitors": [
+          {
+            "name": "ElevenLabs",
+            "method": "API调用/网页平台",
+            "models": "高质量TTS/声音克隆",
+            "pricing": "免费层/付费"
+          },
+          {
+            "name": "即梦 (JieMeng)",
+            "method": "平台操作/API",
+            "models": "AI动画/图像生成",
+            "pricing": "免费层/付费"
+          }
+        ],
+        "pricing": "免费，Skill本身开源免费；部分高级功能（如特定AI服务）需用户自备密钥并支付第三方服务费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "专注于AI剪纸拼贴广告制作这一独特细分市场，提供从创意到MP4输出的端到端解决方案，并支持本地声音克隆，高度聚焦且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，目前Issue统计为零，活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-14T04:34:38.479Z"
+    },
+    {
+      "owner": "JustVugg",
+      "repo": "colibri",
+      "fullName": "JustVugg/colibri",
+      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-01T12:27:49Z",
+      "url": "https://github.com/JustVugg/colibri",
+      "analysis": {
+        "positioning": "消费级机器运行744B MoE大模型，纯C高效内存管理。",
+        "useCases": [
+          "你需要在25GB RAM机器上运行744B MoE模型 → 它帮你纯C零依赖，磁盘流式加载专家模型",
+          "你想加速GLM-5.2推理 → 它帮你实现原生MTP预测，提升2.2-2.8 tokens/forward",
+          "你追求极致性能和低依赖的大模型推理引擎 → 它提供纯C轻量运行时，优化内存层级管理"
+        ],
+        "audience": "硬件资源有限，希望在普通PC上高效运行超大MoE模型的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "获取GLM-5.2模型文件",
+            "编译Colibrì项目",
+            "运行 `./coli chat` 启动对话"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "llama.cpp",
+            "method": "纯C/C++推理引擎，CPU/GPU通用",
+            "models": "Llama, Mixtral, Qwen等多种主流LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "Hugging Face Transformers",
+            "method": "Python库，高层API，CPU/GPU",
+            "models": "各种主流LLM，包括MoE模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "在资源受限的消费级机器上，以纯C、零依赖的方式，通过巧妙的内存分层管理和专家模型磁盘流式加载，高效运行744B的MoE巨型模型，堪称极致的工程优化和内存管理艺术。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，Issue开闭比约为4:3，有持续的讨论和问题解决。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-14T04:35:22.300Z"
     }
   ]
 }
