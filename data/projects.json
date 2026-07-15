@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-14T04:35:22.332Z",
+  "updatedAt": "2026-07-15T04:36:33.807Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -66301,6 +66301,1086 @@
         "category": "LLM框架"
       },
       "analyzedAt": "2026-07-14T04:35:22.300Z"
+    },
+    {
+      "owner": "my-take-dev",
+      "repo": "inspired-mino-design-skills",
+      "fullName": "my-take-dev/inspired-mino-design-skills",
+      "description": "ミノ駆動氏のWebに掲載されている資料から作成した開発スキル",
+      "language": "PowerShell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T00:08:09Z",
+      "url": "https://github.com/my-take-dev/inspired-mino-design-skills",
+      "analysis": {
+        "positioning": "将ミノ駆動设计原则AI化，提升开发决策一致性和可追溯性的工具集。",
+        "useCases": [
+          "你准备开始新功能或重大变更 → 它帮你整理设计前提，明确问题、目的和成功条件（通过mino-problem-framing）。",
+          "你设计业务概念 → 它帮你检查领域模型，确保概念、状态、约束和行为的完整性（通过mino-domain-model-completeness）。",
+          "你定义需求 → 它帮你将需求转化为可验证的合同与条件，明确正常与异常情况（通过mino-design-by-contract）。",
+          "你希望AI生成代码时保持设计一致性 → 它帮你确保AI不混淆问题与手段，并将自然语言需求追溯到模型和测试。"
+        ],
+        "audience": "希望通过AI辅助应用结构化设计原则，确保设计决策严谨性和可验证性的开发者或架构师。",
+        "quickStart": {
+          "prerequisites": "Windows PowerShell 5.1 (通过WSL UNC) 或 Linux Bash 环境。",
+          "steps": [
+            "通过在 `AGENTS.md` 中定义Skill路由规则，指导AI Agent如何组合和应用设计原则。",
+            "根据当前开发阶段（如设计或实现），选择合适的 `mino-*` Skill（例如新功能设计时选择 `mino-problem-framing` 整理问题）。"
+          ],
+          "note": "macOS平台目前不在支持范围。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目强调严谨的工程实践，如行为验证、版本控制、质量组合管理等，目标是根植于设计原则而非表象模仿，展现出高度专业和体系化的开发理念。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示只有1个开启Issue且无关闭记录。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-15T04:30:03.337Z"
+    },
+    {
+      "owner": "OrientalYomu",
+      "repo": "SMS-Call-Bomber",
+      "fullName": "OrientalYomu/SMS-Call-Bomber",
+      "description": "SMS + Call Bomber — multi-threaded phone number flooder that sends mass SMS messages and initiates automated calls through 50+ public API gateways. Supports international phone numbers with country code detection, configurable delay between requests (0–60s), adjustable thread count (1–100), and per-gateway rate limit handling. ",
+      "language": "Unknown",
+      "topics": [
+        "api-gateway",
+        "bomber-tool",
+        "call-bomber",
+        "call-spammer",
+        "desktop-app",
+        "dotnet",
+        "international",
+        "multi-threaded",
+        "phone-flooder",
+        "phone-number",
+        "proxy-rotation",
+        "rate-limiting",
+        "sms-bomber",
+        "sms-flood",
+        "sms-spammer",
+        "telephony",
+        "windows"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T00:49:16Z",
+      "url": "https://github.com/OrientalYomu/SMS-Call-Bomber",
+      "analysis": {
+        "positioning": "大规模短信+电话轰炸工具，支持多线程、国际号码和多API。",
+        "useCases": [
+          "你需要对目标手机号进行高频次骚扰 → 它帮你通过50+API发送海量短信和电话。",
+          "你想测试短信/电话接口的抗压性 → 它帮你模拟真实流量进行压力测试。",
+          "你需要绕过限速和IP封禁 → 它帮你自动处理限流、代理轮换，持续轰炸。"
+        ],
+        "audience": "安全研究人员或渗透测试工程师，用于授权的短信/电话接口压力测试。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统, .NET 8 Runtime",
+          "steps": [
+            "下载最新版本可执行文件。",
+            "运行程序，输入目标手机号和配置参数。",
+            "启动轰炸。"
+          ],
+          "note": "仅支持Windows平台。"
+        },
+        "competitors": [
+          {
+            "name": "其他开源短信/电话轰炸脚本",
+            "method": "命令行执行/简单UI",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "自行编写的脚本",
+            "method": "Python/Shell脚本",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能全面，支持多线程、国际号码、50+API接口和代理轮换，并提供实时监控，是同类工具中功能较完善的。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无Issue报告或讨论。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-15T04:30:19.666Z"
+    },
+    {
+      "owner": "bartekhomeeee-crypto",
+      "repo": "uTorrent-Pro-Download",
+      "fullName": "bartekhomeeee-crypto/uTorrent-Pro-Download",
+      "description": "uTorrent Pro Download — pre-activated uTorrent Pro with all premium features unlocked. Removes all ads and banners, enables video streaming, bandwidth scheduler, virus guard integration, and advanced remote management. ",
+      "language": "Unknown",
+      "topics": [
+        "utorrent-pro-advanced-features",
+        "utorrent-pro-file-sharing",
+        "utorrent-pro-network-settings",
+        "utorrent-pro-performance-tips",
+        "utorrent-pro-permissions-settings",
+        "utorrent-pro-troubleshooting-help",
+        "utorrentpro",
+        "utorrentpro-client",
+        "utorrentpro-download",
+        "utorrentpro-fast-download"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T00:57:01Z",
+      "url": "https://github.com/bartekhomeeee-crypto/uTorrent-Pro-Download",
+      "analysis": {
+        "positioning": "预激活版uTorrent Pro，解锁全部高级功能",
+        "useCases": [
+          "你受够了uTorrent广告 → 它帮你移除所有广告和横幅",
+          "你希望边下载边看视频 → 它帮你实现内置视频流播放",
+          "你需要精细控制下载带宽 → 它帮你智能调度带宽使用",
+          "你关注下载文件安全 → 它帮你集成病毒防护功能",
+          "你想要随时随地管理下载 → 它帮你实现高级远程管理"
+        ],
+        "audience": "uTorrent用户，寻求无广告、全功能、易安装的专业版体验",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从项目提供的下载链接下载压缩包（通常是`fullsofts.org`）",
+            "如有现有uTorrent客户端，请先卸载",
+            "解压下载的压缩包，运行`uTorrentProSetup.exe`",
+            "依照安装向导操作，Pro授权将自动激活"
+          ],
+          "note": "仅限Windows平台"
+        },
+        "competitors": [
+          {
+            "name": "uTorrent Pro (官方版)",
+            "method": "官网购买订阅",
+            "models": null,
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "qBittorrent",
+            "method": "下载安装",
+            "models": null,
+            "pricing": "免费（无广告，功能类似）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目活跃度低（0 Issue），更新日期（2026年）存疑，下载指向外部网站，且提供预激活商业软件，存在潜在安全与合规风险。代码透明度不高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区无任何活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:30:39.184Z"
+    },
+    {
+      "owner": "asadteaa",
+      "repo": "WeMod-Pro-Patcher",
+      "fullName": "asadteaa/WeMod-Pro-Patcher",
+      "description": "Patcher for WeMod (wemod.com) — the popular game trainer and mod platform developed by WeMod Inc (founded 2016). Unlocks WeMod Pro subscription features including remote cheats, ad-free experience, custom hotkey bindings, priority support access, and early access to new game trainers. ",
+      "language": "Unknown",
+      "topics": [
+        "wemod-2026",
+        "wemod-alternative",
+        "wemod-god-mode",
+        "wemod-latest",
+        "wemod-patcher",
+        "wemod-setup"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T00:54:49Z",
+      "url": "https://github.com/asadteaa/WeMod-Pro-Patcher",
+      "analysis": {
+        "positioning": "WeMod Pro破解补丁，免费解锁全部付费功能。",
+        "useCases": [
+          "你想用远程作弊，但不想付费 → 它帮你免费解锁，手机平板也能控制游戏修改器。",
+          "你讨厌WeMod广告或想自定义热键 → 它帮你享受无广告的纯净体验，并轻松设置专属热键。",
+          "你想抢先体验新修改器或无限使用所有修改器槽位 → 它帮你免费获得新修改器抢先体验及无限槽位特权。"
+        ],
+        "audience": "不愿付费订阅WeMod Pro，但又想体验Pro级修改器功能的玩家。",
+        "quickStart": {
+          "prerequisites": "电脑已安装WeMod客户端（Windows平台）",
+          "steps": [
+            "下载最新版本的 `WeModProPatcher.exe`。",
+            "完全关闭WeMod（包括系统托盘图标）。",
+            "以管理员身份运行 `WeModProPatcher.exe`，点击“Apply Patch”。",
+            "重新启动WeMod，所有Pro功能已解锁。"
+          ],
+          "note": "仅支持Windows操作系统。"
+        },
+        "competitors": [
+          {
+            "name": "WeMod Pro (官方订阅)",
+            "method": "通过WeMod官网购买订阅",
+            "models": "WeMod平台所有游戏修改器",
+            "pricing": "付费"
+          },
+          {
+            "name": "Aurora (开源修改器)",
+            "method": "下载安装Aurora客户端",
+            "models": "社区制作的修改器，支持大量游戏",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，通过修改客户端文件解锁WeMod Pro付费功能。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目旨在通过修改WeMod客户端文件，免费解锁其付费Pro功能，本质上属于绕过订阅和许可机制。尽管代码开源且提供了备份机制，但其用途可能涉及版权和软件使用协议的法律风险。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub上Issue统计为0，社区反馈和活跃度在项目页面上不明显。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:30:56.387Z"
+    },
+    {
+      "owner": "mixedstormplay",
+      "repo": "photoshop-batch-export-optimizer",
+      "fullName": "mixedstormplay/photoshop-batch-export-optimizer",
+      "description": "Intelligent batch export plugin for Photoshop CC 2024+ with adaptive compression,  format optimization, and automated asset organization. Export hundreds of layers  with consistent quality and minimal file sizes. Includes web, mobile, ecommerce,  and print profiles. Built for production teams and design studios.",
+      "language": "HTML",
+      "topics": [
+        "abobe",
+        "ai",
+        "batch",
+        "batch-export",
+        "batch-export-optimizer",
+        "effects",
+        "export",
+        "optimizer",
+        "photoshop",
+        "photoshop-batch"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T00:22:36Z",
+      "url": "https://github.com/mixedstormplay/photoshop-batch-export-optimizer",
+      "analysis": {
+        "positioning": "Photoshop智能批量导出插件，兼顾质量和文件大小。",
+        "useCases": [
+          "你设计完大量素材，需要导出多格式、多尺寸版本 → 它帮你智能压缩、优化格式，减少文件大小。",
+          "你需要针对Web/移动/电商/印刷等不同场景导出 → 它提供预设配置，自动适配最佳方案。",
+          "你导出后需要手动整理输出文件 → 它帮你自动组织素材结构，省去后期整理。"
+        ],
+        "audience": "Photoshop CC 2024+用户，尤其是需要频繁处理大量素材导出（如设计工作室、电商、生产团队）的专业人士。",
+        "quickStart": {
+          "prerequisites": "操作系统：Windows 10+/macOS 10.15+；Photoshop：CC 2024+；内存：8GB+；硬盘：500MB+ SSD。",
+          "steps": [
+            "运行官方提供的安装脚本。",
+            "根据使用指南在Photoshop中进行插件配置和导出操作。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目描述清晰，功能定位明确，README文档结构良好且内容详细，提供了智能优化、多场景预设等实用功能，对专业团队有直接价值。但社区活跃度目前较低。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues 0开0关，社区活跃度较低，可能项目处于早期阶段或用户反馈主要通过其他渠道。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:31:09.130Z"
+    },
+    {
+      "owner": "TyrantDevelop",
+      "repo": "fl-studio-plugin-commander",
+      "fullName": "TyrantDevelop/fl-studio-plugin-commander",
+      "description": "Advanced MIDI control and intelligent workflow automation suite for FL Studio 21+. Real-time parameter mapping, adaptive effect chaining, MIDI learning, and production profile management. Streamline your workflow with intelligent automation.",
+      "language": "HTML",
+      "topics": [
+        "all-plugins-edition",
+        "beat-making",
+        "daw-software",
+        "digital-audio-workstation",
+        "fl",
+        "fl-studio-26",
+        "fl-studio-classic",
+        "fl-studio-win",
+        "flp",
+        "flsi",
+        "flstudio26",
+        "fruity-loops",
+        "midi-sequencer",
+        "mixing-and-mastering",
+        "music-production-for-beginners",
+        "professional-music-software",
+        "software-fl-studio",
+        "technical-utility",
+        "vst-plugins",
+        "windows-daw"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T02:02:56Z",
+      "url": "https://github.com/TyrantDevelop/fl-studio-plugin-commander",
+      "analysis": {
+        "positioning": "FL Studio智能MIDI控制与工作流自动化套件。",
+        "useCases": [
+          "你手动映射MIDI控制器 → 它帮你自动识别插件链并智能映射MIDI控制。",
+          "你频繁调整插件参数或效果链 → 它帮你通过自适应算法自动调整和优化。",
+          "你希望提升制作效率和一致性 → 它帮你分析制作习惯并自动化优化工作流程。"
+        ],
+        "audience": "适用于FL Studio 21+用户，特别是追求高效、智能音乐制作的制作人、声音设计师和专业音乐人。",
+        "quickStart": {
+          "prerequisites": "操作系统：Windows 10+/macOS 10.15+；FL Studio：21.0+；内存：4GB+；硬盘：300MB+；推荐MIDI键盘。",
+          "steps": [
+            "打开终端，执行自动化安装脚本：`curl -fsSL https://raw.githubusercontent.com/fl-studio-plugin-commander/setup/main/install.sh | bash`",
+            "根据官方指南，进行插件的配置和自动化设置。"
+          ],
+          "note": "自动化安装脚本适用于类Unix系统（如macOS），Windows用户可能需要通过WSL或其他方式执行。"
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述和README专业清晰，功能定位明确，作为插件的发布与文档平台设计精良。但Star数量偏低，Issue数为零，表明其在社区中的活跃度不高，可能并非一个传统的开源代码协作项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue区无任何交流痕迹。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:31:38.558Z"
+    },
+    {
+      "owner": "EnamelSpirit",
+      "repo": "ae-animation-expressions",
+      "fullName": "EnamelSpirit/ae-animation-expressions",
+      "description": "Professional expression-based animation framework for After Effects 2024+.  Automates text sequencing, layer synchronization, and motion keyframe generation  with intelligent timing algorithms and adaptive animation presets. Built for motion  designers, video producers, and animation studios.",
+      "language": "HTML",
+      "topics": [
+        "abobe",
+        "abobe-after-effects",
+        "ae",
+        "aeshare",
+        "after-effects",
+        "after-effects-2026",
+        "after-effects-plugin",
+        "ai",
+        "download",
+        "gpu",
+        "motion-graphic-ae",
+        "motion-graphics",
+        "share"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T01:11:17Z",
+      "url": "https://github.com/EnamelSpirit/ae-animation-expressions",
+      "analysis": {
+        "positioning": "After Effects 动效自动化表达式框架。",
+        "useCases": [
+          "你手动逐帧调整文字动画 → 它智能处理文字序列和时序。",
+          "你手动同步多层图层动画 → 它自动协调层间动态同步。",
+          "你手动生成运动关键帧 → 它自动生成适应性关键帧和动效预设。"
+        ],
+        "audience": "适合 After Effects 2024+ 用户，尤其是追求效率的动效设计师、视频制作人、动画工作室。",
+        "quickStart": {
+          "prerequisites": "OS: Windows 10/macOS 11+；After Effects: 2024+；Memory: 8GB+；Disk: 500MB+。",
+          "steps": [
+            "运行提供的安装脚本（如 `curl -fsSL YOUR_SETUP_SCRIPT | bash`）。",
+            "在 After Effects 中应用表达式库并配置动画。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "未明确说明定价，但提供下载链接，推测为免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "极大地自动化了After Effects中复杂且重复的动效制作流程（如文字、图层同步），让设计师能更快速、流畅地实现创意，专注于“氛围”而非繁琐细节。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为开启 0 / 已关闭 0，表明社区活跃度极低或尚未启动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:31:49.942Z"
+    },
+    {
+      "owner": "magmaduckplain",
+      "repo": "ae-expression-library",
+      "fullName": "magmaduckplain/ae-expression-library",
+      "description": "Production-ready expression toolkit for Adobe After Effects 2024+. Advanced property linking, dynamic text animation, sophisticated camera control, adaptive layer management, and automated timing solutions. Real-time preview with interactive UI panel. Built for motion designers, VFX artists, and broadcast production teams.",
+      "language": "HTML",
+      "topics": [
+        "abobe",
+        "abobe-after-effects",
+        "ae",
+        "aeshare",
+        "after-effects",
+        "after-effects-2026",
+        "after-effects-plugin",
+        "ai",
+        "boris-fx",
+        "download",
+        "gpu",
+        "motion-graphic",
+        "motion-graphic-ae",
+        "share-ae"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T01:02:32Z",
+      "url": "https://github.com/magmaduckplain/ae-expression-library",
+      "analysis": {
+        "positioning": "After Effects专业级表达式库，智能加速动画制作。",
+        "useCases": [
+          "你做动画属性联动 → 它帮你高级链接属性，无需手动K帧。",
+          "你做动态文本动画 → 它帮你自动生成复杂且适应性强的文本效果。",
+          "你做复杂分层与时序管理 → 它帮你智能分析并自动化处理，优化工作流。"
+        ],
+        "audience": "运动设计师、视觉特效师和广电制作团队，旨在通过智能自动化大幅提升After Effects动画制作效率。",
+        "quickStart": {
+          "prerequisites": "操作系统（Windows 10+/macOS 11+），After Effects（CC 2024+），内存（8GB+），存储（500MB+ SSD）。",
+          "steps": [
+            "确保你的After Effects版本为2024或更高。",
+            "执行项目提供的自动化安装脚本。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Boris FX",
+            "method": "AE插件安装，提供视觉特效、跟踪和后期制作工具。",
+            "models": "N/A",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目通过智能分析动画需求，自动生成和优化After Effects表达式，将复杂的编程逻辑转化为可直接应用的高效解决方案，极大地简化了动画师的工作流程，实现高度自动化和加速。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无活动 (0/0)，社区活跃度低。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-15T04:32:05.587Z"
+    },
+    {
+      "owner": "AtomCardinalGlimpse",
+      "repo": "ccleaner-pro-system-optimizer",
+      "fullName": "AtomCardinalGlimpse/ccleaner-pro-system-optimizer",
+      "description": "Advanced system maintenance and optimization utility. Intelligent junk file  removal, registry optimization, privacy protection, performance enhancement.  Safe deletion, browser cleanup, disk space recovery. Windows & macOS compatible.  Adaptive algorithms for optimal system health and stability.",
+      "language": "HTML",
+      "topics": [
+        "ccleaner-2026",
+        "ccleaner-alternative",
+        "ccleaner-computer-maintenance",
+        "ccleaner-pro-history-removal",
+        "ccleaner-pro-pc-health",
+        "ccleaner-pro-startup-manager",
+        "cleaner-script",
+        "disk-analyzer",
+        "privacy-cleaner",
+        "security-software"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T01:49:58Z",
+      "url": "https://github.com/AtomCardinalGlimpse/ccleaner-pro-system-optimizer",
+      "analysis": {
+        "positioning": "跨平台智能系统优化，清理加速隐私保护。",
+        "useCases": [
+          "你担心电脑卡顿、空间不足 → 它帮你智能清理垃圾，释放磁盘空间，提升运行速度。",
+          "你担忧系统不稳、隐私泄露 → 它帮你优化注册表，清理浏览痕迹，强化隐私安全。",
+          "你苦恼开机缓慢、性能不佳 → 它帮你加速启动项，自适应优化系统，提升整体性能。"
+        ],
+        "audience": "追求系统性能、隐私保护，希望一键优化Windows/macOS设备的用户。",
+        "quickStart": {
+          "prerequisites": "操作系统：Windows 10+/macOS 10.15+；内存：2GB+；磁盘：200MB+ 空闲空间",
+          "steps": [
+            "打开终端或命令提示符",
+            "运行 `curl -fsSL YOUR_SETUP_SCRIPT | bash` （YOUR_SETUP_SCRIPT需替换为实际脚本地址）进行自动化安装"
+          ],
+          "note": "脚本安装流程适用于Windows和macOS，具体脚本地址请查阅项目README中的下载链接。"
+        },
+        "competitors": [
+          {
+            "name": "CCleaner",
+            "method": "桌面应用",
+            "models": "N/A",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目信息不完整（如许可证缺失），GitHub Stars数量较低（52），Issue统计为0，活跃度存疑。此外，GitHub项目语言标记为HTML，与系统优化工具的实际开发语言（通常是编译型语言）不符，可能仅指项目页面，需警惕其真实性和成熟度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何公开Issue反馈或讨论。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-15T04:32:24.083Z"
+    },
+    {
+      "owner": "AxisCricketElevator",
+      "repo": "pdf-batch-processor",
+      "fullName": "AxisCricketElevator/pdf-batch-processor",
+      "description": "Advanced batch processing automation extension for Adobe Acrobat Pro. Intelligent document handling, metadata extraction, watermarking, and PDF optimization with adaptive algorithms. Streamline your document workflows.",
+      "language": "HTML",
+      "topics": [
+        "acrobat",
+        "acrobat-breaker",
+        "acrobat-full",
+        "acrobat-live",
+        "acrobat-pro",
+        "acrobat-pro-dc",
+        "acrobat-reader-pro",
+        "acrobat-unleashed",
+        "acrobat-unstoppable",
+        "acrobat-windows",
+        "adobe-acrobat",
+        "adobe-creative-cloud",
+        "pdf-generation",
+        "pdf-monster-tool"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T02:30:01Z",
+      "url": "https://github.com/AxisCricketElevator/pdf-batch-processor",
+      "analysis": {
+        "positioning": "Adobe Acrobat Pro的智能PDF批量处理和优化扩展。",
+        "useCases": [
+          "你管理大量PDF → 它帮你智能提取元数据、自动分类和压缩。",
+          "你需要给PDF批量加水印或优化大小 → 它帮你自适应处理，保证效果。",
+          "你是法律或文档管理专家 → 它帮你大幅提升PDF处理效率和合规性。"
+        ],
+        "audience": "适用于需要批量、智能处理PDF的法律团队、文档管理专家及企业用户。",
+        "quickStart": {
+          "prerequisites": "操作系统：Windows 10+/macOS 10.15+；软件：Adobe Acrobat Pro DC 2024+；硬件：至少4GB内存，500MB硬盘空间。",
+          "steps": [
+            "访问项目主页获取最新下载链接。",
+            "复制并运行安装脚本进行自动化安装。"
+          ],
+          "note": "安装过程包含Acrobat兼容性验证，支持Windows和macOS。"
+        },
+        "competitors": [],
+        "pricing": "未知，未提及收费信息。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档详细，功能明确，有实际应用场景。但GitHub Star数相对不高，且Issue数量为零，社区互动性有待观察。语言为HTML可能仅指项目页，核心功能预计由其他语言实现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无任何Issue记录。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-15T04:32:37.734Z"
+    },
+    {
+      "owner": "ExteriorShinobi29",
+      "repo": "vegas-pro-ai-upscaler",
+      "fullName": "ExteriorShinobi29/vegas-pro-ai-upscaler",
+      "description": "Intelligent video enhancement plugin for Sony Vegas Pro. Neural upscaling (2x-4x),  adaptive noise reduction, motion-aware sharpening, and frame interpolation.  Professional-grade restoration for filmmakers, editors & studios.",
+      "language": "HTML",
+      "topics": [
+        "activation-tools",
+        "sony-vegas",
+        "sony-vegas-2026-full",
+        "sony-vegas-21-download",
+        "sony-vegas-full",
+        "sony-vegas-key",
+        "sony-vegas-key-free",
+        "sony-vegas-plugins-borisfx",
+        "sony-vegas-plugins-free",
+        "sony-vegas-pro-21-tutorial",
+        "sony-vegas-pro-installition"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T02:16:36Z",
+      "url": "https://github.com/ExteriorShinobi29/vegas-pro-ai-upscaler",
+      "analysis": {
+        "positioning": "Sony Vegas Pro的AI智能视频画质增强插件。",
+        "useCases": [
+          "你视频分辨率低或画面不清晰 → 它帮你AI智能无损放大至4K。",
+          "你视频有噪点、模糊或压缩伪影 → 它帮你AI自适应降噪和运动感知锐化。",
+          "你视频帧率低、播放卡顿 → 它帮你AI智能插帧使画面更流畅。"
+        ],
+        "audience": "Sony Vegas Pro用户、视频剪辑师、后期制作工作室，需要提升视频画质、修复旧素材的专业人士。",
+        "quickStart": {
+          "prerequisites": "操作系统：Windows 10+；Vegas Pro：19.0+；内存：8GB+；显存：2GB+；硬盘：2GB+；建议NVIDIA CUDA GPU支持。",
+          "steps": [
+            "通过下载链接获取安装包或运行提供的安装脚本。",
+            "在Sony Vegas Pro中打开并启用该插件。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数较低，无活跃Issue，Github仓库语言显示为HTML，实际AI插件核心代码未公开，更像一个分发平台而非开放源代码库。README结构完整，但社区互动性差。",
+        "isVibeCoding": true,
+        "communityActivity": "无活跃Issue，社区几乎没有互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:32:52.736Z"
+    },
+    {
+      "owner": "mudsoldiermove",
+      "repo": "photoshop-smart-layer-manager",
+      "fullName": "mudsoldiermove/photoshop-smart-layer-manager",
+      "description": "Advanced layer organization and automation plugin for Adobe Photoshop CC 2024+. Intelligent grouping, bulk renaming, hierarchy detection, and smart layer management powered by adaptive algorithms. Works with design systems, production pipelines, and complex document structures. Native UXP extension.",
+      "language": "HTML",
+      "topics": [
+        "abobe",
+        "ai",
+        "layer",
+        "layer-manager",
+        "photoshop",
+        "uxp-plugin"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T00:51:54Z",
+      "url": "https://github.com/mudsoldiermove/photoshop-smart-layer-manager",
+      "analysis": {
+        "positioning": "Photoshop智能图层管理，AI赋能，效率翻倍。",
+        "useCases": [
+          "你Photoshop图层太多太乱 → 它帮你AI智能分组、批量重命名。",
+          "你需快速理清复杂文档结构 → 它帮你自动检测孤立层、命名不一致，并建议层级。",
+          "你希望预览操作效果再执行 → 它提供实时图层树可视化，所见即所得。"
+        ],
+        "audience": "适用于使用Photoshop CC 2024+的UI/UX设计师、数字艺术家和生产团队，解决复杂图层管理痛点。",
+        "quickStart": {
+          "prerequisites": "操作系统：Windows 10+ 或 macOS 10.15+；Photoshop版本：CC 2024+；内存：4GB+；硬盘：400MB+。",
+          "steps": [
+            "打开终端或命令行工具。",
+            "执行一键安装命令：`curl -fsSL https://smartlayermanager.dev/setup.sh | bash`。"
+          ],
+          "note": "安装脚本会自动处理兼容性验证、插件安装和索引生成。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述专业，README详细，且功能针对Photoshop痛点，但Star数和Issue活跃度较低，社区参与度有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue反馈或讨论。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:33:05.670Z"
+    },
+    {
+      "owner": "Spixy-launchers",
+      "repo": "spixy",
+      "fullName": "Spixy-launchers/spixy",
+      "description": "Свой лаунчер для Minecraft-сервера без кода: конструктор .exe-лаунчера с модами и автообновлением, сайт, донат-магазин, RCON. No-code Minecraft server launcher builder.",
+      "language": "Unknown",
+      "topics": [
+        "fabric",
+        "forge",
+        "launcher",
+        "minecraft",
+        "minecraft-launcher",
+        "minecraft-server",
+        "modpack",
+        "no-code",
+        "saas"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T01:24:05Z",
+      "url": "https://github.com/Spixy-launchers/spixy",
+      "analysis": {
+        "positioning": "我的世界服务器无代码平台，一站式构建专属启动器、网站、商店与RCON。",
+        "useCases": [
+          "你想要为Minecraft服务器创建自定义启动器 → 它帮你无代码定制.exe启动器，集成mod与自动更新。",
+          "你正在手动管理服务器网站、捐赠商店和RCON → 它提供内置网站、捐赠系统和浏览器RCON面板。",
+          "你希望方便地分发和更新mod包给玩家 → 它支持Modrinth/CurseForge导入，实现文件级自动更新，玩家无需重新下载整个包。"
+        ],
+        "audience": "适合Minecraft服务器主，希望在不编写代码、不搭建VPS的情况下，快速构建功能完善的服务器生态系统（专属启动器、管理网站、捐赠商店等）。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "登录Spixy平台，创建服务器 сборку（构建），选择Minecraft版本、加载器并添加Mod。",
+            "添加你的服务器列表，并根据品牌需求设计启动器界面（名称、Logo、颜色、模板）。",
+            "平台将生成一个专属的Windows .exe启动器，分发给玩家即可使用，Spixy负责文件托管与自动更新。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "自建代码开发（C#/Java）",
+            "method": "需要编程技能，自行编写启动器代码，并部署文件托管和更新机制。",
+            "models": "支持Minecraft启动器功能，自由度高。",
+            "pricing": "需投入大量开发时间和服务器成本。"
+          },
+          {
+            "name": "GravitLauncher (self-hosted)",
+            "method": "开源或商业的自托管解决方案，需要自行配置、部署到VPS，并管理更新。",
+            "models": "支持Minecraft启动器功能。",
+            "pricing": "需投入配置时间、服务器成本和维护精力。"
+          }
+        ],
+        "pricing": "未明确说明，作为SaaS（软件即服务）平台，提供高级功能和托管服务，预计为付费服务。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "Spixy是一个无代码平台，其核心价值是替代或消除编程需求，而非支持或简化编程过程。它通过配置而非编写代码来完成项目，与“vibe coding”的理念相反。",
+        "isVibeCoding": false,
+        "communityActivity": "GitHub Issues开启0个，关闭0个，表明项目在GitHub上的社区互动和反馈尚未开启或不活跃。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-15T04:33:21.796Z"
+    },
+    {
+      "owner": "Kappaemme-git",
+      "repo": "codex-first-customer-finder-skill",
+      "fullName": "Kappaemme-git/codex-first-customer-finder-skill",
+      "description": "A Codex skill that finds evidence-backed potential first customers from recent public signals.",
+      "language": "Python",
+      "topics": [
+        "codex",
+        "codex-skill",
+        "customer-discovery",
+        "early-adopters",
+        "prospecting",
+        "startup"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-12T14:24:33Z",
+      "url": "https://github.com/Kappaemme-git/codex-first-customer-finder-skill",
+      "analysis": {
+        "positioning": "基于公开信号，智能发现初创企业首批客户。",
+        "useCases": [
+          "你有一个初创公司想法或链接 → 它帮你筛选并生成潜在首批客户短名单。",
+          "你需要寻找设计伙伴 → 它帮你定位公开讨论问题并乐于提供反馈的早期用户。",
+          "你进行B2B市场调研 → 它帮你识别公司业务触发点，并生成潜在商业线索。"
+        ],
+        "audience": "初创公司创始人、产品经理和市场人员，用于高效发现早期用户和潜在客户。",
+        "quickStart": {
+          "prerequisites": "已安装Codex平台",
+          "steps": [
+            "npx --yes codex-first-customer-finder-skill@latest",
+            "重启Codex"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能聚焦且实用，解决初创企业早期客户发现痛点；基于AI（Codex）智能分析公共信号，输出高质量报告和潜在客户线索，文档清晰，模式丰富。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，可能社区参与度不高或项目相对稳定。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-15T04:33:39.274Z"
+    },
+    {
+      "owner": "William-Lu-stack",
+      "repo": "Flawless",
+      "fullName": "William-Lu-stack/Flawless",
+      "description": "AI SRE AgenticOps for Kubernetes and cloud infrastructure.",
+      "language": "Python",
+      "topics": [
+        "agenticops",
+        "ai",
+        "aiops",
+        "aisre",
+        "cloud",
+        "cloud-native",
+        "devops",
+        "kubernetes",
+        "llm",
+        "mcp",
+        "observability",
+        "sre"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-10T05:57:02Z",
+      "url": "https://github.com/William-Lu-stack/Flawless",
+      "analysis": {
+        "positioning": "AI SRE智能体，让云基础设施自愈并验证。",
+        "useCases": [
+          "你的云基础设施出现告警 → 它能自动诊断故障、收集证据、生成修复预案并等待人工授权。",
+          "你需要解决复杂的Kubernetes/云故障 → 它能在3D拓扑图上分析影响，安全执行修复并验证恢复。",
+          "你的团队需要规范化故障处理流程 → 它提供可审计的AgenticOps闭环，沉淀修复经验。"
+        ],
+        "audience": "SRE/运维工程师，管理Kubernetes和云基础设施，寻求自动化故障诊断、修复与验证的团队。",
+        "quickStart": {
+          "prerequisites": "Python 3.14+，Docker，Kubernetes环境。",
+          "steps": [
+            "克隆项目仓库。",
+            "按照官方文档指引部署至Kubernetes或Docker环境。"
+          ],
+          "note": "详细安装与配置步骤请参阅项目README的`Quick Start`章节。"
+        },
+        "competitors": [],
+        "pricing": "免费（非商业用途）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "高度创新的AI SRE AgenticOps平台，旨在实现基础设施的自主诊断、安全修复及恢复验证，将SRE工作流形成可审计闭环，技术深度和解决问题的野心都非常高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1，关闭0，社区互动刚起步。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-15T04:33:52.983Z"
+    },
+    {
+      "owner": "JexTradesLab",
+      "repo": "scaling-octo-engine",
+      "fullName": "JexTradesLab/scaling-octo-engine",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-09T17:01:06Z",
+      "url": "https://github.com/JexTradesLab/scaling-octo-engine",
+      "analysis": {
+        "positioning": "Polymarket自动套利跟单机器人，实时复制高收益交易员策略。",
+        "useCases": [
+          "你没时间研究Polymarket市场 → 它帮你自动跟踪并复制顶级交易员的实时交易，无需人工干预。",
+          "你想学习顶级交易员策略，但难以实时追踪 → 它帮你洞察并执行高手的交易指令，同时提供可自定义的风险管理。",
+          "你是Polymarket新手，想快速入场盈利 → 它让你通过复制经验证的盈利策略，降低入场门槛和试错成本。"
+        ],
+        "audience": "适合希望通过自动化交易或跟单策略，在Polymarket预测市场中获取收益的投资者。",
+        "quickStart": {
+          "prerequisites": "Polymarket账户和API密钥",
+          "steps": [
+            "配置Polymarket API密钥，设定交易参数、风险限额及筛选条件。",
+            "选择或指定要跟踪的Polymarket顶级交易员或钱包地址。",
+            "运行机器人，它将自动监控并复制目标交易员的实时操作。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决Polymarket跟单痛点，并附有可观的历史收益截图，直接展示商业价值。技术栈主流（TypeScript），易于理解，但社区活跃度目前较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无任何开启或关闭的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:34:11.721Z"
+    },
+    {
+      "owner": "opencoredev",
+      "repo": "domain-sdk",
+      "fullName": "opencoredev/domain-sdk",
+      "description": "Add, verify, monitor, and remove customer domains with one TypeScript API.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-12T16:03:52Z",
+      "url": "https://github.com/opencoredev/domain-sdk",
+      "analysis": {
+        "positioning": "一站式TypeScript API，简化客户域名管理。",
+        "useCases": [
+          "你在多租户SaaS平台中需要为每个客户配置独立域名 → 它帮你统一API集成Vercel、Cloudflare等平台，自动添加、验证和移除客户域名。",
+          "你想让客户自主配置子域名但又不想处理DNS细节 → 它帮你创建子域名客户端，自动管理并生成客户选择的子域名解析记录。",
+          "你需要确保客户域名状态准确无误且处理失败重试 → 它帮你提供权威的验证和证书状态，支持幂等操作和带重试的轮询机制。"
+        ],
+        "audience": "构建多租户SaaS或平台服务的后端开发者，需要集成多家云服务商（如Vercel, Cloudflare for SaaS）的自定义域名管理功能。",
+        "quickStart": {
+          "prerequisites": "Node 20+ 或 Bun",
+          "steps": [
+            "安装：`npm install @opencoredev/domain-sdk`",
+            "初始化客户端：使用 `createDomainClient` 或 `createSubdomainClient`，并配置指定提供商（如 Vercel, Cloudflare）及凭证。",
+            "管理域名：调用 `domains.add()` 添加域名，或 `domains.waitUntilActive()` 监控域名激活状态。"
+          ],
+          "note": "Domain SDK 仅限服务器端使用，请勿在浏览器代码中包含提供商凭证。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目设计精良，提供统一API管理复杂的多云服务商域名配置，包含幂等操作、重试机制和专用测试适配器，有效解决特定痛点。星标数不错，但Issue活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比（2/0）显示项目可能较新或非常稳定，社区互动待观察。拥有277个Star。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-15T04:34:27.513Z"
+    },
+    {
+      "owner": "QuantumByteOSS",
+      "repo": "quantumbyte",
+      "fullName": "QuantumByteOSS/quantumbyte",
+      "description": "Open-source app builder engine — intent to working app",
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "app-builder",
+        "code-generation",
+        "llm",
+        "nextjs",
+        "open-source",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-14T04:53:39Z",
+      "url": "https://github.com/QuantumByteOSS/quantumbyte",
+      "analysis": {
+        "positioning": "从意图生成可用的App，并严格验证业务需求。",
+        "useCases": [
+          "你有一个App想法和明确的业务需求 → 它帮你生成App，并自动验证是否符合所有要求。",
+          "你的AI生成应用看似能跑，但担忧实际交付质量 → 它通过独立验证机制，确保App的功能和业务逻辑完整可靠。",
+          "你希望迭代优化AI生成的应用，并精准定位问题 → 它在每次Agent修改后提供结构化验证报告和修复证据。"
+        ],
+        "audience": "追求高质量、可验证AI生成应用的产品经理、开发者及早期开源贡献者。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "通过对话输入你的App意图和业务需求。",
+            "AI Agent自动生成App代码和项目。",
+            "系统独立验证App是否满足需求，并提供反馈及修复建议。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "GPT Engineer",
+            "method": "命令行输入需求，生成代码",
+            "models": "OpenAI GPT-4/GPT-3.5",
+            "pricing": "免费（API调用付费）"
+          },
+          {
+            "name": "v0.dev",
+            "method": "文本或图像描述，生成Next.js/Tailwind UI代码",
+            "models": "私有AI模型",
+            "pricing": "免费（有配额）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目承认并利用了“随心编码”（Vibe coding）的生成能力，但通过引入独立的验证机制，旨在解决其“虚假收敛”问题，将生成App的可靠性提升到新的水平。",
+        "isVibeCoding": true,
+        "communityActivity": "早期项目，GitHub Issue 区尚未活跃，主要社区活动通过Discord招募早期贡献者。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-15T04:34:41.808Z"
+    },
+    {
+      "owner": "Git-creat7",
+      "repo": "grokRegister-cpa",
+      "fullName": "Git-creat7/grokRegister-cpa",
+      "description": "Grok 自动注册机 — 注册成功后自动入库 CLIProxyAPI (CPA)：支持本地 auth 目录与远程 Management API 上传",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-11T09:46:31Z",
+      "url": "https://github.com/Git-creat7/grokRegister-cpa",
+      "analysis": {
+        "positioning": "Grok账号全自动批量注册，并实时入库CLIProxyAPI。",
+        "useCases": [
+          "你需要批量Grok账号 → 它帮你全自动注册，并实时注入CLIProxyAPI可用。",
+          "你想快速扩展CLIProxyAPI的账号池 → 它帮你自动化注册流程，省去手动配置的繁琐。",
+          "你在测试Grok相关应用 → 它帮你快速生成大量可用测试账号，即注即用。"
+        ],
+        "audience": "适用于需要批量自动化注册Grok账号，并快速集成到CLIProxyAPI进行管理和使用的开发者、研究人员或测试人员。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+、Google Chrome/Chromium 浏览器、已部署并运行的CLIProxyAPI服务。",
+          "steps": [
+            "克隆项目并进入目录：`git clone https://github.com/Git-creat7/grokRegister-cpa.git && cd grokRegister-cpa`",
+            "安装依赖：`pip install -r requirements.txt`",
+            "复制并编辑配置文件：`cp config.example.json config.json`，根据需求配置Grok注册参数和CPA集成信息。",
+            "运行：执行 `python main.py` (CLI) 或 `python main_gui.py` (GUI) 开始注册。"
+          ],
+          "note": "Windows 用户可通过 `start-gui.cmd` 或 `start-cli.cmd` 一键启动图形界面或命令行模式。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，文档详细，提供GUI和CLI两种运行方式，支持多种临时邮箱，自动处理Turnstile人机验证，并完美集成CLIProxyAPI，显示了较高的工程实现和用户友好度。配置项丰富且清晰，上手门槛低。",
+        "isVibeCoding": true,
+        "communityActivity": "有6个开启中的Issue，但尚未有已关闭Issue，项目维护者的响应速度和Issue处理效率有待后续观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-15T04:34:58.100Z"
+    },
+    {
+      "owner": "WAYLON",
+      "repo": "ashare-quant-strategies",
+      "fullName": "WAYLON/ashare-quant-strategies",
+      "description": "A-share quant strategies research corpus: 119 Python strategy articles for learning",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-13T16:15:15Z",
+      "url": "https://github.com/WAYLON/ashare-quant-strategies",
+      "analysis": {
+        "positioning": "A股量化策略研究离线文库，含119篇Python策略文章及代码。",
+        "useCases": [
+          "你想学习A股量化策略 → 它提供多因子、动量、择时等119种策略文章和Python代码，供你离线学习。",
+          "你想研究不同量化策略的实现细节 → 它结构化整理每篇策略，包括正文、代码和图片，方便深入理解。",
+          "你想快速获取各类A股量化策略参考 → 它是一个集中的策略库，免去网上零散查找的麻烦，方便查阅。"
+        ],
+        "audience": "量化投资初学者、研究员或对A股量化策略感兴趣的开发者，用于学习、研究和参考具体策略实现。",
+        "quickStart": {
+          "prerequisites": "无特定前置条件，只需Markdown阅读器。",
+          "steps": [
+            "克隆或下载项目到本地。",
+            "打开 `articles/*/content.md` 文件直接阅读策略文章和代码。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "JoinQuant (聚宽)",
+            "method": "在线量化平台，提供策略社区、回测与实盘功能",
+            "models": "用户创建及分享的各类量化策略",
+            "pricing": "基础免费，高级功能付费"
+          },
+          {
+            "name": "Ricequant (米筐)",
+            "method": "在线量化平台，提供策略开发、回测、社区",
+            "models": "用户创建及分享的各类量化策略",
+            "pricing": "基础免费，高级功能付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目组织良好，提供了大量有价值的A股量化策略文章和代码，对学习者非常有用。但作为一个静态的内容库，其本身不涉及代码开发或复杂工具属性，维护成本低，创新点主要体现在内容聚合上。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub上Issues未开启，社区活跃度主要体现在LINUX DO社区讨论，GitHub仓库本身没有活跃的Issue/PR活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-15T04:35:14.695Z"
+    },
+    {
+      "owner": "Cjbuilds",
+      "repo": "Codex-Orchestration",
+      "fullName": "Cjbuilds/Codex-Orchestration",
+      "description": "Bring any model to Codex, assign them any role, use them in /goal or any workflow.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-10T04:33:07Z",
+      "url": "https://github.com/Cjbuilds/Codex-Orchestration",
+      "analysis": {
+        "positioning": "Codex平台多模型AI代理协同编排器",
+        "useCases": [
+          "你想在Codex里用Claude Fable 5等外部模型 → 它帮你无缝集成并分配角色。",
+          "你希望开发流程中不同阶段（规划、审核、执行）由不同模型负责 → 它为你配置专业模型，优化工作流。",
+          "你追求代码变更前的方案质量或并行开发效率 → 它通过多模型协作，提升方案严谨性并加速任务执行。"
+        ],
+        "audience": "使用Codex平台进行软件开发，追求多模型AI协同作业、提升开发效率与质量的开发者或团队。",
+        "quickStart": {
+          "prerequisites": "Python 3.11+",
+          "steps": [
+            "运行 `codex plugin marketplace add Cjbuilds/Codex-Orchestration`",
+            "运行 `codex plugin add codex-orchestration@codex-orchestration`",
+            "在新Codex任务中运行 `/codex-orchestration setup planner: Claude Fable 5 High, advisor: GPT-5.6 Sol High, executor: GPT-5.6 Luna Extra High`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（底层LLM服务按量付费）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README清晰易懂，图文并茂解释了核心概念、工作流和使用价值，提供了明确的安装和快速启动指南，信息丰富。",
+        "isVibeCoding": true,
+        "communityActivity": "开启3个Issue，尚未关闭，社区活跃度较低，响应速度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-15T04:35:28.796Z"
+    },
+    {
+      "owner": "bradautomates",
+      "repo": "claude-video",
+      "fullName": "bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-24T04:40:43Z",
+      "url": "https://github.com/bradautomates/claude-video",
+      "analysis": {
+        "positioning": "让Claude能看懂、听懂并分析任何视频。",
+        "useCases": [
+          "你分析网红视频 → 它帮你快速洞察开场策略和内容结构。",
+          "你排查Bug（通过屏幕录像） → 它帮你定位问题发生帧，描述屏幕状况甚至找出原因。",
+          "你总结冗长视频或课程 → 它帮你提炼结构、关键时刻和内容，甚至批量生成笔记。"
+        ],
+        "audience": "AI Agent开发者、内容创作者、产品经理或技术支持人员，在需要AI自动分析和理解视频内容时。",
+        "quickStart": {
+          "prerequisites": "Claude Code 环境，首次运行自动安装 yt-dlp 和 ffmpeg。",
+          "steps": [
+            "/plugin marketplace add bradautomates/claude-video",
+            "/plugin install watch@claude-video"
+          ],
+          "note": "Linux/Windows 用户首次运行需手动安装 yt-dlp 和 ffmpeg。"
+        },
+        "competitors": [],
+        "pricing": "部分免费。多数公共视频字幕免费，无字幕时需支付 Whisper API 费用。",
+        "vibeCodingScore": 4.5,
+        "vibeCodingReason": "精准解决了大型语言模型（LLM）无法“看懂”视频的痛点，通过下载、帧提取、转录等方式赋能LLM多模态理解能力。安装简便，使用场景清晰且实用，极大地提升了AI在视频内容分析方面的效率。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低，有52个开放问题但没有已关闭问题，社区响应可能不及时。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-15T04:36:33.776Z"
     }
   ]
 }

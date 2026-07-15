@@ -1,0 +1,98 @@
+{
+  "version": "1",
+  "date": "2026-07-15",
+  "startedAt": "2026-07-15T04:29:48.201Z",
+  "finishedAt": "2026-07-15T04:37:18.312Z",
+  "durationSeconds": 450,
+  "success": true,
+  "stats": {
+    "fetched": 118,
+    "newProjects": 22,
+    "skipped": 96,
+    "geminiCalls": 31,
+    "statsUpdated": 118
+  },
+  "errors": [
+    {
+      "time": "2026-07-15T04:35:01.564Z",
+      "level": "warn",
+      "project": "oil-oil/beautify-github-readme",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:32.362Z",
+      "level": "warn",
+      "project": "Intuition-Lab/personal-model",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:35.449Z",
+      "level": "warn",
+      "project": "change-42-yhmm/quota-float",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:38.947Z",
+      "level": "warn",
+      "project": "dongguatanglinux/grok-build-auth",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:42.407Z",
+      "level": "warn",
+      "project": "BloxHubSSS/Game-Copier",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:45.752Z",
+      "level": "warn",
+      "project": "BryanLunduke/LCOS",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:49.170Z",
+      "level": "warn",
+      "project": "xiaolongbao0709/ai-virtual-phone",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:52.763Z",
+      "level": "warn",
+      "project": "OpenEnvision/WorldFoundry",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-15T04:35:56.133Z",
+      "level": "warn",
+      "project": "Subhan-code/Amicro--Micro-transitions-",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
