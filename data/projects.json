@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-15T04:36:33.807Z",
+  "updatedAt": "2026-07-16T04:45:57.200Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -67381,6 +67381,697 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-15T04:36:33.776Z"
+    },
+    {
+      "owner": "alexafinode",
+      "repo": "claude-arbitrage-bot",
+      "fullName": "alexafinode/claude-arbitrage-bot",
+      "description": "Arbitrage bot for Ethereum-compatible networks with built-in Python automation",
+      "language": "Solidity",
+      "topics": [
+        "ai",
+        "arbitrage",
+        "bot",
+        "btc",
+        "claude",
+        "codex",
+        "contract",
+        "ether",
+        "ethereum",
+        "gpt",
+        "lab",
+        "smart",
+        "sol"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-16T00:58:40Z",
+      "url": "https://github.com/alexafinode/claude-arbitrage-bot",
+      "analysis": {
+        "positioning": "基于以太坊兼容网络的自动化套利智能合约，支持Python脚本控制。",
+        "useCases": [
+          "你希望在以太坊兼容链上寻找套利机会 → 它自动监控并执行交易，无需手动干预。",
+          "你需要一个可编程的合约来管理资产和交易 → 它通过Python脚本远程控制合约，实现自动化资金管理。",
+          "你希望快速部署和启动套利机器人 → 它提供Etherlab网站一站式部署和启动流程，简化操作。"
+        ],
+        "audience": "DeFi套利交易者、加密货币新手（提供0.5-1 ETH即可入门）、寻求自动化交易解决方案的开发者。",
+        "quickStart": {
+          "prerequisites": "MetaMask或Phantom钱包、用于充值的ETH（建议0.5-1 ETH）、浏览器。",
+          "steps": [
+            "打开Etherlab部署页面。",
+            "创建并粘贴智能合约代码（contract.sol）。",
+            "编译合约（版本0.8.20）。",
+            "连接钱包，部署合约并向其地址充值ETH。",
+            "在“Python Automation”标签页启动机器人，并确认交易。"
+          ],
+          "note": "机器人运行时请勿关闭页面。"
+        },
+        "competitors": [],
+        "pricing": "软件免费，但需支付链上部署和交易的Gas费用，以及为机器人提供初始运行资金。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目实现了以太坊兼容链上的自动化套利功能，定位明确。README文档详尽，包含分步指南和截图，对初学者友好。其核心逻辑是基于智能合约的链上操作，Python自动化作为外部控制，整体架构清晰。然而，目前Issue活动为零，社区互动有待提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 统计为0/0，表明目前没有公开的问题或社区互动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-16T04:41:35.951Z"
+    },
+    {
+      "owner": "xai-org",
+      "repo": "grok-build",
+      "fullName": "xai-org/grok-build",
+      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-14T20:04:23Z",
+      "url": "https://github.com/xai-org/grok-build",
+      "analysis": {
+        "positioning": "终端AI编程助手，懂代码、会执行、能交互",
+        "useCases": [
+          "你编写代码 → 它理解你的代码库，帮你高效完成开发任务",
+          "你需要执行复杂操作 → 它帮你执行shell命令、管理耗时任务、甚至搜索网络",
+          "你希望提高自动化程度 → 它支持无头模式用于脚本/CI，或集成到编辑器"
+        ],
+        "audience": "寻求通过AI提升终端编程效率、自动化开发流程的开发者和团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "macOS/Linux用户运行：`curl -fsSL https://x.ai/cli/install.sh | bash`",
+            "Windows用户运行：`irm https://x.ai/cli/install.ps1 | iex`"
+          ],
+          "note": "首次启动需通过浏览器认证，支持macOS/Linux/Windows平台。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE插件 (VS Code, JetBrains等)",
+            "models": "GitHub私有模型 (基于OpenAI Codex/GPT)",
+            "pricing": "订阅制 (付费)"
+          },
+          {
+            "name": "Cursor",
+            "method": "独立IDE",
+            "models": "GPT-4, Claude, 自定义模型",
+            "pricing": "免费版/付费订阅"
+          }
+        ],
+        "pricing": "部分免费/订阅制，需通过x.ai账户认证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "SpaceXAI背景，Grok命名，Rust语言实现，结合全屏TUI和鼠标交互，自带极客和未来科技氛围。",
+        "isVibeCoding": true,
+        "communityActivity": "外部仓库社区活跃度低（0 issues），但项目源于内部monorepo，内部开发活跃。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-16T04:41:53.150Z"
+    },
+    {
+      "owner": "pixel-point",
+      "repo": "aval",
+      "fullName": "pixel-point/aval",
+      "description": "A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-13T07:42:51Z",
+      "url": "https://github.com/pixel-point/aval",
+      "analysis": {
+        "positioning": "Web端交互式视频新格式，内置状态机和帧级过渡。",
+        "useCases": [
+          "你需要在网页中展示复杂的交互式动画 → 它帮你用统一格式封装动画状态机、帧级过渡和循环逻辑。",
+          "你想要替代传统GIF/视频实现带状态的动画效果 → 它帮你提供打包式alpha透明和事件驱动的状态切换。",
+          "你厌倦了手动管理动画帧或复杂的JS动画库 → 它帮你通过声明式状态图和AVAL播放器组件简化动画开发与集成。"
+        ],
+        "audience": "前端开发者、动效设计师，需要为网页制作高性能、高交互性、带状态管理的动画效果。",
+        "quickStart": {
+          "prerequisites": "Node.js/npm，以及用于编译器的FFmpeg。",
+          "steps": [
+            "npm install @pixel-point/aval-element@1.0.0 @pixel-point/aval-compiler@1.0.0",
+            "npx avl init my-motion && cd my-motion && npm install && npm run dev"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Lottie (Airbnb)",
+            "method": "JSON描述矢量动画，通过JS库解析渲染。",
+            "models": "矢量动画",
+            "pricing": "免费"
+          },
+          {
+            "name": "传统<video>标签 (MP4/WebM)",
+            "method": "嵌入视频文件，通过JavaScript控制播放。",
+            "models": "像素视频",
+            "pricing": "免费"
+          },
+          {
+            "name": "WebP/APNG动图",
+            "method": "图片格式，浏览器自动播放。",
+            "models": "像素动图",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目为早期技术预览版，文档清晰且入门流程便捷。但其“快速迭代”特性和极低的社区活跃度（issue统计）表明仍处于不稳定阶段，需关注未来发展。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 数量很少，处于非常早期阶段。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-07-16T04:42:18.344Z"
+    },
+    {
+      "owner": "Fei-Away",
+      "repo": "Codex-Dream-Skin",
+      "fullName": "Fei-Away/Codex-Dream-Skin",
+      "description": "Codex Dream Skin",
+      "language": "Shell",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T12:34:51Z",
+      "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "analysis": {
+        "positioning": "为Codex桌面端提供外部主题换肤工具，不修改官方安装包。",
+        "useCases": [
+          "你觉得Codex界面单调 → 它帮你用自定义主题提升编程氛围。",
+          "你想个性化Codex → 它帮你替换主题图片，实现个性化外观。",
+          "你不满意当前主题 → 它帮你一键还原官方外观，无损切换。"
+        ],
+        "audience": "想要个性化Codex桌面端界面，注重编程氛围感的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "Mac用户：双击 `macos/Install Codex Dream Skin.command`。",
+            "Windows用户：运行 `windows/scripts/install-dream-skin.ps1`，然后运行 `windows/scripts/start-dream-skin.ps1`。"
+          ],
+          "note": "不同平台使用不同的脚本，但都能实现Codex主题化。"
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确提出“写代码，也要有氛围感”，通过CDP注入方式为Codex桌面端提供多样化、可自定义的视觉主题，直接满足用户对个性化编程环境的需求，旨在创造沉浸式编程体验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度中等，有新的Issue被提出（4个开启），但已关闭的Issue数量相对较少（1个）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-16T04:42:35.684Z"
+    },
+    {
+      "owner": "oil-oil",
+      "repo": "beautify-github-readme",
+      "fullName": "oil-oil/beautify-github-readme",
+      "description": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown",
+      "language": "Python",
+      "topics": [
+        "agent-skill",
+        "codex-skill",
+        "github-readme",
+        "readme-design",
+        "svg"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-13T07:31:56Z",
+      "url": "https://github.com/oil-oil/beautify-github-readme",
+      "analysis": {
+        "positioning": "为GitHub项目定制美观、清晰的README首页。",
+        "useCases": [
+          "你的GitHub项目缺乏吸引力 → 它帮你设计主题鲜明、视觉冲击力强的README，一眼抓住访问者。",
+          "你希望README能快速展示项目核心 → 它帮你用SVG标题和真实案例，直观呈现项目价值和独特之处。",
+          "你不想让访客迷失在技术细节中 → 它帮你优化README信息结构，确保访客在深入了解前先理解项目用途。"
+        ],
+        "audience": "GitHub项目维护者、开源贡献者或开发者，希望通过高质量README提升项目形象和用户理解度。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "项目介绍未提供详细快速开始步骤，建议查阅项目主页获取更多指南。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目直接关注GitHub README的视觉设计和信息呈现，通过SVG标题和真实案例等手段，显著提升项目的美观度和第一印象，增强项目的“氛围感”。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区目前无活动（0开/0关），可能因项目处于早期或维护者通过其他方式响应用户。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-16T04:42:52.654Z"
+    },
+    {
+      "owner": "CluvexStudio",
+      "repo": "Aether",
+      "fullName": "CluvexStudio/Aether",
+      "description": "",
+      "language": "Rust",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-14T14:20:44Z",
+      "url": "https://github.com/CluvexStudio/Aether",
+      "analysis": {
+        "positioning": "抵抗审查的加密代理客户端，为受限网络而生。",
+        "useCases": [
+          "你在重度审查网络中 → 它帮你自动发现通路，突破封锁，安全上网。",
+          "你担心DPI、协议指纹和UDP限速 → 它用MASQUE/WireGuard等技术对抗，确保连接稳定。",
+          "你想在多种设备上使用 → 它支持Linux、Windows、macOS和Android(Termux)一键安装。"
+        ],
+        "audience": "身处网络审查严格地区，需要稳定可靠翻墙工具的个人用户或开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在Android设备的Termux应用中，运行 `curl -fsSL https://raw.githubusercontent.com/CluvexStudio/aether/main/aether.sh -o aether.sh && chmod +x aether.sh && ./aether.sh install`",
+            "安装完成后，输入 `aether` 启动并按提示操作（或使用命令行参数跳过提示）。"
+          ],
+          "note": "Windows用户可直接运行release包中的`run-aether.bat`脚本启动。"
+        },
+        "competitors": [
+          {
+            "name": "传统VPN服务",
+            "method": "安装客户端或配置VPN协议",
+            "models": "OpenVPN, L2TP/IPsec等传统协议",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "免费（AGPL-3.0开源许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决痛点深刻，功能丰富且针对性强（DPI、流量混淆），提供多语言文档和跨平台支持，安装便捷（一键脚本、Docker），Rust语言保证性能和安全，社区活跃度良好。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决率较高（5开/7关），表明项目维护积极，问题响应及时。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-16T04:43:04.582Z"
+    },
+    {
+      "owner": "MatinSenPai",
+      "repo": "Aether-GUI",
+      "fullName": "MatinSenPai/Aether-GUI",
+      "description": "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust",
+      "language": "TypeScript",
+      "topics": [
+        "anti-censorship",
+        "censorship-circumvention",
+        "desktop-app",
+        "proxy",
+        "react",
+        "rust",
+        "tauri",
+        "typescript"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-14T20:13:18Z",
+      "url": "https://github.com/MatinSenPai/Aether-GUI",
+      "analysis": {
+        "positioning": "一键绕过审查，桌面GUI简化Aether隧道使用。",
+        "useCases": [
+          "你身处网络受限环境 → 它帮你一键连接防审查隧道。",
+          "你厌倦命令行操作 → 它帮你把复杂隧道工具包装成直观桌面应用。",
+          "你希望自定义连接 → 它帮你提供协议、扫描模式等高级选项。"
+        ],
+        "audience": "面向网络受限区域的用户，无需技术背景，即可轻松、稳定地绕过审查。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "下载并运行MatinSenPai/Aether-GUI应用",
+            "点击界面上的“Connect”按钮"
+          ],
+          "note": "目前仅支持Windows平台。"
+        },
+        "competitors": [],
+        "pricing": "免费，遵循AGPL-3.0开源协议。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目技术栈新潮（Tauri v2, React 19, Rust），聚焦于解决审查规避这一关键社会问题，提供“一键”式用户体验，并包含自动重连等贴心设计，对用户痛点理解深刻。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前仅有少量issue开启，尚未有解决记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-16T04:43:19.707Z"
+    },
+    {
+      "owner": "Intuition-Lab",
+      "repo": "personal-model",
+      "fullName": "Intuition-Lab/personal-model",
+      "description": "Build your HUMAN.md.",
+      "language": "Python",
+      "topics": [
+        "agent-memory",
+        "local-first",
+        "macos",
+        "mcp",
+        "personal-ai",
+        "personal-model",
+        "privacy",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-10T16:10:25Z",
+      "url": "https://github.com/Intuition-Lab/personal-model",
+      "analysis": {
+        "positioning": "你的专属AI大脑，学习你的行为习惯，让AI更懂你。",
+        "useCases": [
+          "你使用AI工具，需要个性化上下文 → Persome学习你的Mac活动，为AI提供证据关联的个性化语境。",
+          "你希望构建一个动态的自我认知模型 → Persome将你的日常活动数据层层抽象，形成一个持续演进的“你”的Root模型。",
+          "你需要多个AI基于你的工作风格和偏好做决策 → Persome通过MCP协议，将你的个性化模型赋能给兼容AI客户端。"
+        ],
+        "audience": "追求极致个性化AI体验的Mac用户，希望AI能深度理解并辅助其工作和思考。",
+        "quickStart": {
+          "prerequisites": "macOS 13+",
+          "steps": [
+            "在Mac上安装Persome。",
+            "授权macOS权限，让Persome收集你的活动数据。",
+            "连接支持MCP协议的AI客户端（如Codex, Claude Code）。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "创新性强，直击AI个性化痛点，强调本地运行和隐私保护。项目概念清晰，架构分层合理，描述生动。但作为新兴项目，用户和生态仍需时间积累。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比良好，但整体数量偏低，社区活跃度有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-16T04:43:37.252Z"
+    },
+    {
+      "owner": "BloxHubSSS",
+      "repo": "Game-Copier",
+      "fullName": "BloxHubSSS/Game-Copier",
+      "description": "",
+      "language": "Unknown",
+      "topics": [
+        "cheating-roblox",
+        "copy-game",
+        "copy-place",
+        "copygame",
+        "copyplace",
+        "game",
+        "game-copier",
+        "game-copy",
+        "gamecopier",
+        "how-to-copy-any-game-roblox",
+        "how-to-copy-game-roblox",
+        "how-to-copy-place",
+        "how-to-copy-place-roblox",
+        "how-to-make-sab-modded",
+        "roblox",
+        "sab-modded",
+        "tools-roblox",
+        "uncopylocked",
+        "uncopylocked-game",
+        "uncopylockedgame"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-12T12:36:58Z",
+      "url": "https://github.com/BloxHubSSS/Game-Copier",
+      "analysis": {
+        "positioning": "在线工具，一键复制Roblox游戏（Place/Experience），用于学习、存档、测试。",
+        "useCases": [
+          "你研究Roblox游戏机制 → 它帮你获取游戏副本进行本地分析。",
+          "你测试Roblox游戏修改 → 它帮你下载游戏代码进行本地实验。",
+          "你担心Roblox游戏下架 → 它帮你存档游戏内容以备不时之需。"
+        ],
+        "audience": "Roblox开发者、研究者、教育者或游戏存档爱好者，需要本地分析、测试或备份Roblox游戏。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目网站。",
+            "输入Roblox游戏URL或Place ID。",
+            "启动处理并等待完成。",
+            "下载生成的项目文件。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供便捷的在线Roblox游戏复制服务，界面友好，功能直接。但其用途可能涉及版权及平台政策边界，项目声明强调教育与研究目的。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 区无活动，社区活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-16T04:43:53.722Z"
+    },
+    {
+      "owner": "KubeezMedia",
+      "repo": "kubeez-scroll-world-video",
+      "fullName": "KubeezMedia/kubeez-scroll-world-video",
+      "description": "Scroll-scrubbed 'fly through the world' burger demo, generated with Kubeez. Live: meepcastana.github.io/kubeez-scroll-world-video",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-13T23:32:54Z",
+      "url": "https://github.com/KubeezMedia/kubeez-scroll-world-video",
+      "analysis": {
+        "positioning": "Kubeez AI生成，滚动驱动的“飞越世界”沉浸式视频演示。",
+        "useCases": [
+          "你寻求沉浸式网页叙事体验 → 它帮你实现通过滚动驱动的预渲染视频，提供无缝、电影般的视觉旅程。",
+          "你想利用AI创建连续的视觉内容 → 它展示了如何用AI从图片生成视频，并实现帧精确的场景过渡。",
+          "你需创意性地展示产品或故事 → 它提供了一个“飞越汉堡世界”的案例，启发你构建引人入胜的品牌故事页。"
+        ],
+        "audience": "目标用户是寻求创新网页交互体验、利用AI生成内容的前端开发者、设计师及市场营销人员。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目Live demo链接",
+            "滚动页面，体验“飞越世界”的交互效果"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "GSAP + ScrollTrigger",
+            "method": "编写JavaScript代码，手动控制DOM元素或3D场景动画与滚动条同步。",
+            "models": "N/A",
+            "pricing": "核心免费，高级插件付费。"
+          },
+          {
+            "name": "Three.js + Custom Scroll Logic",
+            "method": "搭建3D场景并编写JavaScript逻辑，将滚动位置映射到相机或对象动画。",
+            "models": "N/A",
+            "pricing": "免费（开源）。"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供清晰的Live demo和详细的构建教程，展示了如何利用AI生成内容并结合前端技术实现创新的滚动交互，文档质量高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无Issue交流或贡献。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-16T04:44:16.226Z"
+    },
+    {
+      "owner": "TobiasLee",
+      "repo": "Rebuttal-Skill",
+      "fullName": "TobiasLee/Rebuttal-Skill",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-14T03:31:47Z",
+      "url": "https://github.com/TobiasLee/Rebuttal-Skill",
+      "analysis": {
+        "positioning": "AI驱动的学术同行评审回复生成助手。",
+        "useCases": [
+          "你收到评审意见 → 它帮你解析意图、评估严重性并规划实验。",
+          "你完成实验并有了结果 → 它帮你整合证据，撰写规范、有力的回复草稿和修改清单。",
+          "你不确定申诉价值 → 它帮你评估可行性，并为低回报情况提供详细再投路线图。",
+          "你想审计现有回复草稿 → 它帮你进行质量审查。"
+        ],
+        "audience": "需要高效、严谨撰写学术论文评审回复的研究人员和作者。",
+        "quickStart": {
+          "prerequisites": "一个支持技能（Skills）的AI编程助手",
+          "steps": [
+            "在AI编程助手中加载“Rebuttal Skill”技能。",
+            "提供论文摘要、评审意见、分数、会议信息、截止时间及可用计算资源等输入。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动撰写",
+            "method": "人工逐条分析评审意见，耗时耗力，需经验和细致。",
+            "models": "N/A",
+            "pricing": "人工成本"
+          },
+          {
+            "name": "通用大型语言模型",
+            "method": "通过自由文本提示（Prompt）生成回复草稿，缺乏结构化引导和学术严谨性保障。",
+            "models": "GPT-4, Claude 3等",
+            "pricing": "API调用或订阅费"
+          }
+        ],
+        "pricing": "免费：技能定义本身开源免费，但运行在AI编程助手中可能产生API调用或订阅费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "它是一个为AI编程助手设计的“技能定义”，提供结构化输入和多阶段工作流，旨在生成严谨的学术回复或再投方案，非常侧重AI驱动的自动化编程/脚本任务定义，符合高Vibe Coding特征。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue区无开启或关闭记录。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-16T04:44:32.502Z"
+    },
+    {
+      "owner": "gabriel-azara",
+      "repo": "hyperliquid-tracker",
+      "fullName": "gabriel-azara/hyperliquid-tracker",
+      "description": "Get notified when big trades happen on Hyperliquid.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-15T14:04:21Z",
+      "url": "https://github.com/gabriel-azara/hyperliquid-tracker",
+      "analysis": {
+        "positioning": "实时监控Hyperliquid大额交易，并通过Telegram即时通知。",
+        "useCases": [
+          "你关心Hyperliquid市场异动 → 它帮你实时追踪特定币种的大额交易并发送通知。",
+          "你希望及时了解巨鲸动向 → 它帮你捕捉超过设定阈值的交易，辅助投资决策。",
+          "你不想错过任何重要市场信号 → 它帮你24/7自动监控，无需手动刷新页面。"
+        ],
+        "audience": "Hyperliquid交易者、加密货币分析师，以及任何希望实时掌握平台大额交易动态的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js (22.4.0+), npm, Git",
+          "steps": [
+            "克隆项目并进入目录。",
+            "创建Telegram Bot和频道，获取Bot API token和Chat ID。",
+            "配置环境变量：复制`.env.example`到`.env`，填入Telegram Bot token和Chat ID。",
+            "安装依赖，构建并启动Bot：`npm install && npm run build && npm start`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，需自行部署和维护。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目文档清晰，包含详尽的安装和配置指南；代码结构易懂，方便定制；支持断线重连和健康检查，提升了运行稳定性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前 Issue 统计为零，表明项目较新或维护者直接处理。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-16T04:44:45.369Z"
+    },
+    {
+      "owner": "dongguatanglinux",
+      "repo": "grok-build-auth",
+      "fullName": "dongguatanglinux/grok-build-auth",
+      "description": "Protocol research client: x.ai signup → SSO → Grok Build OAuth → CLIProxyAPI auth export (authorized use only)",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-10T10:36:31Z",
+      "url": "https://github.com/dongguatanglinux/grok-build-auth",
+      "analysis": {
+        "positioning": "复现x.ai/Grok认证流程，导出CLI可用凭证的研究工具。",
+        "useCases": [
+          "你想研究x.ai/Grok认证协议 → 它帮你用纯HTTP复现注册、SSO和OAuth全流程。",
+          "你需要为CLIProxyAPI生成Grok Build认证文件 → 它帮你自动化注册并导出兼容凭证。",
+          "你进行安全研究或CTF需要分析认证链路 → 它提供不依赖浏览器的复现环境。"
+        ],
+        "audience": "专注于x.ai/Grok认证协议研究、安全测试及本地集成的开发者和安全研究人员。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+, YesCaptcha API key, 临时邮箱服务API key (Tempmail.lol或Cloudflare D1)。",
+          "steps": [
+            "克隆项目并进入目录",
+            "创建并激活Python虚拟环境",
+            "安装项目依赖",
+            "复制`.env.example`并编辑配置API密钥"
+          ],
+          "note": "虚拟环境激活命令因操作系统而异（Windows/Linux/macOS）。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源工具），但需支付第三方打码与临时邮箱服务费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对特定认证协议的深度研究工具，文档详尽，法律边界警示明确。功能专业，但需自备付费第三方服务，社区活跃度待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无社区活动迹象（Issue 统计为 0/0），可能因其专业研究性质。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-16T04:45:02.722Z"
+    },
+    {
+      "owner": "odysseus-dev",
+      "repo": "odysseus",
+      "fullName": "odysseus-dev/odysseus",
+      "description": "Self-hosted AI workspace. ",
+      "language": "Python",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-05-31T14:05:51Z",
+      "url": "https://github.com/odysseus-dev/odysseus",
+      "analysis": {
+        "positioning": "自部署AI工作区，整合聊天、智能体、研究、文档、邮件等全栈AI能力。",
+        "useCases": [
+          "你想管理、运行本地/API AI模型，构建智能体 → 它提供统一界面和工具链，快速部署与交互。",
+          "你需要深度网络研究并生成报告 → 它帮你多步骤抓取、阅读来源并自动生成研究报告。",
+          "你需要AI辅助文档、邮件、日程管理 → 它帮你智能编辑、摘要、整理，提高工作效率。"
+        ],
+        "audience": "关注数据隐私、寻求本地化AI解决方案的个人开发者、AI研究员及中小团队。",
+        "quickStart": {
+          "prerequisites": "Docker",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/pewdiepie-archdaemon/odysseus.git`",
+            "进入目录并配置环境变量：`cd odysseus && cp .env.example .env`",
+            "通过Docker Compose启动容器：`docker compose up -d --build`",
+            "访问 `http://localhost:7000` 并从Docker日志获取初始管理员密码。"
+          ],
+          "note": "更多安装及配置选项（如原生安装、GPU支持、HTTPS等）请参阅详细指南。"
+        },
+        "competitors": [
+          {
+            "name": "Ollama",
+            "method": "命令行工具/API，配合各种UI",
+            "models": "支持多种Llama.cpp兼容模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "LangChain",
+            "method": "Python开发库",
+            "models": "支持主流LLM API及本地模型集成",
+            "pricing": "库免费，API调用付费"
+          }
+        ],
+        "pricing": "免费，开源（AGPL-3.0），支持自部署。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "功能全面，将AI聊天、智能体、研究、生产力工具等紧密集成于自部署环境，适合深度AI开发者和技术爱好者。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，Issue数量高且持续关闭，但仍有大量未解决问题，表明项目快速发展且复杂。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-16T04:45:23.375Z"
+    },
+    {
+      "owner": "Nutlope",
+      "repo": "hallmark",
+      "fullName": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-04-27T20:47:10Z",
+      "url": "https://github.com/Nutlope/hallmark",
+      "analysis": {
+        "positioning": "AI生成设计助手，拒绝千篇一律的“AI味”，让设计独具风格。",
+        "useCases": [
+          "你想用AI生成新UI → 它帮你构建独特、非AI风格的全新UI。",
+          "你有现有UI代码想检查 → 它帮你评估设计反模式，给出问题清单。",
+          "你想彻底重构现有设计 → 它帮你保留内容和品牌，彻底重塑设计指纹。",
+          "你喜欢某个设计想学习其精髓 → 它帮你提取设计DNA（结构、字体、色彩），生成可移植设计描述。"
+        ],
+        "audience": "希望AI生成UI不落俗套、有独特美学风格的设计师和开发者。",
+        "quickStart": {
+          "prerequisites": "需要使用Claude Code, Cursor, 或 Codex 等AI编程助手。",
+          "steps": [
+            "启动支持hallmark的AI编程助手（如Claude Code, Cursor, Codex）。",
+            "输入 `hallmark` 命令，搭配所需动词（如默认生成UI，或 `audit`, `redesign`, `study`）和目标参数。",
+            "在生成UI时，可按 `T` 键循环切换不同的设计主题。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心目标是让AI生成设计拥有独特美学和风格，避免同质化、‘AI味’。它通过主题、结构、反模式测试和自评机制，确保每次生成的设计都具有独创性，完全专注于‘风格’和‘感觉’。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开闭比为 15/5，社区活跃度适中，有持续的交流和维护。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-16T04:45:57.176Z"
     }
   ]
 }
