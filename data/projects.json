@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-16T04:45:57.200Z",
+  "updatedAt": "2026-07-17T04:46:20.777Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -68072,6 +68072,391 @@
         "category": "Prompt工程"
       },
       "analyzedAt": "2026-07-16T04:45:57.176Z"
+    },
+    {
+      "owner": "canonicalise",
+      "repo": "up",
+      "fullName": "canonicalise/up",
+      "description": "Typed DMA buffers for OCaml userspace VFIO drivers",
+      "language": "OCaml",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-17T01:20:10Z",
+      "url": "https://github.com/canonicalise/up",
+      "analysis": {
+        "positioning": "OCaml用户态VFIO驱动DMA缓冲区库",
+        "useCases": [
+          "你构建用户态VFIO驱动 → 它帮你安全高效地分配、映射和释放DMA缓冲区。",
+          "你管理DMA数据队列 → 它帮你处理缓冲区的生命周期管理和所有权转换。",
+          "你需要硬件IOMMU隔离 → 它帮你通过VFIO Type1接口实现内存隔离和地址映射。"
+        ],
+        "audience": "寻求在OCaml中开发高性能、安全的用户态VFIO驱动程序的开发者。",
+        "quickStart": {
+          "prerequisites": "固件/内核启用IOMMU（如`intel_iommu=on`），加载VFIO模块，将设备绑定到`vfio-pc...`。",
+          "steps": [
+            "通过VFIO Group创建上下文。",
+            "分配指定大小和对齐的DMA缓冲区。",
+            "写入数据或获取设备可见的IOVA。",
+            "提交缓冲区给设备进行DMA，并在设备完成DMA后回收。",
+            "释放所有缓冲区和上下文资源。"
+          ],
+          "note": "内核启动参数（如`intel_iommu=on`或`amd_iommu=on`）平台特定。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "代码示例清晰，充分利用OCaml的强类型系统（如幻影类型）进行编译时安全检查，并结合运行时验证提升健壮性。错误处理采用`Result`类型，资源管理（mmap/mlock/VFIO_MAP/UNMAP）显式且确定性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue无开启和关闭记录。",
+        "category": "后端框架"
+      },
+      "analyzedAt": "2026-07-17T04:44:05.674Z"
+    },
+    {
+      "owner": "tandpfun",
+      "repo": "wardrobe",
+      "fullName": "tandpfun/wardrobe",
+      "description": "Your clothes, extracted and organized with gpt-image.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-16T06:17:00Z",
+      "url": "https://github.com/tandpfun/wardrobe",
+      "analysis": {
+        "positioning": "AI衣橱管理：智能识别衣物，生成虚拟穿搭预览。",
+        "useCases": [
+          "你有很多衣物照片，整理困难 → 它帮你自动识别衣物，构建数字衣橱。",
+          "你想知道某件衣服上身效果或搭配 → 它帮你生成模特穿搭预览图和搭配建议。",
+          "你寻求穿搭灵感，想快速创建造型 → 它帮你生成个性化lookbook，提供搭配方案。"
+        ],
+        "audience": "适合追求时尚、想高效管理个人衣橱，或需要虚拟穿搭体验的个人用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 22+、OpenAI API Key、一张个人参考照片 (PNG格式)。",
+          "steps": [
+            "git clone 项目并进入目录",
+            "npm install 安装依赖",
+            "复制 .env.example 为 .env 并配置OPENAI_API_KEY",
+            "npm run dev 启动应用"
+          ],
+          "note": "首次启动需在 .env 中配置 OPENAI_API_KEY 并放置个人参考照片，否则导入功能禁用。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身开源免费，但使用需支付OpenAI API费用）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "利用GPT-image技术实现衣物智能识别与虚拟穿搭预览，场景驱动，部署相对简单，功能实用且具有趣味性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，项目较新，Issues 开启 2 / 已关闭 0，暂无解决记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-17T04:44:27.162Z"
+    },
+    {
+      "owner": "PengZhang64",
+      "repo": "circuit-framework",
+      "fullName": "PengZhang64/circuit-framework",
+      "description": "Circuit Framework — multi-agent LLM trading research system",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-16T15:02:10Z",
+      "url": "https://github.com/PengZhang64/circuit-framework",
+      "analysis": {
+        "positioning": "加密货币多智能体LLM交易研究与模拟框架。",
+        "useCases": [
+          "想用LLM研究加密交易策略 → 它提供多智能体（市场结构、衍生品、情绪、催化剂、宏观体系）分析。",
+          "需要模拟交易和回测 → 它提供纸面交易执行和确定性风控引擎来批准/拒绝交易提案。",
+          "希望测试不同交易配置与风险参数 → 它通过YAML配置文件灵活切换策略，共享统一快照和风控。",
+          "关注Hyperliquid交易数据 → 它专注于Hyperliquid交易所的公开市场数据，无需认证。"
+        ],
+        "audience": "加密货币量化研究员、AI Agent开发者或希望用LLM探索交易策略的专业人士。",
+        "quickStart": {
+          "prerequisites": "Python环境, Git",
+          "steps": [
+            "git clone https://github.com/PengZhang64/circuit-framework.git",
+            "cd circuit-framework && pip install -e .",
+            "python -m tradingagents.run --profile balanced --symbol BTC"
+          ],
+          "note": "仅限研究，无真实交易，不涉及钱包凭证或真实交易所端点。"
+        },
+        "competitors": [
+          {
+            "name": "TradingAgents",
+            "method": "LLM多智能体交易框架（本项目原版/fork来源）",
+            "models": "未明确指定",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费开源，Apache-2.0 License。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，项目描述直接，专注于加密货币研究和模拟交易，明确强调“研究专用”和风险提示。README包含流程图和详细角色说明。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 关闭率为0%，表明社区活跃度较低，可能处于早期或内部使用阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-17T04:44:43.562Z"
+    },
+    {
+      "owner": "Blueturboguy07",
+      "repo": "cue",
+      "fullName": "Blueturboguy07/cue",
+      "description": "Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-07-15T22:17:25Z",
+      "url": "https://github.com/Blueturboguy07/cue",
+      "analysis": {
+        "positioning": "macOS AI私人助手，会议/编码时悬浮隐身，实时辅助。",
+        "useCases": [
+          "你开会时 → 它实时提供发言建议、回顾要点、跟进问题，且在屏幕共享中不可见。",
+          "你编程遇到难题 → 它结合屏幕内容直接提供解决方案。",
+          "你屏幕阅读时 → 它根据当前显示和对话内容解答疑问。"
+        ],
+        "audience": "需要实时AI辅助的macOS用户，尤其适合职场人士、开发者，以及注重隐私的个人用户。",
+        "quickStart": {
+          "prerequisites": "自备OpenAI/Anthropic/Google Gemini等AI模型API Key。",
+          "steps": [
+            "前往GitHub Releases页面下载`cue-mac.zip`并解压。",
+            "将`cue.app`拖入Applications文件夹。",
+            "首次打开时，右键点击`cue.app`选择“打开”；如遇“已损坏”提示，在Terminal运行`xattr -cr /Applications/cue.app`。"
+          ],
+          "note": "macOS 首次打开应用需特殊处理，且Zoom隐藏效果取决于其设置中的“高级窗口过滤”模式。"
+        },
+        "competitors": [
+          {
+            "name": "Cluely",
+            "method": "macOS AI copilot，提供实时辅助。",
+            "models": "未明确，通常支持主流模型。",
+            "pricing": "未明确，cue是其免费开源替代品，暗示Cluely可能非免费或需订阅。"
+          }
+        ],
+        "pricing": "免费（开源，自托管），用户需自行支付所用AI模型API费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为macOS上的AI助手，它不仅辅助会议，还专门提供了“解决编程问题”的功能，且安装步骤中涉及终端命令，对开发者有一定吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，有3个开放Issue但没有已关闭的，表明项目可能处于早期阶段或维护者响应不频繁。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-17T04:44:56.023Z"
+    },
+    {
+      "owner": "vshulcz",
+      "repo": "deja-vu",
+      "fullName": "vshulcz/deja-vu",
+      "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write. One zero-dep binary.",
+      "language": "Go",
+      "topics": [
+        "agent-memory",
+        "ai-memory",
+        "claude",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "golang",
+        "mcp",
+        "mcp-server",
+        "opencode",
+        "session-search"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-14T07:45:44Z",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "analysis": {
+        "positioning": "AI编码助手记忆层：智能检索、自动补给上下文。",
+        "useCases": [
+          "你曾用AI助手解决过某个代码问题 → 它帮你快速检索所有编码助手会话记录，找到历史方案。",
+          "你的AI编码助手遇到重复问题 → 它让助手“记住”并直接给出三周前的解决方案，避免重复调试。",
+          "你启动新的编码会话 → 它自动将相关历史上下文注入AI助手，提供预置信息。"
+        ],
+        "audience": "使用Claude Code, Cursor等AI编码助手的开发者，需要高效管理、复用和分享其历史会话经验。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "curl -fsSL https://raw.githubusercontent.com/vshulcz/deja-vu/main/install.sh | sh",
+            "deja install --auto (将deja集成到AI编码助手中并启用自动召回功能)"
+          ],
+          "note": "部分功能（如opencode/Cursor IDE索引）可能依赖系统预装的sqlite3 CLI，但核心功能零依赖。"
+        },
+        "competitors": [],
+        "pricing": "免费 (开源)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "它将分散的AI编码助手会话记录转化为可搜索、可召回的“记忆层”，极大提升了AI助手的工作效率和用户体验，减少重复劳动，让编码过程更顺畅。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，已关闭Issue数量远超开启中，表明项目维护者积极响应并解决问题。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-17T04:45:14.370Z"
+    },
+    {
+      "owner": "Shadow-Weave",
+      "repo": "HMS",
+      "fullName": "Shadow-Weave/HMS",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-12T13:24:42Z",
+      "url": "https://github.com/Shadow-Weave/HMS",
+      "analysis": {
+        "positioning": "为LLM提供结构化长时记忆，增强推理能力。",
+        "useCases": [
+          "你想让LLM记住多轮对话内容 → 它自动管理并注入相关记忆，让LLM保持上下文连贯。",
+          "你想让LLM基于复杂、多源信息进行推理 → 它从多会话、时间戳、事实、片段中检索证据并组织。",
+          "你正在开发一个需要LLM长期记忆的应用 → 它提供可复现的记忆系统，简化集成和记忆管理。"
+        ],
+        "audience": "面向AI开发者和研究者，特别是在构建需要LLM长期记忆和复杂推理能力的AI应用时。",
+        "quickStart": {
+          "prerequisites": "配置OpenAI API密钥、Base URL和模型；需运行PostgreSQL。",
+          "steps": [
+            "在 `.env` 中配置 OpenAI 客户端信息。",
+            "运行 `bash scripts/run_memory_demo.sh` 启动演示。"
+          ],
+          "note": "演示脚本会自动启动PostgreSQL和HMS，并安装SDK。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "文档清晰，提供一键启动演示，集成方式简洁明了，项目目标明确且有实际应用场景。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活动刚起步，目前有一个开启的Issue，尚未有已关闭的。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-17T04:45:25.211Z"
+    },
+    {
+      "owner": "Wan-Video",
+      "repo": "Wan-Dancer",
+      "fullName": "Wan-Video/Wan-Dancer",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-13T08:40:07Z",
+      "url": "https://github.com/Wan-Video/Wan-Dancer",
+      "analysis": {
+        "positioning": "基于音乐，生成长时间、高质量、节奏同步的舞蹈视频。",
+        "useCases": [
+          "你做音乐内容创作 → 它帮你将音乐自动转化为长时长、高保真、节奏同步的舞蹈视频。",
+          "你厌倦了现有AI舞蹈视频时长短、连贯性差 → 它帮你突破20秒限制，生成一分钟以上稳定流畅的舞蹈视频。",
+          "你需要多种风格的舞蹈素材 → 它帮你通过音频和文本提示，生成多种舞种的舞蹈视频。"
+        ],
+        "audience": "音乐制作人、视频内容创作者、AI研究者，用于生成创新的音乐舞蹈视频。",
+        "quickStart": {
+          "prerequisites": "Ubuntu 22.04, 8块NVIDIA A800 80GB GPU, Python 3.10.14, CUDA 12.4",
+          "steps": [
+            "cd /path/to/Wan-Dancer",
+            "python -m venv venv_wan_dancer && source venv_wan_dancer/bin/activate",
+            "pip install -e . && pip install moviepy loguru librosa",
+            "pip install https://mirrors.aliyun.com/pytorch-wheels/cu124/torch-2.6.0+cu124-cp310-cp310-linux_x86_64.whl torchvision==0.21.0 diffusers==0.34.0 yunchang==0.5.0 flash_attn==2.6.3 xfuser==0.4.0 transformers==4.46.2"
+          ],
+          "note": "请确保已安装并兼容CUDA 12.4。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目技术先进，解决了长时长舞蹈视频生成难题，提供论文和模型链接。但其对硬件（8x A800 GPU）和环境配置要求极高，且社区活跃度（issue）暂未体现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 区暂无活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-17T04:45:42.191Z"
+    },
+    {
+      "owner": "robinhood-ape",
+      "repo": "robinhood-sniper-bot",
+      "fullName": "robinhood-ape/robinhood-sniper-bot",
+      "description": "NOXA Fun token sniper on Robinhood Chain - watches TokenLaunched, buys via Uniswap V3 SwapRouter02, auto-sells on take-profit / stop-loss",
+      "language": "TypeScript",
+      "topics": [
+        "bot",
+        "noxa",
+        "noxa-fun",
+        "robinhood-chain",
+        "sniper-bot",
+        "trading-bot",
+        "typescript",
+        "uniswap-v3"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-16T05:41:44Z",
+      "url": "https://github.com/robinhood-ape/robinhood-sniper-bot",
+      "analysis": {
+        "positioning": "NOXA Fun代币狙击机器人，Robinhood链自动交易。",
+        "useCases": [
+          "你想在Robinhood Chain的NOXA Fun代币上线时第一时间抢购 → 它自动监听链上事件并即时通过Uniswap V3买入。",
+          "你想自动化管理NOXA Fun代币交易的盈亏 → 它根据预设的止盈或止损比例自动卖出，无需手动干预。",
+          "你希望参与Robinhood Chain上NOXA Fun代币的初期投机 → 它提供一套部署即用的自动化交易策略和执行工具。"
+        ],
+        "audience": "希望在Robinhood Chain上自动化抢购NOXA Fun新发行代币，并进行风险控制的加密货币交易者和投机者。",
+        "quickStart": {
+          "prerequisites": "Node.js, npm, Robinhood Chain ETH，以及配置了私钥的`.env`文件。",
+          "steps": [
+            "npm install",
+            "cp .env.example .env 并编辑`.env`文件配置你的私钥和其他交易参数",
+            "npm run dev"
+          ],
+          "note": "首次运行请保持`DRY_RUN=true`进行模拟交易，建议使用专用的WSS RPC服务提升交易响应速度。加密货币交易风险高，可能损失全部资金。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，用户自行部署，需承担交易Gas费和资金风险）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目专注于特定区块链（Robinhood Chain）上特定代币（NOXA Fun）的狙击交易，功能明确且实用性强，对于目标用户群有直接价值。代码实现清晰，提供了快速部署和运行的指南。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无开放或已关闭的Issue，可能处于开发早期或维护人员较少。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-17T04:45:58.645Z"
+    },
+    {
+      "owner": "BryanLunduke",
+      "repo": "LCOS",
+      "fullName": "BryanLunduke/LCOS",
+      "description": "The Lunduke Computer Operating System",
+      "language": "Unknown",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-07-11T17:39:07Z",
+      "url": "https://github.com/BryanLunduke/LCOS",
+      "analysis": {
+        "positioning": "Lunduke专属，反审查、反AI、无Systemd的复古Linux发行版。",
+        "useCases": [
+          "你厌倦现代OS的隐私侵犯与复杂性 → 它帮你获得一个无ID、无在线账户、无AI的纯净Linux体验。",
+          "你追求极简、复古的系统界面 → 它帮你体验90年代UI风格，同时享受现代Linux技术。",
+          "你抵制Systemd及政治正确 → 它帮你获得一个基于Devuan、彻底去Systemd且由“King”控制的系统。"
+        ],
+        "audience": "追求去中心化、反审查、反Systemd，且对90年代UI有情怀的Linux用户。",
+        "quickStart": {
+          "prerequisites": "Lunduke Journal订阅者",
+          "steps": [
+            "订阅Lunduke Journal。",
+            "访问独占论坛（forum.lunduke.com）获取安装介质及支持信息。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Devuan",
+            "method": "安装发行版",
+            "models": "通用Linux硬件",
+            "pricing": "免费"
+          },
+          {
+            "name": "MX Linux",
+            "method": "安装发行版",
+            "models": "通用Linux硬件",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "系统本身免费，但访问独占论坛（获取支持与反馈）需订阅Lunduke Journal。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心在于反主流技术趋势（反AI、反Systemd），追求纯粹的90年代复古UI和特定意识形态。由个人“君主式”控制，强调“上游优先”避免自身修改，而非通过代码创新引领潮流。其独特愿景远超普通技术实现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，GitHub Issue基本未关闭。所有反馈、提问和讨论仅限通过付费订阅的Lunduke Journal独占论坛进行。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-17T04:46:20.756Z"
     }
   ]
 }

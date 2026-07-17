@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "date": "2026-07-17",
+  "startedAt": "2026-07-17T04:43:51.800Z",
+  "finishedAt": "2026-07-17T04:47:15.092Z",
+  "durationSeconds": 203,
+  "success": true,
+  "stats": {
+    "fetched": 105,
+    "newProjects": 9,
+    "skipped": 96,
+    "geminiCalls": 10,
+    "statsUpdated": 105
+  },
+  "errors": [
+    {
+      "time": "2026-07-17T04:46:02.460Z",
+      "level": "warn",
+      "project": "robinhood-ape/robinhood-noxa-bundler",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
