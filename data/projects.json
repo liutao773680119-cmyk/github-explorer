@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-17T04:46:20.777Z",
+  "updatedAt": "2026-07-18T04:29:42.695Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -68457,6 +68457,281 @@
         "category": "其他"
       },
       "analyzedAt": "2026-07-17T04:46:20.756Z"
+    },
+    {
+      "owner": "pablostanley",
+      "repo": "yoinks",
+      "fullName": "pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-16T07:06:09Z",
+      "url": "https://github.com/pablostanley/yoinks",
+      "analysis": {
+        "positioning": "终端视频下载神器，告别广告与弹窗。",
+        "useCases": [
+          "你需要在命令行快速下载YouTube视频 → 它帮你通过交互式界面选择分辨率并保存。",
+          "你想从X/Twitter、Instagram或TikTok保存视频或提取音频 → 它帮你粘贴链接，选择MP3或特定画质，一键下载。",
+          "你厌倦了在线视频下载网站的弹窗和广告 → 它提供纯净的终端体验，安全高效下载各类视频。"
+        ],
+        "audience": "开发者、CLI爱好者或任何寻求纯净、高效、多平台视频下载体验的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+",
+          "steps": [
+            "npm install -g yoinks",
+            "yoinks <视频链接> 或 yoinks 交互式使用"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "yt-dlp (命令行版)",
+            "method": "命令行参数",
+            "models": "1800+网站",
+            "pricing": "免费"
+          },
+          {
+            "name": "在线视频下载网站 (如 SaveFrom.net)",
+            "method": "浏览器粘贴链接",
+            "models": "部分主流网站",
+            "pricing": "免费（通常含广告/弹窗）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "优秀的终端交互式界面，巧妙整合yt-dlp与ffmpeg，提供纯净无广告的下载体验，安装简便，功能实用。",
+        "isVibeCoding": true,
+        "communityActivity": "开启6个Issue但暂无关闭，说明项目有新需求和问题涌现，处于活跃开发阶段，维护者可能在处理中。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-18T04:28:28.134Z"
+    },
+    {
+      "owner": "stackblitz",
+      "repo": "bolt-slides",
+      "fullName": "stackblitz/bolt-slides",
+      "description": "Use any agent to create stunning, interactive presentations",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-14T18:23:27Z",
+      "url": "https://github.com/stackblitz/bolt-slides",
+      "analysis": {
+        "positioning": "AI驱动的交互式Web演示文稿生成器。",
+        "useCases": [
+          "你做传统幻灯片 → 它帮你用AI生成炫酷、交互式的Web演示文稿。",
+          "你需要展示动态数据或原型 → 它帮你把每个幻灯片变成实时、响应式的Web应用。",
+          "你想深度定制幻灯片布局和交互 → 它帮你用React组件构建独特定制化的Web演示文稿。"
+        ],
+        "audience": "追求高效、高质量、强交互演示文稿的开发者、设计师和演示者，尤其适合希望利用AI Agent能力的团队。",
+        "quickStart": {
+          "prerequisites": "Agent方式：Bolt平台访问权限。手动方式：Git, Node.js/npm。",
+          "steps": [
+            "Agent方式：1. 在Bolt平台打开项目；2. 输入提示词（Prompt）生成演示文稿。",
+            "手动方式：1. `git clone`项目；2. `cd bolt-slides`；3. `npm install`安装依赖；4. `npm run dev`启动开发服务器。"
+          ],
+          "note": "Agent方式可从单一提示词生成完整可演示应用，手动方式需自行删除示例并编写React/JSX。"
+        },
+        "competitors": [
+          {
+            "name": "传统AI幻灯片生成工具 (如：Gamma, Tome)",
+            "method": "提示词生成",
+            "models": "多样（通常为专有模型）",
+            "pricing": "通常有免费/付费方案"
+          },
+          {
+            "name": "网页演示文稿框架 (如：Slidev, Reveal.js)",
+            "method": "代码（Markdown/JS/组件）",
+            "models": "N/A (非AI驱动)",
+            "pricing": "免费 (开源)"
+          }
+        ],
+        "pricing": "免费（MIT开源许可）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它结合了AI智能生成和前端开发灵活性，用户可以通过Agent快速生成交互式Web演示文稿，也可以通过React/JSX进行深度定制，兼顾了效率和创意控制。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚新，Issue活跃度较低（2开0关），社区参与度有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-18T04:28:46.099Z"
+    },
+    {
+      "owner": "nethical6",
+      "repo": "conversation-steganography",
+      "fullName": "nethical6/conversation-steganography",
+      "description": "Use LLMS to hide secret messages inside normal-looking chat text",
+      "language": "Go",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-07-17T04:58:22Z",
+      "url": "https://github.com/nethical6/conversation-steganography",
+      "analysis": {
+        "positioning": "利用LLM伪装密文为普通聊天，实现隐秘通信。",
+        "useCases": [
+          "你担心私密对话被监控 → 它帮你将秘密消息伪装成AI生成的日常聊天，规避审查。",
+          "你希望在任何聊天工具上安全交流 → 它让WhatsApp、Telegram等平台成为你的隐秘加密传输通道。",
+          "你关注数字隐私且想避免被标记 → 它让真实消息不离开设备，外部仅见无害掩盖文本。"
+        ],
+        "audience": "关注数字隐私、规避潜在审查的用户，以及研究隐写术和LLM安全应用的开发者。",
+        "quickStart": {
+          "prerequisites": "Git, Go语言环境",
+          "steps": [
+            "克隆并编译：`git clone ... && cd ... && go build ...`",
+            "首次运行启动向导：`./conversation-stenography` (选择AI模型、下载、生成配置)"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源（GPL-3.0）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心理念新颖且切中当下隐私痛点，利用LLM进行隐写术潜力巨大。但作者明确标注为“教育用途”、“概念验证”且“存在多项问题”，距离生产级稳定应用尚有距离。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无开启或关闭的Issue记录。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-18T04:28:59.523Z"
+    },
+    {
+      "owner": "pyang5166",
+      "repo": "gbro-collage-broll",
+      "fullName": "pyang5166/gbro-collage-broll",
+      "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
+      "language": "Python",
+      "topics": [
+        "agent-skill",
+        "broll",
+        "gemini",
+        "paper-collage",
+        "video-generation"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T12:45:47Z",
+      "url": "https://github.com/pyang5166/gbro-collage-broll",
+      "analysis": {
+        "positioning": "利用Agent和Gemini，三闸门审批生成高级纸拼贴B-roll动画。",
+        "useCases": [
+          "你需要为短视频口播快速配搭独特风格的视觉背景 → 它帮你自动化生成定制化的半调纸拼贴B-roll。",
+          "你担心AI视频生成效果不可控且昂贵 → 它通过三闸门审批流程，确保每一步都符合预期，避免浪费。",
+          "你寻求特定“编辑风”视觉风格（半调、纸拼贴、逐件组装） → 它专注于交付这种独特、高级的视觉效果。"
+        ],
+        "audience": "内容创作者、视频编辑、营销人员，以及需要为短视频、口播、演示文稿快速生成有独特艺术风格B-roll的Agent用户。",
+        "quickStart": {
+          "prerequisites": "Codex环境、`GEMINI_API_KEY`、Python >= 3.10、`google-genai >= 2.10.0`、ffmpeg / ffprobe。",
+          "steps": [
+            "git clone https://github.com/pyang5166/gbro-collage-broll.git ~/.agents/skills/gbro-collage-broll",
+            "对你的Agent说：`collage b-roll：[你的口播文稿]`，并按提示分三阶段（隐喻→静帧→视频）确认。"
+          ],
+          "note": "需在支持Agent Skill的环境下运行（如`~/.agents/skills/`目录）。"
+        },
+        "competitors": [
+          {
+            "name": "RunwayML",
+            "method": "文本/图像/视频转视频，在线平台操作",
+            "models": "自研模型",
+            "pricing": "付费订阅制"
+          },
+          {
+            "name": "Pika Labs",
+            "method": "Discord Bot，文本/图像转视频",
+            "models": "自研模型",
+            "pricing": "Freemium"
+          }
+        ],
+        "pricing": "使用技能本身免费（MIT许可），视频生成依赖Google Gemini API按量计费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于解决一个特定、高价值的创意生产问题（高级感B-roll生成），通过独特的三闸门审批流程有效控制成本和产出质量，风格鲜明且具实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "较低，目前有2个开启Issue，无关闭，Star数286。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-18T04:29:19.502Z"
+    },
+    {
+      "owner": "robinhood-ape",
+      "repo": "robinhood-noxa-bundler",
+      "fullName": "robinhood-ape/robinhood-noxa-bundler",
+      "description": "NOXA Fun multi-wallet launch bundler for Robinhood Chain - launch via NOXA factory then buy from many wallets on Uniswap V3 before public snipers",
+      "language": "TypeScript",
+      "topics": [
+        "bot",
+        "bundler",
+        "noxa",
+        "noxa-fun",
+        "robinhood-chain",
+        "token-launch",
+        "typescript",
+        "uniswap-v3"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-16T05:41:33Z",
+      "url": "https://github.com/robinhood-ape/robinhood-noxa-bundler",
+      "analysis": {
+        "positioning": "Robinhood Chain 上多钱包抢购 NOXA 代币的启动器。",
+        "useCases": [
+          "你发布新代币 → 它帮你用多个钱包快速抢购，获取早期筹码。",
+          "你担心被抢跑 → 它帮你规避公共抢跑机器人，确保代币供应。",
+          "你需要在 Robinhood Chain 快速部署代币并建仓 → 它提供一站式部署和多钱包买入。"
+        ],
+        "audience": "主要面向希望在 Robinhood Chain 上通过 NOXA 工厂发行代币后，利用多钱包策略迅速建仓，规避抢跑的加密货币早期参与者或项目方。",
+        "quickStart": {
+          "prerequisites": "Node.js, npm",
+          "steps": [
+            "克隆仓库，进入 `bundler` 目录并 `npm install`。",
+            "复制 `.env.example` 为 `.env` 文件，并配置你的主钱包私钥及代币参数。",
+            "执行 `npm run bundle` 启动完整流程（或 `npm run launch` / `npm run wallets` 单独执行）。"
+          ],
+          "note": "首次使用请保持 `DRY_RUN=true` 进行模拟测试；切勿提交 `.env` 文件和生成的私钥。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目旨在解决加密货币发行初期抢跑和快速建仓的痛点，代码直接、目的明确，是典型的为特定场景“即用即走”的工具，符合 Vibe Coding 的特点。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，GitHub Issues 未被使用，可能通过其他渠道交流或用户自行解决。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-18T04:29:32.595Z"
+    },
+    {
+      "owner": "oversecured",
+      "repo": "Samsung_Vulnerabilities",
+      "fullName": "oversecured/Samsung_Vulnerabilities",
+      "description": "176 vulnerabilities in Samsung preinstalled Android apps",
+      "language": "Java",
+      "topics": [
+        "android",
+        "security",
+        "vulnerability-disclosure"
+      ],
+      "license": "BSD-2-Clause",
+      "createdAt": "2026-07-15T13:05:27Z",
+      "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
+      "analysis": {
+        "positioning": "Oversecured三星预装应用176个漏洞的详细披露报告",
+        "useCases": [
+          "你做Android安全研究 → 它帮你了解三星应用具体漏洞细节及披露流程。",
+          "你开发三星Android应用 → 它帮你借鉴过往漏洞，提升应用安全性。",
+          "你关心手机安全 → 它帮你理解三星设备的潜在风险及厂商修复情况。"
+        ],
+        "audience": "适合Android安全研究员、移动应用开发者及关注设备安全的普通用户，用于了解最新漏洞及安全实践。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆或直接访问GitHub项目页面",
+            "阅读README，查看漏洞列表和相关文章链接"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（报告内容）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是漏洞披露报告，非直接用于编码的工具或库。但其内容对编写安全代码、理解漏洞原理有重要参考价值。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 功能已开启但未使用，社区活跃度低。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-18T04:29:42.669Z"
     }
   ]
 }
