@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-18T04:29:42.695Z",
+  "updatedAt": "2026-07-19T04:54:15.555Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -68732,6 +68732,461 @@
         "category": "安全"
       },
       "analyzedAt": "2026-07-18T04:29:42.669Z"
+    },
+    {
+      "owner": "PostmanReminisce",
+      "repo": "Wisp-VPN",
+      "fullName": "PostmanReminisce/Wisp-VPN",
+      "description": "Wisp VPN - бесплатный и открытый VPN-клиент для Windows на основе WireGuard. Без логов, без ограничений по трафику, полностью open-source. В активной разработке. Обходим блокировки в РФ.",
+      "language": "C#",
+      "topics": [
+        "censorship-bypass",
+        "free-vpn-internet",
+        "free-vpn-russia",
+        "goodbyedpi",
+        "openvpn",
+        "rkn",
+        "russia",
+        "russia-vpn",
+        "vless",
+        "vpn",
+        "vpn-client",
+        "vpn-gateway",
+        "vpn-keys",
+        "vpn-russia",
+        "vpn-server",
+        "wireguard",
+        "zapret",
+        "zapret-discord-youtube",
+        "zapret-telegram",
+        "zapret-youtube"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-19T00:03:35Z",
+      "url": "https://github.com/PostmanReminisce/Wisp-VPN",
+      "analysis": {
+        "positioning": "Windows免费开源WireGuard VPN客户端，专攻俄罗斯封锁。",
+        "useCases": [
+          "你在俄罗斯遭遇YouTube/Telegram等服务被阻碍或限速 → 它帮你稳定突破网络封锁，恢复访问。",
+          "你担心免费VPN有日志记录或流量限制，又不想付费 → 它提供完全开源、无日志、无流量限制的WireGuard解决方案，让你安心使用。",
+          "你想快速部署一个免安装的VPN客户端 → 它提供便携版，下载即用，简化配置流程。"
+        ],
+        "audience": "主要面向在俄罗斯及部分独联体国家，寻求免费、开源、无日志、无限制且基于WireGuard协议的Windows VPN用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 操作系统",
+          "steps": [
+            "从项目官网下载最新版Wisp VPN客户端",
+            "运行客户端并选择服务器，点击连接"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "商业免费VPN服务",
+            "method": "下载客户端，常需注册/观看广告",
+            "models": "多种私有或通用VPN协议",
+            "pricing": "免费（常有限速/流量/广告/日志风险）"
+          },
+          {
+            "name": "通用WireGuard客户端",
+            "method": "下载官方客户端，手动导入配置文件",
+            "models": "WireGuard协议",
+            "pricing": "免费（需自备WireGuard服务器配置）"
+          }
+        ],
+        "pricing": "完全免费，无流量、速度限制，无需注册，无日志。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目处于活跃开发阶段，基于WireGuard协议，提供无日志、无流量限制、Kill Switch等核心功能，且开源免费，专门解决特定地区网络封锁问题，目标明确。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚处于早期活跃开发阶段，目前Issue和PR均为零，社区互动有待发展。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-19T04:51:42.239Z"
+    },
+    {
+      "owner": "PromptPartner",
+      "repo": "agentsmith",
+      "fullName": "PromptPartner/agentsmith",
+      "description": "Universal, model-agnostic operating harness for AI agents (Claude, Codex, Gemini, …) — a lean core + work-type profiles assembled by one setup script.",
+      "language": "Shell",
+      "topics": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-agents",
+        "ai-tools",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "developer-tools",
+        "gemini",
+        "llm",
+        "llm-agents",
+        "open-source",
+        "prompt-engineering",
+        "vibe-coding"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-16T11:37:15Z",
+      "url": "https://github.com/PromptPartner/agentsmith",
+      "analysis": {
+        "positioning": "AI Agent的通用操作系统，提供结构化工作流。",
+        "useCases": [
+          "你想用AI开发软件 → 它提供plan→implement→verify→ship的结构化流程，确保代码质量和可维护性。",
+          "你想用AI进行市场推广或文档创建 → 它帮你管理AI工作流，确保输出符合业务需求且可重复。",
+          "你想用AI进行数据分析或研究 → 它提供严谨的AI任务执行框架，确保结果准确并可追溯。"
+        ],
+        "audience": "追求AI Agent工作流标准化、高效化的开发者和团队，尤其是在需要AI辅助工程、DevOps或内容生成等场景。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "运行`./setup.sh`（无参数时向导模式），一次性安装核心模块并配置工作类型配置文件。",
+            "以单个任务为单位，让Agent自主执行plan→implement→verify→ship流程，直至完成。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目明确反对“Vibe Coding”，强调结构化、可验证的AI工作流，注重系统性和可维护性，力求解决实际工程问题而非仅演示。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极低，Issue 几乎未被关注或很少产生。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-19T04:52:16.521Z"
+    },
+    {
+      "owner": "JustinGamer191",
+      "repo": "Holo",
+      "fullName": "JustinGamer191/Holo",
+      "description": "",
+      "language": "Swift",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-17T17:48:08Z",
+      "url": "https://github.com/JustinGamer191/Holo",
+      "analysis": {
+        "positioning": "将MacBook周围桌面变身可编程敲击区，实现无接触交互。",
+        "useCases": [
+          "你轻敲MacBook旁桌面 → 它执行你预设的系统操作（如启动应用、运行快捷指令）。",
+          "你希望不接触键盘鼠标就能控制Mac → 它提供四个可编程的隐形声学“按钮”。",
+          "你追求创新的Mac交互方式 → 它通过识别桌面敲击声实现便捷的功能触发。"
+        ],
+        "audience": "寻求创新或非接触式MacBook交互体验的用户、开发者和研究人员。",
+        "quickStart": {
+          "prerequisites": "macOS 14+系统，Xcode 26 (推荐)，XcodeGen，MacBook内置麦克风（主动/混合模式需内置扬声器）。",
+          "steps": [
+            "克隆项目代码。",
+            "使用 `XcodeGen` 生成 `Holo.xcodeproj`。",
+            "在 `Xcode` 中编译并运行应用。",
+            "首次使用需进行校准，轻敲各区域完成40次样本采集。"
+          ],
+          "note": "macOS 26 系统界面会显示Liquid Glass按钮风格。"
+        },
+        "competitors": [
+          {
+            "name": "目前无直接竞品",
+            "method": "Holo通过MacBook麦克风识别桌面敲击声进行交互，定位独特，与传统触控板/鼠标手势工具（如BetterTouchTool）不同。",
+            "models": "N/A",
+            "pricing": "N/A"
+          }
+        ],
+        "pricing": "免费 (开源研究原型)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "创新性强，实现了MacBook桌面区域的声学敲击交互，技术细节丰富，包含完整的校准、特征提取、分类和动作执行流程。项目明确为研究原型，需用户自行测试精度。基于Swift和macOS原生开发。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数11，但无关闭记录，表明社区问题正在被提出但尚未得到解决，活跃度中等偏低。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-19T04:52:29.530Z"
+    },
+    {
+      "owner": "MIgHTy-alIeN",
+      "repo": "Trading-Bot",
+      "fullName": "MIgHTy-alIeN/Trading-Bot",
+      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "language": "Solidity",
+      "topics": [
+        "ai",
+        "aitradingbot",
+        "bot",
+        "btc",
+        "claude",
+        "eth",
+        "etherlab",
+        "mev",
+        "mevbots"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-17T09:45:22Z",
+      "url": "https://github.com/MIgHTy-alIeN/Trading-Bot",
+      "analysis": {
+        "positioning": "一个智能合约套利机器人，自动发现并执行链上交易套利机会。",
+        "useCases": [
+          "你手动寻找套利机会 → 它自动发现并执行链上ETH/代币套利。",
+          "你想定制链上交易策略 → 它提供配置接口，管理路由、代币、费用和交易限额。",
+          "你希望安全部署并操作自动交易机器人 → 它提供详细部署指南，并确保仅限所有者管理资金和设置。"
+        ],
+        "audience": "DeFi 交易者和区块链开发者，希望自动捕捉 EVM 链上的套利机会。",
+        "quickStart": {
+          "prerequisites": "安装 MetaMask/Phantom 钱包，并准备 0.5-1 ETH 作为初始资金。",
+          "steps": [
+            "打开 EtherLab 部署页面。",
+            "创建 `contract.sol` 文件，粘贴合约代码。",
+            "选择 0.8.20 编译器版本并编译合约。",
+            "连接钱包部署合约，并向合约地址发送 0.5-1 ETH 资金。",
+            "在 Python Automation 标签页点击 'Start' 启动机器人。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源代码），但部署和操作需支付链上 Gas 费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个实用的智能合约套利机器人，提供详细的部署和自动化操作指南，能够自动执行链上交易。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度低，Issue 数量为 0，无社区互动记录。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-19T04:52:41.253Z"
+    },
+    {
+      "owner": "andyhuo520",
+      "repo": "MacCheck",
+      "fullName": "andyhuo520/MacCheck",
+      "description": "MacCheck 验机宝：本地 Mac 硬件检测、交互验机与 PDF/PNG 报告导出工具",
+      "language": "Swift",
+      "topics": [
+        "hardware-diagnostics",
+        "mac-check",
+        "macos",
+        "second-hand-mac",
+        "swiftui"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-14T14:37:23Z",
+      "url": "https://github.com/andyhuo520/MacCheck",
+      "analysis": {
+        "positioning": "Mac本地硬件检测、交互验机与报告导出工具",
+        "useCases": [
+          "购买或出售二手Mac → 通过全面检测确保机器无隐藏问题，并生成报告作为凭证。",
+          "Mac维修门店 → 快速对客户机器进行故障排查和性能评估，提供专业检测报告。",
+          "个人Mac用户 → 定期自检硬件状态，评估老机器的性能瓶颈，或判断AI模型本地运行潜力。",
+          "评估AI大模型可跑性 → 根据Mac内存估算本地AI模型适配度，提供建议。"
+        ],
+        "audience": "所有需要对Mac进行全面硬件检测、评估并导出报告的用户，尤其适用于二手交易和门店验机场景。",
+        "quickStart": {
+          "prerequisites": "macOS 14.0+，Apple Silicon或Intel Mac",
+          "steps": [
+            "前往GitHub Releases下载最新`MacCheck-X.X.dmg`文件。",
+            "打开DMG，将`MacCheck.app`拖拽至“应用程序”文件夹。",
+            "首次运行若遇Gatekeeper提示，右键点击App，选择“打开”。"
+          ],
+          "note": "若无法打开，可尝试右键“打开”，或在终端执行 `sudo xattr -rd com.apple.quarantine /Applications/MacCheck.app` 解除下载隔离属性。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目功能实用，解决Mac用户在二手交易、自检时的痛点。采用SwiftUI开发，界面现代。强调本地运行，注重隐私。提供详尽的安装、使用和源码构建指南，降低使用门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，3个开启的Issue尚未关闭，表明项目可能较新或维护者处理Issue速度较慢。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-07-19T04:52:53.812Z"
+    },
+    {
+      "owner": "HeiGeAi",
+      "repo": "heige-codex-skin-studio",
+      "fullName": "HeiGeAi/heige-codex-skin-studio",
+      "description": "给 Codex Desktop 一键换肤：OpenAI Codex/ChatGPT 桌面端主题工具，CDP 注入零修改应用，Miku/原神/鸣潮/火影/恋与深空 9 预设+自定义图片取色 | One-click theme & skin switcher for OpenAI Codex Desktop (macOS/Windows)",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skill",
+        "anime",
+        "chatgpt",
+        "codex",
+        "codex-desktop",
+        "customization",
+        "devtools-protocol",
+        "electron",
+        "hatsune-miku",
+        "macos",
+        "skin",
+        "theme",
+        "theme-switcher"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T10:24:07Z",
+      "url": "https://github.com/HeiGeAi/heige-codex-skin-studio",
+      "analysis": {
+        "positioning": "为OpenAI Codex桌面端提供一键换肤，让你的AI编程助手更个性化。",
+        "useCases": [
+          "想给Codex Desktop换个新鲜界面 → 一键应用Miku、原神、鸣潮等预设主题。",
+          "想用自己喜欢的图片做主题 → 上传图片，工具自动取色并生成个性化皮肤。",
+          "想让AI帮你设计主题 → 让Codex AI直接生成图片并制作主题，无需额外API Key。"
+        ],
+        "audience": "追求个性化、注重工作环境美观的OpenAI Codex Desktop用户。",
+        "quickStart": {
+          "prerequisites": "已安装 Codex Desktop",
+          "steps": [
+            "下载项目仓库。",
+            "macOS: 双击运行 `scripts/install.command`；Windows: 运行 `scripts\\windows\\install.bat`。"
+          ],
+          "note": "安装后在Codex顶部菜单中切换主题，支持自定义图片、内置主题和AI生成主题。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目直击Vibe Coding核心，将严肃的AI编程界面美化，提供动漫、游戏等丰富主题预设，支持自定义和AI生成主题，强调'写代码的地方，也该是你喜欢的样子'，高度提升使用体验的愉悦感。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues开启6个已关闭1个，有讨论区鼓励用户分享主题，社区有一定活跃度但问题解决率一般。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-19T04:53:06.582Z"
+    },
+    {
+      "owner": "yuwen-cool",
+      "repo": "yuwen-publish-precheck",
+      "fullName": "yuwen-cool/yuwen-publish-precheck",
+      "description": "发布前审｜发抖音/小红书/视频号前先让 AI 审一遍：哪句踩线、依据哪条官方规则、给能直接用的改法。38 篇真实样本校准判定尺度，72 条官方原文引文可查证，你踩过的坑沉淀成本地规则库越用越准。不承诺过审，不教绕审。",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "chinese",
+        "claude",
+        "content-compliance",
+        "cursor",
+        "douyin",
+        "wechat-channels",
+        "xiaohongshu"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-15T13:53:48Z",
+      "url": "https://github.com/yuwen-cool/yuwen-publish-precheck",
+      "analysis": {
+        "positioning": "AI内容合规预审工具，助你抖音/小红书/视频号内容安全发布。",
+        "useCases": [
+          "你发抖音/小红书/视频号内容 → 它帮你AI预审，定位违规语句并给出修改建议。",
+          "你制作营销文案 → 它帮你规避平台红线，在劲爆选题下找到合规表达。",
+          "你遇到内容被限流/处罚 → 它帮你复盘原因，将教训沉淀为本地规则。",
+          "你想自定义敏感词/安全表达 → 它帮你建立个人规则库，越用越精准。"
+        ],
+        "audience": "专注于抖音、小红书、视频号的内容创作者、MCN或品牌方，旨在提高内容合规性，减少违规风险。",
+        "quickStart": {
+          "prerequisites": "Python 3环境；Cursor/Codex/Claude Code等支持Agent Skills的AI编程助手",
+          "steps": [
+            "通过AI编程助手安装Skill (如：`请安装这个 skill：https://github.com/yuwen-cool/yuwen-publish-precheck.git`)",
+            "或手动克隆至Skill目录 (如：`git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/skills/yuwen-publish-precheck`)"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "通用违禁词表工具",
+            "method": "基于关键词匹配，词面命中即报错，不理解语境，易误判。",
+            "models": "无",
+            "pricing": "多为免费或基础功能免费"
+          }
+        ],
+        "pricing": "免费（本地运行，无额外费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目直接针对内容创作者的痛点（违规、限流），提供AI驱动的实用解决方案和个性化规则沉淀，场景驱动强，技术落地性高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，社区互动暂不活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-19T04:53:21.214Z"
+    },
+    {
+      "owner": "Icex0",
+      "repo": "wp2shell-poc",
+      "fullName": "Icex0/wp2shell-poc",
+      "description": "wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain",
+      "language": "Python",
+      "topics": [
+        "cve-2026-63030",
+        "wp2shell",
+        "wp2shell-poc"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-17T20:18:33Z",
+      "url": "https://github.com/Icex0/wp2shell-poc",
+      "analysis": {
+        "positioning": "深度还原WordPress未授权SQL注入至RCE漏洞链。",
+        "useCases": [
+          "你想验证WordPress站点的wp2shell漏洞 → 它帮你快速检查是否存在未授权SQL注入。",
+          "你想深入理解wp2shell漏洞的原理和影响 → 它帮你直观演示如何读取数据库敏感信息。",
+          "你想在受影响WordPress站点上获得控制权 → 它帮你通过SQL注入建立一个远程命令Shell。"
+        ],
+        "audience": "专注于WordPress安全的开发者、渗透测试员或安全研究员，用于漏洞验证与复现。",
+        "quickStart": {
+          "prerequisites": "Python环境，并拥有一个受影响的WordPress站点 (6.9.0–6.9.4 或 7.0.0–7.0.1 版本)。",
+          "steps": [
+            "克隆项目仓库。",
+            "运行 `python3 wp2shell.py check/read/shell <target_url>`。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，基于MIT开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，功能目标明确，提供详细的漏洞原理和利用链说明，并附有演示图。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前没有 Issue 开启或关闭记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-19T04:53:38.349Z"
+    },
+    {
+      "owner": "XxHuberrr",
+      "repo": "Mineradio",
+      "fullName": "XxHuberrr/Mineradio",
+      "description": "一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。",
+      "language": "HTML",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-06-02T12:50:48Z",
+      "url": "https://github.com/XxHuberrr/Mineradio",
+      "analysis": {
+        "positioning": "沉浸式桌面音乐播放器，视觉与听觉的盛宴。",
+        "useCases": [
+          "你追求极致的听歌氛围 → 它帮你通过电影镜头、粒子视觉和歌词舞台，将听歌变成一场沉浸式体验。",
+          "你想根据天气心情自动推荐音乐 → 它帮你通过Open-Meteo天气电台，生成更贴合当下心境的播放队列。",
+          "你希望管理和播放网易云/QQ音乐的歌单，并获得独特视觉反馈 → 它帮你接入主流平台，并提供3D歌单架和自定义歌词视觉。"
+        ],
+        "audience": "追求个性化、沉浸式音乐体验，注重播放器视觉氛围的Windows桌面用户。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统",
+          "steps": [
+            "访问蓝奏云或GitHub Release（推荐蓝奏云）下载 Mineradio-1.1.1-Setup.exe。",
+            "运行安装包，如遇拦截按提示操作（保留/仍要运行）完成安装。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "网易云音乐桌面版",
+            "method": "在线音乐播放、歌单管理、社交功能",
+            "models": "N/A",
+            "pricing": "免费（部分功能需会员）"
+          },
+          {
+            "name": "QQ音乐桌面版",
+            "method": "在线音乐播放、版权音乐、歌单管理",
+            "models": "N/A",
+            "pricing": "免费（部分功能需会员）"
+          }
+        ],
+        "pricing": "免费，欢迎自愿打赏支持作者。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目专注于打造独特的沉浸式音乐播放体验，结合电影视觉、粒子特效、天气电台等创新功能，技术实现为Electron桌面应用，集成了主流音乐平台。Star数高，体现了用户对其核心价值的认可。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数高达8500+，关注度极高；Issue开启数（283）远高于关闭数（14），可能存在积压或活跃度波动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-19T04:54:15.532Z"
     }
   ]
 }
