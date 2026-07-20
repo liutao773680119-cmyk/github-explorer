@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-19T04:54:15.555Z",
+  "updatedAt": "2026-07-20T05:11:43.877Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -69187,6 +69187,424 @@
         "category": "其他"
       },
       "analyzedAt": "2026-07-19T04:54:15.532Z"
+    },
+    {
+      "owner": "v-modal",
+      "repo": "vmodal_sdk_flutter",
+      "fullName": "v-modal/vmodal_sdk_flutter",
+      "description": "V- Modal AI: Search anything anywhere SDK Flutter",
+      "language": "Dart",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-16T12:25:48Z",
+      "url": "https://github.com/v-modal/vmodal_sdk_flutter",
+      "analysis": {
+        "positioning": "Flutter多模态AI视频搜索SDK。",
+        "useCases": [
+          "你希望用户在应用内通过自然语言、语音、文字或图像搜索视频内容 → 它帮你实现视频内容的多模态搜索。",
+          "你需要用户上传视频并能实时查看进度或取消 → 它帮你提供带进度、可取消的移动端视频上传流。",
+          "你想让App中的视频库具备智能“记忆”和探索能力 → 它帮你将视频转化为可搜索的、富有意义的片段集合。"
+        ],
+        "audience": "Flutter开发者，需要为移动应用集成AI驱动的多模态视频搜索及上传功能。",
+        "quickStart": {
+          "prerequisites": "需VModal AI服务的API Key，并已在应用中完成身份验证。",
+          "steps": [
+            "在 `pubspec.yaml` 中添加 `vmodal_sdk_flutter` 依赖，并运行 `flutter pub get`。",
+            "使用你的API Key初始化 `VmodalClient` 实例。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "SDK免费开源，但需VModal AI服务API Key（服务定价未说明）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，文档专业且提供了明确的场景和API示例。为Flutter应用提供原生的多模态AI视频搜索及上传功能，功能实用。Star数中等，Issue处理活跃，表明项目健康维护。但暂未展现颠覆性或引爆社区的创新点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue处理活跃，开闭比健康（开启4/关闭8），表明项目有在积极维护和响应用户反馈。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-07-20T05:08:55.228Z"
+    },
+    {
+      "owner": "lopopolo",
+      "repo": "harness-engineering",
+      "fullName": "lopopolo/harness-engineering",
+      "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering",
+      "language": "Python",
+      "topics": [],
+      "license": "CC-BY-4.0",
+      "createdAt": "2026-07-18T21:42:28Z",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "analysis": {
+        "positioning": "提升AI Agent输出质量和可靠性的环境工程实践与指南",
+        "useCases": [
+          "你希望Agent产出更符合组织规范 → 它帮你将企业非功能性需求转化为Agent可用的环境上下文。",
+          "你希望Agent决策更智能、积累经验 → 它帮你沉淀组织判断和迭代教训，形成可复用Agent知识库。",
+          "你希望Agent行为更可控、结果可验证 → 它帮你通过环境约束、工具和示例，确保Agent按预期运行。"
+        ],
+        "audience": "为企业或团队开发、部署和管理AI Agent的工程师、架构师和产品负责人，旨在提升Agent在真实业务场景中的性能与可靠性。",
+        "quickStart": {
+          "prerequisites": "Python开发环境",
+          "steps": [
+            "`git clone https://github.com/lopopolo/harness-engineering.git`",
+            "阅读`docs`目录，理解Harness Engineering核心理念与实践方法"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "构建Agent、编排LLM交互、集成工具",
+            "models": "支持主流LLM",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "为LLM提供数据上下文、知识检索增强",
+            "models": "支持主流LLM",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费（内容和代码基于CC-BY-4.0许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目内容深度和专业性强，提供了AI Agent可靠性工程的系统性方法论与上下文范例。Star数适中，但Issue活跃度较低，表明其更偏向理论指导和知识沉淀，而非传统意义上需要频繁社区互动迭代的工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示社区活跃度较低（0开启/1关闭），可能项目定位为专业指南和方法论，而非依赖社区驱动迭代的工具。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-20T05:09:14.752Z"
+    },
+    {
+      "owner": "hoainho",
+      "repo": "img2threejs",
+      "fullName": "hoainho/img2threejs",
+      "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+      "language": "Python",
+      "topics": [
+        "3d",
+        "ai-agents",
+        "claude-code",
+        "computer-graphics",
+        "generative",
+        "image-to-3d",
+        "procedural-generation",
+        "threejs",
+        "typescript",
+        "webgl"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T02:58:39Z",
+      "url": "https://github.com/hoainho/img2threejs",
+      "analysis": {
+        "positioning": "从参考图片智能生成高质量、可动画的Three.js纯代码3D模型。",
+        "useCases": [
+          "你需要在Web端展示2D产品图 → 它帮你快速生成交互式、纯代码的3D模型。",
+          "你想为网页游戏或应用创建轻量级3D资产 → 它帮你从参考图直接生成程序化、可动画的Three.js模型。",
+          "你追求高度可控和可定制的3D内容生成 → 它帮你产出可修改的TypeScript/JavaScript代码而非固定网格文件。"
+        ],
+        "audience": "专注于Web端Three.js开发，需要从图像高效生成可编辑、程序化3D模型的开发者和设计师。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "准备一张你希望转换为3D模型的参考图片。",
+            "运行项目提供的Python脚本，让AI代理生成对应的Three.js模型TypeScript/JavaScript代码。"
+          ],
+          "note": "生成的Three.js模型代码需在支持WebGL的浏览器环境中运行。"
+        },
+        "competitors": [
+          {
+            "name": "Luma AI (Genie) / 其他AI图像转3D服务",
+            "method": "上传单张图片，AI直接生成网格模型。",
+            "models": "基于网格（mesh）的3D模型，通常带纹理。",
+            "pricing": "通常是SaaS模式，有免费额度。"
+          },
+          {
+            "name": "摄影测量软件 (如Metashape/RealityCapture/Blender)",
+            "method": "输入多张不同角度的照片，通过算法重建高精度网格模型。",
+            "models": "复杂高精度网格模型，适合真实感场景。",
+            "pricing": "通常付费软件，Blender免费插件。"
+          }
+        ],
+        "pricing": "免费，遵循MIT开源许可。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目强调'code-only', 'procedural', 'reconstruction-by-code'，产出是可编辑的TypeScript代码而非静态文件，这意味着开发者能对生成结果有深层理解和掌控，非常符合编码者追求的精细控制感。",
+        "isVibeCoding": true,
+        "communityActivity": "开启8个issue但未关闭，项目有活跃度，但维护者的响应速度和issue解决效率待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-20T05:09:33.683Z"
+    },
+    {
+      "owner": "xiejunjie524",
+      "repo": "handdraw-story-video",
+      "fullName": "xiejunjie524/handdraw-story-video",
+      "description": "Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-18T06:51:05Z",
+      "url": "https://github.com/xiejunjie524/handdraw-story-video",
+      "analysis": {
+        "positioning": "将手绘插画转为竖屏线稿显现及渐变上色短视频的工具。",
+        "useCases": [
+          "你制作手绘故事插画 → 它帮你一键生成 35-45 秒竖屏动画短片。",
+          "你希望自定义线稿显现和上色动画 → 它提供 HyperFrames 页面和详细配置，实现精准控制。",
+          "你专注内容创作而非代码 → 它支持 Codex Skill，通过自然语言触发视频生成。"
+        ],
+        "audience": "动漫创作者、短视频博主、教育内容制作者等，需要将手绘故事快速转化为具有独特风格的竖屏动画。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, Node.js 18+, FFmpeg, HyperFrames, GSAP",
+          "steps": [
+            "克隆仓库，安装 Python 依赖 (pip install -r requirements.txt) 和 JS 依赖 (npm install gsap)。",
+            "复制模板 story.json，准备每幕彩色母图，并生成对应的线稿图。",
+            "准备 HyperFrames 目录及 GSAP 资源。",
+            "运行脚本生成 HyperFrames 页面，最后通过 npx hyperframes render 渲染输出视频。"
+          ],
+          "note": "Windows PowerShell 用户需使用特定命令创建目录和复制文件。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT 开源许可），但生图模型、音乐等第三方素材需自行获取或支付授权费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "文档清晰，易于上手，提供详细配置和示例。专注于竖屏短视频创作，动画效果独特。支持自定义生图模型和 Codex Skill 集成，扩展性强。",
+        "isVibeCoding": true,
+        "communityActivity": "Star 数 388，但 Issue 统计开启 0 / 已关闭 0，暂无社区活跃度数据。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-20T05:09:51.028Z"
+    },
+    {
+      "owner": "erickong",
+      "repo": "penecho",
+      "fullName": "erickong/penecho",
+      "description": "Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning.",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "canvas",
+        "claude",
+        "codex",
+        "education",
+        "handwriting",
+        "nodejs",
+        "visual-thinking"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-14T14:45:23Z",
+      "url": "https://github.com/erickong/penecho",
+      "analysis": {
+        "positioning": "AI驱动的共享画布，让手写思考与AI互动。",
+        "useCases": [
+          "你在画布上手写问题、公式或草图 → AI理解并直接在旁提供答案、提示或图表。",
+          "你在解决复杂问题时需要迭代思考 → 它让你在自由书写中获得AI的实时反馈，无需频繁切换工具。",
+          "你希望AI理解手写内容的空间关系 → 它能识别手写内容及其空间排布，提供更上下文相关的AI响应。"
+        ],
+        "audience": "适合需要通过手写、绘图进行思考和问题解决，并希望AI能实时辅助理解和生成内容的教育工作者、研究人员和创意人士。",
+        "quickStart": {
+          "prerequisites": "Node.js, Git",
+          "steps": [
+            "git clone https://github.com/erickong/penecho.git",
+            "cd penecho",
+            "npm install",
+            "npm run dev"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费，AGPL-3.0 开源许可。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "它通过自由的画布、手写输入和空间推理，旨在提供一种更直观、更接近人类思考方式的AI交互体验，强调视觉和创造性，而非结构化输出。这在与AI协作解决问题时，带来了独特的“心流”体验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区处于早期发展阶段，有一定关注度（353星），但Issue活跃度较低（3开0关），亟待社区贡献。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-20T05:10:14.338Z"
+    },
+    {
+      "owner": "OlegSotnikov",
+      "repo": "sallyport",
+      "fullName": "OlegSotnikov/sallyport",
+      "description": "",
+      "language": "Swift",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-14T22:11:37Z",
+      "url": "https://github.com/OlegSotnikov/sallyport",
+      "analysis": {
+        "positioning": "AI Agent密钥安全执行器，不泄露凭证。",
+        "useCases": [
+          "AI Agent需要访问生产环境API/SSH → 它在不暴露凭证的情况下安全执行操作。",
+          "担心Agent或其依赖被注入恶意代码，泄露密钥 → 它隔离Agent与凭证，只提供操作权限。",
+          "管理AI Agent的API/SSH凭证 → 它在本地加密存储凭证并提供多层授权机制。"
+        ],
+        "audience": "使用AI Agent处理敏感数据或访问生产环境的开发者和团队，保障凭证安全。",
+        "quickStart": {
+          "prerequisites": "Apple Silicon 和 macOS 14 或更新版本。",
+          "steps": [
+            "通过 `brew install --cask olegsotnikov/tap/sallyport` 安装应用。",
+            "启动应用，创建保管库，添加API或SSH凭证，并配置MCP客户端连接。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统密钥管理器",
+            "method": "将密钥交付给工作负载",
+            "models": "未知",
+            "pricing": "未知"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位清晰，直指AI Agent在生产环境中凭证安全的痛点。提供了独特的逆向安全模型，安装和使用流程简洁明了，安全模型文档清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "该GitHub仓库主要作为发布快照，不接受Pull Request或Issue。开发和缺陷报告在其他指定渠道进行，因此GitHub仓库本身的活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-20T05:10:30.242Z"
+    },
+    {
+      "owner": "thesysdev",
+      "repo": "appless",
+      "fullName": "thesysdev/appless",
+      "description": "What if your phone had no apps",
+      "language": "TypeScript",
+      "topics": [
+        "generative-ui",
+        "llm",
+        "react-native"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-16T07:08:49Z",
+      "url": "https://github.com/thesysdev/appless",
+      "analysis": {
+        "positioning": "用AI重构手机交互，无App操作系统实验。",
+        "useCases": [
+          "你查天气 → 它帮你生成实时天气仪表盘。",
+          "你找餐厅 → 它帮你生成可实时搜索的餐厅列表。",
+          "你预订航班/酒店 → 它帮你生成预订表单。",
+          "你聊天 → 它帮你生成聊天界面。"
+        ],
+        "audience": "对未来手机交互、生成式UI和LLM应用感兴趣的开发者和研究者。",
+        "quickStart": {
+          "prerequisites": "Git, Node.js/npm, 免费Cerebras API key（可选，可手动配置）",
+          "steps": [
+            "克隆项目：`git clone https://github.com/thesysdev/appless.git`",
+            "安装依赖：`cd appless && npm install`",
+            "运行应用：`npm run ios` 或 `npm run android`"
+          ],
+          "note": "首次启动需填Cerebras API Key，存储于设备本地。无后端部署。"
+        },
+        "competitors": [
+          {
+            "name": "传统手机App生态",
+            "method": "应用商店下载，固定UI交互",
+            "models": "N/A",
+            "pricing": "App内购买/免费"
+          },
+          {
+            "name": "LLM API + 自研UI渲染",
+            "method": "开发者手动调用API生成数据，再编码渲染UI",
+            "models": "GPT-x, Claude, Llama等",
+            "pricing": "API按量付费"
+          }
+        ],
+        "pricing": "免费。项目开源（MIT），LLM调用需免费的Cerebras API key（目前提供），可能产生模型使用费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "概念极具创新性，展示了生成式UI操作系统的未来愿景。目前仍是实验性Demo，无真实功能集成，社区活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "项目Issue数量极少（3开0关），社区活跃度较低，主要作为OpenUI的实验性展示。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-20T05:10:52.423Z"
+    },
+    {
+      "owner": "cobusgreyling",
+      "repo": "loop-engineering",
+      "fullName": "cobusgreyling/loop-engineering",
+      "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+      "language": "JavaScript",
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "ai-coding",
+        "anthropic",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "devops-automation",
+        "devtools",
+        "github-actions",
+        "grok",
+        "llm",
+        "loop-engineering",
+        "mcp",
+        "prompt-engineering"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-06-09T06:28:20Z",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "analysis": {
+        "positioning": "AI Agent循环工程CLI工具与设计模式，助你编排Agent。",
+        "useCases": [
+          "你启动AI Agent项目 → 它帮你初始化Agent技能、状态和预算文件。",
+          "你想评估AI Agent项目 → 它帮你审计、评估Agent的效率和成本。",
+          "你想自动化开发流程 → 它帮你设计系统来编排、提示AI Agent执行任务。"
+        ],
+        "audience": "AI Agent开发者、DevOps工程师、Prompt工程师，用于自动化AI Agent工作流。",
+        "quickStart": {
+          "prerequisites": "npm/Node.js",
+          "steps": [
+            "打开终端。",
+            "运行 `npx @cobusgreyling/loop-init .`。"
+          ],
+          "note": "可选用 `--tool` 指定AI工具，如 `claude`, `codex`, `opencode`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供CLI工具和设计模式，强调实战、自动化和系统化AI Agent工作流，适合开发者深度定制。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决率高（约78.5%），社区维护积极。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-20T05:11:27.537Z"
+    },
+    {
+      "owner": "zhaoxuya520",
+      "repo": "reverse-skill",
+      "fullName": "zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-05-13T14:37:57Z",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "analysis": {
+        "positioning": "AI驱动的逆向/渗透/安全技能路由包",
+        "useCases": [
+          "AI代理分析APK/二进制文件 → 它自动选择并引导对应逆向工具与方法",
+          "AI代理遇到渗透测试目标 → 它自动规划渗透流程，避免盲目猜测指令",
+          "AI代理处理CTF挑战 → 它提供针对性工具链和可重复的工作流"
+        ],
+        "audience": "适用于网络安全领域的AI Agent开发者、逆向工程师和渗透测试人员，提升AI在复杂安全任务中的效率。",
+        "quickStart": {
+          "prerequisites": "PowerShell环境，支持的AI编程客户端（如Claude Code, Cursor等）",
+          "steps": [
+            "克隆项目",
+            "按照README_AI.md指示配置和运行"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙结合了AI编程助手与网络安全领域，通过AI自动路由和按需引导工具链，解决了AI在复杂安全任务中的“盲点”。概念新颖，Star数极高，表明社区对其创新性和实用性有强烈认可。",
+        "isVibeCoding": true,
+        "communityActivity": "当前无开放Issue，有少量Issue被关闭，Issue活跃度一般，但Star数非常高，表明项目广受欢迎。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-20T05:11:43.853Z"
     }
   ]
 }
