@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-20T05:11:43.877Z",
+  "updatedAt": "2026-07-21T04:54:08.658Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -69605,6 +69605,791 @@
         "category": "安全"
       },
       "analyzedAt": "2026-07-20T05:11:43.853Z"
+    },
+    {
+      "owner": "sudsudop",
+      "repo": "kiddionmenu-modest",
+      "fullName": "sudsudop/kiddionmenu-modest",
+      "description": "Kiddion's ModMenu is one of the most renowned external mod menus for *Grand Theft Auto V*.",
+      "language": "Unknown",
+      "topics": [
+        "5m",
+        "external-menu",
+        "fivem-mod-menu-exe",
+        "gta-editor",
+        "gta-modding-tools",
+        "gta-v-trainer",
+        "kiddions-modmenu",
+        "lunacy",
+        "modest-menu"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-21T04:15:23Z",
+      "url": "https://github.com/sudsudop/kiddionmenu-modest",
+      "analysis": {
+        "positioning": "GTA V知名外部修改器Kiddion's ModMenu，助你轻松定制游戏体验。",
+        "useCases": [
+          "你想在GTA V中快速刷钱或获取稀有物品 → 它帮你通过内置修改器一键实现。",
+          "你想调整游戏难度或体验特殊能力（如无敌、超高跳跃） → 它帮你轻松启用各种游戏增强功能。",
+          "你想在GTA Online中相对安全地使用修改功能 → 它帮你提供外部注入方案，降低被检测风险。"
+        ],
+        "audience": "寻求在《侠盗猎车手V》单人或在线模式中，安全、便捷地增强游戏体验的PC玩家。",
+        "quickStart": {
+          "prerequisites": "已安装《侠盗猎车手V》游戏 (PC版)",
+          "steps": [
+            "下载并运行 Kiddion's ModMenu 可执行文件。",
+            "启动《侠盗猎车手V》，在游戏内通过菜单进行各项修改。"
+          ],
+          "note": "主要适用于PC版《侠盗猎车手V》。"
+        },
+        "competitors": [
+          {
+            "name": "Menyoo PC",
+            "method": "内联注入 (需Script Hook V)",
+            "models": "《侠盗猎车手V》",
+            "pricing": "免费"
+          },
+          {
+            "name": "Native Trainer (Script Hook V)",
+            "method": "内联注入",
+            "models": "《侠盗猎车手V》",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "为游戏玩家提供增强体验，但在部分场景（如在线模式）可能涉及作弊风险，并非传统开发工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 功能未被使用，无法评估社区活跃度；项目通常通过特定游戏社区或论坛维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-21T04:49:42.648Z"
+    },
+    {
+      "owner": "c9nny",
+      "repo": "mirror",
+      "fullName": "c9nny/mirror",
+      "description": "lexical structure inference for incomplete programs",
+      "language": "OCaml",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T01:44:05Z",
+      "url": "https://github.com/c9nny/mirror",
+      "analysis": {
+        "positioning": "不完整函数式代码的词法作用域推断和修复工具。",
+        "useCases": [
+          "你在开发编程语言工具链（如IDE、LSP）→ 它提供核心能力来理解和修正未完成的代码结构。",
+          "你在处理损坏或部分恢复的函数式程序代码 → 它帮你自动识别可能的变量绑定并进行语义修复。",
+          "你在编写或调试不完整的函数式程序 → 它帮你自动推断并修复缺失的词法作用域，确保语义正确。"
+        ],
+        "audience": "编程语言工具链开发者、IDE或LSP服务器开发者，以及需要对不完整函数式程序进行深度代码分析的工程师。",
+        "quickStart": {
+          "prerequisites": "OCaml开发环境 (如OPAM, Dune)",
+          "steps": [
+            "git clone https://github.com/c9nny/mirror.git",
+            "cd mirror",
+            "dune build"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Tree-sitter",
+            "method": "通过语法解析器生成器，为不完整代码构建健壮的抽象语法树（AST），提供底层结构分析能力。",
+            "models": "支持多种编程语言",
+            "pricing": "免费"
+          },
+          {
+            "name": "特定语言的LSP实现",
+            "method": "作为语言服务器协议的实现，在IDE中提供实时语法和语义分析，通常包含处理不完整代码的能力。",
+            "models": "针对特定编程语言",
+            "pricing": "免费（多为开源项目）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数低，社区活跃度极低（Issue 0/0），使用相对小众的OCaml语言，解决的问题高度专业化（不完整函数式程序的词法作用域推断），更像是一个研究原型或特定场景的工具，而非广泛适用的通用库。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 和 PR 统计均为零，无社区互动。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-21T04:49:59.047Z"
+    },
+    {
+      "owner": "c9nny",
+      "repo": "linnaea",
+      "fullName": "c9nny/linnaea",
+      "description": "workbench for inspecting a typed fragment of C through parser output",
+      "language": "OCaml",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T02:40:04Z",
+      "url": "https://github.com/c9nny/linnaea",
+      "analysis": {
+        "positioning": "C语言编译器输出的可视化分析与学习工作台。",
+        "useCases": [
+          "你想理解C语言的语法解析和类型系统 → 它帮你可视化解析器输出。",
+          "你想分析C代码的控制流、SSA结构等编译器中间产物 → 它帮你渲染为Graphviz模型。",
+          "你想深入学习C语言语义和编译器原理 → 它帮你交互式地研究抽象语法树和内存事件。"
+        ],
+        "audience": "C语言学习者、编译器开发者或对C语言语义有深入探究需求的用户，尤其适合通过可视化方式理解抽象概念。",
+        "quickStart": {
+          "prerequisites": "需要OCaml环境及相关构建工具",
+          "steps": [
+            "目前README节选未提供快速开始步骤，通常需要克隆代码并编译运行。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README中明确指出项目旨在“教育femboys和twinks”，这种目标用户描述在技术项目中极不寻常且具有强烈的个性化色彩。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度极低或项目刚启动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-21T04:50:11.757Z"
+    },
+    {
+      "owner": "c9nny",
+      "repo": "up",
+      "fullName": "c9nny/up",
+      "description": "library for userspace drivers that need DMA buffers mapped through VFIO",
+      "language": "OCaml",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T02:39:47Z",
+      "url": "https://github.com/c9nny/up",
+      "analysis": {
+        "positioning": "OCaml用户态驱动VFIO DMA缓冲区管理库",
+        "useCases": [
+          "你想在用户态开发高性能硬件驱动 → 它帮你安全高效地管理VFIO DMA内存映射。",
+          "你需要设备直接访问用户态内存（DMA） → 它提供类型安全且可靠的DMA缓冲区分配与回收。",
+          "你使用VFIO隔离设备并共享内存 → 它抽象了VFIO IOMMU DMA映射复杂性，简化开发。"
+        ],
+        "audience": "系统编程和硬件开发者，特别是在OCaml中构建高性能用户态驱动，需要VFIO DMA映射的场景。",
+        "quickStart": {
+          "prerequisites": "已启用固件和内核中的IOMMU，并加载VFIO内核模块。",
+          "steps": [
+            "根据您的平台（如Intel/AMD），在内核启动参数中启用IOMMU（如`intel_iommu=on`）。",
+            "加载VFIO相关内核模块，并使用`vfio-pci`等绑定目标PCI设备。",
+            "在OCaml项目中集成`up`库，按照其API分配、提交和回收VFIO DMA缓冲区。"
+          ],
+          "note": "IOMMU的内核启动参数是平台特定的。"
+        },
+        "competitors": [
+          {
+            "name": "libvfio-user",
+            "method": "C语言库，提供VFIO用户态接口。",
+            "models": "VFIO设备",
+            "pricing": "免费"
+          },
+          {
+            "name": "直接VFIO ioctl调用",
+            "method": "通过`/dev/vfio`设备节点直接进行系统调用。",
+            "models": "VFIO设备",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "OCaml语言优势体现在类型安全和内存管理上，项目利用Phantom Types和运行时检查提升了DMA操作的可靠性。代码示例清晰，设计考究，但社区活跃度极低，尚处于早期或个人项目阶段，成熟度有待验证。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，活跃度极低，表明项目可能处于早期或维护不活跃状态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-21T04:50:26.950Z"
+    },
+    {
+      "owner": "c9nny",
+      "repo": "ariel",
+      "fullName": "c9nny/ariel",
+      "description": "aarch64 EL2 hypervisor for QEMU virt that boots at EL2 ",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T02:52:27Z",
+      "url": "https://github.com/c9nny/ariel",
+      "analysis": {
+        "positioning": "AArch64 EL2 hypervisor for QEMU virt，快速启动Linux或诊断g",
+        "useCases": [
+          "你想在QEMU virt模拟环境开发AArch64 EL2 hypervisor → 它提供一个精简且功能完备的EL2 hypervisor骨架。",
+          "你想研究AArch64虚拟化技术和EL2编程 → 它清晰展示EL2启动、内存管理、guest加载和特权行为捕获。",
+          "你想在EL2层监控或干预guest（如Linux）行为 → 它通过编译策略表和Hypercall机制，实现对guest活动的细粒度控制。"
+        ],
+        "audience": "专注于AArch64系统编程、虚拟化技术、嵌入式操作系统开发或安全研究的工程师。",
+        "quickStart": {
+          "prerequisites": "AArch64 QEMU, GNU Make, AArch64交叉编译工具链。",
+          "steps": [
+            "make clean && make (编译hypervisor)",
+            "make run (运行内置诊断guest) 或 make run-linux LINUX_IMAGE=/path/Image LINUX_DTB=/path/qemu-virt.dtb (运行外部Linux镜像)"
+          ],
+          "note": "运行Linux guest需提供AArch64 Linux `Image`和对应的`qemu-virt.dtb`文件。"
+        },
+        "competitors": [
+          {
+            "name": "Xen Hypervisor",
+            "method": "Type-1型虚拟化，功能更强大，支持ARM64，可配合QEMU",
+            "models": "ARM64, x86等",
+            "pricing": "免费"
+          },
+          {
+            "name": "其他AArch64 EL2实验项目",
+            "method": "GitHub上各类小型、教学性质的EL2 hypervisor实现",
+            "models": "AArch64",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，代码结构清晰，README对构建、运行、内存布局和Hypercall等核心机制阐述详尽，有助于开发者快速理解和上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区为空，项目社区活跃度较低，可能主要为个人开发或内部交流。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-07-21T04:50:46.828Z"
+    },
+    {
+      "owner": "midisec",
+      "repo": "fastjson-1.2.83-gadget-rce",
+      "fullName": "midisec/fastjson-1.2.83-gadget-rce",
+      "description": "Fastjson 1.2.68 ~ 1.2.83 RCE，jdk8、17、21和25全版本，支持批量urls进行poc验证。",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T02:51:54Z",
+      "url": "https://github.com/midisec/fastjson-1.2.83-gadget-rce",
+      "analysis": {
+        "positioning": "Fastjson 1.2.68~1.2.83 RCE全版本漏洞验证工具",
+        "useCases": [
+          "你有一个Fastjson 1.2.68~1.2.83应用 → 它帮你快速验证是否存在RCE漏洞并获取执行结果",
+          "你有多个潜在漏洞的Fastjson服务列表 → 它帮你批量检测RCE漏洞",
+          "你需要在不同JDK版本（8, 17, 21, 25）环境下测试Fastjson RCE → 它提供Docker靶场快速复现和验证"
+        ],
+        "audience": "安全研究员、渗透测试工程师，用于快速检测和验证Fastjson 1.2.68-1.2.83版本在多JDK环境下的远程代码执行漏洞。",
+        "quickStart": {
+          "prerequisites": "Python 3环境，一个可以接收回显的攻击端IP和HTTP端口。",
+          "steps": [
+            "针对单个目标：运行`scripts/http-test.sh <攻击端IP> <攻击端端口> <目标URL> [接口路径]`。",
+            "针对批量目标：创建`urls.txt`或`hosts.txt`，运行`scripts/batch-http-test.sh <攻击端IP> <攻击端端口> <文件路径> [接口路径]`。",
+            "本地Docker验证：设置`HOST_IP`和`JDKS`环境变量，运行`./scripts/test-jdks.sh`启动靶场并测试。"
+          ],
+          "note": "Docker Desktop用户需确保`HOST_IP`能让容器访问宿主机，通常为`192.168.65.254`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "这是一个专门用于漏洞验证和利用的工具，不属于通用编程辅助或开发体验提升范畴。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 开启和关闭数量均为0，表明社区活跃度不高或主要通过其他渠道交流。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-21T04:50:58.770Z"
+    },
+    {
+      "owner": "YottaDukeRefinery",
+      "repo": "zapret-discord-2026",
+      "fullName": "YottaDukeRefinery/zapret-discord-2026",
+      "description": "Новая версия с поддержкой работы Discord в текущих условиях. Быстрее, стабильнее, надежнее.",
+      "language": "Batchfile",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-21T02:20:48Z",
+      "url": "https://github.com/YottaDukeRefinery/zapret-discord-2026",
+      "analysis": {
+        "positioning": "针对Discord在受限环境下优化连接，提升速度和稳定性。",
+        "useCases": [
+          "你的Discord连接不稳定 → 它能优化网络路径，提升连接质量。",
+          "你所在地区Discord访问受限 → 它能绕过网络限制，恢复正常使用。",
+          "你追求更流畅的Discord体验 → 它能提供更快、更可靠的通讯服务。"
+        ],
+        "audience": "希望改善Discord在特定网络环境下连接状况的用户，特别是面对网络限制的用户。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统；建议启用安全DNS，并选择非默认的DNS服务商。",
+          "steps": [
+            "在浏览器中（如Chrome/Firefox）启用安全DNS（DNS over HTTPS）功能。",
+            "选择一个非默认的DNS服务提供商，或手动配置其URL。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，欢迎用户通过指定链接支持原开发者。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目旨在解决特定区域Discord连接限制，功能明确且实用。README详尽，提供了安全警告和使用说明，提升了可信度。基于Batchfile实现，虽然简洁高效，但也可能在复杂场景下受限。社区活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，社区活跃度较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-21T04:51:21.106Z"
+    },
+    {
+      "owner": "c9nny",
+      "repo": "seaman",
+      "fullName": "c9nny/seaman",
+      "description": "interactive EBNF and SLR(1) parsing workbench written in OCaml",
+      "language": "OCaml",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T03:18:08Z",
+      "url": "https://github.com/c9nny/seaman",
+      "analysis": {
+        "positioning": "交互式 EBNF 和 SLR(1) 解析器可视化工作台。",
+        "useCases": [
+          "你设计编程语言或DSL语法 → 它帮你可视化构建EBNF语法并即时验证。",
+          "你调试解析器冲突问题 → 它帮你直观展示LR(0)自动机和ACTION/GOTO表，诊断冲突。",
+          "你学习编译器原理或解析过程 → 它帮你逐步跟踪源代码的词法/语法解析流程。"
+        ],
+        "audience": "编译器/解释器开发者、语言设计师、计算机科学学生。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目运行的网页界面。",
+            "在左侧输入 EBNF 语法规则，在右侧输入待解析的源代码。",
+            "查看生成的 LR(0) 状态图、ACTION/GOTO 表、解析过程和抽象语法树。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于编译器/解析器底层实现和调试，技术门槛较高，面向特定专业领域，非通用型编程工具，缺乏广谱“酷”感。",
+        "isVibeCoding": false,
+        "communityActivity": "无任何 Issue 开启或关闭，活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-21T04:51:32.318Z"
+    },
+    {
+      "owner": "EthanXiang777",
+      "repo": "circuit-framework",
+      "fullName": "EthanXiang777/circuit-framework",
+      "description": "Circuit Framework — multi-agent LLM trading research system",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-16T15:02:10Z",
+      "url": "https://github.com/EthanXiang777/circuit-framework",
+      "analysis": {
+        "positioning": "专注于加密货币的多智能体LLM交易研究框架。",
+        "useCases": [
+          "你想用LLM研究加密货币交易策略 → 它帮你通过多智能体分析市场结构、衍生品、情绪等，生成交易提案。",
+          "你需要评估交易策略的风险 → 它提供确定性风控引擎，根据预设规则批准或拒绝交易，确保风险可控。",
+          "你想进行加密货币的模拟交易 → 它支持纸面（模拟）交易执行，不涉及真实资金，安全验证策略表现。"
+        ],
+        "audience": "专注于加密货币量化交易研究的开发者、量化分析师和AI/LLM工程师。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+ 及 Git。",
+          "steps": [
+            "git clone https://github.com/EthanXiang777/circuit-framework.git",
+            "cd circuit-framework",
+            "pip install -e .",
+            "python -m tradingagents run BTC --profile balanced --paper"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "TradingAgents (TauricResearch/TradingAgents)",
+            "method": "Python库，多智能体LLM驱动的交易研究系统",
+            "models": "未明确具体模型，推测支持通用LLM API",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（Apache-2.0开源许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "架构清晰，模块化程度高，通过多智能体LLM分析加密市场并结合确定性风控，专注于研究和模拟，对风险控制有明确考虑。但目前仅限研究，不支持实盘交易。",
+        "isVibeCoding": true,
+        "communityActivity": "新项目，Issue 统计为 0 开 0 关，社区活跃度极低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-21T04:51:52.632Z"
+    },
+    {
+      "owner": "thebuggeddev",
+      "repo": "football-stadium",
+      "fullName": "thebuggeddev/football-stadium",
+      "description": "A 3D football stadium to visualize where you sit in the seat before you buy it",
+      "language": "HTML",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-17T12:36:15Z",
+      "url": "https://github.com/thebuggeddev/football-stadium",
+      "analysis": {
+        "positioning": "互动式3D足球场座位预览概念演示，助你购票前体验绝佳视野。",
+        "useCases": [
+          "你买球赛门票 → 它帮你提前沉浸式体验座位视角，做出最佳选择。",
+          "你开发票务系统 → 它提供一个高效、互动、免模型的3D座位可视化参考。",
+          "你学习Three.js/GSAP → 它提供一个生动的实战案例，学习复杂3D场景构建与优化。"
+        ],
+        "audience": "寻求革新购票体验的球迷；票务平台和体育场馆的系统开发者；学习Web 3D技术的前端工程师。",
+        "quickStart": {
+          "prerequisites": "Node.js 和 npm",
+          "steps": [
+            "`npm install`",
+            "`npm run dev`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "票务平台内置3D预览（如Ticketmaster）",
+            "method": "购票流程中集成",
+            "models": "通常基于预制模型",
+            "pricing": "包含在票价/服务费中"
+          },
+          {
+            "name": "定制化3D可视化服务商",
+            "method": "为客户定制开发",
+            "models": "根据需求定制",
+            "pricing": "项目制付费"
+          }
+        ],
+        "pricing": "非商业用途免费（PolyForm Noncommercial License），商业用途需购买独立许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目明确表示为“vibe coded project”，是一个概念演示而非完整产品，且自包含、探索性强，符合随性编码的特点。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为0开0关，表明社区讨论不活跃，或项目作为独立概念演示，功能稳定且无需大量反馈。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-21T04:52:14.507Z"
+    },
+    {
+      "owner": "smixs",
+      "repo": "pohuy",
+      "fullName": "smixs/pohuy",
+      "description": "Режим идиоматического русского мата для AI-агентов. Короче, душевнее, эффективнее. 18+",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-17T15:22:53Z",
+      "url": "https://github.com/smixs/pohuy",
+      "analysis": {
+        "positioning": "为AI Agent提供俄语粗口模式，实现极致效率与情绪化沟通。",
+        "useCases": [
+          "你让AI Agent报告代码问题 → 它用俄语粗口模式，直截了当指出问题并提出解决方案。",
+          "你让AI Agent总结项目进展 → 它用粗犷俚语，简洁生动地汇报成果，如同“Rebase顺利如捅屁眼，40个提交，零冲突”。",
+          "你用AI Agent进行内部沟通 → 它用情绪化表达，快速传达紧急或吐槽信息，例如“这个该死的测试又在超时挂了，第三次了，去他妈的”。"
+        ],
+        "audience": "适合希望AI Agent以极度直接、粗犷、非正式俄语（18+）进行交流的开发者和运维团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "JuliusBrussee/caveman",
+            "method": "生成极简英语文本，强调节省单词，是本项目灵感来源。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "传统AI Agent语言模型",
+            "method": "生成标准、礼貌的文本回复，缺乏本项目特有的直接性和情感表达。",
+            "models": null,
+            "pricing": "依模型提供商而定"
+          }
+        ],
+        "pricing": "免费，开源项目。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心就是将AI Agent的语言风格设定为极度直白、粗犷且带脏字的俄语，旨在以效率和情绪共鸣为先，是典型的“vibe coding”典范。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启数为0，说明项目尚处于早期或维护者自用状态。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-21T04:52:30.008Z"
+    },
+    {
+      "owner": "paxlabs-inc",
+      "repo": "machine-genome",
+      "fullName": "paxlabs-inc/machine-genome",
+      "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them.",
+      "language": "Go",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-20T12:41:33Z",
+      "url": "https://github.com/paxlabs-inc/machine-genome",
+      "analysis": {
+        "positioning": "AI模型、数据及组件的开放身份和溯源协议",
+        "useCases": [
+          "你想确认某个AI模型或数据集的具体来源和版本 → 它提供稳定的、内容寻址的唯一基因（Gene）来标识。",
+          "你需要追溯AI组件（模型、代理、数据）的演进历史和依赖关系 → 它构建可验证的血缘图，区分不同类型的关系。",
+          "你希望确保AI资产的签名者身份和不可篡改性 → 它用密码学证明绑定记录到DID，确保数据来源可信。"
+        ],
+        "audience": "AI系统开发者、研究员，尤其关注模型、数据、代理组件溯源和信任的场景。",
+        "quickStart": {
+          "prerequisites": "Go语言开发环境",
+          "steps": [
+            "通过Go模块引入`github.com/paxlabs-inc/machine-genome`库。",
+            "根据MGS协议规范和库API构建模型、数据等资产的Genesis记录，并进行密码学签名。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "MLflow",
+            "method": "MLOps平台，提供模型注册、版本控制、实验跟踪。",
+            "models": "各种ML模型",
+            "pricing": "开源免费，商业版有付费服务"
+          },
+          {
+            "name": "DVC (Data Version Control)",
+            "method": "Git集成的数据和模型版本控制工具，管理ML工作流。",
+            "models": "各种ML模型和数据",
+            "pricing": "开源免费"
+          }
+        ],
+        "pricing": "免费（协议和Go语言参考实现均采用Apache-2.0开源许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为一个实验性开放协议，定位清晰且具前瞻性。README专业，但Issue数量为0，社区活跃度尚待观察，项目仍处于早期阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启和关闭均为0，社区活跃度极低，可能处于非常早期或内部开发阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-21T04:52:51.936Z"
+    },
+    {
+      "owner": "Blaizzy",
+      "repo": "nativ",
+      "fullName": "Blaizzy/nativ",
+      "description": "Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app.",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-20T15:37:29Z",
+      "url": "https://github.com/Blaizzy/nativ",
+      "analysis": {
+        "positioning": "Mac本地AI一体化工作站，整合MLX模型聊天、服务、监控。",
+        "useCases": [
+          "你想在Mac上本地运行AI聊天 → 它提供私密流式聊天、图像理解和历史记录。",
+          "你需要管理本地MLX模型 → 它帮你发现、下载、切换和删除MLX模型，无需命令行。",
+          "你是开发者需要本地AI推理服务 → 它提供OpenAI/Anthropic兼容API，方便与现有工具集成。",
+          "你想用本地AI驱动编程助手 → 它能配置并启动Codex、Claude Code等工具连接本地模型。",
+          "你想监控本地AI模型性能 → 它提供仪表盘，追踪请求量、解码速度和运行时数据。"
+        ],
+        "audience": "寻求在Apple Silicon Mac上高效、私密地运行和管理MLX模型，并利用本地AI服务支持开发和日常任务的个人用户及开发者。",
+        "quickStart": {
+          "prerequisites": "Apple Silicon Mac，macOS 26+。",
+          "steps": [
+            "下载并安装Nativ macOS应用。",
+            "在应用内浏览或从Hugging Face缓存中选择MLX模型并下载。",
+            "启动本地AI服务，开始聊天或通过API连接其他工具。"
+          ],
+          "note": "首次下载模型和构建依赖需要网络连接。"
+        },
+        "competitors": [
+          {
+            "name": "Ollama",
+            "method": "命令行/API服务 (提供GUI客户端)",
+            "models": "广泛支持GGUF格式模型 (如Llama, Mistral等)",
+            "pricing": "免费"
+          },
+          {
+            "name": "LM Studio",
+            "method": "桌面GUI应用",
+            "models": "广泛支持GGUF格式模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供OpenAI/Anthropic兼容API，支持与Codex、Claude Code等编程工具集成，并为开发者提供运行时日志、监控等工作区，对编码场景友好且功能强大。",
+        "isVibeCoding": true,
+        "communityActivity": "早期活跃度一般，有8个开启的Issue但0个已关闭，问题解决率和响应速度有待观察。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-21T04:53:10.556Z"
+    },
+    {
+      "owner": "KinetiNode",
+      "repo": "claude-fable-5-system-prompt-clean",
+      "fullName": "KinetiNode/claude-fable-5-system-prompt-clean",
+      "description": "he optimized, token-efficient version of the leaked Claude Fable 5 / Mythos 5 system prompt. Re-engineered into clean Markdown for universal execution on Gemini 3.1 Pro, ChatGPT 5.6, and advanced LLM agents.",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-19T06:09:52Z",
+      "url": "https://github.com/KinetiNode/claude-fable-5-system-prompt-clean",
+      "analysis": {
+        "positioning": "将泄露的Claude Fable 5提示词优化，使其在多模型通用且高效。",
+        "useCases": [
+          "你想在ChatGPT或Gemini上复现Claude Fable 5的精英级推理能力 → 它帮你用精简提示词实现核心行为。",
+          "你希望避免LLM提示词过长导致成本高、性能差 → 它帮你将提示词长度从3万token削减到500token。",
+          "你厌倦了AI模型的冗余对话和客套 → 它强制模型输出高密度、无废话的专业内容。"
+        ],
+        "audience": "希望在主流LLM（Gemini/ChatGPT）上高效利用并部署高级Prompt工程能力的开发者和Prompt工程师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "将 `system_prompt.md` 文件中的内容复制。",
+            "根据所用平台（Google AI Studio/OpenAI Developer Platform/ChatGPT Plus/Gemini Advanced），粘贴到相应的系统指令或自定义指令区域。"
+          ],
+          "note": "注意不同平台粘贴位置的差异，如ChatGPT Plus需在自定义指令中设置。"
+        },
+        "competitors": [
+          {
+            "name": "原始泄露版Claude Fable 5系统提示",
+            "method": "直接使用原始、未经优化的提示词",
+            "models": "仅限Claude原生环境",
+            "pricing": "免费（但低效且不兼容）"
+          }
+        ],
+        "pricing": "免费，基于MIT许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "针对泄露的LLM高级提示词痛点，提供了一个实用、高效且通用兼容的解决方案，解决了成本和兼容性问题，易于部署。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue为0/0，活跃度有待提升，但项目明确欢迎社区PR贡献优化。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-21T04:53:23.936Z"
+    },
+    {
+      "owner": "kitlangton",
+      "repo": "skills",
+      "fullName": "kitlangton/skills",
+      "description": "Here are some skills I use. Maybe you'll find them useful. Maybe not. Goodbye.",
+      "language": "Unknown",
+      "topics": [
+        "effect",
+        "skills"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-15T16:05:48Z",
+      "url": "https://github.com/kitlangton/skills",
+      "analysis": {
+        "positioning": "分享作者的TypeScript Effect和Neovim开发技能集。",
+        "useCases": [
+          "你使用TypeScript开发 → 它帮你引入和实践Effect v4。",
+          "你想在Neovim中演示代码 → 它帮你创建并分享可视化的代码导览。",
+          "你想录制代码演示视频 → 它帮你整合OBS进行高质量代码导览录制。"
+        ],
+        "audience": "追求高效开发、喜爱Neovim和TypeScript Effect的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js (npm/npx)",
+          "steps": [
+            "npx skills add kitlangton/skills --skill effect",
+            "npx skills add kitlangton/skills --skill code-walkthrough"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "VS Code CodeTour",
+            "method": "VS Code插件，在IDE中创建和播放交互式代码导览。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "手动Promise/async/await",
+            "method": "TypeScript/JavaScript语言内置异步操作处理机制。",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "描述直白、随意，带有强烈个人色彩和“爱用不用”的态度，非常符合“氛围编程”的特征。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-21T04:53:42.080Z"
+    },
+    {
+      "owner": "h9-tec",
+      "repo": "Awesome_ai_learning",
+      "fullName": "h9-tec/Awesome_ai_learning",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-16T16:43:25Z",
+      "url": "https://github.com/h9-tec/Awesome_ai_learning",
+      "analysis": {
+        "positioning": "AI学习防踩坑指南，精选2026年实战资源。",
+        "useCases": [
+          "你立志成为AI工程师/研究员 → 它帮你规划零基础到实战的模型构建学习路径",
+          "你想有效利用AI工具提升工作效率（无需编程）→ 它帮你找到适合不同场景的AI工具应用学习资源",
+          "你厌倦了虚假宣传的AI课程 → 它帮你筛选出由行业专家推荐、真实有效的学习材料"
+        ],
+        "audience": "想要系统学习AI技术或有效利用AI工具的初学者、专业人士、管理者和创作者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 `elementsofai.com` 了解AI核心概念",
+            "访问 `kaggle.com/learn` 快速学习Python和基础机器学习编码"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统在线AI教育平台",
+            "method": "订阅课程，观看视频",
+            "models": "N/A",
+            "pricing": "免费/订阅付费"
+          },
+          {
+            "name": "非精选AI学习资源库",
+            "method": "列表式查阅",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（大多数资源），部分推荐资源可能需要付费但物有所值。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是AI学习资源指南，虽然不直接提供代码，但旨在引导用户系统学习编程与AI模型构建，鼓励实战。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低，目前有一个待解决问题。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-21T04:53:58.190Z"
+    },
+    {
+      "owner": "CodeDrobe",
+      "repo": "skills",
+      "fullName": "CodeDrobe/skills",
+      "description": "Agent Skills for theming AI desktop apps: reference image → reversible Codex/WorkBuddy skin → verify, repair, publish. | 给 AI 桌面应用换肤的 Agent Skills：参考图 → 可逆皮肤 → 验证、修复、发布。",
+      "language": "CSS",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-coding",
+        "chrome-devtools-protocol",
+        "claude-code",
+        "codex",
+        "desktop-customization",
+        "electron",
+        "openai-codex",
+        "theming"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-15T20:36:32Z",
+      "url": "https://github.com/CodeDrobe/skills",
+      "analysis": {
+        "positioning": "AI桌面应用换肤助手，图生皮，可逆可修可发布",
+        "useCases": [
+          "你提供参考图 → AI帮你为Codex创建主题皮肤",
+          "你主题皮肤损坏 → AI帮你分析并修复",
+          "你想找主题 → AI帮你从商店查找并安装"
+        ],
+        "audience": "AI桌面应用用户及主题开发者，用AI轻松定制或创作应用外观",
+        "quickStart": {
+          "prerequisites": "Node.js (含npm/npx)",
+          "steps": [
+            "npx skills add CodeDrobe/skills --skill codedrobe-theme --global --agent codex --yes"
+          ],
+          "note": "--agent参数选择接收Skill的AI，非目标应用，目标应用后续通过`codedrobe --app`指定"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "AI Agent根据自然语言和参考图自动创建、修改和修复应用CSS主题，深度参与代码生成与维护",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，Issue数量非常少（1开0关），项目可能较新或用户反馈不多",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-21T04:54:08.634Z"
     }
   ]
 }
