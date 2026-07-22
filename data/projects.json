@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-21T04:54:08.658Z",
+  "updatedAt": "2026-07-22T04:54:25.979Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -70390,6 +70390,895 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-21T04:54:08.634Z"
+    },
+    {
+      "owner": "tanishq-dubey",
+      "repo": "macos-laguna-s2.1",
+      "fullName": "tanishq-dubey/macos-laguna-s2.1",
+      "description": "Community benchmarks and scripts for running Poolside Laguna S 2.1",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-22T02:11:12Z",
+      "url": "https://github.com/tanishq-dubey/macos-laguna-s2.1",
+      "analysis": {
+        "positioning": "苹果芯片上Laguna S 2.1 MLX模型量化性能评估基准。",
+        "useCases": [
+          "你想知道不同Laguna S 2.1 MLX量化模型在苹果芯片上的真实性能 → 它帮你提供可复现的基准测试结果，量化评估吞吐量、内存占用等。",
+          "你想优化Laguna S 2.1模型在Apple Silicon上的部署效率 → 它帮你对比不同量化方案，找到最佳性能与资源平衡点。",
+          "你想验证自己的Laguna S 2.1 MLX量化模型优化效果 → 它帮你提供标准化测试流程和详细数据，快速验证改进效果。"
+        ],
+        "audience": "关注Laguna S 2.1模型在苹果芯片上性能优化的MLX开发者、研究人员或模型部署工程师。",
+        "quickStart": {
+          "prerequisites": "Apple Silicon Mac电脑，Python环境 (建议使用uv包管理器)，MLX及相关库。",
+          "steps": [
+            "克隆项目仓库并安装依赖。",
+            "运行基准测试命令（例如 `uv run --frozen laguna-bench bench`）。",
+            "生成并查看性能图表：`uv run --frozen laguna-bench chart`。"
+          ],
+          "note": "专为Apple Silicon设计，性能结果与MLX及macOS版本强相关。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，专注于Apple Silicon上MLX模型量化性能评估。文档详尽，提供可复现的基准测试数据和可视化图表，对于特定用户群体有较高价值。但星数和社区活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前没有公开的Issue讨论或反馈。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-07-22T04:49:28.409Z"
+    },
+    {
+      "owner": "PhotonCrabDescribe",
+      "repo": "xbox-game-pass-setup",
+      "fullName": "PhotonCrabDescribe/xbox-game-pass-setup",
+      "description": "Xbox Game Pass — Xbox Game Pass Windows setup — gaming landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://xbox-game-pass-setup.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "game-pass",
+        "pc-game-pass",
+        "pc-gaming",
+        "setup",
+        "windows",
+        "xbox-game-pass",
+        "xbox-game-pass-setup",
+        "xbox-pc"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:06:29Z",
+      "url": "https://github.com/PhotonCrabDescribe/xbox-game-pass-setup",
+      "analysis": {
+        "positioning": "Xbox Game Pass Windows 配置安装笔记与日志库",
+        "useCases": [
+          "你计划在 Windows 上安装 Xbox Game Pass → 它帮你提供详细的安装清单。",
+          "你想优化游戏体验 → 它帮你记录 FPS/延迟，并提供游戏内叠加层与兼容性笔记。",
+          "你需验证订阅状态和游戏更新 → 它帮你提供清晰的验证步骤。"
+        ],
+        "audience": "寻求清晰、系统化 Xbox Game Pass Windows 安装、配置与性能记录指南的玩家。",
+        "quickStart": {
+          "prerequisites": "互联网连接，Windows 操作系统，Xbox Game Pass 订阅（可选）",
+          "steps": [
+            "访问项目主页获取详细指南：`https://xbox-game-pass-setup.moltora.com/`"
+          ],
+          "note": "本项目为非官方笔记，不含账户凭证或绕过方法。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目核心是一个静态网站的笔记集合，代码量极少，主要用于信息聚合和提供链接。其价值在于内容而非复杂编码。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无讨论或贡献记录（Issue 开启 0 / 已关闭 0）。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:49:39.892Z"
+    },
+    {
+      "owner": "Shatterdirenew",
+      "repo": "wifi-repair-tool",
+      "fullName": "Shatterdirenew/wifi-repair-tool",
+      "description": "WiFi Repair Tool — WiFi Repair Tool Windows setup — system repair landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://wifi-repair-tool.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "adapter-reset",
+        "internet-fix",
+        "internet-repair",
+        "network-fix",
+        "network-repair",
+        "wifi-fix",
+        "wifi-not-working",
+        "wifi-repair-tool"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:04:26Z",
+      "url": "https://github.com/Shatterdirenew/wifi-repair-tool",
+      "analysis": {
+        "positioning": "Windows WiFi修复工具的安装与故障排查辅助指南。",
+        "useCases": [
+          "你要修复WiFi → 它提供Windows修复清单和步骤指导。",
+          "你遇到错误代码 → 它帮你记录故障日志和停止代码。",
+          "你调试系统稳定性 → 它辅助记录前后对比，提醒安全模式和还原点。"
+        ],
+        "audience": "适用于需要系统化记录Windows WiFi故障排查过程的个人用户或技术人员。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问本项目GitHub仓库。",
+            "浏览并查阅其中的安装笔记、工作流清单及故障排除指南。",
+            "（可选）根据指引访问官方WiFi Repair Tool主页获取工具。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动搜索在线论坛/博客",
+            "method": "自行搜索、筛选信息、手动记录",
+            "models": "所有平台/通用",
+            "pricing": "免费"
+          },
+          {
+            "name": "个人笔记或文档",
+            "method": "自行整理、记录、存储",
+            "models": "通用",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (本项目仅为笔记仓库，内容免费。)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，但代码量极少，更偏向文档和链接集合。社区活跃度低，主要价值在于提供一个集中的参考点。",
+        "isVibeCoding": true,
+        "communityActivity": "无社区活跃度，Issue均为0，处于休眠状态。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:49:58.831Z"
+    },
+    {
+      "owner": "grasplightmask",
+      "repo": "waves-complete-setup",
+      "fullName": "grasplightmask/waves-complete-setup",
+      "description": "Waves Complete — Waves Complete Windows setup — VST plugin landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://waves-complete-setup.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "audio-plugins",
+        "mixing",
+        "setup",
+        "vst-bundle",
+        "waves-audio",
+        "waves-complete-setup",
+        "waves-plugins",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:03:49Z",
+      "url": "https://github.com/grasplightmask/waves-complete-setup",
+      "analysis": {
+        "positioning": "Windows 版 Waves Complete VST 插件的安装与工作流笔记。",
+        "useCases": [
+          "你想安装 Waves Complete VST → 它提供 Windows 安装清单。",
+          "你想了解 DAW 兼容性或插件路径 → 它提供相关笔记。",
+          "你想记录预设/库工作流程 → 它提供会话日志。",
+          "你想更新或验证许可证 → 它提供具体步骤指导。"
+        ],
+        "audience": "Waves Complete Windows 用户，用于规划、对比和回顾插件安装与使用流程。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目主页：https://waves-complete-setup.moltora.com/",
+            "查阅仓库中的安装笔记、清单和会话日志。"
+          ],
+          "note": "请注意，本仓库仅为非官方笔记，不包含账户凭证、许可证密钥或绕过方法。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，README 信息完整，提供定制域名和详细Topics。作为一个纯文档/笔记仓库，即使Star数和Issue活动度不高，也很好地完成了其信息聚合和导航的目标，没有冗余。",
+        "isVibeCoding": true,
+        "communityActivity": "无社区互动，因为其作为纯文档仓库，不期望有Issue。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:50:09.260Z"
+    },
+    {
+      "owner": "ScrewSalamanderSing",
+      "repo": "topaz-photo-ai",
+      "fullName": "ScrewSalamanderSing/topaz-photo-ai",
+      "description": "Topaz Photo AI — Topaz Photo AI Windows setup — software landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://topaz-photo-ai.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "ai-photo",
+        "ai-upscale",
+        "photo-enhancer",
+        "setup",
+        "topaz-gigapixel",
+        "topaz-labs",
+        "topaz-photo-ai",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:00:30Z",
+      "url": "https://github.com/ScrewSalamanderSing/topaz-photo-ai",
+      "analysis": {
+        "positioning": "Topaz Photo AI Windows安装配置指南",
+        "useCases": [
+          "你计划安装Topaz Photo AI → 它提供Windows详细安装清单",
+          "你需要管理Topaz Photo AI许可证和更新 → 它记录相关信息和注意事项",
+          "你希望规范Topaz Photo AI使用流程 → 它提供工作流/会话日志模板",
+          "你做图像处理后想对比效果 → 它提供处理前后对比记录模板"
+        ],
+        "audience": "Windows用户，需要安装、配置或详细记录Topaz Photo AI使用过程的个人或团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目主页获取笔记：https://topaz-photo-ai.moltora.com/",
+            "或克隆仓库：`git clone https://github.com/ScrewSalamanderSing/topaz-photo-ai.git`",
+            "查阅安装清单、工作流模板等内容"
+          ],
+          "note": "此项目仅提供笔记和指南，不包含Topaz Photo AI软件本身。"
+        },
+        "competitors": [],
+        "pricing": "此项目（笔记）免费，Topaz Photo AI软件本身是付费产品。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "一个简单的GitHub仓库，用于整理Topaz Photo AI的安装和使用笔记，没有实际代码逻辑或复杂功能，但目标明确，文档清晰。",
+        "isVibeCoding": false,
+        "communityActivity": "Issue 未启用，社区活跃度低，符合其作为纯笔记仓库的定位。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:50:23.684Z"
+    },
+    {
+      "owner": "WarblerInferno",
+      "repo": "windows-update-fix-tool",
+      "fullName": "WarblerInferno/windows-update-fix-tool",
+      "description": "Windows Update Fix Tool — Windows Update Fix Tool Windows setup — system repair landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://windows-update-fix-tool.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "update-error",
+        "update-fix",
+        "update-repair",
+        "windows-repair",
+        "windows-update",
+        "windows-update-fix-tool",
+        "windows-update-stuck",
+        "wuauserv"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:04:57Z",
+      "url": "https://github.com/WarblerInferno/windows-update-fix-tool",
+      "analysis": {
+        "positioning": "Windows更新修复工具辅助仓库，提供使用笔记与检查清单。",
+        "useCases": [
+          "你计划修复Windows更新 → 它提供详细的修复流程检查清单",
+          "你遇到Windows更新错误 → 它帮你记录错误代码与修复步骤，便于追溯",
+          "你修复系统前后对比 → 它帮你记录系统稳定性变化，评估修复效果"
+        ],
+        "audience": "需要记录Windows更新修复过程和结果的Windows用户及IT维护人员。",
+        "quickStart": {
+          "prerequisites": "需要先获取并安装『Windows Update Fix Tool』（可在其主页获取）。",
+          "steps": [
+            "访问此GitHub仓库，浏览其提供的修复笔记和检查清单。",
+            "根据自身遇到的Windows更新问题，在此仓库的结构下记录错误代码、操作步骤和系统状态。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (仓库本身)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身并非核心工具代码，而是外部工具的辅助文档与笔记仓库。星数低，社区活跃度差，定位小众。",
+        "isVibeCoding": true,
+        "communityActivity": "非常不活跃，Issues 关闭与开启数量均为0。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:50:38.849Z"
+    },
+    {
+      "owner": "FierceSaboteurAsk75",
+      "repo": "wtfast",
+      "fullName": "FierceSaboteurAsk75/wtfast",
+      "description": "WTFast — WTFast Windows setup — gaming latency landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://wtfast.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "gamers-private-network",
+        "gpn",
+        "latency-fix",
+        "low-latency",
+        "setup",
+        "windows",
+        "wtfast",
+        "wtfast-gaming"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:06:06Z",
+      "url": "https://github.com/FierceSaboteurAsk75/wtfast",
+      "analysis": {
+        "positioning": "WTFast Windows设置与延迟日志的轻量级记录库。",
+        "useCases": [
+          "你要在Windows上安装WTFast → 它提供安装核对清单。",
+          "你想对比游戏延迟变化 → 它帮你记录前后Ping值和延迟会话。",
+          "你需要跟踪服务器路由和更新验证 → 它帮你记录服务器区域、路由信息和验证步骤。"
+        ],
+        "audience": "使用WTFast在Windows上玩游戏的玩家，用于整理设置、优化和延迟数据。",
+        "quickStart": {
+          "prerequisites": "WTFast 服务",
+          "steps": [
+            "访问官方域名 `https://wtfast.moltora.com/` 获取并安装 WTFast 服务。",
+            "使用此 GitHub 仓库作为个人记录本，追踪 WTFast 的安装步骤、游戏延迟对比和路由详情。"
+          ],
+          "note": "本仓库专为 Windows 用户记录 WTFast 相关信息而设计。"
+        },
+        "competitors": [],
+        "pricing": "免费（本仓库为开源文档项目，WTFast 服务本身可能收费）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个专注于提供清晰设置指南、核对清单和会话日志的极简仓库。它目的明确，代码量极小，作为 WTFast 服务的辅助性文档项目，高效地完成了其定位，没有多余功能。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue 讨论未开启。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:50:50.761Z"
+    },
+    {
+      "owner": "Peltlaacclaim",
+      "repo": "z3x-tool",
+      "fullName": "Peltlaacclaim/z3x-tool",
+      "description": "Z3X Tool — Z3X Tool Windows setup — mobile unlock landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://z3x-tool.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "flash-tool",
+        "gsm-unlock",
+        "samsung-flash",
+        "samsung-unlock",
+        "setup",
+        "windows",
+        "z3x",
+        "z3x-tool"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:07:28Z",
+      "url": "https://github.com/Peltlaacclaim/z3x-tool",
+      "analysis": {
+        "positioning": "Z3X工具安装与解锁流程的系统化记录指南。",
+        "useCases": [
+          "你想安装Z3X工具 → 它提供详细的Windows安装步骤和清单。",
+          "你想记录设备型号固件信息 → 它提供标准化记录模板。",
+          "你想总结刷机/解锁会话流程 → 它提供会话日志记录。",
+          "你想确保手机解锁前备份数据 → 它提醒你执行重要备份。"
+        ],
+        "audience": "需要使用Z3X工具在Windows上进行手机解锁/刷机，并希望系统化记录操作流程的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问 https://z3x-tool.moltora.com/ 获取Z3X工具"
+          ],
+          "note": "本项目仅提供非官方指南，不含账户凭证或破解方法。"
+        },
+        "competitors": [],
+        "pricing": "免费（仓库内容），Z3X工具本身定价未知。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "这是一个纯粹的文档和清单仓库，几乎没有代码，且社区活跃度（Issue）为零，因此编程氛围极弱。",
+        "isVibeCoding": false,
+        "communityActivity": "极低，无任何Issue开启或关闭记录，表明社区互动缺失。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:51:04.282Z"
+    },
+    {
+      "owner": "Angledenkind",
+      "repo": "winzip-pro-setup",
+      "fullName": "Angledenkind/winzip-pro-setup",
+      "description": "WinZip Pro — WinZip Pro Windows setup — software landing repository with install notes, workflow checklists, and session logs. Install notes landing repo. Domain: https://winzip-pro-setup.moltora.com/",
+      "language": "Unknown",
+      "topics": [
+        "archive-manager",
+        "archive-utility",
+        "windows",
+        "winzip",
+        "winzip-pro",
+        "winzip-pro-setup",
+        "zip-pro",
+        "zip-tool"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T00:05:40Z",
+      "url": "https://github.com/Angledenkind/winzip-pro-setup",
+      "analysis": {
+        "positioning": "WinZip Pro Windows 安装笔记、清单和日志的聚合页。",
+        "useCases": [
+          "你安装 WinZip Pro → 它提供详细的安装清单和笔记。",
+          "你想记录 WinZip Pro 许可信息 → 它提供许可与更新记录模板。",
+          "你想对比 WinZip Pro 安装前后的系统状态 → 它提供前后对比笔记模板。"
+        ],
+        "audience": "适用于在 Windows 上安装或管理 WinZip Pro，并需要规范化记录和检查流程的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目主页 `https://winzip-pro-setup.moltora.com/`。",
+            "查阅并利用 WinZip Pro 安装笔记、清单和模板。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (项目本身提供笔记和模板，免费开放)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位明确，作为 WinZip Pro 安装笔记和清单的聚合页，结构清晰，无多余代码。虽然代码量极少，但很好地实现了其作为文档仓库的目标，便于用户查阅和规划。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何 Issue 开启或关闭记录。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-22T04:51:19.042Z"
+    },
+    {
+      "owner": "MIgHTy-alIeN",
+      "repo": "MEV-Arbitrage-Bot",
+      "fullName": "MIgHTy-alIeN/MEV-Arbitrage-Bot",
+      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "language": "Solidity",
+      "topics": [
+        "ai",
+        "aitradingbot",
+        "bot",
+        "btc",
+        "claude",
+        "eth",
+        "etherlab",
+        "mev",
+        "mevbots"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-17T09:45:22Z",
+      "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot",
+      "analysis": {
+        "positioning": "以太坊MEV套利机器人，自动发现并执行Uniswap套利。",
+        "useCases": [
+          "你想在以太坊DeFi市场套利 → 它帮你自动发现并执行Uniswap交易对间的价格差套利",
+          "你想自动化链上交易 → 它通过智能合约和外部Python脚本实现无需手动干预的交易",
+          "你想配置套利策略 → 它提供函数设置交易限额、允许的路由器和代币，以及紧急暂停和资金管理"
+        ],
+        "audience": "适合有一定区块链基础，希望通过自动化智能合约在以太坊DeFi市场（如Uniswap）进行MEV套利的用户。",
+        "quickStart": {
+          "prerequisites": "MetaMask或Phantom钱包，0.5-1 ETH。",
+          "steps": [
+            "打开EtherLab部署页面。",
+            "创建`.sol`文件并粘贴合约代码。",
+            "编译合约（版本0.8.20）。",
+            "连接钱包，部署合约，并向合约地址发送0.5-1 ETH进行充值。",
+            "在“Python Automation”标签页启动机器人，并保持页面开启。"
+          ],
+          "note": "部署和启动过程在EtherLab网站环境进行，机器人运行时需保持页面开启。"
+        },
+        "competitors": [],
+        "pricing": "免费（代码开源，但运行需支付Gas费并投入ETH作为操作资金）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供了详细的图文部署步骤和预编译环境链接，降低了入门难度。但其本质是DeFi套利，需要用户理解区块链操作、资金投入及风险，对于纯新手仍有一定门槛。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue统计显示无开启也无关闭，社区互动度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-22T04:51:35.342Z"
+    },
+    {
+      "owner": "Vincentwei1021",
+      "repo": "video-shotcraft",
+      "fullName": "Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "codex",
+        "motion-design",
+        "motion-graphics",
+        "product-video",
+        "promo-video",
+        "remotion",
+        "video-generation",
+        "video-production"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-19T11:44:41Z",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "analysis": {
+        "positioning": "为AI代理赋能，用Remotion生成电影级产品宣传片。",
+        "useCases": [
+          "你想为新产品制作宣传片 → AI代理自动生成脚本、动画、音效，一步到位。",
+          "你需要特定镜头风格展示产品功能 → 它提供106种镜头卡牌，按需定制。",
+          "你急需高质量视频模板和预览 → 它提供生产级模板和161个动作预览，高效产出。"
+        ],
+        "audience": "AI代理开发者、产品营销人员、内容创作者，希望通过AI快速制作高质量产品宣传视频。",
+        "quickStart": {
+          "prerequisites": "需有Claude Code/Codex或类似AI代理环境。",
+          "steps": [
+            "将项目链接提供给AI代理或通过CLI/手动安装。",
+            "通过AI代理指令，创建产品宣传片或定制镜头。"
+          ],
+          "note": "Claude Code和Codex有不同的安装路径。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "将AI代理与Remotion结合，提供106种镜头卡牌、161个动作预览及生产级模板，极大地简化了电影级产品视频制作流程，创新且实用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无记录，项目活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-22T04:51:52.237Z"
+    },
+    {
+      "owner": "powerycy",
+      "repo": "goutoujunshi",
+      "fullName": "powerycy/goutoujunshi",
+      "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
+      "language": "Python",
+      "topics": [
+        "ai-agent",
+        "chinese",
+        "codex",
+        "codex-skill",
+        "lgbtq",
+        "psychology",
+        "relationship-advice"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-20T14:58:48Z",
+      "url": "https://github.com/powerycy/goutoujunshi",
+      "analysis": {
+        "positioning": "一个会帮你分析感情，提供多元关系策略，并照顾情绪的AI恋爱军师。",
+        "useCases": [
+          "你感情中情绪低落、左右为难 → 它帮你接住情绪，理性分析局势，给出清晰可行的下一步。",
+          "你身处异性、同性、多元关系或面对复杂现实挑战 → 它帮你基于多学科知识库，提供包容性且落地性强的策略。",
+          "你不知道如何表达或行动 → 它帮你生成具体对话，并提供多种策略，附带风险与效果评估。"
+        ],
+        "audience": "任何在感情中感到困惑、需要情绪支持和理性策略，尤其关注多元关系的个人。",
+        "quickStart": {
+          "prerequisites": "已安装Codex AI Agent平台",
+          "steps": [
+            "克隆仓库到Codex Skills目录：`git clone https://github.com/powerycy/goutoujunshi.git ~/.codex/skills/goutoujunshi`",
+            "在Codex中输入：`使用 $goutoujunshi 帮我梳理情绪、分析当前关系，并给出下一步建议。`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目将情感问题结构化，通过多学科知识库提供理性分析和可执行策略，而非简单建议，具备较强的逻辑和系统性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 开启 3 / 已关闭 0，社区活跃度尚处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-22T04:52:05.426Z"
+    },
+    {
+      "owner": "mesamirh",
+      "repo": "MovieBox-Tui",
+      "fullName": "mesamirh/MovieBox-Tui",
+      "description": "A modern Rust based terminal user interface for MovieBox. Fast, lightweight, keyboard first, and cross-platform.",
+      "language": "Rust",
+      "topics": [
+        "anime",
+        "moviebox",
+        "moviebox-api",
+        "streaming"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-16T07:09:47Z",
+      "url": "https://github.com/mesamirh/MovieBox-Tui",
+      "analysis": {
+        "positioning": "在终端极速观影追剧：无配置、无VPN、纯键盘操作。",
+        "useCases": [
+          "你想在终端看电影或剧 → 它提供一个极速的TUI界面，让你搜索、选择、播放一气呵成。",
+          "你习惯用键盘操作一切 → 它完全支持键盘导航和快捷键，让你脱离鼠标观影。",
+          "你被地域限制困扰 → 它内置地理位置解封功能，让你无需VPN就能观看。",
+          "你想获取视频直链进行其他操作 → 它能一键复制当前视频的直链到剪贴板。"
+        ],
+        "audience": "命令行爱好者、技术开发者，或喜欢极简、快速观影体验的用户。",
+        "quickStart": {
+          "prerequisites": "系统需安装 mpv 播放器",
+          "steps": [
+            "cargo install moviebox-tui",
+            "moviebox-tui"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "yt-dlp + mpv",
+            "method": "需手动寻找片源URL，通过管道命令播放",
+            "models": "支持众多视频网站",
+            "pricing": "免费"
+          },
+          {
+            "name": "streamlink + mpv",
+            "method": "需手动寻找直播/点播源URL，通过管道命令播放",
+            "models": "支持众多直播/点播网站",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "Rust语言，极速TUI，零配置，纯键盘操作，内置geo-unblocking，提供优雅且高效的观影体验，对开发者和技术爱好者极具吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度中等，有新的Issue但暂无关闭，需要观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-22T04:52:19.712Z"
+    },
+    {
+      "owner": "yc-duan",
+      "repo": "fastctx",
+      "fullName": "yc-duan/fastctx",
+      "description": "Fast, context-efficient repository tools for AI agents (MCP)",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-17T03:05:57Z",
+      "url": "https://github.com/yc-duan/fastctx",
+      "analysis": {
+        "positioning": "为AI Agent提供高效、上下文友好的本地代码库操作工具集。",
+        "useCases": [
+          "你开发AI Agent，需要Agent读取文件、搜索代码、发现文件 → 它提供结构化接口（如`read`, `grep`, `glob`），避免Agent自行拼接shell命令，提高效率和准确性。",
+          "你开发AI Agent，需要Agent进行代码批量替换或执行复杂Bash命令 → 它提供专用工具（如`replace`, `run`），以稳定、结构化的方式执行操作，减少Agent上下文消耗和错误。",
+          "你开发AI Agent，需要Agent管理长期运行的后台任务 → 它提供`run_background`, `job_output`等，简化命令执行、输出捕获与任务生命周期管理，提升Agent执行任务的可靠性。"
+        ],
+        "audience": "开发AI编程助手或Agent的工程师，希望提升Agent与代码仓库交互的效率、稳定性和上下文利用率。",
+        "quickStart": {
+          "prerequisites": "Node.js 18或更高版本",
+          "steps": [
+            "npm install --global fastctx",
+            "fastctx"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，开源，采用 Apache-2.0 许可。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "它解决了AI Agent在与代码库交互时核心的痛点：通过提供结构化、高效的工具接口，显著降低了Agent对shell命令细节的关注和上下文消耗，使其能更专注于编程逻辑。Rust实现保证了性能与可靠性，前瞻性地迎合了AI编程助手的发展趋势。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚可，Issue 开闭比（5开/3关）良好，表明项目处于早期发展阶段并有积极维护。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-22T04:52:38.768Z"
+    },
+    {
+      "owner": "Kritt-ai",
+      "repo": "open-kritt",
+      "fullName": "Kritt-ai/open-kritt",
+      "description": "Orchestrate AI agents to find real vulnerabilities in code.",
+      "language": "JavaScript",
+      "topics": [
+        "agent",
+        "agents",
+        "ai",
+        "bug-bounty",
+        "bugbounty",
+        "bugbounty-tools",
+        "security",
+        "security-research"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-20T20:26:24Z",
+      "url": "https://github.com/Kritt-ai/open-kritt",
+      "analysis": {
+        "positioning": "协作AI Agent，自动化查找代码真实漏洞。",
+        "useCases": [
+          "你对手动审计代码耗时费力 → 它帮你用AI Agent自动化、并行扫描代码库及依赖，快速发现潜在漏洞。",
+          "你想定制化AI安全分析流程，不想“大模型泛泛而谈” → 它帮你将安全研究拆解为小任务，构建专注、可复用的AI工作流。",
+          "你发现潜在漏洞后需要验证和报告 → 它帮你用后置脚本验证漏洞、生成PoC，并自动去重和优先级排序。"
+        ],
+        "audience": "寻求代码漏洞发现与验证效率，并希望深度控制AI模型、工作流、基础设施的资深安全研究员和开发者。",
+        "quickStart": {
+          "prerequisites": "Git, Docker (含Docker Compose), Node.js 20或更高版本",
+          "steps": [
+            "git clone https://github.com/Kritt-ai/open-kritt",
+            "cd open-kritt",
+            "./kritt setup",
+            "./kritt start"
+          ],
+          "note": "CLI工具无需额外安装，本地仓库直接运行。需配置至少一种大模型访问方式（如OpenAI API Key）。"
+        },
+        "competitors": [],
+        "pricing": "免费。作为开源项目，可自托管部署，遵循AGPL-3.0开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供简洁清晰的命令行安装和启动流程，通过本地CLI工具一步到位，无需复杂配置，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数（16）远高于关闭数（1），表明社区活跃度一般，问题解决速度可能偏慢。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-22T04:52:51.510Z"
+    },
+    {
+      "owner": "eli-labz",
+      "repo": "Agent-Execution-Partnership",
+      "fullName": "eli-labz/Agent-Execution-Partnership",
+      "description": "Agent Execution Partnership AEE is an open-source control plane that ensures every AI agent action is authorized before it runs, observable while it runs, and verifiable after it completes.",
+      "language": "Python",
+      "topics": [
+        "agent-safety",
+        "ai-agents",
+        "ai-governance",
+        "ai-safety",
+        "audit-trail",
+        "autonomous-agents",
+        "control-plane",
+        "llm-agents",
+        "mlops",
+        "policy-engine",
+        "python"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-20T22:45:38Z",
+      "url": "https://github.com/eli-labz/Agent-Execution-Partnership",
+      "analysis": {
+        "positioning": "确保AI Agent行为可控、可审计、可验证的执行引擎。",
+        "useCases": [
+          "AI Agent需要访问生产系统 → 它确保每次访问都经授权、有审计记录，且结果可验证。",
+          "AI Agent执行高风险操作（如修改数据库） → 它强制执行人工审批，规避潜在错误。",
+          "你想追踪AI Agent的所有执行历史和决策路径 → 它提供不可篡改的审计日志，支持事后追溯。"
+        ],
+        "audience": "AI Agent开发者、企业AI落地团队，关注AI行为安全与合规性的场景。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+",
+          "steps": [
+            "安装项目并初始化数据库：`py -m venv .venv`，激活环境后执行 `py -m pip install -e .[dev]` 和 `aep init`",
+            "启动API服务：`aep serve`"
+          ],
+          "note": "激活虚拟环境命令在不同操作系统/Shell中可能不同。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决AI Agent落地核心痛点，设计理念清晰，功能定义明确，但社区活跃度和生态仍在早期。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 尚未开启或未被积极使用。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-22T04:53:03.618Z"
+    },
+    {
+      "owner": "livetennisapi",
+      "repo": "livetennisapi-mcp",
+      "fullName": "livetennisapi/livetennisapi-mcp",
+      "description": "MCP server for the Live Tennis API — give Claude, Cursor and other LLM agents real-time tennis scores, odds and model win-probability",
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "claude",
+        "live-scores",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "sports-api",
+        "sports-data",
+        "tennis",
+        "tennis-api",
+        "typescript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-18T23:17:55Z",
+      "url": "https://github.com/livetennisapi/livetennisapi-mcp",
+      "analysis": {
+        "positioning": "为LLM代理提供实时网球赛况、赔率及模型预测的MCP服务器。",
+        "useCases": [
+          "你构建AI Agent → 它让你的Agent能回答“当前有哪些网球比赛正在进行？”",
+          "你开发LLM应用 → 它让你的应用能查询“某场比赛谁领先？模型获胜概率多少？”",
+          "你做体育数据分析 → 它让你的模型能获取“球员排名和最近比赛结果”。"
+        ],
+        "audience": "面向需要将实时网球数据集成到Claude, Cursor等LLM代理及相关应用中的开发者。",
+        "quickStart": {
+          "prerequisites": "需要一个LIVETENNISAPI_KEY（可免费获取）。",
+          "steps": [
+            "对于Claude Code，运行`claude mcp add livetennis -e LIVETENNISAPI_KEY=twjp_… -- npx -y livetennisapi-mcp`。",
+            "对于Claude Desktop，在`claude_desktop_config.json`中添加配置。"
+          ],
+          "note": "Cursor、Zed及其他MCP客户端使用相同命令和环境变量，无需预安装，`npx`按需获取。"
+        },
+        "competitors": [
+          {
+            "name": "通用体育数据API + 自定义集成",
+            "method": "通过传统API接口直接调用，然后自行开发适配LLM的工具或插件进行集成。",
+            "models": "需开发者手动为目标LLM（如OpenAI Functions, LangChain Tools等）封装。",
+            "pricing": "取决于各API提供商的定价策略，通常有免费试用或额度。"
+          }
+        ],
+        "pricing": "提供免费API Key（无需信用卡），高级功能需付费订阅不同套餐（BASIC, PRO, ULTRA）以解锁更多数据和分析。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "准确解决了LLM获取实时体育数据的痛点，集成方式清晰，文档完善。但项目Issue关闭数为0，表明社区活跃度和问题解决速度有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前6个Issue开启但0个已关闭，暂未见活跃的问题解决。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-22T04:53:24.597Z"
+    },
+    {
+      "owner": "Gheat1",
+      "repo": "tuistore",
+      "fullName": "Gheat1/tuistore",
+      "description": "🛍️ The TUI app store — browse, search & one-key-install hundreds of terminal apps. Built on ricekit, seeded from awesome-tuis.",
+      "language": "Python",
+      "topics": [
+        "app-store",
+        "awesome-tuis",
+        "cli",
+        "developer-tools",
+        "package-manager",
+        "python",
+        "terminal",
+        "terminal-apps",
+        "textual",
+        "tui"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-18T16:43:58Z",
+      "url": "https://github.com/Gheat1/tuistore",
+      "analysis": {
+        "positioning": "终端应用商店，一键发现、安装与管理 TUI 应用。",
+        "useCases": [
+          "你做：手动在GitHub或Awesome列表中寻找终端应用 → 它帮你做：在TUI界面快速搜索和发现800+精选终端应用",
+          "你做：为终端应用安装方式发愁，或遇到跨平台兼容性问题 → 它帮你做：自动识别你的系统，提供并一键安装最适合的命令",
+          "你做：记住或收藏你喜欢的终端应用 → 它帮你做：直接在应用商店中一键为喜欢的应用点亮GitHub Star"
+        ],
+        "audience": "终端开发者和重度命令行用户，希望高效管理和发现各类TUI与CLI工具。",
+        "quickStart": {
+          "prerequisites": "`curl` 或已安装Python环境",
+          "steps": [
+            "`curl -fsSL https://raw.githubusercontent.com/Gheat1/tuistore/main/install.sh | sh`"
+          ],
+          "note": "Windows用户可在PowerShell或Windows Terminal中使用。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub / awesome-tuis 列表",
+            "method": "手动浏览、查找，需复制安装命令",
+            "models": "N/A",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "清晰的文档、动图演示、一键安装脚本，提供了出色的开发者体验。基于Python和Textual构建，技术栈成熟。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭及时（2个已关闭），但目前没有开放issue，社区互动有待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-22T04:53:41.059Z"
+    },
+    {
+      "owner": "astrid-runtime",
+      "repo": "sdk-js",
+      "fullName": "astrid-runtime/sdk-js",
+      "description": "JavaScript and TypeScript SDK for building Astrid capsules.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-05-18T10:47:45Z",
+      "url": "https://github.com/astrid-runtime/sdk-js",
+      "analysis": {
+        "positioning": "构建Astrid胶囊应用的JavaScript/TypeScript SDK。",
+        "useCases": [
+          "你想用TypeScript开发Astrid胶囊应用 → 它提供SDK和装饰器，让你快速构建胶囊逻辑。",
+          "你希望胶囊应用跨语言运行（如与Rust胶囊互操作） → 它确保JS/TS胶囊与Rust胶囊使用相同ABI和输出格式。",
+          "你需要胶囊访问文件系统、网络、IPC、KV存储等主机能力 → 它提供类似Node.js API的接口，简化与Astrid运行时交互。"
+        ],
+        "audience": "希望用JavaScript或TypeScript构建Astrid胶囊应用的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js >=20, TypeScript 5.2+, astrid CLI工具",
+          "steps": [
+            "初始化项目并安装SDK及构建工具。",
+            "编写Capsule.toml配置和src/index.ts胶囊代码（使用@capsule等装饰器）。",
+            "运行`astrid build`命令编译打包胶囊。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT OR Apache-2.0 许可证）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "文档详尽，快速上手示例清晰直观，项目结构模块化明确，易于理解和使用；但Issue关闭率偏低可能影响长期维护信心。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数远多于关闭数，社区活跃度或响应速度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-22T04:54:25.944Z"
     }
   ]
 }

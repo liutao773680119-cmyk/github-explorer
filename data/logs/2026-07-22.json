@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-07-22",
+  "startedAt": "2026-07-22T04:49:09.038Z",
+  "finishedAt": "2026-07-22T04:55:02.716Z",
+  "durationSeconds": 354,
+  "success": true,
+  "stats": {
+    "fetched": 114,
+    "newProjects": 19,
+    "skipped": 95,
+    "geminiCalls": 21,
+    "statsUpdated": 114
+  },
+  "errors": [
+    {
+      "time": "2026-07-22T04:53:44.301Z",
+      "level": "warn",
+      "project": "realfishsam/agent-notch",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-07-22T04:53:47.538Z",
+      "level": "warn",
+      "project": "Jakubantalik/thinking-orbs",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
