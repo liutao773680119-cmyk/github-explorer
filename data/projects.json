@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-22T04:54:25.979Z",
+  "updatedAt": "2026-07-23T04:58:29.738Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -71279,6 +71279,700 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-22T04:54:25.944Z"
+    },
+    {
+      "owner": "dboudreau00",
+      "repo": "Delpheed-Delphi-Call-Hijacker",
+      "fullName": "dboudreau00/Delpheed-Delphi-Call-Hijacker",
+      "description": "A Delphi-aware reverse-engineering toolkit — recover the class model from any Delphi PE, and unpack packed ones to get there.",
+      "language": "Pascal",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-23T00:46:27Z",
+      "url": "https://github.com/dboudreau00/Delpheed-Delphi-Call-Hijacker",
+      "analysis": {
+        "positioning": "Delphi程序逆向工具，自动恢复类模型、脱壳及反反调试。",
+        "useCases": [
+          "你想分析Delphi程序内部结构 → 它帮你自动恢复类模型和继承关系。",
+          "你遇到加壳的Delphi可执行文件 → 它帮你自动脱壳并重建导入表。",
+          "你在调试Delphi程序时遇到反调试手段 → 它帮你隐藏调试器绕过检测。"
+        ],
+        "audience": "专注于Delphi程序逆向工程的安全研究员、恶意软件分析师和逆向工程师。",
+        "quickStart": {
+          "prerequisites": "Delphi IDE (如 Delphi 10.x Rio/Alexandria) 用于编译源代码。",
+          "steps": [
+            "克隆项目代码。",
+            "在Delphi IDE中打开项目并编译。",
+            "运行程序，指向目标Delphi可执行文件进行分析。",
+            "参考`TUTORIAL.md`获取详细操作指南。"
+          ],
+          "note": "本工具专为Windows平台上的Delphi PE文件设计。"
+        },
+        "competitors": [
+          {
+            "name": "IDA Pro",
+            "method": "通用反汇编器和调试器，需手动或半自动分析。",
+            "models": "支持多种架构和文件格式，包含Delphi PE文件。",
+            "pricing": "商业付费"
+          },
+          {
+            "name": "Scylla / ScyllaHide",
+            "method": "专用脱壳工具，用于重建导入表和隐藏调试器。",
+            "models": "PE文件。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目专注于小众但专业的Delphi逆向领域，功能实现精良且有清晰的架构图。但Stars数量少，Issue关闭数为零，社区活跃度较低，可能限制了其更广泛的关注。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度非常低，目前没有开启或关闭的Issue记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-23T04:54:40.370Z"
+    },
+    {
+      "owner": "Jakubantalik",
+      "repo": "thinking-orbs",
+      "fullName": "Jakubantalik/thinking-orbs",
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-21T07:01:53Z",
+      "url": "https://github.com/Jakubantalik/thinking-orbs",
+      "analysis": {
+        "positioning": "AI/Agent UI专用，多状态点阵式加载动效组件",
+        "useCases": [
+          "你开发AI对话应用 → 它提供“思考中”、“搜索中”等专属加载动画，增强用户体验。",
+          "你想在UI中集成AI组件 → 它提供适配不同大小（聊天头像/内联文本）的动效，无需二次设计。",
+          "你关注用户体验和无障碍 → 它自动适配明暗主题、响应低动态偏好，并优化性能。"
+        ],
+        "audience": "专注于开发AI或Agent应用的UI/UX设计师和前端开发者，需要高质量、语义化的加载动效。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "安装依赖：`npm install thinking-orbs`",
+            "在React组件中导入并使用：`import { ThinkingOrb } from 'thinking-orbs';` 然后 `<ThinkingOrb state=\"searching\" size={64} />`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT许可证)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "API设计简洁直观，功能强大且高度定制化，充分考虑了AI/Agent UI的特定场景、无障碍性和性能优化。文档清晰，易于上手。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少（5个开启，0个关闭），社区活跃度有待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-23T04:54:58.133Z"
+    },
+    {
+      "owner": "nyblnet",
+      "repo": "bento",
+      "fullName": "nyblnet/bento",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-17T16:55:09Z",
+      "url": "https://github.com/nyblnet/bento",
+      "analysis": {
+        "positioning": "可离线、单文件、数据主权优先的下一代演示文稿套件。",
+        "useCases": [
+          "你需要一个 PowerPoint 替代品 → 它提供可编辑、可演示、可分享的单文件演示文稿。",
+          "你担心云端数据锁定和隐私 → 它确保文档和编辑器都在本地，数据以可读JSON存储，永不锁定。",
+          "你需要在无网络环境下协作和演示 → 它支持离线优先、E2EE加密的实时协作，且所有功能随文件自带。"
+        ],
+        "audience": "重视数据隐私和所有权、需要离线编辑协作、或追求极致便携和免安装演示文稿工具的个人和团队。",
+        "quickStart": {
+          "prerequisites": "现代浏览器",
+          "steps": [
+            "打开 bento.page/slides 立即体验",
+            "或从 GitHub Releases 下载 Bento_Slides.bento.html 文件，用浏览器打开即可编辑使用"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Microsoft PowerPoint",
+            "method": "桌面应用/云服务",
+            "models": "功能全面，深度集成M365生态",
+            "pricing": "订阅制（Microsoft 365）"
+          },
+          {
+            "name": "Google Slides",
+            "method": "云端应用",
+            "models": "实时协作，集成Google Workspace",
+            "pricing": "免费（个人），订阅制（企业）"
+          }
+        ],
+        "pricing": "免费，无账户，无安装器。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "强调本地优先、数据主权、透明格式（JSON）、单一文件分发和E2EE协作，高度符合极简、可控、隐私至上的开发哲学。",
+        "isVibeCoding": true,
+        "communityActivity": "中等活跃，Issue 开闭比偏低（8开/1关），但项目有持续更新和Star数。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-07-23T04:55:09.748Z"
+    },
+    {
+      "owner": "0xhype",
+      "repo": "hyperliquid-tracker",
+      "fullName": "0xhype/hyperliquid-tracker",
+      "description": "Get notified when big trades happen on Hyperliquid.",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T14:24:08Z",
+      "url": "https://github.com/0xhype/hyperliquid-tracker",
+      "analysis": {
+        "positioning": "Hyperliquid大额交易实时提醒机器人。",
+        "useCases": [
+          "你监控Hyperliquid市场 → 它帮你实时追踪并推送大额交易。",
+          "你寻求关键市场信号 → 它帮你自动筛选并通知巨鲸动向。",
+          "你想自定义关注的币种和金额 → 它帮你灵活配置交易监测范围。"
+        ],
+        "audience": "关注Hyperliquid市场动态的加密货币交易者和分析师，特别是需要实时获取大额交易信息的专业人士。",
+        "quickStart": {
+          "prerequisites": "Node.js (22.4.0+), npm (或pnpm), Git。",
+          "steps": [
+            "克隆项目并进入目录：`git clone ... && cd hyperliquid-tracker`",
+            "创建Telegram Bot并获取API Token，将Bot添加至频道并获取Chat ID。",
+            "创建`.env`文件，配置Telegram Bot Token和Chat ID。",
+            "安装依赖、构建并启动项目：`npm install && npm run build && npm start`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，文档详细，但需要用户自行创建和配置Telegram Bot，并设置环境变量，对完全没有开发背景的用户仍有一定学习曲线。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区目前为空，可能项目较新或维护者及时处理，活跃度待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-23T04:55:23.717Z"
+    },
+    {
+      "owner": "pireel",
+      "repo": "pireel",
+      "fullName": "pireel/pireel",
+      "description": "Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP.",
+      "language": "TypeScript",
+      "topics": [
+        "ai-video",
+        "capcut",
+        "captions",
+        "talking-head",
+        "video-editor"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-20T09:34:24Z",
+      "url": "https://github.com/pireel/pireel",
+      "analysis": {
+        "positioning": "免后端、浏览器内运行的AI讲话视频编辑器。",
+        "useCases": [
+          "你用AI Agent制作视频 → 它帮你通过MCP驱动编辑器，自动化生成讲话视频。",
+          "你手动编辑讲话视频 → 它帮你进行剪辑、分镜、添加字幕、主题、导出，全部在浏览器内完成。",
+          "你想让视频风格统一 → 它帮你快速应用预设或自定义主题，一键套用设计系统。"
+        ],
+        "audience": "适合需要快速、自动化或浏览器内编辑讲话视频的AI Agent开发者和内容创作者。",
+        "quickStart": {
+          "prerequisites": "pnpm",
+          "steps": [
+            "安装pnpm依赖",
+            "运行开发服务器",
+            "浏览器打开链接，导入视频开始编辑"
+          ],
+          "note": "建议使用Chromium浏览器以获得最佳导出效果，草稿和视频数据本地存储。"
+        },
+        "competitors": [
+          {
+            "name": "剪映 (CapCut)",
+            "method": "传统界面编辑、AI辅助剪辑",
+            "models": "自研AI模型",
+            "pricing": "基础免费，高级功能付费"
+          },
+          {
+            "name": "Descript",
+            "method": "文字编辑视频、AI剪辑",
+            "models": "自研AI模型",
+            "pricing": "免费试用，订阅付费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目设计精良，技术栈现代化，核心功能（免后端、AI Agent驱动）独特且有吸引力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue数量为零，主要开发在私有仓库进行，本仓库为单向同步。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-23T04:55:41.331Z"
+    },
+    {
+      "owner": "gnipbao",
+      "repo": "story-to-handdrawn-video",
+      "fullName": "gnipbao/story-to-handdrawn-video",
+      "description": "Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-21T08:54:45Z",
+      "url": "https://github.com/gnipbao/story-to-handdrawn-video",
+      "analysis": {
+        "positioning": "Agent技能：将中文故事或图片转为手绘日记漫画动画。",
+        "useCases": [
+          "你有一段中文故事文本 → 它帮你通过Agent自动生成带手写字幕的手绘日记漫画动画。",
+          "你有一组有序的手绘图片 → 它帮你把图片按顺序制作成带揭示和翻页动效的日记漫画视频。",
+          "你希望手绘动画有翻页转场 → 它帮你生成带右下角卷页翻书效果的视频。"
+        ],
+        "audience": "适合需要通过Agent将中文故事或手绘图快速转为手绘动画的创作者和开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js 20+, Python 3.10+, FFmpeg, npm, Google Chrome, 支持Skill的Agent运行时（如Codex, Claude Code）。",
+          "steps": [
+            "克隆仓库并安装渲染器依赖：`git clone https://github.com/gnipbao/story-to-handdrawn-video.git && cd story-to-handdrawn-video && npm ci && npm run check`",
+            "将Skill包复制到Agent的skills目录，例如：`cp -R skill-package/story-to-handdrawn-video ~/.codex/skills/`",
+            "（可选）设置渲染器项目路径：`export STORY_VIDEO_PROJECT=/absolute/path/to/story-to-handdrawn-video`"
+          ],
+          "note": "在渲染器项目目录内运行Agent时，可省略环境变量设置。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT License），但需自备Agent运行时和可能的AI API密钥。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "结合Agent自然语言驱动、Remotion动画渲染、AI图片生成（可选）等多项技术，创新性地将中文故事或静态图片转换为独特的“手绘日记漫画动画”，提供了场景化、个性化的内容创作工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度目前较低，Issue统计显示均为0。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-23T04:55:55.823Z"
+    },
+    {
+      "owner": "AdelanSoulX",
+      "repo": "PM-Sniper",
+      "fullName": "AdelanSoulX/PM-Sniper",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-20T14:23:19Z",
+      "url": "https://github.com/AdelanSoulX/PM-Sniper",
+      "analysis": {
+        "positioning": "Polymarket预测市场终局狙击策略自动化交易机器人。",
+        "useCases": [
+          "你希望在Polymarket上寻找潜在的“终局狙击”套利机会 → 它帮你自动化扫描、过滤并评分。",
+          "你希望执行小额高胜率的终局交易但苦于手动操作 → 它帮你自动化执行限价买单，并提供风险管理。",
+          "你需要记录交易活动和市场机会进行分析 → 它帮你将所有机会和交易完整记录到SQLite数据库。"
+        ],
+        "audience": "适合希望通过自动化工具在Polymarket等预测市场中执行“终局狙击”策略的量化交易者或研究人员。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+。",
+          "steps": [
+            "运行bot（默认开启“干跑模式”进行安全测试）",
+            "根据README说明配置核心策略参数（如：市场解决窗口、最小/最大概率、最小回报率、最大价差等）",
+            "明确禁用干跑模式以启用真实交易"
+          ],
+          "note": "默认开启“干跑模式”，不放置真实订单；进行真实交易前务必手动禁用此模式。"
+        },
+        "competitors": [],
+        "pricing": "免费（软件本身开源，但交易需投入真实资金）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念清晰，策略描述详细，强调安全（干跑模式），但涉及金融交易有一定门槛和风险，需要用户具备相关知识。",
+        "isVibeCoding": true,
+        "communityActivity": "未发现社区活跃度（0开启/0关闭Issue）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-23T04:56:09.721Z"
+    },
+    {
+      "owner": "chartup-solana-volume-bot",
+      "repo": "solanavolumebot",
+      "fullName": "chartup-solana-volume-bot/solanavolumebot",
+      "description": "Top-rated Solana volume bot and developer tools for DEX liquidity, maker activity, and holder management.",
+      "language": "Unknown",
+      "topics": [
+        "basevolumebot",
+        "bnbvolumebot",
+        "bscvolumebot",
+        "dexscreener",
+        "dexscreener-trending",
+        "dexscreenertrending",
+        "dextools",
+        "dextools-trending",
+        "dextoolstrending",
+        "robinhoodvolumebot",
+        "sol-volume-bot",
+        "solana",
+        "solana-volume-booster",
+        "solana-volume-bot",
+        "solanavolumebooster",
+        "solanavolumebot",
+        "solvolumebot",
+        "volumebooster",
+        "volumebot"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-21T23:44:26Z",
+      "url": "https://github.com/chartup-solana-volume-bot/solanavolumebot",
+      "analysis": {
+        "positioning": "Telegram机器人，多链代币交易模拟与流量提升服务。",
+        "useCases": [
+          "你开发区块链代币 → 它帮你模拟多链交易，测试代币行为和流动性。",
+          "你希望提升代币在DEX的可见度 → 它帮你通过“交易量提升”服务，吸引关注。",
+          "你管理代币持有者分布或做市活动 → 它提供做市工具和持有者管理功能。"
+        ],
+        "audience": "区块链项目的开发者和团队，需要模拟交易、测试代币或提升DEX流动性。",
+        "quickStart": {
+          "prerequisites": "一个Telegram账户。",
+          "steps": [
+            "访问ChartUp官方网站或GitBook了解详情。",
+            "通过Telegram链接（如`t.me/chartup_bot`）启动相应链的Volume Bot。",
+            "根据机器人指引配置和使用交易模拟服务。"
+          ],
+          "note": "仅限授权测试和开发使用，严禁用于真实项目、市场操纵或任何虚假需求展示。"
+        },
+        "competitors": [
+          {
+            "name": "自定义交易脚本/本地部署工具",
+            "method": "需要本地安装、手动配置私钥、RPC维护和钱包管理。",
+            "models": null,
+            "pricing": "自行承担部署与运营成本"
+          }
+        ],
+        "pricing": "订阅制/付费服务",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它是功能性强的区块链测试与推广服务，通过Telegram机器人提供，用户友好。但GitHub仓库主要作为产品信息和文档发布，不开源，非典型的开发者协作项目，且明确限制使用场景。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues为0/0，表明无公开Issues活动，仓库主要用于信息发布，非社区协作。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-23T04:56:22.690Z"
+    },
+    {
+      "owner": "AdelanSupport",
+      "repo": "adelan-support",
+      "fullName": "AdelanSupport/adelan-support",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-21T07:28:23Z",
+      "url": "https://github.com/AdelanSupport/adelan-support",
+      "analysis": {
+        "positioning": "Polymarket 尾盘狙击机器人，自动化捕捉高胜率预测市场机会。",
+        "useCases": [
+          "你想在 Polymarket 寻找尾盘交易机会 → 它帮你自动化扫描并发现符合策略的交易。",
+          "你想在 Polymarket 执行尾盘狙击策略 → 它帮你自动化筛选、评分并执行限价买单。",
+          "你想管理 Polymarket 交易风险并记录操作 → 它帮你实现仓位管理、风险控制及交易审计。"
+        ],
+        "audience": "适合希望通过自动化策略，在 Polymarket 预测市场进行高胜率短线交易的量化交易者。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+",
+          "steps": [
+            "克隆项目，安装依赖。",
+            "配置策略参数，**明确禁用 Dry Run 模式**（确保资金安全）。",
+            "运行机器人，开始自动化交易。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT 许可）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位明确，策略逻辑清晰，功能覆盖发现、执行、风控与审计，且声称“生产级”。代码质量与结构良好，对特定预测市场交易者具有高度实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 列表为空，显示社区公开互动尚不活跃。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-23T04:56:35.183Z"
+    },
+    {
+      "owner": "SeanJ1ang",
+      "repo": "design-judge-skills",
+      "fullName": "SeanJ1ang/design-judge-skills",
+      "description": "Evidence-driven Agent Skills for design award research, evaluation, award matching, entry writing, and submission readiness.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "design-awards",
+        "design-evaluation",
+        "design-research",
+        "hermes-agent",
+        "industrial-design",
+        "openclaw",
+        "opencode",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-18T07:27:32Z",
+      "url": "https://github.com/SeanJ1ang/design-judge-skills",
+      "analysis": {
+        "positioning": "针对设计奖申报全流程，提供证据驱动的AI Agent辅助决策。",
+        "useCases": [
+          "你不知道报哪个设计奖或类别 → 它帮你匹配最佳奖项与申报路径。",
+          "你想系统评价设计作品 → 它帮你基于官方标准和案例证据量化评估。",
+          "你需要准备申报文案 → 它帮你从用户材料中生成有来源约束的申报文字。",
+          "你要提交设计奖作品 → 它帮你按当届官方规则检查提交包是否就绪。",
+          "你想找同类别获奖案例 → 它帮你检索并核验官方来源的获奖案例。"
+        ],
+        "audience": "寻求高效、透明且证据驱动的设计奖申报辅助的专业设计师、团队或学生。",
+        "quickStart": {
+          "prerequisites": "需要一个支持Agent Skills的环境，如Claude Code、Codex或OpenClaw。",
+          "steps": [
+            "安装`design-judge-skills`到你的Agent环境。",
+            "将设计材料和任务直接交给Agent处理。"
+          ],
+          "note": "支持多种Agent平台，如Claude Code、Codex、OpenClaw等，具体安装方式有所差异。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目代码开源，底层Agent/LLM可能产生费用）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，架构清晰，强调证据驱动和透明度，README文档详尽。作为Agent Skills项目，其设计原则和覆盖范围令人印象深刻。Star数尚可，但目前Issue数为0，社区活跃度仍有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前无公开Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-23T04:56:51.114Z"
+    },
+    {
+      "owner": "KlaatAI",
+      "repo": "klaatcode",
+      "fullName": "KlaatAI/klaatcode",
+      "description": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai",
+        "ai-agents",
+        "ai-coding",
+        "ai-model",
+        "ai-tools",
+        "artificial-intelligence",
+        "calude-code",
+        "claude",
+        "cli",
+        "code-generation",
+        "coding-agent",
+        "deepseek",
+        "klaatai",
+        "llm",
+        "open-source",
+        "openai",
+        "openclaw",
+        "pair-programming",
+        "terminal"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-17T11:38:10Z",
+      "url": "https://github.com/KlaatAI/klaatcode",
+      "analysis": {
+        "positioning": "终端AI编程助手，智能路由，高精度低成本。",
+        "useCases": [
+          "你需要高效编写或修改代码 → 它提供终端原生的AI辅助，实现Claude Code级别精度。",
+          "你担心AI编程成本过高 → 它通过智能模型路由，为你节省10倍开销。",
+          "你想灵活选择LLM模型 → 它支持Claude, GPT, Gemini等多家大模型。"
+        ],
+        "audience": "适合喜欢在终端编程、追求高效率和成本效益的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js环境及npm包管理器",
+          "steps": [
+            "npm install -g klaatcode",
+            "klaatcode"
+          ],
+          "note": "核心智能路由服务依赖KlaatAI云端平台。"
+        },
+        "competitors": [
+          {
+            "name": "GitHub Copilot",
+            "method": "IDE/编辑器集成",
+            "models": "OpenAI (GPT系列)",
+            "pricing": "付费"
+          },
+          {
+            "name": "直接调用大型LLM API的终端工具",
+            "method": "终端脚本/工具",
+            "models": "用户指定单模型",
+            "pricing": "按API原价计费（无路由优化）"
+          }
+        ],
+        "pricing": "付费（按消息用量计费，智能路由优化成本，工具调用免费）。客户端开源。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "终端原生、智能路由、AI编程助手，完美契合技术Geek对命令行工具和前沿AI技术的热爱。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃，用户参与度高，但问题解决速度或资源投入有提升空间（24个Issue开启，9个已关闭）。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-23T04:57:09.722Z"
+    },
+    {
+      "owner": "realfishsam",
+      "repo": "agent-notch",
+      "fullName": "realfishsam/agent-notch",
+      "description": "The open-source alternative to vibe-island",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-21T01:33:21Z",
+      "url": "https://github.com/realfishsam/agent-notch",
+      "analysis": {
+        "positioning": "macOS菜单栏AI助手状态监测工具，开源，免配置。",
+        "useCases": [
+          "你运行Claude Code/Codex等AI助手 → 它在MacBook刘海屏旁显示助手吉祥物，指示工作状态。",
+          "AI助手完成任务 → 它将吉祥物变为绿色提示符在刘海屏显示，通知你任务完成。",
+          "你想查看AI会话详情 → 点击刘海屏图标，打开面板，显示所有会话及子代理状态。",
+          "你激活终端应用 → 它自动清除刘海屏上的绿色“任务完成”通知。"
+        ],
+        "audience": "频繁使用Claude Code或Codex等AI助手的macOS开发者，需要便捷监控AI会话状态。",
+        "quickStart": {
+          "prerequisites": "macOS系统，并已安装Claude Code或Codex AI助手。",
+          "steps": [
+            "下载并运行Agent Notch应用。",
+            "启动您的Claude Code或Codex AI助手进行工作。"
+          ],
+          "note": "仅支持macOS平台，特别针对带有刘海屏的MacBook。"
+        },
+        "competitors": [
+          {
+            "name": "open-vibe-island",
+            "method": "通过与AI代理的Hook（如状态文件写入）实现精确的实时状态跟踪。",
+            "models": "支持Claude Code, Codex（推测）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，作为开源项目，基于MIT许可证。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "通过在MacBook刘海屏旁显示AI助手的卡通吉祥物、动态行走动画、任务完成后的绿色提示等，提供了独特且富有情感化的视觉反馈，增强了用户体验的趣味性和互动性。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前有1个开启的Issue，无已关闭Issue，响应速度未知。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-23T04:57:25.545Z"
+    },
+    {
+      "owner": "lyu0805",
+      "repo": "OpenBrowser",
+      "fullName": "lyu0805/OpenBrowser",
+      "description": "本地指纹浏览器 · 多环境隔离 · 代理 / 指纹 / 同步 / RPA",
+      "language": "JavaScript",
+      "topics": [
+        "chromium",
+        "electron",
+        "fingerprint-browser",
+        "proxy",
+        "rpa"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-19T10:41:16Z",
+      "url": "https://github.com/lyu0805/OpenBrowser",
+      "analysis": {
+        "positioning": "本地指纹浏览器，隔离多环境、伪装指纹、代理、同步、RPA自动化。",
+        "useCases": [
+          "你管理多个在线账号 → 它帮你隔离每个账号的浏览器环境，防止数据泄露和关联。",
+          "你需要模拟不同地区或设备访问网站 → 它帮你自定义浏览器指纹和代理，突破网站限制。",
+          "你想自动化重复的网页操作 → 它提供本地RPA功能，帮你实现批量任务和数据抓取。"
+        ],
+        "audience": "跨境电商、社媒营销、自动化测试或任何需要多账号管理和浏览器环境伪装的用户。",
+        "quickStart": {
+          "prerequisites": "已安装Node.js (LTS) 和 Git。",
+          "steps": [
+            "克隆项目仓库",
+            "安装依赖",
+            "启动应用"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费。基于MIT开源协议。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "提供本地API和RPA功能，是开发者进行自动化脚本编写和系统集成的有力工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少 (1/1)，社区活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-23T04:57:41.790Z"
+    },
+    {
+      "owner": "ayghri",
+      "repo": "i-have-adhd",
+      "fullName": "ayghri/i-have-adhd",
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "language": "Python",
+      "topics": [
+        "adhd",
+        "claude-",
+        "claude-code-plugin",
+        "claude-skills",
+        "developer-tools",
+        "productivity"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-13T20:42:06Z",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "analysis": {
+        "positioning": "让AI编程助手输出更简洁、直观、行动导向。",
+        "useCases": [
+          "你向AI询问复杂问题，得到冗长解释 → 它帮你直接给出下一步操作命令和关键代码行。",
+          "你收到AI模糊或客套的建议 → 它帮你去除废话，直奔主题，提供具体步骤和行动指南。",
+          "你需要在多步骤任务中保持专注 → 它帮你将任务分解成带编号的简洁步骤，每次只提示一个具体行动。"
+        ],
+        "audience": "适用于任何希望AI编程助手输出信息更高效、更专注、更易于执行的开发者。",
+        "quickStart": {
+          "prerequisites": "已安装Claude Code编程助手",
+          "steps": [
+            "`claude plugin marketplace add ayghri/i-have-adhd`",
+            "`claude plugin install i-have-adhd@i-have-adhd`",
+            "在Claude Code中输入`/i-have-adhd`启用。"
+          ],
+          "note": "无需本地克隆，Claude Code会自动获取并更新。如需每次会话自动启用，请创建文件`~/.claude/.i-have-adhd-always`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心目标就是去除AI输出中的冗余信息，直击问题核心，提供可执行的、行动导向的指令。这完全符合Vibe Coding所倡导的效率、简洁和直接。",
+        "isVibeCoding": true,
+        "communityActivity": "5/24 的开启/关闭 Issue 比例表明项目积极维护，问题解决效率高。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-23T04:58:14.814Z"
+    },
+    {
+      "owner": "EpicGames",
+      "repo": "lore",
+      "fullName": "EpicGames/lore",
+      "description": "Lore is a next-generation, open source version control system",
+      "language": "Rust",
+      "topics": [
+        "open-source"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-05-21T19:32:07Z",
+      "url": "https://github.com/EpicGames/lore",
+      "analysis": {
+        "positioning": "Epic Games出品的下一代开源版本控制系统，专为超大规模数据与团队设计。",
+        "useCases": [
+          "你管理代码与大量二进制资产（如游戏美术资源）的项目 → 它帮你实现高效、可扩展的版本控制。",
+          "你的团队包含开发者和艺术家 → 它提供统一工作流，满足双方需求，提升协同效率。",
+          "你现有版本控制系统处理大型文件缓慢、协同效率低 → 它通过下一代架构提升性能与可扩展性。"
+        ],
+        "audience": "适用于需要处理大量代码与二进制资产（尤其在游戏、娱乐领域），且对团队协作效率和数据扩展性有极高要求的开发者和艺术家团队。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "macOS / Linux: curl -fsSL https://raw.githubusercontent.com/EpicGames/lore/main/scripts/install.sh | bash -s -- --demo",
+            "Windows (PowerShell): $env:LORE_DEMO=1; irm https://raw.githubusercontent.com/EpicGames/lore/main/scripts/inst…"
+          ],
+          "note": "Windows的安装命令在原文中未完全展示，需参照官网获取完整指令。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "由Epic Games主导开发，Rust语言构建，定位于解决传统版本控制系统处理超大规模二进制资产的痛点，强调“下一代”和“可扩展性”，野心勃勃。项目仍处于积极开发早期（pre-1.0）。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，但开放Issue数远超关闭数（98 vs 20），表明项目正处于快速发展和迭代阶段。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-23T04:58:29.713Z"
     }
   ]
 }
