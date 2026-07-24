@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-23T04:58:29.738Z",
+  "updatedAt": "2026-07-24T04:54:20.496Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -71973,6 +71973,614 @@
         "category": "DevOps"
       },
       "analyzedAt": "2026-07-23T04:58:29.713Z"
+    },
+    {
+      "owner": "dudscode",
+      "repo": "criando-roadmap",
+      "fullName": "dudscode/criando-roadmap",
+      "description": "",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-24T01:24:53Z",
+      "url": "https://github.com/dudscode/criando-roadmap",
+      "analysis": {
+        "positioning": "基于AI生成个性化、实战导向的学习路线。",
+        "useCases": [
+          "你想要转行或学习新技能 → 它帮你用AI生成个性化、非通用的学习路线",
+          "你收到导师或岗位反馈，但不知如何系统学习 → 它帮你整合反馈，生成有针对性的学习计划",
+          "你对自身进步有疑问，担心走弯路 → 它设定评估标准，助你有效检验学习成效"
+        ],
+        "audience": "希望通过AI制定个性化、实战导向学习路线，以实现职业转型或技能提升的开发者和学习者。",
+        "quickStart": {
+          "prerequisites": "一个支持自定义提示词的AI助手（如ChatGPT、Claude等）",
+          "steps": [
+            "收集你的背景信息（现有技能、目标、导师建议、已知痛点、学习习惯、时间预算等）",
+            "将Prompt 1模板中的`[colchetes]`部分填写完整，然后粘贴到AI助手",
+            "根据AI的提问诚实回答，获得初版学习路线",
+            "将初版路线与导师验证，根据反馈修改（使用Prompt 2）",
+            "根据学习路线执行，并定期回顾和评估"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用学习路线模板",
+            "method": "网上搜索通用模板或社区分享",
+            "models": "无",
+            "pricing": "免费"
+          },
+          {
+            "name": "手动规划学习路径",
+            "method": "个人经验或请教他人自行规划",
+            "models": "无",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (Prompt本身免费，需自备AI助手)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目提供了一个结构化、场景驱动的AI提示词，用于生成个性化学习路线。其价值在于精心设计的提示词工程和清晰的使用流程，有效解决了通用路线的痛点，虽然是Prompt而非代码库，但在其领域内非常实用和完善。",
+        "isVibeCoding": true,
+        "communityActivity": "Issues：0 开/0 关。目前社区活跃度较低，但项目本身是Prompt，迭代主要在内容而非代码。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-24T04:50:35.610Z"
+    },
+    {
+      "owner": "Nicolas-zn",
+      "repo": "lowcode3d",
+      "fullName": "Nicolas-zn/lowcode3d",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-24T01:36:03Z",
+      "url": "https://github.com/Nicolas-zn/lowcode3d",
+      "analysis": {
+        "positioning": "开箱即用、一键部署的商业级低代码三维场景编辑器",
+        "useCases": [
+          "你想快速搭建Web 3D产品展示、数字展厅或营销页 → Lowcode3D提供可视化编辑和资源管理，帮你高效创建和发布。",
+          "你的业务系统需要集成3D交互内容 → Lowcode3D的运行时SDK支持Vue2/3、React，让你轻松嵌入编辑产物。",
+          "你需要一个高可视化、可定制、可独立部署的3D内容创作平台 → Lowcode3D提供完整的前后端服务和一键部署方案。"
+        ],
+        "audience": "期望快速构建和部署Web 3D应用，尤其是商业展示、营销页面的开发者或团队。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 20, pnpm >= 8, Docker 与 Docker Compose (用于生产或测试部署)",
+          "steps": [
+            "pnpm install",
+            "cp packages/backend/.env.example packages/backend/.env (并确认PORT为4001)",
+            "pnpm dev:all (或分别启动前后端)",
+            "访问 http://localhost:3005 并通过curl命令注册首个用户"
+          ],
+          "note": "后端开发默认端口4001，Docker部署默认端口4000，请注意配置。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目技术栈新颖（Vue3, Three.js, Fastify），架构清晰（pnpm workspace，前后端分离），功能完整（可视化编辑、资源/项目管理、发布），且提供一键部署和多框架运行时，降低上手和集成成本。",
+        "isVibeCoding": true,
+        "communityActivity": "项目较新，目前Issue开启1个/关闭0个，社区活跃度尚待发展。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-24T04:50:49.577Z"
+    },
+    {
+      "owner": "kingenbomb",
+      "repo": "Nodes",
+      "fullName": "kingenbomb/Nodes",
+      "description": "节点注册机",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-24T03:34:18Z",
+      "url": "https://github.com/kingenbomb/Nodes",
+      "analysis": {
+        "positioning": "自动化ProxyScrape账号注册与代理导出工具。",
+        "useCases": [
+          "你需要批量注册ProxyScrape账号 → 它帮你自动完成注册、邮箱验证并获取Token。",
+          "你希望导出注册的代理节点信息 → 它帮你整理并输出代理凭据和地址。",
+          "你进行自动化测试需处理Turnstile验证 → 它通过浏览器辅助获取验证Token。"
+        ],
+        "audience": "寻求合法自动化注册ProxyScrape账号，进行技术研究或授权测试的开发者与研究者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+、Chromium/Chrome、`turnstilePatch`浏览器扩展、YYDS Mail API Key。",
+          "steps": [
+            "安装Python依赖：`pip install requests DrissionPage PyJWT`。",
+            "配置环境变量`YYDS_API_KEY`和`TURNSTILE_EXTENSION_PATH`。",
+            "运行脚本：`python .\\proxyscrape_register.py`。"
+          ],
+          "note": "Windows用户可使用`.bat`脚本，需确保Python在PATH中或显式指定。环境变量仅对当前会话生效。"
+        },
+        "competitors": [],
+        "pricing": "项目代码免费，但依赖YYDS Mail API，可能涉及付费服务。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码清晰，文档详尽且注重隐私配置；但社区活跃度极低，用途相对小众且依赖外部API，整体成熟度有待验证。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区活跃度极低，无可见Issue交流或贡献。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-24T04:51:02.111Z"
+    },
+    {
+      "owner": "andrewyng",
+      "repo": "openworker",
+      "fullName": "andrewyng/openworker",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-20T01:52:32Z",
+      "url": "https://github.com/andrewyng/openworker",
+      "analysis": {
+        "positioning": "桌面AI助手，驱动本地工具完成任务，输出实际交付物。",
+        "useCases": [
+          "你需准备客户简报 → 它帮你搜集信息并生成文档。",
+          "你在Slack上收到任务 → 它帮你自动在桌面执行任务，结果回复Slack。",
+          "你需追踪项目进度 → 它帮你检查Jira和GitHub，汇总项目状态。"
+        ],
+        "audience": "需要AI驱动自动化日常桌面任务、跨工具协作的个人用户和团队。",
+        "quickStart": {
+          "prerequisites": "AI模型API Key (OpenAI/Anthropic/Google等) 或本地Ollama。",
+          "steps": [
+            "下载并安装对应操作系统的OpenWorker桌面应用。",
+            "打开应用，配置AI模型（API Key或Ollama），然后下达指令。"
+          ],
+          "note": "Windows版本安装时可能出现安全警告，macOS版本已签名。"
+        },
+        "competitors": [
+          {
+            "name": "AutoGPT/AgentGPT",
+            "method": "命令行/Web UI运行AI Agent",
+            "models": "OpenAI GPT系列",
+            "pricing": "免费（API按量付费）"
+          },
+          {
+            "name": "Zapier Central",
+            "method": "云端Agent配置，集成Zapier支持的工具",
+            "models": "多种LLM（取决于Zapier集成）",
+            "pricing": "付费订阅（有免费额度）"
+          }
+        ],
+        "pricing": "软件本身免费且开源，AI模型API费用需自理。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "由知名AI学者吴恩达发起，项目描述清晰专业，提供桌面客户端下载，架构透明，支持多模型和广泛工具集成，产品化程度高。",
+        "isVibeCoding": true,
+        "communityActivity": "Beta阶段，Issue开启数58，关闭数1，显示有较多问题待处理，但官方声称积极维护中。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-24T04:51:23.073Z"
+    },
+    {
+      "owner": "CatsJuice",
+      "repo": "sticker-forge",
+      "fullName": "CatsJuice/sticker-forge",
+      "description": "A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.",
+      "language": "JavaScript",
+      "topics": [
+        "sticker",
+        "webgl"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-20T17:13:15Z",
+      "url": "https://github.com/CatsJuice/sticker-forge",
+      "analysis": {
+        "positioning": "一个提供触感、交互式剥离物理效果的WebGL贴纸生成与嵌入库。",
+        "useCases": [
+          "你需要在网页上展示具有高级交互的贴纸 → 它帮你实现一个可自定义文本、图片、并带逼真剥离物理效果的WebGL贴纸。",
+          "你想提供一个在线工具让用户自定义创建并“把玩”贴纸 → 它提供一个开箱即用的交互式构建器，让用户在线设计和体验贴纸。",
+          "你需要在不同前端框架中复用这一独特的UI组件 → 它提供框架无关的Web Component和原生JS API，易于集成和控制。"
+        ],
+        "audience": "前端开发者、UI/UX设计师，尤其那些希望在Web应用中实现高级、动态图形交互效果的。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "将项目打包后的 `sticker-forge.es.js` 和 `<sticker-forge>` 标签添加到你的HTML页面。",
+            "使用JavaScript的 `setOptions()` 和 `setSource()` API 配置贴纸样式和内容。"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极其独特的Webgl交互式贴纸效果，视觉和触感反馈逼真，技术实现精妙，是能在项目中瞬间提升“酷炫度”的绝佳选择。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，GitHub Issues 均为 0，可能处于早期阶段或维护者较少。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-24T04:51:46.898Z"
+    },
+    {
+      "owner": "berabuddies",
+      "repo": "redis-poc",
+      "fullName": "berabuddies/redis-poc",
+      "description": "RCE PoC for Redis 6.2.22, 7.4.9, 8.6.4, 8.8.0",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-22T22:26:08Z",
+      "url": "https://github.com/berabuddies/redis-poc",
+      "analysis": {
+        "positioning": "Redis RCE漏洞利用工具，支持多版本非破坏性攻击。",
+        "useCases": [
+          "你做Redis安全测试 → 它帮你验证特定Redis版本（6.2.22, 7.4.9, 8.6.4, 8.8.0）是否存在RCE漏洞",
+          "你做渗透测试 → 它帮你利用Redis漏洞，在目标服务器上执行任意命令",
+          "你做应急响应 → 它帮你复现CVE-2026-25589相关漏洞或RedisBloom TDigest堆溢出漏洞"
+        ],
+        "audience": "安全研究员、渗透测试工程师、红队成员，以及需要验证Redis系统安全性的运维工程师。",
+        "quickStart": {
+          "prerequisites": "Python 3.6+，gcc",
+          "steps": [
+            "编译libcrc64.so：`gcc -shared -fPIC -O2 -o libcrc64.so crc64.c crcspeed.c`",
+            "根据目标Redis版本，运行对应Python脚本：`python3 <exploit_script.py> <host> <port> [password] [trigger_command]`"
+          ],
+          "note": "Redis 6.2.22可能需要校准二进制偏移量；8.8.0利用对内存布局敏感，推荐使用全新的Redis实例。"
+        },
+        "competitors": [
+          {
+            "name": "Metasploit Framework",
+            "method": "模块化漏洞利用和渗透测试",
+            "models": "广泛的系统与应用漏洞",
+            "pricing": "免费（开源社区版）"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "代码结构清晰，针对不同Redis版本提供了独立脚本，使用说明详细，易于上手和复现，是一个功能完善的PoC。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，Issue统计显示0开/1关，可能因为是成熟的特定漏洞利用PoC，发布后维护需求较少。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-24T04:52:05.216Z"
+    },
+    {
+      "owner": "Charles-0509",
+      "repo": "Grok-Register",
+      "fullName": "Charles-0509/Grok-Register",
+      "description": "Grok free-register CLI: register → OAuth → CPA JSON (Go)",
+      "language": "Go",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-20T16:35:09Z",
+      "url": "https://github.com/Charles-0509/Grok-Register",
+      "analysis": {
+        "positioning": "Grok免费账号批量注册CLI，一键生成CPA可用数据。",
+        "useCases": [
+          "你需批量获取Grok免费账号 → 它自动注册并产出CPA兼容JSON。",
+          "你厌烦手动处理反爬/风控 → 它内置TLS指纹、Turnstile等技术自动绕过。",
+          "你想要快速部署Grok账号资源 → 它提供一键安装，支持多种环境和代理配置。"
+        ],
+        "audience": "需要批量获取Grok免费账号，用于CPA、代理网关或测试的开发者、运营者。",
+        "quickStart": {
+          "prerequisites": "Linux需要root/sudo；macOS需要Homebrew和Docker Desktop。",
+          "steps": [
+            "curl -fsSL https://raw.githubusercontent.com/Charles-0509/Grok-Register/main/scripts/install.sh | sudo bash"
+          ],
+          "note": "一键安装脚本支持Linux/macOS，可交互配置WARP清障或本机代理，也支持无交互模式。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供清晰的CLI命令、一键安装脚本及详细配置说明。其技术实现（如TLS指纹、Turnstile处理）显示了对反风控的专业考量，Go语言开发保证了性能和稳定性，是高质量的实用工具。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启数（6）多于关闭数（1），表明有用户反馈和需求，项目维护者正在积极处理，社区活跃度适中，处于发展阶段。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-24T04:52:16.943Z"
+    },
+    {
+      "owner": "dacnay816y62-hub",
+      "repo": "cinema-dna-21x9x3",
+      "fullName": "dacnay816y62-hub/cinema-dna-21x9x3",
+      "description": "高级感电影画面生成",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-20T18:46:29Z",
+      "url": "https://github.com/dacnay816y62-hub/cinema-dna-21x9x3",
+      "analysis": {
+        "positioning": "生成叙事性强、镜头语言真实的21:9三联电影画面，而非简单的滤镜或拼接图。",
+        "useCases": [
+          "你追求真实电影镜头叙事 → 它帮你生成构图合理、视线流畅、色彩讲究的三联画面。",
+          "你厌倦AI图的模板化电影感 → 它帮你跳出“cinematic”提示词陷阱，产出有故事感的画面。",
+          "你需要多镜头连贯呈现故事 → 它帮你通过三联图展现人物关系、环境压力与剪辑节奏。"
+        ],
+        "audience": "电影创作者、视觉艺术家或追求电影级叙事画面的AI用户，用于生成故事导向的多镜头视觉概念。",
+        "quickStart": {
+          "prerequisites": "兼容AI图像生成平台的运行环境（例如特定GPT或模型接口）。",
+          "steps": [
+            "提供人物、空间、建筑、神话、科幻、运动、动画题材或简单剧情描述。",
+            "运行`cinema-dna-21x9x3` skill，生成三张21:9叙事镜头。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "通用AI图像生成器（如Midjourney, Stable Diffusion）",
+            "method": "文本提示词",
+            "models": "各种通用模型",
+            "pricing": "通常有免费额度/付费订阅"
+          },
+          {
+            "name": "其他“电影感”提示词包/LORA",
+            "method": "特定提示词或模型加载",
+            "models": "各种AI模型",
+            "pricing": "通常免费/部分付费"
+          }
+        ],
+        "pricing": "免费（根据项目性质和无明确说明推测）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目强烈倡导通过镜头判断、叙事构图和视觉流量来生成真实电影画面，而非简单套用“电影感滤镜”或模板化AI提示词。其核心规则围绕权力关系、视线引导、受控随机等电影语言基础，充满创作者的深刻理解和独特品味。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为0，社区活跃度未知或目前较低。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-24T04:52:37.164Z"
+    },
+    {
+      "owner": "joeseesun",
+      "repo": "qiaomu-cut-skill",
+      "fullName": "joeseesun/qiaomu-cut-skill",
+      "description": "乔木智能视频导演 Skill：素材治理、双语字幕、品牌包装与可复现渲染 | Agent-native video director with governed sourcing and verifiable rendering",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skill",
+        "ai-video",
+        "ffmpeg",
+        "nodejs",
+        "subtitles",
+        "video-editing"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-18T20:00:46Z",
+      "url": "https://github.com/joeseesun/qiaomu-cut-skill",
+      "analysis": {
+        "positioning": "Agent-native智能视频导演Skill，实现端到端可复现视频生成。",
+        "useCases": [
+          "你只想说“我要什么视频” → 它帮你组织素材、分镜、字幕、转场、动效、渲染和质检，生成可复现视频工程。",
+          "你想用免费素材制作特定主题（如挖掘机英语启蒙）视频 → 它帮你找免费素材、智能剪辑成片。",
+          "你想制作电影感人物短片（如介绍乔布斯），要求有时间线和档案照片 → 它帮你整合素材、制作专业级短片。"
+        ],
+        "audience": "AI开发者、内容创作者及视频制作团队，通过Agent实现专业级视频生产自动化。",
+        "quickStart": {
+          "prerequisites": "Node.js 18+ (ListenHub provider需20+), ffmpeg-full。",
+          "steps": [
+            "npx skills add joeseesun/qiaomu-cut-skill --skill qiaomu-cut",
+            "~/.agents/skills/qiaomu-cut/scripts/bootstrap_macos.sh --install",
+            "node ~/.agents/skills/qiaomu-cut/scripts/qcut.js doctor --json"
+          ],
+          "note": "macOS用户推荐使用Homebrew安装依赖；ffmpeg-full不会强制覆盖系统自带ffmpeg。"
+        },
+        "competitors": [
+          {
+            "name": "普通AI剪辑工具",
+            "method": "生成剪辑建议，需用户手动执行后续步骤",
+            "models": "通用AI模型",
+            "pricing": "部分免费/订阅"
+          },
+          {
+            "name": "专业视频剪辑软件 (如Premiere Pro)",
+            "method": "提供手动编辑功能，需人工处理素材、字幕、特效、渲染等全流程",
+            "models": "无",
+            "pricing": "订阅制/买断制"
+          }
+        ],
+        "pricing": "项目本身MIT开源免费。使用时可能依赖ListenHub等第三方付费服务。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度工程化、场景驱动的Agent视频导演Skill。强调可复现、可验证的视频制作流程，通过集成多种外部服务和渲染引擎，将复杂任务抽象为Agent指令，技术深度和项目愿景突出。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 数量较少（1开/0关），目前尚无法评估社区活跃度和响应速度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-24T04:52:56.706Z"
+    },
+    {
+      "owner": "RinDig",
+      "repo": "icm-architect",
+      "fullName": "RinDig/icm-architect",
+      "description": "Claude skill: design any process, idea, or problem into an ICM workspace (folder structure as agent architecture), or restructure an existing folder into one",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-18T14:11:04Z",
+      "url": "https://github.com/RinDig/icm-architect",
+      "analysis": {
+        "positioning": "Claude技能，将任意流程/想法/问题设计为ICM工作区（Agent架构），或重构现有文件夹。",
+        "useCases": [
+          "你有一个复杂的工作流程、想法或问题 → 它帮你设计一个基于ICM（Agent架构）的规范化文件夹结构，让Agent和人都能理解。",
+          "你有一个混乱的现有项目文件夹、代码库或文档库 → 它帮你审计、分类并重构为ICM兼容的结构，提高可解释性和可维护性。",
+          "你希望构建可解释、可维护的AI Agent系统 → 它提供了一种无需复杂编排代码的结构化方法，让Agent通过文件夹路径和文件内容完成工作。"
+        ],
+        "audience": "希望通过结构化文件夹管理复杂项目、构建可解释AI Agent的Claude用户和开发者。",
+        "quickStart": {
+          "prerequisites": "Claude Code环境或Claude apps账户",
+          "steps": [
+            "对于Claude Code：将项目文件夹复制到 `~/.claude/skills/icm-architect/` 或项目内的 `.claude/skills/icm-architect/`。",
+            "在Claude中，使用“ICM this” / “structure this for agents” / “build me a workspace for X” 等指令激活技能。"
+          ],
+          "note": "对于Claude apps：通过设置 -> 功能上传 `icm-architect.skill` 文件（需先用skill-creator打包或直接zip文件夹内容）。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python/JS库，通过代码（链、Agent）编排LLM应用，实现复杂逻辑。",
+            "models": "支持主流LLM（OpenAI, Anthropic, Hugging Face等）。",
+            "pricing": "免费开源"
+          },
+          {
+            "name": "CrewAI",
+            "method": "Python库，专注于多Agent协作框架，通过代码定义角色、任务和流程。",
+            "models": "支持主流LLM（OpenAI, Anthropic, Ollama等）。",
+            "pricing": "免费开源"
+          }
+        ],
+        "pricing": "免费开源",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目理念独特，通过文件夹结构替代复杂代码编排，实现Agent的可解释性，降低系统复杂度。文档清晰，有学术论文和社区支持，概念创新且实用。Star数尚可，但Issue关闭率为0，可能需要观察活跃度。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 3开，0关。活跃度尚可，但数据量有限，需持续观察社区响应速度。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-24T04:53:11.836Z"
+    },
+    {
+      "owner": "OpenBMB",
+      "repo": "MiniCPM-Robot",
+      "fullName": "OpenBMB/MiniCPM-Robot",
+      "description": "A Smarter and Faster On-Device AI Brain for Robots",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-18T19:35:23Z",
+      "url": "https://github.com/OpenBMB/MiniCPM-Robot",
+      "analysis": {
+        "positioning": "面向机器人的端侧AI大脑，更智能、更快速。",
+        "useCases": [
+          "机器人需理解复杂多模态指令 → 它能让机器人高效理解并执行自然语言、图像等多源指令。",
+          "机器人在无网络环境下需自主决策 → 它能使机器人在设备端快速响应环境，进行实时智能决策。",
+          "机器人交互缺乏自然语言能力 → 它能赋予机器人强大的环境感知和自然语言交互能力，提升自主性。"
+        ],
+        "audience": "机器人开发者、研究人员及制造商，寻求高效、低延迟、离线运行的机器人AI解决方案。",
+        "quickStart": {
+          "prerequisites": "Python环境，可能需要GPU支持。",
+          "steps": [
+            "安装依赖：`pip install -r requirements.txt`",
+            "加载预训练模型，并集成到机器人控制系统。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "其他小型通用多模态模型 (如Google Gemma, Microsoft Phi系列)",
+            "method": "通常通过Hugging Face加载，需自行在机器人数据集上微调。",
+            "models": "Gemma 2B/7B, Phi-3等",
+            "pricing": "免费 (开源模型)"
+          },
+          {
+            "name": "传统机器人AI解决方案 (如ROS集成特定任务模型)",
+            "method": "往往是模块化开发，集成多个特定功能的C++/Python库。",
+            "models": "专注于特定领域的视觉、导航、抓取等模型。",
+            "pricing": "通常涉及开发成本或授权费用。"
+          }
+        ],
+        "pricing": "免费，项目采用Apache-2.0开源许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于机器人端侧AI，解决实际痛点，潜力巨大。MiniCPM名称暗示轻量高效，但236 Star和少量Issue表明项目尚处于早期阶段，需观察后续发展。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前有3个开放问题尚未解决，项目处于早期孵化阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-24T04:53:30.288Z"
+    },
+    {
+      "owner": "chenjin-cmd",
+      "repo": "xhs-virtual-product",
+      "fullName": "chenjin-cmd/xhs-virtual-product",
+      "description": "xhs-virtual-product",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-19T04:37:53Z",
+      "url": "https://github.com/chenjin-cmd/xhs-virtual-product",
+      "analysis": {
+        "positioning": "将小红书虚拟资料制作流程标准化，用AI自动化实现。",
+        "useCases": [
+          "你想做小红书虚拟产品 → 它提供从选品到复盘的AI工作流SOP，指导全流程。",
+          "你担心小红书虚拟产品版权合规 → 它提供合规红线和检查清单，规避风险。",
+          "你缺乏小红书虚拟产品运营经验 → 它提供选品策略、内容创作、开店运营等深度参考资料。"
+        ],
+        "audience": "希望通过小红书销售虚拟产品，但缺乏系统性方法或想提升效率的个体创作者、商家。",
+        "quickStart": {
+          "prerequisites": "支持自定义指令/系统提示/技能目录的AI工具（如WorkBuddy, Claude Code, Cursor等）",
+          "steps": [
+            "下载项目文件，尤其是SKILL.md以及references和assets/templates目录。",
+            "根据你使用的AI工具，将文件放置到对应的技能/指令目录，或将SKILL.md内容粘贴至AI工具的自定义指令区。"
+          ],
+          "note": "不同AI工具的安装和触发方式略有差异，详见项目文档中的“跨工具安装”章节。"
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身开源免费，但README中提及的社群加入方式未明确是否收费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目思路清晰，提供了完整的AI工作流、模板和参考资料，解决特定场景痛点，但作为一个Markdown指令集合，其技术复杂度和创新性有限。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue和PR统计均为0，社区活跃度待观察，但项目欢迎贡献。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-24T04:53:44.482Z"
+    },
+    {
+      "owner": "rjx18",
+      "repo": "codor",
+      "fullName": "rjx18/codor",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-19T15:09:48Z",
+      "url": "https://github.com/rjx18/codor",
+      "analysis": {
+        "positioning": "本地一体化平台，统一管理和访问你的AI代理。",
+        "useCases": [
+          "你希望本地运行多个AI代理 → 它帮你提供一个统一的入口和管理界面。",
+          "你关注AI代理数据隐私和安全 → 它帮你确保所有数据在本地处理，不上传到远程服务。",
+          "你需要在多平台（Linux/macOS/Windows）部署本地代理服务 → 它帮你通过一条命令快速安装并提供跨平台支持。"
+        ],
+        "audience": "开发者、研究员或个人用户，需要在本地安全、统一地部署和管理各种AI代理或自动化服务。",
+        "quickStart": {
+          "prerequisites": "Node.js 22.12.0或更高版本，一个已认证的代理CLI。",
+          "steps": [
+            "运行 `npx @richhardry/codor install` 进行交互式安装。",
+            "打开浏览器访问显示的配对链接或 `http://127.0.0.1:8137`。"
+          ],
+          "note": "Linux使用systemd，macOS使用LaunchAgent，Windows使用隐藏的任务计划服务，WSL2用户可在WSL内安装后从Windows浏览器访问 `127.0.0.1:8137`。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念新颖，技术栈现代（TypeScript, Node.js 22+），安装体验设计友好，强调本地隐私。当前为Alpha阶段，社区活跃度较低，有待观察后续发展。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue（2开/0关）表明项目仍处于非常早期或内部开发为主。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-24T04:54:03.480Z"
+    },
+    {
+      "owner": "nicechunk",
+      "repo": "game",
+      "fullName": "nicechunk/game",
+      "description": "NiceChunk game client",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-20T05:09:52Z",
+      "url": "https://github.com/nicechunk/game",
+      "analysis": {
+        "positioning": "NiceChunk 浏览器游戏客户端，深度集成区块链，实现链上互动体验。",
+        "useCases": [
+          "你作为NiceChunk玩家 → 它让你直接在浏览器中体验游戏，并完成链上资产交互。",
+          "你作为Web3游戏开发者 → 它为你展示一个Web3游戏前端如何组织代码、管理UI和实现链上数据同步。",
+          "你作为项目贡献者 → 它提供客户端代码，助你参与NiceChunk游戏的功能开发或测试。"
+        ],
+        "audience": "NiceChunk游戏玩家、对Web3浏览器游戏客户端开发感兴趣的前端开发者及项目贡献者。",
+        "quickStart": {
+          "prerequisites": "Git和Node.js/npm运行环境",
+          "steps": [
+            "git clone https://github.com/nicechunk/game.git",
+            "cd game",
+            "git submodule update --init --recursive",
+            "npm install",
+            "npm run build"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费。项目代码开源，但游戏内可能存在付费内容或链上交易费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目是特定游戏的客户端，代码结构清晰。但Issue活跃度低，社区参与感不强，主要对Web3游戏前端开发者有参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为 0/0，表明当前社区活跃度极低或不通过GitHub Issues管理。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-24T04:54:20.478Z"
     }
   ]
 }
