@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-24T04:54:20.496Z",
+  "updatedAt": "2026-07-25T04:49:01.861Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -72581,6 +72581,389 @@
         "category": "其他"
       },
       "analyzedAt": "2026-07-24T04:54:20.478Z"
+    },
+    {
+      "owner": "slvDev",
+      "repo": "esp32-ai",
+      "fullName": "slvDev/esp32-ai",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-23T14:53:51Z",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "analysis": {
+        "positioning": "在8美元ESP32-S3上运行28.9M LLM，实现超低成本本地推理。",
+        "useCases": [
+          "你探索边缘AI大模型部署极限 → 它让你在ESP32-S3上本地运行28.9M LLM。",
+          "你寻求极端低成本、离线AI应用 → 它提供无需服务器、8美元硬件的私有化生成方案。",
+          "你研究微控制器上的LLM性能优化 → 它展示Per-Layer Embeddings的落地实践。"
+        ],
+        "audience": "边缘AI开发者、IoT硬件工程师、嵌入式系统研究者，探索在极低成本硬件上部署大模型的可能性。",
+        "quickStart": {
+          "prerequisites": "ESP32-S3开发板、ESP-IDF工具链",
+          "steps": [
+            "克隆项目仓库",
+            "编译烧录模型到ESP32-S3",
+            "连接屏幕查看文本生成"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统微控制器LLM部署",
+            "method": "模型全载入SRAM",
+            "models": "260K参数级",
+            "pricing": "免费"
+          },
+          {
+            "name": "Google Gemma (手机/GPU版)",
+            "method": "Per-Layer Embeddings (手机/GPU内存优化)",
+            "models": "Gemma 3n/4",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，项目开源。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "突破性地在8美元ESP32-S3微控制器上本地运行28.9M参数LLM，性能比现有方案提升百倍，成功将Google Per-Layer Embeddings技术应用于极小嵌入式硬件，技术挑战大，创新价值高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启4/关闭0，社区活跃度较低，可能项目较新或维护者未及时处理。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-25T04:47:03.139Z"
+    },
+    {
+      "owner": "melloworchid8rr6g",
+      "repo": "TG-Polymarket-bot",
+      "fullName": "melloworchid8rr6g/TG-Polymarket-bot",
+      "description": "Telegram bot that catches Polymarket whale trades in real time and lets you copy them in one tap — plus a free public alerts channel.",
+      "language": "JavaScript",
+      "topics": [
+        "alerts",
+        "betting",
+        "bot",
+        "channel",
+        "polymarket",
+        "telegram",
+        "tg"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-24T18:16:29Z",
+      "url": "https://github.com/melloworchid8rr6g/TG-Polymarket-bot",
+      "analysis": {
+        "positioning": "实时追踪Polymarket巨鲸交易，一键跟单。",
+        "useCases": [
+          "你手动盯盘寻找大额交易机会 → 它实时捕获Polymarket巨鲸交易并推送个性化提醒。",
+          "你试图在Polymarket网站快速跟单但操作卡顿、确认弹窗延迟 → 它提供一键无延迟的交易签名，确保快速入场。",
+          "你想复制特定交易员的策略 → 它支持跟单特定交易员，帮你自动同步他们的交易。"
+        ],
+        "audience": "Polymarket交易者，特别是追求快速跟单、希望自动化追踪巨鲸动态的用户。",
+        "quickStart": {
+          "prerequisites": "Telegram账号，Polymarket账户",
+          "steps": [
+            "打开Telegram机器人链接：`https://t.me/polyprediction1_bot`",
+            "在机器人中/start，按指示连接你的Polymarket钱包并设置个人PIN码"
+          ],
+          "note": "该机器人免费使用至2026年10月10日。"
+        },
+        "competitors": [],
+        "pricing": "部分免费。目前免费使用至2026年10月10日。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "它通过实时鲸鱼交易提醒、一键跟单、无延迟交易签名等功能，极大提升了Polymarket交易的效率和响应速度，直击用户痛点，让交易者能更迅速地利用市场机会。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 区无任何活动（开启0/关闭0），社区活跃度低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-25T04:47:23.228Z"
+    },
+    {
+      "owner": "zeus-panel",
+      "repo": "ZEUS-PANEL",
+      "fullName": "zeus-panel/ZEUS-PANEL",
+      "description": "A high-performance, serverless VLESS network proxy management panel deployed natively on Cloudflare Workers & D1 SQL Database.",
+      "language": "JavaScript",
+      "topics": [
+        "cloudflare-workers",
+        "panel",
+        "vless",
+        "workers",
+        "zeus",
+        "zeus-panel"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-20T11:37:49Z",
+      "url": "https://github.com/zeus-panel/ZEUS-PANEL",
+      "analysis": {
+        "positioning": "基于Cloudflare Workers的高性能VLESS代理管理面板。",
+        "useCases": [
+          "你想为特定用户分配固定IP或地域代理 → 它帮你轻松实现绑定。",
+          "你需要精细化管理代理用户（流量、时间、请求、设备数） → 它提供多种限制策略并支持自动重置。",
+          "你担心代理服务被过滤或阻断 → 它内置TLS分片和ClientHello指纹模拟绕过审查。"
+        ],
+        "audience": "需要高性能、抗审查、精细化管理VLESS代理服务的个人或团队。",
+        "quickStart": {
+          "prerequisites": "Cloudflare账户、Cloudflare Workers和D1 SQL Database配置。",
+          "steps": [
+            "部署代码至Cloudflare Workers",
+            "配置Cloudflare D1 SQL数据库"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（非商业用途）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "UI美观，功能全面且针对性强（抗审查、精细管理），基于Cloudflare Workers和D1 Serverless SQL，架构现代且高效，版本迭代活跃。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issues全部为0，社区活跃度未知或主要在Telegram群组。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-25T04:47:36.525Z"
+    },
+    {
+      "owner": "RongleCat",
+      "repo": "grok-app",
+      "fullName": "RongleCat/grok-app",
+      "description": "Desktop workbench for Grok Build CLI — sessions, projects, media, automations (Tauri 2 · unofficial)",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-23T16:43:40Z",
+      "url": "https://github.com/RongleCat/grok-app",
+      "analysis": {
+        "positioning": "Grok Build CLI的桌面工作台，管理会话与自动化。",
+        "useCases": [
+          "你厌倦了命令行管理 Grok Agent 会话 → 它提供桌面 GUI，集中管理多个项目与会话。",
+          "你需要可视化 Grok Agent 生成的媒体文件 → 它提供富媒体预览功能。",
+          "你想自动化 Grok Agent 任务 → 它支持任务调度和自动化设置。"
+        ],
+        "audience": "Grok Build CLI 用户，希望通过图形界面更高效地管理Agent项目和日常工作。",
+        "quickStart": {
+          "prerequisites": "需已安装并登录 Grok Build CLI。",
+          "steps": [
+            "下载并安装 Grok App。",
+            "添加项目/启动新会话。",
+            "连接 Grok Agent，开始对话或自动化任务。"
+          ],
+          "note": "非官方产品，支持 macOS、Windows、Linux。macOS 用户可能需要处理Gatekeeper警告。"
+        },
+        "competitors": [
+          {
+            "name": "Grok Build CLI (命令行)",
+            "method": "命令行交互",
+            "models": "Grok (xAI)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（MIT 许可，开源项目）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "基于现代 Tauri 2 和 TypeScript 构建，提供跨平台桌面应用。README 详细，功能定位清晰，Issue 关闭率高 (18/21)，项目由活跃个人维护，为 Grok CLI 用户提供实用且官方缺失的 GUI 体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 关闭率高，但总体 Issue 数量偏低，表明用户通过 GitHub 提问/贡献的活跃度不高，但维护者对问题的响应和解决效率较高。作者通过社交媒体积极推广。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-25T04:47:51.586Z"
+    },
+    {
+      "owner": "TryCaspian",
+      "repo": "caspian-sdk",
+      "fullName": "TryCaspian/caspian-sdk",
+      "description": "One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X — a single on_message handler. Open-source channel adapters + bot SDK (Python & TypeScript) + CLI.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-agents",
+        "communication",
+        "crewai",
+        "discord",
+        "email",
+        "imessage",
+        "langchain",
+        "llm",
+        "mcp",
+        "messaging",
+        "python",
+        "sdk",
+        "slack",
+        "sms",
+        "telegram",
+        "typescript",
+        "whatsapp",
+        "whatsapp-api"
+      ],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-20T10:47:56Z",
+      "url": "https://github.com/TryCaspian/caspian-sdk",
+      "analysis": {
+        "positioning": "统一AI Agent多渠道消息处理接口。",
+        "useCases": [
+          "你开发AI Agent需要适配Slack、Discord、Telegram等多个平台 → 它帮你通过一个统一的`on_message`处理器覆盖所有渠道。",
+          "你的AI Agent需要处理多平台的线程、Webhook验证等复杂性 → 它帮你自动处理这些平台特有的交互细节。",
+          "你希望快速将AI Agent部署到多个用户常用的沟通渠道 → 它提供30秒快速上手及编码Agent自动集成方案。"
+        ],
+        "audience": "AI Agent开发者和团队，希望简化Agent多渠道部署、消息处理及快速上线的场景。",
+        "quickStart": {
+          "prerequisites": "一个Python环境；或一个支持代码生成的AI编码Agent（如Claude Code, Cursor）。",
+          "steps": [
+            "使用AI编码Agent，粘贴指令让Agent自动集成：\"Integrate Caspian so my agent can message people on email, Slack, Discord, Telegram, and more. Read https://api.trycaspianai.com/SKILL.md and follow it end to end.\"",
+            "或手动安装Python SDK：`pip install caspian-sdk`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "自身提供多渠道适配器，需逐个配置和管理。",
+            "models": "N/A (取决于框架支持)",
+            "pricing": "免费"
+          },
+          {
+            "name": "CrewAI",
+            "method": "自身提供多渠道适配器，需逐个配置和管理。",
+            "models": "N/A (取决于框架支持)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（AGPL-3.0开源许可）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目明确提供了通过AI编码Agent（如Claude Code、Cursor）自动集成和配置Caspian的指令，并声称Agent可以自行安装SDK、获取密钥并编写处理器，极大简化了开发流程。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期阶段，已有220 Star。Issues开闭比为45:14，显示当前开启Issue数量较多，社区响应和解决问题的速度有待提高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-25T04:48:11.615Z"
+    },
+    {
+      "owner": "mikehasa",
+      "repo": "agentacct",
+      "fullName": "mikehasa/agentacct",
+      "description": "Local-first Agent Work Intelligence for coding agents: usage truth, recorded work, and honest joins. Read-only over coding-agent logs; zero-JavaScript localhost dashboard.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-24T16:28:06Z",
+      "url": "https://github.com/mikehasa/agentacct",
+      "analysis": {
+        "positioning": "本地化监控AI编程助手的工作量、成本与效率。",
+        "useCases": [
+          "你关心AI编程助手花了多少钱 → 它帮你透明地显示每个代理、模型和天的token用量及预估成本。",
+          "你想知道AI编程助手到底做了什么有效工作 → 它帮你把会话整合成任务，记录工作步骤，并验证代码产出的有效性。",
+          "你担心AI编程助手的数据隐私和准确性 → 它帮你本地化存储所有数据，不联网，并提供可信的工作归因。"
+        ],
+        "audience": "使用Claude Code、Codex等AI编程助手，希望私密、透明地追踪其工作量、成本和效率的开发者。",
+        "quickStart": {
+          "prerequisites": "Python >= 3.11",
+          "steps": [
+            "安装：`pipx install agentacct`",
+            "在你的代码仓库根目录运行 `agentacct onboard` 进行设置和首次同步",
+            "开启新的AI编程助手会话以开始记录，并通过 `http://127.0.0.1:8765` 访问仪表盘"
+          ],
+          "note": "macOS或Linux原生支持，Windows需通过WSL。"
+        },
+        "competitors": [],
+        "pricing": "免费，MIT开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它为AI编程助手提供了私密、透明的工作量、成本和效率监控，解决了开发者在使用AI助手时的数据隐私和效果评估痛点，提升了AI辅助开发的信任感和掌控感，从而间接优化了开发体验。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚待观察，目前Issue统计为0，但项目已有一定关注度。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-25T04:48:28.188Z"
+    },
+    {
+      "owner": "duolahypercho",
+      "repo": "codex-router",
+      "fullName": "duolahypercho/codex-router",
+      "description": "External-model router for Codex with guided Kimi OAuth/API, DeepSeek, safe migration, and rollback.",
+      "language": "JavaScript",
+      "topics": [
+        "codex",
+        "deepseek",
+        "kimi",
+        "litellm",
+        "model-router"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-19T23:16:41Z",
+      "url": "https://github.com/duolahypercho/codex-router",
+      "analysis": {
+        "positioning": "AI桌面应用外部大模型路由器，提供安全集成与管理。",
+        "useCases": [
+          "你希望在Codex/Cursor中使用Kimi/DeepSeek等外部大模型 → 它帮你通过本地路由无缝接入并统一管理。",
+          "你担心多模型API密钥的安全和隐私 → 它提供凭证隔离，确保密钥不在聊天中泄露，实现安全认证。",
+          "你需要频繁切换或升级AI应用中的大模型配置 → 它提供引导式安装、安全迁移与回滚机制。"
+        ],
+        "audience": "使用Codex或Cursor等AI桌面应用的用户及开发者，希望安全、便捷地集成和管理多种外部大型语言模型。",
+        "quickStart": {
+          "prerequisites": "目标AI应用（Codex App/CLI或Cursor）、Node.js 22.19+ (推荐24 LTS)、`uv`或Python 3.10+ (含`venv`)、Git。",
+          "steps": [
+            "确认满足Node.js、Python/uv、Git等前置条件。",
+            "根据操作系统，运行引导式安装命令（如：`curl ... | sh -s -- --target codex --guided`）。"
+          ],
+          "note": "macOS/Linux和Windows平台安装命令不同；Linux支持Codex CLI和Cursor本地网关。"
+        },
+        "competitors": [
+          {
+            "name": "LiteLLM",
+            "method": "开源Python库/API网关，需自行部署。",
+            "models": "广泛支持数百种大模型API。",
+            "pricing": "免费开源，模型调用按提供商收费。"
+          },
+          {
+            "name": "OpenRouter",
+            "method": "在线聚合API服务。",
+            "models": "集成多种主流和社区模型。",
+            "pricing": "按量付费，统一计费。"
+          }
+        ],
+        "pricing": "免费（项目本身），但使用外部大模型需向对应提供商支付API调用费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README文档详尽，安装指引明确（含多平台），模型与认证方式列表清晰，并强调了安全与隐私设计，对目标用户友好。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，但Issue处理及时（开启3/关闭3）。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-25T04:48:46.046Z"
+    },
+    {
+      "owner": "hassancs91",
+      "repo": "claude-youtube-editor",
+      "fullName": "hassancs91/claude-youtube-editor",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-19T06:27:45Z",
+      "url": "https://github.com/hassancs91/claude-youtube-editor",
+      "analysis": {
+        "positioning": "AI驱动，将讲稿视频一站式转为YouTube发布视频。",
+        "useCases": [
+          "你录制讲话视频 → 它帮你自动剪辑、配音、加音效。",
+          "你口述内容 → 它帮你自动生成屏幕演示、图表、UI动效等视觉内容，无需录屏。",
+          "你想快速发布YouTube视频 → 它帮你自动化生成缩略图、优化上传流程并发布。",
+          "你希望让视频拥有个人频道风格 → 它帮你通过`/brand-setup`自定义品牌样式，让所有输出都符合你的频道调性。"
+        ],
+        "audience": "面向需要快速制作并发布YouTube教学/讲解视频的创作者，特别是希望摆脱传统视频剪辑软件、专注于内容输出的人。",
+        "quickStart": {
+          "prerequisites": "Claude Code, Python 3.10+, Node 18+, ffmpeg + ffprobe (需在PATH中)",
+          "steps": [
+            "克隆仓库并进入项目目录。",
+            "创建并激活Python虚拟环境，安装Python依赖。",
+            "进入remotion目录，安装npm依赖并运行构建命令。",
+            "复制示例环境文件并配置API Key。",
+            "在Claude Code中打开项目，并执行相应指令（如设置品牌、剪辑、添加视觉效果等）。"
+          ],
+          "note": "Python虚拟环境的激活和pip路径在Windows/macOS/Linux上有所不同。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源，MIT许可），但可能需要自行支付Claude API费用。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目将复杂的视频制作流程（剪辑、视觉、音效、缩略图等）完全通过代码（Remotion TSX、Python脚本）自动化实现，摆脱传统视频编辑软件。这种“代码即视频”的理念非常符合Vibe Coding精神，通过编程实现创意和自动化。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量极少 (1个开启，0个关闭)，目前社区活跃度较低。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-25T04:49:01.843Z"
     }
   ]
 }
