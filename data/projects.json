@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-25T04:49:01.861Z",
+  "updatedAt": "2026-07-26T05:04:31.826Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -72964,6 +72964,456 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-25T04:49:01.843Z"
+    },
+    {
+      "owner": "fuadmefleh",
+      "repo": "Shared-Claude-Chats",
+      "fullName": "fuadmefleh/Shared-Claude-Chats",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-26T01:14:17Z",
+      "url": "https://github.com/fuadmefleh/Shared-Claude-Chats",
+      "analysis": {
+        "positioning": "归档公开的Claude和Grok AI聊天记录为Markdown。",
+        "useCases": [
+          "你做AI聊天内容收集 → 它帮你批量导出Claude/Grok分享链接中的对话内容。",
+          "你做AI聊天数据分析 → 它帮你将结构化的对话数据保存为Markdown，方便后续处理。",
+          "你做AI训练数据集构建 → 它帮你收集大量的真实AI对话样本。"
+        ],
+        "audience": "适合AI研究者、开发者或任何想归档、分析Claude/Grok公开聊天记录的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.x, curl_cffi库",
+          "steps": [
+            "pip install curl_cffi",
+            "将要导出的Claude/Grok分享链接整理成 claudeaisharelinks.txt 或 grokaisharelinks.txt 文件。",
+            "运行 python claude_share_export.py 或 python grok_share_export.py。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "手动复制粘贴",
+            "method": "逐个打开Claude/Grok分享链接，手动复制对话内容",
+            "models": "所有支持分享的AI模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "通用网页抓取工具 (如Playwright/Selenium)",
+            "method": "自行编写Python脚本，解析Claude/Grok分享页面结构并提取数据",
+            "models": "所有网页可访问的AI模型",
+            "pricing": "免费（工具本身），需投入开发成本"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，代码结构清晰，提供了完整的导出脚本和已归档数据，文档详细，易于理解和使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度低，只有一个已关闭的Issue，说明项目稳定或使用人数不多。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-26T05:02:05.115Z"
+    },
+    {
+      "owner": "kerogenesis",
+      "repo": "InputRedirect",
+      "fullName": "kerogenesis/InputRedirect",
+      "description": "Redirect keyboard, touchpad and mouse input through a real signed driver",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-26T00:11:11Z",
+      "url": "https://github.com/kerogenesis/InputRedirect",
+      "analysis": {
+        "positioning": "Windows驱动级输入重定向，伪装为真实罗技设备",
+        "useCases": [
+          "你想让游戏或应用信任你的输入设备 → 它通过真实罗技签名驱动伪装你的键盘/鼠标输入。",
+          "你的自动化脚本需模拟物理输入绕过检测 → 它提供不易被察觉的驱动级输入重定向。",
+          "你在老旧游戏或特定软件中遇到输入兼容问题 → 它可能通过模拟主流罗技设备解决。"
+        ],
+        "audience": "需要通过驱动层面伪装Windows输入设备类型（尤其是罗技）的开发者、测试人员或高级用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11，需管理员权限运行。",
+          "steps": [
+            "以管理员身份运行 `InputRedirect.exe`。",
+            "根据需要按键选择操作，如 `1` 重定向鼠标/触摸板，`2` 重定向键盘。"
+          ],
+          "note": "关闭窗口停止重定向；卸载驱动需重启系统以完全清除。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证，开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目专注于解决特定技术痛点，提供务实的驱动级输入重定向方案。名称和描述直接明了，缺乏品牌故事或创新设计，但实用性和特定场景的有效性是其核心价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue开启1个，关闭0个，Star数11。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-26T05:02:29.062Z"
+    },
+    {
+      "owner": "mikiarlo3",
+      "repo": "ai-copywriter",
+      "fullName": "mikiarlo3/ai-copywriter",
+      "description": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone.",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-24T19:52:13Z",
+      "url": "https://github.com/mikiarlo3/ai-copywriter",
+      "analysis": {
+        "positioning": "AI驱动，生成高转化率、有人情味的文案，同时消除AI痕迹。",
+        "useCases": [
+          "你想写吸引人的标题和短描述 → 它帮你生成能抓人眼球且自然的文案。",
+          "你需要产品介绍或按钮文本 → 它帮你产出高转化率、无AI痕迹的文案。",
+          "你在设计用户界面（如错误信息、空状态） → 它帮你撰写有同理心、易懂的提示语。"
+        ],
+        "audience": "市场营销人员、产品经理、文案创作者，需要快速生成高转化率、有“人味”文案的场景。",
+        "quickStart": {
+          "prerequisites": "兼容Agent技能指令的运行环境 (e.g., Markdown解析器或Agent框架)",
+          "steps": [
+            "将此Markdown技能文件集成到你的Agent运行环境。",
+            "按照其“提问”方式，提供目标读者、情境和主题信息。",
+            "根据提示回答问题，获取定制化文案。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "README解释清晰，核心理念（基于同理心和极简表达）有深度。作为一个Agent技能，其独立可用性和社区互动尚不明确。Issue数量低，可能处于早期阶段或维护频率不高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue 开启与关闭比说明项目可能处于早期或维护频率不高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-26T05:02:50.368Z"
+    },
+    {
+      "owner": "danilo-znamerovszkij",
+      "repo": "draw-your-font",
+      "fullName": "danilo-znamerovszkij/draw-your-font",
+      "description": "Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads. Node CLI + Claude Code skill.",
+      "language": "JavaScript",
+      "topics": [
+        "claude-code",
+        "claude-skill",
+        "font",
+        "handwriting",
+        "handwriting-font",
+        "potrace",
+        "ttf",
+        "woff2"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-22T09:47:19Z",
+      "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
+      "analysis": {
+        "positioning": "手写照片一键转字体（TTF/WOFF/WOFF2），本地运行。",
+        "useCases": [
+          "你想将手写字快速转为字体，并进行AI辅助优化 → 它帮你通过Claude Code技能，拖入照片、对话微调，生成字体。",
+          "你有一张手写字母照片，知道书写顺序 → 它帮你通过CLI命令行，指定字符顺序，快速生成字体文件。",
+          "你想获得高质量手写字体，需要标准模板 → 它帮你生成打印模板，你填写拍照后，通过CLI生成专业字体。"
+        ],
+        "audience": "希望将个人手写风格快速数字化为字体、追求隐私保护的用户、开发者及设计师。",
+        "quickStart": {
+          "prerequisites": "Node.js >= 18，（使用AI模式需Claude Code环境）",
+          "steps": [
+            "安装Claude Code技能：`npx skills add danilo-znamerovszkij/draw-your-font`",
+            "在Claude Code中，使用 `/draw-your-font \"你的手写照片\"` (拖入照片进行生成和对话微调)"
+          ],
+          "note": "所有处理均在本地进行，无需上传手写数据，保障隐私。"
+        },
+        "competitors": [],
+        "pricing": "完全免费，开源，无上传，无积分限制。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰，场景驱动，提供了AI和非AI两种使用方式，强调隐私保护和易用性，技术实现细节也简明扼要。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示无开放或已关闭问题，可能项目较新或维护者独立开发。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-26T05:03:14.516Z"
+    },
+    {
+      "owner": "rustyharbor308774",
+      "repo": "Ethereum-bot",
+      "fullName": "rustyharbor308774/Ethereum-bot",
+      "description": "The bot detects a large swap in the mempool → buys earlier with priority gas → price rises → the user pays more → the bot sells and locks in 0.6–2.8% per cycle.",
+      "language": "Solidity",
+      "topics": [
+        "bot",
+        "eth",
+        "ethereum",
+        "evm",
+        "mevbots"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-25T12:41:34Z",
+      "url": "https://github.com/rustyharbor308774/Ethereum-bot",
+      "analysis": {
+        "positioning": "以太坊Mempool抢跑套利机器人，自动赚取交易差价。",
+        "useCases": [
+          "你寻求在以太坊链上自动获利 → 它帮你部署套利机器人，自动发现Mempool交易机会。",
+          "你希望利用大额交易的价格波动 → 它帮你通过优先 Gas 抢跑交易，锁定利润。",
+          "你厌倦手动追踪市场机会 → 它帮你实现0.6%-2.8%单次循环的被动收益。"
+        ],
+        "audience": "希望通过自动化链上交易（Mempool抢跑）获取稳定收益的普通投资者，无需编程经验。",
+        "quickStart": {
+          "prerequisites": "已安装Phantom钱包，并准备0.5-1.5 ETH。",
+          "steps": [
+            "前往Remix创建并编译合约（uniswapbot.sol），选择0.8.28版本。",
+            "连接钱包并部署合约，确认创建后向合约地址转入ETH（建议1 ETH以上）。",
+            "点击“Start”启动机器人，通过“Withdrawal”提取收益。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（代码开源，但需自行承担链上部署与交易的Gas费用，并提供启动资金）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "README 语言亲切，详细介绍个人收益经验与傻瓜式部署教程，旨在赋能非技术用户轻松上手，内容实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无开放或已关闭 Issue，可能需要自行解决部署或运行问题。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-26T05:03:26.796Z"
+    },
+    {
+      "owner": "anton-hq96g4",
+      "repo": "Meccha-Medusa",
+      "fullName": "anton-hq96g4/Meccha-Medusa",
+      "description": "Meccha Chameleon: ESP · Aimbot · Fly Hack · Teleport · God Mode · Infinite Paint",
+      "language": "Unknown",
+      "topics": [
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-hacks",
+        "mecca-chameleon-medusa",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-24T09:35:39Z",
+      "url": "https://github.com/anton-hq96g4/Meccha-Medusa",
+      "analysis": {
+        "positioning": "MECCHA CHAMELEON游戏的终极作弊工具。",
+        "useCases": [
+          "你想在MECCHA CHAMELEON中透视敌人 → 它帮你实现ESP透视、显示距离和血量。",
+          "你想在MECCHA CHAMELEON中精准打击 → 它帮你实现自动瞄准、无后坐力。",
+          "你想在MECCHA CHAMELEON中自由移动或无敌 → 它帮你实现飞行、瞬移、上帝模式和无限颜料。"
+        ],
+        "audience": "MECCHA CHAMELEON玩家，渴望在游戏中获得不公平优势并主宰比赛。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), MECCHA CHAMELEON (Steam版), 4GB RAM, 50MB 硬盘空间, DirectX 11兼容显卡。",
+          "steps": [
+            "点击下载按钮获取压缩包。",
+            "使用密码 \"Medusa\" 解压，并以管理员身份运行 Medusa.exe 程序。",
+            "启动 MECCHA CHAMELEON 游戏。",
+            "按 INSERT 或 F1 键打开作弊菜单，选择所需功能。",
+            "开始游戏并享受主宰。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目提供针对在线游戏的全面作弊功能（ESP、自瞄、飞行、无敌等），严重破坏游戏公平性，损害其他玩家体验，并可能导致用户账号被封禁。此类工具通常不被游戏社区和开发者所接受。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0开启/0关闭，表明社区活跃度极低或不通过GitHub Issue进行交流。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-26T05:03:37.446Z"
+    },
+    {
+      "owner": "hahhforest",
+      "repo": "pi-textbook",
+      "fullName": "hahhforest/pi-textbook",
+      "description": "《动手学 Pi》：沿 15 个真实 checkpoint 从零构建 Pi-style Agent",
+      "language": "TypeScript",
+      "topics": [
+        "agent-engineering",
+        "ai-agent",
+        "chinese",
+        "llm",
+        "textbook",
+        "typescript"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-21T04:17:35Z",
+      "url": "https://github.com/hahhforest/pi-textbook",
+      "analysis": {
+        "positioning": "手把手教你用TypeScript从零构建Pi-style AI编程Agent。",
+        "useCases": [
+          "你对AI Agent的内部机制感到好奇 → 它帮你通过15个checkpoint从头实现一个Agent，深入理解其工作原理。",
+          "你想学习如何用TypeScript构建实际的LLM应用 → 它提供真实的代码和测试，让你掌握从协议到工具、循环的开发流程。",
+          "你想亲手实践一个一个能编程的AI助手 → 它指导你实现一个Pi-style的编码Agent，包括会话管理、上下文压缩等高级特性。"
+        ],
+        "audience": "适合希望通过代码实践深入理解AI Agent构建、尤其是Pi-style编程Agent原理的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js (用于运行TypeScript代码)",
+          "steps": [
+            "访问在线教材：https://build-your-own-pi-cn.enochzhang.chatgpt.site",
+            "克隆课程代码仓库：`git clone https://github.com/hahhforest/pi-textbook.git`，并切换到对应checkpoint分支进行实践。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "通过Python/JS库抽象构建LLM应用（框架）",
+            "models": "支持多种LLM",
+            "pricing": "免费（使用模型API需付费）"
+          },
+          {
+            "name": "AutoGen",
+            "method": "通过Python库构建多Agent对话系统（框架）",
+            "models": "支持多种LLM",
+            "pricing": "免费（使用模型API需付费）"
+          }
+        ],
+        "pricing": "免费（项目代码与在线教材均开源）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "通过15个真实可运行的Git commit checkpoint，手把手教学用TypeScript实现Pi-style Agent，提供详尽教材、测试和故障实验，代码质量高，实践性强，深入剖析Agent构建细节。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区暂无活动（开启0/关闭0），可能作为教材项目，社区讨论或反馈更倾向于课程内容本身而非代码bug。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-26T05:03:51.793Z"
+    },
+    {
+      "owner": "NVIDIA-NeMo",
+      "repo": "labs-OO-Agents",
+      "fullName": "NVIDIA-NeMo/labs-OO-Agents",
+      "description": "labs-OO-agents",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-20T15:48:25Z",
+      "url": "https://github.com/NVIDIA-NeMo/labs-OO-Agents",
+      "analysis": {
+        "positioning": "NVIDIA出品，用Python面向对象方式构建AI Agent的框架。",
+        "useCases": [
+          "你厌倦Agent框架中零散的提示词、工具、回调和工作流 → 它让你用一个Python类统一管理Agent的状态、能力、提示词和类型接口。",
+          "你希望AI Agent开发能复用传统Python工程实践（如测试、重构） → 它让Agent开发流程像普通Python软件一样规范化、可维护。",
+          "你想让Agent行为既能通过LLM驱动，又能保持确定性代码逻辑 → 它允许你用`...`定义LLM驱动方法，用实际代码定义确定性方法。"
+        ],
+        "audience": "希望以熟悉Python面向对象方式构建、测试和维护AI Agent的Python开发者。",
+        "quickStart": {
+          "prerequisites": "已安装Python环境",
+          "steps": [
+            "`pip install nooa`",
+            "参照官方Example代码快速上手"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangChain",
+            "method": "Python/JS框架，链式调用构建AI应用",
+            "models": "支持多种LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "LlamaIndex",
+            "method": "Python框架，专注RAG和数据摄取",
+            "models": "支持多种LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "Marvin",
+            "method": "Python库，以函数和对象方式封装AI能力",
+            "models": "支持多种LLM",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（Apache 2.0 License）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "通过将Agent抽象为Python类，直观地将状态、能力、提示词和接口整合。用`...`区分LLM驱动和确定性代码的设计很Pythonic，符合传统软件工程习惯。",
+        "isVibeCoding": true,
+        "communityActivity": "项目较新，Issue 数量少，社区活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-26T05:04:04.499Z"
+    },
+    {
+      "owner": "davidmokos",
+      "repo": "expo-glass-tabs",
+      "fullName": "davidmokos/expo-glass-tabs",
+      "description": "Floating liquid-glass tab bar for Expo Router — minimize-on-scroll, sliding highlight, finger scrubbing with haptics, progressive edge blur",
+      "language": "TypeScript",
+      "topics": [
+        "expo",
+        "expo-router",
+        "liquid-glass",
+        "react-native",
+        "reanimated",
+        "tab-bar"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-22T17:18:43Z",
+      "url": "https://github.com/davidmokos/expo-glass-tabs",
+      "analysis": {
+        "positioning": "为Expo Router提供Revolut风格的液态玻璃底部导航栏。",
+        "useCases": [
+          "你希望在Expo Router应用中实现Revolut风格的现代底部导航 → 它提供具备液态玻璃、滑动收缩、指尖擦洗等高级交互的Tab Bar。",
+          "你需要在滚动时隐藏标签文本但保持所有图标可见 → 它能让底部导航栏智能收缩，保持UI整洁且功能完整。",
+          "你追求极致流畅和沉浸式的移动端UI交互 → 它通过Reanimated实现原生线程动画和触觉反馈，带来无缝体验。"
+        ],
+        "audience": "寻求在Expo Router项目中实现高性能、高保真、具备独特交互效果的底部导航栏的React Native开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "运行`npx expo install expo-glass-tabs expo-blur expo-glass-effect expo-haptics expo-symbols react-native-gesture-handler react-native-reanimated react-native-safe-area-context react-native-screens`安装依赖。",
+            "将应用的根组件包裹在`GestureHandlerRootView`中。"
+          ],
+          "note": "适用于iOS和Android，旧版本系统或Android平台有实体玻璃效果回退。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目提供了高度定制化、交互流畅且视觉效果惊艳的液态玻璃底部导航栏，解决了原生UI组件难以实现的高级交互痛点。虽Star数不高，但功能强大且细节打磨到位，拥有多项创新特性。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度一般，Issue开闭比（1/0）可能表明项目较新、非常稳定或维护者响应有待提高。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-07-26T05:04:18.000Z"
+    },
+    {
+      "owner": "MobAI-App",
+      "repo": "simslim",
+      "fullName": "MobAI-App/simslim",
+      "description": "Run more iOS simulators on one Mac by disabling background daemons a simulator doesn't need",
+      "language": "Go",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-20T15:55:18Z",
+      "url": "https://github.com/MobAI-App/simslim",
+      "analysis": {
+        "positioning": "Mac上iOS模拟器内存优化工具，提升并发运行数量。",
+        "useCases": [
+          "你在进行iOS开发和测试 → 它帮你在一台Mac上同时运行数十个模拟器，提高效率。",
+          "你在CI/CD流水线中运行自动化测试 → 它帮你大幅降低模拟器内存占用，加速测试执行并节省资源。",
+          "你需要在多设备上测试App功能 → 它帮你轻松管理、克隆和清理模拟器，简化多设备测试流程。"
+        ],
+        "audience": "iOS开发者、QA工程师和CI/CD管理员，尤其需要在一台Mac上同时运行大量iOS模拟器进行开发、测试或自动化。",
+        "quickStart": {
+          "prerequisites": "macOS操作系统，安装Xcode及iOS模拟器运行时。",
+          "steps": [
+            "通过Homebrew安装CLI: `brew install mobai-app/tap/simslim`",
+            "精简并重启指定模拟器: `simslim on <udid>`"
+          ],
+          "note": "macOS only，同时提供了SwiftUI桌面应用版本。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "实用性强，有效解决iOS开发和测试中模拟器内存占用高、并发数量受限的痛点，显著提升开发效率和CI/CD性能。Go语言实现，提供CLI和macOS GUI应用，易于使用。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue列表干净（0开6关），表明项目稳定或维护者响应迅速。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-07-26T05:04:31.797Z"
     }
   ]
 }
