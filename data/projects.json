@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-27T05:31:43.003Z",
+  "updatedAt": "2026-07-28T04:47:57.097Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -74323,6 +74323,516 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-27T05:31:42.973Z"
+    },
+    {
+      "owner": "harinishrisaravanan",
+      "repo": "Polllu-Sence",
+      "fullName": "harinishrisaravanan/Polllu-Sence",
+      "description": "PolluSense is an AI-powered environmental monitoring system designed to identify pollution sources and forecast Air Quality Index (AQI) levels for the next 24–72 hours. By integrating real-time air quality, weather, and satellite data, the system provides accurate predictions, health alerts, and actionable insights to help citizens and authorities.",
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-28T02:44:23Z",
+      "url": "https://github.com/harinishrisaravanan/Polllu-Sence",
+      "analysis": {
+        "positioning": "AI驱动的环境监测系统，预测AQI并识别污染源。",
+        "useCases": [
+          "你关心空气质量 → 它帮你预测未来AQI，提前预警健康风险。",
+          "你追溯污染源 → 它帮你识别排放点，辅助决策治理方案。",
+          "你需健康出行指南 → 它结合AQI提供建议，减少健康危害。"
+        ],
+        "audience": "关注空气质量的普通市民、环保部门及需进行环境健康风险评估的个人或组织。",
+        "quickStart": {
+          "prerequisites": "Python环境, Jupyter Notebook。",
+          "steps": [
+            "克隆项目仓库",
+            "安装所需Python库",
+            "打开Jupyter Notebook运行代码"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "墨迹天气/天气类App",
+            "method": "App/Web",
+            "models": "内部气象与环境模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "各地环保局官网/App",
+            "method": "Web/App",
+            "models": "官方实时监测与预报模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（基于Jupyter Notebook项目推断，适用于个人研究或原型验证）",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "星标数极低，Issue 为空，README 极简，且主要使用 Jupyter Notebook，项目处于早期原型或实验阶段，活跃度与成熟度均不足。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，Issue 全为空，无互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-28T04:44:47.956Z"
+    },
+    {
+      "owner": "MoonshotAI",
+      "repo": "Kimi-K3",
+      "fullName": "MoonshotAI/Kimi-K3",
+      "description": "Open Frontier Intelligence",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-27T08:01:37Z",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "analysis": {
+        "positioning": "月之暗面Kimi-K3，2.8万亿参数开放权重多模态智能体模型，面向前沿智能任务。",
+        "useCases": [
+          "你进行GPU优化、编译器开发或芯片设计 → 它能长时间编程，导航大型代码库，并编排终端工具完成工程任务。",
+          "你需要深度研究、生成交互式可视化报告或多媒体内容 → 它作为智能体，利用原生多模态架构端到端完成知识工作。",
+          "你面临复杂推理或前沿智能挑战 → 它提供强大的推理能力，应对并解决问题。"
+        ],
+        "audience": "面向需要处理复杂编程、深度知识工作和高级推理任务的开发者、研究人员及工程师。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "查阅技术博客（kimi.com/blog/kimi-k3）了解模型架构和特性",
+            "访问Hugging Face或ModelScope (moonshotai) 获取模型权重或API使用信息"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（模型权重开源，具体使用或部署成本需自行承担）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "Kimi K3作为开放权重多模态智能体模型，专为长时间复杂编码设计，可导航代码库、调用工具，覆盖GPU优化、芯片设计等高级工程领域。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启与关闭比例较低（6开/2关），社区活跃度处于早期阶段，主要侧重信息发布。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-28T04:45:04.179Z"
+    },
+    {
+      "owner": "kvcache-ai",
+      "repo": "AgentENV",
+      "fullName": "kvcache-ai/AgentENV",
+      "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale.",
+      "language": "Rust",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-23T02:48:07Z",
+      "url": "https://github.com/kvcache-ai/AgentENV",
+      "analysis": {
+        "positioning": "为大规模运行AI Agent环境而生的分布式平台。",
+        "useCases": [
+          "你做大规模AI Agent训练 → 它帮你弹性高效地管理和运行数千上万个隔离的Agent环境。",
+          "你需要低成本运行大量AI Agent → 它帮你快速启停、暂停Agent环境，并高效回收闲置资源。",
+          "你需要为Agent提供快速实验和回溯能力 → 它帮你对Agent环境进行快速内存与文件系统快照，并能从快照派生出多个独立沙箱。"
+        ],
+        "audience": "适合需要在大规模分布式集群上运行、训练或测试AI Agent（尤其是强化学习Agent）的开发者和研究团队。",
+        "quickStart": {
+          "prerequisites": "Linux kernel 6.8+ (推荐Ubuntu 24.04), /dev/kvm 访问权限",
+          "steps": [
+            "运行安装脚本，安装服务器和CLI工具。",
+            "使用systemctl启动aenv服务。"
+          ],
+          "note": "当前不支持授权，请勿将API暴露到公共网络，仅在受信任网络或授权代理后运行。"
+        },
+        "competitors": [],
+        "pricing": "免费 (MIT License)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目定位于解决AI Agent大规模运行的核心痛点，采用Rust语言，性能与扩展性强。架构设计精妙，如弹性环境管理、快照、内存优化等，体现了高水平的工程能力。文档清晰，有持续集成。虽然Issue关闭数为0，但考虑到项目可能较新，暂不影响其技术实力评分。",
+        "isVibeCoding": true,
+        "communityActivity": "社区有新的问题和讨论（18个开启Issue），但目前尚未有Issue被关闭的记录，活跃度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-28T04:45:21.184Z"
+    },
+    {
+      "owner": "0xwilliamortiz",
+      "repo": "openclaude-improved",
+      "fullName": "0xwilliamortiz/openclaude-improved",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "topics": [
+        "agentic-ai",
+        "ai",
+        "ai-agent",
+        "ai-coding",
+        "ai-coding-agent",
+        "ai-coding-agents",
+        "ai-coding-assistant",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli",
+        "coding-agent",
+        "gemini",
+        "gemini-ai",
+        "gemini-cli",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "openrouter"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-26T21:58:28Z",
+      "url": "https://github.com/0xwilliamortiz/openclaude-improved",
+      "analysis": {
+        "positioning": "多模型统一CLI编码助手，跨平台自由运行。",
+        "useCases": [
+          "你使用各种AI模型（Claude, OpenAI, Gemini, Ollama等）进行代码开发 → 它提供统一的命令行接口和工作流，无需适应不同API。",
+          "你需要在终端中快速获得AI编程助手支持 → 它作为开源编码代理，在CLI中直接提供代码生成、修复等服务。",
+          "你追求开发环境的灵活性和可移植性 → 它支持Windows、macOS、Linux，并在Node/Bun环境下运行，方便部署和使用。"
+        ],
+        "audience": "寻求统一、灵活的命令行AI编程体验，并希望整合不同LLM服务的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js (>=22) 和 Bun (>=1.3.13)",
+          "steps": [
+            "cd openclaude-main",
+            "bun install && bun run build",
+            "npm install -g .",
+            "openclaude"
+          ],
+          "note": "Windows、macOS和Linux安装步骤相似，仅shell语法有异；不自动加载项目`.env`文件，需通过`--provider-env-file .env`或环境变量配置。"
+        },
+        "competitors": [
+          {
+            "name": "Aider",
+            "method": "命令行交互式AI编程。",
+            "models": "支持OpenAI, Claude, Gemini等多种模型。",
+            "pricing": "工具免费，LLM服务按量计费。"
+          },
+          {
+            "name": "直接使用LLM提供商的CLI/API",
+            "method": "各LLM提供商独立的CLI工具或直接调用API。",
+            "models": "特定于提供商的模型。",
+            "pricing": "各提供商LLM服务按量计费。"
+          }
+        ],
+        "pricing": "工具本身开源免费，但接入的AI模型服务（如OpenAI、Gemini等）可能需要付费。本地运行Ollama模型可免费使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为CLI AI编码助手，其核心价值在于统一各种大模型接口，实现“anywhere, anything”的灵活工作流。对于习惯命令行开发的程序员，这是一个实用且提升效率的工具。评分3分表示其具备扎实的功能和特定场景的优势，但作为“Improved”版本，创新性上未体现颠覆式突破。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计显示开启和关闭均为0，社区活跃度信息不足，或通过其他渠道（如Discord）进行。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-07-28T04:45:42.645Z"
+    },
+    {
+      "owner": "MoonshotAI",
+      "repo": "MoonEP",
+      "fullName": "MoonshotAI/MoonEP",
+      "description": "MoonEP: A Perfectly Balanced Expert Parallelism Library via Dynamic Redundant Experts",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-24T09:07:21Z",
+      "url": "https://github.com/MoonshotAI/MoonEP",
+      "analysis": {
+        "positioning": "完美负载均衡的专家并行通信库。",
+        "useCases": [
+          "你训练MoE模型路由不均 → 它帮你消除通信瓶颈，提升效率，免受路由倾斜影响。",
+          "你担心MoE训练显存碎片化和OOM → 它帮你稳定显存占用，杜绝OOM，确保训练稳定性。",
+          "你寻求高性能、零拷贝的专家并行方案 → 它提供在线规划和零拷贝技术，显著加速MoE训练。"
+        ],
+        "audience": "面向训练大型MoE模型，尤其关注性能、显存和负载均衡的深度学习研究员和工程师。",
+        "quickStart": {
+          "prerequisites": "Python环境, 深度学习框架 (如PyTorch), NVIDIA GPU",
+          "steps": [
+            "安装MoonEP库 (通常通过pip或源码安装)",
+            "在MoE模型中导入并配置MoonEP进行专家并行通信"
+          ],
+          "note": "主要针对NVIDIA GPU优化，未来计划支持Zhenwu PPU。"
+        },
+        "competitors": [
+          {
+            "name": "DeepEP v2",
+            "method": "传统专家并行方案，易受路由不均影响，导致性能下降和OOM。",
+            "models": "未明确说明",
+            "pricing": "免费 (推测)"
+          }
+        ],
+        "pricing": "免费，MIT许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "MoonEP是解决MoE模型训练中专家负载不均这一核心痛点的专业库，技术深度高，性能提升显著，但受众相对小众，快速上手信息有限。项目有良好技术文档和性能基准，但GitHub Issue活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "GitHub Issue社区活跃度极低，尚无公开问题或讨论。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-07-28T04:45:57.939Z"
+    },
+    {
+      "owner": "AARomanov1985",
+      "repo": "Audio-Cassette-Simulation",
+      "fullName": "AARomanov1985/Audio-Cassette-Simulation",
+      "description": "This project simulates cassette tape audio profiles using ffmpeg",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-22T19:33:59Z",
+      "url": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+      "analysis": {
+        "positioning": "模拟卡带音频风格的FFmpeg命令行工具。",
+        "useCases": [
+          "你想给现代数字音乐增加怀旧感 → 它帮你把音频处理成卡带音效。",
+          "你想重现特定年代的音频氛围 → 它帮你模拟不同品牌、年份卡带的独特音质。",
+          "你需要将直播流带上复古音色 → 它帮你实时录制流媒体并添加卡带效果。"
+        ],
+        "audience": "声音设计师、复古音乐爱好者及内容创作者，轻松为音频添加怀旧卡带质感。",
+        "quickStart": {
+          "prerequisites": "bash, ffmpeg (需编译libmp3lame)",
+          "steps": [
+            "导航到任一卡带文件夹（例如 `Maxell UD C90`）。",
+            "运行 `./convert_cassette_*.sh` 转换本地音频文件 或 `./record_stream_cassette_*.sh [STREAM_URL]` 录制直播流。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "复古音效模拟，纯命令行操作，满足小众怀旧需求，具有一定的极客趣味。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度较低，响应速度待观察。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-28T04:46:16.329Z"
+    },
+    {
+      "owner": "MarcosSete",
+      "repo": "awesome-free-ai-books",
+      "fullName": "MarcosSete/awesome-free-ai-books",
+      "description": "A curated list of free, legitimate AI/ML books",
+      "language": "Unknown",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-22T21:43:31Z",
+      "url": "https://github.com/MarcosSete/awesome-free-ai-books",
+      "analysis": {
+        "positioning": "免费AI/ML书籍精选清单，官方源头。",
+        "useCases": [
+          "你寻找高质量免费AI书籍 → 它提供官方认证的免费AI/ML书籍链接。",
+          "你学习AI/ML领域新知识 → 它根据主题分类，帮你快速找到相关书籍。",
+          "你担忧书籍来源是否合法 → 它确保所有链接指向作者或出版商的官方免费资源。"
+        ],
+        "audience": "AI/ML学习者、研究者，希望获取权威、免费书籍资源。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问GitHub项目页面。",
+            "浏览按主题（如深度学习、强化学习、LLM等）分类的书籍列表。",
+            "点击官方链接下载或在线阅读你感兴趣的书籍。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他AI/ML Awesome List",
+            "method": "列表",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "各大出版社/作者个人网站",
+            "method": "逐个搜索",
+            "models": "N/A",
+            "pricing": "免费 (如果提供)"
+          }
+        ],
+        "pricing": "免费，所有链接指向作者或出版商官方免费提供的资源。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "聚合优质免费AI/ML书籍，省去寻找和筛选的麻烦，降低学习门槛，提升学习效率和体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度低（0/0），但项目明确欢迎PR贡献，通过PR更新资源。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-28T04:46:30.965Z"
+    },
+    {
+      "owner": "deerwork-ai",
+      "repo": "deer-workflow",
+      "fullName": "deerwork-ai/deer-workflow",
+      "description": "An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-coding",
+        "bun",
+        "dynamic-workflow",
+        "dynamic-workflows",
+        "graph-engineering",
+        "llm",
+        "workflow"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-26T04:20:50Z",
+      "url": "https://github.com/deerwork-ai/deer-workflow",
+      "analysis": {
+        "positioning": "TypeScript驱动的开源AI Agent动态工作流编排运行时",
+        "useCases": [
+          "你想精确控制AI Agent的工作流程 → 它帮你用TypeScript定义可观测、可复用的AI Agent图谱，实现复杂任务编排。",
+          "想快速开发一个能处理特定复杂AI任务的应用（如并行研究并生成报告）→ 它帮你通过CLI描述需求，自动生成可运行的TypeScript工作流代码。",
+          "担心AI Agent解决方案绑定特定大模型厂商 → 它提供可替换的Agent运行时接口，支持多种大模型，保持厂商中立。"
+        ],
+        "audience": "希望通过代码（TypeScript）精确控制和编排AI Agent工作流的开发者和AI工程师。",
+        "quickStart": {
+          "prerequisites": "需安装Bun运行时，并配置Codex CLI。",
+          "steps": [
+            "bun install --global @deerwork-ai/deer-workflow",
+            "deer-workflow create \"Create a Workflow that accepts a topics string array, researches each topic in parallel, and synthesizes a report\" > workflow.ts",
+            "deer-workflow run ./workflow.ts --input '{\"topics\":[\"Agent Skills\",\"Dynamic Workflows\"]}'"
+          ],
+          "note": "交互式终端提供TUI可视化，也可输出JSONL事件流用于自动化。"
+        },
+        "competitors": [
+          {
+            "name": "LangChain.js",
+            "method": "TypeScript/JavaScript代码驱动，构建LLM应用链条和代理。",
+            "models": "广泛支持各类大模型API及其他工具。",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (MIT开源许可)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目通过TypeScript代码定义、编排AI Agent工作流，并能根据自然语言描述直接生成可运行的工作流代码，强调“代码即规划”的理念，提供强大的编码控制能力。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度尚可，有解决问题的记录，当前开放Issue数量较少，项目可能仍处于快速发展或早期阶段，需持续观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-28T04:46:58.186Z"
+    },
+    {
+      "owner": "ddcat-ai",
+      "repo": "open-ai-canvas",
+      "fullName": "ddcat-ai/open-ai-canvas",
+      "description": "面向 AI 影视创作的开源无限画布工作台，集成多模态生成、分镜编排、素材管理与 Agent 工作流。",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-22T06:22:34Z",
+      "url": "https://github.com/ddcat-ai/open-ai-canvas",
+      "analysis": {
+        "positioning": "面向AI影视创作的全链路无限画布工作台",
+        "useCases": [
+          "你构思剧本、人设 → 它帮你梳理角色情节，并生成可复用角色资产。",
+          "你制作影视分镜、素材 → 它提供无限画布，将图片/视频/音频组织编排。",
+          "你需要AI生成影视内容 → 它支持多模态生成（文本/图/视频/音频），并提供编辑与续写。",
+          "你希望高效完成创作流程 → 它集成Agent工作流、异步任务和专业导演工具。"
+        ],
+        "audience": "AI影视、短剧创作者，用于故事构思、分镜编排、AI生成和项目管理。",
+        "quickStart": {
+          "prerequisites": "准备一台Ubuntu/Debian/CentOS/Rocky Linux服务器，防火墙放行TCP 3000端口。",
+          "steps": [
+            "登录服务器，执行一键部署脚本：`curl -fsSL https://raw.githubusercontent.com/ddcat-ai/open-ai-canvas/main/scripts/install-server.sh | sudo bash`",
+            "部署完成后，访问 `http://服务器IP:3000` 注册使用。"
+          ],
+          "note": "第一个注册的账号默认为管理员，登录后需在系统设置中配置模型渠道。"
+        },
+        "competitors": [],
+        "pricing": "免费开源，模型渠道费用自理。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能非常丰富，提供一键部署脚本和在线演示，覆盖AI影视创作全流程，文档清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue关闭率高，但新增较少；有QQ群和Linux.do社区支持，提供即时交流渠道。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-07-28T04:47:28.754Z"
+    },
+    {
+      "owner": "edaywalid",
+      "repo": "undo",
+      "fullName": "edaywalid/undo",
+      "description": "Undo what the last shell command did to the filesystem",
+      "language": "Go",
+      "topics": [
+        "cli",
+        "developer-tools",
+        "filesystem",
+        "ld-preload",
+        "linux",
+        "safety",
+        "shell",
+        "undo"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-23T09:27:59Z",
+      "url": "https://github.com/edaywalid/undo",
+      "analysis": {
+        "positioning": "命令行文件系统操作后悔药，无需改变习惯。",
+        "useCases": [
+          "你误删了文件（如`rm -rf`）→ 它帮你一键撤销，恢复原状。",
+          "你意外覆盖了文件或错误修改了权限 → 它帮你回溯到操作前状态。",
+          "你执行的脚本行为异常，创建或修改了大量文件 → 它帮你清理脚本的遗留物。",
+          "你撤销后又想恢复之前的修改 → 它帮你重新应用之前的修改。"
+        ],
+        "audience": "经常在Linux命令行下进行文件操作的开发者、系统管理员及高级用户，尤其是有过误操作经历的人。",
+        "quickStart": {
+          "prerequisites": "Linux环境",
+          "steps": [
+            "安装undo命令行工具。",
+            "配置Shell Hook以自动启用防护（支持zsh, bash, fish）。"
+          ],
+          "note": "基于`LD_PRELOAD`机制，主要支持Linux系统。"
+        },
+        "competitors": [
+          {
+            "name": "Shell别名（如`alias rm='mv ...'`）",
+            "method": "手动配置别名，将危险命令重定向到安全操作。",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "文件系统快照（如Btrfs/ZFS）",
+            "method": "提前设置文件系统快照，可在误操作后回滚整个文件系统。",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费。采用MIT开源许可。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "完美解决了命令行用户普遍痛点——文件误操作，且无需改变用户习惯、不依赖文件系统快照、不需root权限。通过巧妙的`LD_PRELOAD`机制实现了非侵入式、命令粒度的强大防护，堪称“后悔药”神器。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，有少量开放Issue，但暂无已关闭Issue，响应速度未知。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-07-28T04:47:42.877Z"
+    },
+    {
+      "owner": "NikolayS",
+      "repo": "PGSimCity",
+      "fullName": "NikolayS/PGSimCity",
+      "description": "An explorable 3D city that shows how Postgres actually works",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-25T22:15:09Z",
+      "url": "https://github.com/NikolayS/PGSimCity",
+      "analysis": {
+        "positioning": "一个可探索的3D城市，可视化PostgreSQL内部工作原理",
+        "useCases": [
+          "你困惑于Checkpoint为何导致延迟飙升 → 它帮你直观理解其内部机制与影响",
+          "你想知道为何表会永久膨胀 → 它帮你可视化理解事务和表膨胀的关系",
+          "你想搞懂`synchronous_commit`的真实开销 → 它帮你动态展示其如何影响写入流程"
+        ],
+        "audience": "想深入理解PostgreSQL底层机制与性能影响的工程师，尤其适合缺乏实际数据库运维经验者",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目官网：https://nikolays.github.io/PGSimCity/",
+            "通过交互式3D城市探索PostgreSQL内部工作原理"
+          ],
+          "note": "移动端触摸控制目前仅在Chrome的移动模拟器中验证过"
+        },
+        "competitors": [],
+        "pricing": "免费，开源的非商业教育可视化工具",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "高度创新的PostgreSQL内部可视化工具，将复杂概念具象化，学习体验极佳，对特定受众吸引力强。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度较低（2开0闭），但项目鼓励并积极接收外部修正，曾登上Hacker News #1，初期关注度高。",
+        "category": "数据库"
+      },
+      "analyzedAt": "2026-07-28T04:47:57.077Z"
     }
   ]
 }
