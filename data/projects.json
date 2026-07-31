@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-30T04:41:47.103Z",
+  "updatedAt": "2026-07-31T05:06:08.619Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -76324,6 +76324,544 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-07-30T04:41:47.075Z"
+    },
+    {
+      "owner": "WilonityXYZ",
+      "repo": "Wilonity",
+      "fullName": "WilonityXYZ/Wilonity",
+      "description": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no recoil, silent aim, chams, skin changer, unlock all, no spread",
+      "language": "Unknown",
+      "topics": [
+        "aim",
+        "arc-raiders",
+        "arc-raiders-mod",
+        "counter-strike-2",
+        "cs2hack",
+        "eft-tool",
+        "game",
+        "hack",
+        "internal",
+        "kernel",
+        "meccha-chameleon-tool",
+        "memory-hacking",
+        "minecraft",
+        "mod",
+        "radar",
+        "rust-plugins",
+        "rust-treasures",
+        "rusthack",
+        "warzone-modification",
+        "webradar"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-31T02:01:20Z",
+      "url": "https://github.com/WilonityXYZ/Wilonity",
+      "analysis": {
+        "positioning": "跨游戏作弊加载器，提供多功能游戏增强和反检测。",
+        "useCases": [
+          "你希望在游戏中获得不公平优势 → 它帮你实现透视、自瞄、无后座等多种作弊功能。",
+          "你担心被反作弊系统检测 → 它提供内核欺骗、硬件ID清理、AC绕过，降低封号风险。",
+          "你玩多款主流游戏并想用作弊工具 → 它提供统一加载器，支持20+款游戏，无需单独管理。"
+        ],
+        "audience": "希望在主流竞技游戏中通过作弊获取优势、并规避反作弊检测的玩家。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "下载应用程序",
+            "运行并启动游戏",
+            "在游戏中享受“增强”功能"
+          ],
+          "note": "支持Windows 10/11 x64及ARM64系统。"
+        },
+        "competitors": [],
+        "pricing": "未明确说明，此类“游戏增强”服务通常为付费订阅模式。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目旨在提供游戏作弊工具，通过破坏游戏公平性来获取优势，与鼓励公平竞争和技术良性发展的精神相悖。",
+        "isVibeCoding": false,
+        "communityActivity": "GitHub上的Issue活跃度极低（1开0关），社区互动可能主要通过Discord等其他渠道进行。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-31T05:03:25.606Z"
+    },
+    {
+      "owner": "Indhu27-pixel",
+      "repo": "Labour-Law-Violation-System",
+      "fullName": "Indhu27-pixel/Labour-Law-Violation-System",
+      "description": "AI-powered Labour Law Violation Detection System using Weak Supervision, BiLSTM, Graph Neural Networks (GNN), and Explainable AI to identify labour law violations.",
+      "language": "Python",
+      "topics": [
+        "artificial-intelligence",
+        "deep-learning",
+        "explainable-ai",
+        "flask",
+        "gnn",
+        "graph-neural-networks",
+        "labour-law",
+        "machine-learning",
+        "python",
+        "pytorch"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-07-31T03:48:42Z",
+      "url": "https://github.com/Indhu27-pixel/Labour-Law-Violation-System",
+      "analysis": {
+        "positioning": "AI驱动，可解释的劳动法违规检测系统。",
+        "useCases": [
+          "你是HR或法务，想确保公司合规 → 它帮你智能识别潜在劳动法违规点。",
+          "你是审计师，需评估企业风险 → 它帮你快速定位劳动合规风险。",
+          "你是监管机构，监测行业违规 → 它帮你批量检测企业劳动法违规行为。"
+        ],
+        "audience": "需要AI辅助进行劳动法合规性检测与风险评估的HR、法务、审计师或监管机构。",
+        "quickStart": {
+          "prerequisites": "Python环境及PyTorch等深度学习库",
+          "steps": [
+            "克隆项目代码",
+            "安装依赖（如pip install -r requirements.txt）",
+            "根据文档配置数据并运行模型"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "人工法务审计",
+            "method": "人工阅读和分析法律文档、规章制度",
+            "models": "无",
+            "pricing": "按小时或项目收费"
+          },
+          {
+            "name": "商业HR/法务合规软件",
+            "method": "SaaS订阅或企业部署",
+            "models": "多为专有NLP模型、规则引擎",
+            "pricing": "付费订阅"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目方向明确，技术栈前沿（弱监督、GNN、可解释AI），但社区活跃度极低（0 issues，16 stars），且缺乏明确的许可信息和详细的使用文档，尚处于早期或个人研究阶段。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无issue交流，项目维护状态不明。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-31T05:03:39.710Z"
+    },
+    {
+      "owner": "enniyalini2005-netizen",
+      "repo": "Mini-Project",
+      "fullName": "enniyalini2005-netizen/Mini-Project",
+      "description": "A Smart GPS Monitoring Framework for Compliance in Permitted Earth Excavation Transport",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-31T03:24:21Z",
+      "url": "https://github.com/enniyalini2005-netizen/Mini-Project",
+      "analysis": {
+        "positioning": "智能GPS监控框架，确保渣土运输合规。",
+        "useCases": [
+          "你是渣土车队管理者，想实时掌握车辆位置和轨迹 → 它帮你追踪车辆路线，避免偏离预设路径。",
+          "你是建筑工地或项目监管方，需要验证渣土倾倒地点是否合法 → 它帮你记录并核对车辆抵达和离开特定区域的时间地点。",
+          "你是安全负责人，担心渣土车超速或疲劳驾驶 → 它帮你监控车辆速度和行驶时长，确保符合交通及行业规定。"
+        ],
+        "audience": "渣土运输企业、建筑工地或政府监管部门，用于确保土方开挖运输的合规性与安全性。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "鉴于信息不足，无法提供具体快速启动步骤。",
+            "请查阅项目仓库获取更多开发或部署细节。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "商用GPS车队管理系统（如G7、斑马快跑）",
+            "method": "软硬件一体化解决方案，通过订阅服务提供实时监控和数据分析。",
+            "models": "通常支持多种GPS终端设备，提供SaaS平台服务。",
+            "pricing": "通常为付费订阅制"
+          },
+          {
+            "name": "企业自建/定制开发监控系统",
+            "method": "根据企业特定需求进行内部开发或外包，高度定制化。",
+            "models": "技术栈和支持设备根据项目需求而定。",
+            "pricing": "前期投入高，后期维护成本"
+          }
+        ],
+        "pricing": "免费（开源项目，但部署和维护可能需成本）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位和解决的问题非常明确，但缺乏技术细节、语言标识和许可证信息。星数和社区活跃度较低，更像一个概念验证或个人小型项目，而非成熟、可直接使用的开源解决方案。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无Issue活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-31T05:03:54.369Z"
+    },
+    {
+      "owner": "bashalarmistalt",
+      "repo": "decimen-optical-transfer",
+      "fullName": "bashalarmistalt/decimen-optical-transfer",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-30T18:17:54Z",
+      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
+      "analysis": {
+        "positioning": "基于屏幕和摄像头，无需网络即可文件传输。",
+        "useCases": [
+          "你需要在无网络、高物理隔离环境下传输文件 → 它帮你通过屏幕和摄像头实现安全高效的光信号传输。",
+          "你想在公共场合快速分享文件，但又不想配对或安装App → 它帮你以无接触、零配置的方式，通过光信号分享文件。",
+          "你对前沿的、非传统的通信技术感兴趣 → 它为你展示了一种基于喷泉码QR码的光信号文件传输PoC，提供实践平台。"
+        ],
+        "audience": "适合需要在无网络、无App、高物理隔离环境下快速传输文件的开发者和技术探索者。",
+        "quickStart": {
+          "prerequisites": "Node.js (含npm)",
+          "steps": [
+            "克隆项目后运行 `npm install` 安装依赖。",
+            "运行 `npm run dev` 启动开发服务器。",
+            "发送设备（推荐笔记本）访问 `https://localhost:5173/send/`。",
+            "接收设备（推荐手机）访问 Vite 打印的局域网HTTPS地址 (`https://<lan-ip>:5173/receive/`)，接受证书警告，点击“Start camera”，对准发送设备的屏幕。"
+          ],
+          "note": "接收端需通过HTTPS访问；手机访问局域网IP时首次需手动接受自签名证书；保持摄像头稳定对传输速度至关重要。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "创意十足，利用屏幕动画和摄像头进行文件传输，颠覆了传统的网络或蓝牙传输范式，充满实验性和未来感，是典型的Vibe Coding项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，项目处于早期验证阶段。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-31T05:04:19.158Z"
+    },
+    {
+      "owner": "xdash",
+      "repo": "FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "fullName": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "description": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-30T05:39:38Z",
+      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "analysis": {
+        "positioning": "人工智能时代，前沿部署工程师（FDE）从零入门与实践指南。",
+        "useCases": [
+          "你对FDE岗位不了解 → 它帮你搞清楚FDE的定义、爆发原因与未来趋势。",
+          "你希望转型或从事FDE工作 → 它帮你系统学习FDE的实践方法论，覆盖交付全流程。",
+          "你关注企业AI落地难题 → 它帮你理解如何将AI模型真正融入客户业务，避免项目失败。"
+        ],
+        "audience": "考虑转型的工程师、投身企业AI的创业者，以及任何想理解AI如何在企业中落地的人。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在线阅读：直接访问GitHub仓库按章节阅读",
+            "整本下载：下载PDF版文件进行离线阅读"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "零散的在线文章/论坛讨论",
+            "method": "自行检索，信息不系统不连贯",
+            "models": "N/A",
+            "pricing": "免费"
+          },
+          {
+            "name": "传统售前/解决方案架构师经验分享",
+            "method": "与FDE有重叠但缺乏AI时代新视角",
+            "models": "N/A",
+            "pricing": "部分免费/部分付费"
+          }
+        ],
+        "pricing": "免费公开全文。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "知名作者范冰（《增长黑客》）出品，系统梳理了AI时代高需求FDE岗位的定义、方法论与真实案例，免费公开且基于严谨研究，对从业者和转型者极具参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启3/关闭1，有基础活跃度，作者鼓励读者通过Issue指正疏漏。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-31T05:04:36.672Z"
+    },
+    {
+      "owner": "lij768423-svg",
+      "repo": "grok-register-panel",
+      "fullName": "lij768423-svg/grok-register-panel",
+      "description": "Grok register engine (Camoufox) + live web monitor panel",
+      "language": "Python",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-29T09:25:01Z",
+      "url": "https://github.com/lij768423-svg/grok-register-panel",
+      "analysis": {
+        "positioning": "Grok批量注册与实时监控系统，支持防封控。",
+        "useCases": [
+          "你想批量注册Grok账号 → 它帮你自动化完成邮箱验证、资料填写、SSO全流程。",
+          "你需要管理大量注册任务 → 它帮你通过Web面板实时监控进度、启停和调整参数。",
+          "你遇到注册风控或IP/域名被禁 → 它帮你自动规避ASN黑名单、邮箱拉黑并风控早停。"
+        ],
+        "audience": "需要自动化批量注册Grok账号，并进行精细化管理和风控规避的技术人员或研究者。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+环境，以及能访问Grok注册页和相关API的网络。",
+          "steps": [
+            "克隆仓库并安装Python依赖。",
+            "执行 'python -m camoufox fetch' 下载浏览器引擎。",
+            "配置 'config.json'，填入邮箱和代理信息。"
+          ],
+          "note": "Windows环境下激活虚拟环境的命令不同；未执行 camoufox fetch 将无法启动浏览器。"
+        },
+        "competitors": [],
+        "pricing": "免费（MIT许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个针对特定目标（Grok）的自动化工具，主要通过配置和Web面板进行操作，开发者介入编码的场景较少。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度尚可，Issue数量少且解决及时，项目运行可能相对稳定。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-07-31T05:04:53.838Z"
+    },
+    {
+      "owner": "ChrisMack32",
+      "repo": "Locus",
+      "fullName": "ChrisMack32/Locus",
+      "description": "Free open-source iPhone location teleport (MIT)",
+      "language": "Swift",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-27T19:36:48Z",
+      "url": "https://github.com/ChrisMack32/Locus",
+      "analysis": {
+        "positioning": "准确iPhone虚拟定位工具，免越狱开源。",
+        "useCases": [
+          "你做LBS应用测试 → 它帮你模拟在地图上行走、驾车、骑行等真实移动路径。",
+          "你想绕过地理限制或保护隐私 → 它帮你一键伪造iPhone GPS位置到任意地点或搜索的地点。",
+          "你想在非反作弊类App中使用虚拟位置 → 它帮你实现系统级的虚拟位置注入（例如Apple Maps）。"
+        ],
+        "audience": "开发者和普通用户，希望在iPhone上灵活控制虚拟位置，用于测试、娱乐或突破地理限制。",
+        "quickStart": {
+          "prerequisites": "iOS 18及以上版本，需安装LocalDevVPN。根据iOS版本可能需要RPPairing文件。",
+          "steps": [
+            "从GitHub Releases下载IPA或自行编译。",
+            "通过侧载方式将Locus安装到iPhone。",
+            "根据iOS版本（iOS 27直接在设置中配对，iOS 18-26需导入RPPairing文件）完成配对。",
+            "首次使用需在Wi-Fi环境下启动虚拟定位。"
+          ],
+          "note": "Pokémon GO等强反作弊游戏可能无法正常使用。LiveContainer文件选择器问题可通过开启“Fix File Picker”解决。"
+        },
+        "competitors": [
+          {
+            "name": "iPogo / SpooferPro",
+            "method": "修改版游戏客户端",
+            "models": "专注于特定游戏（如Pokémon GO）",
+            "pricing": "通常付费或需订阅"
+          }
+        ],
+        "pricing": "免费、开源 (MIT协议)。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能明确，文档详尽，提供便捷安装方式（预构建IPA），但Issue关闭数为零，社区互动及维护活跃度有待观察。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量少但暂无关闭记录，项目维护活跃度需进一步观察。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-07-31T05:05:08.416Z"
+    },
+    {
+      "owner": "lyu0805",
+      "repo": "pixshell",
+      "fullName": "lyu0805/pixshell",
+      "description": "跨平台 SSH / SFTP 桌面客户端 · 终端 · 连接管理 · 文件传输 | Cross-platform SSH/SFTP desktop client for macOS, Windows ",
+      "language": "Swift",
+      "topics": [
+        "cross-platform",
+        "desktop-app",
+        "devops",
+        "electron",
+        "linux",
+        "macos",
+        "pixshell",
+        "remote-desktop",
+        "sftp",
+        "sftp-client",
+        "ssh",
+        "ssh-client",
+        "terminal",
+        "windows",
+        "xterm"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-25T20:30:31Z",
+      "url": "https://github.com/lyu0805/pixshell",
+      "analysis": {
+        "positioning": "高性能、原生跨平台的SSH/SFTP桌面客户端。",
+        "useCases": [
+          "你管理多台远程服务器 → 它帮你用图形界面统一连接、管理和操作。",
+          "你需要在本地与远程服务器间传输文件 → 它提供SFTP文件浏览器，支持拖拽、编辑和打包传输。",
+          "你希望集成AI工具进行远程开发或运维 → 它提供本地自动化桥接及AI SSH桥接功能。"
+        ],
+        "audience": "远程服务器管理员、运维工程师、开发者，以及需要高效管理服务器连接和文件的用户。",
+        "quickStart": {
+          "prerequisites": "macOS: Xcode。Windows: Visual Studio。",
+          "steps": [
+            "git clone https://github.com/lyu0805/pixshell.git",
+            "cd pixshell/mac && xcodebuild -scheme PixShell -configuration Release (或用Xcode打开并构建)",
+            "cd pixshell/win && (用Visual Studio打开PixShell.sln并构建)"
+          ],
+          "note": "macOS版本采用Swift构建，Windows版本采用WPF/C#构建，两者技术栈不同需分开编译。"
+        },
+        "competitors": [
+          {
+            "name": "Termius",
+            "method": "桌面客户端（多平台）、移动端、Web",
+            "models": null,
+            "pricing": "免费版功能有限，高级功能付费"
+          },
+          {
+            "name": "MobaXterm",
+            "method": "桌面客户端（Windows）",
+            "models": null,
+            "pricing": "免费社区版，专业版付费"
+          },
+          {
+            "name": "WinSCP",
+            "method": "桌面客户端（Windows）",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（开源项目）",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目采用原生技术栈（macOS Swift、Windows WPF）而非Electron，保证了性能和体验。功能全面，包含连接管理、SFTP、远程编辑、AI集成等，且具备创新性的本地自动化桥接功能。截图显示UI精致，开发活跃。目前Star数和社区活跃度较低，但潜力巨大。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，但现有Issue处理及时（1开4关），项目处于早期积极开发阶段。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-31T05:05:22.326Z"
+    },
+    {
+      "owner": "elayadesign",
+      "repo": "ai-design-skills",
+      "fullName": "elayadesign/ai-design-skills",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-29T06:43:16Z",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "analysis": {
+        "positioning": "AI编码工具的设计技能库，用Markdown规则指导AI生成设计。",
+        "useCases": [
+          "你需要为AI编码工具提供设计规范 → 它提供可复用的Markdown设计技能文件。",
+          "你想快速搭建一个全新的着陆页 → 它帮你通过AI生成完整的着陆页设计（结构、文案、视觉系统）。",
+          "你希望自定义AI生成的设计风格 → 它允许你修改技能文件中的设计参数（字体、颜色、间距等）。"
+        ],
+        "audience": "使用Claude Code、Cursor等AI编码工具的开发者、设计师或产品经理，希望通过预设规则提高AI生成设计的效率和质量。",
+        "quickStart": {
+          "prerequisites": "任意支持读取Markdown规则文件的AI编码工具（如Claude Code, Cursor, Codex, Windsurf）。",
+          "steps": [
+            "从项目中选择一个设计技能（例如`landing-page-design`）。",
+            "根据你的AI工具类型，将该技能对应的`SKILL.md`文件安装到工具指定的规则路径下或直接粘贴到Prompt中。"
+          ],
+          "note": "不同AI工具的安装方式不同，可能涉及文件复制、`curl`下载或直接粘贴。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目通过Markdown规则文件指导AI生成设计，核心是描述性的配置，用户通过编辑文件中的设计参数即可影响AI的输出，符合Vibe Coding的特点。",
+        "isVibeCoding": true,
+        "communityActivity": "活跃度较低，目前仅有1个开启的Issue，没有关闭的Issue。",
+        "category": "Prompt工程"
+      },
+      "analyzedAt": "2026-07-31T05:05:33.927Z"
+    },
+    {
+      "owner": "codermyxiaoc",
+      "repo": "sub2api-guardian",
+      "fullName": "codermyxiaoc/sub2api-guardian",
+      "description": "sub2api-guardian",
+      "language": "Go",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-30T03:16:09Z",
+      "url": "https://github.com/codermyxiaoc/sub2api-guardian",
+      "analysis": {
+        "positioning": "为sub2api打造的智能渠道调度守护，确保高可用与最佳性能。",
+        "useCases": [
+          "你人工监控API渠道健康与性能 → 它自动测活、测延迟，驱动健康分与调度。",
+          "你处理API渠道熔断、降级与回池操作复杂 → 它自动熔断、降级、调权与回池，确保分组永不断供。",
+          "你担心API限流导致服务中断或容量浪费 → 它智能处理限流，只降权不摘除，保障限流结束后立即恢复。"
+        ],
+        "audience": "使用sub2api管理多个API渠道的开发者和运维工程师，需要自动化渠道健康管理与智能调度的场景。",
+        "quickStart": {
+          "prerequisites": "Linux服务器 (AMD64/ARM64)、systemd、curl或wget、root或sudo权限。",
+          "steps": [
+            "curl -fsSL https://raw.githubusercontent.com/codermyxiaoc/sub2api-guardian/main/install.sh | sudo bash"
+          ],
+          "note": "可自定义端口、监听地址、安装指定版本；重复执行用于升级；支持离线安装。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目）。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "针对sub2api的痛点提供一套完整的自动化解决方案，功能全面，部署极简（单个二进制，内嵌前端，零依赖），文档和UI截图清晰，解决实际问题。",
+        "isVibeCoding": true,
+        "communityActivity": "Star数217，Issue统计显示0开0关，可能项目维护者积极处理，或用户尚未使用Issue系统。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-07-31T05:05:48.227Z"
+    },
+    {
+      "owner": "ogulcancelik",
+      "repo": "herdr-browser",
+      "fullName": "ogulcancelik/herdr-browser",
+      "description": "Render a real Chromium view inside a Herdr pane and drive it over CDP.",
+      "language": "TypeScript",
+      "topics": [
+        "browser",
+        "browser-automation",
+        "cdp",
+        "chromium",
+        "herdr-plugin",
+        "kitty-graphics",
+        "terminal"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-26T18:06:50Z",
+      "url": "https://github.com/ogulcancelik/herdr-browser",
+      "analysis": {
+        "positioning": "在终端实时可视化并介入浏览器自动化，或预览Web服务。",
+        "useCases": [
+          "你运行浏览器自动化脚本 → 它让你在终端实时观看，并随时通过键盘鼠标介入。",
+          "你开发本地Web服务 → 它让你无需离开终端即可预览页面效果。",
+          "你需要调试自动化流程 → 它提供可交互视图，支持CDP客户端远程控制，便于精准调试。"
+        ],
+        "audience": "对浏览器自动化有实时观察和交互需求，并习惯在终端环境工作的开发者和测试工程师。",
+        "quickStart": {
+          "prerequisites": "Herdr 0.7.4+ (需启用Kitty图形支持), Linux或macOS系统, Bun, Google Chrome或Chromium, 兼容Kitty图形协议的终端（如Ghostty, kitty, WezTerm）",
+          "steps": [
+            "配置Herdr启用实验性图形支持：在Herdr配置中添加 `[experimental] kitty_graphics = true` 并重启Herdr。",
+            "安装插件：运行 `herdr plugin install ogulcancelik/herdr-browser --yes`。",
+            "获取插件路径并连接：运行 `herdr plugin list --plugin official.browser --json` 获取 `result.plugins[0].plugin_root`，然后使用Bun运行 `bun run \"<plugin_root>/src/cli.ts\" connect --view <view_id>`。"
+          ],
+          "note": "仅支持Linux或macOS系统。"
+        },
+        "competitors": [
+          {
+            "name": "传统无头浏览器自动化 (如Playwright/Puppeteer headless模式)",
+            "method": "自动化脚本静默运行，无法实时观察界面",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "传统带界面浏览器自动化 (如Playwright/Puppeteer headed模式)",
+            "method": "自动化在独立浏览器窗口运行，与终端会话分离，实时交互不便",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（MIT License）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "巧妙地解决了浏览器自动化调试痛点，将实时可交互的浏览器视图无缝集成到终端。但对底层环境（Herdr, Kitty Graphics）有特定要求，受众相对小众。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启3个/关闭0个，社区互动及问题解决情况有待观察，可能处于早期阶段或用户基数较小。",
+        "category": "测试工具"
+      },
+      "analyzedAt": "2026-07-31T05:06:08.591Z"
     }
   ]
 }
