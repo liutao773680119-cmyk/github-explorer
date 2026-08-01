@@ -1,0 +1,179 @@
+{
+  "version": "1",
+  "date": "2026-08-01",
+  "startedAt": "2026-08-01T04:55:31.123Z",
+  "finishedAt": "2026-08-01T05:02:48.655Z",
+  "durationSeconds": 438,
+  "success": true,
+  "stats": {
+    "fetched": 135,
+    "newProjects": 22,
+    "skipped": 113,
+    "geminiCalls": 40,
+    "statsUpdated": 135
+  },
+  "errors": [
+    {
+      "time": "2026-08-01T04:59:57.245Z",
+      "level": "warn",
+      "project": "sam-youngao134/bamboo-flute-studio-hub",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:00.665Z",
+      "level": "warn",
+      "project": "victorqhwhall8029/apexsignal-app-update",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:04.041Z",
+      "level": "warn",
+      "project": "zackdavisdtdb2395/solara-executor-update-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:07.506Z",
+      "level": "warn",
+      "project": "victorwscwalker5297/apex-automated-ea",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:10.854Z",
+      "level": "warn",
+      "project": "caleb-rossvtf8117/arch-ai-tools-service-hub",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:14.282Z",
+      "level": "warn",
+      "project": "olivertwswalker3549/anuhas-tools-web-hub",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:17.724Z",
+      "level": "warn",
+      "project": "mattcolends4131/ai-genie-pdf-editor",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:21.158Z",
+      "level": "warn",
+      "project": "fosterbenfsyg2406/ariari-tools-script-hub",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:24.527Z",
+      "level": "warn",
+      "project": "greenloganbeqd5894/apiart-api-dashboard",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:27.965Z",
+      "level": "warn",
+      "project": "gabe-millerhjz8660/aio-downloader-update-hub",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:00:33.344Z",
+      "level": "warn",
+      "project": "yc-software/qm",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:01:18.369Z",
+      "level": "warn",
+      "project": "sqliteai/waste",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:01:21.804Z",
+      "level": "warn",
+      "project": "Packets/tew",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:01:25.159Z",
+      "level": "warn",
+      "project": "ddoemonn/interior",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:01:32.811Z",
+      "level": "warn",
+      "project": "deedy/qr-data-transfer",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:01:38.341Z",
+      "level": "warn",
+      "project": "Kenton-GMI/sakura-crossing",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:01:41.975Z",
+      "level": "warn",
+      "project": "steelbrain/reims-vgpu",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-01T05:02:04.871Z",
+      "level": "warn",
+      "project": "unicity-aos/aos-ce",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

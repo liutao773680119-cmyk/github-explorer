@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-07-31T05:06:08.619Z",
+  "updatedAt": "2026-08-01T05:01:12.475Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -76862,6 +76862,849 @@
         "category": "测试工具"
       },
       "analyzedAt": "2026-07-31T05:06:08.591Z"
+    },
+    {
+      "owner": "gabefishercb508",
+      "repo": "abay-bot-workflow-tools",
+      "fullName": "gabefishercb508/abay-bot-workflow-tools",
+      "description": "Telegram automation project for coordinating workflow tasks in the currently available 2026 build, with a compact HTML-oriented source structure, configurable settings, startup guidance, and an outlined update process.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T00:02:59Z",
+      "url": "https://github.com/gabefishercb508/abay-bot-workflow-tools",
+      "analysis": {
+        "positioning": "Telegram工作流自动化工具，源码HTML化，易于定制和集成。",
+        "useCases": [
+          "你想在Telegram上协调工作任务 → 它帮你实现自动化工作流管理。",
+          "你需要Telegram机器人重复操作 → 它提供一个轻量级、专注的自动化起点。",
+          "你想快速定制Telegram自动化功能 → 它提供HTML源码，易于查看、修改和集成。"
+        ],
+        "audience": "适用于需要轻量级Telegram工作流自动化、偏爱直接修改HTML源码以快速定制的用户。",
+        "quickStart": {
+          "prerequisites": "Telegram机器人连接信息",
+          "steps": [
+            "克隆仓库或下载最新构建。",
+            "配置Telegram机器人连接信息并启动项目。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "HTML作为主要语言构建Telegram机器人工作流，在业界相对少见。项目描述中的未来日期（2026）和版本号为未知，给人一种实验性或概念性的感觉。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低（Issue开启/关闭均为0）。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:55:43.570Z"
+    },
+    {
+      "owner": "danielmillersr2593",
+      "repo": "3d-print-tools-editor",
+      "fullName": "danielmillersr2593/3d-print-tools-editor",
+      "description": "Client-side browser toolkit for viewing, editing, inspecting, and preparing common 3D-printing files, with support generation and toolpath visualization. Use the hosted version or serve a local checkout.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T00:03:03Z",
+      "url": "https://github.com/danielmillersr2593/3d-print-tools-editor",
+      "analysis": {
+        "positioning": "浏览器端3D打印文件工具包，支持查看、编辑、准备、支撑生成和刀路可视化。",
+        "useCases": [
+          "你拿到各种3D打印文件（STL, 3MF, G-code等）→ 它帮你拖拽查看模型、检查尺寸和表面。",
+          "你想调整模型或添加支撑结构 → 它帮你直接在浏览器里编辑网格、分离对象、生成低接触支撑。",
+          "你需要预览打印机的路径 → 它帮你可视化切片后的3MF刀路和原始G代码，无需上传文件到服务器。"
+        ],
+        "audience": "3D打印爱好者、创客和设计师，需要一个快速、无需后端就能在浏览器中处理3D打印文件的工具。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问官网链接：https://danielmillersr2593.github.io/3d-print-tools-editor/",
+            "拖放3D打印文件（如STL, 3MF）到浏览器即可开始使用。"
+          ],
+          "note": "也可将项目克隆到本地，通过任何静态文件服务器（如Python的http.server）运行。"
+        },
+        "competitors": [
+          {
+            "name": "Ultimaker Cura",
+            "method": "桌面应用",
+            "models": "STL, 3MF, OBJ等",
+            "pricing": "免费"
+          },
+          {
+            "name": "PrusaSlicer",
+            "method": "桌面应用",
+            "models": "STL, 3MF, OBJ等",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于GPL-3.0开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述清晰，功能定位明确，支持多种模型格式和客户端操作是亮点。但GitHub活跃度（星数、issue）偏低，且“Updated 2026”日期略显可疑，可能意味着项目处于早期或维护不频繁。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前没有开启或关闭的Issue，用户互动和反馈不足。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:55:59.481Z"
+    },
+    {
+      "owner": "ryanphqross9118",
+      "repo": "seliware-executor-script-update",
+      "fullName": "ryanphqross9118/seliware-executor-script-update",
+      "description": "Free Windows utility for running Lua scripts in Roblox with one-click injection, a 500+ script hub, saved execution queues, automatic updates, multilingual UI, and no key required. Supports Windows 10/11 64-bit.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T00:03:08Z",
+      "url": "https://github.com/ryanphqross9118/seliware-executor-script-update",
+      "analysis": {
+        "positioning": "Roblox Lua脚本执行器，一键注入，自带500+脚本库。",
+        "useCases": [
+          "你想要在Roblox中执行自定义Lua脚本 → 它帮你一键注入并运行。",
+          "你寻求Roblox游戏自动化或扩展功能 → 它提供500+脚本库供你选择。",
+          "你希望便捷管理和重复使用脚本 → 它帮你保存执行队列，支持历史记录。"
+        ],
+        "audience": "Roblox玩家或脚本开发者，希望在游戏中实现自动化、扩展功能或测试自定义脚本。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 64位系统；已安装Roblox游戏。",
+          "steps": [
+            "下载并打开Seliware。",
+            "连接Seliware到正在运行的Roblox会话。",
+            "从内置脚本库中选择脚本并执行。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费；无需激活码。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个针对Roblox游戏的特定工具，虽然技术性强且功能实用，但其主要受众是游戏玩家而非广义开发者社区。它解决了特定游戏内的痛点，但可能不具备普遍意义上激发“代码氛围”的潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0开0关，社区活跃度极低或未体现在GitHub Issue中。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:56:11.915Z"
+    },
+    {
+      "owner": "noah-scottqkh6962",
+      "repo": "addon-ez-bedrock-loader",
+      "fullName": "noah-scottqkh6962/addon-ez-bedrock-loader",
+      "description": "Browser-based utility for discovering, preparing, and installing Bedrock sandbox-game add-ons through a simple web workflow, with an online version, local serving support, deployment guidance, update paths, and troubleshooting resources.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T00:27:51Z",
+      "url": "https://github.com/noah-scottqkh6962/addon-ez-bedrock-loader",
+      "analysis": {
+        "positioning": "浏览器端Minecraft基岩版模组管理工具，简化安装流程。",
+        "useCases": [
+          "你想找Minecraft基岩版模组 → 它让你在浏览器里发现并浏览海量模组。",
+          "你嫌手动安装模组复杂 → 它帮你在线准备模组，并提供引导式安装流程。",
+          "你不想下载安装桌面应用来管理模组 → 它提供在线版或本地部署，即开即用。"
+        ],
+        "audience": "希望通过简单网页操作，发现、准备并安装Minecraft基岩版模组的玩家。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "访问在线版（无需安装）。",
+            "浏览并选择你想要的Minecraft基岩版模组。",
+            "根据页面指引完成模组准备工作。",
+            "按提示在Minecraft基岩版中完成导入或安装。"
+          ],
+          "note": "本地运行推荐使用HTTP服务器，以获得更稳定的浏览器体验。"
+        },
+        "competitors": [],
+        "pricing": "免费，开源（GPL-3.0）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了Minecraft基岩版模组安装的痛点，提供简洁的网页操作流程。虽然项目活跃度低，但场景明确，对目标用户友好。命名和更新时间戳有些困惑。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue提交或讨论。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:56:24.311Z"
+    },
+    {
+      "owner": "will-woodvyzr9966",
+      "repo": "azhai-seo-utility-hub",
+      "fullName": "will-woodvyzr9966/azhai-seo-utility-hub",
+      "description": "Azhai is a browser-based toolkit with 31+ free AI, text, and SEO utilities for word counting, JSON cleanup, metadata generation, keyword evaluation, and related content workflows.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:41:49Z",
+      "url": "https://github.com/will-woodvyzr9966/azhai-seo-utility-hub",
+      "analysis": {
+        "positioning": "浏览器端免费AI、文本、SEO一体化工具集",
+        "useCases": [
+          "你撰写内容 → 它帮你快速统计字数",
+          "你处理JSON数据 → 它帮你格式化使其易读",
+          "你进行SEO优化 → 它帮你生成元数据及评估关键词"
+        ],
+        "audience": "内容创作者、SEO优化师、文本及数据处理人员，解决日常编辑、优化与数据整理痛点",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "直接访问在线托管版本",
+            "选择所需工具并提供输入"
+          ],
+          "note": "若需本地部署，克隆仓库后直接在浏览器打开`index.html`，部分浏览器可能需要本地静态服务器"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "集合31+免费AI、文本和SEO工具，浏览器端轻量部署，专注于解决日常内容创作和网站优化的具体痛点，实用性强",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，目前无Issue记录",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:56:36.945Z"
+    },
+    {
+      "owner": "jordan-greencz5073",
+      "repo": "agroclick-farmer-hub",
+      "fullName": "jordan-greencz5073/agroclick-farmer-hub",
+      "description": "AgroClick is a responsive agricultural marketplace connecting sellers with customers through distance-based shop discovery, English and Tamil localization, online ordering, and Razorpay payment support.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T01:11:14Z",
+      "url": "https://github.com/jordan-greencz5073/agroclick-farmer-hub",
+      "analysis": {
+        "positioning": "农业电商平台，连接农户与客户。",
+        "useCases": [
+          "你想买农产品 → 它帮你发现附近农店，在线选购并支付。",
+          "你是农户/卖家 → 它帮你管理商品、库存、订单和客户评价。",
+          "你寻求本地化电商 → 它提供多语言(英/泰米尔语)和远程店铺发现。"
+        ],
+        "audience": "寻求本地化农产品在线交易解决方案的农户、商家和消费者，尤其适合印度泰米尔纳德邦及类似地区。",
+        "quickStart": {
+          "prerequisites": "Node.js环境",
+          "steps": [
+            "克隆仓库：`git clone https://github.com/jordan-greencz5073/agroclick-farmer-hub.git`",
+            "进入项目目录：`cd agroclick-farmer-hub`",
+            "安装依赖：`npm install`",
+            "运行应用：`npm start`"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位清晰，功能描述详细，提供完整的上手指南。Star数一般，Issue活跃度为零，但作为功能齐全的农业电商解决方案，具有实用价值。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度极低或尚未启动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:56:52.842Z"
+    },
+    {
+      "owner": "evangrayfu9443",
+      "repo": "airwiggles-project-hub",
+      "fullName": "evangrayfu9443/airwiggles-project-hub",
+      "description": "Airwiggles is a browser-based project management tool for planning projects, organizing tasks, and keeping teams aligned, with a structured workspace for everyday project coordination in 2026.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T01:27:31Z",
+      "url": "https://github.com/evangrayfu9443/airwiggles-project-hub",
+      "analysis": {
+        "positioning": "浏览器端项目管理工具，专注于2026年团队协作与任务协调。",
+        "useCases": [
+          "你规划项目 → 它帮你创建和结构化项目。",
+          "你管理团队任务 → 它帮你共享工作流，跟踪任务进展。",
+          "你协作沟通 → 它提供统一浏览器工作区，保持团队同步。"
+        ],
+        "audience": "适合需要浏览器端进行项目规划、任务管理及团队协作的个人和小型团队。",
+        "quickStart": {
+          "prerequisites": "本地Web服务器 (用于托管静态文件)",
+          "steps": [
+            "git clone https://github.com/evangrayfu9443/airwiggles-project-hub.git",
+            "cd airwiggles-project-hub",
+            "用本地Web服务器托管项目，并在浏览器中访问对应URL。"
+          ],
+          "note": "可直接访问其托管版本（见README链接）进行体验，无需本地部署。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目星标低，无Issue记录，且语言仅为HTML，更像一个未来概念的展示页或非常早期的静态原型，非活跃项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:57:04.941Z"
+    },
+    {
+      "owner": "oliverbennettqrzi1259",
+      "repo": "acuity-enterprise-scheduler",
+      "fullName": "oliverbennettqrzi1259/acuity-enterprise-scheduler",
+      "description": "Acuity Scheduling Enterprise Toolkit v2026.1.0 is a scheduling workflow utility for Windows, macOS, and Linux with profile-driven configuration, license verification support, and API connectivity.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T00:31:37Z",
+      "url": "https://github.com/oliverbennettqrzi1259/acuity-enterprise-scheduler",
+      "analysis": {
+        "positioning": "Acuity Scheduling企业级跨平台日程管理与激活助手。",
+        "useCases": [
+          "你需要激活Acuity Scheduling高级功能 → 它帮你完成授权激活流程并验证许可证。",
+          "你想标准化配置多个Acuity Scheduling环境 → 它帮你通过配置文件快速部署和定制系统设置。",
+          "你需要管理日程或生成定制化报告 → 它帮你增强预约管理功能并输出品牌化PDF/日历文件。"
+        ],
+        "audience": "Acuity Scheduling的企业管理员或团队，用于简化日程系统的部署、管理、高级功能激活和报告生成。",
+        "quickStart": {
+          "prerequisites": "Git（如果从源代码启动）",
+          "steps": [
+            "克隆仓库：git clone https://github.com/oliverbennettqrzi1259/acuity-enterprise-scheduler.git",
+            "进入目录并启动：cd acuity-enterprise-scheduler，运行对应操作系统的可执行文件或从源文件启动。"
+          ],
+          "note": "也可直接通过README中的链接下载对应操作系统的预编译可执行文件。"
+        },
+        "competitors": [],
+        "pricing": "免费（GPL-3.0开源许可），但可能需要Acuity Scheduling的付费许可。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "项目描述为跨平台桌面应用，但GitHub仓库的主要语言却是HTML，这极不寻常且令人怀疑。版本号和更新日期为2026年，结合“软件激活助手”的名称，以及直接从GitHub Pages提供可执行文件下载的模式，存在潜在恶意软件或诈骗的风险。建议谨慎对待。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，没有开启或关闭的Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:57:21.334Z"
+    },
+    {
+      "owner": "jasonubhgreen2473",
+      "repo": "apollo-lunar-script-sim",
+      "fullName": "jasonubhgreen2473/apollo-lunar-script-sim",
+      "description": "A browser and Adobe Acrobat PDF lunar-landing simulator powered by a deterministic JavaScript physics engine, modeling free fall, lunar gravity, and landing results across two runtime formats.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:18:51Z",
+      "url": "https://github.com/jasonubhgreen2473/apollo-lunar-script-sim",
+      "analysis": {
+        "positioning": "跨平台月球着陆模拟器，支持浏览器和PDF运行。",
+        "useCases": [
+          "你想模拟月球着陆 → 它用JS物理引擎在浏览器里为你实时演算着陆过程和结果。",
+          "你需要离线或PDF演示 → 它提供Adobe Acrobat PDF版，确保物理行为一致。",
+          "你好奇模拟器原理 → 它内置测试器助你直接在网页中验证物理引擎实现。"
+        ],
+        "audience": "物理爱好者、教育工作者和技术好奇者，用于学习、演示或探索月球着陆物理模拟。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目的最新构建链接。",
+            "启动浏览器模拟器进行体验。",
+            "下载PDF文档并在Adobe Acrobat中打开以使用PDF版。",
+            "开始着陆场景并检查模拟结果。"
+          ],
+          "note": "浏览器版在线即用，PDF版需Adobe Acrobat支持。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目以独特的JavaScript物理引擎，实现了跨浏览器和PDF的月球着陆模拟，这种将复杂计算封装进不同运行时环境的巧思，体现了一种技术探索和趣味性，但并非面向大众的实用开发工具。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:57:31.936Z"
+    },
+    {
+      "owner": "michaelakyross3566",
+      "repo": "apex-industrial-cooling",
+      "fullName": "michaelakyross3566/apex-industrial-cooling",
+      "description": "Web-based company profile for APEX Engineering and Power Cooling Systems, presenting cooling tower solutions, mechanical engineering, industrial construction, and hardware supply services across India in 2026.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:16:15Z",
+      "url": "https://github.com/michaelakyross3566/apex-industrial-cooling",
+      "analysis": {
+        "positioning": "APEX冷却工程官网，展示印度工业冷却和工程服务。",
+        "useCases": [
+          "你寻找工业冷却方案 → 它帮你了解APEX的冷却塔设计与工程服务。",
+          "你需评估机械工程供应商 → 它帮你查看APEX在印度的工程能力。",
+          "你需采购工业设备硬件 → 它帮你发现APEX的硬件供应范围。"
+        ],
+        "audience": "适合寻求印度工业冷却、机械工程及设备供应服务的潜在客户和合作伙伴。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目提供的在线链接。"
+          ],
+          "note": "如需本地部署，可克隆仓库并在静态Web服务器上运行HTML文件。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能完备的静态公司官网，代码结构清晰，易于部署和访问。作为展示企业服务的窗口，它很好地履行了职责。",
+        "isVibeCoding": true,
+        "communityActivity": "无Issue，社区活跃度未知。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:57:43.037Z"
+    },
+    {
+      "owner": "noah-davisco2450",
+      "repo": "apexclean-site-update",
+      "fullName": "noah-davisco2450/apexclean-site-update",
+      "description": "ApexClean is a browser-based website with the latest available release, published through GitHub Pages. Use the repository to access the site, inspect its source, review project settings, and follow local preview guidance.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:17:09Z",
+      "url": "https://github.com/noah-davisco2450/apexclean-site-update",
+      "analysis": {
+        "positioning": "基于GitHub Pages的HTML网站项目，提供在线访问和源码查看。",
+        "useCases": [
+          "你想在线浏览一个网站 → 它提供GitHub Pages托管的最新版网站。",
+          "你想学习或修改网站前端代码 → 它提供HTML源码供你检查和修改。",
+          "你想本地预览网站改动 → 它支持本地克隆和预览，再通过GitHub Pages发布。"
+        ],
+        "audience": "适合想快速部署一个简单网站，或学习/修改前端代码的开发者和学习者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目提供的GitHub Pages链接。",
+            "在浏览器中直接使用该网站。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（项目代码和GitHub Pages托管均免费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目本身是一个基于HTML的简单网站，主要提供在线访问和源码查看，无独特创意或复杂技术亮点，实用性优先。",
+        "isVibeCoding": false,
+        "communityActivity": "社区活跃度极低，目前无Issue交流。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:57:58.765Z"
+    },
+    {
+      "owner": "tompriceabg9176",
+      "repo": "catilus-roblox-script-executor",
+      "fullName": "tompriceabg9176/catilus-roblox-script-executor",
+      "description": "A free Roblox Lua script runtime for Windows 10/11 64-bit, featuring script execution, an easy-to-browse script hub, and a compact desktop interface for the 2026 PC experience. No key required.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:42:10Z",
+      "url": "https://github.com/tompriceabg9176/catilus-roblox-script-executor",
+      "analysis": {
+        "positioning": "Windows下免费Roblox Lua脚本执行器，极简界面，无须Key。",
+        "useCases": [
+          "你想在Roblox里执行自定义脚本 → 它帮你运行Lua脚本。",
+          "你想找好用的Roblox脚本 → 它提供脚本库供你浏览和发现。",
+          "你需要一个简单易用的Roblox脚本管理工具 → 它提供简洁桌面界面进行脚本管理和加载。"
+        ],
+        "audience": "寻求免费、无Key、简洁界面的Windows 10/11平台Roblox脚本用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "访问项目主页的下载链接：tompriceabg9176.github.io/catilus-roblox-script-executor/",
+            "下载并运行 Catilus Roblox Executor"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目描述中明确提出“2026 PC experience”和“HTML-driven interface with a clean browser-inspired presentation”，强调了界面的现代化设计和用户体验，超出了基本功能实现。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0，社区活跃度极低或尚未开始。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:58:08.700Z"
+    },
+    {
+      "owner": "ryansjfwest7106",
+      "repo": "aneshub-anesthesia-hub-v5",
+      "fullName": "ryansjfwest7106/aneshub-anesthesia-hub-v5",
+      "description": "AnesHub v5 is a browser-accessible suite of smart utilities for anesthesia workflows, with a hosted application, local checkout option, configuration guidance, and local serving support for 2026.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T01:42:15Z",
+      "url": "https://github.com/ryansjfwest7106/aneshub-anesthesia-hub-v5",
+      "analysis": {
+        "positioning": "面向麻醉工作流程的浏览器端智能工具集",
+        "useCases": [
+          "你进行麻醉相关计算或信息查询 → 它提供集成化的麻醉实用工具辅助",
+          "你需要在浏览器中直接使用麻醉工具 → 它提供无需安装的网页版应用",
+          "你学习或实践麻醉知识 → 它作为一个轻量级资源提供实用工具集"
+        ],
+        "audience": "适合麻醉专业人士和学生，用于日常工作辅助或学习实践",
+        "quickStart": {
+          "prerequisites": "浏览器（Web）、Git（本地部署）",
+          "steps": [
+            "访问官方托管的应用地址",
+            "克隆项目到本地，直接用浏览器打开HTML文件，或通过本地静态服务器访问"
+          ],
+          "note": "本地部署时，可直接浏览器打开HTML文件，或启动本地静态服务器"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "垂直领域工具，纯HTML前端应用，功能聚焦但技术栈基础，社区活跃度低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无公开Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:58:22.400Z"
+    },
+    {
+      "owner": "sam-scottmecp7505",
+      "repo": "autodesk-dashboard-performance",
+      "fullName": "sam-scottmecp7505/autodesk-dashboard-performance",
+      "description": "A browser-based Autodesk Performance Dashboard for the 2026 release, organizing performance information into clear, easy-to-read visual views for streamlined review and monitoring.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:21:12Z",
+      "url": "https://github.com/sam-scottmecp7505/autodesk-dashboard-performance",
+      "analysis": {
+        "positioning": "用于Autodesk 2026的浏览器性能仪表盘，可视化展示数据。",
+        "useCases": [
+          "你想高效查看Autodesk性能数据 → 它帮你将数据可视化，集中展示。",
+          "你希望快速定位性能瓶颈 → 它提供结构化布局，便于解读和比较性能详情。",
+          "你需要一个无需安装的监控界面 → 它提供浏览器访问，随时随地查看性能信息。"
+        ],
+        "audience": "需要集中监控和分析Autodesk性能数据的开发者、工程师或项目经理。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/sam-scottmecp7505/autodesk-dashboard-performance.git`",
+            "进入项目目录，并用现代浏览器打开主HTML文件即可预览。"
+          ],
+          "note": "该应用为HTML基础，可本地直接运行，也可部署到任意Web服务器进行托管。"
+        },
+        "competitors": [],
+        "pricing": "免费，基于GPL-3.0开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数较少，且Issue区未见活跃，可能是较早期或维护不频繁的项目。技术栈为HTML，易于部署但功能扩展性可能受限。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区无任何活动，社区活跃度极低或项目刚启动。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-08-01T04:58:34.634Z"
+    },
+    {
+      "owner": "will-coopergt5547",
+      "repo": "eps-barcode-maker-2026",
+      "fullName": "will-coopergt5547/eps-barcode-maker-2026",
+      "description": "Offline-capable EPS barcode generator for creating EAN-13 barcodes from individual entries or Excel and CSV imports, with live previews and downloadable vector output.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:41:56Z",
+      "url": "https://github.com/will-coopergt5547/eps-barcode-maker-2026",
+      "analysis": {
+        "positioning": "离线EAN-13条码生成器，输出可编辑EPS矢量文件。",
+        "useCases": [
+          "你输入单个EAN-13条码值 → 它帮你实时预览并生成高质量EPS矢量图",
+          "你有一批EAN-13条码数据（Excel/CSV）→ 它帮你批量生成EPS矢量图，并可打包下载",
+          "你需要将条码用于Adobe Illustrator等专业设计软件 → 它帮你提供可编辑、可缩放的EPS矢量文件"
+        ],
+        "audience": "适合需要离线、批量生成EAN-13 EPS矢量条码的设计师、产品经理及印刷行业从业者。",
+        "quickStart": {
+          "prerequisites": "现代Web浏览器",
+          "steps": [
+            "访问项目提供的在线链接",
+            "输入EAN-13条码值或上传Excel/CSV文件",
+            "实时预览并下载生成的EPS矢量条码"
+          ],
+          "note": "若从本地仓库运行，某些环境下可能需启动本地Web服务器"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "功能明确，解决了特定痛点（离线、批量、EPS矢量输出），但Star数偏低，Issue活跃度为零，表明社区参与度不高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue统计为0开0关，无公开互动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:58:44.997Z"
+    },
+    {
+      "owner": "noahmillerzu731",
+      "repo": "apex-racing-team-hub",
+      "fullName": "noahmillerzu731/apex-racing-team-hub",
+      "description": "Browser-based team management web tool for a racing project in 2026, delivered as an HTML application with setup guidance, configuration notes, system requirements, FAQs, update information, and bug reporting details.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:16:35Z",
+      "url": "https://github.com/noahmillerzu731/apex-racing-team-hub",
+      "analysis": {
+        "positioning": "2026年赛车团队浏览器管理Web工具，纯HTML应用。",
+        "useCases": [
+          "你探索赛车团队管理流程 → 它提供基于Web的Apex赛车团队管理界面，助你模拟或学习。",
+          "你寻求易上手的Web项目模板 → 它提供纯HTML应用，下载即用，无需复杂配置。",
+          "你研究Web前端管理应用结构 → 它展示了以HTML为核心的浏览器端项目结构和实现思路。"
+        ],
+        "audience": "适合对赛车团队管理、纯Web应用开发或前端项目结构感兴趣的用户和开发者。",
+        "quickStart": {
+          "prerequisites": "Git，现代浏览器",
+          "steps": [
+            "克隆项目：`git clone https://github.com/noahmillerzu731/apex-racing-team-hub.git`",
+            "打开入口文件：`cd apex-racing-team-hub` 后，打开 `index.html`。"
+          ],
+          "note": "Windows用户可双击 `index.html` 或使用 `start index.html`。"
+        },
+        "competitors": [],
+        "pricing": "免费，遵循GPL-3.0开源许可。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目定位2026年，目前是一个纯HTML概念验证，功能不明确。部署简单，但成熟度、更新（日期是2026）和实际可用性存疑，社区活跃度极低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue列表为空，社区活跃度极低，未见用户参与或维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:58:58.260Z"
+    },
+    {
+      "owner": "sam-parkercpj1038",
+      "repo": "apex-lift-workout-hub",
+      "fullName": "sam-parkercpj1038/apex-lift-workout-hub",
+      "description": "A browser-based gym and fitness platform for building training plans, logging workouts, and managing everyday gym operations, with setup, deployment, configuration, and system requirement guidance for 2026.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:16:36Z",
+      "url": "https://github.com/sam-parkercpj1038/apex-lift-workout-hub",
+      "analysis": {
+        "positioning": "浏览器健身房管理与训练平台",
+        "useCases": [
+          "你制定训练计划 → 它帮你设计、保存和查看健身方案",
+          "你记录训练数据 → 它帮你追踪健身进度并回顾历史活动",
+          "你管理健身房日常事务 → 它帮你集中处理并协调运营工作"
+        ],
+        "audience": "个人健身爱好者、健身教练及健身房管理者，用于集中管理训练计划、记录健身数据及处理日常运营。",
+        "quickStart": {
+          "prerequisites": "本地Web服务器或静态托管服务",
+          "steps": [
+            "克隆项目到本地：`git clone https://github.com/sam-parkercpj1038/apex-lift-workout-hub.git`",
+            "将项目文件部署到Web服务器或静态托管服务，然后在浏览器中访问部署地址"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目概念清晰，README详细，但“更新于2026年”的标识、极低的Star数和零Issue显示其尚未成熟或处于非常早期的概念阶段，并非活跃维护的现行项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无任何Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:59:09.593Z"
+    },
+    {
+      "owner": "tyler-davisis3420",
+      "repo": "all-star-tower-script-loader",
+      "fullName": "tyler-davisis3420/all-star-tower-script-loader",
+      "description": "HTML-based Roblox tower defense script utility for 2026 with automatic collection support, adjustable script options, and a workflow for downloading, loading, configuring, and updating the package.",
+      "language": "HTML",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-01T01:30:41Z",
+      "url": "https://github.com/tyler-davisis3420/all-star-tower-script-loader",
+      "analysis": {
+        "positioning": "Roblox《All Star Tower Defense》的HTML辅助脚本。",
+        "useCases": [
+          "你玩《All Star Tower Defense》游戏 → 它帮你实现游戏内的自动收集。",
+          "你想自定义游戏脚本行为 → 它提供可调节的脚本选项。",
+          "你想快速获取和使用辅助脚本 → 它提供下载、加载、配置和更新的一站式流程。"
+        ],
+        "audience": "希望在Roblox《All Star Tower Defense》中自动收集资源或自定义游戏体验的玩家。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "访问项目下载链接，下载HTML包或脚本文件。",
+            "通过支持Roblox脚本加载器加载下载的HTML文件。",
+            "根据需要调整脚本设置，并在《All Star Tower Defense》游戏运行时启动脚本。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个针对特定Roblox游戏的功能性辅助脚本，主要用于自动化游戏操作，而非通用开发或编程体验，编码氛围不浓厚。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，目前无Issue记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:59:23.006Z"
+    },
+    {
+      "owner": "danielhugheshzgk2464",
+      "repo": "atm-project-2026-update",
+      "fullName": "danielhugheshzgk2464/atm-project-2026-update",
+      "description": "A browser-based ATM banking application built with HTML, CSS, and JavaScript. Practice essential workflows including PIN validation, balance viewing, deposits, and withdrawals in a straightforward 2026 project.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:19:46Z",
+      "url": "https://github.com/danielhugheshzgk2464/atm-project-2026-update",
+      "analysis": {
+        "positioning": "纯前端浏览器ATM银行应用，演示HTML/CSS/JS基础交互。",
+        "useCases": [
+          "你是前端初学者 → 它帮你实践HTML/CSS/JS，理解DOM操作和事件驱动。",
+          "你需快速演示Web应用交互 → 它提供一个开箱即用的ATM界面，无需后端。",
+          "你教Web开发基础知识 → 它作为课堂示例，直观展示前端业务逻辑。"
+        ],
+        "audience": "适合前端初学者、教育者或想快速了解前端交互逻辑的开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "克隆仓库：`git clone https://github.com/danielhugheshzgk2464/atm-project-2026-update.git`",
+            "进入目录后，在浏览器中打开`index.html`文件，或直接访问在线地址。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "其他HTML/CSS/JS前端项目示例",
+            "method": "查看代码，本地运行或在线体验",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目代码清晰、结构简单，是学习HTML/CSS/JS前端交互和DOM操作的优秀入门示例，演示了完整的ATM业务流程，但功能相对单一。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue 0/0，基本无互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:59:34.815Z"
+    },
+    {
+      "owner": "mooreethangwd5980",
+      "repo": "axm-tools-toolbox-2026",
+      "fullName": "mooreethangwd5980/axm-tools-toolbox-2026",
+      "description": "AXM Tools is a static web tools collection for local tracking, organ evolution assessment, PTA legislation monitoring, and evidence-driven workflows using standalone HTML utilities.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-01T02:41:15Z",
+      "url": "https://github.com/mooreethangwd5980/axm-tools-toolbox-2026",
+      "analysis": {
+        "positioning": "静态HTML工具集，用于本地追踪、评估和监控特定领域数据。",
+        "useCases": [
+          "你需管理本地合成库存和维护 → 它提供独立的HTML工具进行跟踪和挑战。",
+          "你需评估器官解剖和候选演变 → 它提供浏览器工作台进行深入分析。",
+          "你需监控本地PTA立法动态 → 它自动化进行数据抓取、过滤和月度报告生成。",
+          "你需安全录入受限或敌对来源的数据 → 它提供带外数据投放箱确保信息收集。"
+        ],
+        "audience": "适合需要轻量、离线、定制化数据追踪与评估的个人或小团队，尤其服务于地方教育、生物评估等特定需求。",
+        "quickStart": {
+          "prerequisites": "Git",
+          "steps": [
+            "克隆项目仓库：`git clone https://github.com/mooreethangwd5980/axm-tools-toolbox-2026.git`",
+            "进入项目目录：`cd axm-tools-toolbox-2026`",
+            "在浏览器中打开主HTML文件，或通过GitHub Pages部署后使用。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个高度专业化的静态HTML工具集，服务于非常具体的本地追踪、器官评估和立法监控需求。技术栈简单（纯HTML），通过GitHub Actions实现数据自动化处理，并支持来自受阻源的数据录入，显示出其针对特定场景的实用性。星星和Issues数量较低，表明其并非面向广泛开发者社区，更可能是一个小众或内部项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue统计显示无任何开启或关闭记录，可能为个人维护项目。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T04:59:53.794Z"
+    },
+    {
+      "owner": "WilonityDev",
+      "repo": "WilonityLoader",
+      "fullName": "WilonityDev/WilonityLoader",
+      "description": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no recoil, silent aim, chams, skin changer, unlock all, no spread.",
+      "language": "Unknown",
+      "topics": [
+        "arc-raiders",
+        "counter-strike-2",
+        "game",
+        "hack",
+        "meccha-chameleon-tools",
+        "minecraft"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-31T07:53:54Z",
+      "url": "https://github.com/WilonityDev/WilonityLoader",
+      "analysis": {
+        "positioning": "多游戏辅助注入器，突破反作弊系统。",
+        "useCases": [
+          "你想在热门竞技游戏中获得透视优势 → 它帮你显示敌人位置（ESP/Wallhack）。",
+          "你想在射击游戏中提高精准度 → 它帮你实现自动瞄准和无后座（Aimbot/No Recoil）。",
+          "你担心使用辅助被封号 → 它帮你绕过主流反作弊系统（EAC/BE/VG）并清理硬件ID。"
+        ],
+        "audience": "寻求在多款热门竞技游戏中获得不正当优势（如透视、自瞄）的玩家。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "下载 Wilonity Loader 应用程序",
+            "运行应用，选择你想要作弊的游戏并注入功能"
+          ],
+          "note": "支持 Windows 10/11 x64 及 ARM64 系统"
+        },
+        "competitors": [],
+        "pricing": "基于MIT许可证，代码免费开源。但此类绕过反作弊的辅助服务通常伴随收费订阅，以维持功能更新和反检测。",
+        "vibeCodingScore": 1,
+        "vibeCodingReason": "该项目旨在提供游戏作弊功能，严重破坏游戏公平性，与健康的游戏生态理念相悖。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 活跃度为零，社区互动不活跃。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-01T05:00:57.805Z"
+    },
+    {
+      "owner": "0xwilliamortiz",
+      "repo": "ratchet",
+      "fullName": "0xwilliamortiz/ratchet",
+      "description": "Your agent reads the rules. This checks whether it followed them.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "code-quality",
+        "developer-tools",
+        "hooks",
+        "llm",
+        "ratchet",
+        "rate-limiting",
+        "static-analysis",
+        "yagni"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-31T17:54:30Z",
+      "url": "https://github.com/0xwilliamortiz/ratchet",
+      "analysis": {
+        "positioning": "AI Agent代码质量实时守门员，强制Agent遵循极简规则。",
+        "useCases": [
+          "你让Agent实现功能，它引入了新依赖 → Ratchet会即时报告新依赖，并要求Agent说明理由或删除。",
+          "你让Agent写组件，它过度设计，写了不必要的封装 → Ratchet会提醒Agent简化代码，直接使用原生实现。",
+          "你的代码库复杂度增加 → Ratchet会实时监控Agent提交的代码行数和文件数，防止代码膨胀。"
+        ],
+        "audience": "使用LLM Agent进行软件开发，并希望强制执行代码规范、控制项目复杂度的开发者和团队。",
+        "quickStart": {
+          "prerequisites": "Node 20+，Git（用于完整的测量和审计功能）。",
+          "steps": [
+            "克隆项目并全局安装：`git clone https://github.com/0xwilliamortiz/ratchet.git && cd ratchet && npm install -g .`",
+            "在目标项目目录运行：`cd your-project && ratchet`，然后重启你的AI Agent。"
+          ],
+          "note": "Windows用户会自动打开 `ratchetui.exe` UI；若无Git，部分测量功能（如基线、审计）将受限。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目核心理念与Vibe Coding高度契合，强调“复杂度只能下降或保持不变”。它主动监控Agent代码，实时纠正过度设计、引入不必要依赖等“不Vibe”行为，强制Agent遵循极简、高效、使用标准库的原则，完美体现了YAGNI（You Ain't Gonna Need It）思想。",
+        "isVibeCoding": true,
+        "communityActivity": "现有Issue统计为0开0关，社区活跃度极低或尚处于早期阶段。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-01T05:01:12.451Z"
     }
   ]
 }
