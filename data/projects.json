@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-08-01T05:01:12.475Z",
+  "updatedAt": "2026-08-02T05:01:01.512Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -77705,6 +77705,603 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-08-01T05:01:12.451Z"
+    },
+    {
+      "owner": "yc-software",
+      "repo": "qm",
+      "fullName": "yc-software/qm",
+      "description": "Multiplayer agent harness for work",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-29T20:03:08Z",
+      "url": "https://github.com/yc-software/qm",
+      "analysis": {
+        "positioning": "为企业打造的多人协作AI Agent平台，支持独立工作与协作。",
+        "useCases": [
+          "你寻找企业内部信息 → 它帮你整合搜索所有数据源，高效检索。",
+          "你快速构建内部应用 → 它帮你开发并发布定制化应用，数据实时更新。",
+          "你跟踪项目进展并自动化更新 → 它帮你追踪共享项目，自动发布更新与跟进。",
+          "你优化邮件处理效率 → 它学习你的写作风格，自动整理收件箱并生成回复草稿。",
+          "你自动化代码仓库操作 → 它帮你运行测试、提交PR、监控CI、检查日志。"
+        ],
+        "audience": "适合初创公司，提供个性化AI助手工作区，同时支持团队协作和内部应用开发。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "部署核心服务和Postgres数据库。",
+            "配置并接入你选择的AI模型（如Pi, OpenCode等）。",
+            "配置Slack或Web应用集成，开始使用AI Agent。"
+          ],
+          "note": "身份和配置在Slack与Web应用间保持一致。"
+        },
+        "competitors": [],
+        "pricing": "核心软件免费（MIT开源），模型和基础设施成本自付。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "Star数高，文档详尽，架构清晰。但67个Issue未关闭，表明社区活跃度或维护响应可能不足。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开闭比极低（67开/0闭），社区活跃度和维护响应能力存疑。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-02T04:57:29.234Z"
+    },
+    {
+      "owner": "trycompai",
+      "repo": "crm",
+      "fullName": "trycompai/crm",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-31T21:38:51Z",
+      "url": "https://github.com/trycompai/crm",
+      "analysis": {
+        "positioning": "智能代理驱动的开源CRM",
+        "useCases": [
+          "你手动录入客户信息 → 智能代理自动收集、分析并记录客户数据",
+          "你花费时间跟踪销售线索 → 智能代理自主规划并执行后续跟进，管理销售流程",
+          "你担忧客户数据不准确 → 代理只记录观察到的事实证据，确保数据真实可靠"
+        ],
+        "audience": "适用于希望通过AI代理自动化客户关系管理和数据收集的内部销售或研究团队",
+        "quickStart": {
+          "prerequisites": "Bun runtime, PostgreSQL数据库, Google Sign-in配置",
+          "steps": [
+            "README中未提供具体快速启动步骤，需查阅其Quick Start文档"
+          ],
+          "note": "专为单租户内部部署设计，所有用户共享数据"
+        },
+        "competitors": [
+          {
+            "name": "Salesforce",
+            "method": "传统CRM（人工录入、表单驱动），AI功能多为辅助性聊天或预测",
+            "models": "通常集成自有或主流LLM，具体未公开",
+            "pricing": "付费（SaaS服务）"
+          },
+          {
+            "name": "HubSpot",
+            "method": "传统CRM（人工录入、表单驱动），AI功能多为辅助性聊天或内容生成",
+            "models": "通常集成自有或主流LLM，具体未公开",
+            "pricing": "付费（SaaS服务）"
+          }
+        ],
+        "pricing": "免费（MIT许可，开源自部署）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "创新性地将CRM核心设计为AI代理的笔记系统，而非传统数据库。解决了人工录入和AI聊天的效率瓶颈，通过自主代理实现数据收集、分析和决策，强调事实证据而非猜测，极具前瞻性。",
+        "isVibeCoding": true,
+        "communityActivity": "项目启动不久，Issue活动较少（2开0关），社区活跃度有待观察",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-02T04:57:46.023Z"
+    },
+    {
+      "owner": "sqliteai",
+      "repo": "waste",
+      "fullName": "sqliteai/waste",
+      "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+      "language": "C",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-28T20:56:00Z",
+      "url": "https://github.com/sqliteai/waste",
+      "analysis": {
+        "positioning": "在消费级硬件上运行万亿参数AI模型",
+        "useCases": [
+          "你没有高端服务器 → 它帮你用普通笔记本运行Kimi K3等万亿参数MoE模型",
+          "你内存不足 → 它帮你通过NVMe流式加载模型权重，突破内存限制",
+          "你追求本地推理隐私 → 它帮你实现超大模型（如Kimi K3）在本地离线运行"
+        ],
+        "audience": "希望在普通消费级电脑上运行Kimi K3等超大规模Mixture-of-Experts (MoE) AI模型的研究者、开发者和爱好者。",
+        "quickStart": {
+          "prerequisites": "已转换的Kimi K3模型权重文件（.waste格式）",
+          "steps": [
+            "获取并编译WASTE引擎。",
+            "准备Kimi K3模型文件（`.waste`格式）。",
+            "运行`waste run <模型路径> <你的查询>`进行推理。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，Apache-2.0许可证）",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "底层C语言实现，无第三方依赖，核心解决万亿级模型在消费级硬件内存限制下的运行瓶颈。技术挑战高，工程难度大，开创了消费级设备运行超大模型的可能性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少，但开闭比良好，显示项目处于早期探索和积极维护中。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-08-02T04:58:01.381Z"
+    },
+    {
+      "owner": "ddoemonn",
+      "repo": "interior",
+      "fullName": "ddoemonn/interior",
+      "description": "micro-interactions for react, built for the half-second after a click",
+      "language": "TypeScript",
+      "topics": [
+        "animation",
+        "micro-interactions",
+        "motion",
+        "react",
+        "ui-components"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-30T18:20:18Z",
+      "url": "https://github.com/ddoemonn/interior",
+      "analysis": {
+        "positioning": "为React提供点击后半秒的微交互，提升用户信任。",
+        "useCases": [
+          "你开发React组件 → 它帮你搞定点击后精细且可靠的微交互，解决“最后20%”的体验缺失",
+          "你希望UI动画流畅自然 → 它帮你避免组件加载跳动、动画中断等常见问题，确保体验一致性",
+          "你注重用户体验细节 → 它帮你实现键盘操作和辅助功能下的动效优雅降级，覆盖无障碍场景"
+        ],
+        "audience": "React开发者、UI/UX设计师，追求极致前端交互体验，关注细节和用户信任。",
+        "quickStart": {
+          "prerequisites": "已安装 `motion` 动画库",
+          "steps": [
+            "从 `components/interior/` 目录复制所需组件文件到你的项目",
+            "在项目中集成 `useX` hook和 `X` styled component（或基于 `useX` 自定义样式）"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费，采用MIT许可。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目精准定位，解决前端开发者常忽略但极其重要的UI微交互“最后20%”难题。理念清晰，通过可复制的单文件组件和headless hook，提供高度定制且可靠的解决方案，完美体现Vibe Coding哲学，关注用户体验的深层信任。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启少，无关闭，社区互动活跃度一般，可能因为项目设计目标精准，稳定性高，或处于早期。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-08-02T04:58:24.613Z"
+    },
+    {
+      "owner": "microsoft",
+      "repo": "skill-recorder",
+      "fullName": "microsoft/skill-recorder",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-29T18:16:14Z",
+      "url": "https://github.com/microsoft/skill-recorder",
+      "analysis": {
+        "positioning": "录制用户操作，生成AI代理可复用技能及自动化。",
+        "useCases": [
+          "你手动执行一次复杂流程 → 它生成AI代理按需重复执行。",
+          "你示范提交一个表单 → 它让AI代理智能处理所有类似表单。",
+          "你完成一次常规任务 → 它帮你设定自动化，定期或按触发条件运行。"
+        ],
+        "audience": "希望通过录制操作，快速为AI代理创建可复用技能的开发者及高级用户。",
+        "quickStart": {
+          "prerequisites": "具备GitHub Copilot访问权限的GitHub账户。",
+          "steps": [
+            "访问最新发布页，复制适用于您平台的安装命令。",
+            "在终端执行命令，自动下载并构建应用程序。"
+          ],
+          "note": "macOS是主要目标平台，Windows 11 (x64/ARM64) 也支持。"
+        },
+        "competitors": [],
+        "pricing": "免费，但核心功能依赖GitHub Copilot订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "将用户实际操作转化为AI代理可复用技能，结合Copilot CLI实现自动化，场景明确且有创新性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue解决率较低（1/26），社区活跃度有待提高。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-02T04:58:36.546Z"
+    },
+    {
+      "owner": "Packets",
+      "repo": "tew",
+      "fullName": "Packets/tew",
+      "description": "",
+      "language": "Unknown",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-31T13:41:26Z",
+      "url": "https://github.com/Packets/tew",
+      "analysis": {
+        "positioning": "用途未知，可能是一款特定领域的工具或实验性项目",
+        "useCases": [
+          "信息不足，无法提供具体使用场景"
+        ],
+        "audience": "由于信息极度缺乏，无法判断目标用户和典型场景",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "请查阅项目文档获取快速启动步骤",
+            "当前信息无法提供具体步骤"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "信息不足，无法判断定价模式",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目信息极度缺乏（无描述、无语言、无 Topics、无 License），仅有简单 README 和少量 Star，社区活跃度极低，难以评估其价值和潜力。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 均为零，社区活跃度极低或尚未启动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-02T04:58:49.076Z"
+    },
+    {
+      "owner": "deedy",
+      "repo": "qr-data-transfer",
+      "fullName": "deedy/qr-data-transfer",
+      "description": "",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-31T04:32:13Z",
+      "url": "https://github.com/deedy/qr-data-transfer",
+      "analysis": {
+        "positioning": "浏览器间零上传，通过动图QR码传输文件的工具。",
+        "useCases": [
+          "你需要将文件从PC传到手机，但不想联网或使用数据线 → 它帮你生成QR流，手机扫码即刻接收。",
+          "你需要在物理隔离（air-gapped）网络环境传输敏感文件 → 它帮你实现物理层面的数据桥接，确保信息不通过网络泄露。",
+          "你希望在多设备间临时分享文件，但不想安装App或登录账号 → 它帮你快速在浏览器间完成文件传输，无需额外安装。"
+        ],
+        "audience": "寻求安全、离线、无需安装应用即可在设备间传输文件的用户，尤其适合敏感数据或网络受限场景。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "在发送设备上打开根页面，选择文件。",
+            "在接收手机上打开/scan页面并允许摄像头权限。",
+            "启动QR码流，保持完整代码在手机取景框内。",
+            "当RaptorQ恢复和文件校验均达100%时保存文件。"
+          ],
+          "note": "null"
+        },
+        "competitors": [
+          {
+            "name": "AirDrop",
+            "method": "苹果生态系统无线传输（需Wi-Fi/蓝牙）",
+            "models": "macOS/iOS设备",
+            "pricing": "免费"
+          },
+          {
+            "name": "网盘/文件传输服务",
+            "method": "上传至云端再下载（需互联网）",
+            "models": "浏览器/App",
+            "pricing": "免费版有容量/速度限制"
+          },
+          {
+            "name": "蓝牙传输",
+            "method": "近距离无线传输（速度慢，可能需配对）",
+            "models": "任何支持蓝牙的设备",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (开源项目，完全在浏览器运行)",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目目标明确，技术方案（RaptorQ, WASM, 多路QR流）先进且细节详尽，解决了特定场景下的痛点（离线、零上传文件传输）。README质量高，包含协议细节和Demo，展示了深厚的技术功底和实用性。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启/关闭均为0，社区互动尚未体现。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-02T04:59:02.871Z"
+    },
+    {
+      "owner": "s1dashu",
+      "repo": "animated-voiceover",
+      "fullName": "s1dashu/animated-voiceover",
+      "description": "Create animated voiceover videos with reusable scripting, visual direction, voice consistency, and CLI-based generation workflows.",
+      "language": "Unknown",
+      "topics": [
+        "ai-video",
+        "animated-video",
+        "codex-skill",
+        "voiceover"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-07-31T13:32:12Z",
+      "url": "https://github.com/s1dashu/animated-voiceover",
+      "analysis": {
+        "positioning": "为知识内容生成高质量AI动画视频的Agent创作工具。",
+        "useCases": [
+          "你纠结复杂知识难讲清 → 它帮你梳理叙事线，让观众听懂且愿听。",
+          "你苦恼抽象概念难表现 → 它帮你设计人物、场景、故事，让思想可视化。",
+          "你担心AI生成视频风格不统一 → 它帮你锚定画风、人物、音色，保持整片一致性。"
+        ],
+        "audience": "知识科普创作者、教育者、播客主，及Agent开发者，希望高效制作高质量AI动画知识视频。",
+        "quickStart": {
+          "prerequisites": "需要LibTV CLI和Seedance平台（或兼容环境）",
+          "steps": [
+            "1. 提出一个主题或一句话创意。",
+            "2. 通过CLI或Agent协作，完成讲稿、视觉风格、镜头脚本、音色统一及成片制作。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（开源项目，MIT许可证）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目定位、核心能力、解决的痛点都阐述得非常清晰、一针见血。README结构化且内容丰富，价值突出。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，Issue统计显示目前无开启或关闭的Issue。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-02T04:59:16.273Z"
+    },
+    {
+      "owner": "EstebanPdN",
+      "repo": "zelda-alttp-3ds",
+      "fullName": "EstebanPdN/zelda-alttp-3ds",
+      "description": "Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3",
+      "language": "C",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-07-27T22:06:01Z",
+      "url": "https://github.com/EstebanPdN/zelda-alttp-3ds",
+      "analysis": {
+        "positioning": "《塞尔达传说：众神的三角力量》3DS双屏移植版。",
+        "useCases": [
+          "你希望在Nintendo 3DS上玩《塞尔达传说：众神的三角力量》 → 它让你享受定制的双屏体验，下屏实时显示地图和物品。",
+          "你已有原版ROM但想优化游戏体验 → 它支持多种显示模式、新3DS加速，并能通过诊断功能快速解决bug。",
+          "你希望体验社区驱动的开源游戏移植项目 → 它提供详细的安装指南、活跃的社区交流渠道，并接受捐赠支持项目发展。"
+        ],
+        "audience": "拥有Nintendo 3DS且对《塞尔达传说：众神的三角力量》感兴趣的玩家及自制软件（Homebrew）爱好者。",
+        "quickStart": {
+          "prerequisites": "一个合法的、未带文件头的美国版《塞尔达传说：众神的三角力量》ROM文件；SD卡根目录下/3ds/dspfirm.cdc文件（可通过Luma3DS的Rosalina菜单导出）。",
+          "steps": [
+            "安装提供的CIA文件。",
+            "在SD卡上创建目录：sdmc:/3ds/Zelda 3DS/",
+            "将ROM文件（.sfc或.smc）放入该目录。",
+            "首次启动游戏时，按A验证ROM并提取资产文件。"
+          ],
+          "note": "支持部分翻译ROM，但仍需原版USA ROM以补足缺失数据。推荐ROM文件名简短。音频功能需要DSP固件文件。"
+        },
+        "competitors": [],
+        "pricing": "免费，但接受Ko-fi平台捐赠。",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目文档详尽，安装和功能描述清晰，提供了社区（Discord）和捐赠渠道，积极处理Issue。对于一个特定平台的移植项目而言，维护质量高，用户体验友好。",
+        "isVibeCoding": true,
+        "communityActivity": "开启4个Issue，已关闭5个，说明项目维护者积极响应并解决问题，社区活跃度较高。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-08-02T04:59:28.805Z"
+    },
+    {
+      "owner": "Kenton-GMI",
+      "repo": "sakura-crossing",
+      "fullName": "Kenton-GMI/sakura-crossing",
+      "description": "An explorable Japanese suburban railway-crossing neighbourhood on a small planet, rendered 3D-to-2D as a cel-shaded anime background. Three.js, no image assets.",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-07-29T22:06:17Z",
+      "url": "https://github.com/Kenton-GMI/sakura-crossing",
+      "analysis": {
+        "positioning": "探索日式小行星上的赛璐珞动画风3D街区。",
+        "useCases": [
+          "你是Three.js开发者 → 它提供纯代码、无图片资产的3D转2D日式场景渲染范例。",
+          "你是寻求独特沉浸体验的用户 → 它提供一个可自由漫游、充满细节的日式郊区行星。",
+          "你是艺术或游戏背景设计师 → 它展示如何用程序化方式创建手绘风格的赛璐珞动画背景。"
+        ],
+        "audience": "Three.js开发者、动画背景艺术爱好者以及对独特虚拟漫游体验感兴趣的用户。",
+        "quickStart": {
+          "prerequisites": "Node.js 18或更高版本",
+          "steps": [
+            "npm install",
+            "npm run play 或 npm run dev"
+          ],
+          "note": "需通过HTTP服务访问（不支持直接文件打开）；保持终端运行以维持服务。"
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "纯代码实现日式赛璐珞风格3D场景，无需任何图片素材，技术细节和艺术表现力结合得非常出色，充满极客浪漫。",
+        "isVibeCoding": true,
+        "communityActivity": "极低，目前无Issue互动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-02T04:59:41.929Z"
+    },
+    {
+      "owner": "DannyMac180",
+      "repo": "sol-advisor",
+      "fullName": "DannyMac180/sol-advisor",
+      "description": "Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.",
+      "language": "Shell",
+      "topics": [],
+      "license": "MIT",
+      "createdAt": "2026-08-01T13:56:43Z",
+      "url": "https://github.com/DannyMac180/sol-advisor",
+      "analysis": {
+        "positioning": "AI驱动的软件架构与交付工作流编排器。",
+        "useCases": [
+          "你需设计软件架构 → 它用AI代理自动规划需求、架构、任务分解和路由。",
+          "你有重复编码任务 → 它让Luna代理帮你自动化实现。",
+          "你有复杂开发任务 → 它让Terra代理处理高风险、上下文密集型工作。",
+          "你需要代码评审 → 它让Sol代理独立评审代码差异和验证证据。"
+        ],
+        "audience": "使用Codex CLI或ChatGPT桌面版进行AI辅助软件开发和架构设计的工程师。",
+        "quickStart": {
+          "prerequisites": "Codex CLI/ChatGPT桌面版（需启用插件、子代理、自定义代理），GPT-5.6 Sol/Terra/Luna访问权限，jq。",
+          "steps": [
+            "codex plugin marketplace add DannyMac180/sol-advisor --ref main",
+            "codex plugin add sol-advisor@sol-advisor",
+            "获取插件安装目录后，运行 `sh \"$plugin_dir/scripts/install-agents.sh\"` 安装自定义代理。"
+          ],
+          "note": "插件安装不自动包含自定义代理文件。"
+        },
+        "competitors": [],
+        "pricing": "免费（工具开源），但依赖的AI模型可能产生API费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名、AI代理名（Sol, Luna, Terra）具概念性，描述偏重AI Agent架构抽象，依赖特定AI平台。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚启动，Issue区目前无活动。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-02T04:59:55.733Z"
+    },
+    {
+      "owner": "Audio8-AI",
+      "repo": "Audio8_TTS",
+      "fullName": "Audio8-AI/Audio8_TTS",
+      "description": "SOTA-Class TTS at Compact Scale",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-29T03:58:19Z",
+      "url": "https://github.com/Audio8-AI/Audio8_TTS",
+      "analysis": {
+        "positioning": "紧凑型SOTA多语言TTS，支持零样本声音克隆。",
+        "useCases": [
+          "你制作多语言播客/有声书 → 它帮你用高质量多语言合成语音，节省配音成本。",
+          "你想复刻特定人声来生成新内容 → 它提供零样本声音克隆，无需大量录音即可生成。",
+          "你在开发智能语音助手或虚拟形象 → 它提供紧凑高效的多语言TTS能力，快速集成。"
+        ],
+        "audience": "AI开发者、内容创作者、产品经理，需要高质量、多语言、可定制声音的语音合成解决方案。",
+        "quickStart": {
+          "prerequisites": "Python 3.10+，推荐CUDA-capable GPU。",
+          "steps": [
+            "创建并激活Python虚拟环境。",
+            "安装依赖 `pip install -r requirements.txt`。",
+            "从Hugging Face下载模型checkpoint，并放置到 `model/` 目录。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Bark",
+            "method": "Python库 / Hugging Face",
+            "models": "开源模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "VITS",
+            "method": "Python库 / Hugging Face",
+            "models": "开源模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（Apache-2.0开源许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "模型处于预览阶段，但功能强大（SOTA级，多语言，零样本克隆），文档完善且提供中文支持，易于上手，社区仍在发展中。",
+        "isVibeCoding": true,
+        "communityActivity": "项目处于早期发展阶段，Stars数中等，Issue活跃度有待提升，但文档完善。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-02T05:00:12.614Z"
+    },
+    {
+      "owner": "starling-build",
+      "repo": "starling",
+      "fullName": "starling-build/starling",
+      "description": "Starling — a new Linux desktop environment: Swift shell, its own compositor, a Flutter-to-Swift framework port, and first-party apps",
+      "language": "Swift",
+      "topics": [
+        "ai",
+        "compositor",
+        "desktop",
+        "desktop-environment",
+        "drm",
+        "flutter",
+        "gpu",
+        "kms",
+        "linux",
+        "swift",
+        "ubuntu",
+        "wayland",
+        "wayland-compositor",
+        "window-manager",
+        "x11"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-28T04:31:38Z",
+      "url": "https://github.com/starling-build/starling",
+      "analysis": {
+        "positioning": "新Linux桌面环境，Swift+Flutter核心，自研Shell与合成器。",
+        "useCases": [
+          "你想在Linux上体验全新桌面环境 → 它提供基于Swift和Flutter的Starling桌面，从底层构建现代化体验。",
+          "你是Swift或Flutter开发者，想深入桌面环境开发 → 它提供Swift Shell、Flutter-to-Swift框架及Wayland/X11合成器，提供定制和扩展可能。",
+          "你寻求高性能、现代技术栈的Linux桌面 → 它利用Flutter引擎C核心和Swift，实现硬件加速和高效渲染，并支持macOS二进制兼容性研究。"
+        ],
+        "audience": "追求现代化、高性能、底层定制能力的Linux用户与开发者，尤其是对Swift和Flutter技术栈感兴趣的人群。",
+        "quickStart": {
+          "prerequisites": "Ubuntu 26.04",
+          "steps": [
+            "访问项目官网：starling.build",
+            "参考官方文档：docs/INSTALL.md 或 docs/BUILDING.md 进行安装或源码构建"
+          ],
+          "note": "目前主要针对Ubuntu 26.04系统进行分发和测试，处于早期开发阶段 (v0.2.2)，接口可能变动。"
+        },
+        "competitors": [
+          {
+            "name": "GNOME",
+            "method": "作为Linux发行版默认或可选桌面环境安装",
+            "models": "N/A (桌面环境)",
+            "pricing": "免费"
+          },
+          {
+            "name": "KDE Plasma",
+            "method": "作为Linux发行版默认或可选桌面环境安装",
+            "models": "N/A (桌面环境)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费，基于Apache-2.0开源协议。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目从零开始构建完整的Linux桌面环境，包括自研Wayland合成器和X11服务器，将Flutter框架完整移植到Swift（而非简单绑定），并深入使用Flutter引擎C核心。同时还探索macOS二进制兼容性，这一切都是极高难度的底层系统级开发工作，且由一人主导完成，非常硬核。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较少，但已关闭Issue多于开启，表明核心开发者在积极响应和解决问题，项目虽早期但有维护。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-02T05:00:25.907Z"
+    },
+    {
+      "owner": "unicity-aos",
+      "repo": "aos-ce",
+      "fullName": "unicity-aos/aos-ce",
+      "description": "AOS Community Edition: the open agent operating system.",
+      "language": "Rust",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-12T23:39:52Z",
+      "url": "https://github.com/unicity-aos/aos-ce",
+      "analysis": {
+        "positioning": "开源智能体操作系统，提供可检查、可组合的环境。",
+        "useCases": [
+          "你想构建和管理AI智能体 → 它提供一个开放、可检查的智能体运行环境。",
+          "你需要统一的智能体API和CLI → 它提供`aos`命令行工具和HTTP API进行管理。",
+          "你想整合大型语言模型（如Codex, Claude, Grok）→ 它通过`aos mcp serve`作为产品接口共享边缘能力。"
+        ],
+        "audience": "AI智能体开发者、架构师以及需要集成和管理多种AI模型（如大语言模型）的团队。",
+        "quickStart": {
+          "prerequisites": "`curl` 命令可用。",
+          "steps": [
+            "curl --proto '=https' --tlsv1.2 -fsSL https://aos.unicity.ai/install.sh | sh",
+            "aos init"
+          ],
+          "note": "在Unix系统上，`aos daemon foreground`会替换当前进程，保持信号和退出状态所有权；在其他主机上则等待守护进程并保留其退出状态。"
+        },
+        "competitors": [],
+        "pricing": "免费（开源，Apache-2.0许可证）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "专注于构建开放、可检查的智能体操作系统，Rust语言实现，有明确的产品边界和严格的安全与兼容性验证机制，星标数可观，项目结构清晰。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较高，但开放Issue数（26）明显高于已关闭数（5），可能存在部分问题积压或解决速度有待提升。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-02T05:01:01.479Z"
     }
   ]
 }
