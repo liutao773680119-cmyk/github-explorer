@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-08-02T05:01:01.512Z",
+  "updatedAt": "2026-08-03T05:13:12.079Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -78302,6 +78302,1189 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-08-02T05:01:01.479Z"
+    },
+    {
+      "owner": "MasterLocksmithTrim",
+      "repo": "BoosterX-PRO-Crack",
+      "fullName": "MasterLocksmithTrim/BoosterX-PRO-Crack",
+      "description": "Windows optimization utility featuring gaming tweaks, FPS improvements, latency reduction, startup management, privacy controls, backup & restore, and advanced performance optimization tools.",
+      "language": "C++",
+      "topics": [
+        "boost",
+        "boosterx",
+        "boosterx-crack",
+        "boosterx-pro",
+        "boosterx-pro-crack",
+        "fps-tweak",
+        "free-software",
+        "pro"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-08-03T00:24:36Z",
+      "url": "https://github.com/MasterLocksmithTrim/BoosterX-PRO-Crack",
+      "analysis": {
+        "positioning": "Windows系统性能优化工具，专注于游戏加速与日常流畅体验。",
+        "useCases": [
+          "你玩游戏卡顿、FPS低 → 它帮你优化游戏性能，提升FPS，降低延迟。",
+          "你Windows系统运行缓慢、响应迟钝 → 它帮你一键优化系统，管理启动项，清理垃圾，优化CPU/内存。",
+          "你担心Windows隐私设置或臃肿 → 它帮你控制隐私，管理遥测，优化电源计划。"
+        ],
+        "audience": "追求极致游戏体验的玩家，或希望Windows系统更流畅、更稳定的普通用户及高级用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)，需管理员权限。",
+          "steps": [
+            "下载最新发布版本并解压。",
+            "以管理员身份运行BoosterX crack。",
+            "建议创建系统还原点，然后应用所需优化。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "CCleaner",
+            "method": "系统垃圾清理、注册表修复、启动项管理",
+            "models": "Windows",
+            "pricing": "免费版/付费专业版"
+          },
+          {
+            "name": "Razer Cortex",
+            "method": "游戏模式优化、FPS提升、系统清理、游戏库管理",
+            "models": "Windows",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名称包含'Crack'字样，且README中直接提供可执行文件下载链接，可能引发用户对安全性和合法性的顾虑，尽管项目自称'安全优化工具'。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启/关闭数均为0。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:06:35.086Z"
+    },
+    {
+      "owner": "galleryfollowerchant",
+      "repo": "litmos",
+      "fullName": "galleryfollowerchant/litmos",
+      "description": "Litmos — Litmos Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "desktop-app",
+        "litmos",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:22:16Z",
+      "url": "https://github.com/galleryfollowerchant/litmos",
+      "analysis": {
+        "positioning": "Litmos Windows 非官方安装指南与配置要点。",
+        "useCases": [
+          "你想在 Windows 上安装 Litmos → 它提供详细的安装步骤和注意事项。",
+          "你需要优化 Litmos 在 Windows 上的配置 → 它指导你调整设置和配置文件。",
+          "你要将 Litmos 融入现有 Windows 工作流 → 它协助你顺利集成和使用。"
+        ],
+        "audience": "希望在 Windows 10/11 (64位) 环境中安装、配置和日常使用 Litmos 学习管理系统的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统",
+          "steps": [
+            "下载 Litmos Windows 安装包。",
+            "以管理员身份运行安装程序，按提示完成安装并输入许可密钥。",
+            "重启系统（如需要），然后从开始菜单启动 Litmos。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（项目本身为开源安装指南，Litmos 软件可能付费）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个专注于 Litmos Windows 安装的非官方指南项目，文档清晰实用。星数不高，但解决了特定用户的痛点。",
+        "isVibeCoding": true,
+        "communityActivity": "暂无 Issue 记录，社区活跃度待观察。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:06:47.079Z"
+    },
+    {
+      "owner": "MergeSheikhDeflate",
+      "repo": "asana-desktop-setup",
+      "fullName": "MergeSheikhDeflate/asana-desktop-setup",
+      "description": "Asana Desktop — Asana Desktop Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "asana",
+        "asana-desktop-setup",
+        "desktop",
+        "desktop-app",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:13:04Z",
+      "url": "https://github.com/MergeSheikhDeflate/asana-desktop-setup",
+      "analysis": {
+        "positioning": "非官方Asana桌面版Windows安装指南与工作流辅助。",
+        "useCases": [
+          "你想在Windows上安装Asana桌面版 → 它提供详细的非官方安装步骤和注意事项。",
+          "你想优化Asana桌面版的日常使用体验 → 它指导你进行配置和整合到现有工作流。",
+          "你想高效利用Asana桌面版进行数据操作 → 它指引你使用导入、编辑、导出工具。"
+        ],
+        "audience": "Windows用户，特别是希望在本地高效使用Asana桌面版，并寻求非官方安装、配置及使用技巧的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 操作系统，具有管理员权限。",
+          "steps": [
+            "下载最新的Windows版本构建。",
+            "以管理员身份运行安装程序。",
+            "提示时输入许可证密钥。",
+            "如果安装程序要求，重启系统，然后从开始菜单启动Asana桌面版。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "Asana官方帮助文档",
+            "method": "查阅Asana官网",
+            "models": null,
+            "pricing": "免费"
+          },
+          {
+            "name": "第三方技术博客/论坛",
+            "method": "搜索引擎搜索",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（项目本身提供的是安装指南和笔记，不包含Asana软件本身的费用）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数（12）极少，Issue未开启且无活动，表明社区关注度和活跃度较低。作为非官方的安装笔记，其持续更新和维护可能受限，但对寻求特定痛点的用户仍有参考价值。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue未开启或无任何讨论。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:07:03.244Z"
+    },
+    {
+      "owner": "SupplierNotice",
+      "repo": "bfd-2026",
+      "fullName": "SupplierNotice/bfd-2026",
+      "description": "BFD3 — BFD3 Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "bfd",
+        "bfd-2026",
+        "desktop-app",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:21:55Z",
+      "url": "https://github.com/SupplierNotice/bfd-2026",
+      "analysis": {
+        "positioning": "BFD3鼓机软件的非官方Windows安装指南与工具集。",
+        "useCases": [
+          "你是Windows用户，想安装BFD3鼓机软件 → 它提供详细的非官方安装步骤和工具集。",
+          "你在安装BFD3时遇到问题，想参考社区经验 → 它提供非官方安装笔记和会话日志作为参考。",
+          "你想快速上手BFD3进行虚拟鼓点制作 → 它帮你顺利安装BFD3，以便开始创作。"
+        ],
+        "audience": "想要在Windows 10/11系统上安装和使用BFD3鼓机软件的音乐制作人、作曲家或爱好者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), 管理员权限, BFD3软件许可证。",
+          "steps": [
+            "从项目README提供的链接下载最新Windows安装程序。",
+            "以管理员身份运行安装程序，按提示操作并输入BFD3许可证密钥。",
+            "完成安装后（如提示）重启系统，即可从开始菜单启动BFD3。"
+          ],
+          "note": "仅支持Windows 10/11 (64位)系统。"
+        },
+        "competitors": [],
+        "pricing": "项目本身（安装笔记）免费开源，但所安装的BFD3软件需付费购买许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个高度特定于BFD3软件的安装指南和笔记项目，旨在解决Windows用户安装BFD3时的痛点。实用性强，但受众范围窄，创新性一般。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue互动记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:07:19.172Z"
+    },
+    {
+      "owner": "tonepenguincoil",
+      "repo": "blackboard-2026",
+      "fullName": "tonepenguincoil/blackboard-2026",
+      "description": "Blackboard Learn — Blackboard Learn Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "blackboard",
+        "blackboard-2026",
+        "desktop-app",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:24:10Z",
+      "url": "https://github.com/tonepenguincoil/blackboard-2026",
+      "analysis": {
+        "positioning": "Blackboard Learn非官方Windows桌面版安装指南与记录。",
+        "useCases": [
+          "你在Windows上装Blackboard Learn → 它帮你快速完成核心功能安装",
+          "你想配置Blackboard Learn日常使用 → 它提供安装和配置步骤",
+          "你需要处理Blackboard Learn文件 → 它协助你利用工具进行导入、编辑和导出"
+        ],
+        "audience": "需要将Blackboard Learn安装至Windows 10/11桌面系统的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)",
+          "steps": [
+            "下载最新Windows版本安装包",
+            "保存文件至本地指定位置",
+            "以管理员身份运行安装程序",
+            "按提示输入许可密钥",
+            "按需重启电脑并启动Blackboard Learn"
+          ],
+          "note": "安装程序需以管理员身份运行。"
+        },
+        "competitors": [],
+        "pricing": "本项目提供非官方安装指南，免费使用。Blackboard Learn软件本身需许可密钥，可能为付费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "为特定软件提供实用且直接的非官方安装指南，解决小众痛点，但社区活跃度低，项目本身技术深度不高。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，无Issue互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:07:29.740Z"
+    },
+    {
+      "owner": "Shieldaelight82",
+      "repo": "language-tool-2026",
+      "fullName": "Shieldaelight82/language-tool-2026",
+      "description": "LanguageTool Desktop — LanguageTool Desktop Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "desktop-app",
+        "language",
+        "language-tool-2026",
+        "setup",
+        "software",
+        "tool",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:16:51Z",
+      "url": "https://github.com/Shieldaelight82/language-tool-2026",
+      "analysis": {
+        "positioning": "LanguageTool桌面版Windows非官方安装指南与资源库。",
+        "useCases": [
+          "你想在Windows 10/11上安装LanguageTool桌面版 → 它提供详细的非官方安装步骤和下载链接。",
+          "你需要配置LanguageTool桌面版进行日常使用 → 它提供设置调整和工作流整合的指导。",
+          "你希望快速了解LanguageTool桌面版在Windows上的功能 → 它概括了核心功能和使用场景。"
+        ],
+        "audience": "希望在Windows系统（10/11，64位）上安装、配置并高效使用LanguageTool桌面版的个人用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位)系统，LanguageTool许可证密钥。",
+          "steps": [
+            "下载最新Windows构建版本并保存。",
+            "以管理员身份运行安装程序。",
+            "按提示输入许可证密钥。",
+            "重启（如果要求），然后从开始菜单启动LanguageTool Desktop。"
+          ],
+          "note": "确保以管理员身份运行安装程序。"
+        },
+        "competitors": [
+          {
+            "name": "LanguageTool官方Windows安装指南",
+            "method": "访问LanguageTool官方网站获取并按照官方说明安装。",
+            "models": "LanguageTool核心语言检测和纠正模型。",
+            "pricing": "LanguageTool基础版免费，高级版付费。"
+          },
+          {
+            "name": "LanguageTool的在线版或浏览器插件",
+            "method": "无需桌面客户端安装，直接通过网页或浏览器扩展使用。",
+            "models": "LanguageTool核心语言检测和纠正模型。",
+            "pricing": "LanguageTool基础版免费，高级版付费。"
+          }
+        ],
+        "pricing": "本项目作为安装指南本身免费。LanguageTool桌面版核心功能免费，高级功能和专业版需付费订阅。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标少，Issues无互动，表明社区活跃度低。作为一个非官方的安装指南和资源库，其价值在于提供清晰的安装步骤，但并非开发活跃的项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issues无开启或关闭记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:07:48.595Z"
+    },
+    {
+      "owner": "Viewatpull39",
+      "repo": "iar",
+      "fullName": "Viewatpull39/iar",
+      "description": "IAR Embedded Workbench — IAR Embedded Workbench Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "desktop-app",
+        "iar",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:04:36Z",
+      "url": "https://github.com/Viewatpull39/iar",
+      "analysis": {
+        "positioning": "IAR Embedded Workbench Windows非官方安装指南。",
+        "useCases": [
+          "你想在Windows安装IAR Embedded Workbench → 它提供清晰的非官方安装步骤和注意事项。",
+          "你想优化IAR Embedded Workbench配置和工作流 → 它提供设置调整和集成建议。",
+          "你需要IAR Embedded Workbench的日常使用指导 → 它提供核心功能使用、导入导出及调优方法。"
+        ],
+        "audience": "需要IAR Embedded Workbench在Windows上安装、配置及日常使用的开发者、工程师和学生。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit) 操作系统，IAR Embedded Workbench 许可证。",
+          "steps": [
+            "从项目指定链接下载IAR Embedded Workbench安装包。",
+            "以管理员身份运行安装程序，按提示输入许可证密钥并完成安装。"
+          ],
+          "note": "主要针对Windows 10/11 (64位)系统，安装时需以管理员身份运行。"
+        },
+        "competitors": [],
+        "pricing": "指南免费，但 IAR Embedded Workbench 软件本身是付费产品，需购买许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "提供 IAR Embedded Workbench 在 Windows 上的实用非官方安装及工作流指南，步骤清晰。但项目活跃度低，且非官方来源可能存在信息滞后或潜在风险。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue 统计显示无任何开启或关闭的讨论/贡献。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-08-03T05:08:03.886Z"
+    },
+    {
+      "owner": "Driveshitrolley",
+      "repo": "api-ms-win-crt-dll-missing-fix",
+      "fullName": "Driveshitrolley/api-ms-win-crt-dll-missing-fix",
+      "description": "API MS WIN CRT DLL Fix — API MS WIN CRT DLL Fix Windows setup — game fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "api",
+        "api-ms-win-crt-dll-missing-fix",
+        "dll-missing",
+        "game-fix",
+        "ms",
+        "win",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:11:03Z",
+      "url": "https://github.com/Driveshitrolley/api-ms-win-crt-dll-missing-fix",
+      "analysis": {
+        "positioning": "提供 Windows 游戏/系统 DLL 缺失及崩溃修复指南。",
+        "useCases": [
+          "你玩游戏遇到 'API MS WIN CRT DLL Fix' 启动崩溃 → 它帮你找到修复该问题的指南。",
+          "你处理 DirectX 或 Visual C++ 运行时错误 → 它帮你找到解决这些错误的步骤。",
+          "你更新 GPU 驱动后游戏不稳定 → 它帮你找到恢复稳定游戏的方案。"
+        ],
+        "audience": "遇到 Windows 游戏启动崩溃或 DLL 错误的普通用户/玩家，寻求解决方案。",
+        "quickStart": {
+          "prerequisites": "null",
+          "steps": [
+            "访问提供的链接（kolmods.com）下载名为 'API MS WIN CRT DLL Fix' 的修复工具。",
+            "以管理员身份运行下载的修复工具，并按提示操作（可能需输入许可证密钥）。"
+          ],
+          "note": "以上步骤描述的是下载并使用外部修复工具的过程，而非本 GitHub 仓库的安装步骤。"
+        },
+        "competitors": [],
+        "pricing": "文档指向的修复工具可能为付费软件（需输入许可证密钥），但本 GitHub 仓库内容免费。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "本项目并非开发工具或代码库，而是一个为特定（且名称自指、令人困惑）的 Windows 游戏/系统修复工具提供安装说明和使用笔记的文档仓库。其活跃度极低，且名称随意。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何 Issue 记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:08:20.561Z"
+    },
+    {
+      "owner": "CrimsonConstable",
+      "repo": "absynth",
+      "fullName": "CrimsonConstable/absynth",
+      "description": "Absynth 5 — Absynth 5 Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "absynth",
+        "desktop-app",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:01:09Z",
+      "url": "https://github.com/CrimsonConstable/absynth",
+      "analysis": {
+        "positioning": "Absynth 5非官方Windows安装指南与资源库。",
+        "useCases": [
+          "你正在寻找Absynth 5在Windows上的安装方法 → 它提供了详细的非官方安装步骤和注意事项。",
+          "你需要Absynth 5的下载链接和资源 → 它是一个集中的资源库，直接提供下载。",
+          "你希望确保Absynth 5顺利运行 → 它提供工作流程清单和会话日志作为参考。"
+        ],
+        "audience": "希望在Windows 10/11系统上安装和配置Absynth 5的音乐制作人、声音设计师及DAW用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统，Absynth 5 软件许可证。",
+          "steps": [
+            "下载适用于你系统的Absynth 5最新Windows安装包。",
+            "以管理员身份运行安装程序，按提示输入许可证密钥并完成安装。",
+            "重启系统（如果需要），然后从开始菜单启动Absynth 5。"
+          ],
+          "note": "建议将安装包保存到本地易于查找的文件夹。"
+        },
+        "competitors": [],
+        "pricing": "Absynth 5软件本身是付费产品，本安装指南免费。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "一个非官方的软件安装指南仓库，实用性强，但并非代码项目，活跃度较低，更偏向资源整理。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭0，社区活跃度极低或无社区交互。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:08:32.926Z"
+    },
+    {
+      "owner": "ChordPelican46",
+      "repo": "kernel32-dll-missing-fix",
+      "fullName": "ChordPelican46/kernel32-dll-missing-fix",
+      "description": "KERNEL32 DLL Fix — KERNEL32 DLL Fix Windows setup — game fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "dll",
+        "dll-missing",
+        "game-fix",
+        "kernel32",
+        "kernel32-dll-missing-fix",
+        "missing",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:14:38Z",
+      "url": "https://github.com/ChordPelican46/kernel32-dll-missing-fix",
+      "analysis": {
+        "positioning": "解决Windows游戏与系统KERNEL32 DLL缺失/损坏问题。",
+        "useCases": [
+          "你遇到KERNEL32 DLL导致的启动崩溃 → 它帮你修复，让游戏顺利启动。",
+          "你游戏提示DirectX或Visual C++运行时错误 → 它帮你解决，恢复正常游戏体验。",
+          "你更新显卡驱动后游戏不稳定或黑屏闪退 → 它帮你恢复，确保游戏稳定运行。"
+        ],
+        "audience": "遇到KERNEL32 DLL错误、游戏崩溃或运行时问题的Windows 10/11用户和玩家。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位), 管理员权限。",
+          "steps": [
+            "下载最新Windows版本",
+            "保存到本地文件夹",
+            "以管理员身份运行安装程序",
+            "按提示输入授权密钥",
+            "如果安装程序要求，重启电脑，然后从开始菜单启动"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费。工具本身需输入授权密钥。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "该项目更像是一个商业修复工具的信息发布页/下载入口，而非一个活跃的开源代码项目。星数较低，没有Issue/PR活动，语言未知，且工具本身需授权密钥，降低了其作为代码项目的“Vibe Coding”分。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何Issue或PR活动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:08:44.314Z"
+    },
+    {
+      "owner": "HexagonCrawler",
+      "repo": "laravel-herd",
+      "fullName": "HexagonCrawler/laravel-herd",
+      "description": "Laravel Herd — Laravel Herd Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "desktop-app",
+        "herd",
+        "laravel",
+        "laravel-herd",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:17:39Z",
+      "url": "https://github.com/HexagonCrawler/laravel-herd",
+      "analysis": {
+        "positioning": "在Windows快速部署Laravel Herd的非官方安装指南与操作日志。",
+        "useCases": [
+          "你需要在Windows上部署Laravel Herd → 它帮你提供一步步的非官方安装指南。",
+          "你遇到Laravel Herd在Windows上安装问题 → 它帮你查阅非官方安装笔记和会话日志解决。",
+          "你希望在Windows上高效使用Laravel Herd → 它帮你理解如何配置和集成到现有工作流。"
+        ],
+        "audience": "希望在Windows上安装和使用Laravel Herd的开发者，尤其是不满足于官方文档的用户。",
+        "quickStart": {
+          "prerequisites": "具备Laravel Herd的有效许可证",
+          "steps": [
+            "下载最新Windows安装器并保存到本地。",
+            "以管理员身份运行安装程序，输入许可证，按提示重启并启动Herd。"
+          ],
+          "note": "本指南为非官方内容，可能不代表Laravel Herd的最新或最权威信息。"
+        },
+        "competitors": [
+          {
+            "name": "Laravel Herd 官方文档",
+            "method": "阅读官方指南",
+            "models": null,
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费（本GitHub项目），但其所指导安装的Laravel Herd是付费软件。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个非官方的安装指南项目，主要提供文档和配置指导，代码量和复杂性较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区不活跃，无Issue讨论和响应记录。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:09:01.832Z"
+    },
+    {
+      "owner": "Convergekreoversee",
+      "repo": "lightshot",
+      "fullName": "Convergekreoversee/lightshot",
+      "description": "Lightshot — Lightshot Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "desktop-app",
+        "lightshot",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:20:22Z",
+      "url": "https://github.com/Convergekreoversee/lightshot",
+      "analysis": {
+        "positioning": "提供非官方Lightshot Windows安装与配置指南，助你快速上手使用。",
+        "useCases": [
+          "你需要在Windows 10/11上安装Lightshot → 它提供详细的非官方安装步骤与注意事项。",
+          "你希望配置Lightshot以满足日常使用 → 它帮你理解如何进行基础配置和功能启用。",
+          "你寻求优化Lightshot的设置与集成 → 它为你提供调整设置和融入工作流的参考。"
+        ],
+        "audience": "寻求在Windows系统上安装、配置并优化Lightshot使用体验的个人用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 操作系统；需自行从Lightshot官网下载安装包。",
+          "steps": [
+            "下载Lightshot Windows安装包并保存到本地。",
+            "以管理员身份运行安装程序，按提示完成安装。",
+            "根据提示输入授权码（如需），然后重启系统（如需）。",
+            "从开始菜单启动Lightshot。"
+          ],
+          "note": "安装程序必须以管理员权限运行。"
+        },
+        "competitors": [],
+        "pricing": "本项目（安装指南）免费开源；Lightshot软件本身可能涉及授权码或付费功能。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数少，Issue互动为零，主要提供非官方安装笔记，代码贡献和社区活跃度较低。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue 统计为零，表明社区互动和活跃度极低，无可见响应速度。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-08-03T05:09:19.783Z"
+    },
+    {
+      "owner": "DistributorTake",
+      "repo": "ample-sound-2026",
+      "fullName": "DistributorTake/ample-sound-2026",
+      "description": "Ample Sound Guitar — Ample Sound Guitar Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "ample",
+        "ample-sound-2026",
+        "desktop-app",
+        "setup",
+        "software",
+        "sound",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:08:29Z",
+      "url": "https://github.com/DistributorTake/ample-sound-2026",
+      "analysis": {
+        "positioning": "Ample Sound Guitar在Windows上的非官方安装与配置指南。",
+        "useCases": [
+          "你需要在Windows上使用Ample Sound Guitar → 它提供安装与核心功能配置指引。",
+          "你希望顺利安装并配置Ample Sound Guitar进行日常使用 → 它提供详细的步骤和注意事项。",
+          "你想将Ample Sound Guitar集成到现有工作流程 → 它帮助你理解如何调优和集成。"
+        ],
+        "audience": "希望在Windows 10/11系统上安装、配置和有效使用Ample Sound Guitar软件的音乐制作人或爱好者。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "下载适用于你Windows版本的最新安装包",
+            "将文件保存到本地文件夹",
+            "以管理员身份运行安装程序",
+            "在提示时输入你的许可证密钥",
+            "如果安装程序要求，重启电脑，然后从开始菜单启动Ample Sound Guitar"
+          ],
+          "note": "运行安装程序时务必以管理员身份运行。"
+        },
+        "competitors": [],
+        "pricing": "免费（本项目是软件安装指南，并非Ample Sound Guitar软件本身）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目作为特定软件的Windows安装指南，README文档详尽清晰，提供了完整的安装流程、使用场景和注意事项。但其本质是文档性质的项目，而非软件开发，故社区活跃度和代码迭代并非衡量重点，但从Stars和Issue看，其关注度和互动性较低。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue统计为零，表明项目主要作为静态指南存在，缺乏互动与迭代。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-08-03T05:09:32.894Z"
+    },
+    {
+      "owner": "finalladydivide",
+      "repo": "assetto-corsa-evo-crash-fix",
+      "fullName": "finalladydivide/assetto-corsa-evo-crash-fix",
+      "description": "Assetto Corsa EVO Crash Fix — Assetto Corsa EVO Crash Fix Windows setup — game fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "assetto",
+        "assetto-corsa-evo-crash-fix",
+        "corsa",
+        "crash-fix",
+        "game-fix",
+        "pc-gaming",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:13:31Z",
+      "url": "https://github.com/finalladydivide/assetto-corsa-evo-crash-fix",
+      "analysis": {
+        "positioning": "Assetto Corsa EVO Windows版启动崩溃修复工具",
+        "useCases": [
+          "你玩Assetto Corsa EVO遇到启动崩溃 → 它帮你修复游戏启动问题",
+          "你玩Assetto Corsa EVO遇到DirectX/Visual C++运行时错误 → 它帮你解决这些错误",
+          "你更新显卡驱动后玩Assetto Corsa EVO不稳定 → 它帮你恢复游戏的稳定运行",
+          "你玩Assetto Corsa EVO遇到黑屏或闪退 → 它帮你停止这些启动失败"
+        ],
+        "audience": "Assetto Corsa EVO玩家，当游戏在Windows 10/11上遇到崩溃、黑屏、启动失败或运行时错误时使用。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "下载最新Windows版本",
+            "保存文件到本地文件夹",
+            "以管理员身份运行安装程序",
+            "输入许可证密钥",
+            "根据提示重启电脑，然后从开始菜单启动游戏"
+          ],
+          "note": "安装程序需以管理员身份运行"
+        },
+        "competitors": [],
+        "pricing": "付费（需许可证密钥）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了《Assetto Corsa EVO》在Windows上的特定崩溃问题，README清晰，提供下载和安装指南，但属于付费工具且社区活跃度不高。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue开启0/关闭0，社区活跃度极低或无社区支持。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:09:42.117Z"
+    },
+    {
+      "owner": "streamfiremanname",
+      "repo": "ida-download-2026",
+      "fullName": "streamfiremanname/ida-download-2026",
+      "description": "Internet Download Accelerator — Internet Download Accelerator Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "desktop-app",
+        "download",
+        "ida",
+        "ida-download-2026",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:05:46Z",
+      "url": "https://github.com/streamfiremanname/ida-download-2026",
+      "analysis": {
+        "positioning": "Internet Download Accelerator（IDA）非官方Windows安装指南与资",
+        "useCases": [
+          "你需要高速下载并支持断点续传 → 它帮你用IDA多线程加速，意外中断也能恢复。",
+          "你想从浏览器抓取音视频链接 → 它帮你用IDA无缝集成，轻松捕获媒体资源。",
+          "你要批量下载或定时下载 → 它帮你用IDA排队管理，按计划执行下载任务。",
+          "你下载音视频时想选格式画质 → 它帮你用IDA按需选择，灵活控制下载内容。",
+          "你想管理下载文件和速度 → 它帮你用IDA自动分类，限制带宽，优化下载体验。"
+        ],
+        "audience": "希望在Windows 10/11系统上安装和使用Internet Download Accelerator（IDA）的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)操作系统，IDA软件的有效许可证。",
+          "steps": [
+            "从指南提供的链接下载IDA最新Windows安装包。",
+            "将文件保存到本地，然后以管理员身份运行安装程序。",
+            "当提示时输入你的IDA许可证密钥。",
+            "若安装程序要求重启，则重启电脑；之后从开始菜单启动Internet Download Accelerator。"
+          ],
+          "note": "确保您的系统是64位Windows，并且始终以管理员身份运行安装程序。"
+        },
+        "competitors": [
+          {
+            "name": "Internet Download Manager (IDM)",
+            "method": "桌面应用",
+            "models": "各类文件、视频、音频下载",
+            "pricing": "付费"
+          },
+          {
+            "name": "Free Download Manager (FDM)",
+            "method": "桌面应用",
+            "models": "各类文件、视频、音频下载",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "项目仓库内容免费（MIT协议），但其协助安装的Internet Download Accelerator软件通常需要付费许可证。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星标数较低（12），无任何Issue活动，表明社区参与度不高。但README内容清晰，提供直接下载链接和详细安装步骤，对于寻找IDA安装指南的用户来说具有实用价值。作为非官方的辅助性项目，其内容完整。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度为零，没有开启的Issue，也无已关闭的Issue。",
+        "category": "其他",
+        "needsReview": true
+      },
+      "analyzedAt": "2026-08-03T05:10:02.665Z"
+    },
+    {
+      "owner": "FormerLightning",
+      "repo": "bulk-crap-uninstaller",
+      "fullName": "FormerLightning/bulk-crap-uninstaller",
+      "description": "Bulk Crap Uninstaller — Bulk Crap Uninstaller Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "bulk",
+        "bulk-crap-uninstaller",
+        "crap",
+        "desktop-app",
+        "setup",
+        "software",
+        "uninstaller",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:25:24Z",
+      "url": "https://github.com/FormerLightning/bulk-crap-uninstaller",
+      "analysis": {
+        "positioning": "Windows下Bulk Crap Uninstaller的非官方安装指南与资源库。",
+        "useCases": [
+          "你需要在Windows上安装Bulk Crap Uninstaller → 它提供详细的安装步骤和注意事项。",
+          "你想确保BCU在Win10/11上稳定运行 → 它提供优化的配置指南和技巧。",
+          "你希望记录BCU的安装配置流程或问题排查 → 它作为你的会话日志和笔记仓库。"
+        ],
+        "audience": "Windows用户，特别是希望高效、正确安装和配置Bulk Crap Uninstaller，并管理其安装过程笔记的技术爱好者或系统管理员。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "从指定链接下载最新Windows安装包。",
+            "以管理员身份运行安装程序。",
+            "按提示输入许可证密钥（如果需要）。",
+            "按需重启电脑，然后从开始菜单启动BCU。"
+          ],
+          "note": "此项目是BCU的安装指南，而非软件本体。许可证密钥针对BCU软件本身。"
+        },
+        "competitors": [
+          {
+            "name": "Revo Uninstaller",
+            "method": "图形界面",
+            "models": "Windows",
+            "pricing": "免费/付费"
+          },
+          {
+            "name": "IObit Uninstaller",
+            "method": "图形界面",
+            "models": "Windows",
+            "pricing": "免费/付费"
+          }
+        ],
+        "pricing": "项目本身（安装指南与日志）免费，采用MIT许可证。但其所指导安装的Bulk Crap Uninstaller软件可能需要许可证或付费功能。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目名称直白且略带“粗口”，直接指向“垃圾软件”清理，实用主义至上，不追求花哨。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue功能未启用或无人使用。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-08-03T05:10:17.737Z"
+    },
+    {
+      "owner": "Brinkzaforge",
+      "repo": "jane-app",
+      "fullName": "Brinkzaforge/jane-app",
+      "description": "Jane App — Jane App Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "app",
+        "desktop-app",
+        "jane",
+        "jane-app",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:10:14Z",
+      "url": "https://github.com/Brinkzaforge/jane-app",
+      "analysis": {
+        "positioning": "Jane App非官方Windows安装指南，提供安装笔记与使用记录。",
+        "useCases": [
+          "你想在Windows桌面使用Jane App核心功能 → 它帮你成功安装并配置。",
+          "你想在Windows上安装配置Jane App用于日常工作 → 它提供详细的安装与配置步骤。",
+          "你想将Jane App集成到现有工作流中 → 它指导你进行设置调优并提供使用技巧。"
+        ],
+        "audience": "希望在Windows 10/11 (64-bit) 上快速安装、配置和日常使用Jane App的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit) 操作系统。",
+          "steps": [
+            "下载对应版本的Windows安装包。",
+            "保存文件到本地。",
+            "**以管理员身份**运行安装程序。",
+            "按提示输入许可密钥。",
+            "如有提示，重启后从开始菜单启动Jane App。"
+          ],
+          "note": "确保以管理员身份运行安装程序。"
+        },
+        "competitors": [],
+        "pricing": "付费 (Jane App本体需许可，本项目（安装指南）免费)。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目主要是一个非官方的Windows安装指南和文档库，侧重于提供设置步骤和使用记录，不涉及复杂的代码开发或编程工作。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无Issue互动记录。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-08-03T05:10:29.779Z"
+    },
+    {
+      "owner": "SpikeConqueror",
+      "repo": "hyper-v-not-working-fix",
+      "fullName": "SpikeConqueror/hyper-v-not-working-fix",
+      "description": "Hyper-V Not Working Fix — Hyper-V Not Working Fix Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "hyper",
+        "hyper-v-not-working-fix",
+        "not",
+        "repair-tool",
+        "v",
+        "windows",
+        "windows-fix"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:03:40Z",
+      "url": "https://github.com/SpikeConqueror/hyper-v-not-working-fix",
+      "analysis": {
+        "positioning": "一个非官方的Windows修复工具，专注解决Hyper-V及相关系统故障。",
+        "useCases": [
+          "你遇到Hyper-V启动或功能异常 → 它帮你修复Hyper-V系统错误",
+          "你遇到系统启动、注册表或固件故障 → 它帮你解决这些导致Windows无法启动的问题",
+          "你遇到CPU/磁盘占用过高 → 它帮你减少系统服务导致的资源占用",
+          "你遇到Windows无法启动 → 它帮你恢复系统启动",
+          "你修复系统后不确定驱动和服务状态 → 它帮你验证修复后的驱动和服务"
+        ],
+        "audience": "适合遇到Hyper-V无法正常工作、Windows启动故障或系统性能问题的个人用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)",
+          "steps": [
+            "下载最新Windows版本安装包",
+            "以管理员身份运行安装程序",
+            "输入授权许可密钥",
+            "重启系统（如果提示）",
+            "从开始菜单启动"
+          ],
+          "note": "安装和运行修复工具均需以管理员身份操作。"
+        },
+        "competitors": [],
+        "pricing": "付费，需输入授权许可密钥。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "星标少；下载链接指向外部域名，可能存在安全风险；需要许可密钥，非纯粹开源；非官方修复工具，可靠性待验证；Readme中提到MIT但在License字段是NOASSERTION，信息不一致。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，无任何开启或关闭的Issue。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:10:40.417Z"
+    },
+    {
+      "owner": "Destroyerovergrade",
+      "repo": "infinite-campus",
+      "fullName": "Destroyerovergrade/infinite-campus",
+      "description": "Infinite Campus — Infinite Campus Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "campus",
+        "desktop-app",
+        "infinite",
+        "infinite-campus",
+        "setup",
+        "software",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:08:26Z",
+      "url": "https://github.com/Destroyerovergrade/infinite-campus",
+      "analysis": {
+        "positioning": "非官方 Infinite Campus Windows 桌面版安装与配置指南",
+        "useCases": [
+          "你需要在 Windows 10/11 上使用 Infinite Campus → 它提供非官方的下载、安装与配置指南。",
+          "你希望高效部署 Infinite Campus 桌面版 → 它提供详细的安装步骤、注意事项及工作流清单。",
+          "你遇到 Infinite Campus Windows 版安装问题 → 它汇总了安装笔记和会话日志，帮助你解决疑难。"
+        ],
+        "audience": "需要非官方安装和配置 Infinite Campus 桌面版在 Windows 上的教育机构IT人员或高级用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)操作系统，Infinite Campus 许可证。",
+          "steps": [
+            "下载最新的 Windows 安装包并保存到本地。",
+            "以管理员身份运行安装程序，输入许可证密钥，按提示完成安装并启动。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "本项目免费提供安装笔记和下载链接，但 Infinite Campus 软件本身可能需要许可证。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "项目星标数较低 (12)，Issue 列表为空，社区活跃度不高。主要为特定软件的非官方安装指南，维护和关注度有限。",
+        "isVibeCoding": true,
+        "communityActivity": "无 Issue 开启或关闭记录，社区活跃度极低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:10:56.384Z"
+    },
+    {
+      "owner": "DelugeSheriffCrater",
+      "repo": "impact-soundworks",
+      "fullName": "DelugeSheriffCrater/impact-soundworks",
+      "description": "Impact Soundworks — Impact Soundworks Windows setup — software landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "desktop-app",
+        "impact",
+        "impact-soundworks",
+        "setup",
+        "software",
+        "soundworks",
+        "windows"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T02:07:06Z",
+      "url": "https://github.com/DelugeSheriffCrater/impact-soundworks",
+      "analysis": {
+        "positioning": "非官方Impact Soundworks Windows安装指南及使用参考。",
+        "useCases": [
+          "你需要在Windows上安装Impact Soundworks → 它提供详细的非官方安装步骤与注意事项。",
+          "你想在Windows上正确配置Impact Soundworks → 它提供安装后的基础配置指引。",
+          "你寻求Impact Soundworks在Windows环境下的非官方使用经验 → 它提供额外的安装技巧和操作日志参考。"
+        ],
+        "audience": "希望在Windows 10/11 (64位) 系统上顺利安装和配置Impact Soundworks软件的用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64位) 系统，Impact Soundworks软件授权密钥，管理员权限。",
+          "steps": [
+            "下载Impact Soundworks Windows安装包并保存到本地。",
+            "以管理员身份运行安装程序，输入授权码，完成安装后启动。"
+          ],
+          "note": "仅限Windows 10/11 (64位) 系统。"
+        },
+        "competitors": [],
+        "pricing": "免费 (本安装指南免费，但其指导安装的Impact Soundworks软件需付费授权)",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目星数少，Issue 统计为零，表明社区活跃度极低。它是一个高度具体且非官方的安装指南，并非通用工具或活跃的开源项目。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue 统计为零，无互动记录。",
+        "category": "文档工具"
+      },
+      "analyzedAt": "2026-08-03T05:11:10.542Z"
+    },
+    {
+      "owner": "Virtualaostudio",
+      "repo": "bcd-edit-repair-tool",
+      "fullName": "Virtualaostudio/bcd-edit-repair-tool",
+      "description": "BCD Edit Repair Tool — BCD Edit Repair Tool Windows setup — Windows fix landing repository with install notes, workflow checklists, and session logs. Unofficial Windows setup notes and session logs.",
+      "language": "Unknown",
+      "topics": [
+        "bcd",
+        "bcd-edit-repair-tool",
+        "edit",
+        "repair",
+        "repair-tool",
+        "setup",
+        "windows",
+        "windows-fix"
+      ],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-03T01:20:55Z",
+      "url": "https://github.com/Virtualaostudio/bcd-edit-repair-tool",
+      "analysis": {
+        "positioning": "Windows系统BCD修复及性能优化工具。",
+        "useCases": [
+          "你遇到Windows系统故障或BCD错误 → 它帮你扫描修复，解决系统疑难杂症。",
+          "你电脑运行慢、注册表错误多 → 它帮你修复注册表、清理垃圾、优化启动项，提升性能。",
+          "你快捷方式失效、系统设置混乱 → 它帮你恢复损坏的快捷方式和系统设置，确保系统正常。",
+          "你担心系统修复风险 → 它帮你备份关键设置，确保修复过程安全可回滚。"
+        ],
+        "audience": "寻求Windows 10/11系统故障修复、性能优化或日常维护的普通用户。",
+        "quickStart": {
+          "prerequisites": "Windows 10/11 (64-bit)操作系统，需以管理员身份运行。",
+          "steps": [
+            "下载并保存Windows安装包到本地。",
+            "以管理员身份运行安装包，输入授权码，根据提示操作并重启电脑，即可从开始菜单启动。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "付费，需输入授权码。",
+        "vibeCodingScore": 2,
+        "vibeCodingReason": "Stars少，Issue完全没有活动，代码语言未知，主要作为外部商业工具的安装说明和日志存储库，并非活跃的开源项目。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎没有社区活动，Issue统计显示项目处于不活跃状态。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-03T05:11:22.274Z"
+    },
+    {
+      "owner": "0xwilliamortiz",
+      "repo": "humanizer-cli",
+      "fullName": "0xwilliamortiz/humanizer-cli",
+      "description": "33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-slop",
+        "ai-slop-detection",
+        "ai-slop-detector",
+        "ai-slop-fixer",
+        "ai-slop-remover",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "codex-cli",
+        "codex-plugin",
+        "codex-skill",
+        "human",
+        "humanization",
+        "humanize",
+        "humanize-ai",
+        "humanize-ai-text",
+        "humanize-text",
+        "humanized",
+        "humanizer"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-08-01T20:36:27Z",
+      "url": "https://github.com/0xwilliamortiz/humanizer-cli",
+      "analysis": {
+        "positioning": "终端离线AI文本特征检测工具",
+        "useCases": [
+          "你怀疑文本是AI生成 → 它帮你基于33个模式快速识别AI写作痕迹",
+          "你需要检查自己文章避免AI化 → 它帮你离线扫描草稿，找出机械化表达",
+          "你想学习AI写作模式 → 它提供详尽的AI模式示例和修改建议"
+        ],
+        "audience": "关注文本原创性、希望避免或识别AI“套路”的写作者、编辑、内容创作者和开发者",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "从GitHub release下载适用于Windows x64的压缩包",
+            "解压后直接运行 `.\\humanizer.exe`"
+          ],
+          "note": "对于Node.js用户，也可通过 `npm install` 后使用 `npx humanizer`，需Node 18+"
+        },
+        "competitors": [
+          {
+            "name": "GPTZero",
+            "method": "在线上传或粘贴文本检测",
+            "models": "各种主流LLM",
+            "pricing": "部分功能免费，高级功能付费"
+          },
+          {
+            "name": "Originality.ai",
+            "method": "在线上传或粘贴文本检测",
+            "models": "各种主流LLM",
+            "pricing": "付费"
+          }
+        ],
+        "pricing": "免费。MIT许可证",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "解决了AI文本识别的痛点，主打离线、无依赖、速度快。README清晰，功能明确。但作为CLI工具，其交互性和生态扩展性相对有限。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue为零，表明项目可能稳定或使用场景特定，但目前缺乏公共社区交互的活跃迹象。",
+        "category": "CLI工具"
+      },
+      "analyzedAt": "2026-08-03T05:12:16.753Z"
+    },
+    {
+      "owner": "thebuggeddev",
+      "repo": "anatomy",
+      "fullName": "thebuggeddev/anatomy",
+      "description": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-08-02T11:15:16Z",
+      "url": "https://github.com/thebuggeddev/anatomy",
+      "analysis": {
+        "positioning": "基于Vinext的全栈启动模板，集成Cloudflare服务与ChatGPT认证。",
+        "useCases": [
+          "你做基于Cloudflare的Web应用 → 它帮你提供Vinext框架、D1数据库、Drizzle ORM的集成模板。",
+          "你的应用需要ChatGPT账号登录 → 它帮你封装了ChatGPT登录/登出及用户身份获取的认证流程。",
+          "你想在Cloudflare Sites部署并获取用户身份 → 它帮你处理OpenAI workspace的用户邮件和姓名获取。"
+        ],
+        "audience": "适合需要快速启动基于Cloudflare、集成ChatGPT认证的全栈Web应用的开发者。",
+        "quickStart": {
+          "prerequisites": "Node.js `>=22.13.0`",
+          "steps": [
+            "npm install",
+            "npm run dev",
+            "npm run build"
+          ],
+          "note": "本地开发通过`vite.config.ts`模拟绑定，无需`wrangler.jsonc`。"
+        },
+        "competitors": [],
+        "pricing": "免费，但依赖的Cloudflare服务（D1/R2）和OpenAI API可能产生费用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "它整合了Vinext、Cloudflare生态（D1/R2）、Drizzle ORM以及ChatGPT认证，提供开箱即用的全栈开发模板，降低了在Cloudflare上构建应用的门槛，提升了开发者体验。",
+        "isVibeCoding": true,
+        "communityActivity": "Stars数量不错（413），但Issue互动刚起步（1开0闭），社区活跃度有待观察。",
+        "category": "前端框架"
+      },
+      "analyzedAt": "2026-08-03T05:12:37.144Z"
+    },
+    {
+      "owner": "H-EmbodVis",
+      "repo": "TurboVLA",
+      "fullName": "H-EmbodVis/TurboVLA",
+      "description": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "language": "Python",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-28T04:04:22Z",
+      "url": "https://github.com/H-EmbodVis/TurboVLA",
+      "analysis": {
+        "positioning": "高效低显存实时VLA模型，机器人操控利器。",
+        "useCases": [
+          "你想让机器人根据复杂指令实时动作 → 它以32Hz高帧率输出连续动作指令，响应迅速。",
+          "你需要在资源受限的机器人上部署VLA模型 → 它在RTX 4090上仅需小于1GB显存即可运行。",
+          "你在开发需要紧凑型视觉-语言-动作决策的系统 → 它采用V+L→A直接映射，避免LLM带来的高开销。"
+        ],
+        "audience": "机器人研究员、开发者，用于在资源受限设备上部署实时视觉-语言-动作模型。",
+        "quickStart": {
+          "prerequisites": "Python, PyTorch, RTX 4090及兼容NVIDIA GPU环境",
+          "steps": [
+            "克隆TurboVLA项目代码并安装所有依赖。",
+            "从Hugging Face下载TurboVLA预训练模型权重，并根据文档运行推理或评估。"
+          ],
+          "note": "主要针对RTX 4090优化，对硬件配置有特定要求，尤其是显存性能。"
+        },
+        "competitors": [
+          {
+            "name": "传统LLM驱动VLA模型 (如RT-2, PaLM-E类)",
+            "method": "V→L→A路径，将视觉信息投影至大型语言模型（LLM）进行推理并生成动作。",
+            "models": "基于大型多模态LLM。",
+            "pricing": "模型开源，但运行推理通常需要巨大的计算和显存资源，成本高昂。"
+          },
+          {
+            "name": "高速但通用性弱的机器人控制模型",
+            "method": "通常依赖特定任务的训练或专家系统，缺乏语言理解和跨任务泛化能力。",
+            "models": "各类定制化、专用模型。",
+            "pricing": "免费，但开发成本高，且无法应对开放式语言指令。"
+          }
+        ],
+        "pricing": "免费（Apache-2.0开源协议），模型和代码均可自由使用。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目极新（2026年7月发布），但技术突破显著，实现了实时、低显存的VLA模型，填补了空白。代码开源，Hugging Face提供模型，易于上手。社区活跃度尚待发展。",
+        "isVibeCoding": true,
+        "communityActivity": "项目发布不久（最新消息为2026年7月），Issue数量少（1开0闭），社区活跃度尚未形成，响应速度有待观察。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-03T05:13:12.045Z"
     }
   ]
 }
