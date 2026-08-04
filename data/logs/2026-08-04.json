@@ -1,0 +1,35 @@
+{
+  "version": "1",
+  "date": "2026-08-04",
+  "startedAt": "2026-08-04T04:45:38.535Z",
+  "finishedAt": "2026-08-04T04:50:41.415Z",
+  "durationSeconds": 303,
+  "success": true,
+  "stats": {
+    "fetched": 107,
+    "newProjects": 14,
+    "skipped": 93,
+    "geminiCalls": 16,
+    "statsUpdated": 107
+  },
+  "errors": [
+    {
+      "time": "2026-08-04T04:47:11.329Z",
+      "level": "warn",
+      "project": "genspark-ai/genoffice",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-04T04:48:05.422Z",
+      "level": "warn",
+      "project": "brookfacehe2421/flashloan-scalper-bot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}

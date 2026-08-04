@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "updatedAt": "2026-08-03T05:13:12.079Z",
+  "updatedAt": "2026-08-04T04:50:01.221Z",
   "projects": [
     {
       "owner": "codecrafters-io",
@@ -79485,6 +79485,671 @@
         "category": "AI Agent"
       },
       "analyzedAt": "2026-08-03T05:13:12.045Z"
+    },
+    {
+      "owner": "simon-weber51",
+      "repo": "betterfly-windows-pet-app",
+      "fullName": "simon-weber51/betterfly-windows-pet-app",
+      "description": "BetterFly is a lightweight Windows desktop virtual pet that lives in an interactive overlay, provides commentary, changes mood over time, and lets you personalize its appearance and pet options.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-04T03:14:33Z",
+      "url": "https://github.com/simon-weber51/betterfly-windows-pet-app",
+      "analysis": {
+        "positioning": "Windows桌面虚拟宠物，提供互动陪伴与个性化。",
+        "useCases": [
+          "你希望桌面多一份趣味 → 它提供互动虚拟宠物，实时评论与情绪变化。",
+          "你喜欢自定义桌面元素 → 它让你个性化宠物外观、对话频率及宠物种类。",
+          "你想要更多虚拟宠物内容 → 它通过社区商店提供额外的宠物和皮肤。"
+        ],
+        "audience": "寻求桌面陪伴、喜欢个性化虚拟宠物，或希望工作时多一份乐趣的Windows用户。",
+        "quickStart": {
+          "prerequisites": "Windows操作系统",
+          "steps": [
+            "从下载页获取最新BetterFly构建版本。",
+            "解压或安装应用，并启动BetterFly。",
+            "访问设置配置启动项、聊天频率和外观选项。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "作为桌面虚拟宠物，提供互动、情绪和自定义功能，为日常电脑使用增添乐趣和陪伴感，符合Vibe Coding理念。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue统计为0/0，显示目前社区活跃度较低。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:45:47.139Z"
+    },
+    {
+      "owner": "adriantaylor234",
+      "repo": "apkpremium-app-store-bot",
+      "fullName": "adriantaylor234/apkpremium-app-store-bot",
+      "description": "APKPremium Store is a Telegram bot project for organizing and displaying APK and premium application listings through a store-like interface, with setup, deployment, requirements, FAQ, and update guidance for 2026.",
+      "language": "HTML",
+      "topics": [],
+      "license": "GPL-3.0",
+      "createdAt": "2026-08-04T01:27:07Z",
+      "url": "https://github.com/adriantaylor234/apkpremium-app-store-bot",
+      "analysis": {
+        "positioning": "Telegram机器人应用商店，组织展示APK和付费应用。",
+        "useCases": [
+          "你希望在Telegram上分发或展示APK/付费应用 → 它帮你快速搭建一个应用商店界面，方便用户浏览。",
+          "你需要一个轻量级、去中心化的应用发布和管理平台 → 它让你在Telegram内集中管理和展示应用列表。",
+          "你是开发者或维护者，寻求基于Telegram的定制化应用商店模板 → 它提供一个可扩展的项目起点，用于构建你自己的应用商店。"
+        ],
+        "audience": "适合希望在Telegram上快速搭建私有或定制化应用商店，并管理APK及付费应用列表的开发者和维护者。",
+        "quickStart": {
+          "prerequisites": "Telegram Bot运行环境",
+          "steps": [
+            "克隆项目到本地，并检查HTML文件及相关资产。",
+            "配置并部署Telegram Bot运行环境，关联项目文件，创建或更新应用列表，然后测试与发布。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目提供了搭建Telegram应用商店的清晰思路和HTML内容组织结构。但Stars数量较低，社区活跃度不足（0 Issue），且核心Bot逻辑并未在该HTML仓库中直接体现，可能需用户自行实现或整合。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度低，Issue统计为0/0。",
+        "category": "移动开发"
+      },
+      "analyzedAt": "2026-08-04T04:46:06.028Z"
+    },
+    {
+      "owner": "livid",
+      "repo": "exe",
+      "fullName": "livid/exe",
+      "description": "A personal VM cloud for macOS: Virtualization.framework VMs, Ollama vibecoding agent, Cloudflare Tunnel publishing — one Go binary",
+      "language": "Go",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-08-04T00:15:15Z",
+      "url": "https://github.com/livid/exe",
+      "analysis": {
+        "positioning": "Mac上的个人VM云，整合AI编程、隧道发布。",
+        "useCases": [
+          "你想在macOS上快速创建并管理Linux虚拟机 → 它通过Virtualization.framework提供持久化VM，并内置Web UI管理。",
+          "你希望在虚拟机内用AI Agent辅助编程、快速测试 → 它集成Ollama驱动的AI Agent，可在VM中“vibecode”并执行脚本。",
+          "你想将VM内部的服务安全地暴露到公网 → 它通过Cloudflare Tunnel帮你将VM端口一键发布到HTTPS子域名。"
+        ],
+        "audience": "寻求在macOS上高效管理本地虚拟机、集成AI编程，并能快速暴露服务到公网的开发者。",
+        "quickStart": {
+          "prerequisites": "macOS操作系统，Go语言环境。",
+          "steps": [
+            "`make build`：编译`exe`二进制并进行代码签名。",
+            "`./exe init` && `./exe serve`：初始化配置并启动后台服务。",
+            "`./exe create demo`：快速创建一个名为“demo”的Debian Linux虚拟机。",
+            "`./exe code demo \"build me a guestbook app on port 8000\"`：在“demo”虚拟机中利用AI Agent生成代码或执行任务。",
+            "`./exe expose demo -port 8000 -sub guestbook`：将虚拟机内8000端口的服务发布到Cloudflare Tunnel域名下。"
+          ],
+          "note": "首次`create`会下载约3GB的Debian镜像。项目依赖Apple Virtualization.framework，因此仅限macOS。"
+        },
+        "competitors": [
+          {
+            "name": "UTM (macOS虚拟机)",
+            "method": "GUI或CLI管理虚拟机，支持多种虚拟化技术",
+            "models": "不适用",
+            "pricing": "免费"
+          },
+          {
+            "name": "Ollama (本地LLM运行平台)",
+            "method": "CLI、API，本地部署和运行LLM模型",
+            "models": "支持Llama 2, Mixtral, GLM等多种本地及云端模型",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4,
+        "vibeCodingReason": "项目核心功能之一是深度集成Ollama作为VM内部的AI Agent，能够驱动bash进行代码生成和操作，并提供CLI和Web UI的“vibecode”体验。这使得AI编程成为其使用场景的关键部分。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度较低，项目Star数少，Issue统计显示尚未开启或处理任何问题，处于非常早期阶段。",
+        "category": "AI编程助手"
+      },
+      "analyzedAt": "2026-08-04T04:46:22.772Z"
+    },
+    {
+      "owner": "FareedKhan-dev",
+      "repo": "kimi-k3-in-c",
+      "fullName": "FareedKhan-dev/kimi-k3-in-c",
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "language": "C",
+      "topics": [
+        "avx2",
+        "c99",
+        "cpu-inference",
+        "deep-learning",
+        "from-scratch",
+        "inference-engine",
+        "kimi-k3",
+        "linear-attention",
+        "llm",
+        "llm-inference",
+        "machine-learning",
+        "memory-efficient",
+        "mixture-of-experts",
+        "moe",
+        "mxfp4",
+        "quantization",
+        "simd",
+        "systems-programming",
+        "transformer",
+        "zero-dependencies"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-08-01T09:29:38Z",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "analysis": {
+        "positioning": "在单CPU和8GB内存环境下运行2.78T Kimi K3大模型的C99推理引擎。",
+        "useCases": [
+          "你希望在资源受限设备（如嵌入式、旧电脑）上运行超大模型 → 它帮你用极低内存和无GPU实现2.78T参数Kimi K3的CPU推理。",
+          "你需要一个极致优化、无BLAS/框架依赖的LLM推理引擎 → 它帮你提供一个纯C99、高效利用SIMD和MoE特性的实现。",
+          "你对MoE模型、MXFP4量化或内存分层推理技术感兴趣 → 它帮你提供一个可研究、可魔改的Kimi K3实现。"
+        ],
+        "audience": "资源受限环境下（如边缘设备、旧服务器）的LLM应用开发者、系统程序员，以及对LLM推理优化感兴趣的研究者。",
+        "quickStart": {
+          "prerequisites": "Linux x86-64系统，C99编译器（如GCC）。您需自行获取2.78T参数的Kimi K3模型文件及tokenizer，项目描述未提供下载方式。",
+          "steps": [
+            "克隆仓库并编译：`git clone https://github.com/FareedKhan-dev/kimi-k3-in-c.git && cd kimi-k3-in-c && make`",
+            "运行推理：`./bin/k3 [K3模型路径] --trunk [K3 trunk模型路径] --preset laptop --tok [tokenizer路径] --prompt \"你的问题\" --gen [生成token数]`"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "llama.cpp",
+            "method": "跨平台CPU推理，支持多种主流LLM，通常依赖BLAS加速，适用于消费级硬件。",
+            "models": "Llama系列、Mixtral、Gemma等多种模型",
+            "pricing": "免费"
+          },
+          {
+            "name": "vLLM",
+            "method": "高性能GPU推理，注重吞吐和低延迟，通常用于服务器端部署。",
+            "models": "主流LLM（如Llama, Mixtral等）",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "纯C99从零实现2.78T参数MoE模型的CPU推理，无任何外部库（BLAS、框架、GPU），极致的内存优化，追求底层控制和便携性，完全是技术炫技和工程美学的体现。",
+        "isVibeCoding": true,
+        "communityActivity": "项目刚起步，有一定关注度（1342 Star），但Issue互动和解决尚处于早期阶段（5开0关）。",
+        "category": "LLM框架"
+      },
+      "analyzedAt": "2026-08-04T04:46:51.229Z"
+    },
+    {
+      "owner": "imsai-sh",
+      "repo": "zhuzhiliao",
+      "fullName": "imsai-sh/zhuzhiliao",
+      "description": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。",
+      "language": "HTML",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-08-01T17:20:54Z",
+      "url": "https://github.com/imsai-sh/zhuzhiliao",
+      "analysis": {
+        "positioning": "零依赖Web版竹知了模拟器，还原传统玩具音效与物理机制。",
+        "useCases": [
+          "你怀旧传统玩具 → 它让你在Web端重温竹知了的“哇哇”声。",
+          "你想随手分享小玩具 → 它提供零依赖单文件HTML，方便离线和传播。",
+          "你寻求沉浸式体验 → 它支持手机体感，模拟真实甩动，并有实时全球哇数互动。"
+        ],
+        "audience": "对传统文化怀旧、对Web技术实现小而美项目感兴趣的普通用户和开发者。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "在线试玩：直接访问 https://zhuzhiliao.imsai.cc。",
+            "离线玩：下载项目 `index.html` 文件，双击用浏览器打开。"
+          ],
+          "note": "手机体感模式需HTTPS或本地文件；局域网可使用 `python3 -m http.server 8123` 体验。"
+        },
+        "competitors": [],
+        "pricing": "完全免费，代码开源。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "项目充满童趣和怀旧情怀，通过Web技术完美复刻传统玩具，并强调了零依赖、长久可玩的理念，极具开发者浪漫主义色彩。技术实现细节也令人惊艳。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue数量较多但关闭率较低，社区响应和活跃度一般。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:47:04.779Z"
+    },
+    {
+      "owner": "x4gKing",
+      "repo": "3x-ui-multi",
+      "fullName": "x4gKing/3x-ui-multi",
+      "description": "",
+      "language": "JavaScript",
+      "topics": [],
+      "license": "Unknown",
+      "createdAt": "2026-08-01T12:34:51Z",
+      "url": "https://github.com/x4gKing/3x-ui-multi",
+      "analysis": {
+        "positioning": "X-UI多国网关，单端口安全部署方案",
+        "useCases": [
+          "你想稳定运行3x-ui并避免端口冲突 → 它通过Nginx单端口反代，解决“地址占用”崩溃问题。",
+          "你需要为Xray提供多国家/地区（基于Tor）接入 → 它提供预配置的隔离栈，简化多国节点部署。",
+          "你希望服务仅对外暴露一个端口 → 它将所有服务（Xray、面板、多国入口）统一到Nginx 3000端口。"
+        ],
+        "audience": "需要部署3x-ui面板，并要求单端口、多国接入及高稳定性的技术用户或系统管理员。",
+        "quickStart": {
+          "prerequisites": "Docker环境，对3x-ui和Nginx配置有基本了解。",
+          "steps": [
+            "基于项目提供的架构部署容器化服务。",
+            "根据需求配置Nginx路由及各国Xray实例。"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "项目解决了X-UI部署中常见的端口冲突痛点，架构设计清晰，易于理解和实现单端口部署。但Issue关闭率为零，表明社区支持或问题解决能力可能需要提升。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度一般，所有已提交Issue均未关闭，响应和解决问题效率有待提高。",
+        "category": "DevOps"
+      },
+      "analyzedAt": "2026-08-04T04:47:23.502Z"
+    },
+    {
+      "owner": "openai",
+      "repo": "ten-proofs",
+      "fullName": "openai/ten-proofs",
+      "description": "Lean certificates accompanying proofs in mathematics and theoretical computer science",
+      "language": "Lean",
+      "topics": [],
+      "license": "Apache-2.0",
+      "createdAt": "2026-08-01T06:10:06Z",
+      "url": "https://github.com/openai/ten-proofs",
+      "analysis": {
+        "positioning": "用Lean 4形式化OpenAI顶尖数学与理论CS成果证明。",
+        "useCases": [
+          "你研究数学/理论CS → 它提供高维球体填充、非sofic群等10个前沿证明的Lean 4形式化版本。",
+          "你进行形式化验证 → 它展示如何用Lean 4对复杂数学定理进行严格的形式化推导和验证。",
+          "你学习Lean 4定理证明器 → 它提供OpenAI出品的、高质量且复杂的前沿数学/CS定理作为学习范例。"
+        ],
+        "audience": "适合研究数学、理论计算机科学的学者，以及进行形式化验证和Lean 4定理证明器学习的开发者与研究者。",
+        "quickStart": {
+          "prerequisites": "Lean 4.32.0, mathlib, Lake, elan (Lean版本管理工具)",
+          "steps": [
+            "确保已安装elan。",
+            "运行 `lake exe cache get` 获取mathlib缓存。",
+            "运行 `lake build All` 构建所有10个形式化证明。"
+          ],
+          "note": "可通过 `lake build 模块名` 构建单个证明，例如 `lake build SpherePacking`。"
+        },
+        "competitors": [
+          {
+            "name": "Coq",
+            "method": "交互式定理证明器，支持依赖类型，广泛用于软件验证和数学。",
+            "models": "N/A (它是工具)",
+            "pricing": "免费"
+          },
+          {
+            "name": "Isabelle/HOL",
+            "method": "通用交互式定理证明器，基于高阶逻辑，在数学、CS和硬件验证中应用广泛。",
+            "models": "N/A (它是工具)",
+            "pricing": "免费"
+          },
+          {
+            "name": "Agda",
+            "method": "依赖类型编程语言/定理证明器，用于构建数学证明和验证程序。",
+            "models": "N/A (它是工具)",
+            "pricing": "免费"
+          }
+        ],
+        "pricing": "免费 (Apache-2.0 许可证)",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "该项目聚焦于使用Lean 4定理证明器形式化OpenAI在数学和理论计算机科学领域的10项尖端研究成果。它面向极小众的数学家、理论计算机科学家和形式化验证专家，需要深厚的领域知识才能理解和贡献，是典型的纯学术、高智力门槛的“vibe coding”项目。",
+        "isVibeCoding": true,
+        "communityActivity": "几乎无社区活跃度，Issue 统计显示尚未有用户开启或关闭问题，更像一个静态的成果发布库。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:47:38.987Z"
+    },
+    {
+      "owner": "MengTo",
+      "repo": "complete-shelf",
+      "fullName": "MengTo/complete-shelf",
+      "description": "An original single-file Three.js library of seven interactive clothbound hardcovers.",
+      "language": "HTML",
+      "topics": [
+        "book-design",
+        "creative-coding",
+        "github-pages",
+        "interactive-design",
+        "threejs",
+        "webgl"
+      ],
+      "license": "Unknown",
+      "createdAt": "2026-08-01T11:47:05Z",
+      "url": "https://github.com/MengTo/complete-shelf",
+      "analysis": {
+        "positioning": "Three.js驱动，单文件交互式3D书架展示库。",
+        "useCases": [
+          "你想展示精美数字藏品或互动内容 → 它提供高度逼真的3D交互式书籍展示方案。",
+          "你想在网页中实现复杂3D交互动画 → 它提供一个单文件、无框架的Three.js实现范例。",
+          "你想用AI Agent快速构建Web UI → 它提供详细的构建Prompt和Agent协作指南。",
+          "你想学习极致细节的网页3D交互设计 → 它展示了物理曲线翻页、精细装帧、响应式视图等实现细节。"
+        ],
+        "audience": "针对Three.js、WebGL和创意编码开发者，以及希望利用AI Agent快速构建复杂Web交互界面的用户。",
+        "quickStart": {
+          "prerequisites": null,
+          "steps": [
+            "直接访问项目提供的[在线演示](https://mengto.github.io/complete-shelf/)体验。",
+            "若要构建或修改，请下载项目，使用`PROMPT.md`文件配合AI Agent直接在`index.html`中进行开发。"
+          ],
+          "note": null
+        },
+        "competitors": [
+          {
+            "name": "OpenAI Codex",
+            "method": "在本地仓库运行、迭代，通过浏览器验证Agent生成内容。",
+            "models": "OpenAI模型（如GPT系列）",
+            "pricing": "通常按API调用付费"
+          },
+          {
+            "name": "Cursor",
+            "method": "在IDE中集成Agent，基于Prompt生成和修改代码。",
+            "models": "支持多种LLM（如GPT-4, Claude 3）",
+            "pricing": "有免费层级，高级功能付费"
+          }
+        ],
+        "pricing": "免费（开源项目，代码可自由使用）。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "极致的视觉表现力、沉浸式交互体验，专注于艺术和美学呈现，而非纯粹功能实现。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度极低，Issue开启/关闭均为0，几乎没有公开互动。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:48:01.735Z"
+    },
+    {
+      "owner": "aigclink",
+      "repo": "geolook",
+      "fullName": "aigclink/geolook",
+      "description": "Open-source end-to-end GEO implementation: status analysis, diagnosis, strategy, tickets, execution, verification",
+      "language": "Python",
+      "topics": [
+        "aeo",
+        "ai-search",
+        "ai-visibility",
+        "answer-engine-optimization",
+        "generative-engine-optimization",
+        "geo",
+        "llm",
+        "self-hosted",
+        "seo",
+        "seo-tools"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-07-29T07:51:43Z",
+      "url": "https://github.com/aigclink/geolook",
+      "analysis": {
+        "positioning": "自托管的生成式引擎优化（GEO）平台",
+        "useCases": [
+          "你发现品牌在AI引擎中曝光低 → 它帮你诊断原因，提升被提及的概率",
+          "你优化AI搜索排名却不知如何下手 → 它帮你生成可执行的优化工单并自动验证效果",
+          "你为客户提供GEO服务 → 它帮你一键生成诊断报告、策略和执行计划"
+        ],
+        "audience": "品牌方、市场营销或SEO专家，旨在提升品牌在AI引擎问答中的曝光率和提及率。",
+        "quickStart": {
+          "prerequisites": "Python 3.9+，macOS/Linux系统，并安装依赖（requests, bs4, lxml）。",
+          "steps": [
+            "克隆aigclink/geolook项目代码库",
+            "安装Python依赖并启动应用服务"
+          ],
+          "note": null
+        },
+        "competitors": [],
+        "pricing": "免费（MIT开源许可，可自托管）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "详细的README清晰定义了新兴的GEO领域问题，并提供了端到端的解决方案。项目提供了实时Demo、视频和截图，方便快速了解。活跃度适中，Issue开闭比良好，技术栈主流，且采用友好的MIT许可。",
+        "isVibeCoding": true,
+        "communityActivity": "社区活跃度适中，Issue开闭比良好（开启3/关闭3），表明问题被及时处理。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:48:22.874Z"
+    },
+    {
+      "owner": "elder-plinius",
+      "repo": "GL4SS",
+      "fullName": "elder-plinius/GL4SS",
+      "description": "the looking glass — spatiotemporal image + video engine",
+      "language": "TypeScript",
+      "topics": [],
+      "license": "AGPL-3.0",
+      "createdAt": "2026-07-31T04:18:54Z",
+      "url": "https://github.com/elder-plinius/GL4SS",
+      "analysis": {
+        "positioning": "时空图像+视频引擎，重现指定地点、年份、时间的历史场景。",
+        "useCases": [
+          "你在历史遗迹前，想了解旧貌 → 它帮你生成该地点、年代、时刻的视觉场景。",
+          "你想沉浸式体验历史事件细节 → 它为你渲染带声音的短片，再现当时情景。",
+          "你渴望虚拟时间旅行，探索不同时空 → 它提供纯前端、无后端的时空漫游体验。"
+        ],
+        "audience": "历史爱好者、教育工作者、创作者以及任何对时空场景探索和重现有兴趣的用户。",
+        "quickStart": {
+          "prerequisites": "现代浏览器，访问GL4SS.ai可能需要一个访问密钥。",
+          "steps": [
+            "访问 GL4SS.ai 网站。",
+            "在地图上选择一个地点，设定你想回顾的年份（公元前2.52亿年至今）、具体日期和时间。",
+            "点击 '拉杆' 生成该时空的图像或短片。"
+          ],
+          "note": "该应用纯前端运行，无需本地安装或配置后端。"
+        },
+        "competitors": [],
+        "pricing": "免费，项目遵循AGPL-3.0开源协议。通过GL4SS.ai访问使用，无需账号或额外费用。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "README大量使用ASCII艺术字、古拉丁语箴言、引人入胜的故事叙述（如普林尼长老的故事），搭配独特徽章和表情符号，风格极其鲜明且富有探索的神秘感。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue活跃度极低（1开/1关），社区互动目前不明显。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:48:42.971Z"
+    },
+    {
+      "owner": "1mm-module",
+      "repo": "PNGAL",
+      "fullName": "1mm-module/PNGAL",
+      "description": "",
+      "language": "Python",
+      "topics": [],
+      "license": "NOASSERTION",
+      "createdAt": "2026-08-01T13:03:29Z",
+      "url": "https://github.com/1mm-module/PNGAL",
+      "analysis": {
+        "positioning": "将PNG/PSD静态立绘转为游戏动画素材的Windows工具。",
+        "useCases": [
+          "你有游戏角色PSD立绘 → 它帮你制作眨眼、口型同步、摇晃等动画。",
+          "你需要游戏角色动画素材 → 它帮你导出WebM/MP4/GIF动画或精灵图。",
+          "你想制作游戏内角色动态交互 → 它帮你将静态图转换为高质量动画素材。"
+        ],
+        "audience": "适合游戏开发者、动画师或个人创作者，在Windows上将现有静态PNG/PSD立绘制作成动态动画素材。",
+        "quickStart": {
+          "prerequisites": "64位Windows 10/11，Chrome/Edge，32GB内存，NVIDIA RTX 3060 12GB或更高显卡，90GB以上空闲硬盘，首次设置需联网。",
+          "steps": [
+            "解压ZIP到任意文件夹",
+            "双击 `setup.bat` 并按提示完成设置",
+            "运行 `start.bat` 启动PNGAL"
+          ],
+          "note": "仅支持Windows系统。"
+        },
+        "competitors": [],
+        "pricing": "免费（本地部署，无明确收费说明）。",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "本地AI驱动的专业动画素材生成工具，整合了ComfyUI、RIFE等AI技术，但以应用形式提供，主要面向内容创作者，而非代码开发者直接扩展。",
+        "isVibeCoding": true,
+        "communityActivity": "Issue区未开启，无社区活跃度数据。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:48:58.135Z"
+    },
+    {
+      "owner": "Anionex",
+      "repo": "codex-vision-proxy",
+      "fullName": "Anionex/codex-vision-proxy",
+      "description": "让纯文本模型在 Codex 中无障碍调用内置看图工具（view_image）的方案，附为纯文本 LLM 设计的视觉工具包&skill ｜  Let text-only models call Codex's built-in view_image seamlessly, plus a vision toolkit&skill designed for text-only LLMs.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "codex",
+        "deepseek",
+        "glm",
+        "kimi",
+        "llm",
+        "multimodal",
+        "text-only-llm",
+        "vision"
+      ],
+      "license": "MIT",
+      "createdAt": "2026-08-01T10:00:13Z",
+      "url": "https://github.com/Anionex/codex-vision-proxy",
+      "analysis": {
+        "positioning": "让纯文本LLM在Codex中无缝“看”图，提升视觉能力。",
+        "useCases": [
+          "你让LLM分析UI截图 → 它能识别UI风格、定位异常字段。",
+          "你让LLM操作电脑GUI → 它能通过视觉定位元素，实现自动化（如玩象棋）。",
+          "你让LLM进行多轮图像问答 → 它能结合上下文，提供任务感知型回答。"
+        ],
+        "audience": "面向希望为纯文本LLM（如DeepSeek V4）在Codex环境或通过独立工具包增加视觉能力的开发者和Agent使用者。",
+        "quickStart": {
+          "prerequisites": "已有Codex环境并连接了纯文本LLM（如DeepSeek V4）。",
+          "steps": [
+            "将codex-vision-proxy集成到Codex环境。",
+            "（可选）安装视觉工具包（如glance/ground CLI）。"
+          ],
+          "note": "如果非Codex环境，可单独安装视觉工具包来与图像交互。"
+        },
+        "competitors": [
+          {
+            "name": "现有多数视觉封装",
+            "method": "将图像转为通用描述，LLM需自行恢复原始任务意图。",
+            "models": "未提及",
+            "pricing": "无法判断"
+          }
+        ],
+        "pricing": "免费",
+        "vibeCodingScore": 4.5,
+        "vibeCodingReason": "创新性地让纯文本LLM能“理解”图像，通过任务意图提示（focus hint）提供上下文感知型视觉描述，而非通用描述，显著提升LLM处理视觉任务的能力。实际效果令人印象深刻。",
+        "isVibeCoding": true,
+        "communityActivity": "开启1个Issue，无关闭，目前活跃度较低，可能项目较新或维护者响应迅速。",
+        "category": "AI Agent"
+      },
+      "analyzedAt": "2026-08-04T04:49:13.292Z"
+    },
+    {
+      "owner": "openai",
+      "repo": "codex-security",
+      "fullName": "openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "language": "TypeScript",
+      "topics": [
+        "ai-security",
+        "application-security",
+        "cli",
+        "code-scanning",
+        "codex",
+        "codex-security",
+        "cybersecurity",
+        "devsecops",
+        "nodejs",
+        "npm",
+        "openai",
+        "sdk",
+        "security",
+        "typescript",
+        "vulnerability-scanning"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-07-13T22:00:13Z",
+      "url": "https://github.com/openai/codex-security",
+      "analysis": {
+        "positioning": "OpenAI出品，AI驱动的代码安全CLI和SDK，自动查找、验证、修复漏洞。",
+        "useCases": [
+          "你编写新代码或迭代现有项目 → 它帮你扫描代码库，自动识别潜在安全漏洞。",
+          "你修改了代码并想评估安全影响 → 它帮你对比前后两次扫描结果，精准识别新增、已解决或重现的漏洞。",
+          "你构建自动化CI/CD安全流程 → 它提供TypeScript SDK，让你将漏洞扫描、验证和修复无缝集成到开发流水线。",
+          "你管理大量代码仓库或需要批量扫描 → 它提供容器化部署方案，支持对多个Git仓库进行非交互式、可恢复的批量安全扫描。"
+        ],
+        "audience": "开发者、DevSecOps工程师和安全团队，用于自动化代码安全扫描、评估和修复，尤其适用于集成到现有开发工作流。",
+        "quickStart": {
+          "prerequisites": "Node.js 22.13.0+ 或更高版本，Python 3.10+，以及Codex Security访问权限（建议Trusted Access账户）。",
+          "steps": [
+            "npm install @openai/codex-security",
+            "npx @openai/codex-security login",
+            "npx @openai/codex-security scan ."
+          ],
+          "note": "支持API Key或ChatGPT账户登录。在CI/CD环境，可通过设置`OPENAI_API_KEY`或`CODEX_API_KEY`环境变量进行认证。"
+        },
+        "competitors": [],
+        "pricing": "付费（基于OpenAI API调用，可能需要特定账户权限，具体费用请参考OpenAI定价政策）",
+        "vibeCodingScore": 3,
+        "vibeCodingReason": "这是一个专注于严肃代码安全问题的专业工具，提供CLI和SDK，目标是生产环境中的漏洞查找和修复，而非实验性或创意性的开发。",
+        "isVibeCoding": false,
+        "communityActivity": "开放Issue数量（123）远高于已关闭Issue（26），可能说明项目活跃但问题解决速度或资源投入有提升空间。",
+        "category": "安全"
+      },
+      "analyzedAt": "2026-08-04T04:49:44.626Z"
+    },
+    {
+      "owner": "AprilNEA",
+      "repo": "OpenLogi",
+      "fullName": "AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "topics": [
+        "dpi",
+        "gpui",
+        "hid",
+        "hidpp",
+        "local-first",
+        "logitech",
+        "logitech-mouse",
+        "logitech-options",
+        "mouse-remapping",
+        "mx-master",
+        "privacy",
+        "rust",
+        "smartshift"
+      ],
+      "license": "Apache-2.0",
+      "createdAt": "2026-05-24T10:10:36Z",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "analysis": {
+        "positioning": "罗技Options+的Rust开源替代，原生、本地优先、无隐私担忧。",
+        "useCases": [
+          "你厌倦罗技Options+的账户登录和隐私侵扰 → 它让你无需账户、无遥测数据，纯本地管理鼠标设置。",
+          "你想深度自定义罗技鼠标功能（按键、DPI、SmartShift） → 它提供原生、高性能的配置界面和更灵活的TOML配置。",
+          "你需要为不同应用设置独立鼠标配置文件 → 它支持按应用切换配置，提升工作效率和游戏体验。"
+        ],
+        "audience": "追求极致隐私、本地控制、高效性能的罗技HID++外设（如MX Master系列）资深用户和开发者。",
+        "quickStart": {
+          "prerequisites": "拥有罗技HID++外设（如MX Master系列鼠标），熟悉基本软件安装。",
+          "steps": [
+            "从GitHub Releases下载对应操作系统的预编译版本。",
+            "运行OpenLogi GUI程序，开始配置你的罗技鼠标。"
+          ],
+          "note": "项目正处于积极开发中，功能和配置仍可能发生变化，建议关注项目更新。"
+        },
+        "competitors": [
+          {
+            "name": "Logitech Options+",
+            "method": "官方专有软件，需账户登录，有遥测数据，部分云服务。",
+            "models": "支持罗技HID++外设。",
+            "pricing": "免费（随设备附带）"
+          }
+        ],
+        "pricing": "免费且开源。",
+        "vibeCodingScore": 5,
+        "vibeCodingReason": "采用Rust构建，追求原生、本地优先、高性能，并坚决抵制账户登录和遥测数据。完美契合注重隐私和技术纯粹性的开发者和极客。",
+        "isVibeCoding": true,
+        "communityActivity": "项目活跃度良好，Issue解决率尚可，但项目处于积极开发中，社区关注度高。",
+        "category": "其他"
+      },
+      "analyzedAt": "2026-08-04T04:50:01.191Z"
     }
   ]
 }
