@@ -1,0 +1,368 @@
+{
+  "version": "1",
+  "date": "2026-08-14",
+  "startedAt": "2026-08-14T03:40:22.942Z",
+  "finishedAt": "2026-08-14T03:43:14.094Z",
+  "durationSeconds": 171,
+  "success": true,
+  "stats": {
+    "fetched": 109,
+    "newProjects": 0,
+    "skipped": 109,
+    "geminiCalls": 39,
+    "statsUpdated": 109
+  },
+  "errors": [
+    {
+      "time": "2026-08-14T03:40:25.490Z",
+      "level": "warn",
+      "project": "flickzoz/mcp-guard",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:28.779Z",
+      "level": "warn",
+      "project": "emailhayday10-coder/agent-doctor",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:31.989Z",
+      "level": "warn",
+      "project": "alchaincyf/deepseek-harness-orange-book",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:35.297Z",
+      "level": "warn",
+      "project": "marcus-deng98z7/adopt-me-script-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:38.592Z",
+      "level": "warn",
+      "project": "oscar-soncode2092y0/adopt-me-free-script-2026",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:41.845Z",
+      "level": "warn",
+      "project": "deepseek-ai/deepseek-harness",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:44.875Z",
+      "level": "warn",
+      "project": "guillaumemeyer/watermarks-remover",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:47.836Z",
+      "level": "warn",
+      "project": "antirez/h3.c",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:50.900Z",
+      "level": "warn",
+      "project": "SMNETSTUDIO/WeChat-AI",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:54.179Z",
+      "level": "warn",
+      "project": "xoreaxeaxeax/skitter-creek-bath-salts",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:40:57.387Z",
+      "level": "warn",
+      "project": "Leutenegger/book-to-skill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:00.489Z",
+      "level": "warn",
+      "project": "gvzdv/claudish-to-english",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:03.707Z",
+      "level": "warn",
+      "project": "SaladDay/pi-from-scratch",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:06.812Z",
+      "level": "warn",
+      "project": "MengTo/kage",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:09.996Z",
+      "level": "warn",
+      "project": "zhu1090093659/dsh-web-ui",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:13.263Z",
+      "level": "warn",
+      "project": "cordiverse/paper",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:16.188Z",
+      "level": "warn",
+      "project": "sohaibdevv/youtube-music",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:19.277Z",
+      "level": "warn",
+      "project": "milind-soni/OpenMausBot",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:22.343Z",
+      "level": "warn",
+      "project": "shadcn-ui/chatbot-template",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:25.444Z",
+      "level": "warn",
+      "project": "dmmulroy/anti-slop",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:28.519Z",
+      "level": "warn",
+      "project": "Hisn00w/ASu-skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:31.601Z",
+      "level": "warn",
+      "project": "MSNightmare/ShieldBreak",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:34.646Z",
+      "level": "warn",
+      "project": "Appllama/top-welcome-screens",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:37.909Z",
+      "level": "warn",
+      "project": "ccch1mneyyy/dsh-TUI",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:40.939Z",
+      "level": "warn",
+      "project": "ayi-ai/nie-grassroots-logic",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:43.926Z",
+      "level": "warn",
+      "project": "0xnyn/airship",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:47.209Z",
+      "level": "warn",
+      "project": "shadcn-labs/pdfcn",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:50.271Z",
+      "level": "warn",
+      "project": "Kylin010/tcpfit",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:53.556Z",
+      "level": "warn",
+      "project": "i3T4AN/KADATH",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:56.570Z",
+      "level": "warn",
+      "project": "liyue-aigc/xianxia-visual-director",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:41:59.672Z",
+      "level": "warn",
+      "project": "MengMengCode/VoCat",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:42:02.938Z",
+      "level": "warn",
+      "project": "RadishXN/run-abroad",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:42:06.210Z",
+      "level": "warn",
+      "project": "frs0n/GestaltEdit",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:42:09.497Z",
+      "level": "warn",
+      "project": "gfodor/legal-skills",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:42:12.499Z",
+      "level": "warn",
+      "project": "JayJokerr/arknights-pixel-autofill",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:42:21.681Z",
+      "level": "warn",
+      "project": "firecrawl/anydoc",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:42:33.160Z",
+      "level": "warn",
+      "project": "lidge-jun/opencodex",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:42:43.471Z",
+      "level": "warn",
+      "project": "makerspet/oomwoo",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    },
+    {
+      "time": "2026-08-14T03:43:11.352Z",
+      "level": "warn",
+      "project": "firecrawl/firecrawl",
+      "stage": "gemini_call",
+      "message": "Gemini 解读失败或校验不通过",
+      "retries": 0,
+      "skipped": true
+    }
+  ]
+}
